@@ -1,0 +1,173 @@
+let game = {
+  teams: [
+    {
+      name: "Team 1",
+      points: 0,
+      mistakes:0
+    },
+    {
+      name: "Team 2",
+      points: 0,
+      mistakes:0
+    }
+  ],
+  title: true,
+  is_final_round: false,
+  round: 0,
+  rounds: [
+    {
+      question: 'What is the worst gift you could give your significant other?',
+      answers: [
+        {ans:'socks', pnt:16, trig: false},
+        {ans:'divorce',pnt: 15,trig: false},
+        {ans:'nothing',pnt: 13,trig: false},
+        {ans:'vacuum',pnt: 11,trig: false},
+        {ans:'std',pnt: 8,trig: false},
+        {ans:'coal',pnt: 7,trig: false},
+        {ans:'gym membership',pnt: 7,trig: false},
+        {ans:'gift card',pnt: 5,trig: false},
+        {ans:'underwear',pnt: 3,trig: false},
+      ],
+      multiply: 1
+    },
+    {
+      question:'Name a clothing item you would find in Santas closet.', 
+      answers: [
+        {ans:"hat",pnt: 27,trig: false},
+        {ans:"boots",pnt: 15,trig: false},
+        {ans:"belt",pnt: 11,trig: false},
+        {ans:"red suit",pnt: 10,trig: false},
+        {ans:"red pants",pnt: 9,trig: false},
+        {ans:"socks",pnt: 6,trig: false},
+        {ans:"suspenders",pnt: 5,trig: false},
+        {ans:"scarf / longjohns",pnt: 2 ,trig: false},
+      ],
+      multiply: 1
+    },
+    {
+      question: 'Name something commonly hung on a Christmas tree.',
+      answers:  [
+        {ans:"ornaments",pnt: 37,trig: false},
+        {ans:"candy cane",pnt: 20,trig: false},
+        {ans:"lights",pnt: 19,trig: false},
+        {ans:"tinsel",pnt: 14,trig: false},
+        {ans:"star",pnt: 12,trig: false},
+        {ans:"garland",pnt: 4,trig: false},
+        {ans:"angel",pnt: 3,trig: false},
+        {ans:"popcorn strings",pnt: 2,trig: false}
+      ],
+      multiply: 1
+    },
+    {
+      question: 'Name a popular winter beverage.',
+      answers: [
+        {ans:"egg nog",pnt: 62,trig: false},
+        {ans:"hot chocolate",pnt: 30,trig: false},,
+        {ans:"cider",pnt: 14,trig: false},
+        {ans:"mulled wine",pnt: 10,trig: false},
+        {ans:"wine",pnt: 3,trig: false},
+        {ans:"coffee / rum",pnt: 2,trig: false},
+      ],
+      multiply: 2
+    },
+    {
+      question:'Name something people do the day after Christmas.',
+      answers: [
+        {ans:"sleep / relax",pnt: 39,trig: false},
+        {ans:"shop / find sales",pnt: 23,trig: false},
+        {ans:"return gifts",pnt: 14,trig: false},
+        {ans:"eat",pnt: 11,trig: false},
+        {ans:"watch movies / tv",pnt: 10,trig: false},
+        {ans:"clean",pnt: 7,trig: false},
+        {ans:"play with new stuff",pnt: 6,trig: false},
+        {ans:"go for a walk / work",pnt: 5 ,trig: false},
+      ],
+      multiply: 2
+    },
+    {
+      question: 'Name a Christmas song many people probably find irritating?',
+      answers: [
+        {ans:"jingle bells",pnt: 17,trig: false},
+        {ans:"All I want for Xmas is You",pnt: 14,trig: false},
+        {ans:"Grandma Got Run Over by a Reindeer",pnt: 11,trig: false},
+        {ans:"12 days of Christmas",pnt: 10,trig: false},
+        {ans:"Last Christmas",pnt: 6,trig: false},
+        {ans:"Rudolph",pnt: 5,trig: false},
+        {ans:"Alvin and the Chipmunks,pnt: Baby it's cold outside, I want a Hippopotamus for Christmas",pnt: 4,trig: false}
+      ],
+      multiply: 2
+    },
+
+  ],
+  final_round:[
+    {
+      question:  'What is a Christmas song that most everyone knows?' ,
+      answers: [
+        ["Jingle Bells", 51],
+        ["Rudolph", 12],
+        ["Silent Night", 18],
+        ["Wish You A Merry Xmas", 7],
+        ["White Xmas", 6],
+        ["Fairy Tale of NY", 4],
+        ["Frosty the Snowman / 12 day of Christmas", 3 ]
+      ],
+      selection: 0,
+      input: "",
+      wrong: false,
+      submitted: true
+    },
+    {
+      question:  'Other than Santa, name an inhabitant of the North Pole.' ,
+      answers: [
+        ["Mrs. Claus", 43],
+        ["Elves", 42],
+        ["polar bear", 16],
+        ["reindeer / Rudolph", 12],
+        ["penguin", 7],
+        ["Frosty the Snowman / Yeti", 3],
+      ],
+      selection: 0,
+      input: "",
+      wrong: false,
+      submitted: true
+
+    },
+    {
+      question:   'Name one of Santa\'s reindeer',
+      answers:
+      [
+        ["Rudolph", 38],
+        ["Dasher", 29],
+        ["Blitzen", 22],
+        ["Vixen", 12],
+        ["Prancer", 7],
+        ["Donder", 6],
+        ["Dancer", 3] ,
+        ["Comet", 2],
+        ["Cupid", 1],
+      ],
+      selection: 0,
+      input: "",
+      wrong: false,
+      submitted: true
+    },
+    {
+      question:  'Aside from family, name someone else you\'d buy a present for?' ,
+      answers:
+      [
+        ["friend", 48],
+        ["significant other", 25],
+        ["boss/coworker", 18],
+        ["pet", 11],
+        ["teacher", 4],
+        ["neighbor", 3],
+      ],
+      selection: 0,
+      input: "",
+      wrong: false,
+      submitted: true
+    },
+  ],
+  final_round_timers: [60,80]
+}
+module.exports = {game};
