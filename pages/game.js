@@ -5,6 +5,7 @@ import Final from '../components/final'
 
 export default function Game(props){
   const [game, setGame] = useState({})
+  let mistakes 
   useEffect(() => {
     var ws = new WebSocket('ws://localhost:8080');
     ws.onopen = function() {
@@ -19,8 +20,25 @@ export default function Game(props){
       } else if(json.action === "data"){
         setGame(json.data)
       } else if(json.action === "mistake"){
-        console.log("BRRRRRRR", json.data)
+        mistakes = <h1>X</h1>
+        var audio = new Audio('wrong.mp3');
+        audio.play();
+      } else if(json.action === "reveal"){
+        var audio = new Audio('good-answer.mp3');
+        audio.play();
+      }else if(json.action === "final_reveal"){
+        var audio = new Audio('fm-answer-reveal.mp3');
+        audio.play();
+      }else if(json.action === "final_submit"){
+        var audio = new Audio('good-answer.mp3');
+        audio.play();
+      }else if(json.action === "final_wrong"){
+        var audio = new Audio('try-again.mp3');
+        audio.play();
       }
+
+
+
     };
 
   }, [])
@@ -38,6 +56,7 @@ export default function Game(props){
 
   return (
     <div>
+      {mistakes}
       {gameSession}
     </div>
   )

@@ -28,13 +28,17 @@ export default function Final(props){
       {props.game.is_final_second?
         <div>
           <h2>Fast Money Final Round pt2</h2>
-          <div>
-            {props.game.gameCopy.map(copy => 
+          {props.game.hide_first_round? 
+            <p>First Round Hidden</p>:
             <div>
-              <p>{ copy.input } {copy.points}</p>
+              {props.game.gameCopy.map(copy => 
+              <div>
+                <p>{ copy.input } {copy.points}</p>
+              </div>
+              )}
             </div>
-            )}
-          </div>
+
+          }
 
           <div>
             {props.game.final_round.map(x => 
@@ -64,7 +68,7 @@ export default function Final(props){
           <h2>Fast Money Final Round</h2>
           {props.game.final_round.map(x => 
           <div>
-            <p>{ x.input } {x.points}</p>
+              {x.revealed? <p>{ x.input } {x.points}</p>:null }
           </div>
           )}
           <div>

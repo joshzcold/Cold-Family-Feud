@@ -14,6 +14,7 @@ let game = {
   title: true,
   is_final_round: false,
   is_final_second: false,
+  hide_first_round: true,
   round: 0,
   rounds: [
     {
@@ -115,7 +116,7 @@ let game = {
       selection: 0,
       points: "",
       input: "",
-      submitted: false
+      revealed: false
     },
     {
       question:  'Other than Santa, name an inhabitant of the North Pole.' ,
@@ -130,7 +131,7 @@ let game = {
       selection: 0,
       points: "",
       input: "",
-      submitted: false
+      revealed: false
 
     },
     {
@@ -150,7 +151,7 @@ let game = {
       selection: 0,
       points: "",
       input: "",
-      submitted: false
+      revealed: false
     },
     {
       question:  'Aside from family, name someone else you\'d buy a present for?' ,
@@ -166,7 +167,7 @@ let game = {
       selection: 0,
       points: "",
       input: "",
-      submitted: true
+      revealed: false
     },
   ],
   final_round_timers: [60,80]

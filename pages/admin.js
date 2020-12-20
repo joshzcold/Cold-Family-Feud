@@ -140,6 +140,13 @@ export default function Admin(props){
             ws.current.send(JSON.stringify({action: "mistake", data: game.teams[1].mistake}))
           }}>Team 2: {game.teams[1].name} mistake</button>
         </div>
+        <div>
+          <h3>Title Music </h3>
+          <audio controls>
+            <source src="title.mp3" type="audio/mpeg"/>
+            Your browser does not support .mp3
+          </audio>
+        </div>
 
         {!game.is_final_round?
           <div>
@@ -160,6 +167,7 @@ export default function Admin(props){
 
                   if(x.trig){
                     setPointTracker(point_tracker + x.pnt * current_round.multiply)
+                    ws.current.send(JSON.stringify({action: "reveal"}))
                   }else{
                     setPointTracker(point_tracker - x.pnt * current_round.multiply)
                   }
@@ -183,7 +191,6 @@ export default function Admin(props){
                 <input placeholder="answer" onChange={(e) => {
                   x.input = e.target.value
                   setGame(prv => ({ ...prv }))
-                  ws.current.send(JSON.stringify({action: "data", data: game}))
                 }}/>
                 <select onChange={(e) => {
                   x.selection = parseInt(e.target.value)
@@ -197,12 +204,22 @@ export default function Admin(props){
                   x.points = 0
                   setGame(prv => ({ ...prv }))
                   ws.current.send(JSON.stringify({action: "data", data: game}))
+                  ws.current.send(JSON.stringify({action: "final_wrong"}))
                 }}>wrong</button>
+
+                <button onClick={() => {
+                  x.revealed = true
+                  setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
+                  ws.current.send(JSON.stringify({action: "final_reveal"}))
+                }}>reveal answer</button>
+
 
                 <button onClick={() => {
                   x.points = x.answers[x.selection][1]
                   setGame(prv => ({ ...prv }))
                   ws.current.send(JSON.stringify({action: "data", data: game}))
+                  ws.current.send(JSON.stringify({action: "final_submit"}))
                 }}>submit</button>
               </div>
               )}
@@ -217,6 +234,20 @@ export default function Admin(props){
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>Start Final Round 2</button>
+
+              {game.hide_first_round?
+                <button onClick={() => {
+                  game.hide_first_round = false
+                  setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
+                }}>Reveal First Round Answers</button>
+                :
+                <button onClick={() => {
+                  game.hide_first_round = true
+                  setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
+                }}>Hide First Round Answers</button>
+              }
             </div>
           </div>
         }
