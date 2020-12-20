@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
+
+// TODO css on all admin controls
 export default function Admin(props){
   const [game, setGame] = useState({})
   const ws = useRef(null)

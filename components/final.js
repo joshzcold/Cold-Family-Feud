@@ -2,6 +2,7 @@ import "tailwindcss/tailwind.css";
 
 let gameCopy
 
+// TODO better looking final round
 export default function Final(props){
 
   let round_one_total = 0

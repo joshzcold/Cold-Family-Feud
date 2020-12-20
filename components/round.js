@@ -26,6 +26,7 @@ export default function Round(props){
           </div>
         )}
       </div>
+      {/* TODO mistakes need formatting */}
       <div class="text-3xl flex flex-row px-6 text-center">
         <div class="flex-grow">
           <p class="pb-5">{props.game.teams[0].name}: {props.game.teams[0].points} </p>
