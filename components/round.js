@@ -11,6 +11,9 @@ export default function Round(props){
         <div class="rounded-lg border-4 w-max p-4 mt-10 mb-10 inline-block">
           <p class="text-7xl">{props.game.point_tracker}</p>
         </div>
+          {round.multiply > 1?
+            <p class="text-2xl">x{round.multiply}</p>:null
+          }
       </div>
 
       <div class="rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mb-10 mt-5 gap-3 bg-black">

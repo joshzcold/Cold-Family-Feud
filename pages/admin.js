@@ -120,13 +120,13 @@ export default function Admin(props){
           }}>final round</button>
 
             <button class="border-4 bg-green-200 rounded-lg p-2" onClick={() =>{
-              game.teams[0].points=game.point_tracker
+              game.teams[0].points=game.point_tracker + game.teams[0].points
               game.point_tracker = 0
               setGame(prv => ({ ...prv }))
               ws.current.send(JSON.stringify({action: "data", data: game}))
             }}>Team 1: {game.teams[0].name} gets points</button>
             <button class="border-4 bg-green-200 rounded-lg p-2" onClick={() =>{
-              game.teams[1].points=game.point_tracker
+              game.teams[1].points=game.point_tracker + game.teams[1].points
               game.point_tracker = 0
               setGame(prv => ({ ...prv }))
               ws.current.send(JSON.stringify({action: "data", data: game}))
