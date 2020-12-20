@@ -25,8 +25,6 @@ export default function Game(props){
 
   }, [])
 
-  console.log(game)
-
   if(game.teams != null){
    
   let gameSession

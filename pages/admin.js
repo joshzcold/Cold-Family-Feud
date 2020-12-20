@@ -211,7 +211,7 @@ export default function Admin(props){
                 game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
                 game.final_round.forEach(rnd => {
                   rnd.selection = 0
-                  rnd.points = ""
+                  rnd.points = 0
                   rnd.input = ""
                 })
                 setGame(prv => ({ ...prv }))
