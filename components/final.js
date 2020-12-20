@@ -114,7 +114,6 @@ export default function Final(props){
           :
           <div class="inline-block flex-grow">
             <p class='text-3xl'>Final Score: {final_score}</p>
-            <p class='text-5xl mt-10 text-red-800'>TOO BAD!</p>
           </div>
         }
       </div>
