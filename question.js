@@ -13,6 +13,7 @@ let game = {
   ],
   title: true,
   is_final_round: false,
+  is_final_second: false,
   round: 0,
   rounds: [
     {
@@ -62,7 +63,7 @@ let game = {
       question: 'Name a popular winter beverage.',
       answers: [
         {ans:"egg nog",pnt: 62,trig: false},
-        {ans:"hot chocolate",pnt: 30,trig: false},,
+        {ans:"hot chocolate",pnt: 30,trig: false},
         {ans:"cider",pnt: 14,trig: false},
         {ans:"mulled wine",pnt: 10,trig: false},
         {ans:"wine",pnt: 3,trig: false},
@@ -112,9 +113,9 @@ let game = {
         ["Frosty the Snowman / 12 day of Christmas", 3 ]
       ],
       selection: 0,
+      points: "",
       input: "",
-      wrong: false,
-      submitted: true
+      submitted: false
     },
     {
       question:  'Other than Santa, name an inhabitant of the North Pole.' ,
@@ -127,9 +128,9 @@ let game = {
         ["Frosty the Snowman / Yeti", 3],
       ],
       selection: 0,
+      points: "",
       input: "",
-      wrong: false,
-      submitted: true
+      submitted: false
 
     },
     {
@@ -147,9 +148,9 @@ let game = {
         ["Cupid", 1],
       ],
       selection: 0,
+      points: "",
       input: "",
-      wrong: false,
-      submitted: true
+      submitted: false
     },
     {
       question:  'Aside from family, name someone else you\'d buy a present for?' ,
@@ -163,8 +164,8 @@ let game = {
         ["neighbor", 3],
       ],
       selection: 0,
+      points: "",
       input: "",
-      wrong: false,
       submitted: true
     },
   ],

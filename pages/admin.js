@@ -12,8 +12,12 @@ export default function Admin(props){
 
     ws.current.onmessage = function (evt) { 
       var received_msg = evt.data;
-      console.log("server update in admin.js");
-      setGame(JSON.parse(received_msg))
+      let json = JSON.parse(received_msg)
+      if(json.action == null ){
+        setGame(json)
+      } else if(json.action === "data"){
+        setGame(json.data)
+      }
     };
 
   }, [])
@@ -31,6 +35,7 @@ export default function Admin(props){
     }
 
     let current_round = game.rounds[game.round]
+    console.log(current_round)
     return (
       <div >
         <h2> Current Screen: {current_screen}</h2>
@@ -42,7 +47,7 @@ export default function Admin(props){
             <input onChange={(e)=>{
               game.teams[0].name = e.target.value
               setGame(prv => ({ ...prv }));
-              ws.current.send(JSON.stringify(game))
+              ws.current.send(JSON.stringify({action: "data", data: game}))
             }} placeholder={game.teams[0].name}></input>
           </div>
           <div>
@@ -50,9 +55,90 @@ export default function Admin(props){
             <input onChange={(e)=>{
               game.teams[1].name = e.target.value
               setGame(prv => ({ ...prv }));
-              ws.current.send(JSON.stringify(game))
+              ws.current.send(JSON.stringify({action: "data", data: game}))
               ;}} placeholder={game.teams[1].name}></input>
           </div>
+        </div>
+        <div>
+          <h2>Controls</h2>
+
+          <button onClick={() => {
+            setPointTracker(0)
+            game.title = false
+            game.is_final_round = false
+            game.is_final_second = false
+            game.round = 0
+            setGame(prv => ({
+              ...prv
+            }))
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+          }}>start round 1</button>
+
+          <button onClick={() => {
+            game.title = false
+            setPointTracker(0)
+            if(game.round < game.rounds.length -1){
+              game.round = game.round + 1
+            }
+            setGame(prv => ({ ...prv }))
+            console.log(game.round)
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+          }}>next round</button>
+
+          <select  value={game.round} onChange={(e) => {
+            game.round = parseInt(e.target.value)
+            game.is_final_round = false
+            game.is_final_second = false
+            game.title =false
+            setPointTracker(0)
+            setGame(prv => ({ ...prv }))
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+          }}>
+            {game.rounds.map(( key, index ) =>
+            <option value={index}>Round {index +1}</option>)}
+          </select>
+          <button onClick={() => {
+            game.title = true
+            setGame(prv => ({ ...prv }))
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+          }}>title card</button>
+
+          <button onClick={() => {
+            setPointTracker(0)
+            game.title = false
+            game.is_final_round = true
+            setGame(prv => ({ ...prv }))
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+          }}>final round</button>
+
+          <div>
+            <button onClick={() =>{
+              game.teams[0].points=point_tracker
+              setPointTracker(0)
+              setGame(prv => ({ ...prv }))
+              ws.current.send(JSON.stringify({action: "data", data: game}))
+            }}>Team 1: {game.teams[0].name} gets points</button>
+            <button onClick={() =>{
+              game.teams[1].points=point_tracker
+              setPointTracker(0)
+              setGame(prv => ({ ...prv }))
+              ws.current.send(JSON.stringify({action: "data", data: game}))
+            }}>Team 2: {game.teams[1].name} gets points</button>
+          </div>
+        </div>
+        <div>
+          <button onClick={() =>{
+            game.teams[0].mistake++
+            setGame(prv => ({ ...prv }))
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+            ws.current.send(JSON.stringify({action: "mistake", data: game.teams[0].mistake}))
+          }}>Team 1: {game.teams[0].name} mistake</button>
+          <button onClick={() =>{
+            game.teams[1].mistake++
+            setGame(prv => ({ ...prv }))
+            ws.current.send(JSON.stringify({action: "data", data: game}))
+            ws.current.send(JSON.stringify({action: "mistake", data: game.teams[1].mistake}))
+          }}>Team 2: {game.teams[1].name} mistake</button>
         </div>
 
         {!game.is_final_round?
@@ -69,6 +155,9 @@ export default function Admin(props){
               <div>
                 <button onClick={() => {
                   x.trig = !x.trig
+                  setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
+
                   if(x.trig){
                     setPointTracker(point_tracker + x.pnt * current_round.multiply)
                   }else{
@@ -83,72 +172,6 @@ export default function Admin(props){
               </div>
               )}
             </div>
-            <div>
-              <h2>Controls</h2>
-
-              <button onClick={() => {
-                setPointTracker(0)
-                setGame(prv => ({
-                  ...prv, title: false,
-                  is_final_round: false,
-                  round: 0
-                }))
-              }}>start round 1</button>
-
-              <button onClick={() => {
-                game.title = false
-                setPointTracker(0)
-                if(game.round < game.rounds.length -1){
-                  game.round = game.round + 1
-                }
-                setGame(prv => ({ ...prv }))
-              }}>next round</button>
-
-              <select  value={game.round} onChange={(e) => {
-                game.round = parseInt(e.target.value)
-                game.is_final_round = false
-                game.title =false
-                setPointTracker(0)
-                setGame(prv => ({ ...prv }))
-              }}>
-                {game.rounds.map(( key, index ) =>
-                <option value={index}>Round {index +1}</option>)}
-              </select>
-              <button onClick={() => {
-                game.title = true
-                setGame(prv => ({ ...prv }))
-              }}>title card</button>
-
-              <button onClick={() => {
-                setPointTracker(0)
-                game.title = false
-                game.is_final_round = true
-                setGame(prv => ({ ...prv }))
-              }}>final round</button>
-
-              <div>
-                <button onClick={() =>{
-                  game.teams[0].points=point_tracker
-                  setPointTracker(0)
-                  setGame(prv => ({ ...prv }))
-                }}>Team 1: {game.teams[0].name} gets points</button>
-                <button onClick={() =>{
-                  game.teams[1].points=point_tracker
-                  setPointTracker(0)
-                  setGame(prv => ({ ...prv }))
-                }}>Team 2: {game.teams[1].name} gets points</button>
-              </div>
-            </div>
-          <div>
-            <button onClick={() =>{
-              game.teams[0].mistake++
-              setGame(prv => ({ ...prv }))
-            }}>Team 1: {game.teams[0].name} mistake</button>
-            <button onClick={() =>{
-              game.teams[1].mistake++
-              setGame(prv => ({ ...prv }))
-            }}>Team 2: {game.teams[1].name} mistake</button>
-          </div>
           </div>
           :
           <div>
@@ -160,25 +183,40 @@ export default function Admin(props){
                 <input placeholder="answer" onChange={(e) => {
                   x.input = e.target.value
                   setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
                 }}/>
                 <select onChange={(e) => {
                   x.selection = parseInt(e.target.value)
                   setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
                 }}>
                   {x.answers.map((key, index) => <option value={index}>
                     {x.answers[index][0]} {x.answers[index][1]}</option>)}
                 </select>
                 <button onClick={() => {
-                  x.wrong = !x.wrong
+                  x.points = 0
                   setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
                 }}>wrong</button>
 
                 <button onClick={() => {
-                  x.submitted =  !x.submitted
+                  x.points = x.answers[x.selection][1]
                   setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
                 }}>submit</button>
               </div>
               )}
+              <button onClick={() => {
+                game.is_final_second = true
+                game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
+                game.final_round.forEach(rnd => {
+                  rnd.selection = 0
+                  rnd.points = ""
+                  rnd.input = ""
+                })
+                setGame(prv => ({ ...prv }))
+                ws.current.send(JSON.stringify({action: "data", data: game}))
+              }}>Start Final Round 2</button>
             </div>
           </div>
         }
@@ -193,7 +231,7 @@ export default function Admin(props){
   } else {
     return(
       <div>
-       <p>Loading ... </p>
+        <p>Loading ... </p>
       </div>
     )
   }
