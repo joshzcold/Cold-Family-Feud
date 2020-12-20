@@ -195,7 +195,7 @@ export default function Admin(props){
           <div>
             <div>
               <div class="flex py-5 items-center flex-row space-x-5">
-                <h2 class="text-2xl">Final Round </h2>
+                <h2 class="text-2xl px-5">Final Round </h2>
                 <button class="border-4 rounded-lg p-2" onClick={() => {
                   game.is_final_second = true
                   game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
@@ -225,7 +225,7 @@ export default function Admin(props){
               </div>
 
               {game.final_round.map(x =>
-              <div>
+              <div class="px-5">
                 <p class="text-xl pb-1">{x.question}</p>
                 <div class="flex flex-row space-x-10 pb-7">
                   <input class="border-4 rounded" placeholder="answer" onChange={(e) => {

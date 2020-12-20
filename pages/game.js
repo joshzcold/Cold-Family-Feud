@@ -46,7 +46,7 @@ export default function Game(props){
    
   let gameSession
   if(game.title){
-    gameSession = <Title/>
+    gameSession = <Title game={game}/>
   } else if (game.is_final_round){
     gameSession = <Final game={game}/>
   }else{

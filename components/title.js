@@ -6,9 +6,9 @@ export default function Title(props){
 
   useEffect(() => {
     setTimeout(setTitleSize("80%"), 2000)
-    
+
   }, [])
-  
+
 
   return (
     <div class="bg-gradient-to-t  items-center justify-center from-blue-500 flex via-blue-300 to-blue-500  min-h-screen">
@@ -16,8 +16,12 @@ export default function Title(props){
         width: titleSize,
         transition: "width 2s",
 
-        }}  class="align-middle inline-block ">
+      }}  class="align-middle inline-block ">
         <img src="title.png"/>
+        <div class="flex flex-row text-center py-20">
+          <p class="text-4xl flex-grow text-white"> {props.game.teams[0].name}</p>
+          <p class="text-4xl flex-grow text-white"> {props.game.teams[1].name}</p>
+        </div>
       </div>
     </div>
   )
