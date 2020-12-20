@@ -36,11 +36,7 @@ export default function Game(props){
         var audio = new Audio('try-again.mp3');
         audio.play();
       }
-
-
-
     };
-
   }, [])
 
   if(game.teams != null){

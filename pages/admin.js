@@ -128,13 +128,13 @@ export default function Admin(props){
         </div>
         <div>
           <button onClick={() =>{
-            game.teams[0].mistake++
+            game.teams[0].mistakes++
             setGame(prv => ({ ...prv }))
             ws.current.send(JSON.stringify({action: "data", data: game}))
             ws.current.send(JSON.stringify({action: "mistake", data: game.teams[0].mistake}))
           }}>Team 1: {game.teams[0].name} mistake</button>
           <button onClick={() =>{
-            game.teams[1].mistake++
+            game.teams[1].mistakes++
             setGame(prv => ({ ...prv }))
             ws.current.send(JSON.stringify({action: "data", data: game}))
             ws.current.send(JSON.stringify({action: "mistake", data: game.teams[1].mistake}))
