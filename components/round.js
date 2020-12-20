@@ -26,15 +26,18 @@ export default function Round(props){
           </div>
         )}
       </div>
-      {/* TODO mistakes need formatting */}
-      <div class="text-3xl flex flex-row px-6 text-center">
+      <div class="text-3xl flex  px-6 text-center">
         <div class="flex-grow">
           <p class="pb-5">{props.game.teams[0].name}: {props.game.teams[0].points} </p>
-          <div>{Array(props.game.teams[0].mistakes).fill(<p>X</p>)}</div>
+          <div class="flex justify-center flex-row text-center">
+            {Array(props.game.teams[0].mistakes).fill(<p>X</p>)}
+          </div>
         </div>
         <div class="flex-grow">
           <p class="pb-5">{props.game.teams[1].name}: {props.game.teams[1].points}</p>
-          <div class="">{Array(props.game.teams[1].mistakes).fill(<p>X</p>)}</div>
+          <div class="flex justify-center text-center flex-row flex-grow">
+            {Array(props.game.teams[1].mistakes).fill(<p>X</p>)}
+          </div>
         </div>
       </div>
     </div>
