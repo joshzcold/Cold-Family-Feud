@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 
 export default function Admin(props){
   const [game, setGame] = useState({})
-  const [point_tracker, setPointTracker] = useState(0)
   const ws = useRef(null)
   useEffect(() => {
     ws.current = new WebSocket('ws://localhost:8080');
@@ -63,7 +62,7 @@ export default function Admin(props){
           <h2>Controls</h2>
 
           <button onClick={() => {
-            setPointTracker(0)
+            game.point_tracker = 0
             game.title = false
             game.is_final_round = false
             game.is_final_second = false
@@ -76,7 +75,7 @@ export default function Admin(props){
 
           <button onClick={() => {
             game.title = false
-            setPointTracker(0)
+            game.point_tracker = 0
             if(game.round < game.rounds.length -1){
               game.round = game.round + 1
             }
@@ -90,7 +89,7 @@ export default function Admin(props){
             game.is_final_round = false
             game.is_final_second = false
             game.title =false
-            setPointTracker(0)
+            game.point_tracker = 0
             setGame(prv => ({ ...prv }))
             ws.current.send(JSON.stringify({action: "data", data: game}))
           }}>
@@ -104,7 +103,7 @@ export default function Admin(props){
           }}>title card</button>
 
           <button onClick={() => {
-            setPointTracker(0)
+            game.point_tracker = 0
             game.title = false
             game.is_final_round = true
             setGame(prv => ({ ...prv }))
@@ -113,14 +112,14 @@ export default function Admin(props){
 
           <div>
             <button onClick={() =>{
-              game.teams[0].points=point_tracker
-              setPointTracker(0)
+              game.teams[0].points=game.point_tracker
+              game.point_tracker = 0
               setGame(prv => ({ ...prv }))
               ws.current.send(JSON.stringify({action: "data", data: game}))
             }}>Team 1: {game.teams[0].name} gets points</button>
             <button onClick={() =>{
-              game.teams[1].points=point_tracker
-              setPointTracker(0)
+              game.teams[1].points=game.point_tracker
+              game.point_tracker = 0
               setGame(prv => ({ ...prv }))
               ws.current.send(JSON.stringify({action: "data", data: game}))
             }}>Team 2: {game.teams[1].name} gets points</button>
@@ -155,7 +154,7 @@ export default function Admin(props){
               <h3> Question:</h3>
               <p>{current_round.question}</p>
               <h3>Multiplier {current_round.multiply}x</h3>
-              <h3>Point Tracker: {point_tracker}</h3>
+              <h3>Point Tracker: {game.point_tracker}</h3>
             </div>
             <div>
               {current_round.answers.map(x => 
@@ -163,14 +162,16 @@ export default function Admin(props){
                 <button onClick={() => {
                   x.trig = !x.trig
                   setGame(prv => ({ ...prv }))
-                  ws.current.send(JSON.stringify({action: "data", data: game}))
 
                   if(x.trig){
-                    setPointTracker(point_tracker + x.pnt * current_round.multiply)
+                    game.point_tracker = game.point_tracker + x.pnt * current_round.multiply
+                    setGame(prv => ({ ...prv }))
                     ws.current.send(JSON.stringify({action: "reveal"}))
                   }else{
-                    setPointTracker(point_tracker - x.pnt * current_round.multiply)
+                    game.point_tracker = game.point_tracker - x.pnt * current_round.multiply
+                    setGame(prv => ({ ...prv }))
                   }
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
                 }}>
                   {x.ans} {x.pnt}
                   {x.trig?

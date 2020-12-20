@@ -13,7 +13,6 @@ export default function Home(){
       </Head>
       <main>
         <h1>go got /admin or /game</h1>
-
       </main>
     </div>
   )

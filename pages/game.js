@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Title from '../components/title'
 import Round from '../components/round'
 import Final from '../components/final'
+import "tailwindcss/tailwind.css";
 
 export default function Game(props){
   const [game, setGame] = useState({})
@@ -35,6 +36,8 @@ export default function Game(props){
       }else if(json.action === "final_wrong"){
         var audio = new Audio('try-again.mp3');
         audio.play();
+      }else{
+        console.error("didn't expect", json)
       }
     };
   }, [])
@@ -51,7 +54,7 @@ export default function Game(props){
   }
 
   return (
-    <div>
+    <div class="">
       {mistakes}
       {gameSession}
     </div>

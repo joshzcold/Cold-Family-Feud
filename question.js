@@ -12,6 +12,7 @@ let game = {
     }
   ],
   title: true,
+  point_tracker: 0,
   is_final_round: false,
   is_final_second: false,
   hide_first_round: true,
