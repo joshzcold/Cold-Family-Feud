@@ -54,7 +54,7 @@ export default function Game(props){
   }
 
   return (
-    <div class="">
+    <div>
       {mistakes}
       {gameSession}
     </div>

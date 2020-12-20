@@ -231,6 +231,7 @@ export default function Admin(props){
                   rnd.selection = 0
                   rnd.points = 0
                   rnd.input = ""
+                  rnd.revealed = false
                 })
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
