@@ -118,6 +118,17 @@ export default function Final(props){
           </div>
         }
       </div>
+      <div class="flex mt-10 text-center">
+        {! props.game.is_final_second?
+          <div class="inline-block w-max flex-grow">
+            <p class='text-3xl'>timer: {props.game.final_round_timers[0]}</p>
+          </div>
+          :
+          <div class="inline-block flex-grow">
+            <p class='text-3xl'>timer: {props.game.final_round_timers[1]}</p>
+          </div>
+        }
+      </div>
     </div>
   )
 }

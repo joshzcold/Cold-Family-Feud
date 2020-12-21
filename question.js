@@ -171,6 +171,6 @@ let game = {
       revealed: false
     },
   ],
-  final_round_timers: [60,80]
+  final_round_timers: [30,35]
 }
 module.exports = {game};
