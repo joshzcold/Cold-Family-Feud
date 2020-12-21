@@ -55,3 +55,5 @@ I esspecially want to implement these in the future:
 - [ ] game can reset
 - [ ] game looks closer to the family feud style
 - [ ] title is read from svg and can be dynamically updated instead of using inkscape
+- [ ] node executable launches admin and game endpoints
+- [ ] game config file is much easier to edit (parse csv, yaml?)
