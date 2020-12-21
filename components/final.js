@@ -2,7 +2,6 @@ import "tailwindcss/tailwind.css";
 
 let gameCopy
 
-// TODO better looking final round
 export default function Final(props){
 
   let round_one_total = 0
@@ -119,15 +118,9 @@ export default function Final(props){
         }
       </div>
       <div class="flex mt-10 text-center">
-        {! props.game.is_final_second?
           <div class="inline-block w-max flex-grow">
-            <p class='text-3xl'>timer: {props.game.final_round_timers[0]}</p>
+            <p class='text-3xl'>timer: {props.timer}</p>
           </div>
-          :
-          <div class="inline-block flex-grow">
-            <p class='text-3xl'>timer: {props.game.final_round_timers[1]}</p>
-          </div>
-        }
       </div>
     </div>
   )

@@ -4,8 +4,11 @@ import Round from '../components/round'
 import Final from '../components/final'
 import "tailwindcss/tailwind.css";
 
+let timerInterval = null
+
 export default function Game(props){
   const [game, setGame] = useState({})
+  const [timer, setTimer] = useState(0)
   let mistakes 
   useEffect(() => {
     var ws = new WebSocket('ws://localhost:8080');
@@ -36,9 +39,28 @@ export default function Game(props){
       }else if(json.action === "final_wrong"){
         var audio = new Audio('try-again.mp3');
         audio.play();
+      }else if(json.action === "set_timer"){
+        setTimer(json.data)
+      }else if(json.action === "stop_timer"){
+        clearInterval(timerInterval)
+      }else if(json.action === "start_timer"){
+        let limit = json.data
+        timerInterval = setInterval(() => {
+          if(limit > 0){
+            limit = limit -1
+            setTimer(limit)
+          }else{
+            var audio = new Audio('try-again.mp3');
+            audio.play();
+            clearInterval(timerInterval)
+            setTimer(json.data)
+          }
+        }, 1000)
+
       }else{
         console.error("didn't expect", json)
       }
+
     };
   }, [])
 
@@ -48,7 +70,7 @@ export default function Game(props){
   if(game.title){
     gameSession = <Title game={game}/>
   } else if (game.is_final_round){
-    gameSession = <Final game={game}/>
+    gameSession = <Final game={game} timer={timer}/>
   }else{
     gameSession = <Round game={game}/>
   }

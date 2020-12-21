@@ -117,6 +117,7 @@ export default function Admin(props){
             game.is_final_round = true
             setGame(prv => ({ ...prv }))
             ws.current.send(JSON.stringify({action: "data", data: game}))
+            ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
           }}>final round</button>
 
             <button class="border-4 bg-green-200 rounded-lg p-2" onClick={() =>{
@@ -207,51 +208,20 @@ export default function Admin(props){
                   })
                   setGame(prv => ({ ...prv }))
                   ws.current.send(JSON.stringify({action: "data", data: game}))
+                  ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[1]}))
                 }}>Start Final Round 2</button>
 
                 <button class="border-4 rounded-lg p-2" onClick={() => {
-                  if(game.final_timer_copy == null){
-                    game.final_timer_copy = []
-                    if(game.final_timer_copy[0] == null){
-                      game.final_timer_copy[0] = game.final_round_timers[0]
-                    }
+                  if(game.is_final_second){
+                    ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[1]}))
+                  }else{
+                    ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[0]}))
                   }
-                  let inter = setInterval(() => {
-                    if(game.final_round_timers[0] > 0){
-                      game.final_round_timers[0] = game.final_round_timers[0] - 1
-                      setGame(prv => ({ ...prv }))
-                      ws.current.send(JSON.stringify({action: "data", data: game}))
-                    }else{
-                      ws.current.send(JSON.stringify({action: "final_wrong"}))
-                      clearInterval(inter)
-                      game.final_round_timers[0] = game.final_timer_copy[0]
-                      setGame(prv => ({ ...prv }))
-                      ws.current.send(JSON.stringify({action: "data", data: game}))
-                    }
-                  }, 1000)
-                }}>Start Timer 1: {game.final_round_timers[0]}</button>
+                }}>Start Timer</button>
 
                 <button class="border-4 rounded-lg p-2" onClick={() => {
-                  if(game.final_timer_copy == null){
-                    game.final_timer_copy = []
-                    if(game.final_timer_copy[1] == null){
-                      game.final_timer_copy[1] = game.final_round_timers[1]
-                    }
-                  }
-                  let inter = setInterval(() => {
-                    if(game.final_round_timers[1] > 0){
-                      game.final_round_timers[1] = game.final_round_timers[1] - 1
-                      setGame(prv => ({ ...prv }))
-                      ws.current.send(JSON.stringify({action: "data", data: game}))
-                    }else{
-                      ws.current.send(JSON.stringify({action: "final_wrong"}))
-                      clearInterval(inter)
-                      game.final_round_timers[1] = game.final_timer_copy[1]
-                      setGame(prv => ({ ...prv }))
-                      ws.current.send(JSON.stringify({action: "data", data: game}))
-                    }
-                  }, 1000)
-                }}>Start Timer 2: {game.final_round_timers[1]}</button>
+                    ws.current.send(JSON.stringify({action: "stop_timer"}))
+                }}>Stop Timer</button>
 
                 {game.hide_first_round?
                   <button class="border-4 rounded-lg p-2" onClick={() => {
