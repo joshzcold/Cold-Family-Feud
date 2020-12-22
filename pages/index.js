@@ -12,7 +12,7 @@ export default function Home(){
         <link rel="icon" href="/dashboard/favicon.svg" ></link>
       </Head>
       <main>
-        <h1>go got /admin or /game</h1>
+        <h1>go to /admin or /game</h1>
       </main>
     </div>
   )
