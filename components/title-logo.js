@@ -1,3 +1,5 @@
+export default function TitleLogo(props){
+  let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
@@ -7,14 +9,17 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   width="338.18927mm"
-   height="218.51251mm"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="title-moved.svg"
    viewBox="0 0 338.18927 218.51252">
   <defs
      id="defs2">
     <linearGradient
+       inkscape:collect="always"
        id="linearGradient3029">
       <stop
          style="stop-color:#ff6603;stop-opacity:1"
@@ -34,6 +39,7 @@
          id="stop2890" />
     </linearGradient>
     <linearGradient
+       inkscape:collect="always"
        id="linearGradient925">
       <stop
          style="stop-color:#003399;stop-opacity:1;"
@@ -45,6 +51,7 @@
          id="stop923" />
     </linearGradient>
     <linearGradient
+       inkscape:collect="always"
        id="linearGradient865">
       <stop
          style="stop-color:#ff6600;stop-opacity:1"
@@ -74,6 +81,7 @@
        height="36.030617"
        id="rect913" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient925"
        id="linearGradient927"
        x1="119.81805"
@@ -82,6 +90,7 @@
        y2="80.244781"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient865"
        id="linearGradient937"
        gradientUnits="userSpaceOnUse"
@@ -90,6 +99,7 @@
        x2="77.004066"
        y2="139.43945" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient3029"
        id="linearGradient3031"
        x1="161.01593"
@@ -116,6 +126,7 @@
        height="36.030617"
        id="rect3055" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient865"
        id="linearGradient2420"
        x1="21.422211"
@@ -124,6 +135,7 @@
        y2="186.56958"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient865"
        id="linearGradient2428"
        x1="15.479636"
@@ -132,6 +144,7 @@
        y2="102.05383"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient865"
        id="linearGradient2436"
        x1="87.878845"
@@ -140,6 +153,32 @@
        y2="126.85815"
        gradientUnits="userSpaceOnUse" />
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5210781"
+     inkscape:cx="872.65222"
+     inkscape:cy="511.90873"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g935"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1906"
+     inkscape:window-height="1047"
+     inkscape:window-x="5"
+     inkscape:window-y="5"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="true"
+     inkscape:showpageshadow="true"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -153,13 +192,17 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
      transform="translate(-1.7461298,-5.7517595)">
     <g
        id="g1068"
        style="display:inline"
-       transform="translate(65.237127,-36.663798)">
+       transform="translate(65.237127,-36.663798)"
+       inkscape:label="background"
+       sodipodi:insensitive="true">
       <ellipse
          style="fill:url(#linearGradient927);fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.45739;stroke-opacity:1;paint-order:stroke fill markers"
          id="path917"
@@ -185,11 +228,14 @@
     <g
        id="g1063"
        style="display:inline"
-       transform="translate(201.38746,-34.533573)">
+       transform="translate(201.38746,-34.533573)"
+       inkscape:label="title">
       <g
          id="g3049"
          style="display:inline;fill:#404040;stroke:none"
-         transform="matrix(1.6142467,-0.12183177,0.12183177,1.6142467,-74.284003,-86.226788)">
+         transform="matrix(1.6142467,-0.12183177,0.12183177,1.6142467,-74.284003,-86.226788)"
+         inkscape:label="shadows"
+         sodipodi:insensitive="true">
         <text
            xml:space="preserve"
            id="text3039"
@@ -199,7 +245,7 @@
              y="124.1461"
              id="tspan1038"><tspan
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:C059;-inkscape-font-specification:'C059 Bold';text-align:center;text-anchor:middle;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-               id="tspan1036">Cold</tspan></tspan></text>
+               id="tspan1036">${props.insert}</tspan></tspan></text>
         <text
            xml:space="preserve"
            id="text3043"
@@ -229,7 +275,8 @@
       <g
          id="g935"
          transform="matrix(1.6142467,-0.12183177,0.12183177,1.6142467,-77.728247,-87.938042)"
-         style="display:inline">
+         style="display:inline"
+         inkscape:label="title text">
         <text
            id="text847"
            x="22.202248"
@@ -241,7 +288,7 @@
              y="124.1461"
              x="17.68206"><tspan
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:C059;-inkscape-font-specification:'C059 Bold';text-align:center;text-anchor:middle;fill:url(#linearGradient2428);fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-               id="tspan1052">Cold</tspan></tspan></text>
+               id="tspan1052">${props.insert}</tspan></tspan></text>
         <text
            xml:space="preserve"
            id="text903"
@@ -271,3 +318,9 @@
     </g>
   </g>
 </svg>
+  `
+  return (
+    <div dangerouslySetInnerHTML={{ __html: logo}} />
+
+  )
+}

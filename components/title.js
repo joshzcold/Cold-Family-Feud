@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import TitleLogo from "./title-logo"
 import { useState, useEffect } from 'react';
 
 export default function Title(props){
@@ -17,7 +18,7 @@ export default function Title(props){
         transition: "width 2s",
 
       }}  class="align-middle inline-block ">
-        <img src="title.png"/>
+        <TitleLogo insert="Silva" size={titleSize}/>
         <div class="flex flex-row text-center py-20">
           <p class="text-4xl flex-grow text-white"> {props.game.teams[0].name}</p>
           <p class="text-4xl flex-grow text-white"> {props.game.teams[1].name}</p>
