@@ -1,5 +1,16 @@
 export default function TitleLogo(props){
+  let viewBoxWidth = props.size * 0.6
+  let viewBoxHeight = window.innerHeight/3
+  let offsetx = 0
+  let offsety = 0
+  if(document.getElementById('g1068') != null){
+    var elem = document.getElementById('g1068') 
+    var rect = elem.getBoundingClientRect()
+    offsetx = rect.width/2
+    offsety = rect.height/2
+  }
   let logo = `
+  
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
@@ -15,7 +26,7 @@ export default function TitleLogo(props){
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="title-moved.svg"
-   viewBox="0 0 ${props.size/3} 218.51252">
+   viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}">
   <defs
      id="defs2">
     <linearGradient
@@ -196,7 +207,7 @@ export default function TitleLogo(props){
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(${props.size /24},-5.7517595)">
+     transform="translate(${viewBoxWidth/2 - offsetx} ,${viewBoxHeight/2 - offsety})">
     <g
        id="g1068"
        style="display:inline"
@@ -318,9 +329,8 @@ export default function TitleLogo(props){
     </g>
   </g>
 </svg>
-  `
+  ` 
   return (
     <div dangerouslySetInnerHTML={{ __html: logo}} />
-
   )
 }
