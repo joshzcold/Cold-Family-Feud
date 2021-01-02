@@ -40,11 +40,18 @@ export default function Admin(props){
       <div >
         <p class="text-4xl text-center pt-5"> Current Screen: {current_screen}</p>
 
-        <div>
-          <h2 class="text-2xl p-5">Teams</h2>
+        <div class="py-8">
           <div class="flex flex-row px-10 py-1">
-            <p class="flex-grow">Team 1 name: {game.teams[0].name}</p>
-            <p class="flex-grow">points: {game.teams[0].points} </p>
+            <p class="flex-grow text-2xl">Title Text</p>
+            <input class="border-4 rounded" onChange={(e)=>{
+              game.title_text = e.target.value
+              setGame(prv => ({ ...prv }));
+              ws.current.send(JSON.stringify({action: "data", data: game}))
+            }} placeholder="My Family"></input>
+          </div>
+          <div class="flex flex-row px-10 py-1">
+            <p class="flex-grow text-2xl">Team 1 name: {game.teams[0].name}</p>
+            <p class="flex-grow text-2xl">points: {game.teams[0].points} </p>
             <input class="border-4 rounded" onChange={(e)=>{
               game.teams[0].name = e.target.value
               setGame(prv => ({ ...prv }));
@@ -52,8 +59,8 @@ export default function Admin(props){
             }} placeholder="Team Name"></input>
           </div>
           <div class="flex flex-row px-10 py-1">
-            <p class="flex-grow">Team 2 name: {game.teams[1].name}</p>
-            <p class="flex-grow">points: {game.teams[1].points} </p>
+            <p class="flex-grow text-2xl">Team 2 name: {game.teams[1].name}</p>
+            <p class="flex-grow text-2xl">points: {game.teams[1].points} </p>
             <input class="border-4 rounded" onChange={(e)=>{
               game.teams[1].name = e.target.value
               setGame(prv => ({ ...prv }));

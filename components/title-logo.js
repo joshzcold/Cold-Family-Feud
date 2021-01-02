@@ -15,7 +15,7 @@ export default function TitleLogo(props){
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="title-moved.svg"
-   viewBox="0 0 338.18927 218.51252">
+   viewBox="0 0 ${props.size/3} 218.51252">
   <defs
      id="defs2">
     <linearGradient
@@ -196,7 +196,7 @@ export default function TitleLogo(props){
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(-1.7461298,-5.7517595)">
+     transform="translate(${props.size /24},-5.7517595)">
     <g
        id="g1068"
        style="display:inline"

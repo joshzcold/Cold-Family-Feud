@@ -6,7 +6,7 @@ export default function Title(props){
   const [titleSize, setTitleSize] = useState("10%")
 
   useEffect(() => {
-    setTimeout(setTitleSize("80%"), 2000)
+    setTimeout(setTitleSize(window.innerWidth), 2000)
 
   }, [])
 
@@ -18,7 +18,7 @@ export default function Title(props){
         transition: "width 2s",
 
       }}  class="align-middle inline-block ">
-        <TitleLogo insert="Silva" size={titleSize}/>
+        <TitleLogo insert={props.game.title_text} size={titleSize}/>
         <div class="flex flex-row text-center py-20">
           <p class="text-4xl flex-grow text-white"> {props.game.teams[0].name}</p>
           <p class="text-4xl flex-grow text-white"> {props.game.teams[1].name}</p>
