@@ -16,7 +16,8 @@ npm run start
 ```
 go to
 
-http://localhost:3000/game
+http://localhost:3000/game  (Click on the browser window to allow sounds... not sure why this is a requirement in chrome)
+
 http://localhost:3000/admin
 
 Put /game on the projector/ screen share. 
