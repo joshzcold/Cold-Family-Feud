@@ -83,7 +83,7 @@
       "multiply": 2
     }
   ],
-  final_round:[
+  "final_round":[
     {
       "question":  "What is a Christmas song that most everyone knows?" ,
       "answers": [
@@ -136,7 +136,7 @@
       "revealed": false
     },
     {
-      "question":  "Aside from family, name someone else you\"d buy a present for?" ,
+      "question":  "Aside from family, name someone else you'd buy a present for?" ,
       "answers":
       [
         ["friend", 48],
