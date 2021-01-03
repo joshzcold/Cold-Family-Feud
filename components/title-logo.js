@@ -1,13 +1,15 @@
+let offsetx = 0
+let offsety = 0
+
 export default function TitleLogo(props){
   let viewBoxWidth = props.size * 0.6
   let viewBoxHeight = window.innerHeight/3
-  let offsetx = 0
-  let offsety = 0
-  if(document.getElementById('g1068') != null){
+  if(document.getElementById('g1068') != null && offsetx == 0 && offsety == 0 ){
     var elem = document.getElementById('g1068') 
     var rect = elem.getBoundingClientRect()
     offsetx = rect.width/2
     offsety = rect.height/2
+    console.log(rect,offsetx,offsety)
   }
   let logo = `
   
