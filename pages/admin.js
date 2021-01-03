@@ -38,11 +38,14 @@ export default function Admin(props){
     console.log(current_round)
     return (
       <div >
-        <p class="text-4xl text-center pt-5"> Current Screen: {current_screen}</p>
 
         <div class="py-8">
-          <div class="flex flex-row px-10 py-1">
+          <div class="flex flex-row px-10 py-5">
             <p class="flex-grow text-2xl">Title Text</p>
+            <div class="text-center flex-grow">
+              <p class="text-black text-opacity-50 ">If title looks wrong refresh /game window</p>
+              <p class="text-black text-opacity-50 ">title text will be cut off at the edges of the browser window</p>
+            </div>
             <input class="border-4 rounded" onChange={(e)=>{
               game.title_text = e.target.value
               setGame(prv => ({ ...prv }));
@@ -68,6 +71,7 @@ export default function Admin(props){
             }} placeholder="Team Name"></input>
           </div>
         </div>
+        <p class="text-4xl text-center pt-5"> Current Screen: {current_screen}</p>
         <div class="flex-row space-x-16 space-y-5">
           <h2 class="text-2xl p-5">Controls</h2>
 

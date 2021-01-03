@@ -1,9 +1,11 @@
+// variables don't get reassigned
 let offsetx = 0
 let offsety = 0
 
 export default function TitleLogo(props){
   let viewBoxWidth = props.size * 0.6
   let viewBoxHeight = window.innerHeight/3
+  // don't recalculate offset if already set
   if(document.getElementById('g1068') != null && offsetx == 0 && offsety == 0 ){
     var elem = document.getElementById('g1068') 
     var rect = elem.getBoundingClientRect()
