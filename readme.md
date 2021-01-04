@@ -51,13 +51,12 @@ go to `/new` to use the new game creator
 
 games are loaded in the admin console
 
-I esspecially want to implement these in the future:
-pull requests are welcome
-
 If you make a new game that is themed, make a pull request and we can add it to the default games in `/games`
 
+I esspecially want to implement these features in the future:
+
 - [x] questions are read from json and game can pick from multiple possible games
-- [x] game can reset
+- [x] game can reset (via loading a new game)
 - [ ] game looks closer to the family feud style
 - [x] title is read from svg and can be dynamically updated instead of using inkscape
 - [ ] node executable launches admin and game endpoints
