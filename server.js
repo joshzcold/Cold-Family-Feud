@@ -64,7 +64,7 @@ wss.on('connection', function connection(ws) {
   });
 
   console.log("incoming connection... sending data");
-  wss.broadcast(JSON.stringify(game));
+  wss.broadcast(JSON.stringify(game_copy));
 });
 
 app.prepare().then(async () => {
