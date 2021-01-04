@@ -29,13 +29,16 @@ let game = {
     }
   ],
   title: true,
-  title_text: "[placeholder]",
+  title_text: "",
   point_tracker: 0,
   is_final_round: false,
   is_final_second: false,
   hide_first_round: true,
   round: 0,
 }
+
+let game_copy = JSON.parse(JSON.stringify(game)); 
+
 
 const wss = new WebSocket.Server({ port: 8080 });
 
@@ -48,13 +51,14 @@ wss.on('connection', function connection(ws) {
     process.stdout.write(".");
     message = JSON.parse(message)
     if(message.action === "load_game"){
-      game.rounds = message.data.rounds
-      game.final_round = message.data.final_round
-      game.final_round_timers = message.data.final_round_timers
-      wss.broadcast(JSON.stringify(game));
-    }else if(message.action === "data"){
-      game = message
-      wss.broadcast(JSON.stringify(game));
+      game_copy = JSON.parse(JSON.stringify(game)); 
+      game_copy.rounds = message.data.rounds
+      game_copy.final_round = message.data.final_round
+      game_copy.final_round_timers = message.data.final_round_timers
+      wss.broadcast(JSON.stringify(game_copy));
+    }else{
+      game_copy = message
+      wss.broadcast(JSON.stringify(game_copy));
     }
   });
 

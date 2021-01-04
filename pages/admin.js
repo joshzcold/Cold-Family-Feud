@@ -77,18 +77,19 @@ export default function Admin(props){
             </div>
           </div>
         </div>
-        <div class="py-8">
+        <div class="">
           <div class="flex flex-row px-10 py-5">
             <p class="flex-grow text-2xl">Title Text</p>
             <div class="text-center flex-grow">
-              <p class="text-black text-opacity-50 ">If title looks wrong refresh /game window</p>
-              <p class="text-black text-opacity-50 ">title text will be cut off at the edges of the browser window</p>
             </div>
             <input class="border-4 rounded" onChange={(e)=>{
               game.title_text = e.target.value
               setGame(prv => ({ ...prv }));
               ws.current.send(JSON.stringify({action: "data", data: game}))
             }} placeholder="My Family"></input>
+          </div>
+          <div class="px-10 py-5">
+          <p class="text-black text-opacity-50 ">"If the title looks wrong refresh /game window"</p>
           </div>
           <div class="flex flex-row px-10 py-1">
             <p class="flex-grow text-2xl">Team 1 name: {game.teams[0].name}</p>
@@ -267,6 +268,7 @@ export default function Admin(props){
                       if(game.is_final_second){
                         ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[1]}))
                       }else{
+                        console.log(game.final_round_timers)
                         ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[0]}))
                       }
                     }}>Start Timer</button>
