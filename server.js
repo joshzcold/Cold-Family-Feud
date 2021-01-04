@@ -29,7 +29,7 @@ let game = {
     }
   ],
   title: true,
-  title_text: "",
+  title_text: "Change Me",
   point_tracker: 0,
   is_final_round: false,
   is_final_second: false,
