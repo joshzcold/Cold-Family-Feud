@@ -37,8 +37,9 @@ let game = {
   round: 0,
 }
 
+// We copy the inital state of the game so we can change it
+// and still use game as a template
 let game_copy = JSON.parse(JSON.stringify(game)); 
-
 
 const wss = new WebSocket.Server({ port: 8080 });
 

@@ -2,6 +2,7 @@ import { useState, useEffect} from 'react';
 import "tailwindcss/tailwind.css";
 
 export default function CreateGame(props){
+  const [error, setError] = useState("")
   const [game, setGame] = useState({
     rounds:[
       {
@@ -53,7 +54,11 @@ export default function CreateGame(props){
               />
               <input type="number" class="p-2 border-2" value={r.multiply} placeholder="multiplier"
                 onChange={e => {
-                  r.multiply = parseInt(e.target.value)
+                  let value = parseInt(e.target.value)
+                  if(value === 0 ){
+                    value = 1
+                  }
+                  r.multiply = value
                   setGame(prv => ({ ...prv }));
                 }}
               />
@@ -114,25 +119,31 @@ export default function CreateGame(props){
       </div>
 
       <div class="py-10 flex-col space-y-5">
-        <div class="flex flex-row space-x-3">
+        <div class="flex flex-row space-x-10 items-end">
           <p class="text-3xl" >Fast Money </p>
-          <input type="number" class="p-2 border-2" placeholder={"Timer 1: "+game.final_round_timers[0] + " sec"}
+          <div>
+          <p class="text-black text-opacity-50" >timer 1</p>
+          <input type="number" class="p-2 border-2" value={game.final_round_timers[0]} placeholder="timer 1"
             onChange={e => {
               game.final_round_timers[0] = parseInt(e.target.value)
               setGame(prv => ({ ...prv }));
             }}
           />
-          <input type="number" class="p-2 border-2" placeholder={"Timer 2: "+game.final_round_timers[1] + " sec"}
+          </div>
+          <div>
+          <p class="text-black text-opacity-50" >timer 2</p>
+          <input type="number" class="p-2 border-2" value={game.final_round_timers[1]} placeholder="timer 2"
             onChange={e => {
               game.final_round_timers[1] = parseInt(e.target.value)
               setGame(prv => ({ ...prv }));
             }}
           />
+          </div>
         </div>
         <div class="border-2 p-3">
           {game.final_round.map(q => 
           <div class="flex flex-col space-y-2 pt-5">
-            <input class="p-2 border-2" placeholder={q.question}
+            <input class="p-2 border-2" value={q.question}
               onChange={e => {
                 q.question = e.target.value
                 setGame(prv => ({ ...prv }));
@@ -174,15 +185,74 @@ export default function CreateGame(props){
         </div>
       </div>
 
-      <div class="flex flex-row space-x-5">
+      {error !== ""?
+        <div class="bg-red-500 p-2 rounded-md">
+          <p class="text-white font-semibold">ERROR:</p>
+          <p class="text-white">{error}</p>
+        </div>
+        :null
+      }
+
+      <div class="flex flex-row space-x-5 pt-5">
         <button class="hover:shadow-md rounded-md bg-green-200 p-2 px-10"
           onClick={() => {
-            console.log(JSON.stringify(game))
-            downloadToFile(JSON.stringify(game), 'new-cold-feud.json', 'text/json') 
+            // ERROR checking
+            let error = []
+            if(game.rounds.length == 0 ){
+              error.push("You need to create some rounds to save the game")
+            } 
+            game.rounds.forEach((r, index) => {
+              if(r.question === ""){
+               error.push(`round number ${index + 1} has an empty question` )
+              }
+              if(r.multiply === "" || r.multiply === 0 || isNaN(r.multiply)){
+               error.push(`round number ${index + 1} has no point multipler` )
+              }
+              if(r.answers.length === 0){
+               error.push(`round number ${index + 1} has no answers` )
+              }
+              r.answers.forEach((a,aindex) => {
+                if(a.ans === ""){
+                  error.push(`round item ${index + 1} has empty answer at answer number ${aindex + 1}` )
+                }
+                if(a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)){
+
+                  error.push(`round item ${index + 1} has 0 points answer number ${aindex + 1}` )
+                }
+
+              })
+            })
+
+            game.final_round.forEach((a, index) => {
+              if(a.question === ""){
+               error.push(`final round item ${index + 1} has empty question` )
+              }
+
+              if(a.answers.length === 0){
+               error.push(`final round item ${index + 1} has no answers` )
+              }
+              a.answers.forEach((ans, aindex) => {
+                if(ans[0] === ""){
+                  error.push(`final round item ${index + 1} has empty answer at answer number ${aindex + 1}` )
+                }
+                if(ans[1] === "" || ans[1] === 0 || isNaN(ans[1]) ){
+
+                  error.push(`final round item ${index + 1} has 0 points answer number ${aindex + 1}` )
+                }
+              })
+            })
+           
+            console.log(error)
+            if(error.length === 0){
+              setError("")
+              downloadToFile(JSON.stringify(game),
+                'new-cold-feud.json', 'text/json') 
+            }else{
+              setError(error.join(", "))
+            }
           }}>
           Save
         </button>
-
         <div class="flex flex-col border-2  rounded-lg">
           <div class="p-2 ml-4 items-center transform translate-y-3">
             <input type="file" class="" id="gamePicker" accept=".json"/>
@@ -194,7 +264,6 @@ export default function CreateGame(props){
                 reader.onload = function (evt) {
                   let data = JSON.parse(evt.target.result)
                   console.debug(data)
-                  // TODO some error checking for valid game data
                   setGame(data)
                 }
                 reader.onerror = function (evt) {
