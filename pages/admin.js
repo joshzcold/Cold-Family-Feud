@@ -268,7 +268,6 @@ export default function Admin(props){
                       if(game.is_final_second){
                         ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[1]}))
                       }else{
-                        console.log(game.final_round_timers)
                         ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[0]}))
                       }
                     }}>Start Timer</button>
