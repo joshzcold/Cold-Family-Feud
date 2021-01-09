@@ -186,13 +186,13 @@ export default function Admin(props){
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>Team 2: {game.teams[1].name} gets points</button>
               <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() =>{
-                game.teams[0].mistakes++
+                if(game.teams[0].mistakes < 3) game.teams[0].mistakes++;
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
                 ws.current.send(JSON.stringify({action: "mistake", data: game.teams[0].mistake}))
               }}>Team 1: {game.teams[0].name} mistake</button>
               <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() =>{
-                game.teams[1].mistakes++
+                if(game.teams[1].mistakes < 3) game.teams[1].mistakes++;
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
                 ws.current.send(JSON.stringify({action: "mistake", data: game.teams[1].mistake}))

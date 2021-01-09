@@ -14,7 +14,7 @@ export default function Round(props){
           <p class="text-end text-3xl ">{round.question}</p>
           {round.multiply > 1?
             <div style={{transform: "translate(0px, -7px)"}}>
-            <p class="text-2xl text-start">x{round.multiply}</p>
+              <p class="text-2xl text-start">x{round.multiply}</p>
             </div>:null
           }
         </div>
@@ -57,18 +57,30 @@ export default function Round(props){
           </div>
         </div>
       </div>
-      <div class="text-3xl flex flex-row text-center justify-around mt-12">
-        <div class="bg-gradient-to-tr from-blue-900 to-blue-500">
-          <p class="p-5 uppercase text-white" style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[0].name}</p>
-          <div class="flex justify-center flex-row text-center">
-            {Array(props.game.teams[0].mistakes).fill(<p>X</p>)}
+      <div class="text-3xl flex flex-row text-center justify-around ">
+        <div class="flex flex-row items-center space-x-5">
+          <div class="bg-gradient-to-tr from-blue-900 to-blue-500">
+            <p class="p-5 uppercase text-white"
+            style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[0].name}</p>
           </div>
+          <div class="flex justify-center flex-row text-center space-x-5">
+            {Array(props.game.teams[0].mistakes).fill(
+              <img class="w-24" src="x.svg"/>
+            )}
+          </div>
+
         </div>
-        <div class="bg-gradient-to-tl from-blue-900 to-blue-500">
-          <p class="p-5 uppercase text-white" style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[1].name}</p>
-          <div class="flex justify-center flex-row text-center">
-            {Array(props.game.teams[1].mistakes).fill(<p>X</p>)}
+        <div class="flex flex-row items-center space-x-5">
+          <div class="flex justify-center flex-row text-center space-x-5">
+            {Array(props.game.teams[1].mistakes).fill(
+              <img class="w-24" src="x.svg"/>
+            )}
           </div>
+          <div class="bg-gradient-to-tr from-blue-900 to-blue-500">
+            <p class="p-5 uppercase text-white"
+            style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[1].name}</p>
+          </div>
+
         </div>
       </div>
     </div>
