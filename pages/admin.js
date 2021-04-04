@@ -191,14 +191,16 @@ export default function Admin(props){
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>title card</button>
 
-              <button class="border-4 rounded-lg p-2" onClick={() => {
-                game.title = false
-                game.is_final_round = true
-                game.is_final_second = false
-                setGame(prv => ({ ...prv }))
-                ws.current.send(JSON.stringify({action: "data", data: game}))
-                ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
-              }}>final round</button>
+              {game.final_round?
+                <button class="border-4 rounded-lg p-2" onClick={() => {
+                  game.title = false
+                  game.is_final_round = true
+                  game.is_final_second = false
+                  setGame(prv => ({ ...prv }))
+                  ws.current.send(JSON.stringify({action: "data", data: game}))
+                  ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
+                }}>final round</button>: null
+              }
 
               <button disabled={pointsGivin.state} 
                 class={`border-4 ${pointsGivin.color} rounded-lg p-2 ${pointsGivin.textColor}`}
@@ -344,7 +346,7 @@ export default function Admin(props){
                     }
                   </div>
 
-                  {game.final_round.map(x =>
+                  {game.final_round?.map(x =>
                   <div class="px-5">
                     <p class="text-xl pb-1">{x.question}</p>
                     <div class="flex flex-row space-x-10 pb-7">
@@ -353,7 +355,7 @@ export default function Admin(props){
                         setGame(prv => ({ ...prv }))
                       }}/>
                       <select value={x.selection} class="border-4 rounded-lg p-2" onChange={(e) => {
-                        x.selection = parseInt(e.target.value)
+                         x.selection = parseInt(e.target.value)
                         setGame(prv => ({ ...prv }))
                         ws.current.send(JSON.stringify({action: "data", data: game}))
                       }}>

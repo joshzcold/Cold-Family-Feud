@@ -1,9 +1,7 @@
 import { useState, useEffect} from 'react';
 import "tailwindcss/tailwind.css";
 
-export default function CreateGame(props){
-  const [error, setError] = useState("")
-  const [game, setGame] = useState({
+let gameTemplate ={
     rounds:[
       {
         "question": "",
@@ -23,7 +21,11 @@ export default function CreateGame(props){
       }
     }),
     final_round_timers: [20, 25]
-  })
+  } 
+
+export default function CreateGame(props){
+  const [error, setError] = useState("")
+  const [game, setGame] = useState(gameTemplate)
 
   console.debug(game)
 
@@ -264,6 +266,10 @@ export default function CreateGame(props){
                 reader.onload = function (evt) {
                   let data = JSON.parse(evt.target.result)
                   console.debug(data)
+
+                  data.final_round == null? data.final_round= gameTemplate.final_round: null
+                  data.rounds == null? data.rounds = gameTemplate.rounds: null
+                  data.final_round_timers == null? data.final_round_timers = gameTemplate.final_round_timers: null
                   setGame(data)
                 }
                 reader.onerror = function (evt) {
