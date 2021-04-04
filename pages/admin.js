@@ -3,6 +3,7 @@ import "tailwindcss/tailwind.css";
 
 export default function Admin(props){
   const [game, setGame] = useState({})
+  const [pointsGivin, setPointsGivin] = useState({state: false, color:"bg-green-200", textColor:"text-black"})
   const ws = useRef(null)
   useEffect(() => {
     ws.current = new WebSocket('ws://localhost:8080');
@@ -93,23 +94,42 @@ export default function Admin(props){
           <div class="px-10 py-5">
           <p class="text-black text-opacity-50 ">"If the title looks wrong refresh /game window"</p>
           </div>
-          <div class="flex flex-row px-10 py-1">
-            <p class="flex-grow text-2xl">Team 1 name: {game.teams[0].name}</p>
-            <p class="flex-grow text-2xl">points: {game.teams[0].points} </p>
+          <div class="flex flex-row space-x-10 px-10 py-1">
+            <p class="text-2xl">Team 1 name:</p>
             <input class="border-4 rounded" onChange={(e)=>{
               game.teams[0].name = e.target.value
               setGame(prv => ({ ...prv }));
               ws.current.send(JSON.stringify({action: "data", data: game}))
             }} placeholder="Team Name"></input>
+            <div class="flex flex-row">
+              <p class="text-2xl">points:</p>
+              <input type="number" min="0" required class="border-4 rounded" onChange={(e)=>{
+                let number = parseInt(e.target.value)
+                console.log(number)
+                isNaN(number)? number = 0: null
+                game.teams[0].points = number
+                setGame(prv => ({ ...prv }));
+                ws.current.send(JSON.stringify({action: "data", data: game}))
+              }} value={game.teams[0].points}></input>
+            </div>
           </div>
-          <div class="flex flex-row px-10 py-1">
-            <p class="flex-grow text-2xl">Team 2 name: {game.teams[1].name}</p>
-            <p class="flex-grow text-2xl">points: {game.teams[1].points} </p>
+          <div class="flex flex-row space-x-10 px-10 py-1">
+            <p class="text-2xl">Team 2 name:</p>
             <input class="border-4 rounded" onChange={(e)=>{
               game.teams[1].name = e.target.value
               setGame(prv => ({ ...prv }));
               ws.current.send(JSON.stringify({action: "data", data: game}))
             }} placeholder="Team Name"></input>
+            <div class="flex flex-row">
+              <p class="text-2xl">points:</p>
+              <input type="number" min="0" required class="border-4 rounded" onChange={(e)=>{
+                let number = parseInt(e.target.value)
+                isNaN(number)? number = 0: null
+                game.teams[1].points = number
+                setGame(prv => ({ ...prv }));
+                ws.current.send(JSON.stringify({action: "data", data: game}))
+              }} value={game.teams[1].points}></input>
+            </div>
           </div>
         </div>
         <p class="text-4xl text-center pt-5"> Current Screen: {current_screen}</p>
@@ -120,7 +140,6 @@ export default function Admin(props){
               <h2 class="text-2xl p-5">Controls</h2>
 
               <button class="border-4 rounded-lg p-2" onClick={() => {
-                game.point_tracker = 0
                 game.title = false
                 game.is_final_round = false
                 game.is_final_second = false
@@ -128,12 +147,12 @@ export default function Admin(props){
                 setGame(prv => ({
                   ...prv
                 }))
+                setPointsGivin({state: false, color:"bg-green-200", textColor: "text-black"})
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>start round 1</button>
 
               <button class="border-4 rounded-lg p-2" onClick={() => {
                 game.title = false
-                game.point_tracker = 0
                 game.is_final_round = false
                 game.is_final_second = false
                 game.teams[0].mistakes = 0
@@ -142,6 +161,7 @@ export default function Admin(props){
                   game.round = game.round + 1
                 }
                 setGame(prv => ({ ...prv }))
+                setPointsGivin({state: false, color:"bg-green-200", textColor: "text-black"})
                 console.log(game.round)
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>next round</button>
@@ -152,9 +172,9 @@ export default function Admin(props){
                 game.is_final_second = false
                 game.teams[0].mistakes = 0
                 game.teams[1].mistakes = 0
-                game.title =false
-                game.point_tracker = 0
+                game.title = false
                 setGame(prv => ({ ...prv }))
+                setPointsGivin({state: false, color:"bg-green-200", textColor: "text-black"})
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>
                 {game.rounds.map(( key, index ) =>
@@ -167,7 +187,6 @@ export default function Admin(props){
               }}>title card</button>
 
               <button class="border-4 rounded-lg p-2" onClick={() => {
-                game.point_tracker = 0
                 game.title = false
                 game.is_final_round = true
                 setGame(prv => ({ ...prv }))
@@ -175,15 +194,19 @@ export default function Admin(props){
                 ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
               }}>final round</button>
 
-              <button class="border-4 bg-green-200 rounded-lg p-2" onClick={() =>{
-                game.teams[0].points=game.point_tracker + game.teams[0].points
-                game.point_tracker = 0
+              <button disabled={pointsGivin.state} 
+                class={`border-4 ${pointsGivin.color} rounded-lg p-2 ${pointsGivin.textColor}`}
+                onClick={() =>{
+                game.teams[0].points=game.point_tracker[game.round] + game.teams[0].points
+                setPointsGivin({state: true, color:"bg-black-200", textColor: "text-gray-300"})
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>Team 1: {game.teams[0].name} gets points</button>
-              <button class="border-4 bg-green-200 rounded-lg p-2" onClick={() =>{
-                game.teams[1].points=game.point_tracker + game.teams[1].points
-                game.point_tracker = 0
+              <button disabled={pointsGivin.state} 
+                class={`border-4 ${pointsGivin.color} rounded-lg p-2 ${pointsGivin.textColor}`}
+                onClick={() =>{
+                game.teams[1].points=game.point_tracker[game.round] + game.teams[1].points
+                setPointsGivin({state: true, color:"bg-black-200", textColor: "text-gray-300"})
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>Team 2: {game.teams[1].name} gets points</button>
@@ -218,7 +241,7 @@ export default function Admin(props){
                   </div>
                   <div class="flex flex-row items-center space-x-5 justify-center pb-2">
                     <h3 class="text-xl">Multiplier {current_round.multiply}x</h3>
-                    <h3 class="text-xl">Point Tracker: {game.point_tracker}</h3>
+                    <h3 class="text-xl">Point Tracker: {game.point_tracker[game.round]}</h3>
                   </div>
                 </div>
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mb-10 mt-5 gap-3 ">
@@ -229,11 +252,11 @@ export default function Admin(props){
                       setGame(prv => ({ ...prv }))
 
                       if(x.trig){
-                        game.point_tracker = game.point_tracker + x.pnt * current_round.multiply
+                        game.point_tracker[game.round] = game.point_tracker[game.round] + x.pnt * current_round.multiply
                         setGame(prv => ({ ...prv }))
                         ws.current.send(JSON.stringify({action: "reveal"}))
                       }else{
-                        game.point_tracker = game.point_tracker - x.pnt * current_round.multiply
+                        game.point_tracker[game.round] = game.point_tracker[game.round] - x.pnt * current_round.multiply
                         setGame(prv => ({ ...prv }))
                       }
                       ws.current.send(JSON.stringify({action: "data", data: game}))
