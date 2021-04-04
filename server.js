@@ -53,7 +53,6 @@ wss.on('connection', function connection(ws) {
       process.stdout.write(".");
       message = JSON.parse(message)
       if(message.action === "load_game"){
-        console.log(game_copy)
         game_copy.teams[0].points = 0
         game_copy.teams[1].points = 0
         game_copy.round = 0
