@@ -6,7 +6,7 @@ export default function Admin(props){
   const [pointsGivin, setPointsGivin] = useState({state: false, color:"bg-green-200", textColor:"text-black"})
   const ws = useRef(null)
   useEffect(() => {
-    ws.current = new WebSocket('ws://localhost:8080');
+    ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
     ws.current.onopen = function() {
       console.log("game connected to server");
     };

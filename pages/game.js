@@ -11,7 +11,7 @@ export default function Game(props){
   const [timer, setTimer] = useState(0)
   let mistakes 
   useEffect(() => {
-    var ws = new WebSocket('ws://localhost:8080');
+    var ws = new WebSocket(`ws://${ window.location.hostname }:8080`);
     ws.onopen = function() {
       console.log("game connected to server");
     };
