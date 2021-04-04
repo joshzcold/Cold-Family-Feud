@@ -320,7 +320,7 @@ export default function Admin(props){
                   <div class="px-5">
                     <p class="text-xl pb-1">{x.question}</p>
                     <div class="flex flex-row space-x-10 pb-7">
-                      <input class="border-4 rounded" placeholder="answer" onChange={(e) => {
+                      <input class="border-4 rounded" placeholder="answer" value={x.input} onChange={(e) => {
                         x.input = e.target.value
                         setGame(prv => ({ ...prv }))
                       }}/>
