@@ -30,7 +30,7 @@ let game = {
   ],
   title: true,
   title_text: "Change Me",
-  point_tracker: 0,
+  point_tracker: [],
   is_final_round: false,
   is_final_second: false,
   hide_first_round: true,
@@ -49,17 +49,28 @@ wss.broadcast = function(data) {
 
 wss.on('connection', function connection(ws) {
   ws.on('message', function incoming(message) {
-    process.stdout.write(".");
-    message = JSON.parse(message)
-    if(message.action === "load_game"){
-      game_copy = JSON.parse(JSON.stringify(game)); 
-      game_copy.rounds = message.data.rounds
-      game_copy.final_round = message.data.final_round
-      game_copy.final_round_timers = message.data.final_round_timers
-      wss.broadcast(JSON.stringify(game_copy));
-    }else{
-      game_copy = message
-      wss.broadcast(JSON.stringify(game_copy));
+    try{
+      process.stdout.write(".");
+      message = JSON.parse(message)
+      if(message.action === "load_game"){
+        game_copy.teams[0].points = 0
+        game_copy.teams[1].points = 0
+        game_copy.round = 0
+        game_copy.title = true
+        game_copy.rounds = message.data.rounds
+        game_copy.final_round = message.data.final_round
+        game_copy.final_round_timers = message.data.final_round_timers
+        game_copy.point_tracker = new Array(message.data.rounds.length).fill(0);
+        wss.broadcast(JSON.stringify(game_copy));
+      }else if (message.action === "data"){
+        game_copy = message.data
+        wss.broadcast(JSON.stringify(game_copy));
+      }
+      else{
+        wss.broadcast(JSON.stringify(message));
+      }
+    }catch(e){
+      console.error("Error in processing socket message: ", e)
     }
   });
 

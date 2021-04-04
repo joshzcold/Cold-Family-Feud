@@ -52,7 +52,7 @@ export default function CreateGame(props){
                   setGame(prv => ({ ...prv }));
                 }}
               />
-              <input type="number" class="p-2 border-2" value={r.multiply} placeholder="multiplier"
+              <input type="number" min="1" class="p-2 border-2" value={r.multiply} placeholder="multiplier"
                 onChange={e => {
                   let value = parseInt(e.target.value)
                   if(value === 0 ){
@@ -72,7 +72,7 @@ export default function CreateGame(props){
                     setGame(prv => ({ ...prv }));
                   }}
                 />
-                <input type="number" class="p-2 border-2" value={a.pnt} placeholder="points"
+                <input type="number" min="0" class="p-2 border-2" value={a.pnt} placeholder="points"
                   onChange={e => {
                     a.pnt = parseInt(e.target.value)
                     setGame(prv => ({ ...prv }));
@@ -123,7 +123,7 @@ export default function CreateGame(props){
           <p class="text-3xl" >Fast Money </p>
           <div>
           <p class="text-black text-opacity-50" >timer 1</p>
-          <input type="number" class="p-2 border-2" value={game.final_round_timers[0]} placeholder="timer 1"
+          <input type="number" min="0" class="p-2 border-2" value={game.final_round_timers[0]} placeholder="timer 1"
             onChange={e => {
               game.final_round_timers[0] = parseInt(e.target.value)
               setGame(prv => ({ ...prv }));
@@ -132,7 +132,7 @@ export default function CreateGame(props){
           </div>
           <div>
           <p class="text-black text-opacity-50" >timer 2</p>
-          <input type="number" class="p-2 border-2" value={game.final_round_timers[1]} placeholder="timer 2"
+          <input type="number" min="0" class="p-2 border-2" value={game.final_round_timers[1]} placeholder="timer 2"
             onChange={e => {
               game.final_round_timers[1] = parseInt(e.target.value)
               setGame(prv => ({ ...prv }));
@@ -158,7 +158,7 @@ export default function CreateGame(props){
                     setGame(prv => ({ ...prv }));
                   }}
                 />
-                <input type="number" class="p-2 border-2" value={a[1]} placeholder="points"
+                <input type="number" min="0" class="p-2 border-2" value={a[1]} placeholder="points"
                   onChange={e => {
                     a[1] = parseInt(e.target.value)
                     setGame(prv => ({ ...prv }));

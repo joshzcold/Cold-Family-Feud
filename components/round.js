@@ -8,7 +8,7 @@ export default function Round(props){
       <div class="text-center">
         <div style={{borderWidth: 12}} class="border-black px-12 inline-block bg-gradient-to-tr
           my-10 from-blue-900 to-blue-500">
-          <p class="text-white"style={{textShadow: "1px 2px 4px black", fontSize: 72, fontWeight: 600}}>{props.game.point_tracker}</p>
+          <p class="text-white"style={{textShadow: "1px 2px 4px black", fontSize: 72, fontWeight: 600}}>{props.game.point_tracker[props.game.round]}</p>
         </div>
         <div class="my-5 flex flex-row justify-center">
           <p class="text-end text-3xl ">{round.question}</p>
