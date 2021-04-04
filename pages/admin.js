@@ -18,6 +18,8 @@ export default function Admin(props){
       } else if(json.action === "data"){
         setGame(json.data)
       }
+      // TODO if json.action === "error" throw up a visual error on the admin console
+
     };
   }, [])
 
@@ -59,7 +61,7 @@ export default function Admin(props){
                     reader.onload = function (evt) {
                       let data = JSON.parse(evt.target.result)
                       console.debug(data)
-                      // TODO some error checking for valid game data
+                      // TODO some error checking for invalid game data
                       ws.current.send(JSON.stringify({
                         action: "load_game", data: data
                       }))
