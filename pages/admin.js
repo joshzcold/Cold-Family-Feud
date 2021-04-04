@@ -29,10 +29,15 @@ export default function Admin(props){
   if(game.teams != null){
     let current_screen 
     if(game.title){
-      current_screen = "title screen"
-    } else if(game.is_final_round){
-      current_screen = "final round"
-    }else{
+      current_screen = "Title"
+    } 
+    else if(game.is_final_round &&  ! game.is_final_second){
+      current_screen = "Final Round 1"
+    }
+    else if(game.is_final_round &&  game.is_final_second){
+      current_screen = "Final Round 2"
+    }
+    else{
       current_screen = `Round ${game.round + 1}`
     }
 
@@ -189,6 +194,7 @@ export default function Admin(props){
               <button class="border-4 rounded-lg p-2" onClick={() => {
                 game.title = false
                 game.is_final_round = true
+                game.is_final_second = false
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
                 ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
@@ -274,20 +280,38 @@ export default function Admin(props){
               <div>
                 <div>
                   <div class="flex py-5 items-center flex-row space-x-5">
-                    <h2 class="text-2xl px-5">Final Round </h2>
-                    <button class="border-4 rounded-lg p-2" onClick={() => {
-                      game.is_final_second = true
-                      game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
-                      game.final_round.forEach(rnd => {
-                        rnd.selection = 0
-                        rnd.points = 0
-                        rnd.input = ""
-                        rnd.revealed = false
-                      })
-                      setGame(prv => ({ ...prv }))
-                      ws.current.send(JSON.stringify({action: "data", data: game}))
-                      ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[1]}))
-                    }}>Start Final Round 2</button>
+                    <h2 class="text-2xl px-5">Final Round {game.is_final_second? "2": "1"} </h2>
+                    {!game.is_final_second?
+                      <button class="border-4 rounded-lg p-2" onClick={() => {
+                        game.is_final_second = true
+                        game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
+                        game.final_round.forEach(rnd => {
+                          rnd.selection = 0
+                          rnd.points = 0
+                          rnd.input = ""
+                          rnd.revealed = false
+                          rnd.selection = 0
+                        })
+                        setGame(prv => ({ ...prv }))
+                        ws.current.send(JSON.stringify({action: "data", data: game}))
+                        ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[1]}))
+                      }}>Start Final Round 2</button>
+                      :
+                      <button class="border-4 rounded-lg p-2" onClick={() => {
+                        game.is_final_round = true
+                        game.is_final_second = false
+                        game.final_round.forEach(( rnd, index ) => {
+                          rnd.input = game.gameCopy[index]?.input
+                          rnd.points = game.gameCopy[index]?.points
+                          rnd.revealed = true
+                          rnd.selection = game.gameCopy[index]?.selection 
+                        })
+                        game.gameCopy = []
+                        setGame(prv => ({ ...prv }))
+                        ws.current.send(JSON.stringify({action: "data", data: game}))
+                        ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
+                      }}>Back to Final Round 1</button>
+                    }
 
                     <button class="border-4 rounded-lg p-2" onClick={() => {
                       if(game.is_final_second){
@@ -301,18 +325,22 @@ export default function Admin(props){
                       ws.current.send(JSON.stringify({action: "stop_timer"}))
                     }}>Stop Timer</button>
 
-                    {game.hide_first_round?
-                      <button class="border-4 rounded-lg p-2" onClick={() => {
-                        game.hide_first_round = false
-                        setGame(prv => ({ ...prv }))
-                        ws.current.send(JSON.stringify({action: "data", data: game}))
-                      }}>Reveal First Round Answers</button>
-                      :
-                      <button class="border-4 rounded-lg p-2" onClick={() => {
-                        game.hide_first_round = true
-                        setGame(prv => ({ ...prv }))
-                        ws.current.send(JSON.stringify({action: "data", data: game}))
-                      }}>Hide First Round Answers</button>
+                    {game.is_final_second? 
+                      <div>
+                      {game.hide_first_round?
+                        <button class="border-4 rounded-lg p-2" onClick={() => {
+                          game.hide_first_round = false
+                          setGame(prv => ({ ...prv }))
+                          ws.current.send(JSON.stringify({action: "data", data: game}))
+                        }}>Reveal First Round Answers</button>
+                        :
+                        <button class="border-4 rounded-lg p-2" onClick={() => {
+                          game.hide_first_round = true
+                          setGame(prv => ({ ...prv }))
+                          ws.current.send(JSON.stringify({action: "data", data: game}))
+                        }}>Hide First Round Answers</button>
+                      }
+                      </div>:null
                     }
                   </div>
 
@@ -324,7 +352,7 @@ export default function Admin(props){
                         x.input = e.target.value
                         setGame(prv => ({ ...prv }))
                       }}/>
-                      <select class="border-4 rounded-lg p-2" onChange={(e) => {
+                      <select value={x.selection} class="border-4 rounded-lg p-2" onChange={(e) => {
                         x.selection = parseInt(e.target.value)
                         setGame(prv => ({ ...prv }))
                         ws.current.send(JSON.stringify({action: "data", data: game}))

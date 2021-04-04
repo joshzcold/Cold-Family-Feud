@@ -2,22 +2,16 @@ import "tailwindcss/tailwind.css";
 
 export default function Final(props){
 
-  let round_one_total = 0
-  let round_two_total = 0
-  let final_score = 0
-  if(props.game.gameCopy != null){
-    props.game.gameCopy.forEach(round => {
-      console.log("round one total: ",round_one_total)
-      round_one_total = round_one_total + round.points
-    })
-    props.game.final_round.forEach(round => {
-      console.log("round two total", round_two_total)
-      round_two_total = round_two_total + round.points
-    })
-    final_score = round_one_total + round_two_total
-  }else{
-    props.game.final_round.forEach(round => {round_one_total = round_one_total + round.points})
-  }
+  let total = 0
+
+  props.game.gameCopy.forEach(round => {
+    console.debug("round one total: ",)
+    total = total + parseInt(round.points)
+  })
+  props.game.final_round.forEach(round => {
+    console.debug("round two total", total)
+    total = total + parseInt(round.points)
+  })
 
   return (
     <div class="text-center mt-24 mx-20" >
@@ -73,7 +67,7 @@ export default function Final(props){
             <div class="mt-6 flex justify-end">
               <div class="bg-black inline-block p-2 rounded">
                 <p class='font-bold uppercase text-3xl text-white'>
-                  total &nbsp;&nbsp;{final_score}</p>
+                  total &nbsp;&nbsp;{props.game.hide_first_round? 0:total}</p>
               </div>
             </div>
 
@@ -120,7 +114,7 @@ export default function Final(props){
             <div class="mt-6 flex justify-end ">
               <div class="bg-black inline-block p-2 rounded">
                 <p class='font-bold uppercase text-3xl text-white'>
-                  total &nbsp;&nbsp;{round_one_total}</p>
+                  total &nbsp;&nbsp;{total}</p>
               </div>
             </div>
           </div>
@@ -135,7 +129,7 @@ export default function Final(props){
       </div>
 
       <div class="text-center">
-        {final_score >= 200?
+        {total >= 200?
           <p class='text-5xl mt-10 text-green-800'>WIN!</p>:null
         }
       </div>

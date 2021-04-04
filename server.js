@@ -59,6 +59,7 @@ wss.on('connection', function connection(ws) {
         game_copy.title = true
         game_copy.rounds = message.data.rounds
         game_copy.final_round = message.data.final_round
+        game_copy.gameCopy = []
         game_copy.final_round_timers = message.data.final_round_timers
         game_copy.point_tracker = new Array(message.data.rounds.length).fill(0);
         wss.broadcast(JSON.stringify(game_copy));

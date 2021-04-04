@@ -17,7 +17,7 @@ export default function CreateGame(props){
       return {question: `question ${index +1}`,
         answers: [],
         "selection": 0,
-        "points": "",
+        "points": 0,
         "input": "",
         "revealed": false
       }
