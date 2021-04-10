@@ -18,8 +18,9 @@ const instance = axios.create({
 });
 
 let average = (array) => array.reduce((a, b) => a + b) / array.length;
-let registeredPlayers = {}
 let game = {
+  registeredPlayers: {},
+  buzzed:[],
   teams: [
     {
       name: "Team 1",
@@ -74,28 +75,28 @@ wss.on('connection', function connection(ws) {
       }
       else if (message.action === "registerbuzz"){
         let id = uuidv4()
-        while(!registeredPlayers[id]){
-          if(registeredPlayers[id]){
+        while(!game_copy.registeredPlayers[id]){
+          if(game_copy.registeredPlayers[id]){
             id = uuidv4() 
           }else{
-            registeredPlayers[id]={
+            game_copy.registeredPlayers[id]={
               latencies:[]
             }
             console.log("Registered player: ", id)
           }
         }
         // get inital latency, client pongs on registered
-        registeredPlayers[id].start = new Date()
+        game_copy.registeredPlayers[id].start = new Date()
         ws.send(JSON.stringify({action: "registered", id:id}))
 
         // get recurring latency
         setInterval(() => {
-          registeredPlayers[id].start = new Date()
+          game_copy.registeredPlayers[id].start = new Date()
           ws.send(JSON.stringify({action: "ping", id: id}))
         }, 5000)
       }
       else if (message.action === "pong"){
-        let player = registeredPlayers[message.id]
+        let player = game_copy.registeredPlayers[message.id]
         let end = new Date()
         let start = player.start
         let latency = end.getTime() - start.getTime()
@@ -104,7 +105,28 @@ wss.on('connection', function connection(ws) {
         }
         player.latencies.push(latency)
         player.latency = average(player.latencies)
-        console.log(`latencies: [${player.latencies}] avg-latency: ${player.latency}ms`)
+      }
+      else if (message.action === "buzz"){
+        let time = new Date().getTime() - game_copy.registeredPlayers[message.id].latency
+        if(game_copy.buzzed.length === 0){
+          game_copy.buzzed.unshift({id: message.id, time: time})
+        }else{
+          for(const [i,b] of game_copy.buzzed.entries()){
+            if(b.time < time){
+              // saved buzzed was quicker than incoming buzz
+              if(i === game_copy.buzzed.length -1){
+                game_copy.buzzed.push({ id: message.id, time: time })
+                break
+              }
+            }else{
+              game_copy.buzzed.splice(i, 0, { id: message.id, time: time });
+              break
+            }
+          }
+        }
+        console.log(game_copy.buzzed)
+        // ws.send(JSON.stringify({action: "buzzed"}))
+        wss.broadcast(JSON.stringify(game_copy));
       }
       else{
         wss.broadcast(JSON.stringify(message));

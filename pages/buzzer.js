@@ -7,6 +7,7 @@ function registerBuzzer(team, ws){
 export default function Buzzer(props){
   const ws = useRef(null)
   const [buzzerReg, setBuzzerReg] = useState()
+  const [buzzed, setBuzzed] = useState(false)
   const [game, setGame] = useState({})
   useEffect(() => {
     ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
@@ -23,6 +24,8 @@ export default function Buzzer(props){
         ws.current.send(JSON.stringify({action: "pong", id: `${ json.id }`}))
       }else if(json.action === "data"){
         setGame(json.data)
+      }else if(json.action === "buzzed"){
+        setBuzzed(true)
       }else if(json.action === "registered"){
         setBuzzerReg(json.id)
         ws.current.send(JSON.stringify({action: "pong", id: `${ json.id }`}))
@@ -36,9 +39,18 @@ export default function Buzzer(props){
       {buzzerReg != null? 
         <div>
         <div><h1>REGISTERED</h1></div>
-          <button class="hover:shadow-md rounded-md bg-blue-200 p-2">
+          {buzzed?
+          <button class="hover:shadow-md rounded-md bg-blue-200 p-2" >
+            BUZZED
+          </button>
+          :
+          <button class="hover:shadow-md rounded-md bg-blue-200 p-2" 
+            onClick={()=>{
+              ws.current.send(JSON.stringify({action: "buzz", id: `${buzzerReg}`}))
+            }}>
             BUZZ
           </button>
+          }
         </div>
         :
         <div>
@@ -53,6 +65,7 @@ export default function Buzzer(props){
                 onClick={()=>{registerBuzzer(1, ws)}}>
                 {game.teams[1].name}
               </button>
+              {/* TODO add in player name */}
             </div>
             :<p>Loading...</p>
           }
