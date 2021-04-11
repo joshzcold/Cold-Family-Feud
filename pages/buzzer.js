@@ -43,26 +43,23 @@ export default function Buzzer(props){
 
   if(game != null){
     return(
-      <div class="flex flex-col space-y-20">
-        <div style={{ width: "100%" }}>
-          <TitleLogo insert={game.title_text}/>
-        </div>
+      <div class="flex flex-col space-y-12">
         <div class="flex flex-col p-5 justify-center text-center space-y-5">
           {buzzerReg != null? 
             <div>
               {!game.title && !game.is_final_round?
                 <div class="flex flex-col space-y-12 justify-center">
                   <p class="text-2xl">{game.rounds[game.round].question}</p>
-                  {buzzed?
-                    <p>BUZZED</p>
-                    :
-                    <button class="hover:shadow-md rounded-md bg-red-600 p-2" 
-                      onClick={()=>{
+                  <div class="flex-grow" style={{width: "100%", textAlign:"center"}}>
+                    {buzzed?
+                      <img style={{width: "50%", display: "inline-block"}} src="buzzed.svg"/>
+                      :
+                      <img class="cursor-pointer" style={{width: "50%", display: "inline-block"}} onClick={() => {
                         ws.current.send(JSON.stringify({action: "buzz", id: `${buzzerReg}`}))
-                      }}>
-                      BUZZ
-                    </button>
-                  }
+                      }} src="buzz.svg"/>
+
+                    }
+                  </div>
                   <div class="border-4 rounded p-5 space-y-2 text-center">
                     <h1 class="text-2xl">Buzzer Order</h1>
                     <hr/>
@@ -90,17 +87,22 @@ export default function Buzzer(props){
                   </div>
                 </div>
                 :
-                <div>
-                  <h1>
+                <div class="flex flex-col min-h-screen justify-center items-center align-middle">
+                  <div>
+                  <p class="flex-grow text-2xl">
                     {game.is_final_round?
                         "Its the final round, view the game window":"Waiting for host to start"} 
-                  </h1>
+                  </p>
+                  </div>
                 </div>
               }
             </div>
             :
             <div>
               <div class="flex flex-col space-y-12">
+                <div class="" >
+                  <TitleLogo insert={game.title_text}/>
+                </div>
                 <div>
                   <h1 class="text-2xl">Team: {pickedTeam != null?
                       game.teams[pickedTeam].name: "pick your team"}</h1>
