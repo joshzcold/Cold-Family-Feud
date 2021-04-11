@@ -8,6 +8,7 @@ Features:
 - Game creator and loader. Look in `games/` folder for already created games
   load games in either `/new` or `/admin`
 - seperated admin console from game window
+- Buzzer functionality that accounts for latency with registered players. `/buzzer`
 - functional fast money round with appropriate controls
 - Changable title screen text
 - family feud sounds at triggered events
@@ -15,8 +16,6 @@ Features:
 - timers for fast money 1 and 2
 - game window screen can go back in history
 - changable team names
-
->Nextjs + React + Tail Wind css
 
 ## Start
 
@@ -69,3 +68,4 @@ and we can add it to the default games in `/games` 😀
 ![Example fast money ](doc/example_fast_money.png)
 ![Example admin console](doc/example_admin.png)
 
+>Nextjs + React + Tail Wind css
