@@ -33,6 +33,11 @@ export default function Home(){
                   Create Game
                 </button>
               </a>
+              <a href="/buzzer">
+                <button class="hover:shadow-md rounded-md bg-blue-200 p-2">
+                  Buzzer
+                </button>
+              </a>
               {/* <a href="/"> */}
               {/*   <button class="hover:shadow-md rounded-md bg-blue-200 p-2"> */}
               {/*     Instructions */}

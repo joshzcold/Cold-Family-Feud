@@ -14,10 +14,10 @@ export default function Admin(props){
     ws.current.onmessage = function (evt) { 
       var received_msg = evt.data;
       let json = JSON.parse(received_msg)
-      if(json.action == null ){
-        setGame(json)
-      } else if(json.action === "data"){
+      if(json.action === "data"){
         setGame(json.data)
+      }else{
+        console.error("did not expect admin: ", json)
       }
       // TODO if json.action === "error" throw up a visual error on the admin console
 
@@ -71,7 +71,7 @@ export default function Admin(props){
                       ws.current.send(JSON.stringify({
                         action: "load_game", data: data
                       }))
-                    }
+                     }
                     reader.onerror = function (evt) {
                       console.error("error reading file")
                     }
@@ -241,6 +241,31 @@ export default function Admin(props){
 
             {!game.is_final_round?
               <div>
+                  <div class="border-4 rounded m-5 p-5 space-y-2 text-center">
+                    <h1 class="text-2xl">Buzzer Order</h1>
+                    <hr/>
+                    <div>
+                      {game.buzzed.map((x,i) => 
+                      <div class="flex flex-row space-x-5 justify-center">
+                        <p>{i+1}. {game.registeredPlayers[x.id].name}</p>
+                        <p>team: {game.teams[game.registeredPlayers[x.id].team].name}</p>
+                        <p>time: {(((x.time - game.tick)/1000) % 60).toFixed(2)} seconds</p>
+                      </div>
+                      )}
+
+                      <hr/>
+                    </div>
+                    {game.buzzed.length > 0?
+                      <div class="flex flex-row items-center space-x-5">
+                        <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() => {
+                          ws.current.send(JSON.stringify({action: "clearbuzzers"}))
+                        }} >
+                          Clear Buzzers
+                        </button>
+                        <p class="text-black text-opacity-50">Changing rounds also clears buzzers</p>
+                      </div>:null
+                    }
+                  </div>
                 <div class="text-center">
                   <h2 class="text-2xl p-2 ">Game Board </h2>
                   <div class="text-center flex flex-row space-x-5 justify-center py-5">

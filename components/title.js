@@ -10,6 +10,18 @@ export default function Title(props){
 
   }, [])
 
+  function returnTeamMates(team){
+    let players = []
+    console.log(props.game)
+    Object.keys(props.game.registeredPlayers).forEach((k) => {
+    console.log(k)
+     if(props.game.registeredPlayers[k].team === team){
+      players.push(props.game.registeredPlayers[k].name)
+     }
+    })
+    console.log(players)
+    return players
+  }
 
   return (
     <div class="bg-gradient-to-t  items-center justify-center from-blue-500 flex via-blue-300 to-blue-500  min-h-screen">
@@ -20,8 +32,22 @@ export default function Title(props){
       }}  class="align-middle inline-block ">
         <TitleLogo insert={props.game.title_text} size={titleSize}/>
         <div class="flex flex-row text-center py-20">
-          <p class="text-4xl flex-grow text-white"> {props.game.teams[0].name}</p>
-          <p class="text-4xl flex-grow text-white"> {props.game.teams[1].name}</p>
+          <div class="flex-grow">
+            <p class="text-4xl flex-grow text-white"> {props.game.teams[0].name}</p>
+            {returnTeamMates(0).map(m => 
+            <div class="bg-blue-200 m-2 rounded">
+              <p class="font-bold">{m}</p>
+            </div>
+            )}
+          </div>
+          <div class="flex-grow">
+            <p class="text-4xl flex-grow text-white"> {props.game.teams[1].name}</p>
+            {returnTeamMates(1).map(m => 
+            <div class="bg-blue-200 m-2 rounded">
+              <p class="font-bold">{m}</p>
+            </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
