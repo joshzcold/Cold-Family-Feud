@@ -67,5 +67,6 @@ and we can add it to the default games in `/games` 😀
 ![Example rounds](doc/example_rounds.png)
 ![Example fast money ](doc/example_fast_money.png)
 ![Example admin console](doc/example_admin.png)
+![image](https://user-images.githubusercontent.com/36175703/114311740-2c688880-9aad-11eb-8c68-acc1a687fd1e.png)
 
 >Nextjs + React + Tail Wind css
