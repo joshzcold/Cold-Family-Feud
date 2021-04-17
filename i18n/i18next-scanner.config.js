@@ -19,8 +19,8 @@ module.exports = {
         defaultNs: 'translation',
         defaultValue: '__STRING_NOT_TRANSLATED__',
         resource: {
-            loadPath: './locales/{{lng}}/{{ns}}.js',
-            savePath: './locales/{{lng}}/{{ns}}.js',
+            loadPath: './public/locales/{{lng}}/{{ns}}.json',
+            savePath: './public/locales/{{lng}}/{{ns}}.json',
         },
         nsSeparator: false, // namespace separator
         keySeparator: false, // key separator
