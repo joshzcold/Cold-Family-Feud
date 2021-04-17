@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from 'react';
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
+import '../locales/i18n'
 import LanguageSwitcher from "../components/language"
-import "../locales/i18n";
 
 export default function Admin(props){
-  const{ t } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const [game, setGame] = useState({})
   const [pointsGivin, setPointsGivin] = useState({state: false, color:"bg-green-200", textColor:"text-black"})
@@ -21,6 +21,8 @@ export default function Admin(props){
       let json = JSON.parse(received_msg)
       if(json.action === "data"){
         setGame(json.data)
+      }else if (json.action === "change_lang"){
+        console.debug("Language Change", json.data)
       }else{
         console.error("did not expect admin: ", json)
       }
@@ -34,16 +36,16 @@ export default function Admin(props){
   if(game.teams != null){
     let current_screen 
     if(game.title){
-      current_screen = "Title"
+      current_screen = t("title")
     } 
     else if(game.is_final_round &&  ! game.is_final_second){
-      current_screen = "Final Round 1"
+      current_screen = t("finalRound", { count: 1 })
     }
     else if(game.is_final_round &&  game.is_final_second){
-      current_screen = "Final Round 2"
+      current_screen = t("finalRound", { count: 2 })
     }
     else{
-      current_screen = `Round ${game.round + 1}`
+      current_screen = t("round", {count: game.round + 1})
     }
 
     if(game.rounds != null){
@@ -54,10 +56,18 @@ export default function Admin(props){
     return (
       <div >
 
-        <div class="py-8">
-          <div class="flex flex-row px-10 items-center">
+        <div class="py-8 px-10 ">
+          <div class="flex flex-row space-x-5">
+            <p>{t("language")}:</p>
+            <LanguageSwitcher onChange={(e) => {
+              i18n.changeLanguage(e.target.value)
+              ws.current.send(JSON.stringify({
+                action: "change_lang", data: e.target.value
+              }))
+            }}/>
+          </div>
+          <div class="flex flex-row items-center">
 
-            <LanguageSwitcher/>
             <a href="/new" class="flex-grow">
               <button class="hover:shadow-md rounded-md bg-gray-100 p-2">
                 {t("newGame")}
@@ -83,10 +93,10 @@ export default function Admin(props){
                       console.error("error reading file")
                     }
                   }
-                }}>Submit</button>
+                }}>{t("submit")}</button>
               </div>
               <div class="flex flex-row">
-                <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">Load Game</span>
+                <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">{t("loadGame")}</span>
                 <div class="flex-grow"/>
               </div>
             </div>
@@ -94,27 +104,27 @@ export default function Admin(props){
         </div>
         <div class="">
           <div class="flex flex-row px-10 py-5">
-            <p class="flex-grow text-2xl">Title Text</p>
+            <p class="flex-grow text-2xl">{t("titleText")}</p>
             <div class="text-center flex-grow">
             </div>
             <input class="border-4 rounded" onChange={(e)=>{
               game.title_text = e.target.value
               setGame(prv => ({ ...prv }));
               ws.current.send(JSON.stringify({action: "data", data: game}))
-            }} placeholder="My Family"></input>
+            }} placeholder={t("myFamilyPlaceHolder")}></input>
           </div>
           <div class="px-10 py-5">
-          <p class="text-black text-opacity-50 ">"If the title looks wrong refresh /game window"</p>
+          <p class="text-black text-opacity-50 ">"{t("titleHelp")}"</p>
           </div>
           <div class="flex flex-row space-x-10 px-10 py-1">
-            <p class="text-2xl">Team 1 name:</p>
+            <p class="text-2xl">{t("teamOneName")}:</p>
             <input class="border-4 rounded" onChange={(e)=>{
               game.teams[0].name = e.target.value
               setGame(prv => ({ ...prv }));
               ws.current.send(JSON.stringify({action: "data", data: game}))
-            }} placeholder="Team Name"></input>
+            }} placeholder={t("teamNamePlaceHolder")}></input>
             <div class="flex flex-row">
-              <p class="text-2xl">points:</p>
+              <p class="text-2xl">{t("points")}:</p>
               <input type="number" min="0" required class="border-4 rounded" onChange={(e)=>{
                 let number = parseInt(e.target.value)
                 console.log(number)
@@ -126,14 +136,14 @@ export default function Admin(props){
             </div>
           </div>
           <div class="flex flex-row space-x-10 px-10 py-1">
-            <p class="text-2xl">Team 2 name:</p>
+            <p class="text-2xl">{t("teamTwoName")}:</p>
             <input class="border-4 rounded" onChange={(e)=>{
               game.teams[1].name = e.target.value
               setGame(prv => ({ ...prv }));
               ws.current.send(JSON.stringify({action: "data", data: game}))
-            }} placeholder="Team Name"></input>
+            }} placeholder={t("teamNamePlaceHolder")}></input>
             <div class="flex flex-row">
-              <p class="text-2xl">points:</p>
+              <p class="text-2xl">{t("points")}:</p>
               <input type="number" min="0" required class="border-4 rounded" onChange={(e)=>{
                 let number = parseInt(e.target.value)
                 isNaN(number)? number = 0: null
@@ -144,12 +154,14 @@ export default function Admin(props){
             </div>
           </div>
         </div>
-        <p class="text-4xl text-center pt-5"> Current Screen: {current_screen}</p>
+        <p class="text-4xl text-center pt-5"> {t("currentScreen")}: {current_screen}</p>
         {game.rounds == null?
-          <p class="text-2xl text-center py-20 text-black text-opacity-50">[Please load a game]</p>:
+          <p class="text-2xl text-center py-20 text-black text-opacity-50">
+            [{t("pleaseLoadGame")}]
+            </p>:
           <div>
             <div class="flex-row space-x-16 space-y-5">
-              <h2 class="text-2xl p-5">Controls</h2>
+              <h2 class="text-2xl p-5">{t("controls")}</h2>
 
               <button class="border-4 rounded-lg p-2" onClick={() => {
                 game.title = false
@@ -161,7 +173,7 @@ export default function Admin(props){
                 }))
                 setPointsGivin({state: false, color:"bg-green-200", textColor: "text-black"})
                 ws.current.send(JSON.stringify({action: "data", data: game}))
-              }}>start round 1</button>
+              }}>{t("startRoundOne")}</button>
 
               <button class="border-4 rounded-lg p-2" onClick={() => {
                 game.title = false
@@ -176,7 +188,7 @@ export default function Admin(props){
                 setPointsGivin({state: false, color:"bg-green-200", textColor: "text-black"})
                 console.log(game.round)
                 ws.current.send(JSON.stringify({action: "data", data: game}))
-              }}>next round</button>
+              }}>{t("nextRound")}</button>
 
               <select class="border-4 rounded-lg p-2"  value={game.round} onChange={(e) => {
                 game.round = parseInt(e.target.value)
@@ -190,13 +202,13 @@ export default function Admin(props){
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>
                 {game.rounds.map(( key, index ) =>
-                <option value={index}>Round {index +1}</option>)}
+                <option value={index}>{t("round",{count: index +1})}</option>)}
               </select>
               <button class="border-4 rounded-lg p-2" onClick={() => {
                 game.title = true
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
-              }}>title card</button>
+              }}>{t("titleCard")}</button>
 
               {game.final_round?
                 <button class="border-4 rounded-lg p-2" onClick={() => {
@@ -206,7 +218,7 @@ export default function Admin(props){
                   setGame(prv => ({ ...prv }))
                   ws.current.send(JSON.stringify({action: "data", data: game}))
                   ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
-                }}>final round</button>: null
+                }}>{t("finalRound")}</button>: null
               }
 
               <button disabled={pointsGivin.state} 
@@ -216,7 +228,7 @@ export default function Admin(props){
                 setPointsGivin({state: true, color:"bg-black-200", textColor: "text-gray-300"})
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
-              }}>Team 1: {game.teams[0].name} gets points</button>
+              }}>{t("team")} {t("number", {count: 1})}: {game.teams[0].name} {t("getsPoints")}</button>
               <button disabled={pointsGivin.state} 
                 class={`border-4 ${pointsGivin.color} rounded-lg p-2 ${pointsGivin.textColor}`}
                 onClick={() =>{
@@ -224,39 +236,38 @@ export default function Admin(props){
                 setPointsGivin({state: true, color:"bg-black-200", textColor: "text-gray-300"})
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
-              }}>Team 2: {game.teams[1].name} gets points</button>
+              }}>{t("team")} {t("number", {count: 2})}: {game.teams[1].name} {t("getsPoints")}</button>
               <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() =>{
                 if(game.teams[0].mistakes < 3) game.teams[0].mistakes++;
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
                 ws.current.send(JSON.stringify({action: "mistake", data: game.teams[0].mistake}))
-              }}>Team 1: {game.teams[0].name} mistake</button>
+              }}>{t("team")} {t("number", {count: 1})}: {game.teams[0].name} {t("mistake")}</button>
               <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() =>{
                 if(game.teams[1].mistakes < 3) game.teams[1].mistakes++;
                 setGame(prv => ({ ...prv }))
                 ws.current.send(JSON.stringify({action: "data", data: game}))
                 ws.current.send(JSON.stringify({action: "mistake", data: game.teams[1].mistake}))
-              }}>Team 2: {game.teams[1].name} mistake</button>
+              }}>{t("team")} {t("number", {count: 2})}: {game.teams[1].name} {t("mistake")}</button>
             </div>
             <div class="flex flex-row items-center space-x-5  p-5">
-              <h3 class="text-2xl ">Title Music </h3>
+              <h3 class="text-2xl ">{t("titleMusic")}</h3>
               <audio controls>
                 <source src="title.mp3" type="audio/mpeg"/>
-                Your browser does not support .mp3
               </audio>
             </div>
 
             {!game.is_final_round?
               <div>
                   <div class="border-4 rounded m-5 p-5 space-y-2 text-center">
-                    <h1 class="text-2xl">Buzzer Order</h1>
+                    <h1 class="text-2xl">{t("buzzerOrder")}</h1>
                     <hr/>
                     <div>
                       {game.buzzed.map((x,i) => 
                       <div class="flex flex-row space-x-5 justify-center">
-                        <p>{i+1}. {game.registeredPlayers[x.id].name}</p>
-                        <p>team: {game.teams[game.registeredPlayers[x.id].team].name}</p>
-                        <p>time: {(((x.time - game.tick)/1000) % 60).toFixed(2)} seconds</p>
+                        <p>{t("number", {count: i+1})}. {game.registeredPlayers[x.id].name}</p>
+                        <p>{t("team")}: {game.teams[game.registeredPlayers[x.id].team].name}</p>
+                        <p>{t("time")}: {(((x.time - game.tick)/1000) % 60).toFixed(2)} {t("seconds")}</p>
                       </div>
                       )}
 
@@ -267,21 +278,21 @@ export default function Admin(props){
                         <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() => {
                           ws.current.send(JSON.stringify({action: "clearbuzzers"}))
                         }} >
-                          Clear Buzzers
+                          {t("clearBuzzers")}
                         </button>
-                        <p class="text-black text-opacity-50">Changing rounds also clears buzzers</p>
+                        <p class="text-black text-opacity-50">{t("buzzerHelpText")}</p>
                       </div>:null
                     }
                   </div>
                 <div class="text-center">
-                  <h2 class="text-2xl p-2 ">Game Board </h2>
+                  <h2 class="text-2xl p-2 ">{t("gameBoard")}</h2>
                   <div class="text-center flex flex-row space-x-5 justify-center py-5">
-                    <h3 class="text-2xl"> Question:</h3>
+                    <h3 class="text-2xl">{t("question")}:</h3>
                     <p class="text-xl">{current_round.question}</p>
                   </div>
                   <div class="flex flex-row items-center space-x-5 justify-center pb-2">
-                    <h3 class="text-xl">Multiplier {current_round.multiply}x</h3>
-                    <h3 class="text-xl">Point Tracker: {game.point_tracker[game.round]}</h3>
+                    <h3 class="text-xl">{t("multiplier")} {t("number",{count:current_round.multiply})}x</h3>
+                    <h3 class="text-xl">{t("pointTracker")}: {t("number", { count: game.point_tracker[game.round] })}</h3>
                   </div>
                 </div>
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mb-10 mt-5 gap-3 ">
@@ -301,9 +312,9 @@ export default function Admin(props){
                       }
                       ws.current.send(JSON.stringify({action: "data", data: game}))
                     }}>
-                      {x.ans} {x.pnt}
+                      {x.ans} {t("number",{count:x.pnt})}
                       {x.trig?
-                        <span> - answered</span>:null
+                        <span> - {t("answered")}</span>:null
                       }
                     </button>
                   </div>
@@ -314,7 +325,9 @@ export default function Admin(props){
               <div>
                 <div>
                   <div class="flex py-5 items-center flex-row space-x-5">
-                    <h2 class="text-2xl px-5">Final Round {game.is_final_second? "2": "1"} </h2>
+                    <h2 class="text-2xl px-5">
+                      {t("finalRound", {count: game.is_final_second? "2": "1"})}  
+                    </h2>
                     {!game.is_final_second?
                       <button class="border-4 rounded-lg p-2" onClick={() => {
                         game.is_final_second = true
@@ -329,7 +342,7 @@ export default function Admin(props){
                         setGame(prv => ({ ...prv }))
                         ws.current.send(JSON.stringify({action: "data", data: game}))
                         ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[1]}))
-                      }}>Start Final Round 2</button>
+                      }}>{t("start")} {t("finalRound", {count: 2})}</button>
                       :
                       <button class="border-4 rounded-lg p-2" onClick={() => {
                         game.is_final_round = true
@@ -353,11 +366,11 @@ export default function Admin(props){
                       }else{
                         ws.current.send(JSON.stringify({action: "start_timer", data: game.final_round_timers[0]}))
                       }
-                    }}>Start Timer</button>
+                    }}>{t("startTimer")}</button>
 
                     <button class="border-4 rounded-lg p-2" onClick={() => {
                       ws.current.send(JSON.stringify({action: "stop_timer"}))
-                    }}>Stop Timer</button>
+                    }}>{t("stopTimer")}</button>
 
                     {game.is_final_second? 
                       <div>
@@ -366,13 +379,13 @@ export default function Admin(props){
                           game.hide_first_round = false
                           setGame(prv => ({ ...prv }))
                           ws.current.send(JSON.stringify({action: "data", data: game}))
-                        }}>Reveal First Round Answers</button>
+                        }}>{t("revealFirstRoundAnswers")}</button>
                         :
                         <button class="border-4 rounded-lg p-2" onClick={() => {
                           game.hide_first_round = true
                           setGame(prv => ({ ...prv }))
                           ws.current.send(JSON.stringify({action: "data", data: game}))
-                        }}>Hide First Round Answers</button>
+                        }}>{t("hideFirstRoundAnswers")}</button>
                       }
                       </div>:null
                     }
@@ -382,7 +395,7 @@ export default function Admin(props){
                   <div class="px-5">
                     <p class="text-xl pb-1">{x.question}</p>
                     <div class="flex flex-row space-x-10 pb-7">
-                      <input class="border-4 rounded" placeholder="answer" value={x.input} onChange={(e) => {
+                      <input class="border-4 rounded" placeholder={t("answer")} value={x.input} onChange={(e) => {
                         x.input = e.target.value
                         setGame(prv => ({ ...prv }))
                       }}/>
@@ -400,21 +413,21 @@ export default function Admin(props){
                           setGame(prv => ({ ...prv }))
                           ws.current.send(JSON.stringify({action: "data", data: game}))
                           ws.current.send(JSON.stringify({action: "final_wrong"}))
-                        }}>wrong</button>
+                        }}>{t("wrong")}</button>
 
                         <button class="border-4 rounded-lg p-2" onClick={() => {
                           x.revealed = true
                           setGame(prv => ({ ...prv }))
                           ws.current.send(JSON.stringify({action: "data", data: game}))
                           ws.current.send(JSON.stringify({action: "final_reveal"}))
-                        }}>reveal answer</button>
+                        }}>{t("revealAnswer")}</button>
 
                         <button class="border-4 rounded-lg p-2" onClick={() => {
                           x.points = x.answers[x.selection][1]
                           setGame(prv => ({ ...prv }))
                           ws.current.send(JSON.stringify({action: "data", data: game}))
                           ws.current.send(JSON.stringify({action: "final_submit"}))
-                        }}>submit</button>
+                        }}>{t("submit")}</button>
                       </div>
                     </div>
                   </div>
@@ -425,18 +438,12 @@ export default function Admin(props){
 
           </div>
         }
-        {/* <div> */}
-        {/*   <h2>Admin Actions</h2> */}
-        {/*   <button onClick={() => { */}
-        {/*     setGame(JSON.parse(JSON.stringify(reset))) */}
-        {/*   }}>Reset Game</button> */}
-        {/* </div> */}
       </div>
     )
   } else {
     return(
       <div>
-        <p>Loading ... </p>
+        <p>{t("loading")}</p>
       </div>
     )
   }
