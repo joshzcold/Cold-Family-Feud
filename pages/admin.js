@@ -1,7 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 import "tailwindcss/tailwind.css";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "../components/language"
+import "../locales/i18n";
 
 export default function Admin(props){
+  const{ t } = useTranslation();
+
   const [game, setGame] = useState({})
   const [pointsGivin, setPointsGivin] = useState({state: false, color:"bg-green-200", textColor:"text-black"})
   const ws = useRef(null)
@@ -51,9 +56,11 @@ export default function Admin(props){
 
         <div class="py-8">
           <div class="flex flex-row px-10 items-center">
+
+            <LanguageSwitcher/>
             <a href="/new" class="flex-grow">
               <button class="hover:shadow-md rounded-md bg-gray-100 p-2">
-                Create New Game
+                {t("newGame")}
               </button>
             </a>
             <div class="flex flex-col border-2  rounded-lg">
