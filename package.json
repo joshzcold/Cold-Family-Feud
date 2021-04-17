@@ -26,6 +26,10 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "parse-locales":"i18next-scanner --config ./i18n/i18next-scanner.config.js"
+  },
+  "devDependencies": {
+    "i18next-scanner": "^3.0.0"
   }
 }

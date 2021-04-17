@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import TitleLogo from "../components/title-logo"
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import '../locales/i18n'
+import '../i18n/i18n'
 
 export default function Buzzer(props){
   const { i18n, t } = useTranslation();

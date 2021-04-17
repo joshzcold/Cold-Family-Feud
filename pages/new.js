@@ -1,7 +1,7 @@
 import { useState, useEffect} from 'react';
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import '../locales/i18n'
+import '../i18n/i18n'
 import LanguageSwitcher from "../components/language"
 
 let gameTemplate ={

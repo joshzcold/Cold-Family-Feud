@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import '../locales/i18n'
+import '../i18n/i18n'
 
 export default function TitleLogo(props){
   const{ t } = useTranslation();

@@ -22,6 +22,8 @@ function toOptions(format) {
   // Handle case with no options, e.g. {{today, date}}
   if (format.trim() === "date") {
     return {};
+  } else if (format.trim() === "number"){
+    return {};
   } else {
     try {
       return JSON.parse(toJsonString(format));

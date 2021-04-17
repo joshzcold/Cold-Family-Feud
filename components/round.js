@@ -1,6 +1,6 @@
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import '../locales/i18n'
+import '../i18n/i18n'
 
 export default function Round(props){
   const{ t } = useTranslation();
