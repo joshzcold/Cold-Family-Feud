@@ -15,11 +15,14 @@ Features:
   (sounds are subject to copyright and will be changed later)
 - timers for fast money 1 and 2
 - game window screen can go back in history
-- changable team names
+- Changeable team names
+- Localization support
+  - English
+  - Español 
 
 ## Start
 
-in project root
+In project root
 
 ```
 npm run build
@@ -35,6 +38,8 @@ http://localhost:3000/admin
 Put /game on the projector/screen share. 
 
 you'll want to screen share using an application that shares your audio 
+
+Have your players go to http://[IP_ADDRESS]:3000/buzzer to register for the game
 
 ### Screen Share Audio Linux
 
@@ -52,14 +57,6 @@ In pulse audio choose outputs in the recording tab
 This will give you multiple recording sinks where you can attach one to your microphone and 
 one your the monitor of your desktop or headset. Resulting in output audio getting piped to your application
 
-## New Games
-
-go to `/new` to use the new game creator
-
-games are loaded in the admin console
-
-If you make a new game make a pull request
-and we can add it to the default games in `/games` 😀
 
 ## Screenshots
 
@@ -69,4 +66,26 @@ and we can add it to the default games in `/games` 😀
 ![Example admin console](doc/example_admin.png)
 ![image](https://user-images.githubusercontent.com/36175703/114311740-2c688880-9aad-11eb-8c68-acc1a687fd1e.png)
 
->Nextjs + React + Tail Wind css
+## Contributing
+
+Stack: Nextjs + React + Tail Wind css
+
+### Add Language
+Check out this link in the wiki: ![Link](https://github.com/joshzcold/Cold-Family-Feud/wiki/Add-A-New-Language)
+
+### New Games
+
+Go to `/new` to use the new game creator
+
+Games are loaded in the admin console
+
+If you make a new game make a pull request
+and we can add it to the default games in `/games` 😀
+
+Add your game to the language folder you created your game in
+
+For Example Español `games/es/my_spanish_game.json`
+
+For default games I would prefer that they follow a theme. 
+Like a holiday or topic like tech or media
+
