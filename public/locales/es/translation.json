@@ -56,7 +56,7 @@
   "roundItemNoPoints": "ronda numero {{count, number}} posee {{zero, number}} puntos número de respuesta {{answernum, number}}",
   "roundNoAnswers": "ronda numbero {{count, number}} no tiene respuestas",
   "roundNoPointMultiplier": "ronda numero {{count, number}} no tiene multiplicador de puntos",
-  "round": "ronda {{count, number}}",
+  "round": "ronda",
   "rounds": "rondas",
   "save": "grabar",
   "seconds": "segundos",

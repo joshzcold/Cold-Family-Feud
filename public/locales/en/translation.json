@@ -56,7 +56,7 @@
   "roundItemNoPoints": "round item {{count, number}} has {{zero, number}} points answer number {{answernum, number}}",
   "roundNoAnswers": "round number {{count, number}} has no answers",
   "roundNoPointMultiplier": "round number {{count, number}} has no point multipler",
-  "round": "Round {{count, number}}",
+  "round": "Round",
   "rounds": "Rounds",
   "save": "Save",
   "second": "sec",

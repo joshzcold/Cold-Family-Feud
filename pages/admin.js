@@ -45,7 +45,7 @@ export default function Admin(props){
       current_screen = t("finalRound", { count: 2 })
     }
     else{
-      current_screen = t("round", {count: game.round + 1})
+      current_screen = `${t("round")}${t("number",{count: game.round + 1})}`
     }
 
     if(game.rounds != null){
@@ -202,7 +202,7 @@ export default function Admin(props){
                 ws.current.send(JSON.stringify({action: "data", data: game}))
               }}>
                 {game.rounds.map(( key, index ) =>
-                <option value={index}>{t("round",{count: index +1})}</option>)}
+                <option value={index}>{t("round")} {t("number",{count: index +1})}</option>)}
               </select>
               <button class="border-4 rounded-lg p-2" onClick={() => {
                 game.title = true

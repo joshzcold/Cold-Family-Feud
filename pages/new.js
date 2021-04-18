@@ -4,7 +4,10 @@ import { useTranslation } from "react-i18next";
 import '../i18n/i18n'
 import LanguageSwitcher from "../components/language"
 
-let gameTemplate ={
+
+export default function CreateGame(props){
+  const{ t } = useTranslation();
+  let gameTemplate ={
     rounds:[
       {
         "question": "",
@@ -15,7 +18,8 @@ let gameTemplate ={
       },
     ],
     final_round: Array.from(Array(4), (x, index) => {
-      return {question: `question ${index +1}`,
+      return {
+        question: `${t("question")} ${t("number",{count:index+1})}`,
         answers: [],
         "selection": 0,
         "points": 0,
@@ -25,9 +29,6 @@ let gameTemplate ={
     }),
     final_round_timers: [20, 25]
   } 
-
-export default function CreateGame(props){
-  const{ t } = useTranslation();
   const [error, setError] = useState("")
   const [game, setGame] = useState(gameTemplate)
 
