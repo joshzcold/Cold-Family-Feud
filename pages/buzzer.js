@@ -1,8 +1,11 @@
 import { useState, useEffect, useRef } from 'react';
 import TitleLogo from "../components/title-logo"
 import "tailwindcss/tailwind.css";
+import { useTranslation } from "react-i18next";
+import '../i18n/i18n'
 
 export default function Buzzer(props){
+  const { i18n, t } = useTranslation();
   const ws = useRef(null)
   const [buzzerReg, setBuzzerReg] = useState()
   const [buzzed, setBuzzed] = useState(false)
@@ -25,11 +28,23 @@ export default function Buzzer(props){
         // server gets the average latency periodically
         ws.current.send(JSON.stringify({action: "pong", id: `${ json.id }`}))
       }else if(json.action === "data"){
+        if(json.data.title_text === "Change Me"){
+          json.data.title_text = t("changeMe")
+        }
+        if(json.data.teams[0].name === "Team 1"){
+          json.data.teams[0].name = `${ t("team") } ${t("number",{count:1})}`
+        }
+        if(json.data.teams[1].name === "Team 2"){
+          json.data.teams[1].name = `${ t("team") } ${t("number",{count:2})}`
+        }
         setGame(json.data)
       }else if(json.action === "buzzed"){
         setBuzzed(true)
       }else if(json.action === "clearbuzzers"){
         setBuzzed(false)
+      }else if (json.action === "change_lang"){
+        console.debug("Language Change", json.data)
+        i18n.changeLanguage(json.data)
       }else if(json.action === "registered"){
         setBuzzerReg(json.id)
         ws.current.send(JSON.stringify({action: "pong", id: `${ json.id }`}))
@@ -61,14 +76,14 @@ export default function Buzzer(props){
                     }
                   </div>
                   <div class="border-4 rounded p-5 space-y-2 text-center">
-                    <h1 class="text-2xl">Buzzer Order</h1>
+                    <h1 class="text-2xl">{t("buzzerOrder")}</h1>
                     <hr/>
                     <div>
                       {game.buzzed.map((x,i) => 
                       <div key={i} class="flex flex-row space-x-2  text-sm">
                         <div class="flex-grow">
                           <p class="truncate">
-                            {i+1}. {game.registeredPlayers[x.id].name}
+                            {t("number",{count: i+1})}. {game.registeredPlayers[x.id].name}
                           </p>
                         </div>
                         <div class="flex-grow">
@@ -78,7 +93,7 @@ export default function Buzzer(props){
                         </div>
                         <div class="flex-grow">
                           <p class="">
-                            {(((x.time - game.tick)/1000) % 60).toFixed(2)} sec
+                            {t("number",{count:(((x.time - game.tick)/1000) % 60).toFixed(2)})} {t("second")}
                           </p>
                         </div>
                       </div>
@@ -90,8 +105,7 @@ export default function Buzzer(props){
                 <div class="flex flex-col min-h-screen justify-center items-center align-middle">
                   <div>
                   <p class="flex-grow text-2xl">
-                    {game.is_final_round?
-                        "Its the final round, view the game window":"Waiting for host to start"} 
+                    {game.is_final_round?  t("buzzerFinalRoundHelpText"):t("buzzerWaiting")} 
                   </p>
                   </div>
                 </div>
@@ -104,13 +118,13 @@ export default function Buzzer(props){
                   <TitleLogo insert={game.title_text}/>
                 </div>
                 <div>
-                  <h1 class="text-2xl">Team: {pickedTeam != null?
+                  <h1 class="text-2xl">{t("team")}: {pickedTeam != null?
                       game.teams[pickedTeam].name: "pick your team"}</h1>
 
                 </div>
                 <div class="grid grid-cols-2 gap-4">
-                  <p class="text-2xl">Name:</p>
-                  <input class="border-4 rounded text-center" placeholder="✏️ Joe Family" id="nameInput" />
+                  <p class="text-2xl">{ t("name") }:</p>
+                  <input class="border-4 rounded text-center" placeholder={ `${t("randomName")}` } id="nameInput" />
                   <button class="hover:shadow-md rounded-md bg-blue-200 p-5"
                     onClick={()=>{setPickedTeam(0)}}>
                     {game.teams[0].name}
@@ -134,12 +148,12 @@ export default function Buzzer(props){
                         }))
                       }else{
                         let errors = []
-                        name == null || name === "" ? errors.push("input your name"): null
-                        pickedTeam == null? errors.push("pick your team"): null
-                        setError(errors.join(" and "))
+                        name == null || name === "" ? errors.push(t("buzzerNameError")): null
+                        pickedTeam == null? errors.push(t("buzzerTeamError")): null
+                        setError(errors.join(` ${t("and")} `))
                       }
                     }}>
-                    register
+                    {t("register")}
                   </button>
 
                 </div>
@@ -156,7 +170,7 @@ export default function Buzzer(props){
   }else{
     return(
       <div>
-        <p>Loading...</p>
+        <p>{t("loading")}</p>
       </div>
     )
   }

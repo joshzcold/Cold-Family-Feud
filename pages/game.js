@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from "react-i18next";
 import Title from '../components/title'
 import Round from '../components/round'
 import Final from '../components/final'
@@ -7,6 +8,7 @@ import "tailwindcss/tailwind.css";
 let timerInterval = null
 
 export default function Game(props){
+  const { i18n, t } = useTranslation();
   const [game, setGame] = useState({})
   const [timer, setTimer] = useState(0)
   let mistakes 
@@ -19,9 +21,16 @@ export default function Game(props){
     ws.onmessage = function (evt) { 
       var received_msg = evt.data;
       let json = JSON.parse(received_msg)
-      if(json.action == null ){
-        setGame(json)
-      } else if(json.action === "data"){
+      if(json.action === "data"){
+        if(json.data.title_text === "Change Me"){
+          json.data.title_text = t("changeMe")
+        }
+        if(json.data.teams[0].name === "Team 1"){
+          json.data.teams[0].name = `${ t("team") } ${t("number",{count:1})}`
+        }
+        if(json.data.teams[1].name === "Team 2"){
+          json.data.teams[1].name = `${ t("team") } ${t("number",{count:2})}`
+        }
         setGame(json.data)
       } else if(json.action === "mistake"){
         mistakes = <h1>X</h1>
@@ -57,7 +66,11 @@ export default function Game(props){
           }
         }, 1000)
 
-      }else{
+      }else if (json.action === "change_lang"){
+        console.debug("Language Change", json.data)
+        i18n.changeLanguage(json.data)
+      }
+      else{
         console.error("didn't expect", json)
       }
 
@@ -84,7 +97,7 @@ export default function Game(props){
   }else{
     return(
       <div>
-        <p>loading ...</p>
+        <p>{t("loading")}</p>
       </div>
     )
   }

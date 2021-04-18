@@ -9,10 +9,13 @@
     "autoprefixer": "^10.1.0",
     "axios": "^0.20.0",
     "express": "^4.17.1",
+    "i18next": "^20.2.1",
+    "i18next-browser-languagedetector": "^6.1.0",
     "next": "^10.0.3",
     "postcss": "^8.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.13",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "tailwindcss": "^2.0.2",
@@ -23,6 +26,10 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "parse-locales":"i18next-scanner --config ./i18n/i18next-scanner.config.js"
+  },
+  "devDependencies": {
+    "i18next-scanner": "^3.0.0"
   }
 }

@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+import '../i18n/i18n'
+
 export default function TitleLogo(props){
+  const{ t } = useTranslation();
   // don't recalculate offset if already set
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -177,7 +181,7 @@ export default function TitleLogo(props){
              text-anchor="middle"
              stroke-width="0.7"
              stroke-linejoin="round"
-             id="tspan38">Family</tspan></tspan></text>
+             id="tspan38">${t("family")}</tspan></tspan></text>
       <text
          y="59.118999"
          x="22.659"
@@ -196,7 +200,7 @@ export default function TitleLogo(props){
              stroke-linejoin="round"
              id="tspan46"><tspan
                style="-inkscape-font-specification:'C059 Bold'"
-               id="tspan44">Feud</tspan></tspan></tspan></text>
+               id="tspan44">${t("feud")}</tspan></tspan></tspan></text>
     </g>
     <text
        x="167.35628"
@@ -237,7 +241,7 @@ export default function TitleLogo(props){
            stroke="#000000"
            stroke-width="1.13319"
            stroke-linejoin="round"
-           id="tspan60">Family</tspan></tspan></text>
+           id="tspan60">${t("family")}</tspan></tspan></text>
     <text
        y="-25.209562"
        x="168.09608"
@@ -257,7 +261,7 @@ export default function TitleLogo(props){
            text-anchor="middle"
            stroke-width="1.13319"
            stroke-linejoin="round"
-           id="tspan66">Feud</tspan></tspan></text>
+           id="tspan66">${t("feud")}</tspan></tspan></text>
   </g>
 </svg>
   ` 

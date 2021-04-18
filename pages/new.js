@@ -1,5 +1,8 @@
 import { useState, useEffect} from 'react';
 import "tailwindcss/tailwind.css";
+import { useTranslation } from "react-i18next";
+import '../i18n/i18n'
+import LanguageSwitcher from "../components/language"
 
 let gameTemplate ={
     rounds:[
@@ -24,6 +27,7 @@ let gameTemplate ={
   } 
 
 export default function CreateGame(props){
+  const{ t } = useTranslation();
   const [error, setError] = useState("")
   const [game, setGame] = useState(gameTemplate)
 
@@ -43,18 +47,22 @@ export default function CreateGame(props){
   return (
     <div class="p-5">
       <div class="py-10 flex-col space-y-5">
-        <p class="text-3xl" >Rounds</p>
+        <div class="flex flex-row space-x-5">
+          <p>{t("language")}:</p>
+          <LanguageSwitcher/>
+        </div>
+        <p class="text-3xl" >{t("rounds")}</p>
         <div class="border-2 p-3 flex flex-col space-y-3">
           {game.rounds.map((r, index) => 
           <div class="border-2 p-3 flex flex-col space-y-3">
             <div class="flex space-x-3 flex-row">
-              <input class="p-2 border-2" value={r.question} placeholder="question"
+              <input class="p-2 border-2" value={r.question} placeholder={t("question")}
                 onChange={e => {
                   r.question = e.target.value
                   setGame(prv => ({ ...prv }));
                 }}
               />
-              <input type="number" min="1" class="p-2 border-2" value={r.multiply} placeholder="multiplier"
+              <input type="number" min="1" class="p-2 border-2" value={r.multiply} placeholder={t("multiplier")}
                 onChange={e => {
                   let value = parseInt(e.target.value)
                   if(value === 0 ){
@@ -68,13 +76,13 @@ export default function CreateGame(props){
             <div class="p-2 border-2">
               {r.answers.map((a, ain) => 
               <div class="flex flex-row space-x-3 pb-2" key={ain}>
-                <input class="p-2 border-2" value={a.ans} placeholder="answer"
+                <input class="p-2 border-2" value={a.ans} placeholder={t("answer")}
                   onChange={e => {
                     a.ans = e.target.value
                     setGame(prv => ({ ...prv }));
                   }}
                 />
-                <input type="number" min="0" class="p-2 border-2" value={a.pnt} placeholder="points"
+                <input type="number" min="0" class="p-2 border-2" value={a.pnt} placeholder={t("points")}
                   onChange={e => {
                     a.pnt = parseInt(e.target.value)
                     setGame(prv => ({ ...prv }));
@@ -94,13 +102,13 @@ export default function CreateGame(props){
                 r.answers.push( {ans:"", pnt:0, trig: false} )
                 setGame(prv => ({ ...prv }));
               }} class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md">
-                Answer +
+                {t("answer")} +
               </button >
               <button onClick={() => {
                 game.rounds.splice(index,1)
                 setGame(prv => ({ ...prv }));
               }} class="hover:shadow-md rounded-md bg-red-200 px-3 py-1 text-md">
-                Round -
+                {t("round")} -
               </button >
             </div>
           </div>
@@ -114,7 +122,7 @@ export default function CreateGame(props){
               })
               setGame(prv => ({ ...prv }));
             }} class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md">
-              Round +
+              {t("round")} +
             </button >
           </div>
         </div>
@@ -124,8 +132,8 @@ export default function CreateGame(props){
         <div class="flex flex-row space-x-10 items-end">
           <p class="text-3xl" >Fast Money </p>
           <div>
-          <p class="text-black text-opacity-50" >timer 1</p>
-          <input type="number" min="0" class="p-2 border-2" value={game.final_round_timers[0]} placeholder="timer 1"
+            <p class="text-black text-opacity-50" >{t("timer")} {t("number",{count:1})}</p>
+          <input type="number" min="0" class="p-2 border-2" value={game.final_round_timers[0]} placeholder={ `${t("timer")} ${t("number",{count:1})}` }
             onChange={e => {
               game.final_round_timers[0] = parseInt(e.target.value)
               setGame(prv => ({ ...prv }));
@@ -133,8 +141,8 @@ export default function CreateGame(props){
           />
           </div>
           <div>
-          <p class="text-black text-opacity-50" >timer 2</p>
-          <input type="number" min="0" class="p-2 border-2" value={game.final_round_timers[1]} placeholder="timer 2"
+            <p class="text-black text-opacity-50" >{t("timer")} {t("number",{count:2})}</p>
+          <input type="number" min="0" class="p-2 border-2" value={game.final_round_timers[1]} placeholder={ `${t("timer")} ${t("number",{count:2})}` }
             onChange={e => {
               game.final_round_timers[1] = parseInt(e.target.value)
               setGame(prv => ({ ...prv }));
@@ -160,7 +168,7 @@ export default function CreateGame(props){
                     setGame(prv => ({ ...prv }));
                   }}
                 />
-                <input type="number" min="0" class="p-2 border-2" value={a[1]} placeholder="points"
+                <input type="number" min="0" class="p-2 border-2" value={a[1]} placeholder={t("points")}
                   onChange={e => {
                     a[1] = parseInt(e.target.value)
                     setGame(prv => ({ ...prv }));
@@ -189,7 +197,7 @@ export default function CreateGame(props){
 
       {error !== ""?
         <div class="bg-red-500 p-2 rounded-md">
-          <p class="text-white font-semibold">ERROR:</p>
+          <p class="text-white font-semibold uppercase">{t("error")}:</p>
           <p class="text-white">{error}</p>
         </div>
         :null
@@ -201,45 +209,44 @@ export default function CreateGame(props){
             // ERROR checking
             let error = []
             if(game.rounds.length == 0 ){
-              error.push("You need to create some rounds to save the game")
+              error.push(t("createSomeRoundsError"))
             } 
             game.rounds.forEach((r, index) => {
               if(r.question === ""){
-               error.push(`round number ${index + 1} has an empty question` )
+                error.push(t("roundEmptyQuestionError",{count:index+1}))
               }
               if(r.multiply === "" || r.multiply === 0 || isNaN(r.multiply)){
-               error.push(`round number ${index + 1} has no point multipler` )
+                error.push(t("roundNoPointMultiplier", {count: index +1}))
               }
               if(r.answers.length === 0){
-               error.push(`round number ${index + 1} has no answers` )
+                error.push(t("roundNoAnswers", {count: index + 1}))
               }
               r.answers.forEach((a,aindex) => {
                 if(a.ans === ""){
-                  error.push(`round item ${index + 1} has empty answer at answer number ${aindex + 1}` )
+                  error.push(t("roundItemEmptyAnswer",{count: index +1, answernum: aindex+ 1}))
                 }
                 if(a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)){
-
-                  error.push(`round item ${index + 1} has 0 points answer number ${aindex + 1}` )
+                  error.push(t("roundItemNoPoints",{count: index +1,zero:0, answernum: aindex+ 1}))
                 }
-
               })
             })
 
             game.final_round.forEach((a, index) => {
               if(a.question === ""){
-               error.push(`final round item ${index + 1} has empty question` )
+                error.push(t("finalRoundEmptyQuestion",{count:index+1}))
               }
 
               if(a.answers.length === 0){
+                error.push(t("finalRoundNoAnswer",{count:index+1}))
                error.push(`final round item ${index + 1} has no answers` )
               }
               a.answers.forEach((ans, aindex) => {
                 if(ans[0] === ""){
-                  error.push(`final round item ${index + 1} has empty answer at answer number ${aindex + 1}` )
+                  error.push(t("finalItemEmptyAnswer",{count: index +1,answernum: aindex+ 1}))
                 }
                 if(ans[1] === "" || ans[1] === 0 || isNaN(ans[1]) ){
 
-                  error.push(`final round item ${index + 1} has 0 points answer number ${aindex + 1}` )
+                  error.push(t("finalItemNoPoints",{count: index +1, zero: 0, answernum: aindex+ 1}))
                 }
               })
             })
@@ -248,12 +255,12 @@ export default function CreateGame(props){
             if(error.length === 0){
               setError("")
               downloadToFile(JSON.stringify(game),
-                'new-cold-feud.json', 'text/json') 
+                `${t("downloadFile")}.json`, 'text/json') 
             }else{
               setError(error.join(", "))
             }
           }}>
-          Save
+          {t("save")}
         </button>
         <div class="flex flex-col border-2  rounded-lg">
           <div class="p-2 ml-4 items-center transform translate-y-3">
@@ -276,10 +283,10 @@ export default function CreateGame(props){
                   console.error("error reading file")
                 }
               }
-            }}>Submit</button>
+            }}>{t("submit")}</button>
           </div>
           <div class="flex flex-row">
-            <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">Load Game</span>
+            <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">{t("loadGame")}</span>
             <div class="flex-grow"></div>
           </div>
         </div>
