@@ -357,7 +357,7 @@ export default function Admin(props){
                         setGame(prv => ({ ...prv }))
                         ws.current.send(JSON.stringify({action: "data", data: game}))
                         ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[0]}))
-                      }}>Back to Final Round 1</button>
+                      }}>{t("backTo")} {t("finalRound")} {t("number",{count: 1})}</button>
                     }
 
                     <button class="border-4 rounded-lg p-2" onClick={() => {
