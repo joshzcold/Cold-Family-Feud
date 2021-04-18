@@ -71,7 +71,7 @@ one your the monitor of your desktop or headset. Resulting in output audio getti
 Stack: Nextjs + React + Tail Wind css
 
 ### Add Language
-Check out this link in the wiki: ![Link](https://github.com/joshzcold/Cold-Family-Feud/wiki/Add-A-New-Language)
+Check out this link in the wiki: [Link](https://github.com/joshzcold/Cold-Family-Feud/wiki/Add-A-New-Language)
 
 ### New Games
 
