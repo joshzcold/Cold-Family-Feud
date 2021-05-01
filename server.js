@@ -63,9 +63,7 @@ wss.on('connection', function connection(ws) {
         if(message.file != null && message.lang != null){
           let data = fs.readFileSync( `games/${message.lang}/${message.file}`)
           let loaded = data.toString()
-          console.log(loaded)
           message.data = JSON.parse(loaded)
-          console.log(message)
         }
 
         game_copy.teams[0].points = 0
@@ -146,9 +144,7 @@ wss.on('connection', function connection(ws) {
         wss.broadcast(JSON.stringify({action: "clearbuzzers"}));
       }
       else if (message.action === "change_lang"){
-        console.log(message.data) 
         fs.readdir(`games/${message.data}/`, (err, files) => {
-          console.log(files);
           if(err){console.error(err)}
           wss.broadcast(JSON.stringify({
             action: "change_lang",
