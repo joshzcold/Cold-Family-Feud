@@ -11,7 +11,6 @@ export default function Game(props){
   const { i18n, t } = useTranslation();
   const [game, setGame] = useState({})
   const [timer, setTimer] = useState(0)
-  let mistakes 
   useEffect(() => {
     var ws = new WebSocket(`ws://${ window.location.hostname }:8080`);
     ws.onopen = function() {
@@ -33,7 +32,6 @@ export default function Game(props){
         }
         setGame(json.data)
       } else if(json.action === "mistake"){
-        mistakes = <h1>X</h1>
         var audio = new Audio('wrong.mp3');
         audio.play();
       } else if(json.action === "reveal"){
@@ -90,7 +88,6 @@ export default function Game(props){
 
   return (
     <div>
-      {mistakes}
       {gameSession}
     </div>
   )

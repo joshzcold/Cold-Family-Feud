@@ -70,31 +70,30 @@ export default function Round(props){
           </div>
         </div>
       </div>
-      <div class="text-3xl flex flex-row text-center justify-around ">
-        <div class="flex flex-row items-center space-x-5">
+      <div class="flex flex-row justify-around">
+        <div class="text-3xl flex flex-col text-center space-y-2">
           <div class="bg-gradient-to-tr from-blue-900 to-blue-500">
             <p class="p-5 uppercase text-white"
-            style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[0].name}</p>
+              style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[0].name}</p>
           </div>
           <div class="flex justify-center flex-row text-center space-x-5">
             {Array(props.game.teams[0].mistakes).fill(
-              <img class="w-24" src="x.svg"/>
+              <img class="w-14" src="x.svg"/>
             )}
           </div>
-
         </div>
-        <div class="flex flex-row items-center space-x-5">
-          <div class="flex justify-center flex-row text-center space-x-5">
-            {Array(props.game.teams[1].mistakes).fill(
-              <img class="w-24" src="x.svg"/>
-            )}
-          </div>
+        <div class="text-3xl flex flex-col text-center space-y-2">
           <div class="bg-gradient-to-tr from-blue-900 to-blue-500">
             <p class="p-5 uppercase text-white"
-            style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[1].name}</p>
+              style={{fontSize: 48, fontWeight:600,textShadow: "1px 2px 4px black"}}>{props.game.teams[1].name}</p>
           </div>
-
+          <div class="flex justify-center flex-row text-center space-x-5">
+            {Array(props.game.teams[1].mistakes).fill(
+              <img class="w-14" src="x.svg"/>
+            )}
+          </div>
         </div>
+
       </div>
     </div>
   )
