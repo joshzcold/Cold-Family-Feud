@@ -39,10 +39,10 @@ export default function Admin(props){
       current_screen = t("title")
     } 
     else if(game.is_final_round &&  ! game.is_final_second){
-      current_screen = t("finalRound") + t("number",{ count: 1 }) 
+      current_screen = `${t("finalRound")} ${t("number",{ count: 1 })}` 
     }
     else if(game.is_final_round &&  game.is_final_second){
-      current_screen = t("finalRound") + t("number",{ count: 2 }) 
+      current_screen = `${t("finalRound")} ${t("number",{ count: 2 })}` 
     }
     else{
       current_screen = `${t("round")}${t("number",{count: game.round + 1})}`
