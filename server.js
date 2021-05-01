@@ -3,6 +3,8 @@ const { parse } = require('url')
 const next = require('next')
 const axios = require('axios')
 const https = require('https')
+const fs = require("fs")
+const path = require( "path" );
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
@@ -58,6 +60,14 @@ wss.on('connection', function connection(ws) {
       process.stdout.write(".");
       message = JSON.parse(message)
       if(message.action === "load_game"){
+        if(message.file != null && message.lang != null){
+          let data = fs.readFileSync( `games/${message.lang}/${message.file}`)
+          let loaded = data.toString()
+          console.log(loaded)
+          message.data = JSON.parse(loaded)
+          console.log(message)
+        }
+
         game_copy.teams[0].points = 0
         game_copy.teams[1].points = 0
         game_copy.round = 0
@@ -134,6 +144,18 @@ wss.on('connection', function connection(ws) {
         game_copy.tick = new Date().getTime()
         wss.broadcast(JSON.stringify({action: "data", data: game_copy}));
         wss.broadcast(JSON.stringify({action: "clearbuzzers"}));
+      }
+      else if (message.action === "change_lang"){
+        console.log(message.data) 
+        fs.readdir(`games/${message.data}/`, (err, files) => {
+          console.log(files);
+          if(err){console.error(err)}
+          wss.broadcast(JSON.stringify({
+            action: "change_lang",
+            data: message.data,
+            games: files
+          }));
+        })
       }
       else if (message.action === "buzz"){
         let time = new Date().getTime() - game_copy.registeredPlayers[message.id].latency

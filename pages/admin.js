@@ -9,10 +9,14 @@ export default function Admin(props){
 
   const [game, setGame] = useState({})
   const [pointsGivin, setPointsGivin] = useState({state: false, color:"bg-green-200", textColor:"text-black"})
+  const [gameSelector, setGameSelector] = useState([])
   const ws = useRef(null)
   useEffect(() => {
     ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
     ws.current.onopen = function() {
+      ws.current.send(JSON.stringify({
+        action: "change_lang", data: i18n.language
+      }))
       console.log("game connected to server");
     };
 
@@ -23,6 +27,11 @@ export default function Admin(props){
         setGame(json.data)
       }else if (json.action === "change_lang"){
         console.debug("Language Change", json.data)
+        if(json.games != null){
+          setGameSelector(json.games)
+        }else{
+          setGameSelector([])
+        }
       }else{
         console.error("did not expect admin: ", json)
       }
@@ -74,10 +83,29 @@ export default function Admin(props){
               </button>
             </a>
             <div class="flex flex-col border-2  rounded-lg">
-              <div class="p-2 ml-4 items-center transform translate-y-3">
-                <input type="file" class="" id="gamePicker" accept=".json"/>
-                <button class="hover:shadow-md rounded-md p-2 bg-blue-200" onClick={() => {
+              <div class=" justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
+                {gameSelector.length > 0?
+                  <select onChange={(e) => {
+                      ws.current.send(JSON.stringify({
+                        action: "load_game",
+                        file: e.target.value, lang: i18n.language
+                      }))
+                    }} >
+                    <option disabled selected value></option>
+                    {gameSelector.map((value, index) => <option key={index} value={value}>
+                      {value.replace(".json","")}
+                    </option>)}
+                  </select>: null
+                }
+                <div class="image-upload w-6">
+                  <label for="gamePicker">
+                    <svg class="fill-current text-gray-400 hover:text-gray-600 cursor-pointer" viewBox="0 0 384 512" >
+                      <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
+                    </svg>
+                  </label>
+                  <input class="hidden" type="file" accept=".json" id="gamePicker" onChange={(e) => {
                   var file = document.getElementById("gamePicker").files[0];
+                    console.log(file)
                   if (file) {
                     var reader = new FileReader();
                     reader.readAsText(file, 'utf-8');
@@ -93,10 +121,13 @@ export default function Admin(props){
                       console.error("error reading file")
                     }
                   }
-                }}>{t("submit")}</button>
+                  }}/>
+                </div>
               </div>
               <div class="flex flex-row">
-                <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">{t("loadGame")}</span>
+                <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">
+                {t("loadGame")}
+                </span>
                 <div class="flex-grow"/>
               </div>
             </div>
