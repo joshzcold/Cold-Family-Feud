@@ -48,10 +48,10 @@ export default function Admin(props){
       current_screen = t("title")
     } 
     else if(game.is_final_round &&  ! game.is_final_second){
-      current_screen = t("finalRound", { count: 1 })
+      current_screen = `${t("finalRound")} ${t("number",{ count: 1 })}` 
     }
     else if(game.is_final_round &&  game.is_final_second){
-      current_screen = t("finalRound", { count: 2 })
+      current_screen = `${t("finalRound")} ${t("number",{ count: 2 })}` 
     }
     else{
       current_screen = `${t("round")}${t("number",{count: game.round + 1})}`
@@ -357,7 +357,7 @@ export default function Admin(props){
                 <div>
                   <div class="flex py-5 items-center flex-row space-x-5">
                     <h2 class="text-2xl px-5">
-                      {t("finalRound", {count: game.is_final_second? "2": "1"})}  
+                      {t("finalRound")} {t("number",{count: game.is_final_second? "2": "1"})}
                     </h2>
                     {!game.is_final_second?
                       <button class="border-4 rounded-lg p-2" onClick={() => {
@@ -373,7 +373,7 @@ export default function Admin(props){
                         setGame(prv => ({ ...prv }))
                         ws.current.send(JSON.stringify({action: "data", data: game}))
                         ws.current.send(JSON.stringify({action: "set_timer", data: game.final_round_timers[1]}))
-                      }}>{t("start")} {t("finalRound", {count: 2})}</button>
+                      }}>{t("start")} {t("finalRound")} {t("number", {count: 2})}</button>
                       :
                       <button class="border-4 rounded-lg p-2" onClick={() => {
                         game.is_final_round = true

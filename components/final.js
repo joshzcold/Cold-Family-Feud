@@ -28,14 +28,15 @@ export default function Final(props){
                 {props.game.gameCopy.map(copy => 
                 <div class="flex space-x-2">
                   <div class="bg-black font-extrabold uppercase items-center text-center p-5 rounded flex-grow ">
-                    {props.game.hide_first_round? null:
-                    <p class="flex-grow text-2xl">{copy.input}</p>
-                    }
+                      <p class={`flex-grow text-2xl 
+                        ${props.game.hide_first_round? "invisible": ""}`}>
+                        {copy.input}
+                      </p>
                   </div>
                   <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
-                    {props.game.hide_first_round? null:
-                    <p class="text-2xl">{t("number", {count:copy.points })}</p>
-                    }
+                    <p class={`flex-grow text-2xl ${props.game.hide_first_round? "invisible":""}`}>
+                      {t("number", {count:copy.points })}
+                    </p>
                   </div>
                 </div>
                 )}
@@ -50,7 +51,10 @@ export default function Final(props){
                       <div class="flex">
                         <p class="flex-grow text-2xl">{x.input}</p>
                       </div>
-                      :null
+                      :
+                      <div class="flex">
+                        <p class="flex-grow text-2xl">&nbsp;</p>
+                      </div>
                     }
                   </div>
                   <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
@@ -58,7 +62,10 @@ export default function Final(props){
                       <div class="flex">
                         <p class="text-2xl">{t("number", {count: x.points})}</p>
                       </div>
-                      :null
+                      :
+                      <div class="flex">
+                        <p class="text-2xl">&nbsp;</p>
+                      </div>
                     }
                   </div>
                 </div>
