@@ -23,6 +23,27 @@ function makeRoom(length = 4) {
   return result.join('');
 }
 
+
+function pingInterval(game, id, ws){
+  // get recurring latency
+  console.debug("Setting ping interval for player: ", id)
+  let interval = setInterval(() => {
+    try{
+      if(ws.readyState === WebSocket.CLOSED 
+        || ws.readyState === WebSocket.CLOSING){
+        console.debug("Player disconnected, closing ping", id)
+        clearInterval(interval)
+      }else{
+        game.registeredPlayers[id].start = new Date()
+        ws.send(JSON.stringify({action: "ping", id: id}))
+      }
+    }catch(e){
+      console.log("Player disconnected? ", e)
+      clearInterval(interval)
+    }
+  }, 5000)
+}
+
 // loop until we register the host with an id
 function registerPlayer(roomCode, host = false, message = {}, ws){
   let id = uuidv4()
@@ -33,14 +54,14 @@ function registerPlayer(roomCode, host = false, message = {}, ws){
     }else{
       if(host){
         game.registeredPlayers[id] = "host"
-        rooms[roomCode].connections.push(ws) 
+        rooms[roomCode].connections[id] = ws
         console.log("Registered player as host: ", id, roomCode)
       }else{
         game.registeredPlayers[id] = {
           role: "player",
           name: message.name,
         }
-        rooms[roomCode].connections.push(ws) 
+        rooms[roomCode].connections[id] = ws
         console.log("Registered player: ", id, message.name, roomCode)
       }
     }
@@ -50,13 +71,14 @@ function registerPlayer(roomCode, host = false, message = {}, ws){
 
 let average = (array) => array.reduce((a, b) => a + b) / array.length;
 /*
- * 1. starting screen / has a place to start hosting a room => /admin
- * 2. when registering the room, store user's web socket connections in room object
- * 3. keep track of who is host 
- * 4. keep track of each ws connection matched to a user
- * 5. only broadcast to those connected to the room
+ * TODO
+ * ✅ 1. starting screen / has a place to start hosting a room => /admin
+ * ✅ 2. when registering the room, store user's web socket connections in room object
+ * ✅ 3. keep track of who is host 
+ * ✅ 4. keep track of each ws connection matched to a user
+ * ✅ 5. only broadcast to those connected to the room
  *
- * - store all sessions in cookies/browser. refresh should bring you back in
+ * ✅ - store all sessions in cookies/browser. refresh should bring you back in
  * - recurring check to see if a user is still connected (sry adam).
  *      show if they are disconnected and try to reconnect them
  * - after no activity on a room for an hour, clear room
@@ -95,8 +117,8 @@ const wss = new WebSocket.Server({ port: 8080 });
 
 wss.broadcast = function(room,data) {
   if(rooms[room]){
-    rooms[room].connections.forEach(rp => {
-      rp.send(data)
+    Object.keys(rooms[room].connections).forEach(rp => {
+      rooms[room].connections[rp].send(data)
     })
   }else{
     console.error("room code not found in rooms", room)
@@ -104,6 +126,12 @@ wss.broadcast = function(room,data) {
 };
 
 wss.on('connection', function connection(ws, req) {
+  ws.on('error', (error) => {
+    //handle error
+    console.error(error)
+    ws.close()
+  })
+
   ws.on('message', function incoming(message) {
     try{
       process.stdout.write(".");
@@ -137,7 +165,7 @@ wss.on('connection', function connection(ws, req) {
 
         rooms[roomCode] = {}
         rooms[roomCode].game = JSON.parse(JSON.stringify(game));  
-        rooms[roomCode].connections = []
+        rooms[roomCode].connections = {}
 
         let id = registerPlayer(roomCode, true, {}, ws)
 
@@ -152,17 +180,37 @@ wss.on('connection', function connection(ws, req) {
         let roomCode = message.room.toUpperCase()
         console.log("joining room",roomCode)
         if(rooms[roomCode]){
-
           let id = registerPlayer(roomCode, false, message, ws)
-
           ws.send(JSON.stringify({ 
             action: "join_room", room: roomCode,
             game: rooms[roomCode].game,
             id: id
           }))
+
         }else{
           // TODO errors sent from server should be internationalized
           ws.send(JSON.stringify({action: "error", message:"room not found"}))
+        }
+      }
+      else if (message.action === "get_back_in"){
+        let [room_code, user_id, team] = message.session.split(':')
+        if(rooms[room_code]){
+          if(rooms[room_code].game.registeredPlayers[user_id]){
+            console.debug("user session get_back_in:", room_code, user_id, team)
+            // set the new websocket connection
+            rooms[room_code].connections[user_id] = ws
+            ws.send(JSON.stringify({ 
+              action: "get_back_in", room: room_code,
+              game: rooms[room_code].game,
+              id: user_id, 
+              player:rooms[room_code].game.registeredPlayers[user_id],
+              team: parseInt(team)
+            }))
+
+            if(Number.isInteger(parseInt(team))){
+              pingInterval(rooms[room_code].game, user_id, ws)
+            }
+          }
         }
       }
       else if (message.action === "data"){
@@ -196,15 +244,7 @@ wss.on('connection', function connection(ws, req) {
         }catch(e){
           console.error("Problem in register ", e)
         }
-        // get recurring latency
-        setInterval(() => {
-          try{
-            game.registeredPlayers[id].start = new Date()
-            ws.send(JSON.stringify({action: "ping", id: id}))
-          }catch(e){
-            console.log("Player disconnected? ", e)
-          }
-        }, 5000)
+        pingInterval(game, id, ws)
       }
       else if (message.action === "pong"){
         let game = rooms[message.room].game

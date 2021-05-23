@@ -6,80 +6,93 @@ import '../i18n/i18n'
 import LanguageSwitcher from "../components/language"
 import Admin from "../components/admin"
 import Buzzer from "../components/buzzer"
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+import cookieCutter from 'cookie-cutter'
 
 export default function Home(){
-  const{ t } = useTranslation();
+  const { t } = useTranslation();
   const [playerName, setPlayerName] = useState("")
   const [roomCode, setRoomCode] = useState("")
   const [error, setError] = useState("")
   const [registeredRoomCode, setRegisteredRoomCode] = useState(null)
   const [host, setHost] = useState(false)
   const [game, setGame] = useState({})
+  const [team, setTeam] = useState(null)
   const [playerID, setPlayerID] = useState(null)
 
   const ws = useRef(null)
 
-  function createSocket(host = false){
-    function joinOrHost(host){
-      if(host){
-        ws.current.send(JSON.stringify({
-          action:"host_room"
-        }))
-      }else{
-        ws.current.send(JSON.stringify({
-          action:"join_room", room: roomCode, name: playerName
-        }))
-      }
-    }
-    if(ws.current === null){
-      ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
-      ws.current.onopen = function() {
-        console.debug("game connected to server", ws.current);
-        joinOrHost(host)
-      };
-
-      ws.current.onmessage = function (evt) { 
-        var received_msg = evt.data;
-        let json = JSON.parse(received_msg)
-        if(json.action === "host_room"){
-          console.debug("registering room with host", json.room)
-          setPlayerID(json.id)
-          setHost(true)
-          setRegisteredRoomCode(json.room)
-          setGame(json.game)
-        }
-        else if (json.action === "join_room"){
-          console.debug("Joining room with room code: ", json.room)
-          setPlayerID(json.id)
-          setRegisteredRoomCode(json.room)
-          setGame(json.game)
-        }
-        else if (json.action === "error"){
-          console.error(json.message)
-          setError(json.message)
-        }
-        else{
-          console.error("did not expect in index.js: ", json)
-        }
-      };
+  function quitGame(){
+    if(host){
+      // quit the game and log everyone out by deleting the room
     }else{
-      joinOrHost(host)
+      // logout of the individual player
     }
   }
 
-  function registerRoom(){
-    createSocket(true)  
+  useEffect(() => {
+    ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
+    ws.current.onopen = function() {
+      console.debug("game connected to server", ws.current);
+      let session = cookieCutter.get('session')
+      if(session != null){
+        console.debug("found user session", session)
+        ws.current.send(JSON.stringify({action:"get_back_in", session: session}))
+      }
+    };
+
+    ws.current.onmessage = function (evt) { 
+      var received_msg = evt.data;
+      let json = JSON.parse(received_msg)
+      if(json.action === "host_room"){
+        console.debug("registering room with host", json.room)
+        setPlayerID(json.id)
+        setHost(true)
+        setRegisteredRoomCode(json.room)
+        setGame(json.game)
+        cookieCutter.set('session', `${json.room}:${json.id}`)
+      }
+      else if (json.action === "join_room"){
+        console.debug("Joining room : ", json)
+        setPlayerID(json.id)
+        setRegisteredRoomCode(json.room)
+        setGame(json.game)
+        if(json.team != null){setTeam(json.team)}
+      }
+      else if (json.action === "get_back_in"){
+        console.debug("Getting back into room", json)
+        if(json.player === "host"){
+          setHost(true)
+        }
+        if(Number.isInteger(json.team)){
+          setTeam(json.team)
+        }
+        setPlayerID(json.id)
+        setRegisteredRoomCode(json.room)
+        setGame(json.game)
+      }
+      else if (json.action === "error"){
+        console.error(json.message)
+        setError(json.message)
+      }
+      else{
+        console.error("did not expect in index.js: ", json)
+      }
+    };
+  }, [])
+
+  function hostRoom(){
+    ws.current.send(JSON.stringify({
+      action:"host_room"
+    }))
   }
 
   function joinRoom(){
     setError("")
     if(roomCode.length === 4){
       if(playerName.length > 0){
-        createSocket(false)  
+        ws.current.send(JSON.stringify({
+          action:"join_room", room: roomCode, name: playerName
+        }))
       }else{
         setError(t("input your name"))
       }
@@ -89,10 +102,19 @@ export default function Home(){
   }
 
   if(registeredRoomCode !== null && host){
-    return(<Admin ws={ws} game={game} id={playerID} setGame={setGame} room={registeredRoomCode}/>)
+    return(
+      <Admin ws={ws} game={game} 
+        id={playerID} setGame={setGame} 
+        room={registeredRoomCode} quitGame={quitGame}/>
+    )
   }
   else if (registeredRoomCode !== null && ! host){
-    return(<Buzzer ws={ws} game={game} id={playerID} setGame={setGame} room={registeredRoomCode}/>)
+    return(
+      <Buzzer ws={ws} game={game} id={playerID} 
+        setGame={setGame} room={registeredRoomCode}
+        quitGame={quitGame} setTeam={setTeam} team={team}
+      />
+    )
   }
   else{
     return (
@@ -147,7 +169,7 @@ export default function Home(){
                 <button 
                   class="shadow-md rounded-md bg-gray-300 p-4 text-2xl uppercase" 
                   onClick={() => {
-                    registerRoom() 
+                    hostRoom()
                   }}>
                   {t("host")}
                 </button>

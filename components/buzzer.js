@@ -3,12 +3,12 @@ import TitleLogo from "./title-logo"
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import '../i18n/i18n'
+import cookieCutter from 'cookie-cutter'
 
 export default function Buzzer(props){
   const { i18n, t } = useTranslation();
-  const [buzzerReg, setBuzzerReg] = useState()
   const [buzzed, setBuzzed] = useState(false)
-  const [pickedTeam, setPickedTeam] = useState()
+  const [buzzerReg, setBuzzerReg] = useState(null)
   const [error, setError] = useState()
 
   let game = props.game
@@ -21,6 +21,9 @@ export default function Buzzer(props){
   };
 
   useEffect(() => {
+    if(props.id !== null && props.team !== null){
+      setBuzzerReg(props.id)
+    }
     ws.current.onmessage = function (evt) { 
       let received_msg = evt.data;
       let json = JSON.parse(received_msg)
@@ -46,8 +49,8 @@ export default function Buzzer(props){
         console.debug("Language Change", json.data)
         i18n.changeLanguage(json.data)
       }else if(json.action === "registered"){
-        setBuzzerReg(props.id)
         send({action: "pong", id: props.id})
+        setBuzzerReg(props.id)
       }else{
         console.error("didnt expect action in buzzer: ",json)
       } 
@@ -61,7 +64,7 @@ export default function Buzzer(props){
     return(
       <div class="flex flex-col space-y-12">
         <div class="flex flex-col p-5 justify-center text-center space-y-5">
-          {buzzerReg != null? 
+          {buzzerReg !== null? 
             <div>
               {!game.title && !game.is_final_round?
                 <div class="flex flex-col space-y-12 justify-center">
@@ -120,18 +123,24 @@ export default function Buzzer(props){
                   <TitleLogo insert={game.title_text}/>
                 </div>
                 <div>
-                  <h1 class="text-2xl">{t("team")}: {pickedTeam != null?
-                      game.teams[pickedTeam].name: "pick your team"}</h1>
+                  <h1 class="text-2xl">{t("team")}: {props.team != null?
+                      game.teams[props.team].name: "pick your team"}</h1>
 
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                   <button class="hover:shadow-md rounded-md bg-blue-200 p-5"
-                    onClick={()=>{setPickedTeam(0)}}>
+                    onClick={()=>{
+                      cookieCutter.set('session', `${props.room}:${props.id}:0`)
+                      props.setTeam(0)
+                    }}>
                     {game.teams[0].name}
                   </button>
 
                   <button class="hover:shadow-md rounded-md bg-blue-200 p-5"
-                    onClick={()=>{setPickedTeam(1)}}>
+                    onClick={()=>{
+                      cookieCutter.set('session', `${props.room}:${props.id}:1`)
+                      props.setTeam(1)
+                    }}>
                     {game.teams[1].name}
                   </button>
 
@@ -140,11 +149,11 @@ export default function Buzzer(props){
                   <button 
                     class="py-8 px-16 hover:shadow-md rounded-md bg-green-200 uppercase"
                     onClick={()=>{
-                      if(pickedTeam != null){
-                        send({ action: "registerbuzz", team: pickedTeam })
+                      if(props.team != null){
+                        send({ action: "registerbuzz", team: props.team })
                       }else{
                         let errors = []
-                        pickedTeam == null? errors.push(t("buzzerTeamError")): null
+                        props.team == null? errors.push(t("buzzerTeamError")): null
                         setError(errors.join(` ${t("and")} `))
                       }
                     }}>
