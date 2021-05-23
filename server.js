@@ -10,16 +10,60 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 const WebSocket = require('ws');
 const { v4: uuidv4 } = require('uuid');
-
-
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-const instance = axios.create({
-  httpsAgent: new https.Agent({  
-    rejectUnauthorized: false
-  })
-});
+
+function makeRoom(length = 4) {
+  var result           = [];
+  var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  var charactersLength = characters.length;
+  for ( var i = 0; i < length; i++ ) {
+    result.push(characters.charAt(Math.floor(Math.random() * 
+      charactersLength)));
+  }
+  return result.join('');
+}
+
+// loop until we register the host with an id
+function registerPlayer(roomCode, host = false, message = {}, ws){
+  let id = uuidv4()
+  let game = rooms[roomCode].game
+  while(!game.registeredPlayers[id]){
+    if(game.registeredPlayers[id]){
+      id = uuidv4() 
+    }else{
+      if(host){
+        game.registeredPlayers[id] = "host"
+        rooms[roomCode].connections.push(ws) 
+        console.log("Registered player as host: ", id, roomCode)
+      }else{
+        game.registeredPlayers[id] = {
+          role: "player",
+          name: message.name,
+        }
+        rooms[roomCode].connections.push(ws) 
+        console.log("Registered player: ", id, message.name, roomCode)
+      }
+    }
+  }
+  return id
+}
 
 let average = (array) => array.reduce((a, b) => a + b) / array.length;
+/*
+ * 1. starting screen / has a place to start hosting a room => /admin
+ * 2. when registering the room, store user's web socket connections in room object
+ * 3. keep track of who is host 
+ * 4. keep track of each ws connection matched to a user
+ * 5. only broadcast to those connected to the room
+ *
+ * - store all sessions in cookies/browser. refresh should bring you back in
+ * - recurring check to see if a user is still connected (sry adam).
+ *      show if they are disconnected and try to reconnect them
+ * - after no activity on a room for an hour, clear room
+ * - quit button on game/admin windows
+ *
+ */
+let rooms = {}
 let game = {
   registeredPlayers: {},
   buzzed:[],
@@ -46,15 +90,20 @@ let game = {
 
 // We copy the inital state of the game so we can change it
 // and still use game as a template
-let game_copy = JSON.parse(JSON.stringify(game)); 
 
 const wss = new WebSocket.Server({ port: 8080 });
 
-wss.broadcast = function(data) {
-  wss.clients.forEach(client => client.send(data));
+wss.broadcast = function(room,data) {
+  if(rooms[room]){
+    rooms[room].connections.forEach(rp => {
+      rp.send(data)
+    })
+  }else{
+    console.error("room code not found in rooms", room)
+  }
 };
 
-wss.on('connection', function connection(ws) {
+wss.on('connection', function connection(ws, req) {
   ws.on('message', function incoming(message) {
     try{
       process.stdout.write(".");
@@ -66,60 +115,91 @@ wss.on('connection', function connection(ws) {
           message.data = JSON.parse(loaded)
         }
 
-        game_copy.teams[0].points = 0
-        game_copy.teams[1].points = 0
-        game_copy.round = 0
-        game_copy.title = true
-        game_copy.rounds = message.data.rounds
-        game_copy.final_round = message.data.final_round
-        game_copy.gameCopy = []
-        game_copy.final_round_timers = message.data.final_round_timers
-        game_copy.point_tracker = new Array(message.data.rounds.length).fill(0);
-        game_copy.tick = new Date().getTime()
-        wss.broadcast(JSON.stringify({action:"data",data:game_copy}));
+        let game = rooms[message.room].game
+        game.teams[0].points = 0
+        game.teams[1].points = 0
+        game.round = 0
+        game.title = true
+        game.rounds = message.data.rounds
+        game.final_round = message.data.final_round
+        game.gameCopy = []
+        game.final_round_timers = message.data.final_round_timers
+        game.point_tracker = new Array(message.data.rounds.length).fill(0);
+        game.tick = new Date().getTime()
+        wss.broadcast(message.room,JSON.stringify({action:"data",data:game}));
+      }
+      else if (message.action === "host_room"){
+        // loop until we find an available room code
+        let roomCode = makeRoom()
+        while(rooms[roomCode]){
+          roomCode = makeRoom() 
+        }
+
+        rooms[roomCode] = {}
+        rooms[roomCode].game = JSON.parse(JSON.stringify(game));  
+        rooms[roomCode].connections = []
+
+        let id = registerPlayer(roomCode, true, {}, ws)
+
+        // send back details to client
+        ws.send(JSON.stringify({
+          action: "host_room", room: roomCode,
+          game: rooms[roomCode].game,
+          id: id
+        }))
+      }
+      else if (message.action === "join_room"){
+        let roomCode = message.room.toUpperCase()
+        console.log("joining room",roomCode)
+        if(rooms[roomCode]){
+
+          let id = registerPlayer(roomCode, false, message, ws)
+
+          ws.send(JSON.stringify({ 
+            action: "join_room", room: roomCode,
+            game: rooms[roomCode].game,
+            id: id
+          }))
+        }else{
+          // TODO errors sent from server should be internationalized
+          ws.send(JSON.stringify({action: "error", message:"room not found"}))
+        }
       }
       else if (message.action === "data"){
         // copy off what the round used to be for comparison
-        let copy_round = game_copy.round
-        let copy_title = game_copy.title
+        let game = rooms[message.room].game
+        let copy_round = game.round
+        let copy_title = game.title
         delete message.data.registeredPlayers
-        let clone = Object.assign(game_copy, message.data);
-        game_copy = clone
+        let clone = Object.assign(game, message.data);
+        game = clone
         if(copy_round != message.data.round || copy_title != message.data.title){
-          game_copy.buzzed = []
-          game_copy.tick = new Date().getTime()
-          wss.broadcast(JSON.stringify({action: "clearbuzzers"}));
+          game.buzzed = []
+          game.tick = new Date().getTime()
+          wss.broadcast(message.room,JSON.stringify({action: "clearbuzzers"}));
         }
         // get the current time to compare when users buzz in
-        wss.broadcast(JSON.stringify({action:"data",data:game_copy}));
+        wss.broadcast(message.room,JSON.stringify({action:"data",data:game}));
       }
       else if (message.action === "registerbuzz"){
-        let id = uuidv4()
+        let id = message.id
+        let game = rooms[message.room].game
         try{
-          while(!game_copy.registeredPlayers[id]){
-            if(game_copy.registeredPlayers[id]){
-              id = uuidv4() 
-            }else{
-              game_copy.registeredPlayers[id]={
-                latencies:[],
-                name: message.name,
-                team: message.team
-              }
-              console.log("Registered player: ", id)
-            }
-          }
+          game.registeredPlayers[id].latencies = []
+          game.registeredPlayers[id].team = message.team
+          console.log("buzzer ready: ", id)
           // get inital latency, client pongs on registered
-          game_copy.registeredPlayers[id].start = new Date()
+          game.registeredPlayers[id].start = new Date()
           ws.send(JSON.stringify({action: "ping", id: id}))
           ws.send(JSON.stringify({action: "registered", id:id}))
-          wss.broadcast(JSON.stringify({action:"data",data:game_copy}));
+          wss.broadcast(message.room,JSON.stringify({action:"data",data:game}));
         }catch(e){
           console.error("Problem in register ", e)
         }
         // get recurring latency
         setInterval(() => {
           try{
-            game_copy.registeredPlayers[id].start = new Date()
+            game.registeredPlayers[id].start = new Date()
             ws.send(JSON.stringify({action: "ping", id: id}))
           }catch(e){
             console.log("Player disconnected? ", e)
@@ -127,7 +207,8 @@ wss.on('connection', function connection(ws) {
         }, 5000)
       }
       else if (message.action === "pong"){
-        let player = game_copy.registeredPlayers[message.id]
+        let game = rooms[message.room].game
+        let player = game.registeredPlayers[message.id]
         let end = new Date()
         let start = player.start
         let latency = end.getTime() - start.getTime()
@@ -138,15 +219,16 @@ wss.on('connection', function connection(ws) {
         player.latency = average(player.latencies)
       }
       else if (message.action === "clearbuzzers"){
-        game_copy.buzzed = []
-        game_copy.tick = new Date().getTime()
-        wss.broadcast(JSON.stringify({action: "data", data: game_copy}));
-        wss.broadcast(JSON.stringify({action: "clearbuzzers"}));
+        let game = rooms[message.room].game
+        game.buzzed = []
+        game.tick = new Date().getTime()
+        wss.broadcast(message.room,JSON.stringify({action: "data", data: game}));
+        wss.broadcast(message.room,JSON.stringify({action: "clearbuzzers"}));
       }
       else if (message.action === "change_lang"){
         fs.readdir(`games/${message.data}/`, (err, files) => {
           if(err){console.error(err)}
-          wss.broadcast(JSON.stringify({
+          wss.broadcast(message.room, JSON.stringify({
             action: "change_lang",
             data: message.data,
             games: files
@@ -154,30 +236,31 @@ wss.on('connection', function connection(ws) {
         })
       }
       else if (message.action === "buzz"){
-        let time = new Date().getTime() - game_copy.registeredPlayers[message.id].latency
-        if(game_copy.buzzed.length === 0){
-          game_copy.buzzed.unshift({id: message.id, time: time})
+        let game = rooms[message.room].game
+        let time = new Date().getTime() - game.registeredPlayers[message.id].latency
+        if(game.buzzed.length === 0){
+          game.buzzed.unshift({id: message.id, time: time})
         }else{
-          for(const [i,b] of game_copy.buzzed.entries()){
+          for(const [i,b] of game.buzzed.entries()){
             if(b.time < time){
               // saved buzzed was quicker than incoming buzz
-              if(i === game_copy.buzzed.length -1){
-                game_copy.buzzed.push({ id: message.id, time: time })
+              if(i === game.buzzed.length -1){
+                game.buzzed.push({ id: message.id, time: time })
                 break
               }
             }else{
-              game_copy.buzzed.splice(i, 0, { id: message.id, time: time });
+              game.buzzed.splice(i, 0, { id: message.id, time: time });
               break
             }
           }
         }
         ws.send(JSON.stringify({action: "buzzed"}))
-        wss.broadcast(JSON.stringify({action: "data", data: game_copy}));
+        wss.broadcast(message.room,JSON.stringify({action: "data", data: game}));
       }
       else{
         // even if not specified we always expect an action
         if(message.action){
-          wss.broadcast(JSON.stringify(message));
+          wss.broadcast(message.room,JSON.stringify(message));
         }else{
           console.log("didnt expect this message server: ", message)
         }
@@ -186,9 +269,6 @@ wss.on('connection', function connection(ws) {
       console.error("Error in processing socket message: ", e)
     }
   });
-
-  console.log("incoming connection... sending data");
-  wss.broadcast(JSON.stringify({action:"data", data: game_copy}));
 });
 
 app.prepare().then(async () => {
