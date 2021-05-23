@@ -81,7 +81,7 @@ let average = (array) => array.reduce((a, b) => a + b) / array.length;
  * ✅ - store all sessions in cookies/browser. refresh should bring you back in
  * ✅ - recurring check to see if a user is still connected (sry adam).
  *      show if they are disconnected and try to reconnect them
- * - after no activity on a room for an hour, clear room
+ * ✅ - after no activity on a room for an hour, clear room
  * - quit button on game/admin windows
  *
  */
@@ -120,6 +120,28 @@ wss.broadcast = function(room,data) {
     console.error("room code not found in rooms", room)
   }
 };
+
+const moreThanOneHourAgo = (date) => {
+    const HOUR = 1000 * 60 * 60;
+    const anHourAgo = Date.now() - HOUR;
+
+    return date < anHourAgo;
+}
+
+setInterval(() => {
+  for (const [room, roomData] of Object.entries(rooms)) {
+    if(roomData.game?.tick){
+      if(roomData.game.tick){
+        if(moreThanOneHourAgo(new Date(roomData.game.tick))){
+          console.debug("clearing room, no activity for 1 hour: ", room) 
+          wss.broadcast(room, JSON.stringify({ action: "data", data: {} }))
+          wss.broadcast(room, JSON.stringify({ action: "error", message: "game closed, no activity for 1 hour" }))
+          delete rooms[room]
+        }
+      }
+    }
+  }
+}, 10000)
 
 wss.on('connection', function connection(ws, req) {
   ws.on('error', (error) => {
@@ -160,6 +182,7 @@ wss.on('connection', function connection(ws, req) {
 
         rooms[roomCode] = {}
         rooms[roomCode].game = JSON.parse(JSON.stringify(game));  
+        rooms[roomCode].game.tick = new Date().getTime()
         rooms[roomCode].connections = {}
 
         let id = registerPlayer(roomCode, true, {}, ws)
@@ -176,6 +199,7 @@ wss.on('connection', function connection(ws, req) {
         console.log("joining room",roomCode)
         if(rooms[roomCode]){
           let id = registerPlayer(roomCode, false, message, ws)
+          rooms[roomCode].game.tick = new Date().getTime()
           ws.send(JSON.stringify({ 
             action: "join_room", room: roomCode,
             game: rooms[roomCode].game,

@@ -101,14 +101,14 @@ export default function Home(){
     }
   }
 
-  if(registeredRoomCode !== null && host){
+  if(registeredRoomCode !== null && host && Object.keys(game).length !== 0 ){
     return(
       <Admin ws={ws} game={game} 
         id={playerID} setGame={setGame} 
         room={registeredRoomCode} quitGame={quitGame}/>
     )
   }
-  else if (registeredRoomCode !== null && ! host){
+  else if (registeredRoomCode !== null && ! host && Object.keys(game).length !== 0 ){
     return(
       <Buzzer ws={ws} game={game} id={playerID} 
         setGame={setGame} room={registeredRoomCode}
