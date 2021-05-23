@@ -10,6 +10,7 @@ export default function Buzzer(props){
   const [buzzed, setBuzzed] = useState(false)
   const [buzzerReg, setBuzzerReg] = useState(null)
   const [error, setError] = useState()
+  let refreshCounter = 0 
 
   let game = props.game
   let ws = props.ws
@@ -21,6 +22,18 @@ export default function Buzzer(props){
   };
 
   useEffect(() => {
+    setInterval(() => {
+      if(ws.current.readyState === 3){
+        setError(`lost connection to server refreshing in ${10 - refreshCounter}`)
+        refreshCounter++ 
+        if(refreshCounter >= 10){
+          location.reload()
+        }
+      }else{
+        setError("")
+      }
+    }, 1000)
+    
     if(props.id !== null && props.team !== null){
       setBuzzerReg(props.id)
     }
@@ -77,6 +90,9 @@ export default function Buzzer(props){
                         send({action: "buzz", id: props.id})
                       }} src="buzz.svg"/>
 
+                    }
+                    {error !== ""?
+                      <p class="text-2xl text-red-700">{error}</p>:null
                     }
                   </div>
                   <div class="border-4 rounded p-5 space-y-2 text-center">

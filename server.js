@@ -79,7 +79,7 @@ let average = (array) => array.reduce((a, b) => a + b) / array.length;
  * ✅ 5. only broadcast to those connected to the room
  *
  * ✅ - store all sessions in cookies/browser. refresh should bring you back in
- * - recurring check to see if a user is still connected (sry adam).
+ * ✅ - recurring check to see if a user is still connected (sry adam).
  *      show if they are disconnected and try to reconnect them
  * - after no activity on a room for an hour, clear room
  * - quit button on game/admin windows
@@ -109,10 +109,6 @@ let game = {
   hide_first_round: true,
   round: 0,
 }
-
-// We copy the inital state of the game so we can change it
-// and still use game as a template
-
 const wss = new WebSocket.Server({ port: 8080 });
 
 wss.broadcast = function(room,data) {
@@ -134,7 +130,6 @@ wss.on('connection', function connection(ws, req) {
 
   ws.on('message', function incoming(message) {
     try{
-      process.stdout.write(".");
       message = JSON.parse(message)
       if(message.action === "load_game"){
         if(message.file != null && message.lang != null){

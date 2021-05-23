@@ -9,8 +9,10 @@ export default function Admin(props){
 
   const [pointsGivin, setPointsGivin] = useState({state: false, color:"bg-green-200", textColor:"text-black"})
   const [gameSelector, setGameSelector] = useState([])
+  const [error, setError] = useState("")
   let ws = props.ws
   let game = props.game
+  let refreshCounter = 0 
 
 
   function send(data){
@@ -21,6 +23,17 @@ export default function Admin(props){
   }
 
   useEffect(() => {
+    setInterval(() => {
+      if(ws.current.readyState === 3){
+        setError(`lost connection to server refreshing in ${10 - refreshCounter}`)
+        refreshCounter++ 
+        if(refreshCounter >= 10){
+          location.reload()
+        }
+      }else{
+        setError("")
+      }
+    }, 1000)
     ws.current.onmessage = function (evt) { 
       var received_msg = evt.data;
       let json = JSON.parse(received_msg)
@@ -36,6 +49,7 @@ export default function Admin(props){
       }
       else if (json.action === "error"){
         console.error(json.message)
+        setError(json.message)
       }
       else{
         console.error("did not expect admin: ", json)
@@ -190,6 +204,9 @@ export default function Admin(props){
           </div>
         </div>
         <p class="text-4xl text-center pt-5"> {t("currentScreen")}: {current_screen}</p>
+        {error !== ""?
+          <p class="text-2xl text-red-700">{error}</p>:null
+        }
         {game.rounds == null?
           <p class="text-2xl text-center py-20 text-black text-opacity-50">
             [{t("pleaseLoadGame")}]
