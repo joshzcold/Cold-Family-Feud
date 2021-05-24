@@ -37,13 +37,18 @@ export default function Buzzer(props){
     if(props.id !== null && props.team !== null){
       setBuzzerReg(props.id)
     }
-    ws.current.onmessage = function (evt) { 
+
+    ws.current.addEventListener("message", (evt)=>{
       let received_msg = evt.data;
       let json = JSON.parse(received_msg)
       if(json.action === "ping"){
         // server gets the average latency periodically
         send({action: "pong", id: props.id })
-      }else if(json.action === "data"){
+      }
+      else if (json.action === "quit"){
+        props.setGame(null)
+      }
+      else if(json.action === "data"){
         if(json.data.title_text === "Change Me"){
           json.data.title_text = t("changeMe")
         }
@@ -54,20 +59,25 @@ export default function Buzzer(props){
           json.data.teams[1].name = `${ t("team") } ${t("number",{count:2})}`
         }
         props.setGame(json.data)
-      }else if(json.action === "buzzed"){
+      }
+      else if(json.action === "buzzed"){
         setBuzzed(true)
-      }else if(json.action === "clearbuzzers"){
+      }
+      else if(json.action === "clearbuzzers"){
         setBuzzed(false)
-      }else if (json.action === "change_lang"){
+      }
+      else if (json.action === "change_lang"){
         console.debug("Language Change", json.data)
         i18n.changeLanguage(json.data)
-      }else if(json.action === "registered"){
+      }
+      else if(json.action === "registered"){
         send({action: "pong", id: props.id})
         setBuzzerReg(props.id)
-      }else{
+      }
+      else{
         console.error("didnt expect action in buzzer: ",json)
       } 
-    };
+    })
 
   }, [])
 

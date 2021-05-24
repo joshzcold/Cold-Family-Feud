@@ -34,12 +34,13 @@ export default function Admin(props){
         setError("")
       }
     }, 1000)
-    ws.current.onmessage = function (evt) { 
+    ws.current.addEventListener("message", (evt)=>{
       var received_msg = evt.data;
       let json = JSON.parse(received_msg)
       if(json.action === "data"){
         props.setGame(json.data)
-      }else if (json.action === "change_lang"){
+      }
+      else if (json.action === "change_lang"){
         console.debug("Language Change", json.data)
         if(json.games != null){
           setGameSelector(json.games)
@@ -54,10 +55,9 @@ export default function Admin(props){
       else{
         console.error("did not expect admin: ", json)
       }
-    };
-  }, [])
 
-  console.debug("This is game", game)
+    }) 
+  }, [])
 
   if(game.teams != null){
     let current_screen 
@@ -90,13 +90,27 @@ export default function Admin(props){
               send({ action: "change_lang", data: e.target.value })
             }}/>
           </div>
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center justify-between">
 
-            <a href="/new" class="flex-grow">
-              <button class="hover:shadow-md rounded-md bg-gray-100 p-2">
-                {t("newGame")}
+            <div class="flex flex-row  space-x-5">
+              <a href="/game" target="_blank" class="flex-grow">
+                <button class="hover:shadow-md rounded-md bg-green-200 p-2">
+                  {t("Open Game Window")}
+                </button>
+              </a>
+              <a href="/new" class="flex-grow">
+                <button class="hover:shadow-md rounded-md bg-blue-200 p-2">
+                  {t("newGame")}
+                </button>
+              </a>
+              <button class="hover:shadow-md rounded-md bg-red-200 p-2"
+                onClick={() => {
+                  props.quitGame(true)
+                }}>
+                {t("Quit")}
               </button>
-            </a>
+
+            </div>
             <div class="flex flex-col border-2  rounded-lg">
               <div class=" justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
                 {gameSelector.length > 0?

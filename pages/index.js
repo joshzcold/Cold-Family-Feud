@@ -15,18 +15,17 @@ export default function Home(){
   const [error, setError] = useState("")
   const [registeredRoomCode, setRegisteredRoomCode] = useState(null)
   const [host, setHost] = useState(false)
-  const [game, setGame] = useState({})
+  const [game, setGame] = useState(null)
   const [team, setTeam] = useState(null)
   const [playerID, setPlayerID] = useState(null)
 
   const ws = useRef(null)
 
-  function quitGame(){
-    if(host){
-      // quit the game and log everyone out by deleting the room
-    }else{
-      // logout of the individual player
-    }
+  function quitGame(host = false){
+    ws.current.send(JSON.stringify({
+      action:"quit", host: host,
+      id: playerID, room: registeredRoomCode
+    }))
   }
 
   useEffect(() => {
@@ -57,6 +56,13 @@ export default function Home(){
         setRegisteredRoomCode(json.room)
         setGame(json.game)
         if(json.team != null){setTeam(json.team)}
+      }
+      else if (json.action === "quit"){
+        console.debug("player quit")
+        setPlayerID(null)
+        setRegisteredRoomCode(null)
+        setGame({})
+        setHost(false)
       }
       else if (json.action === "get_back_in"){
         console.debug("Getting back into room", json)
@@ -101,14 +107,16 @@ export default function Home(){
     }
   }
 
-  if(registeredRoomCode !== null && host && Object.keys(game).length !== 0 ){
+
+  console.log(game)
+  if(registeredRoomCode !== null && host && game != null ){
     return(
       <Admin ws={ws} game={game} 
         id={playerID} setGame={setGame} 
         room={registeredRoomCode} quitGame={quitGame}/>
     )
   }
-  else if (registeredRoomCode !== null && ! host && Object.keys(game).length !== 0 ){
+  else if (registeredRoomCode !== null && ! host && game != null ){
     return(
       <Buzzer ws={ws} game={game} id={playerID} 
         setGame={setGame} room={registeredRoomCode}

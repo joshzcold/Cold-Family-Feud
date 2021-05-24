@@ -42,6 +42,7 @@ function pingInterval(game, id, ws){
       clearInterval(interval)
     }
   }, 5000)
+  game.registeredPlayers[id].pingInterval = interval
 }
 
 // loop until we register the host with an id
@@ -83,6 +84,7 @@ let average = (array) => array.reduce((a, b) => a + b) / array.length;
  *      show if they are disconnected and try to reconnect them
  * ✅ - after no activity on a room for an hour, clear room
  * - quit button on game/admin windows
+ *   - clear ping interval on quit
  *
  */
 let rooms = {}
@@ -122,10 +124,10 @@ wss.broadcast = function(room,data) {
 };
 
 const moreThanOneHourAgo = (date) => {
-    const HOUR = 1000 * 60 * 60;
-    const anHourAgo = Date.now() - HOUR;
+  const HOUR = 1000 * 60 * 60;
+  const anHourAgo = Date.now() - HOUR;
 
-    return date < anHourAgo;
+  return date < anHourAgo;
 }
 
 setInterval(() => {
@@ -209,6 +211,33 @@ wss.on('connection', function connection(ws, req) {
         }else{
           // TODO errors sent from server should be internationalized
           ws.send(JSON.stringify({action: "error", message:"room not found"}))
+        }
+      }
+      else if (message.action === "quit"){
+        console.debug("user quit game", message.room, message.id, message.host)
+        if(message.host){
+          wss.broadcast(message.room, JSON.stringify({ action: "quit" }))
+          wss.broadcast(message.room, JSON.stringify({ action: "error", message: "host quit the game" }))
+
+          // if host quits then we need to clean up the running intervals
+          if(rooms[message.room].game.registeredPlayers){
+            let players = rooms[message.room].game.registeredPlayers
+            for (const [id, entry] of Object.entries(players)) {
+              if(entry.pingInterval){
+                clearInterval(entry.pingInterval)
+              }
+            }
+          }
+          delete rooms[message.room]
+        }else{
+          let player = rooms[message.room].game.registeredPlayers[message.id]
+          if(player.pingInterval){
+            clearInterval(player.pingInterval) 
+          }
+          ws.send(JSON.stringify({ action: "data", data: {} }))
+          ws.send(JSON.stringify({ action: "quit" }))
+          delete rooms[message.room].game.registeredPlayers[message.id]
+          delete rooms[message.room].connections[message.id]
         }
       }
       else if (message.action === "get_back_in"){
