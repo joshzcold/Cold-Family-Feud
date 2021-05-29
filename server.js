@@ -23,8 +23,7 @@ function makeRoom(length = 4) {
   return result.join('');
 }
 
-
-function pingInterval(game, id, ws){
+function pingInterval(room, id, ws){
   // get recurring latency
   console.debug("Setting ping interval for player: ", id)
   let interval = setInterval(() => {
@@ -34,7 +33,7 @@ function pingInterval(game, id, ws){
         console.debug("Player disconnected, closing ping", id)
         clearInterval(interval)
       }else{
-        game.registeredPlayers[id].start = new Date()
+        room.game.registeredPlayers[id].start = new Date()
         ws.send(JSON.stringify({action: "ping", id: id}))
       }
     }catch(e){
@@ -42,7 +41,8 @@ function pingInterval(game, id, ws){
       clearInterval(interval)
     }
   }, 5000)
-  game.registeredPlayers[id].pingInterval = interval
+
+  room.intervals[id] = interval
 }
 
 // loop until we register the host with an id
@@ -71,22 +71,6 @@ function registerPlayer(roomCode, host = false, message = {}, ws){
 }
 
 let average = (array) => array.reduce((a, b) => a + b) / array.length;
-/*
- * TODO
- * ✅ 1. starting screen / has a place to start hosting a room => /admin
- * ✅ 2. when registering the room, store user's web socket connections in room object
- * ✅ 3. keep track of who is host 
- * ✅ 4. keep track of each ws connection matched to a user
- * ✅ 5. only broadcast to those connected to the room
- *
- * ✅ - store all sessions in cookies/browser. refresh should bring you back in
- * ✅ - recurring check to see if a user is still connected (sry adam).
- *      show if they are disconnected and try to reconnect them
- * ✅ - after no activity on a room for an hour, clear room
- * - quit button on game/admin windows
- *   - clear ping interval on quit
- *
- */
 let rooms = {}
 let game = {
   registeredPlayers: {},
@@ -157,6 +141,7 @@ wss.on('connection', function connection(ws, req) {
       message = JSON.parse(message)
       if(message.action === "load_game"){
         if(message.file != null && message.lang != null){
+          console.log("attempting to read file from selector", message.file, message.lang)
           let data = fs.readFileSync( `games/${message.lang}/${message.file}`)
           let loaded = data.toString()
           message.data = JSON.parse(loaded)
@@ -173,7 +158,7 @@ wss.on('connection', function connection(ws, req) {
         game.final_round_timers = message.data.final_round_timers
         game.point_tracker = new Array(message.data.rounds.length).fill(0);
         game.tick = new Date().getTime()
-        wss.broadcast(message.room,JSON.stringify({action:"data",data:game}));
+        wss.broadcast(message.room, JSON.stringify({action:"data",data:game}));
       }
       else if (message.action === "host_room"){
         // loop until we find an available room code
@@ -183,6 +168,8 @@ wss.on('connection', function connection(ws, req) {
         }
 
         rooms[roomCode] = {}
+
+        rooms[roomCode].intervals = {}
         rooms[roomCode].game = JSON.parse(JSON.stringify(game));  
         rooms[roomCode].game.tick = new Date().getTime()
         rooms[roomCode].connections = {}
@@ -220,19 +207,17 @@ wss.on('connection', function connection(ws, req) {
           wss.broadcast(message.room, JSON.stringify({ action: "error", message: "host quit the game" }))
 
           // if host quits then we need to clean up the running intervals
-          if(rooms[message.room].game.registeredPlayers){
-            let players = rooms[message.room].game.registeredPlayers
+          if(rooms[message.room].intervals){
+            let players = rooms[message.room].intervals
             for (const [id, entry] of Object.entries(players)) {
-              if(entry.pingInterval){
-                clearInterval(entry.pingInterval)
-              }
+                clearInterval(entry)
             }
           }
           delete rooms[message.room]
         }else{
-          let player = rooms[message.room].game.registeredPlayers[message.id]
-          if(player.pingInterval){
-            clearInterval(player.pingInterval) 
+          let interval = rooms[message.room].intervals[message.id]
+          if(interval){
+            clearInterval(interval) 
           }
           ws.send(JSON.stringify({ action: "data", data: {} }))
           ws.send(JSON.stringify({ action: "quit" }))
@@ -256,7 +241,7 @@ wss.on('connection', function connection(ws, req) {
             }))
 
             if(Number.isInteger(parseInt(team))){
-              pingInterval(rooms[room_code].game, user_id, ws)
+              pingInterval(rooms[room_code], user_id, ws)
             }
           }
         }
@@ -292,7 +277,7 @@ wss.on('connection', function connection(ws, req) {
         }catch(e){
           console.error("Problem in register ", e)
         }
-        pingInterval(game, id, ws)
+        pingInterval(rooms[message.room], id, ws)
       }
       else if (message.action === "pong"){
         let game = rooms[message.room].game

@@ -6,6 +6,7 @@ import '../i18n/i18n'
 import LanguageSwitcher from "../components/language"
 import Admin from "../components/admin"
 import Buzzer from "../components/buzzer"
+import TitleNoInsert from "../components/title-no-insert"
 import cookieCutter from 'cookie-cutter'
 
 export default function Home(){
@@ -132,9 +133,9 @@ export default function Home(){
           <link rel="icon" href="/dashboard/favicon.svg" ></link>
         </Head>
         <main>
-          <div class="h-screen flex flex-col justify-around">
+          <div class="flex flex-col justify-around">
             <div class="flex flex-col mt-12 text-center space-y-20 flex-grow">
-              <p class="text-8xl">{t("gameTradeMark")}</p>
+            <TitleNoInsert />
               <div class="flex flex-col space-y-20 flex-shrink items-center">
                 <div>
                   <div class="flex flex-row justify-between text-2xl px-4">
