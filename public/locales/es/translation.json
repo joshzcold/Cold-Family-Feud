@@ -1,5 +1,5 @@
 {
- "adminConsole": "Consola de administración",
+  "adminConsole": "Consola de administración",
   "and": "y",
   "answered": "respondido",
   "answer": "respuesta",
@@ -82,5 +82,16 @@
   "titleText": "Texto del título",
   "total": "Total",
   "win": "Ganar!",
-  "wrong": "Equivocado"
+  "wrong": "Equivocado",
+  "Open Game Window": "Ventana de juego abierta",
+  "Quit": "Dejar",
+  "room code": "código de habitación",
+  "quit": "dejar",
+  "play": "tocar",
+  "No game session. retry from the admin window": "Sin sesión de juego. reintentar desde la ventana de administración",
+  "input your name": "ingrese su nombre",
+  "room code is not correct length, should be 4 characters": "el código de la habitación no tiene la longitud correcta, debe tener 4 caracteres",
+  "4 letter room code": "Código de habitación de 4 letras",
+  "enter your name": "introduzca su nombre",
+  "host": "anfitrión"
 }

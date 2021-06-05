@@ -109,7 +109,7 @@ export default function Game(props){
   }else{
     return(
       <div>
-        <p>{t("loading")}</p>
+        <p>{t("No game session. retry from the admin window")}</p>
       </div>
     )
   }
