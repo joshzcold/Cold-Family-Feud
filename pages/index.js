@@ -127,66 +127,67 @@ export default function Home(){
   }
   else{
     return (
-      <div>
+      <>
         <Head>
           <title>{t("gameTradeMark")}</title>
-          <link rel="icon" href="/dashboard/favicon.svg" ></link>
+          <link rel="icon" href="x.svg" ></link>
         </Head>
         <main>
-          <div class="flex flex-col justify-around">
-            <div class="flex flex-col mt-12 text-center space-y-20 flex-grow">
-            <TitleNoInsert />
-              <div class="flex flex-col space-y-20 flex-shrink items-center">
+      <div class="flex flex-col items-center pt-12 space-y-5 h-screen">
+            <div class="w-1/2">
+              <TitleNoInsert />
+            </div>
+              <div class="flex flex-col space-y-12 flex-grow items-center">
                 <div>
-                  <div class="flex flex-row justify-between text-2xl px-4">
-                    <p class="uppercase">{t("roomCode")}</p>
+                  <div class="flex flex-row justify-between text-1xl px-2">
+                    <p class="uppercase">{t("room code")}</p>
                   </div>
-                  <input class="border-4 border-gray-600 p-4 rounded-2xl text-4xl uppercase" onChange={(e)=>{
+                  <input class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase" onChange={(e)=>{
                     if(e.target.value.length <= 4) {
                       setRoomCode(e.target.value)
                     }
-                  }} value={roomCode} placeholder={t("enter4LetterRoomCode")}></input>
+                  }} value={roomCode} placeholder={t("4 letter room code")}></input>
                 </div>
 
                 <div>
-                  <div class="flex flex-row justify-between text-2xl px-4">
+                  <div class="flex flex-row justify-between text-1xl px-2">
                     <p class="uppercase">{t("name")}</p>
                     <p>{12 - playerName.length}</p>
                   </div>
-                  <input class="border-4 border-gray-600 p-4 rounded-2xl text-4xl uppercase" onChange={(e)=>{
+                  <input class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase" onChange={(e)=>{
                     if(e.target.value.length <= 12){
                       setPlayerName(e.target.value)
                     }
-                  }} value={playerName} placeholder={t("enterYourName")}></input>
+                  }} value={playerName} placeholder={t("enter your name")}></input>
                 </div>
 
                 <button 
-                  class="shadow-md rounded-md bg-blue-200 py-8 w-1/2 text-2xl uppercase"                onClick={() => {
+                  class="shadow-md rounded-md bg-blue-200 py-4 w-2/3 text-2xl uppercase"  
+                  onClick={() => {
                     joinRoom() 
                   }}>
                   {t("play")}
                 </button>
-              </div>
               {error !== ""?
                 <p class="text-2xl text-red-700">{error}</p>:null
               }
-            </div>
-
-            <div class="p-8 bg-blue-400">
-              <div class="flex flex-row items-center justify-around">
-                <LanguageSwitcher/>
-                <button 
-                  class="shadow-md rounded-md bg-gray-300 p-4 text-2xl uppercase" 
-                  onClick={() => {
-                    hostRoom()
-                  }}>
-                  {t("host")}
-                </button>
+              <div class="bg-blue-400 flex-grow p-5 w-screen">
+                <div class="flex flex-row  h-full items-center justify-around">
+                  <LanguageSwitcher/>
+                  <button 
+                    class="shadow-md rounded-md bg-gray-300 p-4 text-2xl uppercase" 
+                    onClick={() => {
+                      hostRoom()
+                    }}>
+                    {t("host")}
+                  </button>
+                </div>
               </div>
-            </div>
+              </div>
+
           </div>
         </main>
-      </div>
+      </>
     )
   }
 }
