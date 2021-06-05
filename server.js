@@ -132,7 +132,7 @@ setInterval(() => {
 wss.on('connection', function connection(ws, req) {
   ws.on('error', (error) => {
     //handle error
-    console.error(error)
+    console.error("WebSocket error: ",error)
     ws.close()
   })
 
@@ -185,12 +185,10 @@ wss.on('connection', function connection(ws, req) {
       }
       else if (message.action === "game_window"){
         let [room_code, user_id] = message.session.split(':')
-        console.log(message.session)
-        rooms[room_code].connections["game_window"] = ws
+        rooms[room_code].connections[`game_window_${uuidv4()}`] = ws
         wss.broadcast(room_code,JSON.stringify(
           {action:"data", data:rooms[room_code].game}
         ));
-
       }
       else if (message.action === "join_room"){
         let roomCode = message.room.toUpperCase()
@@ -228,10 +226,17 @@ wss.on('connection', function connection(ws, req) {
           if(interval){
             clearInterval(interval) 
           }
-          ws.send(JSON.stringify({ action: "data", data: {} }))
           ws.send(JSON.stringify({ action: "quit" }))
+          rooms[message.room].game.buzzed.forEach((b, index) => {
+            if(b.id === message.id){
+              rooms[message.room].game.buzzed.splice(index, 1)
+            }
+          })
           delete rooms[message.room].game.registeredPlayers[message.id]
           delete rooms[message.room].connections[message.id]
+          wss.broadcast(message.room,JSON.stringify(
+            {action:"data",data:rooms[message.room].game}
+          ));
         }
       }
       else if (message.action === "get_back_in"){
@@ -309,7 +314,7 @@ wss.on('connection', function connection(ws, req) {
       }
       else if (message.action === "change_lang"){
         fs.readdir(`games/${message.data}/`, (err, files) => {
-          if(err){console.error(err)}
+          if(err){console.error("change_lang error:", err)}
           wss.broadcast(message.room, JSON.stringify({
             action: "change_lang",
             data: message.data,

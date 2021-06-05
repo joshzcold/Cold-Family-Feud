@@ -47,6 +47,7 @@ export default function Buzzer(props){
       }
       else if (json.action === "quit"){
         props.setGame(null)
+        props.setTeam(null)
       }
       else if(json.action === "data"){
         if(json.data.title_text === "Change Me"){
@@ -86,6 +87,11 @@ export default function Buzzer(props){
     console.debug(game)
     return(
       <div class="flex flex-col space-y-12">
+      <button 
+      class="shadow-md absolute top-3 right-3 rounded-lg p-2 bg-gray-200 text-sm uppercase" 
+      onClick={() =>{
+        send({action: "quit"}) 
+      }}>{t("quit")}</button>
         <div class="flex flex-col p-5 justify-center text-center space-y-5">
           {buzzerReg !== null? 
             <div>
