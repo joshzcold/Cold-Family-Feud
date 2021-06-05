@@ -183,6 +183,15 @@ wss.on('connection', function connection(ws, req) {
           id: id
         }))
       }
+      else if (message.action === "game_window"){
+        let [room_code, user_id] = message.session.split(':')
+        console.log(message.session)
+        rooms[room_code].connections["game_window"] = ws
+        wss.broadcast(room_code,JSON.stringify(
+          {action:"data", data:rooms[room_code].game}
+        ));
+
+      }
       else if (message.action === "join_room"){
         let roomCode = message.room.toUpperCase()
         console.log("joining room",roomCode)

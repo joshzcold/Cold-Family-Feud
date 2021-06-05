@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { useTranslation } from "react-i18next";
 import Title from '../components/title'
 import Round from '../components/round'
 import Final from '../components/final'
 import "tailwindcss/tailwind.css";
+import cookieCutter from 'cookie-cutter'
 
 let timerInterval = null
 
@@ -11,15 +12,24 @@ export default function Game(props){
   const { i18n, t } = useTranslation();
   const [game, setGame] = useState({})
   const [timer, setTimer] = useState(0)
+  const ws = useRef(null)
+
   useEffect(() => {
     var ws = new WebSocket(`ws://${ window.location.hostname }:8080`);
     ws.onopen = function() {
       console.log("game connected to server");
+      let session = cookieCutter.get('session')
+      console.log(session)
+      if(session != null){
+        console.debug("found user session", session)
+        ws.send(JSON.stringify({action:"game_window", session: session}))
+      }
     };
 
     ws.onmessage = function (evt) { 
       var received_msg = evt.data;
       let json = JSON.parse(received_msg)
+      console.debug(json)
       if(json.action === "data"){
         if(json.data.title_text === "Change Me"){
           json.data.title_text = t("changeMe")
@@ -79,18 +89,18 @@ export default function Game(props){
    
   let gameSession
   if(game.title){
-    gameSession = <Title game={game}/>
-  } else if (game.is_final_round){
-    gameSession = <Final game={game} timer={timer}/>
-  }else{
-    gameSession = <Round game={game}/>
-  }
+      gameSession = <Title game={game}/>
+    } else if (game.is_final_round){
+      gameSession = <Final game={game} timer={timer}/>
+    }else{
+      gameSession = <Round game={game}/>
+    }
 
-  return (
-    <div>
-      {gameSession}
-    </div>
-  )
+    return (
+      <div>
+        {gameSession}
+      </div>
+    )
   }else{
     return(
       <div>
