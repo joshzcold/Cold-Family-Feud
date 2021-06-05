@@ -41,10 +41,15 @@ export default function Game(props){
           json.data.teams[1].name = `${ t("team") } ${t("number",{count:2})}`
         }
         setGame(json.data)
-      } else if(json.action === "mistake"){
+      } 
+      else if(json.action === "mistake"){
         var audio = new Audio('wrong.mp3');
         audio.play();
-      } else if(json.action === "reveal"){
+      } else if (json.action === "quit"){
+        setGame({})
+        window.close()
+      }
+      else if(json.action === "reveal"){
         var audio = new Audio('good-answer.mp3');
         audio.play();
       }else if(json.action === "final_reveal"){
