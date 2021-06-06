@@ -77,11 +77,13 @@ export default function Admin(props){
           </div>
           <div class="flex flex-row items-center">
 
-            <a href="/new" class="flex-grow">
-              <button class="hover:shadow-md rounded-md bg-gray-100 p-2">
-                {t("newGame")}
-              </button>
-            </a>
+            <div class="flex-grow">
+              <a href="/new">
+                <button class="hover:shadow-md rounded-md bg-gray-100 p-2">
+                  {t("newGame")}
+                </button>
+              </a>
+            </div>
             <div class="flex flex-col border-2  rounded-lg">
               <div class=" justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
                 {gameSelector.length > 0?
