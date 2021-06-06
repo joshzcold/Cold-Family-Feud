@@ -93,16 +93,20 @@ export default function Admin(props){
           <div class="flex flex-row items-center justify-between">
 
             <div class="flex flex-row  space-x-5">
-              <a href="/game" target="_blank" class="flex-grow">
-                <button class="hover:shadow-md rounded-md bg-green-200 p-2">
-                  {t("Open Game Window")}
-                </button>
-              </a>
-              <a href="/new" class="flex-grow">
+              <div class="flex-grow">
+                <a href="/game" target="_blank" >
+                  <button class="hover:shadow-md rounded-md bg-green-200 p-2">
+                    {t("Open Game Window")}
+                  </button>
+                </a>
+              </div>
+            <div class="flex-grow">
+              <a href="/new">
                 <button class="hover:shadow-md rounded-md bg-blue-200 p-2">
                   {t("newGame")}
                 </button>
               </a>
+            </div>
               <button class="hover:shadow-md rounded-md bg-red-200 p-2"
                 onClick={() => {
                   props.quitGame(true)
