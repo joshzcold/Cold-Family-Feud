@@ -43,6 +43,7 @@ export default function Buzzer(props){
       let json = JSON.parse(received_msg)
       if(json.action === "ping"){
         // server gets the average latency periodically
+        console.log(props.id)
         send({action: "pong", id: props.id })
       }
       else if (json.action === "quit"){
@@ -72,11 +73,12 @@ export default function Buzzer(props){
         i18n.changeLanguage(json.data)
       }
       else if(json.action === "registered"){
+        console.log(props.id)
         send({action: "pong", id: props.id})
         setBuzzerReg(props.id)
       }
       else{
-        console.error("didnt expect action in buzzer: ",json)
+        console.debug("didnt expect action in buzzer: ",json)
       } 
     })
 

@@ -53,7 +53,7 @@ export default function Admin(props){
         setError(json.message)
       }
       else{
-        console.error("did not expect admin: ", json)
+        console.debug("did not expect admin: ", json)
       }
 
     }) 

@@ -33,6 +33,7 @@ function pingInterval(room, id, ws){
         console.debug("Player disconnected, closing ping", id)
         clearInterval(interval)
       }else{
+        console.debug("Sending ping to id", id)
         room.game.registeredPlayers[id].start = new Date()
         ws.send(JSON.stringify({action: "ping", id: id}))
       }
@@ -43,6 +44,7 @@ function pingInterval(room, id, ws){
   }, 5000)
 
   room.intervals[id] = interval
+  console.log("room.intervals length => ", Object.keys(room.intervals).length)
 }
 
 // loop until we register the host with an id
@@ -217,12 +219,14 @@ wss.on('connection', function connection(ws, req) {
           if(rooms[message.room].intervals){
             let players = rooms[message.room].intervals
             for (const [id, entry] of Object.entries(players)) {
+                console.debug("Clear interval =>", entry)
                 clearInterval(entry)
             }
           }
           delete rooms[message.room]
         }else{
           let interval = rooms[message.room].intervals[message.id]
+          console.debug("Clear interval =>", interval)
           if(interval){
             clearInterval(interval) 
           }
@@ -294,16 +298,20 @@ wss.on('connection', function connection(ws, req) {
         pingInterval(rooms[message.room], id, ws)
       }
       else if (message.action === "pong"){
+
+        console.debug("pong =>", message.room, message.id)
         let game = rooms[message.room].game
         let player = game.registeredPlayers[message.id]
-        let end = new Date()
-        let start = player.start
-        let latency = end.getTime() - start.getTime()
-        while(player.latencies.length >= 5){
-          player.latencies.shift()
+        if(player != null && player.start){
+          let end = new Date()
+          let start = player.start
+          let latency = end.getTime() - start.getTime()
+          while(player.latencies.length >= 5){
+            player.latencies.shift()
+          }
+          player.latencies.push(latency)
+          player.latency = average(player.latencies)
         }
-        player.latencies.push(latency)
-        player.latency = average(player.latencies)
       }
       else if (message.action === "clearbuzzers"){
         let game = rooms[message.room].game

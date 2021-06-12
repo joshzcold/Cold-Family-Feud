@@ -29,7 +29,7 @@ export default function Home(){
     }))
   }
 
-  useEffect(() => {
+  function initalize_ws(){
     ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
     ws.current.onopen = function() {
       console.debug("game connected to server", ws.current);
@@ -61,9 +61,11 @@ export default function Home(){
       else if (json.action === "quit"){
         console.debug("player quit")
         setPlayerID(null)
+        setRoomCode("")
         setRegisteredRoomCode(null)
         setGame({})
         setHost(false)
+        initalize_ws()
       }
       else if (json.action === "get_back_in"){
         console.debug("Getting back into room", json)
@@ -82,9 +84,14 @@ export default function Home(){
         setError(json.message)
       }
       else{
-        console.error("did not expect in index.js: ", json)
+        console.debug("did not expect in index.js: ", json)
       }
     };
+
+  }
+
+  useEffect(() => {
+    initalize_ws()
   }, [])
 
   function hostRoom(){
