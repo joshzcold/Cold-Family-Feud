@@ -50,6 +50,7 @@ npm install
 npm run build
 npm start
 ```
+if you have trouble do `rm -r node_modules` then retry `npm install`
 
 ### Screen Share Audio Linux
 
