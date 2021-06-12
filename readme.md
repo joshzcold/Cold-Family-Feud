@@ -41,6 +41,16 @@ you'll want to screen share using an application that shares your audio
 
 Have your players go to http://[IP_ADDRESS]:3000/buzzer to register for the game
 
+### Update via Git
+
+```sh
+git checkout master
+git pull
+npm install
+npm run build
+npm start
+```
+
 ### Screen Share Audio Linux
 
 it is kinda hard on linux to get an application that will share your audio so here is a quick hack
