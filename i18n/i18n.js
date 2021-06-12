@@ -25,5 +25,6 @@ i18n
    interpolation:{
      format
    },
+   whitelist: ['es', 'en'],
  });
  

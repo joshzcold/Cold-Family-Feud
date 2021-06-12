@@ -14,7 +14,6 @@ export default function Admin(props){
   let game = props.game
   let refreshCounter = 0 
 
-
   function send(data){
     data.room = props.room
     data.id = props.id
@@ -55,8 +54,8 @@ export default function Admin(props){
       else{
         console.debug("did not expect admin: ", json)
       }
-
     }) 
+    send({action:"change_lang", data: i18n.language})
   }, [])
 
   if(game.teams != null){
@@ -116,9 +115,9 @@ export default function Admin(props){
 
             </div>
             <div class="flex flex-col border-2  rounded-lg">
-              <div class=" justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
+              <div class="justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
                 {gameSelector.length > 0?
-                  <select onChange={(e) => {
+                  <select class="border-2 rounded" onChange={(e) => {
                     send({
                       action: "load_game",
                       file: e.target.value, lang: i18n.language

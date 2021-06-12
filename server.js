@@ -38,13 +38,13 @@ function pingInterval(room, id, ws){
         ws.send(JSON.stringify({action: "ping", id: id}))
       }
     }catch(e){
-      console.log("Player disconnected? ", e)
+      console.error("Player disconnected? ", e)
       clearInterval(interval)
     }
   }, 5000)
 
   room.intervals[id] = interval
-  console.log("room.intervals length => ", Object.keys(room.intervals).length)
+  console.debug("room.intervals length => ", Object.keys(room.intervals).length)
 }
 
 // loop until we register the host with an id
@@ -58,14 +58,14 @@ function registerPlayer(roomCode, host = false, message = {}, ws){
       if(host){
         game.registeredPlayers[id] = "host"
         rooms[roomCode].connections[id] = ws
-        console.log("Registered player as host: ", id, roomCode)
+        console.debug("Registered player as host: ", id, roomCode)
       }else{
         game.registeredPlayers[id] = {
           role: "player",
           name: message.name,
         }
         rooms[roomCode].connections[id] = ws
-        console.log("Registered player: ", id, message.name, roomCode)
+        console.debug("Registered player: ", id, message.name, roomCode)
       }
     }
   }
@@ -143,7 +143,7 @@ wss.on('connection', function connection(ws, req) {
       message = JSON.parse(message)
       if(message.action === "load_game"){
         if(message.file != null && message.lang != null){
-          console.log("attempting to read file from selector", message.file, message.lang)
+          console.debug("attempting to read file from selector", message.file, message.lang)
           let data = fs.readFileSync( `games/${message.lang}/${message.file}`)
           let loaded = data.toString()
           message.data = JSON.parse(loaded)
@@ -194,7 +194,7 @@ wss.on('connection', function connection(ws, req) {
       }
       else if (message.action === "join_room"){
         let roomCode = message.room.toUpperCase()
-        console.log("joining room",roomCode)
+        console.debug("joining room",roomCode)
         if(rooms[roomCode]){
           let id = registerPlayer(roomCode, false, message, ws)
           rooms[roomCode].game.tick = new Date().getTime()
@@ -286,7 +286,7 @@ wss.on('connection', function connection(ws, req) {
         try{
           game.registeredPlayers[id].latencies = []
           game.registeredPlayers[id].team = message.team
-          console.log("buzzer ready: ", id)
+          console.debug("buzzer ready: ", id)
           // get inital latency, client pongs on registered
           game.registeredPlayers[id].start = new Date()
           ws.send(JSON.stringify({action: "ping", id: id}))
