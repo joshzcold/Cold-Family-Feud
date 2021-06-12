@@ -10,16 +10,70 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 const WebSocket = require('ws');
 const { v4: uuidv4 } = require('uuid');
-
-
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-const instance = axios.create({
-  httpsAgent: new https.Agent({  
-    rejectUnauthorized: false
-  })
-});
+
+function makeRoom(length = 4) {
+  var result           = [];
+  var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  var charactersLength = characters.length;
+  for ( var i = 0; i < length; i++ ) {
+    result.push(characters.charAt(Math.floor(Math.random() * 
+      charactersLength)));
+  }
+  return result.join('');
+}
+
+function pingInterval(room, id, ws){
+  // get recurring latency
+  console.debug("Setting ping interval for player: ", id)
+  let interval = setInterval(() => {
+    try{
+      if(ws.readyState === WebSocket.CLOSED 
+        || ws.readyState === WebSocket.CLOSING){
+        console.debug("Player disconnected, closing ping", id)
+        clearInterval(interval)
+      }else{
+        console.debug("Sending ping to id", id)
+        room.game.registeredPlayers[id].start = new Date()
+        ws.send(JSON.stringify({action: "ping", id: id}))
+      }
+    }catch(e){
+      console.error("Player disconnected? ", e)
+      clearInterval(interval)
+    }
+  }, 5000)
+
+  room.intervals[id] = interval
+  console.debug("room.intervals length => ", Object.keys(room.intervals).length)
+}
+
+// loop until we register the host with an id
+function registerPlayer(roomCode, host = false, message = {}, ws){
+  let id = uuidv4()
+  let game = rooms[roomCode].game
+  while(!game.registeredPlayers[id]){
+    if(game.registeredPlayers[id]){
+      id = uuidv4() 
+    }else{
+      if(host){
+        game.registeredPlayers[id] = "host"
+        rooms[roomCode].connections[id] = ws
+        console.debug("Registered player as host: ", id, roomCode)
+      }else{
+        game.registeredPlayers[id] = {
+          role: "player",
+          name: message.name,
+        }
+        rooms[roomCode].connections[id] = ws
+        console.debug("Registered player: ", id, message.name, roomCode)
+      }
+    }
+  }
+  return id
+}
 
 let average = (array) => array.reduce((a, b) => a + b) / array.length;
+let rooms = {}
 let game = {
   registeredPlayers: {},
   buzzed:[],
@@ -43,110 +97,233 @@ let game = {
   hide_first_round: true,
   round: 0,
 }
-
-// We copy the inital state of the game so we can change it
-// and still use game as a template
-let game_copy = JSON.parse(JSON.stringify(game)); 
-
 const wss = new WebSocket.Server({ port: 8080 });
 
-wss.broadcast = function(data) {
-  wss.clients.forEach(client => client.send(data));
+wss.broadcast = function(room,data) {
+  if(rooms[room]){
+    Object.keys(rooms[room].connections).forEach(rp => {
+      rooms[room].connections[rp].send(data)
+    })
+  }else{
+    console.error("room code not found in rooms", room)
+  }
 };
 
-wss.on('connection', function connection(ws) {
+const moreThanOneHourAgo = (date) => {
+  const HOUR = 1000 * 60 * 60;
+  const anHourAgo = Date.now() - HOUR;
+
+  return date < anHourAgo;
+}
+
+setInterval(() => {
+  for (const [room, roomData] of Object.entries(rooms)) {
+    if(roomData.game?.tick){
+      if(roomData.game.tick){
+        if(moreThanOneHourAgo(new Date(roomData.game.tick))){
+          console.debug("clearing room, no activity for 1 hour: ", room) 
+          wss.broadcast(room, JSON.stringify({ action: "data", data: {} }))
+          wss.broadcast(room, JSON.stringify({ action: "error", message: "game closed, no activity for 1 hour" }))
+          delete rooms[room]
+        }
+      }
+    }
+  }
+}, 10000)
+
+wss.on('connection', function connection(ws, req) {
+  ws.on('error', (error) => {
+    //handle error
+    console.error("WebSocket error: ",error)
+    ws.close()
+  })
+
   ws.on('message', function incoming(message) {
     try{
-      process.stdout.write(".");
       message = JSON.parse(message)
       if(message.action === "load_game"){
         if(message.file != null && message.lang != null){
+          console.debug("attempting to read file from selector", message.file, message.lang)
           let data = fs.readFileSync( `games/${message.lang}/${message.file}`)
           let loaded = data.toString()
           message.data = JSON.parse(loaded)
         }
 
-        game_copy.teams[0].points = 0
-        game_copy.teams[1].points = 0
-        game_copy.round = 0
-        game_copy.title = true
-        game_copy.rounds = message.data.rounds
-        game_copy.final_round = message.data.final_round
-        game_copy.gameCopy = []
-        game_copy.final_round_timers = message.data.final_round_timers
-        game_copy.point_tracker = new Array(message.data.rounds.length).fill(0);
-        game_copy.tick = new Date().getTime()
-        wss.broadcast(JSON.stringify({action:"data",data:game_copy}));
+        let game = rooms[message.room].game
+        game.teams[0].points = 0
+        game.teams[1].points = 0
+        game.round = 0
+        game.title = true
+        game.rounds = message.data.rounds
+        game.final_round = message.data.final_round
+        game.gameCopy = []
+        game.final_round_timers = message.data.final_round_timers
+        game.point_tracker = new Array(message.data.rounds.length).fill(0);
+        game.tick = new Date().getTime()
+        wss.broadcast(message.room, JSON.stringify({action:"data",data:game}));
+      }
+      else if (message.action === "host_room"){
+        // loop until we find an available room code
+        let roomCode = makeRoom()
+        while(rooms[roomCode]){
+          roomCode = makeRoom() 
+        }
+
+        rooms[roomCode] = {}
+
+        rooms[roomCode].intervals = {}
+        rooms[roomCode].game = JSON.parse(JSON.stringify(game));  
+        rooms[roomCode].game.tick = new Date().getTime()
+        rooms[roomCode].connections = {}
+
+        let id = registerPlayer(roomCode, true, {}, ws)
+
+        // send back details to client
+        ws.send(JSON.stringify({
+          action: "host_room", room: roomCode,
+          game: rooms[roomCode].game,
+          id: id
+        }))
+      }
+      else if (message.action === "game_window"){
+        let [room_code, user_id] = message.session.split(':')
+        rooms[room_code].connections[`game_window_${uuidv4()}`] = ws
+        wss.broadcast(room_code,JSON.stringify(
+          {action:"data", data:rooms[room_code].game}
+        ));
+      }
+      else if (message.action === "join_room"){
+        let roomCode = message.room.toUpperCase()
+        console.debug("joining room",roomCode)
+        if(rooms[roomCode]){
+          let id = registerPlayer(roomCode, false, message, ws)
+          rooms[roomCode].game.tick = new Date().getTime()
+          ws.send(JSON.stringify({ 
+            action: "join_room", room: roomCode,
+            game: rooms[roomCode].game,
+            id: id
+          }))
+
+        }else{
+          // TODO errors sent from server should be internationalized
+          ws.send(JSON.stringify({action: "error", message:"room not found"}))
+        }
+      }
+      else if (message.action === "quit"){
+        console.debug("user quit game", message.room, message.id, message.host)
+        if(message.host){
+          wss.broadcast(message.room, JSON.stringify({ action: "quit" }))
+          wss.broadcast(message.room, JSON.stringify({ action: "error", message: "host quit the game" }))
+
+          // if host quits then we need to clean up the running intervals
+          if(rooms[message.room].intervals){
+            let players = rooms[message.room].intervals
+            for (const [id, entry] of Object.entries(players)) {
+                console.debug("Clear interval =>", entry)
+                clearInterval(entry)
+            }
+          }
+          delete rooms[message.room]
+        }else{
+          let interval = rooms[message.room].intervals[message.id]
+          console.debug("Clear interval =>", interval)
+          if(interval){
+            clearInterval(interval) 
+          }
+          ws.send(JSON.stringify({ action: "quit" }))
+          rooms[message.room].game.buzzed.forEach((b, index) => {
+            if(b.id === message.id){
+              rooms[message.room].game.buzzed.splice(index, 1)
+            }
+          })
+          delete rooms[message.room].game.registeredPlayers[message.id]
+          delete rooms[message.room].connections[message.id]
+          wss.broadcast(message.room,JSON.stringify(
+            {action:"data",data:rooms[message.room].game}
+          ));
+        }
+      }
+      else if (message.action === "get_back_in"){
+        let [room_code, user_id, team] = message.session.split(':')
+        if(rooms[room_code]){
+          if(rooms[room_code].game.registeredPlayers[user_id]){
+            console.debug("user session get_back_in:", room_code, user_id, team)
+            // set the new websocket connection
+            rooms[room_code].connections[user_id] = ws
+            ws.send(JSON.stringify({ 
+              action: "get_back_in", room: room_code,
+              game: rooms[room_code].game,
+              id: user_id, 
+              player:rooms[room_code].game.registeredPlayers[user_id],
+              team: parseInt(team)
+            }))
+
+            if(Number.isInteger(parseInt(team))){
+              pingInterval(rooms[room_code], user_id, ws)
+            }
+          }
+        }
       }
       else if (message.action === "data"){
         // copy off what the round used to be for comparison
-        let copy_round = game_copy.round
-        let copy_title = game_copy.title
+        let game = rooms[message.room].game
+        let copy_round = game.round
+        let copy_title = game.title
         delete message.data.registeredPlayers
-        let clone = Object.assign(game_copy, message.data);
-        game_copy = clone
+        let clone = Object.assign(game, message.data);
+        game = clone
         if(copy_round != message.data.round || copy_title != message.data.title){
-          game_copy.buzzed = []
-          game_copy.tick = new Date().getTime()
-          wss.broadcast(JSON.stringify({action: "clearbuzzers"}));
+          game.buzzed = []
+          game.tick = new Date().getTime()
+          wss.broadcast(message.room,JSON.stringify({action: "clearbuzzers"}));
         }
         // get the current time to compare when users buzz in
-        wss.broadcast(JSON.stringify({action:"data",data:game_copy}));
+        wss.broadcast(message.room,JSON.stringify({action:"data",data:game}));
       }
       else if (message.action === "registerbuzz"){
-        let id = uuidv4()
+        let id = message.id
+        let game = rooms[message.room].game
         try{
-          while(!game_copy.registeredPlayers[id]){
-            if(game_copy.registeredPlayers[id]){
-              id = uuidv4() 
-            }else{
-              game_copy.registeredPlayers[id]={
-                latencies:[],
-                name: message.name,
-                team: message.team
-              }
-              console.log("Registered player: ", id)
-            }
-          }
+          game.registeredPlayers[id].latencies = []
+          game.registeredPlayers[id].team = message.team
+          console.debug("buzzer ready: ", id)
           // get inital latency, client pongs on registered
-          game_copy.registeredPlayers[id].start = new Date()
+          game.registeredPlayers[id].start = new Date()
           ws.send(JSON.stringify({action: "ping", id: id}))
           ws.send(JSON.stringify({action: "registered", id:id}))
-          wss.broadcast(JSON.stringify({action:"data",data:game_copy}));
+          wss.broadcast(message.room,JSON.stringify({action:"data",data:game}));
         }catch(e){
           console.error("Problem in register ", e)
         }
-        // get recurring latency
-        setInterval(() => {
-          try{
-            game_copy.registeredPlayers[id].start = new Date()
-            ws.send(JSON.stringify({action: "ping", id: id}))
-          }catch(e){
-            console.log("Player disconnected? ", e)
-          }
-        }, 5000)
+        pingInterval(rooms[message.room], id, ws)
       }
       else if (message.action === "pong"){
-        let player = game_copy.registeredPlayers[message.id]
-        let end = new Date()
-        let start = player.start
-        let latency = end.getTime() - start.getTime()
-        while(player.latencies.length >= 5){
-          player.latencies.shift()
+
+        console.debug("pong =>", message.room, message.id)
+        let game = rooms[message.room].game
+        let player = game.registeredPlayers[message.id]
+        if(player != null && player.start){
+          let end = new Date()
+          let start = player.start
+          let latency = end.getTime() - start.getTime()
+          while(player.latencies.length >= 5){
+            player.latencies.shift()
+          }
+          player.latencies.push(latency)
+          player.latency = average(player.latencies)
         }
-        player.latencies.push(latency)
-        player.latency = average(player.latencies)
       }
       else if (message.action === "clearbuzzers"){
-        game_copy.buzzed = []
-        game_copy.tick = new Date().getTime()
-        wss.broadcast(JSON.stringify({action: "data", data: game_copy}));
-        wss.broadcast(JSON.stringify({action: "clearbuzzers"}));
+        let game = rooms[message.room].game
+        game.buzzed = []
+        game.tick = new Date().getTime()
+        wss.broadcast(message.room,JSON.stringify({action: "data", data: game}));
+        wss.broadcast(message.room,JSON.stringify({action: "clearbuzzers"}));
       }
       else if (message.action === "change_lang"){
         fs.readdir(`games/${message.data}/`, (err, files) => {
-          if(err){console.error(err)}
-          wss.broadcast(JSON.stringify({
+          if(err){console.error("change_lang error:", err)}
+          wss.broadcast(message.room, JSON.stringify({
             action: "change_lang",
             data: message.data,
             games: files
@@ -154,30 +331,31 @@ wss.on('connection', function connection(ws) {
         })
       }
       else if (message.action === "buzz"){
-        let time = new Date().getTime() - game_copy.registeredPlayers[message.id].latency
-        if(game_copy.buzzed.length === 0){
-          game_copy.buzzed.unshift({id: message.id, time: time})
+        let game = rooms[message.room].game
+        let time = new Date().getTime() - game.registeredPlayers[message.id].latency
+        if(game.buzzed.length === 0){
+          game.buzzed.unshift({id: message.id, time: time})
         }else{
-          for(const [i,b] of game_copy.buzzed.entries()){
+          for(const [i,b] of game.buzzed.entries()){
             if(b.time < time){
               // saved buzzed was quicker than incoming buzz
-              if(i === game_copy.buzzed.length -1){
-                game_copy.buzzed.push({ id: message.id, time: time })
+              if(i === game.buzzed.length -1){
+                game.buzzed.push({ id: message.id, time: time })
                 break
               }
             }else{
-              game_copy.buzzed.splice(i, 0, { id: message.id, time: time });
+              game.buzzed.splice(i, 0, { id: message.id, time: time });
               break
             }
           }
         }
         ws.send(JSON.stringify({action: "buzzed"}))
-        wss.broadcast(JSON.stringify({action: "data", data: game_copy}));
+        wss.broadcast(message.room,JSON.stringify({action: "data", data: game}));
       }
       else{
         // even if not specified we always expect an action
         if(message.action){
-          wss.broadcast(JSON.stringify(message));
+          wss.broadcast(message.room,JSON.stringify(message));
         }else{
           console.log("didnt expect this message server: ", message)
         }
@@ -186,9 +364,6 @@ wss.on('connection', function connection(ws) {
       console.error("Error in processing socket message: ", e)
     }
   });
-
-  console.log("incoming connection... sending data");
-  wss.broadcast(JSON.stringify({action:"data", data: game_copy}));
 });
 
 app.prepare().then(async () => {

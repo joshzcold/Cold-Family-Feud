@@ -3,7 +3,7 @@
   "and": "and",
   "answer": "Answer",
   "answered": "Answered",
-  "backTo" :"Back To",
+  "backTo": "Back To",
   "buzzer": "Buzzer",
   "buzzerFinalRoundHelpText": "Its the final round, view the game window",
   "buzzerHelpText": "Changing rounds also clears buzzers",
@@ -82,5 +82,16 @@
   "title": "Title",
   "total": "Total",
   "win": "WIN!",
-  "wrong": "Wrong"
+  "wrong": "Wrong",
+  "Open Game Window": "Open Game Window",
+  "Quit": "Quit",
+  "room code": "room code",
+  "quit": "quit",
+  "play": "play",
+  "input your name": "input your name",
+  "room code is not correct length, should be 4 characters": "room code is not correct length, should be 4 characters",
+  "4 letter room code": "4 letter room code",
+  "enter your name": "enter your name",
+  "host": "host",
+  "No game session. retry from the admin window": "No game session. retry from the admin window"
 }

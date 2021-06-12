@@ -1,33 +1,56 @@
 import { useState, useEffect, useRef } from 'react';
-import TitleLogo from "../components/title-logo"
+import TitleLogo from "./title-logo"
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import '../i18n/i18n'
+import cookieCutter from 'cookie-cutter'
 
 export default function Buzzer(props){
   const { i18n, t } = useTranslation();
-  const ws = useRef(null)
-  const [buzzerReg, setBuzzerReg] = useState()
   const [buzzed, setBuzzed] = useState(false)
-  const [pickedTeam, setPickedTeam] = useState()
-  const [game, setGame] = useState()
+  const [buzzerReg, setBuzzerReg] = useState(null)
   const [error, setError] = useState()
+  let refreshCounter = 0 
+
+  let game = props.game
+  let ws = props.ws
+
+  const send = function(data) {
+    data.room = props.room
+    data.id = props.id
+    ws.current.send(JSON.stringify(data))
+  };
 
   useEffect(() => {
-    // TODO if there is a stored cookie of id, try to use it 
-    // if the server sends back game data, then get back into the game
-    ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
-    ws.current.onopen = function() {
-      console.log("buzzer connected to server");
-    };
+    setInterval(() => {
+      if(ws.current.readyState === 3){
+        setError(`lost connection to server refreshing in ${10 - refreshCounter}`)
+        refreshCounter++ 
+        if(refreshCounter >= 10){
+          location.reload()
+        }
+      }else{
+        setError("")
+      }
+    }, 1000)
+    
+    if(props.id !== null && props.team !== null){
+      setBuzzerReg(props.id)
+    }
 
-    ws.current.onmessage = function (evt) { 
+    ws.current.addEventListener("message", (evt)=>{
       let received_msg = evt.data;
       let json = JSON.parse(received_msg)
       if(json.action === "ping"){
         // server gets the average latency periodically
-        ws.current.send(JSON.stringify({action: "pong", id: `${ json.id }`}))
-      }else if(json.action === "data"){
+        console.log(props.id)
+        send({action: "pong", id: props.id })
+      }
+      else if (json.action === "quit"){
+        props.setGame(null)
+        props.setTeam(null)
+      }
+      else if(json.action === "data"){
         if(json.data.title_text === "Change Me"){
           json.data.title_text = t("changeMe")
         }
@@ -37,30 +60,42 @@ export default function Buzzer(props){
         if(json.data.teams[1].name === "Team 2"){
           json.data.teams[1].name = `${ t("team") } ${t("number",{count:2})}`
         }
-        setGame(json.data)
-      }else if(json.action === "buzzed"){
+        props.setGame(json.data)
+      }
+      else if(json.action === "buzzed"){
         setBuzzed(true)
-      }else if(json.action === "clearbuzzers"){
+      }
+      else if(json.action === "clearbuzzers"){
         setBuzzed(false)
-      }else if (json.action === "change_lang"){
+      }
+      else if (json.action === "change_lang"){
         console.debug("Language Change", json.data)
         i18n.changeLanguage(json.data)
-      }else if(json.action === "registered"){
-        setBuzzerReg(json.id)
-        ws.current.send(JSON.stringify({action: "pong", id: `${ json.id }`}))
-      }else{
-        console.error("didnt expect action in buzzer: ",json)
+      }
+      else if(json.action === "registered"){
+        console.log(props.id)
+        send({action: "pong", id: props.id})
+        setBuzzerReg(props.id)
+      }
+      else{
+        console.debug("didnt expect action in buzzer: ",json)
       } 
-    };
+    })
 
   }, [])
 
 
-  if(game != null){
+  if(game.teams != null){
+    console.debug(game)
     return(
       <div class="flex flex-col space-y-12">
+      <button 
+      class="shadow-md absolute top-3 right-3 rounded-lg p-2 bg-gray-200 text-sm uppercase" 
+      onClick={() =>{
+        send({action: "quit"}) 
+      }}>{t("quit")}</button>
         <div class="flex flex-col p-5 justify-center text-center space-y-5">
-          {buzzerReg != null? 
+          {buzzerReg !== null? 
             <div>
               {!game.title && !game.is_final_round?
                 <div class="flex flex-col space-y-12 justify-center">
@@ -70,9 +105,12 @@ export default function Buzzer(props){
                       <img style={{width: "50%", display: "inline-block"}} src="buzzed.svg"/>
                       :
                       <img class="cursor-pointer" style={{width: "50%", display: "inline-block"}} onClick={() => {
-                        ws.current.send(JSON.stringify({action: "buzz", id: `${buzzerReg}`}))
+                        send({action: "buzz", id: props.id})
                       }} src="buzz.svg"/>
 
+                    }
+                    {error !== ""?
+                      <p class="text-2xl text-red-700">{error}</p>:null
                     }
                   </div>
                   <div class="border-4 rounded p-5 space-y-2 text-center">
@@ -103,7 +141,8 @@ export default function Buzzer(props){
                 </div>
                 :
                 <div class="flex flex-col min-h-screen justify-center items-center align-middle">
-                  <div>
+                  <div class="flex flex-col space-y-12">
+                  <TitleLogo insert={game.title_text}/>
                   <p class="flex-grow text-2xl">
                     {game.is_final_round?  t("buzzerFinalRoundHelpText"):t("buzzerWaiting")} 
                   </p>
@@ -118,42 +157,41 @@ export default function Buzzer(props){
                   <TitleLogo insert={game.title_text}/>
                 </div>
                 <div>
-                  <h1 class="text-2xl">{t("team")}: {pickedTeam != null?
-                      game.teams[pickedTeam].name: "pick your team"}</h1>
+                  <h1 class="text-2xl">{t("team")}: {props.team != null?
+                      game.teams[props.team].name: "pick your team"}</h1>
 
                 </div>
                 <div class="grid grid-cols-2 gap-4">
-                  <p class="text-2xl">{ t("name") }:</p>
-                  <input class="border-4 rounded text-center" placeholder={ `${t("randomName")}` } id="nameInput" />
                   <button class="hover:shadow-md rounded-md bg-blue-200 p-5"
-                    onClick={()=>{setPickedTeam(0)}}>
+                    onClick={()=>{
+                      cookieCutter.set('session', `${props.room}:${props.id}:0`)
+                      props.setTeam(0)
+                    }}>
                     {game.teams[0].name}
                   </button>
 
                   <button class="hover:shadow-md rounded-md bg-blue-200 p-5"
-                    onClick={()=>{setPickedTeam(1)}}>
+                    onClick={()=>{
+                      cookieCutter.set('session', `${props.room}:${props.id}:1`)
+                      props.setTeam(1)
+                    }}>
                     {game.teams[1].name}
                   </button>
 
                 </div>
                 <div>
                   <button 
-                    class="py-8 px-16 hover:shadow-md rounded-md bg-green-200"
+                    class="py-8 px-16 hover:shadow-md rounded-md bg-green-200 uppercase"
                     onClick={()=>{
-                      var name = document.getElementById("nameInput").value
-                      if(name != null && pickedTeam != null && name !== ""){
-                        ws.current.send(JSON.stringify({
-                          action: "registerbuzz", team: pickedTeam,
-                          name: name
-                        }))
+                      if(props.team != null){
+                        send({ action: "registerbuzz", team: props.team })
                       }else{
                         let errors = []
-                        name == null || name === "" ? errors.push(t("buzzerNameError")): null
-                        pickedTeam == null? errors.push(t("buzzerTeamError")): null
+                        props.team == null? errors.push(t("buzzerTeamError")): null
                         setError(errors.join(` ${t("and")} `))
                       }
                     }}>
-                    {t("register")}
+                    {t("play")}
                   </button>
 
                 </div>

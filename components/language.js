@@ -1,15 +1,7 @@
 import React from "react";
-import { useEffect, useRef } from 'react';
 import { useTranslation } from "react-i18next";
 
 export default function LanguageSwitcher(props) {
-  const ws = useRef(null)
-  useEffect(() => {
-    ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
-    ws.current.onopen = function() {
-      console.log("language picker connected to server");
-    };
-  }, [])
   const { i18n, t } = useTranslation();
   return (
     <div className="select">
