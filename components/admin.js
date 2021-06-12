@@ -399,8 +399,9 @@ export default function Admin(props){
                       </h2>
                       {!game.is_final_second?
                         <button class="border-4 rounded-lg p-2" onClick={() => {
+                          console.log(game)
                           game.is_final_second = true
-                          game.gameCopy = JSON.parse(game.final_round);
+                          game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
                           game.final_round.forEach(rnd => {
                             rnd.selection = 0
                             rnd.points = 0
