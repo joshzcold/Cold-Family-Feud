@@ -223,6 +223,12 @@ wss.on('connection', function connection(ws, req) {
                 clearInterval(entry)
             }
           }
+          // clear ws from server
+          if(rooms[message.room].connections){
+            for (const [id, ws_entry] of Object.entries(rooms[message.room].connections)) {
+              ws_entry.close()
+            }
+          }
           delete rooms[message.room]
         }else{
           let interval = rooms[message.room].intervals[message.id]
@@ -230,12 +236,14 @@ wss.on('connection', function connection(ws, req) {
           if(interval){
             clearInterval(interval) 
           }
+          let ws = rooms[message.room].connections[message.id]
           ws.send(JSON.stringify({ action: "quit" }))
           rooms[message.room].game.buzzed.forEach((b, index) => {
             if(b.id === message.id){
               rooms[message.room].game.buzzed.splice(index, 1)
             }
           })
+          ws.close()
           delete rooms[message.room].game.registeredPlayers[message.id]
           delete rooms[message.room].connections[message.id]
           wss.broadcast(message.room,JSON.stringify(

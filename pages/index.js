@@ -61,7 +61,6 @@ export default function Home(){
       else if (json.action === "quit"){
         console.debug("player quit")
         setPlayerID(null)
-        setRoomCode("")
         setRegisteredRoomCode(null)
         setGame({})
         setHost(false)
