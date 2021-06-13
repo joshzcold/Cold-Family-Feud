@@ -16,6 +16,7 @@ Features:
 - timers for fast money 1 and 2
 - game window screen can go back in history
 - Changeable team names
+- Hostable/Joinable Rooms with generated room codes
 - Localization support
   - English
   - Español 
@@ -72,6 +73,7 @@ one your the monitor of your desktop or headset. Resulting in output audio getti
 ## Screenshots
 
 ![Example title screen](doc/example_title.png)
+![image](https://user-images.githubusercontent.com/36175703/121817731-5589ce80-cc40-11eb-97d5-e5abcc7107ee.png)
 ![Example rounds](doc/example_rounds.png)
 ![Example fast money ](doc/example_fast_money.png)
 ![Example admin console](doc/example_admin.png)
