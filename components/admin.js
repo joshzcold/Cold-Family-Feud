@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import '../i18n/i18n'
+import Players from './Admin/players'
 import LanguageSwitcher from "./language"
 
 export default function Admin(props){
@@ -99,13 +100,13 @@ export default function Admin(props){
                   </button>
                 </a>
               </div>
-            <div class="flex-grow">
-              <a href="/new">
-                <button class="hover:shadow-md rounded-md bg-blue-200 p-2">
-                  {t("newGame")}
-                </button>
-              </a>
-            </div>
+              <div class="flex-grow">
+                <a href="/new">
+                  <button class="hover:shadow-md rounded-md bg-blue-200 p-2">
+                    {t("newGame")}
+                  </button>
+                </a>
+              </div>
               <button class="hover:shadow-md rounded-md bg-red-200 p-2"
                 onClick={() => {
                   props.quitGame(true)
@@ -328,30 +329,46 @@ export default function Admin(props){
 
               {!game.is_final_round?
                 <div>
-                  <div class="border-4 rounded m-5 p-5 space-y-2 text-center">
-                    <h1 class="text-2xl">{t("buzzerOrder")}</h1>
-                    <hr/>
-                    <div>
-                      {game.buzzed.map((x,i) => 
-                      <div class="flex flex-row space-x-5 justify-center">
-                        <p>{t("number", {count: i+1})}. {game.registeredPlayers[x.id].name}</p>
-                        <p>{t("team")}: {game.teams[game.registeredPlayers[x.id].team].name}</p>
-                        <p>{t("time")}: {(((x.time - game.tick)/1000) % 60).toFixed(2)} {t("seconds")}</p>
-                      </div>
-                      )}
+                  <div class="grid grid-cols-2 gap-4 p-5">
+                    <h1 class="text-2xl capitalize">{t("buzzerOrder")}</h1>
+                    <h1 class="text-2xl capitalize">{t("players")}</h1>
+                    <div class="border-4 h-48 overflow-y-scroll rounded p-5 text-center">
+                      <div class="flex flex-col  h-full space-y-2 justify-between">
+                        <div class="">
+                          {game.buzzed.length > 0?
+                            <div class="flex flex-row items-center space-x-5">
+                              {/* active clear buzzers button */}
+                              <button class="border-4 bg-red-200 hover:bg-red-400 rounded-lg p-2" onClick={() => {
+                                send({action: "clearbuzzers"})
+                              }} >
+                                {t("clearBuzzers")}
+                              </button>
+                              <p class="text-black text-opacity-50">{t("buzzerHelpText")}</p>
+                            </div>
+                            :
+                            <div class="flex flex-row items-center space-x-5">
+                              {/* disabled clear buzzers button */}
+                              <button class="border-4 bg-gray-300 rounded-lg p-2" >
+                                {t("clearBuzzers")}
+                              </button>
+                              <p class="text-black text-opacity-50">{t("buzzerHelpText")}</p>
+                            </div>
+                          }
+                        </div>
+                        <hr/>
+                        <div class="flex-grow">
+                          {game.buzzed.map((x,i) => 
+                          <div class="flex flex-row space-x-5 justify-center">
+                            <p>{t("number", {count: i+1})}. {game.registeredPlayers[x.id].name}</p>
+                            <p>{t("team")}: {game.teams[game.registeredPlayers[x.id].team].name}</p>
+                            <p>{t("time")}: {(((x.time - game.tick)/1000) % 60).toFixed(2)} {t("seconds")}</p>
+                          </div>
+                          )}
 
-                      <hr/>
+                        </div>
+                      </div>
                     </div>
-                    {game.buzzed.length > 0?
-                      <div class="flex flex-row items-center space-x-5">
-                        <button class="border-4 bg-red-200 rounded-lg p-2" onClick={() => {
-                          send({action: "clearbuzzers"})
-                        }} >
-                          {t("clearBuzzers")}
-                        </button>
-                        <p class="text-black text-opacity-50">{t("buzzerHelpText")}</p>
-                      </div>:null
-                    }
+                    <Players game={game} ws={ws} room={props.room}/>
                   </div>
                   <div class="text-center">
                     <h2 class="text-2xl p-2 ">{t("gameBoard")}</h2>
