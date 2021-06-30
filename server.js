@@ -374,12 +374,13 @@ wss.on('connection', function connection(ws, req) {
   });
 });
 
+const PORT = process.env.PORT || 3000;
 app.prepare().then(async () => {
   createServer((req, res) => {
     const parsedUrl = parse(req.url, true)
     const { pathname, query } = parsedUrl
     handle(req, res, parsedUrl)
-  }).listen(3000, (err) => {
+  }).listen(PORT, (err) => {
     if (err) throw err
     console.log('> Ready on http://localhost:3000')
   })
