@@ -31,7 +31,7 @@ export default function Home(){
 
   function initalize_ws(){
     fetch('/api/ws').finally(() => {
-      ws.current = new WebSocket(`ws://${window.location.host}/api/ws`); 
+      ws.current = new WebSocket(`wss://${window.location.host}/api/ws`); 
       ws.current.onopen = function() {
         console.debug("game connected to server", ws.current);
         let session = cookieCutter.get('session')
