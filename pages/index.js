@@ -30,63 +30,64 @@ export default function Home(){
   }
 
   function initalize_ws(){
-    ws.current = new WebSocket(`ws://${ window.location.hostname }:8080`); 
-    ws.current.onopen = function() {
-      console.debug("game connected to server", ws.current);
-      let session = cookieCutter.get('session')
-      if(session != null){
-        console.debug("found user session", session)
-        ws.current.send(JSON.stringify({action:"get_back_in", session: session}))
-      }
-    };
+    fetch('/api/ws').finally(() => {
+      ws.current = new WebSocket(`ws://${window.location.host}/api/ws`); 
+      ws.current.onopen = function() {
+        console.debug("game connected to server", ws.current);
+        let session = cookieCutter.get('session')
+        if(session != null){
+          console.debug("found user session", session)
+          ws.current.send(JSON.stringify({action:"get_back_in", session: session}))
+        }
+      };
 
-    ws.current.onmessage = function (evt) { 
-      var received_msg = evt.data;
-      let json = JSON.parse(received_msg)
-      if(json.action === "host_room"){
-        console.debug("registering room with host", json.room)
-        setPlayerID(json.id)
-        setHost(true)
-        setRegisteredRoomCode(json.room)
-        setGame(json.game)
-        cookieCutter.set('session', `${json.room}:${json.id}`)
-      }
-      else if (json.action === "join_room"){
-        console.debug("Joining room : ", json)
-        setPlayerID(json.id)
-        setRegisteredRoomCode(json.room)
-        setGame(json.game)
-        if(json.team != null){setTeam(json.team)}
-      }
-      else if (json.action === "quit"){
-        console.debug("player quit")
-        setPlayerID(null)
-        setRegisteredRoomCode(null)
-        setGame({})
-        setHost(false)
-        initalize_ws()
-      }
-      else if (json.action === "get_back_in"){
-        console.debug("Getting back into room", json)
-        if(json.player === "host"){
+      ws.current.onmessage = function (evt) { 
+        var received_msg = evt.data;
+        let json = JSON.parse(received_msg)
+        if(json.action === "host_room"){
+          console.debug("registering room with host", json.room)
+          setPlayerID(json.id)
           setHost(true)
+          setRegisteredRoomCode(json.room)
+          setGame(json.game)
+          cookieCutter.set('session', `${json.room}:${json.id}`)
         }
-        if(Number.isInteger(json.team)){
-          setTeam(json.team)
+        else if (json.action === "join_room"){
+          console.debug("Joining room : ", json)
+          setPlayerID(json.id)
+          setRegisteredRoomCode(json.room)
+          setGame(json.game)
+          if(json.team != null){setTeam(json.team)}
         }
-        setPlayerID(json.id)
-        setRegisteredRoomCode(json.room)
-        setGame(json.game)
-      }
-      else if (json.action === "error"){
-        console.error(json.message)
-        setError(json.message)
-      }
-      else{
-        console.debug("did not expect in index.js: ", json)
-      }
-    };
-
+        else if (json.action === "quit"){
+          console.debug("player quit")
+          setPlayerID(null)
+          setRegisteredRoomCode(null)
+          setGame({})
+          setHost(false)
+          initalize_ws()
+        }
+        else if (json.action === "get_back_in"){
+          console.debug("Getting back into room", json)
+          if(json.player === "host"){
+            setHost(true)
+          }
+          if(Number.isInteger(json.team)){
+            setTeam(json.team)
+          }
+          setPlayerID(json.id)
+          setRegisteredRoomCode(json.room)
+          setGame(json.game)
+        }
+        else if (json.action === "error"){
+          console.error(json.message)
+          setError(json.message)
+        }
+        else{
+          console.debug("did not expect in index.js: ", json)
+        }
+      };
+    })
   }
 
   useEffect(() => {
@@ -139,41 +140,41 @@ export default function Home(){
           <link rel="icon" href="x.svg" ></link>
         </Head>
         <main>
-      <div class="flex flex-col items-center pt-12 space-y-5 h-screen">
+          <div class="flex flex-col items-center pt-12 space-y-5 h-screen">
             <div class="w-1/2">
               <TitleNoInsert />
             </div>
-              <div class="flex flex-col space-y-12 flex-grow items-center">
-                <div>
-                  <div class="flex flex-row justify-between text-1xl px-2">
-                    <p class="uppercase">{t("room code")}</p>
-                  </div>
-                  <input class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase" onChange={(e)=>{
-                    if(e.target.value.length <= 4) {
-                      setRoomCode(e.target.value)
-                    }
-                  }} value={roomCode} placeholder={t("4 letter room code")}></input>
+            <div class="flex flex-col space-y-12 flex-grow items-center">
+              <div>
+                <div class="flex flex-row justify-between text-1xl px-2">
+                  <p class="uppercase">{t("room code")}</p>
                 </div>
+                <input class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase" onChange={(e)=>{
+                  if(e.target.value.length <= 4) {
+                    setRoomCode(e.target.value)
+                  }
+                }} value={roomCode} placeholder={t("4 letter room code")}></input>
+              </div>
 
-                <div>
-                  <div class="flex flex-row justify-between text-1xl px-2">
-                    <p class="uppercase">{t("name")}</p>
-                    <p>{12 - playerName.length}</p>
-                  </div>
-                  <input class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase" onChange={(e)=>{
-                    if(e.target.value.length <= 12){
-                      setPlayerName(e.target.value)
-                    }
-                  }} value={playerName} placeholder={t("enter your name")}></input>
+              <div>
+                <div class="flex flex-row justify-between text-1xl px-2">
+                  <p class="uppercase">{t("name")}</p>
+                  <p>{12 - playerName.length}</p>
                 </div>
+                <input class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase" onChange={(e)=>{
+                  if(e.target.value.length <= 12){
+                    setPlayerName(e.target.value)
+                  }
+                }} value={playerName} placeholder={t("enter your name")}></input>
+              </div>
 
-                <button 
-                  class="shadow-md rounded-md bg-blue-200 py-4 w-2/3 text-2xl uppercase"  
-                  onClick={() => {
-                    joinRoom() 
-                  }}>
-                  {t("play")}
-                </button>
+              <button 
+                class="shadow-md rounded-md bg-blue-200 py-4 w-2/3 text-2xl uppercase"  
+                onClick={() => {
+                  joinRoom() 
+                }}>
+                {t("play")}
+              </button>
               {error !== ""?
                 <p class="text-2xl text-red-700">{error}</p>:null
               }
@@ -189,7 +190,7 @@ export default function Home(){
                   </button>
                 </div>
               </div>
-              </div>
+            </div>
 
           </div>
         </main>
