@@ -12,14 +12,14 @@ export default function Title(props){
 
   function returnTeamMates(team){
     let players = []
-    console.log(props.game)
+    console.debug(props.game)
     Object.keys(props.game.registeredPlayers).forEach((k) => {
-    console.log(k)
+    console.debug(k)
      if(props.game.registeredPlayers[k].team === team){
       players.push(props.game.registeredPlayers[k].name)
      }
     })
-    console.log(players)
+    console.debug(players)
     return players
   }
 

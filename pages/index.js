@@ -116,7 +116,7 @@ export default function Home(){
   }
 
 
-  console.log(game)
+  console.debug(game)
   if(registeredRoomCode !== null && host && game != null ){
     return(
       <Admin ws={ws} game={game} 

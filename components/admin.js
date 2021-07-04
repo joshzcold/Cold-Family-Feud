@@ -18,7 +18,7 @@ export default function Admin(props){
   function send(data){
     data.room = props.room
     data.id = props.id
-    console.log(data)
+    console.debug(data)
     ws.current.send(JSON.stringify(data))
   }
 
@@ -138,7 +138,7 @@ export default function Admin(props){
                   </label>
                   <input class="hidden" type="file" accept=".json" id="gamePicker" onChange={(e) => {
                     var file = document.getElementById("gamePicker").files[0];
-                    console.log(file)
+                    console.debug(file)
                     if (file) {
                       var reader = new FileReader();
                       reader.readAsText(file, 'utf-8');
@@ -194,7 +194,7 @@ export default function Admin(props){
               <p class="text-2xl">{t("points")}:</p>
               <input type="number" min="0" required class="border-4 rounded" onChange={(e)=>{
                 let number = parseInt(e.target.value)
-                console.log(number)
+                console.debug(number)
                 isNaN(number)? number = 0: null
                 game.teams[0].points = number
                 props.setGame(prv => ({ ...prv }));
@@ -256,7 +256,7 @@ export default function Admin(props){
                   }
                   props.setGame(prv => ({ ...prv }))
                   setPointsGivin({state: false, color:"bg-green-200", textColor: "text-black"})
-                  console.log(game.round)
+                  console.debug(game.round)
                   send({action: "data", data: game})
                 }}>{t("nextRound")}</button>
 
@@ -416,7 +416,7 @@ export default function Admin(props){
                       </h2>
                       {!game.is_final_second?
                         <button class="border-4 rounded-lg p-2" onClick={() => {
-                          console.log(game)
+                          console.debug(game)
                           game.is_final_second = true
                           game.gameCopy = JSON.parse(JSON.stringify(game.final_round));
                           game.final_round.forEach(rnd => {

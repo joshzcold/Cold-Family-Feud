@@ -19,7 +19,7 @@ export default function Game(props){
       ws.onopen = function() {
         console.log("game connected to server");
         let session = cookieCutter.get('session')
-        console.log(session)
+        console.debug(session)
         if(session != null){
           console.debug("found user session", session)
           ws.send(JSON.stringify({action:"game_window", session: session}))
