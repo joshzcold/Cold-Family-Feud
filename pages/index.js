@@ -30,7 +30,9 @@ export default function Home(){
   }
 
   function initalize_ws(){
-    fetch('/api/ws').finally(() => {
+  
+    console.log("connecting to server")
+    fetch('/api/ws').then(() => {
       ws.current = new WebSocket(`wss://${window.location.host}/api/ws`); 
       ws.current.onopen = function() {
         console.debug("game connected to server", ws.current);
@@ -95,12 +97,19 @@ export default function Home(){
   }, [])
 
   function hostRoom(){
+    console.debug(ws.current)
+    if(!ws.current.readyState == 3){
+      initalize_ws()
+    }
     ws.current.send(JSON.stringify({
       action:"host_room"
     }))
   }
 
   function joinRoom(){
+    if(!ws.current.readyState == 3){
+      initalize_ws()
+    }
     setError("")
     if(roomCode.length === 4){
       if(playerName.length > 0){
