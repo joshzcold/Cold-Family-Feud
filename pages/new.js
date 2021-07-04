@@ -232,25 +232,25 @@ export default function CreateGame(props){
               })
             })
 
-            game.final_round.forEach((a, index) => {
-              if(a.question === ""){
-                error.push(t("finalRoundEmptyQuestion",{count:index+1}))
-              }
+            // game.final_round.forEach((a, index) => {
+            //   if(a.question === ""){
+            //     error.push(t("finalRoundEmptyQuestion",{count:index+1}))
+            //   }
 
-              if(a.answers.length === 0){
-                error.push(t("finalRoundNoAnswer",{count:index+1}))
-               error.push(`final round item ${index + 1} has no answers` )
-              }
-              a.answers.forEach((ans, aindex) => {
-                if(ans[0] === ""){
-                  error.push(t("finalItemEmptyAnswer",{count: index +1,answernum: aindex+ 1}))
-                }
-                if(ans[1] === "" || ans[1] === 0 || isNaN(ans[1]) ){
+            //   if(a.answers.length === 0){
+            //     error.push(t("finalRoundNoAnswer",{count:index+1}))
+            //    error.push(`final round item ${index + 1} has no answers` )
+            //   }
+            //   a.answers.forEach((ans, aindex) => {
+            //     if(ans[0] === ""){
+            //       error.push(t("finalItemEmptyAnswer",{count: index +1,answernum: aindex+ 1}))
+            //     }
+            //     if(ans[1] === "" || ans[1] === 0 || isNaN(ans[1]) ){
 
-                  error.push(t("finalItemNoPoints",{count: index +1, zero: 0, answernum: aindex+ 1}))
-                }
-              })
-            })
+            //       error.push(t("finalItemNoPoints",{count: index +1, zero: 0, answernum: aindex+ 1}))
+            //     }
+            //   })
+            // })
            
             console.log(error)
             if(error.length === 0){
