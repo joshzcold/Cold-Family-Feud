@@ -1,4 +1,3 @@
-const { createServer } = require('https')
 const { parse } = require('url')
 const next = require('next')
 const dev = process.env.NODE_ENV !== 'production'
@@ -7,7 +6,9 @@ const fs = require('fs')
 const handle = app.getRequestHandler()
 
 let httpsOptions = {}
+var { createServer } = require('http')
 if(dev){
+  var { createServer } = require('https')
   httpsOptions = {
     key: fs.readFileSync('./dev/cert/localhost.key'),
     cert: fs.readFileSync('./dev/cert/localhost.crt')
