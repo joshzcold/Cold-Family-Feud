@@ -5,12 +5,14 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const fs = require('fs')
 const handle = app.getRequestHandler()
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
-const httpsOptions = {
-  key: fs.readFileSync('./dev/cert/localhost.key'),
-  cert: fs.readFileSync('./dev/cert/localhost.crt')
-};
+let httpsOptions = {}
+if(dev){
+  httpsOptions = {
+    key: fs.readFileSync('./dev/cert/localhost.key'),
+    cert: fs.readFileSync('./dev/cert/localhost.crt')
+  };
+}
 
 const PORT = process.env.PORT || 3000;
 app.prepare().then(async () => {
