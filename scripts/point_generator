@@ -1,0 +1,63 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+
+opt = {
+  m: 100,
+  n: 5,
+  a: 60,
+  i: 40,
+  d: 66
+}
+OptionParser.new do |opts|
+  opts.banner = "Usage: point_generator -[nmsidv] \n Generate realistic point values for game questions"
+  opts.on('-n NUM',  Integer, 'Number of questions to generate points for. Defaults to 5')
+  opts.on('-m NUM',  Integer, 'Maxium number to distribute between questions. Defaults to 100')
+  opts.on('-a MAX', Integer, 'Maxium percentage of max points for top answer. Defaults to 60% of max number')
+  opts.on('-i MIN', Integer, 'Minimum percentage of max points for top answer. Defaults to 10% of max number')
+  opts.on('-d DESC', Integer, 'Percentage decrease for each answer after top. Defaults to 66')
+  opts.on('-v', 'Verbose Mode')
+end.parse!(into: opt)
+
+
+
+if opt[:v] then p opt end
+
+num = opt[:n]
+max_per = opt[:a]
+min_per = opt[:i]
+max_num = opt[:m]
+decrease = opt[:d]
+last_per = 0
+point_arr = []
+i = 0
+
+if min_per > max_per
+  raise "minimum percentage: #{min_per} cannot be greater than maxium percentage #{max_per}"
+end
+
+class Numeric
+  def percent_of(n)
+    n.to_f * self.to_f / 100.0
+  end
+end
+
+begin
+  if opt[:v] then p i end
+  if opt[:v] then p "last percentage → #{last_per}%" end
+  if i == 0 
+    new_per = rand(min_per...max_per)
+  else
+    new_per = decrease.percent_of(last_per)
+    if opt[:v] then p"#{new_per} = #{decrease}.percent_of(#{last_per})" end
+  end
+  if opt[:v] then p "percent_of #{new_per} #{max_num}" end
+  point_val = new_per.percent_of(max_num)
+  if opt[:v] then p "point value → #{point_val}" end
+  last_per = new_per
+  point_arr.push(Integer(point_val))
+  if opt[:v] then p'====================' end
+  i += 1
+end while i < num
+
+p point_arr.join(' ')
