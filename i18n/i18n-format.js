@@ -1,7 +1,7 @@
 function format(value, format, lng) {
   if (format === "date") {
     return formatDate(value, format, lng);
-  }else if (format === "number"){
+  } else if (format === "number") {
     return formatNumber(value, format, lng);
   }
   return value;
@@ -22,7 +22,7 @@ function toOptions(format) {
   // Handle case with no options, e.g. {{today, date}}
   if (format.trim() === "date") {
     return {};
-  } else if (format.trim() === "number"){
+  } else if (format.trim() === "number") {
     return {};
   } else {
     try {

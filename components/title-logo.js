@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import '../i18n/i18n'
+import "../i18n/i18n";
 
-export default function TitleLogo(props){
-  const{ t } = useTranslation();
+export default function TitleLogo(props) {
+  const { t } = useTranslation();
   // don't recalculate offset if already set
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -264,8 +264,6 @@ export default function TitleLogo(props){
            id="tspan66">${t("feud")}</tspan></tspan></text>
   </g>
 </svg>
-  ` 
-  return (
-     <div dangerouslySetInnerHTML={{ __html: logo}} />
-  )
+  `;
+  return <div dangerouslySetInnerHTML={{ __html: logo }} />;
 }

@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import '../i18n/i18n'
+import "../i18n/i18n";
 
-export default function TitleNoInsert(props){
-  const{ t } = useTranslation();
+export default function TitleNoInsert(props) {
+  const { t } = useTranslation();
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
@@ -320,8 +320,6 @@ export default function TitleNoInsert(props){
     </g>
   </g>
 </svg>
-  ` 
-  return (
-     <div dangerouslySetInnerHTML={{ __html: logo}} />
-  )
+  `;
+  return <div dangerouslySetInnerHTML={{ __html: logo }} />;
 }
