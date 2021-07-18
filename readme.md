@@ -1,4 +1,6 @@
 # Cold Family Feud
+(This app is currently available at https://famf.app)
+
 I was unsatisfied with the family feud projects
 I found on github and I didn't want to use powerpoint(I use linux 🐧)
 
@@ -82,13 +84,14 @@ one your the monitor of your desktop or headset. Resulting in output audio getti
 ## Contributing
 
 Stack: Nextjs + React + Tail Wind css
+_(in the future I would like to move to saas instead of tailwind)_
 
-### Add Language
+### Add A Language
 Check out this link in the wiki: [Link](https://github.com/joshzcold/Cold-Family-Feud/wiki/Add-A-New-Language)
 
 ### New Games
 
-Go to `/new` to use the new game creator
+Go to `/new` to use the new game creator or use "New Game" in the admin console.
 
 Games are loaded in the admin console
 
