@@ -1,307 +1,244 @@
 {
-    "rounds": [
+  "rounds": [
+    {
+      "question": "What was the most popular programming language in the year 2000",
+      "answers": [
         {
-            "question": "What was the most popular programming language in the year 2000",
-            "answers": [
-                {
-                    "ans": "C",
-                    "pnt": 37,
-                    "trig": false
-                },
-                {
-                    "ans": "Java",
-                    "pnt": 22,
-                    "trig": false
-                },
-                {
-                    "ans": "JavaScript",
-                    "pnt": 19,
-                    "trig": false
-                },
-                {
-                    "ans": "C++",
-                    "pnt": 14,
-                    "trig": false
-                },
-                {
-                    "ans": "PHP",
-                    "pnt": 12,
-                    "trig": false
-                },
-                {
-                    "ans": "Perl",
-                    "pnt": 10,
-                    "trig": false
-                }
-            ],
-            "multiply": 1
+          "ans": "C",
+          "pnt": 37,
+          "trig": false
         },
         {
-            "question": "From Stack Overflow's 2020 survey what do engineers do when they get stuck",
-            "answers": [
-                {
-                    "ans": "Stack Overflow",
-                    "pnt": 40,
-                    "trig": false
-                },
-                {
-                    "ans": "Do other Work/Come Back Later",
-                    "pnt": 30,
-                    "trig": false
-                },
-                {
-                    "ans": "Tutorial Videos",
-                    "pnt": 20,
-                    "trig": false
-                },
-                {
-                    "ans": "Help from friend/coworker",
-                    "pnt": 13,
-                    "trig": false
-                },
-                {
-                    "ans": "Take a walk/physical activity",
-                    "pnt": 8,
-                    "trig": false
-                },
-                {
-                    "ans": "Play games",
-                    "pnt": 5,
-                    "trig": false
-                }
-            ],
-            "multiply": 1
+          "ans": "Java",
+          "pnt": 22,
+          "trig": false
         },
         {
-            "question": "Name a category of movie or tv show that always seems to get tech wrong",
-            "answers": [
-                {
-                    "ans": "Cop Shows",
-                    "pnt": 23,
-                    "trig": false
-                },
-                {
-                    "ans": "Sci-fi",
-                    "pnt": 15,
-                    "trig": false
-                },
-                {
-                    "ans": "Spy",
-                    "pnt": 10,
-                    "trig": false
-                },
-                {
-                    "ans": "Heist",
-                    "pnt": 6,
-                    "trig": false
-                }
-            ],
-            "multiply": 1
+          "ans": "JavaScript",
+          "pnt": 19,
+          "trig": false
         },
         {
-            "question": "Most hated question at family gathering towards a tech enthusiast",
-            "answers": [
-                {
-                    "ans": "Fix my Printer/tech?",
-                    "pnt": 57,
-                    "trig": false
-                },
-                {
-                    "ans": "Develop my app idea?",
-                    "pnt": 37,
-                    "trig": false
-                },
-                {
-                    "ans": "Can you Hack X?",
-                    "pnt": 24,
-                    "trig": false
-                },
-                {
-                    "ans": "Help me buy/review a product?",
-                    "pnt": 16,
-                    "trig": false
-                }
-            ],
-            "multiply": 1
+          "ans": "C++",
+          "pnt": 14,
+          "trig": false
         },
         {
-            "question": "Favorite thing about being a software engineer",
-            "answers": [
-                {
-                    "ans": "Creativity",
-                    "pnt": 63,
-                    "trig": false
-                },
-                {
-                    "ans": "Figuring out problems",
-                    "pnt": 41,
-                    "trig": false
-                },
-                {
-                    "ans": "Always learning",
-                    "pnt": 27,
-                    "trig": false
-                },
-                {
-                    "ans": "Money/Pay",
-                    "pnt": 18,
-                    "trig": false
-                }
-            ],
-            "multiply": 2
+          "ans": "PHP",
+          "pnt": 12,
+          "trig": false
         },
         {
-            "question": "Least favorite thing about being a software engineer",
-            "answers": [
-                {
-                    "ans": "Meetings",
-                    "pnt": 64,
-                    "trig": false
-                },
-                {
-                    "ans": "Deadlines",
-                    "pnt": 30,
-                    "trig": false
-                },
-                {
-                    "ans": "Changing spec",
-                    "pnt": 15,
-                    "trig": false
-                },
-                {
-                    "ans": "Legacy System",
-                    "pnt": 14,
-                    "trig": false
-                },
-                {
-                    "ans": "Burn out ",
-                    "pnt": 10,
-                    "trig": false
-                }
-            ],
-            "multiply": 2
+          "ans": "Perl",
+          "pnt": 10,
+          "trig": false
         }
-    ],
-    "final_round": [
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "From Stack Overflow's 2020 survey what do engineers do when they get stuck",
+      "answers": [
         {
-            "question": "Name a reason you might look for a new job",
-            "answers": [
-                [
-                    "More pay",
-                    41
-                ],
-                [
-                    "New Technologies",
-                    27
-                ],
-                [
-                    "Promotion/Opportunities",
-                    17
-                ],
-                [
-                    "Work/Life Balance",
-                    11
-                ],
-                [
-                    "Trouble with management",
-                    7
-                ]
-            ],
-            "selection": 0,
-            "points": 0,
-            "input": "",
-            "revealed": false
+          "ans": "Stack Overflow",
+          "pnt": 40,
+          "trig": false
         },
         {
-            "question": "When is the most popular time to go to bed for a programmer",
-            "answers": [
-                [
-                    "11 PM",
-                    39
-                ],
-                [
-                    "Never/What is sleep?",
-                    25
-                ],
-                [
-                    "1 AM",
-                    16
-                ],
-                [
-                    "2AM",
-                    11
-                ],
-                [
-                    "10PM",
-                    7
-                ]
-            ],
-            "selection": 0,
-            "points": 0,
-            "input": "",
-            "revealed": false
+          "ans": "Do other Work/Come Back Later",
+          "pnt": 30,
+          "trig": false
         },
         {
-            "question": "Name something people associate with a nerd",
-            "answers": [
-                [
-                    "Glasses",
-                    42
-                ],
-                [
-                    "Technology",
-                    29
-                ],
-                [
-                    "Pocket Protector",
-                    19
-                ],
-                [
-                    "Smart",
-                    12
-                ],
-                [
-                    "Short Pants",
-                    8
-                ]
-            ],
-            "selection": 0,
-            "points": 0,
-            "input": "",
-            "revealed": false
+          "ans": "Tutorial Videos",
+          "pnt": 20,
+          "trig": false
         },
         {
-            "question": "Name a computer term that everybody knows",
-            "answers": [
-                [
-                    "Mouse",
-                    72
-                ],
-                [
-                    "Internet",
-                    47
-                ],
-                [
-                    "Download",
-                    31
-                ],
-                [
-                    "RAM",
-                    20
-                ],
-                [
-                    "Keyboard",
-                    13
-                ]
-            ],
-            "selection": 0,
-            "points": 0,
-            "input": "",
-            "revealed": false
+          "ans": "Help from friend/coworker",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Take a walk/physical activity",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Play games",
+          "pnt": 5,
+          "trig": false
         }
-    ],
-    "final_round_timers": [
-        20,
-        25
-    ]
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Name a category of movie or tv show that always seems to get tech wrong",
+      "answers": [
+        {
+          "ans": "Cop Shows",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sci-fi",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Spy",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Heist",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Most hated question at family gathering towards a tech enthusiast",
+      "answers": [
+        {
+          "ans": "Fix my Printer/tech?",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Develop my app idea?",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Can you Hack X?",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Help me buy/review a product?",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Favorite thing about being a software engineer",
+      "answers": [
+        {
+          "ans": "Creativity",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Figuring out problems",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Always learning",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Money/Pay",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2
+    },
+    {
+      "question": "Least favorite thing about being a software engineer",
+      "answers": [
+        {
+          "ans": "Meetings",
+          "pnt": 64,
+          "trig": false
+        },
+        {
+          "ans": "Deadlines",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Changing spec",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Legacy System",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Burn out ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2
+    }
+  ],
+  "final_round": [
+    {
+      "question": "Name a reason you might look for a new job",
+      "answers": [
+        ["More pay", 41],
+        ["New Technologies", 27],
+        ["Promotion/Opportunities", 17],
+        ["Work/Life Balance", 11],
+        ["Trouble with management", 7]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false
+    },
+    {
+      "question": "When is the most popular time to go to bed for a programmer",
+      "answers": [
+        ["11 PM", 39],
+        ["Never/What is sleep?", 25],
+        ["1 AM", 16],
+        ["2AM", 11],
+        ["10PM", 7]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false
+    },
+    {
+      "question": "Name something people associate with a nerd",
+      "answers": [
+        ["Glasses", 42],
+        ["Technology", 29],
+        ["Pocket Protector", 19],
+        ["Smart", 12],
+        ["Short Pants", 8]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false
+    },
+    {
+      "question": "Name a computer term that everybody knows",
+      "answers": [
+        ["Mouse", 72],
+        ["Internet", 47],
+        ["Download", 31],
+        ["RAM", 20],
+        ["Keyboard", 13]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false
+    }
+  ],
+  "final_round_timers": [20, 25]
 }
