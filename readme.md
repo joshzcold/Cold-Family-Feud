@@ -1,6 +1,13 @@
-# Cold Family Feud
-This app is currently available at https://famf.app 
+<div align="center">
+<img src="./public/title.png" alt="title logo" width="200"/>
+  
+This app is currently available at ➡ https://famf.app 
+
 _(it might take a minute to load as it becomes un-suspended from heroku)_
+</div>
+
+
+---
 
 I was unsatisfied with the family feud projects
 I found on github and I didn't want to use powerpoint(I use linux 🐧)
