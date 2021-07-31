@@ -15,7 +15,7 @@ require 'json'
 require_relative 'point_generator'
 
 class CSVParser 
-  attr_accessor :fastmoney, :rounds, :random, :multipler, :ignore_header, :verbose, :files, :filename, :target
+  attr_accessor :fastmoney, :rounds, :random, :multiplier, :ignore_header, :verbose, :files, :filename, :target
   @@round_arr = []
   @@file_arr = []
 
@@ -24,7 +24,7 @@ class CSVParser
     @rounds = params.fetch(:rounds, 6)
     @files = params.fetch(:files, [])
     @random = params.fetch(:random, true)
-    @multipler = params.fetch(:min_per, true)
+    @multiplier = params.fetch(:multiplier, true)
     @ignore_header = params.fetch(:ignore_header, false)
     @verbose = params.fetch(:verbose, false)
     @filename = params.fetch(:filename, "game_")
@@ -126,7 +126,7 @@ class CSVParser
         i = 0
         round_hash = {
           answers: [],
-          multiply: q >= (@rounds / 2).to_int ? 2 : 1
+          multiply: q >= (@rounds / 2).to_int && @multiplier ? 2 : 1
         }
         until i > r.length()
           if i == 0

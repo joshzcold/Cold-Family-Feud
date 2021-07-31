@@ -6,14 +6,14 @@ $opt = {
   fastmoney: true,
   rounds: 6,
   random: true,
-  multipler: true,
+  multiplier: true,
   ignore_header: false,
   filename: "game_",
   target: "./"
 }
 
 OptionParser.new do |opts|
-  opts.banner = "Usage: csv_parser -[nmsidv] \n Generate realistic point values for game questions"
+  opts.banner = "Usage: parse_csv -[rfov] *.csv \n Convert csv family feud data to cold_family_feud .json"
   opts.on('--no-fast-money', 'Should fast money rounds be generated') do 
     $opt[:fastmoney] = false
   end
@@ -24,8 +24,8 @@ OptionParser.new do |opts|
   opts.on('--no-random', 'do not suffle rounds around and go in order of reading') do 
     $opt[:random] = false
   end
-  opts.on('--no-multiplyer', 'do not create double point rounds half way through the game') do 
-    $opt[:multipler] = false
+  opts.on('--no-multiplier', 'do not create double point rounds half way through the game') do 
+    $opt[:multiplier] = false
   end
   opts.on('-rNUM','--rounds=NUM',  Integer, 'How many rounds per a game') do |r|
     $opt[:rounds] = r
@@ -45,7 +45,7 @@ csv_parser = CSVParser.new({
   fastmoney: $opt[:fastmoney],
   rounds: $opt[:rounds],
   random: $opt[:random],
-  multipler: $opt[:multipler],
+  multiplier: $opt[:multiplier],
   ignore_header: $opt[:ignore_header],
   verbose: $opt[:v],
   filename: $opt[:filename],
