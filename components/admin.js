@@ -46,7 +46,6 @@ export default function Admin(props) {
       console.debug("sending pong in admin");
       send({ action: "pong" });
     }, 5000);
-    return () => clearInterval(pongInterval);
 
     ws.current.addEventListener("message", (evt) => {
       var received_msg = evt.data;
@@ -68,6 +67,7 @@ export default function Admin(props) {
       }
     });
     send({ action: "change_lang", data: i18n.language });
+    return () => clearInterval(pongInterval);
   }, []);
 
   if (game.teams != null) {

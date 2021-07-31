@@ -36,7 +36,6 @@ export default function Game(props) {
               JSON.stringify({ action: "pong", id: id, room: room })
             );
           }, 5000);
-          return () => clearInterval(pongInterval);
         }
       };
 
