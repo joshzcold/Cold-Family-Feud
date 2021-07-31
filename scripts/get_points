@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+require 'optparse'
+require_relative 'point_generator'
+
+$opt = {
+  m: 100,
+  n: 5,
+  a: 60,
+  i: 40,
+  d: 66
+}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: point_generator -[nmsidv] \n Generate realistic point values for game questions"
+  opts.on('-n NUM',  Integer, 'Number of questions to generate points for. Defaults to 5')
+  opts.on('-m NUM',  Integer, 'Maxium number to distribute between questions. Defaults to 100')
+  opts.on('-a MAX', Integer, 'Maxium percentage of max points for top answer. Defaults to 60% of max number')
+  opts.on('-i MIN', Integer, 'Minimum percentage of max points for top answer. Defaults to 10% of max number')
+  opts.on('-d DESC', Integer, 'Percentage decrease for each answer after top. Defaults to 66')
+  opts.on('-v', 'Verbose Mode')
+end.parse!(into: $opt)
+
+if $opt[:v] then p $opt end
+
+
+gen = Generator.new({
+  number: $opt[:n],
+  max_per: $opt[:a],
+  min_per: $opt[:i],
+  max_num: $opt[:m],
+  decrease: $opt[:d]
+})
+
+point_arr = gen.run
+
+p point_arr.join(' ')
