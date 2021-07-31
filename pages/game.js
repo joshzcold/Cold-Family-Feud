@@ -12,21 +12,35 @@ export default function Game(props) {
   const { i18n, t } = useTranslation();
   const [game, setGame] = useState({});
   const [timer, setTimer] = useState(0);
+  const [error, setError] = useState("");
+  const ws = useRef(null);
+  let refreshCounter = 0;
+  let pongInterval;
 
   useEffect(() => {
     fetch("/api/ws").finally(() => {
-      var ws = new WebSocket(`wss://${window.location.host}/api/ws`);
-      ws.onopen = function () {
+      ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
+      ws.current.onopen = function () {
         console.log("game connected to server");
         let session = cookieCutter.get("session");
         console.debug(session);
         if (session != null) {
           console.debug("found user session", session);
-          ws.send(JSON.stringify({ action: "game_window", session: session }));
+          ws.current.send(
+            JSON.stringify({ action: "game_window", session: session })
+          );
+          pongInterval = setInterval(() => {
+            console.debug("sending pong in game window");
+            let [room, id] = session.split(":");
+            ws.current.send(
+              JSON.stringify({ action: "pong", id: id, room: room })
+            );
+          }, 5000);
+          return () => clearInterval(pongInterval);
         }
       };
 
-      ws.onmessage = function (evt) {
+      ws.current.onmessage = function (evt) {
         var received_msg = evt.data;
         let json = JSON.parse(received_msg);
         console.debug(json);
@@ -87,6 +101,20 @@ export default function Game(props) {
           console.error("didn't expect", json);
         }
       };
+
+      setInterval(() => {
+        if (ws.current.readyState === 3) {
+          setError(
+            `lost connection to server refreshing in ${10 - refreshCounter}`
+          );
+          refreshCounter++;
+          if (refreshCounter >= 10) {
+            location.reload();
+          }
+        } else {
+          setError("");
+        }
+      }, 1000);
     });
   }, []);
 
@@ -100,7 +128,12 @@ export default function Game(props) {
       gameSession = <Round game={game} />;
     }
 
-    return <div>{gameSession}</div>;
+    return (
+      <div>
+        {gameSession}
+        {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
+      </div>
+    );
   } else {
     return (
       <div>
