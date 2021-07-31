@@ -135,8 +135,9 @@ class CSVParser
           end
 
           if i % 2 == 0
+            dp i
             round_hash[:answers].push({
-              "ans": r[i], "pnt": r[i+1], "trig": false 
+              "ans": r[i-1], "pnt": r[i], "trig": false 
             })
           end
 
@@ -157,13 +158,13 @@ class CSVParser
         }
         until i > r.length()
           if i == 0
-            round_hash["question"] = r
+            round_hash["question"] = r[0]
             i += 1
             next
           end
 
           if i % 2 == 0
-            round_hash[:answers].push([r[i], r[i+1]])
+            round_hash[:answers].push([r[i-1], r[i]])
           end
           i += 1
         end
@@ -202,9 +203,9 @@ end
 
 def saveFiles
   i = 0
-  until i > @@file_arr.length()
+  until i >= @@file_arr.length()
     file_name = "#{@filename}#{i}.json"
-    p "Saving #{file_name}"
+    p "Saving #{target}#{file_name}"
     contents = @@file_arr[i].to_json
     File.open("#{@target}#{file_name}", 'w') {
       |file| file.write(contents)
@@ -239,7 +240,7 @@ def parse
   end
   createFamilyJson()
   ARGV.clear
-  p "Continue creating files: #{@filename}1-#{@@file_arr.length()}.json ? [y/n]"
+  p "Continue creating files: #{@filename}0-#{@@file_arr.length()}.json ? [y/n]"
   desicion = gets.chomp
   if desicion == "y"
     saveFiles()
