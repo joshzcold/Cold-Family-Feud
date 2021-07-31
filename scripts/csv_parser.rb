@@ -83,7 +83,7 @@ class CSVParser
   # create as many games as possible until we run out
   def createFamilyJson
     if @random
-      @@round_arr.shuffle
+      @@round_arr = @@round_arr.shuffle
     end
     q = 0
     fm = 0
@@ -135,7 +135,6 @@ class CSVParser
           end
 
           if i % 2 == 0
-            dp i
             round_hash[:answers].push({
               "ans": r[i-1], "pnt": r[i], "trig": false 
             })
@@ -201,12 +200,12 @@ class CSVParser
   dp "Number of games => #{@@file_arr.length()}"
 end
 
-def saveFiles
+def saveFiles(file_arr)
   i = 0
-  until i >= @@file_arr.length()
+  until i >= file_arr.length()
     file_name = "#{@filename}#{i}.json"
     p "Saving #{target}#{file_name}"
-    contents = @@file_arr[i].to_json
+    contents = file_arr[i].to_json
     File.open("#{@target}#{file_name}", 'w') {
       |file| file.write(contents)
     }
@@ -239,14 +238,7 @@ def parse
     end
   end
   createFamilyJson()
-  ARGV.clear
-  p "Continue creating files: #{@filename}0-#{@@file_arr.length()}.json ? [y/n]"
-  desicion = gets.chomp
-  if desicion == "y"
-    saveFiles()
-  else
-    p "Exiting..."
-  end
+  return @@file_arr
 end
 end
 
