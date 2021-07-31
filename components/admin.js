@@ -40,6 +40,11 @@ export default function Admin(props) {
         setError("");
       }
     }, 1000);
+
+    setInterval(() => {
+      console.debug("sending pong in admin");
+      send({ action: "pong" });
+    }, 5000);
     ws.current.addEventListener("message", (evt) => {
       var received_msg = evt.data;
       let json = JSON.parse(received_msg);
