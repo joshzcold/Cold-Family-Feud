@@ -1,11 +1,11 @@
 <div align="center">
 <img src="./public/title.png" alt="title logo" width="200"/>
   
-This app is currently available at ➡ https://famf.app 
+This app is currently available at ➡ https://famf.app
 
 _(it might take a minute to load as it becomes un-suspended from heroku)_
-</div>
 
+</div>
 
 ---
 
@@ -15,6 +15,7 @@ I found on github and I didn't want to use powerpoint(I use linux 🐧)
 I so I decided to make it from scratch and make it as functional as possible.
 
 Features:
+
 - Game creator and loader. Look in `games/` folder for already created games
   load games in either `/new` or `/admin`
 - seperated admin console from game window
@@ -29,7 +30,7 @@ Features:
 - Hostable/Joinable Rooms with generated room codes
 - Localization support
   - English
-  - Español 
+  - Español
 
 ## Start
 
@@ -39,6 +40,7 @@ In project root
 npm run build
 npm run start
 ```
+
 go to
 
 http://localhost:3000/game  
@@ -46,9 +48,9 @@ http://localhost:3000/game
 
 http://localhost:3000/admin
 
-Put /game on the projector/screen share. 
+Put /game on the projector/screen share.
 
-you'll want to screen share using an application that shares your audio 
+you'll want to screen share using an application that shares your audio
 
 Have your players go to http://[IP_ADDRESS]:3000/buzzer to register for the game
 
@@ -61,6 +63,7 @@ npm install
 npm run build
 npm start
 ```
+
 if you have trouble do `rm -r node_modules` then retry `npm install`
 
 ### Screen Share Audio Linux
@@ -76,9 +79,8 @@ In pulse audio choose outputs in the recording tab
 
 ```
 
-This will give you multiple recording sinks where you can attach one to your microphone and 
+This will give you multiple recording sinks where you can attach one to your microphone and
 one your the monitor of your desktop or headset. Resulting in output audio getting piped to your application
-
 
 ## Screenshots
 
@@ -95,6 +97,7 @@ Stack: Nextjs + React + Tail Wind css
 _(in the future I would like to move to saas instead of tailwind)_
 
 ### Add A Language
+
 Check out this link in the wiki: [Link](https://github.com/joshzcold/Cold-Family-Feud/wiki/Add-A-New-Language)
 
 ### New Games
@@ -110,6 +113,71 @@ Add your game to the language folder you created your game in
 
 For Example Español `games/es/my_spanish_game.json`
 
-For default games I would prefer that they follow a theme. 
+For default games I would prefer that they follow a theme.
 Like a holiday or topic like tech or media
 
+## Scripts
+
+### Generate Point Values
+
+`scripts/get_points`
+
+Sometimes you have family feud questions and answers, but with no answer point data.
+
+This script does its best to generate an array of points to use giving a number of parameters
+
+```sh
+❯ scripts/get_points
+"59 38 25 16 11"
+
+❯ scripts/get_points -h
+Usage: point_generator -[nmsidv]
+ Generate realistic point values for game questions
+    -n NUM                           Number of questions to generate points for. Defaults to 5
+    -m NUM                           Maxium number to distribute between questions. Defaults to 100
+    -a MAX                           Maxium percentage of max points for top answer. Defaults to 60% of max number
+    -i MIN                           Minimum percentage of max points for top answer. Defaults to 10% of max number
+    -d DESC                          Percentage decrease for each answer after top. Defaults to 66
+    -v                               Verbose Mode
+```
+
+The script will start with a MAX number then decrease by a percentage to generate numbers.
+
+Works well within a 3-8 point range, but can go higher
+
+```sh
+❯ scripts/get_points -n 20 -d 80
+"56 44 35 28 22 18 14 11 9 7 6 4 3 3 2 1 1 1 1 0"
+```
+
+### Parse CSV Data
+
+Assuming you have family feud data that matches this format
+
+```csv
+QUESTION, ANSWER, POINTS, ANSWER, POINTS
+```
+
+or this format
+
+```csv
+QUSTION, ANSWER, ANSWER, ANSWER
+```
+
+> if you use this format, then this script will auto generate point values
+> using the point_generator script/lib above
+
+you convert lots of csv files into cold_family_feud .json format
+
+```sh
+❯ ./scripts/parse_csv -h
+Usage: parse_csv -[rfov] [ CSV_FILES ]
+        --no-fast-money              Should fast money rounds be generated
+        --ignore-header              ignore the header on csv files
+        --no-random                  do not suffle rounds around and go in order of reading files
+        --no-multiplier              do not create double point rounds half way through the game
+    -r, --rounds=NUM                 How many rounds per a game
+    -f, --file-name=NAME             filename format
+    -o, --target=FOLDER              where to put generated files
+    -v                               Verbose Mode
+```
