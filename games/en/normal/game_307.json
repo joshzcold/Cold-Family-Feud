@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Spaghetti ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Linguini ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Ravioli ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Tortellini ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Macaroni ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "\"Name A Pasta Dish That Ends With The Letter \"\"I\"\"\""
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Change Of Clothes",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tissue",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Should Always Carry Extra Of When Flying By Plane."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Haircut",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Confident Walk",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Badge",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Good Posture",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Without The Uniform, How Can You Tell That Someone Is In The Mlitary"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Personality/Attitude",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sense Of Humor",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About You That Has Not Changed As You’ve Gotten Older"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Playstation ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "X Box ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Dreamcast ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Megadrive ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wii ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Snes ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Model Of Video Game Console"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Window",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Exit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Aisle",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Hope To Have Your Seat Near While Riding In A Plane"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "School",
+          41
+        ],
+        [
+          "Hospital",
+          21
+        ],
+        [
+          "Airplane",
+          10
+        ],
+        [
+          "Doctor’s Office",
+          9
+        ],
+        [
+          "Public Transit",
+          6
+        ],
+        [
+          "Shopping Center",
+          6
+        ],
+        [
+          "Work",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Public Place Where You’re Likely To Catch A Cold Or Flu Bug"
+    },
+    {
+      "answers": [
+        [
+          "Head",
+          34
+        ],
+        [
+          "Back",
+          15
+        ],
+        [
+          "Nose",
+          14
+        ],
+        [
+          "Feet",
+          9
+        ],
+        [
+          "Arm",
+          8
+        ],
+        [
+          "Eyes",
+          7
+        ],
+        [
+          "Hand",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of The Body That Often Itches."
+    },
+    {
+      "answers": [
+        [
+          "Fly",
+          60
+        ],
+        [
+          "Fight",
+          17
+        ],
+        [
+          "Apprehend Bad Guys",
+          13
+        ],
+        [
+          "Lift Heavy Weight",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Be Surprised To Find That A Superhero Couldn’t Do."
+    },
+    {
+      "answers": [
+        [
+          "Heights/falling",
+          51
+        ],
+        [
+          "Animals",
+          23
+        ],
+        [
+          "Clowns",
+          15
+        ],
+        [
+          "Performing",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name the worst thing for a circus performer to be afraid of."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

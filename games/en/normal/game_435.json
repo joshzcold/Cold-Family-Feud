@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Clock",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stove",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "VCR/DVD Player",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item In Your Home That You’d Need To Reset After Power Had Went Out"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sapronas",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Godfather",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Untouchables",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Public Enemy",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Scarface",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Goodfellows",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Movie Or TV Show about Gangsters"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weapon",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Binoculars",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Magnifying Glass",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Briefcase",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Flashlight",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Spies In Movies Always Carry"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Closet",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cupboard",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Under Rug",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Under Couch",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You’d Hid Mess Company Coming"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Haunted",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Termites",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Mold",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Price Went Up",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Leaky Roof",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bad Foundation",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You Find Out About A House That Would Make You Back Out Of Buying It?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pierce",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Tatoo",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Tan",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Shave Their Head",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do To Their Body That Other People Think Is Crazy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Butt",
+          54
+        ],
+        [
+          "Breasts",
+          17
+        ],
+        [
+          "Back",
+          10
+        ],
+        [
+          "Bone",
+          9
+        ],
+        [
+          "Brain",
+          5
+        ],
+        [
+          "Belly",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of The Body That Starts With The Letter “B.”"
+    },
+    {
+      "answers": [
+        [
+          "Sexy/Hot",
+          33
+        ],
+        [
+          "Makeup",
+          25
+        ],
+        [
+          "Diet",
+          24
+        ],
+        [
+          "Fashion",
+          8
+        ],
+        [
+          "Love",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name One Word You’d See On The Cover Of A Women’s Magazine, But Probably Not On A Magazine For Men"
+    },
+    {
+      "answers": [
+        [
+          "Tag",
+          23
+        ],
+        [
+          "Frisbee",
+          20
+        ],
+        [
+          "Volleyball",
+          17
+        ],
+        [
+          "Horseshoes",
+          12
+        ],
+        [
+          "Football",
+          11
+        ],
+        [
+          "Baseball",
+          9
+        ],
+        [
+          "Checkers/Chess",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Game People Play At Picnics"
+    },
+    {
+      "answers": [
+        [
+          "Pizza",
+          31
+        ],
+        [
+          "Candy",
+          16
+        ],
+        [
+          "Hot Dogs",
+          14
+        ],
+        [
+          "Ice Cream",
+          10
+        ],
+        [
+          "hamburger",
+          8
+        ],
+        [
+          "Peanut Butter & Jelly",
+          7
+        ],
+        [
+          "French Fries",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If A 10-Year-Old Ran His Own Restaurant, Name Something You Might See On The Menu."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

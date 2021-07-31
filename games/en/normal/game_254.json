@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Police",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Conductor",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Homeless Person",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ticket Takers",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Performer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Passengers, Who Might You See At A Subway Station?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Radio",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Looking Out Window",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Call School",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way A Student Finds Out It Is A Snow Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Adam’s Apple",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Deep Voice",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Facial Hair",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Muscles",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hairy Legs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bone Structure",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a way you might be able to tell a woman is really a man in drag"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Not Enough Food",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Animals Getting Sick",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Boat Sinking",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Leaks",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "When Rain Would End",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Drowning",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Noah Might Have Worried About During His Voyage On The Ark."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheese",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Beef/Sausage",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Tomato",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Olives",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a topping you’d put on both a pizza and a taco."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tightrope Walk ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Trapeze Artist ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Acrobat ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Human Cannonball ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "High Beam ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Circus Act That Requires A Net"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Florida",
+          34
+        ],
+        [
+          "California",
+          18
+        ],
+        [
+          "Colorado",
+          18
+        ],
+        [
+          "Hawaii",
+          13
+        ],
+        [
+          "New York",
+          6
+        ],
+        [
+          "Alaska",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A State People Visit During The Winter."
+    },
+    {
+      "answers": [
+        [
+          "Fleas ",
+          48
+        ],
+        [
+          "Itching Powder ",
+          31
+        ],
+        [
+          "Insulation ",
+          20
+        ],
+        [
+          "Mosquito Bite ",
+          13
+        ],
+        [
+          "Detergent ",
+          9
+        ],
+        [
+          "STD ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Makes You Itch"
+    },
+    {
+      "answers": [
+        [
+          "Conference Table",
+          29
+        ],
+        [
+          "Executives",
+          26
+        ],
+        [
+          "Office Chairs",
+          17
+        ],
+        [
+          "Charts/Presentation",
+          12
+        ],
+        [
+          "Coffee/Donuts",
+          9
+        ],
+        [
+          "Computers/Phones",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Expect To See In A Boardroom Meeting."
+    },
+    {
+      "answers": [
+        [
+          "Coat",
+          43
+        ],
+        [
+          "Heater",
+          29
+        ],
+        [
+          "Gloves",
+          6
+        ],
+        [
+          "Shovel",
+          6
+        ],
+        [
+          "Boots",
+          5
+        ],
+        [
+          "Sweater",
+          5
+        ],
+        [
+          "Blankets",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Use Less In The Summer Than In The Winter"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Jeans",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Gown",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Elevator",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Try To Squeeze Into (More Specific Than “Clothes”)."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smiling",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Waving",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Posing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Crying",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Clapping",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Kissing Date",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "At An Awards Show, Name Something Celebs Might Be Doing When The Camera Pans On Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gum",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Sole",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Lint",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Taps",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Heel",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Dog Poo",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Found On The Bottom Of A Shoe."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strawberries",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Nuts",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cherries",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Raisins",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pretzels",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ants",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Is Chocolate Covered"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cowboy Boots",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Chaps",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Spurs",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Rope",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Saddle",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Buy At A Western Store You Probably Can’t Buy In A Regular Clothes Store."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Billy",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Willy",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Lily",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Millie",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Tillie",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Give Me A Person’s First Name That Rhymes With “Silly.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Wings",
+          46
+        ],
+        [
+          "Arms",
+          18
+        ],
+        [
+          "Bird",
+          13
+        ],
+        [
+          "Balloon",
+          8
+        ],
+        [
+          "Kite",
+          4
+        ],
+        [
+          "magic Carpet",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than An Airplane, What Might A Cartoon Character Use To Help Them Fly?"
+    },
+    {
+      "answers": [
+        [
+          "McDonalds",
+          39
+        ],
+        [
+          "Burger King",
+          25
+        ],
+        [
+          "Taco Bell",
+          14
+        ],
+        [
+          "KFC",
+          11
+        ],
+        [
+          "Pizza Hut",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fast Food Restaurant People Would Recognize By Their Sign."
+    },
+    {
+      "answers": [
+        [
+          "Ice Cream ",
+          42
+        ],
+        [
+          "Candle ",
+          27
+        ],
+        [
+          "Butter ",
+          18
+        ],
+        [
+          "Chocolate ",
+          12
+        ],
+        [
+          "Lard ",
+          7
+        ],
+        [
+          "A Heart ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Melts"
+    },
+    {
+      "answers": [
+        [
+          "Beaches",
+          25
+        ],
+        [
+          "Flower Necklace",
+          25
+        ],
+        [
+          "Palm Trees",
+          15
+        ],
+        [
+          "Water",
+          9
+        ],
+        [
+          "Hula Dancers",
+          7
+        ],
+        [
+          "Girls In Bikinis",
+          7
+        ],
+        [
+          "Pineapples",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’D Expect To See A Lot Of In Hawaii"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

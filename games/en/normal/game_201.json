@@ -1,0 +1,342 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pet ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Family ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Football Team ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Celebs ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Yourself ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Or Something You Might Love More Than Your Partner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Foundation",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Blush",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Lipstick",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Eye Shadow",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Powder",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mascara",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Eyeliner",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Makeup Women Apply To Their Face."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Yawn",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Sigh",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Roll Their Eyes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Twiddle Thumbs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Tap Fingers",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Look At Watch",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do To Let You Know They’re Bored"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shopping",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Paying Bills",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were The Incredible Hulk, Tell Me What Part Of Your Day Would Most Likely Turn You Into A Monster."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trumpet ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Trombone ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Tuba ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "French Horn ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bugle ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bazooka ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Brass Musical Instrument"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Karate ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Rugby ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Running ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Boxing ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport That Doesn't Require A Lot Of Equipment"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Meat ",
+          40
+        ],
+        [
+          "Stuffing ",
+          26
+        ],
+        [
+          "Sausages ",
+          17
+        ],
+        [
+          "Eggs ",
+          11
+        ],
+        [
+          "Dog Food ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Buy From A Butchers"
+    },
+    {
+      "answers": [
+        [
+          "Wide Smile",
+          42
+        ],
+        [
+          "Bunny Ears",
+          25
+        ],
+        [
+          "Make Faces",
+          11
+        ],
+        [
+          "Pose",
+          5
+        ],
+        [
+          "Dress Alike",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Cheesy People Do In Family Portraits."
+    },
+    {
+      "answers": [
+        [
+          "Singing",
+          56
+        ],
+        [
+          "Dancing",
+          36
+        ],
+        [
+          "Juggling",
+          24
+        ],
+        [
+          "Mime",
+          16
+        ],
+        [
+          "Playing Guitar",
+          10
+        ],
+        [
+          "Magic",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a talent you see street performers doing"
+    },
+    {
+      "answers": [
+        [
+          "Patience",
+          46
+        ],
+        [
+          "Intelligence",
+          35
+        ],
+        [
+          "Friendly Personality",
+          10
+        ],
+        [
+          "Strictness",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Trait That’s Essential For A High School Teacher To Have"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

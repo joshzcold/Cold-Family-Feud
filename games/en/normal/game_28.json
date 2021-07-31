@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Nervous",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Name On Board",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Doesn’t Know Names",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "No Control",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In A Classroom, How Can YOU Tell A Teacher Is A Substitute"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Music",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Turntable",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Microphone",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Laptop/Ipod",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sound System",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Deejay Needs To Play A Gig."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bite/Sting",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Buzzing",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Ability To Fly",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Traveling In Swarms",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something That Makes Some Bugs More Annoying Than Others"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stop Speeding",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Cursing",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chatting",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Charging Fare",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Honking",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Picking People Up",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Taxi Driver Would Have To Stop Doing In Order To Be A Respectable Hearse Driver."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cry",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Wear A Hat",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Complain",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hide",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do After Getting A Bad Haircut"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shopping Cart",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Manicure",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Hair Salon",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Massage",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bubble Bath",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something A Woman Might Do To Spoil Herself (More Specific Than “Spa”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Having A Photo Taken",
+          34
+        ],
+        [
+          "Hear A Bad Joke",
+          18
+        ],
+        [
+          "Job Interview",
+          13
+        ],
+        [
+          "Upset",
+          12
+        ],
+        [
+          "Meeting New People",
+          12
+        ],
+        [
+          "Nervous",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Instance When You Fake A Smile"
+    },
+    {
+      "answers": [
+        [
+          "Garfield",
+          51
+        ],
+        [
+          "Snoopy",
+          39
+        ],
+        [
+          "Dino",
+          5
+        ],
+        [
+          "Scooby Doo",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cartoon Pet That’s Smarter Than Its Owner."
+    },
+    {
+      "answers": [
+        [
+          "Death",
+          44
+        ],
+        [
+          "Wedding",
+          36
+        ],
+        [
+          "New Baby",
+          10
+        ],
+        [
+          "Fall In Love",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Big Event That Happens To TV Characters In Order To Up Ratings."
+    },
+    {
+      "answers": [
+        [
+          "Clothes ",
+          47
+        ],
+        [
+          "Washing Powder ",
+          31
+        ],
+        [
+          "A Book ",
+          20
+        ],
+        [
+          "A Baby ",
+          13
+        ],
+        [
+          "Newspaper ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Take To The Laundrette"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

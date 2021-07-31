@@ -1,0 +1,343 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "What’s Up",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Shut Up",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Look Up",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Heads Up",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Screw Up",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Straight Up",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "7 Up",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Expression People Often Say That Ends With The Word “Up.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toilet Paper",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Often Buy In Large Quantities At The Department Store."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plants ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Dog ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Be Kept Inside Or Outside"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Are You Brushing ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Open Wide ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Brushing Properly ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "This Won't Hurt ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Are You're Teeth Ok",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hello ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Dentist Says To You Every Visit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Past relationships",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Intimacy",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Him/Herself",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Monsy",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wouldn’t Want Your date To Talk Too Much About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Your Name",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Your Income",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Your Age",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Your Address",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If A Con Man Approached You, What Do You Think He’d Immediately Want To Know?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Marilyn Monroe",
+          32
+        ],
+        [
+          "Elvis Presley",
+          31
+        ],
+        [
+          "Twiggy",
+          8
+        ],
+        [
+          "Elizabeth Taylor",
+          6
+        ],
+        [
+          "James Dean",
+          6
+        ],
+        [
+          "Jackie O",
+          5
+        ],
+        [
+          "Audrey Hepburn",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Celebrity From Decades Ago, Who’s Still Thought Of As A Style Icon."
+    },
+    {
+      "answers": [
+        [
+          "Gas Station",
+          25
+        ],
+        [
+          "Post Office",
+          21
+        ],
+        [
+          "Bank",
+          15
+        ],
+        [
+          "Church",
+          14
+        ],
+        [
+          "Grocery Store",
+          9
+        ],
+        [
+          "Bar",
+          8
+        ],
+        [
+          "Police Station",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Even A Very Small Town Usually Has One Of"
+    },
+    {
+      "answers": [
+        [
+          "Cook",
+          45
+        ],
+        [
+          "Wash dishes",
+          29
+        ],
+        [
+          "Clear table",
+          16
+        ],
+        [
+          "Serve",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If a restaurant had the same rules as your kitchen,what would customers need to do for themselves?"
+    },
+    {
+      "answers": [
+        [
+          "Socks/Stockings",
+          27
+        ],
+        [
+          "Under Shirt/T Shirt",
+          23
+        ],
+        [
+          "Jacket",
+          21
+        ],
+        [
+          "Scarf",
+          8
+        ],
+        [
+          "Thermals",
+          7
+        ],
+        [
+          "Hat",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Extra Piece Of Clothing Might Wear To A Game Of Strip Poker To Delay Taking Off Your Essentials?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chocolate/ Candy",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Junk Food That You’d Never Want To Give Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coat",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Girdle",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tights",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Snowsuit",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Article Of Clothing That Makes You Feel Like You Can’t Move."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Personality",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Hight/Stature",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Eye Color",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something About A Person That Cosmetic Surgery Can’t Fix."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kite",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "A Windmill",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Sailboat",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Chimes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Works Better On A Windy Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bull ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Rhino ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Buffalo ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Deer ",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal With Horns"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Feminine Products",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Would Be Surprised To Find In A Bachelor’s Bathroom"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fall",
+          43
+        ],
+        [
+          "Forget Speech",
+          22
+        ],
+        [
+          "Loose Voice",
+          11
+        ],
+        [
+          "Faint",
+          6
+        ],
+        [
+          "Cry",
+          4
+        ],
+        [
+          "Drop Award",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name Something A Celebrity Hopes Won’t Happen While On Stage To Accept An Award"
+    },
+    {
+      "answers": [
+        [
+          "Spin The Bottle",
+          41
+        ],
+        [
+          "Strip Poker",
+          32
+        ],
+        [
+          "Twister",
+          11
+        ],
+        [
+          "Truth Or Dare",
+          11
+        ],
+        [
+          "Beer Pong",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Game That Would Be Inappropriate At A Company Party."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          34
+        ],
+        [
+          "Raising Kids",
+          26
+        ],
+        [
+          "Romance/Relationship",
+          11
+        ],
+        [
+          "Cars",
+          8
+        ],
+        [
+          "Sports",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Did 100 Wives Say Their Husbands “Always Think They’re Right About” In An Argument?"
+    },
+    {
+      "answers": [
+        [
+          "Basketball court",
+          54
+        ],
+        [
+          "Theater/concert",
+          35
+        ],
+        [
+          "Amusement park",
+          23
+        ],
+        [
+          "Supermarket",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a place where it is good to be tall"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

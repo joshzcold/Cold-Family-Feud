@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Spit",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Chew Tobacco",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Chew Gum",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Drink Fluids",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Watch Game",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cheer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Baseball Players Do While They’re In The Dugout."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gym Teacher/Coach",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Personal Trainer",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Janitor",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Babysitter",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In Which Profession Would It Be Easiest To Get Away With Wearing Sweat Pants?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lay down",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Talk About It",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When You’ve Had A Bad Day, Name Something You’re Told To Do To Make You Feel Better."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Donuts",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Roses",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Usually Comes In Sets Of 12"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Get Into Fight",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Argue With ref",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Insult Players",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Bother Coach",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might An Overboard Soccer Mom Do At A Game That Causes Her To Be Thrown Out?"
+    },
+    {
+      "answers": [
+        {
+          "ans": 8,
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Many Hours Of Sleep Does The Average Person Need In Order To Wake Up Refreshed?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Chinese",
+          54
+        ],
+        [
+          "Jewish",
+          26
+        ],
+        [
+          "Islam",
+          7
+        ],
+        [
+          "Japan",
+          5
+        ],
+        [
+          "Buddhist",
+          4
+        ],
+        [
+          "India",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Culture Or Religion That Celebrates A Different New Year Then The West"
+    },
+    {
+      "answers": [
+        [
+          "Guitar",
+          30
+        ],
+        [
+          "Violin",
+          26
+        ],
+        [
+          "Flute/Pipe",
+          18
+        ],
+        [
+          "Clarinet",
+          8
+        ],
+        [
+          "Oboe",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Musical Instrument Made Out Of Wood"
+    },
+    {
+      "answers": [
+        [
+          "Nurse ",
+          58
+        ],
+        [
+          "Care Assistant ",
+          38
+        ],
+        [
+          "Child Minder ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Good Job For Someone Who Likes To Take Care Of People"
+    },
+    {
+      "answers": [
+        [
+          "Vacuum Cleaner",
+          46
+        ],
+        [
+          "Cosmetics",
+          28
+        ],
+        [
+          "Encyclopedia",
+          11
+        ],
+        [
+          "Bible",
+          5
+        ],
+        [
+          "Knives",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Product Door-To-Door Salesmen Used To Sell."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

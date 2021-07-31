@@ -1,0 +1,290 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Tiny Tim",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Tinkerbell",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tom Thumb",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Stuart Little",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Thumbelina",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Children’s character who’s associated with being small."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shopping Center",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hotel",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Had To Be Locked Inside A Building For A Year, Which Place Would You Want It To Be?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Easter",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Halloween",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "School Picture Day",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion Where Parents Force Their Child To Wear A Certain Outfit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Volcanoes",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rain",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "High Cost Of Living",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Too Many Tourists",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Although Some Consider It Paradise, Name A Downside To Living In Hawaii"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Train ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Plane ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Lessons ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Work ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Runs On A Timetable"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plant/ Flowers",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Dessert",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Candle",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gift You’D Likely Get Housewarming Presents"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sick",
+          54
+        ],
+        [
+          "Bad weather",
+          25
+        ],
+        [
+          "Cleaning/Working",
+          15
+        ],
+        [
+          "Sports/TV",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Not Leave The House For An Entire Day."
+    },
+    {
+      "answers": [
+        [
+          "Clown",
+          52
+        ],
+        [
+          "Lion Tamer",
+          34
+        ],
+        [
+          "Acrobat",
+          22
+        ],
+        [
+          "Strong Man",
+          14
+        ],
+        [
+          "Ringmaster",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Circus Performer That Would Have Easiest Time Getting Dates"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          61
+        ],
+        [
+          "Money",
+          30
+        ],
+        [
+          "Advice",
+          2
+        ],
+        [
+          "Bike",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teenage Boy Might Ask His Dad For."
+    },
+    {
+      "answers": [
+        [
+          "Dictionary",
+          56
+        ],
+        [
+          "Encyclopedia",
+          22
+        ],
+        [
+          "Thesaurus",
+          13
+        ],
+        [
+          "Atlas",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Book That Students Keep On Hand For Reference."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

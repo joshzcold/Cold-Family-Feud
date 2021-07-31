@@ -1,0 +1,297 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dress/Tux",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Corsage",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Limo",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You Might Buy For The Prom"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Family",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hometown",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "On Family Fued, Name Something The Host Asks Players About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bed",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Homemade Meal",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something From Home You Miss While Staying In A Hotel"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drinks",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Decorations",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Utensils",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Noise Makers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Would Buy A Lot Of When Hosting A New Year’s Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ghost",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Vampire",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pajamas",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Halloween Costume People Wear If They Don’t Want To Go All Out."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Walking/ Running",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Intercourse",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Laughing",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Everyday Activity Burns The Most Calories?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hank Aaron",
+          32
+        ],
+        [
+          "Aaron Spelling",
+          32
+        ],
+        [
+          "Erin Brokovich",
+          28
+        ],
+        [
+          "Aaron Burr",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Aaron? (Erin?)"
+    },
+    {
+      "answers": [
+        [
+          "Halloween Party",
+          41
+        ],
+        [
+          "Robber/On The Run",
+          27
+        ],
+        [
+          "Undercover Spy",
+          12
+        ],
+        [
+          "Celebrity",
+          10
+        ],
+        [
+          "Witness Protection",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason A Person Might Wear A Disguise."
+    },
+    {
+      "answers": [
+        [
+          "Bill Clinton",
+          44
+        ],
+        [
+          "George W Bush",
+          23
+        ],
+        [
+          "John F Kennedy",
+          17
+        ],
+        [
+          "Barack Oboma",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Past Or Present, Name A U.S. President Who You Wouldn’t Mind Having A Beer With."
+    },
+    {
+      "answers": [
+        [
+          "Cinderella",
+          43
+        ],
+        [
+          "Snow White",
+          28
+        ],
+        [
+          "Alice In Wonderland",
+          18
+        ],
+        [
+          "Sleeping Beauty",
+          12
+        ],
+        [
+          "Rapunzel",
+          8
+        ],
+        [
+          "Red Riding Hood",
+          5
+        ],
+        [
+          "Jack N Beanstalk",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Lived In Fairy Tale Land, Someone At Grocery"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

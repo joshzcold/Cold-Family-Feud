@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sauna/Hot Tub",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hell",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Desert",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Hot Place Where You’d Never Expect To See People Eating Ice Cream."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Glue",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Yarn",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Construction Paper",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Paint",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Beads",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fabric",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Craft Lover Would Have A Lot Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speed",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Run Red Light",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Not Buckling Up",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cuss",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Answer Cell Phone",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do Driving But Never On A Driver’s Test"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cost/No Insurance",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Scared",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Pain",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Get Off Work",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "No Time",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "No Bad Teeth",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Excuse People Give For Not Seeing Their Dentist"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Touch Worms",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Smell Like fish",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Swim",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Boring",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cold",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Wake Up Early",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason You Would Not Want To Take Up Fishing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport That You Can’t Play Without A Team"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cry",
+          28
+        ],
+        [
+          "Flirt",
+          26
+        ],
+        [
+          "Lie",
+          18
+        ],
+        [
+          "Smile",
+          8
+        ],
+        [
+          "Be Nice",
+          8
+        ],
+        [
+          "Beg",
+          6
+        ],
+        [
+          "Apologize",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "After A Cop Pulls You Over, What Might You Try To Do To Avoid Getting A Ticket"
+    },
+    {
+      "answers": [
+        [
+          "Movie Stars",
+          52
+        ],
+        [
+          "Whoopi Goldberg",
+          34
+        ],
+        [
+          "Tic Tac toe",
+          22
+        ],
+        [
+          "Contestants",
+          14
+        ],
+        [
+          "Squares",
+          9
+        ],
+        [
+          "Money",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something associated With The Game Show “Hollywood Squares”"
+    },
+    {
+      "answers": [
+        [
+          "Hippopotamus ",
+          43
+        ],
+        [
+          "Crocodile ",
+          28
+        ],
+        [
+          "Shark ",
+          18
+        ],
+        [
+          "Whale ",
+          12
+        ],
+        [
+          "Snake ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Creature With A Large Mouth"
+    },
+    {
+      "answers": [
+        [
+          "Nurse",
+          44
+        ],
+        [
+          "Doctor",
+          23
+        ],
+        [
+          "Teacher",
+          13
+        ],
+        [
+          "Childcare Provider",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That People Consider Caring"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

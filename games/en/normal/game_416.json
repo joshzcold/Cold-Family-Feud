@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Can Fly",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Wears Cape",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "No Kryptonite",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Has Xray Vision",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Strong",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hero",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You See In A Personals Ad That Would Make You Think It Was Placed By Superman?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doors Slammed In Face",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "No Sales",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Too  Much Walking",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Feel Hurt",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "No One Answers Door",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Rude People",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Rejection",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Complaint A Door-To-Door Salesperson Might Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weather",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Prices",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Where To Stay",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Attractions",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Vacation Brochure Tells You About A Destination"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Clock",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Canara",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "MP3/Music",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Best Thing That Is Now Available Digital, But Hasn’t Always Been"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water Pistol ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Spray Bottle ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Plunger ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Squirts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sports",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Dance Class",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Theatre",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Martial Arts",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Extracurricular Activity Parent Says Is Good For Child"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Missing Piece",
+          46
+        ],
+        [
+          "Time",
+          33
+        ],
+        [
+          "Difficulty",
+          7
+        ],
+        [
+          "Kids",
+          6
+        ],
+        [
+          "Boredom",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Keeps You From Finishing A Jigsaw Puzzle."
+    },
+    {
+      "answers": [
+        [
+          "Cookies",
+          58
+        ],
+        [
+          "Ginger Ale",
+          12
+        ],
+        [
+          "Pumpkin Pie",
+          10
+        ],
+        [
+          "Tea",
+          7
+        ],
+        [
+          "Ginger chicken",
+          6
+        ],
+        [
+          "Carrot Cake",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Made with Ginger"
+    },
+    {
+      "answers": [
+        [
+          "Grand Canyon",
+          36
+        ],
+        [
+          "Statue Of Liberty",
+          25
+        ],
+        [
+          "White House",
+          11
+        ],
+        [
+          "Eiffel Tower",
+          8
+        ],
+        [
+          "Egyptian Pyramids",
+          8
+        ],
+        [
+          "Great Wall Of China",
+          5
+        ],
+        [
+          "Mount Rushmore",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Were An Earth Tour Guide, Which Landmarks Would You Show To An Alien?"
+    },
+    {
+      "answers": [
+        [
+          "Football ",
+          53
+        ],
+        [
+          "Tennis ",
+          34
+        ],
+        [
+          "Squash ",
+          23
+        ],
+        [
+          "Badminton ",
+          15
+        ],
+        [
+          "Volleyball ",
+          10
+        ],
+        [
+          "Cycling ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport In Which People Wear Shorts"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

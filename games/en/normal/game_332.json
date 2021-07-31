@@ -1,0 +1,319 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Coins / Money ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Wallet ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Hanky ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pen ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Keys ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Carry In Your Pocket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chess",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Video Games",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Math",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Band",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Hobby Whose Participants Are Also Called “-Geeks”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Harry Houdini",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "David Copperfield",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Merlin",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "David Blane",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Past Or Present, Name A Famous Magician"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Small",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Tiny",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Miniature",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mini",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Petite",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Another Word For “Little.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Knives ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Flaming Sticks ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Chainsaw / Saws ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bowling Balls ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bottles ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Jugglers Use That Could Injure Them"
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Chair ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Ladder ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Stool ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Feet ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Table ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Stand On"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pass gas",
+          25
+        ],
+        [
+          "Cough",
+          20
+        ],
+        [
+          "Caught talking",
+          15
+        ],
+        [
+          "Get the giggles",
+          14
+        ],
+        [
+          "Baby cries",
+          13
+        ],
+        [
+          "Phone rings",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you don’t want to have happen during a moment of silence."
+    },
+    {
+      "answers": [
+        [
+          "Pictures",
+          56
+        ],
+        [
+          "Drivers License",
+          26
+        ],
+        [
+          "Credit Cards",
+          7
+        ],
+        [
+          "Wallet",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Purse Was Stolen, Tell Me The One Thing In It That Would Be Hardest To Replace."
+    },
+    {
+      "answers": [
+        [
+          "Pizza",
+          57
+        ],
+        [
+          "Movie",
+          37
+        ],
+        [
+          "Jokes",
+          24
+        ],
+        [
+          "Smile",
+          16
+        ],
+        [
+          "Macaroni",
+          10
+        ],
+        [
+          "Pick Up Lines",
+          7
+        ],
+        [
+          "Music",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Described As Cheesy"
+    },
+    {
+      "answers": [
+        [
+          "Vows",
+          36
+        ],
+        [
+          "Kiss On Command",
+          23
+        ],
+        [
+          "Dance",
+          17
+        ],
+        [
+          "Cut The Cake",
+          10
+        ],
+        [
+          "Throw Bouqueu",
+          6
+        ],
+        [
+          "Bridal Song",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Part Of The Wedding That The Bride And Groom Might Do More Out Of Tradition Than Choice"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

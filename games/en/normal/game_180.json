@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "All Caps",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Exclamation Points",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Swearing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Angry Face",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "No Response",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Can You Tell Somebody Is Angry At You From Their Text Messages?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Bills",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "No Work",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "No Worries",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "More Fun/Playing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "No Resposibility",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why Parents Say That Childhood Is Better Than Adulthood."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tent",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping Bag",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Matches",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bug Spray",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is The Worst Thing To Forget On A Camping Trip?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading Material",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Provided In Some Waiting Rooms To Help Pass The Time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Van",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "SUV",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bus",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Station Wagon",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Type Of Vehicle Might A Family With Lots Of Children Want To Own?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Playing In The Snow",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sled/ Ski",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Look Forward To The Most In The Winter."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Good Ones Taken",
+          40
+        ],
+        [
+          "After Younger Women",
+          26
+        ],
+        [
+          "Men Are Dogs/Pigs",
+          17
+        ],
+        [
+          "They Don’t Work",
+          11
+        ],
+        [
+          "Only Want One Thing",
+          7
+        ],
+        [
+          "Men Are Immature",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do Some Women Say About Men As A Reason For Why They Can’t Get Dates"
+    },
+    {
+      "answers": [
+        [
+          "Scream",
+          59
+        ],
+        [
+          "Jason",
+          38
+        ],
+        [
+          "Ghost",
+          25
+        ],
+        [
+          "Witch",
+          16
+        ],
+        [
+          "Frankenstein",
+          11
+        ],
+        [
+          "Skull",
+          7
+        ],
+        [
+          "Presidents",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Most Popular Halloween Masks"
+    },
+    {
+      "answers": [
+        [
+          "Classical",
+          43
+        ],
+        [
+          "Country",
+          27
+        ],
+        [
+          "Jazz",
+          19
+        ],
+        [
+          "Opera",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Style Of Music That You’d Be Surprised To Hear That A Teenager Listened To."
+    },
+    {
+      "answers": [
+        [
+          "Have A drink",
+          38
+        ],
+        [
+          "rehearse",
+          32
+        ],
+        [
+          "Imagine crowd Naked",
+          12
+        ],
+        [
+          "Deep Breaths",
+          5
+        ],
+        [
+          "Mediate",
+          5
+        ],
+        [
+          "Count To 10",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might An Actor Do To Cure Stage Fright?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

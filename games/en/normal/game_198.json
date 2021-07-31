@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Iron ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Oven ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Heater ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Hair Dryer ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Toaster ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Domestic Appliance That Can Get Hot"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mountains",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Grand Canyon",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Eiffel Tower",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Empire State Bldg",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Vacation Spot That A Person With A Fear Of Heights Would Dread."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Mother’s Day",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Thanksgiving",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Family Birthday",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Day Of The Year When Most People Call Home."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shave",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Remove Eye Patch",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cut Hair",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Change Clothes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Leave Parrot Home",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would A Pirate Need To Do In Order To Look Presentable For A Job Interview?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nap",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Vomit",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Take Medicine",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Eat Soup",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Home From Work",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Go To Doctor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Only Do When You’re Sick."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Parking Lot",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Driving School",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Field",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Driveway",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Country Road",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where Someone Might Practice Driving For The First Time."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "June",
+          44
+        ],
+        [
+          "May",
+          27
+        ],
+        [
+          "july",
+          9
+        ],
+        [
+          "April",
+          6
+        ],
+        [
+          "October",
+          4
+        ],
+        [
+          "November",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Month When TV Networks Start Airing Reruns."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          41
+        ],
+        [
+          "Hair",
+          28
+        ],
+        [
+          "Time",
+          7
+        ],
+        [
+          "Muscles",
+          5
+        ],
+        [
+          "Love",
+          5
+        ],
+        [
+          "Energy",
+          3
+        ],
+        [
+          "Patience",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Woman Might Wish Her Husband Had More Of"
+    },
+    {
+      "answers": [
+        [
+          "Broad",
+          43
+        ],
+        [
+          "Old Lady",
+          28
+        ],
+        [
+          "Honey",
+          18
+        ],
+        [
+          "Wench",
+          12
+        ],
+        [
+          "Girl",
+          8
+        ],
+        [
+          "Housewife",
+          5
+        ],
+        [
+          "Hussy",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name People Used To Call Women In Old Days"
+    },
+    {
+      "answers": [
+        [
+          "Grey wig",
+          46
+        ],
+        [
+          "Cane",
+          18
+        ],
+        [
+          "Glasses",
+          13
+        ],
+        [
+          "Old dress",
+          9
+        ],
+        [
+          "Shawl/Scarf",
+          8
+        ],
+        [
+          "Handbag",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a girl would need if she wanted to impersonate an elderly woman."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

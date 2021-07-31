@@ -1,0 +1,350 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Place Of Worship",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Office",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theater",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Inappropriate Place For Couple To Start Smooching"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sand",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Sun Burn",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Crowded",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Parking",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Warm Food",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Being Looked At",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me The Worst Part About Going To The Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Reception",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Cost To Much",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Bad Service",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Not Enough Channels",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Complaint A Person Might Have About Their Cable TV Company."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bread ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Lunch ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Butter ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Ham ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Lettuce ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With Sandwiches"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weapon",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Magnifying Glass",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Binoculars",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Spy Glasses",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Tape Recorder",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You FInd In A Briefcase That Would Make You Think It Belonged To A Spy?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "General Lee ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Knight Rider ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Starsky & Hutch ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Mr Bean ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Only Fools ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Flintstones ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Car FromA Tv Show"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sea shells",
+          18
+        ],
+        [
+          "Seaweed",
+          18
+        ],
+        [
+          "Bottle",
+          14
+        ],
+        [
+          "Whale",
+          12
+        ],
+        [
+          "Garbage",
+          8
+        ],
+        [
+          "Shoes",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That May Be Found Washed Up On The Beach"
+    },
+    {
+      "answers": [
+        [
+          "Pig",
+          35
+        ],
+        [
+          "Elephant",
+          22
+        ],
+        [
+          "Cow",
+          17
+        ],
+        [
+          "Monkey",
+          13
+        ],
+        [
+          "Dog",
+          7
+        ],
+        [
+          "Whale",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That It’d Be Unflattering To Be Compared To"
+    },
+    {
+      "answers": [
+        [
+          "Moustache ",
+          48
+        ],
+        [
+          "Silent Films ",
+          31
+        ],
+        [
+          "Funny Walk ",
+          20
+        ],
+        [
+          "Comedy ",
+          13
+        ],
+        [
+          "Top Hat ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Charlie Chaplin"
+    },
+    {
+      "answers": [
+        [
+          "Yells A Lot",
+          36
+        ],
+        [
+          "Grumpy",
+          22
+        ],
+        [
+          "Extra Homework",
+          19
+        ],
+        [
+          "Gives Punishments",
+          16
+        ],
+        [
+          "Facial Expression",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way You Know Your Teacher Is Having A Bad Day."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

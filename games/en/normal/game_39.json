@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Break Window",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Locksmith",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Coat Hangar",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Spare Key",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Way To Get Into Car If You Leave Keys Inside"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Credit Card",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Electric/Lights",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Transportation/Gas",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Heat",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Of Your Usual Bills Increase Over The Holidays?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Tobacco ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Bag ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wind ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hose ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Pipe"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Salad",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Celery",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Oranges",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Broccoli",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Food That You Eat A Lot Of When You’re On A Diet."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oak",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Maple",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pine",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Evergreen",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Spruce",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Elm",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Tree That Looks Pretty In The Fall."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boxers",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Jock Strap",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Tie",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing That Is Usually Only Worn By Men"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Belt ",
+          43
+        ],
+        [
+          "Fat Tummy ",
+          28
+        ],
+        [
+          "String ",
+          18
+        ],
+        [
+          "Braces ",
+          12
+        ],
+        [
+          "Rope ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way Of Holding Up Your Trousers"
+    },
+    {
+      "answers": [
+        [
+          "Captain",
+          52
+        ],
+        [
+          "Food Server",
+          18
+        ],
+        [
+          "Cook",
+          12
+        ],
+        [
+          "Housekeeper",
+          7
+        ],
+        [
+          "Bartender",
+          4
+        ],
+        [
+          "Lifeguard",
+          3
+        ],
+        [
+          "Entertainer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Most Stressful Job To Have On A Cruise Ship"
+    },
+    {
+      "answers": [
+        [
+          "Alarm/Clock",
+          55
+        ],
+        [
+          "Table",
+          23
+        ],
+        [
+          "TV/Tivo",
+          12
+        ],
+        [
+          "VCR/DVD Player",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your House That Can Be Set."
+    },
+    {
+      "answers": [
+        [
+          "Flour",
+          28
+        ],
+        [
+          "Eggs",
+          17
+        ],
+        [
+          "Butter",
+          13
+        ],
+        [
+          "Milk",
+          11
+        ],
+        [
+          "Syrup",
+          10
+        ],
+        [
+          "Batter",
+          9
+        ],
+        [
+          "Pancake Mix",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Need If You Were Making Pancakes"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

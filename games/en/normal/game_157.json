@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bar/Club",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theater",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sporting Event",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Airport",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fair",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Shop",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where Beverages Are Always Overpriced"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Arachnophobia",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Agoraphobia",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Claustrophobia",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Germophobia",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word Or Phrase That Ends In -Phobia."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheerleaders",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Troy Aikman",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Champs",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Blue Star",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With The Dallas Cowboys."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cat",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Dolphin",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Whale",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hyena",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Animal’s Communication Sounds A Lot Like Crying?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pittsburgh",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Philadelphia",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Portland",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Phoenix",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pasadena",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pomona",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Park City",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a U.S. city that starts with the letter “P”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleeping",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Using Bathroom",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Causing Trouble",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Coloring",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Toddler May Be Doing If She Is Very Quiet"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Garfield",
+          33
+        ],
+        [
+          "Snoopy",
+          29
+        ],
+        [
+          "Marmaduke",
+          13
+        ],
+        [
+          "Heathcliff",
+          11
+        ],
+        [
+          "Hobbes",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Animal From A Comic Strip."
+    },
+    {
+      "answers": [
+        [
+          "To School",
+          58
+        ],
+        [
+          "To Bed",
+          22
+        ],
+        [
+          "To A Friend’s House",
+          8
+        ],
+        [
+          "To Summer Camp",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Somewhere That Parents Can’t Wait For Their Kids To Go"
+    },
+    {
+      "answers": [
+        [
+          "Candles",
+          51
+        ],
+        [
+          "Music",
+          22
+        ],
+        [
+          "Good Lighting",
+          8
+        ],
+        [
+          "Flowers",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Essential To Creating A Romantic Atmosphere At Home."
+    },
+    {
+      "answers": [
+        [
+          "Stutter ",
+          44
+        ],
+        [
+          "Forgetting Lines ",
+          29
+        ],
+        [
+          "Breaking Wind ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Worry About When Speaking In Front Of A Group"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

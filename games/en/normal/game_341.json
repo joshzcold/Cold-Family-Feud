@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Talking",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Making Promises",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Shaking Hands",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Smiling",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Kissing Babies",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Insulting Opponent",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Waving",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You See A Candidate Doing In TV Campaign Commercials"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Time When You Exchange Gifts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Edward Scissorhand",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Pirates Of The Caribbean",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Sleepy Hollow",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Blow",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Charlie & The Chocolate Factory",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Johnny Depp Movie Everyone Has Seen"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mustard",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Reslish",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Onion",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tomato",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sauerkraut",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Put On A Chicago Style Hotdog"
+    },
+    {
+      "answers": [
+        {
+          "ans": 30,
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": 20,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 60,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": 45,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In Minutes, How Long Is Your Commute To Work?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soldier ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Athlete ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Winner ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Hero ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Olympian ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Might Wear A Medal"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleep",
+          50
+        ],
+        [
+          "Yawn",
+          25
+        ],
+        [
+          "Eat",
+          9
+        ],
+        [
+          "Lose Temper",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do More Of When They’re Tired"
+    },
+    {
+      "answers": [
+        [
+          "Walking/ Running",
+          37
+        ],
+        [
+          "Active Love Life",
+          27
+        ],
+        [
+          "Driving",
+          19
+        ],
+        [
+          "Traveling",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hope That You’re Still Doing When You’re 80"
+    },
+    {
+      "answers": [
+        [
+          "For Prizes ",
+          48
+        ],
+        [
+          "To Complain ",
+          31
+        ],
+        [
+          "A Phone In ",
+          20
+        ],
+        [
+          "Agony Aunt ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason A Person Might Phone Up A Radio Show"
+    },
+    {
+      "answers": [
+        [
+          "Sleep ",
+          45
+        ],
+        [
+          "Nightmare ",
+          29
+        ],
+        [
+          "Falling ",
+          19
+        ],
+        [
+          "Bed ",
+          12
+        ],
+        [
+          "Clouds ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With A Dream"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

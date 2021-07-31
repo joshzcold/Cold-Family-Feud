@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Carpet",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that takes a long time to dry after it gets wet.(Clothes is not an answer,be more specific.)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strike",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Spare",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Turkey",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gutter Ball",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pin",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Term That You’d Look Like A Fool For Not Knowing While Bowling"
+    },
+    {
+      "answers": [
+        {
+          "ans": "10 Mins ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "8 Mins ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "20 Mins ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "6 Mins ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "15 Mins ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Long It Takes The Average Person To Run A Mile"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sushi",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Caviar",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Escargot",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tofu",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something The Stars Eat That You Probably Would Not Find In Middle America."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Girls",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Are 2 Brothers Most Likely To Fight Over?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sled",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Hill",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Mittens",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Need In Order To Go Sledding."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Dishes",
+          42
+        ],
+        [
+          "Laundry",
+          31
+        ],
+        [
+          "Cooking",
+          14
+        ],
+        [
+          "Parenting",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Married Women: Name Something You Wish Your Husband Would Be More Helpful With Around The House"
+    },
+    {
+      "answers": [
+        [
+          "Food/Drink",
+          41
+        ],
+        [
+          "Bathroom",
+          16
+        ],
+        [
+          "Lip Balm/Makeup",
+          12
+        ],
+        [
+          "Toothbrush",
+          12
+        ],
+        [
+          "Towel/Washcloth",
+          9
+        ],
+        [
+          "Comb/Brush",
+          5
+        ],
+        [
+          "Headphones",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Germophobe Would Hate To Share"
+    },
+    {
+      "answers": [
+        [
+          "Grow A Moustache ",
+          50
+        ],
+        [
+          "Grow Long Hair ",
+          33
+        ],
+        [
+          "Stuble ",
+          21
+        ],
+        [
+          "Get A Tattoo ",
+          14
+        ],
+        [
+          "Fake I.D ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Young Man Might Do To Look Older"
+    },
+    {
+      "answers": [
+        [
+          "Water ",
+          44
+        ],
+        [
+          "Cow Pat ",
+          29
+        ],
+        [
+          "Mud ",
+          19
+        ],
+        [
+          "Cactus ",
+          12
+        ],
+        [
+          "Tree ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You'd Hate To Land In After Skydiving"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "TV ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Magazine ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Billboard ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Internet ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Somewhere You Might See An Advertisement"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Somersault ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Cartwheel ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Walk On Hands ",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Gymnastic Move Most Children Know How To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chocolate",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific You Would Not Eat On Diet"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Ham",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fruitcake",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do A Lot Of People Eat On Christmas"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Saddle ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Rider ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Mane ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hair ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tail ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find On A Horse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Super Bowl",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Rose Bowl",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Sugar Bowl",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cotton Bowl",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Orange Bowl",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Peach Bowl",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Football Bowl Game"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Red Nose",
+          50
+        ],
+        [
+          "Puffy Eyes",
+          33
+        ],
+        [
+          "Pale",
+          21
+        ],
+        [
+          "No Sleep",
+          14
+        ],
+        [
+          "Messy Hair",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Look Bad When You Have A Cold"
+    },
+    {
+      "answers": [
+        [
+          "Polyester",
+          32
+        ],
+        [
+          "Silk",
+          30
+        ],
+        [
+          "Wool",
+          19
+        ],
+        [
+          "Nylon",
+          10
+        ],
+        [
+          "Leather",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Cotton, Name A Material Many Clothes Are Made Out Of."
+    },
+    {
+      "answers": [
+        [
+          "Bride",
+          35
+        ],
+        [
+          "Ex",
+          20
+        ],
+        [
+          "Dancer",
+          16
+        ],
+        [
+          "Mom",
+          13
+        ],
+        [
+          "Dad",
+          7
+        ],
+        [
+          "Father N Law",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone The Groom Might Not Want At His Bachelor Party"
+    },
+    {
+      "answers": [
+        [
+          "Doctor/Nurse",
+          55
+        ],
+        [
+          "Food Service",
+          28
+        ],
+        [
+          "Teacher",
+          5
+        ],
+        [
+          "Mail Carrier",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which You’d Need To Wear Comfortable Shoes."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

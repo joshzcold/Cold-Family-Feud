@@ -1,0 +1,342 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Pull / Kiss Boss ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Dance ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Embaress Yourself ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do At The Office Christmas Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pen",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Food Service",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Magnet",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cup",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Key Chain",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item A Company Might Put Their Logo On And Give Out For Free."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candles",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Wrapping paper",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Paper Plates",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Plastic Cups",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Decorations",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Tablecloth/Napkins",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That A Very thrifty Person Would Re-Use after A Birthday Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tiger",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Parrot",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Kangaroo",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Animal That Can Be Found In The Cereal Box"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monopoly",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Scrabble",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Clue",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Spades",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cranium",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Card Or Board Game That Many Families Play Together"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Area Code",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Zip Code",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Morse Code",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Security Code",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bar Code",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dress Code",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pass Code",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Ends With The Word “Code.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Rub Them Together",
+          39
+        ],
+        [
+          "Breathe On Them",
+          21
+        ],
+        [
+          "Gloves/Mittens",
+          16
+        ],
+        [
+          "Under Warm Water",
+          10
+        ],
+        [
+          "Use Pockets",
+          6
+        ],
+        [
+          "Fire Place/Heater",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Way You Warm Up Your Hands When They’re Cold."
+    },
+    {
+      "answers": [
+        [
+          "Police ",
+          58
+        ],
+        [
+          "Ambulance ",
+          38
+        ],
+        [
+          "Fire ",
+          25
+        ],
+        [
+          "Parents ",
+          16
+        ],
+        [
+          "Partner ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone You Might Phone In An Emergency"
+    },
+    {
+      "answers": [
+        [
+          "Singing",
+          51
+        ],
+        [
+          "Rocking",
+          32
+        ],
+        [
+          "Warm Milk",
+          9
+        ],
+        [
+          "Car Ride",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Parent Tries, To Get Their Baby To Sleep."
+    },
+    {
+      "answers": [
+        [
+          "8 Legs",
+          37
+        ],
+        [
+          "They Bite",
+          26
+        ],
+        [
+          "Make Webs",
+          17
+        ],
+        [
+          "Poisonous",
+          12
+        ],
+        [
+          "Scary",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Know About Spiders."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

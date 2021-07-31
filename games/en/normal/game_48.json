@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Over Dinner",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "With A Party",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "In An Email",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Send Out Announcements",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "By Phone",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "In Person",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "By What Method Might A Woman Make The Announcement That She’s Pregnant?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Throw Food",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Play With Food",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Not Finish Food",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Spit Out Food",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Spill Something",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Eat With Hands",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Kid Might Do At The Dinner Table That Would Probably Get Him In Trouble."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Emeril Lagasse",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Rachel Ray",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bobbie Flay",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Gordon Ramsey",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Paula Deen",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Jamie Oliver",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wolfgang Puck",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Celebrity Chef You Would Want Making You Dinner Every Night"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Glove Box",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Trunk",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Under Seat",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Console",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place In The Car Where People Hide Their Valuables."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Breakup",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Death",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Fence",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Virus",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mountain",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Hard To Get Over."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Cologne/Aftershave",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Razors",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Deodorant",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of TV Commercial That’s Usually Targeted At Men."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pilot",
+          47
+        ],
+        [
+          "Salesperson",
+          17
+        ],
+        [
+          "Musician",
+          10
+        ],
+        [
+          "Truck Driver",
+          8
+        ],
+        [
+          "Flight Attendant",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which You Might Be In A New City Every Night."
+    },
+    {
+      "answers": [
+        [
+          "Shower/Brush Teeth",
+          34
+        ],
+        [
+          "Dress Nicely",
+          23
+        ],
+        [
+          "Introduce Himself",
+          18
+        ],
+        [
+          "Get To Know You",
+          7
+        ],
+        [
+          "Smile",
+          5
+        ],
+        [
+          "Give A Compliment",
+          5
+        ],
+        [
+          "Ask Your Status",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Single Ladies: Name Something A Guy Should Always Do First Before Asking You On A Date."
+    },
+    {
+      "answers": [
+        [
+          "Teeth",
+          49
+        ],
+        [
+          "Hair",
+          34
+        ],
+        [
+          "Car",
+          7
+        ],
+        [
+          "Money",
+          4
+        ],
+        [
+          "Job",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Baby Doesn’t Have That Most Adults Do"
+    },
+    {
+      "answers": [
+        [
+          "Get Drunk",
+          52
+        ],
+        [
+          "Get In A Fight",
+          32
+        ],
+        [
+          "Get Hit On",
+          6
+        ],
+        [
+          "Have A Cigarette",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s More Likely To Happen To You If You’re Hanging Out At A Bar."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

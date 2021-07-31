@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Parents",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Spouse",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Parole Officer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Children",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Specific In A Bank Robber’s Life That he Doesn’t Want To Find Out About His Illegal Activity"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Venice",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Daytona",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Malibu",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Huntington",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pebble",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Miami",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Long",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Keanu Reeves",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Kevin Bacon",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bruce Willis",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Jack Black",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Russell Crowe",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Actor Who Also Has A Rock Band?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Go To The Bathroom",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Bark",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bite",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shed",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Dig Holes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Dog Owners Probably Wish Their Dogs Never Did"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oreo",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Oatmeal",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sugar",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Vanilla Wafers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Chocolate Chip, Name A Popular Cookie"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snake",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shark",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Alligator",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal With A Terrifying Bite."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Running water",
+          18
+        ],
+        [
+          "Cleaner",
+          15
+        ],
+        [
+          "Inside",
+          12
+        ],
+        [
+          "No Smell",
+          9
+        ],
+        [
+          "Heated",
+          9
+        ],
+        [
+          "Flush Toilet",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Your Bathroom Is Better Than An Outhouse"
+    },
+    {
+      "answers": [
+        [
+          "Channel",
+          57
+        ],
+        [
+          "Volume",
+          37
+        ],
+        [
+          "Mute",
+          24
+        ],
+        [
+          "On",
+          16
+        ],
+        [
+          "Pause",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Button On TV Remote Husband Will Wear Out"
+    },
+    {
+      "answers": [
+        [
+          "Angel/Religious Fig.",
+          39
+        ],
+        [
+          "Tree",
+          24
+        ],
+        [
+          "Santa/Reindeer",
+          15
+        ],
+        [
+          "Penguins/Animals",
+          8
+        ],
+        [
+          "Snowflake",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Be Carved Into A Christmas Ice Sculpture."
+    },
+    {
+      "answers": [
+        [
+          "American Football",
+          43
+        ],
+        [
+          "Hockey",
+          17
+        ],
+        [
+          "Wrestling",
+          14
+        ],
+        [
+          "Baseball",
+          14
+        ],
+        [
+          "Basketball",
+          5
+        ],
+        [
+          "Skiing",
+          3
+        ],
+        [
+          "Rugby",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Sports Are You Most Likely To Break An Arm Playing?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

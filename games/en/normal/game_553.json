@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Play Poker",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Go To Bar",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Watch Sports",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Golf Outing",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bachelor Party",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity Some Men Do With Their Buddies Where Wives Aren’t Invited"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sugar",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Lemon",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Honey",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Ice",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Add To Their Tea."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brave",
+          "pnt": 70,
+          "trig": false
+        },
+        {
+          "ans": "Strength",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fortitude",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Heroic",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Heart",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bold",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For “Courage.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seats",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Floor",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pillows/Blankets",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Windows",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Tray Tables",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific That Doesn’t Get Cleaned Between Flights On An Airplane"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bake Sales",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Car Wash",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Dinner",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Auction",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Raffle",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Walk/ Run",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Event That’s Often Held As A Fundraiser"
+    },
+    {
+      "answers": [
+        {
+          "ans": "FOOD",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "COCKTAILS",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "LODGING",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "ENTERTAINMENT",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "SNORKLING TOUR",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Thats Included When You Go On A Cruise"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Police",
+          33
+        ],
+        [
+          "IRS",
+          16
+        ],
+        [
+          "Telemarketer",
+          14
+        ],
+        [
+          "Your Ex",
+          11
+        ],
+        [
+          "Bill Collecter",
+          9
+        ],
+        [
+          "Attorney",
+          4
+        ],
+        [
+          "Principal",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone You Don’t Want To Get A Phone Call From."
+    },
+    {
+      "answers": [
+        [
+          "Bad Language",
+          31
+        ],
+        [
+          "Crying During Movie",
+          17
+        ],
+        [
+          "Violence",
+          16
+        ],
+        [
+          "Sex Scene",
+          14
+        ],
+        [
+          "Talking",
+          7
+        ],
+        [
+          "Got Sick",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Take Your Child Out Of A Movie."
+    },
+    {
+      "answers": [
+        [
+          "Deer",
+          25
+        ],
+        [
+          "Zebra",
+          24
+        ],
+        [
+          "Rabbit",
+          20
+        ],
+        [
+          "Antelope",
+          9
+        ],
+        [
+          "Gazelle",
+          8
+        ],
+        [
+          "Mice",
+          5
+        ],
+        [
+          "Sheep",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal A Lion Likes To Eat"
+    },
+    {
+      "answers": [
+        [
+          "Keys",
+          58
+        ],
+        [
+          "Money",
+          38
+        ],
+        [
+          "Minds",
+          25
+        ],
+        [
+          "Gloves",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something people often lose"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

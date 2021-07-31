@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Didn't Realise ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Didn't See The Sign ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Late For Work ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Going To Hospital ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Excuse People Give To Police For Speeding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Estate ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Secret ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "News ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Travel ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Insurance ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Agent"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Watch TV",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Play Video Games",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Text",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Parents Worry That Their Kids Do Too Much Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shower",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Make Coffee",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Eat Breakfast",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pray",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Use The Bathroom",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do In The Morning, Before Anyone Else Is Awake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Of Your That The Dog Likes To Play With."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Instruments",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Announcer’s Voice",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sad Songs",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Commercials",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Do You Know That You’re Tuned Into A Country Radio Station?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Definition",
+          46
+        ],
+        [
+          "Origin",
+          30
+        ],
+        [
+          "Use In A Sentence",
+          20
+        ],
+        [
+          "Repeat It",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "In A Spelling Bee, What Might A Kid Ask About A Word Before Spelling It?"
+    },
+    {
+      "answers": [
+        [
+          "Too Small",
+          70
+        ],
+        [
+          "They Stink",
+          10
+        ],
+        [
+          "They Are Dirty",
+          5
+        ],
+        [
+          "No Ventilation",
+          4
+        ],
+        [
+          "No Smoking",
+          3
+        ],
+        [
+          "Turbulence",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Worst Part About The Lavatories On Planes"
+    },
+    {
+      "answers": [
+        [
+          "Sky Dive",
+          43
+        ],
+        [
+          "Bungee Jump",
+          26
+        ],
+        [
+          "Rock Climb",
+          12
+        ],
+        [
+          "Climb A Ladder",
+          6
+        ],
+        [
+          "Paraglide",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me An Activity You Might Do To Prove You Aren’t Afraid Of Heights"
+    },
+    {
+      "answers": [
+        [
+          "Therapist",
+          38
+        ],
+        [
+          "Attorney",
+          31
+        ],
+        [
+          "Doctor",
+          22
+        ],
+        [
+          "Psychic",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Professional That Charges You For Advice."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

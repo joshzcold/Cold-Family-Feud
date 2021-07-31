@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Baking Soda",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Jell O",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tomato Sauce",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pudding",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Kitchen Item That Might Be Used To Make Lava On A Volcano Model"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coffee",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Martini",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate Milk",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Kool Aid",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Drink That You Might Stir."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Use Computer",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Study",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Meet People",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Research",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "It’s Quiet",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Why Might Someone Who Doesn’t Like Reading Go To The Library?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trash",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Penny",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dog Doo",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Find On A Street That The Owner Doesn’t Want Returned"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rocky Horror",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Pulp Fiction",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "A Clockwork Orange",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Breakfast Club",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Napolean Dynamite",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Blair Witch Project",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Movie That Has Become A “Cult Classic”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cushion ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Person ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Magazine ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find On A Chair"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sweater",
+          33
+        ],
+        [
+          "Bra",
+          26
+        ],
+        [
+          "Coat",
+          19
+        ],
+        [
+          "Shoes",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing That Usually Can’t Be Put In The Dryer"
+    },
+    {
+      "answers": [
+        [
+          "Build A Snowman",
+          59
+        ],
+        [
+          "Snowball Fight",
+          38
+        ],
+        [
+          "Sled",
+          25
+        ],
+        [
+          "Ski",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Should You Do To Celebrate The First Snowfall?"
+    },
+    {
+      "answers": [
+        [
+          "Brooklyn Bridge",
+          44
+        ],
+        [
+          "Dodgers",
+          30
+        ],
+        [
+          "New York",
+          8
+        ],
+        [
+          "Accent",
+          4
+        ],
+        [
+          "Subway",
+          3
+        ],
+        [
+          "Zoo",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Brooklyn."
+    },
+    {
+      "answers": [
+        [
+          "Lad",
+          42
+        ],
+        [
+          "Sonny",
+          27
+        ],
+        [
+          "Youngin",
+          18
+        ],
+        [
+          "Kiddo",
+          12
+        ],
+        [
+          "Whippersnapper",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Term For “Little Boy” That Old Person Might Use"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

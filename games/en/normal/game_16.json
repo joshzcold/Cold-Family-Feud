@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sand",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Seashore",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sunscreen",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Surfers",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shells",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sandals",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something At A Beach That Begins With “S.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bank",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Post Office",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Market",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dry Cleaners",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place That Closes Early For A Person To Run Errands After Work."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tomato",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Onion",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Croutons",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dressing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cucumbers",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Lettuce, Name Something A Restaurant Might Put In A Dinner Salad."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Black",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Girdle",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Vertical Stripes",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’re Advised To Wear In Order To Look Slim"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ring ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Jewellery ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Necklace ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Earrings ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Crucifix ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Jewellery Box"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Open Doors",
+          "pnt": 78,
+          "trig": false
+        },
+        {
+          "ans": "Bring Flowers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills/Dinner",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pulling Out Chair",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Gentlemen Used To Do For Ladies That They No Longer Bother With."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Queue ",
+          56
+        ],
+        [
+          "Elevator ",
+          36
+        ],
+        [
+          "Bus / Bus Stop ",
+          24
+        ],
+        [
+          "Church ",
+          16
+        ],
+        [
+          "Crossing ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Might Have To Stand"
+    },
+    {
+      "answers": [
+        [
+          "Toys ",
+          42
+        ],
+        [
+          "Bed ",
+          27
+        ],
+        [
+          "Teddy ",
+          18
+        ],
+        [
+          "Mess ",
+          12
+        ],
+        [
+          "Doll ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find In A Childrens Room"
+    },
+    {
+      "answers": [
+        [
+          "Looks",
+          49
+        ],
+        [
+          "Charm",
+          20
+        ],
+        [
+          "Wealth",
+          10
+        ],
+        [
+          "Sophistication",
+          9
+        ],
+        [
+          "British Accent",
+          4
+        ],
+        [
+          "Fashion Sense",
+          3
+        ],
+        [
+          "Intelligence",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Husband Could Get One Quality From James Bond, What Would You Want It To Be?"
+    },
+    {
+      "answers": [
+        [
+          "Pet",
+          45
+        ],
+        [
+          "Kids",
+          29
+        ],
+        [
+          "Car",
+          19
+        ],
+        [
+          "Hair",
+          12
+        ],
+        [
+          "Shoes",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Woman Treats Better Than Her Husband"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

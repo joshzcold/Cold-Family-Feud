@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pumpkin Pie",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Turkey",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Apples",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Chili",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Squash",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Item Typically Associated With Fall"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Noise ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Property Prices ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Traffic ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why People Don't Like Living Next Door To An Airport"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Watching TV/Movie",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Playing Games",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Indoor Activity You Spend Much More Time Doing In Winter."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Problems",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bully",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bee",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "The Law",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Not To Run Away From Because It Makes Things Worse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bark",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Act Like Chicken",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Go To Sleep",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might Hypnotist Do To Prove You Are Hypnotized"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dracula",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Zorro",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Elvis Presley",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sherlock Holmes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pope",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Famous Who Wore A Cape, But Was Not A Superhero."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lights",
+          35
+        ],
+        [
+          "Oven",
+          34
+        ],
+        [
+          "Coffeemaker",
+          12
+        ],
+        [
+          "TV",
+          5
+        ],
+        [
+          "Iron",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In The House That You Shouldn’t Leave On When You Go Out."
+    },
+    {
+      "answers": [
+        [
+          "Not Housetrained",
+          26
+        ],
+        [
+          "Bites People",
+          17
+        ],
+        [
+          "Chews",
+          15
+        ],
+        [
+          "Barks A Lot",
+          12
+        ],
+        [
+          "Doesn’t Obey You",
+          11
+        ],
+        [
+          "Runs Away",
+          7
+        ],
+        [
+          "Won’t Come When Called",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Sign That It’s Time To Enroll Your Dog In Obedience School"
+    },
+    {
+      "answers": [
+        [
+          "Smile",
+          54
+        ],
+        [
+          "Pose",
+          12
+        ],
+        [
+          "Brush Hair",
+          11
+        ],
+        [
+          "Say Cheese",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do Right Before Your Picture Is Taken"
+    },
+    {
+      "answers": [
+        [
+          "Dog ",
+          57
+        ],
+        [
+          "Cat ",
+          37
+        ],
+        [
+          "Cow ",
+          24
+        ],
+        [
+          "Horse ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has A Tail"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

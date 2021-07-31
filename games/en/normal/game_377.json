@@ -1,0 +1,304 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Good Looking",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Good Athlete",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Rich",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "nicely Dressed",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Friendly",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Particular Kid Might Be Popular In School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Family Dinner",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Pilgrims",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Native Americans",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cornucopia",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Image That’s Often Used In Ads At Thanksgiving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Sullivans ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Bluey ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Home & Away ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Prisoner ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Neighbours ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sons & Daughters ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Popular Australian Soap"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Telephone",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me An Invention That Probably Led To People Having Much Less Spare Time."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theatre",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where Thereâ€™S Often A Line For The Womenâ€™S Restroom"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Nails",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Lips",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something On Your Body That You Want To Be Shiny."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Keys",
+          42
+        ],
+        [
+          "Passport",
+          25
+        ],
+        [
+          "Wallet/Money",
+          18
+        ],
+        [
+          "Jewelery",
+          8
+        ],
+        [
+          "Phone",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Important That You’re Careful Not To Misplace When You Move."
+    },
+    {
+      "answers": [
+        [
+          "Skydive",
+          57
+        ],
+        [
+          "Bungee Jump",
+          37
+        ],
+        [
+          "Roller Coaster",
+          24
+        ],
+        [
+          "Rock Climbing",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Daring Thrill Seeker Suggest Do On 1st Date"
+    },
+    {
+      "answers": [
+        [
+          "Car ",
+          54
+        ],
+        [
+          "Wine ",
+          35
+        ],
+        [
+          "Building ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Vintage"
+    },
+    {
+      "answers": [
+        [
+          "Pop",
+          75
+        ],
+        [
+          "Cucumbers",
+          14
+        ],
+        [
+          "Broccili",
+          3
+        ],
+        [
+          "Beans",
+          2
+        ],
+        [
+          "Beer",
+          2
+        ],
+        [
+          "Radishes",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Makes You Burp."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

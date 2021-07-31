@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Can Opener",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Knife",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Toaster",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Spatula",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bottle Opener",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pot",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name One Kitchen Gadget Even A Single Guy Owns"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Locker",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Towel",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Chair",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Inner Tube/Float",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Umbrella",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "At A Public Pool, What Might You Pay Extra To Rent?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sailboat",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Canoe",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Rowboat",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Paddleboat",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Raft",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Barge",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a kind of boat that doesn’t have an engine."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snakes ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Heights ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Growing Old ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Flying ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Spiders ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Death ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Are Frightened Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Face/Skin",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Health",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Personality",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Amount Of Energy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name One Thing About Yourself That You Wish Would Stay The Same As You Age."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Candy Bar",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Poodle",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Not As Great When In Its Minature Form"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "President",
+          55
+        ],
+        [
+          "Police Officer",
+          36
+        ],
+        [
+          "Judge",
+          23
+        ],
+        [
+          "Teacher",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Authority Figure Whose Role Makes It Hard To Imagine Them Letting Loose On A Date"
+    },
+    {
+      "answers": [
+        [
+          "Recycle",
+          46
+        ],
+        [
+          "Burn Them",
+          21
+        ],
+        [
+          "Clean Windows",
+          12
+        ],
+        [
+          "Wrap Gifts",
+          8
+        ],
+        [
+          "Pack Dishes",
+          5
+        ],
+        [
+          "Crafts",
+          4
+        ],
+        [
+          "Line Bird Cage",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Throwing Them Away, Name Something You Can Do With Old Newspapers."
+    },
+    {
+      "answers": [
+        [
+          "Hod Dogs",
+          16
+        ],
+        [
+          "Pudding",
+          16
+        ],
+        [
+          "Little Cereal Boxes",
+          14
+        ],
+        [
+          "Beer",
+          13
+        ],
+        [
+          "Soda",
+          11
+        ],
+        [
+          "Yogurt",
+          11
+        ],
+        [
+          "Eggs",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Comes In Packs of Six Or More."
+    },
+    {
+      "answers": [
+        [
+          "Christmas ",
+          56
+        ],
+        [
+          "Birthday ",
+          36
+        ],
+        [
+          "Anniversary ",
+          24
+        ],
+        [
+          "Baby ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occasion On Which Greeting Cards Sent"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

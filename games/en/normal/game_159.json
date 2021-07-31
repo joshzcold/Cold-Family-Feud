@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Mall",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bank",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Doctor’s Office",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sports Game",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Place Where You Often Find The Parking Lot Full"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bones",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Dirt",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Treasure",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Flowers/Plants",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Weeds",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Worms",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Dig Up."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tie ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Shirt ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Buy To Wear With A Suit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Test",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Office",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "In The Bedroom",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "ATM",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Situation Where You Wouldn’t Want Someone Looking Over Your Shoulder."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Celebrity",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Advice Columnist",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession Where You May Receive Lots Of Mail From Strangers."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food/Drink",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lip Balm/Makeup",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tooth Brush",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Towel/Washcloth",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Comb/Brush",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Headphones",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Germaphobe Would Hate To Share."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Plastic Surgery",
+          39
+        ],
+        [
+          "Exercise",
+          35
+        ],
+        [
+          "Vitamins",
+          10
+        ],
+        [
+          "Makeup",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "In Today’s World, Name Something That Helps People Stay “Forever Young.”"
+    },
+    {
+      "answers": [
+        [
+          "SUNSCREEN",
+          56
+        ],
+        [
+          "TICKETS",
+          36
+        ],
+        [
+          "NEW CLOTHES",
+          24
+        ],
+        [
+          "SWIMSUIT",
+          16
+        ],
+        [
+          "GUIDE BOOK",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Taking A Hawaiian Vacation, Name Something You’d Need To Buy Before You Go"
+    },
+    {
+      "answers": [
+        [
+          "Stalk",
+          40
+        ],
+        [
+          "Call Too Much",
+          33
+        ],
+        [
+          "Clingy",
+          21
+        ],
+        [
+          "Check Cell Phone",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might An Obsessed Lover Do That Causes His Partner To Break Up With Him?"
+    },
+    {
+      "answers": [
+        [
+          "Swimming Pool",
+          59
+        ],
+        [
+          "Backyard",
+          38
+        ],
+        [
+          "Big Bedroom",
+          25
+        ],
+        [
+          "Own Bathroom",
+          16
+        ],
+        [
+          "Swing",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Name Something A Kid Would Look For In A New House"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

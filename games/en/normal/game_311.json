@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Watergate",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Resigned",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "I Am Not A Crook",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Went To China",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Checkers Speech",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Know About Richard Nixon"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Belt ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Hand Bag ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Shoe ",
+          "pnt": 25,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Has A Buckle"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Yell",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tour",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Jump",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Mick Jagger Does A Lot"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beans",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Crackers",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Chili May Come With Or Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tasmanian Devil",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bugs Bunny",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pepe Le Pew",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Road Runner",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wile E Coyote",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Cartoon Animal That You Wouldn’t Want In Your House If It Was Real."
+    },
+    {
+      "answers": [
+        {
+          "ans": "God",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Fans",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Partner",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Producer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Director",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who Do Many Celebrities Thank After A Win At An Awards Show?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mask",
+          58
+        ],
+        [
+          "Gloves",
+          13
+        ],
+        [
+          "Wig",
+          10
+        ],
+        [
+          "Hat",
+          8
+        ],
+        [
+          "Sunglasses",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Bankrobber Wear In Order To Keep His Identity A Secret?"
+    },
+    {
+      "answers": [
+        [
+          "Feed It",
+          46
+        ],
+        [
+          "Fight It",
+          27
+        ],
+        [
+          "Pet It",
+          14
+        ],
+        [
+          "Approach It",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Run Into A Bear In The Woods, Name Something You Should Not Do."
+    },
+    {
+      "answers": [
+        [
+          "Brad Pitt",
+          57
+        ],
+        [
+          "Tom Cruise",
+          13
+        ],
+        [
+          "Geoge Clooney",
+          12
+        ],
+        [
+          "Zac Efron",
+          4
+        ],
+        [
+          "Mel Gibson",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Actor Do You Think Gets The Most Love Letters?"
+    },
+    {
+      "answers": [
+        [
+          "WEDDING",
+          27
+        ],
+        [
+          "DATING",
+          21
+        ],
+        [
+          "JOB INTERVIEW",
+          16
+        ],
+        [
+          "DOCTOR’S APPT",
+          13
+        ],
+        [
+          "PUBLIC SPEAKING",
+          12
+        ],
+        [
+          "TAKING A TEST",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Situation That Makes Just About Everyone Nervous"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

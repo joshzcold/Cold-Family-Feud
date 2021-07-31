@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Comb Over",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "The Apprentice",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Real Estate",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Ivana",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Trump Towers",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Donald Trump."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Cuddle",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Hug",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hold Hands",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something Woman Do To Show Affection A Man Rarely Does"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jeans",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Coat",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Item Of Clothing Will You Wear More Than Once Before Washing It?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Yell",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Slam Doors",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Talk Back",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Walk Away",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Say I Hate You",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Roll Eyes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "During An Argument, What Might A Teen Do That Makes Their Parents Really Angry?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shark ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sea Snake ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Octopus ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Whale ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Electric Eel ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sea Creature You'd Hate To Run Into While Scuba Diving"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Santa Claus",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Decorations",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Pine Tree",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Lights",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do You See In The Mall That Lets You Know Christmas Is Coming?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Brook Shields",
+          43
+        ],
+        [
+          "Commercials",
+          24
+        ],
+        [
+          "Hair",
+          20
+        ],
+        [
+          "Earrings",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Tennis, Name Something People Associate With Andre Agassi"
+    },
+    {
+      "answers": [
+        [
+          "Brush Teeth",
+          44
+        ],
+        [
+          "Mints/Gum",
+          30
+        ],
+        [
+          "Mouthwash",
+          13
+        ],
+        [
+          "Floss",
+          4
+        ],
+        [
+          "Breath Spray",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do To Make Their Breath Smell Good."
+    },
+    {
+      "answers": [
+        [
+          "(Bloody) Mary",
+          48
+        ],
+        [
+          "Sherry",
+          21
+        ],
+        [
+          "Brandy",
+          14
+        ],
+        [
+          "Margarita",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Alcoholic Beverage That’s Also A Woman’s Name"
+    },
+    {
+      "answers": [
+        [
+          "Violin",
+          27
+        ],
+        [
+          "Flute",
+          23
+        ],
+        [
+          "Harp",
+          20
+        ],
+        [
+          "Piano",
+          20
+        ],
+        [
+          "Saxophone4Guitar",
+          3
+        ],
+        [
+          "Guitar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Musical Instrument That Is Soothing."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

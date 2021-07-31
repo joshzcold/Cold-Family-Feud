@@ -1,0 +1,341 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Discount",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Convenience Store",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Drugstore",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Gas Station",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Department Store",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Toy Store",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Store That’s Always Open, Even On Christmas Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Your Wedding",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Party",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Family Reunion",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Your House",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someplace You’d Have To Be On Really Good Terms To Invite Your Ex."
+    },
+    {
+      "answers": [
+        {
+          "ans": " Bouquet (flowers)",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Cake/food",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Groom",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Wine/Champagne",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Gown/Veil",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wedding Ring",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something a bride would hate to realize she’s allergic to on her wedding day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Apple Sauce",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Hot Sauce",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "BBQ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate Sauce",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Sauce That You’d Never Put On Pasta"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boots",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Flannel Shirt",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "SunGlasses",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Both A Logger And A Rock Star Wear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dentist",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Proctocologist",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Eye",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "OB/GYN",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which doctor do people hate to see?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Dancer",
+          30
+        ],
+        [
+          "Police Officer",
+          24
+        ],
+        [
+          "Doctor/Nurse",
+          23
+        ],
+        [
+          "Waitress",
+          10
+        ],
+        [
+          "Athlete",
+          7
+        ],
+        [
+          "Fitness instructor",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a profession that would be most difficult to perform while 8 months pregnant."
+    },
+    {
+      "answers": [
+        [
+          "Don't Like It ",
+          48
+        ],
+        [
+          "Wrong Size ",
+          31
+        ],
+        [
+          "Already Have ",
+          20
+        ],
+        [
+          "Broken / Faulty ",
+          13
+        ],
+        [
+          "Unsuitable ",
+          9
+        ],
+        [
+          "Ungrateful ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason People Return Gifts"
+    },
+    {
+      "answers": [
+        [
+          "Pie",
+          46
+        ],
+        [
+          "Fruit Salad",
+          13
+        ],
+        [
+          "Jello",
+          9
+        ],
+        [
+          "Strawberry Shortcake",
+          9
+        ],
+        [
+          "Banana Split",
+          6
+        ],
+        [
+          "Fruit Cake",
+          4
+        ],
+        [
+          "Sherbet",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Dessert That’s Made With Fruit."
+    },
+    {
+      "answers": [
+        [
+          "At The Bar",
+          38
+        ],
+        [
+          "At Work",
+          28
+        ],
+        [
+          "Out Of Town",
+          11
+        ],
+        [
+          "At A Strip Club",
+          9
+        ],
+        [
+          "Stuck In A Traffic",
+          6
+        ],
+        [
+          "In An Airplane",
+          4
+        ],
+        [
+          "In Jail",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where A Woman Would Hate For Her Husband To be When She Went Into Labor"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

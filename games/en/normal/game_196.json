@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ghost",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Skeleton",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Spiderwebs",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Monsters",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In A Spook House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lamp",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Vase",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Windows",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Chairs",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In Your House Might Get Broken In Wild Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Ipod",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That College Students Get Stolen From Them On Campus."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Exercise",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Fire",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Elevator Broken",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Fear Of Small Spaces",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Faster",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might A Person Use Stairs Instead Of The Elevator?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monday",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Thursday",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Wednesday",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Tuesday",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Day Of The Week When You Start Thinking About The Weekend."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Change Clothes",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pass Gas",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Run",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Stretch/Bend Over",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Are Embarrassed To Do In Front Of People At The Gym"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lei",
+          57
+        ],
+        [
+          "Sand",
+          11
+        ],
+        [
+          "Hawaiian Shirt",
+          9
+        ],
+        [
+          "Seashell",
+          6
+        ],
+        [
+          "Grass Skirt",
+          6
+        ],
+        [
+          "Pineapple",
+          4
+        ],
+        [
+          "Coconut",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Souvenir Would You Bring Back From Hawaii"
+    },
+    {
+      "answers": [
+        [
+          "Cologne",
+          40
+        ],
+        [
+          "Suit",
+          29
+        ],
+        [
+          "Tie",
+          22
+        ],
+        [
+          "Shorts",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something Women Would Want Men To wear More Often"
+    },
+    {
+      "answers": [
+        [
+          "Chocolate/ Fudge",
+          33
+        ],
+        [
+          "Sprinkles",
+          27
+        ],
+        [
+          "Strawberry",
+          13
+        ],
+        [
+          "Nuts",
+          9
+        ],
+        [
+          "Cherry",
+          8
+        ],
+        [
+          "Caramel",
+          4
+        ],
+        [
+          "Whipped Cream",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Ice Cream Topping That Every Ice Cream Shop Should Have"
+    },
+    {
+      "answers": [
+        [
+          "Black Cat",
+          65
+        ],
+        [
+          "Breaking A Mirror",
+          18
+        ],
+        [
+          "Walk Under A Ladder",
+          9
+        ],
+        [
+          "Number 13",
+          3
+        ],
+        [
+          "Step On A Crack",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Superstitious People Believe Will Bring Bad Luck."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

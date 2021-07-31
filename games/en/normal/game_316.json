@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Rock",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Hip Hop",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Heavy Metal",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Classical",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jazz",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Opera",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Style of Music Would Be Least Effective To Sing When Putting Your Baby To Sleep?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blow Smoke In Face",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Throw On Ground",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Spit",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something Rude People Do While Smoking"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Place Of Worship",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sporting Event",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where People Are Asked To Rise"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Silk",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Satin",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Egyptian Cotton",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Velvet",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Of What Material Would You Expect To Queen Of England’s Sheets To Be Made?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mini Skirt ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Bikini ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Trunks ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shorts ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Thong ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Really Shouldn't Wear After 50"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stick Thumb Out",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Hold Out A Sign",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Wave",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shout",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Hitchhiker Might Do To Get Noticed."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Clothing ",
+          58
+        ],
+        [
+          "Food ",
+          38
+        ],
+        [
+          "Pictures / Photos ",
+          25
+        ],
+        [
+          "Fridge ",
+          16
+        ],
+        [
+          "Pets ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most Burglars Never Steal In A Home Robbery"
+    },
+    {
+      "answers": [
+        [
+          "Pasta",
+          28
+        ],
+        [
+          "Bread",
+          25
+        ],
+        [
+          "Hot Dogs",
+          18
+        ],
+        [
+          "Rice",
+          8
+        ],
+        [
+          "Pop Corn",
+          5
+        ],
+        [
+          "Beans",
+          4
+        ],
+        [
+          "Pancakes",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Gets Bigger When It’s Cooked"
+    },
+    {
+      "answers": [
+        [
+          "Hugs",
+          37
+        ],
+        [
+          "Love",
+          23
+        ],
+        [
+          "Kisses",
+          11
+        ],
+        [
+          "Good Grades",
+          8
+        ],
+        [
+          "Artwork",
+          6
+        ],
+        [
+          "Cards",
+          6
+        ],
+        [
+          "Respect",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do Parents Most Like To Receive From Their Children?"
+    },
+    {
+      "answers": [
+        [
+          "Truck Driver",
+          43
+        ],
+        [
+          "Airplane Pilot",
+          28
+        ],
+        [
+          "Machinist",
+          10
+        ],
+        [
+          "Bus/Taxi Driver",
+          8
+        ],
+        [
+          "Security Guard",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me An Occupation In Which It Could Be Disastrous To Fall Asleep On The Job."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Japanese",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Chinese",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Latin",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Russian",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "German",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Foreign Language That Is Not Usually Offered In High School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hospital",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where Only A Person With No Conscience Would"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flowers",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Suit",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "People In Shorts",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Kids Playing",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You See A Lot Of In The Summer."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Air ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Clowns ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Party ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Colours ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "String ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With Balloons"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stuttering",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Dead Air",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Profanity",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Belch/Cough",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wrong Song",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You’d Hear On The Radio That Would Lead You To Believe That The Host Is Inexperienced."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Head",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Ears",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stomach",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something On A Baby That Often Looks Big Compared To The Rest Of Their Body."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fruit",
+          33
+        ],
+        [
+          "Yogurt",
+          26
+        ],
+        [
+          "Dry Toast",
+          12
+        ],
+        [
+          "Cereal",
+          11
+        ],
+        [
+          "Slim Fast",
+          8
+        ],
+        [
+          "Bran Muffins",
+          6
+        ],
+        [
+          "Breakfast Bar",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person On A Diet Might Eat For Breakfast."
+    },
+    {
+      "answers": [
+        [
+          "Superman",
+          35
+        ],
+        [
+          "Jekyll & Hyde",
+          33
+        ],
+        [
+          "Batman",
+          17
+        ],
+        [
+          "Spiderman",
+          5
+        ],
+        [
+          "Hulk",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fictional Character With Two Identities"
+    },
+    {
+      "answers": [
+        [
+          "New York",
+          54
+        ],
+        [
+          "Los Angeles",
+          22
+        ],
+        [
+          "Chicago",
+          19
+        ],
+        [
+          "Boston",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A U.S. City With Very Aggressive Drivers"
+    },
+    {
+      "answers": [
+        [
+          "Maxed Out",
+          50
+        ],
+        [
+          "Expired",
+          33
+        ],
+        [
+          "Paid It Off",
+          21
+        ],
+        [
+          "Fraud",
+          14
+        ],
+        [
+          "Got A New One",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Someone Might Chop Up His Credit Card"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cleaning Up ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Feeding Him ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "To Big To Handle ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "No Room ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Him ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Toughest Part About Owning An Elephant As A Pet"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Costume Party",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "In A Play",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Christmas/ Santa",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Just For Fun",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Halloween, Name A Reason Why You Might Wear A Costume."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teddy Bear ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Dog ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Hug"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Eating Utensils",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Wedding Gift That The Bride And Groom Can Never Have Too Much Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Colouring Book ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Your Hair ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Clothes ",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Colour"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grapefruit",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Lemon",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Cranberry",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Orange",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Fruit Juice That’s Very Bitter."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cell Phone",
+          44
+        ],
+        [
+          "Money",
+          21
+        ],
+        [
+          "Mace",
+          12
+        ],
+        [
+          "Own Transportation",
+          4
+        ],
+        [
+          "Friend",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name Something Every Woman Should Take With Her On A Blind Date"
+    },
+    {
+      "answers": [
+        [
+          "Parent",
+          43
+        ],
+        [
+          "Significant other",
+          18
+        ],
+        [
+          "Ex",
+          17
+        ],
+        [
+          "Best Friend",
+          10
+        ],
+        [
+          "Sibling",
+          8
+        ],
+        [
+          "Son/Daughter",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name someone in your life who you hope never writes a tell-all book."
+    },
+    {
+      "answers": [
+        [
+          "I Love You",
+          44
+        ],
+        [
+          "I Had A Good Time",
+          28
+        ],
+        [
+          "I’ll Call You",
+          16
+        ],
+        [
+          "Thank You",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Say At The End Of A Date, Even If You Don’t Mean It."
+    },
+    {
+      "answers": [
+        [
+          "Mall/ Dept Store",
+          36
+        ],
+        [
+          "Grocery Store",
+          15
+        ],
+        [
+          "Bank",
+          11
+        ],
+        [
+          "Mechanic",
+          10
+        ],
+        [
+          "Restaurant",
+          10
+        ],
+        [
+          "Movie Theatre",
+          9
+        ],
+        [
+          "Gas Station",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Were You The Last Time You Felt You’d Been Ripped Off?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

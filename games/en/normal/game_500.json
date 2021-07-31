@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Not Hungry",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Too Busy",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "On A Diet",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Work/Meeting",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Feeling Sick",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why You Might Skip Lunch."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dirty Hair",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "The Tip",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Always Moving",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Late",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Too Picky",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Hair Dresser Might Complain About A Customer."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Batman",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Spiderman",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Zorro",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Jason Vorhees",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lone Ranger",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "The Mask",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Character Who Is Never Seen Without His Mask."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Silent Treatment",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Yell",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Pout/Frown",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Slam Doors",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Roll Eyes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Glare",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something Your Spouse Does That Makes You Suspect They’re Angry At You."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Good With Money",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Maintainance",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Skill That Parents Hope Their Children Have By The Time They Buy A Home."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pumkin",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Bunny",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Clown",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Angel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Princess",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Halloween Costume You See On Babies, But Rarely See On Their Parents"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Long Lines",
+          54
+        ],
+        [
+          "Shopping With Kids",
+          16
+        ],
+        [
+          "Crowded",
+          13
+        ],
+        [
+          "Chatting",
+          10
+        ],
+        [
+          "Sales",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why It Takes You Forever To Get Out Of The Grocery Store."
+    },
+    {
+      "answers": [
+        [
+          "Gardener/Landscaper",
+          45
+        ],
+        [
+          "Veterinarian",
+          29
+        ],
+        [
+          "Florist",
+          13
+        ],
+        [
+          "Pet Groomer",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Worst Job For Someone With Allergies."
+    },
+    {
+      "answers": [
+        [
+          "Bathing",
+          29
+        ],
+        [
+          "Playing",
+          25
+        ],
+        [
+          "Eating",
+          14
+        ],
+        [
+          "Smile/Laugh",
+          13
+        ],
+        [
+          "Sleeping",
+          13
+        ],
+        [
+          "Openig Presents",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most Parents have Pictures Of Their Child Doing"
+    },
+    {
+      "answers": [
+        [
+          "Cake",
+          32
+        ],
+        [
+          "Mousse",
+          21
+        ],
+        [
+          "Pudding",
+          15
+        ],
+        [
+          "Brownies",
+          10
+        ],
+        [
+          "Ice Cream",
+          8
+        ],
+        [
+          "Candy",
+          3
+        ],
+        [
+          "Donuts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Dessert That’s Made With Chocolate."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

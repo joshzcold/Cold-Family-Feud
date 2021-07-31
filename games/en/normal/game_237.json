@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Can Of Drink ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Door ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "A Jar ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bag ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Car Door ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Music Box ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Makes A Noise When You Open It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Love At First Sight",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Endless",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Fate",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Soul Mate",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About Love That Some People Believe In And Others Don’t."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sun Protection",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Bad Hair Day",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Raining",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bald Head",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bad Haircut",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cold",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You Might Wear A Hat."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Purse",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Baby",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Lipstick",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Kleenex",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something that women carry more often than men do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lock Of Baby Hair",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Photos",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Baby Teeth",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Artwork",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Of Her Child’s That A Mom Would Save Forever."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tattoo",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hair Dye",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Marker",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Relationship",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Housing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Be Temporary Or Permanent"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Word Processing",
+          36
+        ],
+        [
+          "E Mail",
+          20
+        ],
+        [
+          "Print",
+          16
+        ],
+        [
+          "Play Solitaire",
+          14
+        ],
+        [
+          "Use Calculator",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Do On Even The Oldest Of Computers."
+    },
+    {
+      "answers": [
+        [
+          "Kissing",
+          25
+        ],
+        [
+          "Holding Hands",
+          23
+        ],
+        [
+          "Crying At A Movie",
+          21
+        ],
+        [
+          "Go Shopping",
+          16
+        ],
+        [
+          "Hold Door Open",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Guy Might Do When He’s With His Girlfriend That His Buddies Might Tease Him About."
+    },
+    {
+      "answers": [
+        [
+          "Chedder ",
+          43
+        ],
+        [
+          "Stilton ",
+          28
+        ],
+        [
+          "Edam ",
+          18
+        ],
+        [
+          "Parmezan ",
+          12
+        ],
+        [
+          "Brie ",
+          8
+        ],
+        [
+          "Fetta ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Popular Type Of Cheese"
+    },
+    {
+      "answers": [
+        [
+          "Hair Dresser ",
+          50
+        ],
+        [
+          "Painter & Decorator ",
+          33
+        ],
+        [
+          "An Artist ",
+          21
+        ],
+        [
+          "Street Sweeper ",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That Uses A Brush"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

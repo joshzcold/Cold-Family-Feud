@@ -1,0 +1,355 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Giraffe",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Animal Shape In Box Of Animal Crackers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Drugs",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Death",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Safety",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Coming Back",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Lonely",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "name A fear parents Have For Their Child, When She Moves Out Of The House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "First aid kit",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Flashlight",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Knife",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Matches",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cellular Phone",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something campers might take with them for emergencies."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trim It ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Shave It ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Twirl It ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Comb It ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Wax It ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Do To A Moustache"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Education",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Votes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Running Mate",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Gift Of Gab",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Be A Citizen",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Clean Backgroung",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Need If You Wanted To Run For President."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Orange",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Peach",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Eat That Can Be Described As Juicy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Stomach ",
+          54
+        ],
+        [
+          "Thunder ",
+          35
+        ],
+        [
+          "Earthquake ",
+          23
+        ],
+        [
+          "Volcano ",
+          15
+        ],
+        [
+          "Train ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Rumbles"
+    },
+    {
+      "answers": [
+        [
+          "Sleep",
+          36
+        ],
+        [
+          "Be Intimate",
+          19
+        ],
+        [
+          "Shower",
+          14
+        ],
+        [
+          "Keep House Clean",
+          13
+        ],
+        [
+          "Cook",
+          5
+        ],
+        [
+          "Use Bathroom",
+          4
+        ],
+        [
+          "Read/Study",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That It Is Harder To Do When You Have Too Many Roommates."
+    },
+    {
+      "answers": [
+        [
+          "Swimming",
+          34
+        ],
+        [
+          "Showering",
+          28
+        ],
+        [
+          "Going To Sleep",
+          14
+        ],
+        [
+          "Washing Her Face",
+          12
+        ],
+        [
+          "Aerobics",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Woman Would Be Foolish To Apply Makeup Before Doing."
+    },
+    {
+      "answers": [
+        [
+          "Aftershave ",
+          42
+        ],
+        [
+          "Razor ",
+          27
+        ],
+        [
+          "Shaving Cream ",
+          18
+        ],
+        [
+          "Comb ",
+          12
+        ],
+        [
+          "Deodorant ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find In A Mans Toiletry Bag"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

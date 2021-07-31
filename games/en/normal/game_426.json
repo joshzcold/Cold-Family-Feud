@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Red Wine",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cake/Pie",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s Served At Room Temperature."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Facemask",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cap",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cup",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chest Protection",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Tobacco",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Baseball Umpire Might Keep In His Locker"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lion",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Gorilla",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name the loudest animal in the zoo"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sounding Stupid",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Not Being Hired",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Tongue Tied",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sweating",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Appearance",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Being Nervous",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Forgetting Name",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Thing You Most Fear Doing During An Important Job Interview"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grocery Bill",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Gift/ Shopping Budget",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Travel Expenses",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Heating Bill",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Electric Bill",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Expense That Goes Up In The Month Of December"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Tools",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Razor",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Of Dad’s That Kids Aren’t Allowed To Use"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Wings",
+          72
+        ],
+        [
+          "Oxygen Mask",
+          5
+        ],
+        [
+          "Pilot",
+          5
+        ],
+        [
+          "Jet Engine",
+          5
+        ],
+        [
+          "Landing Gear",
+          5
+        ],
+        [
+          "Alot More Seats",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Airplane Has That Your Car Doesn’t."
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          51
+        ],
+        [
+          "Rock",
+          33
+        ],
+        [
+          "Plant",
+          22
+        ],
+        [
+          "Boat",
+          14
+        ],
+        [
+          "Teddy Bear",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Some People Name That Isn’t Alive"
+    },
+    {
+      "answers": [
+        [
+          "Big Building",
+          22
+        ],
+        [
+          "Statue Of Liberty",
+          21
+        ],
+        [
+          "Traffic",
+          18
+        ],
+        [
+          "Crowded",
+          13
+        ],
+        [
+          "Smog",
+          9
+        ],
+        [
+          "Cabs",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way You Know You’ve Arrived In New York City"
+    },
+    {
+      "answers": [
+        [
+          "Purse/Wallet",
+          36
+        ],
+        [
+          "Cell Phone",
+          17
+        ],
+        [
+          "Coat",
+          13
+        ],
+        [
+          "Keys",
+          9
+        ],
+        [
+          "Briefcase/Suitcase",
+          9
+        ],
+        [
+          "Umbrella",
+          9
+        ],
+        [
+          "Shopping Bags",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Might Accidentally Leave Behind In A Taxicab."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

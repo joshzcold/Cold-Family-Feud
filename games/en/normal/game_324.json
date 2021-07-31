@@ -1,0 +1,306 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Picture Crowd Naked",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Deep Breath",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Calm Down",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Drink Water",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Are You Advised To To Do When You’re Nervous About Speaking In Front A Crowd?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "DANCING",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "COOKING",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "SHOPPING",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "SEWING/KNITTING",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Hobby Should A Man Take Up If He Wants To Meet Women"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Police",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Mom",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Neighbor",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone You Would Hate To Get Fender Bender With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Glasses",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "CD",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Musical Instrument",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Breaks Easily Without Its Case."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tom Cruise",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Brad Pitt",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bruce Willis",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Will Smith",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sylvester Stallone",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Action Movie Star Does No Stunts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nose",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Mouth",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Feet",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Drawing A Person, Which Specific Part Is The Hardest To Draw Believably?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Glue/Paste",
+          43
+        ],
+        [
+          "Paint",
+          28
+        ],
+        [
+          "Clay",
+          18
+        ],
+        [
+          "Crayon",
+          12
+        ],
+        [
+          "Chalk",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something from an art class that young children might take a taste of."
+    },
+    {
+      "answers": [
+        [
+          "Reunion",
+          37
+        ],
+        [
+          "Christmas",
+          27
+        ],
+        [
+          "Wedding",
+          21
+        ],
+        [
+          "Funeral",
+          10
+        ],
+        [
+          "Birthday",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occasion For Which People Return To Their Hometown"
+    },
+    {
+      "answers": [
+        [
+          "Bathing Suit",
+          41
+        ],
+        [
+          "Sunscreen",
+          16
+        ],
+        [
+          "Goggles",
+          14
+        ],
+        [
+          "A Swim Cap",
+          12
+        ],
+        [
+          "Float/ Inner Tube",
+          7
+        ],
+        [
+          "Life Vest/ Floaties",
+          5
+        ],
+        [
+          "A Friend",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do Some People Refuse To Go Swimming Without?"
+    },
+    {
+      "answers": [
+        [
+          "Paint",
+          42
+        ],
+        [
+          "Clean It",
+          38
+        ],
+        [
+          "Make Upgrades",
+          11
+        ],
+        [
+          "Lower The Price",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Realtor Suggests You Do, In Order To Sell Your House"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

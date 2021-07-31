@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Grapes ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Tomatoes ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Ivy / Poison Ivy ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Strawberries ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Blackberries ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Grows On A Vine"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lassie",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "101 Dalmations",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Benji",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dogs Go To Heaven",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bolt",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Lady & The Tramp",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Shaggy Dog",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Movie That A Dog Would Love To Watch"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Helmet ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Shorts ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Gloves ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Glasses ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Cyclist Might Wear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair Dryer",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Scissors",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Salon Chairs",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Women",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See In A Beauty Shop."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soda",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Beverage You Get Re-Filled For Free At Many Restaurants"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Solar Panels",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Good Insulation",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Efficient Bilbs",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "New Windows",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Home Might Have To Make It energy Efficient"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cat In The Hat",
+          29
+        ],
+        [
+          "Indiana Jones",
+          16
+        ],
+        [
+          "Sherlock Holmes",
+          13
+        ],
+        [
+          "Willy Wonka",
+          12
+        ],
+        [
+          "Dick Tracey",
+          11
+        ],
+        [
+          "Zorro",
+          9
+        ],
+        [
+          "Peter Pan",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Movie Character Who Always Wears A Hat."
+    },
+    {
+      "answers": [
+        [
+          "Hard Day",
+          45
+        ],
+        [
+          "Birthday",
+          29
+        ],
+        [
+          "Promotion",
+          19
+        ],
+        [
+          "Date",
+          12
+        ],
+        [
+          "Friday",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Reason Co-Worker Drinks After Work"
+    },
+    {
+      "answers": [
+        [
+          "Tax System",
+          25
+        ],
+        [
+          "Budget Deficit",
+          21
+        ],
+        [
+          "Health Care",
+          17
+        ],
+        [
+          "Schools",
+          14
+        ],
+        [
+          "War",
+          9
+        ],
+        [
+          "Welfare",
+          7
+        ],
+        [
+          "Roads",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Politicians Always Say They’ll Improve."
+    },
+    {
+      "answers": [
+        [
+          "Phone Number",
+          37
+        ],
+        [
+          "Hair",
+          21
+        ],
+        [
+          "Name",
+          18
+        ],
+        [
+          "Locks",
+          12
+        ],
+        [
+          "Address",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Might Change After Breaking Up With A Partner."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Was The Last Item On Which You Spent At Least $500?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Slow Down",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Pull Over",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Put Seat Belt On",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Run The Other Way",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Panic",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Driver Might Do When He Sees A Police Car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Numbers ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Fingers ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Sheep ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Toes ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Can Count"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cook",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Work Drive Thru",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Use Cash Register",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wear Uniform",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do Fast-Food Employees Have To Do, That 5-Star Wait Staff Don’t?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blankey",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Crayons",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Lunchbox",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Soldier Took To The First Day Of Kindergarten, That They Wouldn’t Take To Their First Day Of Training."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Magazines",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "News Paper",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Souvenir",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Buy At The Airport While Waiting For Your Flight To Take Off."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Wolf",
+          49
+        ],
+        [
+          "Ogre",
+          16
+        ],
+        [
+          "Dragon",
+          13
+        ],
+        [
+          "Witch",
+          9
+        ],
+        [
+          "Monster",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Type Of Creatures Is Often The Villain In Fairy Tales?"
+    },
+    {
+      "answers": [
+        [
+          "Sugar",
+          56
+        ],
+        [
+          "Flour",
+          24
+        ],
+        [
+          "Eggs",
+          7
+        ],
+        [
+          "Butter",
+          5
+        ],
+        [
+          "Salt",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Ingredient That Cookies Would Taste Terrible If You Forgot To Add."
+    },
+    {
+      "answers": [
+        [
+          "Drawers",
+          31
+        ],
+        [
+          "Panties",
+          29
+        ],
+        [
+          "Undies",
+          12
+        ],
+        [
+          "Boxer Shorts",
+          9
+        ],
+        [
+          "Skivvies",
+          7
+        ],
+        [
+          "Briefs",
+          5
+        ],
+        [
+          "Knickers",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Slang Word For “Underwear."
+    },
+    {
+      "answers": [
+        [
+          "Talking Back",
+          28
+        ],
+        [
+          "Swearing",
+          26
+        ],
+        [
+          "Cheating",
+          17
+        ],
+        [
+          "Chewing Gum",
+          10
+        ],
+        [
+          "Use Cell Phone",
+          8
+        ],
+        [
+          "Skipping Class",
+          4
+        ],
+        [
+          "Arriving Late",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Get Away With In Schools Today, That They Wouldn’t Have 50 Years Ago."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Plush Toy",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cookie/Cracker",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Honey Container",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Gummy Candy",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a common item that’s shaped like a bear."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Danced",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Wore Poodle Skirts",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hula Hoop",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cruise In The Car",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Went To Drive In",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Grease Their Hair",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Teenagers Did In The 50′s."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Smell",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About A Person That Might Be Described As Funky"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smooch",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Peck",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sugar",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Snog",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Another Word Or Phrase Means Kiss"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wand ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Elves ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Wings ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Magic ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Fairy Tales ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Fairies"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pig",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Rodent",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Skunk",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Associated With Being Dirty"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Phone",
+          40
+        ],
+        [
+          "TV",
+          35
+        ],
+        [
+          "Bathroom",
+          12
+        ],
+        [
+          "Computer",
+          8
+        ],
+        [
+          "Bed",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Allow The House Sitter To Use While At Your Place"
+    },
+    {
+      "answers": [
+        [
+          "Police Officer",
+          65
+        ],
+        [
+          "Lawyer",
+          19
+        ],
+        [
+          "Judge",
+          6
+        ],
+        [
+          "Clergy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation that a boy Wouldn’t Want His Girlfriend’s Father To Have"
+    },
+    {
+      "answers": [
+        [
+          "Say Ho Ho Ho",
+          42
+        ],
+        [
+          "Drive A Sleigh",
+          21
+        ],
+        [
+          "Climb Down Chimney",
+          11
+        ],
+        [
+          "made A List",
+          8
+        ],
+        [
+          "Work With Reindeer",
+          7
+        ],
+        [
+          "Wear His Suit",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Were Filling In For Santa, Name Something You’d Have To Learn How To Do."
+    },
+    {
+      "answers": [
+        [
+          "Snoopy",
+          47
+        ],
+        [
+          "Santa Claus",
+          31
+        ],
+        [
+          "Turkey",
+          20
+        ],
+        [
+          "Spider Man",
+          13
+        ],
+        [
+          "Mickey Mouse",
+          8
+        ],
+        [
+          "Underdog",
+          5
+        ],
+        [
+          "Kermit",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Float You Might See At Macy’s Thanksgiving Parade"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

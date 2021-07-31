@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Underwear",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cologne",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tools",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Groceries",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something Many Women Regularly Buy For Their Husbands, But Men Don’t Buy For Their Wives ( More specific Then Clothes)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Furniture",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Decoration",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Appliances",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In A Regular House That Might Be Missing In A Batchelor Pad."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speak",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sit",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something You Do Differently For Job Interview"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pageant Walk",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Winning Smile",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Make Up Application",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pageant Wave",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hair Styling",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Singing",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Correct Posture",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If There Was A School For Beauty Queens, Name A Skill That Would Be Taught There."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swim",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Breathe/Blow Hole",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Jump High",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Catch Fish",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Balance Ball ON Nose",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Speak Dolphin",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Turned Into A Dolphin, Name Something You’d Have To Learn How To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hats",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sweater",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Humans Wear, But Cats Look Silly In"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Carrots",
+          41
+        ],
+        [
+          "Peas",
+          39
+        ],
+        [
+          "Beans",
+          8
+        ],
+        [
+          "Corn",
+          4
+        ],
+        [
+          "Spinach",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Vegetable That They Make Baby Food Out Of."
+    },
+    {
+      "answers": [
+        [
+          "Hair",
+          31
+        ],
+        [
+          "Summer Vacation",
+          21
+        ],
+        [
+          "Pants/Clothing",
+          18
+        ],
+        [
+          "Themselves",
+          14
+        ],
+        [
+          "Recess/Playtime",
+          8
+        ],
+        [
+          "Bedtime Story",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Child Would Say Is Too Short."
+    },
+    {
+      "answers": [
+        [
+          "Home Sweet Home ",
+          46
+        ],
+        [
+          "No Place Like Home",
+          30
+        ],
+        [
+          "Welcome Home ",
+          20
+        ],
+        [
+          "Home Is Where The Heart Is ",
+          13
+        ],
+        [
+          "Home Alone ",
+          8
+        ],
+        [
+          "Homeward Bound ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phrase That Has The Word Home In It"
+    },
+    {
+      "answers": [
+        [
+          "Oprah",
+          52
+        ],
+        [
+          "Jerry Springer",
+          34
+        ],
+        [
+          "Maury",
+          22
+        ],
+        [
+          "Dr Phil",
+          14
+        ],
+        [
+          "Tyra Banks",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Talk Show You Might Go On To Tell About Your Disaster Wedding"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

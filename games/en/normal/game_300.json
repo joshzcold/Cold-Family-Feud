@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Fright ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Sex ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Might Stop The Hiccups"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sheriff",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Bartender",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Rancher",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other than cowboy,name a profession you often see in cowboy movies."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blanket",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Snacks/Drink",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Warm Clothes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sign/Banner",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chair/Cushion",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Horn",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Bring To Your Kid’s High School Football Game"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Concert",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sports Event",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Theatre",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Musical",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Go To That Might Be Sold Out"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spaghetti",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Messy Food You Can tell A Kid Has Been Eating"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Planes ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Luggage ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Delays ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Terrorists ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Airports"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "New York",
+          42
+        ],
+        [
+          "Las Vegas",
+          37
+        ],
+        [
+          "Los Angeles",
+          9
+        ],
+        [
+          "New Orleans",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A City That Is Best Known For Its Nightlife"
+    },
+    {
+      "answers": [
+        [
+          "Bed Time Story ",
+          50
+        ],
+        [
+          "Tucked In ",
+          33
+        ],
+        [
+          "Kiss Them ",
+          21
+        ],
+        [
+          "Turn Out Lights ",
+          14
+        ],
+        [
+          "Brush Teeth ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Children Ask Their ParentsTo Do Before They Go To Sleep"
+    },
+    {
+      "answers": [
+        [
+          "Bar",
+          34
+        ],
+        [
+          "Norm",
+          28
+        ],
+        [
+          "Woody",
+          10
+        ],
+        [
+          "Sam Malone",
+          9
+        ],
+        [
+          "Frasier Crane",
+          3
+        ],
+        [
+          "Cliff Calvin",
+          3
+        ],
+        [
+          "Boston",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Remember About The TV Show “Cheers.”"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          45
+        ],
+        [
+          "Carpentry",
+          23
+        ],
+        [
+          "Cook",
+          19
+        ],
+        [
+          "Farmer",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Were Stranded With Other People On An Island, Which Useful Occupations Would You Want Them To Have?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

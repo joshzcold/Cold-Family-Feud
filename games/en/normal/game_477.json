@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Say Hi Back",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Just Smile",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Ignore Them",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ask Who They Are",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do You Do When Someone Says Hi, But You’re Sure You’ve Never Met Them?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Judge Judy",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Judge Mathis",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Judge Wapner",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Judge Joe Brown",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Past Or Present, Name A TV Judge."
+    },
+    {
+      "answers": [
+        {
+          "ans": 100,
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": 80,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 90,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 70,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 75,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me The Age That Most People Want To Live Until"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Summer ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Winter ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Spring ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Autumn ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Season Of The Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seat/Cushion",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Refreshments",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Safety Belt",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Offered A Magic Carpet Ride, Name Something You’d Want To Add To It To Make Your Trip More Comfortable."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Speak",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Try On Clothes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something That Many People Are Too Shy To Do In Front Of Others"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bow",
+          34
+        ],
+        [
+          "Holly/ Berries",
+          32
+        ],
+        [
+          "Lights",
+          14
+        ],
+        [
+          "Bells",
+          12
+        ],
+        [
+          "Pine Cones",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See On A Christmas Wreath"
+    },
+    {
+      "answers": [
+        [
+          "Retail",
+          33
+        ],
+        [
+          "Police Officer",
+          26
+        ],
+        [
+          "Medical Profession",
+          15
+        ],
+        [
+          "Postal Work",
+          13
+        ],
+        [
+          "Hotel Industry",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Business In Which You Might Have To Work Over THe Holidays."
+    },
+    {
+      "answers": [
+        [
+          "Make Your Bed ",
+          41
+        ],
+        [
+          "Clean Up ",
+          27
+        ],
+        [
+          "Dishes ",
+          17
+        ],
+        [
+          "Laundry ",
+          11
+        ],
+        [
+          "Obey ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Your Mum Made You Do That You'd Do In The Army"
+    },
+    {
+      "answers": [
+        [
+          "Mozart",
+          58
+        ],
+        [
+          "Beethoven",
+          26
+        ],
+        [
+          "Bach",
+          8
+        ],
+        [
+          "Tchaikovsy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Classical Music Composer That Most Know About"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

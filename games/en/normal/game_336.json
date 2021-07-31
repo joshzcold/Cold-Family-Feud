@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Santa",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Grandparent",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tooth Fairy",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Easter Bunny",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Who Is A Child’s Most Anticipated Visitor?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Jacket/Clothes",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bad Job",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Boxing Gloves",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Be Told To “Hang Up.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Close Eyes ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Act Like A Dog ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Rest / Relax ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Act Like A Chicken ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Give Me Your Money ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wake Up ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Hypnotist Might Tell You To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "10 ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "12 ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "8 ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "16 ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "5 ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Age At Which Children Start Buying Christmas Gifts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cold",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Too Hot",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Too Weak",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Too Strong",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "No Sugar",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "No Cream",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason A Person Might Complain About A Cup Of Coffee That’s Served To Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elton John",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Liberace",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Prince",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Elvis",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Boy George",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dennis Rodman",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Michael Jackson",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Male Performer Past Or Present Known For Wearing Outrageous Clothing"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Birthdays ",
+          47
+        ],
+        [
+          "Ages ",
+          31
+        ],
+        [
+          "Door Numbers ",
+          20
+        ],
+        [
+          "Personal Significance ",
+          13
+        ],
+        [
+          "Lucky ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason People Give To Play Certain Lottery Numbers"
+    },
+    {
+      "answers": [
+        [
+          "Ruler ",
+          57
+        ],
+        [
+          "Tape Measure ",
+          37
+        ],
+        [
+          "Thermometer ",
+          24
+        ],
+        [
+          "Scales ",
+          16
+        ],
+        [
+          "Protractor ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Instrument Used For Measuring"
+    },
+    {
+      "answers": [
+        [
+          "Sharing",
+          48
+        ],
+        [
+          "Manners",
+          31
+        ],
+        [
+          "Communication",
+          20
+        ],
+        [
+          "Shaking Hands",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Skill Kids Are Taught So They’re Able to Make Friends"
+    },
+    {
+      "answers": [
+        [
+          "Walk",
+          58
+        ],
+        [
+          "Talk",
+          20
+        ],
+        [
+          "Read",
+          6
+        ],
+        [
+          "Eat On Their Own",
+          5
+        ],
+        [
+          "Hold A Bottle",
+          4
+        ],
+        [
+          "Crawl",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Be Surprised To Hear A Six Month Old Baby Has Already Learned How To Do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

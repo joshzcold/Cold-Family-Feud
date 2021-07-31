@@ -1,0 +1,297 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pick",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Case",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Strings",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Amp",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sheet Music",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Buy To Go With A Guitar."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Air",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something Your Body Can’t Live Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Star / Actor ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Camera ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lights ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Director ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See On A Movie Set"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Compassion",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Honesty",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Good Sense Of Humor",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Beautiful Eyes",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Women Designed The Perfect Man, Name A Trait He Might Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lookin For My Ken",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Plastic",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Blonde Hair",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Measurements",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Spelling Errors",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You See In A Personals Ad That Makes You Think It Was Placed By A Barbie Doll?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kangaroos",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ocean",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Koalas",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sand Beaches",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Imagine You’d See All Over If You Went To Australia"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Camping",
+          46
+        ],
+        [
+          "Hiking",
+          37
+        ],
+        [
+          "Hunting",
+          25
+        ],
+        [
+          "Hide And Seek",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity For Which You Might Use Walkie Talkies."
+    },
+    {
+      "answers": [
+        [
+          "Coat",
+          55
+        ],
+        [
+          "Blanket",
+          22
+        ],
+        [
+          "Heater",
+          6
+        ],
+        [
+          "Glove",
+          5
+        ],
+        [
+          "Sweater",
+          3
+        ],
+        [
+          "Hat",
+          3
+        ],
+        [
+          "Boots",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Pack For Your Stay At A Hotel Made Of Ice"
+    },
+    {
+      "answers": [
+        [
+          "Homework",
+          78
+        ],
+        [
+          "Teachers",
+          7
+        ],
+        [
+          "Getting Up",
+          4
+        ],
+        [
+          "Math",
+          3
+        ],
+        [
+          "Principal",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me What Kids Hate Most About School."
+    },
+    {
+      "answers": [
+        [
+          "Bambi",
+          42
+        ],
+        [
+          "Old Yeller",
+          38
+        ],
+        [
+          "Lion King",
+          15
+        ],
+        [
+          "Dumbo",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kids Movie that Makes Adults Cry To."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

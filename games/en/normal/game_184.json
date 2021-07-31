@@ -1,0 +1,304 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Water It ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Fertilizer ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Talk To It ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Music ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Do To Help A House Plant Grow"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Child",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Puppy",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Woman",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "ID",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Hitchhiker Take With Him, In Order To Seem Less Dangerous?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Tips",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Dogs",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Finding House",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bad Areas",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Pizza Delivery Person Hates About Their Job"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar Of Soap",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Wash Cloth/Loofah",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bubble Bath/Salts",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Rubber Ducky",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Razor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Use In The Bathtub, that You’d Look Silly Bringing Into A Jacuzzi"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Family",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Yourself",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Last Job",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Politics",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Topic Shouldn’t Bring Up In A Job Interview"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dust",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "vacuum",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sweep",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mop",
+          "pnt": 1,
+          "trig": false
+        },
+        {
+          "ans": "Wipe Windows",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Household Chore That You Do Less Frequently Because It’s Barely Noticeable When It’s Done"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Eye Patch ",
+          56
+        ],
+        [
+          "Ship ",
+          36
+        ],
+        [
+          "Sword ",
+          24
+        ],
+        [
+          "Treasure ",
+          16
+        ],
+        [
+          "Skull & Crossbones ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With A Pirate"
+    },
+    {
+      "answers": [
+        [
+          "Cheeks",
+          48
+        ],
+        [
+          "Legs",
+          32
+        ],
+        [
+          "Belly",
+          7
+        ],
+        [
+          "Arms",
+          5
+        ],
+        [
+          "Hands",
+          3
+        ],
+        [
+          "Feet",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something On A Baby That Might Be Described As “Chubby”."
+    },
+    {
+      "answers": [
+        [
+          "Cash",
+          47
+        ],
+        [
+          "Drivers License",
+          31
+        ],
+        [
+          "Photos",
+          20
+        ],
+        [
+          "Credit Cards",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Find In Wallets"
+    },
+    {
+      "answers": [
+        [
+          "Eyebrows ",
+          41
+        ],
+        [
+          "Chicken ",
+          27
+        ],
+        [
+          "Turkey ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Plucked"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

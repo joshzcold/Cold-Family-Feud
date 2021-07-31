@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Salt/Pepper",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Napkins",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Place Settings",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Fruit Bowl",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Table Cloth",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Keep On Their Kitchen Table Most Of The Time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pin The Tail",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Twister",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Spin The Bottle",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Musical Chairs",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Party Game That You’d Be Surprised To Find At An Adult’s Birthday."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Swing From Ceiling",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Eat With Fingers",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wear A Loin Cloth",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Grunt",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Stand On The Table",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Tarzan Might Do That Could Get Him Thrown Out Of A Nice Restaurant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snoring",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Ticking Clock",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Furnace/AC",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Crickets/Mice",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Creaks",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Leaky Faucet",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Refrigerator",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Only Hear In Your House When Everyone’s Sleeping"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nurses",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Teachers",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Police Officers",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Doctors",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation That There’s A Shortage Of In The United States"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Groceries",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Paper",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Product That People Might Buy Only One Brand Of"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Whistle",
+          33
+        ],
+        [
+          "Life Preserver",
+          28
+        ],
+        [
+          "Towel",
+          15
+        ],
+        [
+          "Surfboard",
+          11
+        ],
+        [
+          "Person",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See A Lifeguard Carrying"
+    },
+    {
+      "answers": [
+        [
+          "Flags",
+          61
+        ],
+        [
+          "Bras",
+          21
+        ],
+        [
+          "Draft Cards",
+          7
+        ],
+        [
+          "Signs",
+          6
+        ],
+        [
+          "Books",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Burn In Protest."
+    },
+    {
+      "answers": [
+        [
+          "Clothes",
+          52
+        ],
+        [
+          "Ring",
+          34
+        ],
+        [
+          "Music",
+          22
+        ],
+        [
+          "Pet",
+          14
+        ],
+        [
+          "Money",
+          9
+        ],
+        [
+          "House",
+          6
+        ],
+        [
+          "Car",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When A Couple Break Up What Might One Want Back"
+    },
+    {
+      "answers": [
+        [
+          "Doctor’s Office",
+          29
+        ],
+        [
+          "Department Store",
+          21
+        ],
+        [
+          "Airport",
+          14
+        ],
+        [
+          "Pharmacy",
+          13
+        ],
+        [
+          "Dentist’s Office",
+          9
+        ],
+        [
+          "Restaurant",
+          8
+        ],
+        [
+          "DMV",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where They Always Keep You Waiting."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

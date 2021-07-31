@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Strawberries",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Grapes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Oysters",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Lobster",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food That People Get Fed In A Romantic Situation."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snow/Cold",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Wildlife",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Darkness",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Isolation/Nature",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About Alaska That Non-Residents Might Romanticize"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Music",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Talk Show",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "News",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Traffic report",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What’s The Best thing To Have On The Radio While On Your Morning Commute?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mother In Law",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Aunt",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cousin",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Mom",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ex Spouse",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Uncle",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Relative You’d Rather Not See During The Holiday"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Music",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Reading Matereal",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Games",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "TV/Movie",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Take Along To Make A Long Car Ride Go Faster."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soup",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pudding/Jello",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Mashed Poatoes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Apple Sauce",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Oatmeal",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Food That You Could Still Eat If You Lost All Your Teeth"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money",
+          29
+        ],
+        [
+          "Romance",
+          24
+        ],
+        [
+          "Kids",
+          20
+        ],
+        [
+          "Stress",
+          11
+        ],
+        [
+          "Bills",
+          5
+        ],
+        [
+          "Fun",
+          4
+        ],
+        [
+          "Weight",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Finish This Sentence: Since I Got Married, I Have More_____."
+    },
+    {
+      "answers": [
+        [
+          "Glasgow ",
+          44
+        ],
+        [
+          "Edinburgh ",
+          29
+        ],
+        [
+          "Aberdeen ",
+          19
+        ],
+        [
+          "Dundee ",
+          12
+        ],
+        [
+          "Kilmarnock ",
+          8
+        ],
+        [
+          "Perth ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Scottish City"
+    },
+    {
+      "answers": [
+        [
+          "Upside Down Cake",
+          60
+        ],
+        [
+          "Pizza",
+          15
+        ],
+        [
+          "Drink",
+          12
+        ],
+        [
+          "Fruit Salad",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has Pineapple In It."
+    },
+    {
+      "answers": [
+        [
+          "Gym",
+          44
+        ],
+        [
+          "Country Club",
+          36
+        ],
+        [
+          "Golf Course",
+          15
+        ],
+        [
+          "Discount Grocery",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Do You Need To Be A Member In Order To Enter?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

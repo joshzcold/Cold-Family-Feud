@@ -1,0 +1,359 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Read",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Study",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Thinik",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Meditate/Pray",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Take A Test",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Need Silence In Order To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plastic Surgery",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Wear Makeup",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Diet",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Use Botox",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dye Hair",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Do In Order To Stay Attractive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shower",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Water Lawn",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Laundry/Wash",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Flush",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Water Became As Expensive As Gas, Name Something You’d Do A Lot Less Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smile",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Wink",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chat Them Up",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Play With Hair",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Giggle",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Sitting Next To Someone She Likes, Name Something A Woman Does To Flirt."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Roller Coasters",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bungee Jumping",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Horror Movies",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sky Diving",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fun Houses",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Driving Fast",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Rock Climbing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do For Fun Even Though It Scares Them"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blemish",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Scar",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bruise",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wrinkles",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Mole",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Freckles",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hickey",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Might Want To Cover Up With Makeup"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Better Food",
+          54
+        ],
+        [
+          "Clean Litter Box",
+          35
+        ],
+        [
+          "Catnip",
+          23
+        ],
+        [
+          "More Toys",
+          15
+        ],
+        [
+          "Raise",
+          10
+        ],
+        [
+          "Cat House",
+          6
+        ],
+        [
+          "More Milk",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Cat Went On Strike,Name Something He Might Demand Before Returning To Work As Your Pet"
+    },
+    {
+      "answers": [
+        [
+          "Football",
+          52
+        ],
+        [
+          "Baseball",
+          13
+        ],
+        [
+          "Hockey",
+          12
+        ],
+        [
+          "Basketball",
+          11
+        ],
+        [
+          "Soccer",
+          8
+        ],
+        [
+          "Boxing",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport In Which The Announcers Get As Excited As The Fans."
+    },
+    {
+      "answers": [
+        [
+          "Stamps ",
+          55
+        ],
+        [
+          "Pension ",
+          36
+        ],
+        [
+          "Tv Licence ",
+          23
+        ],
+        [
+          "Envelopes ",
+          15
+        ],
+        [
+          "Lottery Ticket ",
+          10
+        ],
+        [
+          "Car Tax ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Get From A Post Office"
+    },
+    {
+      "answers": [
+        [
+          "Report Card/Grades",
+          50
+        ],
+        [
+          "Note From Teacher",
+          21
+        ],
+        [
+          "Homework",
+          17
+        ],
+        [
+          "Detention/Discipline",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something From School That A Kid Might Try To Hide From Their Parents."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

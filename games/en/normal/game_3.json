@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sugar",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Syrup",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Unhealthy Ingredient You Often See In Kids Cereal"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Florida",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "California",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Hawaii",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Arizona",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In What State Would You Like To Retire"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Seat Belt / Belt ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Car Seat ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bra Strap ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Ladder ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Can Adjust"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christams",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "New Years",
+          "pnt": 25,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Celebration You Wish Would Last All Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Collar ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bell ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Milk ",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Buy For A Cat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Model",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Walk Confidently",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Type",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Play Piano",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Yoga",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Need Good Posture To Do."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleep",
+          28
+        ],
+        [
+          "Exercise",
+          26
+        ],
+        [
+          "Talk On The Phone",
+          16
+        ],
+        [
+          "Stay Up",
+          12
+        ],
+        [
+          "Watch TV",
+          10
+        ],
+        [
+          "Play Video Games",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teen Can Do For Longer Amounts Of Time Than Their Parents."
+    },
+    {
+      "answers": [
+        [
+          "Bugs",
+          31
+        ],
+        [
+          "Wind",
+          21
+        ],
+        [
+          "Cold Weather",
+          16
+        ],
+        [
+          "Sun",
+          15
+        ],
+        [
+          "Rain",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Have To Put Up With An At Outdoor Cafe That You Wouldn’t When Eating Indoors"
+    },
+    {
+      "answers": [
+        [
+          "No Pool",
+          56
+        ],
+        [
+          "No View",
+          36
+        ],
+        [
+          "Dirty",
+          24
+        ],
+        [
+          "Bugs",
+          16
+        ],
+        [
+          "Not On Beach",
+          10
+        ],
+        [
+          "Closed",
+          7
+        ],
+        [
+          "No Ac",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would You Be Disappointed In A Hotel In Hawaii"
+    },
+    {
+      "answers": [
+        [
+          "France",
+          28
+        ],
+        [
+          "Canada",
+          19
+        ],
+        [
+          "Japan",
+          15
+        ],
+        [
+          "England",
+          13
+        ],
+        [
+          "China",
+          10
+        ],
+        [
+          "India",
+          6
+        ],
+        [
+          "Italy",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than The U.S., What Country Is Known For Making Films?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

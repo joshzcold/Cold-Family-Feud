@@ -1,0 +1,284 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Overworked",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "kids/New Baby",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Sleep",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Studying",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Reason You Might Be Low On Sleep."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leave",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Fall Asleep",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Watch It Anyway",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ask For Money back",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "At The Theater,What Do You Do If The Movie Stinks Within The First 10 Minutes?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fair",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Street Corner",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Place Hot Dogs Are Often Served"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spy On People",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Follow People",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Snoop For Info",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Take Pictures",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Stalker And A Detective Both Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Name",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Hair Color",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Economic Status",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Attitude",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Nose",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Religion",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Get From Your Parents, But You Can Change As An Adult."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Socks ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Insoles ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Laces ",
+          "pnt": 22,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Buy For Their Feet Apart From Shoes"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Send Food Back",
+          40
+        ],
+        [
+          "Not Tip",
+          35
+        ],
+        [
+          "Flirt",
+          6
+        ],
+        [
+          "Snap Fingers",
+          5
+        ],
+        [
+          "Spill Drinks",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Customer Might Do To Annoy A Waitress."
+    },
+    {
+      "answers": [
+        [
+          "Cut In Half",
+          46
+        ],
+        [
+          "Disappear",
+          25
+        ],
+        [
+          "Trip",
+          14
+        ],
+        [
+          "Get Hit By A Knife",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Bad That Might Happen TO A Magician’s Assistant During A Performance."
+    },
+    {
+      "answers": [
+        [
+          "Cats ",
+          58
+        ],
+        [
+          "Cars ",
+          38
+        ],
+        [
+          "Balls ",
+          25
+        ],
+        [
+          "Postman ",
+          16
+        ],
+        [
+          "Sticks ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Dogs Like To Chase"
+    },
+    {
+      "answers": [
+        [
+          "Drink",
+          45
+        ],
+        [
+          "Ride His Horse",
+          37
+        ],
+        [
+          "Sing/Play Guitar",
+          14
+        ],
+        [
+          "Dance",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would A Cowboy Do To Cheer Up When He’s Had A Bad Day?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

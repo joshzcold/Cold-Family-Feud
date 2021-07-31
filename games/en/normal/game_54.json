@@ -1,0 +1,304 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cookies",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Snack Cake",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "pudding",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Desert That’s Sold In Plastic Packages"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Perfume",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Deodorant",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Used To Make Yourself Smell Better"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jacket",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Purse/Wallet",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Umbrella",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Water Bottle",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "name Something You Carry with You Just In Case, But Hate to Get Stuck Carrying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fangs",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cape",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Coffin",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "His Thirst",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something You Hope Vampire Leaves At Home On A Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "He Can Fly",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Wears Tights",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "never grows Up",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Small",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Pointy Ears",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About Peter Pan That Is Different From The Average Boy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "SNUFFLEUPAGUS",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "OSCAR THE GROUCH",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "ELMO",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "COOKIE MONSTER",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "KERMIT THE FROG",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "ERNIE",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "GORDON",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Big Bird Might Invite To His Birthday Party"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Treehouse",
+          26
+        ],
+        [
+          "Fence",
+          22
+        ],
+        [
+          "Swing Set/Playground",
+          20
+        ],
+        [
+          "Deck/Patio",
+          12
+        ],
+        [
+          "Doghouse",
+          7
+        ],
+        [
+          "Bird Feeder",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Build In The Backyard."
+    },
+    {
+      "answers": [
+        [
+          "Talk On Cell Phone",
+          52
+        ],
+        [
+          "Eat/Drink",
+          34
+        ],
+        [
+          "Adjust Radio",
+          22
+        ],
+        [
+          "Smoke",
+          14
+        ],
+        [
+          "Put on Makeup",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That people Do That Distracts Them While Driving."
+    },
+    {
+      "answers": [
+        [
+          "Dye Hair",
+          41
+        ],
+        [
+          "Get A Tattoo",
+          25
+        ],
+        [
+          "Get A Piercing",
+          17
+        ],
+        [
+          "Wear Make Up",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teen I More Likely To Do To Their Appearance Then Their Parents Are"
+    },
+    {
+      "answers": [
+        [
+          11,
+          12
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Late A Kid Might Stay Up At Sleepover"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

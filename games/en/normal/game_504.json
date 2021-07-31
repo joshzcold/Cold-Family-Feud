@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Monopoly",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Life",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Scrabble",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Risk",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chess",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Checkers",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Board Game That You Wouldn’t Play If You Only Had An Hour."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Blanket ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Kids ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Football ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Frisbee ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dog ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Take On A Picnic"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soda",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Champagne",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bubble Bath",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dishwashing Liquid",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Has Bubbles In It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talking",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "move",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can’t Do While You’re In The Dentist’s Chair."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Umbrella",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Rain Coat",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Bug Spray",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Food/Water",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Binoculars",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides A Camera, What Should You Pack For A Trip To The Rainforest?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Take Off",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Landing",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Late Passenger",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Have To Wait For A While On An Airplane?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mardi Gras",
+          51
+        ],
+        [
+          "Music",
+          33
+        ],
+        [
+          "Food",
+          22
+        ],
+        [
+          "Bourbon Street",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That New Orleans Wouldn’t Be Same Without"
+    },
+    {
+      "answers": [
+        [
+          "Talk",
+          55
+        ],
+        [
+          "Snore",
+          25
+        ],
+        [
+          "Smile",
+          8
+        ],
+        [
+          "Drool",
+          7
+        ],
+        [
+          "Suck Thumb",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Do In Your Sleep That Someone Else Would Find Cute?"
+    },
+    {
+      "answers": [
+        [
+          "What’s Up",
+          34
+        ],
+        [
+          "Hey",
+          29
+        ],
+        [
+          "Yo",
+          23
+        ],
+        [
+          "What’s Happening",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phrase That A Cool Guy Might Use To Say Hello"
+    },
+    {
+      "answers": [
+        [
+          "Talk",
+          34
+        ],
+        [
+          "Fly/Pilot",
+          27
+        ],
+        [
+          "Sleep On House",
+          16
+        ],
+        [
+          "Read/Write",
+          13
+        ],
+        [
+          "Dance",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Snoopy Does That Your Dog Would Not"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

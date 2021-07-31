@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ear ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Belly Button ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Lip ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Nipple ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Clit ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bellend ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part Of The Body You Might Have Pierced"
+    },
+    {
+      "answers": [
+        {
+          "ans": "2PM",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Noon",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "4PM",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "3PM",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "1PM",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "6PM",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Time Of Day A Person Is Likely To Take A Nap."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fix Hair",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Put On Make Up",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Get Dressed",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Would A Beauty-Obsessed Person Take Longer To Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ski",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Sled",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ice Skate",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Snowboard",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sit By Fire",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Family Might Do On Vacation At A Winter Lodge."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hands",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Legs",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Forearms",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Head",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Neck",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Feet",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ears",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Body Part That Gets Clothed In Winter, But Stays Naked All Summer."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cute",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Drooling",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Need Attention",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Playful",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sleep Alot",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Babies And Puppies Have In Common."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Driver",
+          33
+        ],
+        [
+          "Construction",
+          20
+        ],
+        [
+          "Police Officer",
+          11
+        ],
+        [
+          "Food Service",
+          10
+        ],
+        [
+          "Glass Maker",
+          9
+        ],
+        [
+          "Window Washer",
+          7
+        ],
+        [
+          "Surgeon",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Bad Job For Someone Who’s Accident Prone"
+    },
+    {
+      "answers": [
+        [
+          "Nose",
+          55
+        ],
+        [
+          "Head",
+          36
+        ],
+        [
+          "Chest",
+          4
+        ],
+        [
+          "Ears",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of Your Body That Feels Stuffed UP When You Have A Cold."
+    },
+    {
+      "answers": [
+        [
+          "Radio",
+          41
+        ],
+        [
+          "Talking",
+          27
+        ],
+        [
+          "Outdoors",
+          17
+        ],
+        [
+          "Play Games",
+          11
+        ],
+        [
+          "Writing",
+          7
+        ],
+        [
+          "Crafts",
+          5
+        ],
+        [
+          "Cooking",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Activity People Did More Of Before TV"
+    },
+    {
+      "answers": [
+        [
+          "Pool",
+          32
+        ],
+        [
+          "Bar/Restaurant",
+          24
+        ],
+        [
+          "Casino",
+          18
+        ],
+        [
+          "Beds",
+          8
+        ],
+        [
+          "Entertainment",
+          7
+        ],
+        [
+          "Staff",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Find On A Cruise Ship, But Not On A Regular Boat"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Medicine ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Cotton Wool ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Plasters ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Condoms ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tampons ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Buy From A Pharmacist"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cars",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Houses",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Spouses",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Affairs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Lot Of Movie Stars Have More Than One Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Affection ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Romance ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Care ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Friendship ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Presents ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Love"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pumpkin",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Oven",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pie Pan",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Spices",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Evaporated Milk",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Use To Bake A Pumpkin Pie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "United",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "American",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Southwest",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Delta",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Airline You can Fly Almost Anywhere in the US"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Float",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Hold Breath",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Doggy paddle",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Blow Bubbles",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Head Under Water",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Learn To Do In Your First Swim Class"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Stove/Oven",
+          45
+        ],
+        [
+          "Blender",
+          16
+        ],
+        [
+          "Refrigerator",
+          11
+        ],
+        [
+          "Microwave",
+          10
+        ],
+        [
+          "Toaster",
+          8
+        ],
+        [
+          "Coffee Maker",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kitchen Appliance That Is Hardest To Clean"
+    },
+    {
+      "answers": [
+        [
+          "Jewelery",
+          49
+        ],
+        [
+          "Car",
+          24
+        ],
+        [
+          "TV",
+          11
+        ],
+        [
+          "Watch/Clock",
+          5
+        ],
+        [
+          "Stocks",
+          4
+        ],
+        [
+          "Furniture",
+          4
+        ],
+        [
+          "Clothes",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Needed Some Fast Cash, Name A Possession You Might Sell"
+    },
+    {
+      "answers": [
+        [
+          50,
+          37
+        ],
+        [
+          100,
+          25
+        ],
+        [
+          60,
+          7
+        ],
+        [
+          80,
+          6
+        ],
+        [
+          90,
+          6
+        ],
+        [
+          30,
+          5
+        ],
+        [
+          40,
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Much Do You Expect To Spend If You’re Taking A Date Out For A Nice Dinner? Please Round To Nearest $10."
+    },
+    {
+      "answers": [
+        [
+          "Strawberry",
+          36
+        ],
+        [
+          "Apple",
+          28
+        ],
+        [
+          "Cherry",
+          18
+        ],
+        [
+          "Raspberry",
+          7
+        ],
+        [
+          "Blueberry",
+          5
+        ],
+        [
+          "Peach",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit You Might Find In A Pastry."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

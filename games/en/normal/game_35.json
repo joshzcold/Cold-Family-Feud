@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Swimming",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Art",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Gymnastics",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Class that Parents Enroll Their Kids In Before They Turn 3 Years Old."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toilet Paper",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Tissue",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Around The House That Your Family Members Use The Last Off, And Don’t Replace"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tiara",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Magic Wand",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Charm",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Little Girl Needs To Look Like A Princess."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Red",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Black",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "White",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Silver",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Blue",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Green",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Color Of Car Do You Think Gets Pulled Over Most Often"
+    },
+    {
+      "answers": [
+        {
+          "ans": "construction",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stock Broker",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Auctioneer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job Where It Would Be Okay To Yell At Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kitchen",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Garage",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dining Room",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "bathroom",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of The House Where You’re Most Likely To Set A Mousetrap."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Elf",
+          45
+        ],
+        [
+          "Jack Frost",
+          31
+        ],
+        [
+          "Rudolph",
+          14
+        ],
+        [
+          "Mrs. Claus",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which North Pole Resident Is Most Likely To Become Jealous Of Santa’s Power?"
+    },
+    {
+      "answers": [
+        [
+          "Close Eyes",
+          50
+        ],
+        [
+          "Hold Breath",
+          33
+        ],
+        [
+          "Look Away",
+          21
+        ],
+        [
+          "Cringe",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something People Do To Brace Themselves While Getting A Shot"
+    },
+    {
+      "answers": [
+        [
+          "Read",
+          50
+        ],
+        [
+          "Write",
+          33
+        ],
+        [
+          "Tv",
+          21
+        ],
+        [
+          "Puzzle",
+          14
+        ],
+        [
+          "Play Cards",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity You Turn The Lamp On For"
+    },
+    {
+      "answers": [
+        [
+          "Legs",
+          41
+        ],
+        [
+          "Arms",
+          31
+        ],
+        [
+          "Back",
+          17
+        ],
+        [
+          "Stomach",
+          5
+        ],
+        [
+          "Butt",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of The Body That’s Often Sore After Exercise."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

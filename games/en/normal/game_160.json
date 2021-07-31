@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Name",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Religion",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Room Color",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Childcare",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Discipline",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something New Parents Have To Agree On Before their Baby Is born"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Motor Racing ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Ice Hockey ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Canoeing ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "American Football ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport Where People Wear Helmets"
+    },
+    {
+      "answers": [
+        {
+          "ans": "6 Months",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "12 Months",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "2Months",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "3 Months",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "24 Months",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "4 Months",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "8 Months",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me How Long In Months A Couple Must Be Dating Before It’s Considered “Serious.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Driving To Fast",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Wash Me",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Not Enough Gas",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Being Run Too Much",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Irregular Oil Change",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Too Much Weight",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Left In The Rain",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Your Car Could Talk, Name Something It Might Complain About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sweets",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Valentines",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Notes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Schoolwork",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Germs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Invitations",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Kid Passes Out To All Of His Classmates."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Not Attracted",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rude",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "No Sparks",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bad Breath",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Boring",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason You May leave A Blind Date Without Saying Goodbye"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Flashlight",
+          41
+        ],
+        [
+          "Their Memory",
+          27
+        ],
+        [
+          "Metal Detector",
+          17
+        ],
+        [
+          "Dog",
+          11
+        ],
+        [
+          "Eyes/Glasses",
+          7
+        ],
+        [
+          "Friend’s Help",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Use To Help Them Find A Lost Item."
+    },
+    {
+      "answers": [
+        [
+          "Clothes/Shoes",
+          54
+        ],
+        [
+          "Money",
+          21
+        ],
+        [
+          "Music/CDS",
+          7
+        ],
+        [
+          "Car",
+          6
+        ],
+        [
+          "Deoderant",
+          4
+        ],
+        [
+          "Comb/Brush",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Sister Borrow From Their Brothers."
+    },
+    {
+      "answers": [
+        [
+          "Big Ears",
+          33
+        ],
+        [
+          "Disneyland",
+          24
+        ],
+        [
+          "Minnie Mouse",
+          21
+        ],
+        [
+          "Cartoons",
+          8
+        ],
+        [
+          "Donald Duck",
+          6
+        ],
+        [
+          "Walt Disney",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Mickey Mouse."
+    },
+    {
+      "answers": [
+        [
+          "Clothes",
+          41
+        ],
+        [
+          "Car",
+          40
+        ],
+        [
+          "House",
+          10
+        ],
+        [
+          "Hair Cut",
+          3
+        ],
+        [
+          "Jewelry",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Many People Spend A Lot Of Money On, Just To Impress Others."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

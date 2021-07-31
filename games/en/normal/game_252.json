@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Park",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "School Yard",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Amusement Park",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Civic Centre",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Medical Building",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someplace You’d Find A Water Fountain"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Carb Diet",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Fasting",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Diet Pills",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Diet Shakes",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Diet Method That Doesn’t Seem Very Reliable."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleeping",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Behaving",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Playing Games",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Babysitter Hopes Kids Will Be Doing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Exam/Due Dates",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Days Off",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Parties",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "A Date",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Class Schedule",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A College Student Would Write Down On A Calendar."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Passport",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Luggage",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cellphone",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "ID/ License",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "The Kids",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Worst Thing To Lose While On Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pen / Pencil ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Notepad ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Manners ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Waitress Should Never Be Without"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tell Her",
+          48
+        ],
+        [
+          "Point At It",
+          31
+        ],
+        [
+          "Giggle/ Tease Her",
+          13
+        ],
+        [
+          "Wipe Your Own Face",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do To Let A Friend Know She Has Food On Her Face"
+    },
+    {
+      "answers": [
+        [
+          "Driving ",
+          46
+        ],
+        [
+          "Eye ",
+          30
+        ],
+        [
+          "Blood ",
+          20
+        ],
+        [
+          "Exam ",
+          13
+        ],
+        [
+          "IQ ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Test That Almost Everyone Takes"
+    },
+    {
+      "answers": [
+        [
+          "In Love",
+          30
+        ],
+        [
+          "Save money",
+          29
+        ],
+        [
+          "Getting Married",
+          29
+        ],
+        [
+          "kids Together",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Couple Decides To Move In Together"
+    },
+    {
+      "answers": [
+        [
+          "Horror",
+          42
+        ],
+        [
+          "Comedy",
+          27
+        ],
+        [
+          "Drama",
+          18
+        ],
+        [
+          "Romance",
+          12
+        ],
+        [
+          "Action",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Singles: Describe Last Date With Movie Genre"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

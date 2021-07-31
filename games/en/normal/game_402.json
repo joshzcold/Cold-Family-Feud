@@ -1,0 +1,356 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": 35,
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": 25,
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": 21,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 18,
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Never",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Age At Which People Stop Borrowing Money From Their Parents"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Put Toilet Paper On It",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Curse",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Put Bandaid On It",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Says Ouch",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Let It Bleed",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Put Alcohol On It",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Man Might Do If He Nicks Himself While Shaving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Dressed",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Walk Red Carpet",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hair/Makeup",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Interview",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Take Pictures",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Reherse",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Celeb Has To Do Before An Awards Ceremony Starts"
+    },
+    {
+      "answers": [
+        {
+          "ans": 12,
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": 13,
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": 11,
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Age Girls Stop Playing With Dolls. (Numeric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tea ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Coffee ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Soup ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Drink ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Be Served In A Cup"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rocks",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Wet Floor",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Hot Coffee",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Cracks/Bumps",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Condiments/Dressing",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Waitress On Roller Skates Would Say Is Her Mortal Enemy. (More Specific Than Food/Drinks)"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Golf Clubs",
+          58
+        ],
+        [
+          "Golf Balls",
+          21
+        ],
+        [
+          "Hat",
+          5
+        ],
+        [
+          "Golf Bag",
+          4
+        ],
+        [
+          "Golf Cart",
+          3
+        ],
+        [
+          "Golf Shirt",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Buy For A Golfer."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          63
+        ],
+        [
+          "Pen",
+          12
+        ],
+        [
+          "Gum",
+          8
+        ],
+        [
+          "Phone",
+          5
+        ],
+        [
+          "Keys",
+          4
+        ],
+        [
+          "Lipstick",
+          3
+        ],
+        [
+          "Tissues",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What’s The Worst Thing To Leave In Your Pants Pocket When They Go Through The Wash"
+    },
+    {
+      "answers": [
+        [
+          "Stephen King",
+          55
+        ],
+        [
+          "Edgar Allan Poe",
+          20
+        ],
+        [
+          "HP Lovecraft",
+          8
+        ],
+        [
+          "R.L.Stine",
+          6
+        ],
+        [
+          "Anne Rice",
+          5
+        ],
+        [
+          "Dean Koontz",
+          4
+        ],
+        [
+          "Poppy Z Brite",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Author Living Or Dead Who Writes The Scariest Stories."
+    },
+    {
+      "answers": [
+        [
+          "Janitor",
+          55
+        ],
+        [
+          "Clown",
+          13
+        ],
+        [
+          "Lion Tamer",
+          12
+        ],
+        [
+          "Human Cannon Ball",
+          6
+        ],
+        [
+          "Tight Rope Walker",
+          4
+        ],
+        [
+          "Elephant Trainer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Job You Wouldn’t Want To Have If You Worked At The Circus"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

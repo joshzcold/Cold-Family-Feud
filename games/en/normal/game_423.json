@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sweater",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Earrings",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tie/Scarf",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Item That You Wear Year-Round Gets Exceptionally Gaudy During The Holidays?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shop",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Eat Leftovers",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Watch Football",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Clean Up",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What do many people do on the day after thanksgiving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Musician",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Politition",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Athlete",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Profession You’d Shoot For If You Wanted To Be Famous."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stop working",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Leak",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ruin clothes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Make noise",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Overflow",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Shake",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What might a wash machine do that would make you get rid of it?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Snack",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Another Story",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "TV/ Movies",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Often Ask For Before Bed, That Their Parents Refuse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing/Guitar",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Farming",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Barbecuing",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Horse Back Riding",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Line Dancing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Manners",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Guy From Memphis Is Probably Better At Than A Guy From New York City."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleeping ",
+          51
+        ],
+        [
+          "Sunbathing ",
+          33
+        ],
+        [
+          "Gardening ",
+          22
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Look Forward To Doing On A Day Off"
+    },
+    {
+      "answers": [
+        [
+          "Liberty Bell",
+          27
+        ],
+        [
+          "Door Bell",
+          22
+        ],
+        [
+          "Church Bell",
+          12
+        ],
+        [
+          "Wedding Bells",
+          9
+        ],
+        [
+          "School Bell",
+          9
+        ],
+        [
+          "Jingle Bells",
+          9
+        ],
+        [
+          "Cow Bell",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Bell"
+    },
+    {
+      "answers": [
+        [
+          "Tea Towels ",
+          59
+        ],
+        [
+          "Crockery ",
+          38
+        ],
+        [
+          "Cutlery ",
+          25
+        ],
+        [
+          "Tin Foil ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You're Likely To Find In A Kitchen Drawer"
+    },
+    {
+      "answers": [
+        [
+          "Scary Decorations",
+          59
+        ],
+        [
+          "Dog",
+          38
+        ],
+        [
+          "No Lights",
+          25
+        ],
+        [
+          "Scary Music",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A House Have That Makes Trick/ Treaters Afraid Approach"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

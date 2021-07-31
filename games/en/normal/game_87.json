@@ -1,0 +1,302 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Long Hair",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Tattoos",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Inappropriate dress",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Piercings",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Dirty/Unkempt",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Facial Hair",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something About A Boy’s Appearance That Might Make his Date’s Disapprove Of Him"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jail",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a Place Where Youd Least Expect to See a Superhero."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Hair Products",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Husbands: Name Something Your Wife Spends More Money On Than You Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Police ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Boss / Manager ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Parent ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "King / Queen ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer / Judge ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Authority Figure"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Apple",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tree",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Adam & Eve",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Found In The Garden Of Eden"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Partying",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Freedom",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Financial Help",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do People Miss Most About College Once They Get A Job?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hair",
+          84
+        ],
+        [
+          "Eggs",
+          10
+        ],
+        [
+          "Shoes",
+          4
+        ],
+        [
+          "Shirt",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People dye A Different Color"
+    },
+    {
+      "answers": [
+        [
+          "Princess",
+          40
+        ],
+        [
+          "Fairies",
+          15
+        ],
+        [
+          "Happy Ending",
+          15
+        ],
+        [
+          "Prince",
+          8
+        ],
+        [
+          "Wicked Witch",
+          7
+        ],
+        [
+          "Brothers Grimm",
+          5
+        ],
+        [
+          "Castle",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Fairy Tales"
+    },
+    {
+      "answers": [
+        [
+          "Camel ",
+          54
+        ],
+        [
+          "Hippo ",
+          35
+        ],
+        [
+          "Horse ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That People Ride"
+    },
+    {
+      "answers": [
+        [
+          "Purring",
+          39
+        ],
+        [
+          "Growing Whiskers",
+          20
+        ],
+        [
+          "Growing Tail",
+          11
+        ],
+        [
+          "Growing Claws",
+          11
+        ],
+        [
+          "Scratching",
+          7
+        ],
+        [
+          "Growing Fur",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sign That Your Girlfriend Might Be Turning Into A Cat."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

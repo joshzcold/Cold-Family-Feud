@@ -1,0 +1,311 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink Too Much",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Kiss Someone",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Dance All Night",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Get Naked",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Put Foot In Mouth",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You Do At A Party, That You’d Regret The Next Day?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ostrich",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Flamingo",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Crane",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Stork",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Bird With Really Long Legs."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Directing",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Modeling",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Fashion design",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Politics",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Spokeperson",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other than Acting, Name A Profession That Celebrity Actors Might Take Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eating",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Using A Bathroom",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sitting On Furniture",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Keeping Shoes On",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Helping To Clean Up",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Don’t Feel Comfortable Doing At A Neat Freaks House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leave Name",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Leave Number",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Leave Message",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Call back",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Most Answer Machines Messages Ask You To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Song",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Character/ Voice",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Slogan",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "The Product",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Sticks In Your Head Most From An Irritating But Memorable Commercial."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Heart",
+          37
+        ],
+        [
+          "Liver",
+          26
+        ],
+        [
+          "Lungs",
+          23
+        ],
+        [
+          "Kidney",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Organ In The Body That Many People Should Take Better Care Of"
+    },
+    {
+      "answers": [
+        [
+          "Butler ",
+          42
+        ],
+        [
+          "Paintings ",
+          27
+        ],
+        [
+          "Long Drive ",
+          18
+        ],
+        [
+          "Spiral Staircase ",
+          12
+        ],
+        [
+          "Grandfather Clock ",
+          7
+        ],
+        [
+          "Swimming Pool ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You'd Find In A Rich Persons Mansion"
+    },
+    {
+      "answers": [
+        [
+          "Blood",
+          26
+        ],
+        [
+          "Violence",
+          26
+        ],
+        [
+          "Characters",
+          12
+        ],
+        [
+          "Costumes",
+          12
+        ],
+        [
+          "Throwing Chairs",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See At A WWE Match You’d Never See At A High School Wresting Match."
+    },
+    {
+      "answers": [
+        [
+          "Diapers",
+          55
+        ],
+        [
+          "Razors",
+          36
+        ],
+        [
+          "Paper Towels",
+          23
+        ],
+        [
+          "Cans",
+          15
+        ],
+        [
+          "Trash Bags",
+          10
+        ],
+        [
+          "Paper Cups",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Product That Might Be Disposable"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

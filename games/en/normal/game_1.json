@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Black Hood & Cape",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Sickle",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Skeleton",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mask",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Need If You Wanted To Look Like The Grim Reaper."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Country Music",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Country Accent",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Garth Brooks"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Enter",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Space Bar",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Backspace",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tab Key",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Letter And Punctuation Keys, Which Computer Key Would You Not Want To type A Report Without?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Their Love Lives",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Infidelity",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Rumor",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Divorce",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Topic People Might Whisper About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spare Tyre ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Jack ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Tools ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Spare Petrol Tank ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Jump Leads ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In the Boot Of A Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lower Back/Bottom",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Ankle",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Chest",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Foot",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hip",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place On The Body That Women Tattoo, But Men Usually Don’t"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Nose ",
+          52
+        ],
+        [
+          "Neck ",
+          34
+        ],
+        [
+          "Nostril ",
+          22
+        ],
+        [
+          "Nails ",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "\"Name A Part Of The Body Beginning With \"\"N\"\"\""
+    },
+    {
+      "answers": [
+        [
+          "Clean",
+          46
+        ],
+        [
+          "Homework",
+          30
+        ],
+        [
+          "Shower",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would A College Kid Do Right Before Parents Visit?"
+    },
+    {
+      "answers": [
+        [
+          "Scream",
+          44
+        ],
+        [
+          "Splash Water",
+          29
+        ],
+        [
+          "Shake",
+          19
+        ],
+        [
+          "Jump On Bed",
+          12
+        ],
+        [
+          "Use Alarm",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Worst Way To Be Woken Up"
+    },
+    {
+      "answers": [
+        [
+          "Mice",
+          32
+        ],
+        [
+          "Bears",
+          18
+        ],
+        [
+          "Beavers",
+          14
+        ],
+        [
+          "Racoons",
+          9
+        ],
+        [
+          "Rats",
+          9
+        ],
+        [
+          "Opossums",
+          6
+        ],
+        [
+          "Coyotes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal People Set Traps For."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

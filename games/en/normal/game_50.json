@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Birthday",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Batchelor",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Pool",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Holiday",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bridal",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Political",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Slumber",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Green Eggs And Ham",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Rhymes",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cat In The Hat",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Not A Doctor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Everybody knows About Dr. Seuss"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gloves",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Magazine",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Band Aids",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pen",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "medicine",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Are Always Tempted To Steal From The Doctor’s Office."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spider ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "A Baby ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Snake ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Insects ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Crawls"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Deer",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Moose",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Rat",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You’re Driving In The Middle Of No Where, What Animal Might You See Crossing The Street?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctors",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Beds",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Nurses",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Patients",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Needles",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Drugs",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Babies",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Hospital"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money",
+          32
+        ],
+        [
+          "Personal Products",
+          24
+        ],
+        [
+          "Tissue",
+          18
+        ],
+        [
+          "Mace/Weapon",
+          12
+        ],
+        [
+          "Medicine",
+          6
+        ],
+        [
+          "Gum",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Keep In Your Pocket Or Purse “Just In Case.”"
+    },
+    {
+      "answers": [
+        [
+          "Pumpkins",
+          39
+        ],
+        [
+          "Corn",
+          20
+        ],
+        [
+          "Leaves",
+          18
+        ],
+        [
+          "Apples",
+          12
+        ],
+        [
+          "People",
+          5
+        ],
+        [
+          "Hay Rides",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Your Likely To Find At A Fall Harvest Fair"
+    },
+    {
+      "answers": [
+        [
+          "Head",
+          47
+        ],
+        [
+          "Arms",
+          28
+        ],
+        [
+          "Legs",
+          13
+        ],
+        [
+          "Hand",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of A Doll’s Body That Might Be Movable"
+    },
+    {
+      "answers": [
+        [
+          "Laugh ",
+          55
+        ],
+        [
+          "Smile ",
+          36
+        ],
+        [
+          "Sing ",
+          23
+        ],
+        [
+          "Dance ",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do When They Are Happy"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Table Cloth ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Cutlery ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Plates ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Salt / Pepper ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Menu ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Need To Set A Table In A Restaurant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crackers",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Cheese Sauce",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Eat With Chili."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ex",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Enemy",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Affair",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cops",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Who Would A Bride Not Want To Show Up Unannounced At Her Wedding?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Princess",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Fairy",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Angel",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Halloween Costume That Young Girls Often Wear."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hat",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Chaps",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something Cowboy Wears Makes Him Sexy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mag./Subscription",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Book Light",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "E Reader",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bookmark",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Book Shelf",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides A Book, Tell Me A Good Gift For Someone Who Loves To Read."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Meow",
+          42
+        ],
+        [
+          "Scratch",
+          41
+        ],
+        [
+          "Lick Themselves",
+          8
+        ],
+        [
+          "Shed",
+          4
+        ],
+        [
+          "Bite",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Annoying That Cats Do."
+    },
+    {
+      "answers": [
+        [
+          "Kiss",
+          27
+        ],
+        [
+          "Open Doors",
+          23
+        ],
+        [
+          "Buy Flowers",
+          19
+        ],
+        [
+          "Hug",
+          7
+        ],
+        [
+          "Hold Hands",
+          5
+        ],
+        [
+          "Cook",
+          4
+        ],
+        [
+          "Cuddle",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific Your Partner Did Early In Your Relationship That You Wish They Still Did Now?"
+    },
+    {
+      "answers": [
+        [
+          "Peter",
+          56
+        ],
+        [
+          "Mary",
+          36
+        ],
+        [
+          "Paul",
+          24
+        ],
+        [
+          "Christopher",
+          16
+        ],
+        [
+          "Joseph",
+          10
+        ],
+        [
+          "John",
+          7
+        ],
+        [
+          "Michael",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Saint"
+    },
+    {
+      "answers": [
+        [
+          "Sing ",
+          48
+        ],
+        [
+          "Whinge / Complain ",
+          31
+        ],
+        [
+          "Sleep ",
+          20
+        ],
+        [
+          "I Spy ",
+          13
+        ],
+        [
+          "Fight ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Children Do On A Long Car Trip"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

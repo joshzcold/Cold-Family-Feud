@@ -1,0 +1,342 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Broccoli",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Onion",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Potatoes",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cucumber",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Celery",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Turnip",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lettuce",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Vegetable You Would Never Make Juice Out Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Engine",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Crowd",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Waterfall/Water",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fire",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Thunder",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides A Wild Cat, Name Something That “Roars.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Child",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Wouldn’t Leave In You Car On A Hot Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mole",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Tattoos",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tonsils",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Warts",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Appendix",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That People Get Removed From Their Body."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make A Phone Call",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Vending Machine",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Parking Meter",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bus Fare",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper Machine",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason You Might Have To Get A Change For A Dollar"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pictures",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Animal Characters",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Princess",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Once Upon A Time",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pop Up Pages",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Small Words",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You Find Inside A Book That Tells You It Was Meant For Children?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Socialize",
+          44
+        ],
+        [
+          "Date",
+          31
+        ],
+        [
+          "Work",
+          16
+        ],
+        [
+          "Fight",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me something that you’d prefer to do with strangers rather than family."
+    },
+    {
+      "answers": [
+        [
+          "Mr Bean ",
+          50
+        ],
+        [
+          "Del Boy ",
+          33
+        ],
+        [
+          "Borat ",
+          21
+        ],
+        [
+          "Basil Fawlty ",
+          14
+        ],
+        [
+          "Blackadder ",
+          9
+        ],
+        [
+          "Ali G ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fictional Comedy Character"
+    },
+    {
+      "answers": [
+        [
+          "Horse ",
+          44
+        ],
+        [
+          "Donkey ",
+          29
+        ],
+        [
+          "Elephant ",
+          19
+        ],
+        [
+          "Dolphin ",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal You Can Ride On"
+    },
+    {
+      "answers": [
+        [
+          "FIREWORKS",
+          41
+        ],
+        [
+          "FLOATS",
+          26
+        ],
+        [
+          "CANDY",
+          19
+        ],
+        [
+          "MUSIC",
+          7
+        ],
+        [
+          "COSTUMES",
+          3
+        ],
+        [
+          "FIRE TRUCKS",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The Best Part Of A 4th Of July Parade"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 78,
+          "trig": false
+        },
+        {
+          "ans": "Cornucopia",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pilgrem Hat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Card",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Indian Headress",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Drawing Of Pilgrims",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Thanksgiving Item Children Make At School."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tape",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Tack",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Glue",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "String",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hanger",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A resourceful Person Might Use To Hang A Picture If They Didn’t Have A Nail"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Place Of Worship",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Amusement park",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where Everyone Seems To Be In A Good Mood."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dancing",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Saturday Night Fever",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Pulp Fiction",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Grease",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Scientology",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With John Travolta."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sahara",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Mojave",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Death Valley",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Gobi",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Desert"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Celebrities",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Bright Lights",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Palm Trees",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Prints On Sidewalk",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Imagine They’d See On Every Street In Hollywood"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Toast",
+          26
+        ],
+        [
+          "Rice",
+          21
+        ],
+        [
+          "Eggs",
+          18
+        ],
+        [
+          "Chicken",
+          13
+        ],
+        [
+          "Steak",
+          8
+        ],
+        [
+          "Bacon",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Often Gets Burned"
+    },
+    {
+      "answers": [
+        [
+          "Swimming ",
+          41
+        ],
+        [
+          "Showering ",
+          27
+        ],
+        [
+          "Water Skiing ",
+          17
+        ],
+        [
+          "Judo / Karate ",
+          11
+        ],
+        [
+          "Grape Crushing ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity Done In Barefoot"
+    },
+    {
+      "answers": [
+        [
+          "Fancy Food",
+          42
+        ],
+        [
+          "Wine",
+          13
+        ],
+        [
+          "Napkins",
+          12
+        ],
+        [
+          "Candles",
+          8
+        ],
+        [
+          "Cocktail Glasses",
+          7
+        ],
+        [
+          "Flowers",
+          6
+        ],
+        [
+          "Music",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Dishes And Utensils, What Else Do You Need To Host A Fancy Dinner Party?"
+    },
+    {
+      "answers": [
+        [
+          "Crib",
+          48
+        ],
+        [
+          "Clothes",
+          30
+        ],
+        [
+          "Diapers",
+          10
+        ],
+        [
+          "Stroller",
+          4
+        ],
+        [
+          "Bottles",
+          3
+        ],
+        [
+          "Car Seat",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What’s The First Thing New Parents Buy After Finding Out They’re Having A Baby?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

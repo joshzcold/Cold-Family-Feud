@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Care For Pets",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "House Sit",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Water Plants",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Babysit",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Collect Mail",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Pay Someone To Do While You’re Away On Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Special Effects",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Sets",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Shooting On Location",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Props",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Equipment",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Costumes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Stars’ Salaries, Name The Most Expensive Thing That Goes Into Making A Movie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jack Nickleson",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Al Pacino",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Clint Eastwood",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Robert Dinero",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Christopher Wakin",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dennis Hooper",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Actor Who Often Plays A “Bad Guy”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candy",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Pantyhose",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Balls",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find Inside Of A Plastic Egg."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sun ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Bad Hair Day ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Raining ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bald Head ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Like It ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Part Of A Uniform ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Someone Might Wear A Hat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Big Foot",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Loch Ness",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Yeti",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Boogeyman",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Monster Some People Believe Exists No Evidence"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Wear Headphones",
+          38
+        ],
+        [
+          "Rest",
+          18
+        ],
+        [
+          "Run In Place",
+          15
+        ],
+        [
+          "Drink Water",
+          11
+        ],
+        [
+          "Stretch",
+          9
+        ],
+        [
+          "Check Pulse",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d See A Person Do While Jogging For Exercise, But Never If They Were Being Chased"
+    },
+    {
+      "answers": [
+        [
+          "Police Officer",
+          65
+        ],
+        [
+          "Lawyer",
+          19
+        ],
+        [
+          "Judge",
+          6
+        ],
+        [
+          "Clergy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That A Boy Wouldn’t Want His Girlfriend’s Father To Have."
+    },
+    {
+      "answers": [
+        [
+          "Red Meat",
+          37
+        ],
+        [
+          "Fried Food",
+          25
+        ],
+        [
+          "Sweets",
+          18
+        ],
+        [
+          "Pizza",
+          8
+        ],
+        [
+          "Eggs",
+          5
+        ],
+        [
+          "Butter",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a specific food that doctors tell patients to cut down on."
+    },
+    {
+      "answers": [
+        [
+          "bar",
+          45
+        ],
+        [
+          "Work",
+          23
+        ],
+        [
+          "Sporting Event",
+          12
+        ],
+        [
+          "Home",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place You’d Be Surprised To See A New Dad On The Day Of His Child’s Birth"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "French",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "British",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Italian",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Spanish",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Australian",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Accent Might An American Pretend To Have In Order To Sound Sexier"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthday",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Valentines Day",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mothers Day",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "For Which Occasion Would You Hate To Forget To Buy A Gift?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clean",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Go To Bed",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Brush Teeth",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Listen",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Wish Your Kids Would Do Without Having To Be Told Twice."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Budget Cuts",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bad Weather",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Going Under",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Too Busy",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Workplace Might Not Have Their Annual Christmas Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hotel",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Dinner",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Plane",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Car Rental",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Reservation That Often Gets Lost"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cereal ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Toaster ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Milk ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Toothbrush / Toothpaste ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Buy Used Mainly In The Mornings"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Have A Temper Tantrum",
+          28
+        ],
+        [
+          "Run Around",
+          20
+        ],
+        [
+          "Cry",
+          19
+        ],
+        [
+          "Eat Candy",
+          12
+        ],
+        [
+          "Scream",
+          7
+        ],
+        [
+          "Hide",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific A Child Might Do In A Store To Make Mom Mad."
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          30
+        ],
+        [
+          "TV",
+          26
+        ],
+        [
+          "Socks",
+          21
+        ],
+        [
+          "Sweater",
+          14
+        ],
+        [
+          "Shoes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Your Grandma Might Repair When It Gets Old, But You Just Buy A New One."
+    },
+    {
+      "answers": [
+        [
+          "Mower ",
+          40
+        ],
+        [
+          "Blender / Mixer ",
+          26
+        ],
+        [
+          "Vacuum / Hoover ",
+          17
+        ],
+        [
+          "Hair Dryer ",
+          11
+        ],
+        [
+          "Washing Machine ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Noisy Appliance"
+    },
+    {
+      "answers": [
+        [
+          "Kids",
+          35
+        ],
+        [
+          "Elves",
+          31
+        ],
+        [
+          "Reindeer",
+          25
+        ],
+        [
+          "Mrs Claus",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Santa Had A Twitter Account, Who Might Be An Avid Follower Of It?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

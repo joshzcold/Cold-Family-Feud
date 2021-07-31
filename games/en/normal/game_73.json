@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fingers ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "A Biscuit ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "A Piece Of Wood ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "A Wishbone ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Can Snap Apart From Taking Photographs"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drunk",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Picking Fights",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "No Manners/Annoying",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Loud",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cops Show Up",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Using Bad Language",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Not Invited",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Party’s Host Might Ask A Guest To Leave."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Uno",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Poker",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Spades",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Solitare",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "War",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hearts",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A One Word Card Game"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soda Pop",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Gatorade",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Beverage You Are Allowed To Drink While Driving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Lemonade",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Drink That Many People Love Despite Its Bitter Taste"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sausage",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Pepperoni",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Ground Beef",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Ham",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Pizza Topping A Vegetarian Would Never Order."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Window Washer",
+          39
+        ],
+        [
+          "Pilot/Flight Attendant",
+          37
+        ],
+        [
+          "Construction Worker",
+          16
+        ],
+        [
+          "Firefighter",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Bad Job For Someone Who’s Afraid Of Heights"
+    },
+    {
+      "answers": [
+        [
+          "Baked Potato",
+          28
+        ],
+        [
+          "Popcorn",
+          22
+        ],
+        [
+          "Corn",
+          16
+        ],
+        [
+          "Pancake",
+          12
+        ],
+        [
+          "Toast",
+          9
+        ],
+        [
+          "Lobster",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Served With Melted Butter On It. (Vegetables Is Not An Answer, Be More Specific)"
+    },
+    {
+      "answers": [
+        [
+          "Scream",
+          49
+        ],
+        [
+          "Breathe",
+          19
+        ],
+        [
+          "Cry",
+          15
+        ],
+        [
+          "Sweat",
+          7
+        ],
+        [
+          "Clench Hands",
+          5
+        ],
+        [
+          "Curse",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Pregnant Women Do A Lot Of When They’re In Labor."
+    },
+    {
+      "answers": [
+        [
+          "Kermit ",
+          56
+        ],
+        [
+          "Fozzy Bear ",
+          36
+        ],
+        [
+          "Miss Piggy ",
+          24
+        ],
+        [
+          "Gonzo ",
+          16
+        ],
+        [
+          "Rolf ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Muppet"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

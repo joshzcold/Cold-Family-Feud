@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Milk ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Butter ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Beer ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Drinks ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Needs To Be Kept In The Fridge"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kissing/Snuggling",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Walking",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Were Dating A Real Knight In Shining Armor, Name Something You’d Have Difficulty Doing Together."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drums ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Guitar ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Keyboard ",
+          "pnt": 22,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Instrument Found In A Band"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Uncle ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Father ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Brother ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Grandfather ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Brother In Law ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Father In Law ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Male Relative"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fan",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Light",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Star Stickers",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Poster",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cracks",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Fly",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See On A Bedroom Ceiling"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Store",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Gas Station",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Mailbox",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Kids School",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Place You Might Go Quickly In Pajamas"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Canada",
+          39
+        ],
+        [
+          "Mexico",
+          19
+        ],
+        [
+          "Puerto Rico",
+          14
+        ],
+        [
+          "England",
+          7
+        ],
+        [
+          "Australia",
+          6
+        ],
+        [
+          "France",
+          6
+        ],
+        [
+          "Italy",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Country Would You Want To Become The 51st American State?"
+    },
+    {
+      "answers": [
+        [
+          "Lots Of rooms",
+          33
+        ],
+        [
+          "Pool",
+          28
+        ],
+        [
+          "staff",
+          22
+        ],
+        [
+          "Elevator",
+          8
+        ],
+        [
+          "Gate",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something A House Needs In Order To Be Considered A Mansion"
+    },
+    {
+      "answers": [
+        [
+          "Dirty Water",
+          38
+        ],
+        [
+          "Can’t Swim",
+          35
+        ],
+        [
+          "Cold",
+          11
+        ],
+        [
+          "Kids In It",
+          5
+        ],
+        [
+          "Clorine",
+          3
+        ],
+        [
+          "Crowded",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Might Someone Refuse To Use A Swimming Pool?"
+    },
+    {
+      "answers": [
+        [
+          "Tights",
+          42
+        ],
+        [
+          "Mask",
+          27
+        ],
+        [
+          "Shorts",
+          18
+        ],
+        [
+          "Belt",
+          12
+        ],
+        [
+          "Cape",
+          7
+        ],
+        [
+          "Robe",
+          5
+        ],
+        [
+          "Leotard",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Garment In Dressing Room For Pro Wrestling Event"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Television",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Might Be Added To A Rockstar’s Tour Bus That You Wouldn’t Find On A City Bus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blanket",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Stuffed Animal",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pillow",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Baby’s Skin",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Softest Thing In A Baby’s Room."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swing Set",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bicycle",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Pool",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sand Box",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Basketball Hoop",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See In Someone’s Backyard That Would Tell You They Had Kids."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Checkout Assistant ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Security Guard ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Forklift Driver ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Supervisor ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Manager ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job A Person Might Apply For At A Super Market"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Toothbrush",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Passport",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What One Thing Would You Most Hate To Forget To Pack On A Trip"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Dating",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Job Interview",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Doctor Appt",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Public Speaking",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Taking A Test",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Situation That Makes Just About Everyone Nervous"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "2pm ",
+          44
+        ],
+        [
+          "Afternoon ",
+          29
+        ],
+        [
+          "Noon ",
+          19
+        ],
+        [
+          "4pm ",
+          12
+        ],
+        [
+          "3pm ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "The Time Of The Day A Person Is Most Likely To Take A Nap"
+    },
+    {
+      "answers": [
+        [
+          "Italy",
+          48
+        ],
+        [
+          "China",
+          31
+        ],
+        [
+          "Mexico",
+          20
+        ],
+        [
+          "France",
+          13
+        ],
+        [
+          "Japan",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Country Whose Food You Know Better Than Its Language"
+    },
+    {
+      "answers": [
+        [
+          "Math",
+          35
+        ],
+        [
+          "English/Spelling",
+          21
+        ],
+        [
+          "History",
+          20
+        ],
+        [
+          "Science",
+          12
+        ],
+        [
+          "Geography",
+          5
+        ],
+        [
+          "Physical Fitness",
+          3
+        ],
+        [
+          "Foreign Language",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A School Subject That People Often Become Bad At In Adulthood."
+    },
+    {
+      "answers": [
+        [
+          "Eating Less",
+          38
+        ],
+        [
+          "Losing Weight",
+          32
+        ],
+        [
+          "Eating Healthy",
+          20
+        ],
+        [
+          "Cranky",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me How You Know That Your Friend Is On A Diet."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

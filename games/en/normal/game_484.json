@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Prom",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Teenaged Boy Would Have For Wearing A Suit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bread",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Food Often Served With Wine"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Income",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tax Information",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Social Security",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Criminal Record",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Debt",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something The Government Knows About You, But You Wouldn’t Talk To A Co-Worker About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computers",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "People skills",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Punctuality",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Multitasking",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Organization",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something everyone says they’re good at when at a job interview,even if it’s a lie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Highway",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Bank",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Public Transit",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Shopping Center",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place That Gets Crowded At The End Of A Work Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Boots",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Horses",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cowboys",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Truck",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See In A Country Western Music Video."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smoking",
+          37
+        ],
+        [
+          "Cell Phone",
+          24
+        ],
+        [
+          "Kids",
+          14
+        ],
+        [
+          "Noise",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Some Things That Annoy You In Public Places Such As Restaurants"
+    },
+    {
+      "answers": [
+        [
+          "Skirt",
+          45
+        ],
+        [
+          "Shorts",
+          29
+        ],
+        [
+          "Hair",
+          19
+        ],
+        [
+          "Shirt",
+          12
+        ],
+        [
+          "Nails",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Some Women Wear Very Short"
+    },
+    {
+      "answers": [
+        [
+          "Wedding",
+          35
+        ],
+        [
+          "Party",
+          28
+        ],
+        [
+          "Prom",
+          18
+        ],
+        [
+          "Birthday",
+          6
+        ],
+        [
+          "Club",
+          3
+        ],
+        [
+          "Concert",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occasion Where You’d See People Dancing."
+    },
+    {
+      "answers": [
+        [
+          "Kids",
+          30
+        ],
+        [
+          "Income",
+          22
+        ],
+        [
+          "Their job",
+          14
+        ],
+        [
+          "Bodies",
+          12
+        ],
+        [
+          "Their cars",
+          9
+        ],
+        [
+          "Sports ability",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something people brag about."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

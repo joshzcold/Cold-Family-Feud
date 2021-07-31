@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Camping",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Searching For Something",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hiking",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Fixing A Car",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Use A Flashlight While Doing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jail",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Desert",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Military",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Frozen Tundra",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Outer Space",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where The Average Person Wouldn’t Last A Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pin The Tailâ€¦",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Twister",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Spin The Bottle",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Musical Chairs",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Party Game That You’D Be Surprised To See At An Adult’S Birthday"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gun",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Bug Spray",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Binoculars",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Take On African Safari"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawyer",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Reporter",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Telemarketer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Detective",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Therapist",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Good Job For Someone Who Asks A Lot Of Questions."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blanket",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Toy",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Doll",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bottle",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pacifier",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Child Might Carry Along Everywhere"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Coat",
+          27
+        ],
+        [
+          "Jeans",
+          26
+        ],
+        [
+          "Girdle",
+          18
+        ],
+        [
+          "Tights",
+          9
+        ],
+        [
+          "Snowsuit",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing That Makes You Feel You Can’t Move"
+    },
+    {
+      "answers": [
+        [
+          "Expectations",
+          59
+        ],
+        [
+          "Dane",
+          38
+        ],
+        [
+          "Wall Of China",
+          25
+        ],
+        [
+          "Day",
+          16
+        ],
+        [
+          "Grandmother",
+          11
+        ],
+        [
+          "Buy",
+          7
+        ],
+        [
+          "Scott",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Begins With Great"
+    },
+    {
+      "answers": [
+        [
+          "Florance Joyner",
+          38
+        ],
+        [
+          "Road Runner",
+          26
+        ],
+        [
+          "Carl Lewis",
+          13
+        ],
+        [
+          "Michael Johnson",
+          7
+        ],
+        [
+          "Jesse Owens",
+          7
+        ],
+        [
+          "Flash",
+          6
+        ],
+        [
+          "Speedy Gonzales",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Real Or Fictional, Name Someone Who’s Known For Being A Fast Runner."
+    },
+    {
+      "answers": [
+        [
+          "Lights",
+          43
+        ],
+        [
+          "Fake Snow",
+          26
+        ],
+        [
+          "Pine/Trees",
+          13
+        ],
+        [
+          "Tinsel/Garland",
+          7
+        ],
+        [
+          "Wreath/Mistletoe",
+          5
+        ],
+        [
+          "Candles",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Decorate With In Winter To Get In The Holiday Spirit"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

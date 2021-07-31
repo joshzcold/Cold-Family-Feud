@@ -1,0 +1,341 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chains/Bars",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Dragons",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bones",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bats",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Candles/Darkness",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Rats/Mice",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d See If You Were Trapped In A Dungeon"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lettuce",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Tomatoes",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mayo",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ham",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Salami",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bologna",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In A Submarine Sandwich"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sandwiches",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Turkey Salad",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Turkey Pot Pie",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Casserole",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Turkey Ala King",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Turkey Hash",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Different To Use Left Over Turkey"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nail",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Glass Shard",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Pin",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rocks",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Cause A Flat Tire."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pass Gas",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Show Affection",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Undress",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Use The Restroom",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Don’t Want To Do In Front Of Somebody They’re Dating, Until They Get Serious."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Giraffe",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ostrich",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gazelle",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Camel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal With Really Long Legs."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fish ",
+          40
+        ],
+        [
+          "Butterfly ",
+          26
+        ],
+        [
+          "Crab ",
+          17
+        ],
+        [
+          "Tennis Ball / Ball ",
+          11
+        ],
+        [
+          "Shuttlecock ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Catch In A Net"
+    },
+    {
+      "answers": [
+        [
+          "Snake",
+          16
+        ],
+        [
+          "Cat",
+          15
+        ],
+        [
+          "Rat",
+          15
+        ],
+        [
+          "Pigeon",
+          15
+        ],
+        [
+          "Human",
+          13
+        ],
+        [
+          "Dog",
+          12
+        ],
+        [
+          "Deer",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "They’ve Cloned A Sheep: Name A Creature They Should Never Clone Because We Already Have Too Many."
+    },
+    {
+      "answers": [
+        [
+          "Las Vegas",
+          61
+        ],
+        [
+          "Hawaii",
+          19
+        ],
+        [
+          "Paris",
+          16
+        ],
+        [
+          "Niagra Falls",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place In The World Where People Might Go To Get Married"
+    },
+    {
+      "answers": [
+        [
+          "Florida",
+          49
+        ],
+        [
+          "California",
+          19
+        ],
+        [
+          "Arizona",
+          18
+        ],
+        [
+          "Hawaii",
+          6
+        ],
+        [
+          "Texas",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A State That Many People Live In When They Retire."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

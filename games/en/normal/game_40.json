@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cell Phone",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Mp3 Player",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Piece Of Technology Would People Have The Hardest Time Giving Up?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Adam & Eve ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Cain & Abel ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Samson & Delilah ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "David & Golliath ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mary & Joseph ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Biblical Duo"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Accident ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sirens ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Flashing Lights ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Driver ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hospital ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With An Ambulance"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "A Cell Phone",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "A Camel",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "A Friend",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Got Stuck In The Desert, What Would You Want To Have With You?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bread Basket",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Salp/Pepper",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Salad Bowl",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something At A Restaurant That Might Keep Getting Refilled"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toys",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Electronics",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Video Games",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "For Which Items Do People Wait In Long Lines To Purchase At The Holidays?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money",
+          53
+        ],
+        [
+          "People",
+          34
+        ],
+        [
+          "Food",
+          23
+        ],
+        [
+          "Data",
+          15
+        ],
+        [
+          "Pictures",
+          10
+        ],
+        [
+          "Soul",
+          6
+        ],
+        [
+          "Video Game",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Saved"
+    },
+    {
+      "answers": [
+        [
+          "Price",
+          48
+        ],
+        [
+          "Mileage",
+          27
+        ],
+        [
+          "Year Made",
+          15
+        ],
+        [
+          "Serial Number",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Number Associated With A Used Car That You’d Want To Know Before Buying It"
+    },
+    {
+      "answers": [
+        [
+          "Cutting",
+          46
+        ],
+        [
+          "Own A Shop",
+          30
+        ],
+        [
+          "Often Male",
+          13
+        ],
+        [
+          "White Coat",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do A Barber And Butcher Have In Common?"
+    },
+    {
+      "answers": [
+        [
+          "Skirt",
+          35
+        ],
+        [
+          "Shirt",
+          31
+        ],
+        [
+          "Pants",
+          8
+        ],
+        [
+          "Shorts",
+          8
+        ],
+        [
+          "Jacket",
+          6
+        ],
+        [
+          "Pajamas",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wear That Might Be Plaid"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

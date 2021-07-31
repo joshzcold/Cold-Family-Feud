@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Store",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where Do You Hear Christmas Songs Throughout December?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lunch",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Briefcase",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Purse",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Most People Bring With Them When They Go To Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Banking",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Paying Bills",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Emailing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Doing Taxes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Education",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Working",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Kinds Of Tasks Do We Now Handle Online That We Didn’t Use To 10 Years Ago?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pierce ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Tattoo ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Exercise ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Shave ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tan ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cosmetic Surgery ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do To Their Bodies, Others Think Is Madness"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bears",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Snakes",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Dark",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ghost",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you might be scared of while camping."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Halloween",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Formal Dinner",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Costume Ball",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occasion That Dracula Is Almost Always dressed For"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Weather ",
+          41
+        ],
+        [
+          "Partner ",
+          27
+        ],
+        [
+          "Queues ",
+          17
+        ],
+        [
+          "Work ",
+          11
+        ],
+        [
+          "Money ",
+          7
+        ],
+        [
+          "Government ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something everyone Complains About"
+    },
+    {
+      "answers": [
+        [
+          "Towell ",
+          44
+        ],
+        [
+          "Clothes ",
+          29
+        ],
+        [
+          "Mat ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See Lying On The Bathroom Floor"
+    },
+    {
+      "answers": [
+        [
+          "Henry ",
+          52
+        ],
+        [
+          "Tommy ",
+          34
+        ],
+        [
+          "Jilly ",
+          22
+        ],
+        [
+          "Gary ",
+          14
+        ],
+        [
+          "Alice ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Person With The Surname Cooper"
+    },
+    {
+      "answers": [
+        [
+          "Bicycle",
+          46
+        ],
+        [
+          "Doll House",
+          12
+        ],
+        [
+          "Train Set",
+          11
+        ],
+        [
+          "Race Track",
+          11
+        ],
+        [
+          "Kite",
+          10
+        ],
+        [
+          "Jungle Gym",
+          8
+        ],
+        [
+          "Play House",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Toy Parents Have To Put Together."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

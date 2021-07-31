@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Smoke Cigarette",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Brush Teeth",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dessert/ Coffee",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You Do After Eating Dinner?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wear Extra Clothes",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Wrap In A Blanket",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Light A Fire",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cuddle Up",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Take A Bath",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Drink Something Hot",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When It Gets Chilly Outside, But You Don’t Want To Turn On The Heat, What Do You Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hickey",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Tattoo",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Piercing",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Revealing Clothes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Diary",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teen Might Cover Up So Her Parents Don’t See It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lock The Door",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Turn Off The Lights",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Grab Keys",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Brush Teeth",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Forget To Do When In a Hurry To Leave The House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "8.00am ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "7.30am ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "9.00am ",
+          "pnt": 22,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Time Of Day When Most People Eat Breakfast"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Florida",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Arizona",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Texas",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "California",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A State That You’d Hate To Live In During Summer"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Radio",
+          37
+        ],
+        [
+          "Stereo",
+          21
+        ],
+        [
+          "Motor",
+          11
+        ],
+        [
+          "Horn",
+          9
+        ],
+        [
+          "Power Steering",
+          7
+        ],
+        [
+          "Cruise Control",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Feature You Have In Your Car That A Mother Might Like To Have On Her Baby’s Stroller"
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          52
+        ],
+        [
+          "Water",
+          34
+        ],
+        [
+          "Soap",
+          22
+        ],
+        [
+          "Love",
+          14
+        ],
+        [
+          "Fish",
+          9
+        ],
+        [
+          "Butter",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Hard To Hold Onto"
+    },
+    {
+      "answers": [
+        [
+          "Quick Accelleration",
+          52
+        ],
+        [
+          "Color",
+          34
+        ],
+        [
+          "Leather Interior",
+          22
+        ],
+        [
+          "High Quality Stero",
+          14
+        ],
+        [
+          "Comfortable Ride",
+          9
+        ],
+        [
+          "Sunroof/Convertable",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Look For In Their Dream Car"
+    },
+    {
+      "answers": [
+        [
+          "Paper",
+          28
+        ],
+        [
+          "Time",
+          16
+        ],
+        [
+          "Money",
+          16
+        ],
+        [
+          "Pens/Pencils",
+          12
+        ],
+        [
+          "Breaks/Time Off",
+          11
+        ],
+        [
+          "Assistance",
+          7
+        ],
+        [
+          "Coffee",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Office Worker Says They Could Use More Of."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

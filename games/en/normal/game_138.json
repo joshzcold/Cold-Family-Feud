@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Days Of Our Lives",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "One Life To Live",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Young & The Restless",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "As The World Turns",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "All My Children",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Guiding Light",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Passions",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Soap Opera That Describes Your Love Life"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Appointments",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Wife’s Birthday",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Calls",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lunch",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Boss Might Ask His Secretary To Remind Him Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fries",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Burger",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Fast Food Item That Comes In Sizes Too Big For You To Consume."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Carrots ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Breeding ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Ears ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tails ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Warren ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Rabbits"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 79,
+          "trig": false
+        },
+        {
+          "ans": "Fishing Line",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Rope",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Yarn",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Shoe Laces",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Phone Cord",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Get Tangled."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shirt/Uniform",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Name Tag",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Jewlery",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Jersey",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Belt",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might An Adult Wear That Has His Name On It?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Water Polo",
+          63
+        ],
+        [
+          "Swimming",
+          14
+        ],
+        [
+          "Water Ski",
+          8
+        ],
+        [
+          "Marco Polo",
+          7
+        ],
+        [
+          "Diving",
+          2
+        ],
+        [
+          "Sailing",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport That Takes Place In The Water."
+    },
+    {
+      "answers": [
+        [
+          "Eat",
+          46
+        ],
+        [
+          "Talk",
+          30
+        ],
+        [
+          "Flirt",
+          20
+        ],
+        [
+          "Smoke",
+          13
+        ],
+        [
+          "Dance",
+          8
+        ],
+        [
+          "Play Pool",
+          5
+        ],
+        [
+          "Fight",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do At A Bar Besides Drink"
+    },
+    {
+      "answers": [
+        [
+          "Monopoly",
+          48
+        ],
+        [
+          "Chess",
+          31
+        ],
+        [
+          "Scrabble",
+          20
+        ],
+        [
+          "Risk",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Board Game Is Most Challenging"
+    },
+    {
+      "answers": [
+        [
+          12,
+          30
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          10,
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Old Were You When You Babysat For The First Time?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

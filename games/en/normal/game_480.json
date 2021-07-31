@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "The World",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Work/School",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Mountain/Hill",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Your Game",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bills",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you might be “on top of”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Necklace ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Scarf ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "A Pen ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put Around Your Neck"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spinning Top ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Bottle ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wheel ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ball ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Can Spin"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spoon",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Key Chain",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Cups",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Plates",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ashtray",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Souvenir People Collect That Has A City’s Name On It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Perfume",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Deodorant",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "After Shave",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Mouth Wash",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Use To Smell Good, But You Wouldn’t Use To Eliminate You Dog’s Odor"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blood",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Body",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Yellow Tape",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chalk Outline",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Police Car",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See At A Crime Scene"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smoke",
+          46
+        ],
+        [
+          "Eat",
+          30
+        ],
+        [
+          "Swear",
+          20
+        ],
+        [
+          "Talk",
+          13
+        ],
+        [
+          "Drink",
+          8
+        ],
+        [
+          "Flirt",
+          5
+        ],
+        [
+          "Fight",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Disneyworld Character Forbidden Costume"
+    },
+    {
+      "answers": [
+        [
+          "Snowman",
+          68
+        ],
+        [
+          "Igloo",
+          15
+        ],
+        [
+          "Snow Fort",
+          8
+        ],
+        [
+          "Snowball",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Build With Snow"
+    },
+    {
+      "answers": [
+        [
+          "Diapers",
+          41
+        ],
+        [
+          "Clothes",
+          25
+        ],
+        [
+          "Blankets",
+          14
+        ],
+        [
+          "Bottles",
+          7
+        ],
+        [
+          "Bibs",
+          6
+        ],
+        [
+          "Diaper Bag",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Gift That A new Mom Is Bound To Get Duplicates Of At A Baby Shower."
+    },
+    {
+      "answers": [
+        [
+          "Bugs/Rodents",
+          46
+        ],
+        [
+          "Other Peoples’ Stuff",
+          32
+        ],
+        [
+          "Dirty sheets",
+          10
+        ],
+        [
+          "Hair",
+          6
+        ],
+        [
+          "A person",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you wouldn’t want to discover in a hotel bed when checking into your room."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

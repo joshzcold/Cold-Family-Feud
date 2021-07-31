@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Tom Cruise",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jim Carrey",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Brad Pitt",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Julia Roberts",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tom Hanks",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Denzel Washington",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Will Smith",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Actor Or Actress Who Commands A High Salary To Be In A Film."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rose",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Orchid",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tulip",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Iris",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Carnation",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Lily",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Flower That Comes In Different Colors"
+    },
+    {
+      "answers": [
+        {
+          "ans": "John",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Commode",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Potty",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Can",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Latrine",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Loo",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For Toilet"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Go Out",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Stay Out Late",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Move Out",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Get A Tattoo",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something An Underage Teen Needs Their Parents’ Permission To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bible",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Dictionary",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Encyclopedia",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Text Book",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Phone Book",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Book That You’re Not Expected To Read All Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Watching Tv",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Working",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "name something You Often Feel Sleepy while Doing"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Religious Groups ",
+          48
+        ],
+        [
+          "Saleman ",
+          31
+        ],
+        [
+          "Police ",
+          20
+        ],
+        [
+          "Bill Collector ",
+          13
+        ],
+        [
+          "Mother In Law ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Might Make You Pretend You're Not At Home"
+    },
+    {
+      "answers": [
+        [
+          "Stay Out Late",
+          41
+        ],
+        [
+          "Talk Back",
+          27
+        ],
+        [
+          "Smoke",
+          17
+        ],
+        [
+          "Lie",
+          11
+        ],
+        [
+          "Drink",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something Teenagers Do That Makes Parents Angry"
+    },
+    {
+      "answers": [
+        [
+          "Spoiled",
+          45
+        ],
+        [
+          "Crave Attention",
+          15
+        ],
+        [
+          "Have Lots Of Toys",
+          11
+        ],
+        [
+          "Immature",
+          10
+        ],
+        [
+          "No Privacy",
+          7
+        ],
+        [
+          "They Pretend",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Celebrities And Young Children Have In Common"
+    },
+    {
+      "answers": [
+        [
+          "Police",
+          82
+        ],
+        [
+          "Criminal",
+          7
+        ],
+        [
+          "Hunter",
+          5
+        ],
+        [
+          "Dirty Harry",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Who Uses A Gun"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

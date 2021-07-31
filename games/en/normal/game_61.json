@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wave",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Hug",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Shake Hands",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "High Five",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Nod",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Best Way To Greet Friend Without Speaking"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cough",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Vomit",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Take Temperature",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Child Does To Prove They’re Too Sick For School."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Easter ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "April Fool ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Showers ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Rain ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Spring ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With The Month Of April"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grows tail",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "She swims often",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Getting scales",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Always in water",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Gills",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a sign your girlfriend might be turning into a mermaid."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blueberry",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Strawberry",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Raspberry",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Boisenberry",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Grape",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cherry",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Maple, Name A Flavor Of Syrup."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Darling ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Babe ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Sweetheart ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Honey ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Love ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Nickname You Might Call A Loved One"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fitted Sheets",
+          35
+        ],
+        [
+          "Socks",
+          29
+        ],
+        [
+          "Underwear",
+          15
+        ],
+        [
+          "Blouse",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something From The Laundry That’s Impossible To Fold Neatly."
+    },
+    {
+      "answers": [
+        [
+          "Cater",
+          47
+        ],
+        [
+          "Music",
+          31
+        ],
+        [
+          "Take Pictures",
+          20
+        ],
+        [
+          "Provide Flowers",
+          13
+        ],
+        [
+          "Plan It",
+          8
+        ],
+        [
+          "Make The Cake",
+          5
+        ],
+        [
+          "Decorate",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Be Hired To Do For A Wedding"
+    },
+    {
+      "answers": [
+        [
+          "Polar Bear ",
+          59
+        ],
+        [
+          "Rabbit ",
+          38
+        ],
+        [
+          "Cat ",
+          25
+        ],
+        [
+          "Horse ",
+          16
+        ],
+        [
+          "Dove ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Is White"
+    },
+    {
+      "answers": [
+        [
+          "Snake",
+          57
+        ],
+        [
+          "Monkey",
+          37
+        ],
+        [
+          "Bat",
+          24
+        ],
+        [
+          "Bear",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Animal You Would Not Want To Encounter Hanging From Tree"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

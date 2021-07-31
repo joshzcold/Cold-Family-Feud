@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Stretch",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Warm Up",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Meditate",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Eat Well",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Plenty Of Sleep",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Pro Athlete Might Do To Prepare For A Game."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kind",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Funny",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Friendly",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Smart",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Honest",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Happy",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Fun",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Personality Trait You Hope People Use When Talking About You"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Homework ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Teachers ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Going ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lessons ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Exams ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bullying ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Whats The Worst Thing About School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pedals ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Wheels ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Saddle ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Handle Bars ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Chain ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of A Bicycle It Would Be Hard To Ride Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Birthday ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "New Years Eve ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Occurs Once A Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tiger Woods",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Michael Jordan",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Mary Lou Retton",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Joe Montana",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Athlete Who’s Appeared On A Wheaties Box."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tin Man",
+          41
+        ],
+        [
+          "Lion",
+          29
+        ],
+        [
+          "Scarecrow",
+          11
+        ],
+        [
+          "Wicked Witch",
+          8
+        ],
+        [
+          "Dorthy",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Character In The Wizard Of Oz That Would Require The Most Elaborate Costume."
+    },
+    {
+      "answers": [
+        [
+          "Porky Pig",
+          17
+        ],
+        [
+          "Daffy Duck",
+          16
+        ],
+        [
+          "Bugs Bunny",
+          15
+        ],
+        [
+          "Donald Duck",
+          14
+        ],
+        [
+          "Elmer Fudd",
+          12
+        ],
+        [
+          "Tweety",
+          11
+        ],
+        [
+          "Yosemite Sam",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cartoon Character Who Would Never Be Chosen To Narrate A Documentary."
+    },
+    {
+      "answers": [
+        [
+          "Pie",
+          28
+        ],
+        [
+          "Turkey",
+          22
+        ],
+        [
+          "Cake",
+          17
+        ],
+        [
+          "Cookies",
+          11
+        ],
+        [
+          "Fruitcake",
+          10
+        ],
+        [
+          "Ham",
+          4
+        ],
+        [
+          "Candy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Holiday Food People Plan To Avoid, But End Up Eating Anyway."
+    },
+    {
+      "answers": [
+        [
+          "Weight Gain/Loss",
+          51
+        ],
+        [
+          "Bald",
+          19
+        ],
+        [
+          "Older",
+          19
+        ],
+        [
+          "Plastic Surgery",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A reason You Wouldn’t recognize Someone At Your High School Reunion"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

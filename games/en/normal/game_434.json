@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Lounge Chair",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Puddles",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Swimmers",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fence",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lifeguard",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Diving Board",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Might Find Around A Pool"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Peppers ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ham ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Onions ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cheese ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In A Spanish Omelette"
+    },
+    {
+      "answers": [
+        {
+          "ans": "James Dean",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "James Bond",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "James Stewart",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "James Brown",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous James Who Many Women Consider Handsome"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monkey bars",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Slide",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Swing",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Merry go round",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Seesaw",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a piece of kids’s play equipment that adults would probably hurt themselves using."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Orange ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Potato ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Apple ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Carrot ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Banana ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Feel"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monopoly",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Chess",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Scrabble",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Risk",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Life",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Board Game That Takes A Long Time To Play."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "The Cowardly Lion",
+          25
+        ],
+        [
+          "The Tin man",
+          24
+        ],
+        [
+          "The Scarecrow",
+          21
+        ],
+        [
+          "Munchkins",
+          10
+        ],
+        [
+          "The Wizard",
+          8
+        ],
+        [
+          "The Wicked Witch",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name someone Dorothy met in the Land of Oz."
+    },
+    {
+      "answers": [
+        [
+          "Food Discounts",
+          49
+        ],
+        [
+          "Happy Hour",
+          19
+        ],
+        [
+          "Kids Eat Free",
+          11
+        ],
+        [
+          "Buffet",
+          4
+        ],
+        [
+          "Life Music",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something special a restaurant might do on certain nights in order to draw in customers?"
+    },
+    {
+      "answers": [
+        [
+          "Cut Grass",
+          48
+        ],
+        [
+          "Watering",
+          31
+        ],
+        [
+          "Painting",
+          20
+        ],
+        [
+          "Pulling Weeds",
+          13
+        ],
+        [
+          "Digging",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Gardener Does A Lot Of On The Job"
+    },
+    {
+      "answers": [
+        [
+          "Breath",
+          40
+        ],
+        [
+          "Horses",
+          30
+        ],
+        [
+          "Tongue",
+          9
+        ],
+        [
+          "Hand",
+          8
+        ],
+        [
+          "Nose",
+          3
+        ],
+        [
+          "Own",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Finish The Sentence: Hold Your _____."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

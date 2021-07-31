@@ -1,0 +1,347 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Passing Gas",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Fight",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bad Food",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Phone Call",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Getting Sick",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Could Ruin A Romantic Dinner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paper",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Napkin",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shirts",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sweaters",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sheets",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Fold, Be Specific"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pineapple ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Banana ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Melon ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Grapes ",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Fruit That Would Be Hard To Juggle"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Sex ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Youth ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "A Holiday ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "A Ride ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Never Lasts As Often As People Would Like"
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 13,
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": 11,
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Age That Kids Probably Start Using Naughty Language With Their Friends."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pillow",
+          "pnt": 72,
+          "trig": false
+        },
+        {
+          "ans": "A Big Ball",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Balloon",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Pretending To Be Pregnant, Name Something You Might Stuff Under Your Shirt."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Call 911",
+          47
+        ],
+        [
+          "Get a Gun",
+          24
+        ],
+        [
+          "Get a baseball bat",
+          9
+        ],
+        [
+          "Scream",
+          8
+        ],
+        [
+          "Run and hide",
+          3
+        ],
+        [
+          "Ask who is there?",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you might do if you heard a burglar in your house."
+    },
+    {
+      "answers": [
+        [
+          "Hairspray",
+          41
+        ],
+        [
+          "Gel",
+          27
+        ],
+        [
+          "Clip",
+          17
+        ],
+        [
+          "Shampoo",
+          11
+        ],
+        [
+          "Dye",
+          7
+        ],
+        [
+          "Bow",
+          5
+        ],
+        [
+          "Rollers",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Women Put In Their Hair"
+    },
+    {
+      "answers": [
+        [
+          "People ",
+          52
+        ],
+        [
+          "City ",
+          34
+        ],
+        [
+          "Flag ",
+          22
+        ],
+        [
+          "Trees ",
+          14
+        ],
+        [
+          "Customs ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Find In Every Country"
+    },
+    {
+      "answers": [
+        [
+          "Green",
+          58
+        ],
+        [
+          "Orange",
+          38
+        ],
+        [
+          "Pink",
+          25
+        ],
+        [
+          "Red",
+          16
+        ],
+        [
+          "Blue",
+          11
+        ],
+        [
+          "Purple",
+          7
+        ],
+        [
+          "White",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Dyed Your Hair, What Color Would You Hate To Turn Out"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

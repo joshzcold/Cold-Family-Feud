@@ -1,0 +1,296 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Butter",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Jelly",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Berries",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cinnamon",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Syrup, Name Something Kids Love To Put On Their Pancakes."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jeans",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Apron",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Tennis Shoes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "T Shirt",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Colorful Seater",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Kindergarten Teacher Wears To Work That A Banker Never Would"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Overcrowding ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "The Smell ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Allergic To Animals ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Worst Thing About Being On Noah's Ark"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoveling",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Building A Snowman",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Walking",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bundling Up",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Kid Might Want Help Doing On A Snowy Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jack O’Lantern",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Fruitcake",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Tree",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Gingerbread House",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Like A Colored Easter Egg, Which Holiday Object Is Fun To Have When It’s Fresh, But Not Fun To Find Months Later."
+    },
+    {
+      "answers": [
+        {
+          "ans": 13,
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": 16,
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Age When Youngsters Really Start Rebelling Against Their Parents."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Head ",
+          56
+        ],
+        [
+          "Tooth ",
+          36
+        ],
+        [
+          "Back ",
+          24
+        ],
+        [
+          "Ear ",
+          16
+        ],
+        [
+          "Heart ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Common Type Of Ache"
+    },
+    {
+      "answers": [
+        [
+          "A Car ",
+          51
+        ],
+        [
+          "TV / Television ",
+          33
+        ],
+        [
+          "Radio ",
+          22
+        ],
+        [
+          "House ",
+          14
+        ],
+        [
+          "CB Radio ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has An Aerial"
+    },
+    {
+      "answers": [
+        [
+          "Oil",
+          47
+        ],
+        [
+          "Paint",
+          31
+        ],
+        [
+          "Batteries",
+          20
+        ],
+        [
+          "Computer",
+          13
+        ],
+        [
+          "TV",
+          8
+        ],
+        [
+          "Fridge",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Household Item That You Would Take To A Special Facility To Throw Away"
+    },
+    {
+      "answers": [
+        [
+          "Swimming",
+          44
+        ],
+        [
+          "Baseball",
+          18
+        ],
+        [
+          "Volleyball",
+          17
+        ],
+        [
+          "Surfing",
+          11
+        ],
+        [
+          "Boating",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A recreational Activity Traditionally Don In Hot Weather"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

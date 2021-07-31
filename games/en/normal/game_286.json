@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pool",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Place You Would Dread Being When Your Laxative Kicks In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toaster",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Stove",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Refrigerator",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Appliance You Have Only One Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Post Signs",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Look For Him",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Be Sad/Cry",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Call Humane Society",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Call Police",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Place An Ad",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do When They’ve Lost A Pet."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monster",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Rotting Food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Spider",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Rodent",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dust",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Person",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you would hate to find under your bed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lifeguard",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Swim Coach",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Swimmer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fisherman",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pool Cleaner",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Plumber",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Marine Biologist",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job Aquaman Could Do If He Couldnâ€™T Be A Superhero Anymore"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Newspaper ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "On TV ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "On A Billboard ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Might See An Advertisement"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "TV",
+          53
+        ],
+        [
+          "Computer",
+          34
+        ],
+        [
+          "Microwave",
+          23
+        ],
+        [
+          "Dishwasher",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Expect To Find In A Modern Home"
+    },
+    {
+      "answers": [
+        [
+          "A Whale ",
+          41
+        ],
+        [
+          "Boat ",
+          27
+        ],
+        [
+          "Shells ",
+          17
+        ],
+        [
+          "Seaweed ",
+          11
+        ],
+        [
+          "Jelly Fish ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Found Beached On The Shore"
+    },
+    {
+      "answers": [
+        [
+          "Euros",
+          24
+        ],
+        [
+          "Pound",
+          22
+        ],
+        [
+          "Yen",
+          21
+        ],
+        [
+          "Pesos",
+          15
+        ],
+        [
+          "Francs",
+          13
+        ],
+        [
+          "Rupees",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Unit Of Currency That’s Used In A Foreign Country"
+    },
+    {
+      "answers": [
+        [
+          "Bear",
+          54
+        ],
+        [
+          "Lion",
+          35
+        ],
+        [
+          "Tiger",
+          23
+        ],
+        [
+          "Shark",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Large Animal That Many People Are Afraid Of"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

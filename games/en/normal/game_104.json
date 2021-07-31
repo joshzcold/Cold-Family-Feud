@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Partner",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "AAA",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Tow Truck",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": 911,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Best Friend",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Who Would You Call First If Your Car Broke Down On The Side Of The Road?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leaves ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Paper ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Dust ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Rubbish ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Kite ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Might Be Swept Along By Wind"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tiny ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Mini ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Titchy ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Minnoscule ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For Small"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Polar Bear ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Penguin ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Deer ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bunny ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Seal ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Lives In The Snow"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something A Person Might Ask Their Partner To Quit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toilet Paper ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Tea Bag ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "A Match ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "An Ice Cube ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "A Condom ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "A Stamp ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Is Used Only Once"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pen / Pencil ",
+          49
+        ],
+        [
+          "Hair ",
+          32
+        ],
+        [
+          "Cigarette ",
+          21
+        ],
+        [
+          "Cologne / Perfume ",
+          14
+        ],
+        [
+          "Spectacles ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Put Behind Their Ears"
+    },
+    {
+      "answers": [
+        [
+          "Long Johns",
+          49
+        ],
+        [
+          "Thermals",
+          32
+        ],
+        [
+          "Union Suit",
+          21
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Another Word For Long Underwear"
+    },
+    {
+      "answers": [
+        [
+          "Fruit ",
+          42
+        ],
+        [
+          "Apricot ",
+          27
+        ],
+        [
+          "Flowers ",
+          18
+        ],
+        [
+          "Apples ",
+          12
+        ],
+        [
+          "Tomatoes ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Buy That Is Dried"
+    },
+    {
+      "answers": [
+        [
+          "Bugs Bunny",
+          51
+        ],
+        [
+          "Gun",
+          17
+        ],
+        [
+          "Stuttering",
+          11
+        ],
+        [
+          "Hunting",
+          8
+        ],
+        [
+          "Bald",
+          4
+        ],
+        [
+          "Cartoon",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you associate with Elmer Fudd."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

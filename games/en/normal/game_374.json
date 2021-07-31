@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Snooker Balls ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Criminal ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Picture ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put In A Frame"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Good Looks",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Stylish Clothes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Good Grades",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Personality",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Need In Order To Be Popular In High School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fighting",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Men",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Spandex",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Yelling",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Skin",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Muscles",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d See More Of At A Wrestling Match Than A Tennis Match"
+    },
+    {
+      "answers": [
+        {
+          "ans": "A1 Sauce",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Teriyaki",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "BBQ Sauce",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Soy Sauce",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tobasco",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sauce You Put On Meat."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bill Collector",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Telemarketer",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "In Laws",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Your Ex",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Whose Phone Calls You Try To Avoid."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Selling Cookies",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Lost",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Trick Or Treat",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Child You Don’t Know Might Come To Your Door."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Ta Ra / Ta Ta ",
+          47
+        ],
+        [
+          "See You Later ",
+          31
+        ],
+        [
+          "Cherio ",
+          20
+        ],
+        [
+          "Ciao ",
+          13
+        ],
+        [
+          "Bye Bye ",
+          8
+        ],
+        [
+          "Adios ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Another Way Of Saying Goodbye"
+    },
+    {
+      "answers": [
+        [
+          "Alma Mater",
+          43
+        ],
+        [
+          "Better Academics",
+          19
+        ],
+        [
+          "Reputation Of School",
+          16
+        ],
+        [
+          "The Cost",
+          12
+        ],
+        [
+          "Close To Home",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Parents Might Want Their Kid To Go To A Particular College."
+    },
+    {
+      "answers": [
+        [
+          "Cheese",
+          66
+        ],
+        [
+          "Pepperoni",
+          17
+        ],
+        [
+          "Anchovies",
+          4
+        ],
+        [
+          "Mushrooms",
+          3
+        ],
+        [
+          "Hamburger",
+          2
+        ],
+        [
+          "Onion",
+          2
+        ],
+        [
+          "Bell Peppers",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When ordering pizza,name something extra you might ask for."
+    },
+    {
+      "answers": [
+        [
+          "Hold Head Back",
+          51
+        ],
+        [
+          "Pinch Nose",
+          31
+        ],
+        [
+          "With A Tissue",
+          6
+        ],
+        [
+          "Cotton In Nose",
+          4
+        ],
+        [
+          "Cold Towel",
+          4
+        ],
+        [
+          "Ice",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way People Try To Stop A Bloody Nose."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

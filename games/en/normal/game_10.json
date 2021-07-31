@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "New York City",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Las Vegas",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Paris",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Los Angeles",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A City Where You Would Expect To Pay A Lot For A Hotel."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimmer",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Divers",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Lifeguard",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Welder",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Skier",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Person Who Might Wear Goggles."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bunny Ears",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Stick Out Tongue",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Funny Face",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Not Smiling",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teen Might Get In Trouble Doing In A Photo"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "C.E.O.",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Banker",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation That Thinks Their Time Is More Important Than Yours."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jump Rope",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Jumpstart",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Jump Up",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Jumping Jacks",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Jump For Joy",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Jump The Broom",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Jump The Gun",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Phrase That Begins With The Word “Jump.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Charlotte Church ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tom Jones ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Richard Burton ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Harry Secombe ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Shirley Bassey ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Anthony Hopkins ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Person From Wales"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hair ",
+          50
+        ],
+        [
+          "Fishing Line ",
+          33
+        ],
+        [
+          "Wool ",
+          21
+        ],
+        [
+          "Rope String ",
+          14
+        ],
+        [
+          "Tongue ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Get Tangled"
+    },
+    {
+      "answers": [
+        [
+          "Sleeping",
+          41
+        ],
+        [
+          "Sledding",
+          28
+        ],
+        [
+          "Skiing",
+          16
+        ],
+        [
+          "Watching TV/Movies",
+          6
+        ],
+        [
+          "Reading",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The Best Way To Spend A Snow Day"
+    },
+    {
+      "answers": [
+        [
+          "Eat/ Drink",
+          52
+        ],
+        [
+          "Talk On Phone",
+          22
+        ],
+        [
+          "Smoke",
+          8
+        ],
+        [
+          "Change Gears",
+          5
+        ],
+        [
+          "Stop",
+          4
+        ],
+        [
+          "Park",
+          3
+        ],
+        [
+          "Steer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something More Than Difficult To Do When Driving A Car With Stick Shift"
+    },
+    {
+      "answers": [
+        [
+          "Suit",
+          51
+        ],
+        [
+          "Tie",
+          33
+        ],
+        [
+          "Shorts",
+          22
+        ],
+        [
+          "Blue Jeans",
+          14
+        ],
+        [
+          "Hat",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing Women Think Men Look Handsome"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

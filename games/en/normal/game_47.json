@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Valentines Day",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Her Birthday",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "At A Wedding",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion That A Man Might Propose To His Girlfriend"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Road",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Other Cars",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "speed Limit",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Traffic Signs",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Gas guage",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pedestrians",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "While Driving, Name Something You Have To Keep An Eye On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Fake Hair",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Marker/Pen",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Plastic",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Kool Aid",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Kid’s Moustache Is Often Made Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cricket",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Chihuahua",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a small creature who can be very noisy."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fishing",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Hiking",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Relaxing",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hunting",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Went On A Camping Trip By Yourself, What Might You Spend The Week Doing?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Apple",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Toothbrush/Paste",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Pennies",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Raisins",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Pass Out For Trick-Or-Treat, That A Child May Be Disappointed To Get."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Go With Them",
+          47
+        ],
+        [
+          "Check Candy",
+          28
+        ],
+        [
+          "Bright Costume",
+          16
+        ],
+        [
+          "Keep Home",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Parents Should Do To Be Sure That Their Kids Have A Safe Halloween."
+    },
+    {
+      "answers": [
+        [
+          "Music",
+          40
+        ],
+        [
+          "Photos",
+          27
+        ],
+        [
+          "Movies",
+          17
+        ],
+        [
+          "Books",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Used To Take Up Shelf Space In Your House, But Can Now Be Stored Electronically."
+    },
+    {
+      "answers": [
+        [
+          "Ball",
+          28
+        ],
+        [
+          "Snowballs",
+          17
+        ],
+        [
+          "Water Balloons",
+          17
+        ],
+        [
+          "Toys",
+          13
+        ],
+        [
+          "Food",
+          12
+        ],
+        [
+          "Dirt ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Like To Throw At Each Other."
+    },
+    {
+      "answers": [
+        [
+          "Social Security",
+          44
+        ],
+        [
+          "Address",
+          29
+        ],
+        [
+          "Pin/Password",
+          19
+        ],
+        [
+          "Bank Account",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides A Phone Number, Name A Set Of Numbers Most People Remember"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

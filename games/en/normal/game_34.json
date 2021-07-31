@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Age",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Address",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Phone Number",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Income",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drinking Habits",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Sleep Naked",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Your Child Knows About You That You Hope She’s Not Telling Strangers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Underwear ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Socks ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Scarf ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item Of Clothing You Don't Usually Put On Hangers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Big Bird",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Oscar The Grouch",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cookie Monster",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Snuffy",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Sesame Street Character Must Get Uncomfortable In Their Costume?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Head ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Tooth ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Back ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Ear ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Heart ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Common Type Of Ache"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Footloose",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Tremors",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Diner",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mystic River",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hollow Man",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Apollo 13",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "A Few Good Men",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Kevin Bacon Film"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talks Too Loud",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Tap Pen/Pencil",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sings",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chew Gum",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something An Employee Sitting In The Cubicle Next To You Might Do That Annoys You."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Car",
+          58
+        ],
+        [
+          "Safe",
+          38
+        ],
+        [
+          "House",
+          25
+        ],
+        [
+          "Diary",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Never Leave Unlocked"
+    },
+    {
+      "answers": [
+        [
+          "Baseball",
+          59
+        ],
+        [
+          "Horseshoes",
+          38
+        ],
+        [
+          "Ideas",
+          25
+        ],
+        [
+          "Movie",
+          16
+        ],
+        [
+          "Sales Pitch",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something that people pitch"
+    },
+    {
+      "answers": [
+        [
+          "George W Bush",
+          35
+        ],
+        [
+          "William Clinton",
+          23
+        ],
+        [
+          "Abe Lincoln",
+          19
+        ],
+        [
+          "Richard Nixon",
+          12
+        ],
+        [
+          "George Washington",
+          5
+        ],
+        [
+          "Ronald Reagan",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Former President Would Look Funny Wearing A Dress?"
+    },
+    {
+      "answers": [
+        [
+          "Ham",
+          45
+        ],
+        [
+          "Chicken",
+          29
+        ],
+        [
+          "Duck",
+          19
+        ],
+        [
+          "Tofu Turkey",
+          12
+        ],
+        [
+          "Lamb",
+          8
+        ],
+        [
+          "Beef",
+          5
+        ],
+        [
+          "Goose",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Alternative To Turkey On Thanksgiving"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

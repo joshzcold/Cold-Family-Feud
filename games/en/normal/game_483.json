@@ -1,0 +1,301 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Duvet ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Pillow ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cuddly Toy ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put On A Bed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Master Bedroom",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Office",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "During A Party, Name A Part Of Your House Where You Wouldn’t Want To Find Guests Hanging Out."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doorway",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Ceiling",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Light Fixture",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Ceiling Fan",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That A Very Tall Person Might Hit Their Head On In An Unfamiliar House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Night Watch",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Bartender",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Entertainer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Janitor",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bouncer",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job You Would Only Do At Night."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pickles",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Jelly",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mayonnaise",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That You Might Need Help Removing The Lid From"
+    },
+    {
+      "answers": [
+        {
+          "ans": 5,
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": 1,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": 3,
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": 2,
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "On A Scale From 1-10, How Happy Do You Hope Your Ex Is With Their Life?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Relationships",
+          60
+        ],
+        [
+          "Finances",
+          26
+        ],
+        [
+          "Car",
+          6
+        ],
+        [
+          "Job",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Man Might Ask His Dad’s Advice On."
+    },
+    {
+      "answers": [
+        [
+          "Shotgun",
+          28
+        ],
+        [
+          "Hot Shot",
+          25
+        ],
+        [
+          "Long Shot",
+          20
+        ],
+        [
+          "Shot Glass",
+          14
+        ],
+        [
+          "Sling Shot",
+          12
+        ],
+        [
+          "Shot In The Dark",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Term That Uses The Word “Shot.”"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          41
+        ],
+        [
+          "Lawyer",
+          25
+        ],
+        [
+          "Actor",
+          15
+        ],
+        [
+          "Police Officer",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Profession That Someone May lie About Having Just To Impress A Guy or Girl."
+    },
+    {
+      "answers": [
+        [
+          "Pictures",
+          45
+        ],
+        [
+          "DVDS",
+          23
+        ],
+        [
+          "Bookends",
+          12
+        ],
+        [
+          "Trophies",
+          5
+        ],
+        [
+          "Music",
+          5
+        ],
+        [
+          "Magazines",
+          4
+        ],
+        [
+          "Folders",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Books, Name Something Else People Might Put On A Bookshelf."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

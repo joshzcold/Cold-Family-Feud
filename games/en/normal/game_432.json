@@ -1,0 +1,353 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Romance",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fashion",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Parenting",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Relationships",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Subject You Count On Your Partner To Give You Advice On."
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Video / DVD ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Video Games ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Toys ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Games ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Keeps Kids Amused For Hours"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawyer",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Judge",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Accountant",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Professional That You Seldom See Joking Around."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stamp",
+          "pnt": 64,
+          "trig": false
+        },
+        {
+          "ans": "Signature",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Address",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Salutation/ Greeting",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Include On A Letter, But Not On An E-Mail."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Cheat",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Gossip",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Flirt",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Daydream",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bite Nails",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Did In High School Still Do At Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spend Time With Kids",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Set Own Hours",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Dress Casual",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sleep In",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Rest",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "No Boss",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Advantage Of Working At Home."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleep",
+          32
+        ],
+        [
+          "Vote",
+          25
+        ],
+        [
+          "Retire",
+          16
+        ],
+        [
+          "Keep License",
+          10
+        ],
+        [
+          "Get Social security",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "A Young Person “Fights For Their Right To Party.” What Might An Old Person Fight For The Right To Do?"
+    },
+    {
+      "answers": [
+        [
+          "BATHROOM IN PANTS",
+          56
+        ],
+        [
+          "BURP",
+          36
+        ],
+        [
+          "CRY",
+          24
+        ],
+        [
+          "SPIT UP",
+          16
+        ],
+        [
+          "DROOL",
+          10
+        ],
+        [
+          "SUCK THUMB",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Babies Do That You Would Be Embarrassed To Have Someone See You Do As An Adult"
+    },
+    {
+      "answers": [
+        [
+          "Remote Control",
+          47
+        ],
+        [
+          "Magazines",
+          18
+        ],
+        [
+          "Telephone",
+          11
+        ],
+        [
+          "Newspaper",
+          10
+        ],
+        [
+          "Books",
+          9
+        ],
+        [
+          "Drink",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Keep Near Their Favorite Easy Chair."
+    },
+    {
+      "answers": [
+        [
+          "New York",
+          29
+        ],
+        [
+          "Nebraska",
+          26
+        ],
+        [
+          "Nevada",
+          20
+        ],
+        [
+          "New Mexico",
+          8
+        ],
+        [
+          "New Jersey",
+          6
+        ],
+        [
+          "North Dakota",
+          4
+        ],
+        [
+          "New Hampshire",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A State That Starts With The Letter “N.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

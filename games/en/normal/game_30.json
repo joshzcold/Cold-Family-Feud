@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Lawyer",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sales Person",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Banker",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "CEO",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job In Which You Need To Dress Well In Order To Succeed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cold",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dark",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cement Floors",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Damp",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Creatures Live There",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why Basements Are Often Less Cozy Than The Rest Of A House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wax",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Vacuum",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Detailing",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dry Car",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Polish",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Pay Extra For When You Get Your Car Washed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Jell O",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Brownies",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cupcakes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Donuts",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Dessert You Might Not Serve At A Fancy Dinner Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Come Untied",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Length",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Knots",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Too Tight",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Complaint People Have About Shoes With Laces."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Less Caffeine",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Taste",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Healthier",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Have A Cold",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "They’re English",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might A Person Drink Tea Instead Of Coffee?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Under Seat",
+          35
+        ],
+        [
+          "Glove box",
+          33
+        ],
+        [
+          "Console",
+          18
+        ],
+        [
+          "Trunk",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place In Your Car That You Are Likely To Find Something That’s Gone Missing"
+    },
+    {
+      "answers": [
+        [
+          "Tree",
+          46
+        ],
+        [
+          "Fireplace",
+          33
+        ],
+        [
+          "Santa Claus",
+          17
+        ],
+        [
+          "House",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Pose In Front Of For Their Christmas Photos."
+    },
+    {
+      "answers": [
+        [
+          "Sneak Out",
+          42
+        ],
+        [
+          "Finish The date",
+          23
+        ],
+        [
+          "Make Up An Excuse",
+          18
+        ],
+        [
+          "Be Honest",
+          10
+        ],
+        [
+          "Hide",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your blind date walked In And You Didn’t Feel A Spark, What Would YOu Do?"
+    },
+    {
+      "answers": [
+        [
+          "Cars",
+          41
+        ],
+        [
+          "Waistlines",
+          20
+        ],
+        [
+          "Countries",
+          16
+        ],
+        [
+          "House Size",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Smaller In Europe Than In The US."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

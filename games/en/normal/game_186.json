@@ -1,0 +1,319 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Makeup",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cold Cream",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mask",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put On Your Face, That You’d Never Dream Of Putting On Your Feet."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cotton Candy",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Hot dogs",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Pop Corn",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Peanuts",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a food they serve at the circus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weight",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Affairs",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Dating History",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Spending",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Real Age",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Passwords",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Diary",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Should Always Keep Secret, Even From Your Partner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Borrow Money",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Use Car",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Help Moving",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Babysitting",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Favor You Hate Having To Ask friends For"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fire",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Get Robbed",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Break Something",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tornado",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Hate To Have Happen While House-Sitting"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cook/Baker",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Exotic Dancer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hair Stylist",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Actor/Model",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession Where An Engaged Woman Might Remove Her Extravagant Ring Before Work."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mugs",
+          45
+        ],
+        [
+          "Reading Material",
+          32
+        ],
+        [
+          "Gift Cards",
+          8
+        ],
+        [
+          "T Shirt",
+          3
+        ],
+        [
+          "Coffee Maker",
+          3
+        ],
+        [
+          "Music",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Besides Food And Drinks That You Can Buy At Starbucks."
+    },
+    {
+      "answers": [
+        [
+          "Haircut ",
+          50
+        ],
+        [
+          "Nails ",
+          33
+        ],
+        [
+          "Facial ",
+          21
+        ],
+        [
+          "Brazillian Wax ",
+          14
+        ],
+        [
+          "Botox ",
+          9
+        ],
+        [
+          "Massage ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Popular Beauty Treatment"
+    },
+    {
+      "answers": [
+        [
+          "Lots of glasses",
+          69
+        ],
+        [
+          "Music",
+          17
+        ],
+        [
+          "Pictures",
+          5
+        ],
+        [
+          "CDs",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you might find in a suitcase that would tell you it belongs to Elton John."
+    },
+    {
+      "answers": [
+        [
+          "Keys",
+          30
+        ],
+        [
+          "Glasses",
+          16
+        ],
+        [
+          "Gloves",
+          15
+        ],
+        [
+          "Umbrella",
+          10
+        ],
+        [
+          "Jacket",
+          7
+        ],
+        [
+          "Wallet",
+          6
+        ],
+        [
+          "Phone",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Items Are Most Commonly Found In A Restaurant’s Lost-And-Found Box?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Clean Your Room",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Go To Bed",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Do Homework",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Eat Vegetables",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Be Quiet",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Their Name",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "No",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Mom Says That Kids Pretend Not To Hear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hiking",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Skiing",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hunting",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Fishing",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sledding",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Shoveling",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Horseback Riding",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity For Which People Wear Boots"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Grocery Stores Keep In A Glass Case"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Ceo",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Magician",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Celebrity",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Principal",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Someone Who Works With ‘Assistant’"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Musical Taste",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Hobbies",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Style of Dress",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Night life",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Other Friends",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you are more likely to have in common with your friends than your family"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tank ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Jeep ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Truck ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Vehicle That's Used In The Army"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mexico",
+          55
+        ],
+        [
+          "India",
+          36
+        ],
+        [
+          "Italy",
+          23
+        ],
+        [
+          "Thailand",
+          15
+        ],
+        [
+          "Spain",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Country That Is Known For Its Spicy Food"
+    },
+    {
+      "answers": [
+        [
+          "FOLD",
+          54
+        ],
+        [
+          "FLUSH",
+          35
+        ],
+        [
+          "FULL HOUSE",
+          23
+        ],
+        [
+          "ANTE",
+          15
+        ],
+        [
+          "BLUFF",
+          10
+        ],
+        [
+          "FLOP",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Term You’d Expect A Poker Player To Know"
+    },
+    {
+      "answers": [
+        [
+          "Near The Fireplace",
+          37
+        ],
+        [
+          "Home",
+          28
+        ],
+        [
+          "In A Warm Bed",
+          14
+        ],
+        [
+          "In A Warm Place",
+          5
+        ],
+        [
+          "Mountains",
+          5
+        ],
+        [
+          "Cozy Cottage",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Best Place To Be On A Winter Night"
+    },
+    {
+      "answers": [
+        [
+          "Pen ",
+          56
+        ],
+        [
+          "Calculator ",
+          36
+        ],
+        [
+          "Phone ",
+          24
+        ],
+        [
+          "Cigarettes ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Keep In Your Top Pocket"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cat ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Dog ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bear ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Lion ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tiger ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Animal That Has Paws"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smells",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Noise",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bugs/Rodents",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Traffic/Cars",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Disadvantage To Living Upstairs From A Restaurant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Raise Arms",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Get Sick",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Laugh",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Close Their Eyes",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do While Riding A Rollercoaster"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wear a hat",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tie it back",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Get it wet",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Stay home",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cut it",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What do you do when having a bad hair day?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bike",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bus",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Walking",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Scooter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Skateboard",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way A Kid Might Get Around Town"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wallet",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Comb",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Item That A Man Carries Around That He Might Secretly Wish He Could Just Put In A Purse."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Beads",
+          53
+        ],
+        [
+          "Mask",
+          24
+        ],
+        [
+          "Pictures",
+          8
+        ],
+        [
+          "Food",
+          7
+        ],
+        [
+          "Hangover",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might bring Home With From The Mardigras"
+    },
+    {
+      "answers": [
+        [
+          "Fried Chicken",
+          57
+        ],
+        [
+          "Grits",
+          15
+        ],
+        [
+          "Collard Greens",
+          9
+        ],
+        [
+          "BBQ Ribs",
+          8
+        ],
+        [
+          "Gumbo",
+          7
+        ],
+        [
+          "Cornbread",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Food That You Associate With The South"
+    },
+    {
+      "answers": [
+        [
+          "I Love You",
+          65
+        ],
+        [
+          "Compliments",
+          23
+        ],
+        [
+          "Missed You",
+          2
+        ],
+        [
+          "Want Breakfast In Bed",
+          2
+        ],
+        [
+          "I Got A Raise",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something A Wife Likes To Hear From Her Husband."
+    },
+    {
+      "answers": [
+        [
+          "Nose ",
+          54
+        ],
+        [
+          "Eyes ",
+          35
+        ],
+        [
+          "Mouth ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of Your Face"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

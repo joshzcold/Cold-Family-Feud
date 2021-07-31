@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Anniversary ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Apology ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Birthday ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Valentine's Day ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Say He Loves Her ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Husband Might Send His Wife Flowers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chewing Gum ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Mouthwash ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste / Toothbrush ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pen ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cutlery ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "False Teeth ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put In Your Mouth But Dont Swallow"
+    },
+    {
+      "answers": [
+        {
+          "ans": "License",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Registration",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Insurance",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Seat Belt",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Would Have To Be Without When Cops Pull Over"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Burglar",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Santa Claus",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Kid/ Teen",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who Or What Might Enter A House Without Using The Front Door?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leave Seat Up",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Pee On Seat",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Don’t Clean Sink",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cut Their Hair",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Leave Underware",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Men Do In The Bathroom That Really Ticks Women Off."
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 16,
+          "pnt": null,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Old Were You When You Had Your First Crush"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Chicken",
+          39
+        ],
+        [
+          "Chow Mein",
+          19
+        ],
+        [
+          "Chop Suey",
+          11
+        ],
+        [
+          "Fish",
+          10
+        ],
+        [
+          "Mu Shu Pork",
+          9
+        ],
+        [
+          "Beans",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food People Serve On A Bed Of Rice."
+    },
+    {
+      "answers": [
+        [
+          "Piano ",
+          59
+        ],
+        [
+          "Singing ",
+          38
+        ],
+        [
+          "Driving ",
+          25
+        ],
+        [
+          "Guitar ",
+          16
+        ],
+        [
+          "Tennis ",
+          11
+        ],
+        [
+          "Golf ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Practice"
+    },
+    {
+      "answers": [
+        [
+          "Road",
+          41
+        ],
+        [
+          "World",
+          27
+        ],
+        [
+          "Treasure",
+          17
+        ],
+        [
+          "Political",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Map"
+    },
+    {
+      "answers": [
+        [
+          "8.00am ",
+          46
+        ],
+        [
+          "7.30am ",
+          30
+        ],
+        [
+          "9.00am ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Time Of Day When Most People Eat Breakfast"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

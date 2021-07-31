@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wrinkles",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Baldness",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Gain Weight",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Nose/Ear Hair",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lose Teeth",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Lose Hearing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Grey Hair On Older Men Is Distinguished. What Happens To Aging Men That Isn’t Distinguished?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Someone Else ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Boredom ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Husband Wife ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "On A Date ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Get Out Of House ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason For Going To See A Film You Weren't Interested In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shop",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Manicure",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Hair Salon",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Massage",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bubble Bath",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something A Woman Might Do To Spoil Herself (More Specific Than “Spa”)."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pony",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That You Commonly See At The Circus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bear",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Caveman",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Lives In A Cave"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Up",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hair Product",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Weight Loss Product",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Product Advertised In Magazines"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Football ",
+          43
+        ],
+        [
+          "Victoria / Posh Spice ",
+          28
+        ],
+        [
+          "Hairstyles ",
+          18
+        ],
+        [
+          "Good Looks ",
+          12
+        ],
+        [
+          "Money ",
+          8
+        ],
+        [
+          "Golden Balls ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Associate With David Beckham"
+    },
+    {
+      "answers": [
+        [
+          "Hand ",
+          47
+        ],
+        [
+          "Arm ",
+          31
+        ],
+        [
+          "Eye / Eyes ",
+          20
+        ],
+        [
+          "Brain ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Extra Body Part You Would Like To Have"
+    },
+    {
+      "answers": [
+        [
+          "Unicorn",
+          30
+        ],
+        [
+          "Universe",
+          26
+        ],
+        [
+          "Uniform",
+          14
+        ],
+        [
+          "Unite/Unity",
+          10
+        ],
+        [
+          "Unisex",
+          7
+        ],
+        [
+          "Unibrow",
+          6
+        ],
+        [
+          "Unicycle",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word That Begins With “Uni-.”"
+    },
+    {
+      "answers": [
+        [
+          "Closet",
+          36
+        ],
+        [
+          "Parent’s Bed",
+          25
+        ],
+        [
+          "Under Their Bed",
+          23
+        ],
+        [
+          "Basement",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place In The House Where Frightened Children Go During A Thunderstorm."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

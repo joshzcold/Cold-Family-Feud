@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "School Supplies",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Parents Always Seem To Be Buying For Their Kids."
+    },
+    {
+      "answers": [
+        {
+          "ans": "His Age",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "His Job",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Old Relationships",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Criminal Record",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Fact About A New Boyfriend That A Woman Might Wait To Tell Her Parents."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Popcorn",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Nuts",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "M&M",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Potato Chips",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Jelly Bean",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Eat By The Handful. (Be Specific Candy Is Not An Answer.)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Goofy",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Donald Duck",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dopey",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dumbo",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In The Heat Of A Passionate Moment, Which Disney Character’s Name Would Be Hardest To Say With A Straight Face"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mounted Animal Heads",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Guns",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Hunters",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Antlers",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Fireplace",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See In A Hunting Lodge"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Fish/Hunt",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Shave",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Ride bike",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Curse",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Fix things",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something many people learned to do from their Dad."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Other People",
+          34
+        ],
+        [
+          "Other People",
+          29
+        ],
+        [
+          "Eating",
+          25
+        ],
+        [
+          "Alcohol",
+          5
+        ],
+        [
+          "Smoking",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Avoid When You Are Sick"
+    },
+    {
+      "answers": [
+        [
+          "Lip Stick",
+          43
+        ],
+        [
+          "Tampons",
+          36
+        ],
+        [
+          "Compact",
+          7
+        ],
+        [
+          "Eyelash Curler",
+          4
+        ],
+        [
+          "Perfume",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In A Woman’s Purse That A Man Would Never Ask To Borrow."
+    },
+    {
+      "answers": [
+        [
+          "Trumpet ",
+          57
+        ],
+        [
+          "Flute ",
+          37
+        ],
+        [
+          "Clarinet ",
+          24
+        ],
+        [
+          "Saxophone ",
+          16
+        ],
+        [
+          "Horn ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Musical Instrument You Blow Into"
+    },
+    {
+      "answers": [
+        [
+          "Sleep",
+          59
+        ],
+        [
+          "Work",
+          15
+        ],
+        [
+          "Talk",
+          13
+        ],
+        [
+          "Laugh",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Complete This Sentence. The Key To A Successful Marriage Is ____ing Together."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hit By Another Car",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Carjacked",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Keyed",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Broken Into",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Flat Tire",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Towed",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Parking Ticket",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Hate To Find Has Happened To Your Car While It was parked."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chips And Dip",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Crackers And cheese",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Nuts",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Vegetables",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Snack That’s Served At Any Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Academy Awards",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Maids",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Home Theatre",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Pool",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Expensive Artwork",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Grand Piano",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item You Might See In A Movie Star’s Home That Wouldn’t Be In Yours"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scientist",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Accountant",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Computer Programer/Tech",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Occupation Would You Expect A Guy Named Poindexter To Have?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lion",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 25,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Animal You Would Refuse To Pet Sit For"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Camping",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fishing",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Surfing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Popular Summer Activity."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Nice",
+          38
+        ],
+        [
+          "Tail",
+          25
+        ],
+        [
+          "Ball Of Yarn",
+          12
+        ],
+        [
+          "Birds",
+          10
+        ],
+        [
+          "Toy/Ball",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Cats Can Chase All Day."
+    },
+    {
+      "answers": [
+        [
+          "Suit",
+          35
+        ],
+        [
+          "Tux",
+          26
+        ],
+        [
+          "Wedding Dress",
+          16
+        ],
+        [
+          "Jacket",
+          15
+        ],
+        [
+          "Pants",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing People Get Fitted For."
+    },
+    {
+      "answers": [
+        [
+          "Milk",
+          57
+        ],
+        [
+          "Cheese",
+          37
+        ],
+        [
+          "Eggs",
+          24
+        ],
+        [
+          "Meat",
+          16
+        ],
+        [
+          "Vegetables",
+          10
+        ],
+        [
+          "Fruit",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Goes Bad In Your Fridge"
+    },
+    {
+      "answers": [
+        [
+          "Horse",
+          32
+        ],
+        [
+          "Kangaroo",
+          27
+        ],
+        [
+          "Cheetah",
+          12
+        ],
+        [
+          "Dog",
+          10
+        ],
+        [
+          "Giraffe",
+          8
+        ],
+        [
+          "Rabbit",
+          5
+        ],
+        [
+          "Gazelle",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Animal Has The Best Chance Of Winning At The Hurdles?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

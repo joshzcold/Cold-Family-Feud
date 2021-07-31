@@ -1,0 +1,295 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Food Server",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Cashier",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Construction",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job On Your Feet All Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dwarfes",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Deadly Sins",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wonders Of The World",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Days Per Week",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Seas",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Continents",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something There Are Seven Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Say Vows",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cut Cake",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Dance To First Song",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something Bride And Groom Do That Others Should Not At Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Take Medicine",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Rest",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Vitamin C",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do You Do At The 1st Sign Of Sickness So That It Doesn’t Get Worse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hospital",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Airport",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Store",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Hear People Being Paged Over A Loudspeaker"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Yell",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than Sitting And Watching, Name Something People Do In Front Of The TV."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Food",
+          45
+        ],
+        [
+          "Clothes",
+          37
+        ],
+        [
+          "Birth Control",
+          11
+        ],
+        [
+          "Medicine",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Not Want To Buy At A Dollar Store."
+    },
+    {
+      "answers": [
+        [
+          "Tiger ",
+          58
+        ],
+        [
+          "Bat ",
+          38
+        ],
+        [
+          "Snake ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Has Fangs"
+    },
+    {
+      "answers": [
+        [
+          "Danny Devito",
+          35
+        ],
+        [
+          "danny Glover",
+          32
+        ],
+        [
+          "Danny Thomas",
+          20
+        ],
+        [
+          "Danny Bonaduce",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Danny."
+    },
+    {
+      "answers": [
+        [
+          "Mascara",
+          28
+        ],
+        [
+          "Eyeliner",
+          24
+        ],
+        [
+          "Eyelash Curler",
+          17
+        ],
+        [
+          "Foundation",
+          11
+        ],
+        [
+          "Blush",
+          10
+        ],
+        [
+          "Aplicator/Brush",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Wives: Name Something In Your Makeup Drawer That Your Husband Wouldn’t Know What To Do With"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

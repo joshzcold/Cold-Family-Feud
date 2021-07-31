@@ -1,0 +1,293 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ribs",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Wings",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Seafood",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Meal That Sometimes Comes With A Bib Even For Adults."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Suzanne Somers",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "George Foreman",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Dionne Warwick",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Linda Evans",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Billy Blanks",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Celebrity Who Sells Products On Infomercials"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Tennis ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Netball ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fishing ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Badminton ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Table Tennis ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport Where A Net Is Used"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sit",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Stay",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Roll Over",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fetch",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Command A Dog Knows, But You Wouldn’t Bother Giving To Your Cat."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pet",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Form Home you Might Miss On Vacation."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fish ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Stones Or Pebbles ",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Found In A Stream"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money ",
+          56
+        ],
+        [
+          "Big House ",
+          36
+        ],
+        [
+          "Big Car ",
+          24
+        ],
+        [
+          "Housekeeper / Servant ",
+          16
+        ],
+        [
+          "Posh Accent ",
+          10
+        ],
+        [
+          "Designer Clothes ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Posh People Have"
+    },
+    {
+      "answers": [
+        [
+          "A Runny Nose ",
+          42
+        ],
+        [
+          "Sneeze ",
+          27
+        ],
+        [
+          "Coughing ",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way You Can Tell If A Person Has A Cold"
+    },
+    {
+      "answers": [
+        [
+          "Diary",
+          34
+        ],
+        [
+          "Music",
+          25
+        ],
+        [
+          "Computer",
+          20
+        ],
+        [
+          "Clothes",
+          11
+        ],
+        [
+          "Magazines",
+          6
+        ],
+        [
+          "TV",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something In A Teenager’s Room That They Wouldn’t Want Touched"
+    },
+    {
+      "answers": [
+        [
+          "Grumpy",
+          50
+        ],
+        [
+          "Tired",
+          32
+        ],
+        [
+          "Being Late",
+          11
+        ],
+        [
+          "Slow",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Co-Worker Might Blame On Not Having Had Their Morning Coffee."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

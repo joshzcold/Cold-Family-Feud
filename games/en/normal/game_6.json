@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Chow Mein",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hamburgers",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mexican",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Sandwiches",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a takeout food a family might have for dinner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pepto Bismol",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Tums",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Would Soothe An Upset Stomach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "butter",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fired Chicken",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specif Food That Someone With High Cholesterol Might give Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sports",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Men’s Mag",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "News/Politics",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hunting/Fishing",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Magazine That You’d Be Surprised To See A Supermodel Browsing Through"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Dentist",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hair Salon",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Mechanic",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Need An Appointment"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Passport",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Mug Shot",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Driver’s License",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sports Photo",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Photo That Most People Don’t Smile In."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Awards show",
+          62
+        ],
+        [
+          "The White House",
+          14
+        ],
+        [
+          "VIP Nightclub",
+          10
+        ],
+        [
+          "Concert/Backstage",
+          8
+        ],
+        [
+          "Celebrity party",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If you were a celebrity for a day,name a place or event you’d try to get into."
+    },
+    {
+      "answers": [
+        [
+          "Family",
+          52
+        ],
+        [
+          "Name",
+          17
+        ],
+        [
+          "Job",
+          17
+        ],
+        [
+          "Age",
+          7
+        ],
+        [
+          "Hometown",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "On “Family Feud,” Name Something The Host Asks Players About."
+    },
+    {
+      "answers": [
+        [
+          "Skimpy Clothes",
+          47
+        ],
+        [
+          "Car",
+          26
+        ],
+        [
+          "Dream House",
+          13
+        ],
+        [
+          "Ken/Friends",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Buy For Your Daughter’s Barbie Doll, But Probably Not For Your Daughter."
+    },
+    {
+      "answers": [
+        [
+          "Only Skin Deep",
+          30
+        ],
+        [
+          "In Eye Of Beholder",
+          23
+        ],
+        [
+          "It Fades",
+          18
+        ],
+        [
+          "It’s On The Inside",
+          14
+        ],
+        [
+          "All Beauty No Brains",
+          8
+        ],
+        [
+          "Gets You Further",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cliche People Say About Beauty?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

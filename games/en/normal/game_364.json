@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Kiss A Frog",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Fall Fast Asleep",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Go To A Ball",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Lose Your Shoe",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "According To Fairly Tales, name A Way To Meet Prince Charming"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone Book ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Dictionary ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Address Book ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Alphabet ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Filing List ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Written Alphabetically"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cats",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Other Dogs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Balls",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bone",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Your Tail",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Chase If You Were A Dog."
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Moms: On A Scale From 1-10, How Much Have You Become Like Your Own Mom With Age?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gray Hair",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Wrinkles",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Wisdom",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Baldness",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sign Of Aging That Is Attractive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Potatoes",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Usually Tastes So-So, Fantastic Once Fried"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cat",
+          54
+        ],
+        [
+          "Bird",
+          27
+        ],
+        [
+          "Fish",
+          7
+        ],
+        [
+          "Lizard",
+          4
+        ],
+        [
+          "Rat/Mouse",
+          3
+        ],
+        [
+          "Hamster",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Unlike Dogs, Name A Type Of Pet That People Don’t Count On To Guard Their House."
+    },
+    {
+      "answers": [
+        [
+          "Elephant",
+          53
+        ],
+        [
+          "Tiger",
+          16
+        ],
+        [
+          "Bear",
+          13
+        ],
+        [
+          "Gorilla",
+          7
+        ],
+        [
+          "Lion",
+          4
+        ],
+        [
+          "Alligator",
+          2
+        ],
+        [
+          "Rhino",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If There Was A Fire At The Zoo, Name An Animal A Fireman Would Have Trouble Carrying Out By Himself."
+    },
+    {
+      "answers": [
+        [
+          "Feet",
+          41
+        ],
+        [
+          "Hands",
+          22
+        ],
+        [
+          "Nose",
+          11
+        ],
+        [
+          "Ears",
+          10
+        ],
+        [
+          "Mouth",
+          7
+        ],
+        [
+          "Butt",
+          3
+        ],
+        [
+          "Neck",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Specific Part Of Your Body That You Never Worry About Getting Fat."
+    },
+    {
+      "answers": [
+        [
+          "Strawberries ",
+          48
+        ],
+        [
+          "Ice Cream ",
+          31
+        ],
+        [
+          "Scones ",
+          20
+        ],
+        [
+          "Pie / Apple Pie ",
+          13
+        ],
+        [
+          "Sundae ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Like To Put Whipped Cream On"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

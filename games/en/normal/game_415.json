@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cash",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Dough",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Loot",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Green",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bucks",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Street Name For Money"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oprah",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Jerry Springer",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Maury",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tyra Banks",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Dr Phil",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Talk Show You Might Go On To Tell About Your Disaster Wedding."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Running",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Skiing",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Lomg Jump",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Gymnastics",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Figure Skating",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Olympic Sport Would A Cow Look Most Funny Participating In?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hunt",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Relieve Themselves",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Camp",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cut Down Trees",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Litter",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do In The Woods That Probably Annoys The Animals Living There"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Push Up",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Pull Ups/Chin Ups",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Sit Ups",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Jumping Jacks",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Exercise You’d Have A Hard Time Doing 10 Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stale Food",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Hair In Food",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bugs In Food",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Food Poisoning",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Broken Seal",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would Compel A Consumer Of A Food Product To Call Costumer Service?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Muscular ",
+          47
+        ],
+        [
+          "Strong ",
+          31
+        ],
+        [
+          "Beefy ",
+          20
+        ],
+        [
+          "Muscle Man ",
+          13
+        ],
+        [
+          "Hunk ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Another Name For A Body Builder"
+    },
+    {
+      "answers": [
+        [
+          "Nappies ",
+          44
+        ],
+        [
+          "Razors ",
+          29
+        ],
+        [
+          "Paper Towels ",
+          19
+        ],
+        [
+          "Paper Cups ",
+          12
+        ],
+        [
+          "Rubbish Bags ",
+          8
+        ],
+        [
+          "Condoms ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Product That Might Be Disposable"
+    },
+    {
+      "answers": [
+        [
+          "Hiking",
+          39
+        ],
+        [
+          "Ski/Snowboarding",
+          17
+        ],
+        [
+          "Hunting",
+          15
+        ],
+        [
+          "Fishing",
+          9
+        ],
+        [
+          "Sledding",
+          8
+        ],
+        [
+          "Shoveling",
+          8
+        ],
+        [
+          "Horseback Riding",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity For Which People Wear Boots."
+    },
+    {
+      "answers": [
+        [
+          "Labels",
+          54
+        ],
+        [
+          "Price Tag",
+          35
+        ],
+        [
+          "Cardboard Collar",
+          23
+        ],
+        [
+          "Straight Pins",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Guy Might Have To remove From A New Dress Shirt Before Wearing It"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

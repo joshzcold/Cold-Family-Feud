@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Paycheck/Money",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Postcard",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Package/Gift",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Magazine",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Letter",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Coupons",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific That’s Fun To Get In The Mail."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "See Shows",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Gamble, Name Something People Do In Las Vegas"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cowboys",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Boots",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mechanical Bulls",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See At A Country Western Bar"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traveling",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping In",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Volunteer Work",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Didn’t Have To work, Name Something You’d Spend Your Life Doing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plant ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Tea ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Stew ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Soup ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Have In A Pot"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Los Angeles",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Chicago",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "New York",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "St Louis",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Atlanta",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dallas",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a city in the United States with a busy airport"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Has A Broom",
+          42
+        ],
+        [
+          "Nose",
+          27
+        ],
+        [
+          "She’s Magic",
+          18
+        ],
+        [
+          "Personality",
+          12
+        ],
+        [
+          "Laugh",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About Wife Makes You Think She’s A Witch"
+    },
+    {
+      "answers": [
+        [
+          "Fire Engine ",
+          51
+        ],
+        [
+          "Firemen ",
+          33
+        ],
+        [
+          "Poles ",
+          22
+        ],
+        [
+          "Doors ",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See At A Fire Station"
+    },
+    {
+      "answers": [
+        [
+          "Cars",
+          55
+        ],
+        [
+          "Houses",
+          36
+        ],
+        [
+          "Pets",
+          23
+        ],
+        [
+          "Furniture",
+          15
+        ],
+        [
+          "TVs",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Often See For Sale Classified Section"
+    },
+    {
+      "answers": [
+        [
+          "Watermelon",
+          56
+        ],
+        [
+          "BBQ",
+          16
+        ],
+        [
+          "Ice Cream",
+          12
+        ],
+        [
+          "Pie",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Summer Picnic Food That Will Make Your Face Messy."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Alley",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Graveyard",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Woods",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Would’t Want To Be Alone At Night"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Free Animals",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Don’t Feed Animals",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Animal Cruelty",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sleep On Job",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Show Up Late",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Reason You’d Get Fired From Your Job As A Zookeeper"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Themselves",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Oceans",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Tall Buildings",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Landmarks",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Trees",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Take lots Of Photos Of During A Vacation. Be Specific."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wax",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sticker",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "License Plate",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cover",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Antenna",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Put On The Outside Of Their Car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Up",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Period",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Fashion",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pregnancy",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Topic Would You See In A Women’s Magazine That’s Never In A Men’s Magazine?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beach",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Pool",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Dance Club",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Spa",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Wanted To See Date In Less Clothing, Where Go?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Balloon",
+          50
+        ],
+        [
+          "Tire",
+          33
+        ],
+        [
+          "Raft",
+          21
+        ],
+        [
+          "Air Mattress",
+          14
+        ],
+        [
+          "Beach Ball",
+          9
+        ],
+        [
+          "Ego",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Inflate"
+    },
+    {
+      "answers": [
+        [
+          "Banana",
+          33
+        ],
+        [
+          "Garlic",
+          25
+        ],
+        [
+          "Cinnamon Raisin",
+          19
+        ],
+        [
+          "Cornbread",
+          11
+        ],
+        [
+          "Pumpkin/Zucchini",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Kind Of Bread Would Be Horrible For Making A Sandwich?"
+    },
+    {
+      "answers": [
+        [
+          "Bathroom",
+          42
+        ],
+        [
+          "Nor Feeling Well",
+          27
+        ],
+        [
+          "Need A Drink",
+          18
+        ],
+        [
+          "Phone Call",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Excuse People Use At A Party To Get Away From A Boring Person."
+    },
+    {
+      "answers": [
+        [
+          "5th",
+          35
+        ],
+        [
+          "1st",
+          24
+        ],
+        [
+          "6th",
+          14
+        ],
+        [
+          "4th",
+          8
+        ],
+        [
+          "7th",
+          7
+        ],
+        [
+          "2nd",
+          4
+        ],
+        [
+          "3rd",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Grade Were You In School When You Developed Your First Crush?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

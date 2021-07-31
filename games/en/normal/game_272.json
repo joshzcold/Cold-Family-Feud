@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "How They Look",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Being Faithful",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Satisfaction In Bed",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something It Might Be Ok to Lie To A Partner About In Order To Spare Their Feelings."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rudolph",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Donder",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Blitzen",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dancer",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Vixen",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cupid",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Prancer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name One Of Santa’s Reindeer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pasta",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Chili",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Would Be Very Messy If You Put It In The Microwave Uncovered"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lay Down",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Talk About It",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "You’ve Had A Bad Day, Name Something You’re Told To Do To Make You Feel Better"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ball And Chain",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Tie The Knot",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hitched",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tied Down",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Synonym For Marriage That Doesn’t Make It Sound Fun."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Model",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Director",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Singer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hollywood Manager",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Athlete",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Producer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Writer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Aside From Other Movie Stars, Name A Common Profession For Movie Star Spouses."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Eyes",
+          40
+        ],
+        [
+          "Green Skin",
+          26
+        ],
+        [
+          "Head",
+          17
+        ],
+        [
+          "Ears",
+          11
+        ],
+        [
+          "Antenna",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Physical Characteristics Would Tell You Someone Is An Alien?"
+    },
+    {
+      "answers": [
+        [
+          "Plant",
+          27
+        ],
+        [
+          "Vase With Flowers",
+          19
+        ],
+        [
+          "Fruit Basket",
+          15
+        ],
+        [
+          "Linens",
+          13
+        ],
+        [
+          "Bottle Of Wine",
+          11
+        ],
+        [
+          "Toaster",
+          10
+        ],
+        [
+          "Dishes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Give As A Housewarming Gift."
+    },
+    {
+      "answers": [
+        [
+          "Balloon ",
+          49
+        ],
+        [
+          "Bucket ",
+          32
+        ],
+        [
+          "Roof ",
+          21
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Doesn't Work If It Has A Hole In It"
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          42
+        ],
+        [
+          "Life",
+          27
+        ],
+        [
+          "Relationships",
+          18
+        ],
+        [
+          "Driving",
+          12
+        ],
+        [
+          "Drinking",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Are Smarter About Now Than When You Were A Teenager"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

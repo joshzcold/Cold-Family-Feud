@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pilot ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Instruments ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Gear Stick ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Seat ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Radar ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In The Cockpit Of A Plane"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Therapist",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Psychic",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Horoscope",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do Some People Look To For Relationship Guidance, That You Don’t Believe In?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Daffy Duck ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Yosemite Sam ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Porky Pig ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Elmer Fudd ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name One Of Bugs Bunnys Associates"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Musician",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Athlete",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession You’d Shoot For If You Wanted To Be Famous"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Under The Bed ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Bedside Drawer ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Wardrobe ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "In Her Bag ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "On Her Computer ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where A Teenage Girl Might Keep Her Diary"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Juice",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Baby Asprin",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sherbet",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jello",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Be Orange-Flavored."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Wind ",
+          41
+        ],
+        [
+          "String ",
+          27
+        ],
+        [
+          "Sky ",
+          17
+        ],
+        [
+          "Kids ",
+          11
+        ],
+        [
+          "Flying ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Kites"
+    },
+    {
+      "answers": [
+        [
+          "Pink",
+          43
+        ],
+        [
+          "Yellow",
+          28
+        ],
+        [
+          "Purple",
+          18
+        ],
+        [
+          "Orange",
+          12
+        ],
+        [
+          "White",
+          8
+        ],
+        [
+          "Gold",
+          5
+        ],
+        [
+          "Green",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Color Of Car You Would Never Buy"
+    },
+    {
+      "answers": [
+        [
+          "Big Rig",
+          48
+        ],
+        [
+          "Airplane",
+          31
+        ],
+        [
+          "Tractor",
+          20
+        ],
+        [
+          "Bulldozer",
+          13
+        ],
+        [
+          "Tank",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a vehicle that would be hard to learn how to operate"
+    },
+    {
+      "answers": [
+        [
+          "Sunburn",
+          37
+        ],
+        [
+          "Rash/Allergy",
+          25
+        ],
+        [
+          "Embarrassment",
+          18
+        ],
+        [
+          "Alcohol",
+          11
+        ],
+        [
+          "Exercise",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something That Causes Skin To Turn Red."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

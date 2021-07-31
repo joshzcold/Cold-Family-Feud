@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Flies / Insects ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Bird Mess ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Ticket ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fliers ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Frost ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Hate To Find On Their Windscreen"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Police Officer",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Trucker",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Construction",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Security Guard",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation In which You’d Get To Use A Two Way Radio"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Hamburgers",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Sanswiches",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Kind Of Food Should Not Be Served At A Wedding?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Economical Car",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "House/Improvement",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Stocks/Savings Plan",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "washer/Appliance",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Insurance",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Groceries",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Buy To Save Money In The Long Run."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ship Sinkong",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Iceberg",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Overeating",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Drowning",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Motion Sickness",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hurricane",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Fire",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Worry About While On A Cruise Ship"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Harry Potter",
+          "pnt": 76,
+          "trig": false
+        },
+        {
+          "ans": "Peter Pan",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tom Sawyer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Huck Finn",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Book Where The Main Hero Is A Kid."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Golf Course",
+          45
+        ],
+        [
+          "Park",
+          21
+        ],
+        [
+          "Farm",
+          15
+        ],
+        [
+          "Suburbs",
+          7
+        ],
+        [
+          "Country",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place You See A Lot Of Green Grass."
+    },
+    {
+      "answers": [
+        [
+          "Carries A Gun",
+          56
+        ],
+        [
+          "Wears Black",
+          36
+        ],
+        [
+          "Haunting Music",
+          24
+        ],
+        [
+          "He’s Ugly",
+          16
+        ],
+        [
+          "Has Facial Hair",
+          10
+        ],
+        [
+          "Evil Laugh",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Can You Identify The Bad Guy In A Movie, Even Before He Does Anything Wrong"
+    },
+    {
+      "answers": [
+        [
+          "Good Grades",
+          45
+        ],
+        [
+          "Chores",
+          35
+        ],
+        [
+          "Good Behavior",
+          12
+        ],
+        [
+          "Using The Toilet",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Children Might Get Rewarded For"
+    },
+    {
+      "answers": [
+        [
+          "Evil Laugh",
+          34
+        ],
+        [
+          "Stealing",
+          28
+        ],
+        [
+          "Fighting",
+          16
+        ],
+        [
+          "Killing",
+          13
+        ],
+        [
+          "Taking Over World",
+          3
+        ],
+        [
+          "Wearing Black",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Cartoon Villains Are Always Doing That Lets You Know They’re Bad"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

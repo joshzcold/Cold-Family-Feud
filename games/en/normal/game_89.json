@@ -1,0 +1,354 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Honey ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sting ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hive ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Buzz ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Wings ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With A Bee"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soap",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sand",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Dust",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Insect",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Hate To Get In Your Eyes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Red",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Pink",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Blue",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Green",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Yellow",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Orange",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Purple",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Color That’s Usually Included In Packs Of Fruit-Flavored Candy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Person Who Dislikes Technology Might Not Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bread ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Cake ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Cheese ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Pizza ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cucumber ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Onion ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Slice"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lassie",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Snoopy",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Benji",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Scoobie Doo",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Rin Tin Tin",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Clifford",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pluto",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Dog?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Birthdays",
+          48
+        ],
+        [
+          "Where They Put Items",
+          31
+        ],
+        [
+          "Names",
+          20
+        ],
+        [
+          "Peoples Ages",
+          13
+        ],
+        [
+          "The Past",
+          9
+        ],
+        [
+          "Phone Numbers",
+          6
+        ],
+        [
+          "Grocery Items",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Has A Hard Time Remembering When They Get Old"
+    },
+    {
+      "answers": [
+        [
+          "White Rabbit ",
+          51
+        ],
+        [
+          "Mad Hatter ",
+          33
+        ],
+        [
+          "Cheshire Cat ",
+          22
+        ],
+        [
+          "The Looking Glass ",
+          14
+        ],
+        [
+          "Tea Cup ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Alice In Wonderland"
+    },
+    {
+      "answers": [
+        [
+          "Green",
+          32
+        ],
+        [
+          "Purple",
+          24
+        ],
+        [
+          "Blue",
+          16
+        ],
+        [
+          "Pink",
+          15
+        ],
+        [
+          "Red",
+          8
+        ],
+        [
+          "Black",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Color A Teenager Might Dye Her Hair That Would Annoy Her Parents"
+    },
+    {
+      "answers": [
+        [
+          "Sequins",
+          52
+        ],
+        [
+          "Feathers",
+          16
+        ],
+        [
+          "Name",
+          11
+        ],
+        [
+          "Beads",
+          9
+        ],
+        [
+          "Jewels",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Las Vegas Entertainer’s Outfit Would Have Sewn On"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

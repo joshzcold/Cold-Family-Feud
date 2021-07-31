@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Back ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Head ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Legs ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Feet ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Neck ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part Of Your Body That Aches"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Jewellery ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "A Will ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Documents ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Deeds ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Have Locked In A Safe"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grouchy",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Grumpy",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Crabby",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Cranky",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Angry",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Moody",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word People Use To Describe Someone Who’s In A Bad Mood"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ring ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Engagement ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sparkles ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Necklace ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You associate With Diamonds"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "My Cell Phone",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "My Keys",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Women To Fill In The Blank: I’d Notice Right Away If _____ Was Missing From My Purse."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Windows ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Gutter ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Chimney ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something you Might Need A Ladder To Clean"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Presents",
+          52
+        ],
+        [
+          "Reindeer",
+          26
+        ],
+        [
+          "Sleigh",
+          18
+        ],
+        [
+          "List",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would Santa Hate To Forget On Christmas Eve?"
+    },
+    {
+      "answers": [
+        [
+          "Passport",
+          46
+        ],
+        [
+          "ID/License",
+          38
+        ],
+        [
+          "Birth Certificate",
+          6
+        ],
+        [
+          "Luggage",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Authorities Ask To See When You’re Crossing An International Border?"
+    },
+    {
+      "answers": [
+        [
+          "Hide And Seek",
+          44
+        ],
+        [
+          "Tag",
+          18
+        ],
+        [
+          "Twister",
+          16
+        ],
+        [
+          "Limbo",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Game In Which Small Children Have An Advantage Over Adults"
+    },
+    {
+      "answers": [
+        [
+          "Pasta",
+          37
+        ],
+        [
+          "Pizza",
+          18
+        ],
+        [
+          "Chicken Strips",
+          11
+        ],
+        [
+          "Shrimp",
+          9
+        ],
+        [
+          "Steak",
+          9
+        ],
+        [
+          "Fish",
+          7
+        ],
+        [
+          "French Fries",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Usually Comes With A Particular Sauce"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

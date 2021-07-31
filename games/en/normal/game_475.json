@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Popcorn",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Soda Pop",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pop Tart",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Popsicle",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Popular",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pop Goes The Weasel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Has The Word “Pop” In It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speed ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Eat ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Run A Red Light ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "No Seatbelt ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sing ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do While Driving That You Don't Do On A Test"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Train Tracks",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Tower",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Castle",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "A Dark Alley",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Elevator",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In The Movies, Name A Specific Place A Damsel In Distress Might Get Trapped Or Face Danger."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pool cue",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Balls",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cover",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Chalk",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Buy To go with Your New Pool Table"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Book ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Trophy ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Ribbon ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Medal ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Certificate ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You May Have Won As A Prize At School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toffee ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Chewing Gum ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Nuts ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Shouldn't Eat If they Have Braces"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Read",
+          62
+        ],
+        [
+          "Cook",
+          21
+        ],
+        [
+          "Write",
+          8
+        ],
+        [
+          "Sew",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity That’d Be Hard To Do By CandleLight"
+    },
+    {
+      "answers": [
+        [
+          "bargains",
+          38
+        ],
+        [
+          "treasure",
+          16
+        ],
+        [
+          "Easter Eggs",
+          14
+        ],
+        [
+          "Lost Keys",
+          11
+        ],
+        [
+          "Job",
+          8
+        ],
+        [
+          "Dates",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "aside From Animals, Name Something People Hunt For."
+    },
+    {
+      "answers": [
+        [
+          "RED NOSE",
+          51
+        ],
+        [
+          "WIG",
+          33
+        ],
+        [
+          "BIG SHOES",
+          22
+        ],
+        [
+          "MAKEUP",
+          14
+        ],
+        [
+          "COSTUME",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Should A Clown Avoid Wearing When Not On Duty"
+    },
+    {
+      "answers": [
+        [
+          "Couch/Recliner",
+          42
+        ],
+        [
+          "Bed",
+          20
+        ],
+        [
+          "Remote Control",
+          15
+        ],
+        [
+          "Pillows",
+          6
+        ],
+        [
+          "Blanket",
+          5
+        ],
+        [
+          "Alcohol",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something From Home That You Wish Movie Theaters Had"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

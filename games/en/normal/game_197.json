@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Their Love Lives",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Infidelity",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rumor",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Divorce",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Topic That People Might Whisper About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Answering Machine ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Paper ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Telephone ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Door ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "The Fridge ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Leave A Message On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Meatloaf",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Jell O",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Fries",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Chicken Nuggets",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hamburgers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Served In An Elementary School Cafeteria"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snake ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Basket ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Flute ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Turban ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Music ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With A Snake Charmer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chocolate Cake",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Cheese Cake",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cherry Pie",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin Pie",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream/Float",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Choc. Chip Cookie",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Apple Pie Lost Its Title As The Food Defining America, What Dessert Might Take Its Place?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bumps",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Pot Holl",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Gravel Road",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rocks",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Railroad Track",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Drive Over That Would Cause A Bumpy Ride"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Food",
+          46
+        ],
+        [
+          "Tank",
+          26
+        ],
+        [
+          "Some Rocks",
+          14
+        ],
+        [
+          "Castle",
+          5
+        ],
+        [
+          "Another Goldfish",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Might Buy For Their New Goldfish."
+    },
+    {
+      "answers": [
+        [
+          "Donald Duck ",
+          56
+        ],
+        [
+          "Micky Mouse ",
+          36
+        ],
+        [
+          "Minnie Mouse ",
+          24
+        ],
+        [
+          "Pluto ",
+          16
+        ],
+        [
+          "Goofy ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Character Associated With Walt Disney"
+    },
+    {
+      "answers": [
+        [
+          "Getting Drunk",
+          41
+        ],
+        [
+          "Not Tipping",
+          27
+        ],
+        [
+          "Fighting",
+          17
+        ],
+        [
+          "Yelling",
+          11
+        ],
+        [
+          "Complaining",
+          7
+        ],
+        [
+          "Vomiting",
+          5
+        ],
+        [
+          "Flirting",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Bartender Probably Tired Custmr"
+    },
+    {
+      "answers": [
+        [
+          "Fugitive",
+          53
+        ],
+        [
+          "Scared",
+          34
+        ],
+        [
+          "Afair",
+          23
+        ],
+        [
+          "Playing With Kids",
+          15
+        ],
+        [
+          "Surprise Party",
+          10
+        ],
+        [
+          "Avoiding Someone",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Why You’d See An Adult Hiding"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

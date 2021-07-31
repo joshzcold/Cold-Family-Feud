@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Airbags ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Seatbelts ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cd Player ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioning ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sat Nav ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Electric Windows ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Cars Didn't Have 50 Years Ago"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Alcohol, Name Beverage Kids Drink Less Than Adults"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Often Looks Better In Advertised Pictures Than In Real Life."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crash It",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grades",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Speed",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stay Out Late",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Get A Ticket",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Teenager Do That Causes Their Parents To Forbid Them From Using The Family Car?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mom",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Significant Other",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dad",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Best Friend",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sister",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Grandma",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who In Your Personal Life Would You Least Expect To Swindle You?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jail",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Billboard",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hospital",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where It’d Be Smart For A Lawyer To Advertise."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Water ",
+          53
+        ],
+        [
+          "Beer ",
+          34
+        ],
+        [
+          "Milk ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Drink You Might Drink From The Bottle"
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          33
+        ],
+        [
+          "Pen",
+          19
+        ],
+        [
+          "Lipstick",
+          18
+        ],
+        [
+          "Hygeine Product",
+          15
+        ],
+        [
+          "Tissue",
+          8
+        ],
+        [
+          "Gum/Candy",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In A Woman’s Purse That She Might Lend Out And Not Get Back."
+    },
+    {
+      "answers": [
+        [
+          "Drum",
+          57
+        ],
+        [
+          "Flute",
+          37
+        ],
+        [
+          "Cymbals",
+          24
+        ],
+        [
+          "Triangle",
+          16
+        ],
+        [
+          "Violin",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Instrument Might You Be Playing Wait For Part To Come"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          40
+        ],
+        [
+          "TV",
+          26
+        ],
+        [
+          "Wash Machine",
+          17
+        ],
+        [
+          "Computer",
+          11
+        ],
+        [
+          "Refrigerator",
+          7
+        ],
+        [
+          "Article Of Clothing",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Sometimes Cheaper To Replace Than Fix"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

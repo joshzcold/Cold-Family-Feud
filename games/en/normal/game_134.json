@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Store Clerk",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Bank Teller",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Security Guard",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Toll Collecter",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Factory Worker",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job In Which You’d Stand In One Place All Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mickey Mouse Ears ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Cuddly Toy ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Photo ",
+          "pnt": 25,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Souvenir People Buy At Disneyland"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Seatbelt",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Unsupervised Play",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "No Bike Helmet",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Walk To School",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sit In Front Seat",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Parents Let Their Kids Do In The Past, That Would Make Them Seem Like Bad Parents Today"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Psychology",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Chemistry",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Calculus",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Physics",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Philosophy",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Economics",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Class That Most Students Take In College But Not High School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Purse",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Belt",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Scarf",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Accessory That Some People Want In A Designer Brand."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reality TV",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Talk Show",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dating Show",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Romantic Drama",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "True Crime",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of TV Show That You Wouldn’t Want To See Your Grandma On"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Joan Rivers",
+          34
+        ],
+        [
+          "Pamela Anderson",
+          29
+        ],
+        [
+          "Cher",
+          12
+        ],
+        [
+          "Dolly Parton",
+          10
+        ],
+        [
+          "Michael Jackson",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Celebrity Who You’re Pretty Sure Has Had Plastic Surgery"
+    },
+    {
+      "answers": [
+        [
+          "Board game",
+          51
+        ],
+        [
+          "Casino",
+          22
+        ],
+        [
+          "Arcade",
+          18
+        ],
+        [
+          "Online",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where do you get money that can’t be used to buy anything in the real world?"
+    },
+    {
+      "answers": [
+        [
+          "Rides",
+          43
+        ],
+        [
+          "People",
+          24
+        ],
+        [
+          "Games/Prizes",
+          15
+        ],
+        [
+          "Junk Food",
+          8
+        ],
+        [
+          "Rest Rooms",
+          4
+        ],
+        [
+          "Lines",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Amusement Park Has A Lot Of."
+    },
+    {
+      "answers": [
+        [
+          "Vacation",
+          41
+        ],
+        [
+          "Christmas",
+          29
+        ],
+        [
+          "Birthday",
+          13
+        ],
+        [
+          "Gifts",
+          5
+        ],
+        [
+          "Recess",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Look Forward To"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

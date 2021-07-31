@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Caps",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "T Shirts",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Free Tickets",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Baseball Cards",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stickers",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Autographs",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something They Give Away Free To Attract Fans At A Baseball Game."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tie A Knot",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Build A Fire",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Camping",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Take An Oath",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pitch A Tent",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Wilderness Survival",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Learn How To Do In The Boy Scouts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Carrot ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Potato ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Turnip ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Swede ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food That Grows In The Ground"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "WatchTV",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Introduce Yourself",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Music",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "At A party where You Don’t Know Anyone, How Might You Pass The Time?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Solar Panels",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Insulation",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Light Bulbs",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Windows",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Home Might Have Energy Efficient"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gardner ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Street Sweeper ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lollipop Person ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Farmer ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Fisherman ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Outdoor Occupation"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Farmer",
+          53
+        ],
+        [
+          "Blacksmith",
+          31
+        ],
+        [
+          "Carpenter",
+          7
+        ],
+        [
+          "Miner",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job That People Did More 100 Years Ago Than Today."
+    },
+    {
+      "answers": [
+        [
+          "Hands ",
+          40
+        ],
+        [
+          "Face ",
+          26
+        ],
+        [
+          "Car ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Clean With Soap"
+    },
+    {
+      "answers": [
+        [
+          "Eat",
+          27
+        ],
+        [
+          "Rest Stop",
+          24
+        ],
+        [
+          "Fill Up Gas",
+          21
+        ],
+        [
+          "Ask Directions",
+          12
+        ],
+        [
+          "Take Pictures",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Stop To Do When Driving Across The Country."
+    },
+    {
+      "answers": [
+        [
+          "Buy a Crib",
+          39
+        ],
+        [
+          "Buy Clothes",
+          23
+        ],
+        [
+          "Buy Diapers",
+          21
+        ],
+        [
+          "Baby Shower",
+          7
+        ],
+        [
+          "Parenting Classes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A First-Time Parent Would Need To Do Before The Baby Was Born."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Salesperson",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Collections/Landlord",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Parents/In Laws",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Neighbor",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cops",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Friend",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Postal Worker",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Who Was At The Door The Last Time You Pretended Not To Be Home."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Staying Out Late",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Swearing",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Woman Might Want Her Husband To Quit Doing Before They Have Children"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vicar ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Altar ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Pew ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Seats ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Stain Glass Windows ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In A Church"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Reunion",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Event Might Someone Attend Without Their Spouse That Would Make You Think They Broke Up?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candles",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Mirrors",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Colored Lights",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Silk Sheets",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Stereo System",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Bachelor Might Buy For His Bedroom To Make It More Romantic."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Legs",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hearts",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Glass",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Promise",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Rules",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "The Bank",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Habbits",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Are Said To “Break.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Her waist",
+          33
+        ],
+        [
+          "Bust",
+          30
+        ],
+        [
+          "Her Hips",
+          10
+        ],
+        [
+          "Her Weight",
+          7
+        ],
+        [
+          "Butt Size",
+          7
+        ],
+        [
+          "Feet Size",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Measurement A Man Probably Doesn’t Know About His Wife’s Body."
+    },
+    {
+      "answers": [
+        [
+          "Dating",
+          53
+        ],
+        [
+          "Divorce",
+          34
+        ],
+        [
+          "Kids",
+          23
+        ],
+        [
+          "Wedding",
+          15
+        ],
+        [
+          "Infidelity",
+          10
+        ],
+        [
+          "Diet",
+          6
+        ],
+        [
+          "Plastic Surgery",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About A Celebrity’s Life Plastered Magazines"
+    },
+    {
+      "answers": [
+        [
+          "Jokes",
+          40
+        ],
+        [
+          "Being Tickled",
+          26
+        ],
+        [
+          "TV Show/Movie",
+          17
+        ],
+        [
+          "Clown",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Causes A Person To Laugh"
+    },
+    {
+      "answers": [
+        [
+          "Drink Alcohol",
+          44
+        ],
+        [
+          "Drive",
+          31
+        ],
+        [
+          "Vote",
+          9
+        ],
+        [
+          "Smoke",
+          7
+        ],
+        [
+          "Gamble",
+          4
+        ],
+        [
+          "Retire",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can’t Do Until You’re A Certain Age."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

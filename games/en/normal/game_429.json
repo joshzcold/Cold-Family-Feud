@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cat",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal That Walks On 4 Legs, But Can’t Give Rides."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Peaches",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pineapple",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Oranges",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Pepper",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Blueberry",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Jelly",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Might Put On Cottage Cheese"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baseball",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tennis",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dodgeball",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Sport Would Become Disastrous If The Regular Ball Was Replaced With A Bowling Ball?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Funeral",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Baby Shower",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Baptism",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Unlike A Wedding, Name A Social Event That You’d Never Want To Crash"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trim It ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Shave It ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Twirl It ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Comb It ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wax It ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Do To A Moustache"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Family",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Relationships",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Weather",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Weekend",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than Work, Name Something You Often Find Yourself Talking To Co-Workers About."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Water ",
+          45
+        ],
+        [
+          "Air ",
+          29
+        ],
+        [
+          "Food ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Everybody Needs To Survive"
+    },
+    {
+      "answers": [
+        [
+          "Straw ",
+          52
+        ],
+        [
+          "Leather ",
+          34
+        ],
+        [
+          "Wool ",
+          22
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Hat Might Be Made From"
+    },
+    {
+      "answers": [
+        [
+          "Cats Tail ",
+          45
+        ],
+        [
+          "Money ",
+          29
+        ],
+        [
+          "A Marble ",
+          19
+        ],
+        [
+          "Dogs Tail ",
+          12
+        ],
+        [
+          "A Nail ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wouldn't Run Over With A Vacuum Cleaner"
+    },
+    {
+      "answers": [
+        [
+          "Age",
+          45
+        ],
+        [
+          "Weight",
+          27
+        ],
+        [
+          "Appearance",
+          14
+        ],
+        [
+          "Money",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Many People Probably Lie About In Their Personal Ads"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

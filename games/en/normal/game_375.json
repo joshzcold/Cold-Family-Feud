@@ -1,0 +1,358 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fly",
+          "pnt": 86,
+          "trig": false
+        },
+        {
+          "ans": "Build A Nest",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Eat Worms",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Avoid Cats",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Were Turned Into A Bird, Name Something You’d Have To Learn How To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Drink Coffee",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Fill Gas Tank",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Talk On Cb",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sit",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Radio",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Trucker Does More Than You Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bedding",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Backpack",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Kid Take Along If He’s Planning To Run Away From Home?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Circus",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Fair",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Carnival",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Amusement Park",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theater",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Candy Store",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Chuck E. Cheese",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someplace Where They Sell Cotton Candy."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Baking Soda",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Mayo",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Is White In Your Refrigerator."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tuba",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Trumpet",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Trombone",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Saxaphone",
+          "pnt": 1,
+          "trig": false
+        },
+        {
+          "ans": "Flute",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bagpipe",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Band Instrument That Requires A Player With A Good Set Of Lungs"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Food",
+          27
+        ],
+        [
+          "Map",
+          21
+        ],
+        [
+          "Change Of Clothes",
+          17
+        ],
+        [
+          "Coffee",
+          15
+        ],
+        [
+          "Companion",
+          9
+        ],
+        [
+          "Music`",
+          5
+        ],
+        [
+          "Cell Phone",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Are Some Things Truckers Might Take With Them On A Trip?"
+    },
+    {
+      "answers": [
+        [
+          "Light Fire",
+          50
+        ],
+        [
+          "Use Latrine",
+          33
+        ],
+        [
+          "Hike",
+          21
+        ],
+        [
+          "Sing Campfire Songs",
+          14
+        ],
+        [
+          "Sleep In Tent",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Camper Does That He Wouldn’t Do At Home"
+    },
+    {
+      "answers": [
+        [
+          "Fiction ",
+          57
+        ],
+        [
+          "Non Fiction ",
+          37
+        ],
+        [
+          "Reference ",
+          24
+        ],
+        [
+          "History ",
+          16
+        ],
+        [
+          "Travel ",
+          10
+        ],
+        [
+          "Sport ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Popular Section Of A Library"
+    },
+    {
+      "answers": [
+        [
+          "Lay Down",
+          42
+        ],
+        [
+          "Make Love",
+          31
+        ],
+        [
+          "Stand Up",
+          10
+        ],
+        [
+          "Fit More People",
+          9
+        ],
+        [
+          "Haul Stuff",
+          5
+        ],
+        [
+          "Watch TV",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Do In A Van That You Can’t Do In A Sports Car."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

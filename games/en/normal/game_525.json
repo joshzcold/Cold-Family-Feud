@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": 50,
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": 60,
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": 65,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 70,
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Age That Women Stop Dying Their Hair And Just Decide To Let It Go Grey (Numeric Only)."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Charlie’s Angels",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bewitched",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wayne’s World",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Duke’s of Hazzard",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Brady Bunch",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Starsky And Hutch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Blues Brothers",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Movie Based On A TV Show Or Skit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "House",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Bank Account",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Muscles",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In Your Life You Want Bigger"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Business Suit",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Dress/Skirt",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Might Wear To Appear More Professional."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Dentist",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hair Salon",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Mechanic",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Need An Appointment."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toni",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Chris",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Brandy",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jamie",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Shawn",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Alex",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Name That Could Be Used For Either A Man Or A Woman."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cooking",
+          33
+        ],
+        [
+          "Intimacy",
+          20
+        ],
+        [
+          "Money",
+          19
+        ],
+        [
+          "Parenting",
+          16
+        ],
+        [
+          "Fashion",
+          4
+        ],
+        [
+          "Cleaning",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Husbands! Name A Subject Your Wife Likes To Be The Expert On."
+    },
+    {
+      "answers": [
+        [
+          "Exhausted",
+          51
+        ],
+        [
+          "Sleepy",
+          23
+        ],
+        [
+          "Worn out",
+          4
+        ],
+        [
+          "Stressed",
+          4
+        ],
+        [
+          "Fatigued",
+          4
+        ],
+        [
+          "Burnt out",
+          4
+        ],
+        [
+          "Restless",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name another word for “Tired”."
+    },
+    {
+      "answers": [
+        [
+          "Walk",
+          53
+        ],
+        [
+          "Talk",
+          34
+        ],
+        [
+          "Smile",
+          23
+        ],
+        [
+          "Crawl",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Parent Wants To See Baby Do 1St Time"
+    },
+    {
+      "answers": [
+        [
+          "Throwing A Party",
+          36
+        ],
+        [
+          "Boy/Girlfriend Over",
+          29
+        ],
+        [
+          "Drinking",
+          20
+        ],
+        [
+          "Staying Out Late",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teenager Might Try To Get Away With When Their Parents Are Out Of Town."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

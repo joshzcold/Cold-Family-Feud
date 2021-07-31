@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Yell",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Throw Things",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Argue",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Curse",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Turn Red",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do When They’ve Lost Their Temper"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Locker",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Beach Bag",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Purse",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pocket",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Towel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You May Keep Your Keys While Swimming"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vet ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Film Star ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Chef ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lion Tamer ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Trainer ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Zoo Keeper ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Works With Animals"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Towel",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Sunscreen",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Beach Toys",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sandals",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something In A Beach Bag, That’s Not In Most Purses."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Playground",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hallway",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Alley",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cafeteria",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Locker room",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a specific place where you hated to run into a school bully."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Parent",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "partner",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Specific Who You wouldn’t Want Viewing Your Facebook Page"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Haunted House",
+          34
+        ],
+        [
+          "Cemetry",
+          30
+        ],
+        [
+          "Wedding",
+          10
+        ],
+        [
+          "Restaurant",
+          5
+        ],
+        [
+          "Woods",
+          4
+        ],
+        [
+          "Bar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That You Wish You Had The Nerve To Go Alone"
+    },
+    {
+      "answers": [
+        [
+          "Buy Beer",
+          45
+        ],
+        [
+          "See Music",
+          29
+        ],
+        [
+          "Drive",
+          19
+        ],
+        [
+          "FJob Interview",
+          12
+        ],
+        [
+          "Impress Someone",
+          8
+        ],
+        [
+          "Buy Cigarettes",
+          5
+        ],
+        [
+          "Date",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason A Person Might Pretend To Be Older"
+    },
+    {
+      "answers": [
+        [
+          "Alarm",
+          35
+        ],
+        [
+          "Kids",
+          31
+        ],
+        [
+          "Work",
+          16
+        ],
+        [
+          "Pet",
+          5
+        ],
+        [
+          "Hunger",
+          4
+        ],
+        [
+          "Sunlight",
+          4
+        ],
+        [
+          "Phone",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When You Donâ€™t Want To Get Out Of Bed In The Morning, Name Something That Gets You Up Anyway"
+    },
+    {
+      "answers": [
+        [
+          "Witch ",
+          53
+        ],
+        [
+          "Cleaner ",
+          34
+        ],
+        [
+          "Road Sweeper ",
+          23
+        ],
+        [
+          "Chimney Sweep ",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Person Who Uses A Broom"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

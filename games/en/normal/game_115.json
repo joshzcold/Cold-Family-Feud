@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "CCTV ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Security Guards ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tags On Items ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Shop Might Use To Catch Shoplifters"
+    },
+    {
+      "answers": [
+        {
+          "ans": "High Heels",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sandals",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Slippers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Worst Kind Of Footwear To Run A Marathon In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Light ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Oven ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Ignition ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Central Heating ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioning ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Partner ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Turn On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Another Woman",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "His Parents",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Work/ Laptop",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "His Best Friend",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Golf Clubs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "His Pet",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Man Had Better Not Take Along On His Honeymoon"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dating",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Playing Sports",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Staying Out Late",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That An Overprotective Parent Might Forbid Teen To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hospital",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Dmv",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Law Office",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Post Office",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Retail",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Workplace You Would Get Used To Stress"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Age",
+          49
+        ],
+        [
+          "Home Address",
+          14
+        ],
+        [
+          "Weight",
+          18
+        ],
+        [
+          "Home Phone",
+          7
+        ],
+        [
+          "Marital Status",
+          6
+        ],
+        [
+          "Religon",
+          5
+        ],
+        [
+          "Social Security",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Information You’d Be Surprised To Find On Someone’s Business Card."
+    },
+    {
+      "answers": [
+        [
+          "Cry",
+          49
+        ],
+        [
+          "Suck Thumb",
+          32
+        ],
+        [
+          "Bathroom Incidents",
+          21
+        ],
+        [
+          "Drool",
+          14
+        ],
+        [
+          "Blanket",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Did You Do As A Baby That You’re Glad You Don’t Do I Public Anymore?"
+    },
+    {
+      "answers": [
+        [
+          "Glasses ",
+          51
+        ],
+        [
+          "Plates ",
+          33
+        ],
+        [
+          "Toys ",
+          22
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Get Broken During A Party"
+    },
+    {
+      "answers": [
+        [
+          "Singing ",
+          54
+        ],
+        [
+          "Dancing ",
+          35
+        ],
+        [
+          "Speaking ",
+          23
+        ],
+        [
+          "Smiling ",
+          15
+        ],
+        [
+          "Modelling ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Practice In The Mirror"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

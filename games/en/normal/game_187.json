@@ -1,0 +1,360 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Food ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Plate ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cuttlery ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Table Cloth ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Glasses ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Flowers ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find On A Dinner Table"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Place Of Worship",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Classs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Symphany",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Morgue",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someplace You Might Be Where It Would Be Inappropriate To Laugh Out Loud."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sweater",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Scarf",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Mittens",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Grandma Might Knit For You As A Gift"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pop Corn",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Milk Duds",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Dots",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Gummy Bears",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Taffy",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Peanuts",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Movie Theater Food That Gets Stuck In Your Teeth. Be Specific!"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Futon",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Women",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pool Table",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Batchelor Pad Needs"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Concession Stand",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Seats",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Screen",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Customers",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Every Movie Theatre, Fancy Or Not, Has"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Carrot ",
+          53
+        ],
+        [
+          "Sweetcorn ",
+          34
+        ],
+        [
+          "Potato ",
+          23
+        ],
+        [
+          "Cauliflower ",
+          15
+        ],
+        [
+          "Radish ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Vegetable That Isn't Green"
+    },
+    {
+      "answers": [
+        [
+          "Papers ",
+          59
+        ],
+        [
+          "Pen ",
+          38
+        ],
+        [
+          "Calculator ",
+          25
+        ],
+        [
+          "Money ",
+          16
+        ],
+        [
+          "Lunch ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find In A Briefcase"
+    },
+    {
+      "answers": [
+        [
+          "Oil",
+          45
+        ],
+        [
+          "Tires",
+          25
+        ],
+        [
+          "Radio Station",
+          11
+        ],
+        [
+          "Brake Pads",
+          6
+        ],
+        [
+          "Windshield Wipers",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Change On Or In Your Car"
+    },
+    {
+      "answers": [
+        [
+          "Church",
+          42
+        ],
+        [
+          "Funeral",
+          27
+        ],
+        [
+          "Library",
+          18
+        ],
+        [
+          "Classroom",
+          12
+        ],
+        [
+          "Wedding",
+          7
+        ],
+        [
+          "Work",
+          5
+        ],
+        [
+          "Movie Theatre",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You’d Hate To Get A Case Of The Giggles"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

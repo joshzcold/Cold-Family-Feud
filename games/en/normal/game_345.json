@@ -1,0 +1,294 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Watch TV",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Talk On The Phone",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Read/Study",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People With Roommates Do More Of In Their Bedroom Than People Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Had To Work Late ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Overtime ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Stuck In Traffic ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Car Broke Down ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Drinking ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Excuse A Husband Gives For Coming Home Late"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mud / Dirt ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bacon ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "A Sty ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pork ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Smell ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With A Pig"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tony The Tiger",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Cap’n Crunch",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Trix Rabbit",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Toucan Sam",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Character Famous For Selling Cereal."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beach/Park",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Pool",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Shoe Store",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Gym",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bowling alley",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Pubic Place Where You Take Off Your Shoes."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Speech",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Smiling",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something Specific People Do In Front Of Mirror"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pet",
+          34
+        ],
+        [
+          "Friend",
+          26
+        ],
+        [
+          "Child",
+          23
+        ],
+        [
+          "Partner",
+          12
+        ],
+        [
+          "Car",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Who Or What Might You Give A Nickname To?"
+    },
+    {
+      "answers": [
+        [
+          "Martini",
+          67
+        ],
+        [
+          "Salad",
+          18
+        ],
+        [
+          "Pizza",
+          10
+        ],
+        [
+          "Jar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find An Olive In."
+    },
+    {
+      "answers": [
+        [
+          "Heart",
+          45
+        ],
+        [
+          "Brain",
+          29
+        ],
+        [
+          "Blood",
+          19
+        ],
+        [
+          "Emotions",
+          12
+        ],
+        [
+          "Skin/Hair",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Does A human Have That A Robot Doesn’t"
+    },
+    {
+      "answers": [
+        [
+          "Love",
+          52
+        ],
+        [
+          "Life",
+          23
+        ],
+        [
+          "Money",
+          11
+        ],
+        [
+          "Safe driving",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Teens Think They Understand Long Before They Really Do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

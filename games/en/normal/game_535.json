@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Arms ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ears ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Eyes ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Legs ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Breasts ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Testicles ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part Of The Body You Have 2 Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat Meals",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Wake Up/ Sleep",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Brush Teeth",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Go To Work/ School",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do Same Time Every Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bird ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Kettle ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Train ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Whistle ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Person ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wind ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Whistles"
+    },
+    {
+      "answers": [
+        {
+          "ans": "They’re Shy",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Not Just About Looks",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "It’s Safer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Convenience",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "People Are Sober",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might Someone Prefer Online Dating Over Meeting In A Bar?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lots of glasses",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pictures",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "CDs",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you might find in a suitcase that would tell you it belongs to Elton John."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rolls",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "French Toast",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Apple Pie",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Candles",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Gum/Candy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific That Can Smell Like Cinnamon (More Specific Than “Sweets.”)"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Paper",
+          55
+        ],
+        [
+          "Fold Page",
+          18
+        ],
+        [
+          "Pen",
+          13
+        ],
+        [
+          "Card",
+          8
+        ],
+        [
+          "Napkin",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do People Use To Keep Their Place In A Book If They Don’t Have A Bookmark?"
+    },
+    {
+      "answers": [
+        [
+          "Hip Hop",
+          48
+        ],
+        [
+          "Country",
+          31
+        ],
+        [
+          "Rock",
+          20
+        ],
+        [
+          "Disco",
+          13
+        ],
+        [
+          "Salsa",
+          9
+        ],
+        [
+          "Techno",
+          6
+        ],
+        [
+          "Jazz",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Music Easy To Dance To"
+    },
+    {
+      "answers": [
+        [
+          "tears In Upholstery",
+          42
+        ],
+        [
+          "Sags",
+          26
+        ],
+        [
+          "Leg/Arm Breaks",
+          17
+        ],
+        [
+          "Springs pop Out",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Happens To A Couch That Lets You Know It’s Time To Get Rid Of It?"
+    },
+    {
+      "answers": [
+        [
+          "Authors Name",
+          44
+        ],
+        [
+          "Title",
+          38
+        ],
+        [
+          "Blurb",
+          8
+        ],
+        [
+          "Picture",
+          6
+        ],
+        [
+          "On Best seller List",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Find On The Cover Of A Novel."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

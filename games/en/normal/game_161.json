@@ -1,0 +1,292 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wink ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Eye Contact ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Chat Up Line ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Smile ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Buy A Drink ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Get Phone Number ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way You Can Tell That Someone Fancies You"
+    },
+    {
+      "answers": [
+        {
+          "ans": "French Fries",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Burger",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Milkshake",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chicken Nuggets",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Only Consume When You Go To A Fast Food Restaurant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "I Have To Go Pee Pee",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "I Have To Go Potty",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Poo Poo",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Got To Go Tinkle",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Expression Little Kids Use When They Have To Go To The Bathroom."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Napkin",
+          "pnt": 75,
+          "trig": false
+        },
+        {
+          "ans": "Paper Towel",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Handkerchief",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tissue",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sleeve",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Wash Cloth",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Person Uses To Wipe Their Mouth With."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pain Reliever",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Lay Down",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Massage",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Heating Pad",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chiropractor",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bengay",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do To Cure An Aching Back."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Population",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "State Flower",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "State Bird",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Size",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Fact That Most Residents Don’t Know About Their Own State"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cutting Onions ",
+          58
+        ],
+        [
+          "Crying ",
+          38
+        ],
+        [
+          "Punch On Nose ",
+          25
+        ],
+        [
+          "Laughing ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Makes Your Eyes Water"
+    },
+    {
+      "answers": [
+        [
+          "Noise",
+          52
+        ],
+        [
+          "Dog",
+          34
+        ],
+        [
+          "Yard",
+          22
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Complaint Next-Door Neighbor Might Approach With"
+    },
+    {
+      "answers": [
+        [
+          "Boat / Ship ",
+          46
+        ],
+        [
+          "Popeye ",
+          30
+        ],
+        [
+          "Butter ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With An Anchor"
+    },
+    {
+      "answers": [
+        [
+          "Soup",
+          62
+        ],
+        [
+          "Spaghetti",
+          27
+        ],
+        [
+          "Cereal",
+          4
+        ],
+        [
+          "Ice Cream",
+          3
+        ],
+        [
+          "Jell O",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Food That People Often Slurp While Eating"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Weather ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Health ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Prices ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Partners ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Work ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Traffic ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Moan About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gray Hair",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Wrinkles",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Fat",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bald",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Most People Start To Get By The Age Of 35"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthday ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Christmas ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Wedding ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion When You Give A Present"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Expectations",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Mom",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Fiancee",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dancer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dad",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Minister",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Person You Wouldn’t Want See Batchelorette Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Park ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Forest ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Race Track ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place You Might Take A Dog For A Run"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Loud Sounds",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Played Too Much",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Too Long",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Catchy Song",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Too Boring",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why Some TV Commercials Are More Irritating Than Others."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fingers ",
+          59
+        ],
+        [
+          "Mirror ",
+          38
+        ],
+        [
+          "Drill ",
+          25
+        ],
+        [
+          "Scraper ",
+          16
+        ],
+        [
+          "Torch ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Dentists Put In Your Mouth"
+    },
+    {
+      "answers": [
+        [
+          "Many Scratches",
+          30
+        ],
+        [
+          "Strong Smells",
+          28
+        ],
+        [
+          "Hair All Over",
+          25
+        ],
+        [
+          "Lots Of Stains",
+          4
+        ],
+        [
+          "Chewed Up",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Happens To The Furniture Of A Person Who Owns Pets."
+    },
+    {
+      "answers": [
+        [
+          "Bathing",
+          62
+        ],
+        [
+          "Swimming",
+          18
+        ],
+        [
+          "Cooking",
+          14
+        ],
+        [
+          "Dishes",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Activity Don’t You Start Doing Until The Water Gets Warm?"
+    },
+    {
+      "answers": [
+        [
+          "Hot Dogs",
+          36
+        ],
+        [
+          "Pizza",
+          35
+        ],
+        [
+          "Cheesecake",
+          15
+        ],
+        [
+          "Bagels",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food New York Is Famous For."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

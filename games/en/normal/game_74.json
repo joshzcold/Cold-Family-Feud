@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Summer Camp",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Place Where It’s Easy To Make Friends."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bra",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Article Of Clothing That You’d Only Try On In Front Of Someone With Whom You’re Very Comfortable."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Colonel Sanders",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Mashed potatoes",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Coleslaw",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Biscuits",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Corn on the cob",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Secret recipe",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides chicken,name something you associate with Kentucky Fried Chicken."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shop",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cash Check",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something On Payday You Do After Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Map/ GPS",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Change Of Clothes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Family/ Friends",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Would Hate To Go On A Road Trip Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "New York City",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Las Vegas",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Paris",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Los Angeles",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Chicago",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "New Orleans",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Miami",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A City In Which You’d Never Be Bored"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Stocks",
+          39
+        ],
+        [
+          "Savings Account",
+          27
+        ],
+        [
+          "CD",
+          10
+        ],
+        [
+          "Bonds",
+          9
+        ],
+        [
+          "IRA",
+          9
+        ],
+        [
+          "401K",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Financial Expert Tell You To Put Your Money Into?"
+    },
+    {
+      "answers": [
+        [
+          "Coin",
+          44
+        ],
+        [
+          "Pancake",
+          26
+        ],
+        [
+          "Burger",
+          13
+        ],
+        [
+          "Hair",
+          8
+        ],
+        [
+          "House",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific That People Flip"
+    },
+    {
+      "answers": [
+        [
+          "Work",
+          57
+        ],
+        [
+          "School",
+          26
+        ],
+        [
+          "Place Of Worship",
+          6
+        ],
+        [
+          "Doctor’s Office",
+          5
+        ],
+        [
+          "Airport",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Find Yourself Watching The Clock."
+    },
+    {
+      "answers": [
+        [
+          "Pan / Grill / Skillet ",
+          44
+        ],
+        [
+          "Car ",
+          29
+        ],
+        [
+          "Door Hinge ",
+          19
+        ],
+        [
+          "Engine / Motor ",
+          12
+        ],
+        [
+          "Desk ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Grease"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

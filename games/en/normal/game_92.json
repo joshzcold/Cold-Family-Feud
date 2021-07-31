@@ -1,0 +1,311 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Build A Fire",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Hike",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sing Campfire Songs",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sleep In A Tent",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Use A Latrine",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Camper Does While Camping That He Wouldn’t Do At Home."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Cop",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Detective",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Firefighter",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "President",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In Movies, Name An Occupation That’s Almost Always Played By Men"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Go Fish",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Uno",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Old Maid",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "War",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Simple Car Game Surprised People Playing For Money"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pluck ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Dye ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Shave ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Mascara ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Woman Do To Their Eyebrows"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin Pie",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stuffing",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If A Person Doesn’t Cook Well, Which Thanksgiving Food Might They Buy Instead Of Bake?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pray",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Check Parachute",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Scream",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Close Eyes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Take A Deep Breath",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Skydivers Do Before Jumping Out Of The Airplane"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Check On Him",
+          34
+        ],
+        [
+          "Pick Something up",
+          26
+        ],
+        [
+          "He’s Late",
+          22
+        ],
+        [
+          "Emergency/Sick",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Woman Calls Her Husband While He’s Out."
+    },
+    {
+      "answers": [
+        [
+          "Harry Potter",
+          59
+        ],
+        [
+          "Peter Pan",
+          38
+        ],
+        [
+          "Tom Sawyer",
+          25
+        ],
+        [
+          "Huck Finn",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Book Where The Main Hero Is A Kid"
+    },
+    {
+      "answers": [
+        [
+          "Parents",
+          41
+        ],
+        [
+          "Other Parents",
+          27
+        ],
+        [
+          "Friends",
+          17
+        ],
+        [
+          "Books",
+          11
+        ],
+        [
+          "Church",
+          7
+        ],
+        [
+          "Doctor",
+          5
+        ],
+        [
+          "Online",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Do People Usually Seek Parenting Advice?"
+    },
+    {
+      "answers": [
+        [
+          "Wake Up Early",
+          29
+        ],
+        [
+          "Do Exercises",
+          28
+        ],
+        [
+          "Follow Orders",
+          14
+        ],
+        [
+          "Make Bed",
+          10
+        ],
+        [
+          "March",
+          9
+        ],
+        [
+          "Salute",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Were Looking To Get Thrown Out Of Army Boot Camp, Name Something Specific You Might Refuse To Do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

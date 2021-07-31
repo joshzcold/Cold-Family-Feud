@@ -1,0 +1,342 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hamster",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Gerbil",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Mouse",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ferret",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Guinea Pig",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tarantula",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Furry Critter That Kids Keep In Aquariums As Pets"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Iceberg",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Polar Bear",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Whale",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Seal",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Could See On An Alaskan Cruise That You Probably Wouldn’t See On A Caribbean Cruise"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Room Service",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Getting More Towels",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Wake Up Call",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Check Out Time",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Noise",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Phone Message",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Hotel Guest Calls The Front Desk To Ask About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Macy’s",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Saks Fifth Avenue",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bloomingdale’s",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tiffany’s",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "FAO Schwartz",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Barney’s",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Store In New York City."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Poor Vision",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "In Trouble",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Teacher’s Pet",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hear Better",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Attractive Teacher",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Student Might Be Moved To The Front Of The Class"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Has Gray Hair",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Has Facial Hair",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Wealthy",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Handsome",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Smart",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tall",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wears A Suit",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Characteristic Of A Man Who’s Described As “Distinguished.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Toy Department",
+          40
+        ],
+        [
+          "Customer Service",
+          26
+        ],
+        [
+          "Candy Aisle",
+          17
+        ],
+        [
+          "Restroom",
+          11
+        ],
+        [
+          "Clothing Department",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Would You Look First If Your Child Was Lost In The Department Store?"
+    },
+    {
+      "answers": [
+        [
+          "Not Wearing Jacket",
+          34
+        ],
+        [
+          "Germs",
+          26
+        ],
+        [
+          "Not Wearing Shoes",
+          15
+        ],
+        [
+          "No Hat",
+          7
+        ],
+        [
+          "Wet Head",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Moms Warn Their Children Will Make Them Catch A Cold."
+    },
+    {
+      "answers": [
+        [
+          "Play Cards",
+          31
+        ],
+        [
+          "Comic Books",
+          24
+        ],
+        [
+          "Smoke",
+          14
+        ],
+        [
+          "Talk About Girls",
+          11
+        ],
+        [
+          "Eat Snacks",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity That Boys Do In A Tree House"
+    },
+    {
+      "answers": [
+        [
+          "Church ",
+          50
+        ],
+        [
+          "Cinema ",
+          33
+        ],
+        [
+          "Supermarket ",
+          21
+        ],
+        [
+          "Theatre ",
+          14
+        ],
+        [
+          "A Plane ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has An Aisle"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

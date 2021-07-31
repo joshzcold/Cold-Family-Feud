@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pursue A Career",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Have Kids",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Buy A House",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Finish College",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do Most People Hope To Accomplish By The Time They Are 30?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Museum/Gallery",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Zoo",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Gentleman’s Club",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "China Shop",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Visit Where You Aren’t Allowed To Touch Anything."
+    },
+    {
+      "answers": [
+        {
+          "ans": "VIOLIN",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "FLUTE",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "TRUMPET",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "TROMBONE",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "TUBA",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "CELLO",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "SAXOPHONE",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Instrument In An Orchestra"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dye it",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Curl it",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Wash it",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cut it",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Brush it",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Braid it",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something women do to their hair."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Admissions",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Souvenirs",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Parking",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Expect To Pay For At Disneyland"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lifeguard",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Gardening",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Theme Park Employees",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream Vendor",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Construction",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Painter",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job Which Is Busiest In The Summer Time"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hat ",
+          51
+        ],
+        [
+          "Horse ",
+          33
+        ],
+        [
+          "Gun ",
+          22
+        ],
+        [
+          "Boots ",
+          14
+        ],
+        [
+          "Spurs ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Every Cowboy Has"
+    },
+    {
+      "answers": [
+        [
+          "PHYSICAL AFFECTION",
+          45
+        ],
+        [
+          "EATING WELL",
+          29
+        ],
+        [
+          "DRINKING",
+          19
+        ],
+        [
+          "VISITING FAMILY",
+          12
+        ],
+        [
+          "GETTING A JOB",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Prisoner Might Daydream About Doing Once He Is Free"
+    },
+    {
+      "answers": [
+        [
+          "Marriage License",
+          40
+        ],
+        [
+          "Employment Contract",
+          26
+        ],
+        [
+          "Mortgage Loan",
+          17
+        ],
+        [
+          "Divorce",
+          11
+        ],
+        [
+          "Will",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Paper You Were Nervous To Sign"
+    },
+    {
+      "answers": [
+        [
+          "Tomatoes ",
+          49
+        ],
+        [
+          "Meat ",
+          32
+        ],
+        [
+          "Garlic ",
+          21
+        ],
+        [
+          "Peppers ",
+          14
+        ],
+        [
+          "Oregano ",
+          9
+        ],
+        [
+          "Mushrooms ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Spaghetti Sauce"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

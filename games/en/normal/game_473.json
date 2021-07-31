@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Too Hot",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Expensive",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Volcano",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Far Away",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Despite Its Beauty, Name A Reason Why You Wouldn’t Want To Live In Hawaii."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chores",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Drive carefully",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Fill it up",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Make curfew",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Wash it",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that kids promise their parents they’ll do if they’re allowed to borrow the family car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Werinkles",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Aches",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Gray Hair",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sagd",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Happens To Your Body That Lets You Know You’re Getting Old?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hot Dogs",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pudding",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Little Cereal Boxes",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Yogurt",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Comes In Packs Of Six Or More"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Window / Glass ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Lake / Pond ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Polished Steel ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cup ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Apart From A Mirror Name Something You Might See You're Reflection In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cars",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Toilet/Sink",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Refrigerator",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Nose",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Runs, But Doesn’t Have Legs"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Horse ",
+          40
+        ],
+        [
+          "Dog ",
+          26
+        ],
+        [
+          "Snake ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Big Pet"
+    },
+    {
+      "answers": [
+        [
+          "Oil ",
+          49
+        ],
+        [
+          "Battery ",
+          32
+        ],
+        [
+          "Radiator ",
+          21
+        ],
+        [
+          "Engine ",
+          14
+        ],
+        [
+          "Water ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Check Under The Bonnet Of Your Car"
+    },
+    {
+      "answers": [
+        [
+          "Mushroom",
+          29
+        ],
+        [
+          "Meat",
+          17
+        ],
+        [
+          "Garlic",
+          14
+        ],
+        [
+          "Bell Pepper",
+          13
+        ],
+        [
+          "Oregano",
+          8
+        ],
+        [
+          "Onion",
+          6
+        ],
+        [
+          "Basil",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Tomatoes, Name Something You Sometimes Find In Spaghetti Sauce"
+    },
+    {
+      "answers": [
+        [
+          "Big Ears",
+          80
+        ],
+        [
+          "Higher Pitch Voice",
+          7
+        ],
+        [
+          "Costume",
+          5
+        ],
+        [
+          "Tail",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Need If You Were Going To Impersonate Mickey Mouse"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

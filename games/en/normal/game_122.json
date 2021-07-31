@@ -1,0 +1,296 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Good Looks",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Height",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Agent",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stylish Clothes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Strut",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Confidence",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Does A Model Need In Order To Be Successful?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Read",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV/Movies",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Stay In And Do On A Rainy Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lick You",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Bark",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Jump On You",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sniff You",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Annoying That Some Dogs Do When Greeting You."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Furry/Fluffy",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Fat",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Funny",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fast",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Frisky",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Word That Starts With “F” That Best Describes Your Cat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Needle ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Pins ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cotton ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Sewing Basket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Room Service ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Next Door ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "An Escort ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "A Guest ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Might Knock On Your Hotel Room Door"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pirates",
+          36
+        ],
+        [
+          "Treasure",
+          26
+        ],
+        [
+          "Parrot",
+          16
+        ],
+        [
+          "Pirate Flag",
+          7
+        ],
+        [
+          "Sword",
+          5
+        ],
+        [
+          "Plank",
+          4
+        ],
+        [
+          "Rum",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Expect To Find On A Pirate’s Ship"
+    },
+    {
+      "answers": [
+        [
+          "Back ",
+          57
+        ],
+        [
+          "Feet ",
+          37
+        ],
+        [
+          "Shoulders ",
+          24
+        ],
+        [
+          "Head ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of The Body People Like To Have Massaged"
+    },
+    {
+      "answers": [
+        [
+          "Cupcake",
+          41
+        ],
+        [
+          "Cookie",
+          27
+        ],
+        [
+          "(Sweetie) Pie",
+          17
+        ],
+        [
+          "Muffin",
+          11
+        ],
+        [
+          "Honey Bun",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Give A Nickname For A Spouse That Is Also A Dessert"
+    },
+    {
+      "answers": [
+        [
+          "Milk ",
+          43
+        ],
+        [
+          "Bread ",
+          28
+        ],
+        [
+          "Meat ",
+          18
+        ],
+        [
+          "Fruit ",
+          12
+        ],
+        [
+          "Fish ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Does Not Stay Fresh For Long"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

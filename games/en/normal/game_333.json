@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eat",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Scream",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cuddle",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Clap",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Look Up",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Take Pictures",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do While Watching Fireworks"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Event In Your Life Where You’d Be Unhappy If No One Showed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Work ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Act ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Have A Tutor ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Learn Lines ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Make Money ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Child Star Does That The Average Child Doesn't"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dishes",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Gardening",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Scrubbing Toilet",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Painting",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Household Activity That People Wear Gloves While Doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Man On The Moon",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Impersonations",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Comedy",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Jim Carey",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Saturday Night Live",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Andy Kaufman?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rose ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Carnation ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Daisy ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Lily ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Gardenia ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A White Flower"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cavity",
+          38
+        ],
+        [
+          "Drill",
+          30
+        ],
+        [
+          "Root Canal",
+          13
+        ],
+        [
+          "Oops",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Words Do You Dread Hearing At The Dentist’s Office?"
+    },
+    {
+      "answers": [
+        [
+          "Thinking/ Concentrating",
+          53
+        ],
+        [
+          "Headache/ Allergies",
+          24
+        ],
+        [
+          "Praying/ Meditating",
+          8
+        ],
+        [
+          "Something In Eye",
+          5
+        ],
+        [
+          "Contact Lens/ Dry Eyes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Boss Finds You Sleeping On The Job, What Excuse Might You Give For Having Your Closed Eyes?"
+    },
+    {
+      "answers": [
+        [
+          "Go For Walk ",
+          58
+        ],
+        [
+          "Shopping ",
+          38
+        ],
+        [
+          "Sleep ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Does During Lunch Besides Eat"
+    },
+    {
+      "answers": [
+        [
+          "Candy Bar",
+          26
+        ],
+        [
+          "Potato Chips",
+          15
+        ],
+        [
+          "Potatoes",
+          15
+        ],
+        [
+          "fast Food",
+          14
+        ],
+        [
+          "Ice Cream",
+          12
+        ],
+        [
+          "Bread",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Eat A Lot Of If You Needed To Gain A Quick 10 Pounds."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Air Bags",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Seat Belts",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Anti Lock Break",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Child Locks",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Safety Device That Older Cars Didn’t Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Loitering",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "No Parking",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "No Dogs",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "No Swimming",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "No Alcohol",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Closes At Dusk",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Sign You Might See Posted At A Park."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Butter",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Caramel",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something Popcorn Is Covered With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Personal Trainer",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Construction",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bouncer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lifeguard",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Good Day Job For A Body Builder"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stretch",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Get A Massage",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Soak In Hot Tub",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Apply Ice",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Professional Athlete Do Just After A Sports Game To Avoid Getting Sore Muscles?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baseball",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Swimwear",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sports Uniform That Many Men Look Sexy in."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cheeks",
+          29
+        ],
+        [
+          "Eyes",
+          27
+        ],
+        [
+          "Nose",
+          16
+        ],
+        [
+          "Lips",
+          10
+        ],
+        [
+          "Hands",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of A Boxer’s Body That Might Be Swollen After A Match"
+    },
+    {
+      "answers": [
+        [
+          "Skydiving",
+          48
+        ],
+        [
+          "Hunting",
+          16
+        ],
+        [
+          "Flying",
+          14
+        ],
+        [
+          "Rock climbing",
+          14
+        ],
+        [
+          "Car racing",
+          3
+        ],
+        [
+          "Motorcycling",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a dangerous hobby you wouldn’t want your partner to have."
+    },
+    {
+      "answers": [
+        [
+          "Kermit The Frog ",
+          46
+        ],
+        [
+          "Miss Piggy ",
+          30
+        ],
+        [
+          "Fozzy Bear ",
+          20
+        ],
+        [
+          "Swedish Chef ",
+          13
+        ],
+        [
+          "Waldorf & Statler ",
+          8
+        ],
+        [
+          "Sam The Eagle ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Character From The Muppet Show"
+    },
+    {
+      "answers": [
+        [
+          "Earplugs",
+          51
+        ],
+        [
+          "Q Tips",
+          33
+        ],
+        [
+          "Earrings",
+          22
+        ],
+        [
+          "Fingers",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Put In Their Ears"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

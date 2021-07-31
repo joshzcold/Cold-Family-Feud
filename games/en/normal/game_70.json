@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Flowers",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Gift That Adults Often Give To Each Other, That Would Be Weird To Give A Kid"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing/Hum it Through",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Think Of Other Songs",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Go To Sleep",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Have A Conversation",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do To Get Rid Of A Song That’s Stuck In Your Head."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Outside/Alley",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Stairway",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Balcony",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Garage",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When A Person Wants To Sneak A Cigarette, Where Do They Usually Hide"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flowers ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Cards ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Hearts ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Dinner Dates ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Love Songs ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sex ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With Valentines Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken Soup",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Her Kiss",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Castor Oil",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Honey",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Mother Said Would Cure Ailments"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Guitar",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Posters",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Hair Gel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Find In A Punk Rocker’s Bedroom"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bicycle ",
+          43
+        ],
+        [
+          "Motor Cycle ",
+          28
+        ],
+        [
+          "Scooter ",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has 2 Wheels"
+    },
+    {
+      "answers": [
+        [
+          70,
+          31
+        ],
+        [
+          75,
+          26
+        ],
+        [
+          72,
+          16
+        ],
+        [
+          100,
+          6
+        ],
+        [
+          68,
+          6
+        ],
+        [
+          65,
+          4
+        ],
+        [
+          60,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me the average temperature in Fahrenheit at which people set their thermostat.(NUMERIC ONLY)"
+    },
+    {
+      "answers": [
+        [
+          "Clean Your Room",
+          43
+        ],
+        [
+          "Go To Bed",
+          18
+        ],
+        [
+          "Do Your Homework",
+          12
+        ],
+        [
+          "Eat Your vegetables",
+          8
+        ],
+        [
+          "be Quiet",
+          7
+        ],
+        [
+          "Their Name",
+          4
+        ],
+        [
+          "No",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Mom Says That Her Kids Pretend Not To Hear."
+    },
+    {
+      "answers": [
+        [
+          "Water",
+          42
+        ],
+        [
+          "Soda/Coffee Refills",
+          18
+        ],
+        [
+          "Bread",
+          14
+        ],
+        [
+          "Napkins",
+          12
+        ],
+        [
+          "Mints",
+          7
+        ],
+        [
+          "Meals/Samples",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If A Restaurant Was Going Bankrupt, Name Something They Might Stop Giving Away Free."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

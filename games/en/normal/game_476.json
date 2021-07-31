@@ -1,0 +1,349 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Weightlifting",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Hobby You Associate With Macho Men"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hiking",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "watching movies",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "On A Dating Website, What Activity Do People Often List As A Pastime"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stop",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Yeild/Caution",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bo Not Enter",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "No Turns",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "One Way",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dead End",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Phrase On A Traffic Sign That You Could Imagine Seeing On Your In-Laws House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beach",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Aloha",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sunny",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Surfing",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Volcano",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Beautiful",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tropical",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Word That You’d Probably See In A Vacation Brochure For Hawaii"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Potato Chips",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Peanuts",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pretzels",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Salty Food That’s Hard To Stop Eating Once You Start."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gardening",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Skiing",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Surgery",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity Where You Wear Gloves"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money",
+          38
+        ],
+        [
+          "Making Love",
+          22
+        ],
+        [
+          "Vacation/Travel",
+          21
+        ],
+        [
+          "New House",
+          5
+        ],
+        [
+          "Love/Marriage",
+          5
+        ],
+        [
+          "New Car",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Daydream About"
+    },
+    {
+      "answers": [
+        [
+          "Surfing",
+          28
+        ],
+        [
+          "Skinny Dipping",
+          25
+        ],
+        [
+          "Scuba Diving",
+          13
+        ],
+        [
+          "Parasailing",
+          10
+        ],
+        [
+          "Snorkeling",
+          7
+        ],
+        [
+          "Wartersking",
+          4
+        ],
+        [
+          "Jet Sking",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That An Adventurous Person Might Try While At The Beach"
+    },
+    {
+      "answers": [
+        [
+          "Tree ",
+          47
+        ],
+        [
+          "Registration Plate ",
+          31
+        ],
+        [
+          "Memos ",
+          20
+        ],
+        [
+          "Tattoos ",
+          13
+        ],
+        [
+          "Clothes ",
+          8
+        ],
+        [
+          "A Wall ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Would See Someones Initials"
+    },
+    {
+      "answers": [
+        [
+          "Table ",
+          55
+        ],
+        [
+          "Chair ",
+          36
+        ],
+        [
+          "Measure / Ruler ",
+          23
+        ],
+        [
+          "Socks ",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Non Living Object With Feet"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

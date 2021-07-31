@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Letter/Card",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Check",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Signature",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Grocery List",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Write Out By Hand, Instead Of Type."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Watch TV/ Movie",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Snack",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Play Computer Games",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You Do When You Stay Up Late At Night."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rose West ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Dr Crippin ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Fred West ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Myra Hindley ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ian Brady ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jack The Ripper ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous British Serial Killer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Food ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Being Homesick ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Insects / Bugs ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Boredom ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Too Hot ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Too Cold ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Child Might Complain About While At Camp"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bowtie",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Name Tag/ Badge",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cap/ Visor",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Apron",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Work Boots",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hard Hat",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hairnet",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You May Have Once Worn With A Work Uniform, But Wouldn’t Wear For A Night On The Town"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gun",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Briefcase",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Accessory That Might Be Sold With A James Bond Action Figure."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Air Bags",
+          46
+        ],
+        [
+          "Seat Belt",
+          30
+        ],
+        [
+          "CD Player",
+          20
+        ],
+        [
+          "Cruise control",
+          13
+        ],
+        [
+          "Computer",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something cars have today they didnt’ have 50 years ago"
+    },
+    {
+      "answers": [
+        [
+          "Cell Phone",
+          55
+        ],
+        [
+          "Computer",
+          24
+        ],
+        [
+          "TV",
+          11
+        ],
+        [
+          "Microwave",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Electronic Device That You Use Most In A Day"
+    },
+    {
+      "answers": [
+        [
+          "Buy Clothes",
+          27
+        ],
+        [
+          "Save Money",
+          26
+        ],
+        [
+          "Buy Crib",
+          19
+        ],
+        [
+          "Decorate Nursery",
+          11
+        ],
+        [
+          "Have Baby Shower",
+          10
+        ],
+        [
+          "Choose A Name",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Couples Do Months In Advance To Prepare For Having A Baby."
+    },
+    {
+      "answers": [
+        [
+          "Sleep ",
+          45
+        ],
+        [
+          "Read ",
+          29
+        ],
+        [
+          "Bath / Shower ",
+          19
+        ],
+        [
+          "Sing ",
+          12
+        ],
+        [
+          "Computer / Internet ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do When Alone"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

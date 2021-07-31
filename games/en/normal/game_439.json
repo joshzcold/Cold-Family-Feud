@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Jello",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Pudding",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ice cream",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Brownies",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a dessert you’d find in every cafeteria."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing/Songs",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Julie Andrews",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Mountains",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "My Favorite Things",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Children",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Nuns",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With The Movie “The Sound Of Music.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chihuahua ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Poodle ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Dachshund ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cocker Spaniel ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Labrador ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Breed Of Dog That Would Never Scare Away A Burglar"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hand Me Down Clothes",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Treated Like A Baby",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Picked On",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "No Respect",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lack Of Attention",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Downside To Being The Youngest Child In The Big Family."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fight/Arguement",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Housework/Cleaning",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Diet",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Job/Work",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Xmas Shopping",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Don’t Like To Start"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Radio",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Engine",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Friend Snoring",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "On A Road Trip, Name Something That Might Keep You Awake"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Private Investigator",
+          28
+        ],
+        [
+          "Police Officer",
+          25
+        ],
+        [
+          "Lawyer",
+          17
+        ],
+        [
+          "Politician",
+          12
+        ],
+        [
+          "Soldier",
+          8
+        ],
+        [
+          "IRS",
+          3
+        ],
+        [
+          "Doctor",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Occupation Might Someone Have If They Carry A Folder Marked “Top Secret”?"
+    },
+    {
+      "answers": [
+        [
+          "Top Gun ",
+          45
+        ],
+        [
+          "Mission Impossible ",
+          29
+        ],
+        [
+          "Cocktail ",
+          19
+        ],
+        [
+          "Vanilla Sky ",
+          12
+        ],
+        [
+          "War Of The Worlds ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Film Starring Tom Cruise"
+    },
+    {
+      "answers": [
+        [
+          "Feet Or Toes ",
+          57
+        ],
+        [
+          "Back Side ",
+          37
+        ],
+        [
+          "Ears ",
+          24
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Hardest Part Of A Persons Body To Keep Clean"
+    },
+    {
+      "answers": [
+        [
+          "Eggs",
+          32
+        ],
+        [
+          "Spaghetti",
+          25
+        ],
+        [
+          "Mac And Cheese",
+          17
+        ],
+        [
+          "Pizza",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Meal That Most People Can Make Without A Recipe"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

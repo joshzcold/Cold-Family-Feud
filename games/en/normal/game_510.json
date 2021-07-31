@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "French",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Italian",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Spanish",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "British",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Southern",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Australian",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Irish",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Accent That Many Americans Consider Sexy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Las Vegas",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cancun",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "New Oleeans",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "New York",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Amsterdam",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Los Angeles",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place That Single People Travel To For Its Party Atmosphere"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Secretary",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Data Entry",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Accountant",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Writer",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Court Reporter",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Programmer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a job you’d have a hard time doing if you couldn’t type well."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Be Quiet",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Buckle Up",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Sit Down",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Keep Still",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do Parents Instruct Their Children To Do While Riding In The Car?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dive",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Feet First",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Slowly",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Jump Right In",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Ladder",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Stairs",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Way People Might Enter A Swimming Pool"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Argue/Counseling",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Manage Money",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Raise Kids",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Plan A Wedding",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Buy A House",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Stressful That Couples Do Together"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Clothing",
+          26
+        ],
+        [
+          "Shoe Store",
+          16
+        ],
+        [
+          "Bookstore",
+          15
+        ],
+        [
+          "Toy Store",
+          14
+        ],
+        [
+          "Food",
+          13
+        ],
+        [
+          "Department Store",
+          11
+        ],
+        [
+          "Videogame",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Store You’d Find In Just About All Shopping Malls."
+    },
+    {
+      "answers": [
+        [
+          "Bird Watching ",
+          51
+        ],
+        [
+          "At The Races ",
+          33
+        ],
+        [
+          "Spying ",
+          22
+        ],
+        [
+          "On A Boat ",
+          14
+        ],
+        [
+          "At The Theatre ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You May Need Binnoculers"
+    },
+    {
+      "answers": [
+        [
+          "Meat",
+          51
+        ],
+        [
+          "Cheese",
+          37
+        ],
+        [
+          "Salsa",
+          5
+        ],
+        [
+          "Lettuce",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Ingredient That Tacos Would Be No Good Without."
+    },
+    {
+      "answers": [
+        [
+          "Cow",
+          49
+        ],
+        [
+          "Pig",
+          32
+        ],
+        [
+          "Horse",
+          8
+        ],
+        [
+          "Chicken",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The First Animal You Picture When You Think Of A Farm"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

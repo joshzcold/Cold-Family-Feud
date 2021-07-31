@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Lion/Big Cats",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Birds",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Shark",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Whales",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In The Bible, Name A Creature Noah Would Have Had The Hardest Time Capturing Two Of For His Ark."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Backpack ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping Bag ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Tent ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bag ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Backpacker Might Carry"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Star ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Diamond ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Crystal ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "New Coin ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Glitter ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Bright Sparkling Object"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hiss",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Scratch",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Run",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Jump",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Attack",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Arch It’s Back",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Cat Would Probably Do If It Felt Threatened"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Divorce",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Sex/ Affair",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Star",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Scandal",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hot",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pregnant",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Diet/ Weight",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name One Word That You Always See On The Covers Of Celebrity Magazines"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pen/Pencil",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Handkerchief",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Men Put In Their Shirt Pockets"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Easy",
+          35
+        ],
+        [
+          "Cheaper",
+          27
+        ],
+        [
+          "No lines",
+          18
+        ],
+        [
+          "Faster",
+          10
+        ],
+        [
+          "Stay At HOme",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Reason You Like To Shop On Line"
+    },
+    {
+      "answers": [
+        [
+          "Honey",
+          41
+        ],
+        [
+          "Baby",
+          27
+        ],
+        [
+          "You",
+          17
+        ],
+        [
+          "Sweetie",
+          11
+        ],
+        [
+          "Dear",
+          7
+        ],
+        [
+          "Miss/ Sir",
+          5
+        ],
+        [
+          "Darling",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Forgot Your Date’s Name, What Might You Call Them Instead?"
+    },
+    {
+      "answers": [
+        [
+          "Bathrooms",
+          30
+        ],
+        [
+          "Runways",
+          24
+        ],
+        [
+          "Chairs",
+          22
+        ],
+        [
+          "Computers",
+          10
+        ],
+        [
+          "Smoking Areas",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Were Designing An Airport, Name Something You’d Make Sure There Was A Lot Of."
+    },
+    {
+      "answers": [
+        [
+          "Dancing",
+          72
+        ],
+        [
+          "Hula Hoop",
+          15
+        ],
+        [
+          "Running",
+          5
+        ],
+        [
+          "Walking",
+          2
+        ],
+        [
+          "Tai Bo",
+          2
+        ],
+        [
+          "Aerobics",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity That Requires Moving Your Hips."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

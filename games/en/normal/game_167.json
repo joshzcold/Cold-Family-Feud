@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Politics",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "War",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "World Peace",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Religion",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hunger/Poverty",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Global Warming",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Worldly Topic Would You Be Surprised To Learn That Britney Spears And Jessica Simpson Talk About When They’re Alone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Prawns ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Fish ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Crab ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Oysters ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lobster ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Caviar ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Eat At A Seafood Restaurant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing Lullaby",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Rock Them",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Feed Them",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Read To them",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Parent Might Do To Help Their Baby Fall Asleep."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bed",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Toilet",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Inmate",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bars",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You See In A Jail Cell"
+    },
+    {
+      "answers": [
+        {
+          "ans": "BBQ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Sour Cream & Onion",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Vinegar",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ranch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Original",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Flavor Of Potato Chips"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pointy Bra",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Top Hat",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "A Cross",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "dress",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "A Wig",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Madonna Were To Make A Snowman, Name Something She Might Put On It."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smile",
+          45
+        ],
+        [
+          "Fake Laugh",
+          42
+        ],
+        [
+          "Ignore It",
+          7
+        ],
+        [
+          "Groan",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do You Do When Someone Tells A Joke That’s Not Actually Funny?"
+    },
+    {
+      "answers": [
+        [
+          "Germany",
+          25
+        ],
+        [
+          "Ireland",
+          19
+        ],
+        [
+          "USA",
+          17
+        ],
+        [
+          "Canada",
+          14
+        ],
+        [
+          "England",
+          9
+        ],
+        [
+          "Mexico",
+          8
+        ],
+        [
+          "Australia",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Country That Is Known For Their Beer"
+    },
+    {
+      "answers": [
+        [
+          "Alcohol",
+          45
+        ],
+        [
+          "Food",
+          29
+        ],
+        [
+          "Movies",
+          19
+        ],
+        [
+          "Pillows",
+          12
+        ],
+        [
+          "Hot Towel",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Offered To First Class Airline Passesngers"
+    },
+    {
+      "answers": [
+        [
+          "Pear",
+          28
+        ],
+        [
+          "Peach",
+          25
+        ],
+        [
+          "Pinapple",
+          17
+        ],
+        [
+          "Plum",
+          15
+        ],
+        [
+          "Papaya",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit That Starts With The Letter “P.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Thanksgiving",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Sales",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Turkey",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Decoration",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cooler Weather",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Family Gets Together",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You Might Look Forward To November"
+    },
+    {
+      "answers": [
+        {
+          "ans": "PEOPLE",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "BARTENDER",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "LIGHTS",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "DRINKS",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "DJ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "BAND",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "DANCERS",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Or Someone You’d See At A nightclub"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bedspread",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Curtains",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Couch",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Art",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Carpet",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Part Of Hotel Room Furnishings Is Often Tacky"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cry ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Laugh ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "See It Again ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Good Film Might Make You Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lights ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Glow Worms ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Candles ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Stars ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Firefly ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Glows"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Skin",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About A Cartoon Character That Might Be Brightly Colored"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bus ",
+          48
+        ],
+        [
+          "Train ",
+          31
+        ],
+        [
+          "Tram ",
+          20
+        ],
+        [
+          "Milk Float ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Vehicle That Makes Frequent Stops"
+    },
+    {
+      "answers": [
+        [
+          "Stamp ",
+          46
+        ],
+        [
+          "Address ",
+          30
+        ],
+        [
+          "A Message ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Put On A Postcard"
+    },
+    {
+      "answers": [
+        [
+          "Milk",
+          59
+        ],
+        [
+          "Ice Cream",
+          9
+        ],
+        [
+          "Meat",
+          7
+        ],
+        [
+          "Butter",
+          5
+        ],
+        [
+          "Cheese",
+          5
+        ],
+        [
+          "Eggs",
+          3
+        ],
+        [
+          "Vegetables",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Supermarket Keeps Refrigerated Or Frozen."
+    },
+    {
+      "answers": [
+        [
+          "Race Car",
+          29
+        ],
+        [
+          "Truck",
+          28
+        ],
+        [
+          "Motor Cycle",
+          15
+        ],
+        [
+          "Mustang",
+          8
+        ],
+        [
+          "Corvette",
+          6
+        ],
+        [
+          "Hummer",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Vehicle That Has A Loud Engine"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

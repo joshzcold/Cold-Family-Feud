@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Peace",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Environment",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Voting",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Animal Rights",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Poverty",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Abortions",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Gun Or Gun Control",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Cause That A Movie Star Might Support."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pants",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Really Tall Person Has To Think Twice Before Buying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Nerves ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Place ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Romance ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Didn't Turn Up ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Remember About Their First Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Attire",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "lateness",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Personal Calls",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Office Gossip",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Attitude/Behavior",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hygiene",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something An Employee Might Be Scolded About That Isn’t Directly Related To Job Performance."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Breaking News",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Presidential Speech",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Weather alert",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name an event that cuts into regular television programming"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clean",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Decorate",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Get Dressed",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Have A Drink",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Go To The Bathroom",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do Before Party Guests Arrive."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Flippers",
+          48
+        ],
+        [
+          "Oxygen Tank",
+          33
+        ],
+        [
+          "Mask",
+          8
+        ],
+        [
+          "Wet Suit",
+          7
+        ],
+        [
+          "Snorkle",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Deep Sea Divers Wear, That You’d Look Silly Wearing In The Pool."
+    },
+    {
+      "answers": [
+        [
+          "Affair",
+          59
+        ],
+        [
+          "Baldness",
+          15
+        ],
+        [
+          "Lies",
+          8
+        ],
+        [
+          "Bills/Money",
+          8
+        ],
+        [
+          "Gray hair",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something men try to cover up."
+    },
+    {
+      "answers": [
+        [
+          "Their Anniversary",
+          32
+        ],
+        [
+          "When She’s Pregnant",
+          28
+        ],
+        [
+          "On Her Birthday",
+          21
+        ],
+        [
+          "When She’s Sick",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Time When A Man Might Be Extra Caring Toward His Wife"
+    },
+    {
+      "answers": [
+        [
+          "Bed",
+          35
+        ],
+        [
+          "Shower",
+          25
+        ],
+        [
+          "TV",
+          13
+        ],
+        [
+          "Toilet",
+          11
+        ],
+        [
+          "Electricity",
+          4
+        ],
+        [
+          "Air Conditioner",
+          4
+        ],
+        [
+          "Computer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "After A Week Of Camping, What Luxury Oh Home Are You Most Excited To Have Again?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

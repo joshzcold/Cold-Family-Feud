@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drama/Fighting",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Contestants/Celebs",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Romance",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Camaras",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Reality Show Is Incomplete Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pay",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "How Many Kids",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Hours",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Ages Of Kids",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Babysitter Want To Know"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Read",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Manners",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Alphabet",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Training",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Many Parents Want Children Learn Young Age"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Broccoli",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cabbage",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cauliflower",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Asparagus",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Green Beans",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Vegetable That People Like To Steam."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baker",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Perfume Seller",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Florist",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chef",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Spa Employee",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job From Which You Would Come Home Smelling Really Good."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talk",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Dancing, Name Something People Do On The Dance Floor"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fast Food",
+          48
+        ],
+        [
+          "Movie",
+          31
+        ],
+        [
+          "Beach",
+          20
+        ],
+        [
+          "Park",
+          13
+        ],
+        [
+          "Zoo",
+          9
+        ],
+        [
+          "Bowling",
+          6
+        ],
+        [
+          "Bar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "After Getting All Dressed Up, Date Is Taking You"
+    },
+    {
+      "answers": [
+        [
+          "Driver’s License",
+          55
+        ],
+        [
+          "Social Security",
+          25
+        ],
+        [
+          "School ID",
+          9
+        ],
+        [
+          "Credit Card",
+          6
+        ],
+        [
+          "Business Card",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your Wallet That Might Be Used For An ID"
+    },
+    {
+      "answers": [
+        [
+          "Dancer",
+          33
+        ],
+        [
+          "Coach/Teacher",
+          28
+        ],
+        [
+          "Model",
+          16
+        ],
+        [
+          "Motivational Speaker",
+          12
+        ],
+        [
+          "Fitness Instructor",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Good Occupation For A Woman Who Was Head Cheerleader."
+    },
+    {
+      "answers": [
+        [
+          "Wedding ",
+          58
+        ],
+        [
+          "Party ",
+          38
+        ],
+        [
+          "Disco ",
+          25
+        ],
+        [
+          "Dance Contest ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occasion Where People Might Dance"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

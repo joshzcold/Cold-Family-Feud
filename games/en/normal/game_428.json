@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Spider ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Snake ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Rat ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Scorpion ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Piranha ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal That Is Small But Very Dangerous"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Not White Enough",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Hurt",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Crooked",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cavity",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Complaint People Might Have About Their Teeth"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cologne/Aftershave",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Deodorant",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hair Growth Cream",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "According To Commercials, What Product Should A Man Buy In Order To Have Women Flock To Him?"
+    },
+    {
+      "answers": [
+        {
+          "ans": 100,
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": 200,
+          "pnt": 150,
+          "trig": false
+        },
+        {
+          "ans": 300,
+          "pnt": null,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Married People Only: How Many Guests Did You Invite To Your Wedding? Numeric Only Please."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lights",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Santa",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Snowman",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Reindeer",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tree",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You See In Someone’s Yard As A Holiday Decoration."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "School/Work",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Both Have Kids",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Mutual Friiends",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That causes Yo To Become Friends With Someone You Otherwise wouldn’t Have"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Donut",
+          25
+        ],
+        [
+          "Bagel",
+          19
+        ],
+        [
+          "Granola Bar",
+          18
+        ],
+        [
+          "Toast",
+          10
+        ],
+        [
+          "Pop Tart",
+          9
+        ],
+        [
+          "Muffin",
+          7
+        ],
+        [
+          "Fruit",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Eat For Breakfast In The Car On Your Way To Work."
+    },
+    {
+      "answers": [
+        [
+          "Art",
+          33
+        ],
+        [
+          "English",
+          26
+        ],
+        [
+          "Gym",
+          24
+        ],
+        [
+          "Music",
+          5
+        ],
+        [
+          "Cooking",
+          4
+        ],
+        [
+          "Drama",
+          3
+        ],
+        [
+          "Psychology",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Class Do Students Take In College Thinking It Would Be An Easy “A”?"
+    },
+    {
+      "answers": [
+        [
+          "Death",
+          49
+        ],
+        [
+          "A Casket",
+          20
+        ],
+        [
+          "Black Suit",
+          7
+        ],
+        [
+          "A Funeral",
+          6
+        ],
+        [
+          "A Hearse",
+          6
+        ],
+        [
+          "Dig A Ditch",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Associate With An Undertaker."
+    },
+    {
+      "answers": [
+        [
+          "Mickey Mouse",
+          24
+        ],
+        [
+          "Charlie Brown",
+          23
+        ],
+        [
+          "Bart Simpson",
+          15
+        ],
+        [
+          "Bugs Bunny",
+          15
+        ],
+        [
+          "Dennis The Menace",
+          8
+        ],
+        [
+          "Lisa Simpson",
+          5
+        ],
+        [
+          "Scooby Doo",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cartoon Character Who Never Seems To Get Any Older"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sing Carols",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Go To Church",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Trim The Tree",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Visit Family",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wrap Presents",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity People Do On Christmas Eve"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Children",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Needs To Be Fed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teacher",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Food Server",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Therapist",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation You Associate With Having A Positive Attitude"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Affection",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dating",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Romance",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fun",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Flirting",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Usually Stops After A Couple Gets Married"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Feet",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Belly",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Ankles",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Face",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Body Part That Swells On A Pregnant Woman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bottle ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Fuel Tank ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Prescription ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Cup ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Glass ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "A Pen ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something you Refill"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Howard Stern",
+          61
+        ],
+        [
+          "Howard Hughs",
+          14
+        ],
+        [
+          "Howard Cosell",
+          8
+        ],
+        [
+          "Howard johnson",
+          6
+        ],
+        [
+          "Howard The Duck",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Howard."
+    },
+    {
+      "answers": [
+        [
+          "Vacuum",
+          38
+        ],
+        [
+          "Broom",
+          21
+        ],
+        [
+          "Mop",
+          21
+        ],
+        [
+          "Dust Cloth",
+          9
+        ],
+        [
+          "Cleaner",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Housekeeper Uses As Part Of Her Job"
+    },
+    {
+      "answers": [
+        [
+          "Nap",
+          54
+        ],
+        [
+          "Clean",
+          27
+        ],
+        [
+          "Spend Time Togeather",
+          8
+        ],
+        [
+          "Shower",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A New Parent Tries To Do While The Baby Is Napping."
+    },
+    {
+      "answers": [
+        [
+          "Spot",
+          31
+        ],
+        [
+          "Fido",
+          29
+        ],
+        [
+          "Rover",
+          17
+        ],
+        [
+          "Fluffy",
+          8
+        ],
+        [
+          "Spike",
+          5
+        ],
+        [
+          "Buster",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Name You Might Give Your Pet That You’d Hate To Have As Your Name"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

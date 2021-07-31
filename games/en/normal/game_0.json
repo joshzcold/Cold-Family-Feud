@@ -1,0 +1,240 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "TV/Movies",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Pets/Animals",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Could Watch For Hours."
+    },
+    {
+      "answers": [
+        {
+          "ans": "By Mistake",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "For Wife",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Asleep",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hot Actress",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me An Excuse That A Tough Guy Might Give If He Were Caught Watching A Soap Opera"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fish ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Otter ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Crocodile ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Frog ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Newt ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal That Lives In A River"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Couch",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Lounge Chair",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of furniture That’s Too big To Fit In A VW Bug"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Your Windows",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Your Diary/Journal",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Medicine Cabinet/Closet",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Your Purse",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Your Mail",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone Records",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Your Trash",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Only A Nosy Person Would Look Through"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Price Is Right",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Wheel Of Fortune",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Family Feud",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Jeopardy",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gameshow That Has Been Around Forever."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        ["Plus", 25],
+        ["Equal", 19],
+        ["Multiply", 14],
+        ["Divide", 12],
+        ["On/Off", 8],
+        ["Percent", 8],
+        ["Minus", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides numbers,name a button on a calculator"
+    },
+    {
+      "answers": [
+        ["Smoking", 38],
+        ["Camping/Campfire", 27],
+        ["Fireworks", 15],
+        ["Fire Eating", 14]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a Hobby That Would Be Ironic For A Firefighter To Have."
+    },
+    {
+      "answers": [
+        ["Playing Outside", 52],
+        ["Playing Sports", 25],
+        ["Swimming", 18],
+        ["Getting Out Of Bed", 3]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Mom Might Tell Her Kid To Shower After Doing"
+    },
+    {
+      "answers": [
+        ["Mall", 28],
+        ["Hospital", 18],
+        ["Concert", 16],
+        ["Airport", 15],
+        ["Work/Downtown", 14],
+        ["Sporting Event", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Place Where You Often Have To Pay For Parking."
+    }
+  ],
+  "final_round_timers": [20, 25]
+}

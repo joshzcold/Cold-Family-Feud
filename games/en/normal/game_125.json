@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parents Attention",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Siblings Accuse You Hogging"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Complain",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Get Sick",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Never Return",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bad Tip",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Tell Friends",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bad Review",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do After A Bad Restaurant Experience"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nurse ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Doctor ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cleaner ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Porter ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Works In A Hospital"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Outfit",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Man",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hairstyle",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Purse",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Would Hate To Have The Same As Someone Else"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 87,
+          "trig": false
+        },
+        {
+          "ans": "Cranberry Sauce",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Family Dinner",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin Pie",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Associat With Thanksgiving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Priest",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Exorcist",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Ghost Busters",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Psychic",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Movers",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone You Might Call If You Thought Your House Was Haunted."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Romance",
+          40
+        ],
+        [
+          "His feelings",
+          36
+        ],
+        [
+          "Clothes",
+          9
+        ],
+        [
+          "The marriage",
+          5
+        ],
+        [
+          "Finances",
+          4
+        ],
+        [
+          "Parenting",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something that many women wish their husbands could talk about."
+    },
+    {
+      "answers": [
+        [
+          "TV",
+          41
+        ],
+        [
+          "Computer",
+          27
+        ],
+        [
+          "Phone",
+          14
+        ],
+        [
+          "Bathroom",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In A House That A Spoiled Kid Might Have Their Own Of."
+    },
+    {
+      "answers": [
+        [
+          "Free Gift",
+          38
+        ],
+        [
+          "Call Now",
+          28
+        ],
+        [
+          "On Sale",
+          20
+        ],
+        [
+          "Limited Time Offer",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phrase That’s Said In Commercials To Get You To Buy The Product Right Away."
+    },
+    {
+      "answers": [
+        [
+          "Work",
+          37
+        ],
+        [
+          "Tests",
+          20
+        ],
+        [
+          "Schoolwork",
+          18
+        ],
+        [
+          "Reading",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Often Have A Hard Time Concentrating On."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

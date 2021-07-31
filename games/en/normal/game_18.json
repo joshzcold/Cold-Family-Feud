@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Their Age",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Their looks",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "How Much They Weigh",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Occupation",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Marital Status",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Gender",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Lie About In An Internet Chatroom."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawnmower ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Tools ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Shovel / Spade ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Rake ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tractor ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Kept In The Shed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cadillac",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "SUV",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Corvette",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Truck",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Mercedes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Camaro",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hummer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Vehicle People Drive Makes Them Feel Own The Road"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eye Glasses",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "False Teeth",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Alarm Clock",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Change",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Leave On Their Nightstand Before Going To Bed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Chores",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Jury Duty",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Are Often Trying To Get Out Of Doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Comb Hair Over",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Wear Hairpiece",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Dye Different Colors",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Grow It Long",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Man With Very Little Hair Does To Make It Look Like He Has More"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Santa Claus",
+          37
+        ],
+        [
+          "Moses",
+          22
+        ],
+        [
+          "Uncle Sam",
+          20
+        ],
+        [
+          "Kenny Rogers",
+          7
+        ],
+        [
+          "Merlin/Wizard",
+          7
+        ],
+        [
+          "Colonel Sanders",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone, Real Or Fictional, Who Is Known For Having A White Beard."
+    },
+    {
+      "answers": [
+        [
+          "Drive",
+          58
+        ],
+        [
+          "Date",
+          27
+        ],
+        [
+          "Move Out",
+          7
+        ],
+        [
+          "Wear Makeup",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Many Teens Want To Do Before Their Parents Think They Are Ready."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          47
+        ],
+        [
+          "Friends",
+          21
+        ],
+        [
+          "Family",
+          15
+        ],
+        [
+          "Exes",
+          8
+        ],
+        [
+          "Identification",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Would Make You Suspicious If Your Date Said He Didn’t Have Any."
+    },
+    {
+      "answers": [
+        [
+          "Santa Claus",
+          39
+        ],
+        [
+          "Easter Bunny",
+          27
+        ],
+        [
+          "Grinch",
+          12
+        ],
+        [
+          "Ebenezer Scrooge",
+          9
+        ],
+        [
+          "Frosty",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Imagninary Holiday Character Would You Least Like To Have On Your Relay Race Team?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

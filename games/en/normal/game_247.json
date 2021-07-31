@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Apple",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Card",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Mug",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Candle",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Gift A Child May Give To A Teacher For The Holidays"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hotel",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Hospital",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Office Building",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where You Often Find An Elevator."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tattoos",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Get Body Pierced",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Dye Hair",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Shave Head",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Paint Face",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Long Hair",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Facial Hair",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Male Rockstar Might Do To Make Himself Look More Rebellious"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toast",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cereal",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Waffle/Pop Tart",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Breakfast Food You Could Prepare Using Just One Hand."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Titanic",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Lord Of The Rings",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Gone With The Wind",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Harry Potter",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "King Kong",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dances With Wolves",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Really Long Movie"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gravy",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Butter",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Mashed Potatoes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Jelly",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Honey",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Serve With Biscuits."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Skate",
+          70
+        ],
+        [
+          "Play Hockey",
+          9
+        ],
+        [
+          "Fall Down",
+          8
+        ],
+        [
+          "Ice Fish",
+          7
+        ],
+        [
+          "Walk",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do On Ice"
+    },
+    {
+      "answers": [
+        [
+          "Bar",
+          26
+        ],
+        [
+          "Highway",
+          20
+        ],
+        [
+          "Bank",
+          18
+        ],
+        [
+          "Public Transit",
+          9
+        ],
+        [
+          "Shopping Center",
+          9
+        ],
+        [
+          "Grocery Store",
+          7
+        ],
+        [
+          "Restaurant",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That Gets Crowded At The End Of A Work Day"
+    },
+    {
+      "answers": [
+        [
+          "Cutting Hair",
+          46
+        ],
+        [
+          "Shaving",
+          25
+        ],
+        [
+          "Sweeping",
+          12
+        ],
+        [
+          "Standing",
+          7
+        ],
+        [
+          "Making Conversation",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something Specific That A Barber Must Get Sick Of Doing"
+    },
+    {
+      "answers": [
+        [
+          "Hospital",
+          26
+        ],
+        [
+          "Police Station",
+          18
+        ],
+        [
+          "Courthouse",
+          12
+        ],
+        [
+          "Shopping Center",
+          11
+        ],
+        [
+          "Post Office",
+          10
+        ],
+        [
+          "Bank",
+          10
+        ],
+        [
+          "School",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Public Place That You Can Almost Never Park Right In Front Of."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

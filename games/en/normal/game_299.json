@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Obey",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cherish",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Honor",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word Grooms Say They’ll Do At The Alter, But Probably Never Say After The Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snooze",
+          "pnt": 76,
+          "trig": false
+        },
+        {
+          "ans": "Set Alarm",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "AM/FM Switch",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Volume",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Button On A Clock Radio"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sledge ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Ski's ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Snow Board ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Slide Down A Snowy Hill On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Big Foot",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "King Kong",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Godzilla",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "dragon",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Unicorn",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Loch Ness Monster",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Legendary Creature That Would Be A Huge Hit If Featured At The Zoo."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kimono",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Beret",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Kilt",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Serape",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Poncho",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Turban",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sombrero",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing Associated With A Foreign Country."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rope ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Pick ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Boots ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Helmet ",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Mountain Climbing Equipment"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Candles/Lighting",
+          35
+        ],
+        [
+          "Wine",
+          28
+        ],
+        [
+          "Flowers",
+          21
+        ],
+        [
+          "Music",
+          9
+        ],
+        [
+          "Chocolates",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Can Make An Ordinary Dinner Romantic."
+    },
+    {
+      "answers": [
+        [
+          "California Girls",
+          31
+        ],
+        [
+          "Surfin’ USA",
+          21
+        ],
+        [
+          "Good Vibrations",
+          13
+        ],
+        [
+          "Help Me Rhonda",
+          9
+        ],
+        [
+          "Wouldn’t It Be Nice",
+          8
+        ],
+        [
+          "I Get Around",
+          7
+        ],
+        [
+          "Barbara Ann",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Song Made Famous By The Beach Boys"
+    },
+    {
+      "answers": [
+        [
+          "Toast / Food ",
+          42
+        ],
+        [
+          "Wood ",
+          27
+        ],
+        [
+          "Fingers ",
+          18
+        ],
+        [
+          "Candles ",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Burn"
+    },
+    {
+      "answers": [
+        [
+          "Carrot",
+          32
+        ],
+        [
+          "Corn",
+          28
+        ],
+        [
+          "Pumpkin",
+          12
+        ],
+        [
+          "Potato",
+          9
+        ],
+        [
+          "Beet",
+          8
+        ],
+        [
+          "Cauliflower",
+          7
+        ],
+        [
+          "Egg Plant",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Vegetable That Is Not Green"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

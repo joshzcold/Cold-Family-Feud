@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Movie ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "TV ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Book ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Play ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Critic Might Review"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Corn On The Cob",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Apples",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ribs",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Had No Teeth, Tell Me A Food You Couldn’t Eat Anymore."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Buds Bunny",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Charlie Brown",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Mighty Mouse",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Snoopy",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Popeye",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Betty Boop",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Cartoon Character That’s Been Around Forever"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gold Coins",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Parrot",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Eye Patch",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Rum",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Married To A Pirate, What Might You Often Receive For A Gift?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Argue",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Talk On The Phone",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Does A Child Do More Of Once They Become A Teenager?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monday ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Friday ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Saturday ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Thursday ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tuesday ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Day Of The Week Many People Consider To Be The Busiest"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money",
+          54
+        ],
+        [
+          "Lunch",
+          35
+        ],
+        [
+          "Hats",
+          23
+        ],
+        [
+          "Keys",
+          15
+        ],
+        [
+          "Glasses",
+          10
+        ],
+        [
+          "Shoes",
+          6
+        ],
+        [
+          "Jewelry",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Lose On Roller Coaster"
+    },
+    {
+      "answers": [
+        [
+          "Close Your Eyes ",
+          49
+        ],
+        [
+          "Act Like A Dog ",
+          32
+        ],
+        [
+          "Rest ",
+          21
+        ],
+        [
+          "Act Like A Chicken ",
+          14
+        ],
+        [
+          "Give Them Money ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Hypnotist Might Tell You To Do"
+    },
+    {
+      "answers": [
+        [
+          "Kissing",
+          20
+        ],
+        [
+          "Throwing Popcorn",
+          7
+        ],
+        [
+          "Smoking",
+          6
+        ],
+        [
+          "Laughing",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You’d Be Asked To Stop Doing In A Movie Theater"
+    },
+    {
+      "answers": [
+        [
+          "Natural Disaster",
+          30
+        ],
+        [
+          "Romance",
+          18
+        ],
+        [
+          "Just For Fun",
+          13
+        ],
+        [
+          "Moving",
+          12
+        ],
+        [
+          "Fight With Spouse",
+          11
+        ],
+        [
+          "Remodeling",
+          8
+        ],
+        [
+          "Getting Married",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why You Might Stay In A Hotel In Your Own City."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Rat",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Weasel",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Animal A Two Timing Boyfriend Gets Compared To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toy Making",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Gift Wrapping",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Good With kids",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Flight",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What skill might you need on your resume in order to get hired by Santa"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dictionary ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Encyclopedia ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Atlas ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Buy At A Bookshop From The Reference Section"
+    },
+    {
+      "answers": [
+        {
+          "ans": "ER",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "General Hospital",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Grey’s Anatomy",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A TV Show, Past Or Present, That Takes Place In A Hospital"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hat/Headband",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Flapper Dress",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Beads",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wig/Bob",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Feather/Boa",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Wear To A Roaring ’20s Themed Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Police",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "President",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation Not For Partner Too Stressful"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Washing ",
+          57
+        ],
+        [
+          "Ironing ",
+          37
+        ],
+        [
+          "Dishes ",
+          24
+        ],
+        [
+          "Work ",
+          16
+        ],
+        [
+          "Bills / Debts ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Pile Up When You're Feeling Lazy"
+    },
+    {
+      "answers": [
+        [
+          "Road Runner",
+          49
+        ],
+        [
+          "Bugs Bunny",
+          32
+        ],
+        [
+          "Popeye",
+          21
+        ],
+        [
+          "Superman",
+          14
+        ],
+        [
+          "Mighty Mouse",
+          9
+        ],
+        [
+          "Speedy Gonzales",
+          6
+        ],
+        [
+          "Tasmanian Devil",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Cartoon Character Would Make A Good Athlete If Real"
+    },
+    {
+      "answers": [
+        [
+          "Eyes",
+          73
+        ],
+        [
+          "Shoes",
+          9
+        ],
+        [
+          "Smile",
+          4
+        ],
+        [
+          "Muscles",
+          3
+        ],
+        [
+          "Wallet",
+          3
+        ],
+        [
+          "Clothes",
+          3
+        ],
+        [
+          "Butt",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific A Woman Looks At When She First Meets A Man On A Blind Date."
+    },
+    {
+      "answers": [
+        [
+          "Shorter",
+          44
+        ],
+        [
+          "Dislike Full Name",
+          31
+        ],
+        [
+          "Friends/Family Insist",
+          12
+        ],
+        [
+          "Rare Name/Hard To Say",
+          7
+        ],
+        [
+          "Nickname Sounds Cool",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You’d Go By A Nickname Instead Of Your Full Name"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

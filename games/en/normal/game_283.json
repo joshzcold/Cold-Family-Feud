@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Write / Hold Pen ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Hitch Hike ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Tie Shoelaces ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Use Scissors ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Light A Lighter ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Would Be Hard To Do Without A Thumb"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tie",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Tools",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cologne",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If All Else Fails, Name Something People Get For Dad For The Holidays."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pick Nose",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Suck Thumb",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Bite Nails",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lying",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Swearing",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is A Bad Habit A Little Kid Would Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grocery Store",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Bank",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bakery",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Clothing Store",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hair Salon/Barber",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Creating The Perfect Small Town, Name A Type Of Business You’d Probably Have At Least One Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Forget Money",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Always Win",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Cheat",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lose A Lot",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "At The Video Arcade, What Might Your Date Do To Make You Mad"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Gas",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Furniture",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Many people Buy With Credit Card Instead Of Cash"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Peeing",
+          41
+        ],
+        [
+          "Diving",
+          21
+        ],
+        [
+          "Street Clothes",
+          12
+        ],
+        [
+          "Nudity",
+          9
+        ],
+        [
+          "Eating",
+          7
+        ],
+        [
+          "Rafts",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something That’s forbidden In Most Swimming Pools"
+    },
+    {
+      "answers": [
+        [
+          "Dinner ",
+          53
+        ],
+        [
+          "Hotel / Motel ",
+          34
+        ],
+        [
+          "Theatre ",
+          23
+        ],
+        [
+          "Flight ",
+          15
+        ],
+        [
+          "Holiday ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Need A Reservation For"
+    },
+    {
+      "answers": [
+        [
+          "Cloth / Sponge ",
+          58
+        ],
+        [
+          "Toilet ",
+          38
+        ],
+        [
+          "Worktop ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Household Item That Has Lots Of Germs"
+    },
+    {
+      "answers": [
+        [
+          "Coca Cola ",
+          42
+        ],
+        [
+          "Pepsi ",
+          27
+        ],
+        [
+          "Dr Pepper ",
+          18
+        ],
+        [
+          "Tango ",
+          12
+        ],
+        [
+          "Fanta ",
+          7
+        ],
+        [
+          "Lilt ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Brand OF Soft Drink"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

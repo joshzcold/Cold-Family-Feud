@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Baby",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Vegetables",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Balloon",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Charmin Tissue",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You shouldn’t Squeeze too Tightly"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boxing",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Drugs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Rugby",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Hobby Or Activity Could Cause A Man To Have Missing Teeth?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dusting",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Folding Laundry",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Ironing",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mending Clothes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Paying Bills",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Household Chore You Do While Sitting"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toaster",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Blender",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Couples Often Get More Than One Of As Wedding Presents."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Catfish",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Salmon",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Trout",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Red Snapper",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Perch",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Halibut",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Swordfish",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Fish A Restaurant Might Feature As “Catch Of The Day.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Don’t Like Them",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Late",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Owe Them Money",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "It’s Your Ex",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "In Trouble",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why You Might Want To Hide From Someone At Work"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Santa Claus",
+          30
+        ],
+        [
+          "Christmas Tree",
+          23
+        ],
+        [
+          "Candy Cane",
+          13
+        ],
+        [
+          "Snowflakes",
+          12
+        ],
+        [
+          "Snowman",
+          11
+        ],
+        [
+          "Stockings",
+          5
+        ],
+        [
+          "Silver Bells",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Image That Might Appear On Christmas Wrapping Paper"
+    },
+    {
+      "answers": [
+        [
+          "Talk",
+          56
+        ],
+        [
+          "Reality",
+          36
+        ],
+        [
+          "Dating",
+          24
+        ],
+        [
+          "Romantic Drama",
+          16
+        ],
+        [
+          "True Crime",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Tv Show Wouldn’t Want Grandma On"
+    },
+    {
+      "answers": [
+        [
+          "Egg",
+          31
+        ],
+        [
+          "Cheese Sauce",
+          29
+        ],
+        [
+          "Pasta",
+          18
+        ],
+        [
+          "Mashed Potatoes",
+          12
+        ],
+        [
+          "Oatmeal/Cereal",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That You Rinse Off Of A Dish Immediately Or It Becomes Hard As A Rock"
+    },
+    {
+      "answers": [
+        [
+          "Limousine",
+          40
+        ],
+        [
+          "Taxi",
+          37
+        ],
+        [
+          "Bus",
+          13
+        ],
+        [
+          "Carriage",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Vehicle Where You Usually Sit In The Back."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

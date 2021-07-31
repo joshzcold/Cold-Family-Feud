@@ -1,0 +1,292 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sponge ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Soap ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Washcloth ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Dishcloth ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hose ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Needs Has To Be Wet Before It Works"
+    },
+    {
+      "answers": [
+        {
+          "ans": "2 Mins ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "3 Mins ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "5 Mins ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Long People Hold Their Breath For Before They Turn Blue"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Airport",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fire Station",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Highway",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Would You Hate To Live Next To, Because The Noise Would Prevent You From Sleeping?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Illness",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bugs/ Butterflies",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Frogs",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Children Often Catch"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Name",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Father/ Son Might Have The Same"
+    },
+    {
+      "answers": [
+        {
+          "ans": "I Love You",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "I Am Sorry",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "You Are Right",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What 3 Words Cause Argumentative Person Stop Fighting"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Gifts",
+          41
+        ],
+        [
+          "Eat Sweets",
+          21
+        ],
+        [
+          "Party",
+          15
+        ],
+        [
+          "Time With Family",
+          13
+        ],
+        [
+          "Sing",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do On Christmas And Your Birthday"
+    },
+    {
+      "answers": [
+        [
+          "Home",
+          50
+        ],
+        [
+          "Car",
+          38
+        ],
+        [
+          "Movies",
+          7
+        ],
+        [
+          "Tuxedo",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Rent"
+    },
+    {
+      "answers": [
+        [
+          "Exercise",
+          44
+        ],
+        [
+          "Eat",
+          35
+        ],
+        [
+          "Talk",
+          8
+        ],
+        [
+          "Work",
+          8
+        ],
+        [
+          "Sleep",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me An Activity That Some People Are Told To Do More Of, And Others Are Told To Do Less."
+    },
+    {
+      "answers": [
+        [
+          "Socks",
+          48
+        ],
+        [
+          "Sweater/Sweatsuit",
+          18
+        ],
+        [
+          "Flannel PJs",
+          16
+        ],
+        [
+          "Long Johns",
+          7
+        ],
+        [
+          "Robe",
+          5
+        ],
+        [
+          "Hat",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific You Might Wear To Bed If You’re Really Cold"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

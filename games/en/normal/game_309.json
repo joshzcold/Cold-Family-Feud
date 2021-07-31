@@ -1,0 +1,357 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Spin The Bottle",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Twister",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Quarters",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cards",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Game Teenagers Play At Parties"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Postcards",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Magazine",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Greeting cards",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that’s sold at an airport gift shop."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birds ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Alarm ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Rooster ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Dogs ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Radio ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Noise You Hear First Thing In The Morning"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Skittles",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "M&M",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lifesavers",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Starburst",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Now & Laters",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Taffy",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Jolly Ranchers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Candy That Comes In Different Colors"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eating Sweets",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Watch Shows",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Walk Around",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Watch Parade",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Take Pictures/Video",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Disney Characters",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Go On Rides, Name Something People Do At disneyland"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oyster ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Crab ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Lobster ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Caviar ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Prawns ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Seafood Delicacy"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smoke",
+          50
+        ],
+        [
+          "Flirt",
+          33
+        ],
+        [
+          "Talk Too Much",
+          21
+        ],
+        [
+          "Get Drunk",
+          14
+        ],
+        [
+          "Burp",
+          9
+        ],
+        [
+          "Stare",
+          6
+        ],
+        [
+          "Get Too Loud",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Sitting Next To You At A Bar Might Do To Annoy You."
+    },
+    {
+      "answers": [
+        [
+          "Strange Appearance",
+          19
+        ],
+        [
+          "Weird Eyes",
+          18
+        ],
+        [
+          "Large Ears",
+          7
+        ],
+        [
+          "Antennas",
+          6
+        ],
+        [
+          "Speech",
+          6
+        ],
+        [
+          "He can Fly",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name A Way You Might Be Able to Tell Your Baby Is really An Alien"
+    },
+    {
+      "answers": [
+        [
+          "Waitstaff",
+          50
+        ],
+        [
+          "Medical Worker",
+          33
+        ],
+        [
+          "Cop",
+          21
+        ],
+        [
+          "Construction",
+          14
+        ],
+        [
+          "Athlete",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me An Occupation Where You Wouldn’t Wear High Heels"
+    },
+    {
+      "answers": [
+        [
+          "Teachers",
+          51
+        ],
+        [
+          "Principal",
+          33
+        ],
+        [
+          "Homework",
+          22
+        ],
+        [
+          "Rules",
+          14
+        ],
+        [
+          "Tests",
+          9
+        ],
+        [
+          "Detention",
+          6
+        ],
+        [
+          "Bell",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Students Ran Schools,Name Some Things They Would Probably Get Rid Of"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

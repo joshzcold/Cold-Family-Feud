@@ -1,0 +1,300 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Twigs",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Mud",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Leaves",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Grass",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Straw",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Substance Of Which Animals Make Home Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flour ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Oven ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Eggs ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tin ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ingredients ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Need To Bake A Cake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Too Loud",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Not Romantic",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Too Expensive",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Parents Disapprove",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why You Wouldn’t Want Metallica As Your Wedding Band"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bear ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Goldfish ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Elephant ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Win At A Fairground"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Principal",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Detention",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Time Out",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Reform School",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Where Might A Child Be Sent If Misbehaving In School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Broom",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Mop",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Plunger",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Brush",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If you heard a thump in the night,which cleaning tool might you grab for protection?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tight Rope",
+          43
+        ],
+        [
+          "Trapeze",
+          28
+        ],
+        [
+          "Taming Lion",
+          12
+        ],
+        [
+          "Sword Swallowing",
+          9
+        ],
+        [
+          "Eating Fire",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Circus Performer’s Parents Would Cringe At Seeing Him Perform."
+    },
+    {
+      "answers": [
+        [
+          "BASEMENT",
+          48
+        ],
+        [
+          "CORNER",
+          31
+        ],
+        [
+          "ATTIC",
+          20
+        ],
+        [
+          "SPIDER WEB",
+          13
+        ],
+        [
+          "CLOSET",
+          9
+        ],
+        [
+          "CEILING",
+          6
+        ],
+        [
+          "GARAGE",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Somewhere You Would Look If You Wanted To Find A Spider"
+    },
+    {
+      "answers": [
+        [
+          "Bob ",
+          40
+        ],
+        [
+          "Ben ",
+          26
+        ],
+        [
+          "Dan ",
+          17
+        ],
+        [
+          "Jim ",
+          11
+        ],
+        [
+          "Tim ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Give Me A Mans Name That Is Only 3 Letters Long"
+    },
+    {
+      "answers": [
+        [
+          "Babbermouth",
+          39
+        ],
+        [
+          "Big Mouth",
+          31
+        ],
+        [
+          "Motormouth",
+          23
+        ],
+        [
+          "Chatterbox",
+          4
+        ],
+        [
+          "Gossip",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Name People Use To Describe Someone Who Talks To Much"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Knockers ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Numbers ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Letterbox ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bell ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Lock ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Handle ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See On A Front Door"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Construction",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Firefighter",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Army",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Farmer",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Profession Where You Get To Wear Boots All Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sky ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ocean ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Blueberries ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Eyes ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Flowers ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Blue"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wall",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "School Desk",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Skin",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Kid Get In Trouble For Writing On?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coat",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sweater",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Long Johns",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Moms Make Their Kids Wear In The Winter."
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Bed",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Room Service",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Running Water",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "A TV",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "A Pool",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Finish This Sentence: I’d Never Stay In A Hotel That Didn’t Have _____."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Flying Umbrella",
+          44
+        ],
+        [
+          "Sing",
+          23
+        ],
+        [
+          "Dance",
+          8
+        ],
+        [
+          "Spoonful Of sugar",
+          7
+        ],
+        [
+          "British Accent",
+          6
+        ],
+        [
+          "Babysit",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Wanted To Impersonate Mary Poppins, What Would You Do?"
+    },
+    {
+      "answers": [
+        [
+          "Sleep ",
+          44
+        ],
+        [
+          "Read ",
+          29
+        ],
+        [
+          "Watch Tv ",
+          19
+        ],
+        [
+          "Sing ",
+          12
+        ],
+        [
+          "Stay Indoors ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do When It Rains"
+    },
+    {
+      "answers": [
+        [
+          "Donut",
+          51
+        ],
+        [
+          "Cereal",
+          33
+        ],
+        [
+          "Bagel",
+          22
+        ],
+        [
+          "Hard Candy",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Food That Has A Hole In The Middle."
+    },
+    {
+      "answers": [
+        [
+          "Birthday ",
+          57
+        ],
+        [
+          "Christmas ",
+          37
+        ],
+        [
+          "New Baby ",
+          24
+        ],
+        [
+          "Sympathy ",
+          16
+        ],
+        [
+          "New Job ",
+          10
+        ],
+        [
+          "Get Well ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Send Someone A Card"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

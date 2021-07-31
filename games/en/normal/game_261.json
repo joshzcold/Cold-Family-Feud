@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "E Mail",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bank Account",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Credit Card",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Voice Mail",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Know Your Partner’s Password For"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pool",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Swimsuit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Net",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Goggles",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Need If You Wanted To Play A Game Of Water Polo."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paycheck",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Package",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Cards",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Letters",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Look Forward To Getting In The Mail."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tails",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Nine Lives",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Fur",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Whiskers",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "4 Feet",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Claws",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Cats Have That People Don’t"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pedals",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "seat",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wheels",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Handlebars",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Chain",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bell",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Brakes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Part Of A Bicycle That Would Be Tough To Ride Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "French Fries",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sandwich",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food You Eat With Your Fingers"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Blood/Injury",
+          42
+        ],
+        [
+          "Finances",
+          2
+        ],
+        [
+          "Your Weight",
+          16
+        ],
+        [
+          "Grades",
+          10
+        ],
+        [
+          "Scary Movie",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Take A Deep Breath Before Looking At"
+    },
+    {
+      "answers": [
+        [
+          "Builder ",
+          45
+        ],
+        [
+          "Policeman ",
+          29
+        ],
+        [
+          "Fireman ",
+          19
+        ],
+        [
+          "Beefeater ",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation Where You Have To Wear A Hat"
+    },
+    {
+      "answers": [
+        [
+          "Read A Magazine",
+          77
+        ],
+        [
+          "Watch TV",
+          9
+        ],
+        [
+          "Sleep",
+          8
+        ],
+        [
+          "Eat",
+          2
+        ],
+        [
+          "Watch A Clock",
+          2
+        ],
+        [
+          "Talk",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do While They’re Waiting For The Doctor."
+    },
+    {
+      "answers": [
+        [
+          "Pilot",
+          31
+        ],
+        [
+          "Doctor",
+          25
+        ],
+        [
+          "Driver",
+          21
+        ],
+        [
+          "Umpire",
+          16
+        ],
+        [
+          "Police Officer",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job Where You’d Need Great Vision."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

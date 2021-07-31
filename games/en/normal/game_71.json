@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Celebrity",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Advice Columnist",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Profession Where You May Receive Lots Of Mail From Strangers."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Getting Let Go",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Promotion/Raise",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lateness",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Warning/Reprimand",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Have A Meeting",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Boss Calls An Employee Into His Office."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Dog ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Pig ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Anteater ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal You Can Recognise Just By Its Nose"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nurse",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dancer",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Waitress",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Secretary",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation Where Women Are Often Portrayed As Sexy?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stereo",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "GPS",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioning",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Seat Belts",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Air Bags",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something In Cars Now That You Can’t Believe People Once Went Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Tree",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Gifts/Gift Wrap",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Ornaments/Figurines",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Lights",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Turkey/Bones",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stockings",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That You Don’t Want Your Dog To Chew On Over The Holidays"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Deal",
+          53
+        ],
+        [
+          "Fold",
+          34
+        ],
+        [
+          "Pass",
+          23
+        ],
+        [
+          "Uno",
+          15
+        ],
+        [
+          "Hit",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A One Word Term People Use Playing Cards"
+    },
+    {
+      "answers": [
+        [
+          "Food",
+          40
+        ],
+        [
+          "Car",
+          26
+        ],
+        [
+          "Cable TV",
+          17
+        ],
+        [
+          "Cell Phone",
+          11
+        ],
+        [
+          "Vacation",
+          7
+        ],
+        [
+          "Shopping",
+          5
+        ],
+        [
+          "Coffee",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Luxuries Are People Least To Give Up When On A Budget"
+    },
+    {
+      "answers": [
+        [
+          "Pizza",
+          40
+        ],
+        [
+          "Hot Dog",
+          32
+        ],
+        [
+          "Hamburger",
+          11
+        ],
+        [
+          "Spaghetti",
+          6
+        ],
+        [
+          "Meatloaf",
+          5
+        ],
+        [
+          "Sloppy Joe",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a Meal You’d Never Serve At a Fancy Party"
+    },
+    {
+      "answers": [
+        [
+          "Nose",
+          47
+        ],
+        [
+          "Shoes",
+          31
+        ],
+        [
+          "Makeup",
+          20
+        ],
+        [
+          "Wig",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Part Of Uniform Clown Hates Putting On"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

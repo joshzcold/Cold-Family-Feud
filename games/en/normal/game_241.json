@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "An Envelope ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "A Letter ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Licence ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Form ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Suitcase ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Put Your Name And Address On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Busy",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bad Mood",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Stuck Up",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tired",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "No Pen",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "With Family",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Celeb Might Refuse To Sign An Autograph"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Undress",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Wait",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Open Mouth",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bend Over",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Urine Sample",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Be Asked To Do At The Doctor’s Office"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Lose Money",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Play Cards",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Scream",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sweat",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do While They’re Gambling."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Thanksgiving",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "New Year’s",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Halloween",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "4th Of July",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Most Stressful Holiday."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kangaroo",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Koala",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Dingo",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Desert",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’re More Likely To See In Australian Than Elsewhare."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Convict",
+          24
+        ],
+        [
+          "Con Artist/Con Man",
+          22
+        ],
+        [
+          "Contest",
+          16
+        ],
+        [
+          "Contract",
+          13
+        ],
+        [
+          "Construction",
+          7
+        ],
+        [
+          "Connect",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word That Begins With “Con.”"
+    },
+    {
+      "answers": [
+        [
+          "Eggs",
+          34
+        ],
+        [
+          "Rice",
+          19
+        ],
+        [
+          "Mac And Cheese",
+          11
+        ],
+        [
+          "Soup",
+          10
+        ],
+        [
+          "Spaghetti",
+          10
+        ],
+        [
+          "Frozen Pizza",
+          8
+        ],
+        [
+          "Cookies",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food You Cook For Which You Don’t Need To Read A Recipe"
+    },
+    {
+      "answers": [
+        [
+          "Four Leaf Clover",
+          38
+        ],
+        [
+          "Rabbit’s Foot",
+          38
+        ],
+        [
+          "Horseshoe",
+          14
+        ],
+        [
+          "Penny",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Object Considered To Be Good Luck"
+    },
+    {
+      "answers": [
+        [
+          "Store",
+          33
+        ],
+        [
+          "Restaurant",
+          18
+        ],
+        [
+          "Park",
+          16
+        ],
+        [
+          "Hotel",
+          12
+        ],
+        [
+          "Work",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Might A Pet Lover Think Their Dog Should Be Allowed?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

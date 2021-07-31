@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ball ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Birds ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Waves ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Crabs ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Each Other ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Children Chase At The Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sneaking Out",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Shoplifting",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Skipping School",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Smoking/Drinking",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Making A Mess",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Naughty That Children Living In The White House Would Never Be Able To Get Away With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Cash/Credit",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Using Mail",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "To Keep Records",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Post Dated",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You’d Write A Check Instead Of Using Cash Or A Credit Card."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Halloween",
+          "pnt": 64,
+          "trig": false
+        },
+        {
+          "ans": "Easter",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Day When Kids Get A Lot Of Candy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Relationship",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Marriage",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Ex Girlfriends",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Maternity",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Young Man Would Not Want To Talk To A Girlfriend’s Father About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Television",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Couch",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Refrigerator",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Item In Your House That’s Too Big To Throw Away In The Trash Can"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Point",
+          63
+        ],
+        [
+          "Pick Nose",
+          23
+        ],
+        [
+          "Apply Makeup",
+          6
+        ],
+        [
+          "Wear A Ring",
+          4
+        ],
+        [
+          "Scratch",
+          2
+        ],
+        [
+          "Dial A Phone",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do With Their Index Fingers"
+    },
+    {
+      "answers": [
+        [
+          "Scalpel ",
+          55
+        ],
+        [
+          "Nurses ",
+          36
+        ],
+        [
+          "Patient ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Surgeon Keeps Close When He Operates"
+    },
+    {
+      "answers": [
+        [
+          "Song",
+          61
+        ],
+        [
+          "Voice",
+          13
+        ],
+        [
+          "Photo",
+          9
+        ],
+        [
+          "Movie",
+          6
+        ],
+        [
+          "Name",
+          5
+        ],
+        [
+          "Car",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See Or Hear That Reminds You Of An Ex."
+    },
+    {
+      "answers": [
+        [
+          "Re Boot",
+          49
+        ],
+        [
+          "Walk Away",
+          29
+        ],
+        [
+          "Yell",
+          11
+        ],
+        [
+          "Curse",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do When Your Computer Freezes Up."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

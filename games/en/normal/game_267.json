@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Magazines",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "News Papers",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Road Signs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Poems",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Billboards",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Books, Name Something People Read."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Talk Show",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Self Esteem",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Charisma",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Style",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Oprah Winfrey Has That The Average Woman Admires."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Tools ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lawn Mower ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Junk ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Boxes ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Store In A Garage"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Upset",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Stock Up",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Complain",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Switch Brands",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Would Do If You Heard That Your Favorite Cereal Was Discontinued"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pink",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Blue",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Yellow",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Green",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Color Baby Clothes Comes in."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sink",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Toilet",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Would Not Want To Drop Your Wedding Ring Into."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Brush Teeth",
+          42
+        ],
+        [
+          "Shower",
+          27
+        ],
+        [
+          "Makeup",
+          18
+        ],
+        [
+          "Fixing Hair",
+          12
+        ],
+        [
+          "Getting Dressed",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Part Of Your Morning Routine Won’t Leave Home Without Doing"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          34
+        ],
+        [
+          "Money",
+          34
+        ],
+        [
+          "Luggage",
+          4
+        ],
+        [
+          "Dictionary",
+          4
+        ],
+        [
+          "Date Book",
+          3
+        ],
+        [
+          "Back Pack",
+          2
+        ],
+        [
+          "A Trip",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Good Gift For A High School Graduate"
+    },
+    {
+      "answers": [
+        [
+          "Clean",
+          26
+        ],
+        [
+          "Lock Door",
+          18
+        ],
+        [
+          "Pat Rent",
+          17
+        ],
+        [
+          "Flush Toilet",
+          11
+        ],
+        [
+          "Turn Off lights",
+          9
+        ],
+        [
+          "Shower/Bathe",
+          7
+        ],
+        [
+          "Take Out The Trash",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Would Be Annoying For Your Roommate To Forget To Do."
+    },
+    {
+      "answers": [
+        [
+          "Some Don’t Believe",
+          33
+        ],
+        [
+          "Special Occasions",
+          26
+        ],
+        [
+          "Bring Gifts",
+          18
+        ],
+        [
+          "Kids Love Them",
+          13
+        ],
+        [
+          "Visit At Night",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do Santa Claus, Easter Bunny, And The Tooth Fairy Have In Common?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

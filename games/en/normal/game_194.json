@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Talk",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Spend",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "swear",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Complete This Sentence. I Could Never Date Someone Who ___s Too Much."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flower",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Battlefield",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "River",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Love Gets Compared To In Pop Songs."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Telemarketer",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Receptionist",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Job That Requires You To Talk All Day Long"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Suit",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tutu",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pants",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Wrestler Would Probably Never Wear During A Match?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Earthquake",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Fires",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Crime",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Mudslides",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Having Enough Money",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sunburn",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Smog",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People In California Might Worry About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jell O",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Yogurt",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Apple Sauce",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Mac & Cheese",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Popular Children’s Food That’s Sold In Cups"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleeping",
+          69
+        ],
+        [
+          "Reading",
+          15
+        ],
+        [
+          "Getting A Word In",
+          7
+        ],
+        [
+          "NMusic/Movie",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would The Chatterbox Next To You Keep You From Doing On An Airplane?"
+    },
+    {
+      "answers": [
+        [
+          "CAPE",
+          41
+        ],
+        [
+          "TIGHTS",
+          32
+        ],
+        [
+          "MASK",
+          17
+        ],
+        [
+          "WEAPON",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Wear Every Day To Feel Like A Superhero"
+    },
+    {
+      "answers": [
+        [
+          "Cake Top",
+          63
+        ],
+        [
+          "Pictures",
+          11
+        ],
+        [
+          "Ring",
+          8
+        ],
+        [
+          "Dress",
+          6
+        ],
+        [
+          "Matchbook",
+          3
+        ],
+        [
+          "Flowers",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Married Couple Saves From Their Wedding Day."
+    },
+    {
+      "answers": [
+        [
+          "Superman",
+          50
+        ],
+        [
+          "Captain America",
+          29
+        ],
+        [
+          "Spider Man",
+          11
+        ],
+        [
+          "Wonder Woman",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Comic Book Hero That Wears A Red, White And Blue Costume."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

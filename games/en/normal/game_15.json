@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Boots",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Saddles",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Rope",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Spurs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See At A Cowboy’s Yard Sale."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Name",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Address",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Phone Number",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Owner’s Name",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Reward",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Piece Of Information That Might Be On A Dog’s Tag."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ant",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Beaver",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bee",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Creature Who Would Be Rich If They Were Paid For All The Work They Seem To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Happiness",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Health",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Friendship",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than Love, Name Something That “Money Can’t Buy”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Accident",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Break Down",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Flat Tire",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Rain",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Run Out Of Gas",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Hate To Have Happen When Driving Home In A Brand New Car?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trees",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Trash Can",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "plants",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Swing Set",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Umbrella",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chairs",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Knocked Over When Its Really Windy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Turns Skin Green",
+          56
+        ],
+        [
+          "Bite It/Bendable",
+          30
+        ],
+        [
+          "Scratches Easily",
+          8
+        ],
+        [
+          "Have It Appraised",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Can You Tell The Jewelry Your Partner Gives You Is Made Of Fake Gold?"
+    },
+    {
+      "answers": [
+        [
+          "Smoking",
+          64
+        ],
+        [
+          "Drinking",
+          12
+        ],
+        [
+          "Biting Nails",
+          7
+        ],
+        [
+          "Gambling",
+          7
+        ],
+        [
+          "Shopping",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Habit That Would Be Impossible To Hide From Your Spouse"
+    },
+    {
+      "answers": [
+        [
+          "Exorcist",
+          26
+        ],
+        [
+          "Scream",
+          19
+        ],
+        [
+          "Psycho",
+          15
+        ],
+        [
+          "Halloween",
+          13
+        ],
+        [
+          "The Ring",
+          12
+        ],
+        [
+          "Friday The 13th",
+          9
+        ],
+        [
+          "The Shining",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Movie Would You Never Watch Alone?"
+    },
+    {
+      "answers": [
+        [
+          "Purring",
+          47
+        ],
+        [
+          "Meows",
+          31
+        ],
+        [
+          "Whiskers",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Sign That Girlfriend Is Turning Into A Cat"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

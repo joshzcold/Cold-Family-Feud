@@ -1,0 +1,362 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Socks ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Underwear ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Jeans ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Tee Shirt ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Shirt ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Wear Even If It Has A Hole"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teacher",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Food Server",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Therapist",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Occupation With Positive Attitude"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Write/Type",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Snap/Clap",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bite Nails",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Count",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cross Them",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Point",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do With Your Fingers But Not Your Toes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toy",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Tooth",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Game",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Child Might Cry Over Losing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "New York",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Chicago",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Los Angeles",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Las Vegas",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A City Associated With Organized Crime"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dentist",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mechanic",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant Worker",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Has To Wash Their Hands Frequently."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Crayon",
+          38
+        ],
+        [
+          "Ruler",
+          25
+        ],
+        [
+          "Pencil/Eraser",
+          18
+        ],
+        [
+          "Paste/Glue",
+          11
+        ],
+        [
+          "Compass",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A School Supply That You Haven’t Used Since You Were Young."
+    },
+    {
+      "answers": [
+        [
+          "Meat",
+          44
+        ],
+        [
+          "Mayonnaise",
+          29
+        ],
+        [
+          "Dressing",
+          19
+        ],
+        [
+          "Cheese",
+          12
+        ],
+        [
+          "Fries/ Chips",
+          8
+        ],
+        [
+          "Butter",
+          5
+        ],
+        [
+          "Dessert",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Health Nut Order Lunch Without"
+    },
+    {
+      "answers": [
+        [
+          "Use Coupons",
+          30
+        ],
+        [
+          "Talk",
+          20
+        ],
+        [
+          "Write Check",
+          16
+        ],
+        [
+          "Price Check",
+          9
+        ],
+        [
+          "Count Change",
+          6
+        ],
+        [
+          "Read Magazines",
+          4
+        ],
+        [
+          "Buy Too Many Items",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Does That Slows Down The Checkout Line At The Supermarket"
+    },
+    {
+      "answers": [
+        [
+          "Beer",
+          35
+        ],
+        [
+          "Milk",
+          26
+        ],
+        [
+          "Soda",
+          14
+        ],
+        [
+          "Coffee",
+          13
+        ],
+        [
+          "Milkshake",
+          8
+        ],
+        [
+          "Juice",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Drink That Tastes Disgusting When It’s Warm."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

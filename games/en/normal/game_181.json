@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Flowers",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Women: Name A Gift That You’d Always Be Happy To Get From Your Partner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kidney",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Appendix",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Gall Bladder",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lung",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Spleen",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Organ People Might Have Removed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat/Drink",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Use The Bathroom",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Move Around/Exercise",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Breathe",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific That Must Be Really Hard For Astronauts To Do While In Space."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Performance",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sporting Event",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Speech",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sit Com/TV",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Party",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Instance In Which You’d Hear Applause"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Homework ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "School ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bed Time ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Hungry ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Boredom ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Children Always Complain About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Wings",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Chinese",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Best Food To Go Out For On Friday Night"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Snuggle",
+          28
+        ],
+        [
+          "Drink Hot Cocoa",
+          25
+        ],
+        [
+          "Build A Fire",
+          25
+        ],
+        [
+          "Turn Up Heat",
+          7
+        ],
+        [
+          "Wear A Coat",
+          7
+        ],
+        [
+          "Exercise",
+          4
+        ],
+        [
+          "Blanket",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do To Keep Warm In The Winter."
+    },
+    {
+      "answers": [
+        [
+          "Whistle ",
+          47
+        ],
+        [
+          "Red Card ",
+          31
+        ],
+        [
+          "Yellow Card ",
+          20
+        ],
+        [
+          "Notebook ",
+          13
+        ],
+        [
+          "Pen / Pencil ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Referee Carries With Him"
+    },
+    {
+      "answers": [
+        [
+          "Mean",
+          52
+        ],
+        [
+          "Lazy",
+          34
+        ],
+        [
+          "Micomanages",
+          22
+        ],
+        [
+          "Pay Too Little",
+          14
+        ],
+        [
+          "Bad Mood",
+          9
+        ],
+        [
+          "Has Favorites",
+          6
+        ],
+        [
+          "Snobby",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Complaint Many People Have About Bosses"
+    },
+    {
+      "answers": [
+        [
+          "Daffodil ",
+          44
+        ],
+        [
+          "Dandelion ",
+          29
+        ],
+        [
+          "Buttercup ",
+          19
+        ],
+        [
+          "Sunflower ",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Yellow Flower"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

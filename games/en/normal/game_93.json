@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cars",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Airplanes",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Legos",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Trucks",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Trains",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Buildings",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Little Boys Love To Build Models Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Love",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Intimacy",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Companionship",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Money/ Security",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In One Word, What’s The Best Thing About Being Married?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Baked Goods",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Card",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Gift card",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hugs/Kiss",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Christmas “Gift” Can You Give Someone, Without Going Shopping?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Weapon",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Mask",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Flashlight",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Might Find In A Bankrobber’s Suitcase."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Movies",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Actress",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Antonio Banderas",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Don Johnson",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Blonde Hair",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "NameSomething Associated With Melanie Griffith"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Size",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "The Price",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "If It’s Real",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Quality",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Look For When Choosing A Diamond."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Food ",
+          54
+        ],
+        [
+          "Clothes ",
+          35
+        ],
+        [
+          "Cups ",
+          23
+        ],
+        [
+          "Plates ",
+          15
+        ],
+        [
+          "Beans ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Keep In A Cupboard"
+    },
+    {
+      "answers": [
+        [
+          "Trees ",
+          53
+        ],
+        [
+          "Other People ",
+          34
+        ],
+        [
+          "Boat ",
+          23
+        ],
+        [
+          "Avalanche ",
+          15
+        ],
+        [
+          "Flag ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something To Watch Out For While Skiing"
+    },
+    {
+      "answers": [
+        [
+          "Mall/Store",
+          31
+        ],
+        [
+          "Train/Bus Stop",
+          23
+        ],
+        [
+          "Airport",
+          12
+        ],
+        [
+          "Bar",
+          11
+        ],
+        [
+          "Work Job",
+          9
+        ],
+        [
+          "Restaurant",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Place Where You See People Killing Time."
+    },
+    {
+      "answers": [
+        [
+          "Chameleon ",
+          53
+        ],
+        [
+          "Sky ",
+          34
+        ],
+        [
+          "Hair ",
+          23
+        ],
+        [
+          "Leaves ",
+          15
+        ],
+        [
+          "Flowers ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Changes Colour"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Gamble",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "See A Show",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Eat Too much",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Are Bound To Do In Las Vegas"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dolphin",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal You Can Teach Tricks"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lettuce ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Celery ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Tomato ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food With Almost No Calories"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Their Wealth",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Their Conquests",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Their Looks",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Their Job",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Their Education",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Their Car",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Be Turned Off To Hear Your Date Bragging About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weight",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Going Down Chiminy",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Weather",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Not Enough Elves",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Naughty Kids",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Santa’s Biggest Problem"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bedding",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Backpack",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kid Takes If Planning To Run Away"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Closet",
+          50
+        ],
+        [
+          "Attic",
+          33
+        ],
+        [
+          "Under Bed",
+          21
+        ],
+        [
+          "Basement",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Do You Put Presents So They Aren’t Found Before Given"
+    },
+    {
+      "answers": [
+        [
+          "Clothes",
+          44
+        ],
+        [
+          "Food",
+          21
+        ],
+        [
+          "Dishes",
+          15
+        ],
+        [
+          "Dentist",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Let Soak Overnight"
+    },
+    {
+      "answers": [
+        [
+          "Food Poisoning",
+          41
+        ],
+        [
+          "Drinking",
+          21
+        ],
+        [
+          "Somebody Vomits",
+          11
+        ],
+        [
+          "Flu",
+          8
+        ],
+        [
+          "Medicine",
+          5
+        ],
+        [
+          "Roller Coaster",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Make You Throw Up."
+    },
+    {
+      "answers": [
+        [
+          "Dishes",
+          34
+        ],
+        [
+          "Ironing",
+          25
+        ],
+        [
+          "Sweeping",
+          15
+        ],
+        [
+          "Vacuuming",
+          9
+        ],
+        [
+          "Dusting",
+          5
+        ],
+        [
+          "Laundry",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Household Chore That You Do Your Best Thinking While Doing"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

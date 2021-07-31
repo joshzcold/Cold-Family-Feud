@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Walk",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Play Fetch",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Groom",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bathe",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do With Their Dogs That They Don’t Do With A Pet Goldfish."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Noise",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Flashung Lights",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Slot Machines",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In A Casino That May Give You A Headache."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gloves",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Trainer",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Mouth Guard",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cup",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Stamina",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Speed",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Every Professional Boxer Needs."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoke",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Talk Back",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Lie",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Parent Tells Their Teen, ” I Never Did At Your Age”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beard",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Pants",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Wig",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Part Of His Santa Costume Would A Mall Santa Be Humiliated To Lose While Working"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Urinating",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Running",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Skinny Dipping",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dive In Shallow Part",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Fighting",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Not Following Rules",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Kid Might Do That Would Get Them Kicked Out Of A Public Swimming Pool"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mall",
+          45
+        ],
+        [
+          "Amusement Park",
+          22
+        ],
+        [
+          "Park",
+          10
+        ],
+        [
+          "Fair",
+          6
+        ],
+        [
+          "Parking Garage",
+          5
+        ],
+        [
+          "Airport",
+          4
+        ],
+        [
+          "Zoo",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Public Place Where Even An Adult Can Get Lost Easily"
+    },
+    {
+      "answers": [
+        [
+          "Ice Cream ",
+          45
+        ],
+        [
+          "Ice Cube ",
+          29
+        ],
+        [
+          "Iced Tea ",
+          19
+        ],
+        [
+          "Icicle ",
+          12
+        ],
+        [
+          "Ice Hole ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Starts With The Word Ice"
+    },
+    {
+      "answers": [
+        [
+          "Bathroom",
+          43
+        ],
+        [
+          "Garage",
+          26
+        ],
+        [
+          "TV/Living Room",
+          19
+        ],
+        [
+          "Bedroom",
+          7
+        ],
+        [
+          "Basement",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Wives: Name A Place In The House Where Your Husband Spends More Time Than You Do"
+    },
+    {
+      "answers": [
+        [
+          "Room Service",
+          42
+        ],
+        [
+          "House Keeping",
+          33
+        ],
+        [
+          "Massage",
+          13
+        ],
+        [
+          "Laundry",
+          7
+        ],
+        [
+          "Valet",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Service A Hotel Provides That You With You Had At Your House."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

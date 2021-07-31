@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Candles",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Incense",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Crystals",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "New Age Clothes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Terot Cards",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lava Lamp",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "New Age Books",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific You’d Expect To See In One Of Those “New Age” Stores."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Out Of Focus",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Put Finger In Lense",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Leave Lense Cap On",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "No Flash",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Common Mistake People Make When Taking Pictures."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Consume Sweets",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wiggle",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Swallow",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bite Down",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Grind Teeth",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Or Out Of The Dentist’s Chair, Name Something The Dentist Warns Not To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rocks",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Marbles",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dirt",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Worms",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Toy Car",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Find In A Little Boy’s Pocket."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Appliances",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something for which people shop around before buying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Golf Clubs",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Christmas Gift You Would Have Hard Time Wrapping"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Other People",
+          34
+        ],
+        [
+          "Work/ School",
+          29
+        ],
+        [
+          "Eating",
+          25
+        ],
+        [
+          "Alcohol",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Avoid When You Are Sick"
+    },
+    {
+      "answers": [
+        [
+          "Fish ",
+          48
+        ],
+        [
+          "Bait ",
+          31
+        ],
+        [
+          "Hook ",
+          20
+        ],
+        [
+          "Boot ",
+          13
+        ],
+        [
+          "Bag ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find At the End Of A Fishing Line"
+    },
+    {
+      "answers": [
+        [
+          "Texas",
+          62
+        ],
+        [
+          "California",
+          24
+        ],
+        [
+          "Alaska",
+          6
+        ],
+        [
+          "New York",
+          4
+        ],
+        [
+          "Florida",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Really Big State."
+    },
+    {
+      "answers": [
+        [
+          "Pancakes",
+          52
+        ],
+        [
+          "Muffin",
+          34
+        ],
+        [
+          "Donut",
+          22
+        ],
+        [
+          "Waffles",
+          14
+        ],
+        [
+          "Pop Tarts",
+          9
+        ],
+        [
+          "Cinammon Roll",
+          6
+        ],
+        [
+          "French Toast",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Breakfast Food That Could Just As Easily Be A Dessert"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

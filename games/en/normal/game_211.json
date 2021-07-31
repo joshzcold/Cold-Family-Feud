@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hot Chocolate",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Like To Drink At Bedtime."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dragon",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Ogre",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Monster",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Beast",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Trol",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Men In Fairy Tales Fight Against, That Real Men Don’t"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trampoline ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Bus ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bed ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Train ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Scales ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "The Wife ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Jump On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Violent Crime",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Explosion/ Fire",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Kidnapping",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Car Crash/ Chase",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fight",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Crisis That Usually Happens At Least Once In An Action Movie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tree Or Bush ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Under The Bed ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "In The Garden ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Under House ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Under Car ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where Cats Hide"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Door ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Window ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Book ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Close"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Alphabet",
+          62
+        ],
+        [
+          "Spell Their Name",
+          13
+        ],
+        [
+          "Phone Number",
+          8
+        ],
+        [
+          "Address",
+          4
+        ],
+        [
+          "Nursery Rhymes",
+          4
+        ],
+        [
+          "Pledge Of Allegiance",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Young Children Memorize"
+    },
+    {
+      "answers": [
+        [
+          "Love",
+          30
+        ],
+        [
+          "Strength",
+          26
+        ],
+        [
+          "Beauty",
+          24
+        ],
+        [
+          "Wisdom",
+          12
+        ],
+        [
+          "Kindness",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Instead Of “Courage” Or “A Brain”, What Quality Would You Ask The Wizard Of Oz For?"
+    },
+    {
+      "answers": [
+        [
+          "Paint",
+          64
+        ],
+        [
+          "Mask",
+          19
+        ],
+        [
+          "Fake Blood",
+          5
+        ],
+        [
+          "Clown Nose",
+          4
+        ],
+        [
+          "Glitter",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Use To Decorate Your Face For Halloween"
+    },
+    {
+      "answers": [
+        [
+          "Politics",
+          39
+        ],
+        [
+          "Dating/Marriage",
+          24
+        ],
+        [
+          "Parenting",
+          16
+        ],
+        [
+          "Finances",
+          10
+        ],
+        [
+          "Religion",
+          7
+        ],
+        [
+          "Weight/Appearance",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About Which People Always Want To Give You Their Opinion"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

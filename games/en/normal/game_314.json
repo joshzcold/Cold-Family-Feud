@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Jealous",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "No Dinner",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Has To Watch Kids",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Lonely",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Man Might Not Want His Wife To Have A Girl’s Night Out."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food/Diet Food",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Camaras",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Flaws",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Supermodels Would Rather Do Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Anniversary",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Baby Due",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Trying For A Baby",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Wedding day",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Couple May Keep A Close Watch On A Calender."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spaceship / UFO ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Outer Space ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Mars / Martians ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "ET ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Green ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With Aliens"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wand",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fairy Godmother",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Wizard",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fairy Dust",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Broom",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That often Has Magical Powers In fairy Tales"
+    },
+    {
+      "answers": [
+        {
+          "ans": "People",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Bench",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bus",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bus signs",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bus schedule",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Poster",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you might see at a bus stop."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Romeo",
+          56
+        ],
+        [
+          "Hamlet",
+          20
+        ],
+        [
+          "Juliet",
+          15
+        ],
+        [
+          "Macbeth",
+          3
+        ],
+        [
+          "Othello",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Shakespeare Character Who Most People Have Heard Of."
+    },
+    {
+      "answers": [
+        [
+          "Play Teacher/Go To Job",
+          22
+        ],
+        [
+          "Dress Up/Make Up",
+          21
+        ],
+        [
+          "Go To Doctor",
+          18
+        ],
+        [
+          "Cook",
+          12
+        ],
+        [
+          "Have A Wedding",
+          12
+        ],
+        [
+          "Act Like Mom/Dad",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Grown-Up Activity Kids Do When They’re Playing Pretend"
+    },
+    {
+      "answers": [
+        [
+          "Ring",
+          58
+        ],
+        [
+          "Bride",
+          38
+        ],
+        [
+          "Tux",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Groom Hate To Lose Before Wedding"
+    },
+    {
+      "answers": [
+        [
+          "Pass Gas",
+          42
+        ],
+        [
+          "Throw Up/Get Sick",
+          18
+        ],
+        [
+          "Talk Too Much",
+          11
+        ],
+        [
+          "Go Home Together",
+          9
+        ],
+        [
+          "Get Drunk",
+          7
+        ],
+        [
+          "Talk About Ex",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Do On A First Date That Ruins It."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

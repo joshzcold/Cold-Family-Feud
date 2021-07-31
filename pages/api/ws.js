@@ -1,6 +1,7 @@
 const WebSocket = require("ws");
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
+const glob = require("glob");
 
 const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
@@ -385,19 +386,32 @@ const ioHandler = (req, res) => {
               JSON.stringify({ action: "clearbuzzers" })
             );
           } else if (message.action === "change_lang") {
-            fs.readdir(`games/${message.data}/`, (err, files) => {
-              if (err) {
-                console.error("change_lang error:", err);
+            glob(
+              `**/*.json`,
+              { cwd: `games/${message.data}/` },
+              function (err, files) {
+                // files is an array of filenames.
+                // If the `nonull` option is set, and nothing
+                // was found, then files is ["**/*.js"]
+                // er is an error object or null.
+                if (err) {
+                  console.error("change_lang error:", err);
+                }
+
+                var collator = new Intl.Collator(undefined, {
+                  numeric: true,
+                  sensitivity: "base",
+                });
+                wss.broadcast(
+                  message.room,
+                  JSON.stringify({
+                    action: "change_lang",
+                    data: message.data,
+                    games: files.sort(collator.compare),
+                  })
+                );
               }
-              wss.broadcast(
-                message.room,
-                JSON.stringify({
-                  action: "change_lang",
-                  data: message.data,
-                  games: files,
-                })
-              );
-            });
+            );
           } else if (message.action === "buzz") {
             let game = rooms[message.room].game;
             let time =

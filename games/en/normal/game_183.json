@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Marge/Margie",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Maggie",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Peggy/Peg",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Meg",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Nickname For A Woman Named “Margaret.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jason",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Dracula",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Ghost",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Frankenstein",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Freddy Krueger",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Zombie",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Spooky Halloween Character Would You Hate To Run Into In A Dark Alley?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "United States",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Mexico",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Australia",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bahamas",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "France",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Spain",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Brazil",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Country Known For Having Beautiful Weather."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Each Other",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Worry",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Their Kids, Name Something That Might Keep New Parents Awake At Night."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Music ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Radio ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Eachother ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Listen To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Striking Out",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Fetting Hurt",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Getting Hit By A Ball",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Drug Testing",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Losing A Game",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dropping Ball",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Professional Baseball Player Might Have A Nightmare About."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Elephant",
+          55
+        ],
+        [
+          "Bear",
+          36
+        ],
+        [
+          "Pig",
+          23
+        ],
+        [
+          "Cow",
+          15
+        ],
+        [
+          "Hippo",
+          10
+        ],
+        [
+          "Whale",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Animals Had Yearly Check-Ups, Name One That Might Be Told To Lose Some Weight."
+    },
+    {
+      "answers": [
+        [
+          "Flowers",
+          50
+        ],
+        [
+          "Jewelery",
+          33
+        ],
+        [
+          "Perfume",
+          21
+        ],
+        [
+          "Lingerie",
+          14
+        ],
+        [
+          "Makeup",
+          9
+        ],
+        [
+          "Purse",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Girl Wants As A Gift That Most Guys Would Never Want."
+    },
+    {
+      "answers": [
+        [
+          "Party",
+          55
+        ],
+        [
+          "Cheat",
+          17
+        ],
+        [
+          "Drive Carelessly",
+          9
+        ],
+        [
+          "Get Arrested",
+          8
+        ],
+        [
+          "Divorce",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Celebrity Do That Causes People To Criticize Him?"
+    },
+    {
+      "answers": [
+        [
+          "Cat",
+          42
+        ],
+        [
+          "Fruit",
+          24
+        ],
+        [
+          "Ball",
+          21
+        ],
+        [
+          "Kite",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Climb A Tree To Get"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

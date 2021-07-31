@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Crystal Ball ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Cards ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Future / Fortune ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Gypsy ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Palm Reading ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bullshit ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With A Fortune Teller"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Politician",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Newscaster",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Actor",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hairdresser",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Line Of Work Should You Get Into If Your Hairstyle Is Stiff And Plastered With Hairspray?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Running",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Walking",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity That You Wear Comfortable Shoes For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Keys",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Id",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Should Never Leave House Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Age",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Race",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Religion",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sexual Orientation",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Have Kids",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Marital Status",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That An Employer Not Allowed To Ask Interview"
+    },
+    {
+      "answers": [
+        {
+          "ans": "People Or Passengers ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Conductor ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Seats ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Guard ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Driver ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See On A Train"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Doctor",
+          33
+        ],
+        [
+          "Truck Driver",
+          17
+        ],
+        [
+          "Nurse",
+          12
+        ],
+        [
+          "Taxi Driver",
+          12
+        ],
+        [
+          "Bus Driver",
+          9
+        ],
+        [
+          "Electrician",
+          7
+        ],
+        [
+          "Teacher",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job That You’d Need A License To Do"
+    },
+    {
+      "answers": [
+        [
+          "United States",
+          73
+        ],
+        [
+          "Russia",
+          15
+        ],
+        [
+          "China",
+          5
+        ],
+        [
+          "England",
+          4
+        ],
+        [
+          "Germany",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Country That Usually Does Well In The Olympics."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          42
+        ],
+        [
+          "Underwear",
+          38
+        ],
+        [
+          "Toothbrush",
+          8
+        ],
+        [
+          "Mate",
+          5
+        ],
+        [
+          "Car",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Would Never Borrow From Your Close Friend."
+    },
+    {
+      "answers": [
+        [
+          "Hair",
+          28
+        ],
+        [
+          "Weeds",
+          25
+        ],
+        [
+          "Cactus",
+          19
+        ],
+        [
+          "People",
+          17
+        ],
+        [
+          "Nails",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Grows Without Being Watered."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

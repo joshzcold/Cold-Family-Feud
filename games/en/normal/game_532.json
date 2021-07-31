@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Mom",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Dad",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Spouse",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Grandparent",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Child",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Of Your Family Members Is Hardest To Shop For Around The Holidays?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pawn ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Knight ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Rook ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Queen ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bishop ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "King ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Chess Piece"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dirty Clothes ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Dishes ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Rubbish / Junk ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Hide When Unexpected Guests Arrive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swings",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Slide",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Jungle Gym",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "See Saw",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Basketball Court",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Merry Go Round",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Play On In A City Park"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Start Fire",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Door To Door Sales",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Camp",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Community Service",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "First Aid",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Boy Scouts And Girl Scouts Both Learn To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "School",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Puberty",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Acne",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Potty Training",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Although It Was Nice To Be A Kid, Name A Part Of Childhood You’d Never Want To Go Through Again."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Playground",
+          40
+        ],
+        [
+          "Concert",
+          26
+        ],
+        [
+          "Sports Event",
+          17
+        ],
+        [
+          "Amusement Park",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Public Place Where It’s OK To Yell"
+    },
+    {
+      "answers": [
+        [
+          "Play Guitar",
+          41
+        ],
+        [
+          "Sing",
+          14
+        ],
+        [
+          "Piano",
+          13
+        ],
+        [
+          "Dance",
+          10
+        ],
+        [
+          "Record",
+          8
+        ],
+        [
+          "Dress",
+          6
+        ],
+        [
+          "Be Crazy",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If They Offered A Class On How To Be A Rockstar, Name Something They Might Teach You How To Do."
+    },
+    {
+      "answers": [
+        [
+          "Mat ",
+          54
+        ],
+        [
+          "Milk ",
+          35
+        ],
+        [
+          "Newspaper ",
+          23
+        ],
+        [
+          "Parcel ",
+          15
+        ],
+        [
+          "Shoes ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find On Your Doorstep"
+    },
+    {
+      "answers": [
+        [
+          "Marriage",
+          47
+        ],
+        [
+          "Having a baby",
+          32
+        ],
+        [
+          "Cooking/Recipe",
+          11
+        ],
+        [
+          "Test",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me something that you hope is easier to do the second time around."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

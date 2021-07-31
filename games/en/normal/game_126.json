@@ -1,0 +1,288 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hat",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Whip",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Knife",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "At The End Of The Day, Name Something Indiana Jones Might Put Away In His Closet."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Selling Cookies",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Lost",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Halloween",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Child You Don’t Know At Your Door"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Overeating ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Indigestion ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cramp ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why Your Stomach May Hurt"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dry Eyes ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Putting Them In ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Taking Them Out ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Problem People Have With Contact Lenses"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Old Clothes",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Washer & Dryer",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Junk",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do People Keep In Their Basement"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cement",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Asphalt",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Steam Roller",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Used To Pave A Driveway"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "24 Hours",
+          35
+        ],
+        [
+          "2 Days",
+          27
+        ],
+        [
+          "18 Hours",
+          7
+        ],
+        [
+          "10 Hours",
+          6
+        ],
+        [
+          "12 Hours",
+          6
+        ],
+        [
+          "20 Hours",
+          5
+        ],
+        [
+          "1 and a half days",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Longest You’ve Ever Gone Without Eating."
+    },
+    {
+      "answers": [
+        [
+          "Read",
+          40
+        ],
+        [
+          "Eat",
+          19
+        ],
+        [
+          "Watch TV",
+          15
+        ],
+        [
+          "Make love",
+          8
+        ],
+        [
+          "Play Games",
+          7
+        ],
+        [
+          "Shop",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Sleep, Name Something You’d Rather Do With The Time You Spend Commuting To And From Work"
+    },
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          38
+        ],
+        [
+          "Shopping Center",
+          21
+        ],
+        [
+          "Park",
+          15
+        ],
+        [
+          "Work",
+          12
+        ],
+        [
+          "Party",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Could Choose, What Would Be An Ideal Place To Meet Your Future Mate?"
+    },
+    {
+      "answers": [
+        [
+          "Pick nose",
+          31
+        ],
+        [
+          "Undress",
+          23
+        ],
+        [
+          "Pick teeth",
+          20
+        ],
+        [
+          "Pose",
+          11
+        ],
+        [
+          "Skin care",
+          10
+        ],
+        [
+          "Dance",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you do when looking in the mirror that you’d hate to be caught doing if it was a 2-way mirror."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

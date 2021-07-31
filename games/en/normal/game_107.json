@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Speed ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Expensive ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Computer System ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Buttons ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hard Drive ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Computers And Sports Cars Have In Common"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Skirt/Dress",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Pants",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You Hate To Wear Too Short."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gum/Candy",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Jell O",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s Usually Fruit-Flavored"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speeding",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Stealing",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Jaywalking",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Littering",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Crime That Most Cops Have Probably Committed Themselves."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elbow ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Arm ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Knee ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Back ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Leg ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of Your Body That Bends"
+    },
+    {
+      "answers": [
+        {
+          "ans": "School/Childcare",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Play Ground",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sports Team",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Neighborhood",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Camp",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where A Child Makes Friends."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Play ",
+          46
+        ],
+        [
+          "At Doctors ",
+          30
+        ],
+        [
+          "Having It Pierced ",
+          20
+        ],
+        [
+          "Passionate Kiss ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Stick Out Your Tongue"
+    },
+    {
+      "answers": [
+        [
+          "Six Foot ",
+          43
+        ],
+        [
+          "6 Foot Three ",
+          28
+        ],
+        [
+          "6 Foot Two ",
+          18
+        ],
+        [
+          "6 Foot One ",
+          12
+        ],
+        [
+          "7 Foot ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Height In Feet And Inches Where People Consider A Man Tall"
+    },
+    {
+      "answers": [
+        [
+          "Kiss",
+          42
+        ],
+        [
+          "Hug",
+          27
+        ],
+        [
+          "Flowers/ Gifts",
+          18
+        ],
+        [
+          "Holding Hands",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Sign Of Affection Woman Wants From Husband"
+    },
+    {
+      "answers": [
+        [
+          "Gun",
+          45
+        ],
+        [
+          "Money",
+          20
+        ],
+        [
+          "Hair",
+          19
+        ],
+        [
+          "Cigarettes",
+          7
+        ],
+        [
+          "Whiskey",
+          4
+        ],
+        [
+          "Bandana",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Cowboy Have Hidden Under His Hat?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

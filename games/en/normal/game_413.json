@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fight",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "In Trouble",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grade",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Being Bullied",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something Kid Wouldn’t Want To Tell Mom About School Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tall",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Basketball Player",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Raps",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Officer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bad Actor",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Know About Shaquille O’Neal."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Concentrate",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Study",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "People Find Hard To Do When There Is Loud Noise"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Peanuts",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Doonsbury",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Garfield",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Blondie",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Boondocks",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Beetle Bailey",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Comic Strip You See In Almost Every Newspaper."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheeta/Cat",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Road Runner",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Gizelle",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Greyhound",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Would Be An Appropriate Mascot For A Team Of Marathon Runners"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Head",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Neck",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Back",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shoulders",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Feet",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Chest",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When You’re Stressed Out, Name The Part Of Your Body Where You Feel It Most."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Map",
+          52
+        ],
+        [
+          "Ask Someone",
+          34
+        ],
+        [
+          "Gps",
+          22
+        ],
+        [
+          "Compass",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Do You Find Proper Directions If Lost"
+    },
+    {
+      "answers": [
+        [
+          "Blanket",
+          30
+        ],
+        [
+          "Put On Jacket",
+          19
+        ],
+        [
+          "Rub Hands Together",
+          10
+        ],
+        [
+          "Extra Clothes",
+          9
+        ],
+        [
+          "Cuddle",
+          9
+        ],
+        [
+          "Fireplace",
+          8
+        ],
+        [
+          "Drink Hot Chocolate",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way People Warm Themselves Up When They’re Cold."
+    },
+    {
+      "answers": [
+        [
+          "Pizza ",
+          42
+        ],
+        [
+          "Chicken ",
+          27
+        ],
+        [
+          "Sandwich ",
+          18
+        ],
+        [
+          "Soup ",
+          12
+        ],
+        [
+          "Spaghetti ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Tastes Good Hot Or Cold"
+    },
+    {
+      "answers": [
+        [
+          "Talk To Customers",
+          48
+        ],
+        [
+          "Serve Food",
+          31
+        ],
+        [
+          "Dance",
+          20
+        ],
+        [
+          "Clean Up",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Make Drinks, Name Something Else A Bartender Might Do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

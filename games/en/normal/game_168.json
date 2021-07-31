@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bad Kids",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Too Many Kids",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Smells",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Low Pay",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "No One Laughs",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Costumes Are Hot",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Gets Tired",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Complaint Circus Clown Might Have About Job"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Helmet",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Knee pads",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Protective cup",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Elbow pads",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Goggles",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a piece of protective gear that only a real klutz would consider wearing while walking."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoke ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Talk On The Phone ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Open Door ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Open Window ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Jump Out ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Shouldn't Do In An Aeroplane"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Caesar / Bloody Mary ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Cosmopolitan ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Margarita ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Manhattan ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pina Colada ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sex On The Beech ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Cocktail"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Out Of Focus",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Leave Lens Cap On",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "No Flash",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Finger In Picture",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Common Mistake People Make When Taking Pictures"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Movie/TV Star",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Their Favorite Band",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pro Wrestling",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Superhero",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Poster A 13-Year-Old Boy Might Have On His "
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hesitate To Leave",
+          28
+        ],
+        [
+          "Calling Repeatedly",
+          21
+        ],
+        [
+          "Crying",
+          19
+        ],
+        [
+          "Lots Of Questions",
+          12
+        ],
+        [
+          "Leave Phone Numbers",
+          10
+        ],
+        [
+          "Lots Of Instructions",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Way That A Babysitter Knows The Parents Are Nervous About Leaving."
+    },
+    {
+      "answers": [
+        [
+          "Gallery ",
+          48
+        ],
+        [
+          "House ",
+          31
+        ],
+        [
+          "Art Studio ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Somewhere You Might Find A Painting"
+    },
+    {
+      "answers": [
+        [
+          "Bathroom",
+          35
+        ],
+        [
+          "Walking",
+          21
+        ],
+        [
+          "Bathing",
+          13
+        ],
+        [
+          "Get Out Of Bed",
+          11
+        ],
+        [
+          "Eating",
+          10
+        ],
+        [
+          "Breath",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Patient In A Hospital Might Have Trouble Doing On His Own."
+    },
+    {
+      "answers": [
+        [
+          "Pediatrician",
+          20
+        ],
+        [
+          "Optometrist",
+          18
+        ],
+        [
+          "Dentist",
+          16
+        ],
+        [
+          "Podiatrist",
+          14
+        ],
+        [
+          "Surgeon",
+          13
+        ],
+        [
+          "Ob/Gyn",
+          9
+        ],
+        [
+          "Veterinarian",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Doctor."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

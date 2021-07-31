@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Santa",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Grandparents",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pen Pal",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "President",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Kids Write Letters To."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tire",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lightbulb",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Windshield Wipers",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Spark Plugs",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Battery",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Air Filter",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part On A Car Most People Would Replace Themselves"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wine ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Vine ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Seeds ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bunch ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Green ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Grapes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Consession Stand",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Seats",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Screen",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Customers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Every Movie Theatre, Fancy Or Not, Has."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eating",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Beauty",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Singing",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Contest You Might Enter At A County Fair"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jeans",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bikini",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Suit",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sweats",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sneakers",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Be Shocked To See A Celebrity Wear On The Red Carpet."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cook",
+          51
+        ],
+        [
+          "Clean",
+          12
+        ],
+        [
+          "Smoke Inside",
+          11
+        ],
+        [
+          "Play Loud Music",
+          9
+        ],
+        [
+          "Walk Around Naked",
+          7
+        ],
+        [
+          "Laundry",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do At Home, But Not While Staying In A Hotel."
+    },
+    {
+      "answers": [
+        [
+          "Work",
+          59
+        ],
+        [
+          "Parenting",
+          38
+        ],
+        [
+          "Cooking",
+          25
+        ],
+        [
+          "Marriage",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most Women Want To Be Successful At"
+    },
+    {
+      "answers": [
+        [
+          "Patients ",
+          59
+        ],
+        [
+          "Gloves ",
+          38
+        ],
+        [
+          "Pens ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Doctor Would Hate To Run Out Of"
+    },
+    {
+      "answers": [
+        [
+          "Daylight ",
+          59
+        ],
+        [
+          "Cross ",
+          38
+        ],
+        [
+          "Garlic ",
+          25
+        ],
+        [
+          "Steak ",
+          16
+        ],
+        [
+          "Blade ",
+          11
+        ],
+        [
+          "Water ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Vampires Hate"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Water It",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Fertilize It",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Give It Plant Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Give It More Sun",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Vitamins",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Repot It",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Talk To It",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Do To A Houseplant To Help It Grow."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Picture ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Clock ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Paint ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Graffiti ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "A Fly ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Find On A Wall"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Freedom/ Time Alone",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dating",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Youthful Appearance",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "More Friends",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Going To School",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Having Energy",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fewer Bills",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Parent Might Miss About Their Younger Years"
+    },
+    {
+      "answers": [
+        {
+          "ans": "10 Mins ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "15 Mins ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "5 Mins ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "20 Mins ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "30 Mins ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Long In Minutes Does It Take The Average Person To Take A Shower"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ghost",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Monster",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Vampire",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Spider",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’re Hoping Is Fake At A Halloween Party Because You’d Be Afraid Of A Real One"
+    },
+    {
+      "answers": [
+        {
+          "ans": "16th President",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Honest",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Tall",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Abolitionist",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Beard",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Are Taught About Abe Lincoln"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "X",
+          49
+        ],
+        [
+          "V",
+          32
+        ],
+        [
+          "Q",
+          21
+        ],
+        [
+          "Z",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Letter That Is Hard To Use In Scrabble"
+    },
+    {
+      "answers": [
+        [
+          "Bills ",
+          51
+        ],
+        [
+          "Junk Mail ",
+          33
+        ],
+        [
+          "Leaflets ",
+          22
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hate Getting In The Post"
+    },
+    {
+      "answers": [
+        [
+          "Ex",
+          29
+        ],
+        [
+          "Bill Collector",
+          26
+        ],
+        [
+          "Boss",
+          16
+        ],
+        [
+          "The Police",
+          11
+        ],
+        [
+          "IRS",
+          9
+        ],
+        [
+          "In Laws",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who You Wish Didn’t Have Your Address."
+    },
+    {
+      "answers": [
+        [
+          "CAT",
+          52
+        ],
+        [
+          "FISH",
+          34
+        ],
+        [
+          "BIRD",
+          22
+        ],
+        [
+          "DOG",
+          14
+        ],
+        [
+          "HAMSTER",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Type Of Pet Might A Person Have If They Live In A Small Apartment"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Leave Store",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Carry No Money",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cash Not Credit",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Set A Budget",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Use Coupons",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Shopaholic Do At The Store To Prevent Overspending"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Patient Name",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Directions",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Date/Expiration",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Drug/Ingredients",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Doctor/Contact",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Piece Of Information That Can Be Found On A Prescription Bottle."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weather",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Distance",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fighting",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Could Keep A Family Apart On Christmas"
+    },
+    {
+      "answers": [
+        {
+          "ans": 6,
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": 2,
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Number Of People Who Can Ride Comfortably In A Van. (Numeric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dating The Boss",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "On Time/ Attendance",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Blackmail",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sucking Up",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason, Other Than Hard Work, That Your Boss Would Give You A Raise"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Angelina Jolie",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Jennifer Aniston",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Kim Kardashian",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Oprah",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Celebrity Who You’d Like To Be BFFs With Just So You Could Get The Scoop On Her Personal Life."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Ball",
+          43
+        ],
+        [
+          "Washboard",
+          28
+        ],
+        [
+          "6 Pack",
+          18
+        ],
+        [
+          "Rock",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an object that some stomachs are compared to"
+    },
+    {
+      "answers": [
+        [
+          "Angels In Outfield",
+          29
+        ],
+        [
+          "League Of Their Own",
+          18
+        ],
+        [
+          "Field Of Dreams",
+          17
+        ],
+        [
+          "The Natural",
+          16
+        ],
+        [
+          "Bull Durham",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Movie About Baseball Players"
+    },
+    {
+      "answers": [
+        [
+          "Got Sick",
+          56
+        ],
+        [
+          "Drink",
+          26
+        ],
+        [
+          "Smoke",
+          3
+        ],
+        [
+          "Not Wash Hands",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hope A Restaurant Chef Didn’t Do Before Cooking Your Meal."
+    },
+    {
+      "answers": [
+        [
+          "No Cake",
+          22
+        ],
+        [
+          "No food",
+          17
+        ],
+        [
+          "No Decorations",
+          7
+        ],
+        [
+          "No favors",
+          6
+        ],
+        [
+          "No Presents",
+          5
+        ],
+        [
+          "No cards",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sign You’re At A Really Cheap Birthday party"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

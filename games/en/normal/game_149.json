@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Advanced Math",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Science",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "History",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Art",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Foreign Language",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The High School Subject You Use Least Often Today"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheque ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Letter ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Present ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Card ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Photos ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Like To Receive In The Mail"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baked Potato",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Salad",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fries",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Steak Sauce",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Mushrooms",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Goes Well With A Juicy Steak"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bran",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Banana",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Raisin",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate Chip",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Blueberry Name A Kind Of Muffin People Eat At Breakfast."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming/ Beach",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Warm Weather",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "More Sun",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Family Vacation",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something About Summer That You Look Forward To Most"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snow",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Skiing",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Resorts",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mountains",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Must A Town Have To Make It A Popular Winter Destination?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cheat",
+          33
+        ],
+        [
+          "Lie",
+          26
+        ],
+        [
+          "Drink",
+          20
+        ],
+        [
+          "Has Gas In Public",
+          9
+        ],
+        [
+          "Smokes",
+          4
+        ],
+        [
+          "Snore",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Your Boyfriend Does That Makes You Question Why You’re Still With Him."
+    },
+    {
+      "answers": [
+        [
+          "Swimming ",
+          45
+        ],
+        [
+          "Water Skiiing ",
+          29
+        ],
+        [
+          "Running ",
+          19
+        ],
+        [
+          "Grape Crushing ",
+          12
+        ],
+        [
+          "Showering ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity Doen In Bare Feet"
+    },
+    {
+      "answers": [
+        [
+          "Hat",
+          53
+        ],
+        [
+          "Shirt",
+          34
+        ],
+        [
+          "Jacket",
+          23
+        ],
+        [
+          "Mug",
+          15
+        ],
+        [
+          "Ball",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Buy With Fav Sports Team Logo On It"
+    },
+    {
+      "answers": [
+        [
+          "Dog",
+          76
+        ],
+        [
+          "Cat",
+          12
+        ],
+        [
+          "Fish",
+          3
+        ],
+        [
+          "Rabbit",
+          2
+        ],
+        [
+          "Hamster",
+          2
+        ],
+        [
+          "Bird",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Pet That Makes A Good Holiday Gift"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

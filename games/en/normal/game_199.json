@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Mayo",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Butter",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If A Health-Nut Ordered A Sandwich, What Ingredient Might They Leave Off?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoe Laces",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tounge",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Stomach",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something On You That Might Be Tied In A Knot."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brakes",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Mirrors",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Head Lights",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Accelerator",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Seat Belt",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Turn Signals",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In The Car 16 Year Old Should Know"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Agatha Christie",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Arthur Conan Doyle",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dashiell Hammett",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Raymond Chandler",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sue Grafton",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a Famous Mystery Writer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hippo",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Rhino",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Moose",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than A Bull, Name A Big Clumsy Animal"
+    },
+    {
+      "answers": [
+        {
+          "ans": "PRESIDENT",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "PEANUTS",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "WHITE HOUSE",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "AMY CARTER",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "HABITAT FOR HUMANITY",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "PEACE NEGOTIATIONS",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "ROSLYNN CARTER",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With Jimmy Carter"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Red Nose ",
+          40
+        ],
+        [
+          "Hat ",
+          26
+        ],
+        [
+          "Big Shoes ",
+          17
+        ],
+        [
+          "Wig ",
+          11
+        ],
+        [
+          "Face Paint ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Clown Might Wear"
+    },
+    {
+      "answers": [
+        [
+          "Watermelon ",
+          56
+        ],
+        [
+          "Melon ",
+          36
+        ],
+        [
+          "Strawberries ",
+          24
+        ],
+        [
+          "Papaya ",
+          16
+        ],
+        [
+          "Pineapple ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit That Would Be Really Hard To Juggle"
+    },
+    {
+      "answers": [
+        [
+          "Intimacy",
+          46
+        ],
+        [
+          "Romantic Relationships",
+          24
+        ],
+        [
+          "Makeup",
+          6
+        ],
+        [
+          "Hair",
+          5
+        ],
+        [
+          "Keeping Fit",
+          5
+        ],
+        [
+          "Fashion",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Women’s Magazines Give Advice On"
+    },
+    {
+      "answers": [
+        [
+          "On A Diet",
+          43
+        ],
+        [
+          "Allergic",
+          20
+        ],
+        [
+          "Don’t Celebrate",
+          15
+        ],
+        [
+          "Too Old",
+          12
+        ],
+        [
+          "Don’t Like cake",
+          5
+        ],
+        [
+          "Diabetic",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why You Wouldn’t Have Cake On Your Birthday."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

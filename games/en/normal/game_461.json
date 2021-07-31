@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cotton ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Pillow ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cat / Kitten ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Thats Fluffy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plants ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Orchids ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Ferns ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Weed Killer ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In A Greenhouse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Not Dressed Properly",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Drunk",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Belligerent Attitude",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Has No Money",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Restaurant Might Refuse Service To Someone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Email",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Letter",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Text Message",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Method Of Communication That Should Not Use Break Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 16,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Age At Which Children Start Buying Their Parents Christmas Gifts."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actors",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Bright Lights",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Palm Trees",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Prints In Sidewalks",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something People Imagine They Would See On Every Corner In Hollywood"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fence",
+          51
+        ],
+        [
+          "Dog",
+          27
+        ],
+        [
+          "Camera",
+          5
+        ],
+        [
+          "Trees",
+          4
+        ],
+        [
+          "Trespassing Sign",
+          4
+        ],
+        [
+          "Bushes",
+          3
+        ],
+        [
+          "Sprinkler",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Put In The Yard If You Had Nosey Neighbors?"
+    },
+    {
+      "answers": [
+        [
+          "Crash",
+          54
+        ],
+        [
+          "Flat Tire",
+          15
+        ],
+        [
+          "Break Down",
+          13
+        ],
+        [
+          "Rain",
+          6
+        ],
+        [
+          "Run Out Of Gas",
+          4
+        ],
+        [
+          "Speeding Ticket",
+          3
+        ],
+        [
+          "Scratch It",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Hate To Have Happen While Driving A New Car Home"
+    },
+    {
+      "answers": [
+        [
+          "Baseball",
+          36
+        ],
+        [
+          "Flag",
+          21
+        ],
+        [
+          "Hamburger",
+          13
+        ],
+        [
+          "Chevrolet",
+          11
+        ],
+        [
+          "Jeans",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s “As American As Apple Pie.”"
+    },
+    {
+      "answers": [
+        [
+          "Snow",
+          42
+        ],
+        [
+          "Iceberg",
+          31
+        ],
+        [
+          "Polor Bear",
+          14
+        ],
+        [
+          "Mountains",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See Pictured On A Postcard From Alaska."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

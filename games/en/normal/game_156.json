@@ -1,0 +1,353 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Phony",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "FALSE",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Imposter",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Imitation",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Counterfit",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Artificial",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bogus",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For “Fake.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dance",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Chat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "THrow Rice",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Toast The Couple",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Guests Do At A Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Appearance",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Honesty",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Experience",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Personality",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Education",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Intelligence",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Confidence",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Quality Do You Think A Boss Looks For First When Hiring A New Employee?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mom",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sibling",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dad",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Person In Your Life Dislike Partner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jim Carrey",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Mike Myers",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Michael J Fox",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dan Aykroyd",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "William Shatner",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "John Candy",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Donald sutherland",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who’s An Actor That Hails From Canada,Eh?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Darth Vader",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lightsaber",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Spaceships",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "R2 D2",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "C 3PO",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Jedi",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you see in every Star Wars movie."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Woods",
+          48
+        ],
+        [
+          "Zoo",
+          32
+        ],
+        [
+          "National Park",
+          14
+        ],
+        [
+          "Mountains",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Might See A Bear."
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          50
+        ],
+        [
+          "House",
+          18
+        ],
+        [
+          "TV",
+          12
+        ],
+        [
+          "Jewelry",
+          8
+        ],
+        [
+          "Computer",
+          6
+        ],
+        [
+          "Name Brand Clothes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Expensive Even When It’s In Used Condition."
+    },
+    {
+      "answers": [
+        [
+          "Telephones",
+          40
+        ],
+        [
+          "Copier",
+          26
+        ],
+        [
+          "Fax Machine",
+          13
+        ],
+        [
+          "Printer",
+          10
+        ],
+        [
+          "Shredder",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In An Office That Makes A Lot Of Noise."
+    },
+    {
+      "answers": [
+        [
+          "Afghanastan",
+          31
+        ],
+        [
+          "Austrailia",
+          25
+        ],
+        [
+          "Switzerland",
+          20
+        ],
+        [
+          "U.S.Of America",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Country With A Very Long Name"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

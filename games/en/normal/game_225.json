@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Jacket ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Belt ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Coat ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Boots ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Article Of Clothing That Is Often Made From Leather"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lovesickness",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Cowboys",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Truck",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Farm",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Country Western Singer Sings About, That A Rapper Wouldn’t."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strike",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Winner",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Shake Hands",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Good",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Score",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lost",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word That They Use At A Sporting Event That’s Also Used On Family Fued?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive In Movie",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Soda Fountain",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Diner",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lovers Lane",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sock Hop",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someplace Couples Went On Dates In The Fifties They Don’t Usually Go Anymore"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Decorate",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Sing Carols",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Dress Up",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Talk About It",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might Your Co-Worker Do To Let You Know She Is Very Excited About Christmas?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Playing ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Growing ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Sucking Thumb ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Crawling ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Going To School ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Stop Doing When They Become Adults"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Ring ",
+          55
+        ],
+        [
+          "Watch ",
+          36
+        ],
+        [
+          "Necklace ",
+          23
+        ],
+        [
+          "Diamonds ",
+          15
+        ],
+        [
+          "Jewellery ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Buy From A Jewellery Store"
+    },
+    {
+      "answers": [
+        [
+          "Science",
+          48
+        ],
+        [
+          "English",
+          27
+        ],
+        [
+          "History",
+          18
+        ],
+        [
+          "Foreign Language",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Math, Name The Most Difficult Subject In School"
+    },
+    {
+      "answers": [
+        [
+          "Wash Hands",
+          30
+        ],
+        [
+          "Wash Dishes",
+          19
+        ],
+        [
+          "Drive",
+          17
+        ],
+        [
+          "Touch Anything",
+          17
+        ],
+        [
+          "Eat",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Shouldn’t Do After Getting A Manicure"
+    },
+    {
+      "answers": [
+        [
+          "George Clooney",
+          21
+        ],
+        [
+          "Will Smith",
+          17
+        ],
+        [
+          "Tom Hanks",
+          16
+        ],
+        [
+          "Robin Williams",
+          14
+        ],
+        [
+          "Jennifer anniston",
+          13
+        ],
+        [
+          "John Travolta",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Television Star Who Has Successfully Transitioned Into Feature Films."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

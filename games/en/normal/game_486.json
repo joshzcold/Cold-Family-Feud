@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Football/Baseball",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Snowballs",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Stones",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tantrum",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Spitballs",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Get In Trouble For Throwing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Work/School",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Politics",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Weather",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Past Relationships",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Boring Topic That A Person Should Not Talk About On A Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Easter",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Mothers Day",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type of Greeting Card That You See A Lot Of In The Spring."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cry ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Dirty Nappy ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Burp ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Dribble ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sleep ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Every Baby Does"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Alcohol",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Dessert",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Salad",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Hosting A Dinner Party What Might You Ask A Friend To Bring."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Surf",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sun Bathe",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wear Bathing Suits",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hula Dance",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Skinny Dip",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do In Hawaii That They Don’t Do In Alaska In The Winter"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Miami",
+          46
+        ],
+        [
+          "San Francisco",
+          30
+        ],
+        [
+          "New York City",
+          20
+        ],
+        [
+          "Los Angeles",
+          13
+        ],
+        [
+          "San Diego",
+          8
+        ],
+        [
+          "Boston",
+          5
+        ],
+        [
+          "Atlantic City",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Us City On The Ocean."
+    },
+    {
+      "answers": [
+        [
+          "Facial Hair",
+          44
+        ],
+        [
+          "Size Of Lips",
+          25
+        ],
+        [
+          "Smell",
+          19
+        ],
+        [
+          "Braces/Teeth",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "With Eyes Closed, Name Something About A Man’s Mouth That A Woman Kissing Him Could Use To Identify Him."
+    },
+    {
+      "answers": [
+        [
+          "Good Speaker",
+          35
+        ],
+        [
+          "Smart",
+          33
+        ],
+        [
+          "Sense Of Humor",
+          19
+        ],
+        [
+          "Personality",
+          8
+        ],
+        [
+          "Patience",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Game Show Host And A Good Teacher Have In Common"
+    },
+    {
+      "answers": [
+        [
+          "Library",
+          39
+        ],
+        [
+          "Place Of Worship",
+          16
+        ],
+        [
+          "Parking",
+          14
+        ],
+        [
+          "Bedroom",
+          12
+        ],
+        [
+          "Bathroom",
+          11
+        ],
+        [
+          "By The Ocean",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someplace People Go To Help Them Think."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Arachnophobia",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Agoraphobia",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Claustrophobia",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Germophobia",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word Or Phrase That Ends In – Phobia"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Church",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Driving A Car",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Worst Place You Could Have A Sneezing Fit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boring",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Too Late",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Commercials",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bad Language",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Adult Content",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Complaint People Have About Late-night TV"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Their Heart",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Left Overs/Dessert",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "A Kiss",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "The TV Remote",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Your Spouse Has Accused You Of “Stealing.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seeds",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Soil",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Water Cooler",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hoe",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Shovel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Plot Of Land",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Need In Order To Make A Garden."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink/Smoke",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grades",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Put Off College",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drop Out",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Date Too Soon",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Get A Tattoo",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Teenagers Do That They’ll Kick Themselves For Later In Life."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mule",
+          56
+        ],
+        [
+          "Camel",
+          36
+        ],
+        [
+          "Dog",
+          24
+        ],
+        [
+          "Elephant",
+          16
+        ],
+        [
+          "Ox",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides A Horse, Which Animal Is Used For Transportation"
+    },
+    {
+      "answers": [
+        [
+          "Mouth Wash",
+          36
+        ],
+        [
+          "Mouth Off",
+          23
+        ],
+        [
+          "Mouth To Mouth",
+          16
+        ],
+        [
+          "Mouthful",
+          12
+        ],
+        [
+          "Mouthguard/Piece",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word Or Phrase That Begins With The Word “Mouth.”"
+    },
+    {
+      "answers": [
+        [
+          "Party School",
+          44
+        ],
+        [
+          "Friends Are Going",
+          29
+        ],
+        [
+          "Parents Pressure",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Bad Reason For Picking A College"
+    },
+    {
+      "answers": [
+        [
+          "Shave",
+          32
+        ],
+        [
+          "Look Down",
+          16
+        ],
+        [
+          "Cut Hair",
+          14
+        ],
+        [
+          "Smile",
+          12
+        ],
+        [
+          "Dye Hair",
+          12
+        ],
+        [
+          "Wear A Disguise",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Criminal Might Do To Avoid Being Recognized In A Police Line-Up."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

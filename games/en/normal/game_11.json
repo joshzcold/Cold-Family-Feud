@@ -1,0 +1,353 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Laundry",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Mouth/Language",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Harry",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "mind",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Begins With The Word “Dirty.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Moon ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Sky ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Night ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Falling Stars ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Light ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Stars"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Fall Asleep",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Make A Pit Stop",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Get Food",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fight",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hear Are We There Yet",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do At Least Twice In The Course Of A Long Car Ride With Family."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Up",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Nice Haircut",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Great Smile",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Personality",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Makes An Otherwise Average Person Seem Very Atrractive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crown ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Poncho ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tiara ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Garment People Wear On Their Head"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Speeding",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Picking Nose",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Talking On Phone",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’D Hate To See The Valet Driver Doing With Your Car"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Kermit ",
+          45
+        ],
+        [
+          "Miss Piggy ",
+          29
+        ],
+        [
+          "Pinnochio ",
+          19
+        ],
+        [
+          "Punch / Judy ",
+          12
+        ],
+        [
+          "Basil Brush ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Puppet"
+    },
+    {
+      "answers": [
+        [
+          "Finger Over Lens ",
+          44
+        ],
+        [
+          "Shake Camera ",
+          29
+        ],
+        [
+          "Lens Cap ",
+          19
+        ],
+        [
+          "Out Of Focus ",
+          12
+        ],
+        [
+          "Cut Head Off ",
+          8
+        ],
+        [
+          "Forget Flash ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Mess Up When Taking Someones Picture"
+    },
+    {
+      "answers": [
+        [
+          "Chocolates ",
+          57
+        ],
+        [
+          "Cigarettes ",
+          37
+        ],
+        [
+          "Matches ",
+          24
+        ],
+        [
+          "Cereal ",
+          16
+        ],
+        [
+          "Tissues ",
+          10
+        ],
+        [
+          "Biscuits ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Buy A Box Of When Shopping"
+    },
+    {
+      "answers": [
+        [
+          "Cell Phone",
+          50
+        ],
+        [
+          "TV",
+          16
+        ],
+        [
+          "Snacks/Food",
+          11
+        ],
+        [
+          "Video Games",
+          8
+        ],
+        [
+          "Computer",
+          5
+        ],
+        [
+          "Listening To Music",
+          3
+        ],
+        [
+          "A Loan",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teen Wouldn’t Be Able To Go Without For A Day."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

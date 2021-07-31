@@ -1,0 +1,345 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Womans Clothes ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Adams Apple ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Makeup ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Big Hands ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Stuble ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hairy Legs ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way Of Telling A Person Is A Transvestite"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sophia Loren",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Queen Elizabeth",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Nicole Kidman",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Madonna",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Zsa Zsa Gabor",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Penelope Cruz",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dolly Parton",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Woman Who Speaks With An Accent To Americans."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Magazines ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Cassettes ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Computers ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Newspapers ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Films / Dvd's ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Apart From Books You Might Find In A Library"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jelly ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Apple Pie ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Banana ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cream ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pudding ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Goes Well With Custard"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Travel",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Skydive",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Walk At Night",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Watch Scary Movie",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Camp",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Be Afraid To Do By Yourself"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Coyboy Boots",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Toy Gun",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Chaps",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Spurs",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Need If You Wanted To Dress Up Like A Cowboy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Movie Stars",
+          26
+        ],
+        [
+          "Designer Clothes",
+          18
+        ],
+        [
+          "Acceptance Speeches",
+          15
+        ],
+        [
+          "Red Carpet",
+          12
+        ],
+        [
+          "Fans",
+          10
+        ],
+        [
+          "Bad dance Numbers",
+          6
+        ],
+        [
+          "Musicians",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Expect To See When You Watch The Academy Awards."
+    },
+    {
+      "answers": [
+        [
+          "Polar Bear",
+          62
+        ],
+        [
+          "Penguin",
+          22
+        ],
+        [
+          "Seal",
+          5
+        ],
+        [
+          "Wolf",
+          4
+        ],
+        [
+          "Walrus",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an animal that can live in the cold."
+    },
+    {
+      "answers": [
+        [
+          "Dye It",
+          64
+        ],
+        [
+          "Mohawk",
+          14
+        ],
+        [
+          "Get A Bad Haircut",
+          6
+        ],
+        [
+          "Curling",
+          5
+        ],
+        [
+          "Bleach",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do To Their Hair That Makes Them Look Silly."
+    },
+    {
+      "answers": [
+        [
+          "Bathroom",
+          30
+        ],
+        [
+          "Living Room",
+          27
+        ],
+        [
+          "Kitchen",
+          25
+        ],
+        [
+          "Bed Room",
+          14
+        ],
+        [
+          "Family Room",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The Most Used Room In Most Homes?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

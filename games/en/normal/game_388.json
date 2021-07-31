@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Blue Etes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Salad dressing",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Liberal Politics",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Know About Paul Newman."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oprah Winfrey",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Jay Leno",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "David Letterman",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dr Phil",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Talk Show Host Who Many People Respect"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mouse ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Hampster ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Chihuahua ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Spider ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal Small Enough To Put In Your Pocket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Competition",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Company",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Complimentary",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Composition",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Compensation",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Complete",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Word That Begins With “Comp.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Earn A Living ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "See The World ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Make Them Proud ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Grow Up ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "No Other Prospects ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Your Parents Might Want You To Join The Army"
+    },
+    {
+      "answers": [
+        {
+          "ans": "SCRATCH",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "COPY",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "TOUCH BOTTOM",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "GET WET",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "LEAVE IN SUN",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’re Not Supposed To Do To A CD"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Brush Teeth",
+          27
+        ],
+        [
+          "Eat Vegetable",
+          18
+        ],
+        [
+          "School/Homework",
+          17
+        ],
+        [
+          "Bathe",
+          11
+        ],
+        [
+          "Go To Bed",
+          10
+        ],
+        [
+          "Clean",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Child Might Never Do If They weren’t Forced To"
+    },
+    {
+      "answers": [
+        [
+          "Orange",
+          48
+        ],
+        [
+          "Peach",
+          16
+        ],
+        [
+          "Melon",
+          16
+        ],
+        [
+          "Tomato",
+          9
+        ],
+        [
+          "Lemon",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit That You Squeeze To See If It’s Ripe."
+    },
+    {
+      "answers": [
+        [
+          "Peanuts",
+          36
+        ],
+        [
+          "Chicken Wings",
+          21
+        ],
+        [
+          "Pretzels",
+          19
+        ],
+        [
+          "Popcorn",
+          9
+        ],
+        [
+          "Nachos",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Appetizer You Might Find Served At A Bar"
+    },
+    {
+      "answers": [
+        [
+          "Mouth Open ",
+          50
+        ],
+        [
+          "Smack Their Lips ",
+          33
+        ],
+        [
+          "Chew Loudly ",
+          21
+        ],
+        [
+          "Eat Too Fast ",
+          14
+        ],
+        [
+          "Sloppy ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hate About The Way People Eat"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

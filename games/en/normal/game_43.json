@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wind",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Ceiling Fan",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Convertible",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Roller Coasters",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Flames",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You’d Want To Avoid If You Wore A Toupee."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "A Surprise",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Be Spoiled."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss/Touch",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Touch",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Turn On Music",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Undress/Change Clothes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Acty Flirty",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Your Spouse Does To Let You Know They’re “In The Mood For Love.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coupons",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Eat Less",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sales",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Buy In Bulk",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Buy Generic Brands",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Way To Save Money On Groceries"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boss",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Grandparent",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone You Would Hate To Send Personal Mail"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Donut/Coffee Shop",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "In A Police Station",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "At A Mall",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "At A Concert",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "In A Parade",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Streets/Sidewalk",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You See More Cops Than In A Jail"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Boss",
+          48
+        ],
+        [
+          "Sports",
+          31
+        ],
+        [
+          "Gossip",
+          20
+        ],
+        [
+          "Love Life",
+          13
+        ],
+        [
+          "Workload",
+          9
+        ],
+        [
+          "Weather",
+          6
+        ],
+        [
+          "TV Shows",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Co-Workers Talk About Around The Water Cooler"
+    },
+    {
+      "answers": [
+        [
+          "Undress",
+          38
+        ],
+        [
+          "Cough",
+          24
+        ],
+        [
+          "Open Wide",
+          20
+        ],
+        [
+          "Take A Big Breath",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Doctor Might Ask A Patient To Do During A Checkup."
+    },
+    {
+      "answers": [
+        [
+          "Kiss/Sex",
+          40
+        ],
+        [
+          "Go On Dates",
+          22
+        ],
+        [
+          "Snuggle",
+          15
+        ],
+        [
+          "Dance",
+          14
+        ],
+        [
+          "Talk",
+          3
+        ],
+        [
+          "Laugh",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Married People: What Do You Do With Your Spouse That Reminds You Why You Fell In Love?"
+    },
+    {
+      "answers": [
+        [
+          "Singing ",
+          55
+        ],
+        [
+          "Dancing ",
+          36
+        ],
+        [
+          "Juggling ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Talent A Beauty Contestant Might Demonstrate"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

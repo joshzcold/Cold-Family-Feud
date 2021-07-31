@@ -1,0 +1,364 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fart ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Burp ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Hiccup ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tummy Rumble ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Snoring ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sneeze ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sound That People Can't Control"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Collar ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Bone ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Leash / Lead ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Biscuits ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Buy For A Dog"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Help ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Strawberry Fields ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Love Me Do ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Penny Lane ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Yellow Submarine ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Paperback Writer ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Song Made Famous By The Beatles"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Younger Man",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Lives With Parents",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "No Job",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "No Car",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Goofs Around",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "No Money",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Baby Face",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Man Might Seem Too Immature To Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Black And White",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Has Knobs",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "No Remote Control",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Doesn’t Work",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Small Screen",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fuzzy Picture",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Console Cabinet",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sign That You Television Is Over 40 Years Old"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sonny and Cher",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "The Judds",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "The Osmonds",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ike and Tina",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "The Carpenters",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Simon and Garfunkle",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Captain and Tennille",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Past or present, name a famous singing duo."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          10,
+          35
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          11,
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "At What Age Is It OK For A Child To Walk Home From School By Themselves?"
+    },
+    {
+      "answers": [
+        [
+          "Fluffy",
+          28
+        ],
+        [
+          "Felix",
+          21
+        ],
+        [
+          "Whiskers",
+          20
+        ],
+        [
+          "Morris",
+          10
+        ],
+        [
+          "Tom",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Name That’s Common For Cats To Have."
+    },
+    {
+      "answers": [
+        [
+          "Kids ",
+          40
+        ],
+        [
+          "Flowers ",
+          26
+        ],
+        [
+          "Plants ",
+          17
+        ],
+        [
+          "Grass ",
+          11
+        ],
+        [
+          "Trees ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most People Enjoy Watching Grow"
+    },
+    {
+      "answers": [
+        [
+          "Art",
+          34
+        ],
+        [
+          "Accounting",
+          22
+        ],
+        [
+          "Anthropology",
+          17
+        ],
+        [
+          "Architecture",
+          9
+        ],
+        [
+          "Agriculture",
+          7
+        ],
+        [
+          "Archeology",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A College Major That Begins With The Letter “A.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

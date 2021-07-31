@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item You Associate With The Word Expensive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Deer",
+          "pnt": 70,
+          "trig": false
+        },
+        {
+          "ans": "Moose",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bull",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Raccoon",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Antelope",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name an animal whose head you might see on the wall of a hunter’s den"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shopping Trip",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Coupons",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cart",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Need To Have Along For An Effective Grocery Store Trip."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Floor Mats",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Windows",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Ashtray",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Carpet",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Trunk",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dashboard",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Steering Wheel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific Inside Your Car That You Might Ask The Car Wash Guys To Clean."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food Server",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Washing Cars",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job That Many Celebrities Had Before They Were Famous."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cave",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Canyon",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Hallway",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Phone Booth",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mountain",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someplace You Might Hear An Echo"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sauce ",
+          48
+        ],
+        [
+          "Milk ",
+          31
+        ],
+        [
+          "Wine ",
+          20
+        ],
+        [
+          "Beer ",
+          13
+        ],
+        [
+          "Water ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Bottle You Might Find On A Kitchen Table"
+    },
+    {
+      "answers": [
+        [
+          "People",
+          19
+        ],
+        [
+          "Movie Stars",
+          15
+        ],
+        [
+          "Earthquakes",
+          15
+        ],
+        [
+          "Smog",
+          13
+        ],
+        [
+          "Beach",
+          11
+        ],
+        [
+          "Palm Trees",
+          11
+        ],
+        [
+          "Sunshine",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something California Has More Of Than Any Other State"
+    },
+    {
+      "answers": [
+        [
+          "Library",
+          53
+        ],
+        [
+          "Bedroom",
+          34
+        ],
+        [
+          "Study",
+          23
+        ],
+        [
+          "Office",
+          15
+        ],
+        [
+          "School",
+          10
+        ],
+        [
+          "Kitchen",
+          6
+        ],
+        [
+          "Outside",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Good Place To Study"
+    },
+    {
+      "answers": [
+        [
+          "Phone",
+          44
+        ],
+        [
+          "Dog",
+          29
+        ],
+        [
+          "Radio",
+          19
+        ],
+        [
+          "Rooster",
+          12
+        ],
+        [
+          "Sun",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Use To Wake Them Up"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

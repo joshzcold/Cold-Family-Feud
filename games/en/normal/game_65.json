@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bus Driver",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Trucker",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Limo Driver",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fireman",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Postal delivery",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Construction Worker",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation That Would Never drive A Small Car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Show affection",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Communicate",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Do Differently Around Their Partner Once They’re Married"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rabbit",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Assistant/Spectator",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "her/himself",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Magician Might Make Disappear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doorbell",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Dogs Barking",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Siren",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Whistle",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Noise That Causes Your Dog To Bark When He Hears It On TV."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wings ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Halo ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Heaven ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "God ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Harp ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With An Angel"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Cry ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Wave ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Shake Hands ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hug ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do When They Say Goodbye To Someone"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Music ",
+          52
+        ],
+        [
+          "Sleeping Tablets ",
+          34
+        ],
+        [
+          "Booze ",
+          22
+        ],
+        [
+          "Tiredness ",
+          14
+        ],
+        [
+          "Boredom ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Sends You To Sleep"
+    },
+    {
+      "answers": [
+        [
+          "Caramel",
+          31
+        ],
+        [
+          "Cherry",
+          30
+        ],
+        [
+          "Strawberry",
+          13
+        ],
+        [
+          "Chocolate Creme",
+          13
+        ],
+        [
+          "Nut",
+          4
+        ],
+        [
+          "Peanut Butter",
+          3
+        ],
+        [
+          "Vanilla",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Your Favorite Filling In A Valentine’s Day Chocolate."
+    },
+    {
+      "answers": [
+        [
+          "Espionage",
+          34
+        ],
+        [
+          "Police",
+          26
+        ],
+        [
+          "News Reporter",
+          22
+        ],
+        [
+          "Housekeeping",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation You’d Be Tempted To Enter If You Liked To Snoop"
+    },
+    {
+      "answers": [
+        [
+          "Park/ Playground",
+          33
+        ],
+        [
+          "Chuck E Cheese",
+          22
+        ],
+        [
+          "Zoo",
+          14
+        ],
+        [
+          "School/ Daycare",
+          12
+        ],
+        [
+          "Disney/ Amusement Park",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where It Would Be Strange To Go If You Didn’t Have Kids."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

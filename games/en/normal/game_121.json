@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cutting onions",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Crying",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Allergies",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Yawning",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dirt",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Your Eyes Might Water."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Roger Rabbit",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Roger Moore",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Roger Ebert",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Roger Clemens",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Roger"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Big Bird",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Elmo",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Grover",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ernie And Bert",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Kermit",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cookie Monster",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Oscar The Grouch",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Lived On Sesame Street, Name Somebody You Might Be Friends With."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Tree ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Grass ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Coconuts ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Find In An Oasis"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snake",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Alligator/Crocodile",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Turtle",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Lizard",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Frog/Toad",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Has Rough Skin."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Raise Voice",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Laugh",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Curse",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Walk Away",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ignore Them",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Name Calling",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Roll Eyes",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific A Person Might Do During An Argument That Makes Their Partner Really Angry"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Water",
+          46
+        ],
+        [
+          "Milk",
+          34
+        ],
+        [
+          "Lemonade",
+          7
+        ],
+        [
+          "Soda",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Unlike Coffee, Name A Beverage That You Could Never Make Money Off Selling By The Cup."
+    },
+    {
+      "answers": [
+        [
+          "Banana Split ",
+          47
+        ],
+        [
+          "Pudding ",
+          31
+        ],
+        [
+          "Banana Bread ",
+          20
+        ],
+        [
+          "Milkshake ",
+          13
+        ],
+        [
+          "Banana Cake ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That's Made With Banana's"
+    },
+    {
+      "answers": [
+        [
+          "Cereal",
+          50
+        ],
+        [
+          "Pop Tarts",
+          33
+        ],
+        [
+          "Waffles",
+          21
+        ],
+        [
+          "Pancakes",
+          14
+        ],
+        [
+          "Eggs",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food kids Love To Eat For Breakfast"
+    },
+    {
+      "answers": [
+        [
+          "Shoes ",
+          59
+        ],
+        [
+          "Holes ",
+          38
+        ],
+        [
+          "Smelly Feet ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Socks"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

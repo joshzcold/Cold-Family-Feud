@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sushi ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Kimono ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sake ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cars ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bonsai ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Karate ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Typically Japanese"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drugs",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Evidence",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Weapon",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Suspect",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something The Police Might Look For When They Search A Suspect’s House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Home",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theatre",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Museum",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Gym",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Good Place To Spend The Day When It’s Raining Outside."
+    },
+    {
+      "answers": [
+        {
+          "ans": "VCR",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Typewriter",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Record Player",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pader",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Home Telephone",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Equipment That Was Once Considered Modern Technology, But Few People Even Own Anymore"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Light Bulbs",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Batteries",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Paper",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Groceries",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something In House That Needs To Be Replaced Regularly"
+    },
+    {
+      "answers": [
+        {
+          "ans": "School",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Singapore",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Would Not Be Allowed To Chew Gum."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Clothes / Shirts ",
+          49
+        ],
+        [
+          "Napkin ",
+          32
+        ],
+        [
+          "Paper ",
+          21
+        ],
+        [
+          "Towels ",
+          14
+        ],
+        [
+          "Sheet ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Can Be Folded"
+    },
+    {
+      "answers": [
+        [
+          "Watermelon",
+          24
+        ],
+        [
+          "Milk",
+          17
+        ],
+        [
+          "Potatoes",
+          15
+        ],
+        [
+          "Turkey",
+          14
+        ],
+        [
+          "Pet Food",
+          13
+        ],
+        [
+          "Water",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Heaviest Item You Buy At The Supermarket."
+    },
+    {
+      "answers": [
+        [
+          "Heart",
+          51
+        ],
+        [
+          "Back/Spine",
+          24
+        ],
+        [
+          "Feet",
+          6
+        ],
+        [
+          "Eyes",
+          4
+        ],
+        [
+          "Kidneys",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Part Of Your Body That The Doctor Might Say To Take Better Care Of"
+    },
+    {
+      "answers": [
+        [
+          "Zoo ",
+          46
+        ],
+        [
+          "Farm ",
+          30
+        ],
+        [
+          "Jungle ",
+          20
+        ],
+        [
+          "Pet Shop ",
+          13
+        ],
+        [
+          "Safari ",
+          8
+        ],
+        [
+          "Circus ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place You'd Expect To See Animals"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

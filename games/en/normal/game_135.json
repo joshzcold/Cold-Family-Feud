@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Coffee",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pancakes",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Love To Wake Up To The Smell Of. (More Specific Than “Food.”)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Jump ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Run Away ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pass Out ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Freeze ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do When They Are Frightened"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Nuts",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pretzels",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chicken Wings",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Food That Goes Great With Beer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Telemarketer",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Singer",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Customer service",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "News Reporter",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Radio Broadcaster",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "oporator",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job Where You Could Claim Disability If You Lost Your Voice."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat It Anyway",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Pretend To Eat It",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Excuse Yourself",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Say “Not Hungry”",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Be Honest",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do You Do If You’re Eating At A Friend’s House, And Don’t Like The Food?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fish",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Drive",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Play Sports",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ride A Bike",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hunt",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Man Teaches His Grandson To Do."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Body",
+          32
+        ],
+        [
+          "Name",
+          29
+        ],
+        [
+          "Hair",
+          15
+        ],
+        [
+          "Attitude",
+          10
+        ],
+        [
+          "Nose",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific A Person May Change In Order To Become A Celebrity"
+    },
+    {
+      "answers": [
+        [
+          "Diamond ",
+          41
+        ],
+        [
+          "Opal ",
+          27
+        ],
+        [
+          "Ruby ",
+          17
+        ],
+        [
+          "Sapphire ",
+          11
+        ],
+        [
+          "Emerald ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Gem"
+    },
+    {
+      "answers": [
+        [
+          "Recess",
+          42
+        ],
+        [
+          "Lunch",
+          23
+        ],
+        [
+          "Nap Time",
+          18
+        ],
+        [
+          "Going Home",
+          9
+        ],
+        [
+          "Art",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Part Of The School Day Might A Kindergartener Look Forward To?"
+    },
+    {
+      "answers": [
+        [
+          "Sleep All Day",
+          38
+        ],
+        [
+          "Have 9 Lives",
+          22
+        ],
+        [
+          "Pleny Of Food",
+          19
+        ],
+        [
+          "No Job",
+          15
+        ],
+        [
+          "Plenty Of Play Time",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way That You Wish Your Life Was More Like Your Cat’s Life"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

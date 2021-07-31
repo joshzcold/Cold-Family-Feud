@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Snot",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Breath",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something that Might Come Out Of Your Nose When You Laugh."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smile",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Say Cheese",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Move Left/Right",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Move Closer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Direction You’re Given When Having A Group Photo Taken."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Grilled Cheese",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Macaroni",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cheeseburger",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food With Cheese That’s A Childhood Favorite."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Angelina Jolie",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Madonna",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Rosie O’Donnell",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Will Smith",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Oprah Winfrey",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Brad Pitt",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Jerry Lewis",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Celebrity Who Is Often Photographed Off-Screen With Children."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Worst Thing To Have To Share With A Sibling"
+    },
+    {
+      "answers": [
+        {
+          "ans": "PLAID",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "FLORAL",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "ANIMAL PRINTS",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "STRIPES",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "POLKA DOTS",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "PAISLEY",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Print People Wear On Clothing, But You Would Hate As Wallpaper"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bad Weather",
+          46
+        ],
+        [
+          "Sick",
+          38
+        ],
+        [
+          "Tired",
+          6
+        ],
+        [
+          "Watching TV",
+          5
+        ],
+        [
+          "Housework",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You’d Stay Inside On A Saturday."
+    },
+    {
+      "answers": [
+        [
+          "Trustworthiness",
+          65
+        ],
+        [
+          "Sense Of Humor",
+          20
+        ],
+        [
+          "Kindness",
+          9
+        ],
+        [
+          "Good Communicator",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Quality That’s Important In A Friend, and Even More Important In A Spouse."
+    },
+    {
+      "answers": [
+        [
+          "Gum",
+          40
+        ],
+        [
+          "Poop",
+          26
+        ],
+        [
+          "Mud",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Might Scrape Off Bottom Shoes"
+    },
+    {
+      "answers": [
+        [
+          "Hay / Straw ",
+          56
+        ],
+        [
+          "Crows / Birds ",
+          36
+        ],
+        [
+          "Corn ",
+          24
+        ],
+        [
+          "Hat ",
+          16
+        ],
+        [
+          "Farm ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With A Scarecrow"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "No Smoking",
+          "pnt": 78,
+          "trig": false
+        },
+        {
+          "ans": "Restrooms",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wait To Be Seated",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "No Shirt No Service",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Not Resp. For Items",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sign You Might See Posted In A Restaurant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Miami",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Orlando",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Jacksonville",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Tampa Bay",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Daytona Beach",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tellahassee",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Key West",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A City In Florida"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawnmower ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Conversation ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "A Business ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Hard To Start"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Food",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Spoiled Food",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Frost",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Empty Ice Tray",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Food Is Thawed",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Exploded Can",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Hate To Find When You Open Your Freezer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tyres ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Exhaust ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Windscreen ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Clutch ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Windscreen Wipers ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of A Car That's Often Replaced"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mexico",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "France",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Canada",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "England",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ireland",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Holland",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Italy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Country American Kids Visit In Hope Lucky In College"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bones",
+          27
+        ],
+        [
+          "Food",
+          21
+        ],
+        [
+          "People",
+          11
+        ],
+        [
+          "Treats",
+          11
+        ],
+        [
+          "Other Dogs",
+          11
+        ],
+        [
+          "Going For A Walk",
+          7
+        ],
+        [
+          "Toys",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Dogs Get More Excited About Than People."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          55
+        ],
+        [
+          "Cell Phone",
+          36
+        ],
+        [
+          "ID|",
+          23
+        ],
+        [
+          "Keys",
+          15
+        ],
+        [
+          "Ipod",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Name Something You Bring With You Everywhere"
+    },
+    {
+      "answers": [
+        [
+          "Morgan freeman",
+          25
+        ],
+        [
+          "James earl Jones",
+          24
+        ],
+        [
+          "Brad Pitt",
+          13
+        ],
+        [
+          "Julia Roberts",
+          11
+        ],
+        [
+          "Sean Connery",
+          10
+        ],
+        [
+          "Denzil Washington",
+          9
+        ],
+        [
+          "Robert Redford",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Could Have A Movie Star Narrate Your Life, Whose Voice Would You Choose?"
+    },
+    {
+      "answers": [
+        [
+          "Plane ",
+          50
+        ],
+        [
+          "Port ",
+          33
+        ],
+        [
+          "Craft ",
+          21
+        ],
+        [
+          "Force ",
+          14
+        ],
+        [
+          "Vent ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Air Conditioning Name A Word That Starts With Air"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

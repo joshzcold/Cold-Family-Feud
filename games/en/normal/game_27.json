@@ -1,0 +1,357 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Homes For Sale",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Clients",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Advertisement",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Good Attitude",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Real Estate Agent Needs To Do His Job."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Casper",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Headless Horseman",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Nearly Headless Nich",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Ghost of Xmas Past",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ghost of Xmas Future",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Present",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Jacob Marley",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a famous Ghost"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Open Door",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Pay",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bring Flowers",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cook Dinner",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Man Do On First Date To Be Husband Material"
+    },
+    {
+      "answers": [
+        {
+          "ans": "High Heels",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Pantyhose",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Girdle/Corset",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman’s Doctor Might Advise Her Not To Wear."
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Service",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Dropped Calls",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fuzzy Reception",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Expensive",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Batteries Die Fast",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Break Easily",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Hear Well",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Complaint People Have About Their Cell Phones"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cup Of Sugar",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Lawn Mower",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Charcoal",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mayonnaise",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Tool",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "RAKE",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Neighbor Might Ask To Borrow"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Code/Secret Knock",
+          54
+        ],
+        [
+          "Ladder",
+          35
+        ],
+        [
+          "Rope",
+          23
+        ],
+        [
+          "Permission",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Need In Order To Enter A Childs Treehouse"
+    },
+    {
+      "answers": [
+        [
+          "…Come,First Served",
+          24
+        ],
+        [
+          "First Love",
+          17
+        ],
+        [
+          "First Class",
+          9
+        ],
+        [
+          "First Things First",
+          9
+        ],
+        [
+          "First Time",
+          9
+        ],
+        [
+          "First Kiss",
+          9
+        ],
+        [
+          "First Base",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Expression That Begins With The Word “First.”"
+    },
+    {
+      "answers": [
+        [
+          "Party",
+          24
+        ],
+        [
+          "Mall",
+          20
+        ],
+        [
+          "Place Of Worship",
+          18
+        ],
+        [
+          "Work",
+          14
+        ],
+        [
+          "School",
+          10
+        ],
+        [
+          "Hair Saloon",
+          5
+        ],
+        [
+          "Coffee Shop",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someplace Were You’d See A Lot Of People Gossiping"
+    },
+    {
+      "answers": [
+        [
+          "Love",
+          38
+        ],
+        [
+          "Fear/Worry",
+          16
+        ],
+        [
+          "Anger",
+          12
+        ],
+        [
+          "Happy",
+          11
+        ],
+        [
+          "Distrustful",
+          10
+        ],
+        [
+          "Compassion",
+          7
+        ],
+        [
+          "Pride",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me An Emotion That Gets Stronger After You Have Children"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

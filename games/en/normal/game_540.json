@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Flowers",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Perfume/Cologne",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Me",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dinner",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chocolates",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Kissing",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something You’D Hate For Your Date To Be Allergic To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kevorkian",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Jekyll",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Suess",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dolittle",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Spock",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dre",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Doctor (Real Or Imaginary, Living Or Dead) You Would Not Want To Operate On You."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stairs",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Outlets",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cabinets/Bleach",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Table Corners",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Medication",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Stove/Oven",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Once A Baby Can Crawl, Name Something You Make Sure Is Baby-Proofed In Your House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Green Bean",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Tuna",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Turkey",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sweet Potato",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Broccoli",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mushroom",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Typical Holiday Casserole."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bring Coupons",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Carry A Calculator",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Buy Generic Brands",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "How They Dress",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In The Grocery Store, How Can You Identify A Penny-Pincher?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Comedy Club",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Best Place To Pick Up A New Joke"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Ride",
+          57
+        ],
+        [
+          "Wheels",
+          37
+        ],
+        [
+          "Whip",
+          24
+        ],
+        [
+          "Hot Rod",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Another Word A Cool Guy Might Use For “Car”"
+    },
+    {
+      "answers": [
+        [
+          "Fire Place ",
+          59
+        ],
+        [
+          "Skiis ",
+          38
+        ],
+        [
+          "Skiers ",
+          25
+        ],
+        [
+          "Snow ",
+          16
+        ],
+        [
+          "A Heater ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find In A Ski Lodge"
+    },
+    {
+      "answers": [
+        [
+          "Work/ School",
+          42
+        ],
+        [
+          "Church",
+          27
+        ],
+        [
+          "Party",
+          18
+        ],
+        [
+          "Wedding",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Place Where You Don’t Want To Leave Early"
+    },
+    {
+      "answers": [
+        [
+          "Polka Dots",
+          36
+        ],
+        [
+          "Stripes",
+          33
+        ],
+        [
+          "Floral",
+          12
+        ],
+        [
+          "Paisley",
+          11
+        ],
+        [
+          "Tie Dye",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Many Hunters Wear Camouflage In The Woods, Name A Pattern You’d Be Surprised To See A Hunter Wear."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

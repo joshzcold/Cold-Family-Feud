@@ -1,0 +1,297 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Carrots",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Presents",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Deer Feed",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Instead Of Money, What Might Santa Give His Reindeer As Pay?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lighter",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Sticks",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Flint",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lighter Fluid",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Matches, Name Something People Use To Start A Fire."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Charlie’s Angel",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bewitched",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wayne’s World",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dukes Of Hazzard",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Brady Bunch",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Starsky And Hutch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Blues Brother",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Movie Based On A TV Show Or Skit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rodeo",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Saloon",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Farm",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Texas",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Wanted To Marry A Cowboy Where Would You Start Hanging Out?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flying Cars",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Time Travel",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Robots",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Spaceships",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People In The 1950’s Thought We Would Have By The Year 2000"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Halloween",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Valentines",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Columbus Day",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Holiday Should We Have Day Off"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Read A Book",
+          45
+        ],
+        [
+          "Go Out Side",
+          29
+        ],
+        [
+          "Clean",
+          19
+        ],
+        [
+          "Finish Homework",
+          12
+        ],
+        [
+          "Play Game",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When A Kid Says “I’M Bored”, Name Something A Parent Often Suggests."
+    },
+    {
+      "answers": [
+        [
+          "Age",
+          30
+        ],
+        [
+          "Your Income",
+          28
+        ],
+        [
+          "Weight",
+          21
+        ],
+        [
+          "Who You’re Dating",
+          13
+        ],
+        [
+          "How They Look",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Might Lie To A Friend About."
+    },
+    {
+      "answers": [
+        [
+          "Bath ",
+          43
+        ],
+        [
+          "Shower ",
+          28
+        ],
+        [
+          "Streak ",
+          18
+        ],
+        [
+          "Make Love ",
+          12
+        ],
+        [
+          "Skinny Dip ",
+          8
+        ],
+        [
+          "Be Born ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Only Do Naked"
+    },
+    {
+      "answers": [
+        [
+          "Fear Of Flying",
+          46
+        ],
+        [
+          "It’s Enjoyable",
+          30
+        ],
+        [
+          "Like Water",
+          20
+        ],
+        [
+          "No Traffic",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Person might Prefer To Travel By Cruise Ship."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

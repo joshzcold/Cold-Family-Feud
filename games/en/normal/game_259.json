@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Goofy",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Donald Duck",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which TV Characters Might You Also See Disneyland"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Waiste",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Length",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Backside",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Hips",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Thighs",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When Shopping For A New Pair Of Jeans, Name Something that Never Fits Quite Right"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Salad",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bread Sticks",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Chicken Wings",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Goes Well With Pizza."
+    },
+    {
+      "answers": [
+        {
+          "ans": "New Jersey",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Men",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Her Hair",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Tanning",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pickles",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "On Thanksgiving, Name Something Snooki Might Say She’s Thankful For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cater",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Play Music",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Take Pictures",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Provide Flowers",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Plan It",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Make The Cake",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Decorate",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Be Hired To Do For A Wedding."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drama",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Suspicious Deaths",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Love Affairs",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Weddings",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Divorce",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Lived In Soap Opera Land"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Skirt",
+          52
+        ],
+        [
+          "Swim Suit",
+          34
+        ],
+        [
+          "High Heels",
+          22
+        ],
+        [
+          "Shorts",
+          14
+        ],
+        [
+          "Jeans",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Sexiest Piece Of Clothing That A Woman Can Wear In Public"
+    },
+    {
+      "answers": [
+        [
+          "Straw",
+          26
+        ],
+        [
+          "Change",
+          20
+        ],
+        [
+          "Napkins",
+          19
+        ],
+        [
+          "Ketchup",
+          13
+        ],
+        [
+          "Food",
+          11
+        ],
+        [
+          "Drink",
+          7
+        ],
+        [
+          "Receipt",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Drive-Thru Worker Might Forget To Give You That Would Be Annoying."
+    },
+    {
+      "answers": [
+        [
+          "Cavity",
+          42
+        ],
+        [
+          "Drill",
+          33
+        ],
+        [
+          "Root Canal",
+          14
+        ],
+        [
+          "Oops",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Word Do You Dread Hearing At The Dentist’s Office?"
+    },
+    {
+      "answers": [
+        [
+          "Socks ",
+          56
+        ],
+        [
+          "Tie ",
+          36
+        ],
+        [
+          "Aftershave ",
+          24
+        ],
+        [
+          "Handkerchief ",
+          16
+        ],
+        [
+          "Slippers ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Gift That Fathers Receive On Fathers Day"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Camping ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Tent ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Sleep ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Zip ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Ants ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something you Associate With A Sleeping Bag"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Actor/Model",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Business Person",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation That You Could Show Off At A High School Reunion."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monopoly",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Scrabble",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Life",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Triveal Persuit",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Family Fued",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Candy Land",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Sorry",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Board Game People Give As A Holiday Gift."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Friends",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Therapist",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pastor",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Psychic",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Where Do Many People Go To Get Advice On Love?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Den",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dining Room",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Kids Room",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Living Room",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Room In Your Home That’s Hard To Keep Clean."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crying Baby",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Nightmares",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Feeding Times",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sick Kid",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "After Having Kids, Name Something That Happens That Interrupts A Couple’s Alone Time At Night."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Ride A Bicycle",
+          35
+        ],
+        [
+          "Play Football",
+          22
+        ],
+        [
+          "Ride A Motorcycle",
+          16
+        ],
+        [
+          "Rock Climb",
+          10
+        ],
+        [
+          "Skydive",
+          10
+        ],
+        [
+          "Skateboard",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity You’d Never Do Without Wearing A Helmet"
+    },
+    {
+      "answers": [
+        [
+          "Friends/Popularity",
+          43
+        ],
+        [
+          "Clothes",
+          14
+        ],
+        [
+          "Talking On Phone",
+          13
+        ],
+        [
+          "Car/Driving",
+          11
+        ],
+        [
+          "Music",
+          8
+        ],
+        [
+          "Dating",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s More Important To A Teenager Than To An Adult."
+    },
+    {
+      "answers": [
+        [
+          "Suck Thumb ",
+          57
+        ],
+        [
+          "Go To School ",
+          37
+        ],
+        [
+          "Growing ",
+          24
+        ],
+        [
+          "Playing ",
+          16
+        ],
+        [
+          "Being Foolish ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Stop Doing When You Become An Adult"
+    },
+    {
+      "answers": [
+        [
+          "Ice/Speed Skater",
+          49
+        ],
+        [
+          "Football Player",
+          20
+        ],
+        [
+          "Hockey Player",
+          20
+        ],
+        [
+          "Runner",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Kind Of Athlete Would Have An Unfair Advantage In A Roller Derby?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

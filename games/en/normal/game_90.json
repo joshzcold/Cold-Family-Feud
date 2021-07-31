@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Library",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Hotel",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cafe",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place That Has Internet Now But Not Long Ago"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Google",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Facebook",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Yahoo",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Amazon",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ebay",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Website Everyone Has Heard Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ring ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Chain ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Tooth ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pen ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Thats Made Of Gold"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Corn",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Spinach",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Food That Gets Stuck In You Teeth Should Be Avoided On A Date?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Running",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tap Dancing",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Walking",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mopping",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Jumping",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Cinderella Would Have A Hard Time Doing In Her Glass Slippers."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Picnic",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Reading A Book",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sitting",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Relaxing",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Kissing",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Enjoy Doing Under A Tree."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smile",
+          37
+        ],
+        [
+          "Be Friendly",
+          28
+        ],
+        [
+          "Return Often",
+          12
+        ],
+        [
+          "Flirt",
+          12
+        ],
+        [
+          "Fast Service",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific A Waiter Would Do To Get Good Tips"
+    },
+    {
+      "answers": [
+        [
+          "Shop",
+          58
+        ],
+        [
+          "Sleep",
+          38
+        ],
+        [
+          "Eat Leftovers",
+          25
+        ],
+        [
+          "Xmas Decorations",
+          16
+        ],
+        [
+          "Clean Up",
+          11
+        ],
+        [
+          "Watch Football",
+          7
+        ],
+        [
+          "Start A Diet",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do On The Day After Thanksgiving"
+    },
+    {
+      "answers": [
+        [
+          "Snow ",
+          52
+        ],
+        [
+          "Iceburgs ",
+          34
+        ],
+        [
+          "Eskimos ",
+          22
+        ],
+        [
+          "Polar Bears ",
+          14
+        ],
+        [
+          "Pipeline / Oil ",
+          9
+        ],
+        [
+          "America ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Alaska"
+    },
+    {
+      "answers": [
+        [
+          "Goggles ",
+          48
+        ],
+        [
+          "Bathing Cap ",
+          31
+        ],
+        [
+          "Trunks ",
+          20
+        ],
+        [
+          "Nose Peg ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Wear While Swimming"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bank",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Fan",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Cashier",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mail Carrier",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Might Ask For Your Signature"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Antenna",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Satellite Dish",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Flag",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Helipad",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lightning Rod",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Roof",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find On Top Of A Tall Office Building"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beaver",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Tiger/Lion",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Donkey",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal That A Person With Large Teeth Resemble."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Home ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Park ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Playground ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Friends ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Shops ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Somewhere Children Like To Go After School"
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me How Many Items They Allow In Most Supermarket Express Lines. (Numeric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toaster",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Blender",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Mixer",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Can Opener",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Small Kitchen Appliance That A Bachelor May Not Have"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Person",
+          43
+        ],
+        [
+          "Clock",
+          28
+        ],
+        [
+          "Animal",
+          18
+        ],
+        [
+          "Doll",
+          12
+        ],
+        [
+          "Mask",
+          8
+        ],
+        [
+          "Coin",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something With A Face"
+    },
+    {
+      "answers": [
+        [
+          "Exercise",
+          49
+        ],
+        [
+          "Weight Loss",
+          32
+        ],
+        [
+          "Curly Hair",
+          21
+        ],
+        [
+          "Short Shorts",
+          14
+        ],
+        [
+          "Kissing People",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you associate with Richard Simmons"
+    },
+    {
+      "answers": [
+        [
+          "Tyra Banks",
+          46
+        ],
+        [
+          "Charlize Theron",
+          16
+        ],
+        [
+          "Megan Fox",
+          12
+        ],
+        [
+          "Pamela Anderson",
+          8
+        ],
+        [
+          "Halle Barry",
+          7
+        ],
+        [
+          "Brook Shields",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Actress Who is Or Was A Model"
+    },
+    {
+      "answers": [
+        [
+          "Hot",
+          28
+        ],
+        [
+          "Beautiful",
+          24
+        ],
+        [
+          "Sexy",
+          17
+        ],
+        [
+          "Pretty",
+          6
+        ],
+        [
+          "Gorgeous",
+          5
+        ],
+        [
+          "Handsome",
+          4
+        ],
+        [
+          "Cute",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Word Would You Use To Describe A Very Attractive Person"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

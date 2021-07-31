@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eat It",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Throw Snowballs",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Make Snow Angels",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Build Snowmen",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sled In It",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Do With Snow, But Their Parents Don’t."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cold Bath",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Medicine",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cold Washcloth",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Use Ice",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do To Lower Their Temperature When They Have A Fever"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Married",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Become Parents",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Used To Do At A Younger Age, That Nowadays They Do When They’re Older"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lion",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Giraffe",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Zebra",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Animals Might You See If You Go On An African Safari?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Travel",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Go Back To School",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Move Back Home",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Join The Military",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Instead Of Get A Job, Name Something A Person Might Do After College"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snake",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rat",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Lizard",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hamster",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A House Pet You Wouldnt Let Sleep End Bed"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Real Name",
+          41
+        ],
+        [
+          "Address",
+          29
+        ],
+        [
+          "Picture",
+          13
+        ],
+        [
+          "Phone Number",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Running From The Law Might Not Put On Their Social Networking Site"
+    },
+    {
+      "answers": [
+        [
+          "Work/School",
+          33
+        ],
+        [
+          "Party",
+          18
+        ],
+        [
+          "Shopping Center",
+          13
+        ],
+        [
+          "Gym",
+          12
+        ],
+        [
+          "Church",
+          10
+        ],
+        [
+          "Park",
+          7
+        ],
+        [
+          "Beach",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than A Bar, Name A Place Where It’s Common To Get Hit On."
+    },
+    {
+      "answers": [
+        [
+          "Teddy Bear",
+          39
+        ],
+        [
+          "Blanket",
+          31
+        ],
+        [
+          "Pillow",
+          10
+        ],
+        [
+          "Parents",
+          7
+        ],
+        [
+          "Doll",
+          5
+        ],
+        [
+          "Night Light",
+          4
+        ],
+        [
+          "Pacifier",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Child Might Sleep With"
+    },
+    {
+      "answers": [
+        [
+          "Love/Marriage",
+          45
+        ],
+        [
+          "Family/Children",
+          27
+        ],
+        [
+          "Childhood",
+          12
+        ],
+        [
+          "Work",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If you were to write a memoir,name a specific topic that would come up a lot."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

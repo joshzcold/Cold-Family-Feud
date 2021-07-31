@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bed ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Oven ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Sink ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In A Caravan"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rocking ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Music ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bottle ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Lullaby ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dummy ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Helps A Baby Go To Sleep"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gambling",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Collect Cars",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Hobby That Would Make You Go Broke Quickly"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleeping",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Tying Shoes/ Bending",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Walking",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Might Have A Hard Time Doing In Her Last Month Of Pregnancy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dogs",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Leash",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Poop",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Collar/Tag",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Trainers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d See At A Dog Show, But Not At A Beauty Pageant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baseball",
+          "pnt": 72,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Tennis",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Sport That Might Be Cancelled Because Of Rain."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Comedian",
+          45
+        ],
+        [
+          "Dancer",
+          29
+        ],
+        [
+          "Singer",
+          19
+        ],
+        [
+          "Clown",
+          12
+        ],
+        [
+          "Actor",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job A Robot Not Entertaining Enough"
+    },
+    {
+      "answers": [
+        [
+          "Bicycle",
+          35
+        ],
+        [
+          "Roller Coaster",
+          33
+        ],
+        [
+          "Skate Board",
+          15
+        ],
+        [
+          "Horse",
+          9
+        ],
+        [
+          "Sled",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something That Kids Ride With Ease, But An Adult Would Be Afraid To Ride."
+    },
+    {
+      "answers": [
+        [
+          "Charlie’s Angels",
+          21
+        ],
+        [
+          "Bewitched",
+          16
+        ],
+        [
+          "Wayne’s World",
+          15
+        ],
+        [
+          "Duke’s Of Hazzard",
+          14
+        ],
+        [
+          "Brady Bunch",
+          13
+        ],
+        [
+          "Starsky and Hutch",
+          7
+        ],
+        [
+          "Blues Brothers",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A movie Based On A TV Show Or Skit"
+    },
+    {
+      "answers": [
+        [
+          "Hot Dogs",
+          42
+        ],
+        [
+          "Beer",
+          27
+        ],
+        [
+          "Soda",
+          18
+        ],
+        [
+          "Popcorn",
+          12
+        ],
+        [
+          "Peanuts",
+          7
+        ],
+        [
+          "Water",
+          5
+        ],
+        [
+          "Lemonade",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Food Or Drink That Vendors Walk Around Selling At Sports Games"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

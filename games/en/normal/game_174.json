@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "HEELS",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "SNEAKERS",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "BOOTS",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "SANDLES",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Shoe That Women Own At Least One Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Bed",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Sing/ Play Radio",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Vacuum",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Dust",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Housekeeper Does Cleaning Hotel Room"
+    },
+    {
+      "answers": [
+        {
+          "ans": "…Mad Black Woman",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Diary Of Ann Frank",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Princess Diaries",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bridgette Jones’",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Diary Of A Wimpy Kid",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Vampire Diaries",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Movie Or TV Show That Has The word ‘Diary/Diaries’ In The Title"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spinning Round ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Lack Of Air ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Giving Blood ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Makes You Dizzy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone Number",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "What Dhe Looks Like",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Address",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Information About A Woman Might A Man Keep In His Little Black Book?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Age",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Phone Number",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sex",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Status",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Height",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Information That Post People List In Their Personal’s Ads."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bed",
+          53
+        ],
+        [
+          "Shower",
+          34
+        ],
+        [
+          "Soap",
+          23
+        ],
+        [
+          "Toilet",
+          15
+        ],
+        [
+          "Towel",
+          10
+        ],
+        [
+          "TV",
+          6
+        ],
+        [
+          "Room Service",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific In A Hotel Handy To Have Camping"
+    },
+    {
+      "answers": [
+        [
+          "Sports Team",
+          47
+        ],
+        [
+          "Location",
+          28
+        ],
+        [
+          "Friends are Going",
+          11
+        ],
+        [
+          "Party School",
+          9
+        ],
+        [
+          "Cost Of Tuition",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Academic Why Might A Teen Choose A Certain College?"
+    },
+    {
+      "answers": [
+        [
+          "Tanning",
+          43
+        ],
+        [
+          "Swimming",
+          25
+        ],
+        [
+          "Tropical Drinks",
+          9
+        ],
+        [
+          "Picnic",
+          8
+        ],
+        [
+          "Volleyball",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When It’s Cold Outside, Name Something You Dream About Doing On A Sunny Beach"
+    },
+    {
+      "answers": [
+        [
+          "Spider Man",
+          41
+        ],
+        [
+          "Batman",
+          38
+        ],
+        [
+          "Flash",
+          10
+        ],
+        [
+          "Incredible Hulk",
+          3
+        ],
+        [
+          "Robin",
+          2
+        ],
+        [
+          "Wonder Woman",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Superhero Who Doesn’t Fly"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wish List",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Been Good",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Leave Him Cookies",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Address",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Might Tell Santa In A Letter To Him"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Librarian",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Writer/ Editor",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Secretary",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Security Guard",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation Where You Could Get Away With Reading On The Job"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Taste",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Type Of Meat",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Color",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Smell",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If “Meat Loaf Surprise” was listed on a menu,what might be surprising about it"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tired",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hung Over",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Stressed",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Computer Trouble",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A reason You Might Be Less Productive Then Usual At Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hangover",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Headache",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Sore Dancing Legs",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Nausea",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Ailment Might You Have The Morning After A Wild Party?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Orange",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Lemon",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cranberry",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tomato",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Grapefruit",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a fruit that people drink juice from in the morning."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Movie Theater",
+          27
+        ],
+        [
+          "Place Of Worship",
+          27
+        ],
+        [
+          "Restaurant",
+          13
+        ],
+        [
+          "Car",
+          11
+        ],
+        [
+          "Library",
+          9
+        ],
+        [
+          "At Work",
+          7
+        ],
+        [
+          "In The Bathroom",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where Wish People Wouldn’t Answer Their Cell Phones"
+    },
+    {
+      "answers": [
+        [
+          "Low Pay",
+          55
+        ],
+        [
+          "Long Hours",
+          36
+        ],
+        [
+          "Mean Boss",
+          23
+        ],
+        [
+          "Location",
+          15
+        ],
+        [
+          "No Benefits",
+          10
+        ],
+        [
+          "Dangerous",
+          6
+        ],
+        [
+          "Travel Alot",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Find Out About Job Not Accepting It"
+    },
+    {
+      "answers": [
+        [
+          "Shy",
+          40
+        ],
+        [
+          "Been Drinking",
+          26
+        ],
+        [
+          "Too Noisy",
+          17
+        ],
+        [
+          "Lots Of Competiton",
+          11
+        ],
+        [
+          "Crowded Room",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why It’s Hard To Talk To An Attractive Person"
+    },
+    {
+      "answers": [
+        [
+          "Hospital",
+          45
+        ],
+        [
+          "Movie Theater",
+          29
+        ],
+        [
+          "Church",
+          19
+        ],
+        [
+          "Airplane",
+          12
+        ],
+        [
+          "School",
+          8
+        ],
+        [
+          "Library",
+          5
+        ],
+        [
+          "Court",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You’re Asked To Turn Off Cell Phone"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

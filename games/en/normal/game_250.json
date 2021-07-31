@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "A Camera ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Binnoculars ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Take On Safari"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Noodles",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "TV dinner",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fast food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sandwich",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If someone hates to cook,name a dinner that they probably eat often."
+    },
+    {
+      "answers": [
+        {
+          "ans": 70,
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": 75,
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": 65,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": 80,
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": 60,
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me How Fast Most People Drive On The Freeway. (Numeric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Alarm ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "TV ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Light ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Radio ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lamp ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Turn On Before They Get Into Bed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hamburger",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Fries",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Salad",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That’s On Menu Of Every Restaurant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Deepens",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Softer",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Nervous stutter",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Higher pitch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Crack",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a way that a man’s voice might change when talking to his love interest."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Called In Sick",
+          47
+        ],
+        [
+          "Skimpy Suit",
+          28
+        ],
+        [
+          "You’re Drinking",
+          14
+        ],
+        [
+          "Ruin A Good Time",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Reason You’d Hate To Run Into Your Boss At The Beach."
+    },
+    {
+      "answers": [
+        [
+          "Gym Teacher",
+          47
+        ],
+        [
+          "Personal Trainer",
+          31
+        ],
+        [
+          "Janitor",
+          20
+        ],
+        [
+          "Babysitter",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "In Which Profession Wear Sweat Pants"
+    },
+    {
+      "answers": [
+        [
+          "Nursing ",
+          42
+        ],
+        [
+          "Doctor ",
+          27
+        ],
+        [
+          "Newsagent ",
+          18
+        ],
+        [
+          "Paper Boy ",
+          12
+        ],
+        [
+          "Baker ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation Where You Have To Wake Up Early"
+    },
+    {
+      "answers": [
+        [
+          "Cheeseburger",
+          43
+        ],
+        [
+          "French Fries",
+          28
+        ],
+        [
+          "Hot Dog",
+          18
+        ],
+        [
+          "Chicken Nuggets",
+          12
+        ],
+        [
+          "Soda",
+          8
+        ],
+        [
+          "Salad",
+          5
+        ],
+        [
+          "Shake",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Requested Hamburger Garbled, What You Get"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

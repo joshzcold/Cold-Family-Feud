@@ -1,0 +1,355 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bells ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Glenfiddich ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Grants ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Teachers ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Famous Grouse ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Whyte & Mackay ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Well Known Brand Of Scottish Whisky"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Price ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Location ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Number Of Bedrooms ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Garage (Y/N) ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Garden (Y/N) ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Leasehold / Freehold ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You'd Put In An Ad When Selling Your House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bottle ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Jar ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Milk ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Boiled Egg ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Partner ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Might Take The Top Off"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Check",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Photo",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Contract",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Petition",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Person Might Ask To Have Signed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birds And The Bees",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Relationships",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Politics",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Dreaded Talking To Your Parents About As A Teen, And Still Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Photos",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cake Topper",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Veil/Bridal Accessry",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Invitations",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Video Tape",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Had A Box In The Attic labeled “Wedding,” Name Something That Would Be In It."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Ally Mcbeal",
+          25
+        ],
+        [
+          "Oprah Winfrey",
+          22
+        ],
+        [
+          "Roseanne",
+          19
+        ],
+        [
+          "Rosie O’donnell",
+          9
+        ],
+        [
+          "Murphy Brown",
+          7
+        ],
+        [
+          "I Love Lucy",
+          7
+        ],
+        [
+          "Will & Grace",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Tv Show Past Or Present That Has A Womanâ€™S Name In The Title"
+    },
+    {
+      "answers": [
+        [
+          "Sing ",
+          58
+        ],
+        [
+          "Make Love ",
+          38
+        ],
+        [
+          "Shave ",
+          25
+        ],
+        [
+          "Wee / Urinate ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do In the Shower"
+    },
+    {
+      "answers": [
+        [
+          "Tag",
+          31
+        ],
+        [
+          "Dodge Ball",
+          21
+        ],
+        [
+          "Jump Rope",
+          18
+        ],
+        [
+          "Kickball",
+          16
+        ],
+        [
+          "Trampoline Use",
+          6
+        ],
+        [
+          "Hopscotch",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Local Gym Was Run By 5-Year-Olds, What Classes Would You Take Instead Of Pilates?"
+    },
+    {
+      "answers": [
+        [
+          "Energy",
+          29
+        ],
+        [
+          "Looks",
+          28
+        ],
+        [
+          "Fun",
+          19
+        ],
+        [
+          "Going To School",
+          12
+        ],
+        [
+          "Freedom",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do People Miss About Their Youth?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

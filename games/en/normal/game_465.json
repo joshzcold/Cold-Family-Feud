@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Health Inspection ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Gone Broke ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Chef Quits ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Power Cut ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why A Restaurant Might Have To Close"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Guns ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Cowboys ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Indians ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Horses ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Saloon ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Always See In Westerns"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pointer",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Williams",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Olsen",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Judd",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Set Of Sisters"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Of Her Mom’s A Kid Might Wear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Telemarketer",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Operator",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Secretary",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Occupation Where You Would Be On Phone All Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Crafts",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Playing Instrument",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Listening To Radio",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Pasttime More Respectable Than Watching Tv"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lifeguard",
+          49
+        ],
+        [
+          "Mail Carrier",
+          25
+        ],
+        [
+          "Gym Teacher",
+          12
+        ],
+        [
+          "Zookeeper",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job In Which You Could Wear Shorts To Work."
+    },
+    {
+      "answers": [
+        [
+          "MCDONALDS",
+          59
+        ],
+        [
+          "BURGER KING",
+          38
+        ],
+        [
+          "TACO BELL",
+          25
+        ],
+        [
+          "WENDY’S",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Chain Restaurant That Would Never Be Asked To Cater A Fancy Party"
+    },
+    {
+      "answers": [
+        [
+          "Stripes",
+          32
+        ],
+        [
+          "Animals",
+          17
+        ],
+        [
+          "Argyle",
+          14
+        ],
+        [
+          "Flowers",
+          12
+        ],
+        [
+          "Polka Dots",
+          10
+        ],
+        [
+          "Hearts",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Design You Often See On Socks, But Not On Sneakers"
+    },
+    {
+      "answers": [
+        [
+          "Float ",
+          52
+        ],
+        [
+          "Walk On The Moon ",
+          34
+        ],
+        [
+          "Fly ",
+          22
+        ],
+        [
+          "Spacewalk ",
+          14
+        ],
+        [
+          "Go Into Space ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Astronauts Do"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

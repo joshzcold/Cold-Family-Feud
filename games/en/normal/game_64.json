@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Stinky Feet",
+          "pnt": 78,
+          "trig": false
+        },
+        {
+          "ans": "Ugly Feet",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Returns",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Big Feet",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Backache",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Shoe Salesman Might Complain About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Butter",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Plastic",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Heart",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Melts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Moving Truck",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "For Sale Sign",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Boxes",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Furniture",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You See In Front Of The Neighbors’ House That Lets You Know They’re Moving?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tornado",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hurricane",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Twister",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Thunder",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cyclone",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tsunami",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Typhoon",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Terms For Weather Phenomena Could A Roller Coaster Be Named After?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tap Dance",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Baton Twirling",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Juggle",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "name A Talent You Rarely See Women Do Outside A Beauty Pageant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Hold Hands",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Shake Hands",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Share a Drink",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Hug",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something a Germ-O-Phobe Would Refuse To Do On A Date"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Too Hairy",
+          34
+        ],
+        [
+          "For Spouse/Date",
+          28
+        ],
+        [
+          "Body Builder",
+          19
+        ],
+        [
+          "Swimmer",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Man Would Wax Hair Off Part Of His Body."
+    },
+    {
+      "answers": [
+        [
+          "Beach",
+          43
+        ],
+        [
+          "Pool",
+          31
+        ],
+        [
+          "Nightclub",
+          10
+        ],
+        [
+          "Spa",
+          6
+        ],
+        [
+          "Gym",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Public Place Where You Might Be Spotted Wearing Less Clothing Than Usual."
+    },
+    {
+      "answers": [
+        [
+          "Travel",
+          37
+        ],
+        [
+          "Rekindle Romance",
+          16
+        ],
+        [
+          "Downsize",
+          13
+        ],
+        [
+          "Retire",
+          7
+        ],
+        [
+          "Remodel",
+          6
+        ],
+        [
+          "Throw A Party",
+          5
+        ],
+        [
+          "Divorce",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Couple Often Does Once The Kids Have To Move Out"
+    },
+    {
+      "answers": [
+        [
+          "Tying Their Shoelaces",
+          30
+        ],
+        [
+          "Getting Dressed",
+          28
+        ],
+        [
+          "Eating",
+          24
+        ],
+        [
+          "Taking A Bath",
+          4
+        ],
+        [
+          "Doing Their Homework",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Insist On Doing By Themselves Even If It Takes A Long Time."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

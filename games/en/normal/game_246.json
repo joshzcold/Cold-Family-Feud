@@ -1,0 +1,354 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Flashlight",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "First Aid KIt",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Spare Tire",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Jumper Cables",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Flares",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Should Always Have Handy In Your Car In Case Of An Emergency"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Kids",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Job’s Not Suitable",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "No Job",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Naughty Kid",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Too Busy At Work",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Boring Job",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why You Might Not Participate In Take-Your-Child-To-Work Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Copper ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Bill ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Pigs ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Mr Plod ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sweeney ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "The Fuzz ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For A Policeman Or Woman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gas Station",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Train Station",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Public Place Where Bathrooms Are Disgusting"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trees ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Furniture ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cones ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Table ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Forest ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Pine"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Intimacy",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Privacy",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Partners Love",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Couple Might Worry About Having Less Of Once They Have Children"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Eat ",
+          53
+        ],
+        [
+          "Drink ",
+          34
+        ],
+        [
+          "Talk ",
+          23
+        ],
+        [
+          "Read ",
+          15
+        ],
+        [
+          "Dance ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do In A Restaurant"
+    },
+    {
+      "answers": [
+        [
+          "Jumping Jacks",
+          39
+        ],
+        [
+          "Run",
+          27
+        ],
+        [
+          "Push Ups",
+          23
+        ],
+        [
+          "Sit Ups",
+          6
+        ],
+        [
+          "Pull Ups",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Exercise High School Gym Teachers Make You Do."
+    },
+    {
+      "answers": [
+        [
+          "Mail",
+          72
+        ],
+        [
+          "Tell Parents",
+          8
+        ],
+        [
+          "Email",
+          6
+        ],
+        [
+          "Tell Santa",
+          4
+        ],
+        [
+          "Prayers",
+          2
+        ],
+        [
+          "Leave Under The Tree",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way Children Submit Their Wishlists To Santa."
+    },
+    {
+      "answers": [
+        [
+          "Television",
+          49
+        ],
+        [
+          "Lights",
+          34
+        ],
+        [
+          "Water",
+          5
+        ],
+        [
+          "Stove",
+          5
+        ],
+        [
+          "Microwave",
+          3
+        ],
+        [
+          "Radio",
+          2
+        ],
+        [
+          "Dishwasher",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your Home You Probably Turn On Every Day."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

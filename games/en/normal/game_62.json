@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Fans",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Yelling",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Find More Of At A Sporting Event, Than At A Movie Theater"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Top ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bowler ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy / 10 Gallon ",
+          "pnt": 22,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Hat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snore",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Drool",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Pass Gas",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Jerk/Fall Over",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Talk In Sleep",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Embarrassing That You Don’t Want To Do While Asleep On A Plane Ride"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grumpy",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Sleepy",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Dopey",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bashful",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Which Of The 7 Dwarfs Would Have The Hardest Time Finding A Date."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mind",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Cerebrum",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Intellect",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Thinking Cap",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Gray Matter",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Noggin",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Noodle",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Another Word For A Person’s Brain"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flashed Someone",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Kissed Co-Worker",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Got Sick",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Passed Out",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Danced On Tables",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fell Down",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Got Into A Fight",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Hate To Learn You Did After Drinking At Company Party?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Airplane",
+          41
+        ],
+        [
+          "Car",
+          26
+        ],
+        [
+          "Bus",
+          10
+        ],
+        [
+          "Train",
+          9
+        ],
+        [
+          "Helicopter",
+          8
+        ],
+        [
+          "Sled",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Santa’s Reindeer Couldn’t Fly On Christmas Eve, What Mode Of Transportation Might He Use Instead?"
+    },
+    {
+      "answers": [
+        [
+          "Dancing",
+          38
+        ],
+        [
+          "Talking",
+          22
+        ],
+        [
+          "Eating Bananas",
+          18
+        ],
+        [
+          "Smoking",
+          15
+        ],
+        [
+          "Driving",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See Trained Monkey’s Doing In Sitcoms And Movies."
+    },
+    {
+      "answers": [
+        [
+          "Snow",
+          46
+        ],
+        [
+          "Rain",
+          26
+        ],
+        [
+          "Icy Roads",
+          9
+        ],
+        [
+          "Sleet/ Hail",
+          8
+        ],
+        [
+          "Fog",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Weather Condition You Hate To Drive In"
+    },
+    {
+      "answers": [
+        [
+          "Fishing",
+          45
+        ],
+        [
+          "Boating",
+          19
+        ],
+        [
+          "Swimming",
+          14
+        ],
+        [
+          "Water ski",
+          13
+        ],
+        [
+          "Picnic",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an activity people like to do at a lake."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

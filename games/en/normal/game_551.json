@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drinks",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Appetizers",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Dessert",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Entree",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Childrens Menu",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Section Listed On Most Restaurant Menus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bible",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Cross",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Rosary",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Angel",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Bookmark",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Cards",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See At A Church Gift Shop"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dressing",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Croutons",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you might put on top of a salad."
+    },
+    {
+      "answers": [
+        {
+          "ans": "stairs",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Door",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Pool",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cabinets",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Crib",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Parent Might Put A Lock Or Gate On Once Their Baby Learns to walk"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dirty",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Carrying Gear",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tired",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bug Bites",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Tanned",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Can You Tell That Somebody Just Got Back From A Camping Trip?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Turtle ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Parrot ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bird ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Pet That Lives A Very Long Time"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Gummy Worms",
+          45
+        ],
+        [
+          "Rock Candy",
+          28
+        ],
+        [
+          "Pop Rocks",
+          16
+        ],
+        [
+          "Mounds",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Candy That Sounds Like Something You’d Dig Up From The Ground"
+    },
+    {
+      "answers": [
+        [
+          "Olive",
+          41
+        ],
+        [
+          "Umbrella",
+          27
+        ],
+        [
+          "Cherry",
+          17
+        ],
+        [
+          "Lemon",
+          11
+        ],
+        [
+          "Lime",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Comes With A Drink Of A Fancy Cocktail"
+    },
+    {
+      "answers": [
+        [
+          "Fangs",
+          46
+        ],
+        [
+          "Cape",
+          34
+        ],
+        [
+          "White Makeup",
+          9
+        ],
+        [
+          "Fake Blood",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Need If You Wanted To Dress As A Vampire For Halloween."
+    },
+    {
+      "answers": [
+        [
+          "Expense",
+          27
+        ],
+        [
+          "Nosey/Pesky Relatives",
+          24
+        ],
+        [
+          "Traffic/Traveling",
+          20
+        ],
+        [
+          "Crowds",
+          13
+        ],
+        [
+          "Holiday Food",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Complaints Do People Make About The Christmas Holiday?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

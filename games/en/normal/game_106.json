@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Blender",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Toaster",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Mixer",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pan",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Knife",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Spatula",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Kitchen Item That A Man Generally Does Not Own Until He Is Married"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Humor/Comics",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Romance",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "History",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Horror",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Self Help",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sci Fi/Fantasy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides “Biographies,” Which Section Of A Bookstore Would A Memoir About Your Life Belong In?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "At Work",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Midnight",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "While Driving",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "When Mad",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "After Drinking",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Time When You Should Not Send A Text Message To Your Love Interest."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teeth",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Glass",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Someone’s Cheek",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Around Lips",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Where Does A Woman Try To Avoid Leaving Lipstick Marks?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Title",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Interest",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Tax",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioner",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Hidden Cost When Buying A Car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Limo Driver",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "police Officer",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Racecar Driver",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Taxi Driver",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pizza driver",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation You’d Want Just For The Car."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cold Drinks",
+          26
+        ],
+        [
+          "Eat Ice Cream",
+          18
+        ],
+        [
+          "Use A Fan",
+          17
+        ],
+        [
+          "Cold Shower",
+          14
+        ],
+        [
+          "Air COnditioning",
+          14
+        ],
+        [
+          "Sit In Shade",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Swimming, Name Something People Do To Stay Cool In The Summer"
+    },
+    {
+      "answers": [
+        [
+          "Cat ",
+          48
+        ],
+        [
+          "Fish ",
+          31
+        ],
+        [
+          "Bird ",
+          20
+        ],
+        [
+          "Snake ",
+          13
+        ],
+        [
+          "Dog ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Pet That Requires Very Little Maintenance"
+    },
+    {
+      "answers": [
+        [
+          "Towels",
+          25
+        ],
+        [
+          "Clothes",
+          23
+        ],
+        [
+          "Lockers",
+          19
+        ],
+        [
+          "Jock Straps",
+          13
+        ],
+        [
+          "Shoes",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Find In A Boy’s High School Gym Locker Room."
+    },
+    {
+      "answers": [
+        [
+          "Parents",
+          49
+        ],
+        [
+          "Hair",
+          32
+        ],
+        [
+          "Eye Color",
+          21
+        ],
+        [
+          "Last Name",
+          14
+        ],
+        [
+          "Facial Features",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Some Siblings Have In Common That Others Don’t"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

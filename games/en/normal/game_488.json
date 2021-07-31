@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Crown",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Castle",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Marriage to queen",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Thrown",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Riches",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Servants",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Command",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A King Has, But Most Men Don’t."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brazil ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Hazel ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Peanut ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Chestnut ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cashew ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Nut"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Go Out ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Have A Party ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dance ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Make Phone Calls ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Most People Do Every New Years Eve"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gym",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Theme/Water Park",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bus Station",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than School, Name A Place Where You Find "
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beans",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dog",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Marshmellows",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Spam",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Beef Jerky",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Less Than Tasty Food You’d Only Eat If You Were Camping"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lens ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Shutter ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Lens Cap ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Film ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of A Camera"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Coins",
+          55
+        ],
+        [
+          "Food",
+          36
+        ],
+        [
+          "Remote Control",
+          23
+        ],
+        [
+          "Keys",
+          15
+        ],
+        [
+          "Dirt",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Find Under Couch Cushion?"
+    },
+    {
+      "answers": [
+        [
+          "Chips",
+          68
+        ],
+        [
+          "Popcorn",
+          18
+        ],
+        [
+          "French Fries",
+          5
+        ],
+        [
+          "Candy",
+          5
+        ],
+        [
+          "Peanuts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific You Almost Always Eat Out Of A Bag."
+    },
+    {
+      "answers": [
+        [
+          "Bathroom",
+          35
+        ],
+        [
+          "Their Room",
+          26
+        ],
+        [
+          "Refrigerator",
+          19
+        ],
+        [
+          "Textbooks",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something College Freshmen Have To Start Sharing When They Live In The Dorms."
+    },
+    {
+      "answers": [
+        [
+          "Cook",
+          78
+        ],
+        [
+          "Dishwasher",
+          12
+        ],
+        [
+          "Server",
+          4
+        ],
+        [
+          "Busser",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Restaurant Job That A Stay-At-Home Parent Does For Free All The Time"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

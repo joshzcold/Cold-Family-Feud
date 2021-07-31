@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Toothpaste",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Mouthwash",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Teeth Strips",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Product Comes In Teeth Whitening Formula"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Caramel",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Cherries",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cream",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Coconut",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Marhmellow",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Nuts",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Find At The Center Of Fancy Chocolates."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ketchup/Sauce",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Napkins",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "salt",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ice",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Attitude",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something Fast-Food Employees Always Give You Too Much Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Books",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Tuition",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Every College Freshmen Will Spend Money On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rings",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Location",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Menu",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Most Important Thing Couple Has To Pick Out For Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jewellery ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Trophies / Cups ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "China / Porcelain ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Figurines ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pictures ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Is Displayed In A Glass Case"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Give Wrong Answers",
+          54
+        ],
+        [
+          "Lose Fast Money",
+          23
+        ],
+        [
+          "Yell",
+          8
+        ],
+        [
+          "Swear",
+          5
+        ],
+        [
+          "Give No Answer",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Do On Family Feud, That Makes Your Family Upset With You?"
+    },
+    {
+      "answers": [
+        [
+          "Electricity ",
+          55
+        ],
+        [
+          "Council Tax ",
+          36
+        ],
+        [
+          "Rent ",
+          23
+        ],
+        [
+          "Gas ",
+          15
+        ],
+        [
+          "Child Support ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Bill You'd Be Afraid To Pay Late"
+    },
+    {
+      "answers": [
+        [
+          "Elephant",
+          43
+        ],
+        [
+          "Camel",
+          22
+        ],
+        [
+          "Tiger",
+          19
+        ],
+        [
+          "Cow",
+          9
+        ],
+        [
+          "Monkey",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me An Animal You Associate With India"
+    },
+    {
+      "answers": [
+        [
+          "Silent Treatment",
+          38
+        ],
+        [
+          "Fight",
+          28
+        ],
+        [
+          "Walk Away",
+          17
+        ],
+        [
+          "Cry",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Instead Of Having A Shouting Match Name Another Tactic A Person Might Use To Win A Disagreement"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Police Ahead",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Driving Too Slow",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lights Off/On",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Brights On",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Deer/Animal In The Road",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why Another Driver May Flash Their Headlights At You."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rodent",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Cricket",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Monster",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fly",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mosquito",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Creature That You’d Hate To Hear In Your Room At Night."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ozzy Osbourne",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Mick Jagger",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Gene Simmons",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Kid Rock",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If There Was A School For Training Rock Stars, Who Might Be The Principal?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Control Freak",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Remote Control",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Out Of Control",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Control Panel",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Self Control",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mind Control",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Term Or Phrase With The Word “Control” In It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ski",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Sled",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Snowmobile",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Instead Of Walking, Name A Way To Get Around In Snowy Weather"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vacuum",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Blender",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Lights",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something In the House That YounMight Not Use When People Are trying To Sleep"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bar",
+          52
+        ],
+        [
+          "Home",
+          16
+        ],
+        [
+          "Holiday Party",
+          15
+        ],
+        [
+          "Wedding",
+          8
+        ],
+        [
+          "College",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Were You The Last Time You Had A Bit Too Much To Drink."
+    },
+    {
+      "answers": [
+        [
+          "Bear",
+          43
+        ],
+        [
+          "Snake",
+          16
+        ],
+        [
+          "Porcupine",
+          13
+        ],
+        [
+          "Cactus",
+          10
+        ],
+        [
+          "Skunk",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Nature That You Wouldn’t Want To Cuddle Up Next To"
+    },
+    {
+      "answers": [
+        [
+          "Mechanic",
+          42
+        ],
+        [
+          "Lawyer",
+          23
+        ],
+        [
+          "Doctor/Dentist",
+          19
+        ],
+        [
+          "Plumber",
+          6
+        ],
+        [
+          "Car Salesperson",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Professional Who Might Overcharge If You Don’t Know Any Better."
+    },
+    {
+      "answers": [
+        [
+          5,
+          19
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          6,
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Most Number Of People That Could Squeeze Into A Telephone Booth (Numeric Only)"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

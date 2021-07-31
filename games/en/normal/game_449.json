@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Queue Jump ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Ignorance & Stupidity ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Noisy Eaters ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Liars ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Loud Music ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Smoking ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Other People Do You Find Irritating"
+    },
+    {
+      "answers": [
+        {
+          "ans": "16 ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "13 ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "15 ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "12 ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "14 ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Age In Which A Person Falls In Love For The First Time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pumpkin",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Glass",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cans",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Potatoes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Have A Desire To Smash."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Angelina Jolie",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Jennifer Aniston",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Julia Roberts",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Halle Berry",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Actress Gets Most Love Letters"
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": null,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Moms How Much Are You Like Your Mom. Scale 1-10."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pass Gas",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Wet Pants",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Snort",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Choke",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Nose Runs",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Spit",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Embarrassing That Can Happen If You Laugh Too Hard."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Mail",
+          45
+        ],
+        [
+          "Pizza",
+          36
+        ],
+        [
+          "Newspaper",
+          5
+        ],
+        [
+          "Package",
+          5
+        ],
+        [
+          "Baby",
+          4
+        ],
+        [
+          "Flowers",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Delivered."
+    },
+    {
+      "answers": [
+        [
+          "Necklace",
+          21
+        ],
+        [
+          "Shoes",
+          20
+        ],
+        [
+          "Hat",
+          19
+        ],
+        [
+          "Ring",
+          15
+        ],
+        [
+          "Clover",
+          8
+        ],
+        [
+          "Pot",
+          8
+        ],
+        [
+          "Teeth",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Leprechaun Would Have Made For Himself Out Of Gold"
+    },
+    {
+      "answers": [
+        [
+          "Limo",
+          48
+        ],
+        [
+          "Their Own Car",
+          42
+        ],
+        [
+          "Taxi",
+          6
+        ],
+        [
+          "Helicopter",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Instead Of A Schoolbus, How Might A Wealthy Kid Get To School?"
+    },
+    {
+      "answers": [
+        [
+          "Pen/Pencil",
+          51
+        ],
+        [
+          "Money",
+          26
+        ],
+        [
+          "Stapler",
+          10
+        ],
+        [
+          "Paper",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "In The Office, Name Something That People Borrow But Almost Never Return?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

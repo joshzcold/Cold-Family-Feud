@@ -1,0 +1,294 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "A Club ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "An Axe ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rock / Stone ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hammer ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "A Spear ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Tool Or A Weapon Used By A Caveman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor’s Office",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "DMV",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Classroom",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where You Sit Until Your Name Is Called."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleigh Bells",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Ho Ho Ho",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Reindeer On Roof",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Footsteps",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Sounds Do Children Listen For On Christmas Eve?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Into drugs",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Kidnapped",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Become Spoiled",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Grow Up To Fast",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something people worry will happen to a child star"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Test Tubes",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Brains",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Beakers",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chemicals",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something Scientist Has Lots Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Party ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Night Out ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Graduation ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "School Play ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Photoshoot ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Event Where You Have Your Photo Taken"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lab Coat",
+          78
+        ],
+        [
+          "Lab Goggles",
+          15
+        ],
+        [
+          "Gloves",
+          3
+        ],
+        [
+          "Mask",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Scientists Wear In The Lab"
+    },
+    {
+      "answers": [
+        [
+          "Polish ",
+          50
+        ],
+        [
+          "Cover ",
+          33
+        ],
+        [
+          "Roof Rack ",
+          21
+        ],
+        [
+          "Sticker ",
+          14
+        ],
+        [
+          "Car Seat Cover ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Put On Your Car"
+    },
+    {
+      "answers": [
+        [
+          "The Clintons",
+          36
+        ],
+        [
+          "The Obamas",
+          30
+        ],
+        [
+          "Bush Jr. and Laura",
+          13
+        ],
+        [
+          "The Reagans",
+          10
+        ],
+        [
+          "The Kennedys",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Past or present,name a presidential couple whose dinner conversations you’d love to eavesdrop on."
+    },
+    {
+      "answers": [
+        [
+          "Tony Bennett",
+          33
+        ],
+        [
+          "Tony The Tiger",
+          26
+        ],
+        [
+          "Tony Danza",
+          24
+        ],
+        [
+          "Tony Soprano",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Real Or Fictional, Name A Famous Tony"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

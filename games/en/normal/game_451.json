@@ -1,0 +1,295 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Movies",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Magazines",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Books, What You Check Out At Library"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candy",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Brownies",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pies",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Might Have Nuts In It?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Use Bathroom",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Usually Do Indoors, But Might Do Outdoors When Camping."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Good Grades",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Good Behavior",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Upset",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason That A Child Might Get Taken Out For Ice Cream (More Specific Than “Good”)."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Movie Theater",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Public Transit",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sporting Event",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Hate To Save Seats For People"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Garage",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place In The House Where Only A Real TV-Lover Would Put A Television"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Holds Your Hand",
+          28
+        ],
+        [
+          "Kisses You",
+          25
+        ],
+        [
+          "Smiling",
+          21
+        ],
+        [
+          "Arm around You",
+          12
+        ],
+        [
+          "Move Closer",
+          7
+        ],
+        [
+          "Looking At You",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When Sitting Close To A Date, What Clue Might They Give That They Like You?"
+    },
+    {
+      "answers": [
+        [
+          "Cold",
+          32
+        ],
+        [
+          "Flu",
+          30
+        ],
+        [
+          "Chicken Pox",
+          28
+        ],
+        [
+          "Ear Infection",
+          5
+        ],
+        [
+          "Strep Throat",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Common Sickness That Kids Seem To Get More Often Than Adults"
+    },
+    {
+      "answers": [
+        [
+          "Pay Phone ",
+          53
+        ],
+        [
+          "Get A Drink ",
+          34
+        ],
+        [
+          "Vending Machine ",
+          23
+        ],
+        [
+          "Parking Meter ",
+          15
+        ],
+        [
+          "Get On A Bus ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Have To Get Change From A Pound"
+    },
+    {
+      "answers": [
+        [
+          "Ride A Bike",
+          32
+        ],
+        [
+          "Driving",
+          21
+        ],
+        [
+          "Cooking",
+          14
+        ],
+        [
+          "Golf",
+          11
+        ],
+        [
+          "Skiing",
+          9
+        ],
+        [
+          "Skating",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You May Not Be Good At The First Time You Do It."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

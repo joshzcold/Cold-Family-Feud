@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cook",
+          "pnt": 64,
+          "trig": false
+        },
+        {
+          "ans": "Sew",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Domestic Activity Would You Be Surprised To Find Mrs. Claus Couldn’t Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jewlery",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Clothing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Gift That Most Women Like To Get."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rabbit",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Humans",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cats",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Frogs",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dogs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Known For Producing A Lot Of Offspring."
+    },
+    {
+      "answers": [
+        {
+          "ans": "9 Lives",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Lots Of Sleep",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Lazy",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Freedom",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About A Cats Life That People May Envy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "House of Cards",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Building",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sandle Castle",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Trust",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Hard To Build But Easy To Tear Down."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Too Thin",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Wrestler/Athlete",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Been Sick",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pregnant",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Winter/Keep Warm",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Actor/Movie Role",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason You Might Be Glad To Put On A Few Pounds"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tinker Bell",
+          55
+        ],
+        [
+          "Wendy",
+          34
+        ],
+        [
+          "Captain Hook",
+          6
+        ],
+        [
+          "Lost Boys",
+          3
+        ],
+        [
+          "Croc",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Peter Pan Had A Phone, Name Someone He’d Probably Have On Speed Dial."
+    },
+    {
+      "answers": [
+        [
+          "Playing in Snow",
+          58
+        ],
+        [
+          "Christmas",
+          29
+        ],
+        [
+          "Sled/Ski",
+          5
+        ],
+        [
+          "Vacation",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Look Forward To The Most In winter"
+    },
+    {
+      "answers": [
+        [
+          "Harry Potter",
+          47
+        ],
+        [
+          "Twilight",
+          12
+        ],
+        [
+          "The Shining",
+          11
+        ],
+        [
+          "Lord Of The Rings",
+          10
+        ],
+        [
+          "Color Purple",
+          9
+        ],
+        [
+          "Gone With The Wind",
+          7
+        ],
+        [
+          "Hitchhikers Guide",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Movie That Wasn’t Nearly As Good As The Book"
+    },
+    {
+      "answers": [
+        [
+          "Umbrella",
+          48
+        ],
+        [
+          "3 Piece Suit",
+          14
+        ],
+        [
+          "Rain Jacket",
+          13
+        ],
+        [
+          "Winter Coat",
+          10
+        ],
+        [
+          "Map",
+          5
+        ],
+        [
+          "Pointer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Find In A Weather Forecaster’s Closet."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

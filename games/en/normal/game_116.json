@@ -1,0 +1,301 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Meow",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Catch Mice",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Climb Tree",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Eat Cat Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Purr",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Scratching",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Your Dog Might Do That Would Make You Think He Was Part Cat."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cookies",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Fruit Cake",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Rolls",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Would Buy At A Bakery For Christmas."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drinks",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Salad",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dessert",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Rolls",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cranberry Sauce",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Item Might A Person Who Can’t Cook Be Asked To Bring To Thanksgiving?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speeding",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Stealing",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Jaywalking",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Littering",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Crime Most People Have Done"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teddy Bear ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Blanket ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Parents ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "BFriend / GFriend ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Like To Cuddle Up To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birds",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Wolves",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Lions",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Deer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Travels In Groups."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Swimming",
+          49
+        ],
+        [
+          "Water Polo",
+          44
+        ],
+        [
+          "Surfing",
+          3
+        ],
+        [
+          "Water Skiing",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport That Requires Water In Order To Be Played"
+    },
+    {
+      "answers": [
+        [
+          "Work",
+          45
+        ],
+        [
+          "Clean",
+          35
+        ],
+        [
+          "Cook",
+          12
+        ],
+        [
+          "Play",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Shouldn’t Have To Do On Your Birthday."
+    },
+    {
+      "answers": [
+        [
+          "Miner ",
+          41
+        ],
+        [
+          "Builder ",
+          27
+        ],
+        [
+          "Plumber ",
+          17
+        ],
+        [
+          "Chimney Sweep ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation Where You Might Get Dirty"
+    },
+    {
+      "answers": [
+        [
+          "Stingy",
+          45
+        ],
+        [
+          "Tightwad",
+          25
+        ],
+        [
+          "Cheap",
+          13
+        ],
+        [
+          "Greedy",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Term For Someone Who Isn’t Very Generous."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

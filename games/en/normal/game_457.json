@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cook",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "House Chores",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Show Affection",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Show Emotion",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Women Do More Of In Relationships"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sneeze",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Blow Nose",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sniffle",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do Constantly When You Have A Cold."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lack Of Preperation",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shuttering",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Mis Pronunciation",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sweating",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Impression",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Volume Of Voice",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Worry About When Speaking In Front Of A Large Group."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baseball Cap",
+          "pnt": 71,
+          "trig": false
+        },
+        {
+          "ans": "Piercing",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Teen Likes To Wear, But You Hope He’ll Leave Home On Picture Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Memory",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Eye Sight",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hearing",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Lose As You Get Older."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Move Out",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Get A Job",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "No Curfew",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Some Reasons Why Teenagers Want To Get Older?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Math",
+          44
+        ],
+        [
+          "Geography",
+          25
+        ],
+        [
+          "Wood Shop",
+          24
+        ],
+        [
+          "Reading/Spelling",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Subject In School That Would Have Helped Santa Do His Job?"
+    },
+    {
+      "answers": [
+        [
+          3,
+          31
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me how many months it takes before a dog is house trained.(Numeric Only)"
+    },
+    {
+      "answers": [
+        [
+          "Judges",
+          44
+        ],
+        [
+          "Prize",
+          20
+        ],
+        [
+          "Audience",
+          19
+        ],
+        [
+          "Competition",
+          8
+        ],
+        [
+          "Timer",
+          3
+        ],
+        [
+          "Scores",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do You See At The Olympics That You Might Also See At A Spelling Bee."
+    },
+    {
+      "answers": [
+        [
+          "Purse/Wallet",
+          41
+        ],
+        [
+          "keys",
+          24
+        ],
+        [
+          "kids",
+          9
+        ],
+        [
+          "Phone",
+          6
+        ],
+        [
+          "Dog",
+          5
+        ],
+        [
+          "Ice Cream",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Shouldn’t Leave Inside Their Parked Car."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

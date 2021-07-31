@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Milk And Cookies",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Write A Letter",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Be Good",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Make A Picture",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Clean Their Room",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Make A List",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Hug Him",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Child Might Do For Or Give Santa"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talks",
+          "pnt": 75,
+          "trig": false
+        },
+        {
+          "ans": "Wears Clothes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Throw Tantrums",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Walks Upright",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Donald Duck Does That Most Ducks Don’t"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hairdresser ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Butcher ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lumberjack ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Gardening / Pruning ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Chef ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Film Director ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job That Involves A Lot Of Cutting"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soap",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Yeast",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Coffee/ Tea",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Kool Aid",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sea Monkeys",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Activated By Water"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 71,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Camel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Donkey",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That You Can Ride At The Circus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Grill",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Truck",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Bring To A Tailgate Party"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Coins",
+          37
+        ],
+        [
+          "Baseball Cards",
+          22
+        ],
+        [
+          "Stamps",
+          19
+        ],
+        [
+          "Comic Books",
+          9
+        ],
+        [
+          "Toys",
+          7
+        ],
+        [
+          "Records",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Kids And Some Adults Both Collect"
+    },
+    {
+      "answers": [
+        [
+          "Germs/Sickness",
+          61
+        ],
+        [
+          "Homework",
+          16
+        ],
+        [
+          "Lice",
+          11
+        ],
+        [
+          "Bad Habits",
+          6
+        ],
+        [
+          "Swears",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Kid Picks Up From School"
+    },
+    {
+      "answers": [
+        [
+          "Towel",
+          48
+        ],
+        [
+          "Shirt",
+          14
+        ],
+        [
+          "Napkins",
+          13
+        ],
+        [
+          "Rag",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Stuck With No Diapers, What Might A Desperate Parent Use Instead?"
+    },
+    {
+      "answers": [
+        [
+          3,
+          34
+        ],
+        [
+          5,
+          22
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Many Credit Cards Does The Average Person Have? (Numeric Only)"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

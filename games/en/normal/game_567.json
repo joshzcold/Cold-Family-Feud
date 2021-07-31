@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Secret Garden",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Top Secret",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Secret Agent",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Secret Admirer/ Lover",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Secret Service",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Secret Santa",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Secret Society",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A 2-Word Phrase That Includes The Word “Secret”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Miner",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Doctor/Dentist",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "police/Detective",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Construction Worker",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me The Occupation Of Someone Who Might Wear A Headlamp."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shaquille O’Neil",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Paul Bunyan",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Abe Lincoln",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Andre The Giant",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Michael Jordan",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Goliath",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone, Real Or Fictional, Who Is Known For Being Tall."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dead Battery",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Out Of range",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Didn’t Pay Bill",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wet",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Your Cell Phone Might Stop Working."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paper",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Nails",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ribbon",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Cut With Scissors."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hit And Run",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cut In Front",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Drunk Driving",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Drive Recklessly",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Driver Might Do That Would Cause You To Write Down His Car’s License Number."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bride",
+          23
+        ],
+        [
+          "Minister",
+          22
+        ],
+        [
+          "Rings",
+          19
+        ],
+        [
+          "Music",
+          12
+        ],
+        [
+          "Flowers",
+          8
+        ],
+        [
+          "Groom",
+          7
+        ],
+        [
+          "Vows",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Wedding Ceremony Should Be Without"
+    },
+    {
+      "answers": [
+        [
+          "Cook Dinner",
+          48
+        ],
+        [
+          "Give A Massage",
+          17
+        ],
+        [
+          "Giver Her Flowers",
+          16
+        ],
+        [
+          "Prepare A Bath",
+          8
+        ],
+        [
+          "take Her Out",
+          4
+        ],
+        [
+          "Comfort Her",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If A Husband Found Out That His Wife Had A Bad Day At Work, Name Something He Might Do To Make Her Feel Better."
+    },
+    {
+      "answers": [
+        [
+          "Eat",
+          35
+        ],
+        [
+          "Talk",
+          30
+        ],
+        [
+          "Kiss",
+          25
+        ],
+        [
+          "Drink",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Would Be Hard To Do If You Didn’t Have A Mouth."
+    },
+    {
+      "answers": [
+        [
+          "Coat",
+          34
+        ],
+        [
+          "Jeans",
+          26
+        ],
+        [
+          "Sweater",
+          21
+        ],
+        [
+          "Bra",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing That You Don’t Wash Every Time You Wear It"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

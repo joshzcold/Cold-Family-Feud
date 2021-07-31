@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hiccups",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Coughing/Choking",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pass Gass",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Sneezing Fit",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bloody Nose",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Minor Ailment You Can’t Stop Your Body From Doing, But Would Dread Having Happen At Your Wedding Ceremony."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vacuumming",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Mowing lawn",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a specific chore that you cannot do without making a lot of noise."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Library",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Spa",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where Do You Go,Specifically,To Find Peace And Quiet?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seeds ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Yellow ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sun ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Oil ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Field ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With Sunflowers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rock’n Roll",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Hair ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Graceland",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Blue Suede Shoes",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dancing Hips",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fashion Sense",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Elvis Presley."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tiger ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Zebra ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Stripey Animal"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Water",
+          44
+        ],
+        [
+          "Soap",
+          26
+        ],
+        [
+          "Ring",
+          13
+        ],
+        [
+          "Rubber Duck",
+          10
+        ],
+        [
+          "Bubbles",
+          5
+        ],
+        [
+          "Shampoo",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See In A Bathtub"
+    },
+    {
+      "answers": [
+        [
+          "Car ",
+          47
+        ],
+        [
+          "Bike ",
+          31
+        ],
+        [
+          "Ball ",
+          20
+        ],
+        [
+          "An Animal ",
+          13
+        ],
+        [
+          "A House ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Present That Would Be Hard To Wrap"
+    },
+    {
+      "answers": [
+        [
+          "Cook ",
+          43
+        ],
+        [
+          "Housework ",
+          28
+        ],
+        [
+          "Homework ",
+          18
+        ],
+        [
+          "Talk ",
+          12
+        ],
+        [
+          "Walk ",
+          8
+        ],
+        [
+          "Have Sex ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Don't Want To Do When Tired"
+    },
+    {
+      "answers": [
+        [
+          "Eat",
+          46
+        ],
+        [
+          "Drink Coffee",
+          32
+        ],
+        [
+          "Watch TV",
+          9
+        ],
+        [
+          "Shower",
+          6
+        ],
+        [
+          "Exercise",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do Before Bed That Makes It Hard To Sleep."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink Coffee",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Take A Pill",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Get Cool Air",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Radio",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drink Soda",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do To Help Them Stay Awake When They Are Tired."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Type",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Write",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Get Dressed",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wash Dishes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Scratch An Itch",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something That Is Impossible To Do With Freshly Painted Nails."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep schedule",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Crying",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "How cute",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Feeding",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Changing diapers",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something about her infant son that a new mother talks about often."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Up ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "New Hairstyle ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "New Clothes ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Plastic Surgery ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Loose Weight ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Fake Tan ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Woman Do To Make Themselves More Attractive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Prices",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Names of Dishes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Name Of Business",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Phone Number/ Address",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Information That’s On Every Menu"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Address/Location",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Dates Name",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Phone Number",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Description Of Date",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Information That You Write Down When You’re On Your Way To Meet Your Blind Date."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Better Pay",
+          69
+        ],
+        [
+          "Want Benefits",
+          8
+        ],
+        [
+          "No Contract",
+          6
+        ],
+        [
+          "Better Hours",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Workers Might Go On Strike."
+    },
+    {
+      "answers": [
+        [
+          "Letter ",
+          50
+        ],
+        [
+          "Money ",
+          33
+        ],
+        [
+          "Stamps ",
+          21
+        ],
+        [
+          "A Card ",
+          14
+        ],
+        [
+          "A Photo ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Keep In An Envelope"
+    },
+    {
+      "answers": [
+        [
+          "Reindeer",
+          36
+        ],
+        [
+          "Turkey",
+          28
+        ],
+        [
+          "Bunny",
+          22
+        ],
+        [
+          "Black Cat",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal Associated With A Holiday"
+    },
+    {
+      "answers": [
+        [
+          "Pole",
+          54
+        ],
+        [
+          "Bait",
+          35
+        ],
+        [
+          "Lunch",
+          23
+        ],
+        [
+          "Beer",
+          15
+        ],
+        [
+          "Tackle Box",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Always Bring Along For A Day Of Fishing"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

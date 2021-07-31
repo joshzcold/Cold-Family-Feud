@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wear Fur",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Hunting",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Eat Meat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tests",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do That Ticks Off Animal Activists"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cactus ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Hedgehog ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Porkupine ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Conquer ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That's Prickly"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fib ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Porky ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Untruth ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Falsehood ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tale ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Economical With The Truth ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Name For A Lie"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drum",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Horn",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Toy Gun",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gift That’s great To Give To Children If You Don’t Live With Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Books",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "CDS",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something In Their Home That An Extremely Organized Person Might Alphabetize."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Church ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Doorbell ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bluebell ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "School ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tubular ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Bell"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bar",
+          38
+        ],
+        [
+          "Bowling Alley",
+          27
+        ],
+        [
+          "Diner",
+          23
+        ],
+        [
+          "Rock Concert",
+          6
+        ],
+        [
+          "Pool Hall",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "In Order To Seem Like A “Regular Guy,” Name A Place Where A Politician Might Hang Out."
+    },
+    {
+      "answers": [
+        [
+          "Leash",
+          44
+        ],
+        [
+          "Collar",
+          29
+        ],
+        [
+          "Clothes",
+          19
+        ],
+        [
+          "Flea Spray",
+          12
+        ],
+        [
+          "Muzzle",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Dogs Hate Owners To Put On Them"
+    },
+    {
+      "answers": [
+        [
+          "Magnifying Glass",
+          42
+        ],
+        [
+          "Book",
+          38
+        ],
+        [
+          "Notebook",
+          5
+        ],
+        [
+          "Pen",
+          5
+        ],
+        [
+          "Flashlight",
+          4
+        ],
+        [
+          "Detectives Hat",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Were Friends With Nancy Drew, What Might You Buy For Her Birthday?"
+    },
+    {
+      "answers": [
+        [
+          "No Noise",
+          41
+        ],
+        [
+          "Cheaper",
+          27
+        ],
+        [
+          "Lightweight",
+          17
+        ],
+        [
+          "No Mistakes",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Are The Advantages Of Having An Air Guitar Rather Than a Real Guitar?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

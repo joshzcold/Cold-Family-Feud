@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Mom",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Spouse",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Who Do You Like To Know Is Available In Case Of Emergency"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stay Up",
+          "pnt": 85,
+          "trig": false
+        },
+        {
+          "ans": "Eat In Bed",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Play Games",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Watch Scary Movie",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Kid Might Get To Do When Sleeping Over At A Friend’s House That He Doesn’t Do At Home"
+    },
+    {
+      "answers": [
+        {
+          "ans": "House ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Wedding Ring ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Coffin ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Usually Buy Only Once In Your Life"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mail",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Package",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Delivered To Your Door."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mom",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Dad",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Brother",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Clergy",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mother-In-Law",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Last Person You Go To For Relationship Advice"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bring Water",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Refill glasses",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Serve Food",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Clear Table",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Task Restaurant Staff Does For You, That You’d Be Surprised To Get Charged Extra For"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Basketball Player",
+          55
+        ],
+        [
+          "Coach",
+          15
+        ],
+        [
+          "Tennis Player",
+          14
+        ],
+        [
+          "Nurse",
+          6
+        ],
+        [
+          "Runner",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Occupation Where They Wear Sneakers."
+    },
+    {
+      "answers": [
+        [
+          "Eat",
+          43
+        ],
+        [
+          "Walk",
+          25
+        ],
+        [
+          "Communicate",
+          19
+        ],
+        [
+          "Think",
+          8
+        ],
+        [
+          "Keep Clean",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Supposedly Do Differently Than Animals"
+    },
+    {
+      "answers": [
+        [
+          "Park",
+          43
+        ],
+        [
+          "Disney/ Theme Park",
+          28
+        ],
+        [
+          "Zoo",
+          18
+        ],
+        [
+          "Chuck E Cheese",
+          12
+        ],
+        [
+          "Circus",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That’s Meant For Kids, But Adults Love It Too"
+    },
+    {
+      "answers": [
+        [
+          "Father Christmas ",
+          58
+        ],
+        [
+          "Grandparents ",
+          38
+        ],
+        [
+          "Cousins ",
+          25
+        ],
+        [
+          "Sisters ",
+          16
+        ],
+        [
+          "Brothers ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone You Only See Once A Year"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

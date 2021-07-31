@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Save / Collect Them",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Throw In Fountain ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Put In Jar ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Roll Them Up ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Throw Away ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do With Pennies"
+    },
+    {
+      "answers": [
+        {
+          "ans": "7 ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "13 ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "11 ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "6 ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "2 ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Number That People Consider To Be Lucky"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Body",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Power",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Strength",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Looks",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Invisible Plane",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About Wonder Woman The Average Woman Might Envy"
+    },
+    {
+      "answers": [
+        {
+          "ans": 16,
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 13,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 17,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 18,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Age Of The Average Babysitter"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Parent",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Grandparent",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who In Your Life Surprised To Get Text From"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paint/Wallpaper",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Carpet",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Contact Information",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Locks",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Curtains",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Change When Moving Into A New House."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          13,
+          37
+        ],
+        [
+          12,
+          33
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          14,
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Age That A Boy First Becomes Interested In Girls."
+    },
+    {
+      "answers": [
+        [
+          "Birds",
+          40
+        ],
+        [
+          "Wind",
+          23
+        ],
+        [
+          "Traffic",
+          13
+        ],
+        [
+          "Crickets ",
+          11
+        ],
+        [
+          "Storm",
+          5
+        ],
+        [
+          "Dog",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Go To Sleep With The Windows Open, Name A Sound That Might Wake You Up."
+    },
+    {
+      "answers": [
+        [
+          "Cell Phone",
+          58
+        ],
+        [
+          "Another Person",
+          25
+        ],
+        [
+          "Ipod",
+          8
+        ],
+        [
+          "Pet",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Distracting That You Shouldn’t Take With You On A Date."
+    },
+    {
+      "answers": [
+        [
+          "Gilligan’s Island",
+          47
+        ],
+        [
+          "Lost",
+          24
+        ],
+        [
+          "Fantasy Island",
+          17
+        ],
+        [
+          "Survivor",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A TV Show About An Island."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

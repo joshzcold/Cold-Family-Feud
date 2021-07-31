@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bacon",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Doughnut",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Or Drink That You Smell Outside A Restaurant In The Morning"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Jesus ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Bunny ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Holiday ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cross ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Easter"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item You Wouldn’t Buy Online, See In Real Life"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cricket",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Fly",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Mosquito",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bee",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Bug Keeps You Up All Night In Bedroom"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Snake ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Banana Skin ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Oil ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Snow ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Slippery"
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Budgie ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "A Mirror ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "A Swing ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Budgies Cage"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Prints",
+          36
+        ],
+        [
+          "Weapon",
+          34
+        ],
+        [
+          "DNA",
+          17
+        ],
+        [
+          "Suspect",
+          5
+        ],
+        [
+          "Blood",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "In Order To Solve A Crime, What Does An Investigator Need To Find?"
+    },
+    {
+      "answers": [
+        [
+          "Buys you a drink",
+          49
+        ],
+        [
+          "Smiles",
+          32
+        ],
+        [
+          "Stares",
+          21
+        ],
+        [
+          "Makes Eye Contact",
+          14
+        ],
+        [
+          "Winks",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "At A Bar, How Can You Tell That Someone Is Interested In You?"
+    },
+    {
+      "answers": [
+        [
+          "Flowers ",
+          58
+        ],
+        [
+          "Breakfast ",
+          38
+        ],
+        [
+          "Cook ",
+          25
+        ],
+        [
+          "Dinner ",
+          16
+        ],
+        [
+          "Take To Lunch ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Do For Mum On Mothers Day"
+    },
+    {
+      "answers": [
+        [
+          "Fans",
+          41
+        ],
+        [
+          "Score Points/Voters",
+          27
+        ],
+        [
+          "Have A Winner",
+          17
+        ],
+        [
+          "Competitive",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Political Contest And A Football Game Have In Common."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

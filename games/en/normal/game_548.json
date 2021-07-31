@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Alcohol",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Yourself",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Bring To A Party Even If The Host Doesn’t Ask You To Bring Anything"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hats",
+          "pnt": 74,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tux",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "New Clothes",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Tiara",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Jewlery",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Glitter",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name One Thing People Wear On New Year’s."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tuxedo ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Fancy Dress ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Jewellery ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Wedding Dress ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Suit ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Wears That Might Be Rented"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dry Off ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Go Out ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Get Dressed ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Turn It Off ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do After They Take A Shower"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vermont",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "New York",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Maine",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "New Hampshire",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Michigan",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ohio",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A State Where Leaves Change Color In Fall"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cutlery ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Coin ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Jewellery ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Ring ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Teapot ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Is Silver"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Insomnia",
+          34
+        ],
+        [
+          "Working",
+          29
+        ],
+        [
+          "Sick",
+          13
+        ],
+        [
+          "New Baby",
+          8
+        ],
+        [
+          "Studying",
+          6
+        ],
+        [
+          "Nightmare",
+          4
+        ],
+        [
+          "Use Bathroom",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Reason Why A Person Might Be Awake At 3AM."
+    },
+    {
+      "answers": [
+        [
+          "Vacancy",
+          46
+        ],
+        [
+          "Nightly Rate",
+          18
+        ],
+        [
+          "Hotel’s Name",
+          11
+        ],
+        [
+          "No Smoking",
+          6
+        ],
+        [
+          "Cable TV",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something The Sign Outside A Hotel Might Tell You"
+    },
+    {
+      "answers": [
+        [
+          "Water ",
+          48
+        ],
+        [
+          "Soup ",
+          31
+        ],
+        [
+          "Pan / Saucepan ",
+          20
+        ],
+        [
+          "Food ",
+          13
+        ],
+        [
+          "Coffee ",
+          9
+        ],
+        [
+          "An Argument ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something that Gets Heated"
+    },
+    {
+      "answers": [
+        [
+          "Top 10 List",
+          29
+        ],
+        [
+          "Talk Show",
+          27
+        ],
+        [
+          "His Teeth",
+          18
+        ],
+        [
+          "Stupid Pet Tricks",
+          15
+        ],
+        [
+          "Viewer Mail",
+          5
+        ],
+        [
+          "Jokes",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With David Letterman"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

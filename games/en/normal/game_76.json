@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sunglasses",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Trench Coat",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Wig",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Badge",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Weapon",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Should A Spy Avoid Wearing, If He Doesn’t Want To Be Identified By His Profession?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elves",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Rudolph",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Easter Bunny",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Mrs. Claus",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tooth Fairy",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Frosty",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Children",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Santa Claus Had A Christmas Party, Name Someone He Might Invite"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Letter",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Pictures",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cards",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Invitations",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bills",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Are Some Things That People Send By Email That They Used To Send Through The Mail?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Concert",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Flight",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Movie",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cruise",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That May Include A Meal In The Ticket Price."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Travel",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Go Back To School",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Move Back Home",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Join The Military",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Instead Of Get A Job, Name Something A Person Might Do After College."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dorothy",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Toto",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tin Man",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Yellow Brick Road",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Wicked Witch",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ruby Slippers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With The Wizard Of Oz."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Glasses",
+          55
+        ],
+        [
+          "Braces",
+          36
+        ],
+        [
+          "Big Hair",
+          23
+        ],
+        [
+          "Acne",
+          15
+        ],
+        [
+          "Flashy Background",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something Nerdy You Had In High School Photos But Not In Photos Today"
+    },
+    {
+      "answers": [
+        [
+          "Run Away",
+          55
+        ],
+        [
+          "Scream",
+          21
+        ],
+        [
+          "Freeze",
+          16
+        ],
+        [
+          "Hide",
+          4
+        ],
+        [
+          "Shoot It",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The First Thing People Do If They Encounter A Bear In The Woods?"
+    },
+    {
+      "answers": [
+        [
+          "Kurt Russell",
+          28
+        ],
+        [
+          "Kate Hudson",
+          18
+        ],
+        [
+          "Blonde Hair",
+          17
+        ],
+        [
+          "Private Benjamin",
+          15
+        ],
+        [
+          "Laugh In",
+          10
+        ],
+        [
+          "Comedy",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Goldie Hawn."
+    },
+    {
+      "answers": [
+        [
+          "Blow Out Candles",
+          45
+        ],
+        [
+          "Sing",
+          29
+        ],
+        [
+          "Eat",
+          19
+        ],
+        [
+          "Open Presents",
+          12
+        ],
+        [
+          "Cut Cake",
+          8
+        ],
+        [
+          "Drink",
+          5
+        ],
+        [
+          "Make Small Talk",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Baby Can’t Do On Own At Birthday Party"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

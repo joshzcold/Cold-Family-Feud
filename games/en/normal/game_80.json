@@ -1,0 +1,349 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Snore",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Snuggle",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Toss And Turn",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is Something Your Spouse Does To Prevent You From Sleeping?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Server",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Valet service",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hairdresser",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Taxi driver",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bartender",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bellhop",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Service Person Who You Never Know How Much To Tip."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cook",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Change Diapers",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Use Computer",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Use Cell Phone",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Men Do Today, But Probably Didn’t Do 50 Years Ago."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cheerleading",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Horseback Riding",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Gymnastics",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Most Expensive Sport For Kids To Participate In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weight",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Date Of Last Cycle",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "High Blood Pressure",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Are You Pregnant",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Physician Asks That Would Be Strange To Ask A Person Who You Just Met."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Service",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sanitary Condition",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Price",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Would Keep You From Restaurant If It Was Bad"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hamburger",
+          30
+        ],
+        [
+          "French Fries",
+          24
+        ],
+        [
+          "Chicken",
+          15
+        ],
+        [
+          "Salad",
+          9
+        ],
+        [
+          "Bread",
+          6
+        ],
+        [
+          "Pasta",
+          4
+        ],
+        [
+          "Steak",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Food You Can Get At Almost Every Restaurant"
+    },
+    {
+      "answers": [
+        [
+          "Stains",
+          39
+        ],
+        [
+          "Fit",
+          26
+        ],
+        [
+          "Holes",
+          15
+        ],
+        [
+          "Price",
+          9
+        ],
+        [
+          "Missing Buttons",
+          3
+        ],
+        [
+          "Broken Zipper",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Need To Check For If You’re Buying A Dress Used."
+    },
+    {
+      "answers": [
+        [
+          "Ghost",
+          50
+        ],
+        [
+          "Witch",
+          36
+        ],
+        [
+          "Pumpkin",
+          5
+        ],
+        [
+          "Vampire",
+          4
+        ],
+        [
+          "Pajamas",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Halloween Costume People Wear If They Don’t Want To Go All Out"
+    },
+    {
+      "answers": [
+        [
+          "Cook",
+          39
+        ],
+        [
+          "Clean",
+          25
+        ],
+        [
+          "Laundry",
+          17
+        ],
+        [
+          "Shop",
+          12
+        ],
+        [
+          "Make Coffee",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Husbands: If Your Wife Had A Personal Assistant, Name Something They’d Be Asked To Do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

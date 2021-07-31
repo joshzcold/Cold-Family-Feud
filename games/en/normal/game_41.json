@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cooking ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Shopping ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Chores ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Like To Help Mum With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "French Fries",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Potato Chips",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Corn On The Cob",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Tomatoes",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Tastes Better With Salt On It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Heart",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Cupid",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ring",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Rose",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Symbol Used To Represent Love"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Pictures",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Gift Cards",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Form Letter",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Put In The Envelope With Their Holiday Cards."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paint",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Plumbing",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Lumber",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Electical",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Flooring",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Department At A Home Improvement Store"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bone ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Ball ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Stick ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Dog Loves To Play With"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Park",
+          51
+        ],
+        [
+          "Movie Theatre",
+          33
+        ],
+        [
+          "Bar/Restaurant",
+          22
+        ],
+        [
+          "Beach",
+          14
+        ],
+        [
+          "Church",
+          9
+        ],
+        [
+          "Wedding",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Public Place Where You’d Expect Married Couples To Show Affection"
+    },
+    {
+      "answers": [
+        [
+          "Shipping Charges",
+          49
+        ],
+        [
+          "Too Big/Small",
+          26
+        ],
+        [
+          "Fraud",
+          13
+        ],
+        [
+          "`Slow Delivery",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Complaint People Might Have About Buying Things Online."
+    },
+    {
+      "answers": [
+        [
+          "Ear Plugs",
+          59
+        ],
+        [
+          "Q Tips",
+          38
+        ],
+        [
+          "Earrings",
+          25
+        ],
+        [
+          "Fingers",
+          16
+        ],
+        [
+          "Head Phones",
+          11
+        ],
+        [
+          "Hearing Aids",
+          7
+        ],
+        [
+          "Ear Drops",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Put In Their Ears"
+    },
+    {
+      "answers": [
+        [
+          "Water ",
+          58
+        ],
+        [
+          "Big / Fat ",
+          38
+        ],
+        [
+          "Mud ",
+          25
+        ],
+        [
+          "Big Teeth ",
+          16
+        ],
+        [
+          "Jungle ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With A Hippopotamus"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Toilet",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Sink",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bathtub",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Tiles/Floor",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Replace If You Are Remodeling Your Bathroom"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Texting/Phone",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Clean Litter Box",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Video Games",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Teenagers Spend More Time Doing Than Adults"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mall",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "North Pole",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sky",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Places Where You Might See Santa"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Library",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theater",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hospital",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Funeral Home",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Theater",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Some Place Where Not Allowed To Make Noise"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Radio ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Tv ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Engine / Motor ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mower ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Partner ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Makes A Noise When It's Turned On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pilot",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Musician",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Truck Driver",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Flight Attendant",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation In Which You Might Be In A New City Every Night"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Parent’s House",
+          37
+        ],
+        [
+          "Own House",
+          29
+        ],
+        [
+          "Grandparents Home",
+          20
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "In Laws’ House",
+          2
+        ],
+        [
+          "Restaurant",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place People Have A Holiday Dinner."
+    },
+    {
+      "answers": [
+        [
+          "Kids",
+          44
+        ],
+        [
+          "Parent",
+          35
+        ],
+        [
+          "Partner",
+          14
+        ],
+        [
+          "Boss",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name someone you have a very hard time saying no to."
+    },
+    {
+      "answers": [
+        [
+          "Carrot Top",
+          40
+        ],
+        [
+          "Chris Rock",
+          26
+        ],
+        [
+          "Jim Carrey",
+          17
+        ],
+        [
+          "Dane Cook",
+          11
+        ],
+        [
+          "Adam Sandler",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Comedian That Gets On Peoples Nerves"
+    },
+    {
+      "answers": [
+        [
+          "Madonna",
+          54
+        ],
+        [
+          "Anna Nicole Smith",
+          35
+        ],
+        [
+          "Christina Aguilera",
+          23
+        ],
+        [
+          "Pamela Anderson",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Marilyn Monroe “Wannabe”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

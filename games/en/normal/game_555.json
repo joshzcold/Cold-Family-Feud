@@ -1,0 +1,385 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Trumpet",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Tuba",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "French Horn",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Drums",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cymbals",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Xylophone",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Tromebone",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Orchestra Instrument Would Be Most Effective If You Wanted To Wake Someone Up?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chores",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Drive Carefully",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Fill It Up",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Make Curfew",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Wash It",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Kids Promise Their Parents They’ll Do If They’re Allowed To Borrow The Family Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bowling",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Track",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport In Which Competitors Wear Funny Looking Shoes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Art",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "English",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Gym",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Psychology",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drama",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Class Do Students Take In College Thinking It Would Be An Easy ‘A’?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hold Breath",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cover Mouth",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bite Lip",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Think Of something Sad",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Look Away",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pinch Yourself",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do To Keep Yourself From Laughing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snow Boots",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Coat",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Long Johns",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Scarf",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Snow Pants",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Put On Before Going Out Into The Snow."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "TV",
+          41
+        ],
+        [
+          "Refrigerator",
+          14
+        ],
+        [
+          "Toilet",
+          12
+        ],
+        [
+          "Stove",
+          9
+        ],
+        [
+          "Computer",
+          8
+        ],
+        [
+          "Washing Machine",
+          7
+        ],
+        [
+          "Phone",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your House That You’d Hate To Find Wasn’t Working"
+    },
+    {
+      "answers": [
+        [
+          "At Home",
+          30
+        ],
+        [
+          "Work",
+          24
+        ],
+        [
+          "Long Car/Bus Ride",
+          18
+        ],
+        [
+          "Airport/Plane",
+          7
+        ],
+        [
+          "Park",
+          7
+        ],
+        [
+          "School",
+          7
+        ],
+        [
+          "Doctor’s Office",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Nap Just To Pass The Time."
+    },
+    {
+      "answers": [
+        [
+          "Talking",
+          22
+        ],
+        [
+          "Yawning",
+          20
+        ],
+        [
+          "Laughing",
+          18
+        ],
+        [
+          "Coughing",
+          11
+        ],
+        [
+          "Sneezing",
+          10
+        ],
+        [
+          "Snacking",
+          9
+        ],
+        [
+          "Snoring",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Close Your Mouth To Try To Keep From Doing"
+    },
+    {
+      "answers": [
+        [
+          "Bring An Apple",
+          42
+        ],
+        [
+          "Get Good Grades",
+          21
+        ],
+        [
+          "Brown Nose",
+          10
+        ],
+        [
+          "Do Extra Credit Work",
+          9
+        ],
+        [
+          "Raise Hand Often",
+          5
+        ],
+        [
+          "Sit In Fornt",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific A Student Might Do In Oder To Become The Teacher’s Pet"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

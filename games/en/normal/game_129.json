@@ -1,0 +1,343 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Try A Cigarette",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Stay Out Late",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dye Hair",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Run Away",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sneak Out",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Talk Back",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tattoo",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific A Teen Might Do That Shows They’re Rebelling"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawyer",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Librarian",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Spy",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Mime",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Clergy",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Therapist",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me An Occupation That A Blabbermouth Would Fail At"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Quiet",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Good Cook",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Not Nosey",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lives Far Away",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Nie",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Every Newlywed Hopes Their Mother-In-Law Will Be Like"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tennis Balls",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Racquet",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Towel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tennis Shoes",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Tennis Bag."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Curtains",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Wallpaper",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Couch",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Rug",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Artwork",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Home Decor That Sometimes Comes With Wild Patterns"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Rugby",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport That You Wouldn’t Play Without Protective Equipment"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fall To Earth",
+          37
+        ],
+        [
+          "Run Out Of Gas",
+          18
+        ],
+        [
+          "Hit A Plane",
+          11
+        ],
+        [
+          "Blow Up",
+          8
+        ],
+        [
+          "Collide With A Bird",
+          7
+        ],
+        [
+          "Hit A Tree",
+          5
+        ],
+        [
+          "Hit A Building",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Commuted To Work By Jet Pack, Name Something Dangerous That Could Happen. Be Specific."
+    },
+    {
+      "answers": [
+        [
+          "Barbecue",
+          45
+        ],
+        [
+          "Sour Cream/Onion",
+          14
+        ],
+        [
+          "Salt and Vinegar",
+          12
+        ],
+        [
+          "Plain",
+          11
+        ],
+        [
+          "Cheddar",
+          11
+        ],
+        [
+          "Ranch",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a common potato chip flavor."
+    },
+    {
+      "answers": [
+        [
+          "Raining",
+          54
+        ],
+        [
+          "Dangerous",
+          35
+        ],
+        [
+          "Too Far",
+          23
+        ],
+        [
+          "Get Sweaty",
+          15
+        ],
+        [
+          "Lazy",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Someone Might Not Ride Their Bike To Work"
+    },
+    {
+      "answers": [
+        [
+          "Oars ",
+          41
+        ],
+        [
+          "Boat ",
+          27
+        ],
+        [
+          "Water ",
+          17
+        ],
+        [
+          "The Olympics ",
+          11
+        ],
+        [
+          "A Canoe ",
+          7
+        ],
+        [
+          "Steve Redgrave ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Rowing"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

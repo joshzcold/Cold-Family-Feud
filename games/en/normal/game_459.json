@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bagels",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Rolls",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Donuts",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Muffins",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cakes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Buns",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Croissant",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides A Loaf Of Bread, Name Something You Might Buy In The Bread Section Of The Supermarket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wait Tables",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Security",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Commercials",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Valet Parking",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Singing Telegram",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What’s A Job Out Of Work Actors Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bus",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Bicycle",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Subway",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Mode Of Transportation That Is Hard Caring For Children"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jokes",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Clown",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Comedian",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Supposed To Be Funny, But Rarely Is."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Steroids",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Fighting",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bad Attitude",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grades",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A College Football Player Might Get Kicked Off His Team."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lemonade",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Iced Tea",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "kool Aid",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Drink A Lot Of In The Summer"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bar",
+          29
+        ],
+        [
+          "Concert",
+          26
+        ],
+        [
+          "Mall",
+          19
+        ],
+        [
+          "Restaurant",
+          13
+        ],
+        [
+          "Movie Theatre",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where There’s Often A Line For The Women’s Restroom."
+    },
+    {
+      "answers": [
+        [
+          "Face To Face",
+          36
+        ],
+        [
+          "Mail",
+          29
+        ],
+        [
+          "Sign Language",
+          15
+        ],
+        [
+          "Smoke Signal",
+          6
+        ],
+        [
+          "Morse Code",
+          5
+        ],
+        [
+          "Telapathy",
+          4
+        ],
+        [
+          "Body Language",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Way To Communicate Without Technology."
+    },
+    {
+      "answers": [
+        [
+          "Sandals",
+          35
+        ],
+        [
+          "Bathing Suit",
+          22
+        ],
+        [
+          "Sun Dress",
+          15
+        ],
+        [
+          "Sun Hat",
+          10
+        ],
+        [
+          "Shorts",
+          7
+        ],
+        [
+          "Sunscreen",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Would wear To A Wedding In The Dessert"
+    },
+    {
+      "answers": [
+        [
+          "Mow Lawns",
+          49
+        ],
+        [
+          "Babysit",
+          17
+        ],
+        [
+          "Paper Route",
+          10
+        ],
+        [
+          "Sell Lemonade",
+          8
+        ],
+        [
+          "Wash Cars",
+          8
+        ],
+        [
+          "Chores",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Kid Would Do After School To Make An Extra Buck"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

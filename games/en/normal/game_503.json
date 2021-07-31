@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Patience",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Bullets",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Courage",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Donuts",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Citations",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Back Up",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Police Officer Needs A Lot Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grades",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Apathy",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What, Specifically, Keeps You From Getting A Degree?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Alarm",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lamp",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Electric Blanket",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Turn On Just Before They Get In Bed."
+    },
+    {
+      "answers": [
+        {
+          "ans": 120,
+          "pnt": 110,
+          "trig": false
+        },
+        {
+          "ans": 100,
+          "pnt": 105,
+          "trig": false
+        },
+        {
+          "ans": 115,
+          "pnt": 95,
+          "trig": false
+        },
+        {
+          "ans": 125,
+          "pnt": null,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Much Does The Average Supermodel Weigh?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Don’t Talk To Strangers",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Look Both Ways",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Wear Helmet",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Be Careful",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Safety Advice Parents Give Kids"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tire",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Try To Prevent From Getting Flat."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Monkey",
+          32
+        ],
+        [
+          "Dog",
+          18
+        ],
+        [
+          "Cat",
+          16
+        ],
+        [
+          "Horse",
+          11
+        ],
+        [
+          "Tiger",
+          9
+        ],
+        [
+          "Kangaroo",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal With A Long Tail."
+    },
+    {
+      "answers": [
+        [
+          "Cherry",
+          54
+        ],
+        [
+          "Strawberry",
+          18
+        ],
+        [
+          "Orange",
+          15
+        ],
+        [
+          "Grape",
+          6
+        ],
+        [
+          "Raspberry",
+          2
+        ],
+        [
+          "Banana",
+          2
+        ],
+        [
+          "Bubble Gum",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Best Flavor Of Popsicle."
+    },
+    {
+      "answers": [
+        [
+          "I’m Quitting",
+          43
+        ],
+        [
+          "I’m Pregnant",
+          29
+        ],
+        [
+          "I Got A New Job",
+          23
+        ],
+        [
+          "I Hate This Job/Boss",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Announcement That You’d Hate For Your Boss To Overhear You Making"
+    },
+    {
+      "answers": [
+        [
+          "Pay Phones",
+          36
+        ],
+        [
+          "Home Phones",
+          26
+        ],
+        [
+          "Pagers",
+          23
+        ],
+        [
+          "Letters",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Started Seeing Less Of Since Cell Phones Became Popular"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

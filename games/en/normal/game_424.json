@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bride",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Minister",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "rings",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Grooms",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Vows",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That No Wedding Ceremony Should Be Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Catherine Zeta Jones",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Won Oscars",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Son Of Kirk Douglas",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Streets Of SF",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Producer",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Know About Michael Douglas."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tie",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sweater",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Article Of Clothing Your Husband Often Receives At The Holidays, But Rarely Wants"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dating",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something Women Talk About On Girls Night Out"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Batmobile",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Cape",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Robin",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Utility Belt",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Batman Doesn’t Leave The Batcave Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": 2,
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": 3,
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Many Times Does The Average Person Let A Phone Ring Before Answering It? (Numeric Only)"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Clap",
+          56
+        ],
+        [
+          "Smile",
+          36
+        ],
+        [
+          "Close Eyes",
+          24
+        ],
+        [
+          "Hum",
+          16
+        ],
+        [
+          "Tap Foot",
+          10
+        ],
+        [
+          "Cry",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Someone At The Symphony Do That Tells You They’re Enjoying The Music"
+    },
+    {
+      "answers": [
+        [
+          "Cat",
+          30
+        ],
+        [
+          "Deer",
+          20
+        ],
+        [
+          "Horse",
+          19
+        ],
+        [
+          "Bird",
+          13
+        ],
+        [
+          "lion",
+          9
+        ],
+        [
+          "swan",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That’s Often Described As “Beautiful.”"
+    },
+    {
+      "answers": [
+        [
+          "Phone",
+          43
+        ],
+        [
+          "Clock",
+          38
+        ],
+        [
+          "TV/Remote",
+          5
+        ],
+        [
+          "Microwave",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your House That Has Numbers On It."
+    },
+    {
+      "answers": [
+        [
+          "Drew Berrymore",
+          27
+        ],
+        [
+          "Michael Jackson",
+          20
+        ],
+        [
+          "Olsen Twins",
+          16
+        ],
+        [
+          "Jodie Foster",
+          13
+        ],
+        [
+          "Ron Howard",
+          10
+        ],
+        [
+          "Brooke Shields",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Child Star Who’s Still Famous Today."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

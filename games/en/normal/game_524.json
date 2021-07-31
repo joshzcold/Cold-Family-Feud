@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "In Your Teeth",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Sandwich",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Olives",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Appetizers",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cheese Cube",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Meatballs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cakes",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Put Toothpicks In. (Food Is Not An Answer, Be More Specific)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drunk people",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Loud",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Dark",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fights",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Crowded",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a characteristic of a pub that you wouldn’t want for your home."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Stomach ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Kettle ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Wallet ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bath ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Always Needs Filling Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sipping Drink",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Using Cell Phone",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Applying Make Up",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Currently Legal, That People Should Be Banned From Doing While Driving"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ant Eater",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal You Could Recognize Just By Its Nose"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Highwire Act ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Acrobat ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Gymnast ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Circus Performer ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ice Skater ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession That Requires Really Good Balance"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lyrics",
+          55
+        ],
+        [
+          "Alcohol",
+          15
+        ],
+        [
+          "Microphone",
+          9
+        ],
+        [
+          "Music",
+          8
+        ],
+        [
+          "Backup Vocals",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Karaoke Singers Use For Help, But A Real Singer Shouldn’t Need."
+    },
+    {
+      "answers": [
+        [
+          "Cop",
+          30
+        ],
+        [
+          "Messenger",
+          28
+        ],
+        [
+          "Paper Boy",
+          25
+        ],
+        [
+          "Clown",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides A Professional Cyclist, Name A Job That Involves Bicycle Riding"
+    },
+    {
+      "answers": [
+        [
+          "Can Talk",
+          40
+        ],
+        [
+          "Wears A Shirt",
+          23
+        ],
+        [
+          "He’s Yellow/Orange",
+          11
+        ],
+        [
+          "Has ‘Hunny’ Jar",
+          10
+        ],
+        [
+          "Friends With People",
+          8
+        ],
+        [
+          "Gentle",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About Winnie The Pooh That Is Different From Real Bears."
+    },
+    {
+      "answers": [
+        [
+          "Nice Cars",
+          46
+        ],
+        [
+          "Manicured Lawns",
+          27
+        ],
+        [
+          "Clean streets",
+          17
+        ],
+        [
+          "Pools",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Nice Houses, Name A Sign That You’re In A Well-To-Do Neighborhood."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

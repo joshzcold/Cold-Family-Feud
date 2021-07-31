@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Guinness ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Fosters ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Stella ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Kronenbourg ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Grolsch ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Carling ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Brand Of Beer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gynaecologist ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Paediatrician ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Optician ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dentist ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cardiologist ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Type Of Doctor"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Secrets",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that even adults hate to share."
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 11,
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Noon",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Time Is The earliest You’re Willing To Get Up On A Saturday?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dirty Water",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "No Food",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Bowl Too Small",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Not Enough Water",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Beat Up By Other Fish",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Goldfish Might Complain About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Electricity Went Out",
+          "pnt": 80,
+          "trig": false
+        },
+        {
+          "ans": "Romance",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lightbulb Burned Out",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Cake",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why You Might Use Candles."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Swing From Tree",
+          44
+        ],
+        [
+          "Beat His Chest",
+          29
+        ],
+        [
+          "Yell",
+          19
+        ],
+        [
+          "Climb A Tree",
+          12
+        ],
+        [
+          "Way He Dresses",
+          8
+        ],
+        [
+          "Run Around Barefoot",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a little boy might do that would make you suspect his father is Tarzan"
+    },
+    {
+      "answers": [
+        [
+          "House",
+          53
+        ],
+        [
+          "Hotel",
+          34
+        ],
+        [
+          "Theater",
+          6
+        ],
+        [
+          "Restaurant",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place You Might See A Balcony"
+    },
+    {
+      "answers": [
+        [
+          "Fight",
+          47
+        ],
+        [
+          "Feed Each Other",
+          31
+        ],
+        [
+          "Baby Talk",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something You Wish Couples Wouldn’t Do In Public"
+    },
+    {
+      "answers": [
+        [
+          "Gym/Health",
+          47
+        ],
+        [
+          "Home Economics",
+          26
+        ],
+        [
+          "Art",
+          11
+        ],
+        [
+          "Wood Shop",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A High School Subject Kids Might Take To Get An Easy “A.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

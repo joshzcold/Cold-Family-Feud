@@ -1,0 +1,295 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Teachers",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "New Books",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "New Friends",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "New Clothes",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something Kid Looks Forward To At Beginning Of New School Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bike",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jumprope",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Trampoline",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Pool",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Use For Fun, But Adults Use For Exercise."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Digits",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bones",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Hairs",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that the human body has more than 2 of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Job",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Love/Married",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Degree",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Driver’s License",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That People Go Through A Lot Of Obstacles In Order To Get"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Breakfast/Meals",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "School/Work",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Rope",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Stones",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Skip."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crying",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Diapers",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Expensive",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sleepless nights",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "College Tuition",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Kids Grow Up",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About Babies That Makes You Think Twice About Becoming A Parent."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Name Tag",
+          59
+        ],
+        [
+          "Wears Uniform",
+          32
+        ],
+        [
+          "Follows You",
+          3
+        ],
+        [
+          "Offers Help",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When Shopping, Name A Way You Can Tell If Someone Is A Sales Clerk"
+    },
+    {
+      "answers": [
+        [
+          "Stork",
+          56
+        ],
+        [
+          "Mother’s Stomach",
+          23
+        ],
+        [
+          "Heaven",
+          7
+        ],
+        [
+          "Already Knew",
+          6
+        ],
+        [
+          "Cabbage Patch",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When You Were A Little Kid, Where Did You Think Babies Came From."
+    },
+    {
+      "answers": [
+        [
+          "Dump Truck",
+          43
+        ],
+        [
+          "Fire Engine",
+          34
+        ],
+        [
+          "Tractor",
+          10
+        ],
+        [
+          "Police Car",
+          6
+        ],
+        [
+          "Bulldozer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Type Of Work Vehicle, That’s Often Seen As A children’s Toy"
+    },
+    {
+      "answers": [
+        [
+          "Hump ",
+          44
+        ],
+        [
+          "Desert ",
+          29
+        ],
+        [
+          "Arabs ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With A Camel"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

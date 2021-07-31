@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Buy A House",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Buy A Car",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Shopping Spree",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Quit Job",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is The First Thing You Would Do If You Won A Million Dollars"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ask Many Questions",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Carries A Gun",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Wears A Badge",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ask For ID",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Woman Do On A First Date To Make You Suspect He Was An Undercover Cop?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Squid",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Snails",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Clams",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Oysters",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sushi",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Crab",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lobster",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Food That Made You Nervous"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sheets",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something Your Teenager Washes Less Often Than You"
+    },
+    {
+      "answers": [
+        {
+          "ans": "London ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Paris ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "New York ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Japan ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A City That Has An Underground Rail System"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthday Cake ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Caviar ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Turkey ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Roast ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Pudding ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Dinner ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food You Only Serve On Special Occasions"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fire ",
+          55
+        ],
+        [
+          "Car ",
+          36
+        ],
+        [
+          "Burglar ",
+          23
+        ],
+        [
+          "Clock ",
+          15
+        ],
+        [
+          "Personal ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Alarm"
+    },
+    {
+      "answers": [
+        [
+          "Socks",
+          52
+        ],
+        [
+          "Underware",
+          24
+        ],
+        [
+          "Shoes",
+          9
+        ],
+        [
+          "T Shirts",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing You Are Constantly Buying More Of."
+    },
+    {
+      "answers": [
+        [
+          "2 Weeks",
+          24
+        ],
+        [
+          "3 Weeks",
+          20
+        ],
+        [
+          "1 Week",
+          13
+        ],
+        [
+          "1 Month",
+          5
+        ],
+        [
+          "10 Days",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When Traveling Overseas, Tell Me The Ideal Amount Of Time To Be Away From Home"
+    },
+    {
+      "answers": [
+        [
+          "Sick/Absence",
+          52
+        ],
+        [
+          "Lateness",
+          39
+        ],
+        [
+          "Resume/Expeirience",
+          3
+        ],
+        [
+          "Can’t Work Overtime",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Lie To Your Boss About."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

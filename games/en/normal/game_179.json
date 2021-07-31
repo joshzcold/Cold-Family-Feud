@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": 16,
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": 17,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 18,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 13,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me The Age When A Girl Should Be Allowed To Start Dating. (Numaric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Spit",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pick Nose",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Fight",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific England People Eat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Sewing",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Hold Papers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Diapers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Use Pins For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coconuts",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Seafood",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bananas",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Pineapples",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Berries",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Stranded On A Tropical Island, Name Something You Might Have To Eat."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teacher",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Grandparent",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Themselves",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Clergy",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Someone Who Parents Tell Their Kids To Have respect For. (More specific Then “Elders”)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dr./Nurse",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Lifeguard",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Firefighter",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Paramedic",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession That Would Require You To Save Someone’s Life."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pen",
+          45
+        ],
+        [
+          "Thermometer",
+          18
+        ],
+        [
+          "Syringe",
+          11
+        ],
+        [
+          "Watch",
+          9
+        ],
+        [
+          "Stethoscope",
+          7
+        ],
+        [
+          "Gloves",
+          5
+        ],
+        [
+          "Pills",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Might Find In A Nurse’s Pocket."
+    },
+    {
+      "answers": [
+        [
+          "Shower",
+          56
+        ],
+        [
+          "Perfume",
+          36
+        ],
+        [
+          "Comb",
+          24
+        ],
+        [
+          "Toothbrush",
+          16
+        ],
+        [
+          "Deoderant",
+          10
+        ],
+        [
+          "Mirror",
+          7
+        ],
+        [
+          "Razor",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Both Men And Women Use Get Ready For A Date"
+    },
+    {
+      "answers": [
+        [
+          "Discipline",
+          51
+        ],
+        [
+          "Children’s Eating",
+          33
+        ],
+        [
+          "Children’s Dress",
+          22
+        ],
+        [
+          "Bed Time",
+          14
+        ],
+        [
+          "Teach Manners",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific About Your Parenting That Your Mother-In-Law Thinks You Should Do Differently"
+    },
+    {
+      "answers": [
+        [
+          "Brad Pitt",
+          62
+        ],
+        [
+          "George Clooney",
+          11
+        ],
+        [
+          "Tom Cruise",
+          10
+        ],
+        [
+          "Mel Gibson",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Hollywood Man Who would Have No Trouble Getting dates If He Were Single."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

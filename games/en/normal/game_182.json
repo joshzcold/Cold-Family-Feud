@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fall Out",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Pops",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Collision",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Rains",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Hate To Have Happen If You Went Up In A Hot Air Balloon."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mouse ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Door Hinge ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bed ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Floor ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wheel ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Squeaks"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fog",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Precipitation",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Trees",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Darkness",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mountains",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Buildings",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Vision",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Prevents You From Seeing For Miles."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Television",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Drinks",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Family Uses In Their Home A Robot Family Wouldn’t Need"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Religion",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Politics",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sense Of Humor",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "If They Have Kids",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Male/ Female",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Where They Live",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Can You Find Out About Person By Reading Their Bumper Stickers?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dolphin ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Killer Whale ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Seal Lion ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Seal ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Walrus ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sea Creature That Performs Tricks"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Remote Control",
+          41
+        ],
+        [
+          "Power",
+          27
+        ],
+        [
+          "Cable",
+          17
+        ],
+        [
+          "Antenna",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Tv Not Work Without,"
+    },
+    {
+      "answers": [
+        [
+          "Breathe",
+          37
+        ],
+        [
+          "Walk",
+          34
+        ],
+        [
+          "Go To The Bathroom",
+          16
+        ],
+        [
+          "Eat",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something It’s Probably Much Harder To Do In Outer Space Than It Is On Earth."
+    },
+    {
+      "answers": [
+        [
+          "Birthday",
+          85
+        ],
+        [
+          "Address",
+          3
+        ],
+        [
+          "Random Numbers",
+          3
+        ],
+        [
+          "Anniversary Date",
+          2
+        ],
+        [
+          "ID Card Number",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Method People Use When Deciding What Lotto Numbers They’re Going To Play."
+    },
+    {
+      "answers": [
+        [
+          "Rub Out",
+          47
+        ],
+        [
+          "Waste Em",
+          31
+        ],
+        [
+          "Hit",
+          20
+        ],
+        [
+          "Whack",
+          13
+        ],
+        [
+          "Take Out",
+          8
+        ],
+        [
+          "Get Rid Of Them",
+          5
+        ],
+        [
+          "Take For A Ride",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Slang Expression The Mafia Uses For The Word Kill"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

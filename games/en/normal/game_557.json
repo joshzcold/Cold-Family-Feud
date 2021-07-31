@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Door",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Safe",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Locker",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Gate",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Has A Lock On It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Beef",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Vegetables",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Many People Have In Their Freezer Right Now"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leave Classroom",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Duck And Cover",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Form A Line",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Stay Calm",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teacher Might Make Students Do During An Emergency Drill."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Crafts",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Playing Instrument",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Listening To Radio",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Pastime That’s Considered More Respectable Than Watching TV."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Typing",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Blowing Nose",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Writing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Scratching An Itch",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tying Shoes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would The Guinness Award Winner For Longest Fingernails Have Trouble Doing?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Golf",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Tennis",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ping Pong",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bowling",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport That A Tough Guy Might Think Is Wimpy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Driving",
+          37
+        ],
+        [
+          "Make Up",
+          25
+        ],
+        [
+          "Dating",
+          21
+        ],
+        [
+          "Hairstyle",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most Parents Would Let Their Teen Experiment With"
+    },
+    {
+      "answers": [
+        [
+          "Jacket ",
+          57
+        ],
+        [
+          "Trousers ",
+          37
+        ],
+        [
+          "Belt ",
+          24
+        ],
+        [
+          "Shoes ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Artical Of Clothing Made Of Leather"
+    },
+    {
+      "answers": [
+        [
+          "Driver’s License",
+          28
+        ],
+        [
+          "Graduation",
+          23
+        ],
+        [
+          "16th Birthday",
+          14
+        ],
+        [
+          "First Kiss",
+          13
+        ],
+        [
+          "First Car",
+          12
+        ],
+        [
+          "Prom",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Biggest Event In A Teenager’s Life"
+    },
+    {
+      "answers": [
+        [
+          40,
+          29
+        ],
+        [
+          30,
+          25
+        ],
+        [
+          45,
+          13
+        ],
+        [
+          35,
+          10
+        ],
+        [
+          25,
+          6
+        ],
+        [
+          50,
+          5
+        ],
+        [
+          29,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Age A Man Might Start Losing His Hair. (Numeric Only)"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

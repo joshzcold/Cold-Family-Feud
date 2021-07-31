@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Stores",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Entertainment",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Crime",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Small Town May Lack."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crashing The Car",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Speeding",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Fighting",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Jumping Off Roof",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Hollywood Stunt Person Gets Paid To Do, But Your Teen Would Get Punished For Doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beef",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Milkbone",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If There Was A Gourmet Cafe For Dogs, Which Coffee Flavors Would Likely Be On The Menu?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blue Jeans",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "T Shirt",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suit",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tank Top",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sneakers",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sweats",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing Never Wear Fancy Restaurant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Run",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Go In To Work",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Yard Work",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Breathe",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Hard To Do On A Particularly Hot Summer Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bedtime",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Before A Trip",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Before Church",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "At The Movies",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Instance When Parents Are Likely To Ask Their Children If They Need To Use The Bathroom."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Speed",
+          40
+        ],
+        [
+          "Not Clean It",
+          15
+        ],
+        [
+          "Travel Far",
+          13
+        ],
+        [
+          "Smoke In It",
+          9
+        ],
+        [
+          "Crash It",
+          7
+        ],
+        [
+          "Drive Recklessly",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Might Do With A Rental Car That They Wouldn’t Do With Their Own Car."
+    },
+    {
+      "answers": [
+        [
+          "Party",
+          40
+        ],
+        [
+          "Wedding",
+          26
+        ],
+        [
+          "New Job",
+          17
+        ],
+        [
+          "Famous",
+          11
+        ],
+        [
+          "Reunion",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why You Might Get Introduced Many People At Once"
+    },
+    {
+      "answers": [
+        [
+          "Eagle ",
+          52
+        ],
+        [
+          "Ostrich ",
+          34
+        ],
+        [
+          "Penguin ",
+          22
+        ],
+        [
+          "Falcon ",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Bird You'd Never Keep As A Household Pet"
+    },
+    {
+      "answers": [
+        [
+          "Names",
+          31
+        ],
+        [
+          "Feeding",
+          26
+        ],
+        [
+          "Labor Pain",
+          15
+        ],
+        [
+          "Potty Training",
+          10
+        ],
+        [
+          "Must Have Items",
+          9
+        ],
+        [
+          "Sleeping Schedule",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Mother-To-Be Might Ask Her Friends’ Advice On Before The Baby Is Born."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

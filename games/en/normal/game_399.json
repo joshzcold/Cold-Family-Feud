@@ -1,0 +1,306 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Rain",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Wind",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Humidity",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lightning",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Weather Condition That Might Cause You To Have Wacky Hair"
+    },
+    {
+      "answers": [
+        {
+          "ans": "In Love",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Pregnant",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Stability",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Green Card",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Reason People Get Married"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stranger At Door",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Hungry",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sees A Cat",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hears A Loud Noise",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sees Another Dog",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A reason Why A Dog Barks"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Internet Acronyms",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Slang",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Misspelling",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Swearing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Smiley Face",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You See In An Email That Would Make Yo Think A Teen Wrote It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Family Name",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hometown",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "On Family Feud, Name Something Host Asks Players About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Black",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Red",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Green",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Blue",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Grey",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "White",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Color You See A Lot Of In Mobster Movies"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Crash",
+          62
+        ],
+        [
+          "Engine Trouble",
+          12
+        ],
+        [
+          "Runs Out Of Gas",
+          10
+        ],
+        [
+          "Flat Tire",
+          10
+        ],
+        [
+          "Die",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Auto Racer Hopes Won’t Happen To Him During A Race."
+    },
+    {
+      "answers": [
+        [
+          "Coworker",
+          50
+        ],
+        [
+          "Mail Carrier",
+          28
+        ],
+        [
+          "Teacher",
+          11
+        ],
+        [
+          "Newspaper Delivery",
+          6
+        ],
+        [
+          "Hairdresser",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Thank Family And Friends, Name A Person You Give A Gift Or Tip To During The Holidays"
+    },
+    {
+      "answers": [
+        [
+          "Sky Diving",
+          52
+        ],
+        [
+          "Fly",
+          28
+        ],
+        [
+          "Bungee Jumping",
+          10
+        ],
+        [
+          "Driving A Race Car",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Got To Be Fearless For One Day, Name The First Thing You’d Try"
+    },
+    {
+      "answers": [
+        [
+          "Frodo",
+          37
+        ],
+        [
+          "Grandalf",
+          16
+        ],
+        [
+          "Gollum",
+          13
+        ],
+        [
+          "Legolas",
+          12
+        ],
+        [
+          "Aragorn",
+          9
+        ],
+        [
+          "Sam",
+          7
+        ],
+        [
+          "Gimli",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Character From The Lord Of The rings"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

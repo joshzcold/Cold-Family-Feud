@@ -1,0 +1,350 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chipmunk/Squirrel",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Panda/Koala Bear",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bulldog",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal A Person With Chubby Cheeks Might Resemble"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hopscotch",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hide N Seek",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tag",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Twister",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Jump Rope",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Musical Chairs",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dress Up",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Kid’s Game A Grown Man Would Look Pretty Silly Playing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Great Expectations",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Great Dane",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Great Wall Of China",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Great Day",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Great Grandparents",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Great Buy",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Great Scott",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Begins With The Word “Great.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baby / Child ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Puppy ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Kitten ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dress ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Be Described As Adorable"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Roadkill",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Garbage",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hitchhiker",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Trees",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sign",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You See On The Side Of The Road"
+    },
+    {
+      "answers": [
+        {
+          "ans": "School",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Outside Of House",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "On A Car",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Side Of A Building",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Display Case",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "On A Uniform",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides On Top Of A Flag Pole, Where Else Would You See The American Flag?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smoking",
+          39
+        ],
+        [
+          "Fighting",
+          21
+        ],
+        [
+          "Alcohol/Drugs",
+          17
+        ],
+        [
+          "Skipping School",
+          14
+        ],
+        [
+          "Swearing",
+          5
+        ],
+        [
+          "Breaking Curfew",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Act Of High School Rebellion That You Can’t Imagine A Kindergartener Doing."
+    },
+    {
+      "answers": [
+        [
+          "Nervous",
+          38
+        ],
+        [
+          "No Money",
+          33
+        ],
+        [
+          "Not Ready",
+          17
+        ],
+        [
+          "Unsure",
+          6
+        ],
+        [
+          "Someone Else",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Man Might Delay Proposing To His Girlfriend."
+    },
+    {
+      "answers": [
+        [
+          "Lifeguard",
+          34
+        ],
+        [
+          "Security Guard",
+          27
+        ],
+        [
+          "Bodyguard",
+          19
+        ],
+        [
+          "Prison Guard",
+          7
+        ],
+        [
+          "National Guard",
+          5
+        ],
+        [
+          "Crossing Guard",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job That Ends With The Word “Guard.”"
+    },
+    {
+      "answers": [
+        [
+          "Boxer ",
+          51
+        ],
+        [
+          "Doctor ",
+          33
+        ],
+        [
+          "Builder ",
+          22
+        ],
+        [
+          "Doorman ",
+          14
+        ],
+        [
+          "Policeman ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Person That Wears Gloves"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

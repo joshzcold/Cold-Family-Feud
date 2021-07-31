@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Penne",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lasagna",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fettucini",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Rotini",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Linguine",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ravioli",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Spaghetti, Name A Type Of Pasta."
+    },
+    {
+      "answers": [
+        {
+          "ans": "French",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "English",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Spanish",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "German",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Italian",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Language Spoken In Europe."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flares",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Flashlight",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "First Aid Kit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Car Jack",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Jumper Cables",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You Put In An Emergency Road Kit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Apple",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Peach",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bananas",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pear",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Fruit That Can Get Bruised"
+    },
+    {
+      "answers": [
+        {
+          "ans": "$30 ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "$25 ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "$35 ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "$20 ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "$40 ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "$50 ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "$15 ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me How Much A Room At A Cheap Motel Costs. (Use Money Format $0.00)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Owl ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bush Baby ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Ostrich ",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Has Large Eyes"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Paris Hilton",
+          31
+        ],
+        [
+          "Britney Spears",
+          26
+        ],
+        [
+          "Jessica Simpson",
+          16
+        ],
+        [
+          "Pamela Anderson",
+          11
+        ],
+        [
+          "Mariah Carey",
+          9
+        ],
+        [
+          "Madonna",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Celeb Who Should Never Have Taken Up Acting."
+    },
+    {
+      "answers": [
+        [
+          "Heard A Noise",
+          41
+        ],
+        [
+          "“In The Mood”",
+          17
+        ],
+        [
+          "Snoring",
+          16
+        ],
+        [
+          "You’re Sick",
+          9
+        ],
+        [
+          "Had A Nightmare",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why You’d Wake Your Spouse Up In The Middle Of The Night"
+    },
+    {
+      "answers": [
+        [
+          "Birthday Party ",
+          50
+        ],
+        [
+          "In Church ",
+          33
+        ],
+        [
+          "Christmas ",
+          21
+        ],
+        [
+          "Weddings ",
+          14
+        ],
+        [
+          "When They Are Happy ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occasion When People Sing"
+    },
+    {
+      "answers": [
+        [
+          "Stars ",
+          58
+        ],
+        [
+          "Planets ",
+          38
+        ],
+        [
+          "Airplanes ",
+          25
+        ],
+        [
+          "Birds ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Look At Through A Telecsope"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

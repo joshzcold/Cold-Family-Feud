@@ -1,0 +1,300 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pitcher",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "catcher",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "shortstop",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "First Base",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Batter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Outfield",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Position Played In Baseball Game."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheese ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Trap ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Squeaking ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tail ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With A Mouse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wash ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Registration ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Phone ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Caravan ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Carpet ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Apart From A Car Park, Name A Word That Follows Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Identification",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Credit Cards",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Photos",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Is The Most Valuable Thing In Wallets?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wallet/Money",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tools",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Men Carried Purses, Name Something You’d Find Inside Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Meat ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Ice ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Peas ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Chicken ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Freezer"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "At work/school",
+          40
+        ],
+        [
+          "No AC",
+          27
+        ],
+        [
+          "Sick",
+          20
+        ],
+        [
+          "Drought",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a reason why a person might be annoyed that the weather is nice."
+    },
+    {
+      "answers": [
+        [
+          "Whale",
+          23
+        ],
+        [
+          "Sand/Rocks",
+          21
+        ],
+        [
+          "Star Fish",
+          17
+        ],
+        [
+          "Coral",
+          16
+        ],
+        [
+          "Sea Shells",
+          11
+        ],
+        [
+          "Sea Horse",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something From The Ocean That You’d Never Find On A Restaurant Menu"
+    },
+    {
+      "answers": [
+        [
+          "A Police Car ",
+          57
+        ],
+        [
+          "An Ambulance ",
+          37
+        ],
+        [
+          "A Fire Engine ",
+          24
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Vehicle With A Siren"
+    },
+    {
+      "answers": [
+        [
+          "Eat Something",
+          47
+        ],
+        [
+          "Drink Water",
+          18
+        ],
+        [
+          "Hold It",
+          17
+        ],
+        [
+          "Laugh",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do You Do When Your Stomach Growls?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Coffeepot/Dishes",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Clothes/Pajamas",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Paper",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Toothbrush/Soap",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bedding",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In A New House, What Are The First Things You Unpack Because You’re Sure To Need Them Right Away?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Service",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Agent",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Admirer",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Santa",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Garden",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Two-Word Phrase That Starts With Secret"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toys",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Space",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Window Seat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Snack",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something Kids Fight Over On A Long Car Ride"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Music",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Candles",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Lighting",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Mood-Setter In Your Home That You Pay More Attention To If You Are Trying To Impress A Date."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Lack Of Intimacy",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dinner",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Snoring",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Doing Housework",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Married People: Name The Thing That Your Spouse Most Often Complains About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cry/Tantrum",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Go To Bed",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Fake Sickness",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Run",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hide",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Kid Might Do To Get Out Of Taking A Bath"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Balloons ",
+          57
+        ],
+        [
+          "Tyres ",
+          37
+        ],
+        [
+          "Lungs ",
+          24
+        ],
+        [
+          "Lilo / Air Bed ",
+          16
+        ],
+        [
+          "Airbags ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Fill With Air"
+    },
+    {
+      "answers": [
+        [
+          "Zoo",
+          47
+        ],
+        [
+          "Museum",
+          40
+        ],
+        [
+          "Park",
+          9
+        ],
+        [
+          "Farm",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where School Children Often Go For Field Trips."
+    },
+    {
+      "answers": [
+        [
+          "Bed",
+          32
+        ],
+        [
+          "Couch",
+          30
+        ],
+        [
+          "TV",
+          26
+        ],
+        [
+          "Fridge",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The First Big Item You Buy When Moving To A New House."
+    },
+    {
+      "answers": [
+        [
+          "Construction",
+          29
+        ],
+        [
+          "Movers",
+          24
+        ],
+        [
+          "parcle Delivery",
+          18
+        ],
+        [
+          "Hair dresser",
+          12
+        ],
+        [
+          "Traffic Cop",
+          5
+        ],
+        [
+          "Food server",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job Where Employees Must get Tired Arms"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

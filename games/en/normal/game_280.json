@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Shake Hands",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "High Five",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Clap",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Congratulate",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Losing Sports Team Does To The Winners To Show Good Sportsmanship"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "House/Home Repair",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Gifts",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Insurance",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’re Better Off Spending Too Much Money On Than Too Little."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blood ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Crucifix ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Garlic ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fangs ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Dracula ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Vampires"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gold ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Diamonds ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Stars ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Glitter ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ring ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Glitters"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jailhouse Rock",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Viva Las Vegas",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Blue Hawaii",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Love Me tender",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Girls Girls Girls",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "King Creole",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Popular Elvis Presley Movie"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kissing Them ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Hugging Them ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Flowers ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Telling Them ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Gifts / Presents ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Best Way Of Telling Someone You Love Them"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleigh Ride",
+          36
+        ],
+        [
+          "Make Toys",
+          26
+        ],
+        [
+          "Eat Cookies",
+          19
+        ],
+        [
+          "Deliver Presents",
+          7
+        ],
+        [
+          "Sit On His Lap",
+          5
+        ],
+        [
+          "Go To North Pole",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Went Out With Santa Claus, What Might You Do On Your First Date?"
+    },
+    {
+      "answers": [
+        [
+          "Fudge",
+          44
+        ],
+        [
+          "Chocolates",
+          21
+        ],
+        [
+          "Peanut Brittle",
+          14
+        ],
+        [
+          "Toffee",
+          9
+        ],
+        [
+          "Taffy",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Popular Type Of Homemade Candy Served During The Holidays"
+    },
+    {
+      "answers": [
+        [
+          "Arrows ",
+          55
+        ],
+        [
+          "Board ",
+          36
+        ],
+        [
+          "Robin Hood ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Archery"
+    },
+    {
+      "answers": [
+        [
+          "Floor ",
+          45
+        ],
+        [
+          "Sofa ",
+          29
+        ],
+        [
+          "Futon ",
+          19
+        ],
+        [
+          "Pillow ",
+          12
+        ],
+        [
+          "Blanket ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Apart From A Matress, Name Something People Sleep On"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}
