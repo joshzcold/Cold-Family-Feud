@@ -158,7 +158,7 @@ Assuming you have family feud data that matches this format
 QUESTION, ANSWER, POINTS, ANSWER, POINTS
 ```
 
-or this format
+Or this format
 
 ```csv
 QUSTION, ANSWER, ANSWER, ANSWER
@@ -167,7 +167,7 @@ QUSTION, ANSWER, ANSWER, ANSWER
 > if you use this format, then this script will auto generate point values
 > using the point_generator script/lib above
 
-you convert lots of csv files into cold_family_feud .json format
+You can convert lots of CSV files into cold_family_feud .json format
 
 ```sh
 ❯ ./scripts/parse_csv -h
