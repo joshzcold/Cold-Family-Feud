@@ -15,6 +15,7 @@ export default function Game(props) {
   const [error, setError] = useState("");
   const ws = useRef(null);
   let refreshCounter = 0;
+  let pongInterval;
 
   useEffect(() => {
     fetch("/api/ws").finally(() => {
@@ -28,13 +29,14 @@ export default function Game(props) {
           ws.current.send(
             JSON.stringify({ action: "game_window", session: session })
           );
-          setInterval(() => {
+          pongInterval = setInterval(() => {
             console.debug("sending pong in game window");
             let [room, id] = session.split(":");
             ws.current.send(
               JSON.stringify({ action: "pong", id: id, room: room })
             );
           }, 5000);
+          return () => clearInterval(pongInterval);
         }
       };
 

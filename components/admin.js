@@ -18,6 +18,7 @@ export default function Admin(props) {
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
+  let pongInterval;
 
   function send(data) {
     data.room = props.room;
@@ -41,10 +42,12 @@ export default function Admin(props) {
       }
     }, 1000);
 
-    setInterval(() => {
+    pongInterval = setInterval(() => {
       console.debug("sending pong in admin");
       send({ action: "pong" });
     }, 5000);
+    return () => clearInterval(pongInterval);
+
     ws.current.addEventListener("message", (evt) => {
       var received_msg = evt.data;
       let json = JSON.parse(received_msg);
