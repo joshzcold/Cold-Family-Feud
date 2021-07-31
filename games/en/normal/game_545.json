@@ -1,0 +1,311 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "A Fire Extinguisher ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Blanket ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Sand ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Water Name Something People Use To Put Out A Fire"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ant ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Fly ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Spider ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Wasp ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Pest That Might Show Up At A Picnic"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stuart Little",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Little Bo Peep",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Little John",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chicken little",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lil red Riding Hood",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Little Boy Blue",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Fictional Character Whose Name Includes The World “Little.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bat",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Owl",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Raccoon",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Sleeps During The Day And Stays Up At Night."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pee Outside",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Lick",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Drink From Toilet",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Eat Scraps",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Run Loose",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Would Let Your Dog Do, But Not Your Child."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bicycle",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Video Games",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Remote Control Car",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "GI Joe",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Truck",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Ten Year Old Boy Might Ask For"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tutu",
+          29
+        ],
+        [
+          "Ballet shoes",
+          25
+        ],
+        [
+          "Balance/Poise",
+          17
+        ],
+        [
+          "Strong legs",
+          14
+        ],
+        [
+          "Talent",
+          7
+        ],
+        [
+          "Callused Feet",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a ballet dancer has that most people do not."
+    },
+    {
+      "answers": [
+        [
+          "Hoagie",
+          43
+        ],
+        [
+          "Ham",
+          15
+        ],
+        [
+          "Cheese Steak",
+          11
+        ],
+        [
+          "Pastrami",
+          11
+        ],
+        [
+          "Meatball",
+          10
+        ],
+        [
+          "Reuben",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Sandwich You’d Expect To See In New York City."
+    },
+    {
+      "answers": [
+        [
+          "Arnold Schwarzenegger",
+          43
+        ],
+        [
+          "The Rock",
+          20
+        ],
+        [
+          "Vin Diesel",
+          16
+        ],
+        [
+          "Hulk Hogan",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Muscular Celebrity Who Would Probably Have Trouble Finding Clothes In His Size."
+    },
+    {
+      "answers": [
+        [
+          "Protection",
+          54
+        ],
+        [
+          "Loyality",
+          14
+        ],
+        [
+          "Cat Allergies",
+          11
+        ],
+        [
+          "Friendlier",
+          9
+        ],
+        [
+          "Playful",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Person Might Prefer To Own A Dog Over A Cat."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

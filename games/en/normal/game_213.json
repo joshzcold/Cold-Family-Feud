@@ -1,0 +1,355 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "New York City",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "St Louise",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Houston",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "San Francisco",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Los Angeles",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "New Orleans",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Washington D.C.",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A City You Recognize Just By Seeing A Photo."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Drawing",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Talent That Can’t Be Learned, But That You Must Be Born With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hot Dogs",
+          "pnt": 76,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Corn Dogs",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Hot Pretzel",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Ham",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Tastes Good With Mustard"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthday ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Valentines Day ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Birthday ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Funeral ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Admirer ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason You Might Receive Flowers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bicycle",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Boat",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bull",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Rhinocerous",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Unicorn",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than A Car, Where To Find A Horn"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone call",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Pass gas",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Family member",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Weather",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sneeze/cough",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Door bell",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bad breath",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In the heat of the moment,what might happen that could ruin it?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fast/ Reckless",
+          53
+        ],
+        [
+          "Smoking",
+          34
+        ],
+        [
+          "Cursing",
+          23
+        ],
+        [
+          "Chatting/ Joking",
+          15
+        ],
+        [
+          "Charging Fare",
+          10
+        ],
+        [
+          "Honking",
+          6
+        ],
+        [
+          "Picking People Up",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would A Taxi Driver Have To Stop Doing To Drive A Hearse"
+    },
+    {
+      "answers": [
+        [
+          "Makeup",
+          38
+        ],
+        [
+          "Hat",
+          32
+        ],
+        [
+          "Piercing",
+          13
+        ],
+        [
+          "Shoes",
+          9
+        ],
+        [
+          "Hoodie",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teen Might Take Off Before Going To Grandma’s House For Dinner."
+    },
+    {
+      "answers": [
+        [
+          "Lipstick",
+          31
+        ],
+        [
+          "Blush",
+          20
+        ],
+        [
+          "Foundation",
+          14
+        ],
+        [
+          "Eye Shadow",
+          13
+        ],
+        [
+          "Mascara",
+          11
+        ],
+        [
+          "Eyeliner",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Makeup That Most Women Don’t Wear On A Regular Basis."
+    },
+    {
+      "answers": [
+        [
+          "Shoot(Picture)",
+          44
+        ],
+        [
+          "Use Binoculars",
+          32
+        ],
+        [
+          "Be Quiet",
+          25
+        ],
+        [
+          "Hide",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do While Birdwatching That You Might Also Do While Hunting"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

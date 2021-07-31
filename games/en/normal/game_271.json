@@ -1,0 +1,343 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "CANNED",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "AXED",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "KICKED TO THE CURB",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "GOT THE BOOT",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Situation That Makes Just About Everyone Nervous"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Irresponsible",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Smoke/ Drink",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bad Manners",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Loud",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Troublemaker",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bad Driver",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Moody",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Stereotype About Teenagers Often Untrue"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pee Outside",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Sleep Anywhere",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Catch Food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Make Lots Of Noise",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Dogs Are Always Able To Do That People Can Only Do On A Camping Trip."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mirror ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Tiles ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Picture ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Towel Holder ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find On A Bathroom Wall"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Movie Theater",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Seaworld",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Circus",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Don’t Want Front Row Seats"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Closing Eyes",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Smiling",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Laughing",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sneezing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Frowning",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Moving",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Slouching",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Try To Avoid Doing When Posing For A Photo."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Swimming ",
+          52
+        ],
+        [
+          "Skating ",
+          34
+        ],
+        [
+          "Riding A Bike ",
+          22
+        ],
+        [
+          "Dancing ",
+          14
+        ],
+        [
+          "Walking ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Acticity That Requires Someone To Hold On Whey They Are First Learning To Do It"
+    },
+    {
+      "answers": [
+        [
+          "Insurance ",
+          43
+        ],
+        [
+          "Tax ",
+          28
+        ],
+        [
+          "Rates ",
+          18
+        ],
+        [
+          "Tv Licence ",
+          12
+        ],
+        [
+          "Christmas Presents ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Pay For Once A Year"
+    },
+    {
+      "answers": [
+        [
+          "Salmon",
+          38
+        ],
+        [
+          "Trout",
+          17
+        ],
+        [
+          "Flounder",
+          12
+        ],
+        [
+          "Swordfish",
+          9
+        ],
+        [
+          "Red fish",
+          6
+        ],
+        [
+          "Bass",
+          5
+        ],
+        [
+          "Catfish",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a fish that tastes good grilled."
+    },
+    {
+      "answers": [
+        [
+          "Christmas",
+          24
+        ],
+        [
+          "Tiny Tim",
+          19
+        ],
+        [
+          "Scrooge",
+          18
+        ],
+        [
+          "Bob Cratchit",
+          11
+        ],
+        [
+          "Christmas Tree",
+          9
+        ],
+        [
+          "Ghosts",
+          8
+        ],
+        [
+          "Chains",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Associate With “A Christmas Carol” By Charles Dickens."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

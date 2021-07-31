@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Make Pie",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Smash It",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Throw It Away",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Toast Seeds",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Make Soup",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Can Do With A Pumpkin Once Halloween Is Over"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vanilla",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Pine",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Strawberry",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cinnamon",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lemon",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Spice",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Popular Air Freshener Scent"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rainbow",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Worms",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Comes After It’s Been Raining"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Purse / Wallet ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "A Bank ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Pocket ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Sofa ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Amusement Arcade ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Might Find Coins"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Thanksgiving",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Party",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An event You Might Have A Lot Of Leftovers From"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Stork",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Heaven",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "A Cabbage Patch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mom’s Tummy",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "The Hospital",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Santa Clause",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Where Do Many Kids Think That Babies Come From?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Conceited",
+          27
+        ],
+        [
+          "Arrogant",
+          19
+        ],
+        [
+          "Cocky",
+          17
+        ],
+        [
+          "Stuck Up",
+          15
+        ],
+        [
+          "Snob",
+          9
+        ],
+        [
+          "Vain",
+          5
+        ],
+        [
+          "Egotistical",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Term For Someone Who Thinks Very Highly Of Himself"
+    },
+    {
+      "answers": [
+        [
+          "Cake",
+          34
+        ],
+        [
+          "Cookies",
+          29
+        ],
+        [
+          "Sandwich/Bread",
+          20
+        ],
+        [
+          "Pancakes",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Food That Could Most Easily Be Turned Into A Heart-Shape For Valentine’s Day."
+    },
+    {
+      "answers": [
+        [
+          "Carpenter ",
+          56
+        ],
+        [
+          "Secretary / Typist ",
+          36
+        ],
+        [
+          "Masseuse ",
+          24
+        ],
+        [
+          "Physiotherapist ",
+          16
+        ],
+        [
+          "Doctor ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Profession For Someone Good With Their Hands"
+    },
+    {
+      "answers": [
+        [
+          "Park",
+          68
+        ],
+        [
+          "Beach",
+          11
+        ],
+        [
+          "Roadside",
+          8
+        ],
+        [
+          "Yard",
+          7
+        ],
+        [
+          "Schoolyard",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Hate To See Litter"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

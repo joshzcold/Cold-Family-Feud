@@ -1,0 +1,296 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Attic",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Closet",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Garage",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Under Bed",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where In Your House Do You Look For Something That’s Been Packed Away For Winter?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Typing",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Excel",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Word Processor",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Surfing The Net",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Programming",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Power Point",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Computer Program Or Skill That You Wish You Were Better At."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Volcano",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Dolphin",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Palm Tree",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lei",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hula Dancer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Luau",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’D Hope To See One Of On A Trip To Hawaii"
+    },
+    {
+      "answers": [
+        {
+          "ans": "C",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "E",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "B",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "A",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Letter Of The Alphabet That Is Also A Vitamin?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coffe Pot/Mugs",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Water Cooler",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Refrigerator",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d See In An Office’s Kitchen Area."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Give Them Sweets ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Buy Them Toys ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Give Them Money ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Expensive Trips ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Grandparents Do To Spoil Their Grandchildren"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pet",
+          55
+        ],
+        [
+          "Refrigerator",
+          35
+        ],
+        [
+          "Creaky Door/Window",
+          7
+        ],
+        [
+          "Another Person",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your House That You Might Hear In The Middle Of the Night And Mistake For A Burglar."
+    },
+    {
+      "answers": [
+        [
+          "Food",
+          29
+        ],
+        [
+          "Money",
+          28
+        ],
+        [
+          "Clothing",
+          24
+        ],
+        [
+          "Toys",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Donate To Charity During The Holidays"
+    },
+    {
+      "answers": [
+        [
+          "Mum ",
+          54
+        ],
+        [
+          "Mummy ",
+          35
+        ],
+        [
+          "Ma ",
+          23
+        ],
+        [
+          "Mama ",
+          15
+        ],
+        [
+          "Housewife ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Another Word for Mother"
+    },
+    {
+      "answers": [
+        [
+          "Wings ",
+          48
+        ],
+        [
+          "Fuel ",
+          31
+        ],
+        [
+          "A Pilot ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Plane Can't Fly Without"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

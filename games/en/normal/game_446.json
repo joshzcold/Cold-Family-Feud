@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "The Loot",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "ID",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Fingerprints",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wallet",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "His gun",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something the world’s dumbest bank robber might leave at the scene of the crime"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Egypt ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bandages ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "A Tomb ",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With A Mummy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wine",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Kind Of Drink You Wouldn’t Want To Have Spilled On You."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Test",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Partner",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Taxes",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Diet",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Cheat On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jewelry Store",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Macys",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Neman Marcus",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bloomingdales",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Department Store",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Lord & Taylor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Store Or Type Of Store That Sells Expensive Merchandise."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Head",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Throat",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Feet",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Neck",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Back",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Ears",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Hurt After You Attend A Rock Concert."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "School",
+          41
+        ],
+        [
+          "The Mall",
+          20
+        ],
+        [
+          "The Movies",
+          15
+        ],
+        [
+          "Clubs/Practice",
+          12
+        ],
+        [
+          "Friemd’s/Party",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someplace That Kids Need Their Parents To Drive Them"
+    },
+    {
+      "answers": [
+        [
+          "Helmet",
+          55
+        ],
+        [
+          "Shorts",
+          36
+        ],
+        [
+          "Gloves",
+          23
+        ],
+        [
+          "Glasses/Goggles",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wear When You Ride A Bike."
+    },
+    {
+      "answers": [
+        [
+          "Parent",
+          43
+        ],
+        [
+          "Boss",
+          19
+        ],
+        [
+          "Sibling",
+          18
+        ],
+        [
+          "Ex",
+          10
+        ],
+        [
+          "Best Friend",
+          5
+        ],
+        [
+          "Boy/Girlfriend",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Person In Your Life Who It Would Be Unwise To Live With."
+    },
+    {
+      "answers": [
+        [
+          "Tacos",
+          47
+        ],
+        [
+          "Nachos",
+          31
+        ],
+        [
+          "Burito",
+          20
+        ],
+        [
+          "Fajitas",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Best Dish To Order At A Mexican Restaurant"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

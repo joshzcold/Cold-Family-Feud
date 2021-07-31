@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hat / Cap ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Shade ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Map ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Compass ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Need If Lost In A Desert"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Freedom",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Apple Pie",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Things That Are Part Of The American Dream"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shower",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Coffeemaker",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Hair Dryer",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Alarm Clock",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "During Your Morning Routine, Name Something You’d Hate To Discover Wasn’t Working."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pepperoni",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Mushrooms",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sausage",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Olives",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Anchovies",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Peppers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Ordered A Pizza With “The Works”, Name A Topping That You’d Expect."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brush Their Teeth ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Ask For A Story ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Pray ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Kiss Goodnite ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Turn Light Out ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Child Might Do Before They Go To Bed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Joan Of Ark ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Florence Nightingale",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Margeret Thatcher ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Mother Theresa ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cleopatra ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Apart From The Queen Name A Famous Woman In History"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Study",
+          53
+        ],
+        [
+          "Play Sports",
+          34
+        ],
+        [
+          "Eat",
+          23
+        ],
+        [
+          "Dress",
+          15
+        ],
+        [
+          "Walk",
+          10
+        ],
+        [
+          "Socialize",
+          6
+        ],
+        [
+          "Date",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Jocks In High School Don’t Do Same As Their Peers"
+    },
+    {
+      "answers": [
+        [
+          "Have Photo Taken ",
+          46
+        ],
+        [
+          "Have Your Fortune Told ",
+          30
+        ],
+        [
+          "Kiss ",
+          20
+        ],
+        [
+          "Smoke ",
+          13
+        ],
+        [
+          "Work ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do In A Booth"
+    },
+    {
+      "answers": [
+        [
+          "Chocolate",
+          42
+        ],
+        [
+          "Strawberries",
+          30
+        ],
+        [
+          "Oysters",
+          12
+        ],
+        [
+          "Spaghetti",
+          8
+        ],
+        [
+          "Steak",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That’s Associated With Romance."
+    },
+    {
+      "answers": [
+        [
+          "Swim",
+          40
+        ],
+        [
+          "Run Track",
+          33
+        ],
+        [
+          "Sauna",
+          8
+        ],
+        [
+          "Lift Weights",
+          6
+        ],
+        [
+          "Socialize",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can’t Do In A Home Gym Thant You Can Do In A Real Gym"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

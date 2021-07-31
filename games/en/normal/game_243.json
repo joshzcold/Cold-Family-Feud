@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Algebra",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "English",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Calculus",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chemistry",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Geometry",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Physics",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A High School Subject That Kids Consider Difficult. Be Specific."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Napkins",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Salt And Pepper",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Menu",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Glass",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Table Cloth",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Utensils, Name Something That’s Already On The Restaurant Table When You Sit Down."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Suitcase",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Wife",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Extra Clothes",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Baby Bag",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Car Seat",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Husband Might Forget To Take To The Hospital When His Wife Is Having A Baby."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Medical Professional",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cop",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Military",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mail Carrier",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Prisoner",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Janitor",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who Wears A Uniform With Shirt And Pants Of The Same Color?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "T-Shirt",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Fries",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Get In Extra Large"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Telemarketer",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bill Collecter",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Wrong Number",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Who Was On The Phone The Last Time You Said, “Don’t Call Here Anymore”?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Privacy",
+          38
+        ],
+        [
+          "Prank Calls",
+          18
+        ],
+        [
+          "Stalker",
+          13
+        ],
+        [
+          "Telemarketers",
+          13
+        ],
+        [
+          "Ex",
+          6
+        ],
+        [
+          "They’re Famous",
+          5
+        ],
+        [
+          "Bill Collectors",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Someone Might Not Want Their Phone Number listed In The Phone Book."
+    },
+    {
+      "answers": [
+        [
+          "Helmet",
+          83
+        ],
+        [
+          "Leather Pants",
+          7
+        ],
+        [
+          "Leather Jacket",
+          5
+        ],
+        [
+          "Sunglasses",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Might Buy To Go With Their Motorcycle."
+    },
+    {
+      "answers": [
+        [
+          "Sleep",
+          33
+        ],
+        [
+          "Sing",
+          24
+        ],
+        [
+          "Drink Alcohol",
+          19
+        ],
+        [
+          "Eat",
+          7
+        ],
+        [
+          "Talk",
+          5
+        ],
+        [
+          "Read",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Hobo Does To Pass His Time While Ridin’ The Rails"
+    },
+    {
+      "answers": [
+        [
+          "Star Spangled",
+          35
+        ],
+        [
+          "God Bless America",
+          25
+        ],
+        [
+          "Born In The USA",
+          15
+        ],
+        [
+          "Amer The Beautiful",
+          12
+        ],
+        [
+          "Yankee Doodle",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Patriotic Song"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

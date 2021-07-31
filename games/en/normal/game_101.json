@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Overalls",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy Hat",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Blue Jeans",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Suspenders",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Article Of Clothing Do You Suspect Every Farmer Owns?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speech ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Play ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Song ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Wedding ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lines ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Rehearse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boxing",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sports Whose Athletes You’d Least Like To Get In A Fight With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Harry Potter",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bible",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Chronicals Of Narnia",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Willy Wonka",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lord Of The Rings",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Catcher In The Rye",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Book You’d Like To Get As A Gift."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blood",
+          "pnt": 72,
+          "trig": false
+        },
+        {
+          "ans": "The Dark",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cross",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Neck Bites",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bats",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can’t Be Afraid Of If You Want To Become A Vampire"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mail",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Safe/Lock Box",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Dresser Drawers",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Jewelery Box",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Purse/Wallet",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Diary/Journal",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Housekeeper Should Not Open"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lane ",
+          48
+        ],
+        [
+          "Road ",
+          31
+        ],
+        [
+          "Waist ",
+          20
+        ],
+        [
+          "Ruler ",
+          13
+        ],
+        [
+          "Path ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Narrow"
+    },
+    {
+      "answers": [
+        [
+          "Flower ",
+          47
+        ],
+        [
+          "Yeast ",
+          31
+        ],
+        [
+          "Doe ",
+          20
+        ],
+        [
+          "Water ",
+          13
+        ],
+        [
+          "Flavour ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Need To Make Bread"
+    },
+    {
+      "answers": [
+        [
+          "Jewelry",
+          44
+        ],
+        [
+          "Watch",
+          20
+        ],
+        [
+          "Cell Phone",
+          17
+        ],
+        [
+          "House",
+          7
+        ],
+        [
+          "Pair Of Glasses",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Expensive To Replace If You Lose It."
+    },
+    {
+      "answers": [
+        [
+          "Flashlight",
+          46
+        ],
+        [
+          "Magnifying Glass",
+          22
+        ],
+        [
+          "Compass",
+          17
+        ],
+        [
+          "Camera",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Both A Detective And A Camper Use."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

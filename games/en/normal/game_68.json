@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Candy Cane",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Fudge",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Mints",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Peppermints",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate Santa",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Hard Candy",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Popular Christmas Candy."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elderly",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Pregnant",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Disability",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hands Full",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why You Might Offer Your Bus Seat To Someone Else."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bride",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Minister",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Rings",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Groom",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Vows",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That No Wedding Ceremony Should Be Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Banana Split",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Banana Pudding",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Banana Cream Pie",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Banana Bread",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Made With Bananas."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Algebra",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Geometry",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Calculus",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Trigonometry",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Type Of Math Class Offered In High Schools."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Long Beard",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Comes Down Chimney",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Sitting On His Lap",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Employs Elves",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something About Santa Clause That Would Give You The Creeps If You’d Never Heard Of Him."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          35
+        ],
+        [
+          "Restaurant",
+          25
+        ],
+        [
+          "In Law’s/Parnts",
+          12
+        ],
+        [
+          "Work",
+          10
+        ],
+        [
+          "Movie Theatre",
+          7
+        ],
+        [
+          "Supermarket",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Would Not Want To Get Into An Argument With Your Partner."
+    },
+    {
+      "answers": [
+        [
+          "Phone Number",
+          49
+        ],
+        [
+          "Name",
+          30
+        ],
+        [
+          "Smile",
+          9
+        ],
+        [
+          "Compliment",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something “Fake” That You Might Give To The Person Hitting On You In A Bar."
+    },
+    {
+      "answers": [
+        [
+          "Sandals",
+          65
+        ],
+        [
+          "Slippers",
+          11
+        ],
+        [
+          "Loafers",
+          9
+        ],
+        [
+          "Boots",
+          5
+        ],
+        [
+          "Clogs",
+          4
+        ],
+        [
+          "Heels",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Footwear That Doesn’t Have Laces."
+    },
+    {
+      "answers": [
+        [
+          "Wall",
+          57
+        ],
+        [
+          "Desk",
+          37
+        ],
+        [
+          "Skin",
+          24
+        ],
+        [
+          "Magazine Ad",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Paper, Name Something A Kid Might Scribble On"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

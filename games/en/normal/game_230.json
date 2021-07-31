@@ -1,0 +1,346 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Calculator",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Pencil",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ruler",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Compass",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "paper",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Students Use In Math Class"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shower",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Fragrance",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Comb",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste/Brush",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Deodorant",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Razor",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Both Men And Women Use To Get Ready For A Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Somebody At Door ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Need The Loo ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Dinner Ready ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Call Waiting ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Going Out ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Excuse You Give To Get Off The Phone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coke ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Soft Drink ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Beer ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Milk ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Drink Out Of The Bottle"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pool",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Poker",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Ping Pong",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chess",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Foosball",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Monopoly",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Roulette",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game That Has A Specific Type Of Table"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sore Throat/Sick",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Sing",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lost Voice",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Too Much Too Drink",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Stage Fright",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me An Excuse You’d Use To Avoid Singing At A Karaoke Club."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Clowns",
+          50
+        ],
+        [
+          "Sirens",
+          33
+        ],
+        [
+          "Masks",
+          21
+        ],
+        [
+          "Gunshots",
+          14
+        ],
+        [
+          "Fireworks",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Feature Of Most Parade That Scare Children"
+    },
+    {
+      "answers": [
+        [
+          "5 ",
+          55
+        ],
+        [
+          "4 ",
+          36
+        ],
+        [
+          "7 ",
+          23
+        ],
+        [
+          "10 ",
+          15
+        ],
+        [
+          "3 ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Many Sick Days Does The Average Person Have A Year"
+    },
+    {
+      "answers": [
+        [
+          "Too Much Smoke",
+          27
+        ],
+        [
+          "Noise",
+          23
+        ],
+        [
+          "Bad Service",
+          18
+        ],
+        [
+          "Watery Drinks",
+          8
+        ],
+        [
+          "Expensive Drinks",
+          7
+        ],
+        [
+          "Too Rowdy",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Complaint A Customer Might Have About A Bar They’re At."
+    },
+    {
+      "answers": [
+        [
+          "Cake",
+          52
+        ],
+        [
+          "Lasagna",
+          34
+        ],
+        [
+          "Onion",
+          22
+        ],
+        [
+          "Pizza",
+          14
+        ],
+        [
+          "Sandwich",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Has Layers"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

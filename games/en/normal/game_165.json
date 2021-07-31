@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sports Illustrated",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "G.O.",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Vogue",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Rolling Stone",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Magazine Cover You’d Most Like To Appear On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vacuums",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Magazines",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cosmetics",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Insurance",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Fuller Brushes",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Sold Door-To-Door"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baked ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Runner ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Broad ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Kidney ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Soya ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Les-Bean (True) ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Bean"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wear Makeup",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shave",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pierce Ears",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stay Home Alone",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Mom Might Make Her Daughter Wait Til She’s 12 Years Old To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beating On Chest",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Eating Habits",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Very Possessive",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Hair All Over",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pull Hair",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Has Club",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Rude",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sign The Man You’Re Dating Is A Caveman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Opie",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Barney Fife",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Aunt Bea",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Gomer Pyle",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Andy, Name A Character From “The Andy Griffith Show.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cut It ",
+          42
+        ],
+        [
+          "Dye It ",
+          27
+        ],
+        [
+          "Shave It ",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do To Their Hair That Makes Them Look Silly"
+    },
+    {
+      "answers": [
+        [
+          "Hamburger",
+          39
+        ],
+        [
+          "Fried Chicken",
+          20
+        ],
+        [
+          "Pizza",
+          17
+        ],
+        [
+          "Hot Dog",
+          13
+        ],
+        [
+          "Apple Pie",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Traditional Dish Would You Prepare For Somebody Learning About American Culture?"
+    },
+    {
+      "answers": [
+        [
+          "Smart",
+          54
+        ],
+        [
+          "Outgoing",
+          17
+        ],
+        [
+          "Convincing",
+          12
+        ],
+        [
+          "Trusted",
+          7
+        ],
+        [
+          "Looks Professional",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Trait Of A Good Teacher Would Also Be Important For A Good Con Man?"
+    },
+    {
+      "answers": [
+        [
+          "Policeman ",
+          52
+        ],
+        [
+          "Chef ",
+          34
+        ],
+        [
+          "Builder ",
+          22
+        ],
+        [
+          "Fireman ",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which You Might Wear A Hat"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Glasses",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Long Hair",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Hippie Clothes",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Suit",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What You Would Need To Dress As John Lennon"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Court",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Store",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Place Where It Usually Doesn’t Do Any Good To Argue"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Piano",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Drums",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Violin",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Flute",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Saxophone",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Instrument That You’d Need To Be Really Coordinated To Play."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mace",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Stick",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Treats",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bone",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Whistle",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Mail Carrier Keep On Hand To Deal With Unfriendly Dogs?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jail",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Desert",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Military",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Frozen Tundra",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Outer Space",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where The Average Person Wouldn’t Last A Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Working",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Playing A Game",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Chatting/Email",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Studying",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Looking For Love",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Wouldn’t You Want To be Bothered While On The Computer"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Wax",
+          55
+        ],
+        [
+          "Pull Out",
+          36
+        ],
+        [
+          "Shave",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Way To Remove Hair"
+    },
+    {
+      "answers": [
+        [
+          "Sunscreen",
+          34
+        ],
+        [
+          "Bathing suit",
+          32
+        ],
+        [
+          "Whistle",
+          12
+        ],
+        [
+          "Sunglasses",
+          9
+        ],
+        [
+          "Bullhorn",
+          4
+        ],
+        [
+          "Life preserver",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a good gift for a lifeguard."
+    },
+    {
+      "answers": [
+        [
+          10,
+          27
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          13,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "At What Age Do People Usually Learn To Play Their First Musical Instrument?"
+    },
+    {
+      "answers": [
+        [
+          "Jeans",
+          61
+        ],
+        [
+          "Sweats",
+          22
+        ],
+        [
+          "Leather",
+          6
+        ],
+        [
+          "Stretch Pants",
+          5
+        ],
+        [
+          "Pajama Pants",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Pants You Can’t Wear To Work."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

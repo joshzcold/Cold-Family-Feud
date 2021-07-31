@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Keep Them Late",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Give Test",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Pop Quiz",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Yell Them Them",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Embarrass Them",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Send To Principal",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teacher Can Do To Ruin A Students Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": 6,
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 4,
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In An 8 Hour Work Day, How Many Hours Does The Average Person Spend Working."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speeding",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Parking",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Running Red light",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "No Seatbelt",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jaywalking",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something For Which A Police Officer Might Give You A Ticket."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Women “I’d Notice____Missing From My Purse”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Balloons",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Clown",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Inflatable Jumping",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Barney",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Party Hat",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can See At A Kids Birthday Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Egg Nog",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Tree",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Gifts",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Santa Claus",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drinks",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mistletoe",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something No Christmas Party Should Be Without."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "New York",
+          77
+        ],
+        [
+          "Las Vegas",
+          6
+        ],
+        [
+          "Chicago",
+          4
+        ],
+        [
+          "Orlando",
+          3
+        ],
+        [
+          "Anaheim",
+          2
+        ],
+        [
+          "Miami",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A City In The U.S. That People Visit For The Holidays"
+    },
+    {
+      "answers": [
+        [
+          "Another Car",
+          42
+        ],
+        [
+          "Pedestrian",
+          25
+        ],
+        [
+          "Shopping cart",
+          18
+        ],
+        [
+          "Pole/Sign",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Hate For Your Car To Bump Into In A Parking Lot."
+    },
+    {
+      "answers": [
+        [
+          "Napkin",
+          35
+        ],
+        [
+          "Sink",
+          25
+        ],
+        [
+          "Table",
+          15
+        ],
+        [
+          "Bowl",
+          13
+        ],
+        [
+          "Hand",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If There Were No Clean Plates, What Might You Eat Over?"
+    },
+    {
+      "answers": [
+        [
+          "Ball",
+          45
+        ],
+        [
+          "Pool",
+          26
+        ],
+        [
+          "Bike",
+          13
+        ],
+        [
+          "Sprinkler/Hose",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Would Play With Outside In Summer"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

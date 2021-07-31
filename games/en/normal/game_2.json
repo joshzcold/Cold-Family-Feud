@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Frog",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "worm",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "pig",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "rodent",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something Kids Dissect In Science Class"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Legs",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ken",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wears Clothes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lives On Land",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something For Which A Mermaid May Be Jealous Of Barbie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spouse",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Boy/Girl Friend",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Friend",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Children",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Might Tell You To Lose Weight"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Take A bath",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": null,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Must Be Forced To Do, But Adults Love "
+    },
+    {
+      "answers": [
+        {
+          "ans": "Price",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Pool",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Location",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Star Rating",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Includes Breakfast?",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Clean?",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Vacancy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Find Out About A Hotel Ahead Of Time, When Decided Whether To Stay There."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jane Fonda",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Jane Lynch",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Jane Krakowski",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jane Curtain",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Jane Seymore",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tarzan’s Jane",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A “Jane” You’ve Seen On TV"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Whistle ",
+          58
+        ],
+        [
+          "Bubbles ",
+          38
+        ],
+        [
+          "Balloon ",
+          25
+        ],
+        [
+          "Nose ",
+          16
+        ],
+        [
+          "Candle ",
+          11
+        ],
+        [
+          "Kisses ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Blow"
+    },
+    {
+      "answers": [
+        [
+          "Monkey ",
+          48
+        ],
+        [
+          "Squirrel ",
+          31
+        ],
+        [
+          "Cat ",
+          20
+        ],
+        [
+          "Bear / Koala ",
+          13
+        ],
+        [
+          "Racoon ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Can Climb Trees"
+    },
+    {
+      "answers": [
+        [
+          "Sears",
+          30
+        ],
+        [
+          "JCPenny’s",
+          22
+        ],
+        [
+          "Toys R Us",
+          15
+        ],
+        [
+          "Ikea",
+          11
+        ],
+        [
+          "Hickory Farms",
+          6
+        ],
+        [
+          "Crate And Barrel",
+          5
+        ],
+        [
+          "Neiman Marcus",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Company Which Sends Out Special Holiday Catalog."
+    },
+    {
+      "answers": [
+        [
+          "Seventeen",
+          37
+        ],
+        [
+          "Teen",
+          26
+        ],
+        [
+          "Tiger Beat",
+          17
+        ],
+        [
+          "Teen People",
+          8
+        ],
+        [
+          "Cosmogirl",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Magazine Teenagers Buy."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

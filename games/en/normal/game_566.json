@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Costume ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Mask ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dress ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Wig ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Makeup ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Wear To A Fancy Dress Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Intimacy",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Privacy",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Partner’s Love",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Couple Worry Less Of After Children"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ball and Chain",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Tie The Knot",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hitched",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tied Down",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a A Synonym For Marriage That Doesn’t Make It Sound Fun"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jewelry",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Musical Instrument",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Often Brought Into A Pawn Shop."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Balding",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Bad Hair Day",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Protect From The Sun",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "They’re Cold",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Somebody Would Wear A Hat All The Time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Short Wait",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Good News",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Magazine",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Food/Drink",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pain Meds",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wish For While Waiting For The Doctor In An Exam Room"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Apple ",
+          58
+        ],
+        [
+          "Steak & Kidney ",
+          38
+        ],
+        [
+          "Beef & Onion ",
+          25
+        ],
+        [
+          "Chicken ",
+          16
+        ],
+        [
+          "Cherry ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Popular Pie Filling"
+    },
+    {
+      "answers": [
+        [
+          "Love",
+          49
+        ],
+        [
+          "Luck",
+          32
+        ],
+        [
+          "Looks",
+          21
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Starts With L, That Everyone Wants"
+    },
+    {
+      "answers": [
+        [
+          "Fleas",
+          56
+        ],
+        [
+          "Bites",
+          36
+        ],
+        [
+          "Rabies",
+          24
+        ],
+        [
+          "Get Attacked",
+          16
+        ],
+        [
+          "Dirty",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Might You Regret Picking Up A Lost Dog?"
+    },
+    {
+      "answers": [
+        [
+          "Bugs ",
+          40
+        ],
+        [
+          "Rain ",
+          26
+        ],
+        [
+          "Mosquitoes ",
+          17
+        ],
+        [
+          "Sleeping On Ground",
+          11
+        ],
+        [
+          "Being Cold ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What's The Worst Thing About Camping Out"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

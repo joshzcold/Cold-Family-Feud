@@ -1,0 +1,349 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Tour Bus",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Bicycle For 2",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Rental Cars",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Carriage",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Rickshaw",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do Tourists Ride In Or On, That Makes Them Stand Out?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Seal",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Circus Animal That Looks Better In Costume Than It Does Naturally."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Spaghetti",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Macaroni & Cheese",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter & Jelly",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cereal",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Almost Everyone Knows How To Make"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ball",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Frisbee",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Game/Contest",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Darts",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Tantrum",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something that gets thrown."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Prom",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Job Interview",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where It’d Be Rude For A Man To Go Without Wearing A Suit/Tuxedo."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clean",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Water Plants",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Feed Animals",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Take Out Trash",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Get Mail",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Ask A House Sitter To Do While Staying At Your Place"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Stapler",
+          43
+        ],
+        [
+          "Scissors",
+          28
+        ],
+        [
+          "Paper",
+          18
+        ],
+        [
+          "Writing Utensils",
+          12
+        ],
+        [
+          "Paper Cutter",
+          8
+        ],
+        [
+          "Paper Shredder",
+          5
+        ],
+        [
+          "Letter Opener",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Office Supply Is Most Likely Cause An Injury"
+    },
+    {
+      "answers": [
+        [
+          "Eat",
+          56
+        ],
+        [
+          "Get A Drink",
+          17
+        ],
+        [
+          "Talk",
+          12
+        ],
+        [
+          "Breath",
+          9
+        ],
+        [
+          "See",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Costume Character May Have To Remove Their Head To Do"
+    },
+    {
+      "answers": [
+        [
+          "A Blind ",
+          53
+        ],
+        [
+          "A Newspaper ",
+          34
+        ],
+        [
+          "A Cigarette ",
+          23
+        ],
+        [
+          "Sleeves ",
+          15
+        ],
+        [
+          "A Poster ",
+          10
+        ],
+        [
+          "Sleeping Bag ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Roll Up"
+    },
+    {
+      "answers": [
+        [
+          "Wal Mart",
+          38
+        ],
+        [
+          "Macy’s",
+          37
+        ],
+        [
+          "Sears",
+          13
+        ],
+        [
+          "J C Penny",
+          5
+        ],
+        [
+          "Target",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Department Store Where People Shop During The Holidays."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

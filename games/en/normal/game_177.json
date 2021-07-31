@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Security Guard",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Conv. Store Clerk",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Factory Worker",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Janitor",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation Where You Might Work All Night"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Open Door",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Be Affectionate",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bring Flowers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Men: Name Something You Do On A First Date, That You Wouldn’t Do A Year Into A The Relationship."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trivial Pursuit ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Monopoly ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Chess ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Scrabble ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pictionary ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Adult Board Game"
+    },
+    {
+      "answers": [
+        {
+          "ans": "ABC’S",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Math",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Writing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Spelling",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Writing Name",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Taught In The First Grade."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Formal dress",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Coursage",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Girl Wear For The First Time To Her Junior High Dance?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seats ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Screen ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Found In A Movie Theatre"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cold Cereal",
+          33
+        ],
+        [
+          "Cookies",
+          16
+        ],
+        [
+          "POatmeal",
+          14
+        ],
+        [
+          "Salad",
+          13
+        ],
+        [
+          "Bread",
+          11
+        ],
+        [
+          "Bagels",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food You Find Raisins In."
+    },
+    {
+      "answers": [
+        [
+          "Swimming Pool",
+          61
+        ],
+        [
+          "Garden",
+          13
+        ],
+        [
+          "Playground",
+          10
+        ],
+        [
+          "Hot Tub",
+          6
+        ],
+        [
+          "Pond",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wish You Had In Your Backyard"
+    },
+    {
+      "answers": [
+        [
+          "Flowers",
+          29
+        ],
+        [
+          "Cake",
+          26
+        ],
+        [
+          "Groom",
+          16
+        ],
+        [
+          "Ring",
+          10
+        ],
+        [
+          "White Dress",
+          8
+        ],
+        [
+          "Family",
+          5
+        ],
+        [
+          "Gifts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Almost Everyday Bride Wants At Her Wedding"
+    },
+    {
+      "answers": [
+        [
+          "Crazy/Nuts",
+          58
+        ],
+        [
+          "Wild",
+          17
+        ],
+        [
+          "Up A Wall",
+          11
+        ],
+        [
+          "To Drink",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phrase You’d Say To Your Partner That Starts With “You Drive Me __.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

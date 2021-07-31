@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Papers In Driveway",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cars Are Gone",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "They Told You",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Don’t Pick Up Phone",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mail Pile Up",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Lights Off At Night",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way You Might Know Your Neighbors Are On Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sauce ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Mustard ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cheese ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Onions ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sausage ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Can Put On A Hotdog"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Iraq",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Afghanistan",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "North Korea",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sudan",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Columbia",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Syria",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Haiti",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Last Country You Would Want To Win A Trip To?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Time",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Lazy",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Too Expensive",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Taste",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Only Live Once",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Excuse People Give For Not Eating Healthy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Batting",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Throwing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Catching",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Running",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pitching",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Coordination",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Skill You’d Have To be Good At To Be A Professional Baseball Player."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jay Leno",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Jerry Seinfeld",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Steve Martin",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Jimmy Darante",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bob Hope",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Adam Sandler",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Comedian Whose Nose Is Larger Than His Talent."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Drama/ Fights",
+          25
+        ],
+        [
+          "Suspicious Deaths",
+          20
+        ],
+        [
+          "Love Affairs",
+          20
+        ],
+        [
+          "Romance/ Weddings",
+          12
+        ],
+        [
+          "Break Ups/ Divorce",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Lived In Soap Opera Land, Name Something That Would Happen A Lot More Often."
+    },
+    {
+      "answers": [
+        [
+          "Store",
+          34
+        ],
+        [
+          "Woods",
+          33
+        ],
+        [
+          "Tree Lot",
+          11
+        ],
+        [
+          "Tree Farm",
+          8
+        ],
+        [
+          "Attic",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Do You Get You Christmas Tree From Every Year?"
+    },
+    {
+      "answers": [
+        [
+          "Gum",
+          57
+        ],
+        [
+          "Magazines",
+          37
+        ],
+        [
+          "Batteries",
+          24
+        ],
+        [
+          "Lottery Tickets",
+          16
+        ],
+        [
+          "Cigarettes",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Sold In Checkout Lines"
+    },
+    {
+      "answers": [
+        [
+          "Soap Opera",
+          61
+        ],
+        [
+          "Cartoons",
+          13
+        ],
+        [
+          "Talk show",
+          10
+        ],
+        [
+          "Game Show",
+          8
+        ],
+        [
+          "Wrestling",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of TV Show A Man Might Be Embarrassed To Say He Watches A Lot Of."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

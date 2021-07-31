@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "I’m Sorry",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Whoops",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Uh Oh",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "I Didn’t Do It",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Child Says When They Do Something Wrong"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stockings ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Socks ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Jeans ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Leggings ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Trousers ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Wear On Your Legs"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken Pox",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Cold",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Measles",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lice",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mumps",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pink Eye",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Contagious That Kids Sometimes Catch, But Adults Seldom Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Stove",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Washer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Square Object In Your Home Could You Not Live Without?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Banjo",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bass",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Fiddle/Violin",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ukelele",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Harp",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mandolin",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Another Stringed Instrument That A Guitarist Would Probably Be Good At Right Away"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soup",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Coffee/Tea",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Warm Served At An All-You-Can Eat Buffet."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Radio",
+          26
+        ],
+        [
+          "Engine",
+          24
+        ],
+        [
+          "Lights",
+          22
+        ],
+        [
+          "Heater/Ac",
+          12
+        ],
+        [
+          "Wipers",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your car That Can Be turned On And Off"
+    },
+    {
+      "answers": [
+        [
+          10,
+          41
+        ],
+        [
+          0,
+          29
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          50,
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Wives: What Percent Of The Housework Does Your Husband Do?"
+    },
+    {
+      "answers": [
+        [
+          "Falls Asleep",
+          42
+        ],
+        [
+          "Yawning",
+          26
+        ],
+        [
+          "More Into You",
+          12
+        ],
+        [
+          "Talking Alot",
+          9
+        ],
+        [
+          "Bathroom Often",
+          6
+        ],
+        [
+          "Goes Home",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Can You Tell That Your Date Isn’t Interested In The Movie?"
+    },
+    {
+      "answers": [
+        [
+          "Something In It ",
+          47
+        ],
+        [
+          "Not Warm Enough ",
+          31
+        ],
+        [
+          "Wrong Kind ",
+          20
+        ],
+        [
+          "Didn't Order It ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Send A Bowl Of Soup Back"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

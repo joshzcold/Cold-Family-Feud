@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drain ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Toilet ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Nose ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sink ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Road ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is A Real Nuisance When It Becomes Blocked"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jockey ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Dominatrix ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lion Tamer ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Ringmaster ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Indiana Jones ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wife / Partner ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Somebody That Uses A Whip"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scissors",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Clippers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Comb",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bowl",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might Someone Use While Cutting Their Own Hair?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheetah",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Jaguar",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cougar",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Could Probably Beat Carl Lewis In A Race"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheetah",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Jaguar",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Forming A Relay Race Team, Which Animals Would You Choose For Teammates?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tea ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Coffee ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Soup ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Hot Chocolate ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Honey & Lemon ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Hot That Can Be Served In A Cup"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Blow It",
+          46
+        ],
+        [
+          "Peirce",
+          30
+        ],
+        [
+          "Pick It",
+          20
+        ],
+        [
+          "Change It",
+          13
+        ],
+        [
+          "Clean It",
+          8
+        ],
+        [
+          "Wipe It",
+          5
+        ],
+        [
+          "Scratch It",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you can do to your nose"
+    },
+    {
+      "answers": [
+        [
+          "Get Married",
+          49
+        ],
+        [
+          "Smoke",
+          32
+        ],
+        [
+          "Drugs",
+          21
+        ],
+        [
+          "Not Finish School",
+          14
+        ],
+        [
+          "Date Wrong Person",
+          9
+        ],
+        [
+          "Get Pregnant",
+          6
+        ],
+        [
+          "Cheating",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "A Mistake Determined Never To Make Again"
+    },
+    {
+      "answers": [
+        [
+          "Hair",
+          46
+        ],
+        [
+          "Ring",
+          23
+        ],
+        [
+          "Fingernail",
+          17
+        ],
+        [
+          "Bandage",
+          5
+        ],
+        [
+          "Tooth",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Find In Your Food That Belongs To The Cook?"
+    },
+    {
+      "answers": [
+        [
+          "Honey",
+          50
+        ],
+        [
+          "Baby",
+          29
+        ],
+        [
+          "Sweetie",
+          10
+        ],
+        [
+          "Dear",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Endearment Would Many Women Be Annoyed To Hear A Stranger Call Them By?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

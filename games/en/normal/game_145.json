@@ -1,0 +1,357 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Relationship",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Elevator",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lies",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Debt",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cave",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Get Trapped In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Salt And Pepper",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Glass",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Silverware",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Napkins",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Butter",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Might Reach For At The Dinner Table"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dressing",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Salt/Pepper",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Croutons",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Put On Their Salad To Make It Taste Better."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Vodka",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Rum",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Tequila",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Gin",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Whiskey",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Alcohol You Expect Any Bar To Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Barbie Doll",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Yo Yo",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Baby Doll",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Top",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hula Hoop",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Kids Toy Your Parent’s Might Have Played With Thats still Around"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weather",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Needs Repairs",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Security Advisory",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Refueling",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Plane May Be Delayed"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Not Paying Attention",
+          33
+        ],
+        [
+          "Busy Talking",
+          26
+        ],
+        [
+          "Cell Phone",
+          16
+        ],
+        [
+          "Speeding",
+          8
+        ],
+        [
+          "Radio is On",
+          6
+        ],
+        [
+          "In The Wrong Lane",
+          5
+        ],
+        [
+          "Weather",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Someone Might Miss Their Exit While Driving On A Freeway."
+    },
+    {
+      "answers": [
+        [
+          "Kiss Your Date",
+          25
+        ],
+        [
+          "Drugs/Drinking",
+          21
+        ],
+        [
+          "Pose Nude",
+          18
+        ],
+        [
+          "Get Arrested",
+          16
+        ],
+        [
+          "Cheat/Divorce",
+          10
+        ],
+        [
+          "Eat Fast Food",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Be Nervous To Do As An Actress For Fear That You’d Wind Up On A Tabloid."
+    },
+    {
+      "answers": [
+        [
+          "Mall",
+          31
+        ],
+        [
+          "Zoo",
+          22
+        ],
+        [
+          "Bar/Club",
+          14
+        ],
+        [
+          "Disney World",
+          13
+        ],
+        [
+          "Beach",
+          9
+        ],
+        [
+          "Park",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name A Place You’d Visit More Often If It wasn’t So Crowded There"
+    },
+    {
+      "answers": [
+        [
+          "Garlic Bread",
+          29
+        ],
+        [
+          "Pizza",
+          24
+        ],
+        [
+          "Tuna",
+          22
+        ],
+        [
+          "Onion Rings",
+          13
+        ],
+        [
+          "Eggs",
+          6
+        ],
+        [
+          "Chili",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Food Do You Want To Avoid Before Kissing Someone?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

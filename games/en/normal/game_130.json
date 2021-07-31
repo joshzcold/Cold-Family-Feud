@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sports Event",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Picnic",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Barbeque",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity That Could Be Rained Out"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Guitar",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Puppet",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Violin",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Kite",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Yo Yo",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Balloon",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cello",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Has Strings On It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken Pox",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Cavity/Pulled Tooth",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Braces",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Acne",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Kids Are Bummed To Get, But Is Worse To Get As An Adult."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Track",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shotput",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Sport At The Olympics Would The Average Person Off The Street Be Most Competitive At?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Photos",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Baby Teeth",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Doll",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something From Childhood That Many People Save."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport In Which Participants Use A Specific Kind Of Headwear"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Maid",
+          55
+        ],
+        [
+          "Chef",
+          20
+        ],
+        [
+          "Butler",
+          10
+        ],
+        [
+          "Nanny",
+          7
+        ],
+        [
+          "Driver",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Money Isn’t An Object, Who Do People Hire To Help Make Their Lives Easier?"
+    },
+    {
+      "answers": [
+        [
+          "Freeze",
+          31
+        ],
+        [
+          "Put Your Hands Up",
+          19
+        ],
+        [
+          "Right/Remain Silent",
+          17
+        ],
+        [
+          "Under Arrest",
+          14
+        ],
+        [
+          "Drop Your Weapon",
+          8
+        ],
+        [
+          "Book em",
+          6
+        ],
+        [
+          "Ten Four",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hear Cops Say In A Police Movie"
+    },
+    {
+      "answers": [
+        [
+          "Big Belly",
+          48
+        ],
+        [
+          "Facial Hair",
+          35
+        ],
+        [
+          "Age",
+          6
+        ],
+        [
+          "Jolly Face",
+          5
+        ],
+        [
+          "White Hair",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Physical Characteristic A Store Might Look At When Hiring A Santa"
+    },
+    {
+      "answers": [
+        [
+          "Big Bad wolf",
+          38
+        ],
+        [
+          "Wicked Witch",
+          23
+        ],
+        [
+          "Grinch",
+          13
+        ],
+        [
+          "Scrooge",
+          10
+        ],
+        [
+          "The Joker",
+          9
+        ],
+        [
+          "Cruella De Vil",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Fictional Character That Would Have Been On Santa’s “Naughty” List"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

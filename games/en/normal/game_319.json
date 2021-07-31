@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Family Members",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Old Times",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Most Families Talk About When They Get Together."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Donald Duck ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Daffy Duck ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Golden Duck ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Ed The Duck ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Jemima Puddleduck",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Duck ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Duck"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gel",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Mousse",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Grease",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hair Spray",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dye",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Oil",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Man Might Put In His Hair."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Romeo & Juliet",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Hamlet",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Othello",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Macbeth",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Taming Of The Shrew",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Midsummer Nights Dream",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Much Ado About Nothing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Shakespeare Play Which Was Made Into A Movie"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Social Graces",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Good Job",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Appearance",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Maturity",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Well Dressed",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Education",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Parents Look For In Your Date, Although You May Not"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clock Radio ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Smoke Detector ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Watch ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bank Vault ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "House ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Has An Alarm"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Plumber",
+          43
+        ],
+        [
+          "Carpenter",
+          28
+        ],
+        [
+          "Doctor",
+          18
+        ],
+        [
+          "Housekeeper",
+          12
+        ],
+        [
+          "Chef",
+          8
+        ],
+        [
+          "Mechanic",
+          5
+        ],
+        [
+          "Electrician",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Profession Would You Want Mate To Have Useful House"
+    },
+    {
+      "answers": [
+        [
+          "Santa’s House",
+          41
+        ],
+        [
+          "Elves/workshop",
+          28
+        ],
+        [
+          "Polar Bears",
+          26
+        ],
+        [
+          "Reindeer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If the North Pole gave guided tours,what specifically would be on the tour?"
+    },
+    {
+      "answers": [
+        [
+          "Bills",
+          58
+        ],
+        [
+          "Fat",
+          38
+        ],
+        [
+          "Stress",
+          25
+        ],
+        [
+          "Work",
+          16
+        ],
+        [
+          "Problems",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Would You Prefer To Have Less Of"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          61
+        ],
+        [
+          "Pilot",
+          21
+        ],
+        [
+          "Lawyer",
+          7
+        ],
+        [
+          "Police Officer",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That You Hope Is Great At Their Job 100% Of The Time."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eat",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Exersice",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Games",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Watching It, Name Something people Do In Front Of The Television"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bubblegum",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Cherry",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Grape",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Flavor Kid’s Toothpaste Come In, But Adults Doesn’t"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gas Station",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Shop",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Store",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Somewhere You Might Stop On The Way To Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Have Homework?",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "How Are Your grades?",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "How Was Your Day?",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "What Did You Learn?",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "When Is Your Test?",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Adults Always Ask Kids About School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pass Gass",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pee",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Snort",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Spit",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Teeth Fall Out",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Embarrassing That Might Happen While You’re Laughing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Watermelon",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cantaloupe",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Orange",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Grapefruit",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pinapple",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Banana",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Coconuts",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Fruit You Have To Cut Open To Eat"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Candy",
+          33
+        ],
+        [
+          "Listening To Music",
+          19
+        ],
+        [
+          "Pet",
+          14
+        ],
+        [
+          "Watching A Movie/TV",
+          14
+        ],
+        [
+          "Friend/Phone Call",
+          10
+        ],
+        [
+          "Have A Drink",
+          4
+        ],
+        [
+          "Reading",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Always Makes You Feel Better When You’re Lonely."
+    },
+    {
+      "answers": [
+        [
+          "Appearance",
+          29
+        ],
+        [
+          "Kissing Ability",
+          25
+        ],
+        [
+          "Romance",
+          18
+        ],
+        [
+          "Kind Personality",
+          10
+        ],
+        [
+          "Communication",
+          9
+        ],
+        [
+          "Honesty",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If There Were Prizes For Good Boyfriends, What Categories Would They Be Rated On?"
+    },
+    {
+      "answers": [
+        [
+          "Shorts",
+          37
+        ],
+        [
+          "Flip Flops",
+          18
+        ],
+        [
+          "Sunglasses",
+          14
+        ],
+        [
+          "Sunblock",
+          10
+        ],
+        [
+          "Hat",
+          9
+        ],
+        [
+          "Towel",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Swimsuits, Name Something People Wear To The Beach."
+    },
+    {
+      "answers": [
+        [
+          "Mouse Ears",
+          41
+        ],
+        [
+          "T Shirt",
+          30
+        ],
+        [
+          "Keychain",
+          9
+        ],
+        [
+          "Stuffed Animal/ Doll",
+          8
+        ],
+        [
+          "Autograph",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do People Bring Back As A Souvenir From Disneyworld?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

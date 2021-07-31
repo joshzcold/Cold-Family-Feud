@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Whole Name",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Nickname",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hey",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sibling’s Name",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Instead Of Their First Name, What Might A Parent Shout When Calling For Their Child?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Horse Racing",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Tennis",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ice Skating",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ballet",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport Shaquille O’Neal Look Ridiculous Competing In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Curry ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Cheese ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Fish ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Garlic ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Onions ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Stuff That Has A Strong Smell"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Walk",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Wiggle Toes",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Lace Them",
+          "pnt": 25,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Do While Trying On Shoes To See If They Fit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "VCR",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Microwave",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Wall",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Has A Clock On It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beds ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Doctor ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Nurse ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Patients ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Needle ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See At A Hospital"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "A Person ",
+          42
+        ],
+        [
+          "Cheek / Baby's Cheek ",
+          27
+        ],
+        [
+          "An Inch ",
+          18
+        ],
+        [
+          "Fat ",
+          12
+        ],
+        [
+          "Skin ",
+          7
+        ],
+        [
+          "Money ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Pinch"
+    },
+    {
+      "answers": [
+        [
+          "Michael J Fox",
+          66
+        ],
+        [
+          "Samuel L Jackson",
+          13
+        ],
+        [
+          "George C Scott",
+          11
+        ],
+        [
+          "Edward G Robinson",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Actor Who Uses Or Used Their Middle Initial."
+    },
+    {
+      "answers": [
+        [
+          "Jeans",
+          45
+        ],
+        [
+          "Jacket",
+          29
+        ],
+        [
+          "T Shirt",
+          19
+        ],
+        [
+          "Hat",
+          12
+        ],
+        [
+          "Pants",
+          8
+        ],
+        [
+          "Earrings",
+          5
+        ],
+        [
+          "Belts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an Article Of Clothing Worn By Both Men And Women."
+    },
+    {
+      "answers": [
+        [
+          "T-Shirt",
+          42
+        ],
+        [
+          "Towels",
+          27
+        ],
+        [
+          "Underwear",
+          18
+        ],
+        [
+          "Sheets",
+          12
+        ],
+        [
+          "Jeans",
+          7
+        ],
+        [
+          "Paper",
+          5
+        ],
+        [
+          "Napkin",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you fold, be specific"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

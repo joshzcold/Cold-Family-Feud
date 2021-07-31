@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Parents House",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When Visiting Hometown, Place You Would Definately Visit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Friends",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Free Time",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Acne",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Emotions",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teenager Has A Lot Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bus",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Subway",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Live In A City, Name Ways To Get To Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lifeguard",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Tanning Salon",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Construction",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Gardener",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Good Job To Have If You Want To Get A Nice Tan"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scones ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Cereal ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Biscuits ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Oatmeal ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Puddings ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food With Raisins In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Dress ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Coat Hanger ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shirts ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Wardrobe"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          30
+        ],
+        [
+          "Wedding",
+          26
+        ],
+        [
+          "Movie Theatre",
+          22
+        ],
+        [
+          "Funeral",
+          13
+        ],
+        [
+          "Concert",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Would Find An Usher."
+    },
+    {
+      "answers": [
+        [
+          "Kissing/ Intimacy",
+          42
+        ],
+        [
+          "Cooking",
+          23
+        ],
+        [
+          "Fixing Things",
+          12
+        ],
+        [
+          "Making Money",
+          7
+        ],
+        [
+          "Cleaning",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Woman Brag That Her Husband Is Better At Than Most?"
+    },
+    {
+      "answers": [
+        [
+          "Pajamas",
+          49
+        ],
+        [
+          "Bib",
+          32
+        ],
+        [
+          "Jeans",
+          21
+        ],
+        [
+          "Bath Robe",
+          14
+        ],
+        [
+          "Tshirt",
+          9
+        ],
+        [
+          "Slippers",
+          6
+        ],
+        [
+          "Sweats",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Wear To A Restaurant That Only Served Cereal."
+    },
+    {
+      "answers": [
+        [
+          "Kiss",
+          17
+        ],
+        [
+          "Talk On Phone",
+          16
+        ],
+        [
+          "Have Picture Taken",
+          15
+        ],
+        [
+          "Vote",
+          14
+        ],
+        [
+          "Sell Tickets",
+          12
+        ],
+        [
+          "Eat",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do In A Booth"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

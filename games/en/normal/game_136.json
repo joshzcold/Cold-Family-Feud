@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Socks",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Change",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Lint",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Find Left In The Washer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stapler",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Pens",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Paper",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Paper Clips",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In a Secret Santa exchange,what “gifts” might you get from an office thief?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bathtub",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Ac",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Alarm",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Garage Door Opnr",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cable TV",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Siding",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Toilet",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In Your House You Have Installed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ride A Horse",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Shoot",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Act",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fight",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Have To Learn To Do Before Starring In A John Wayne Movie?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talk About Boys ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Put On Make Up ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Gossip ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Stay Up All Night ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Giggle ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something 16 Year Old Girls Might Do At A Sleepover"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fridge",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Soap/Shampoo",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something In A Hotel Room That’s Smaller Than Usual"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Infidelity",
+          41
+        ],
+        [
+          "Lie",
+          27
+        ],
+        [
+          "Stay Out Late",
+          17
+        ],
+        [
+          "Go Out Drinking",
+          11
+        ],
+        [
+          "Forget A Birthday",
+          7
+        ],
+        [
+          "Have An Argument",
+          5
+        ],
+        [
+          "Forget Anniversary",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Man Does That Gets Him In The Doghouse With His wife."
+    },
+    {
+      "answers": [
+        [
+          "Water",
+          53
+        ],
+        [
+          "Palm Trees",
+          29
+        ],
+        [
+          "Camels",
+          5
+        ],
+        [
+          "Sand",
+          5
+        ],
+        [
+          "Flowers",
+          4
+        ],
+        [
+          "Tents",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find At An Oasis"
+    },
+    {
+      "answers": [
+        [
+          "Nurse",
+          33
+        ],
+        [
+          "Doctor",
+          26
+        ],
+        [
+          "Police Officer",
+          21
+        ],
+        [
+          "Food Server",
+          13
+        ],
+        [
+          "Mail Carrier",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That Might Get Tired Of Wearing The Same Thing Every Day"
+    },
+    {
+      "answers": [
+        [
+          "Texting",
+          56
+        ],
+        [
+          "Long Distance",
+          36
+        ],
+        [
+          "Roaming",
+          24
+        ],
+        [
+          "Overage Minutes",
+          16
+        ],
+        [
+          "Internet",
+          10
+        ],
+        [
+          "Games",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Your Cell Phone Provider Charge Extra For"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

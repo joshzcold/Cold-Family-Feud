@@ -1,0 +1,349 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Talk Loudly",
+          "pnt": 80,
+          "trig": false
+        },
+        {
+          "ans": "Use Phone",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Laugh",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Snore",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Heckle",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might somebody Do That Would Annoy Fellow Theater-Goers At A Play?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traffic Jam",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Get Gas",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Your Destination",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Accident",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Restroom",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "To Eat",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Reason You Exit The Freeway."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ford",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Chevrolet",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cadilac",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Buick",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Chrysler",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jeep",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Brand Of Car That’s Made In America."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Restroom",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sports Gym",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Public Place Where Least Romantic To Propose"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toilet Paper",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "As A House Guest, Name Something In The Host’s Bathroom That You Assume You Can Use"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Miss flight",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Lose luggage",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Stopped by security",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Delayed",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name the last thing you’d want to happen to you in the airport."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cake",
+          46
+        ],
+        [
+          "Chicken",
+          15
+        ],
+        [
+          "Bread",
+          14
+        ],
+        [
+          "Cookies",
+          11
+        ],
+        [
+          "Pie",
+          8
+        ],
+        [
+          "Roast",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That’s Baked In The Oven, But Can’t Be Cooked In The Microwave"
+    },
+    {
+      "answers": [
+        [
+          "Raking Leaves",
+          45
+        ],
+        [
+          "Cold Weather",
+          24
+        ],
+        [
+          "Allergies",
+          11
+        ],
+        [
+          "Rain",
+          7
+        ],
+        [
+          "School Starts",
+          6
+        ],
+        [
+          "Gets Drink Earlier",
+          4
+        ],
+        [
+          "Gets Dark Erlier",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most People Hate About Fall."
+    },
+    {
+      "answers": [
+        [
+          "Public Holiday",
+          38
+        ],
+        [
+          "Snow Day",
+          27
+        ],
+        [
+          "Sick",
+          26
+        ],
+        [
+          "Teacher Conference",
+          4
+        ],
+        [
+          "On Vacation",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Kids Might Have A Weekday Off Of School."
+    },
+    {
+      "answers": [
+        [
+          "Bull",
+          47
+        ],
+        [
+          "Elephant",
+          24
+        ],
+        [
+          "Bear",
+          16
+        ],
+        [
+          "Lion",
+          6
+        ],
+        [
+          "Giraffe",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Heavy Animal That A China Shop Owner Wouldn’t Let Into Their Store."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

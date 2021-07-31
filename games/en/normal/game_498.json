@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Concierge",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Bellhop",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Valet",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Doorperson",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Room Service",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chef",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Employee You’d Find At A Fancy Hotel, But Not At A Budget Motel"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Movies",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Comedy Club",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bus",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "A What Place Would You Not want To Be Seated Next To Someone With An Annoying Laugh"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Girls",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Be Surprised To Find That A Frat Party Had None Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Roller Coasters",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Cotton Candy",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ferris Wheels",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Merry Go Round",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Consession Stands",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Crowds",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Find At Most Amusement Parks. (More Specific Than “Rides.”)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Singer",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "politician",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Good Occupation For Someone Who Likes To Be The Center Of Attention"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheating",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Drunk",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Winning Too Much",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Loud",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Rude",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason A Casino Dealer Might Complain About Someone At Their Table"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smile",
+          37
+        ],
+        [
+          "Laugh",
+          22
+        ],
+        [
+          "Talk",
+          16
+        ],
+        [
+          "Hide",
+          10
+        ],
+        [
+          "Wave",
+          5
+        ],
+        [
+          "Pose/Show Off",
+          5
+        ],
+        [
+          "Act Silly",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do More Of When Someone’s Taking A Home Video Of You."
+    },
+    {
+      "answers": [
+        [
+          "Silent Treatment",
+          44
+        ],
+        [
+          "Yell",
+          29
+        ],
+        [
+          "Pout/Frown",
+          19
+        ],
+        [
+          "Roll Eyes",
+          12
+        ],
+        [
+          "Slam Doors",
+          8
+        ],
+        [
+          "Glare",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something Your Spouse Does That Makes You Suspect They’re Angry At You"
+    },
+    {
+      "answers": [
+        [
+          "Letters",
+          43
+        ],
+        [
+          "Stickers",
+          26
+        ],
+        [
+          "Hair",
+          11
+        ],
+        [
+          "Ticket Stubs",
+          8
+        ],
+        [
+          "Drawings",
+          5
+        ],
+        [
+          "News Clippings",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Photos, Name Something Someone Would Include In Their Scrapbook."
+    },
+    {
+      "answers": [
+        [
+          "Twinkle Twinkle ",
+          41
+        ],
+        [
+          "Ba Ba Black Sheep ",
+          27
+        ],
+        [
+          "Humpty Dumpty ",
+          17
+        ],
+        [
+          "Mary Had A Little Lamb ",
+          11
+        ],
+        [
+          "Rock A Bye Baby ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Well Known Childrens Song"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

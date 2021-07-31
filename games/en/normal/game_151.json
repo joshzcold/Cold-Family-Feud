@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Carries a gun",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Lots of money",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Italian accent",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Black clothes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Secretive",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "For what reason might you suspect that the person you’re dating is in the mob?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weather",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Sports Game",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Game Show",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Crime/Mystery Show",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Soap Opera",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell me something on TV that people make predictions while watching"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crowne",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Beanie",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Baseball Cap",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Helmet",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Instead Of A veil, What type Of Headwear Would You Be Surprise To See On A Bride’s Head?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Skunk",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mouse",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That’s Usually Not Dangerous, But Many People Are Afraid To Touch"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scuba",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Luau",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Scuba Diver",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Lay On Beach",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Snorkel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hula",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity People Do Hawaiin Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swim",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Play Games",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Arts & Crafts",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Sing Songs",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hike",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Go Fishing",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity Kids Do At Day Camp."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Candy",
+          46
+        ],
+        [
+          "Socks",
+          24
+        ],
+        [
+          "CD",
+          13
+        ],
+        [
+          "DVD",
+          4
+        ],
+        [
+          "Jewelry",
+          3
+        ],
+        [
+          "Toothbrush",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Gift That Works Well As A Stocking Stuffer"
+    },
+    {
+      "answers": [
+        [
+          "Bad Breath",
+          53
+        ],
+        [
+          "Nobody To Kiss",
+          34
+        ],
+        [
+          "Sick",
+          7
+        ],
+        [
+          "Shy",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "For What Specific Reason Might You Avoid Mistletoe?"
+    },
+    {
+      "answers": [
+        [
+          "Light/Sun Beam",
+          44
+        ],
+        [
+          "Laser Beam",
+          28
+        ],
+        [
+          "Roof Beam",
+          20
+        ],
+        [
+          "Jim Beam",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of beam You Wouldn’t Want To Balance On."
+    },
+    {
+      "answers": [
+        [
+          "Google",
+          56
+        ],
+        [
+          "Yahoo",
+          20
+        ],
+        [
+          "Wikipedia",
+          10
+        ],
+        [
+          "Ask.com",
+          8
+        ],
+        [
+          "Bing",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Website Would You Go To First If You Want To Find Out More About Something"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

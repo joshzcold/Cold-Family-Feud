@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Car ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "House / Mansion ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Boat ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Football Club ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Shop ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Dream About Owning"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Giraffe ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Building ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Tree ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Basketball Player ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Tower ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Considered To Be Very Tall"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Raft",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Inner Tube",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Beach Ball",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Life Jacket",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Water Wings",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Noodle",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Kids Can Use In A Pool To Help Them Float."
+    },
+    {
+      "answers": [
+        {
+          "ans": "House ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Roof ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Street ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bowling Alley ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Stream ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Has A Gutter"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hunk",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Sexy",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Stud",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Cutie",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hottie",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Word For Handsome Man You Would Feel Funny Saying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Up",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Feminine Products",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Brush",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something In A Woman’s Purse That’s Not In A Man’s Wallet."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Turtle",
+          40
+        ],
+        [
+          "Alligator",
+          16
+        ],
+        [
+          "Frog",
+          12
+        ],
+        [
+          "Seal",
+          12
+        ],
+        [
+          "Crocodile",
+          7
+        ],
+        [
+          "Beaver",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Lives On Both Land And Water"
+    },
+    {
+      "answers": [
+        [
+          "Do Housework",
+          57
+        ],
+        [
+          "Compliment Them",
+          37
+        ],
+        [
+          "Say I Love You",
+          24
+        ],
+        [
+          "Hug Them",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Teens Do To Butter Parents Before Asking A Favor"
+    },
+    {
+      "answers": [
+        [
+          "Cd Player",
+          47
+        ],
+        [
+          "Gps",
+          31
+        ],
+        [
+          "Sun Roof",
+          20
+        ],
+        [
+          "Gas Mileage",
+          13
+        ],
+        [
+          "Air Conditioner",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Look For Rental Car Vs Regular Car"
+    },
+    {
+      "answers": [
+        [
+          "Cry",
+          63
+        ],
+        [
+          "Open Door",
+          15
+        ],
+        [
+          "cuddle",
+          8
+        ],
+        [
+          "Play With Kids",
+          4
+        ],
+        [
+          "Cook For Me",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Women: Name Something You Like To See A man Do Because It Expresses His gentle Side."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

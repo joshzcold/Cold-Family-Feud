@@ -1,0 +1,356 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Smile",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Pose",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hold Hands",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Dress Up",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Embrace",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do In An Engagement Photo, That They Don’t Do In A Mug Shot."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Jail",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Casino",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place That, Once You Enter, It’s Hard To Leave"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Children",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might Some Women Love More Than Their Spouse?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shrek",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Toy Story",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Lion King",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "ET",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bambi",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cinderella",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Finding Nemo",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Kid’s Movie That Most Adults Have Seen Too."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Racoon",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Rat",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Goat",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That’s Known For Eating Garbage"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Unbutton Pants",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Go To Bathroom",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Smoke Cigarettes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Take Antacid",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do After They’ve Eaten Too Much."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Phone",
+          37
+        ],
+        [
+          "Jewelry/watch",
+          22
+        ],
+        [
+          "Toothbrush",
+          13
+        ],
+        [
+          "Comb/hairbrush",
+          9
+        ],
+        [
+          "Keys",
+          8
+        ],
+        [
+          "Glasses",
+          5
+        ],
+        [
+          "Money",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me something you’ve accidentally dropped in the toilet."
+    },
+    {
+      "answers": [
+        [
+          "Humpty Dumpty",
+          40
+        ],
+        [
+          "Jack/ Jill",
+          26
+        ],
+        [
+          "Red Riding Hood",
+          17
+        ],
+        [
+          "Lil Bo Peep",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Nursery Rhyme Character With Bad Luck"
+    },
+    {
+      "answers": [
+        [
+          "Candles ",
+          56
+        ],
+        [
+          "The Dark ",
+          36
+        ],
+        [
+          "Storm ",
+          24
+        ],
+        [
+          "Lights ",
+          16
+        ],
+        [
+          "Lightning ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With A Blackout"
+    },
+    {
+      "answers": [
+        [
+          "Scream",
+          39
+        ],
+        [
+          "Splash With Water",
+          37
+        ],
+        [
+          "Shake You",
+          10
+        ],
+        [
+          "Jump On Bed",
+          6
+        ],
+        [
+          "Use The Alarm",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Worst Way For Someone To Wake You Up."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

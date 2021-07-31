@@ -1,0 +1,284 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "MOW LAWN",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "COLD DRINKS/LEMONADE",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "TAN",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "GARDEN",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do In Their Front Yards In The Summer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hotel ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "House ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tent ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Caravan ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Prison ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Accomodation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weight",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Looks",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Friendships",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Woman Might Stop Maintaining Once She’s In A Serious Relationship"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthdates",
+          "pnt": 74,
+          "trig": false
+        },
+        {
+          "ans": "Quick Pick",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Social Security",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Random",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Dreams",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way People Choose The Lottery Numbers They Play."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shortcake",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Sundae",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cheesecake",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Dessert That’s Made With Strawberries"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milking Cows",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Riding Horses",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Gardening",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If A Person Is Raised On A Farm, Name Something You Expect Them To Be Better At"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fairy",
+          58
+        ],
+        [
+          "Princess",
+          38
+        ],
+        [
+          "Witch",
+          25
+        ],
+        [
+          "Prince",
+          16
+        ],
+        [
+          "Villain",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Type Of Character That Appears In Fairy Tales"
+    },
+    {
+      "answers": [
+        [
+          "Mistress/Lover",
+          49
+        ],
+        [
+          "Ex",
+          29
+        ],
+        [
+          "Pet",
+          12
+        ],
+        [
+          "Unknown Child",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Could Show Up In A Will That Would Be A Big Surprise To The Deceased’s Family."
+    },
+    {
+      "answers": [
+        [
+          "Car ",
+          49
+        ],
+        [
+          "TV ",
+          32
+        ],
+        [
+          "Radio ",
+          21
+        ],
+        [
+          "House ",
+          14
+        ],
+        [
+          "Insects ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has An Aerial"
+    },
+    {
+      "answers": [
+        [
+          "Mother",
+          61
+        ],
+        [
+          "Dog",
+          19
+        ],
+        [
+          "partner",
+          11
+        ],
+        [
+          "Kids",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone in Your Life Who loves You Unconditionally"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

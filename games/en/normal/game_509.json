@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Office ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bank ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Aeroplane ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hotel ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Somewhere You Might Find Air Conditioning"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Milkshake ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cappuccino ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Soap ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drink ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Frothy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Over Dinner",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "With A Party",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "In An Email",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Send Out Announcements",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "By Phone",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "In Person",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "By What Method Might A Woman Make The Announcement That She’s Pregnant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beer",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Wings",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food Or Drink You’d Buy If You Were Having A Super Bowl Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brazil",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Mexico",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Spain",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Germany",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "England",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "France",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Italy",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Country That Does Well In World Cup"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Commercial",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "News",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bad Songs",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Static",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cursing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Hear On The Radio That Would Make You Turn The Station?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pasta",
+          38
+        ],
+        [
+          "Ice Cream",
+          28
+        ],
+        [
+          "Chocolate/ Desserts",
+          22
+        ],
+        [
+          "Sloppy Joe",
+          5
+        ],
+        [
+          "Pizza",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Parents Are Afraid To Give Their Children Due To Its Messiness"
+    },
+    {
+      "answers": [
+        [
+          "Skaters ",
+          45
+        ],
+        [
+          "Falling ",
+          29
+        ],
+        [
+          "Rink ",
+          19
+        ],
+        [
+          "Bruises ",
+          12
+        ],
+        [
+          "Music ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You'd Associate With Roller Skates"
+    },
+    {
+      "answers": [
+        [
+          "Letters ",
+          51
+        ],
+        [
+          "Telegram ",
+          33
+        ],
+        [
+          "Telegraph ",
+          22
+        ],
+        [
+          "Signals ",
+          14
+        ],
+        [
+          "Talking ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way People Communicated Before The Phone"
+    },
+    {
+      "answers": [
+        [
+          "Intelligence",
+          32
+        ],
+        [
+          "Math",
+          17
+        ],
+        [
+          "MC^2",
+          16
+        ],
+        [
+          "Theory Of Relativity",
+          15
+        ],
+        [
+          "Physics",
+          8
+        ],
+        [
+          "Wild Hair",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Associate With Albert Einstein."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

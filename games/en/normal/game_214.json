@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Walk Away",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Leave Store",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "No Eye Contact",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Use Cell Phone",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Hide",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Ask To Be Alone",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You Do To Avoid Being Approached By A Pushy Salesperson At A Car Lot?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Home Cooking",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Holiday",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Free",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "See Family",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You Would Go To Grandma’s House For Dinner Instead Of A Restaurant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Accent",
+          "pnt": 77,
+          "trig": false
+        },
+        {
+          "ans": "Wearing Maple Flag",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Different Currency",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Love Hockey",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Would Lead You To Suspect That The Person You’ve Just Met Is From Canada."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Road Sign",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Yellow Tape",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wet Floor Sign",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hot Drink",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Poisonous Substance",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Object On Which You Might See The Word “Caution.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nudge Them ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Sleep Elsewhere ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Kick Em Outa Bed ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Ear Plugs ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Divorce Them ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Do If Your Partner Snores"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Principal",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Star Athlete",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bully",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Person In A School Building Is Likely To Get The Biggest Ego"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cry",
+          30
+        ],
+        [
+          "Bite",
+          24
+        ],
+        [
+          "Pull Hair",
+          19
+        ],
+        [
+          "Pout",
+          8
+        ],
+        [
+          "Throw Something",
+          6
+        ],
+        [
+          "Scream",
+          6
+        ],
+        [
+          "Tantrum",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Adults Had Fight Like Toddlers Do, What Might Your Spouse Do The Next Time You Disagreed?"
+    },
+    {
+      "answers": [
+        [
+          "Traffic Jam",
+          69
+        ],
+        [
+          "No Money",
+          12
+        ],
+        [
+          "Want Exercise",
+          7
+        ],
+        [
+          "Short Distance",
+          5
+        ],
+        [
+          "Nice Weather",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a Situation When It’s Better To Ride A Bike Than Take A Taxi"
+    },
+    {
+      "answers": [
+        [
+          "Jump ",
+          59
+        ],
+        [
+          "Investigate ",
+          38
+        ],
+        [
+          "Laugh ",
+          25
+        ],
+        [
+          "Scream ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Do When Startled By A Loud Noise"
+    },
+    {
+      "answers": [
+        [
+          "Blood",
+          41
+        ],
+        [
+          "Wrestling",
+          34
+        ],
+        [
+          "Bodies",
+          10
+        ],
+        [
+          "Names",
+          7
+        ],
+        [
+          "Injuries",
+          3
+        ],
+        [
+          "Tan",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Fake On WWF Wrestling"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

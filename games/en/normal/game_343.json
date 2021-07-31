@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dogs",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Criminals",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Storms",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Footballs/Balls",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that some people are paid to chase after."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Airplain",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Boat",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tractor",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Robot Dog",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Toy That Might Be Operated By Remote Control."
+    },
+    {
+      "answers": [
+        {
+          "ans": "COSTUME",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "CANDY",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "DECORATIONS",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "MUSIC",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "PUMPKIN",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "DRINKS",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "APPLES",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Want To Buy If You’re Hosting A Halloween Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Applesauce",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pudding",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Jell O",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Mashed Potatoes",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Yogurt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That A Parent Might Hide Their Child’s Pill In, To Get Them To Swallow It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Run / Jog ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Excercise ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Walk ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Aerobics ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Gym ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do To Keep Fit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bum ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Backside ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Derriere ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Behind ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Rear ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Buttock ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Polite Word For Your Bottom"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cocktails",
+          45
+        ],
+        [
+          "Food",
+          33
+        ],
+        [
+          "Bright Lights",
+          6
+        ],
+        [
+          "Beautiful Women",
+          6
+        ],
+        [
+          "Entertainment",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Gambling, What Do Casinos Have Inside To Get Customers To Stick Around"
+    },
+    {
+      "answers": [
+        [
+          "Knife",
+          71
+        ],
+        [
+          "Fork",
+          16
+        ],
+        [
+          "Teeth",
+          6
+        ],
+        [
+          "Steak Sauce",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Need To Eat A Steak."
+    },
+    {
+      "answers": [
+        [
+          "Hot",
+          38
+        ],
+        [
+          "Tangles",
+          24
+        ],
+        [
+          "Looks Like A Girl",
+          19
+        ],
+        [
+          "Hard To Wash",
+          7
+        ],
+        [
+          "In Their Eyes",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Child Might Not Want Long Hair"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          51
+        ],
+        [
+          "Lawyer",
+          25
+        ],
+        [
+          "Actor",
+          15
+        ],
+        [
+          "Politician",
+          5
+        ],
+        [
+          "Author",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which People Often Use Their Middle Name Or Initial."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

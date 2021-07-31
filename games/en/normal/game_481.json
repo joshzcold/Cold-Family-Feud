@@ -1,0 +1,319 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Teeth",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Chest",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Eyelashes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Eyebrows",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About Grandmas Looks That Could Be Fake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sharp Teeth",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Claws",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Roar",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Horns",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Venom",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Fierce Animals Have That Makes Them Threatening."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candles",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cookies/ Candy",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Get Certificate",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Gift You Might Buy If You’re A Secret Santa"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Appliance",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something For Which You Get A Warranty."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flippers",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Goggles",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Oxygen Tank",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Wetsuit",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Scuba Diving, Name Something You Have To Wear To Make Yourself More Like A Fish."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Skirt",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bikini",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Looks Attractive On A Woman, But Not A Man"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Swear",
+          57
+        ],
+        [
+          "Burp",
+          21
+        ],
+        [
+          "Lose Temper",
+          6
+        ],
+        [
+          "Cough",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Radio DJ Might Accidentally Do If He Didn’t Know He Was On The Air."
+    },
+    {
+      "answers": [
+        [
+          "Pee On The Floor",
+          24
+        ],
+        [
+          "Pee On The Toilet",
+          14
+        ],
+        [
+          "Put Paper On Seat",
+          12
+        ],
+        [
+          "Write On Wall",
+          11
+        ],
+        [
+          "Leave It Messy",
+          10
+        ],
+        [
+          "Don’t flush Toilet",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Do In A Public Restroom That You Would Never Do In Your Own Bathroom"
+    },
+    {
+      "answers": [
+        [
+          "Have Lots Of Money",
+          44
+        ],
+        [
+          "Find True Love",
+          22
+        ],
+        [
+          "Live In Nice House",
+          20
+        ],
+        [
+          "Lots Of drama",
+          9
+        ],
+        [
+          "Happy Ending",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Way That You Wish Your Life Were Like A Hollywood Movie"
+    },
+    {
+      "answers": [
+        [
+          "Tax Inspector ",
+          58
+        ],
+        [
+          "Politician ",
+          38
+        ],
+        [
+          "Comedian ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Profession That Makes People Laugh"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

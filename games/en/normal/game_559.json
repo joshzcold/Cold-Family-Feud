@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Merry Go Round",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Swing",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "See Saw",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Slide",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something At A Playground That You’d Never Go On While Queasy."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Put Seat Belt On ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Start Engine ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Close The Door ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Keys In Ignition ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lock The Door ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The First Thing You Do When You Get In Your Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singer",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Comedian",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Motivational Speaker",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dancer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other than actor,name an occupation you’d fail at if you had stage fright."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Groom",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Bride",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Clergy",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Best Man",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Father",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone You’d Hate To Show Up Late At Your Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Box",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Wrapping Paper",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bow",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bubble Wrap",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Instead Of Playing With Their Gift, Which Packaging Item Might A Toddler Choose To Play With Instead."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Moustache",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Beard",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Big Nose",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Horns",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You Draw On A Picture Of Someone’s Face In Order To Make Them Look Silly?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Love Life ",
+          45
+        ],
+        [
+          "Money ",
+          29
+        ],
+        [
+          "Their Marriage ",
+          19
+        ],
+        [
+          "Who They'll Marry ",
+          12
+        ],
+        [
+          "Their Life ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About The Future People Discuss With A Psychic"
+    },
+    {
+      "answers": [
+        [
+          "NUTS",
+          42
+        ],
+        [
+          "OATMEAL",
+          27
+        ],
+        [
+          "RAISINS",
+          18
+        ],
+        [
+          "M&M",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’re Pleasantly Surprised To Find In Your Chocolate Chip Cookie"
+    },
+    {
+      "answers": [
+        [
+          "Sing",
+          33
+        ],
+        [
+          "Pass Gass/Burp",
+          26
+        ],
+        [
+          "Dance",
+          20
+        ],
+        [
+          "Play",
+          13
+        ],
+        [
+          "Baby Talk",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Do In Front Of Children, But Would Be Embarrassed To Do In Front Of Other Adults"
+    },
+    {
+      "answers": [
+        [
+          "Milkshake",
+          33
+        ],
+        [
+          "Coffee",
+          28
+        ],
+        [
+          "Tea",
+          24
+        ],
+        [
+          "Hot Chocolate",
+          8
+        ],
+        [
+          "Root Beer Float",
+          3
+        ],
+        [
+          "Slush/Smoothie",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Drink That Often Comes With A Spoon"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

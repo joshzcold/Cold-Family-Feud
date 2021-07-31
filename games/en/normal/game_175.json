@@ -1,0 +1,311 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Knives ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Apron ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Pots & Pans ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cookware Dishes ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cookbook ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Gift That Would Be Ideal For A Chef"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Leading Lady",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Bad Guy",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In Action Movies, Name Something The Hero Is Always Trying To Get His Hands On."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computers",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "People skills",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Punctuality",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Multitasking",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Organization",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something everyone says they’re good at when at a job interview,even if it’s a lie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stop",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Green Light",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Yield/Slow Down",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dead End",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Do Not Enter",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Curves Ahead",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Caution",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Traffic Signs Describe Your Life Style?"
+    },
+    {
+      "answers": [
+        {
+          "ans": 13,
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Age That A Boy Becomes Interested In Girls"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Zebra",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Cheetah",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Leopard",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Skunk",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Has A Unique Pattern To Their Fur/ Hide"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Monkey",
+          27
+        ],
+        [
+          "Lion",
+          25
+        ],
+        [
+          "Tiger",
+          22
+        ],
+        [
+          "Elephant",
+          11
+        ],
+        [
+          "Giraffe",
+          6
+        ],
+        [
+          "Bear",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Children Are Excited By At The Zoo."
+    },
+    {
+      "answers": [
+        [
+          "Weather",
+          62
+        ],
+        [
+          "Safer",
+          17
+        ],
+        [
+          "Watch TV",
+          11
+        ],
+        [
+          "Privacy",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason A Person Might Prefer To Walk On A Treadmill Instead Of Taking A Walk Outside."
+    },
+    {
+      "answers": [
+        [
+          "Leaves",
+          46
+        ],
+        [
+          "Rain",
+          20
+        ],
+        [
+          "Campfire",
+          9
+        ],
+        [
+          "Pumpkin Pie",
+          9
+        ],
+        [
+          "Apples",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Smell You Associate With Fall"
+    },
+    {
+      "answers": [
+        [
+          "Jeans",
+          66
+        ],
+        [
+          "Flip Flops",
+          10
+        ],
+        [
+          "Shorts",
+          9
+        ],
+        [
+          "Mini Skirt",
+          6
+        ],
+        [
+          "Tennis Shoes",
+          4
+        ],
+        [
+          "T Shirt",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do People Wear To Work Now That Would Have Been Considered Too Informal 50 Years Ago?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

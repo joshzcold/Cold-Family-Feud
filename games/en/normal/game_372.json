@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Exercise",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Lose weight",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Eat healthier",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Go to the doctor",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dye hair",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Retire",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell me something many wives encourage their husbands to do as they get older."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Names",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Peoples Ages",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Birthdays",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "The Past",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Where They Put Items",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Phone Numbr",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Items",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That A Person Doesn’t Remember As They Get Old"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teacher",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Friend",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Neighbor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone In Her Life That A Woman Might Have A Crush On?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Buy Some",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Borrow Clothes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wash Clothes",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Wear Dirty Clothes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Out Of Town And Forgot To Pack A Change Of Clothes, What Would You Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Stretch Pants",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sweats",
+          "pnt": 1,
+          "trig": false
+        },
+        {
+          "ans": "Underware/Bra",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Still Fits Even If You Put On A Few Extra Pounds"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hammer ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Drill ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Saw ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cement Mixer ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Tool A Labourer Might Use To Build A House"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Spied",
+          54
+        ],
+        [
+          "Love Note",
+          35
+        ],
+        [
+          "Lied",
+          23
+        ],
+        [
+          "Prank Called",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Have You Done To A Crush You Hope They Never Find Out"
+    },
+    {
+      "answers": [
+        [
+          "Lights On",
+          53
+        ],
+        [
+          "Car In Driveway",
+          30
+        ],
+        [
+          "Noice",
+          8
+        ],
+        [
+          "Knock On Door",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way To Tell If You Neighbors Are Home."
+    },
+    {
+      "answers": [
+        [
+          "Non Perishable Food",
+          49
+        ],
+        [
+          "Water",
+          27
+        ],
+        [
+          "Batteries",
+          7
+        ],
+        [
+          "Firewood",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Might Stock Up On Before A Huge Snowstorm"
+    },
+    {
+      "answers": [
+        [
+          "Clean",
+          53
+        ],
+        [
+          "Give You Shine",
+          34
+        ],
+        [
+          "Add Volume",
+          23
+        ],
+        [
+          "Stop dandruff",
+          15
+        ],
+        [
+          "Make Hair Soft",
+          10
+        ],
+        [
+          "Repair Damage",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something your shampoo promises to do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

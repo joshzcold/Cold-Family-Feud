@@ -1,0 +1,365 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Rain",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Children On Board",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Accident Ahead",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Driver’s Test",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You Might Be Driving More Cautiously Than Normal."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Glove",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cup",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Uniform",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Helmet",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cleats",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Should Every Baseball Player Make Sure He Has Before The Game Starts?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Magazines",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Bookmarks",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Miusic",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Calendars",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Audio book",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Books, Name Something That’s Sold In A Bookstore"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elephant",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Seal",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Ape",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal At The Zoo You Can Recognize Just By It’s Sound."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jacket",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Skirt",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Vest",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Pants, Name An Article Of Clothing That Might Be Made Out Of Denim."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cereal",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Toast",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pancake",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Donut",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bagel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Unlike “Honey Bun”, Name A Breakfast Food That Doesn’t Make A Good Pet Name"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pretty",
+          35
+        ],
+        [
+          "Cute",
+          29
+        ],
+        [
+          "Beautiful",
+          12
+        ],
+        [
+          "Princess",
+          7
+        ],
+        [
+          "Precious",
+          6
+        ],
+        [
+          "Adorable",
+          4
+        ],
+        [
+          "Doll",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Word People Use To Describe Female Babies But Not Male Babies"
+    },
+    {
+      "answers": [
+        [
+          "Too Much Smoke",
+          19
+        ],
+        [
+          "Noise",
+          18
+        ],
+        [
+          "Bad Service",
+          13
+        ],
+        [
+          "Watery Drinks",
+          6
+        ],
+        [
+          "Expensive Drinks",
+          5
+        ],
+        [
+          "Too Rowdy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Complaint A Customer Might Have About A Bar They’re At"
+    },
+    {
+      "answers": [
+        [
+          "CAR HORN",
+          43
+        ],
+        [
+          "GUN SHOT",
+          18
+        ],
+        [
+          "THUNDER",
+          17
+        ],
+        [
+          "SIREN",
+          12
+        ],
+        [
+          "ALARM",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Makes A Startling Sound"
+    },
+    {
+      "answers": [
+        [
+          "Drink",
+          47
+        ],
+        [
+          "Exercise",
+          31
+        ],
+        [
+          "Eat",
+          20
+        ],
+        [
+          "Sleep",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity That’s Good To Do In Moderation, But Not All The Time"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

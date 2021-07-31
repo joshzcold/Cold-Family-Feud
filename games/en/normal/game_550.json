@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Shopping Center",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theater",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Place Of Worship",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hawii",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ballet",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Would Go With Your Wife Just To Make Her Stop Nagging"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "World Peace",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Want For Christmas, That Can’t Be Put In A Box."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shave",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Lose Weight",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Dye His Hair",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Change Clothes",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Santa Claus Had To Enter The Witness Protection Program, Name Something He Might Do To Disguise His Appearance."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eating",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning/Chores",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Growing Up",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something a parent criticizes their child for doing too fast"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hives",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Sneezing",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Swelling",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Red Eyes",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Happens To People When They’re Experiencing An Allergic Reaction."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Salad Bar",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Shrimp",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Crab Legs",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food Item A Restaurant Might Offer As “All-You-Can-Eat.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Buttons",
+          60
+        ],
+        [
+          "Patches",
+          30
+        ],
+        [
+          "Name",
+          5
+        ],
+        [
+          "Zipper",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Sewn Onto Clothes"
+    },
+    {
+      "answers": [
+        [
+          "Make Up ",
+          48
+        ],
+        [
+          "Comedy ",
+          31
+        ],
+        [
+          "How To Juggle ",
+          20
+        ],
+        [
+          "Magic ",
+          13
+        ],
+        [
+          "Getting Dressed ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Study At Clown College"
+    },
+    {
+      "answers": [
+        [
+          "Empire State Bldg",
+          38
+        ],
+        [
+          "White House",
+          28
+        ],
+        [
+          "Sears Tower",
+          17
+        ],
+        [
+          "Eiffel Tower",
+          9
+        ],
+        [
+          "Buckingham Palace",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Building That’s Big Enough To House A Dinosaur."
+    },
+    {
+      "answers": [
+        [
+          "Flashlight",
+          42
+        ],
+        [
+          "Remote Control",
+          26
+        ],
+        [
+          "Radio",
+          11
+        ],
+        [
+          "Toys",
+          8
+        ],
+        [
+          "Music Player",
+          6
+        ],
+        [
+          "Portable Videogame",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Around The House You Might Keep Spare Batteries For"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

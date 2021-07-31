@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Fast Food Restaurant Offers As A Dessert"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gold Coin",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Eye Patch",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Sword",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hook",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jewels",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Parrot",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Instead Of A Dollar, What Might A Pirate’s Kid Find Under Her Pillow When She Loses A Tooth?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tomatoes",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Lettuce",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Potatoes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cucumber",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food You May Find In Someone’s Home Garden."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shorts",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Mini Skirt",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cap",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sneakers",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can’t Wear To Work At An Office Job."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bedroom",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ears",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Face",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Mom Always Told You To Keep Clean"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Word",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Steps",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tooth",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Haircut",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Important Firsts That People Record About A Baby."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Put Your Hands Up ",
+          56
+        ],
+        [
+          "Get Your Hands Up ",
+          36
+        ],
+        [
+          "Give Me Your Money ",
+          24
+        ],
+        [
+          "Freeze ",
+          16
+        ],
+        [
+          "Hands Up ",
+          10
+        ],
+        [
+          "Nobody Move ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Robbers In The Movies Always Say"
+    },
+    {
+      "answers": [
+        [
+          "Snoring ",
+          57
+        ],
+        [
+          "Ringtones ",
+          37
+        ],
+        [
+          "Smoking While Eating ",
+          24
+        ],
+        [
+          "Parking Tickets ",
+          16
+        ],
+        [
+          "Telesales ",
+          10
+        ],
+        [
+          "Junk Mail & Spam ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Find Annoying"
+    },
+    {
+      "answers": [
+        [
+          "Hard/Confusing",
+          37
+        ],
+        [
+          "Silly",
+          22
+        ],
+        [
+          "Too Easy",
+          10
+        ],
+        [
+          "Too Personal",
+          10
+        ],
+        [
+          "Bad Answers",
+          8
+        ],
+        [
+          "Too American",
+          7
+        ],
+        [
+          "Too Long",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Might Someone Dislike A Family Feud Question?"
+    },
+    {
+      "answers": [
+        [
+          "Love At First Sight",
+          33
+        ],
+        [
+          "Endless",
+          27
+        ],
+        [
+          "Fate",
+          25
+        ],
+        [
+          "Soul Mates",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About Love That Some People Believe In and Others Don’t"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

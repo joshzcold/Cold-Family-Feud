@@ -1,0 +1,304 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Place Of Worship",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Beach/Pool",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Fine Restaurant",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where It’s Usually Not OK To Wear Jeans."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Practice Swing",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Wearing Golf Gloves",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Having A Caddy",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Using A Tee",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Driving Golf Cart",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Yelling Fore",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Pros Do On A Golf Course, That You’d Look Silly Doing For Mini Golf"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traffic Jam",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Cut Off",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "About To Crash",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Slow Driver",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Animal",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific That Causes You Honk Car Horn"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Clown ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Mime Artist ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Wears White Gloves"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cat",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides A Bird, Name An Animal That Has Claws."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Detective",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Actor",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Dancer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Musician",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation In Which You Might Adopt A Fake Name"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cry",
+          51
+        ],
+        [
+          "Faint",
+          21
+        ],
+        [
+          "Hug Her",
+          13
+        ],
+        [
+          "Celebrate",
+          7
+        ],
+        [
+          "Call Family",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What’s The First Thing A Husband Does When He Finds Out His Wife is Pregnant?"
+    },
+    {
+      "answers": [
+        [
+          "Lifeguard",
+          45
+        ],
+        [
+          "Road Construction",
+          20
+        ],
+        [
+          "Land Scaper/Gardener",
+          14
+        ],
+        [
+          "Farmer",
+          11
+        ],
+        [
+          "Roofer",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which You’d Probably Go Through A Lot Of Sunscreen."
+    },
+    {
+      "answers": [
+        [
+          "Furniture",
+          65
+        ],
+        [
+          "Clothes",
+          12
+        ],
+        [
+          "Kittens/Puppies",
+          10
+        ],
+        [
+          "TV",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Often Leave In Their House With A Free Sign On It?"
+    },
+    {
+      "answers": [
+        [
+          "Police Officer",
+          51
+        ],
+        [
+          "Lawyer",
+          34
+        ],
+        [
+          "Judge",
+          8
+        ],
+        [
+          "Politician",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which You Might Be Able To Get Away With Breaking The Law."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ball & Chain",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Extra Pounds",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Debt",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pets",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Your Husband Would Like To Get Rid Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cereal",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Macaroni and cheese",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Crackers",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger Helper",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Donuts",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a food that comes in a box."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Learn How To Drive",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Take Driving Test",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Learn Rules Of Road",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Watch Videos",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Read A Book",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Take Notes",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Might Have To Do At Traffic School."
+    },
+    {
+      "answers": [
+        {
+          "ans": "SonnyAnd Cher",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "The Judds",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "The Osmonds",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ike And Tina Turner",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "The Carpenters",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Simon And Garfunkle",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Captain And Tennille",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Past Or Present, Name A Famous Singing Duo"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talking",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Shopping/Spending",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Spending Money",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Spouse Might Get Mad At You for Doing Too Much"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Don’t Want To Talk",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Busy",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Telemarketer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "In The Shower",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why You Don’t Answer The Phone When You’re Home."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Chirp/Cheep",
+          38
+        ],
+        [
+          "Tweet",
+          30
+        ],
+        [
+          "Caw Caw",
+          14
+        ],
+        [
+          "Squawk",
+          6
+        ],
+        [
+          "Cluck",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Noise That Birds Make."
+    },
+    {
+      "answers": [
+        [
+          "Insurance ",
+          43
+        ],
+        [
+          "Car Registration ",
+          28
+        ],
+        [
+          "Tax ",
+          18
+        ],
+        [
+          "Rates ",
+          12
+        ],
+        [
+          "Christmas Presents ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Pay For Once A Year"
+    },
+    {
+      "answers": [
+        [
+          "Violence",
+          37
+        ],
+        [
+          "Bad Weather",
+          33
+        ],
+        [
+          "Fire",
+          26
+        ],
+        [
+          "Power Outage",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Happen To Cause A Rock Concert To End Abruptly?"
+    },
+    {
+      "answers": [
+        [
+          "Music",
+          36
+        ],
+        [
+          "Bust",
+          18
+        ],
+        [
+          "Danny",
+          13
+        ],
+        [
+          "Shirley",
+          11
+        ],
+        [
+          "Big Family",
+          9
+        ],
+        [
+          "Keith/David Cassidy",
+          8
+        ],
+        [
+          "Laurie/Susan",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Or Someone Associated With “The Partridge Family.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

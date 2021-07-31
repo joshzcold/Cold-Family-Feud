@@ -1,0 +1,350 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hawaii",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Bahamas",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Niagra Falls",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mexico",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Las Vegas",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Paris",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jamaica",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where Do People Often Go For Their Honeymoons?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talk",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Fall Asleep",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Skip Class",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cheat",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Text Message",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Arrive Late",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chew Gum",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do College Students Do That Annoys Their Professors The Most?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Age",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Marital Status",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Gender",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Photo",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might Someone Leave Out Of A Personals Ad, That Would Make You Think They Were Hiding Something?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Your Bed",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Clean Up",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wash The Dishes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Clean Bathroom",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Obey",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Fold Your Clothes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Mother Made You Do That You Would Also Have To Do In The Army."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ball",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Pool",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sprinkler/Hose",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Would Play With Outside In Summer."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice cream parlor",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Bathing suit store",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Amusement Parks",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Swimming Pool",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Air conditioning",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Parks and recreation",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a type of business that does best during the summer."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Toothbrush/Paste",
+          54
+        ],
+        [
+          "Underwear",
+          32
+        ],
+        [
+          "Make up",
+          7
+        ],
+        [
+          "Deoderant",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Could Only Pack A Small Overnight Bag, What Specific Essentials Would Be In It?"
+    },
+    {
+      "answers": [
+        [
+          "Balloon",
+          53
+        ],
+        [
+          "Bombs",
+          34
+        ],
+        [
+          "Fireworks",
+          23
+        ],
+        [
+          "Bubble Gum",
+          15
+        ],
+        [
+          "Doll",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something That People Blow Up."
+    },
+    {
+      "answers": [
+        [
+          "Bob",
+          27
+        ],
+        [
+          "Beehive",
+          18
+        ],
+        [
+          "Bun",
+          15
+        ],
+        [
+          "Braid",
+          9
+        ],
+        [
+          "Bouffant",
+          8
+        ],
+        [
+          "Buzz Cut",
+          6
+        ],
+        [
+          "Bowl Cut",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Hairstyle That Starts With “B."
+    },
+    {
+      "answers": [
+        [
+          "Clouds",
+          41
+        ],
+        [
+          "Lightning",
+          39
+        ],
+        [
+          "Bodies Of Water",
+          6
+        ],
+        [
+          "Other Planes",
+          5
+        ],
+        [
+          "Houses",
+          4
+        ],
+        [
+          "Birds",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Watch For Out Of Your Plane Window"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

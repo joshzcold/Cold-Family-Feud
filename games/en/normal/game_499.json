@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Brad Pitt",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Tom Hanks",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Julia Roberts",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Jennifer Aniston",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Denzel Washington",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sean Penn",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Reese Witherspoon",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Movie Star You Would Invite For Thanksgiving Dinner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wallet",
+          "pnt": 72,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bodyguard",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Checkbook",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Donald Trump Probably Keeps With Him At All Times."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Spinach",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Broccoli",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a specific food or drink moms tell their kids to consume so they grow “Big and Strong”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Campaign",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Give Speeches",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Make Posters",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Shake Hands",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Say Hello",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Draft Platform",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Student Has To Do When Running For Class President"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Fishing ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Surfing ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sailing ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Scuba Diving ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity You Might Do In The Sea"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Handprint ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Collage ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Painting ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Children Make For Parents In Nursery School"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hair",
+          31
+        ],
+        [
+          "Clothes",
+          24
+        ],
+        [
+          "Careers",
+          20
+        ],
+        [
+          "Address",
+          9
+        ],
+        [
+          "Last Name",
+          7
+        ],
+        [
+          "Partners",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Person Might Change Many Times Throughout Their Life."
+    },
+    {
+      "answers": [
+        [
+          "Brown Sugar",
+          58
+        ],
+        [
+          "Milk",
+          20
+        ],
+        [
+          "Butter",
+          6
+        ],
+        [
+          "Fruit",
+          5
+        ],
+        [
+          "Cinnamon",
+          4
+        ],
+        [
+          "Water",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Add To Oatmeal"
+    },
+    {
+      "answers": [
+        [
+          "Big Ears",
+          33
+        ],
+        [
+          "Disneyland",
+          24
+        ],
+        [
+          "Minnie Mouse",
+          21
+        ],
+        [
+          "Cartoons",
+          8
+        ],
+        [
+          "Donald Duck",
+          6
+        ],
+        [
+          "Walt Disney",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you associate with Mickey Mouse"
+    },
+    {
+      "answers": [
+        [
+          "Rocks",
+          25
+        ],
+        [
+          "Animals",
+          19
+        ],
+        [
+          "Poop",
+          17
+        ],
+        [
+          "Hose",
+          14
+        ],
+        [
+          "Toys",
+          9
+        ],
+        [
+          "Sprinkler",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Wan’t To Run Over With Your Lawnmower."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

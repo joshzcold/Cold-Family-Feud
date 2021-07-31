@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Length",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Tangles",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Falling Out",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Split Ends",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Lice",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Combing It",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cutting It",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About Rapunzel’S Hair She Might’Ve Worried About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Go For A Walk",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Run Errands",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Nap",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Eat, Name Something A Person Might Do On Their Lunch Hour"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Violin",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Harp",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Piano",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Flute",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Trumpet",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Oboe",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Musical Instrument That’s Difficult To Play"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Umbrella",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Sunscreen",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Sun Hat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cover Up",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Shade",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "At The Beach, Name Something That Might Protect You From Sun."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Income",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Does He Have Kids",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "His Name",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Past Relationships",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Should Know A Man Before Marrying Him"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weapon",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Night Light",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Partner",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "To Feel Safer At Night, Name Something You Would Go To Sleep With."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Diapers",
+          49
+        ],
+        [
+          "Wipes",
+          33
+        ],
+        [
+          "Bottle",
+          13
+        ],
+        [
+          "Pacifier",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Diaper Bag Item Would A Parent Hate To Be Without?"
+    },
+    {
+      "answers": [
+        [
+          "Sea Shells",
+          38
+        ],
+        [
+          "Whale",
+          20
+        ],
+        [
+          "MSG In A Bottle",
+          13
+        ],
+        [
+          "Fish",
+          12
+        ],
+        [
+          "Seaweed",
+          11
+        ],
+        [
+          "Trash",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Find Washed Up On The Beach"
+    },
+    {
+      "answers": [
+        [
+          "Slip",
+          30
+        ],
+        [
+          "Appliance Falling In",
+          22
+        ],
+        [
+          "Phone Ring",
+          15
+        ],
+        [
+          "Power Goes Out",
+          15
+        ],
+        [
+          "Doorbell",
+          5
+        ],
+        [
+          "Fall Asleep",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wouldn’t Want To Happen When You’re In The Bathtub"
+    },
+    {
+      "answers": [
+        [
+          "Decorations",
+          57
+        ],
+        [
+          "Christmas Tree",
+          37
+        ],
+        [
+          "Formal Dishes",
+          24
+        ],
+        [
+          "Wrapping Paper",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Stow Away Most Of The Year, And Take Out During The Holidays."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Toast",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Marshmellow",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dogs",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food That Some People Prefer To Eat Burnt"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toothbrush",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Sticker",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Laughing Gas",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Clean Teeth",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What do you get at the dentist that makes going worthwhile"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bruise",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Scar",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Cut",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cast",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bandage",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Expression",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Scab",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is Something On Your Body That Shows You’Ve Been Hurt"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Police officer",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Judge",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation That You’d be In Trouble If You Disrespected"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Truncheon ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Helmet ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Police Car ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Horse ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Radio ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Policeman Has"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Golf Balls ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Windmill ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Golf Clubs ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cup / Hole ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Putting Green ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hills / Humps ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find On A Miniature Golf Course"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Break Up",
+          38
+        ],
+        [
+          "Bad Weather",
+          33
+        ],
+        [
+          "Don’t Get Along",
+          7
+        ],
+        [
+          "Miss Flight",
+          6
+        ],
+        [
+          "Get Sick",
+          6
+        ],
+        [
+          "Lose Luggage",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Happen If You Had Bad Luck On Your Honeymoon."
+    },
+    {
+      "answers": [
+        [
+          "Credit Card",
+          31
+        ],
+        [
+          "Loan",
+          27
+        ],
+        [
+          "School",
+          18
+        ],
+        [
+          "Housing Rental",
+          14
+        ],
+        [
+          "Insurance",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than A Job Name Something For Which You Fill Out An Application."
+    },
+    {
+      "answers": [
+        [
+          "Merry Go Round",
+          47
+        ],
+        [
+          "Ferris Wheel",
+          31
+        ],
+        [
+          "Spinning Top",
+          20
+        ],
+        [
+          "Clock Hands",
+          13
+        ],
+        [
+          "Wheels",
+          8
+        ],
+        [
+          "Earth",
+          5
+        ],
+        [
+          "Washer/ Dryer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Goes “Round And Round”"
+    },
+    {
+      "answers": [
+        [
+          "Football",
+          54
+        ],
+        [
+          "Baseball",
+          21
+        ],
+        [
+          "Horseshoes",
+          8
+        ],
+        [
+          "Frisbee",
+          7
+        ],
+        [
+          "Basketball",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport That Might Be Played At A Family Reunion."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

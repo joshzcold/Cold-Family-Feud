@@ -1,0 +1,367 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hats",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Drinks",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Binoculars",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cushion",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Jersey",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Bring With You To A Sporting Event."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Adds Shine",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Cleans It",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Makes It Grow faster",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Increases Volume",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Smooths/Softens It",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Makes It Healthier",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Shampoo Commercials Claim Their Shampoo Does For Hair."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Stuffing",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Mashed Potatoes",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cranberry Sauce",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Thanksgiving Dish Would Do The Least Damage If Thrown At You IN A Food Fight?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elvis",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Mahalia Jackson",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Amy Grant",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Aretha Franklin",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Yolanda Adams",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Kirk Franklin",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bill Gaither",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Famous Gospel Singer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oprah",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "I Love Lucy",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Ally Mcbeal",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Roseanne",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Rosie O’Donnell",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Murphy Brown",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Will & Grace",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "TV Show With Womans Name In Title"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Schools",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Yard",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bedrooms/Bathrooms",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Neighborhood/kids",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Near Playground",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You’re A Parent, Name something You Take Into Account When Moving"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "20 ",
+          50
+        ],
+        [
+          "18 ",
+          33
+        ],
+        [
+          "25 ",
+          21
+        ],
+        [
+          "21 ",
+          14
+        ],
+        [
+          "22 ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Youngest Age A Person Should Get Married"
+    },
+    {
+      "answers": [
+        [
+          "Diet",
+          42
+        ],
+        [
+          "Exercise",
+          27
+        ],
+        [
+          "Smile",
+          18
+        ],
+        [
+          "Walk",
+          12
+        ],
+        [
+          "Travel",
+          7
+        ],
+        [
+          "Wear Makeup",
+          5
+        ],
+        [
+          "Be Photographed",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Do If You Were A Supermodel"
+    },
+    {
+      "answers": [
+        [
+          "Car ",
+          51
+        ],
+        [
+          "Bathroom ",
+          33
+        ],
+        [
+          "Bedroom ",
+          22
+        ],
+        [
+          "At Home ",
+          14
+        ],
+        [
+          "Living Room ",
+          9
+        ],
+        [
+          "At Work ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where People Like To Listen To The Radio"
+    },
+    {
+      "answers": [
+        [
+          "House",
+          78
+        ],
+        [
+          "Wall",
+          5
+        ],
+        [
+          "Barbecue Grill",
+          4
+        ],
+        [
+          "Fireplace",
+          4
+        ],
+        [
+          "Patio",
+          2
+        ],
+        [
+          "Doghouse",
+          2
+        ],
+        [
+          "Stairs",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Use Bricks To Build."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Poke Eyes",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Slap",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Laugh",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Kick",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bite",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Head Butt",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Funny Noises",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something The Three Stooges Do While Fighting That You’d Be Surprised To See A Pro Boxer Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Alcohol",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Beans",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Garlic",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Leaving Things",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Shouldn’t Have For Lunch Right Before A Driving Test"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken Nuggets",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dog",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Grilled Cheese",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Mac & Cheese",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food On Kids Menu"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair/Makeup",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Outfit",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Weight Loss",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Significant Other",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Women Often Compliment Their Friends On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Detective",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "IRS Auditor",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Psychiatrist",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Knows A Lot About You Because It’s Their Job."
+    },
+    {
+      "answers": [
+        {
+          "ans": "COUPLES",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "AFFECTION",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "TEARS",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "TISSUE",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Expect To See In The Audience Of A Romance Movie?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Christmas ",
+          44
+        ],
+        [
+          "Holidays ",
+          29
+        ],
+        [
+          "Summer ",
+          19
+        ],
+        [
+          "Spring ",
+          12
+        ],
+        [
+          "Birthday ",
+          8
+        ],
+        [
+          "Thanksgiving ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Time Of The Year That Everybody Loves"
+    },
+    {
+      "answers": [
+        [
+          "Advertisement",
+          50
+        ],
+        [
+          "Stars",
+          20
+        ],
+        [
+          "Appears Funny",
+          10
+        ],
+        [
+          "Win Money",
+          9
+        ],
+        [
+          "Different",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Get You To Watch A New TV Show"
+    },
+    {
+      "answers": [
+        [
+          "Stuff It ",
+          50
+        ],
+        [
+          "Eat It ",
+          33
+        ],
+        [
+          "Pluck It ",
+          21
+        ],
+        [
+          "Cook It ",
+          14
+        ],
+        [
+          "Roast It ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do With A Turkey"
+    },
+    {
+      "answers": [
+        [
+          "Sunbathe ",
+          41
+        ],
+        [
+          "Build Sandcastles ",
+          27
+        ],
+        [
+          "Go Swimming ",
+          17
+        ],
+        [
+          "Water Ski ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Usually Do At The Seaside"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

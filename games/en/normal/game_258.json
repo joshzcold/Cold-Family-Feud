@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chips",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Tacos",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Enchaladas",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Burritos",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific People Put Salsa On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Party",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Go Naked",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sleep All Day",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do On Spring Break, But Not On An Ordinary Vacation."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dark Hair",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Tall",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Well Dressed",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Accent",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mysterious",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Characteristics Would Make Dracula Sound Attractive In A Personal’s Ad?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shells ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Rocks / Stones ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Butterflies ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Junk ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Flowers / Plants ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Found Outdoors That People Might Collect"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Muscles ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Weights ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "The Gym ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Steroids ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Mr Universe ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With A Body Builder"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cow",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Donkey",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Camel",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Instead Of A Horse, Which Animal Is It Hard To Imagine A Cowboy Riding?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Magazine",
+          54
+        ],
+        [
+          "Newspaper",
+          28
+        ],
+        [
+          "Cable",
+          7
+        ],
+        [
+          "Gym",
+          5
+        ],
+        [
+          "Internet",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Peoiple Subscribe To By Month"
+    },
+    {
+      "answers": [
+        [
+          "Food",
+          50
+        ],
+        [
+          "Coffee",
+          24
+        ],
+        [
+          "Space",
+          12
+        ],
+        [
+          "Alcohol",
+          7
+        ],
+        [
+          "The Special",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Restaurant Owner Would Hate To Tell Customers They’ve Run Out Of"
+    },
+    {
+      "answers": [
+        [
+          "Tango",
+          36
+        ],
+        [
+          "salsa",
+          24
+        ],
+        [
+          "Waltz",
+          14
+        ],
+        [
+          "Tap",
+          8
+        ],
+        [
+          "Break Dancer",
+          4
+        ],
+        [
+          "swing Dance",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A type Of Dance People Do In A Dance Competition"
+    },
+    {
+      "answers": [
+        [
+          "Flute",
+          54
+        ],
+        [
+          "Tuba",
+          35
+        ],
+        [
+          "Electric Guitar",
+          23
+        ],
+        [
+          "Saxaphone",
+          15
+        ],
+        [
+          "Harp",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Musical Instrument Least Expect In A Country Music Band"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

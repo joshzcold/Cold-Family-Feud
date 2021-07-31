@@ -1,0 +1,306 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bank ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Shop ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Office ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Factory ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place That Has Alarms Installed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chicken",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a Fast Food That’s Often Served As A Main Course At Weddings."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mouse ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Dog ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Cat Might Chase"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doll/ Teddy Bear",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Diary",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pictures",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Security Blanket",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Piece Of Jewelry",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something From Her Childhood That A Woman Might Keep Forever."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Hooks",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Boats",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Worms",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can’t Be Afraid Of If You Want To Become A Fisherman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Whoopie Cushion",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Dog Doo Doo",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Hand Buzzer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Decks Of Cards",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Trick Gum",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Silly String",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Item Does A Prank Store Likely Sell A Lot Of?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pizza",
+          30
+        ],
+        [
+          "Spaghetti",
+          20
+        ],
+        [
+          "TV Dinners",
+          15
+        ],
+        [
+          "Hot Dogs",
+          12
+        ],
+        [
+          "Sandwiches",
+          10
+        ],
+        [
+          "Mac And Cheese",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Make For Dinner When You’re Short On Time."
+    },
+    {
+      "answers": [
+        [
+          "Fingernail/Finger",
+          32
+        ],
+        [
+          "Tongue/Lip",
+          23
+        ],
+        [
+          "Partner’s Neck",
+          20
+        ],
+        [
+          "Pen/Pencil",
+          11
+        ],
+        [
+          "Plastic/Wrapper",
+          6
+        ],
+        [
+          "Glasses",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Bite, But Wouldn’t Eat."
+    },
+    {
+      "answers": [
+        [
+          "Age",
+          57
+        ],
+        [
+          "Height",
+          13
+        ],
+        [
+          "Marital Status",
+          12
+        ],
+        [
+          "Weight",
+          11
+        ],
+        [
+          "Horoscope Sign",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Information You’d Include In A Personals Ad But Not On A Resume."
+    },
+    {
+      "answers": [
+        [
+          "Got Shot",
+          52
+        ],
+        [
+          "Someone Was Murdered",
+          15
+        ],
+        [
+          "Couldn’t Catch Crook",
+          15
+        ],
+        [
+          "Visited The Morgue",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason A Policeman Might Say He Had A Bad Day On The Job."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

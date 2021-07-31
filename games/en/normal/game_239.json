@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Razor",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Husbands Will Admit That They Borrow From Their Wives"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lose Weight",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Quit Smoking",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Do Better In School",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Quit Drinking",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Be A Better Person",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Save Money",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Popular New Year’s Resolution"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hockey",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport Where Players Lose Teeth."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Restaurant",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Shop",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bank",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Gas Station",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Salon",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Business That Has Regular Customers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive/Heavy Equipment",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Overdose",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Take Without Eating",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Pill Bottle Warning Might Tell You Not To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bambi",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Lion King",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cinderella",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fox & The Hound",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Finding Nemo",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Beauty & The Beast",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Dumbo",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Cartoon Movie That Makes You Cry Even As An Adult"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Marriage",
+          61
+        ],
+        [
+          "Divorce",
+          12
+        ],
+        [
+          "Buying A House",
+          11
+        ],
+        [
+          "Having Kids",
+          8
+        ],
+        [
+          "Accepting A Job",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Decision That People Don’t Make Lightly."
+    },
+    {
+      "answers": [
+        [
+          "Sell Pictures",
+          31
+        ],
+        [
+          "Hide Them",
+          21
+        ],
+        [
+          "Big Party",
+          20
+        ],
+        [
+          "Weird Names",
+          15
+        ],
+        [
+          "Hire Nanny",
+          4
+        ],
+        [
+          "Give Interview",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Celebrities Do When Their Children Are Born That Most Of Us Don’t Do."
+    },
+    {
+      "answers": [
+        [
+          "Restaurant",
+          49
+        ],
+        [
+          "Shoe Store",
+          25
+        ],
+        [
+          "Jewelry",
+          11
+        ],
+        [
+          "Cell Phone",
+          5
+        ],
+        [
+          "Music Store",
+          4
+        ],
+        [
+          "Pet Store",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Clothing Store, Name A Type Of Business You Find In A Mall"
+    },
+    {
+      "answers": [
+        [
+          "Open Bar",
+          45
+        ],
+        [
+          "Dance Floor",
+          22
+        ],
+        [
+          "Karaoke",
+          12
+        ],
+        [
+          "Mistletoe",
+          9
+        ],
+        [
+          "Free Food",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something At Your Company Holiday Party That Could Lead You To Embarrass Yourself."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

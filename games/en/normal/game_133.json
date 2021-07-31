@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dinner",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Bedtime",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chores",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Curfew",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Many Parents Want Their Kids Home At A Certain Time For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mask",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Sword",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Z",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cape",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Zorro"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sitting Too Long",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Need A Bathroom",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Hungry",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bored",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Temperature",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something A Child Might Complain About On A Road Trip."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Drinks",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Entertainment",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something You Get Free At A Casino"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hard Hat",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Tool Belt",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Orange Vests",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Overalls",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Construction Workers Wear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Juice",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Bubblegum",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Jelly",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Medicine",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lolipop",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Be Grape-Flavored"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Shoes ",
+          46
+        ],
+        [
+          "Silver ",
+          30
+        ],
+        [
+          "Floor ",
+          20
+        ],
+        [
+          "Car ",
+          13
+        ],
+        [
+          "Wood / Furniture ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Looks Better Polished"
+    },
+    {
+      "answers": [
+        [
+          "Hat",
+          36
+        ],
+        [
+          "Shorts",
+          25
+        ],
+        [
+          "Mini Skirt",
+          15
+        ],
+        [
+          "Tank Top",
+          15
+        ],
+        [
+          "Jewelry",
+          3
+        ],
+        [
+          "Make Up",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A School Might Forbid Students From Wearing."
+    },
+    {
+      "answers": [
+        [
+          "Baker",
+          48
+        ],
+        [
+          "Newspaper Delivery",
+          31
+        ],
+        [
+          "Mail Carrier",
+          20
+        ],
+        [
+          "Bus Driver",
+          13
+        ],
+        [
+          "Construction",
+          9
+        ],
+        [
+          "Doctor",
+          6
+        ],
+        [
+          "Milk Delivery",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job You Should Never Apply If You Don’t Like Wake Early"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          53
+        ],
+        [
+          "Gas",
+          20
+        ],
+        [
+          "House",
+          20
+        ],
+        [
+          "Food",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Normally Don’t Pay Cash For."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

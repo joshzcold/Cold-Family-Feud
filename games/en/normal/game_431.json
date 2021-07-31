@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Buildings",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Furniture",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something People Design For A Living"
+    },
+    {
+      "answers": [
+        {
+          "ans": "David Letterman",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chris Rock",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Whoopi Goldberg",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Chevy Chase",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Steve Martin",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Jon Stewart",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Billy Crystal",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Who Was The Worst Oscar Host?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Melt",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Wind",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Stolen",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Animals Eat Them",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Might A Snowman Lose Some Of Its Accessories?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turtle Doves",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Partridge",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Geese",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Calling Birds",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "French Hens",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Swans",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal Mentioned In The Song “12 Days Of Christmas”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Red Carpet",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Dough",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Yoga Mat",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping Bag",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Rolled Out."
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Video Game System",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Article Of Clothing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Expensive Item That’s Often Marked Way Down At A Pre-Christmas Sale"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bedroom Doors",
+          47
+        ],
+        [
+          "Medicine Cabinet",
+          36
+        ],
+        [
+          "Fridge/Pantry",
+          7
+        ],
+        [
+          "Closets",
+          5
+        ],
+        [
+          "Basement",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Place In The House Where A Nosey House Guest Might Snoop."
+    },
+    {
+      "answers": [
+        [
+          "Rubbish ",
+          59
+        ],
+        [
+          "Newspapers ",
+          38
+        ],
+        [
+          "Paper ",
+          25
+        ],
+        [
+          "Paper Towels ",
+          16
+        ],
+        [
+          "Food ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Throw Away Every Day"
+    },
+    {
+      "answers": [
+        [
+          "Bugs Bunny",
+          25
+        ],
+        [
+          "Babe",
+          22
+        ],
+        [
+          "Mickey Mouse",
+          19
+        ],
+        [
+          "Kermit The Frog",
+          10
+        ],
+        [
+          "Daffy Duck",
+          8
+        ],
+        [
+          "Porky Pig",
+          6
+        ],
+        [
+          "Donald Duck",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal Character That Talks In The Movies"
+    },
+    {
+      "answers": [
+        [
+          "Bathroom Break",
+          28
+        ],
+        [
+          "Comfortable Bed",
+          22
+        ],
+        [
+          "A Meal",
+          18
+        ],
+        [
+          "Intimacy",
+          13
+        ],
+        [
+          "A Bath",
+          8
+        ],
+        [
+          "Home",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Truck Driver Might Have To Go Without For A While."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

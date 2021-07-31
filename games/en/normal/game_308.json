@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sewing ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Knitting ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Injection ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Use A Needle For"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toys",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Hairstyle",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Habits",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Clothes, Name Something A Kid Might Outgrow"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Corkscrew",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Screw Driver",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Scissors",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Can Opener",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bottle Opener",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Nail File",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides The Blade, Name Something You’d Find On A Swiss Army Knife"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tea",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Drink People Put Ice In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Prayer Service",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Baptism",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bible Studies",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Holy Communion",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Event That Takes Place At A Church"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bills",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Telephone",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Housework",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wouldn’t Miss About Daily Life If You Were Stranded On A Desert Island."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Music ",
+          47
+        ],
+        [
+          "Strings ",
+          31
+        ],
+        [
+          "A Bow ",
+          20
+        ],
+        [
+          "Player ",
+          13
+        ],
+        [
+          "Orchestra ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With The Violin"
+    },
+    {
+      "answers": [
+        [
+          "Holds Your hand",
+          28
+        ],
+        [
+          "kisses You",
+          25
+        ],
+        [
+          "Smiling",
+          21
+        ],
+        [
+          "Arm Around You",
+          12
+        ],
+        [
+          "Move Closer",
+          7
+        ],
+        [
+          "Looking At You",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When Sitting Close To A Date, What Clue Might They Give That They Like "
+    },
+    {
+      "answers": [
+        [
+          "Chair ",
+          48
+        ],
+        [
+          "Wardrobe ",
+          31
+        ],
+        [
+          "Cupboard ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Furniture That Is Often Made From Wood"
+    },
+    {
+      "answers": [
+        [
+          "Latte",
+          42
+        ],
+        [
+          "Mocha",
+          27
+        ],
+        [
+          "Cappuchino",
+          18
+        ],
+        [
+          "Espresso",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Coffee Drink That’s Easy To Mispronounce"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

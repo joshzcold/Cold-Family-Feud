@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Attention",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Diapers",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Babies Need A Lot Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sand",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Seashells",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rock",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sunken Ship/ Treasure",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Coral",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Seaweed",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Found At The Bottom Of The Ocean"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Caramel ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Nuts ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cream ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol ",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You'd Find In The Centres Of Fancy Chocolates"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Radio",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Light",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Calculator",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Student Might Turn On When They’re Studying."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Noodles",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Meat/Fish",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Green Beans",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cream",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Ingredient In A Casserole."
+    },
+    {
+      "answers": [
+        {
+          "ans": 40,
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": 50,
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": 30,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 60,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Age That People Worry About Turning"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bruce Willis",
+          42
+        ],
+        [
+          "Vin Diesel",
+          26
+        ],
+        [
+          "Sean Connery",
+          10
+        ],
+        [
+          "Telly Savalis",
+          8
+        ],
+        [
+          "Brad Pitt",
+          7
+        ],
+        [
+          "Danny Devito",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Actor Who Looks Better Bald"
+    },
+    {
+      "answers": [
+        [
+          "Bills",
+          34
+        ],
+        [
+          "Cleaning",
+          28
+        ],
+        [
+          "Food",
+          19
+        ],
+        [
+          "Bathroom",
+          5
+        ],
+        [
+          "Noise",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do Roommates Fight About Most Often?"
+    },
+    {
+      "answers": [
+        [
+          "Tattoo",
+          41
+        ],
+        [
+          "Fingerprint",
+          34
+        ],
+        [
+          "Scar",
+          12
+        ],
+        [
+          "Birthmark",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Permanent On a Criminal’s Skin That Police Use To Be Sure They’ve Got Their Man."
+    },
+    {
+      "answers": [
+        [
+          "Sweater",
+          39
+        ],
+        [
+          "Shirt",
+          25
+        ],
+        [
+          "Coat",
+          14
+        ],
+        [
+          "Shoes",
+          8
+        ],
+        [
+          "Jewelry",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Some Pets Wear, Although It’s Usually Only Worn By Humans."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

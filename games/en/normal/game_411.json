@@ -1,0 +1,300 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Macy",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Saks",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bloomingdales",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Barneys",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Famous Department Store In New York City"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Laundry",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Go To Work",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Go To Sleep",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Use The Bathroom",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do Each Day, But You Never See Soap Opera Characters Doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cell Phone",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Rooster",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cat/Dog",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than An Alarm, What Do People Use To Wake Them Up?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Arm",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Leg",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Finger",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Foot",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Body Part That Often Gets Broken"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Airplanes",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Snowflakes",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Footballs",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cards/Valentines",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Paper Dolls",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Crane/Bird",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Kids Make Out Of Paper"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eye",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Leg",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Hand/Warm",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Body Part Might A Pirate Need To Have A Doctor Inspect?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Vitamins",
+          45
+        ],
+        [
+          "Flavor",
+          29
+        ],
+        [
+          "Firmness",
+          15
+        ],
+        [
+          "Color",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Boil You Veggies Too Long, Name Something They Lose."
+    },
+    {
+      "answers": [
+        [
+          "A Merrygoround ",
+          44
+        ],
+        [
+          "A Wheel ",
+          29
+        ],
+        [
+          "A Clock ",
+          19
+        ],
+        [
+          "Ferris Wheel ",
+          12
+        ],
+        [
+          "Moon ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Goes Around & Around"
+    },
+    {
+      "answers": [
+        [
+          "Needles ",
+          48
+        ],
+        [
+          "Stethoscope ",
+          31
+        ],
+        [
+          "Thermometer ",
+          20
+        ],
+        [
+          "Scalpel ",
+          13
+        ],
+        [
+          "Rubber Gloves ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Doctor Might Use"
+    },
+    {
+      "answers": [
+        [
+          "Models ",
+          56
+        ],
+        [
+          "Clothes ",
+          36
+        ],
+        [
+          "Woman ",
+          24
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See At A Fashion Parade"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

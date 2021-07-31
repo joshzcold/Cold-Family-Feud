@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Leave Me Alone",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Go Away",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bug Off",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Get Lost",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Quit It",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Another Phrase To Say “Stop Bothering Me”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snow",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Rain",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cold",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wind",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hail",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Weather Condition That Is 4 Letters Long"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Frog ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Grass ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Trees ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Leaves ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Apple ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Lime ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Green"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get searched",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Get Lost",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Miss Flight",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Luggage Comes open",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Embarrassing That Happens To People At The Airport"
+    },
+    {
+      "answers": [
+        {
+          "ans": "At Work",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Midnight",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "While Driving",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mad",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "When Drinking",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Time You Shouldn’t Send A text Message To Your Love Interest"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stars",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Moon",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Streetlights",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fire Flies",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Headlights",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something that shines at night."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Caterer",
+          48
+        ],
+        [
+          "Photographer",
+          31
+        ],
+        [
+          "Priest",
+          20
+        ],
+        [
+          "Singer",
+          13
+        ],
+        [
+          "Driver",
+          9
+        ],
+        [
+          "Dj",
+          6
+        ],
+        [
+          "Planner",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Someone You Hire For A Wedding"
+    },
+    {
+      "answers": [
+        [
+          "Trip",
+          59
+        ],
+        [
+          "End Of School",
+          38
+        ],
+        [
+          "Christmas",
+          25
+        ],
+        [
+          "Birthday",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something Kids Get Excited About Long Before It Happens"
+    },
+    {
+      "answers": [
+        [
+          "Pretty",
+          36
+        ],
+        [
+          "Graceful",
+          23
+        ],
+        [
+          "Skinny",
+          11
+        ],
+        [
+          "Costumes",
+          9
+        ],
+        [
+          "Makeup",
+          7
+        ],
+        [
+          "In Shape",
+          6
+        ],
+        [
+          "Talent",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Beauty Queen and A Figure Skater Have In Common"
+    },
+    {
+      "answers": [
+        [
+          "Order Food",
+          36
+        ],
+        [
+          "Open Car Door",
+          31
+        ],
+        [
+          "Pay For Everything",
+          20
+        ],
+        [
+          "Feed Me",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Women: Name Something You Would Not Like To Have a Man Do For You On a Date."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

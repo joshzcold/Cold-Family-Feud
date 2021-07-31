@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Talk",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Live Nine Lives",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Cat In A Movie Can Do That A Real-Life Cat Can’"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shopping",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Wrapping Gifts",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Decorating",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Part Of Holiday Preparation Do You Always Put Off Til The Last Minute?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Other People",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Work/School",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You Avoid When You Are Sick"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Given As A Free Sample In Stores"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tongue",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Brain",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Heart",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Finger",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Toe",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Body Part Strong As Arnold Schwarenegger"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Walk",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Picnic",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drive",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Garden",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity You Wouldn’t Want To Do In The Rain"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Walking",
+          37
+        ],
+        [
+          "Smiling",
+          20
+        ],
+        [
+          "Eating",
+          18
+        ],
+        [
+          "Taking A Bath",
+          10
+        ],
+        [
+          "Crawling",
+          8
+        ],
+        [
+          "Sleeping",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Parents Photograph Their Baby Doing For The First Time."
+    },
+    {
+      "answers": [
+        [
+          "Newspaper",
+          38
+        ],
+        [
+          "Email/Web",
+          27
+        ],
+        [
+          "Bible",
+          14
+        ],
+        [
+          "Book",
+          10
+        ],
+        [
+          "Magazines",
+          6
+        ],
+        [
+          "Signs",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Might Read Everyday"
+    },
+    {
+      "answers": [
+        [
+          "Office",
+          53
+        ],
+        [
+          "Marathon",
+          23
+        ],
+        [
+          "Health",
+          16
+        ],
+        [
+          "Their Life",
+          3
+        ],
+        [
+          "Cover",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People “Run” For."
+    },
+    {
+      "answers": [
+        [
+          "Swim Suit",
+          57
+        ],
+        [
+          "Towels",
+          37
+        ],
+        [
+          "Life Jacket",
+          24
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wear At The Beach, But Not At Grocery"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

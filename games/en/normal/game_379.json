@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Actors",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Subtitles",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Title",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Before You See Any Fighting, How Do You Know You’re Watching A Kung Fu Movie?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shovel",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Tow Truck",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chains",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sand",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cat Litter",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Plow",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Can Use To Get Your Car Out Of The Snow."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bra ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Bag ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Braces ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Saddle ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Has Straps"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stamps",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Dolls",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Rocks",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Seashells",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Spoons",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than Coins, Name Something People Collect"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Steak",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Burger",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ribs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pasta",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something On The Menu That A Restaurant Might Guarantee Nobody Can Finish."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Family Dinner",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Party",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "On A Date",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Church Picnic",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occasion Or Place Where You Would Not Admit That You Don’t Like The Food."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Free Gift",
+          38
+        ],
+        [
+          "Call Now",
+          28
+        ],
+        [
+          "On Sale",
+          20
+        ],
+        [
+          "Limited Time Offer",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phrase That’s Said In Commercials To Get You To Buy The Product Right Away."
+    },
+    {
+      "answers": [
+        [
+          "Jeans ",
+          42
+        ],
+        [
+          "Trousers ",
+          27
+        ],
+        [
+          "Shorts ",
+          18
+        ],
+        [
+          "Tights ",
+          12
+        ],
+        [
+          "Knee Pads ",
+          7
+        ],
+        [
+          "Shin Pads ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Wear On Their Legs"
+    },
+    {
+      "answers": [
+        [
+          "Baker",
+          44
+        ],
+        [
+          "Doctor",
+          29
+        ],
+        [
+          "Newspaper Deliverer",
+          19
+        ],
+        [
+          "Bus Driver",
+          12
+        ],
+        [
+          "Mail Carrier",
+          8
+        ],
+        [
+          "Construction",
+          5
+        ],
+        [
+          "Milk Deliverer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Job You Shouldnt Apply For If You Dont Like Waking Up Early"
+    },
+    {
+      "answers": [
+        [
+          "Hat",
+          27
+        ],
+        [
+          "Dress/Skirt",
+          23
+        ],
+        [
+          "Blue Jeans",
+          18
+        ],
+        [
+          "Piercing",
+          17
+        ],
+        [
+          "Shorts",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Boy Might Wear That Is Likely To Get Him Kicked Out Of Prep School."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

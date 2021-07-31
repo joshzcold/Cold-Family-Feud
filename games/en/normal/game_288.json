@@ -1,0 +1,346 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Frankenstein",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Witch",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Ghost",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Freddy Kruger",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Scary Halloween Figure"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Onions",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Crying",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Allergies",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Yawn",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dirt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Your Eyes Might Water"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Excaliber ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "A Court ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Knights ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "His Wife (Guinevere)",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "A Sword ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Associate With King Arthur"
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Hat ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "A Wand ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "A Rabbit ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "A Cloak ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "An Assistant ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You'd Need To Look Like A Magician"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Subway",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Bus",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Mode Of Transportation That You See In Big Cities, But Not In Small Towns"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strawberry",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pineapple",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Peach",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Banana",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Grape",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cherry",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Fruit That People Might Add To Jell-o"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Yearbook",
+          55
+        ],
+        [
+          "Class Ring",
+          18
+        ],
+        [
+          "Diploma",
+          13
+        ],
+        [
+          "Pictures",
+          3
+        ],
+        [
+          "Books",
+          2
+        ],
+        [
+          "Cap And Tassel",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Usually Keep From High School"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          34
+        ],
+        [
+          "House",
+          26
+        ],
+        [
+          "Clothes",
+          15
+        ],
+        [
+          "Jewelry",
+          13
+        ],
+        [
+          "TV",
+          7
+        ],
+        [
+          "Computer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Costs Twice As Much As It Is Worth."
+    },
+    {
+      "answers": [
+        [
+          "Castle",
+          40
+        ],
+        [
+          "Queen",
+          26
+        ],
+        [
+          "Crown",
+          17
+        ],
+        [
+          "Money",
+          11
+        ],
+        [
+          "Throne",
+          7
+        ],
+        [
+          "Servants",
+          5
+        ],
+        [
+          "Command",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A King Has That Other Men Don’t"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          33
+        ],
+        [
+          "Clothes",
+          22
+        ],
+        [
+          "Bills",
+          15
+        ],
+        [
+          "Vacation",
+          12
+        ],
+        [
+          "Food",
+          6
+        ],
+        [
+          "Furniture",
+          4
+        ],
+        [
+          "TV",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Spend THeir Tax Returns On."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Smash Instrument",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Jump Around",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Take Off Shirt",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Rock Musician Might Do During A Concert That Would Look Funny For A Classical Musician To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Free Food",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "A TV Set",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Childcare",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Your Work Wanted People To Stick Around The Office More, What Should They Bring In?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Friend",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Romantic Interest",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Ex",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sibling",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Child",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Owes You A Big Apology."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Books ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bag ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lunch ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pen ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pencil ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Student Takes To School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Play ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Eating ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Swimming ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dancing ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Playing In Mud ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Kids Love Doing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hippies",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Vietnam",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "60S Hairstyles",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bell Bottoms",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Associtae With The 1960S"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tea",
+          32
+        ],
+        [
+          "Pizza",
+          29
+        ],
+        [
+          "Coffee",
+          17
+        ],
+        [
+          "Milk",
+          8
+        ],
+        [
+          "Soup",
+          4
+        ],
+        [
+          "Cereal",
+          3
+        ],
+        [
+          "Chicken",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Drink Or Food That Can Be Eaten Either Hot Or Cold."
+    },
+    {
+      "answers": [
+        [
+          "Family Photo",
+          36
+        ],
+        [
+          "Teddy Bear",
+          28
+        ],
+        [
+          "Blanket",
+          23
+        ],
+        [
+          "Pillow",
+          6
+        ],
+        [
+          "Cell Phone",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Child Bring To Summer Camp, In Case They Get Homesick"
+    },
+    {
+      "answers": [
+        [
+          "Mall",
+          43
+        ],
+        [
+          "Hospital",
+          28
+        ],
+        [
+          "Concert",
+          18
+        ],
+        [
+          "Airport",
+          12
+        ],
+        [
+          "Work/Downtown",
+          8
+        ],
+        [
+          "Sporting Event",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Place Where You Often Have To Pay For Parking"
+    },
+    {
+      "answers": [
+        [
+          "Church ",
+          41
+        ],
+        [
+          "Wedding ",
+          27
+        ],
+        [
+          "School ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Might Hear Bells"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

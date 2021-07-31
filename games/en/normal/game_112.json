@@ -1,0 +1,292 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Phone Call",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Email",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Send Flowers",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Text Message",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How do you let your partner know that youre thinking of them while your out of town"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Internet",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Phone Book",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way That You Can Track Down An Old Friend"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pay",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Title",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hours",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Duties",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Location",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Job Ad Should Tell You About The Job."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Change Hair",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Diet",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Put On Makeup",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Plastic Surgery",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Clean Up",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do When They Want To Look Better. (Makeover Is Not An Answer, Be More Specific)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mixing Colors",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Bleach Clothes",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Too Much Soap",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Things For Dry Clean",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Doing Laundry For The First Time, Name Something A Single Guy Might Screw Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Become Intimate",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Live Together",
+          "pnt": 25,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Couple Shouldn’t Do Until They Have Known Each Other For A Long Time."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Car",
+          44
+        ],
+        [
+          "Public Transportation",
+          20
+        ],
+        [
+          "Carpool",
+          15
+        ],
+        [
+          "Bike",
+          10
+        ],
+        [
+          "Walk",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way People Get To Work In The Morning."
+    },
+    {
+      "answers": [
+        [
+          "Lower Taxes",
+          60
+        ],
+        [
+          "World Peace",
+          17
+        ],
+        [
+          "Create Jobs",
+          16
+        ],
+        [
+          "Affordable Healthcare",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Someone Promise To Do If They Wanted To Be Elected President?"
+    },
+    {
+      "answers": [
+        [
+          "Sean Connery",
+          44
+        ],
+        [
+          "James Bond",
+          29
+        ],
+        [
+          "Antonio Banderas",
+          19
+        ],
+        [
+          "Fabio",
+          12
+        ],
+        [
+          "Hugh Grant",
+          8
+        ],
+        [
+          "Pierce Bronson",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Man Women Love Just For His Accent"
+    },
+    {
+      "answers": [
+        [
+          "Corn",
+          38
+        ],
+        [
+          "Athletes Foot",
+          30
+        ],
+        [
+          "Wart",
+          19
+        ],
+        [
+          "Bunion",
+          7
+        ],
+        [
+          "Ingrown Toenail",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Ugly That Can Grow On Your Feet"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

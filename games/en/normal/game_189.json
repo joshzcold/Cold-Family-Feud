@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hair Clip ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Hair Spray ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hair Gel ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Mousse ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Alice Band ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put In Your Hair"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Go To Bathroom",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Bark",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bite",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Shed",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dig",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Dog Owner Wish Never Did"
+    },
+    {
+      "answers": [
+        {
+          "ans": 12,
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": 24,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": 50,
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": 20,
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": 52,
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": 30,
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me How Many Times Most Men Get Their Haircut In A Year (Numeric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 70,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Movie",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Someplace People Might Go Right After Work On Friday"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tractor",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bull",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Farm Truck",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Is The Most Fun Thing A Farmer Gets To Ride On?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer/Calculator",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Forms",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Records",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pencil",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You’re Going To Do Your Own Taxes, Name Something You Probably Need"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money ",
+          58
+        ],
+        [
+          "Tissue ",
+          38
+        ],
+        [
+          "Wallet ",
+          25
+        ],
+        [
+          "Bank Notes ",
+          16
+        ],
+        [
+          "Chewing Gum ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In A Pocket That Might Go Through The Laundry"
+    },
+    {
+      "answers": [
+        [
+          "Ride Horses ",
+          46
+        ],
+        [
+          "Milk Cows ",
+          30
+        ],
+        [
+          "Play ",
+          20
+        ],
+        [
+          "Feed Animals ",
+          13
+        ],
+        [
+          "Collect Eggs ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Do On A Farm"
+    },
+    {
+      "answers": [
+        [
+          "Grocery Store",
+          50
+        ],
+        [
+          "Library",
+          33
+        ],
+        [
+          "Convenience Store",
+          21
+        ],
+        [
+          "Post Office",
+          14
+        ],
+        [
+          "Copy Shop",
+          9
+        ],
+        [
+          "At Home",
+          6
+        ],
+        [
+          "Drugstore",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides An Office, Place To Find Copy Machine"
+    },
+    {
+      "answers": [
+        [
+          "Want Better View",
+          41
+        ],
+        [
+          "Noisy Neighbors",
+          30
+        ],
+        [
+          "Tall Person In Front",
+          18
+        ],
+        [
+          "Dirty/Sticky Seat",
+          6
+        ],
+        [
+          "Affectionate Couple",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Causes People To Change Seats At The Movies"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

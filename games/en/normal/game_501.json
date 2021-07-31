@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Camping Ground ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Caravan Park ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Park ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Circus ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Beach ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Would Expect To See Lots Of Tents"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tired",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bad Weather",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Going To Work/School",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Stayed Up Late",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "It’s Monday",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why It’s Harder To Get Out Of Bed On Some Days Than On Others."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Party",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Steal",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Use My Clothes",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Make A Mess",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Hope Your Friend Doesn’t Do When House Sitting For You."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Santa Claus",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Roofer",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Chimney Sweep",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Burglar",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Electrician",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "A Fiddler",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Might Be On Your Roof."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brad Pitt",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "George Clooney",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tom Cruise",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Will Smith",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Denzel Washington",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Celebrity Who’s So Handsome He Could Make A Santa Suit Look Sexy."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Religous Activity",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Reading",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Family Meals",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Board Games",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Baking/Cooking",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity That Could Be Described As “Wholesome.”"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Are You Twins?",
+          29
+        ],
+        [
+          "Identical / Fraternal",
+          23
+        ],
+        [
+          "Who’S Older?",
+          20
+        ],
+        [
+          "Who’S Who?",
+          16
+        ],
+        [
+          "Similar Names?",
+          4
+        ],
+        [
+          "Think Alike?",
+          3
+        ],
+        [
+          "Dress Alike?",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Question That Twins Are Often Asked"
+    },
+    {
+      "answers": [
+        [
+          7,
+          36
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Many Days Does A Cold Last?"
+    },
+    {
+      "answers": [
+        [
+          "Jewelry",
+          33
+        ],
+        [
+          "Make Up",
+          31
+        ],
+        [
+          "Jacket",
+          15
+        ],
+        [
+          "Scarf",
+          8
+        ],
+        [
+          "Heels",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Women: If You’re Underdressed For A Party, What Can You Put On Quickly To Look Dressed Up?"
+    },
+    {
+      "answers": [
+        [
+          "Laundry",
+          31
+        ],
+        [
+          "Tolls",
+          24
+        ],
+        [
+          "Parking",
+          15
+        ],
+        [
+          "Soda/Snacks",
+          13
+        ],
+        [
+          "Pay Phone Calls",
+          6
+        ],
+        [
+          "Car Wash",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Need Change In Order To Pay For."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

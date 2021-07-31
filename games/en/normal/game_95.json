@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dust ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Pollen ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Hay ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Work ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Nuts ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fish ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Are Often Allergic To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Medicine",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sour Cream",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Yogurt",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something With An Expiration Date Goes Bad Before Use"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sport Events",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Supermarket",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Strip Club",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Doctor/Dentist",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Men: Where Do Women Just Hate To Go?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Head",
+          "pnt": 70,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Belly",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific That’s Out Of Proportion In A Child’s Drawing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lingerie",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chocolates",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gift That Would Be Romantic To Get From Your Husband, But Creepy To Get From Your Father-In_Law."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wings",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Engine",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Fuel",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Tail",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Rudder",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Plane Can’t Fly Without."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Burn It",
+          45
+        ],
+        [
+          "Sneeze",
+          32
+        ],
+        [
+          "Too Much Salt",
+          11
+        ],
+        [
+          "Drop It",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Chef Do While Cooking, That Would Ruin The Whole Dish?"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          43
+        ],
+        [
+          "Camping",
+          28
+        ],
+        [
+          "Boating",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That While On Vacation Might Be Difficult To Find A Bathroom"
+    },
+    {
+      "answers": [
+        [
+          "Wow",
+          30
+        ],
+        [
+          "Hey/Hi",
+          22
+        ],
+        [
+          "Stop/No",
+          19
+        ],
+        [
+          "What",
+          8
+        ],
+        [
+          "Help",
+          7
+        ],
+        [
+          "Oh My",
+          7
+        ],
+        [
+          "Yes/Yeah",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word Or Phrase That’s Often Followed Up With An Exclamation Point"
+    },
+    {
+      "answers": [
+        [
+          "Jingle Bells",
+          60
+        ],
+        [
+          "Santa Claus Is Coming",
+          14
+        ],
+        [
+          "Rudolph",
+          9
+        ],
+        [
+          "Here Comes Santa Claus",
+          8
+        ],
+        [
+          "Santa Baby",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Song Do You Think Santa Claus Has As His Cell Phone Ringtone?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

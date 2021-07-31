@@ -1,0 +1,311 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Front Garden ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Fence ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Hedge / Plant ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Gate ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bailiffs ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See In Front Of A House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bingo",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Visitors",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Playing Cards",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Meals",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Crafts",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Activity Nursing Home Residents Look Forward To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawn Mower",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Hoe",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Shovel",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hose",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Rake",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Edger",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Gardener Might Use On The Job."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Shirt",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Jewelery",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Underware",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Women:Which Accessory Or Piece Of Clothing Do You Buy Most Often?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Make Pie",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Smash It",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Throw It Away",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Roast Seeds",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Do With A Pumpkin"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Photo Doesn’t Match",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Made Up Name",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Expired Date",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "No Seal",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Could You Tell That Someone’s ID Is Fake?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Razor ",
+          42
+        ],
+        [
+          "Shaving Cream ",
+          27
+        ],
+        [
+          "Brush ",
+          18
+        ],
+        [
+          "Whiskers / Beard ",
+          12
+        ],
+        [
+          "Water ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Need For Shaving"
+    },
+    {
+      "answers": [
+        [
+          "Trees",
+          41
+        ],
+        [
+          "Vehicles",
+          26
+        ],
+        [
+          "Fields",
+          9
+        ],
+        [
+          "Cows",
+          8
+        ],
+        [
+          "Road",
+          6
+        ],
+        [
+          "Billboards",
+          4
+        ],
+        [
+          "Mountains",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See A Lot Of When You Look Out The Window On A Long Car Ride."
+    },
+    {
+      "answers": [
+        [
+          "Parade",
+          65
+        ],
+        [
+          "Sunbathing",
+          11
+        ],
+        [
+          "Yard Sale",
+          7
+        ],
+        [
+          "Throwing Them Out",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason People Might Put Lawnchairs On The Sidewalk"
+    },
+    {
+      "answers": [
+        [
+          "Toys",
+          38
+        ],
+        [
+          "Trash",
+          28
+        ],
+        [
+          "Car Seats",
+          15
+        ],
+        [
+          "Food/Drink",
+          13
+        ],
+        [
+          "Spills",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do People Start Having More Of In Their Car Once They Have Kids?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

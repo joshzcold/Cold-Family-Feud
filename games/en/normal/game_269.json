@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Email",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Social Network",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Movies/TV",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Games",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "dating Site",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Blog",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Online Site That Asks You To Log In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "LEG WARMERS",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "SPANDEX",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "SCRUNCHIES",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "BIG HAIR",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Are Some Things That People Wore In The 80S That Are Now Out Of Fashion"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cherry",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Licorice",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Lemon",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Strawberry",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Orange",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Grape",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Jelly Bean Flavor"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ball ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tin Can ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rocks ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sticks ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Yo-Yo ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Mobile Phone ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Play With On Their Way To School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Dog Food",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Potatoes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Don’t Buy At Grocery Store With A Long Walk Home"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traffic",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Elevator",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Airport",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Hate To Get Stuck"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Candles",
+          28
+        ],
+        [
+          "Centerpiece/Flowers",
+          23
+        ],
+        [
+          "Tablecloth",
+          16
+        ],
+        [
+          "Food",
+          12
+        ],
+        [
+          "Dishes",
+          10
+        ],
+        [
+          "Napkins",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you’d put on your table when having a dinner party."
+    },
+    {
+      "answers": [
+        [
+          "Water",
+          35
+        ],
+        [
+          "Cow Pie",
+          24
+        ],
+        [
+          "Mud",
+          10
+        ],
+        [
+          "Cactus",
+          9
+        ],
+        [
+          "Tree",
+          8
+        ],
+        [
+          "Rocks",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Hate To Land In After Skydiving."
+    },
+    {
+      "answers": [
+        [
+          "Ice Cream ",
+          56
+        ],
+        [
+          "Milk ",
+          36
+        ],
+        [
+          "Milkshake ",
+          24
+        ],
+        [
+          "Cake ",
+          16
+        ],
+        [
+          "Chocolate ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Chocolate Flavoured"
+    },
+    {
+      "answers": [
+        [
+          "T Shirt",
+          35
+        ],
+        [
+          "Alcohol",
+          24
+        ],
+        [
+          "Album",
+          18
+        ],
+        [
+          "Poster",
+          10
+        ],
+        [
+          "Snacks",
+          5
+        ],
+        [
+          "Cap",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Buy At A Rock Concert."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

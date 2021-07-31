@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eat ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Drink ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Snog ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Talk ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sleep ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do In A Cinema Apart From Watch The Film"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mall",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Zoo",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Theme Park",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Airport",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where A Child Might Get Separated From Her Parents."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rub Them together",
+          "pnt": 75,
+          "trig": false
+        },
+        {
+          "ans": "Put On Gloves",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Blow On Them",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Put Under Warm Water",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Sit On Them",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Put In Pocket",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Person Does To Warm Up Their Hands."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Passport",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Mug Shot",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Driver’s License",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sports Photo",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Photo That Most People Donâ€™T Smile In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mint",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Spray",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Chew Gum",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Brush Teeth",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Mouthwash",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Smoker May Do Before Going In For A Kiss"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Queen",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Crown",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "His kingdom",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Throne",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Servents",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fool",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Subjects",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A King Would Hate To Be Without."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Nurse",
+          61
+        ],
+        [
+          "Doctor",
+          16
+        ],
+        [
+          "Housekeeper",
+          13
+        ],
+        [
+          "Cop",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Halloween Costume That Is A Complete Misrepresentation Of The Occupation It Portrays."
+    },
+    {
+      "answers": [
+        [
+          "Roses",
+          44
+        ],
+        [
+          "Tulips",
+          23
+        ],
+        [
+          "Lilies",
+          18
+        ],
+        [
+          "Carnations",
+          11
+        ],
+        [
+          "Daisies",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Are The Most Popular Types Of Flowers Used In A Wedding"
+    },
+    {
+      "answers": [
+        [
+          "Wine",
+          52
+        ],
+        [
+          "Cheese",
+          19
+        ],
+        [
+          "French People",
+          10
+        ],
+        [
+          "Art",
+          8
+        ],
+        [
+          "Beret",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Youâ€™D Find More Commonly In France Than In The Us"
+    },
+    {
+      "answers": [
+        [
+          "Have To Change diaper",
+          43
+        ],
+        [
+          "Drop It",
+          24
+        ],
+        [
+          "Spit Up On You",
+          16
+        ],
+        [
+          "Cry",
+          9
+        ],
+        [
+          "Snneze/Cough On Baby",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hope Doesn’t Happen When Holding Someone’s Baby."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

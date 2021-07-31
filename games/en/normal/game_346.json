@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Get Flowers",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Make Reservations",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Buy Gift",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Choose The Place",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is The Most Important Thing To Do When Planning A Valentine’s Day Date?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Kiss/Intimacy",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Ride A Bike",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Go To School",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Get On A Plane",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Were Afraid To Do For The First Time."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coffee",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Hot Chocolate",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What’s Something You Drink To Make You Warmer?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sand ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Moat ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Knight ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "King ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Drawbridge ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Castles"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candy",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Stuffed Animal",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Romantic Gift For A Woman That Her 2-Year-Old Might Be Jealous Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plane ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Superman ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bird ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Batman ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fairy ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Fly That A Child Might Pretend To Be"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Chair/Furniture",
+          43
+        ],
+        [
+          "Eye glasses",
+          28
+        ],
+        [
+          "Cell phone",
+          18
+        ],
+        [
+          "Remote control",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you’ve broken by sitting on it"
+    },
+    {
+      "answers": [
+        [
+          "Vacuum Cleaner",
+          46
+        ],
+        [
+          "Cosmetics",
+          28
+        ],
+        [
+          "Encyclopedia",
+          11
+        ],
+        [
+          "Bible",
+          5
+        ],
+        [
+          "Knives",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Product Door-To-Door Salesman Used To Sell"
+    },
+    {
+      "answers": [
+        [
+          "Lion King",
+          43
+        ],
+        [
+          "Finding Nemo",
+          29
+        ],
+        [
+          "Bambi",
+          12
+        ],
+        [
+          "101 Dalmations",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cartoon Movie That Features Animals As The Main Characters."
+    },
+    {
+      "answers": [
+        [
+          "Whoopie Cushion",
+          40
+        ],
+        [
+          "Fake Vomit",
+          26
+        ],
+        [
+          "Squirting Flower",
+          17
+        ],
+        [
+          "Rubber Chicken",
+          11
+        ],
+        [
+          "Can O’ Snakes",
+          7
+        ],
+        [
+          "Fake Nose",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than A Hand-Buzzer, Name Something You’d Be Sure To Buy At A Gag Shop"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

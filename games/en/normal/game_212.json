@@ -1,0 +1,295 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Snake",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Lizzard",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Common Pet That Would Be Weird To Actually Pet"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Sea ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "A River ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "A Swimming Pool ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Might See A Shark"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Die",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Make A Flop",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Retire",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Get Arrested",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might An Actor Do To Make You Not See Their Movies Anymore?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Cookies",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Use Chimney",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "A Fire in Fireplace",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Children Awake",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "A Dog",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Naughty Kids",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Really Annoy Santa When He Comes To Your House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Find Out Sex",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Looks",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Personality",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Indecisive",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might Parents Wait Until After The Baby Is Born To Give It A Name?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Burp",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Leave",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Spit",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Try To Kiss You",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Not Open Door",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Talk On Phone",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Date Do In The First 5 Minutes That Tells You They Have Bad Manners?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Marriage ",
+          41
+        ],
+        [
+          "Christmas ",
+          27
+        ],
+        [
+          "Church ",
+          17
+        ],
+        [
+          "Easter ",
+          11
+        ],
+        [
+          "Religion ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Tradition That People Follow"
+    },
+    {
+      "answers": [
+        [
+          "Worm ",
+          41
+        ],
+        [
+          "Wood Louse ",
+          27
+        ],
+        [
+          "Slug ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find Under A Rock"
+    },
+    {
+      "answers": [
+        [
+          "Sand ",
+          55
+        ],
+        [
+          "Bucket ",
+          36
+        ],
+        [
+          "Spade ",
+          23
+        ],
+        [
+          "Water ",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Need To Build A Sandcastle"
+    },
+    {
+      "answers": [
+        [
+          "Paper",
+          41
+        ],
+        [
+          "Pens/Ink",
+          23
+        ],
+        [
+          "Coffee",
+          12
+        ],
+        [
+          "Staples",
+          11
+        ],
+        [
+          "Time",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Secretary Never Wants To Run Out Of At The Office."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

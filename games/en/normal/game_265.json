@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Candy Bar",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Potato Chips",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Potatoes",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you’d need to eat a lot of if you needed to gain a quick 10 pounds"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleigh",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Santa",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Reindeer",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Footsteps",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Sounds Do Children Listen For On Christmas Eve"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paper",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Food Wrappers",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pencil Shavings",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A School Wastebasket Is Probably Full Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blanket",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Bear",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Night Light",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bedtime Story",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pacifier",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Some Kids Need To Have In Order To Sleep."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Directions",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fixing Cars",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Paying The Bills",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Many Men Refuse To Ask For Help With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Men",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Hard Hats",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tractors",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Big Trucks",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bulldozer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hammers",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Wood",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Probably See At A Construction Site"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Milk",
+          40
+        ],
+        [
+          "Beer",
+          18
+        ],
+        [
+          "Soda",
+          13
+        ],
+        [
+          "Ice Cream",
+          10
+        ],
+        [
+          "Water",
+          3
+        ],
+        [
+          "Meat",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Or Beverage You Wouldn’t Consume After It’d Been Sitting Out In Hot Weather"
+    },
+    {
+      "answers": [
+        [
+          "Keys ",
+          57
+        ],
+        [
+          "Watch ",
+          37
+        ],
+        [
+          "Knife ",
+          24
+        ],
+        [
+          "Coins ",
+          16
+        ],
+        [
+          "Gun ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Set A Metal Detector Off At An Airport"
+    },
+    {
+      "answers": [
+        [
+          "Hair",
+          35
+        ],
+        [
+          "Jeans",
+          28
+        ],
+        [
+          "Towels",
+          14
+        ],
+        [
+          "Blankets",
+          11
+        ],
+        [
+          "Car",
+          4
+        ],
+        [
+          "Dishes",
+          4
+        ],
+        [
+          "Dog",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific That Takes Longer To Dry, Than To Wash."
+    },
+    {
+      "answers": [
+        [
+          "Pizza",
+          30
+        ],
+        [
+          "Candy",
+          24
+        ],
+        [
+          "Ice Cream",
+          18
+        ],
+        [
+          "Cake",
+          10
+        ],
+        [
+          "Chips",
+          6
+        ],
+        [
+          "French Fries",
+          5
+        ],
+        [
+          "Cookies",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That You Wish Was Healthy So You Could Eat It Every Day."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

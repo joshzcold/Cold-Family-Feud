@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bikini",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mini Skirt",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Spandex",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Item That A Woman Might Not Want To Wear When She’s Pregnant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Performances",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Electricity",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Survey",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s Conducted"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Soap ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Baby Bath ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Washer ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Towel ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Use To Bath A Baby"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Policeman",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Garbage Man",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Stripper",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Truck Driver",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Drug Dealer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Fireman",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Profession That Would Make Women Think Twice About Marrying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Open Doors",
+          "pnt": 76,
+          "trig": false
+        },
+        {
+          "ans": "Pay For Dinner",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Compliment Her",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Give Her Flowers",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Dessert That Can Only Be Eaten With A Spoon.Name Something A Man Might Still Do For Woman When They Go Out On A Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Model",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Flight Attendant",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Receptionist",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "News Reporter",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Photographer",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Host",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession Where You’d Have To Smile A Lot."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "They’re Jealous",
+          25
+        ],
+        [
+          "Don’t Know Steps",
+          25
+        ],
+        [
+          "Old Fashioned Moves",
+          22
+        ],
+        [
+          "Clumsy/Tripping",
+          17
+        ],
+        [
+          "No Rhythm",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Someone Might Make Fun Of Your Dance Moves"
+    },
+    {
+      "answers": [
+        [
+          "Wallet / Money ",
+          45
+        ],
+        [
+          "Keys ",
+          29
+        ],
+        [
+          "Legs ",
+          19
+        ],
+        [
+          "Privates ",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Keep In Your Trousers"
+    },
+    {
+      "answers": [
+        [
+          "What Do You Do?",
+          51
+        ],
+        [
+          "Married?",
+          21
+        ],
+        [
+          "Have Any Kids?",
+          12
+        ],
+        [
+          "How Are You?",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What’s The First Thing You’re Likely To Be Asked About At Your High School Reunion?"
+    },
+    {
+      "answers": [
+        [
+          "Bear",
+          51
+        ],
+        [
+          "Snake",
+          24
+        ],
+        [
+          "Criminal",
+          12
+        ],
+        [
+          "Mountain Lion",
+          5
+        ],
+        [
+          "Wolf",
+          3
+        ],
+        [
+          "Big Foot",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Who Or What Would You Not Want To Meet In The Middle Of A Hiking Trail?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

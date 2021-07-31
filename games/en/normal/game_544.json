@@ -1,0 +1,354 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Low End Job",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Clean/Laundry",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Borrow Money",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fly Economy",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Buy Used",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Clip Coupons",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Have To Do Sometimes That Billionaire Has Probably Never Done."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ian Wright ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Stuart Pearce ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Paul Ince ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Teddy Sheringham ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sol Campbell ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Stave McManaman ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous British Footballer From The 90's"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bedroom",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parents Attention",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That A Child From A Large Family Never Has To Their Self"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Altitude",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Turbulence",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Temperature",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Look Below",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Estimated Time/Arrival",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "No Smoking",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Pilot Tells You On A Cross Crountry Trip That You Bet She Doesn’t Tell Her Kids On The Drive To School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Not Looking At You",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Yawning",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Fall Asleep",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Rolling Eyes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Talking to Someone Else",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Can You Tell The Person You’re Talking To Is Not Interested In Listening?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Better Food",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Special Occasion",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "They’re Broke",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "To Visit Family/Friends",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Peace & Quiet",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason A College Student Would Stay With Their Parents For The Weekend Instead Of Their Own Dorm Room."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Food",
+          42
+        ],
+        [
+          "Alcohol",
+          40
+        ],
+        [
+          "Gifts",
+          9
+        ],
+        [
+          "Music",
+          4
+        ],
+        [
+          "Decorations",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Company Was Saving Money, Name Something That Might Not Be At The Holiday Party."
+    },
+    {
+      "answers": [
+        [
+          "Jesus",
+          41
+        ],
+        [
+          "Fabio",
+          15
+        ],
+        [
+          "Samson",
+          11
+        ],
+        [
+          "Howard Stern",
+          8
+        ],
+        [
+          "George Washington",
+          7
+        ],
+        [
+          "Hercules",
+          7
+        ],
+        [
+          "Albert Einstein",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Real Or Fictional, Name A Famous Man With Long Hair"
+    },
+    {
+      "answers": [
+        [
+          "Monkey",
+          38
+        ],
+        [
+          "Bird",
+          29
+        ],
+        [
+          "Sqirrel",
+          22
+        ],
+        [
+          "Koala",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Might Live In A Tree"
+    },
+    {
+      "answers": [
+        [
+          "Ketchup",
+          33
+        ],
+        [
+          "Salt",
+          19
+        ],
+        [
+          "Extra Cheese",
+          14
+        ],
+        [
+          "Pepper",
+          11
+        ],
+        [
+          "Hot Dogs",
+          7
+        ],
+        [
+          "Tuna",
+          6
+        ],
+        [
+          "Ham",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Extra Something You Add To Your Mac And Cheese To Make It More Satisfying"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

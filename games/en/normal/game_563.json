@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sell It",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Throw It Away",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Give It Back",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Keep It",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Divorced Person Might Do With Their Wedding Ring"
+    },
+    {
+      "answers": [
+        {
+          "ans": "100MPH",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "80 MPH",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "70 MPH",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "90 MPH",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "60 MPH",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If There Was No Speed Limit, How Fast Would You Drive On The Way To Work each Morning (Round To Ten)?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traffic",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Smog",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Too Many People",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Crime",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why Big City Bad Place For A Marathon"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leaves ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Paper ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Dust ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Litter / Rubbish ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Kite ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Be Swept Along By Wind"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Upper Arm",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Chest",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Stomach",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Calf",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Butt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Muscle That A Body Builder Would Show Off"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Magic",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Juggling",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Mime",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Talent You See Street Performers Doing"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sarah",
+          35
+        ],
+        [
+          "Sue/Susan/Suzanne",
+          17
+        ],
+        [
+          "Samantha",
+          17
+        ],
+        [
+          "Stephanie",
+          15
+        ],
+        [
+          "Sally",
+          7
+        ],
+        [
+          "Sandy",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Girl’s Name That Begins With “S.”"
+    },
+    {
+      "answers": [
+        [
+          "salt",
+          56
+        ],
+        [
+          "pepper",
+          36
+        ],
+        [
+          "sugar",
+          24
+        ],
+        [
+          "butter",
+          16
+        ],
+        [
+          "garlic",
+          10
+        ],
+        [
+          "ketchup",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an ingredient some people would say makes all food taste better."
+    },
+    {
+      "answers": [
+        [
+          "Printer",
+          41
+        ],
+        [
+          "Mouse",
+          21
+        ],
+        [
+          "Keyboard",
+          14
+        ],
+        [
+          "Phone",
+          9
+        ],
+        [
+          "Router",
+          9
+        ],
+        [
+          "Monitor",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Plugs Into Your Computer."
+    },
+    {
+      "answers": [
+        [
+          "Thin Mint",
+          36
+        ],
+        [
+          "Peanut Butter Patty",
+          22
+        ],
+        [
+          "Chocolate Chip",
+          14
+        ],
+        [
+          "Short Bread",
+          9
+        ],
+        [
+          "Caramel Delight",
+          7
+        ],
+        [
+          "Lemon Chalet Creme",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Your Favorite Type Of Girl Scout Cookie"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Asking For Date",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Job Interview",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Break Up",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Wrong Number",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Situation Where You Might Hang Up On An Answering Machine, For Fear Of Saying Something Dumb."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Socks",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Undergarments",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "T Shirt",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tie",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you wear that you should never spend more than $20 on?"
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": 11,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Time Of Night When It’s Too Late To Call Someone’s House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Las Vegas",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Theater",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Times Square",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Store",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Motel",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Theme Park",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You’d Find Colorful Neon Lights"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jerry Springer",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cops",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cheaters",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "The Nightly News",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "America’s Most Wanted",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Oprah Winfrey",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Judge Judy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A TV Show You’d Never Want Your Name Mentioned On."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Pay Taxes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Feed Themselves",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Brush Teeth",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Wipe Themselves",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Grown-Ups Have To Do That Babies Don’t."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Traffic",
+          45
+        ],
+        [
+          "Shoe Laces",
+          29
+        ],
+        [
+          "Boat",
+          19
+        ],
+        [
+          "Rope",
+          12
+        ],
+        [
+          "Dog",
+          8
+        ],
+        [
+          "Phone Lines",
+          5
+        ],
+        [
+          "Horse",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Often Gets Tied Up"
+    },
+    {
+      "answers": [
+        [
+          "Dentist ",
+          46
+        ],
+        [
+          "Drill ",
+          30
+        ],
+        [
+          "Light ",
+          20
+        ],
+        [
+          "Ceiling ",
+          13
+        ],
+        [
+          "Drill ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See While Sitting In The Dentists Chair"
+    },
+    {
+      "answers": [
+        [
+          "Buffet/Restaurant",
+          66
+        ],
+        [
+          "Home/Mom’s House",
+          14
+        ],
+        [
+          "Party",
+          10
+        ],
+        [
+          "Wedding",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Often End Up Overeating"
+    },
+    {
+      "answers": [
+        [
+          "Map",
+          58
+        ],
+        [
+          "Compass",
+          17
+        ],
+        [
+          "Cell Phone",
+          12
+        ],
+        [
+          "GPS",
+          7
+        ],
+        [
+          "Co Pilot",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Always Have With You So You Don’t Get Lost"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

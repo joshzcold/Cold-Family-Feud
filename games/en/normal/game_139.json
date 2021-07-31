@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "The Beach ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Sea Or Ocean ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Oysters ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "A Tortoise ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "A Snail ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Shells"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Typing",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Working Hard",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Communication",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Sales",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Customer Service",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Foreign Language",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Skill That A Person’s Resume Might Claim They’re Better At Than They Really Are."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Breath",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "manners",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Attitude",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hygiene",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Credit",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Complete This Sentence. I’d Never Date Someone Who had bad ___________ ."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Patience ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You're Sure To Run Out Of If You Have Teenagers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turkey",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Animals",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Pillows",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Be Stuffed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coffee shop",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Day Care/School",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Breakfast",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Gas station",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Morning Stop That Many Adults Make first, Before going Into Work"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fake Sick",
+          48
+        ],
+        [
+          "Get Injured",
+          19
+        ],
+        [
+          "Doctor’s Note",
+          9
+        ],
+        [
+          "Skip Class",
+          8
+        ],
+        [
+          "Forget Gym Clothes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Kid Might Do To Get Out Of Participating In Gym Class"
+    },
+    {
+      "answers": [
+        [
+          "Drive",
+          35
+        ],
+        [
+          "Move Out",
+          22
+        ],
+        [
+          "Have A Job",
+          14
+        ],
+        [
+          "No Rules",
+          12
+        ],
+        [
+          "Romance",
+          7
+        ],
+        [
+          "No School",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Child Can’t Wait To Grow Up"
+    },
+    {
+      "answers": [
+        [
+          "Water It",
+          39
+        ],
+        [
+          "Cut It",
+          36
+        ],
+        [
+          "Fertilize It",
+          13
+        ],
+        [
+          "Plant Flowers",
+          4
+        ],
+        [
+          "Rake It",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do To Your Lawn That You Would Never Do To Your Wall-To-Wall Carpet."
+    },
+    {
+      "answers": [
+        [
+          "Scarf",
+          40
+        ],
+        [
+          "Tie",
+          31
+        ],
+        [
+          "Identification",
+          12
+        ],
+        [
+          "Brace",
+          7
+        ],
+        [
+          "Keys",
+          6
+        ],
+        [
+          "Glasses",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Jewelry, Name Something A Person Might Wear Around Their Neck."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

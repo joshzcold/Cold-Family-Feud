@@ -1,0 +1,346 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cat",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hamster/Gerbil",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lizard",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Pet That People Rarely Take Out Of Their House."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Taxes",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Credit",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Interest",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Budget",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stocks",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mortgage",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Loans",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Related To Finances That It’s Hard To Explain To A Kid."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lose Weight",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Get Rich",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Attract A Mate",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Look Younger",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Grow Hair",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Become Happier",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Commercial Hints That Will Happen If You Buy The Product Advertised?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wool",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Down",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Fur",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Leather",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fleece",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cotton",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Good Material For A Winter Coat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Piano ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Instruments ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Guitar ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Music Sheets ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drums ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Music Room"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sky/Clouds",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Birds",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Body Of Water",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Land",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wings",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Another Plane",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You See Out Your Airplane Window?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hast",
+          42
+        ],
+        [
+          "Contestants",
+          24
+        ],
+        [
+          "Lights",
+          12
+        ],
+        [
+          "People",
+          6
+        ],
+        [
+          "Podiums",
+          5
+        ],
+        [
+          "Announcer",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See On The Set Of Every Game Show"
+    },
+    {
+      "answers": [
+        [
+          "Play Ball",
+          34
+        ],
+        [
+          "Fish/Hunt",
+          23
+        ],
+        [
+          "Shave",
+          15
+        ],
+        [
+          "Drive",
+          13
+        ],
+        [
+          "Ride A Bike",
+          8
+        ],
+        [
+          "Use A Bathroom",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something A Man Teaches His Son To Do"
+    },
+    {
+      "answers": [
+        [
+          "Always Happy",
+          53
+        ],
+        [
+          "Never Fight",
+          24
+        ],
+        [
+          "Shared One Bathroom",
+          11
+        ],
+        [
+          "So Many Kids",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Never Quite Believed About The Brady Bunch."
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          45
+        ],
+        [
+          "Bathroom",
+          22
+        ],
+        [
+          "Kitchen",
+          19
+        ],
+        [
+          "Bedroom",
+          6
+        ],
+        [
+          "Clothes",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Himself, Name Something A Man Cleans Before A Big Date (More Specific Than “House”)."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dishes",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Floors",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Clean that Only Gets Dirty Again in A Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Accident",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Traffic Jam",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Animal",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Flat Tire",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rain/Snow",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Police Activity",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You Encounter On The Freeway That Would Make You Pull Off For A While"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor’s Office",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Gym",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "A Fish",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Truck Stop",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Butcher/Deli",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where You See A Scale"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cold/Allergies",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Exhaustion",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping On Back",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stress",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Causes Your Spouse To Snore Worse Than Usual."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bears",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Snakes",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Rain",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You Be Afraid Of While Sleeping In A Tent?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "BATS",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "OWLS",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "NIGHT CLUBS",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "BUGS",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "VAMPIRES",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "CRIMINAL BEHAVIOR",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "RACCOONS",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Becomes More Active After Dark"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cane",
+          45
+        ],
+        [
+          "Diapers",
+          31
+        ],
+        [
+          "Black Balloons",
+          9
+        ],
+        [
+          "Glasses",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Common Gag Gift At An “Over The Hill” Birthday Party."
+    },
+    {
+      "answers": [
+        [
+          "Sweat Pants",
+          38
+        ],
+        [
+          "Stretch Pants",
+          35
+        ],
+        [
+          "Jeans",
+          18
+        ],
+        [
+          "Overalls",
+          3
+        ],
+        [
+          "Track Pants",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Kind Of Pants Are Best To Wear When You’re Planning To Overeat At Thanksgiving?"
+    },
+    {
+      "answers": [
+        [
+          "Walk",
+          42
+        ],
+        [
+          "Hitchhike",
+          27
+        ],
+        [
+          "Bike",
+          18
+        ],
+        [
+          "Airline Miles",
+          12
+        ],
+        [
+          "Stowaway",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A way To Travel For Free"
+    },
+    {
+      "answers": [
+        [
+          "Tattoos",
+          28
+        ],
+        [
+          "Get Body Pierced",
+          26
+        ],
+        [
+          "Dye Hair",
+          17
+        ],
+        [
+          "Paint Face",
+          8
+        ],
+        [
+          "Shave Head",
+          8
+        ],
+        [
+          "Long Hair",
+          6
+        ],
+        [
+          "Facial Hair",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Male Rock Star Might Do To Make Himself Look More Rebellious."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

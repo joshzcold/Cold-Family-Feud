@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Honey",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Baby",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dear",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sweetheart",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Are The Most Common Terms Of Endearment Used When A Person Is Talking To Their Partner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "John Wayne",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Roy Rogers",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Billy The Kid",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lone Ranger",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Woody",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Real Or Fictional, Name A Famous Cowboy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bell",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Yelling",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Laughing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ingrown Toenail",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phones",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sound You Hear A Lot Of In A High School Hallway"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Four Weeks",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Three Weeks",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Two Weeks",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Six Weeks",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Many Weeks In Advance Do You Decorate For Christmas?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jail",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Dead",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hell",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Homeless",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Dumpster",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where People Don’t Want To End Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Politics",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Weather",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In A Conversation With The World’s Most Boring Person, Name A Subject That Would Surely Come Up."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Milk",
+          39
+        ],
+        [
+          "Juice / Kool Aid",
+          17
+        ],
+        [
+          "Flour",
+          15
+        ],
+        [
+          "Cooking Oil",
+          12
+        ],
+        [
+          "Grease",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In The Kitchen That Makes A Huge Mess If It’s Spilled"
+    },
+    {
+      "answers": [
+        [
+          "Police Officer ",
+          40
+        ],
+        [
+          "Deaf Person ",
+          26
+        ],
+        [
+          "Air Traffic Control ",
+          17
+        ],
+        [
+          "A Cyclist ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Uses Hand Signals"
+    },
+    {
+      "answers": [
+        [
+          "Main",
+          64
+        ],
+        [
+          "Elm",
+          15
+        ],
+        [
+          "First",
+          5
+        ],
+        [
+          "Martin Luther King",
+          5
+        ],
+        [
+          "Broadway",
+          5
+        ],
+        [
+          "Washington",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Street Name Found In Almost Every Big City."
+    },
+    {
+      "answers": [
+        [
+          "Kitchen",
+          48
+        ],
+        [
+          "Living Room",
+          34
+        ],
+        [
+          "Bathroom",
+          9
+        ],
+        [
+          "Bedroom",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Least Private Room In Your House"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Make conversation",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Ask Questions",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Introduce Teams",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sense of Humor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "On a game show, name something a Host must do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crowded",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Stinky",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bumpy",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Noise",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Takes Longer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hot",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bus Fare",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Worst Part About Riding The Bus."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stethoscope",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Clipboard",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Thermometer",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pen/Pencil",
+          "pnt": 1,
+          "trig": false
+        },
+        {
+          "ans": "Beeper",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Most Doctors Carry With Them On Their Rounds."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jingle Bells",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Silent Night",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Silver Bells",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "I’ll Be Home For Xmas",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Santa Coming To Town",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Beginning To Look A",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Adeste Fideles",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides White Christmas, Name A Song On Big Crosby’s White Christmas Album."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lower Taxes",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "World Peace",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Create Jobs",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Healthcare",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might Someone Promise To Do If They Wanted Elect President"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paperwork",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Standing/Sitting",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "At The End Of A Work Day, Name Something You’re Usually Tired Of"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lamp",
+          32
+        ],
+        [
+          "TV",
+          29
+        ],
+        [
+          "Hair Dryer",
+          13
+        ],
+        [
+          "Phone",
+          9
+        ],
+        [
+          "Clock",
+          8
+        ],
+        [
+          "Coffee Pot",
+          4
+        ],
+        [
+          "Microwave",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something That Is Plugged Into An Outlet In A Hotel Room."
+    },
+    {
+      "answers": [
+        [
+          "Lights ",
+          41
+        ],
+        [
+          "Electric Blanket ",
+          27
+        ],
+        [
+          "TV ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Should Switch Off Before Going To Bed"
+    },
+    {
+      "answers": [
+        [
+          "Tennis Court",
+          23
+        ],
+        [
+          "Basketball Court",
+          20
+        ],
+        [
+          "Supreme Court",
+          16
+        ],
+        [
+          "Divorce Court",
+          15
+        ],
+        [
+          "Traffic Court",
+          12
+        ],
+        [
+          "Civil Court",
+          9
+        ],
+        [
+          "Appeals Court",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Court."
+    },
+    {
+      "answers": [
+        [
+          "Benches",
+          37
+        ],
+        [
+          "Joggers",
+          21
+        ],
+        [
+          "Muggers",
+          15
+        ],
+        [
+          "Pigeons",
+          8
+        ],
+        [
+          "People",
+          7
+        ],
+        [
+          "Trees",
+          6
+        ],
+        [
+          "Homeless people",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you probably would see in New York’s Central Park."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

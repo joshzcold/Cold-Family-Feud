@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bambi",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Castle",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Epcot Center",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Space Mountain",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tea Cups",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that Godzilla would crush at Disneyworld."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Donuts",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Cake",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bagels",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Toast",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Buscuit",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Snack That Goes Great With Coffee."
+    },
+    {
+      "answers": [
+        {
+          "ans": "BUY FLOWERS",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "OPEN DOORS",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "KISS",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "HOLD HANDS",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "BE NICE",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Man Might Do In The Beginning Of A Relationship That He Won”t Do After About A Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Skis ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Warm Clothes ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Gloves ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jumper ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Ski Suit ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Take On A Skiing Trip"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Roof",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Garage",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Doors",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "While Looking For A New Home, What Would You Be Surprised To Find That A House Didn’t Have?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Casino/Slots",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Money/Coins",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Poker Chips",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bar/Restaurant",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Show Girls",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fountain",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific You’d Probably See On A Brochure For Las Vegas."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Stuffing",
+          44
+        ],
+        [
+          "Cranberry Sauce",
+          31
+        ],
+        [
+          "Corn",
+          16
+        ],
+        [
+          "Yams",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Thanksgiving Food That Often Comes From A Box Or Can."
+    },
+    {
+      "answers": [
+        [
+          "Bellhop",
+          67
+        ],
+        [
+          "Doorman",
+          14
+        ],
+        [
+          "Waiter",
+          7
+        ],
+        [
+          "Maid",
+          5
+        ],
+        [
+          "Room Service",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone You Might Tip At A Hotel"
+    },
+    {
+      "answers": [
+        [
+          "Doctor ",
+          49
+        ],
+        [
+          "Massage / Beauty ",
+          32
+        ],
+        [
+          "Nurse ",
+          21
+        ],
+        [
+          "Dentist ",
+          14
+        ],
+        [
+          "Hairdresser ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That Involves Touching People"
+    },
+    {
+      "answers": [
+        [
+          "GOLF",
+          57
+        ],
+        [
+          "RUNNING",
+          37
+        ],
+        [
+          "HIKING",
+          24
+        ],
+        [
+          "DANCING",
+          16
+        ],
+        [
+          "BOWLING",
+          10
+        ],
+        [
+          "BASEBALL",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Pastime You’d Know Someone Has, Just By Looking At Their Shoes"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

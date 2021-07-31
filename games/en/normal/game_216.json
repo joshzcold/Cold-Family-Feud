@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "News",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Weather",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Jokes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Commercials",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Music, Name Something You Might Hear On A Morning Radio Show."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swim",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Play",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Go To Camp",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sleep In",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Travel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Do Over Their Summer Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Theatre ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Cinema ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Tv Studio ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hospital ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Church ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place That Has Lots Of Exits"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bugs Bunny",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Donald Duck",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Snoopy",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Cartoon Character Whose Head You Might Find At The Top Of A Pez Dispenser."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sauce",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Salad",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Grated Cheese",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Meatballs",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Order Pasta At A Restaurant, What You Assume Come With"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cake",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Beef",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ribs",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Smells Good When It’s Cooking"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Emergency ",
+          55
+        ],
+        [
+          "Death In The Family",
+          36
+        ],
+        [
+          "Wrong Number ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason You Might Get A Late Night Call From Someone"
+    },
+    {
+      "answers": [
+        [
+          "Twins",
+          54
+        ],
+        [
+          "Dice",
+          35
+        ],
+        [
+          "Eyes",
+          23
+        ],
+        [
+          "Tires",
+          15
+        ],
+        [
+          "Scissors",
+          10
+        ],
+        [
+          "Tweezers",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Pair Of Something That You Can Not Wear"
+    },
+    {
+      "answers": [
+        [
+          "30 Mins ",
+          53
+        ],
+        [
+          "20 Mins ",
+          34
+        ],
+        [
+          "15 Mins ",
+          23
+        ],
+        [
+          "45 Mins ",
+          15
+        ],
+        [
+          "40 Mins ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Long The Average Person Would Wait For A Table At A Restaurant"
+    },
+    {
+      "answers": [
+        [
+          "Gun",
+          31
+        ],
+        [
+          "Pictures",
+          24
+        ],
+        [
+          "Covered Wagon",
+          16
+        ],
+        [
+          "Stagecoach",
+          14
+        ],
+        [
+          "Buffalo",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See In A Museum About The Old West."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

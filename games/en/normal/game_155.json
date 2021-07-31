@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Baby Shower",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion Where You Might Send Out Invitations."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lion Tamer",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Trapeze Artist",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tightrope Walker",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fire Eater",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sword Swallower",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Circus Or Sideshow Performer Had Better Have A Good Insurance Policy?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wears A Crown",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Rides White Horse",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Good Looking",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Magical Kiss",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Met The Real Life Prince Charming, How Would You Know It Was Him?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toothbrush/Paste",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Hairbrush/Comb",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hair Dryer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Razor",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Alarm Clock",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Clothes, Name Something People Pack In Their Suitcase When Traveling."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Golden Girls/Acting",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Comedienne",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Her Age",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "White/Blonde Hair",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Betty White."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Under desk/table",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Closet/Supply room",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen/Staff lounge",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Where in your office would make a good place to hide from your boss."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Quiet",
+          40
+        ],
+        [
+          "Friendly",
+          36
+        ],
+        [
+          "Trustworthy",
+          9
+        ],
+        [
+          "Clean",
+          8
+        ],
+        [
+          "Attractive",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Could Choose Your Neighbors, Which Traits Would You Look For?"
+    },
+    {
+      "answers": [
+        [
+          "Jeans",
+          48
+        ],
+        [
+          "Dress",
+          21
+        ],
+        [
+          "Car",
+          17
+        ],
+        [
+          "Elevator",
+          5
+        ],
+        [
+          "Bus",
+          4
+        ],
+        [
+          "Bathing Suit",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Try To Squeeze Themselves Into."
+    },
+    {
+      "answers": [
+        [
+          "Drain ",
+          48
+        ],
+        [
+          "Nose ",
+          31
+        ],
+        [
+          "Sink ",
+          20
+        ],
+        [
+          "Toilet ",
+          13
+        ],
+        [
+          "Ears ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Easily Blocked"
+    },
+    {
+      "answers": [
+        [
+          "Makeup",
+          47
+        ],
+        [
+          "Hair",
+          24
+        ],
+        [
+          "Clothes",
+          12
+        ],
+        [
+          "Nails",
+          5
+        ],
+        [
+          "Plastic Surgery",
+          3
+        ],
+        [
+          "Gym",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Some Women Spend A Lot Of Money On, Just To Look Good."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Kiss During Toasts",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Cut The Cake",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Say Vows",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dance To First Song",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That The Bride And Groom Do At A Wedding, That Another Guest Should Not."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beach",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where Do You Like To Go Barefoot?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Set Gifts Under Tree",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Wrapping Gifts",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Eating Cookies",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Buying/Hiding Gifts",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might Parents Be Caught Doing That Causes Their Kid To Bust Them For Doing Santa’s Job?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Life",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Art",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something specific you might have insured."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cars",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Trading Cards",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Phone Numbers",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dance Partners",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stocks",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Secrets",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Trade"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Anniversary",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Apology",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "It’s her birthday",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "To express love",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mother’s Day",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a reason a husband might send his wife flowers."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Kids",
+          57
+        ],
+        [
+          "Santa Claus",
+          37
+        ],
+        [
+          "Gifts",
+          24
+        ],
+        [
+          "Firewood",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Pulled Around In A Sled"
+    },
+    {
+      "answers": [
+        [
+          "Reality TV",
+          53
+        ],
+        [
+          "Dating Show",
+          34
+        ],
+        [
+          "Talk Show",
+          23
+        ],
+        [
+          "Romantic Drama",
+          15
+        ],
+        [
+          "True Crime",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of TV Show That You Wouldn’t Want To See Your Grandma On"
+    },
+    {
+      "answers": [
+        [
+          "Hands",
+          28
+        ],
+        [
+          "Hair",
+          25
+        ],
+        [
+          "Face",
+          22
+        ],
+        [
+          "Body",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Wash Everyday"
+    },
+    {
+      "answers": [
+        [
+          "Food Server",
+          35
+        ],
+        [
+          "Surgeon",
+          28
+        ],
+        [
+          "Construction Worker",
+          10
+        ],
+        [
+          "Dancer",
+          6
+        ],
+        [
+          "Acrobat",
+          5
+        ],
+        [
+          "Bartender",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job That A Clumsy Person Would Be Fired From Immediately."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

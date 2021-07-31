@@ -1,0 +1,302 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chicken ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Eggs ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Fish ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Rice ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Chips ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word That Follows Fried"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Weapons",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Cells Phones",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pets",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Something You Are Glad Is Prohibited On Most Airlines"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Driver’s License",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Marry",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Get A Tattoo",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Get A Piercing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teen Might Need Their Parent’s Permission To Do Before They’re 18."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Call Police",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Get An Alarm",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Move",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Yell",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Do After Your House Has Been Robbed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Little Richard",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Little John",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Little Red Riding Hood",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Little Bo Peep",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone, Real Or Fictional, Whose Name Starts With Little"
+    },
+    {
+      "answers": [
+        {
+          "ans": "White Dress",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "All black",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cap",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "T Shirt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Should Never Wear As The Guest At Someone’s Wedding"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "TV",
+          44
+        ],
+        [
+          "Computer",
+          26
+        ],
+        [
+          "Video Games",
+          12
+        ],
+        [
+          "Phone",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Parent Might Limit Their Child’s Time Using"
+    },
+    {
+      "answers": [
+        [
+          "Clerks ",
+          58
+        ],
+        [
+          "Money ",
+          38
+        ],
+        [
+          "Vault ",
+          25
+        ],
+        [
+          "Guard ",
+          16
+        ],
+        [
+          "Safe ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See Inside A Bank"
+    },
+    {
+      "answers": [
+        [
+          "Map",
+          58
+        ],
+        [
+          "Gps",
+          38
+        ],
+        [
+          "Gas Station",
+          25
+        ],
+        [
+          "Police",
+          16
+        ],
+        [
+          "Compass",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Can You Consult When Lost"
+    },
+    {
+      "answers": [
+        [
+          "Read",
+          30
+        ],
+        [
+          "Have A Conversation",
+          27
+        ],
+        [
+          "Watch TV",
+          18
+        ],
+        [
+          "Study",
+          11
+        ],
+        [
+          "Fall Asleep",
+          7
+        ],
+        [
+          "Concentrate",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That it’s Hard To Do While Listening To Music"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

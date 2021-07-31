@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bedtime Story",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Hug/Kiss",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Child Asks For Just To Delay His Bedtime"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gobble",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Thanksgiving",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Tast Good",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Fly",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Everybody Knows About Turkeys."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smooch",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Peck",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Smack",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lip Lock",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sugar",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "French",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For Kiss"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Quiet",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Good Cook",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Not Nosey",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lives Far Away",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Nice",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Every Newlywed Hopes Their Mother-In-Law Will Be"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Urinate On Self",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Urinate In Bed",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pick Nose In Public",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Nothing",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Play In Dirt",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Did As A 5-Year-Old That You’d Be Embarrassed To Do Now."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bow",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Your Highness",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Sir",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Your Majesty",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Would Your Friends Begin Greeting You If Royal Family Mem"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Work",
+          34
+        ],
+        [
+          "Pay Bills",
+          25
+        ],
+        [
+          "Cook",
+          13
+        ],
+        [
+          "Clean/Laundry",
+          13
+        ],
+        [
+          "Doctor/Dentist",
+          7
+        ],
+        [
+          "Oil Change",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something That Responsible Adults Do On A Regular Basis"
+    },
+    {
+      "answers": [
+        [
+          "Socket",
+          39
+        ],
+        [
+          "Nose",
+          21
+        ],
+        [
+          "Mouth",
+          18
+        ],
+        [
+          "Light Switch",
+          9
+        ],
+        [
+          "Ear",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place A Baby Sticks His Fingers That He’s Not Supposed To"
+    },
+    {
+      "answers": [
+        [
+          "Skydive",
+          40
+        ],
+        [
+          "Fly",
+          27
+        ],
+        [
+          "Get married",
+          15
+        ],
+        [
+          "Bungee jump",
+          7
+        ],
+        [
+          "Gamble",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something risky that most people do at least once in their lifetimes."
+    },
+    {
+      "answers": [
+        [
+          "Inspector Gadget",
+          32
+        ],
+        [
+          "Sherlock Holmes",
+          29
+        ],
+        [
+          "James Bond",
+          25
+        ],
+        [
+          "Nancy Drew",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fictional Character Who Makes Spy Work Look Like A Lot Of Fun."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

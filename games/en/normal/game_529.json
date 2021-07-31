@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "School",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Clean Room",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Must Be Asked Over And Over"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Frog",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Spider",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Anteater",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Birt",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lizzard",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Creature That Eats Bugs"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming Area",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Shopping District",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Celebrity’s Home",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something Many People Would Love To Live Next To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fight Back",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Tell Adult",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Stand Up To Them",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Ignore Them",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Can A Kid Get A Bully To Stop Picking On Them"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Use Bathroom",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Get Gas",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Car Trouble",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Need Rest",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Car Sick",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Kids Fighting",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might You Have To Stop The Car During A Long Ride?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tails",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Claws",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Fur",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Paws",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "9 Lives",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do cats Have the We Don’t Have?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Read",
+          33
+        ],
+        [
+          "Talk On Cellphone",
+          23
+        ],
+        [
+          "Hum/Whistle",
+          17
+        ],
+        [
+          "Think",
+          7
+        ],
+        [
+          "Complain",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do While Waiting In Line"
+    },
+    {
+      "answers": [
+        [
+          "Computer",
+          46
+        ],
+        [
+          "Video Player",
+          21
+        ],
+        [
+          "Hearing Aid",
+          11
+        ],
+        [
+          "Microwave",
+          8
+        ],
+        [
+          "Telephone",
+          5
+        ],
+        [
+          "Remote Control",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Modern Device That Older People Have Trouble Using"
+    },
+    {
+      "answers": [
+        [
+          "Mr Bean ",
+          54
+        ],
+        [
+          "Del Boy ",
+          35
+        ],
+        [
+          "Borat ",
+          23
+        ],
+        [
+          "Basil Forty ",
+          15
+        ],
+        [
+          "Blackadder ",
+          10
+        ],
+        [
+          "Ali G ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Tv Comedy Character"
+    },
+    {
+      "answers": [
+        [
+          "Olive Oil ",
+          41
+        ],
+        [
+          "Sunflower Oil ",
+          27
+        ],
+        [
+          "Motor Oil ",
+          17
+        ],
+        [
+          "Oil Of Olay ",
+          11
+        ],
+        [
+          "Crude ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Oil"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

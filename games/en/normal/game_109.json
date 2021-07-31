@@ -1,0 +1,337 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Air Conditioning",
+          "pnt": 73,
+          "trig": false
+        },
+        {
+          "ans": "Turn On The Fan",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Close Blinds",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Open Windows",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do To Keep Your House Cool On A Hot Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chew Gum/Candy",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Lie",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Pass Gas",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Arrive Late",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Would You Do In A Job Interview That Would Guarantee You Don’t Get The Job."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sibling",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "In Law",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Santa",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Grandparent",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Person You Wouldn’t Kiss Under The Mistletoe."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Books ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "CD's / DVD's ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Addesses / Numbers ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Business Cards ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That People Swap"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Han And Cheese",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Club",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Roast Beef",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Tuna",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Reuben",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pastrami",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sandwich You Can Find In Most delis."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chocolate ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Cakes ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cream Buns ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Dieters Dream About At Night"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Name",
+          48
+        ],
+        [
+          "Age",
+          31
+        ],
+        [
+          "Where You Work",
+          20
+        ],
+        [
+          "Parent/Grandparent",
+          13
+        ],
+        [
+          "Sex",
+          9
+        ],
+        [
+          "Horoscope Sign",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Info That May Be Revealed On Someones Coffee Mug"
+    },
+    {
+      "answers": [
+        [
+          "Winner",
+          85
+        ],
+        [
+          "Champion",
+          5
+        ],
+        [
+          "Early Bird",
+          3
+        ],
+        [
+          "Number 1",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Term That Describes Someone Who Comes In At First Place"
+    },
+    {
+      "answers": [
+        [
+          "Read ",
+          48
+        ],
+        [
+          "Sleep ",
+          31
+        ],
+        [
+          "Eat ",
+          20
+        ],
+        [
+          "Watch TV ",
+          13
+        ],
+        [
+          "Yawn ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do When Your Bored"
+    },
+    {
+      "answers": [
+        [
+          "Backpacks",
+          43
+        ],
+        [
+          "Purses",
+          33
+        ],
+        [
+          "Kids",
+          12
+        ],
+        [
+          "Monkey",
+          5
+        ],
+        [
+          "Weight Of The World",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Carry On Their Shoulders."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

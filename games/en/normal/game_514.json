@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "People Talking",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "No Seats",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Crowds",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "The Homeless",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "swearing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Smell",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Annoys You When You Ride The Bus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant/Coffee Shop",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Barber Shop",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Gentleman’s Club",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where A Man Might Be A “Regular Customer.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Semi Truck",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Police Car",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream Truck",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bus",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Ambulance",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Vehicle That You Can Hear Coming Before You See It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Hair Stylist",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Clown",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In Which Profession Might You Have A Large Assortment of Wigs?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Library",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Book Store",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "On Line",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Friend’s House",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Want To Read A Book Without Paying For It, Where Might You Spend Too Much time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swim",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Go To Disney World",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Relax",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Play Golf",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Visit The Everglades",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Go to Beach",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Do On Vacation In Florida"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sleeping",
+          66
+        ],
+        [
+          "Crying",
+          22
+        ],
+        [
+          "Eating",
+          6
+        ],
+        [
+          "Going To The Bathroom",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Baby Spends A Lot Of Time Doing."
+    },
+    {
+      "answers": [
+        [
+          "Accident",
+          37
+        ],
+        [
+          "Speeding Ticket",
+          34
+        ],
+        [
+          "Illegal Activity",
+          16
+        ],
+        [
+          "Break Curfew",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Your Teenager Do While Borrowing Your Car That Would Break Your Trust?"
+    },
+    {
+      "answers": [
+        [
+          "Potty Train",
+          42
+        ],
+        [
+          "Walk",
+          27
+        ],
+        [
+          "Talk",
+          18
+        ],
+        [
+          "Sleep",
+          12
+        ],
+        [
+          "Eat",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do New Parents Wish Baby Learn Quickly"
+    },
+    {
+      "answers": [
+        [
+          "Clean",
+          49
+        ],
+        [
+          "Read",
+          17
+        ],
+        [
+          "Paperwork",
+          10
+        ],
+        [
+          "Bake",
+          6
+        ],
+        [
+          "Exercise",
+          6
+        ],
+        [
+          "Nap",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Mean To Do In Their Spare Time, But End Up Watching TV Instead."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

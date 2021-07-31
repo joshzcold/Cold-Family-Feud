@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ticket",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bird Droppings",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "A Crack",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fliers",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Hate To Find On Their Windshield."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boats ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Models ",
+          "pnt": 21,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See At A Boat Show"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Diving",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "No Running",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Lifejacket/Floaties",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hor After Eating",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "No Deep Water",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stay Supervised",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Rule A Parent Might Have For When Their Child Goes Swimming"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream Truck",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cones",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Freezer",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Friendly Personality",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Ice Cream And Popsicles, Name Something You Need To Be A Neighborhood Ice Cream Man"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cream ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Gloves ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Ring ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Can Be Put On Your Hands"
+    },
+    {
+      "answers": [
+        {
+          "ans": 25,
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": 20,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 21,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 30,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": 18,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 22,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 24,
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": " At What Age Does It Become Embarrassing To Still Live With Your Parents (Numeric Only)?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Buy Crib",
+          55
+        ],
+        [
+          "Buy Clothes",
+          36
+        ],
+        [
+          "Buy Diapers",
+          23
+        ],
+        [
+          "Baby Shower",
+          15
+        ],
+        [
+          "Parenting Classes",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something First Time Parent Has To Do Before Baby Is Born"
+    },
+    {
+      "answers": [
+        [
+          "Bad Kids",
+          29
+        ],
+        [
+          "Too Many Kids",
+          13
+        ],
+        [
+          "Low Pay",
+          13
+        ],
+        [
+          "Smells Bad",
+          10
+        ],
+        [
+          "No One Laughs",
+          10
+        ],
+        [
+          "Costumes Are Hot",
+          10
+        ],
+        [
+          "Gets Tired",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Complaint A Circus Clown Might Have About His Job."
+    },
+    {
+      "answers": [
+        [
+          "Teeth",
+          59
+        ],
+        [
+          "Clothes",
+          29
+        ],
+        [
+          "Carpet",
+          9
+        ],
+        [
+          "Drapes",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Go To A Professional To Have Cleaned."
+    },
+    {
+      "answers": [
+        [
+          "Band",
+          26
+        ],
+        [
+          "Stage",
+          19
+        ],
+        [
+          "Amplifiers",
+          15
+        ],
+        [
+          "Speakers",
+          14
+        ],
+        [
+          "Guitar",
+          10
+        ],
+        [
+          "Fans",
+          7
+        ],
+        [
+          "Ear Plugs",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Need If You Were Putting On A Rock Concert."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

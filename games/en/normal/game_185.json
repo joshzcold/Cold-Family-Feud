@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Underwear",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You’d Be Reluctant To Buy From A Rummage Sale"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthday Parties",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Sporting Events",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Graduations",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Family Reunions",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Weddings",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "recitals/Plays",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Kind Of Event A Child In A Large Family Might Have To Go To A Lot"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Got In A Fight",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Being Sick",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Talk Back To Teacher",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bring A Weapon",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Swearing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Kid Might Get Sent Home From School."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jewelry",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cash",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gift That Most Women Would Be Thrilled To Get For Christmas"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Jump",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Faint",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Laugh",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Gasp",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What,Specifically Might Someone Do When They Walk Into Their Surprise Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doughnut ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Polo Mint ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "CD ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Plate ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Putting Green ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something With A Hole In the Centre"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "New York ",
+          40
+        ],
+        [
+          "Vienna ",
+          26
+        ],
+        [
+          "London ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous City That Features In A Song"
+    },
+    {
+      "answers": [
+        [
+          "Toy",
+          60
+        ],
+        [
+          "Pet",
+          18
+        ],
+        [
+          "Money",
+          17
+        ],
+        [
+          "Time Capsule",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a kid might bury in the backyard."
+    },
+    {
+      "answers": [
+        [
+          "Hot Lips",
+          26
+        ],
+        [
+          "Hawkeye",
+          22
+        ],
+        [
+          "Radar",
+          16
+        ],
+        [
+          "War",
+          12
+        ],
+        [
+          "Doctors",
+          8
+        ],
+        [
+          "Theme Music",
+          5
+        ],
+        [
+          "Klinger",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Remember About The Tv Show “M*A*S*H”"
+    },
+    {
+      "answers": [
+        [
+          "Shower",
+          54
+        ],
+        [
+          "Get Out Of Bed",
+          21
+        ],
+        [
+          "Exercise",
+          20
+        ],
+        [
+          "Make Breakfast",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of Your Morning Ritual That It’s Hard To Get The Energy To Do."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

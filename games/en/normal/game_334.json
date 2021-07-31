@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Baseball",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Tennis",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Skiing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport Whose Athletes Wear Hats."
+    },
+    {
+      "answers": [
+        {
+          "ans": 2,
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": 3,
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": 1,
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Many Dates Should You Go On Before Kissing Someone?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ghost ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Screams ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cob Webs ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With A Haunted House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occassion For Which You Order A Fancy Cake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawyer",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Used Car Sales",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Spy",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Bad Job For Someone Who Always Tells The Truth."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flowers",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Kiss/Affection",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Jewellery",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Be Pleasantly Surprised To Receive On A First Date?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cell Phone",
+          49
+        ],
+        [
+          "Computer",
+          13
+        ],
+        [
+          "Car",
+          12
+        ],
+        [
+          "Music",
+          9
+        ],
+        [
+          "TV",
+          7
+        ],
+        [
+          "Money",
+          6
+        ],
+        [
+          "Clothes",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teenager Couldn’t Live Without"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          47
+        ],
+        [
+          "Nurse",
+          26
+        ],
+        [
+          "Teacher",
+          10
+        ],
+        [
+          "Waste Collector",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job In Which You’d Be Exposed To A Lot Of Germs"
+    },
+    {
+      "answers": [
+        [
+          "BING CROSBY",
+          53
+        ],
+        [
+          "NAT KING COLE",
+          20
+        ],
+        [
+          "FRANK SINATRA",
+          14
+        ],
+        [
+          "PERRY COMO",
+          5
+        ],
+        [
+          "BURL IVES",
+          3
+        ],
+        [
+          "ELVIS PRESLEY",
+          2
+        ],
+        [
+          "JOHNNY MATHIS",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Singer OF Classic Holiday Standards"
+    },
+    {
+      "answers": [
+        [
+          "Beer",
+          46
+        ],
+        [
+          "Dirty Clothes",
+          28
+        ],
+        [
+          "Grades",
+          9
+        ],
+        [
+          "Sweetheart",
+          5
+        ],
+        [
+          "Cigarettes",
+          4
+        ],
+        [
+          "Dirty Dishes",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A College Student Might Hide Before His Parents Came To Visit"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

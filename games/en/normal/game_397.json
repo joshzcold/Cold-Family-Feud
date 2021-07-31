@@ -1,0 +1,325 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Magic Johnson",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lyndon B Johnson",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Don Johnson",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Andrew Johnson",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Howard Johnson",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Lady Bird Johnson",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Person Who’s Last Name Is “Johnson.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get A Strike",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Perfect Game",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Would You Be Surprised To See A Child Do At A Bowling Alley?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rims/Wheels",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shine",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Paint Job",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bumper Sticker",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Spoiler",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Seat Covers",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Vanity Plate",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something On A Car That Lets You Know The Owner Takes A Lot Of Pride In Their Ride."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clean It",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Season It",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cut It",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Kill It",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pluck It",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Skin It",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Stuff It",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do To A Chicken Before You Cook It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kids",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Girls",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Mess",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Trash",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Mail",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Picked Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Maid",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Chef",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Butler",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Nanny",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Driver",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Money Isn’t An Object, Who Do People Hire To Help Make Their Life Easier?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Find Addresses",
+          50
+        ],
+        [
+          "Booster Seat",
+          36
+        ],
+        [
+          "Maps",
+          7
+        ],
+        [
+          "Door Stop",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Looking Up Numbers, Name Something A Phone Book Gets Used For"
+    },
+    {
+      "answers": [
+        [
+          "Gum",
+          55
+        ],
+        [
+          "Comb/Brush",
+          28
+        ],
+        [
+          "Food",
+          5
+        ],
+        [
+          "pencil",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The Most Common Thing People Get stuck In Their Hair"
+    },
+    {
+      "answers": [
+        [
+          "English/Language",
+          41
+        ],
+        [
+          "Physical Ed",
+          34
+        ],
+        [
+          "Art",
+          13
+        ],
+        [
+          "History",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Einstein Failed A Subject In School, What Might It Have Been?"
+    },
+    {
+      "answers": [
+        [
+          "Socks",
+          47
+        ],
+        [
+          "Shoes",
+          18
+        ],
+        [
+          "Gloves",
+          15
+        ],
+        [
+          "Hat",
+          9
+        ],
+        [
+          "Jacket",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing That Children Are Always Losing"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

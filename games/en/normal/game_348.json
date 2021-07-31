@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cigarettes",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Rotten Fruit",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Spoiled Milk",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wet Dog",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Body Ordor",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Onion",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Stink Up Your Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Staying Up Late",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Sneaking Out",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Eating Junk Food",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Might Try To Get Away With At A Sleepover"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mileage",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Gas",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "If There Is Damage",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "If It is Clean",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific A Rental Car Company Checks When You Return Your Car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jell O",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pudding",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Apple Sauce",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do People Eat In The Hospital"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Color",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "License Plate",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Dents",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bumper Stickers",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Tires",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Dirty/Clean",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Can You Tell One Car Apart From Another Of The Same Model And Year?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toy Store",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Toy Maker",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Child Care",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Puppeteer",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Job Where You Get To Play With Dolls All Day."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tea ",
+          50
+        ],
+        [
+          "Coffee ",
+          33
+        ],
+        [
+          "Cereal ",
+          21
+        ],
+        [
+          "Eggs ",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Add Milk To"
+    },
+    {
+      "answers": [
+        [
+          "Save Them",
+          68
+        ],
+        [
+          "Throw In A Fountain",
+          12
+        ],
+        [
+          "Roll Them Up",
+          9
+        ],
+        [
+          "Throw Them Away",
+          3
+        ],
+        [
+          "Spend Them",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do With Pennies."
+    },
+    {
+      "answers": [
+        [
+          "Woods",
+          36
+        ],
+        [
+          "Mountains",
+          13
+        ],
+        [
+          "Farm",
+          12
+        ],
+        [
+          "Garden",
+          12
+        ],
+        [
+          "Grass",
+          9
+        ],
+        [
+          "Desert",
+          9
+        ],
+        [
+          "Zoo",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someplace You Might Expect To Find A Snake."
+    },
+    {
+      "answers": [
+        [
+          "Dennis Rodman",
+          22
+        ],
+        [
+          "Charlie Sheen",
+          20
+        ],
+        [
+          "Paris Hilton",
+          16
+        ],
+        [
+          "Lindsay Lohan",
+          15
+        ],
+        [
+          "Mike Tyson",
+          7
+        ],
+        [
+          "Kid Rock",
+          7
+        ],
+        [
+          "Britney Spears",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a Rowdy Star Who Might Benefit From Going To Charm School"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Governer",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Senator",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Congress",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Mayor",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Vice President",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Attorney General",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Secretary Of State",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides President, Name A Political Office People Run For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Give Them treats",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Feed Too Much",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Sleep With Them",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Buy Them Clothes",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Buy Them Toys",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way That People Spoil Their Pets."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pot Plant ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Under Mat ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Under Rock ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Glove Box ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Neighbour's ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Wallet ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Might Keep A Spare Key"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doll ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Furniture ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lights ",
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Find In a Dolls House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Stapler",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Copier/Fax",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Envelopes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Paper Clips",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Office Supply That You’d Be Surprised To See On Your Kid’s List Of School Supplies."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flour",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Butter",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sugar",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Baking Soda",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Vanilla",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Oil",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Ingredient That You Use In Baking, But Would Not Eat On Its Own."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Coffee",
+          41
+        ],
+        [
+          "Hot Chocolate",
+          36
+        ],
+        [
+          "Tea",
+          16
+        ],
+        [
+          "Alcohol",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What’s Something You Drink To Make You Warmer?"
+    },
+    {
+      "answers": [
+        [
+          "Chicago",
+          39
+        ],
+        [
+          "New York",
+          21
+        ],
+        [
+          "Minniapolis",
+          20
+        ],
+        [
+          "Denver",
+          9
+        ],
+        [
+          "Buffalo",
+          3
+        ],
+        [
+          "Boston",
+          3
+        ],
+        [
+          "Detroit",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A U.S. City Where It Snows A Lot During The Holidays"
+    },
+    {
+      "answers": [
+        [
+          "Corn",
+          46
+        ],
+        [
+          "Wheat",
+          17
+        ],
+        [
+          "Cotton",
+          13
+        ],
+        [
+          "Carrots",
+          6
+        ],
+        [
+          "Tomatoes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific Farmers Grow In Their Fields"
+    },
+    {
+      "answers": [
+        [
+          "Elizabeth",
+          56
+        ],
+        [
+          "Victoria",
+          14
+        ],
+        [
+          "Mary",
+          12
+        ],
+        [
+          "Cleopatra",
+          5
+        ],
+        [
+          "Anne",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Name Would You Give Your Daughter If You Wanted To Name Her After A Queen?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

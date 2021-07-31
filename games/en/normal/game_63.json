@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Madd",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sorority",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "WNBA",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Now",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Girl Scouts",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Wic Program",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Organization That’s Only For Females"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Darts",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Billiards",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Poker",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Foosball",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Trivia",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Game That A Barfly Would Be A Little Too Good At"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoulder ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Skull ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Spleen ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Scalp ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shin ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stomach ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part Of The Body Beginning With S"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Potty Accident",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Barking",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Laying Around",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Chewing Things Up",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sniffing People",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ruining Furniture",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your Dog Does Around The House, That You’d Kick A Roommate Out For Doing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coat",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Girdle",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tights",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Snow Suit",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing That Makes You Feel Like You Can’t Move"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vegetables",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Canned Fruit",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tuna",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Comes In A Can"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Worm",
+          30
+        ],
+        [
+          "Ants",
+          27
+        ],
+        [
+          "Spider",
+          12
+        ],
+        [
+          "Dirt",
+          11
+        ],
+        [
+          "Roly Poly",
+          9
+        ],
+        [
+          "Slug",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find Under A Rock."
+    },
+    {
+      "answers": [
+        [
+          "Crowded",
+          33
+        ],
+        [
+          "Smell",
+          23
+        ],
+        [
+          "Animals",
+          19
+        ],
+        [
+          "Cleaning Up",
+          6
+        ],
+        [
+          "Storms",
+          6
+        ],
+        [
+          "Boredom",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Worst Thing About Being On Noah’s Ark."
+    },
+    {
+      "answers": [
+        [
+          "Exchange Gifts",
+          42
+        ],
+        [
+          "Sing",
+          30
+        ],
+        [
+          "Go To Church",
+          22
+        ],
+        [
+          "Decorate",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Some Activities People Do On Christmas That They Don’t Do On Other Holidays?"
+    },
+    {
+      "answers": [
+        [
+          "Child’s Education",
+          41
+        ],
+        [
+          "Child’s Wedding",
+          18
+        ],
+        [
+          "Retirement",
+          13
+        ],
+        [
+          "Buying A House",
+          13
+        ],
+        [
+          "Family Vacation",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Big Expense That Some Parents Plan For Years In Advance."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

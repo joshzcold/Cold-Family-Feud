@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Feet",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bottom",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chest",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Underarms",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Back",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Legs",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part Of The Body Where People Sprinkle Powder."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "A Surprise",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Be Spoiled"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shop",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Travel",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bake",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Things People Do Before Thanksgiving Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Noises ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Dogs ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Coffee ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Snoring ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Babies ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That May Keep You Awake At Night"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chocolate",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Vanilla",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tapioca",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Banana",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Butterscotch",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Lemon",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pistachio",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Flavor Of Pudding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Miami",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "San Diego",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Phoenix",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Los Angeles",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "San Francisco",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Santa Fe",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Ft. Lauderdale",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A U.S. City Known For Having Great Weather"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Titanic",
+          23
+        ],
+        [
+          "Social Network",
+          22
+        ],
+        [
+          "Blind Side",
+          16
+        ],
+        [
+          "Milk",
+          13
+        ],
+        [
+          "Malcolm X",
+          9
+        ],
+        [
+          "Kings Speech",
+          9
+        ],
+        [
+          "Pearl Harbor",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Movie That Is Based On A True Story."
+    },
+    {
+      "answers": [
+        [
+          "Drinking",
+          20
+        ],
+        [
+          "Smoking",
+          19
+        ],
+        [
+          "Sky Diving",
+          18
+        ],
+        [
+          "Sushi",
+          16
+        ],
+        [
+          "Riding In Airplane",
+          14
+        ],
+        [
+          "Marriage",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most People Try At Least Once In Their Life."
+    },
+    {
+      "answers": [
+        [
+          "Wash Hands",
+          49
+        ],
+        [
+          "Pray",
+          32
+        ],
+        [
+          "Homework",
+          21
+        ],
+        [
+          "Set Table",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Mom Tells Her Kids To Do Before Dinner"
+    },
+    {
+      "answers": [
+        [
+          "Go",
+          39
+        ],
+        [
+          "Run",
+          25
+        ],
+        [
+          "Touchdown",
+          13
+        ],
+        [
+          "Foul",
+          5
+        ],
+        [
+          "Idiot",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word that people Yell At The TV While watching A Football Game"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

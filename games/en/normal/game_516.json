@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Squirrel",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Ants/Bugs",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Worms",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Rat/Mouse",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Raccoon",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Critter You’d Only Eat If You Were Stranded In The Woods For Weeks?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strong Wind",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Dark Sky/Clouds",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hail",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Rain",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Siren",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Thunder Storm",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sign That A Tornado Is Coming."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mice",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Tail",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Ball Of Yarn",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Birds",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Cats Can Chase All Day."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Groceries",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Papaer",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Couch",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Buy In A Larger Size If You Have A Large Family."
+    },
+    {
+      "answers": [
+        {
+          "ans": "New York",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Airport",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Hotel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Breathe",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Railway Station",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Can Always Find A Taxi"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Family",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Greetings",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Career",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Health",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Write About In Their Yearly Christmas Letter To Loved Ones."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Golf ball",
+          54
+        ],
+        [
+          "Windmill",
+          23
+        ],
+        [
+          "Cup",
+          6
+        ],
+        [
+          "Putting green",
+          6
+        ],
+        [
+          "Putter",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you might find on a miniature golf course."
+    },
+    {
+      "answers": [
+        [
+          "New York",
+          42
+        ],
+        [
+          "Los Angeles",
+          25
+        ],
+        [
+          "San Francisco",
+          12
+        ],
+        [
+          "Las Vegas",
+          4
+        ],
+        [
+          "Boston",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A US City That Probably Has A Lot Of Single People"
+    },
+    {
+      "answers": [
+        [
+          "Goose Bumps",
+          53
+        ],
+        [
+          "Sweat",
+          34
+        ],
+        [
+          "Shake",
+          23
+        ],
+        [
+          "Wet Pants",
+          15
+        ],
+        [
+          "Face Gets Red",
+          10
+        ],
+        [
+          "Heart Beats Fast",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Physically Happen To Your Body When Scared"
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          45
+        ],
+        [
+          "Casinos",
+          29
+        ],
+        [
+          "Lights",
+          19
+        ],
+        [
+          "Tourists",
+          12
+        ],
+        [
+          "Hotels",
+          8
+        ],
+        [
+          "Wedding Chapls",
+          5
+        ],
+        [
+          "Crime",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Does Las Vegas Have Per Capita That Other Cities Don’t"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

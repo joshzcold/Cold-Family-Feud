@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ginger ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Carrot Top ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Red ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Copper Top ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Rusty ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Nickname For People With Red Hair"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rap ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Heavy Metal ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Classical ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Rock & Roll ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Opera ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Music Thats Hard To Dance To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Open Gifts ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Go To Church ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Carols ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Eat ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Family Get Together",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Drink ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do On Christmas Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mud/Dirt",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Sandbox",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Kiddie Pool",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ball pit",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Tree/Playhouse",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bath Tub",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Kids Play In But An Adult Would Not."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Prom",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Coronation",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Beauty Pageant",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Homecoming",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Situation In Which Someone Might Get Crowned."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Finish School",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Fall In Love",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Get A Job",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Date Others",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Have Fun",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Live Together",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We Asked 100 Parents: Name Something You’d Tell Your Children To Do First Before Getting Married"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hot",
+          34
+        ],
+        [
+          "Stormy/Violent",
+          23
+        ],
+        [
+          "Cold/Frigid",
+          16
+        ],
+        [
+          "Sunny",
+          10
+        ],
+        [
+          "Gloomy",
+          9
+        ],
+        [
+          "Icy",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Weather Term That Can Also Describe Your Wife."
+    },
+    {
+      "answers": [
+        [
+          "Flashlight",
+          46
+        ],
+        [
+          "Flares",
+          11
+        ],
+        [
+          "Blanket",
+          10
+        ],
+        [
+          "Jumper Cable",
+          9
+        ],
+        [
+          "Spare Tire",
+          7
+        ],
+        [
+          "Cell Phone",
+          5
+        ],
+        [
+          "Jack",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Keep In Their Car For Emergencies."
+    },
+    {
+      "answers": [
+        [
+          "Star",
+          59
+        ],
+        [
+          "National Enquirer",
+          38
+        ],
+        [
+          "People",
+          25
+        ],
+        [
+          "Globe",
+          16
+        ],
+        [
+          "Us Weekly",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Magazine Or Tabloid Headlines You Don’t Always Believe"
+    },
+    {
+      "answers": [
+        [
+          "Shoes",
+          34
+        ],
+        [
+          "Toilet",
+          29
+        ],
+        [
+          "Floor",
+          14
+        ],
+        [
+          "Jewelry",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Teeth, Name Something People Use A Toothbrush To Clean"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

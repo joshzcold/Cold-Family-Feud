@@ -1,0 +1,349 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "8 ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "7 ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "6 ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "9 ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "10 ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "12 ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Age Children Stop Believing In The Tooth Fairy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chef",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Host",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cashier",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Busser",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides A Waiter, Name A Job At A Restaurant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computers ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Video Games ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Televisions ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Video Recorder ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dvd ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Internet ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Children Have Today That Their Parents Didn't"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Space",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Couple Starts Fighting About Once They Move In Together."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Manager",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Driver",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Groupies",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Band",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "BodyGaurd",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Agent",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Journalist",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides The Star, Name Someone That Might Ride In A Rock Star’s Tour Bus."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sew",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Wash Clothes",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Wash Dishes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Write",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Saw",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Math",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Some People Do By Hand, While Others Use A Machine."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Skin",
+          44
+        ],
+        [
+          "Eyes",
+          34
+        ],
+        [
+          "Nose",
+          18
+        ],
+        [
+          "Hair",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of You That Looks Different When You’re Sick"
+    },
+    {
+      "answers": [
+        [
+          "Honey",
+          56
+        ],
+        [
+          "Bread",
+          36
+        ],
+        [
+          "Chocolate",
+          24
+        ],
+        [
+          "Crackers",
+          16
+        ],
+        [
+          "Celery",
+          10
+        ],
+        [
+          "Jam",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Jelly, What Else Goes Well With Peanut Butter"
+    },
+    {
+      "answers": [
+        [
+          "Two Timing",
+          46
+        ],
+        [
+          "Lives With Parents",
+          22
+        ],
+        [
+          "Parties Alot",
+          13
+        ],
+        [
+          "Young",
+          7
+        ],
+        [
+          "Hung Up On Ex",
+          5
+        ],
+        [
+          "No Job",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Find Out About A Man That Would Make You Think He Wasn’t Ready To Commit?"
+    },
+    {
+      "answers": [
+        [
+          "Shark",
+          36
+        ],
+        [
+          "Tiger",
+          20
+        ],
+        [
+          "Lion",
+          18
+        ],
+        [
+          "Dog",
+          11
+        ],
+        [
+          "Bear",
+          7
+        ],
+        [
+          "Wolf",
+          4
+        ],
+        [
+          "Cat",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal With Sharp Teeth"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

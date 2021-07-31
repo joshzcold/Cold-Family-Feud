@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pinball",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Foosball",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Air Hockey",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Basket Ball",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Skee Ball",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Video Games, Name Another Kind Of Game You Can Play At An Arcade."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crawl",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Eating Junk",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Baby Learns To Do Even Before It Can Talk"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kangaroo ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Koala ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Emu ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ostrich ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Toucan ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Platypus ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal Or Bird Associated With Australia"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dogs",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Alligator",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Goat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Snails",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Animal People Think Others Are Crazy For Eating"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Barking Dog",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "No One’s Home",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "No Soliciting Sign",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Run Down House",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might A Door-To-Door Salesperson Skip A Particular House?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Teacher ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Parent ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Professor ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Police ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Partner ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Might Give A Lecture"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Donald Trump",
+          45
+        ],
+        [
+          "Bill Gates",
+          29
+        ],
+        [
+          "Hugh Heffner",
+          19
+        ],
+        [
+          "Warren Buffet",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Millionaire Who Could Never Be Rich Enough For You To Want To Date Him"
+    },
+    {
+      "answers": [
+        [
+          "Tall",
+          40
+        ],
+        [
+          "Strong",
+          15
+        ],
+        [
+          "Ugly",
+          15
+        ],
+        [
+          "Big",
+          10
+        ],
+        [
+          "Terrifying",
+          10
+        ],
+        [
+          "Monstrous",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Give A Word Frankenstein Would Use To Describe Himself In A Personal Ad."
+    },
+    {
+      "answers": [
+        [
+          "Close Eyes",
+          49
+        ],
+        [
+          "Take A Friend",
+          32
+        ],
+        [
+          "Giggle",
+          21
+        ],
+        [
+          "Drink",
+          14
+        ],
+        [
+          "Run",
+          9
+        ],
+        [
+          "Hold Hands",
+          6
+        ],
+        [
+          "End Of The Line",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "At A Spookhouse, What Do You Do To Make The Experience Less Scary?"
+    },
+    {
+      "answers": [
+        [
+          "Window With A View",
+          42
+        ],
+        [
+          "Leather Chair",
+          27
+        ],
+        [
+          "Big Desk",
+          18
+        ],
+        [
+          "Guest Sofa",
+          12
+        ],
+        [
+          "Private Bathroom",
+          7
+        ],
+        [
+          "Fresh Flowers",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a feature that an executive’s fancy office must have"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

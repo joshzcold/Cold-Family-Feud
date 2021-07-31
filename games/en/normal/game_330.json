@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chatter Box",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Blabber Mouth",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Motor Mouth",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Jabber Jaws",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Give Me A Name Used For A Person Who Talks A Lot"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Ski",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Breathe",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Would Be Harder To Do If You Lived In Los Angeles."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pictures",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Info. On Kids",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Real Name",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Relationship Status",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Who friends Are",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Proudly Share On Facebook"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beef",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Mustard",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lettuce",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Grease",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pickles",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Find On A Fast Food Burger."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Marine Animals",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Treasure",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Shells",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Missing Person",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sunken Ship",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Diver Might Look For Underwater"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nose ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Head ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Brain ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Heart ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Mouth ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Husband / Wife ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Most People Only Have One Of"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Vacuum",
+          34
+        ],
+        [
+          "Blender",
+          32
+        ],
+        [
+          "TV",
+          10
+        ],
+        [
+          "Dishwasher",
+          7
+        ],
+        [
+          "Washer/Dryer",
+          6
+        ],
+        [
+          "Microwave",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Appliance You Avoid Using When People Are Sleeping"
+    },
+    {
+      "answers": [
+        [
+          "Drink Water",
+          63
+        ],
+        [
+          "Rest",
+          12
+        ],
+        [
+          "Celebrate",
+          9
+        ],
+        [
+          "Walk Around",
+          5
+        ],
+        [
+          "Eat",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Runners Do Right After They Finish A Marathon."
+    },
+    {
+      "answers": [
+        [
+          "Splits",
+          31
+        ],
+        [
+          "Shouting",
+          27
+        ],
+        [
+          "Cartwheel",
+          15
+        ],
+        [
+          "Pyramid",
+          13
+        ],
+        [
+          "Use Pom Poms",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You See Cheerleaders Do That Would Look Strange To See People Doing Otherwise."
+    },
+    {
+      "answers": [
+        [
+          "Swing",
+          52
+        ],
+        [
+          "Pool",
+          34
+        ],
+        [
+          "Fence",
+          22
+        ],
+        [
+          "Sandbox",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Put In Backyard If You Have Children"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

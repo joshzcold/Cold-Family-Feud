@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sick",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Broke",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Far Away",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Car Problems",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Too Much Homework",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You May Not Be Able To Get Home For The Holidays"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dolly Parton",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Garth Brooks",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Johnny Cash",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Tim Mcgraw",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Willie Nelson",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hank Williams",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Kenny Rogers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Celebrity Whose Records In Country Music Museum"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Internet",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Cookbook",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Family Recipe",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where People Get New Recipes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lips",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Heart",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of The Body That Gets Mentioned A Lot In Romantic Songs"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Price Is Right",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Family Fued",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Wheel Of Fortune",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Jeopardy",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Game Show That’s Been Around Forever."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Prom",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Reunion",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Event Many People Don’t Like To Attend Without A Date"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Supervision",
+          38
+        ],
+        [
+          "Life Jacket",
+          20
+        ],
+        [
+          "Swimsuit",
+          16
+        ],
+        [
+          "Inner Tube",
+          14
+        ],
+        [
+          "Water Wings",
+          9
+        ],
+        [
+          "Swimming Cap",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Kid Might Not Be Allowed To Go In A Swimming Pool Without"
+    },
+    {
+      "answers": [
+        [
+          "Feet ",
+          42
+        ],
+        [
+          "Steps / Stairs ",
+          27
+        ],
+        [
+          "Rugs ",
+          18
+        ],
+        [
+          "Stones ",
+          12
+        ],
+        [
+          "Toys ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Trip Over"
+    },
+    {
+      "answers": [
+        [
+          "Sandwich ",
+          47
+        ],
+        [
+          "Steak ",
+          31
+        ],
+        [
+          "Apple ",
+          20
+        ],
+        [
+          "Cake ",
+          13
+        ],
+        [
+          "Watermelon ",
+          8
+        ],
+        [
+          "Pizza ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Cut In Half Before Eating"
+    },
+    {
+      "answers": [
+        [
+          "Blueberries",
+          48
+        ],
+        [
+          "Strawberries",
+          38
+        ],
+        [
+          "Bananas",
+          8
+        ],
+        [
+          "Apples",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit You Often Find on Or In Pancakes"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

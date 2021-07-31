@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Insects ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Rats / Mice ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Damp ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Close To Railway ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Noisy Neighbours ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Flat Has That Would Put You Off Renting It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tomato ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Pineapple ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Strawberry ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Grapes ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Fruit That Does NOT Grow On A Tree"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ride",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Race",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Brush Them",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Train/Show Them",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Change Shoes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something People Do With Horses, But No Other Farm Animals."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Watch",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Purse",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Fur/Leather Coat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "DVD",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Item That Might Be Sold Fake By A Street Vendor"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pasta Salad",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Potato Salad",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Fruit Salad",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Taco Salad",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Egg Salad",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Salad That’s Not Green."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sunglasses",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hats",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Musical Insruments",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Black Suits",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Would See In A Blues Brothers Movie."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Run",
+          29
+        ],
+        [
+          "Bend Over",
+          22
+        ],
+        [
+          "Tie shoes",
+          15
+        ],
+        [
+          "Sleep",
+          13
+        ],
+        [
+          "Exercise",
+          9
+        ],
+        [
+          "Walk",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something that might be hard to do while pregnant."
+    },
+    {
+      "answers": [
+        [
+          "Wide Eyes",
+          48
+        ],
+        [
+          "Big Head",
+          25
+        ],
+        [
+          "Green Skin",
+          18
+        ],
+        [
+          "Antennae",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Physical Characteristic That Aliens Are Said To Have"
+    },
+    {
+      "answers": [
+        [
+          "Party ",
+          58
+        ],
+        [
+          "Ship Bon Voyage ",
+          38
+        ],
+        [
+          "Birthday ",
+          25
+        ],
+        [
+          "Football ",
+          16
+        ],
+        [
+          "New Years Eve ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Streamers"
+    },
+    {
+      "answers": [
+        [
+          "Tea",
+          37
+        ],
+        [
+          "Ale",
+          27
+        ],
+        [
+          "Fish and Chips",
+          14
+        ],
+        [
+          "Crumpets",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Or Beverage Associated With England"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

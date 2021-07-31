@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Hello",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Thank You",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Help",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Please",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When Traveling In A Foreign Country, Name Something You’d Hate To Forget The Word For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Mickey Mouse",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dentist",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Band Instructor",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Wears White Gloves."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Circus",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Camping",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Might Take Place In A Large Tent."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Registration",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Map",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Insurance Card",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Flashlight",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Tissues",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Car Manual",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Keep In Your Car’s Glove Compartment."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Low Pay",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Hours Are Bad",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Mean Boss",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Location",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "No Benefits",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dangerous",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Travel A Lot",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You Find Out About A Job That Would Keep You From Accepting It?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gun",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Parasol",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pitchfork",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cane",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fan",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a prop you may hold in an “Olde Time” photograph at the fair."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fibbing",
+          53
+        ],
+        [
+          "White Lie",
+          29
+        ],
+        [
+          "Telling A Story",
+          5
+        ],
+        [
+          "Kidding",
+          4
+        ],
+        [
+          "Tall Tale",
+          3
+        ],
+        [
+          "Stretching The Truth",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Another Word For Lying That Makes It Sound More Innocent"
+    },
+    {
+      "answers": [
+        [
+          "Computer",
+          50
+        ],
+        [
+          "Phone",
+          27
+        ],
+        [
+          "Ax",
+          6
+        ],
+        [
+          "Calculator",
+          3
+        ],
+        [
+          "Tools",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Use At Work Everyday, But Would Hate To Have To Use On Vacation"
+    },
+    {
+      "answers": [
+        [
+          "Mall",
+          49
+        ],
+        [
+          "Movie",
+          32
+        ],
+        [
+          "Skating Rink",
+          21
+        ],
+        [
+          "Bowling Alley",
+          14
+        ],
+        [
+          "Friends House",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Before 21, A Place A Young Person Could Hang On Friday Night"
+    },
+    {
+      "answers": [
+        [
+          20,
+          43
+        ],
+        [
+          18,
+          20
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          30,
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Age Of A Woman That Is Too Young To Be Dating A 50 Year Old Man"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

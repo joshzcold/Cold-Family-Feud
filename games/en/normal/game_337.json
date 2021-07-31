@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Shuffle",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Play Poker",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Play Solitaire",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Deal",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Do Tricks",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Gamble",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do With A Deck Of Cards"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Motor",
+          "pnt": 75,
+          "trig": false
+        },
+        {
+          "ans": "Baby",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Caster",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Suntan",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Oil People Never Put On Food."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hot Dog",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Popsicle",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Love To Eat That Adults Like Too."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jello",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Dough",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Meatloaf",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mashed Potatoes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Can Be Molded Into A Shape"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Candy",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Costume",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Decorations",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Buy In Preparation For Halloween"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ride A Horse",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Ride In Rodeo",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Wear Boots",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lasso Him",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Use Cowboy Slang",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wear Cowboy Hat",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You May Do If You Were Trying To Woo A Cowboy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bite Nails",
+          58
+        ],
+        [
+          "Smoking",
+          38
+        ],
+        [
+          "Eating",
+          25
+        ],
+        [
+          "Yelling",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Bad Habit Some People Haves When They Are Stressed"
+    },
+    {
+      "answers": [
+        [
+          "Guarding/Security",
+          58
+        ],
+        [
+          "Digging Holes",
+          20
+        ],
+        [
+          "Track People/Police",
+          11
+        ],
+        [
+          "Deliver Papers",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Dog Owners Demanded Fido Get A Job, What Job Might He Be Good At?"
+    },
+    {
+      "answers": [
+        [
+          "Becoming Intimate",
+          40
+        ],
+        [
+          "Greedy Girl",
+          25
+        ],
+        [
+          "Becoming A Father",
+          24
+        ],
+        [
+          "Bad Girls",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "With Regard To Dating, Name Something Moms Warn Their Sons To Avoid"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          51
+        ],
+        [
+          "Hands",
+          33
+        ],
+        [
+          "Hair",
+          22
+        ],
+        [
+          "Sheets",
+          14
+        ],
+        [
+          "Clothes",
+          9
+        ],
+        [
+          "Ears",
+          6
+        ],
+        [
+          "Windows",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Probably Don’t Wash As Often As You Should"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

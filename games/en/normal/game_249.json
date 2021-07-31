@@ -1,0 +1,297 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Merry Go Round ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Horse / Pony ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Ferris Wheel ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Train ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Swing ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Ride That All Children Love"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clap",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Scream",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Go Home",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Call For Encore",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sit Down",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "At A Rock Concert, Name Something People Do When A Song Is Over."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheese & Onion ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Salt & Vinegar ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Ready Salted ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Flavour Of Crisps"
+    },
+    {
+      "answers": [
+        {
+          "ans": "In Jail",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Too Expensive",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Grounded",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "At Work",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might A Person Only Be Allowed A Limited Number Of Phone Calls?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Icy Roads",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bridge",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Freeway",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Many People Are Afraid To Drive On."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pinocchio",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Singing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Insect",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Top hat",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Walt Disney",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cartoons",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something associated with Jiminy Cricket."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smoking",
+          41
+        ],
+        [
+          "Drinking",
+          27
+        ],
+        [
+          "Biting Nails",
+          17
+        ],
+        [
+          "Gambling",
+          11
+        ],
+        [
+          "Shopping",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Habit Impossible To Hide From Spouse"
+    },
+    {
+      "answers": [
+        [
+          "Comics",
+          51
+        ],
+        [
+          "Sports",
+          38
+        ],
+        [
+          "Horoscope",
+          4
+        ],
+        [
+          "Entertainment",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Part Of A Newspaper Would A Teenager Likely Read First?"
+    },
+    {
+      "answers": [
+        [
+          "Albert Einstein",
+          32
+        ],
+        [
+          "Thomas Edison",
+          32
+        ],
+        [
+          "Ben Franklin",
+          18
+        ],
+        [
+          "Alexander Graham Bell",
+          13
+        ],
+        [
+          "Eli Whitney",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who’s Known For Inventing Something"
+    },
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          61
+        ],
+        [
+          "Restaurant",
+          12
+        ],
+        [
+          "In Bed",
+          10
+        ],
+        [
+          "Wedding",
+          6
+        ],
+        [
+          "Work",
+          4
+        ],
+        [
+          "Street",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where A Couple Should Never Fight."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

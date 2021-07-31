@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Football ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Hockey ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Basketball ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Rugby ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Polo ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport You Play In Teams"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sick",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bad Behavior",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grades",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Fight",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Skipping Class",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why Your Kid’s Teacher Might Call From School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wash Hands",
+          "pnt": 71,
+          "trig": false
+        },
+        {
+          "ans": "Put Gloves On",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Gone To School",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sterilized Equipment",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Hope Your Dentist Has Done Before He Starts His Exam."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Massage",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Clap",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do With Both Hands."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hungry",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Teething",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Tired",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sickness",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wet Diaper",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Colic",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Baby May Be More Fussy Than Usual."
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Spot ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "A Bogey ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "A Hair ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "A Fist ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You'd Hate To Find On The End Of Your Nose"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "French",
+          41
+        ],
+        [
+          "Chinese",
+          27
+        ],
+        [
+          "Italian",
+          17
+        ],
+        [
+          "Mexican",
+          11
+        ],
+        [
+          "Japanese",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Restaurant Might Not Be Able To Pronounce Anything On Menu"
+    },
+    {
+      "answers": [
+        [
+          "Speak",
+          46
+        ],
+        [
+          "Walk On 2 Legs",
+          27
+        ],
+        [
+          "Shake",
+          15
+        ],
+        [
+          "Dance",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something “Human” That People Try To Teach Their Dogs To Do."
+    },
+    {
+      "answers": [
+        [
+          "Fruit/Vegetables",
+          44
+        ],
+        [
+          "Clothes",
+          23
+        ],
+        [
+          "Bread",
+          13
+        ],
+        [
+          "Pillow",
+          11
+        ],
+        [
+          "Linens",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You Feel Before You Buy It."
+    },
+    {
+      "answers": [
+        [
+          "Emergency Department",
+          49
+        ],
+        [
+          "Home Phone",
+          37
+        ],
+        [
+          "Grandparents",
+          7
+        ],
+        [
+          "Best Friend",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Whose Phone Number Might A Child Know By Heart?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

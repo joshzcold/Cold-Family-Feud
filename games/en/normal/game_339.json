@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Batman ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Superman ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Dracula ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wizard / Magician ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Nurse ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Zorro ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Usually Wears A Cape"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tour bus",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "On foot",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bilkes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Public Transportation",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way tourists Get Around In A Big City."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chores",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Babysitting",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Paper Route",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Mow Lawns",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lemonade Stand",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Before A Part-Time Job, Name A Way That Kids Earn Money."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Detention",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Stand In Corner",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Suspension",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Write Lines",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Principal’s Office",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "No Recess",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Punishment That A Misbehaving Kid Might Get At School."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Beans",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tomato/Salsa",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Put In A Breakfast Buritto"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Chess",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Debate",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Glee Club",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Boy Scouts",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Math",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Science",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Club Bill Gates Probably Belonged To In High School."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Kitchen",
+          48
+        ],
+        [
+          "Tree",
+          27
+        ],
+        [
+          "Wrapping Paper",
+          15
+        ],
+        [
+          "Decorations",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What’s The Messiest Thing To Clean Up After The Christmas Holiday?"
+    },
+    {
+      "answers": [
+        [
+          "Wear Sunglasses",
+          50
+        ],
+        [
+          "Kepp A Straight Face",
+          41
+        ],
+        [
+          "Drink",
+          6
+        ],
+        [
+          "Look Away",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Poker Player Do To Make Bluffing Easier?"
+    },
+    {
+      "answers": [
+        [
+          "Swimsuit",
+          46
+        ],
+        [
+          "Floaties",
+          30
+        ],
+        [
+          "Towel",
+          20
+        ],
+        [
+          "Goggles",
+          13
+        ],
+        [
+          "Life Jacket",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Kid Forget To Bring To Pool That Would Keep Him From Swimming"
+    },
+    {
+      "answers": [
+        [
+          "Pack",
+          54
+        ],
+        [
+          "Shop",
+          35
+        ],
+        [
+          "Tan",
+          23
+        ],
+        [
+          "Clean",
+          15
+        ],
+        [
+          "Save Money",
+          10
+        ],
+        [
+          "Stop Mail",
+          6
+        ],
+        [
+          "Plan",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do Before You Go On Vacation"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

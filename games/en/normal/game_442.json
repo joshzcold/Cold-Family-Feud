@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Star Wars",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Hairstyle",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Han Solo",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Luke Skywalker",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Darth Vader",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Rebel Alliance",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Princess Leia."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Treats",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Attention",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Praise",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Given To Both Spoiled Dogs And Spoiled Children"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cream ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Wimbledon ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sugar ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Strawberrys"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wig",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Albums",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "White Pantsuit",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Sideburns",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Blue Suede Shoes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If An Elvis Impersonator Had Rummage Sale, Find?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wash Dishes",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Take Out Trash",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Clean Room",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Mow Lawn",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Chore Kids Do In Order To Get An Allowance."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoke",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Drink Alcohol",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Drive",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Gossip",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wouldn’t Want Your Children To Do As You Do?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cricket ",
+          50
+        ],
+        [
+          "Football ",
+          33
+        ],
+        [
+          "Athletics / Running ",
+          21
+        ],
+        [
+          "Rugby ",
+          14
+        ],
+        [
+          "Golf ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport Where A Player Might Wear Spiked Or Studded Shoes"
+    },
+    {
+      "answers": [
+        [
+          "Thing",
+          29
+        ],
+        [
+          "Lurch",
+          19
+        ],
+        [
+          "Cousin It",
+          13
+        ],
+        [
+          "Pugsley",
+          12
+        ],
+        [
+          "Morticia",
+          11
+        ],
+        [
+          "Wednesday",
+          9
+        ],
+        [
+          "Uncle Fester",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Or Someone Associated With “The Addams Family.”"
+    },
+    {
+      "answers": [
+        [
+          "Sneezing",
+          52
+        ],
+        [
+          "Getting Hiccups",
+          11
+        ],
+        [
+          "Breathing",
+          11
+        ],
+        [
+          "Blinking",
+          7
+        ],
+        [
+          "Laughing",
+          6
+        ],
+        [
+          "Eating/Drinking",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Coughing, What’s Something You Can’t Stop Yourself From Doing?"
+    },
+    {
+      "answers": [
+        [
+          "Dawn French ",
+          41
+        ],
+        [
+          "Catherine Tate ",
+          27
+        ],
+        [
+          "Lee Evans ",
+          17
+        ],
+        [
+          "Victoria Wood ",
+          11
+        ],
+        [
+          "Billy Conelly ",
+          7
+        ],
+        [
+          "The 2 Ronnies ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Tv Comedian"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

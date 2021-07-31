@@ -1,0 +1,372 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Violin",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Piano",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Harp",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Drums",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "French Horn",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Flute",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Hardest Musical Instrument To Learn How To Play"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crib",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Diapers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Playpen",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Mobile",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Changing Table",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Baby Bottle",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Probably Find In A Baby’s Bedroom."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleeping",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Not Dressed",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Stranger",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Busy",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Why You Wouldnt Answer Door"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stay Up Late",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Become Rich",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sleep In",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "No House Rules",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Eat Junk Food",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Travel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Kids Say They’d Do If They Were An Adult, But That Adults Rarely Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Sunscreen",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Tank Tops",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fans",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioners",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suits",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Department Store Might Sell Out On A Hot Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dirty",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bad Service",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Crowded",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Smell",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Noise",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Emergency",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would Make You Leave Restaurant Before Ordering"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tom",
+          54
+        ],
+        [
+          "Tim",
+          14
+        ],
+        [
+          "Tony",
+          11
+        ],
+        [
+          "Terry",
+          6
+        ],
+        [
+          "Taylor",
+          5
+        ],
+        [
+          "Travis",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Man’s Name That Starts With The Letter “T.”"
+    },
+    {
+      "answers": [
+        [
+          "Parents",
+          49
+        ],
+        [
+          "Kids",
+          32
+        ],
+        [
+          "Best Friend",
+          21
+        ],
+        [
+          "Sublings",
+          14
+        ],
+        [
+          "Ex",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone In A Man’s Life Who You’D Want To Meet Before Marrying Him"
+    },
+    {
+      "answers": [
+        [
+          "Wink",
+          38
+        ],
+        [
+          "Blow kisses",
+          28
+        ],
+        [
+          "Hug",
+          19
+        ],
+        [
+          "Whistle At Someone",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Flirtatious That A Man Shouldn’t Do While At Work."
+    },
+    {
+      "answers": [
+        [
+          "Pink Flamingo",
+          46
+        ],
+        [
+          "Statue",
+          30
+        ],
+        [
+          "Bird Bath",
+          20
+        ],
+        [
+          "Flower Pot",
+          13
+        ],
+        [
+          "Gnome",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Lawn Ornament"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Privacy",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Famous",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Avoid Telemarketers",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Occupation",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Getting Prank Calls",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Just Moved",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bill Collectors",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Why Might Someone’s Phone Number Be Unlisted?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Mini Skirt",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suit",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lingerie",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Article Of Clothing That Many Men Think Women Look Attractive In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Check",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Greeting Card",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Post It Note",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hand",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Envelope",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Notebook Page",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Application",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific You Often Run Out Of Space To Write On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tiara",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Prince",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Gown",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Castle",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Long Hair",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Knight",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Frog",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With A Princess In A Renaissance Movie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Magazines",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Detergent",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Paper",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "??",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Food, What Else Do You Buy At A Supermarket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dark Clouds/Sky",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Lightning",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Wind Changes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Smell",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drizzling",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way You Can Tell A Storm Is Coming"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Oak Tree",
+          48
+        ],
+        [
+          "Palm Tree",
+          32
+        ],
+        [
+          "Maple Tree",
+          13
+        ],
+        [
+          "Fruit Tree",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Tree That Would Look Silly To Have As A Christmas Tree."
+    },
+    {
+      "answers": [
+        [
+          "Flat Tyre ",
+          59
+        ],
+        [
+          "Flat Battery ",
+          38
+        ],
+        [
+          "No Petrol ",
+          25
+        ],
+        [
+          "Breakdown ",
+          16
+        ],
+        [
+          "Motor ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Go Wrong With Your Car"
+    },
+    {
+      "answers": [
+        [
+          "Bedsheet",
+          53
+        ],
+        [
+          "Blinds",
+          34
+        ],
+        [
+          "Blanket",
+          23
+        ],
+        [
+          "Towels",
+          15
+        ],
+        [
+          "Newspaper",
+          10
+        ],
+        [
+          "Clothes",
+          6
+        ],
+        [
+          "Posters",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Curtains, Name Something College Student Cover Window"
+    },
+    {
+      "answers": [
+        [
+          7,
+          13
+        ],
+        [
+          11,
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Number That People Consider Lucky"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

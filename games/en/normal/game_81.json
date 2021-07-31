@@ -1,0 +1,342 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Posters",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Color Pink",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 121,
+          "trig": false
+        },
+        {
+          "ans": "Diary",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Magazines",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Stuffed Animals",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You See In A Room That Tells You A Teenage Girl Lives There."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turn Off Lights",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Set Thermostat Low",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Use Less A/C",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Efficient Bulbs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Unplug Electronics",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do To Save Energy Around The House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cadalac",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Continental",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Chevy",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Buick",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Car That Old People Like To Own"
+    },
+    {
+      "answers": [
+        {
+          "ans": "PICTURE",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "CLOTHES",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "JEWELRY",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "CARDS/LETTERS",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reminder Of An Ex That You’d Get Rid Of After A Break Up"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Put Seat Belt On",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Start Car",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Close Car Door",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Keys In Ignition",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lock Doors",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Fix Mirrors",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Sit Down",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The First Thing You Do When You Get In Your Car."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Luggage",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Boarding Pass",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "ID/Passport",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Hate To Lose At The Airport."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Alley",
+          37
+        ],
+        [
+          "Sewer",
+          24
+        ],
+        [
+          "New York City",
+          12
+        ],
+        [
+          "Dumpster",
+          9
+        ],
+        [
+          "Garage",
+          4
+        ],
+        [
+          "Barn",
+          3
+        ],
+        [
+          "Basement",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Might See A Lot Of Rats"
+    },
+    {
+      "answers": [
+        [
+          "Mother",
+          53
+        ],
+        [
+          "Ex",
+          17
+        ],
+        [
+          "Administrative Assistant",
+          11
+        ],
+        [
+          "Sister",
+          7
+        ],
+        [
+          "Female Friend",
+          5
+        ],
+        [
+          "Daughter",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Woman In A Man’s Life Who His Wife Might Not Get Along With."
+    },
+    {
+      "answers": [
+        [
+          "Doctor Doolittle",
+          32
+        ],
+        [
+          "Doctor Zhivago",
+          26
+        ],
+        [
+          "Doctor Who",
+          15
+        ],
+        [
+          "Dr. No",
+          13
+        ],
+        [
+          "Dr. Jekyll/Mr. Hyde",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Movie With The Word “Dr.” In The Title."
+    },
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          32
+        ],
+        [
+          "Work",
+          26
+        ],
+        [
+          "Police Station",
+          13
+        ],
+        [
+          "Home",
+          10
+        ],
+        [
+          "Parents’ House",
+          6
+        ],
+        [
+          "In Laws’ House",
+          3
+        ],
+        [
+          "Court",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That You Wouldn’t Want To Go After Having A Few To Drink"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

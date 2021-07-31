@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Banker",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Religious Leader",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Judge",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation You’d Be Surprised To Find A Criminal Had As Their Day Job"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Orange",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Tomato",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Peach",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A fruit That’s Hard To Eat Without Getting Messy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tossing And Turning",
+          "pnt": 72,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Lights On",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Can You Tell That The Person Who Shares Your Room Is Having Trouble Sleeping?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shark",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Sea Snake",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Octopus",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Whale",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Electric Eel",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Squid",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sea Creature You’d Hate To Run Into While Scuba Diving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sick",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Car Trouble",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Overslept",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me An Excuse For Not Going To Work That No One Really Believes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talk To Someone Else",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Interrupt",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Hang Up",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Put You On Hold",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "make Noises",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Rude People Do While You’re Trying To Talk To Them On The Phone."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Noisy Kids",
+          44
+        ],
+        [
+          "Bad Weather",
+          29
+        ],
+        [
+          "Baby Crying",
+          19
+        ],
+        [
+          "Knees In The Back",
+          12
+        ],
+        [
+          "??",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That would Keep You From Sleeping On An Airplane"
+    },
+    {
+      "answers": [
+        [
+          "Door ",
+          41
+        ],
+        [
+          "Car ",
+          27
+        ],
+        [
+          "House ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Must Remember To Lock"
+    },
+    {
+      "answers": [
+        [
+          "Bite",
+          26
+        ],
+        [
+          "Move A Lot",
+          15
+        ],
+        [
+          "Scream",
+          12
+        ],
+        [
+          "Not Brushing",
+          11
+        ],
+        [
+          "Talk",
+          11
+        ],
+        [
+          "Spit",
+          11
+        ],
+        [
+          "Close Mouth",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Patient Might Do That Would Make A Dentist Complain?"
+    },
+    {
+      "answers": [
+        [
+          "PILLOW",
+          29
+        ],
+        [
+          "CARDBOARD BOX",
+          22
+        ],
+        [
+          "BLANKET",
+          21
+        ],
+        [
+          "BEHIND",
+          8
+        ],
+        [
+          "MATTRESS",
+          8
+        ],
+        [
+          "TOWEL",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Kid Might Use To Slide Down The Stairs"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sick",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Snoring",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Bad Breath",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Gas",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cold Feet",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Body Odor",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Would Keep You From Snuggling Up To Your Spouse In Bed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Breath",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Miss Their Mouth",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bump Nose/ Head",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sneeze",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bite Up",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Go Wrong During A First Kiss With Someone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cell Phone",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Mace",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Friend",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Own Transportation",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Every Woman Should Take With Her On Blind Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Fox",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Kitten",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That A Person Can Be Referred To As"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Runny Nose",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sneeze",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sore Throat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fever",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drowsiness",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What’s The First Symptom You Get When Starting A Cold?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stars ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Moon ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Owls ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Only See A Night Time"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sword ",
+          40
+        ],
+        [
+          "Shield ",
+          26
+        ],
+        [
+          "Helmet ",
+          17
+        ],
+        [
+          "Chariot ",
+          11
+        ],
+        [
+          "Horse ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Gladiator Might Take With Him Into Battle"
+    },
+    {
+      "answers": [
+        [
+          "NOSE",
+          54
+        ],
+        [
+          "TOES",
+          35
+        ],
+        [
+          "BOTTOM",
+          23
+        ],
+        [
+          "EARS",
+          15
+        ],
+        [
+          "FINGERS",
+          10
+        ],
+        [
+          "HIPS",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something On Your Body That You Wiggle"
+    },
+    {
+      "answers": [
+        [
+          "Popcorn",
+          29
+        ],
+        [
+          "Corn Bread",
+          26
+        ],
+        [
+          "Tortillas/Chips",
+          20
+        ],
+        [
+          "Gifts",
+          9
+        ],
+        [
+          "Cornflakes/Cereal",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That’s Made From Corn."
+    },
+    {
+      "answers": [
+        [
+          "Obituaries",
+          48
+        ],
+        [
+          "Front Page",
+          27
+        ],
+        [
+          "Crime Log/Courts",
+          15
+        ],
+        [
+          "Classified",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Place In The Newspaper Where You Wouldn’t Want To See Your Name."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

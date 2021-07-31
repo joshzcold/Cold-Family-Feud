@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Glass/Dishes",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item That Usually Comes With A Lot Of Packaging In The Box."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fireman",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Singer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Athlete",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Astronaut",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Real Occupation A Kid Might Idolize Like Superhero"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Twins",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Dice",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Tires",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Scissors",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tweezers",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Pair Of Something You Cannot Wear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Boxing Gloves",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Muscles",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Wig",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Black Eye",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Need If You Wanted To Dress A Rocky Balboa For Halloween?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seat",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Brakes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Steering Wheel",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tires",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of Your Car That Can Be Adjusted."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Run",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Scream",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Climb A Tree",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Stand Still",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Would Do If A Dog Was Chasing You."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "GLOVE",
+          50
+        ],
+        [
+          "JERSEY",
+          33
+        ],
+        [
+          "BAT",
+          21
+        ],
+        [
+          "BASEBALL CARD",
+          14
+        ],
+        [
+          "CAP",
+          9
+        ],
+        [
+          "PHOTOGRAPH",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than A Ball, Name Something That A Baseball Player Gets Asked To Sign"
+    },
+    {
+      "answers": [
+        [
+          "Needle ",
+          41
+        ],
+        [
+          "Potato ",
+          27
+        ],
+        [
+          "Storm ",
+          17
+        ],
+        [
+          "London Eye ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Non Living Object With An Eye"
+    },
+    {
+      "answers": [
+        [
+          "Jewelry",
+          57
+        ],
+        [
+          "Money",
+          37
+        ],
+        [
+          "Recipes",
+          24
+        ],
+        [
+          "Pictures",
+          16
+        ],
+        [
+          "Stories",
+          10
+        ],
+        [
+          "Advice",
+          7
+        ],
+        [
+          "Genes",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something A Grandma Passes On To Her Grandchildren"
+    },
+    {
+      "answers": [
+        [
+          "Hot Dog",
+          44
+        ],
+        [
+          "Hot sauce",
+          20
+        ],
+        [
+          "Hot Tamale",
+          13
+        ],
+        [
+          "Hot Wings",
+          9
+        ],
+        [
+          "Hot Pocket",
+          7
+        ],
+        [
+          "Hot Peppers",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Food That Has “Hot” In Its Name"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Homework",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Boring",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bullies",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Too Hard",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason Kids Give For Not Liking School"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lights",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Oven Radio",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Partner",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Be Easily Be turned Off"
+    },
+    {
+      "answers": [
+        {
+          "ans": "History",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Geography",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Current Events",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "The Bible",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Were Going To Be A Contestant On Jeopardy, Name A Specific Subject Area You’d Want To Memorize Beforehand."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speed",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Stop The Car",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Go The Wrong Way",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Crash",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Slow Down",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Be Surprised A Car Navigation System Advise You To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turtle Doves",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Partridge",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Geese",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Calling Birds",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "French Hens",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Swans",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal Mentioned In The Song “12 Days Of Christmas”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lice",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Bad Grades",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Drugs",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Illness",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Germs",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wouldn’t Want Your Kid Bringing Home From School."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bat",
+          45
+        ],
+        [
+          "Mitt",
+          31
+        ],
+        [
+          "Baseball",
+          9
+        ],
+        [
+          "Batting Gloves",
+          6
+        ],
+        [
+          "Chewing Tobacco",
+          4
+        ],
+        [
+          "Water Bottle",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Baseball Player Might Be Holding During A Game."
+    },
+    {
+      "answers": [
+        [
+          "Guests",
+          42
+        ],
+        [
+          "Cake",
+          18
+        ],
+        [
+          "Wedding Dress",
+          13
+        ],
+        [
+          "Bridal Party",
+          9
+        ],
+        [
+          "Flowers",
+          7
+        ],
+        [
+          "Clergy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Elope To Las Vegas, Name Something You Might Not Have At Your Wedding."
+    },
+    {
+      "answers": [
+        [
+          30,
+          37
+        ],
+        [
+          40,
+          30
+        ],
+        [
+          25,
+          17
+        ],
+        [
+          35,
+          6
+        ],
+        [
+          20,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We asked 100 Women: At what age is a man most handsome?(NUMBERS ONLY)"
+    },
+    {
+      "answers": [
+        [
+          "Food ",
+          57
+        ],
+        [
+          "Service ",
+          37
+        ],
+        [
+          "Wine ",
+          24
+        ],
+        [
+          "Price ",
+          16
+        ],
+        [
+          "Decoration ",
+          10
+        ],
+        [
+          "Atmosphere ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Makes A Restaurant First Class"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

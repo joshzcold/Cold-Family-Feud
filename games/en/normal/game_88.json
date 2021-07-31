@@ -1,0 +1,343 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Jeans",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cap",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Sneakers",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’D Hate See Your Date Wear To Symphony"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Loan Shark",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Gambler",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pool Player",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Car Dealer",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Agent",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Politition",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Profession Where You Might Be Called A Shark"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Horse",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Roller Coaster",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Train",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’ve Ridden On Only A Handful Of Times In Your Life."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Say I Love You",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ramble",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Shot",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Beg For A Date",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Say Wrong Name",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Date Do On Your Answering Machine That Would Keep You From Calling Them Back?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Colorado",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Vermont",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Alaska",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Utah",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A State People Visit On A Ski Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rent",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Mortgage",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Utilities",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Car Payment",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Credit",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The First Bill You Pay Each Month?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Eiffel Tower",
+          41
+        ],
+        [
+          "Sears Tower",
+          17
+        ],
+        [
+          "Tower Of Pisa",
+          14
+        ],
+        [
+          "Watts Towers",
+          13
+        ],
+        [
+          "Space Needle",
+          5
+        ],
+        [
+          "Trump Tower",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Tower."
+    },
+    {
+      "answers": [
+        [
+          "Chewing Gum",
+          75
+        ],
+        [
+          "Candy",
+          10
+        ],
+        [
+          "Pencil",
+          4
+        ],
+        [
+          "Nicorette",
+          4
+        ],
+        [
+          "Straw",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person trying To Quit Smoking Might Put In Their Mouth"
+    },
+    {
+      "answers": [
+        [
+          "Homework",
+          30
+        ],
+        [
+          "Lunch",
+          27
+        ],
+        [
+          "Backpack",
+          20
+        ],
+        [
+          "Books",
+          10
+        ],
+        [
+          "Money",
+          9
+        ],
+        [
+          "Jacket",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Forget When Leaving For School."
+    },
+    {
+      "answers": [
+        [
+          "Laundry",
+          31
+        ],
+        [
+          "Clean",
+          22
+        ],
+        [
+          "Eat",
+          14
+        ],
+        [
+          "Go to work",
+          10
+        ],
+        [
+          "sleep",
+          8
+        ],
+        [
+          "use bathroom",
+          7
+        ],
+        [
+          "shop",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you do each day, but you never see soap opera characters doing."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

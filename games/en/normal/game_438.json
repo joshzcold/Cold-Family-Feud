@@ -1,0 +1,351 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Soap",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Ashtray",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Robe",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pen",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pillow",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Take Back Home From Your Hotel Room"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Warning",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Nice",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Flirts",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Driver Cute",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Driver Cries",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Friend",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Light Out",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Why Might A Cop Who Pulls Someone Over Not Give A Ticket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Attacked By A Dog",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Bad Weather",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Too Much Mail",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Mailman Might Have A Bad Day On His Route"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Worship Service",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Work/Interview",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Going For Dinner",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Time When A Wife Often Chooses Her Husband’s Clothes For Him."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chips",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Peanuts",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Crackers",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pretzels",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Consider A Snack Food"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Read",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Coloring Books",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Play Games",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Activity Kids Do In The Car That They Can Also Do At Home."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Restaurant",
+          42
+        ],
+        [
+          "Bar",
+          31
+        ],
+        [
+          "Movie Theater",
+          11
+        ],
+        [
+          "Basement",
+          5
+        ],
+        [
+          "Alley",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That Might Be Dimly Lit."
+    },
+    {
+      "answers": [
+        [
+          "Mother / Father ",
+          59
+        ],
+        [
+          "Best Friend ",
+          38
+        ],
+        [
+          "Husband / Wife ",
+          25
+        ],
+        [
+          "No One ",
+          16
+        ],
+        [
+          "Teacher ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Whose Advice You Usually Accept"
+    },
+    {
+      "answers": [
+        [
+          "News",
+          53
+        ],
+        [
+          "Email/Spam",
+          18
+        ],
+        [
+          "Gossip",
+          11
+        ],
+        [
+          "Bills/Accounts",
+          8
+        ],
+        [
+          "Blog/Comments",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Last Thing You Read On The Internet That You Wish You Hadn’t."
+    },
+    {
+      "answers": [
+        [
+          "Store Clerks",
+          24
+        ],
+        [
+          "Waitress",
+          22
+        ],
+        [
+          "Doctor",
+          16
+        ],
+        [
+          "Police Officer",
+          16
+        ],
+        [
+          "Nurse",
+          11
+        ],
+        [
+          "Teacher",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Person That Wears A Name Tag"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

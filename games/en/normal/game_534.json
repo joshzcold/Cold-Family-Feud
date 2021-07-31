@@ -1,0 +1,357 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Crystall Ball",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Bible",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Fortune Cookie",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Horoscope",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "News",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Alminac",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where You Might Find A Prediction About The Future"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gum",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mouthwash",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hard Candy/ Sucker",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Put In Your Mouth But Do Not Swallow."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Telemarketer",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Hair Dresser",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cab Driver",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Secretary",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bartender",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Waitress",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Psychiatrist",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Profession Where Talk To Strangers All Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Poker",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Bridge",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Uno",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Solitaire",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gin Rummy",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "War",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Card Game That Takes A Long Time To Play."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Traffic",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Getting Lost",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Car Trouble",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Car Accident",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Kids Misbehaving",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Lost Wallet/ Cash",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Getting Sick",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Make Your Road Trip Stressful"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Seattle",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Rainforest",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "London",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Florida Everglades",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Oregon",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where It’s Always Rainy."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Nail File",
+          60
+        ],
+        [
+          "Fingernail Polish",
+          26
+        ],
+        [
+          "Buffer",
+          6
+        ],
+        [
+          "Cotton Balls",
+          5
+        ],
+        [
+          "Scissors",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a manicurist needs to do her job."
+    },
+    {
+      "answers": [
+        [
+          "Spiders",
+          37
+        ],
+        [
+          "Heights",
+          25
+        ],
+        [
+          "Snakes",
+          14
+        ],
+        [
+          "Water",
+          7
+        ],
+        [
+          "Darkness",
+          6
+        ],
+        [
+          "Flying",
+          4
+        ],
+        [
+          "Small Spaces",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About Which Many People Have Phobias."
+    },
+    {
+      "answers": [
+        [
+          "Construction",
+          38
+        ],
+        [
+          "House Painter",
+          21
+        ],
+        [
+          "Landscaper",
+          16
+        ],
+        [
+          "Farmer",
+          12
+        ],
+        [
+          "Athlete",
+          5
+        ],
+        [
+          "Postal Worker",
+          3
+        ],
+        [
+          "Lifeguard",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Profession In Which Rain Can Ruin A Day’s Work."
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          39
+        ],
+        [
+          "TV",
+          23
+        ],
+        [
+          "Air Conditioning",
+          11
+        ],
+        [
+          "Telephone",
+          8
+        ],
+        [
+          "Toilet Paper",
+          6
+        ],
+        [
+          "Computer",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Went Back In Time 10,000 Years, Name A Luxury Item You’d Probably Miss."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

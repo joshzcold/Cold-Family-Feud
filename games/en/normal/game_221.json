@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": 3,
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": 4,
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": 2,
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 1,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "During Which Month Of Pregnancy Do Couples Announce It?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Hairstyle",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dating",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something a person might be picky about."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Mall",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Wanted To Have Conversation With Someone, Name A Noisy Place You’d Avoid."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Semi Truck",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "bus",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Limo",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Race Car",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If A Person Is A Driver For A Living What Specific Type Of Vehicle Might He Drive?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rose",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Daisy",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Lily",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Iris",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Violet",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Flower Gardener Name His Daughter?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fence ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Hurdle ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hedge ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Log ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Creek ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Horse Might Jump Over"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tidal",
+          39
+        ],
+        [
+          "Hand",
+          24
+        ],
+        [
+          "Sound",
+          16
+        ],
+        [
+          "Radio",
+          11
+        ],
+        [
+          "Heat",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Wave That You Can’t Ride On"
+    },
+    {
+      "answers": [
+        [
+          "Godzilla",
+          63
+        ],
+        [
+          "King Kong",
+          31
+        ],
+        [
+          "Frankenstein",
+          16
+        ],
+        [
+          "Dracula",
+          7
+        ],
+        [
+          "Mummy",
+          5
+        ],
+        [
+          "Werewolf",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Movie Monster You Might See In A Black And White Film."
+    },
+    {
+      "answers": [
+        [
+          "Lyndon B Johnson",
+          53
+        ],
+        [
+          "Magic Johnson",
+          34
+        ],
+        [
+          "Howard Johnson",
+          23
+        ],
+        [
+          "Johnson & Johnson",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous “Johnson”"
+    },
+    {
+      "answers": [
+        [
+          "TV",
+          36
+        ],
+        [
+          "Car/Vehicle",
+          29
+        ],
+        [
+          "House",
+          21
+        ],
+        [
+          "Oven",
+          5
+        ],
+        [
+          "Stereo/Speakers",
+          4
+        ],
+        [
+          "Refrigerator",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Adults Buy That Can Be Very Small Or Very Large."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

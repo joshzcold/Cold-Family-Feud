@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Shark",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Stop",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Get Out",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "No Running",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word Or Phrase That A Lifeguard Might Yell"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stethoscope",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "White Coat",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Scrubs",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "ID Photo",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way You Can Tell Someone Is A Doctor By Just Looking At Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bears",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Dolphins",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lions",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Eagles",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Panthers",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Colts",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Rams",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Professional Football Team That’s Named For An Animal."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Time",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Muscles",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Energy",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "patience",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Might Wish Her Husband Had More Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Barking",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Grow A Tail",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Growing Fur",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Need T Scratch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Fetch",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Floppy Ears",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sign That You Might Be Turning Into A Dog."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rake ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Spade ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Shovel ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Pitchfork ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hoe ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Popular Garden Tool"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "HANDS",
+          42
+        ],
+        [
+          "FEET",
+          27
+        ],
+        [
+          "ARMS",
+          18
+        ],
+        [
+          "LEGS",
+          12
+        ],
+        [
+          "BACK",
+          7
+        ],
+        [
+          "EYES",
+          5
+        ],
+        [
+          "MOUTH",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part Of A Beauticians Body That Probably Gets Tired By The End Of The Day"
+    },
+    {
+      "answers": [
+        [
+          "Sports",
+          44
+        ],
+        [
+          "Driving",
+          33
+        ],
+        [
+          "Working",
+          16
+        ],
+        [
+          "Cooking",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a chauvinist might try to claim that men are better at."
+    },
+    {
+      "answers": [
+        [
+          "Sports",
+          60
+        ],
+        [
+          "Cheerleading",
+          24
+        ],
+        [
+          "Band",
+          8
+        ],
+        [
+          "Student Council",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A High School Student Might Join In Order To Become More Popular."
+    },
+    {
+      "answers": [
+        [
+          "Sit",
+          34
+        ],
+        [
+          "House Training",
+          20
+        ],
+        [
+          "Fetch",
+          19
+        ],
+        [
+          "Roll Over",
+          16
+        ],
+        [
+          "Don’t Bite/Chew",
+          5
+        ],
+        [
+          "Stay",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Got A New Puppy, Name Something You’d Teach It"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

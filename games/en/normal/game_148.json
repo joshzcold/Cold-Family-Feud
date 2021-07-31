@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Donald duck",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Goofy",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Minnie Mouse",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pluto",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dumbo",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Mickey, name a character you’re likely to find on a t-shirt at Disneyland"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bleached Hair",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tights",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Boa",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tan",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bandana",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Earring",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About Hulk Hogan’s Appearance That Is Traditionally Female."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shampoo ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "A Hose ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "A Dog ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "A Bath ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Need When You Give A Dog A Bath"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bloke ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Geezer ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Fella ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Guy ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Chap ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Slang Word For A Man"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shark",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Whale",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Dolphin",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Octopus",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Seal",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal You Would Find In The Ocean But Not In A Pond."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clown",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Games",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Balloons",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Party Favors",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Child Might Have At Their 6th Birthday Party, But Not At Their 16th Birthday."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Paint/Wall Paper",
+          29
+        ],
+        [
+          "Wood/Furniture",
+          22
+        ],
+        [
+          "Used/Stolen Car",
+          15
+        ],
+        [
+          "Bedding",
+          14
+        ],
+        [
+          "Clothes/People",
+          12
+        ],
+        [
+          "Screw",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Gets Stripped."
+    },
+    {
+      "answers": [
+        [
+          "Kiss",
+          46
+        ],
+        [
+          "Say ” I Love You”",
+          23
+        ],
+        [
+          "Touch",
+          9
+        ],
+        [
+          "Call",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "early In Dating Someone, Name Something You Shouldn’t Do Repeatedly Unless The Feelings Are Mutual"
+    },
+    {
+      "answers": [
+        [
+          "Bananas ",
+          57
+        ],
+        [
+          "Grapes ",
+          37
+        ],
+        [
+          "Flowers / Roses ",
+          24
+        ],
+        [
+          "Carrots ",
+          16
+        ],
+        [
+          "Onions ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Sold By The Bunch"
+    },
+    {
+      "answers": [
+        [
+          "Bouquet",
+          60
+        ],
+        [
+          "Cake",
+          27
+        ],
+        [
+          "Man",
+          4
+        ],
+        [
+          "Photos",
+          3
+        ],
+        [
+          "Centerpiece",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Woman Might Take Home From Her Best Friend’s Wedding"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

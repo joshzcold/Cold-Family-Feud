@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ask For The Time",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Do I Know You?",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Comment On Weather",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Buy A Drink",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Ask For Directions",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Men: What Excuse Might You Make Up To Start A Conversation With An Attractive Stranger At A Bar?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cook",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Talk On Phone",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Watch The Game",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Women Do While Their Husbands Watch Monday Night Football"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Raise/Bonus",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Days Off",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Holiday Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gift Card",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Is The Best Gift For Your Boss To Give You Around The Holidays?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talking",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "No Tip",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Giving Orders",
+          "pnt": "9+",
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Drunk/Sick",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Kissing",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Leaving Things",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something A Cab Driver Gets Sick Of His Passengers Doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": 5,
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": 3,
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": 2,
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": 1,
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "It’s Said There Is A Seven Year Itch, After How Many Years Do You Think The Itch really Comes"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trees",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Monkey Bars",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Table/Chairs",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Ladder",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Children Climb On That Makes Their Parents Worry."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Green Skin",
+          31
+        ],
+        [
+          "No Pulse",
+          26
+        ],
+        [
+          "Insomnia",
+          15
+        ],
+        [
+          "Bloody Sores",
+          10
+        ],
+        [
+          "Falling Apart",
+          7
+        ],
+        [
+          "Odd Appetite",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Zombie Might See A Doctor About"
+    },
+    {
+      "answers": [
+        [
+          "Chicken ",
+          57
+        ],
+        [
+          "Bacon ",
+          37
+        ],
+        [
+          "Liver ",
+          24
+        ],
+        [
+          "Fish ",
+          16
+        ],
+        [
+          "Sausages ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Commonly Eaten With Eggs"
+    },
+    {
+      "answers": [
+        [
+          "Shopping",
+          44
+        ],
+        [
+          "Clothes",
+          19
+        ],
+        [
+          "Soap Operas",
+          14
+        ],
+        [
+          "Men",
+          11
+        ],
+        [
+          "Hair",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Topic Most Men Can’t Stand, But Many Women Could Discuss For Hours."
+    },
+    {
+      "answers": [
+        [
+          "Lime",
+          46
+        ],
+        [
+          "Strawberries",
+          31
+        ],
+        [
+          "Lemon",
+          10
+        ],
+        [
+          "Pinapple",
+          4
+        ],
+        [
+          "Peach",
+          2
+        ],
+        [
+          "Papya",
+          2
+        ],
+        [
+          "Tomatoes",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit Put In Margaritas."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Great Wall",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Panda",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dragon",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Temple",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Sent A Postcard From China, What Would Be Pictured On The Front?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vegetables/ Salad",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Silverware/ Plates",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Napkin/ Tablecloth",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s On Your Dinner Table Every Night That The Dog Won’t Beg For."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dinosaur Bones",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Mummy",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Paintings",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Statues",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Fossils",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Very Old That You Find At Many Museums."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Name",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Address",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "With Love",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Miss You",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hi/Hello",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That People Often Write On The Back Of Postcards"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Towels",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Toilet Paper",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Medicine",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Toothpaste",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Soap/Shampoo",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Item You’d Expect To Find In A Bathroom Cabinet."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Photographer",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Director",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Artist",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Actor",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Musician",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Screenwriter",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation Where You Work In A Studio."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Gain A Lot Of Weight",
+          59
+        ],
+        [
+          "Train",
+          19
+        ],
+        [
+          "Work Out",
+          14
+        ],
+        [
+          "Visit Japan",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something The Average Person Might Have To Do If They Wanted To Be A Sumo Wrestler."
+    },
+    {
+      "answers": [
+        [
+          "Which Floor?",
+          43
+        ],
+        [
+          "Going Up?",
+          36
+        ],
+        [
+          "Hello",
+          14
+        ],
+        [
+          "Have A Nice Day",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Elevator Operator Probably Gets Tired Of Saying"
+    },
+    {
+      "answers": [
+        [
+          "Mashed Potatoes",
+          29
+        ],
+        [
+          "Yogurt",
+          25
+        ],
+        [
+          "Cataloupe",
+          11
+        ],
+        [
+          "Cottage Cheese",
+          9
+        ],
+        [
+          "Jello",
+          8
+        ],
+        [
+          "Rice",
+          8
+        ],
+        [
+          "Cereal",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Ice Cream, Name A Food That Can Be Scooped."
+    },
+    {
+      "answers": [
+        [
+          "Pacifier",
+          38
+        ],
+        [
+          "Ear Plugs",
+          36
+        ],
+        [
+          "Toys",
+          19
+        ],
+        [
+          "Headphones",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Want To Bring With You, When Babysitting An Infant Who Cries A Lot?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

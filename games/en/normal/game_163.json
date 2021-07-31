@@ -1,0 +1,351 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Roast Dinner ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Fish & Chips ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Pizza ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food People Have Delivered"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Too Hot",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Sunburn",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Shark",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tired",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Crowded",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "On A Bright, Sunny Day, Why Would You Leave The Beach?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Poodle",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Pit Bull",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "German Shepherd",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Labrador",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Collie",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dalmation",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Breed Of Dog That Everyone Has Heard Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Avoid Them",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Ask For Help",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Say Hi",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "“Just Looking”",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do When Approached By A Salesperson At A Store."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Looks",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Flirting",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "You Use Cheese To Catch A Mouse, But What Do You Use To Catch A Spouse?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Easter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fourth Of July",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "New Years",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Memorial Day",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "hanukkah",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Thanksgiving, Name A Holiday You Celebrate With A Lot Of Food."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Car",
+          41
+        ],
+        [
+          "Hands",
+          27
+        ],
+        [
+          "Hair",
+          17
+        ],
+        [
+          "Sheets",
+          11
+        ],
+        [
+          "Clothes",
+          7
+        ],
+        [
+          "Ears",
+          5
+        ],
+        [
+          "Windows",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Don’t Wash As Often As Should"
+    },
+    {
+      "answers": [
+        [
+          "Wall",
+          39
+        ],
+        [
+          "House/Building",
+          33
+        ],
+        [
+          "A Face",
+          13
+        ],
+        [
+          "Porch/Fence",
+          8
+        ],
+        [
+          "Nails",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than A Canvas, Name Something That You Put Paint On."
+    },
+    {
+      "answers": [
+        [
+          "Mickey Mouse Ears",
+          45
+        ],
+        [
+          "Shirts",
+          29
+        ],
+        [
+          "Cups",
+          19
+        ],
+        [
+          "Key Chain",
+          12
+        ],
+        [
+          "Lollypop",
+          8
+        ],
+        [
+          "Pen/Pencil",
+          5
+        ],
+        [
+          "Postcard",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Souvenier People Buy At Disneyland"
+    },
+    {
+      "answers": [
+        [
+          "Smile",
+          22
+        ],
+        [
+          "Talk/Answer Questions",
+          20
+        ],
+        [
+          "Say Thank You",
+          14
+        ],
+        [
+          "Introduce Yourself",
+          12
+        ],
+        [
+          "Bring Resume",
+          11
+        ],
+        [
+          "Shake Hands",
+          10
+        ],
+        [
+          "Ask About Salary",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Hate To Forget To Do During A Job Interview?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

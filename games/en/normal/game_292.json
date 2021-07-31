@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Snoring ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Bed ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Dreams ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Pillow ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Night ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Sleeping"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Opera",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Broadway/Play",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Symphony",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ballet",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Event That Adults Dress Up To Go To But Kids Would Find Boring?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Feed",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Play With",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do For Your Child, And Your Child Does For Her Imaginary Friend."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Score",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Runs",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Outs",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Inning",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Teams",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Information Listed On A Baseball Scoreboard."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing/Hum It Through",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Think Of Other Songs",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Go To Sleep",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Have A Conversation",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do To Get Rid Of A Song That’s Stuck In Your Head."
+    },
+    {
+      "answers": [
+        {
+          "ans": 100,
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": 80,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 90,
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": 75,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 70,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Age That Most People Want To Live Until."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Gum",
+          46
+        ],
+        [
+          "Glue",
+          30
+        ],
+        [
+          "Tape",
+          20
+        ],
+        [
+          "Syrup",
+          13
+        ],
+        [
+          "Honey",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Sticky"
+    },
+    {
+      "answers": [
+        [
+          "Diary",
+          44
+        ],
+        [
+          "Purse/ Wallet",
+          25
+        ],
+        [
+          "Cell Phone",
+          9
+        ],
+        [
+          "Underwear Drawer",
+          5
+        ],
+        [
+          "Online Accounts",
+          4
+        ],
+        [
+          "Bank Account",
+          4
+        ],
+        [
+          "Mail",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Of Yours That You’d Be Angry To Find A Partner Snooped Into"
+    },
+    {
+      "answers": [
+        [
+          "A Ruler ",
+          52
+        ],
+        [
+          "A Tape ",
+          34
+        ],
+        [
+          "Cup ",
+          22
+        ],
+        [
+          "Spoon ",
+          14
+        ],
+        [
+          "Scales ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Use To Measure Things With"
+    },
+    {
+      "answers": [
+        [
+          "Arms",
+          41
+        ],
+        [
+          "Back",
+          35
+        ],
+        [
+          "Hands",
+          10
+        ],
+        [
+          "Shoulders",
+          7
+        ],
+        [
+          "Legs",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place On Your Body That Might Be Sore After A Day Of Shoveling."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

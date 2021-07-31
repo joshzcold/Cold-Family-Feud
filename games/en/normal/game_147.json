@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "House ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Wall ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Statue ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "A Building ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "A Tomb ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Be Built From Stone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bath / Shower ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Floor ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Teeth ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Oven ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Hard To Keep Clean"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheese Bar",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dirty Clothes",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Female Mice",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Mini TV",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "if A Mouse Pad Were A Place Where Bachelor Mice Lived, What Would You Likely Find Inside"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Birthdays",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Appointments",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Mark On Their Calendars."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Finances",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "House Chores",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Childcare",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Responsibility That Most Married Couples Share"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Washing Dishes",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dusting",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Vacuum",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sweeping",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Taking Out Trash",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Picking Up",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Making Bed",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Easiest Household Chore."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Egyptian Pyramid",
+          42
+        ],
+        [
+          "Food Pyramid",
+          31
+        ],
+        [
+          "Pyramid Scheme",
+          10
+        ],
+        [
+          "Cheerleaders Pyramid",
+          9
+        ],
+        [
+          "$100,000 Pyramid",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Pyramid."
+    },
+    {
+      "answers": [
+        [
+          "Mom",
+          57
+        ],
+        [
+          "Dad",
+          17
+        ],
+        [
+          "Doctor",
+          10
+        ],
+        [
+          "Best Friend",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Always Has Advice To Give You"
+    },
+    {
+      "answers": [
+        [
+          "Taste Of Food",
+          56
+        ],
+        [
+          "Clean House",
+          20
+        ],
+        [
+          "Conversation",
+          15
+        ],
+        [
+          "Outfit",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Worry About If You Were To Host A Dinner Party For Your In-Laws"
+    },
+    {
+      "answers": [
+        [
+          "Barber",
+          41
+        ],
+        [
+          "Butcher",
+          26
+        ],
+        [
+          "Gardener",
+          13
+        ],
+        [
+          "Tailor",
+          9
+        ],
+        [
+          "Lumberjack",
+          5
+        ],
+        [
+          "Carpenter",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which One Spends His Day Cutting."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

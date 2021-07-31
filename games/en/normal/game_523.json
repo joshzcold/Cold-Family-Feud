@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Carol",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Deck The Halls",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Sleigh Ride",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Roast Chestnuts",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Walk/Play In Snow",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity That’s Often Described In Christmas Songs, Tho People Seldom Do It In Real Life."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cook",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Clean",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Take Care Of Me",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Men: Name Something Your Partner Will Never Do As Well as Mom."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Foot / Feet ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Fingers ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Table ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pencil ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Drum ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Tap"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fly Is Open",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Get Laughed At",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Break Wind",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Being Heckled",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stutter",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Coughing",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Man Wouldn’t Want To Have Happen To Him While He’s Giving A Speech"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Safe",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Diary",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Never Leave Unlocked. (More Specific Than “Door”.)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leave For Honeymoon",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "A Little Privacy",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Tired",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Too Much To Drink",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Arguing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason The Bride And The Groom Might Leave The Reception Early"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Green",
+          27
+        ],
+        [
+          "Bright Red",
+          20
+        ],
+        [
+          "Blue",
+          17
+        ],
+        [
+          "Purple",
+          13
+        ],
+        [
+          "Orange",
+          8
+        ],
+        [
+          "Pink",
+          8
+        ],
+        [
+          "Yellow",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Hair Color That Isn’t Natural."
+    },
+    {
+      "answers": [
+        [
+          "Helmet",
+          43
+        ],
+        [
+          "Cup",
+          25
+        ],
+        [
+          "Shoulder Pads",
+          19
+        ],
+        [
+          "Knee Pads",
+          5
+        ],
+        [
+          "Mouth Guard",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Football Players Wear For Protection."
+    },
+    {
+      "answers": [
+        [
+          "Ping Pong",
+          36
+        ],
+        [
+          "Rowing",
+          34
+        ],
+        [
+          "Paddle Ball",
+          19
+        ],
+        [
+          "Racquetball",
+          4
+        ],
+        [
+          "Cricket",
+          3
+        ],
+        [
+          "Frat Initiation",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity That Involves A Paddle"
+    },
+    {
+      "answers": [
+        [
+          "Golf",
+          54
+        ],
+        [
+          "Bingo",
+          20
+        ],
+        [
+          "Cards",
+          6
+        ],
+        [
+          "Fishing",
+          5
+        ],
+        [
+          "Shuffleboard",
+          5
+        ],
+        [
+          "Travel",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Activity That Is Associated With Retired People."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

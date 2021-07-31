@@ -1,0 +1,341 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pryor",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Letterman",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Rock",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Stewart",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Leno",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Seinfeld",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Carson",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Male Comedian, Past Or Present, Known Funny Monologues"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tent",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Matches",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Serious About Camping, Name Something You Leave At Home"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Kick",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sweat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Thrash",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Jump",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might Someone Do While Sleeping That Tells You They’re Having A Nightmare?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fight",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Date Right Away",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Go Public",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sue For Large Sums",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Stars Do During A Divorce That You Wouldn’t Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bananas",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Grapes",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Radishes",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific That Is Sold By The Bunch."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Balloons ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Streamers ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Glitter ",
+          "pnt": 24,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Use To Decorate A Party"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Home",
+          44
+        ],
+        [
+          "Out To Eat",
+          34
+        ],
+        [
+          "Shopping",
+          12
+        ],
+        [
+          "Friend’s/Relatives House",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Where Do People Go After They Leave Church Service?"
+    },
+    {
+      "answers": [
+        [
+          "No Tips",
+          50
+        ],
+        [
+          "Rude Customers",
+          33
+        ],
+        [
+          "Spill/ Drop Food",
+          21
+        ],
+        [
+          "Busy",
+          14
+        ],
+        [
+          "Fired",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Might A Waiter Say He Had Bad Day?"
+    },
+    {
+      "answers": [
+        [
+          "Movie Theatre",
+          32
+        ],
+        [
+          "Dance",
+          27
+        ],
+        [
+          "Wedding",
+          19
+        ],
+        [
+          "Restaurant",
+          17
+        ],
+        [
+          "Bar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where Many People Would Feel Uncomfortable Going Without A Date."
+    },
+    {
+      "answers": [
+        [
+          "Clothes",
+          55
+        ],
+        [
+          "Cash",
+          15
+        ],
+        [
+          "Books",
+          7
+        ],
+        [
+          "Candy",
+          7
+        ],
+        [
+          "Bike",
+          3
+        ],
+        [
+          "Underware",
+          3
+        ],
+        [
+          "Ball",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Toys, Name Something A Kid Might Receive At Christmas"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

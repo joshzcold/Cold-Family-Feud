@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Best Man",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Parent",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bridesmaid",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bride/Groom",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Clergy Member",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Who Might Make A Speech At A Wedding."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Redial",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Speaker Phone",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Call Waiting",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Caller ID",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Speed Dial",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Mute",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Voice Mail",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Function You Have On Your Telephone, That Your Child Doesn’t Have On Their Tin Can Phone."
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Eye Contact",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Stutter",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sweating",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Smile/Nervous Laugh",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Red Face",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do While Telling A Lie That Gives Them Away."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Violin ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Harp ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Piano ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Guitar ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Flute ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Musical Instrument That's Difficult To Play"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Alarm Clock",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Birds",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Phone Call",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Dog Barking",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Traffic",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Sound That Has Woken You Up Before You Felt Ready To Be Awake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pizza",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Mac And Cheese",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Grilled Cheese",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Nachos",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Crackers",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Comfort Food That Has Cheese In/On It."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Prancer",
+          25
+        ],
+        [
+          "Dasher",
+          21
+        ],
+        [
+          "Cupid",
+          16
+        ],
+        [
+          "Vixen",
+          14
+        ],
+        [
+          "Dancer",
+          14
+        ],
+        [
+          "Blitzen",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Of Santa’s Reindeer Have Names That Sound Like Nicknames For A Lady’s Man?"
+    },
+    {
+      "answers": [
+        [
+          "Dishes",
+          42
+        ],
+        [
+          "Laundry",
+          31
+        ],
+        [
+          "Cooking",
+          14
+        ],
+        [
+          "Parenting",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Wives: Name Something Specific You Wish Your Husband Would Be More Helpful With Around The House"
+    },
+    {
+      "answers": [
+        [
+          "Burger and Fries",
+          42
+        ],
+        [
+          "Drive Thru",
+          27
+        ],
+        [
+          "Disposable Cup/Fork",
+          18
+        ],
+        [
+          "Ketchup Packets",
+          12
+        ],
+        [
+          "Paper Napkins",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a fast food restaurant has that a fancy restaurant would never have."
+    },
+    {
+      "answers": [
+        [
+          "Stuffing",
+          43
+        ],
+        [
+          "Cranberry Sauce",
+          31
+        ],
+        [
+          "Pumpkin Pie",
+          18
+        ],
+        [
+          "Yams",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food You eat At Thanksgiving, but Not During The Rest Of The Year"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

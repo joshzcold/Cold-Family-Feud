@@ -1,0 +1,288 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Birthday ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Hen / Stag ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "House Party ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Fancy Dress ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Political ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Christmas ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sold",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Going Once…Gone",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bid",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Do I Hear",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If An Auctioneer Had A Baby, What Are First Words?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beauty",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Brains",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Body",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Bravery",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Starts With “B” That People Look For In A Partner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bacon",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "French Toast",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cereal",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Waffles",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hash Browns",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Breakfast Item That Only Tastes Good If It’s Crispy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Moving Truck",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Boxes",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Dolly",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "friends To Help",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Movers",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Need When You’re Moving."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Travel",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Get More Rest",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Garden",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Say They’ll Have Time To Do Once They’ve Retired"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Strawberry ",
+          47
+        ],
+        [
+          "Orange ",
+          31
+        ],
+        [
+          "Lemon ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit That People Might Add To Jelly"
+    },
+    {
+      "answers": [
+        [
+          "Add Salt",
+          46
+        ],
+        [
+          "Fry It",
+          33
+        ],
+        [
+          "Put Sugar On Top",
+          9
+        ],
+        [
+          "Butter It",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do To Their Food That Makes It Unhealthy"
+    },
+    {
+      "answers": [
+        [
+          "Weather",
+          36
+        ],
+        [
+          "Waiting",
+          27
+        ],
+        [
+          "Can’t Hear",
+          18
+        ],
+        [
+          "The Bathroom",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Worst Thing About Going To The Drive-In."
+    },
+    {
+      "answers": [
+        [
+          "Treat ",
+          59
+        ],
+        [
+          "Bread ",
+          38
+        ],
+        [
+          "Nuts ",
+          25
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Put In Gardens To Attract Birds"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

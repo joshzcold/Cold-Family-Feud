@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Small",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Energetic",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chews",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Big paws",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Puppy’s bark",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Not house trained",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How can you tell that a dog is still a puppy?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wash Hands",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Flu Shot",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "??",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Vitamins",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do During Flu Season To Avoid Getting Sick"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bonus",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Raise",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Time Off",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "New Boss",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Santa Showed Up At Your Work Holiday Party, What Might Your Co-Workers Request For Christmas?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weeds",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Dog Poop",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Grass",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Leaves",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Trash",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Remove From Their Lawn."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mail Carrier",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Dog Catcher",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Veterinarian",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession Where You Might Be Bitten By A Dog."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Skunk",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Rotten Eggs",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Ammonia",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Onion",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Garlic",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Smell Most People Hate."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hair On Face ",
+          56
+        ],
+        [
+          "Hair On Hands ",
+          36
+        ],
+        [
+          "Howling ",
+          24
+        ],
+        [
+          "Fangs ",
+          16
+        ],
+        [
+          "Long Nails ",
+          10
+        ],
+        [
+          "Cocking Leg ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way You Might Know You Were Becoming A Werewolf"
+    },
+    {
+      "answers": [
+        [
+          "Blood",
+          43
+        ],
+        [
+          "Needles",
+          32
+        ],
+        [
+          "people",
+          15
+        ],
+        [
+          "Illness/ Germs",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Doctor Better Not Be Afraid Of"
+    },
+    {
+      "answers": [
+        [
+          "Beef/Meat",
+          35
+        ],
+        [
+          "Potatoes",
+          29
+        ],
+        [
+          "Carrots",
+          17
+        ],
+        [
+          "Beans",
+          8
+        ],
+        [
+          "Onions",
+          7
+        ],
+        [
+          "Peas",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Find In A Hearty Stew."
+    },
+    {
+      "answers": [
+        [
+          "GUN",
+          42
+        ],
+        [
+          "EXPLOSION",
+          27
+        ],
+        [
+          "MONSTER",
+          18
+        ],
+        [
+          "ALIEN",
+          12
+        ],
+        [
+          "CAR CHASE",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You’ve Never Seen In Real Life, But You See At Least 3 Of In Every Action Movie"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

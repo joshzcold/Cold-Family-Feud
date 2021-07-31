@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Leg Room",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Seats",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pillows/Blankets",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Drinks",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something An Airline Passenger Might Find There Isn’t Enough Of On The Plane."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Too Much Food",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Spicy Food",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Spoiled Food",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Greasy Foods",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stress",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Causes You To Have An Upset Stomach."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shop",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Model/Get A Job",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Go To The Beach",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cruise In Corvette",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Barbie And Ken Broke Up, What Might Barbie Do With All The Extra Time?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rabbit",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Animal Many Magicians Own"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leopard",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Zebra",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cheetah",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal Whose Print Looks Natural On Them, But Gaudy When Your Neighbor Wears It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress Code",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Leaving Early",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Being Late",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Workload",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do Bosses Let Slide On Fridays?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hot Sauce",
+          36
+        ],
+        [
+          "Ketchup",
+          17
+        ],
+        [
+          "Spaghetti Sauce",
+          16
+        ],
+        [
+          "Barbque Sauce",
+          13
+        ],
+        [
+          "Alfredo",
+          13
+        ],
+        [
+          "Teriyaki",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sauce You Wouldn’t Put On Ice Cream."
+    },
+    {
+      "answers": [
+        [
+          "Build A Shelter",
+          24
+        ],
+        [
+          "Find Food",
+          20
+        ],
+        [
+          "Find Fresh Water",
+          16
+        ],
+        [
+          "Pray",
+          10
+        ],
+        [
+          "Cry",
+          10
+        ],
+        [
+          "Build A Fire",
+          10
+        ],
+        [
+          "Explore",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The First Thing You Would Do If You Were Stranded On A Deserted Island."
+    },
+    {
+      "answers": [
+        [
+          "National Lottery ",
+          59
+        ],
+        [
+          "Snooker ",
+          38
+        ],
+        [
+          "Tennis ",
+          25
+        ],
+        [
+          "Golf ",
+          16
+        ],
+        [
+          "Bingo ",
+          11
+        ],
+        [
+          "Ball Pit ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Uses Lots Of Balls"
+    },
+    {
+      "answers": [
+        [
+          "Team Name",
+          52
+        ],
+        [
+          "Mascot",
+          34
+        ],
+        [
+          "Colors",
+          22
+        ],
+        [
+          "Fight Song",
+          14
+        ],
+        [
+          "Motto",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Devoted Cheerleader Would Know About Her School"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Trucker Hat",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Flannel Shirt",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "T Shirts",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Overalls",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Kinds Of Clothes And Accessories Would You Find In The Closet Of A Truck Driver?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Aeroplanes ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Runway ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Luggage ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Check In Desks ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Shops ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "X-Ray ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides People Name Something You Might See At An Airport"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Balloons",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Horn",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Umbrella",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "handkerchief",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Clown Might Be Carrying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Television",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Remote Control",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Furnace/AC",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "The Bed",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Worst Thing To Have Break If You’re Stuck In Bed On Doctor’s Orders"
+    },
+    {
+      "answers": [
+        {
+          "ans": "No Car",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Save Gas",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Environment",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Why Might Someone Ride Their Bike To Work?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Happy Ending",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Prince",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Princess",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Villian",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Every Fairy Tale Needs"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Chris",
+          56
+        ],
+        [
+          "Terry",
+          36
+        ],
+        [
+          "Pat",
+          24
+        ],
+        [
+          "Sam",
+          16
+        ],
+        [
+          "Sean",
+          10
+        ],
+        [
+          "Alex",
+          7
+        ],
+        [
+          "Billy",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Persons First Name Could Be Man Or Woman"
+    },
+    {
+      "answers": [
+        [
+          "House Fire ",
+          52
+        ],
+        [
+          "Burst Pipe ",
+          34
+        ],
+        [
+          "Leaking Roof ",
+          22
+        ],
+        [
+          "Power Cut ",
+          14
+        ],
+        [
+          "Accident ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You'd Hate To Happen Whilst House Sitting"
+    },
+    {
+      "answers": [
+        [
+          "Halloween",
+          43
+        ],
+        [
+          "Easter",
+          16
+        ],
+        [
+          "Thanksgiving",
+          14
+        ],
+        [
+          "Birthday",
+          9
+        ],
+        [
+          "Fourth Of July",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Christmas, Name An Occasion For Which People Decorate Their Houses."
+    },
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          39
+        ],
+        [
+          "Funeral",
+          27
+        ],
+        [
+          "Their Wedding",
+          8
+        ],
+        [
+          "Work",
+          4
+        ],
+        [
+          "Gym",
+          3
+        ],
+        [
+          "Courtroom",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where It’d Be In Bad Taste To Hit On Someone"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

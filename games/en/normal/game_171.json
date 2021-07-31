@@ -1,0 +1,353 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sprite",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Pepsi",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Root Beer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "7 Up",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Dr Pepper",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mountain Dew",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Coke, Name Another Kind Of Soda."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Interupt",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Look Away",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Leave The Room",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Yawn",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Use Cell Phone",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Not Make Eye Contact",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Rude To Do When Someone Is Taking TO You"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Actor",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Dancer",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Firefighter",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "President",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job That A Man May Have That Makes Him A Sex Symbol Even Into Old Age"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Free Drink",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pass On Speeding Ticket",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Phone Number",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Beautiful Woman Might Flirt With Someone In Order To Get"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Penguin",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Human",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Wolf",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Whale",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal That Stays With One Partner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Read",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Radio",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Drink Coffee",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drink Juice",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Person Might Do While Eating Breakfast."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pots And Pans",
+          44
+        ],
+        [
+          "Spoons",
+          25
+        ],
+        [
+          "Glasses",
+          11
+        ],
+        [
+          "Wire Whisk",
+          6
+        ],
+        [
+          "Broom",
+          4
+        ],
+        [
+          "Blender",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your Kitchen That You’d Use As A Musical Instrument."
+    },
+    {
+      "answers": [
+        [
+          "Doctor ",
+          43
+        ],
+        [
+          "Dentist ",
+          28
+        ],
+        [
+          "A Nutter ",
+          18
+        ],
+        [
+          "A Butcher ",
+          12
+        ],
+        [
+          "Fishmonger ",
+          8
+        ],
+        [
+          "Colonel Sanders ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Wears A White Coat"
+    },
+    {
+      "answers": [
+        [
+          "Drive",
+          47
+        ],
+        [
+          "Play Sports",
+          31
+        ],
+        [
+          "Dress",
+          20
+        ],
+        [
+          "Date",
+          13
+        ],
+        [
+          "Shave",
+          8
+        ],
+        [
+          "Stay Up Late",
+          5
+        ],
+        [
+          "Talk",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Younger Brother Wants To Do"
+    },
+    {
+      "answers": [
+        [
+          "Olive",
+          59
+        ],
+        [
+          "Cherry",
+          18
+        ],
+        [
+          "Umbrella",
+          7
+        ],
+        [
+          "Lemon",
+          6
+        ],
+        [
+          "Lime",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Be On A Toothpick Inside A Fancy Drink"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

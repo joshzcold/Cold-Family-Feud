@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eyes",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Body",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific A Man Often Compliments A Woman On When Trying To Pick Her Up."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shirt",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pants",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Batchelor Might Turn Inside Out"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fast Food Restaurant",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bowling Alley",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where Might A Cheapskate Take You On A First Date?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jungle ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Rain / Rainforest ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "River ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Snakes ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Piranhas ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With The Amazon"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Goldfish",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Kitten",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bunny",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Hamster",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Turtle",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gerbil",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal In A Pet Store That Probably Wouldn’t Attack Someone."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food/drinks",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Presents/bonus",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Fun",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "To network/suck up",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell me a good reason to attend your company holiday party."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sporting Event",
+          50
+        ],
+        [
+          "Carnival",
+          32
+        ],
+        [
+          "Street Corner",
+          9
+        ],
+        [
+          "Beach",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where Hot Dogs Are Often Served."
+    },
+    {
+      "answers": [
+        [
+          "Age",
+          57
+        ],
+        [
+          "Job",
+          37
+        ],
+        [
+          "Curfew",
+          24
+        ],
+        [
+          "Education",
+          16
+        ],
+        [
+          "Intentions",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Parent May Grill Their Daughters About"
+    },
+    {
+      "answers": [
+        [
+          "Family Feud",
+          38
+        ],
+        [
+          "Wheel Of Fortune",
+          30
+        ],
+        [
+          "Price Is Right",
+          15
+        ],
+        [
+          "Millionaire",
+          5
+        ],
+        [
+          "Lingo",
+          4
+        ],
+        [
+          "Jeopardy",
+          3
+        ],
+        [
+          "Deal Or No Deal",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A TV Gameshow You Think You Have A Good Chance Of Winning"
+    },
+    {
+      "answers": [
+        [
+          "Sour",
+          41
+        ],
+        [
+          "Old",
+          29
+        ],
+        [
+          "Rotten",
+          18
+        ],
+        [
+          "Curdled",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word Or Phrase Used To Describe Milk That’s Past Its Expiration Date."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Energy",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Pom Pom",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Spirit",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cheers",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Cheerleader Has Lots Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tip Hat",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Lasso Skills",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Ride Horse",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Wink",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Two Step",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Cowboy Might Do To Catch Woman’s Eye"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Living In Jungle",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "His Yelling",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "His Swinging",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Apes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "His Outfit",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "His Odor",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If A Woman Was To Marry Tarzan, Name Something She Would Have To Get Used To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Corsage",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Broach",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Button",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Name Tag",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Ribbon",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That People Have A Desire To Smash."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Been drinking",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Car trouble",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Bad weather",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Going to airport",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a reason why a person who has a car would call a cab."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress Alike",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Argue",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Finish Sentences",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Affectionate",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something About A Couple That Would Lead You To Believe They Spend Too Much Time Together."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Movies",
+          36
+        ],
+        [
+          "Actress",
+          21
+        ],
+        [
+          "Antonio Banderas",
+          20
+        ],
+        [
+          "Don Johnson",
+          14
+        ],
+        [
+          "Blonde Hair",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Melanie Griffith."
+    },
+    {
+      "answers": [
+        [
+          "Wine ",
+          51
+        ],
+        [
+          "Beer ",
+          33
+        ],
+        [
+          "Window ",
+          22
+        ],
+        [
+          "Crystal ",
+          14
+        ],
+        [
+          "Stained ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Glass"
+    },
+    {
+      "answers": [
+        [
+          "Builder ",
+          48
+        ],
+        [
+          "Fireman ",
+          31
+        ],
+        [
+          "Farmer ",
+          20
+        ],
+        [
+          "Butcher ",
+          13
+        ],
+        [
+          "Santa Clause ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Might Wear Big Boots To Work"
+    },
+    {
+      "answers": [
+        [
+          "Muppet Movie",
+          36
+        ],
+        [
+          "Gumby The Movie",
+          16
+        ],
+        [
+          "Wallice And Grommit",
+          13
+        ],
+        [
+          "Dark Crystal",
+          12
+        ],
+        [
+          "Chicken Run",
+          9
+        ],
+        [
+          "Team America",
+          6
+        ],
+        [
+          "Nightmare Before Xmas",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me The Title Of A Movie That Used Clay-Motion Or Puppets"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

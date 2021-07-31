@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Life Jacket ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Oar ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Anchor ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Flares ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Fishing Rod ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find On A Boat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dolls",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Stamps",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Action Figures",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Baseball Cards",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Comic Books",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stuffed Animals",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Grown Man Might Be Embarrassed To Admit That He Collects."
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Pimple",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Booger",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Wart",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "A Bug",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Nosering",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell me something you’d hate to find on the end of your nose"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hit By Another Car",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Carjacked",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Keyed",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Broken Into",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Flat Tire",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Towed",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Parking Ticket",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Hate To Find Had Happened To Your Car While It Was Parked."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jacket",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lunch Box",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Find In A School Lost-And-Found Box."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lottery Numbers",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Betting/Horse Races",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Investment",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Invention",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Able To See The Future, Name A Way That You’d Be Able To Make A Lot Of Money."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Toast",
+          54
+        ],
+        [
+          "Hot Dogs",
+          35
+        ],
+        [
+          "Macaroni",
+          23
+        ],
+        [
+          "Pasta",
+          15
+        ],
+        [
+          "Pizza",
+          10
+        ],
+        [
+          "Eggs",
+          6
+        ],
+        [
+          "Soup",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Can Almost Everyone Cook"
+    },
+    {
+      "answers": [
+        [
+          "Orange",
+          76
+        ],
+        [
+          "Lime",
+          12
+        ],
+        [
+          "Strawberry",
+          7
+        ],
+        [
+          "Lemon",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Popular Flavor Of Sherbet."
+    },
+    {
+      "answers": [
+        [
+          "New Clothes",
+          39
+        ],
+        [
+          "Gift",
+          29
+        ],
+        [
+          "Cake",
+          17
+        ],
+        [
+          "Ring",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Have To Buy For A Wedding"
+    },
+    {
+      "answers": [
+        [
+          "Fingers",
+          57
+        ],
+        [
+          "Flash Cards",
+          13
+        ],
+        [
+          "Calculator",
+          13
+        ],
+        [
+          "Blocks",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Might Use to Help Them Count."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

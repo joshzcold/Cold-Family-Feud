@@ -1,0 +1,305 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Mowing Lawn",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Washing Car",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Gardening",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Raking",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Taking Out Trash",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Chore You Get Out Of If It Rains"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jesus",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Gandhi",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "President Bush",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Martin Luther King, Jr.",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Moses",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Dalai Lama",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name someone who has/had many followers."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Child",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Owner",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Would A Car Thief Hate To Find In The Backseat Of The Car He’d Just Stolen?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Decent Food",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Gravity",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Normal Bathroom",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something An Astronaut Has To Go Without When Traveling In Space"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gym",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Golf/Country Club",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Military",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Fraternity",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Men Join"
+    },
+    {
+      "answers": [
+        {
+          "ans": "They’re Dirty",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Picture Day",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "It’s Halloween",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Wear’s A Uniform",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why A Kid Might Not Wear His Ordinary Clothes To School."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Toilet",
+          39
+        ],
+        [
+          "Windows",
+          21
+        ],
+        [
+          "Floor",
+          21
+        ],
+        [
+          "Stove/Oven",
+          10
+        ],
+        [
+          "Ceiling Fan",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something that house cleaners clean more often than you do(More specific than a room)"
+    },
+    {
+      "answers": [
+        [
+          "Dog",
+          56
+        ],
+        [
+          "Lion",
+          36
+        ],
+        [
+          "Cat",
+          24
+        ],
+        [
+          "Monkey",
+          16
+        ],
+        [
+          "Tiger",
+          10
+        ],
+        [
+          "Eagle",
+          7
+        ],
+        [
+          "Bear",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That You See On A Motivational Poster"
+    },
+    {
+      "answers": [
+        [
+          "Picasso",
+          49
+        ],
+        [
+          "Van Gogh",
+          15
+        ],
+        [
+          "Da Vinci",
+          12
+        ],
+        [
+          "Monet",
+          12
+        ],
+        [
+          "Michaelangelo",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Famous Painter Would You Ask To Paint Your Portrait?"
+    },
+    {
+      "answers": [
+        [
+          "Secret Service",
+          51
+        ],
+        [
+          "Cell Phone",
+          21
+        ],
+        [
+          "Money",
+          10
+        ],
+        [
+          "First Lady",
+          9
+        ],
+        [
+          "Assistant",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A President Probably Has With Him Everywhere He Goes?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

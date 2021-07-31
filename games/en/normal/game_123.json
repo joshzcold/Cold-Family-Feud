@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Laundry",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Names",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Birthdays",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Toothbrush",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In a large family,what often gets mixed up with that of your siblings?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Clothes/Pants",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Today Probably Wash More Than They Need To."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coat",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Sweatshirt",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Cape",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Comes With A Hood"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleeping Pill",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Count Sheep",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Drink Warm Milk",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Music",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Listen To The Radio",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do To Help Them Fall Asleep At Night."
+    },
+    {
+      "answers": [
+        {
+          "ans": "President’s Day",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Martin Luther King",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Columbus Day",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Holiday That Most People Don’t Get Off From Work."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dust",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Dirt",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Eyelash",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bug",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets In Your Eye And Irritates It."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Good Weather",
+          62
+        ],
+        [
+          "Good time",
+          28
+        ],
+        [
+          "Plenty Of Rest",
+          4
+        ],
+        [
+          "Tan",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name something You Hope For, But Can’t Count On, When Going On Vacation"
+    },
+    {
+      "answers": [
+        [
+          "First Come 1St Served",
+          26
+        ],
+        [
+          "First Love",
+          18
+        ],
+        [
+          "First Class",
+          10
+        ],
+        [
+          "First Things First",
+          10
+        ],
+        [
+          "First Time",
+          10
+        ],
+        [
+          "First Kiss",
+          10
+        ],
+        [
+          "First Base",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Expression That Begins With The Word â€œFirstâ€"
+    },
+    {
+      "answers": [
+        [
+          "Autograph",
+          49
+        ],
+        [
+          "Picture",
+          32
+        ],
+        [
+          "Kiss",
+          21
+        ],
+        [
+          "Sing A Song",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might A Fan Ask Of Their Favorite Musician For If They Met In Person"
+    },
+    {
+      "answers": [
+        [
+          "Gas",
+          70
+        ],
+        [
+          "Battery",
+          8
+        ],
+        [
+          "Oil",
+          6
+        ],
+        [
+          "Engine",
+          5
+        ],
+        [
+          "Tires",
+          4
+        ],
+        [
+          "Radiator",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Car Can’t Run Without"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

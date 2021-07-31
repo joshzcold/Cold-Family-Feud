@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Teachers Lounge",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Homework",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cafeteria",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where You Can See Teachers Relaxing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nothing",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Shorts",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Tights",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "T Shirt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do You Think A High School Mascot Wears Under His Costume?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Newspapers ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Eggs ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cards ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sweets ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Usually Buy At A Newsagent"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singing",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Fishing",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Painting",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Needlework",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Writing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Gambling",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Hobby That Some People Can Make A Job Out Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Unknown Sender",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "No Subject",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Goes To Junk",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Virus Alert",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Can You Tell Immediately That An E-Mail Is Spam?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shift",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Backspace",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Delete",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Tab",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Caps Lock",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Key On Computer That Has Word On It"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Trainers ",
+          46
+        ],
+        [
+          "Sandals ",
+          30
+        ],
+        [
+          "Slippers ",
+          20
+        ],
+        [
+          "Boots ",
+          13
+        ],
+        [
+          "Socks ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Footwear Worn By Both Men And Woman"
+    },
+    {
+      "answers": [
+        [
+          "Affair",
+          48
+        ],
+        [
+          "Criminal Record",
+          31
+        ],
+        [
+          "Drug use",
+          20
+        ],
+        [
+          "Divorce",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something Politician Would Hate To Come Out About Past In News"
+    },
+    {
+      "answers": [
+        [
+          3,
+          23
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Married people: After How Many Did You Know Your Partner was The one?"
+    },
+    {
+      "answers": [
+        [
+          "Friend",
+          33
+        ],
+        [
+          "Relative",
+          24
+        ],
+        [
+          "Partner",
+          24
+        ],
+        [
+          "Co Workers",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Who Might You Pool Money With To Buy Lottery Tickets?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Chihauhua",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Poodle",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Dashound",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cocker Spanial",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Breed Of Dog That Would Never Scare Away A Burglar."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rich",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Fame",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Meet Other Stars",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Free Movies",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Huge House",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Get Roles",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Would Be The Best Thing About Having An Actress For A Mother?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blush",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Sweat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Giggle",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Happens To People When They Get Embarrassed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Violin",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Flute",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Clarinet",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Guitar",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Saxiphone",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Instrument That Can Sound Whiny"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Under mattress",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Dresser drawer",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Cookie jar",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Closet",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Freezer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a place in their home that people hide money."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hat ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Horse ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Gun ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Lasso ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Boots ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chaps ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Cowboy Has"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Airplanes",
+          39
+        ],
+        [
+          "Movies",
+          23
+        ],
+        [
+          "Restaurant",
+          17
+        ],
+        [
+          "Bus",
+          8
+        ],
+        [
+          "Place Of Worship",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where People Hope Not To Have A Baby Seated Near Them."
+    },
+    {
+      "answers": [
+        [
+          "Red Nose ",
+          45
+        ],
+        [
+          "Big Feet ",
+          29
+        ],
+        [
+          "Wig ",
+          19
+        ],
+        [
+          "Painted Face ",
+          12
+        ],
+        [
+          "Juggling Balls ",
+          8
+        ],
+        [
+          "Squirty Flower ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Clown Has"
+    },
+    {
+      "answers": [
+        [
+          "Work",
+          57
+        ],
+        [
+          "Meals",
+          37
+        ],
+        [
+          "Bathing",
+          24
+        ],
+        [
+          "Working Out",
+          16
+        ],
+        [
+          "Party",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Skip When You Are Sick"
+    },
+    {
+      "answers": [
+        [
+          "Laundromat",
+          38
+        ],
+        [
+          "Pay Phone",
+          20
+        ],
+        [
+          "Parking Meter",
+          14
+        ],
+        [
+          "Newspaper",
+          10
+        ],
+        [
+          "Vending Machine",
+          10
+        ],
+        [
+          "Arcade Game",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Need Coins To Use."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

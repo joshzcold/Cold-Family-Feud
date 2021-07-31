@@ -125,7 +125,8 @@ class CSVParser
         # add in a round
         i = 0
         round_hash = {
-          answers: []
+          answers: [],
+          multiply: q >= (@rounds / 2).to_int ? 2 : 1
         }
         until i > r.length()
           if i == 0
@@ -205,7 +206,7 @@ def saveFiles(file_arr)
   until i >= file_arr.length()
     file_name = "#{@filename}#{i}.json"
     p "Saving #{target}#{file_name}"
-    contents = file_arr[i].to_json
+    contents = JSON.pretty_generate(file_arr[i])
     File.open("#{@target}#{file_name}", 'w') {
       |file| file.write(contents)
     }

@@ -1,0 +1,341 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Good Mood",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Recieves flowers",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Showing Up Late",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "New Clothes",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Phone Calls",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hickeys",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "How Can You Tell Your Co-Worker Has Started Dating"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Weather",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Fire",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Earthquake",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "War",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Local Crime",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Traffic Blockage",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Presidential Speech",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Event That Would Cause News To Interrupt TV Show"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Job",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bills",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Other Men",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Tv",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Women: When You Should Be Focusing On Romance, Name Something Your Mind Is Often Distracted By Instead?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Television",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Bed",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Mini Bar",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Couch",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Picture",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Would Be Hard To Steal From A Hotel Room"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Surfing",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Boating",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Recreational Activity Traditionally Done In Hot Weather"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elvis Presley",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Marilyn Monroe",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Jesus",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "James Dean",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name someone who is more popular dead than when they were alive."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Phone Number",
+          36
+        ],
+        [
+          "Income",
+          26
+        ],
+        [
+          "Social Security",
+          14
+        ],
+        [
+          "Past Lovers",
+          8
+        ],
+        [
+          "IQ",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Unlike Age Or Weight, Name A Number That You’d Be Surprised For Someone To Offer Before A Blind Date."
+    },
+    {
+      "answers": [
+        [
+          "Dishes",
+          52
+        ],
+        [
+          "Vacuuming",
+          34
+        ],
+        [
+          "Dusting",
+          22
+        ],
+        [
+          "Mopping",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Household Chore That A Kid Would Find Fun, But An Adult Would Put Off"
+    },
+    {
+      "answers": [
+        [
+          "Freddy Krueger",
+          24
+        ],
+        [
+          "Hannibal Lector",
+          19
+        ],
+        [
+          "Jason",
+          18
+        ],
+        [
+          "Dracula",
+          12
+        ],
+        [
+          "Daffy Duck",
+          10
+        ],
+        [
+          "Darth Vader",
+          8
+        ],
+        [
+          "Pee Wee Herman",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a movie character you would hate to be stuck with in a broken elevator."
+    },
+    {
+      "answers": [
+        [
+          "Box ",
+          53
+        ],
+        [
+          "Window ",
+          34
+        ],
+        [
+          "Dice ",
+          23
+        ],
+        [
+          "Tv ",
+          15
+        ],
+        [
+          "Cube ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Square In Shape"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

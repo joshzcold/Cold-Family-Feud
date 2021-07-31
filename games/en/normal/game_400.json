@@ -1,0 +1,296 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Babysitting",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Eat Over",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Close For Holidays",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Visit Often",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Good Reaon To Live Near In-Laws"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Balloon ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Lungs ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Diving Kit ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Fill With Air"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cans ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Foil ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Window Frame ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Saucepan ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bicycle ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Made From Aluminium"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wrinkles",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Arthritis",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Gray Hair",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sagging",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Back Ache",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Happens To An Old Person’s Body, That You’d Be Surprised To Hear A teen Complaining About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bread ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Tomato ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Cheese ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Meat ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cake ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Sliced"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bring Coupons",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Carry A Calculator",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Buy Generic Brands",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "How They dress",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In The Grocery Store, How Can You Identify A Penny-Pincher?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Manchester ",
+          52
+        ],
+        [
+          "Heathrow ",
+          34
+        ],
+        [
+          "Gatwick ",
+          22
+        ],
+        [
+          "Luton ",
+          14
+        ],
+        [
+          "Liverpool ",
+          9
+        ],
+        [
+          "Stanstead ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A British Airport"
+    },
+    {
+      "answers": [
+        [
+          "Police Officer",
+          50
+        ],
+        [
+          "President’s",
+          23
+        ],
+        [
+          "His Parent’s",
+          9
+        ],
+        [
+          "Cab Driver’s",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Whose car would A Thief Be Unlikely To Steal?"
+    },
+    {
+      "answers": [
+        [
+          "Complain",
+          27
+        ],
+        [
+          "Tap Foot",
+          25
+        ],
+        [
+          "Yell",
+          14
+        ],
+        [
+          "Bite Nails",
+          12
+        ],
+        [
+          "Swear",
+          9
+        ],
+        [
+          "Sigh/Moan",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Impatient Person Might Do While Waiting In Line"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          28
+        ],
+        [
+          "Lawyer",
+          27
+        ],
+        [
+          "Fitness Trainer",
+          15
+        ],
+        [
+          "Accountant/Broker",
+          13
+        ],
+        [
+          "Teacher",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation Where People Are Paid To Tell Others What To Do (More Specific Than Boss)."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Romance Novels",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Long Hair",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Commercials",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Handsome",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Model",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bare Chest",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Fabio."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Computer",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "DVD Player",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Buy, And Then Don’t Know How To Use."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ford",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Chevrolet",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chrysler",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Dodge",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "GM",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Toyota",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Jeep",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Company That Makes Sport Utility Vehicles"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coffee shop",
+          "pnt": 71,
+          "trig": false
+        },
+        {
+          "ans": "Energy Drink",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something People Drink To Keep Them Awake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Planae",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Fire",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Anger/Temper",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Body",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That gets fueled"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Address",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Size of family",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "How noisy",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Pets",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Evening activities",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Car you drive",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell me a piece of information that your neighbors are more likely to know about you than your coworkers are."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tattoo",
+          37
+        ],
+        [
+          "Acne",
+          27
+        ],
+        [
+          "Bald Spot",
+          19
+        ],
+        [
+          "Wedding ring",
+          7
+        ],
+        [
+          "Belly",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something a man might try to keep covered during a first date."
+    },
+    {
+      "answers": [
+        [
+          "Drink",
+          59
+        ],
+        [
+          "Eat",
+          38
+        ],
+        [
+          "Play Video Games",
+          25
+        ],
+        [
+          "Play Pool",
+          16
+        ],
+        [
+          "Smoke",
+          11
+        ],
+        [
+          "Meet People",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Do At A Bowling Ally, But It’s Not The Reason Most People Go"
+    },
+    {
+      "answers": [
+        [
+          "Gum",
+          51
+        ],
+        [
+          "Toothpaste",
+          17
+        ],
+        [
+          "Mouothwash",
+          16
+        ],
+        [
+          "Hard Candy/Sucker",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name Something You Put in Your Mouth But don’t Swallow"
+    },
+    {
+      "answers": [
+        [
+          "Gym",
+          35
+        ],
+        [
+          "English",
+          21
+        ],
+        [
+          "Art",
+          20
+        ],
+        [
+          "Math",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which subject would most elementary school kids say is their favorite?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

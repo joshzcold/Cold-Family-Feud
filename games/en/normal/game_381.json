@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Throw Away",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Hide Them",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Burn Them",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Change Grade",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Rip Them",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Do With Bad Test Papers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flying Reindeer",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Generosity",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Works Once A Year",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "World Travel",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Paid In Cookies",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fancy Sleigh",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Efficiency",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About His Job That Santa Claus Might Brag About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sugar",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Corn Syrup",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Unhealthy Ingredient You Often See In Kids’ Cereals."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Say Thank You",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Blush",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Brush It Off",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Many People Do In Response To Compliment"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soap Opera",
+          "pnt": 74,
+          "trig": false
+        },
+        {
+          "ans": "Talk Shows",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cooking",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Fashion",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of TV Show You’d Be Surprised To See A Man Watching."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ship / Boat ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Fish ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Submarine ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dolphin ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shark ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Travels Through Water"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Maid",
+          45
+        ],
+        [
+          "Butler",
+          37
+        ],
+        [
+          "Cook",
+          5
+        ],
+        [
+          "Gardener",
+          5
+        ],
+        [
+          "Chauffeur",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Might Work At A Mansion."
+    },
+    {
+      "answers": [
+        [
+          "Chili",
+          52
+        ],
+        [
+          "Curry",
+          34
+        ],
+        [
+          "Tacos",
+          22
+        ],
+        [
+          "Chips and Salsa",
+          14
+        ],
+        [
+          "Hot Wings",
+          9
+        ],
+        [
+          "Jalapeno Pepper",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Spicy Food Some People Love To Eat"
+    },
+    {
+      "answers": [
+        [
+          "Weigh Very Little ",
+          43
+        ],
+        [
+          "Nothing ",
+          28
+        ],
+        [
+          "Bottled Food ",
+          18
+        ],
+        [
+          "Umbilical Cord ",
+          12
+        ],
+        [
+          "Both Float ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Astonaut And A Baby Have In Common"
+    },
+    {
+      "answers": [
+        [
+          "Wash Dishes",
+          49
+        ],
+        [
+          "Laundry",
+          27
+        ],
+        [
+          "Clean Toilet",
+          14
+        ],
+        [
+          "Cooking",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Could Have Just One Chore That Someone Else Would Always Do For You, What Would It Be? (More Specific Than “Clean.”)"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Lipstick/Makeup",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Cash/Wallet",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hairbrush/Comb",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pens/Pencils",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Women: Name The Item In Your Purse That A Germophobe Would Say Needs To Be Disinfected"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawyer",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Boxer",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Politician",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Therapist",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Judge",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Type Of Professional Would You Least Like To Get Into An Argument With, Because You’d Never Win?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Freezing ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Chilly ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Flu ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Frigid ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Brisk ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Another Word For Cold"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheeks",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Legs",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Belly",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Butt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Chubby That’s Cute On A Baby, But Not On An Adult"
+    },
+    {
+      "answers": [
+        {
+          "ans": "ID",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Facial Hair",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Girl In A Pageant Would Know How To Do, But Most Little Girls Wouldn’t."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wallet",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Bank Account",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Piggy Bank",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Jar",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pocket",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Safe",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Keep Money In"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sports",
+          51
+        ],
+        [
+          "Beautiful Women",
+          37
+        ],
+        [
+          "Cars",
+          6
+        ],
+        [
+          "News",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Wives: What Does Your Husband See On TV That Guarantees He’ll Stop Flipping Channels?"
+    },
+    {
+      "answers": [
+        [
+          "Blood",
+          50
+        ],
+        [
+          "Love Scenes",
+          13
+        ],
+        [
+          "Scenery",
+          12
+        ],
+        [
+          "Acting",
+          10
+        ],
+        [
+          "Monsters",
+          6
+        ],
+        [
+          "Fight Scenes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Can Tell Is Fake In A Cheesy Movie"
+    },
+    {
+      "answers": [
+        [
+          "Storms ",
+          59
+        ],
+        [
+          "Getting Lost ",
+          38
+        ],
+        [
+          "Sinking ",
+          25
+        ],
+        [
+          "Pirates ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Columbus Worried About On His Way To America"
+    },
+    {
+      "answers": [
+        [
+          "Lyndon",
+          54
+        ],
+        [
+          "Kevin",
+          35
+        ],
+        [
+          "Magic",
+          23
+        ],
+        [
+          "Howard",
+          15
+        ],
+        [
+          "Randy",
+          10
+        ],
+        [
+          "Andrew",
+          6
+        ],
+        [
+          "Michael",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Johnson"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

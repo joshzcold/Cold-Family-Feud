@@ -1,0 +1,341 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Front Door",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Car Door",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom Door",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Safe",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Door That You’d Hate To Leave Unlocked Accidentally"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Queen",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Balloons",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Float",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Football Game",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dresses",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Limos",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "King",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See At A High School Homecoming."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suit",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Try To Avoid Getting Sand In While At The Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "High Heels",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Sandals",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Platform Shoes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Shoe That Would Be Hard For A Tightrope Walker To Perform In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pictures",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Love Letters",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides A Ring, Name Something Specific A Girl Might Give Back To Her Boyfriend When She Dumps Him."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Scary Movie",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Shots",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Making A Wish",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Prayer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Roller Coaster",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hide And Seek",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Event A Child Closes Their Eyes For"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bathroom",
+          46
+        ],
+        [
+          "Air Conditioning",
+          29
+        ],
+        [
+          "Gas",
+          11
+        ],
+        [
+          "Television",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "During A Long Distance Bus Trip, Name Something You’d Be Disappointed To Learn That The Bus Didn’t Have"
+    },
+    {
+      "answers": [
+        [
+          "Ear Muffs",
+          50
+        ],
+        [
+          "Hat",
+          35
+        ],
+        [
+          "Headphones",
+          5
+        ],
+        [
+          "Scarf",
+          4
+        ],
+        [
+          "Hood",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wear That Covers Your Ears."
+    },
+    {
+      "answers": [
+        [
+          "Jennifer",
+          27
+        ],
+        [
+          "Janet",
+          20
+        ],
+        [
+          "Jane",
+          19
+        ],
+        [
+          "Joanne",
+          12
+        ],
+        [
+          "Judy",
+          5
+        ],
+        [
+          "Jamie",
+          5
+        ],
+        [
+          "Jackie",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Woman’s Name That Starts With The Letter “J”"
+    },
+    {
+      "answers": [
+        [
+          "Bus",
+          34
+        ],
+        [
+          "Semi Truck",
+          26
+        ],
+        [
+          "Tractor",
+          23
+        ],
+        [
+          "Garbage Truck",
+          6
+        ],
+        [
+          "Dump Truck",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Slow-Moving Vehicle That You Hate To Get Stuck Behind"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

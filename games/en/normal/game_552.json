@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pitcher",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Catcher",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Shortstop",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "First Base",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Hardest Position To Play On A Baseball Team"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bugs",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Rodents",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Mold",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Fire",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Restaurant Have Inside It That Would Cause It To Be Closed Down"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speed",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Cut You Off",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Honk",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Talk On Phone",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Tailgate",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Apply Make Up",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might Somebody Do While Driving That Would Make You Think They’re Probably Arrogant?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Test Tubes",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Beakers",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Microscope",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Chemicals",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bunsen Burners",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Lab Coat",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Goggles",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Find In A Scientist’s Lab"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hot Dogs",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hamburgers",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Marshmallows",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Beans",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food You Can Cook On A Campfire."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weekend",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Football game",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Payday",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Place Of worship",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An event That Most People Look Forward To Each Week"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "To Bed",
+          31
+        ],
+        [
+          "To A Bar",
+          20
+        ],
+        [
+          "To A Movie",
+          14
+        ],
+        [
+          "On Vacation",
+          14
+        ],
+        [
+          "To A Hotel",
+          9
+        ],
+        [
+          "Out For Dinner",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Place Where Parents Go To Get Away From The Kids For A While"
+    },
+    {
+      "answers": [
+        [
+          "Hair",
+          48
+        ],
+        [
+          "Nails",
+          33
+        ],
+        [
+          "Eyes",
+          12
+        ],
+        [
+          "Eyebrows",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something On Their Bodies That People Color In Black."
+    },
+    {
+      "answers": [
+        [
+          "Telemarketers",
+          30
+        ],
+        [
+          "In Laws",
+          23
+        ],
+        [
+          "Bill Collectors",
+          16
+        ],
+        [
+          "Mother",
+          10
+        ],
+        [
+          "Girlfriend",
+          5
+        ],
+        [
+          "Crank Callers",
+          5
+        ],
+        [
+          "Boyfriend",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone You Wish Wouldn’t Call So Often"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          47
+        ],
+        [
+          "Tattoo",
+          31
+        ],
+        [
+          "Motorcycle",
+          20
+        ],
+        [
+          "Piercings",
+          13
+        ],
+        [
+          "Kid",
+          8
+        ],
+        [
+          "Criminal Record",
+          5
+        ],
+        [
+          "His Own Place",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Teenage Daughter Parent Hope Fromn Boyfriend"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

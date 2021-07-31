@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Tony",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Don",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Joey",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Frank",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Al",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Scarface",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Vinny",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Mans Name Are You Likely To Hear In A Mafia Movie"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Door",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Fan",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Outlet",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cookie Jar",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Parents Warn Their Children Not To Get Their Fingers Caught In."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food/Drink",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Magazine/Paper",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Souveniers",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Luggage Fee",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Parking",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides Your Plane Ticket, Name Something You Can Spend Money On At An Airport"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Recycling",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Buy Hybrid Car",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Use Less Paper",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Plant Trees",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Are Some Actions People Might Take To Be More Earth Friendly?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Video Games",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Instead Of Magazines, Name Something You wish Your Dentist’s Waiting Room Had?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Your Highness",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Your Majesty",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sir",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Madam",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Word Or Phrase You Might Use When Addressing Royalty."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Food/Milk",
+          43
+        ],
+        [
+          "Pets/Scratches",
+          25
+        ],
+        [
+          "Clean Litterbox",
+          10
+        ],
+        [
+          "Catnip",
+          7
+        ],
+        [
+          "Attention",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Your Cat Learned To Speak, Name Something It Would Ask For"
+    },
+    {
+      "answers": [
+        [
+          "Sand In Toes ",
+          56
+        ],
+        [
+          "Bad Weather ",
+          36
+        ],
+        [
+          "Insects ",
+          24
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is the Worst Part About Going to The Beach"
+    },
+    {
+      "answers": [
+        [
+          "Perfectionist",
+          34
+        ],
+        [
+          "Saint",
+          25
+        ],
+        [
+          "Angel",
+          21
+        ],
+        [
+          "Do Gooder",
+          10
+        ],
+        [
+          "Goody Two Shoes",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word For Someone Who Never Does Anything Wrong"
+    },
+    {
+      "answers": [
+        [
+          "Grand Canyon",
+          30
+        ],
+        [
+          "Empire State Building",
+          15
+        ],
+        [
+          "Space Needle",
+          14
+        ],
+        [
+          "Eiffel Tower",
+          12
+        ],
+        [
+          "Washington Monument",
+          9
+        ],
+        [
+          "Niagra Falls",
+          7
+        ],
+        [
+          "St. Louis Arch",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Tourist Attraction That Offers A Great View"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

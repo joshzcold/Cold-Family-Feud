@@ -1,0 +1,333 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hiking",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Watching Movies",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "On A Dating Website, What Activity Do People Often List As A Pastime?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Tattoo",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Piercings",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Kid",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Criminal Record",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "His Own Place",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Teenage Girl’s Parents Would Hope Thet Her Boyfriend Didn’t Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Balloon",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tire",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Makes Loud Sound When It Pops"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Slow",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Waltz",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Jazz",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Country",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Best Kind Of Music To Dance To With Someone You Want To Be Close To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beard",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Size",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Hearty Laugh",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stranger",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Deep Voice",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific About Santa That Causes Children To Be Afraid Of Him At The Mall."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hamburger",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Chicken Nuggets",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Milkshake",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Filet O Fish",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Order At McDonald’s That You’d Never Order At A Fancy French Restaurant."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hat",
+          38
+        ],
+        [
+          "Glasses",
+          22
+        ],
+        [
+          "Scarf",
+          12
+        ],
+        [
+          "Gloves",
+          10
+        ],
+        [
+          "Tie",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Wear That Only Comes In One Size."
+    },
+    {
+      "answers": [
+        [
+          "Birth Date",
+          34
+        ],
+        [
+          "Name",
+          25
+        ],
+        [
+          "Address",
+          18
+        ],
+        [
+          "License Number",
+          13
+        ],
+        [
+          "Description",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something On Everyone’s Driver’s License."
+    },
+    {
+      "answers": [
+        [
+          "Laugh",
+          51
+        ],
+        [
+          "Burp",
+          33
+        ],
+        [
+          "Sing",
+          22
+        ],
+        [
+          "Sneeze",
+          14
+        ],
+        [
+          "Cough",
+          9
+        ],
+        [
+          "Drink",
+          6
+        ],
+        [
+          "Smoke",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Talking, Name Something Shouldn’t Do While Eating"
+    },
+    {
+      "answers": [
+        [
+          "Traffic",
+          45
+        ],
+        [
+          "Weather",
+          29
+        ],
+        [
+          "Smog",
+          19
+        ],
+        [
+          "Lots Of People",
+          12
+        ],
+        [
+          "Noise",
+          8
+        ],
+        [
+          "Crime",
+          5
+        ],
+        [
+          "Prices",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If you moved to Los Angeles, what would be the first thing youd have to get used to."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

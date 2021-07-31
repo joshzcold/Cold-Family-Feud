@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Faint",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Sweat",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Run",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If A Groom Was Extremely Nervous About Getting Married, What Might He Do At The Alter?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Objects disappear",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit out of hat",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Card tricks",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Saw in half",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If there were a college for magicians,name a trick that you’re sure would be taught on day one."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sand ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bucket ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Toys ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Spade ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Children ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Find In A Sand Pit"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Fireworks",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do People Do More On The 4th Of July Than On The 5th Of July?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tony",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Don",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Joey",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Frank",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Scarface",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Al",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Vinny",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Man’s Name Are You Likely To Hear In Mafia Movie?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Age",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Appearance",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something People Lie About In Personals"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Shave ",
+          49
+        ],
+        [
+          "Go To The Pub ",
+          32
+        ],
+        [
+          "Swear ",
+          21
+        ],
+        [
+          "Watch Sport ",
+          14
+        ],
+        [
+          "Work ",
+          9
+        ],
+        [
+          "Masturbate ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Man Does More Than A Woman"
+    },
+    {
+      "answers": [
+        [
+          "Pram ",
+          53
+        ],
+        [
+          "Trolley ",
+          34
+        ],
+        [
+          "Wheelbarrow ",
+          23
+        ],
+        [
+          "Go Cart ",
+          15
+        ],
+        [
+          "Bicycle ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something With Wheels That People Push"
+    },
+    {
+      "answers": [
+        [
+          "Eggs",
+          44
+        ],
+        [
+          "Cereal",
+          18
+        ],
+        [
+          "Muffins",
+          10
+        ],
+        [
+          "Coffee",
+          9
+        ],
+        [
+          "Bagels",
+          9
+        ],
+        [
+          "Toast",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something You’re Likely To Find At A Hotel Continental Breakfast."
+    },
+    {
+      "answers": [
+        [
+          "Shop",
+          33
+        ],
+        [
+          "Sleep",
+          23
+        ],
+        [
+          "Play Golf",
+          21
+        ],
+        [
+          "Lay Around",
+          15
+        ],
+        [
+          "Travel",
+          5
+        ],
+        [
+          "Have Parties",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Think Rich Folks Do All Day Instead Of Working."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

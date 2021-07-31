@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Plant ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Toaster ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Towell ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Glasses ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Vase ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Gove Someone As A Housewarming Present"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Baby Shower",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion Where It’d Be Embarrassing To Show Up Empty Handed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nurse",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Store",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Santa Claus",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job Which Might Require Someone To Work On Xmas"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Please",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Thanks",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Pardon/Excure Me",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sorry",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Word That Polite People Use Often."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beach ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sand Pit ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "In A Bucket ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "In An Hour Glass ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Desert ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place You Might Find Sand"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pimple",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Men",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bugs",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cold",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Boomerang",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Bad Headache",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bad Habit",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Try To Get Rid Of That Always Seems To Come Back."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cat",
+          45
+        ],
+        [
+          "Whale",
+          29
+        ],
+        [
+          "Dolphin",
+          19
+        ],
+        [
+          "Frog",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Animal That Makes Pretty Sound"
+    },
+    {
+      "answers": [
+        [
+          "Actor / Actress ",
+          55
+        ],
+        [
+          "Movies ",
+          36
+        ],
+        [
+          "Stage ",
+          23
+        ],
+        [
+          "Script ",
+          15
+        ],
+        [
+          "Drama ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Acting"
+    },
+    {
+      "answers": [
+        [
+          "Food",
+          58
+        ],
+        [
+          "Clothes",
+          18
+        ],
+        [
+          "Diapers",
+          6
+        ],
+        [
+          "Education",
+          5
+        ],
+        [
+          "Toys",
+          5
+        ],
+        [
+          "Childcare",
+          3
+        ],
+        [
+          "Vacation",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Expense That You’d Save On If You Didn’t Have Any Kids"
+    },
+    {
+      "answers": [
+        [
+          "Cook",
+          38
+        ],
+        [
+          "Clean",
+          19
+        ],
+        [
+          "Style Her Hair",
+          12
+        ],
+        [
+          "Drive",
+          10
+        ],
+        [
+          "Laundry",
+          7
+        ],
+        [
+          "Make Up",
+          5
+        ],
+        [
+          "Shop",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Be Surprised To Hear That A Celebrity Did For Herself"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

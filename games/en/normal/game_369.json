@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Love",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Friends",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Health",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Need In Order To Be Happy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trees",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Ornaments",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Lights",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wrapping Paper",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Cards",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Item Stores Probably Have A Hard Time Selling After Christmas"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Marine Animals",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Treasure",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Shells",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Missing Person",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sunken Ship",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Diver Might Look For Underwater"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Laugh",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Interest",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Accent",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "During Conversation You Might Fake"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Age",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Height",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Marital Status",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Horoscope Sign",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Piece Of Information You’d Include In Personals Ad"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beaches",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Luau",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Volcanos",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hula Dancers",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Leis",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pineapples",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Islands",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Hawaii Is Known For."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          8,
+          47
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "how Many Hours Of Sleep Does The average person Need In Oder To Wake Up Refreshed?"
+    },
+    {
+      "answers": [
+        [
+          "Bread",
+          35
+        ],
+        [
+          "Bananas",
+          16
+        ],
+        [
+          "Cookies",
+          13
+        ],
+        [
+          "Chips",
+          10
+        ],
+        [
+          "Potatoes",
+          8
+        ],
+        [
+          "Cereal",
+          6
+        ],
+        [
+          "Canned Goods",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Doesn’t Need To Be Refrigerated"
+    },
+    {
+      "answers": [
+        [
+          "Gun",
+          45
+        ],
+        [
+          "Mom",
+          26
+        ],
+        [
+          "Skull",
+          9
+        ],
+        [
+          "Snake",
+          5
+        ],
+        [
+          "Cross",
+          4
+        ],
+        [
+          "Money",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Mobster Might Have A Tattoo Of."
+    },
+    {
+      "answers": [
+        [
+          "Strawberries",
+          33
+        ],
+        [
+          "Pinapple",
+          27
+        ],
+        [
+          "Bananas",
+          14
+        ],
+        [
+          "Apples",
+          12
+        ],
+        [
+          "Lemon",
+          4
+        ],
+        [
+          "Cherries",
+          3
+        ],
+        [
+          "Peaches",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit People Put In Cakes"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

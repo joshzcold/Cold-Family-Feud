@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Best Friend",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Sister",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Mother",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Brother",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Specific In Your Life Who Has Tried To Set You Up On A Blind Date."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pillow Fight",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Boys",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Makeovers",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Chitchat",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Junk Food",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Watching Movies",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Truth or Dare",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With A Teenage Girls Sleepover"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hat ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Clothes ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Shoes ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Jumper ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sunscreen ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Children Do Not Like Wearing In Summer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dump Truck",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Fire Engine",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Tractor",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Police Car",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bull Dozer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A type Of Work Vehicle That’s Often seen As A Children’s Toy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Under Mattress",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Safe",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Piggy Bank",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Freezer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drawer",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Closet",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wallet",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Someone Didn’t Trust Banks Where Would They Hide Cash"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rose Bowl",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Orange Bowl",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cotton Bowl",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sugar Bowl",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Citrus Bowl",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Bowl Game That Takes Place During The Holidays"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fan/Air Conditioner",
+          45
+        ],
+        [
+          "Swimming Pool",
+          20
+        ],
+        [
+          "Ocean/Lake",
+          12
+        ],
+        [
+          "Tree/Shade",
+          11
+        ],
+        [
+          "Cold Drink",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Sits Next To On A Hot Day"
+    },
+    {
+      "answers": [
+        [
+          "Siren",
+          23
+        ],
+        [
+          "Doorbell",
+          20
+        ],
+        [
+          "Passing Car",
+          18
+        ],
+        [
+          "Whistle",
+          17
+        ],
+        [
+          "Cat’s Meow",
+          14
+        ],
+        [
+          "Other Dogs",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sound That Causes Dogs To Bark"
+    },
+    {
+      "answers": [
+        [
+          "Shoveling",
+          42
+        ],
+        [
+          "Driving",
+          37
+        ],
+        [
+          "Leaving The House",
+          9
+        ],
+        [
+          "Walking",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Dread Doing After A Snowfall"
+    },
+    {
+      "answers": [
+        [
+          "Dishes",
+          42
+        ],
+        [
+          "Cooking",
+          27
+        ],
+        [
+          "Laundry",
+          10
+        ],
+        [
+          "Watching Kids",
+          8
+        ],
+        [
+          "Driving",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something Specific A Married Couple Might Take Turns Doing"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

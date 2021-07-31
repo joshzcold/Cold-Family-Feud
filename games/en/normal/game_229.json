@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Closet",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Under Bed",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Attic",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Garage",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Kitchen Drawer",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Even In A Tidy House, Name One Place Where There’s Usually Junk Hidden Away."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stock Market",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Wall Street Journal",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Suites And Ties",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With Wall Street"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Shopping Trip",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Night Out",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion For Which People Often End Up Overspending"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Steak",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cheese",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Dogs Love Just As Much As Humans Do.(Meat Is Not An Answer, Be More Specific)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sumo Wrestling",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "WWF Wrestling",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Weight Lifting",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "name A Sport Or Athletic League Whose Large Athletes You’d Hate To Ride A See-Saw With."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cleaning",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Execising",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Studying",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Gardening",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Like To Listen To Music While Doing"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Basketball",
+          45
+        ],
+        [
+          "Swimming",
+          29
+        ],
+        [
+          "Running",
+          19
+        ],
+        [
+          "Soccer",
+          12
+        ],
+        [
+          "Baseball",
+          8
+        ],
+        [
+          "Tennis",
+          5
+        ],
+        [
+          "Martial Arts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport That Doesn’t Require A Lot Of Equipment"
+    },
+    {
+      "answers": [
+        [
+          "Decorate",
+          43
+        ],
+        [
+          "Holiday Music",
+          32
+        ],
+        [
+          "Holiday Sales",
+          9
+        ],
+        [
+          "Bring In Santa",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Malls Do To Get Shoppers In The Christmas Spirit."
+    },
+    {
+      "answers": [
+        [
+          "Rollercoaster ",
+          58
+        ],
+        [
+          "A Car ",
+          38
+        ],
+        [
+          "Ferris Wheel ",
+          25
+        ],
+        [
+          "Motor Bike ",
+          16
+        ],
+        [
+          "Merry Go Round ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Ride For A Thrill"
+    },
+    {
+      "answers": [
+        [
+          "Big Bird",
+          40
+        ],
+        [
+          "Oscar",
+          26
+        ],
+        [
+          "Cookie Monster",
+          17
+        ],
+        [
+          "Snuffy",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Sesame Street Character Uncomfortable In Their Costume"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

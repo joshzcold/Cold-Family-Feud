@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Trumpet ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Saxophone ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Drums ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Clarinet ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Double Bass ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Instrument In A Jazz Band"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimsuit",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Summer Clothing",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pool Equipment",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lawn Care",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioner",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Probably Drops In Sales In The Winter."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Meat ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Cleaver ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Knife ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chopping Board ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Associate With A Butcher"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Conversation",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Work/Meeting",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Movie/TV Show",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Parent Might Scold A Child For Interrupting"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Underwear",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tie",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Nightgown",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing That Only A Neat-Freak Would Iron"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bow/Ribbon",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Sweater",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Diamond Collar",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tutu",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Put On A Poodle, But Not A Pitbull"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Slide",
+          50
+        ],
+        [
+          "Swings",
+          33
+        ],
+        [
+          "Monkey Bar",
+          21
+        ],
+        [
+          "See Saw",
+          14
+        ],
+        [
+          "Merry Go Round",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something At The Playground Wish Adult Size"
+    },
+    {
+      "answers": [
+        [
+          "Pond",
+          65
+        ],
+        [
+          "Lake",
+          12
+        ],
+        [
+          "Swamp",
+          6
+        ],
+        [
+          "Creek",
+          5
+        ],
+        [
+          "River",
+          3
+        ],
+        [
+          "Woods",
+          3
+        ],
+        [
+          "Backyard",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Might Find A Frog"
+    },
+    {
+      "answers": [
+        [
+          "Head",
+          33
+        ],
+        [
+          "Eyes",
+          27
+        ],
+        [
+          "Tail/Fin",
+          19
+        ],
+        [
+          "Bones",
+          14
+        ],
+        [
+          "Scales",
+          3
+        ],
+        [
+          "Giills",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Part of A Fish That Most People Don’t Eat."
+    },
+    {
+      "answers": [
+        [
+          "Ketchup",
+          58
+        ],
+        [
+          "Salt",
+          28
+        ],
+        [
+          "Ranch Dressing",
+          6
+        ],
+        [
+          "Mayonnaise",
+          2
+        ],
+        [
+          "Vinegar",
+          2
+        ],
+        [
+          "Mustard",
+          2
+        ],
+        [
+          "Bar B Que Sauce",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Put On Their French Fries."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

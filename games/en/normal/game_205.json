@@ -1,0 +1,352 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Illegal Substance",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Criminals",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bones",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Missing People",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Birds",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Dogs Are Trained To Find"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snow",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Polar Bears",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Santa Claus",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Icebergs",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Penguin",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Research Station",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Seals",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you might see at the North Pole"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Triangle",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Circle",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Square",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Oval",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Rectangle",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Diamond",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Star",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Could Describe Yourself As A Shape, Name The Shape You Would Be?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "His Dad/Homer",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "His Sister/Lisa",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "His Mom/Marge",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "The Bully/Nelson",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Principal Skinner",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Bart Simpson Would Block From Becoming His Friend On Facebook."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing Carols",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Show Affection",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Play Family Games",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pose For Pictures",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do Teenagers Do With Their Families At The Christmas Holiday That They Probably Would Be Embarassed To Have Known?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shirt",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Uniform",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Badge",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Wear That Has Their Company Logo On"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Famous",
+          34
+        ],
+        [
+          "Business Reasons",
+          28
+        ],
+        [
+          "Family Connection",
+          13
+        ],
+        [
+          "Believes In Keeping",
+          8
+        ],
+        [
+          "Dislikes Husband’s",
+          4
+        ],
+        [
+          "Too Much Paperwork",
+          4
+        ],
+        [
+          "Shares It With Child",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Woman Wouldn’t Change Her Last Name After Marrying."
+    },
+    {
+      "answers": [
+        [
+          "Family Ties",
+          44
+        ],
+        [
+          "Family Matters",
+          24
+        ],
+        [
+          "All In The Family",
+          16
+        ],
+        [
+          "Family Guy",
+          11
+        ],
+        [
+          "Addam’s Family",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides “Family Feud”, Name A Tv Show With “Family” In Its Title"
+    },
+    {
+      "answers": [
+        [
+          "Brady Bunch",
+          42
+        ],
+        [
+          "The Jacksons",
+          27
+        ],
+        [
+          "The Kennedys",
+          18
+        ],
+        [
+          "The Partridge Family",
+          12
+        ],
+        [
+          "The Duggars",
+          7
+        ],
+        [
+          "Cosby Family",
+          5
+        ],
+        [
+          "The Waltons",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Real Or Fictional Name A Famous Family That Has A Lot Of Kids"
+    },
+    {
+      "answers": [
+        [
+          "GLEE CLUB",
+          23
+        ],
+        [
+          "CHESS CLUB",
+          16
+        ],
+        [
+          "DEBATE CLUB",
+          14
+        ],
+        [
+          "DRAMA",
+          13
+        ],
+        [
+          "ART",
+          6
+        ],
+        [
+          "FOREIGN LANGUAGE",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Club A High School Student Might Belong To"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hands",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Flag",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Sign/Banner",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Kite",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Lighter",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Wave In The Air."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rockies",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Swiss Alps",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Sierras",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Appalachian",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Himilaysa",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Mountain Range Known For Skiing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bats ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Bear ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Treasure ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Caveman ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Rocks ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In A Cave"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chair",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Magazines",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Waiting Room",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Both A Dental Office And A Spa Might Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bacon",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Pancakes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Sausage",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Donuts",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Smell From A Diner In The Morning That Makes You Want To Go In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fall Off",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Start Moving",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Crash",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Flat Tire",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would Be Surprised To Happen Riding Stationary Bike"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "POLICE OFFICER",
+          45
+        ],
+        [
+          "LAYWER",
+          29
+        ],
+        [
+          "TEACHER",
+          19
+        ],
+        [
+          "DOCTOR",
+          12
+        ],
+        [
+          "BOUNCER",
+          8
+        ],
+        [
+          "JUDGE",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation In Which Someone With A Baby Face Might Have A Hard Time Providing Their Authority"
+    },
+    {
+      "answers": [
+        [
+          "Being In A Cage",
+          72
+        ],
+        [
+          "Feeding Time",
+          14
+        ],
+        [
+          "People Looking At You",
+          9
+        ],
+        [
+          "Noisy Children",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Have To Get Used To If You Were A Zoo Animal"
+    },
+    {
+      "answers": [
+        [
+          "Cartoon",
+          51
+        ],
+        [
+          "Songs",
+          33
+        ],
+        [
+          "Puppets",
+          22
+        ],
+        [
+          "Rating",
+          14
+        ],
+        [
+          "Commercials",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How can You Tell The Show You’re watching Is Made Fore Kids?"
+    },
+    {
+      "answers": [
+        [
+          "Toothbrush",
+          45
+        ],
+        [
+          "Sunscreen",
+          29
+        ],
+        [
+          "Soap",
+          19
+        ],
+        [
+          "Bug Spray",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Parent Reminds Kid Use At Summer Camp"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

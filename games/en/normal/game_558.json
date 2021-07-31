@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Subway Station",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Overpass",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "TRains",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Buildings",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Billboards",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bathrooms",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Parks",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Places Are Most Likely To Get Tagged With Graffiti?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "People Talking ",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "No Seats ",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Loud Music ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Tramps ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sitting Too Close ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Annoys You When You Take The Bus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pocket ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Purse ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "In A Jar ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Ashtray ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Somewhere You Might Keep Loose Change"
+    },
+    {
+      "answers": [
+        {
+          "ans": "What Time",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "What To Wear",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "What To Bring",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Directions",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Woman Calls A Party’s Host To Ask"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheese",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chili",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something People Eat With Crackers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Siren",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Horn",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Screaming Baby",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sound That Gives You A Headache If You Hear It For Too Long."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Team Sports",
+          36
+        ],
+        [
+          "Music Lessons",
+          22
+        ],
+        [
+          "Dance Class",
+          21
+        ],
+        [
+          "Theatre",
+          12
+        ],
+        [
+          "Martial Arts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Extracurricular Activity That Parents Say Is Good For A Child."
+    },
+    {
+      "answers": [
+        [
+          "In Bed ",
+          51
+        ],
+        [
+          "At The Movies ",
+          33
+        ],
+        [
+          "At Work ",
+          22
+        ],
+        [
+          "In Church ",
+          14
+        ],
+        [
+          "School ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Often Yawn"
+    },
+    {
+      "answers": [
+        [
+          "Cuisine",
+          43
+        ],
+        [
+          "Accent",
+          28
+        ],
+        [
+          "Weather",
+          18
+        ],
+        [
+          "Time Zone",
+          12
+        ],
+        [
+          "Region",
+          8
+        ],
+        [
+          "Style",
+          5
+        ],
+        [
+          "Laws",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Different In Different Regions Of A Country"
+    },
+    {
+      "answers": [
+        [
+          "Lawyer",
+          55
+        ],
+        [
+          "Therapist",
+          36
+        ],
+        [
+          "Doctor",
+          23
+        ],
+        [
+          "Financial Planner",
+          15
+        ],
+        [
+          "Fortune Teller",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who Make Money Off Of Giving Advice"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

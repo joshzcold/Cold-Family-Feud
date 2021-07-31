@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Steep Drop",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Loop",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Incline",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Hate To See Ahead Of You While Riding A Roller Coaster?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bedding",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "backpack",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Kid Take Along If He’s Planning To Run Away Fro Home?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mud / Dirt ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Might Get All Over Their Hands"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stay Awake",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Like The Taste",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Energy",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Addicted",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Reason Would Most People Give For Why They Drink Coffee?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Night Before Christmas",
+          "pnt": 64,
+          "trig": false
+        },
+        {
+          "ans": "Rudolph The Red Nose",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Grinch Stole Xmas",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "A Christmas Carol",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bible",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Frosty The Snow Man",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "A Christmas Carol",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Christmas Story That A Parent Might Read To Their Child."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Train ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Bus ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Theatre ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Parking ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lottery ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Football Match ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Buy A Ticket For"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cats",
+          61
+        ],
+        [
+          "Getting A Bath",
+          18
+        ],
+        [
+          "Vacuum Cleaner",
+          5
+        ],
+        [
+          "Mail Carrier",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something A Dog Can’t Stand."
+    },
+    {
+      "answers": [
+        [
+          "Wile E Coyote ",
+          49
+        ],
+        [
+          "Daffy Duck ",
+          32
+        ],
+        [
+          "Tom ",
+          21
+        ],
+        [
+          "Road Runner ",
+          14
+        ],
+        [
+          "Kenny ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cartton Character Who Is Always Getting Hurt"
+    },
+    {
+      "answers": [
+        [
+          "Night ",
+          49
+        ],
+        [
+          "White ",
+          32
+        ],
+        [
+          "Witch ",
+          21
+        ],
+        [
+          "Dark ",
+          14
+        ],
+        [
+          "Dress ",
+          9
+        ],
+        [
+          "Funeral ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Associate With The Colour Black"
+    },
+    {
+      "answers": [
+        [
+          "Ice Hockey",
+          34
+        ],
+        [
+          "Skiing",
+          30
+        ],
+        [
+          "Ice Skating",
+          15
+        ],
+        [
+          "Snowboarding",
+          13
+        ],
+        [
+          "Bobsledding",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport That Can Only Be Played Outdoors In The Winter?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

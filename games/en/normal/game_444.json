@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Play Football",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV/Movie",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Jog",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity That’s More Fun To Do When It’s Raining Outside"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strawberry",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Cherry",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Raspberry",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Red Sprinkles",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Red Colored Frozen Yogurt Topping."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scooby Doo ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Lassie ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "K9 ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Santa's Little Helper ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Snoopy ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hooch ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Fictional Dog"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Hold Hands",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Intimacy",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Go On Dates",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Take Walks",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Romantic You Hope To Still Do With Your Partner When You’re 80"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Magazines",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pay Phone",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chair",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "People",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d Find In A Hospital Waiting Room."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turning Green ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ears Grow ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Growing Feelers ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Eyes Get Bigger ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Glowing ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason To Suspect You Are Becoming A Martian"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Job",
+          59
+        ],
+        [
+          "Money",
+          20
+        ],
+        [
+          "Weight",
+          9
+        ],
+        [
+          "How Many Kids",
+          4
+        ],
+        [
+          "Marital Status",
+          4
+        ],
+        [
+          "Grades",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Kinds Of Things Might People Lie About At Their High School Reunions?"
+    },
+    {
+      "answers": [
+        [
+          "Movies",
+          31
+        ],
+        [
+          "Poetry",
+          22
+        ],
+        [
+          "Play",
+          19
+        ],
+        [
+          "Religious Scripture",
+          14
+        ],
+        [
+          "Songs",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something People Try To recite Lines From"
+    },
+    {
+      "answers": [
+        [
+          "Bird ",
+          48
+        ],
+        [
+          "Lion ",
+          31
+        ],
+        [
+          "Animals ",
+          20
+        ],
+        [
+          "Tiger ",
+          13
+        ],
+        [
+          "Monkey ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Be Kept In A Cage"
+    },
+    {
+      "answers": [
+        [
+          "Hats/Bonnets",
+          45
+        ],
+        [
+          "Dresses/Hoop Skirts",
+          25
+        ],
+        [
+          "Wigs",
+          16
+        ],
+        [
+          "Corsets",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Wore More Of In The 1800s Than They Do Today"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

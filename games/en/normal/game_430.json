@@ -1,0 +1,300 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": 3,
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": 4,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 2,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 1,
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me How Many Hours A Day A Teenage Girl Talks On The Phone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lord Of The Rings",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Star Wars",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Titanic",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Jaws",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "King Kong",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Jurassic Park",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "The Matrix",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Movie Should Only Be Watched On A Giant Screen?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Old Clothes",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Toys",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Funiture",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Photos",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Grown Child May Leave In Storage At His Parents’ House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smell ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Flowers ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Woman ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Perfume"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Model ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Salesperson ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Cabin Crew ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Receptionist ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hostess ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Profession Where You Have To Smile A Lot"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Auto",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Dental",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Life",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Home",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Vision",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Insurance That Employers Don’t Provide"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Surprise Party",
+          50
+        ],
+        [
+          "Pin Tail On Donkey",
+          27
+        ],
+        [
+          "Kidnapped",
+          18
+        ],
+        [
+          "Pinata",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why You’d Get A Blindfold."
+    },
+    {
+      "answers": [
+        [
+          "Library/Study",
+          40
+        ],
+        [
+          "Game Room",
+          22
+        ],
+        [
+          "Pool Room",
+          18
+        ],
+        [
+          "Parlor",
+          9
+        ],
+        [
+          "Home Theatre",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Room That You’d Find In A Mansion, But Not A Regular House"
+    },
+    {
+      "answers": [
+        [
+          "Smoke",
+          48
+        ],
+        [
+          "Talk On Cell Phone",
+          24
+        ],
+        [
+          "Walk Away",
+          15
+        ],
+        [
+          "Leave The Car On",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’re Not Supposed To Do While Filling Your Gas Tank."
+    },
+    {
+      "answers": [
+        [
+          "Throw Eggs",
+          43
+        ],
+        [
+          "Smash Pumpkins",
+          28
+        ],
+        [
+          "Toilet Paper Houses",
+          18
+        ],
+        [
+          "Snatch Candy Bags",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Mean Prank Kids Play On Halloween"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Getting A Shot",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Violence & Movie",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Upset/Hurt",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Tooth Pulled",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sopping Trip",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hiding A Gift",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Instance When A Parent Might Try To Distract A Child"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Homework",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Grades",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Tests",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Knowledge",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Stickers",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Encouragement",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Teachers Give Their Students."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Drunk",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Show Affection",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Sing / Carol",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Do At A Family Christmas Party, That You Shouldn’t Do At The Office Christmas Party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shirt",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Tie",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sports Coat",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Pants",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing A Restaurant Might Require Its Customers To Wear."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "TV/Movie Role",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Movie Star’s Kid Might Get As A Birthday Present."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Your Shy",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Your Cheating",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "You Look Bad",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Your Sick",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Saw Your Love Interest Unexpectedly, Name A Specific Reason You’d Avoid Them."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Tree",
+          51
+        ],
+        [
+          "Rock",
+          33
+        ],
+        [
+          "Bump",
+          22
+        ],
+        [
+          "People",
+          14
+        ],
+        [
+          "Fence",
+          9
+        ],
+        [
+          "Parked Car",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Try To Avoid Hitting While Sledding Down A"
+    },
+    {
+      "answers": [
+        [
+          "Javelin ",
+          54
+        ],
+        [
+          "Discus ",
+          35
+        ],
+        [
+          "Shot Put ",
+          23
+        ],
+        [
+          "Hammer ",
+          15
+        ],
+        [
+          "Judo ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport In Which You Throw Something"
+    },
+    {
+      "answers": [
+        [
+          "Strawberry",
+          49
+        ],
+        [
+          "Peach",
+          18
+        ],
+        [
+          "Strawberry",
+          13
+        ],
+        [
+          "Banana",
+          10
+        ],
+        [
+          "Raspberry",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit They Put In Ice Cream"
+    },
+    {
+      "answers": [
+        [
+          "Daffy Duck",
+          29
+        ],
+        [
+          "Porky Pig",
+          24
+        ],
+        [
+          "Elmer Fudd",
+          23
+        ],
+        [
+          "Donald Duck",
+          9
+        ],
+        [
+          "Bugs Bunny",
+          6
+        ],
+        [
+          "Sylvester",
+          4
+        ],
+        [
+          "Tweety Bird",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Cartoon Character Who Has Trouble Pronouncing Words"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

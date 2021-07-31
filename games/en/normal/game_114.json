@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Prime Time",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Prime Rib",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Prime Interest Rate",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Prime Minister",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "prime Number",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Prime Example",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Phrase That Starts With The Word “Prime.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bus",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Drive Anyway",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Ask A Friend",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Take A Cab",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bike",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Your License Has Expired, How Do You Get To The DMV To Renew It?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Sunbathing",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Drinking",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lack Of Sleep",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Stress",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Will Make A Person Age Faster."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Glass ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Microsoft ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Frames ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Double Glazing ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Windows"
+    },
+    {
+      "answers": [
+        {
+          "ans": "At Home",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Long Car/ Bus Ride",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Airport/ Plane",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Doctor’s Office",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Nap Just To Pass The Time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cool",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Awesome",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Yummy",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Good",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Nice",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Words Do Kids Usually Use To Describe Something They Like?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "New York",
+          59
+        ],
+        [
+          "Boston",
+          38
+        ],
+        [
+          "Dallas",
+          25
+        ],
+        [
+          "Chicago",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An American City That Has Its Own Accent"
+    },
+    {
+      "answers": [
+        [
+          "Video Recorder ",
+          42
+        ],
+        [
+          "Aerial ",
+          27
+        ],
+        [
+          "Pictures ",
+          18
+        ],
+        [
+          "Remote Control ",
+          12
+        ],
+        [
+          "Clock ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something you Might Find On Top Of A Tv Set"
+    },
+    {
+      "answers": [
+        [
+          "Golf Clubs ",
+          52
+        ],
+        [
+          "Golf Bag ",
+          34
+        ],
+        [
+          "Golf Balls ",
+          22
+        ],
+        [
+          "Towel ",
+          14
+        ],
+        [
+          "Tees ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Golf Caddy Might Carry"
+    },
+    {
+      "answers": [
+        [
+          "Pop A Zit",
+          14
+        ],
+        [
+          "Look At Your Body",
+          9
+        ],
+        [
+          "Dance",
+          8
+        ],
+        [
+          "Undress",
+          6
+        ],
+        [
+          "Pluck eyebrows",
+          6
+        ],
+        [
+          "Clip Nose Hairs",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do In Front Of A Mirror You Wouldn’t Want Anyone To See"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

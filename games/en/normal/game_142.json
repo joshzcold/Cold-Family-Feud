@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sunglasses",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Mask",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Wig",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Facial Hair",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Trench Coat",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something Spies Wear To Disguise Their Identity."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ride A Bike",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Cut/Carve",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Swim",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Use Tools",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s Dangerous To Do One-Handed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Childhood",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Daughter’s Skirt",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Summer/School Calendar",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Life",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Fuse/Temper",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Parents Say Is Too Short."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tennis",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wrestling",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport In Which The Athletes Don’t Wear A Lot Of Clothes."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rock And Roll",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Rubber",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Jazz",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Country",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Mariachi",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Band."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lobster",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Steak",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "French Fries",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Never Cook At Home, But Order When Eating At The Restaurant"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Pass Gas",
+          28
+        ],
+        [
+          "Sneeze",
+          22
+        ],
+        [
+          "Smoke",
+          19
+        ],
+        [
+          "Blow Nose",
+          15
+        ],
+        [
+          "Cough",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Don’t Want The Person Next To You To Do While You’re Eating."
+    },
+    {
+      "answers": [
+        [
+          "Shop Assistant ",
+          47
+        ],
+        [
+          "Nurse ",
+          31
+        ],
+        [
+          "Waiter / Waitress ",
+          20
+        ],
+        [
+          "Police Officer ",
+          13
+        ],
+        [
+          "Hairdresser ",
+          8
+        ],
+        [
+          "Runner ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation That Keeps You On Your Feet"
+    },
+    {
+      "answers": [
+        [
+          "Dog ",
+          50
+        ],
+        [
+          "Cat ",
+          33
+        ],
+        [
+          "Lion ",
+          21
+        ],
+        [
+          "Tiger ",
+          14
+        ],
+        [
+          "Crocodile ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Eats Meat"
+    },
+    {
+      "answers": [
+        [
+          "Telethon",
+          58
+        ],
+        [
+          "Comedy",
+          17
+        ],
+        [
+          "Dean Martin",
+          13
+        ],
+        [
+          "Nutty Proffesor",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Jerry Lewis."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

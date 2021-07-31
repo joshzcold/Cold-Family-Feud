@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Turn Off Alarm",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Put In Ear Plugs",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Close Bedroom Door",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Turn Off Phone",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Take A Sleep Aid",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Close Shades",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You Do Before Bed If You Don’t Want Anything To Wake You Up In The Morning?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Travel",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Get Married",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Go Back To School",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Move Back Home",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Join The Military",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Instead Of Getting A Job, Name Something A Person Might Do After College"
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Christmas Story",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Rudolph/Red Nosed Reindeer",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "The Grinch",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Home Alone",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "White Christmas",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "It’s/Wonderful Life",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Frosty The Snowman",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Christmas Movie Is Played Most Often Over The Holidays?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vitamins",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Orange Juice",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That A Person Might Consume Every Morning In Order To Stay Healthy."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Millionaire",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Sunscreen",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wheel Of Fortune",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Family Fued",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Price Is Right",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game Show That Gives Away A Lot Of Money."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cars ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "White Lines ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Signs ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See On The Road"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Suit",
+          58
+        ],
+        [
+          "Bra",
+          14
+        ],
+        [
+          "Heels",
+          12
+        ],
+        [
+          "Nylons",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Businesswoman Must Always Wear To Work."
+    },
+    {
+      "answers": [
+        [
+          "Loo ",
+          56
+        ],
+        [
+          "Bog ",
+          36
+        ],
+        [
+          "Khazi ",
+          24
+        ],
+        [
+          "Lavatory ",
+          16
+        ],
+        [
+          "Little Boys Room ",
+          10
+        ],
+        [
+          "John ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Nickname For The Toilet"
+    },
+    {
+      "answers": [
+        [
+          "Firefighter",
+          40
+        ],
+        [
+          "Clown",
+          15
+        ],
+        [
+          "Farmer",
+          14
+        ],
+        [
+          "Construction",
+          13
+        ],
+        [
+          "Fisherman",
+          7
+        ],
+        [
+          "Barber",
+          6
+        ],
+        [
+          "Lumberjack",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation Where You Might Wear Suspenders."
+    },
+    {
+      "answers": [
+        [
+          "Popcorn ",
+          42
+        ],
+        [
+          "Pizza ",
+          27
+        ],
+        [
+          "Tv Dinner ",
+          18
+        ],
+        [
+          "Milk ",
+          12
+        ],
+        [
+          "Hot Dog ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Is Often Cooked In A Microwave"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

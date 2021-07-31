@@ -1,0 +1,358 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ball Game",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Commercials",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Boxing Match",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "News",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Politics",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Horror Movie",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Game Show",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something On TV That Causes People To Yell At Their Screens"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleeping",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Eating/Drinking",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Kissing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Use Phone",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "freshening Up",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Reading Map",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Smoking",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That People Might Be Seen Doing In Their Vehicles As A Rest Area Along The Freeway"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toilet",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Floor",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than Teeth Something People Use Toothbrush To Clean"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pen/Pencil",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Stapler",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Paperclip",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Tape",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Paper",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific You Might Borrow From Your Coworker’s Desk That You’re Least Likely To Return"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Musician / Singer ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Disc Jockey ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Tv Announcer ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "MC ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Radio Announcer ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occupation That Uses A Microphone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eating Sweets",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Falling In Love",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Playing Games/Sports",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Being Around Kids",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Disney/Theme Park",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Riding A Bike",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "No Matter What Your Age, Name Something That Can Make You Feel Like A Kid Again"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "President",
+          49
+        ],
+        [
+          "Peanuts",
+          32
+        ],
+        [
+          "Amy Carter",
+          21
+        ],
+        [
+          "Habitat For Humanity",
+          14
+        ],
+        [
+          "Roselyn Carter",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With Jimmy Carter"
+    },
+    {
+      "answers": [
+        [
+          "Football ",
+          44
+        ],
+        [
+          "Skating ",
+          29
+        ],
+        [
+          "Tennis ",
+          19
+        ],
+        [
+          "Running ",
+          12
+        ],
+        [
+          "Golf ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An activity the Requires Special Footwear"
+    },
+    {
+      "answers": [
+        [
+          "Tarzan",
+          22
+        ],
+        [
+          "Bird Watcher",
+          21
+        ],
+        [
+          "Monkey",
+          15
+        ],
+        [
+          "Tree Trimmer",
+          12
+        ],
+        [
+          "Bird",
+          9
+        ],
+        [
+          "Firefighter",
+          9
+        ],
+        [
+          "Child",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal Or Person Who Might Spend Time In A Tree"
+    },
+    {
+      "answers": [
+        [
+          "Restaurant",
+          52
+        ],
+        [
+          "Hotel",
+          34
+        ],
+        [
+          "Store",
+          22
+        ],
+        [
+          "Club",
+          14
+        ],
+        [
+          "Hospital",
+          9
+        ],
+        [
+          "Rehab",
+          6
+        ],
+        [
+          "Jail",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "At What Place Might A Celebrity Get Special Treatment"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

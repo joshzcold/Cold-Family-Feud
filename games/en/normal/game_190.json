@@ -1,0 +1,320 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Friends",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Partner",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Clergy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other than your family members,from whom would you accept criticism?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Bumps",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Speed",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Curves",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Eating Too Much",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Can Make You Sick On A Long Car Ride"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Napkin",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Origami/Paper",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sheet",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Is Folded."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Relax",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Watch TV",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Your Husband Gets Home After A Long Day Work, Ready To Do?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sir Elton John",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Stevie Wonder",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Liberace",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ray Charles",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Beethoven",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Billy Joel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Famous Who Plays The Piano."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Keys ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Leg ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Stool ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pedals ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Strings ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Part Of A Piano"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Smoke",
+          43
+        ],
+        [
+          "Cheat",
+          28
+        ],
+        [
+          "Talk Too Much",
+          18
+        ],
+        [
+          "Tap Fingers",
+          12
+        ],
+        [
+          "Too Loud",
+          8
+        ],
+        [
+          "Annoying Laugh",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person Might Do While Playing Cards That Would Annoy Everyone Else At The Table"
+    },
+    {
+      "answers": [
+        [
+          "Luggage",
+          54
+        ],
+        [
+          "Bikes",
+          35
+        ],
+        [
+          "Boat",
+          23
+        ],
+        [
+          "Tent",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Soemthing Strapped To Family’s Car On Vacation"
+    },
+    {
+      "answers": [
+        [
+          "Main",
+          75
+        ],
+        [
+          "Elm",
+          9
+        ],
+        [
+          "Martin L King",
+          7
+        ],
+        [
+          "Maple",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Street That You’ll Find In Almost Every City In America"
+    },
+    {
+      "answers": [
+        [
+          "Shirt / Blouse ",
+          44
+        ],
+        [
+          "Suit ",
+          29
+        ],
+        [
+          "Trousers ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has Buttons"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Riding Horses",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Roping",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Shooting",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Hunting",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stealing Cattle",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Rodeo",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Cowboys Are Good At."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Other People",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Work/ School",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Eating",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something You Avoid When You Are Sick"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pitch Fork ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Spade Or Shovel ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Rake ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lawn Mower ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Wheel Barrow ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "A Hoe ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In The Garden Shed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Moving Out",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Getting Married",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Going To Be A Dad",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Dropping Out",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Joining Military",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "On His 18th Birthday, What Would A Mom Hate To Hear Her Son Say? “Mom, I’m_____”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rudolph",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Story",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Charlie Brown",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Frosty",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Grinch",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "A Wonderful Life",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Home Alone",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Christmas Show That Is On Tv Every Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traffic",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Accident",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Breakdown",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Road Work",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Happens During A Commute And Makes You Late For Work"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Fights",
+          31
+        ],
+        [
+          "Drinking/Drugs",
+          29
+        ],
+        [
+          "Crowds",
+          19
+        ],
+        [
+          "Skimpy Outfits",
+          13
+        ],
+        [
+          "Opening Band",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something At A Rock Concert That You Don’t Pay To See, But See Anyway."
+    },
+    {
+      "answers": [
+        [
+          "Coat",
+          22
+        ],
+        [
+          "Helmet",
+          22
+        ],
+        [
+          "Jockstrap",
+          13
+        ],
+        [
+          "Bulletproof Vest",
+          11
+        ],
+        [
+          "Hat",
+          11
+        ],
+        [
+          "Sunscreen",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Wear To Protect Themselves."
+    },
+    {
+      "answers": [
+        [
+          "Call Police",
+          58
+        ],
+        [
+          "Cry",
+          38
+        ],
+        [
+          "Drive Away",
+          25
+        ],
+        [
+          "Call Insurance",
+          16
+        ],
+        [
+          "Get Out Of Car",
+          11
+        ],
+        [
+          "Pull Over",
+          7
+        ],
+        [
+          "Curse",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The First Thing You Would Do After A Fender Bender?"
+    },
+    {
+      "answers": [
+        [
+          "No Laughs",
+          47
+        ],
+        [
+          "Got Booed/Heckled",
+          31
+        ],
+        [
+          "Nobody Showed Up",
+          20
+        ],
+        [
+          "Forgot Jokes",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Stand-up Comedian Might Say He Had A Bad Night"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Churn Butter",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Carry Water",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Handwash Clothes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Milk Cows",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Farm Work",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chop Wood",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hunt",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Chore People Had To Do During Colonial Times That We Don’t Do Any More"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eggs",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Pancakes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bacon",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Toast",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’ll Find On The Breakfast Menu, No Matter What Kind Of Restaurant You’re At."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bungee Jumping ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Parachuting ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Roller Coaster ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Hang Gliding ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Skiing ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You're Afraid To Try Even Though It Seems Fun"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Firefighter",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Teachers",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Nurse",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Profession That Works Long Hours."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Turning Green",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Ears Grow",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Growing Antennas",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Eyes Get Bigger",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Glowing",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Can’t Speak",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason You Might Suspect You’re Becoming A Martian."
+    },
+    {
+      "answers": [
+        {
+          "ans": "MILK",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "CIGARETTES",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "MEAT",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "ICE CREAM",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "ALCOHOL",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "FLOWERS",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Grocery Stores Keep In A Glass Case"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sports",
+          51
+        ],
+        [
+          "Reaching",
+          26
+        ],
+        [
+          "Hugging",
+          6
+        ],
+        [
+          "Rock Climbing",
+          6
+        ],
+        [
+          "Paint Ceilings",
+          5
+        ],
+        [
+          "Change Lightbulbs",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Person With Extra Long Arms Would Be Good At"
+    },
+    {
+      "answers": [
+        [
+          "New York",
+          42
+        ],
+        [
+          "Venice",
+          27
+        ],
+        [
+          "Los Angeles",
+          18
+        ],
+        [
+          "Las Vegas",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A City Where A Movie Car Chase Never Be Filmed"
+    },
+    {
+      "answers": [
+        [
+          "Typing",
+          42
+        ],
+        [
+          "Working Hard",
+          27
+        ],
+        [
+          "Communication",
+          18
+        ],
+        [
+          "Computer Program",
+          12
+        ],
+        [
+          "Sales",
+          7
+        ],
+        [
+          "Customer Service",
+          5
+        ],
+        [
+          "Foreign Language",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Skill That A Person’s Resume Might Claim Than Are"
+    },
+    {
+      "answers": [
+        [
+          "Sponge ",
+          57
+        ],
+        [
+          "Water ",
+          37
+        ],
+        [
+          "Cloth / Chamois Leather ",
+          24
+        ],
+        [
+          "Hose ",
+          16
+        ],
+        [
+          "Shampoo ",
+          10
+        ],
+        [
+          "Bucket ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Use To Wash The Car"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

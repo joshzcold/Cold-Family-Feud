@@ -1,0 +1,306 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Snake",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Worm",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Turtle",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Ant",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Caterpillar",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Creature That, Until It Moves, You Don’t Know Its Head From Its Tail."
+    },
+    {
+      "answers": [
+        {
+          "ans": "His Live Life",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Buying A Car",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "His Career",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "His Outfit",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "His Finances",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A MAn Asks His Friends For A Second Opinion On"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Party",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Holiday",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Carnival",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Decorations",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Gets Described As Festive"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Nose",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Pants",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Clown Might Wear Thats Oversized"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soda",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Comes In A Bottle"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jokes",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Being Tickled",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "TV Show/Movie",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Clown",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Causes A Person To Laugh."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bed ",
+          45
+        ],
+        [
+          "Toys ",
+          29
+        ],
+        [
+          "Teddy Bear ",
+          19
+        ],
+        [
+          "Books ",
+          12
+        ],
+        [
+          "TV ",
+          8
+        ],
+        [
+          "Wardrobe ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Most Children Have In Their Bedroom"
+    },
+    {
+      "answers": [
+        [
+          "Food Server",
+          31
+        ],
+        [
+          "Salesperson",
+          25
+        ],
+        [
+          "Doctor",
+          15
+        ],
+        [
+          "Mechanic",
+          13
+        ],
+        [
+          "Nurse",
+          8
+        ],
+        [
+          "Police Officer",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job Where You Might Have Your Name On The Front Of Your Shirt."
+    },
+    {
+      "answers": [
+        [
+          "Go Commando ",
+          56
+        ],
+        [
+          "Wear Inside Out ",
+          36
+        ],
+        [
+          "Wash Them ",
+          24
+        ],
+        [
+          "Wear Partners ",
+          16
+        ],
+        [
+          "Wear Dirty Ones ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do If You Run Out Of Clean Pants"
+    },
+    {
+      "answers": [
+        [
+          "Fancy Meals",
+          51
+        ],
+        [
+          "Alcohol",
+          31
+        ],
+        [
+          "Entertainment",
+          8
+        ],
+        [
+          "Shopping",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Expense From A Business Trip That Your Employer Probably Wouldn’t Reimburse"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

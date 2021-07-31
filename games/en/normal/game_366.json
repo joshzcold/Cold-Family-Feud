@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dept Store",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Casino",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Movie",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Place You End Up Spending More Money Than Planned"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Type",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Clap",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ride A Bike",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’re Supposed To Do With Both Hands, But People Often Use Just One."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Expenses",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Being Alone",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Leaving Home",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Making New Friends",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Difficult Classes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "New Roommate",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Teens May Be Afraid Of When Moving Away To College"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Homemade",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Sales",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Set A Budget",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Re-Gift",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Discount Stores",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way To Avoid Spending A Lot On Christmas Gifts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Yogurt",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Tuna",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That Can be Eaten Directly From Its Container."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Abra Cadabra",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Hocus Pocus",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Alla Kazam",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Presto",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Word Or Phrase Is Often Used As A Magician’s Magic Word(s)?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Can’t Fly",
+          33
+        ],
+        [
+          "Getting Weak",
+          26
+        ],
+        [
+          "Slowing Down",
+          18
+        ],
+        [
+          "No X Ray Vision",
+          7
+        ],
+        [
+          "Gray Hair",
+          5
+        ],
+        [
+          "Memory Loss",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Superman Got Old Like The Rest Of Us, Name A Sign That It Might Be Time For Him To Retire"
+    },
+    {
+      "answers": [
+        [
+          "Open Window ",
+          51
+        ],
+        [
+          "Coffee ",
+          33
+        ],
+        [
+          "Loud Music ",
+          22
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way You Might Try to Stay Awake Whilst Driving"
+    },
+    {
+      "answers": [
+        [
+          "Golf Club",
+          50
+        ],
+        [
+          "Night Club",
+          22
+        ],
+        [
+          "Gentleman’s Club",
+          8
+        ],
+        [
+          "Club Sandwich",
+          5
+        ],
+        [
+          "Billy Club",
+          5
+        ],
+        [
+          "Country Club",
+          4
+        ],
+        [
+          "Book Club",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Club"
+    },
+    {
+      "answers": [
+        [
+          "Far Away",
+          41
+        ],
+        [
+          "Rains Too Much",
+          21
+        ],
+        [
+          "Expensive",
+          16
+        ],
+        [
+          "Crowded",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Even Though It’s A Beautiful Place To Visit, Name A Reason Why You Might Not Want To Live In Hawaii"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

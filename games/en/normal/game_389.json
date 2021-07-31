@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Anesthetic",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Wash Hands",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "My Name",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Procedure",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Rubber Gloves",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Drugs",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Hate For Your Doctor To Forget Before Operating On You"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Earwax",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Carwax",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Beeswax",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Wax Museum",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Hot Wax",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wax Paper",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Candle wax",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A word YOu Might see Before Or After The Word “Wax”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elevator",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Restroom",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Waiting Room",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Train Station",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Small Space Where You Feel Compelled To Make Small Talk With A Stranger."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soup",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Chili",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lasagna/Pasta",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That You Often Burn Your Tongue While Eating."
+    },
+    {
+      "answers": [
+        {
+          "ans": 2,
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": 4,
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": 3,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 1,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides For Work, Tell Me How Many Hours You Spend Using Your Computer In One Day. (Numeric Only Please.)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone Numbers",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Lists",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Appointments",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Peoples Names",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Birthdays",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Addresses",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Always Forget If You Don’t Write It Down"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Film ",
+          53
+        ],
+        [
+          "Photos ",
+          34
+        ],
+        [
+          "Flash ",
+          23
+        ],
+        [
+          "Lens ",
+          15
+        ],
+        [
+          "Holidays ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With A Camera"
+    },
+    {
+      "answers": [
+        [
+          "British Accent",
+          43
+        ],
+        [
+          "Weather",
+          18
+        ],
+        [
+          "Driving On Other Side",
+          17
+        ],
+        [
+          "Culture",
+          12
+        ],
+        [
+          "Time Difference",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If You Moved To England, Name Something That Would Take Some Getting Used To."
+    },
+    {
+      "answers": [
+        [
+          "Snowman ",
+          42
+        ],
+        [
+          "Snowball ",
+          27
+        ],
+        [
+          "Ski Jump ",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Make With Snow"
+    },
+    {
+      "answers": [
+        [
+          "Library",
+          48
+        ],
+        [
+          "Park",
+          16
+        ],
+        [
+          "Church",
+          14
+        ],
+        [
+          "Bedroom",
+          13
+        ],
+        [
+          "Beach",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place People Might Go For Peace And Quiet."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

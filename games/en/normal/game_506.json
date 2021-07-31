@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Big / Fat ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Mud ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Big Teeth ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Africa ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Somethiong You Associate With A Hippopotamus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clean",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Buy Food",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Freshen Up Room",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do To Prepare For Out-Of-Town Visitors."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Little Miss Muffet",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Twinkle Little Star",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Little Boy Blue",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Red Riding Hood",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Three Little Pigs",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Little Bo Peep",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Little Tommy Tucker",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Nursery Rhyme That Has The Word “Little” In The Title."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shower ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Swim ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Drink ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Wash ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Jump In Pool ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do To Refresh Yourself"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Traffic ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Overslept ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Car Trouble ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Someone Died ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Got Lost ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Excuse People Give For Being Late"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hat",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Vest",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Name Tag",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Tie",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Warn As A Part Of A Movie Theatre Uniform"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cat",
+          54
+        ],
+        [
+          "Witch",
+          22
+        ],
+        [
+          "Bats",
+          14
+        ],
+        [
+          "Spider",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Black That You Associate With Halloween."
+    },
+    {
+      "answers": [
+        [
+          "Doors/ Locks",
+          52
+        ],
+        [
+          "Lights",
+          34
+        ],
+        [
+          "Alarm Clock",
+          22
+        ],
+        [
+          "Stove",
+          14
+        ],
+        [
+          "Kids",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do You Check Before Going To Bed?"
+    },
+    {
+      "answers": [
+        [
+          "Person Cut In Half",
+          52
+        ],
+        [
+          "Sword Swallow",
+          19
+        ],
+        [
+          "Disappearing Act",
+          14
+        ],
+        [
+          "Knife Throwing",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Magic Trick Would Become Dangerous If The Magician Was A Phony?"
+    },
+    {
+      "answers": [
+        [
+          "Concert",
+          45
+        ],
+        [
+          "Movie",
+          43
+        ],
+        [
+          "Amusement Park",
+          3
+        ],
+        [
+          "Sports",
+          3
+        ],
+        [
+          "Theatre",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Kind Of Ticket People Wait In Line To Buy"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

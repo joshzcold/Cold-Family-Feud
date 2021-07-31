@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Mom",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Dad",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Grandma",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sibling",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone You Wouldn’t Want To See You Nude."
+    },
+    {
+      "answers": [
+        {
+          "ans": "7 Days",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "5 Days",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "10 Days",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "14 Days",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "3 Days",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "4 Days",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me How Many Days It Takes A Man To Grow A Beard. (Numeric Only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "cars",
+          "pnt": 71,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Houses",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Jewlery",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Plane",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "boat",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Millionaires Might Shop For Just For Fun"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snakes ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Rats ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Spiders ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Mosquitoes ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cockroaches ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sharks ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal People Wish Didn't Exist"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoking",
+          "pnt": 69,
+          "trig": false
+        },
+        {
+          "ans": "Eating Too Much",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Eating Junk",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Too Much Salt",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drinking Alcohol",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Doctors Are Always Telling People To Stop Doing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Your Hair ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Weather ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Traffic ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Tv ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Your Partner ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Discuss With A Hair Dresser"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Grocery store",
+          24
+        ],
+        [
+          "Bar",
+          21
+        ],
+        [
+          "Airplane",
+          20
+        ],
+        [
+          "Park",
+          13
+        ],
+        [
+          "Coffee Shop",
+          10
+        ],
+        [
+          "Bus",
+          7
+        ],
+        [
+          "Parking Lot",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Might Have A Friendly Conversation With A Total Stranger."
+    },
+    {
+      "answers": [
+        [
+          "Ear Wax",
+          26
+        ],
+        [
+          "Car Watch",
+          18
+        ],
+        [
+          "Beeswax",
+          14
+        ],
+        [
+          "Hot Wax",
+          8
+        ],
+        [
+          "Wax Museum",
+          8
+        ],
+        [
+          "Wax Paper",
+          8
+        ],
+        [
+          "Candle Wax",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word That You Might See Before Or After The Word “Wax”."
+    },
+    {
+      "answers": [
+        [
+          "Dating Again",
+          47
+        ],
+        [
+          "Seeing Your Ex",
+          20
+        ],
+        [
+          "Crying/Loneliness",
+          17
+        ],
+        [
+          "Sorting Belongings",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That You Dread Doing After A Break-Up"
+    },
+    {
+      "answers": [
+        [
+          "Climbing",
+          49
+        ],
+        [
+          "Cracking Nuts",
+          35
+        ],
+        [
+          "Running",
+          7
+        ],
+        [
+          "Storage In Cheeks",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If A Child Were Raised By Squirrels Name Something He’d Be Good At."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

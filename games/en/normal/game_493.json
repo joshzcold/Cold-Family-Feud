@@ -1,0 +1,322 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Eat",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Exchange gifts",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you do at an office holiday party."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Prom",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Birthday Party",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dinner Date",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "For What Occasion Did Your Partner Last Look Stunning?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Late",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Esspresso",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Mocha",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cappuccino",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Coffee Drink People Order While They’re Out, But Can’t Make At Home"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Carrot ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Vegetables ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Cabbage ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Potato ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Tomato ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In A Vegetable Patch"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Charades",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cards",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Monopoly",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Scrabble",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pictionary",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Family Fued",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game A Family Plays At An Annual Holiday Gathering."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monster",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cops",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Bad Guys",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Dogs",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Are Often Chased By In Movies"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Drill",
+          59
+        ],
+        [
+          "Waiting",
+          13
+        ],
+        [
+          "Bill",
+          8
+        ],
+        [
+          "Shots",
+          8
+        ],
+        [
+          "Numb Mouth/ Novacaine",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something Specific You Hate About Going To The Dentist"
+    },
+    {
+      "answers": [
+        [
+          "Yawn ",
+          42
+        ],
+        [
+          "Sigh ",
+          27
+        ],
+        [
+          "Fall Asleep ",
+          18
+        ],
+        [
+          "Doodle ",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do When Bored"
+    },
+    {
+      "answers": [
+        [
+          "Beach",
+          46
+        ],
+        [
+          "Restaurant",
+          32
+        ],
+        [
+          "Movie Theatre",
+          15
+        ],
+        [
+          "Park/Picnic",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Most Romantic Place To Go On A First Date."
+    },
+    {
+      "answers": [
+        [
+          "House",
+          32
+        ],
+        [
+          "Sesame",
+          25
+        ],
+        [
+          "Door",
+          13
+        ],
+        [
+          "Minded",
+          9
+        ],
+        [
+          "Book",
+          9
+        ],
+        [
+          "Season",
+          4
+        ],
+        [
+          "Bar",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phrase That Begins With The Word “Open”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

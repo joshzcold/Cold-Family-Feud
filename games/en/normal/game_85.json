@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Egg Nog",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Champagne",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Juice",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Beverage You Might Drink At A Typical Holiday Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clowns ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Animals ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Candy Floss ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Fun ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Children Like About The Circus"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car Sales",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Limo Driver",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Delivery Person",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Taxi",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Racecar Driver",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job You’d Accept Just To Get Access To The “Company Car.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toaster ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Money ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "China ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Silverware ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Dishes ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Popular Wedding Gift"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Knowledge",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sight",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Somethng Babies Are Born With Little Or None Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Remote Control",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Color",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Video player",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Video Jacks",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Cable",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Feature TV Sets Have Today That They Didn’t Have 50 Years Ago"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Her Cooking",
+          37
+        ],
+        [
+          "Her Parenting",
+          38
+        ],
+        [
+          "Her Appearance",
+          25
+        ],
+        [
+          "Her Housekeeping",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Worst Thing To Criticize Your Mother-In-Law For"
+    },
+    {
+      "answers": [
+        [
+          "Investigative Pieces",
+          18
+        ],
+        [
+          "Andy Rooney",
+          16
+        ],
+        [
+          "Ticking Clock",
+          14
+        ],
+        [
+          "Tough Questions",
+          14
+        ],
+        [
+          "Dan Rather",
+          14
+        ],
+        [
+          "Mike Wallace",
+          11
+        ],
+        [
+          "Leslie Stahl",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Associate With The TV Show “60 Minutes”"
+    },
+    {
+      "answers": [
+        [
+          "Can’t Swim/Afraid",
+          31
+        ],
+        [
+          "In Cast",
+          23
+        ],
+        [
+          "Grounded",
+          17
+        ],
+        [
+          "Cold Weather",
+          11
+        ],
+        [
+          "No Pool",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Reason Why A Kid Would Not Go Swimming All Summer Long"
+    },
+    {
+      "answers": [
+        [
+          40,
+          42
+        ],
+        [
+          50,
+          31
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          60,
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Age That People Worry About Turning"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

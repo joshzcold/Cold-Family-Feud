@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Store",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Internet",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Best Place For Single People To Find Each Other."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sold",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Going Once … Gone",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bid",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Do I Hear",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If An Auctioneer Had A Baby, What Might Be Her First Words?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "10 Gallon Hat",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Rope",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Cowboy Probably Leaves At Home For A Job Interview"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pray",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Close Eyes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Count",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Look Outside",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Nervous Skydiver Might Do To Distract Himself Before A Jump."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Heart",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Baby",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Forever",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Other Than “Love”, Name A Word That’s in Almost Every Love Song"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fries",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Ketchup",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Grease",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Salt",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Fat",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Beverage",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Napkins",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Fast Food Rarely Comes Without"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Grandmother",
+          32
+        ],
+        [
+          "Aunt",
+          30
+        ],
+        [
+          "Teacher",
+          19
+        ],
+        [
+          "Older Sister",
+          15
+        ],
+        [
+          "Babysitter",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Your Mother, Name A Female Who Told You What To Do While You Were Growing Up"
+    },
+    {
+      "answers": [
+        [
+          "Drink",
+          41
+        ],
+        [
+          "Have Sex",
+          27
+        ],
+        [
+          "Stay Up Late",
+          17
+        ],
+        [
+          "Eat Too Much",
+          11
+        ],
+        [
+          "Tough Work Out",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Athlete Wouldn’t Do The Night Before A Big Game"
+    },
+    {
+      "answers": [
+        [
+          "Perfume",
+          53
+        ],
+        [
+          "TV",
+          34
+        ],
+        [
+          "Clothes/ Shoes",
+          23
+        ],
+        [
+          "Computer",
+          15
+        ],
+        [
+          "Cd",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Test In Store Before Buying"
+    },
+    {
+      "answers": [
+        [
+          "Skiing",
+          29
+        ],
+        [
+          "Ice Skating/Hockey",
+          16
+        ],
+        [
+          "Snowboarding",
+          15
+        ],
+        [
+          "Shoveling",
+          14
+        ],
+        [
+          "Sledding",
+          14
+        ],
+        [
+          "Snowball Fight",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Winter Activity That Makes You Sweat."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

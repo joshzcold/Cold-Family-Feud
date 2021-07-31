@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Clubs ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Flask ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Tees ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Balls ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lunch ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Golfer Would Have In His Bag"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Dramatic Lives",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Big Houses",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Nice Clothes",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Good Looks",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do Soap Opera Characters And Wealthy People Have In Common?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spanking",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Breaking Up",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Shot",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Loss Of Privileges",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Tell Someone Is Going To Hurt You More Than Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sneezy",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sleepy",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Grumpy",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Bashful",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Doc Were To Examine The Other 6 Dwarfs, Whose Problem Might He Try And Medicate?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eye Patch",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Hook",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Wooden Leg",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Sword",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parrot",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Pirate Has To Take Off Before He Goes To Bed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elevator",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Seesaw",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Yo Yo",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Thermometer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ball",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Goes Up And Down"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Snowboarding",
+          29
+        ],
+        [
+          "Drinking/Eating",
+          23
+        ],
+        [
+          "Cuddling By The Fire",
+          16
+        ],
+        [
+          "Sledding",
+          15
+        ],
+        [
+          "Hot Tub",
+          9
+        ],
+        [
+          "Play In Snow",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Skiing, Name Something People Enjoy Doing At A Ski Resort"
+    },
+    {
+      "answers": [
+        [
+          "Drink ",
+          50
+        ],
+        [
+          "Talk On Phone ",
+          33
+        ],
+        [
+          "Sleep ",
+          21
+        ],
+        [
+          "Put On Make Up ",
+          14
+        ],
+        [
+          "Pick Nose ",
+          9
+        ],
+        [
+          "Shave ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Really Shouldn't Do When Driving"
+    },
+    {
+      "answers": [
+        [
+          "Pay",
+          40
+        ],
+        [
+          "Boss",
+          26
+        ],
+        [
+          "Hours",
+          17
+        ],
+        [
+          "Co-Workers",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something About Current Job Better Than Former Job"
+    },
+    {
+      "answers": [
+        [
+          "Plumber",
+          79
+        ],
+        [
+          "Electrician",
+          13
+        ],
+        [
+          "Gas Man",
+          2
+        ],
+        [
+          "Telephone Service",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Repairman You Might Call To Your House In An Emergency."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

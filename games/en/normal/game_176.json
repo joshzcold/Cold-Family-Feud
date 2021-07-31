@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Lisence",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Radar",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Flight Attendant",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Gas",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Passengers",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Uniforms",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Commercial Pilots Can’t Fly Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Speak Loudly",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Ignore Someone",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Embarrassing That You Might Do While Listening To Headphones."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Squid",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Sharks",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Whales",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Jellyfish",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Octopus",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Eel",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dolphins",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Lives In The Ocean That Most People Wouldn’t Eat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tattoo",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bracelet",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Cast",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Lover",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Freckle",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find On A Person’s Arm"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Listen",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Shut The Door",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hide",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Would You Do If A Group Of Carolers Come To House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Diet",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Muscle",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Protein",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Weights",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Gym",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Lived With A Bodybuilder, Name A Word You’d Often Hear Around The House"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Back",
+          44
+        ],
+        [
+          "Bottom",
+          24
+        ],
+        [
+          "Foot",
+          13
+        ],
+        [
+          "Throat",
+          10
+        ],
+        [
+          "Eyes",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place On Your Body That You Can’t Scratch When It Itches"
+    },
+    {
+      "answers": [
+        [
+          "Shopping",
+          44
+        ],
+        [
+          "clothes",
+          19
+        ],
+        [
+          "Soap Operas",
+          14
+        ],
+        [
+          "Men",
+          11
+        ],
+        [
+          "Hair",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Topic Most Men Can’t Stand, But Women Could Discuss For Hours"
+    },
+    {
+      "answers": [
+        [
+          "Food",
+          37
+        ],
+        [
+          "Family",
+          32
+        ],
+        [
+          "Dating/ Marriage",
+          9
+        ],
+        [
+          "Movies",
+          6
+        ],
+        [
+          "Animals",
+          5
+        ],
+        [
+          "Sports",
+          5
+        ],
+        [
+          "Work",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Subject That Often Comes Up In Family Feud Question"
+    },
+    {
+      "answers": [
+        [
+          "Lips Moving",
+          51
+        ],
+        [
+          "Head Bobbing",
+          29
+        ],
+        [
+          "Hear It",
+          11
+        ],
+        [
+          "Fingers Tapping",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Can You Tell That The Person In The Car Next To You Is Listening To Music?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

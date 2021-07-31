@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fixing Hair",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Applying Makeup",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Shaving",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dressing",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Showering",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Brushing Teeth",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Part Of Grooming That You’d Spend More Time On Before A Big Date."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jockey ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Police Officer ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cowboy ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Ranger ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Rodeo Rider ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation Where You Might Ride A Horse"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Under Mat",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Under A Rock",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "At Neighbors",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Flower Pot",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Wallet/Purse",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place People Often Keep A Spare Key"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Petrol ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Diesel ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Oil ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Anti Freeze ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Liquid That Is Put Into A Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lion",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Elephant",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Bear",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Circus Animal You Would Hate To Be Trainer For"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gesture",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Point Finger",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Facial Expression",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Battle",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Stomp",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Without Yelling, How Does A Mime Defend His Position In An Argument?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cinema ",
+          40
+        ],
+        [
+          "Shop / Supermarket ",
+          26
+        ],
+        [
+          "Aeroplane ",
+          17
+        ],
+        [
+          "Theatre ",
+          11
+        ],
+        [
+          "Bus ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides A Church Name A Place You Might Walk Down An Aisle"
+    },
+    {
+      "answers": [
+        [
+          "Bones",
+          31
+        ],
+        [
+          "Dog Food/Treats",
+          24
+        ],
+        [
+          "Their Owner",
+          11
+        ],
+        [
+          "Other Dogs",
+          11
+        ],
+        [
+          "Going For A Walk",
+          7
+        ],
+        [
+          "Toys",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Dogs Get More Excited About Than Humans Do."
+    },
+    {
+      "answers": [
+        [
+          "Party",
+          45
+        ],
+        [
+          "Steal",
+          29
+        ],
+        [
+          "Use Your Clothes",
+          19
+        ],
+        [
+          "Make A Mess",
+          12
+        ],
+        [
+          "Smoke",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hope Your Friend Doesn’t Do Housesitting"
+    },
+    {
+      "answers": [
+        [
+          "Tax System",
+          25
+        ],
+        [
+          "Budget Deficit",
+          21
+        ],
+        [
+          "Health Care",
+          17
+        ],
+        [
+          "Schools",
+          14
+        ],
+        [
+          "War",
+          9
+        ],
+        [
+          "Welfare",
+          7
+        ],
+        [
+          "Roads",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Politicians Always Say They’ll Improve"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

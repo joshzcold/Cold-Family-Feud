@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Balls",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bowling Pins",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Job and Home/Duties",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Multiple Dates",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Juggle"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Milk",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cigarettes",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Painkiller",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Feminine Products",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That You Would Be Willing To Pay Twice As Much For At A Convenience Store Because You Need It Quickly."
+    },
+    {
+      "answers": [
+        {
+          "ans": "T Bone",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bad To The",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Dog",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Back",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Wish",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Funny",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word Or Phrase Ends In Bone"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Duck",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Penguin",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pregnant Woman",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Toddler",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something That Waddles"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fireworks",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Shooting Star",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Rainbow",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hot Air Balloon",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Airplane",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Blimp",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dark Clouds",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See In The Sky That Would Make You Say “Ooooh!”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "TV",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Refrigerator",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Clock",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Telephone",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Stereo",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Besides Lights, Name Something In Your House That Wouldn’t Work If The Electricity Went Out."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cleaning",
+          38
+        ],
+        [
+          "Driving",
+          29
+        ],
+        [
+          "Cooking",
+          19
+        ],
+        [
+          "Worrying",
+          9
+        ],
+        [
+          "Saving",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Working, Name Something You Could Stop Doing If You Became A Millionaire."
+    },
+    {
+      "answers": [
+        [
+          "AT&T",
+          54
+        ],
+        [
+          "Sprint",
+          26
+        ],
+        [
+          "MCI",
+          13
+        ],
+        [
+          "Vonage",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Phone Company That Offers Low Long Distance Rates"
+    },
+    {
+      "answers": [
+        [
+          "Church",
+          44
+        ],
+        [
+          "School",
+          19
+        ],
+        [
+          "Movie Theatre",
+          12
+        ],
+        [
+          "Waiting Room",
+          8
+        ],
+        [
+          "Work/Meeting",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Where You Get Antsy From Sitting Too Long."
+    },
+    {
+      "answers": [
+        [
+          "Pool",
+          61
+        ],
+        [
+          "Garden",
+          12
+        ],
+        [
+          "Swingset",
+          9
+        ],
+        [
+          "Grill",
+          6
+        ],
+        [
+          "Fence",
+          4
+        ],
+        [
+          "Fountain",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d Like to Have In Your Backyard"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

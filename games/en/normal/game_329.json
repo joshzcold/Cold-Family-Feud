@@ -1,0 +1,303 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Military Uniform",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Beard",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Cigar",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bandana",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Buy If You Wanted To Dress Up Like Fidel Castro"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monster",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Weapon",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Ghost",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Bad Guy",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "In A Scary Movie, Name Something Specific That Causes A Character To Scream"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Carnival Goers",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Pig/Animal",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Pumpkin/Squash",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Jar Of Candy",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Melon",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Baby",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Guess The Weight Or Volume Of In Order To Win A Prize."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sheets",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Light Bulb",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Air Filter",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Batteries",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Furniture/Decor",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something In Your House That Has To Be Changed From Time To Time."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Keys",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Minds",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Glove",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Often Lose"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Elevator",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Public Transit",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place People Cram Into"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Park/Playground",
+          33
+        ],
+        [
+          "Chuck E Cheese",
+          22
+        ],
+        [
+          "Zoo",
+          14
+        ],
+        [
+          "School/Daycare",
+          12
+        ],
+        [
+          "Disney/Amusement Park",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place It Would Be Strange To Go If You Didn’t Have Kids"
+    },
+    {
+      "answers": [
+        [
+          "Crime Rate",
+          47
+        ],
+        [
+          "Weather Forcast",
+          26
+        ],
+        [
+          "Natural Disaster",
+          15
+        ],
+        [
+          "Political Conflict",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find Out About A City That Would Make You Change Your Plans To Visit."
+    },
+    {
+      "answers": [
+        [
+          "Talk While Driving",
+          39
+        ],
+        [
+          "Prank Call",
+          25
+        ],
+        [
+          "Go Over Minutes",
+          23
+        ],
+        [
+          "Send Dirty Texts",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Teens Should Have To Promise Never To Do Before Getting A Cell Phone."
+    },
+    {
+      "answers": [
+        [
+          "High School",
+          30
+        ],
+        [
+          "High Five",
+          24
+        ],
+        [
+          "High Roller",
+          15
+        ],
+        [
+          "High Noon",
+          14
+        ],
+        [
+          "Highway",
+          9
+        ],
+        [
+          "High Heels",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word Or Short Phrase That Begins With The Word “High.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

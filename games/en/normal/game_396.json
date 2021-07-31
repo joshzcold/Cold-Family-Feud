@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eggs Benidict",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Crepes",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Belgian Waffles",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bagel",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Quiche",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Croissant",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Breakfast Item That You’d Find On The Menu Of A Fancy Restaurant, But Not Your Local Diner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Her Bedroom",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Take A Bath",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Spa",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Place Of worship",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Library",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place Where A Mom Might Go When She Says, ” I Need Peace And Quiet.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Z ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Q ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "X ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Y ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "U ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Letter Of The Alphabet Not Often Used"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mat ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Milk Bottles ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Paper ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Pot Plant ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You See On A Doorstep"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sock ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Wellington ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Stiletto ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Winke Picker ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of Shoe"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food/Drinks",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Cable TV",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hot Tub/Pool",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Alarm",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Internet Access",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Air Conditioning",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Hope That The People You’re Housesitting For Have In Their Home."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Kevin Keagan ",
+          43
+        ],
+        [
+          "Ray Clemence ",
+          28
+        ],
+        [
+          "Peter Shilton ",
+          18
+        ],
+        [
+          "Trevor Brooking ",
+          12
+        ],
+        [
+          "Steve Coppell ",
+          8
+        ],
+        [
+          "Mick Mills ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous England Footballer From The 70's"
+    },
+    {
+      "answers": [
+        [
+          "Soda",
+          59
+        ],
+        [
+          "Beer",
+          27
+        ],
+        [
+          "Chips",
+          5
+        ],
+        [
+          "Wine",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Or Drink That Makes A Sound The First Time Its Container Is Opened."
+    },
+    {
+      "answers": [
+        [
+          "Magazines",
+          56
+        ],
+        [
+          "Greeting Cards",
+          36
+        ],
+        [
+          "Derergent",
+          24
+        ],
+        [
+          "Newspapers",
+          16
+        ],
+        [
+          "Toilet Paper",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Food, Name Something You Buy At A Supermarket"
+    },
+    {
+      "answers": [
+        [
+          "Mr Rogers",
+          43
+        ],
+        [
+          "Bill Cosby",
+          23
+        ],
+        [
+          "Captain Kangaroo",
+          16
+        ],
+        [
+          "Barney",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone, Past Or Present, Who Is Known For Hosting A Children’s Television Program"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

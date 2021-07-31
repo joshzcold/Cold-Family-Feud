@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Sleep ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Read ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Watch Movie ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Music ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Play a Game ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do To Pass Time On A Plane"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rubber ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Plastic ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Paper ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Wire ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Liquorice ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Gymnast ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Bends Easily"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lawnmower ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Fork ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hedge Trimmer ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Electrical Item Used In The Garden"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Doctor",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Accountant",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Librarian",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Clergy",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Profession is Least Likely To Have A Wild Night Life After Work"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Postcard",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Keychain",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "T Shirt",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Magnet",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Shot Glass",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Pen",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mug",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "While Vacationing, What Might A Cheapskate Buy As Souvenirs For Her Friends?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Quick ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Nippy ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Lively ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Speedy ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Another Word For Fast"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Lawyer",
+          48
+        ],
+        [
+          "Athlete",
+          31
+        ],
+        [
+          "Actor",
+          20
+        ],
+        [
+          "Teacher",
+          13
+        ],
+        [
+          "Politician",
+          9
+        ],
+        [
+          "Police Officer",
+          6
+        ],
+        [
+          "Judge",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Occupation You Are Either Loved Or Hated"
+    },
+    {
+      "answers": [
+        [
+          "Bar",
+          29
+        ],
+        [
+          "Airplane",
+          19
+        ],
+        [
+          "Casino",
+          18
+        ],
+        [
+          "Military Base",
+          12
+        ],
+        [
+          "School",
+          10
+        ],
+        [
+          "Work",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place That You Need An ID To Enter."
+    },
+    {
+      "answers": [
+        [
+          "Small Print",
+          42
+        ],
+        [
+          "Mistakes",
+          31
+        ],
+        [
+          "Both Sides Used",
+          17
+        ],
+        [
+          "Recycle Paper",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Can You Tell That A Letter Was Written By Someone Who Hates To Waste Paper?"
+    },
+    {
+      "answers": [
+        [
+          "Darts ",
+          42
+        ],
+        [
+          "Pool ",
+          27
+        ],
+        [
+          "Cards ",
+          18
+        ],
+        [
+          "Dominoes ",
+          12
+        ],
+        [
+          "Bridge ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Game You Might Find In A Pub"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

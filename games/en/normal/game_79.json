@@ -1,0 +1,319 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Plastic",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Rubber",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Dinner",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Smells Really Bad When On Fire"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Young People",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Medicine/Health",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Dentures",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Getting Old",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Fixed Income",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Aches and Pains",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If A group Of Senior Citizens Formed A Punk Rock Band, What Might Their Songs Bark About"
+    },
+    {
+      "answers": [
+        {
+          "ans": "He’s Plump",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Is Jolly",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Has A Beard",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Wears A Red Suit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "He’s Real",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Brings Presents",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Lives At North Pole",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Little Kid Might Tell You About Santa Claus."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Breast feeding",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Changing diapers",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Feeding with a bottle",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Holding the baby",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something a new Mom spends a lot of time doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Snake ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Spider ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Bat ",
+          "pnt": 20,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Animal Little Boys Use To Frighten Little Girls"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Give Money",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Donate Canned Goods",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Serve Meals",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Donate Toys",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Invite To Dinner",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Do You Do To Help Out The Less Fortunate At The "
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Grits",
+          37
+        ],
+        [
+          "Chicken",
+          18
+        ],
+        [
+          "Corn",
+          12
+        ],
+        [
+          "Soul Food",
+          8
+        ],
+        [
+          "Cajun Food",
+          8
+        ],
+        [
+          "Black Eyed Peas",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food People Associate With The South"
+    },
+    {
+      "answers": [
+        [
+          "Red Nose Reindeer",
+          40
+        ],
+        [
+          "Frosty The Snowman",
+          38
+        ],
+        [
+          "Santa’s Comin To Town",
+          8
+        ],
+        [
+          "Mean One Mr Grinch",
+          7
+        ],
+        [
+          "Grandma Got Run Over",
+          3
+        ],
+        [
+          "Here Comes Santa",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Holiday Song With A Fictional Character."
+    },
+    {
+      "answers": [
+        [
+          "Put On A Happy Face",
+          44
+        ],
+        [
+          "Make Conversation",
+          37
+        ],
+        [
+          "Go To Work",
+          15
+        ],
+        [
+          "Dress Up",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Game Show Host Has To Do, Even On A Day When He Doesn’t Feel Like It."
+    },
+    {
+      "answers": [
+        [
+          "Make Up",
+          33
+        ],
+        [
+          "Wrinkles",
+          30
+        ],
+        [
+          "Hair Style/ Color",
+          17
+        ],
+        [
+          "Smoking",
+          8
+        ],
+        [
+          "Clothes",
+          5
+        ],
+        [
+          "Sun",
+          3
+        ],
+        [
+          "Facial Hair",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Can Make You Look Older Than Your Age."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

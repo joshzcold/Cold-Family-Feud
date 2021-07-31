@@ -1,0 +1,289 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Kissing",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Stay In Car",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Privacy",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Big Screen",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "No Standing In Line",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Whats The Best Thing About Going To The Drive-In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Deepens",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Softer",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Nervous Stutter",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Higher Pitch",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Crack",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way That A Man’s Voice Might Change When Talking To His Love Interest."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Laugh/Tease",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Yawn/Sleep",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Talk/Use Phone",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Walk Away",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Romantic Man Would Hate For The Woman He’s Serenading To Do While He’s Singing"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Fruit",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Whipped Cream",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Have Seen Added To Jello"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Use My Finger",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Buy A New One",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Ask For An Extra",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mouthwash",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Were Staying Overnight At A Friend’s And Forgot Your Toothbrush, Name Something You Might Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "News",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Soap Opera",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Reality TV",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Talk Show",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Crime Drama",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Type Of TV Show That You Can’t Imagine Having An Audience Laugh Track."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bedroom",
+          46
+        ],
+        [
+          "bathroom",
+          25
+        ],
+        [
+          "kitchen",
+          8
+        ],
+        [
+          "Car",
+          7
+        ],
+        [
+          "Clothes",
+          7
+        ],
+        [
+          "Himself/Herself",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Slob Might Never Clean"
+    },
+    {
+      "answers": [
+        [
+          "A Puck ",
+          56
+        ],
+        [
+          "A Hockey Stick ",
+          36
+        ],
+        [
+          "Goals ",
+          24
+        ],
+        [
+          "Grass ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Used In A Game Of Hockey"
+    },
+    {
+      "answers": [
+        [
+          "Read ",
+          49
+        ],
+        [
+          "Sleep ",
+          32
+        ],
+        [
+          "Watch A Movie ",
+          21
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Do On An Aeroplane To Pass Time"
+    },
+    {
+      "answers": [
+        [
+          "Batmobile ",
+          43
+        ],
+        [
+          "Cape ",
+          28
+        ],
+        [
+          "Robin ",
+          18
+        ],
+        [
+          "Utility Belt ",
+          12
+        ],
+        [
+          "Mask ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Batman Doesn't Leave The Batcave Without"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

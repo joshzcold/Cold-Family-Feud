@@ -1,0 +1,324 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Halloween",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Thanksgiving",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "St Patrick’s Day",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Fourth Of July",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "New Year’s",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me A Holiday You Can Live Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Gymnastics",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Track",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Ice Skating",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Olympic Sport Would Be Most Fun To watch Live"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Get Mail/Newspaper",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Emergency/Fire",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "They’re Cold",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "They’re Lazy",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pajama Party",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Take Out Trash",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason A Person Might Wear Their Pajamas Outside."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hula Hoop",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Barbie",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Yo Yo",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Mr Potato Head",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Slinky",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Associated With The 50’s"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Airport",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Wedding/Church",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Train Station/Bus Depot",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bridge",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Park",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "In Movie Endings, Name A Place The Main Character Goes To Catch Her Crush Before It’s Too Late."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Yells A Lot",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Grumpy",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Extra Homework",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Gives Punishments",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Facial Expression",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way You Know Your Teacher Is Having A Bad Day."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Looking Around",
+          59
+        ],
+        [
+          "Big Coat",
+          25
+        ],
+        [
+          "Hands In Pocket",
+          9
+        ],
+        [
+          "Run",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Without Seeing Them Steal, Name Something That You’d See A Person Do To Make You Suspicious That They’re Shoplifting."
+    },
+    {
+      "answers": [
+        [
+          "Stars ",
+          50
+        ],
+        [
+          "Moon ",
+          33
+        ],
+        [
+          "Sky ",
+          21
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Look At Through A Telescope"
+    },
+    {
+      "answers": [
+        [
+          72,
+          40
+        ],
+        [
+          65,
+          27
+        ],
+        [
+          80,
+          20
+        ],
+        [
+          66,
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Good Score When Playing 18 Holes Of Golf."
+    },
+    {
+      "answers": [
+        [
+          "Pizza",
+          18
+        ],
+        [
+          "Chicken",
+          17
+        ],
+        [
+          "Hambugers",
+          17
+        ],
+        [
+          "Ribs",
+          13
+        ],
+        [
+          "Corn On The Cob",
+          11
+        ],
+        [
+          "Watermelon",
+          9
+        ],
+        [
+          "Sandwhich",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food Someone Might Use More Than One Hand To Eat."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

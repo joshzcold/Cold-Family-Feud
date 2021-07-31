@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Pancakes",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Omelet",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Coffee",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Grits",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Breakfast Item That You Order, But Can Never Finish"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Phone",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Hands",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Pen",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Use At Least 20 Times A Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soup ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Spaghetti ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Rice Pudding ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Curry ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Wouldn't Eat With Your Fingers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Almond",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Hazelnut",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Soy",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Cashew",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Walnut",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What kind of nut butter could you use if you were allergic to peanuts?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Detergent ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Pipes ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Plug ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sponge ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Soap ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find Under A Sink"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog Catcher",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Mail Carrier",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Veterinarian",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dog Walker",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pet Shop Manager",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shelter Worker",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Dog Trainer",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Bad Job For Someone Who’s Afraid of Dogs."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Helmet",
+          51
+        ],
+        [
+          "Knee Pads",
+          18
+        ],
+        [
+          "Gloves",
+          12
+        ],
+        [
+          "Horn",
+          8
+        ],
+        [
+          "Brakes",
+          5
+        ],
+        [
+          "reflective light/Tape",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Equipment Many Bikers Don’t Use, But Ought To."
+    },
+    {
+      "answers": [
+        [
+          "Black And White",
+          56
+        ],
+        [
+          "Clothes",
+          23
+        ],
+        [
+          "Old Cars",
+          13
+        ],
+        [
+          "Music",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "How Can You Tell That A TV Show Is Old Time?"
+    },
+    {
+      "answers": [
+        [
+          "Hair Stylist",
+          45
+        ],
+        [
+          "Musician",
+          26
+        ],
+        [
+          "Clown",
+          15
+        ],
+        [
+          "Scientist",
+          5
+        ],
+        [
+          "Model",
+          3
+        ],
+        [
+          "Comedian",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Which Profession Do You Often Find People With Wacky Hair?"
+    },
+    {
+      "answers": [
+        [
+          "Fish",
+          28
+        ],
+        [
+          "Soup",
+          19
+        ],
+        [
+          "Pizza",
+          16
+        ],
+        [
+          "Noodles",
+          12
+        ],
+        [
+          "Hot Dog",
+          8
+        ],
+        [
+          "Ribs",
+          7
+        ],
+        [
+          "Chicken",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Would Be Disgusting To Be Fed ‘Romantically’."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

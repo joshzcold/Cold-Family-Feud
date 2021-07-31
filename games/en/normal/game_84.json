@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Doctor/Nurse",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Maid",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "secretary",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Accountant/Banker",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Profession Where Neatness Counts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lie/Deny It",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Go Into Hiding",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Apology/Press Conference",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Resign",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Politician Does When Scandalous News Breaks Out About Them."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Strip Club",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Fast Food resteraunt",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Zoo",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sports Game",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Where Might A Man Take You On A First Date That Would Keep Him From Getting A Second Date?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paint ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Easel ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Paintbrush ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Model ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Painting ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Find In An Artists Studio"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jesus",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Mary",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Angel",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Joseph",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Wise Men",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Donkey",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Character That Shows Up In Every Church Christmas Play"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Santa Claus",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "God",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Tooth Fairy",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Easter Bunny",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Children Believe In."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Makes No Difference ",
+          46
+        ],
+        [
+          "Too Busy ",
+          30
+        ],
+        [
+          "Dont Care ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Excuse People Give For Not Voting"
+    },
+    {
+      "answers": [
+        [
+          "Hospital",
+          33
+        ],
+        [
+          "Bathroom",
+          29
+        ],
+        [
+          "Bus Stop",
+          15
+        ],
+        [
+          "Jail",
+          13
+        ],
+        [
+          "Voting Booth",
+          4
+        ],
+        [
+          "Court/Lawyer",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place You Wait Where It Could Be Awkward To Make Too Much Small Talk With Others"
+    },
+    {
+      "answers": [
+        [
+          "Blood",
+          24
+        ],
+        [
+          "Tomato Sauce",
+          23
+        ],
+        [
+          "Pizza",
+          13
+        ],
+        [
+          "Table Cloth",
+          12
+        ],
+        [
+          "Pepperoni",
+          11
+        ],
+        [
+          "Wine",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Red In The Pizza Parlor Of A Mafia Movie."
+    },
+    {
+      "answers": [
+        [
+          "Dating",
+          48
+        ],
+        [
+          "Driving",
+          37
+        ],
+        [
+          "Playing Sports",
+          6
+        ],
+        [
+          "Staying Out Late",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That An Overprotective Parent Might Forbid Their Teen From Doing."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

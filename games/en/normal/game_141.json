@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Plow The Field",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Plant Seeds",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Milk Cows",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Harvest Crops",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Water Crops",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Farmers 100 Years Ago Did By Hand, But Now Do With Machines."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paper ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Cans ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Organs ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bottles ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Recycle"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football",
+          "pnt": 65,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Which Sports Are More Popular In America Than In Other Countries?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Speeches",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Legislative Process",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Wars",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Election Process",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Political Terms",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "The Recession",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something The President Might Say Is Too Long."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Anniversary",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Christmas",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Wedding",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Occasion For Which Men Buy Gifts For Their Wives."
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": 11,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Time Of Night When It’s Too Late To Call Someone’s House."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Dead",
+          45
+        ],
+        [
+          "Mining",
+          29
+        ],
+        [
+          "Subway",
+          19
+        ],
+        [
+          "Hiding",
+          12
+        ],
+        [
+          "Tornado",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Somebody Would Be Underground"
+    },
+    {
+      "answers": [
+        [
+          "Vanilla",
+          50
+        ],
+        [
+          "Chocolate",
+          33
+        ],
+        [
+          "Caramel",
+          21
+        ],
+        [
+          "Mint",
+          14
+        ],
+        [
+          "Toffee",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Flavor Found In Candy And Coffee"
+    },
+    {
+      "answers": [
+        [
+          "Bakery",
+          34
+        ],
+        [
+          "Restaurant",
+          30
+        ],
+        [
+          "Fish Market",
+          13
+        ],
+        [
+          "Sewage Treatment",
+          9
+        ],
+        [
+          "Coffee Shop",
+          6
+        ],
+        [
+          "Florist",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Business That You Can Smell Before You See It."
+    },
+    {
+      "answers": [
+        [
+          "Triangle ",
+          58
+        ],
+        [
+          "Circle ",
+          38
+        ],
+        [
+          "Hexagon ",
+          25
+        ],
+        [
+          "Cube ",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Shape Other Than A Square"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

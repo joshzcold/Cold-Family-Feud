@@ -1,0 +1,339 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Good Looks",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Intimacy",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Charm/Confidence",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Someone Who Gets Dates Has, That Someone Who Doesn’t Get Dates Doesn’t Have."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clean up mess",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Take out trash",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Make bed",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Eat better",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something your wife asks you to do that your Mom also asks you to do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Robin ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Batmobile ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Joker ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cat Woman ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Alfred The Butler ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "The Penguin ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Or Someone Associated With Batman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Underware",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Tie",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Nightgown",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing That Only A Neat-Freak Would Iron."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pen/Pencil",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Earrings",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cigarette",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That People Put Behind Their Ears."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Yoga",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Spinning",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Pilates",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Dance Workout",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tae Bo",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Class Offered At Gyms Now That Wasn’t Offered 20 Years Ago"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Black",
+          47
+        ],
+        [
+          "Red",
+          14
+        ],
+        [
+          "Cayenne",
+          12
+        ],
+        [
+          "Chili",
+          9
+        ],
+        [
+          "Jalapeno",
+          7
+        ],
+        [
+          "Green",
+          6
+        ],
+        [
+          "Ground",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Kind Of Pepper People Put In Their Food."
+    },
+    {
+      "answers": [
+        [
+          "Elephant",
+          53
+        ],
+        [
+          "Whale",
+          15
+        ],
+        [
+          "Bear",
+          14
+        ],
+        [
+          "Hippopotamous",
+          7
+        ],
+        [
+          "Lion",
+          6
+        ],
+        [
+          "Rhinoceros",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an animal that weighs a lot."
+    },
+    {
+      "answers": [
+        [
+          "Restaurant",
+          41
+        ],
+        [
+          "Bank",
+          21
+        ],
+        [
+          "Hair Salon",
+          10
+        ],
+        [
+          "Doctor",
+          10
+        ],
+        [
+          "Store",
+          9
+        ],
+        [
+          "Hotel",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place Of Business That You Would Not Return To After Only One Bad Customer Service Experience."
+    },
+    {
+      "answers": [
+        [
+          "Cars",
+          59
+        ],
+        [
+          "Clothes",
+          38
+        ],
+        [
+          "Houses",
+          25
+        ],
+        [
+          "Space",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something Rich Person Might Have More Of Than They Need"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

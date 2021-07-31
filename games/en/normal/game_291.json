@@ -1,0 +1,345 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cleaning",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Space",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "music",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bedtime",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something College Roommates Might Argue About."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sanitation",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Hospital",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Childcare",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Zookeeper",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Mortician",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Military",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job Where You Wouldn’t Take Your Work Home"
+    },
+    {
+      "answers": [
+        {
+          "ans": "November",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "October",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "September",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "December",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "August",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "January",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "June",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Month Most People Start Shopping For Holiday Presents."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Funny",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "They’re Acting",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Always Happy",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Rich",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Always Look Good",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way In Which Sitcom Characters Are Typically Different From Real People"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pebbles",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Sand/Mud",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Seaweed",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shells",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Wading In A Lake, Tell Me Something You Feel Against Your Feet"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Casinos",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Bright Lights",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Beautiful Women",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Night Life",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Las Vegas Has More Of Than The Average City"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Laundry",
+          28
+        ],
+        [
+          "Bills",
+          23
+        ],
+        [
+          "Dishes",
+          22
+        ],
+        [
+          "Trash",
+          11
+        ],
+        [
+          "Mail",
+          8
+        ],
+        [
+          "Leaves",
+          4
+        ],
+        [
+          "Snow",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Specific That Piles Up Before You Can Get To It."
+    },
+    {
+      "answers": [
+        [
+          "Droppings",
+          61
+        ],
+        [
+          "Unsanitary",
+          17
+        ],
+        [
+          "Noisy",
+          9
+        ],
+        [
+          "Too Many Of Them",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Annoying Thing About Pigeons"
+    },
+    {
+      "answers": [
+        [
+          "Phone Home",
+          47
+        ],
+        [
+          "Alien",
+          16
+        ],
+        [
+          "Flying Bike",
+          14
+        ],
+        [
+          "Steven Spielberg",
+          12
+        ],
+        [
+          "Drew Barrymore",
+          3
+        ],
+        [
+          "Reese’s Pieces",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Associated With E.T."
+    },
+    {
+      "answers": [
+        [
+          "Carries Eggs",
+          45
+        ],
+        [
+          "Hops",
+          15
+        ],
+        [
+          "Some Don’t Believe",
+          15
+        ],
+        [
+          "White",
+          15
+        ],
+        [
+          "Brings Candy",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Know About The Easter Bunny"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

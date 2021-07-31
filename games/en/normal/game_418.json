@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bread ",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Fruit ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Cereal ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Meat ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Potato ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food Most People Eat Everyday"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cars",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Music",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Gas Prices",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Economy",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "TV Shows",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Fashion",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Better In The 50’s"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Heart",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Prostate",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Blood Pressure",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Colon",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Vision",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Hearing",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cholesterol",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something The Doctor Begins To Check As You Get Older."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Motor",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Gas Tank",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Headlight",
+          "pnt": 22,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Motorcycle Has That A Bicycle Doesn’t"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Vision",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Fear Of Flying",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fear Of Heights",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Criminal Record",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Drinking Problem",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Would Prevent A Person From Becoming A Pilot."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fruit ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Sweets ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Perfume ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bath Oil ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Wine ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Receive In A Gift Basket"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "A Dog ",
+          43
+        ],
+        [
+          "A Cat ",
+          28
+        ],
+        [
+          "A Bird ",
+          18
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Can Be Kept As A Pet"
+    },
+    {
+      "answers": [
+        [
+          "Run Ahead",
+          42
+        ],
+        [
+          "Touch Anything",
+          24
+        ],
+        [
+          "Steal",
+          14
+        ],
+        [
+          "Scream/Cry",
+          9
+        ],
+        [
+          "Beg For Junk Food",
+          4
+        ],
+        [
+          "Eat Food",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "At The Grocery Store, Name Something A Kid Is Told Not To Do."
+    },
+    {
+      "answers": [
+        [
+          "Mozzarella",
+          28
+        ],
+        [
+          "Limburger",
+          20
+        ],
+        [
+          "Roquefort",
+          11
+        ],
+        [
+          "Muenster",
+          11
+        ],
+        [
+          "Provolone",
+          10
+        ],
+        [
+          "Brie",
+          8
+        ],
+        [
+          "Gorgonzola",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Cheese With A Funny Name."
+    },
+    {
+      "answers": [
+        [
+          "Eggs",
+          35
+        ],
+        [
+          "Coffee",
+          30
+        ],
+        [
+          "Pancakes",
+          16
+        ],
+        [
+          "Bacon",
+          6
+        ],
+        [
+          "Juice",
+          4
+        ],
+        [
+          "Toast",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’ll Find On The Breakfast Menu No Matter What Kind Of Restaurant You’re At"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

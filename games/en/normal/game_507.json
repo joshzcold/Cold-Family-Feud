@@ -1,0 +1,347 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bell",
+          "pnt": 75,
+          "trig": false
+        },
+        {
+          "ans": "Cheering",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Booing",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Punching",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Applause",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sound You’d Hear At A Boxing Match"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hollywood",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "New York",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Miami",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Paris",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Las Vegas",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A City Were You Would Expect To Find Beautiful People"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rope",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "First Aid",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cell Phone",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chalk",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Were Going Rock Climbing, Name Something You’d Want To Bring With You"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Backpack",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Pencils",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pens",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Crayons",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Notebook",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Kid Might Need To Buy Before Starting A New School Year"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Police Station",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Donut Shop",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Riot",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Parade",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Crime Scene",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Might See Lots Of Police Officers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "A Prince",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Evil Stepmothers",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Fairy Tails",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Beauty",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Women",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Princesses",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cartoons",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Snow White And Cinderella Have In Common."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Air Freshener",
+          48
+        ],
+        [
+          "Candles",
+          38
+        ],
+        [
+          "Perfume",
+          6
+        ],
+        [
+          "Incense",
+          3
+        ],
+        [
+          "Baking Soda",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Use To Cover Up Bad Smells In Your House"
+    },
+    {
+      "answers": [
+        [
+          "A Ball ",
+          42
+        ],
+        [
+          "A Bone ",
+          27
+        ],
+        [
+          "Shoe ",
+          18
+        ],
+        [
+          "Toy ",
+          12
+        ],
+        [
+          "Wool ",
+          7
+        ],
+        [
+          "People ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Puppy Likes To Play With"
+    },
+    {
+      "answers": [
+        [
+          "Drums ",
+          47
+        ],
+        [
+          "Clarinet ",
+          31
+        ],
+        [
+          "Trumpet ",
+          20
+        ],
+        [
+          "Recorder ",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Instrument Parents Hate To Hear Their Children Play"
+    },
+    {
+      "answers": [
+        [
+          "Red Eyes ",
+          45
+        ],
+        [
+          "Watery Eyes ",
+          29
+        ],
+        [
+          "Tears ",
+          19
+        ],
+        [
+          "Swollen Eyes ",
+          12
+        ],
+        [
+          "Red Face ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Way You Can Tell That A Person Has Been Crying"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

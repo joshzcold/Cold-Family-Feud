@@ -1,0 +1,318 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Lady Gaga",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Royalty/Princess Diana",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "First Lady",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Dog/Lady And The Tramp",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Person Or Character Who Is Referred To As “Lady.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Internet",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Mouse",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Printer",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Speakers",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Keyboard",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Could Your Computer Run Without, But It Would Be A Bummer Not To Have?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dinner",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Picnic",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Stay In Bed",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Movie",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do If You Had A Romantic Day With Partner"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Mini Skirt",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Swimsuit",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Underclothes",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing That Many Men Think Women Look Attractive In"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Park",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Sports Event",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Amusement Park",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Public Place Where It Is Okay To Yell"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shirt",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Lipstick",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Swimsuit",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something that a woman might wear in bright colors."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hang Out At Pool",
+          30
+        ],
+        [
+          "Get A Massage",
+          27
+        ],
+        [
+          "Sit In Sauna",
+          10
+        ],
+        [
+          "Soak In Hot Tub",
+          9
+        ],
+        [
+          "Socialize",
+          8
+        ],
+        [
+          "Eat",
+          5
+        ],
+        [
+          "Watch TV",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides Exercise, Name Something A Person Might Do At A Fancy Health Club."
+    },
+    {
+      "answers": [
+        [
+          "Cart Wheel",
+          37
+        ],
+        [
+          "Somersault",
+          34
+        ],
+        [
+          "Tumbling",
+          7
+        ],
+        [
+          "Flip",
+          7
+        ],
+        [
+          "Balance Beam",
+          5
+        ],
+        [
+          "Flip",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Gymnastic Move Almost Every Kid Knows How To Do."
+    },
+    {
+      "answers": [
+        [
+          "Go Out",
+          24
+        ],
+        [
+          "Clean",
+          18
+        ],
+        [
+          "Be Intimate",
+          4
+        ],
+        [
+          "Cook",
+          12
+        ],
+        [
+          "Talk",
+          10
+        ],
+        [
+          "Shop",
+          5
+        ],
+        [
+          "Cuddle",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Woman Might Complain That Her Husband Never Wants To Do"
+    },
+    {
+      "answers": [
+        [
+          "Stethoscope",
+          59
+        ],
+        [
+          "Scalpel",
+          38
+        ],
+        [
+          "Needle",
+          25
+        ],
+        [
+          "Thermometer",
+          16
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Medical Instrument That A Doctor Uses"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

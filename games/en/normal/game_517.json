@@ -1,0 +1,349 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Truck Driver",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Bus Driver",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Police Officers",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Taxi Driver",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ambulance Driver",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Chaffeur",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation Whose Workers You Hold To A Higher Driving Standards That Anyone Else."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spouse",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Extra Pillows",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Stuffed Animal",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Night Light",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Pet",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Grown-Ups Sleep With In Order To Feel Secure"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lion ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Tiger ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Bear ",
+          "pnt": 22,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Animal That Roars"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Horse",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Sword",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Armour",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lance",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Shield",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Knight Needs For A Jousting Match"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jump",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Lose Balance",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Run",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Swing It",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Drive",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Look Down",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wouldn’t Want To Do On A Rope Bridge."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Living Room",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Dining Room",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Extra Bedroom",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Attic",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Bedroom",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Storage Room",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Den",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Room In Your House That’s Used The Least."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Blue Suede Shoes ",
+          47
+        ],
+        [
+          "Jailhouse Rock ",
+          31
+        ],
+        [
+          "Heartbreak Hotel ",
+          20
+        ],
+        [
+          "Suspicious Minds ",
+          13
+        ],
+        [
+          "Love Me Tender ",
+          8
+        ],
+        [
+          "Hound Dog ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Song You Associate With Elvis Presley"
+    },
+    {
+      "answers": [
+        [
+          "Bachelor(ette) Party",
+          36
+        ],
+        [
+          "College/Frat Party",
+          24
+        ],
+        [
+          "House Party",
+          14
+        ],
+        [
+          "New Years Eve",
+          10
+        ],
+        [
+          "Haloween/Costume",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Party That’s Bound To Get A Little Out Of Hand."
+    },
+    {
+      "answers": [
+        [
+          "Soup",
+          37
+        ],
+        [
+          "French Fries",
+          17
+        ],
+        [
+          "Cereal",
+          9
+        ],
+        [
+          "Ice Cream",
+          8
+        ],
+        [
+          "Pizza",
+          7
+        ],
+        [
+          "Hamburger",
+          7
+        ],
+        [
+          "Chicken",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food You Wouldn’t Eat With A Fork."
+    },
+    {
+      "answers": [
+        [
+          "Santa",
+          38
+        ],
+        [
+          "Wrap/Exchange Gifts",
+          22
+        ],
+        [
+          "Tree In House",
+          20
+        ],
+        [
+          "Caroling",
+          8
+        ],
+        [
+          "Kiss Under Mistletoe",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If An Alien Landed At Christmas Time, Name A Christmas Tradition That Would Be Hard To Explain."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

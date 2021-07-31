@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Good",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Too Short",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Box Of Chocolates",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Beautiful",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "A Bowl Of Cherries",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "A Beach",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Phrase That Starts With “Life Is…”."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Singer",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Radio Host",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Receptionist",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Telemarketer",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Actor",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "name a Profession Where You Might Be Fired If You Lost Your Voice"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nurse",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Work In Store",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Police",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Santa Claus",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Job Which Might Require Someone To Work On Christmas."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Scream",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Hide Under Blanket",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cry",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Turn It Off",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Go To Another Room",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Do While Watching A Scary Movie At Home, That You Can’t Do In A Theatre"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chess/checkers",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "King Kong",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "King Of The Hill",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "King’s Corner",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game That Involves The Word King"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Banana",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Hand",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Shoe",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Remote",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Brush",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Tin Can",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Object That Kids Pretend Is A Telephone"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Hat",
+          55
+        ],
+        [
+          "Capes",
+          11
+        ],
+        [
+          "Buckle Shoes",
+          10
+        ],
+        [
+          "Bonnets",
+          10
+        ],
+        [
+          "Big White Collars",
+          5
+        ],
+        [
+          "Bloomers",
+          5
+        ],
+        [
+          "Stockings",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Pilgrims Wear"
+    },
+    {
+      "answers": [
+        [
+          "Map",
+          55
+        ],
+        [
+          "GPS",
+          27
+        ],
+        [
+          "Gas station Attendant",
+          8
+        ],
+        [
+          "Police",
+          6
+        ],
+        [
+          "Compass",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Can You Consult For Directions When You’re Lost?"
+    },
+    {
+      "answers": [
+        [
+          "Lake",
+          51
+        ],
+        [
+          "Mud Puddle",
+          19
+        ],
+        [
+          "Dust",
+          18
+        ],
+        [
+          "Birdbath",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place An Animal Might Take A Bath, But You Never Would."
+    },
+    {
+      "answers": [
+        [
+          "Song",
+          59
+        ],
+        [
+          "Smell",
+          14
+        ],
+        [
+          "Movie",
+          13
+        ],
+        [
+          "Picture",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Can Make A Person Suddenly Think Of Their Partner."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

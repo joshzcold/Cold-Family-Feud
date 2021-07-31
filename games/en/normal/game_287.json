@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Golf",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Gardening",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Traveling",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Fishing",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Playing An Instrument",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Knitting",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Activity People Commonly Take Up After Retirement."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Writing",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Playing sports",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Carrying things",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Going to bathroom",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Raising hand",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something a kid with a broken arm would have a hard time doing at school."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Refill Drinks",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Take Order",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Clear Dishes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Check On You",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Give The Bill",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "While eating at a restaurant,name something the waitress comes back to the table to do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Big Bird",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Elmo",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Oscar",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Cookie Monster",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ernie",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Grover",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Bert",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If You Lived On Sesame Street, Which Character Would Get On Your Nerves?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Teeth ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Nose ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Trousers ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bumper ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Want To Have Straightened"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Walking/Running",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Active Love Life",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Traveling",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Hope That You’re Still Doing When You’re 80."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Taxes",
+          37
+        ],
+        [
+          "Credit",
+          25
+        ],
+        [
+          "Interest",
+          12
+        ],
+        [
+          "Budget",
+          8
+        ],
+        [
+          "Stocks",
+          7
+        ],
+        [
+          "Mortgage",
+          6
+        ],
+        [
+          "Loans",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Related To Finances That It’s Hard To Explain To A Kid."
+    },
+    {
+      "answers": [
+        [
+          "Camera ",
+          45
+        ],
+        [
+          "Map ",
+          29
+        ],
+        [
+          "Friends ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Take Sightseeing"
+    },
+    {
+      "answers": [
+        [
+          "Teeth",
+          35
+        ],
+        [
+          "Toys",
+          34
+        ],
+        [
+          "Money",
+          13
+        ],
+        [
+          "Homework",
+          7
+        ],
+        [
+          "Gloves",
+          4
+        ],
+        [
+          "Jacket",
+          3
+        ],
+        [
+          "Temper",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That A Child Often Loses"
+    },
+    {
+      "answers": [
+        [
+          "Set Gifts Under Tree",
+          41
+        ],
+        [
+          "Wrapping Gifts",
+          33
+        ],
+        [
+          "eating Cookies",
+          20
+        ],
+        [
+          "Buying/Hiding Gifts",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might Parents Be Caught Doing That Causes Their Kid To Bust Them For Doing Santa’s Job?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

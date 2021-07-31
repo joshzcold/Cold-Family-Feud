@@ -1,0 +1,307 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Cake ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Paint ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cement ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Food ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Mix"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Suntan Lotion ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "A Dingy ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cold Drinks ",
+          "pnt": 23,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Take To The Beach On A Hot Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sing",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Music",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Do To Pass Time On Long Road Trip"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pit Stop",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Smoke",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Drive",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Talk On Phone",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Can Do During A Car Trip That You Can’t Do During A Plane Ride."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shells",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Whale",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Message In A Bottle",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Seaweed",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Trash",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That You Would Find Washed Up On A Beach."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chips",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Popcorn",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Peanuts",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Crackers",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That You Become Very Thirsty While Eating."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Rain",
+          37
+        ],
+        [
+          "Wedding",
+          31
+        ],
+        [
+          "Birth",
+          20
+        ],
+        [
+          "Finding Food",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Our Ancient Ancestors Might Have Danced To Celebrate."
+    },
+    {
+      "answers": [
+        [
+          "Diamonds",
+          57
+        ],
+        [
+          "Fur Coat",
+          37
+        ],
+        [
+          "Mansion",
+          24
+        ],
+        [
+          "Nice Car",
+          16
+        ],
+        [
+          "Maid",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Rich Woman Might Have."
+    },
+    {
+      "answers": [
+        [
+          "TV",
+          30
+        ],
+        [
+          "Bathroom",
+          22
+        ],
+        [
+          "Bed",
+          13
+        ],
+        [
+          "Kitchen",
+          10
+        ],
+        [
+          "Closets",
+          9
+        ],
+        [
+          "Bedroom",
+          6
+        ],
+        [
+          "Backyard",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In Your House You Wish Were Just A Little Bit Bigger"
+    },
+    {
+      "answers": [
+        [
+          "Lot’s Of Kids",
+          42
+        ],
+        [
+          "Too Happy",
+          32
+        ],
+        [
+          "Maid",
+          14
+        ],
+        [
+          "Thet Sing",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something About The Brady Bunch That Is Different From Most Families."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

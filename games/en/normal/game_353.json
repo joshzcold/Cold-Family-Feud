@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Work/Meeting",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Job Interview",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Court",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occasion That It Would Not Be Fashionable To Arrive Late To."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Blow Kisses",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Bat Eyelashes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Giggle",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Coo",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Baby Does That Would Be Considered Flirting If An Adult Did It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cooking",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Travel",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Caroling",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Family Tradition People Might Have For Winter Holidays."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dodgeball",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Tag",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Duck Duck Goose",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Ping Pong",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Bowling",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game You Played In Gym Class But Doesn’t Offer Much Exercise?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Buildings",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Bridge",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Cliff",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Moving Cars",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Action Movie Stars Always Jump Off Of."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nappies ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Crying ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bottle ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Mess ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Dummy ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Babies"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Big Bird ",
+          48
+        ],
+        [
+          "Oscar ",
+          31
+        ],
+        [
+          "Bert ",
+          20
+        ],
+        [
+          "Ernie ",
+          13
+        ],
+        [
+          "The Count ",
+          9
+        ],
+        [
+          "Elmo ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A character From Sesame Street"
+    },
+    {
+      "answers": [
+        [
+          "Yourself ",
+          59
+        ],
+        [
+          "Dogs ",
+          38
+        ],
+        [
+          "Kids ",
+          25
+        ],
+        [
+          "House ",
+          16
+        ],
+        [
+          "Garden ",
+          11
+        ],
+        [
+          "Car ",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Hose Down On A Hot Day"
+    },
+    {
+      "answers": [
+        [
+          "Meat",
+          68
+        ],
+        [
+          "Vegetables",
+          9
+        ],
+        [
+          "Sugar",
+          9
+        ],
+        [
+          "Coffee",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That’s Sold By The Pound"
+    },
+    {
+      "answers": [
+        [
+          "Got Lost",
+          27
+        ],
+        [
+          "Too Fast",
+          25
+        ],
+        [
+          "Accident",
+          21
+        ],
+        [
+          "Too Slow",
+          9
+        ],
+        [
+          "Expensive",
+          7
+        ],
+        [
+          "Smelly",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Person Would Say They Had A Horrible Cab Driver."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

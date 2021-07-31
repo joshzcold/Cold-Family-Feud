@@ -1,0 +1,309 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Radio",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Engine",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Lights",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Heater/AC",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wipers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In Your Car That Can Be Turned On And Off."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Go Up & Down ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Push Buttons ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Snog ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Fart ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do In A Lift"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bad Food",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Lonely",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "No Gravity",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "No Bathroom",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "No Fresh Air",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cramped",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "It’s Cold",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Complaint An Astronaut Might Have About Living On The Space Station"
+    },
+    {
+      "answers": [
+        {
+          "ans": 4,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": null,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Many Times A Mother Changes Newborns Diaper"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Suit ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Wedding Dress ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Veil ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Wear At A Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hot Chocolate",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Hot Bath",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Sit By Fire",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Change Clothes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Do To Make Yourself Feel Cozy After Playing In The Snow All Day."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Love/Marriage",
+          58
+        ],
+        [
+          "Life",
+          22
+        ],
+        [
+          "Finances",
+          15
+        ],
+        [
+          "Youth",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Hope Will Last Forever"
+    },
+    {
+      "answers": [
+        [
+          "Perfume",
+          38
+        ],
+        [
+          "TV",
+          26
+        ],
+        [
+          "Clothes/Shoes",
+          12
+        ],
+        [
+          "Computer",
+          11
+        ],
+        [
+          "CD",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Test In The Store Before Buying It"
+    },
+    {
+      "answers": [
+        [
+          "Sign",
+          45
+        ],
+        [
+          "Foam Finger",
+          23
+        ],
+        [
+          "Attractive Woman",
+          12
+        ],
+        [
+          "Silly Hat",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Bring To The Stadium If You Wanted To Be Featured On The Jumbo Tron Screen."
+    },
+    {
+      "answers": [
+        [
+          "Shower",
+          42
+        ],
+        [
+          "Kiss me",
+          26
+        ],
+        [
+          "Brush teeth",
+          12
+        ],
+        [
+          "Ignore alarm",
+          9
+        ],
+        [
+          "Turn on light",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something your partner might do first thing in the morning that wakes you up."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

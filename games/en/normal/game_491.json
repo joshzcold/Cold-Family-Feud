@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Latte",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Mocha",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Cappuccino",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Espresso",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Coffee Drink That’s Easy To Mispronounce."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Meals",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Snacks",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Movies",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Drinks",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pillows",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Phones",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If There Was An Airline Called No Frills Air, Name Something They Might Not Offer Passengers."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Casinos",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Bright Lights",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Beautiful Women",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Night Life",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Found In Las Vegas That You’d Like To See More Of In Your Home Town"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Big Eyes",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Green Skin",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Big Head",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Small/Pointy Ears",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Antenna",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Physical Characteristics Would Tell You That Someone Was Part Alien?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hat/Headband",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Glasses",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Facial Hair",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Scarf",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Hood",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Shy Man Might Wear To Hide His Face."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plant/Flowers",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Dessert",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Candle",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gift You’d Be Likely To Get As A House Warming Present From Your New Neighbors."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Chess ",
+          54
+        ],
+        [
+          "Cards ",
+          35
+        ],
+        [
+          "Monopoly ",
+          23
+        ],
+        [
+          "Video Games ",
+          15
+        ],
+        [
+          "Trivial Pursuit ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Game Or Sport Where You Sit Down To Play"
+    },
+    {
+      "answers": [
+        [
+          "War/Weapons",
+          25
+        ],
+        [
+          "Lottery/ Gambling",
+          24
+        ],
+        [
+          "Eating/Drinking",
+          12
+        ],
+        [
+          "Cars/ Gasoline",
+          10
+        ],
+        [
+          "Clothes/Shoes",
+          8
+        ],
+        [
+          "Games/ Toys",
+          6
+        ],
+        [
+          "Television",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Think America Or Americans Waste Money On."
+    },
+    {
+      "answers": [
+        [
+          "Key Chain",
+          28
+        ],
+        [
+          "Keyhole",
+          19
+        ],
+        [
+          "Keyboard",
+          12
+        ],
+        [
+          "House Key",
+          10
+        ],
+        [
+          "Door Key",
+          9
+        ],
+        [
+          "Keystone",
+          9
+        ],
+        [
+          "Keynote",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word Or Phrase That Has The Word “Key” In It."
+    },
+    {
+      "answers": [
+        [
+          "Gross",
+          25
+        ],
+        [
+          "Hideous",
+          23
+        ],
+        [
+          "Homely",
+          18
+        ],
+        [
+          "Nasty",
+          15
+        ],
+        [
+          "Unattractive",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Another Word For “Ugly.”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

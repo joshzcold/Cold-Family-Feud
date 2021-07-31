@@ -1,0 +1,323 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Leaves",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Nuts",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Flowers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Acorn",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pine Cones",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Grows On Trees, But Isn’t Fruit."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mother",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Priest",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "God",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Father",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Husband",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Friend",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Wife",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Someone Specific You’d Be Nervous About Lying To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Paint",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Marker",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Makeup",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Glue",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Dirt",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Might Put On Their Face That Is Hard To Wash Off."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rich",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Wealthy",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Millionaire",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Loaded",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Filthy Rich",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "High Roller",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Billionaire",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Term You’d Use For Someone Who Has A Lot Of Money"
+    },
+    {
+      "answers": [
+        {
+          "ans": 10,
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": 8,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 9,
+          "pnt": 18,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "On A Scale From 1-10, How Good Are You At Keeping A Secret?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dog ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Cat ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit ",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Pet All Children Love"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Poker",
+          31
+        ],
+        [
+          "Horseshoes",
+          31
+        ],
+        [
+          "Volleyball",
+          11
+        ],
+        [
+          "Baseball",
+          8
+        ],
+        [
+          "Football",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Game Adults Play At A BBQ Party"
+    },
+    {
+      "answers": [
+        [
+          "Map",
+          57
+        ],
+        [
+          "GPS",
+          17
+        ],
+        [
+          "Compass",
+          13
+        ],
+        [
+          "Reindeer",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Santa Might Bring With Him To Keep From Getting Lost On Christmas Eve."
+    },
+    {
+      "answers": [
+        [
+          "Commercials",
+          30
+        ],
+        [
+          "Background noise",
+          28
+        ],
+        [
+          "Phone rings",
+          18
+        ],
+        [
+          "Bad reception",
+          15
+        ],
+        [
+          "Violence",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me something that makes you mad when you’re watching TV."
+    },
+    {
+      "answers": [
+        [
+          "Paris Hilton",
+          38
+        ],
+        [
+          "Kevin Federline",
+          18
+        ],
+        [
+          "Donald Trump",
+          16
+        ],
+        [
+          "Kim Kardashian",
+          14
+        ],
+        [
+          "Nicole richie",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Member Of The Celebrity Elite Who Is Famous For No Apparent Reason."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

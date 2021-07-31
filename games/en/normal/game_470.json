@@ -1,0 +1,331 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Garden Hose",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Rope",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Electrical Cord",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Bike Chain",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In Your Garage That Might Be Mistaken For A Snake In The Dark."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Fire Engine ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Hose ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sand ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Fireman Need To Fight A Fire"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Runny Nose",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Coughing",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fever",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sneezing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sore Throat",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Stuffy Head",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chills",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sympton That Would Cause You To Say, “I Think I’m Coming Down With Something.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Reading",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Golfing",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Using A Computer",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Some Leisure Activity You Often Spend More Time Doing Than You Originally Expected To."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plumber",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Lawyer",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Electrician",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mechanic",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Professional Who You Hate To Call Because The Bill Is To Expensive?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Puzzle",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Earring",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Board Game",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pie",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cake",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something You Hate To Discover That You’re Missing A Piece From."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bottle Of Wine",
+          45
+        ],
+        [
+          "Candles",
+          26
+        ],
+        [
+          "Whipped Cream",
+          5
+        ],
+        [
+          "Strawberries",
+          5
+        ],
+        [
+          "Champagne",
+          5
+        ],
+        [
+          "Oysters",
+          3
+        ],
+        [
+          "Flowers",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Find In A Person’s Shopping Cart If They’re Planning A Romantic Dinner"
+    },
+    {
+      "answers": [
+        [
+          "Boss",
+          59
+        ],
+        [
+          "Parent",
+          25
+        ],
+        [
+          "Ex",
+          10
+        ],
+        [
+          "Grandparent",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone Who You’d Hate To Accidentally Forward A Personal Email To"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          41
+        ],
+        [
+          "Lawyer",
+          28
+        ],
+        [
+          "Scientist",
+          13
+        ],
+        [
+          "Engineer",
+          6
+        ],
+        [
+          "Accountant",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Occupation Where You Have To Be Really Smart"
+    },
+    {
+      "answers": [
+        [
+          "Bad Grade",
+          43
+        ],
+        [
+          "Detention",
+          25
+        ],
+        [
+          "Homework",
+          17
+        ],
+        [
+          "Test",
+          6
+        ],
+        [
+          "Letter Sent Home",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Kids Are Afraid To Get From Their Teacher"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

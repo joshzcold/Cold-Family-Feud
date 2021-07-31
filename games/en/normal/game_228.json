@@ -1,0 +1,343 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Rat/Mouse",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Snake",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Skunk",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Raccoon",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Spider",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cockroach",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Bat",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Had To Spend The Night In Your Garage, Name A Critter That You’d Dread An Encounter With."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tattoos",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycle",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Rebelious Outfit",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Criminal Record",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Signs Of Being A “Bad Boy” Might A Woman Be Attracted To?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Matches",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Lighter",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Gasoline",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Kindling",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Boy Scout Wouldnâ€™T Need To Start A Fire, But You Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Onion",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Cabbage",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Broccoli",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Garlic",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Asparagus",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Vegetable That Has An Unmistakable Smell When Cooking"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cats ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Rats ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "High Frequencies ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Mouse Traps ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Water ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Mice Hate"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Disneyland/World",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Hawii",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Las Vegas",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Mexico",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Grand Canyon",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "New York City",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where Most Americans Go At Least Once For Vacation"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Los Angeles",
+          59
+        ],
+        [
+          "New York",
+          19
+        ],
+        [
+          "St. Louis",
+          9
+        ],
+        [
+          "Cleveland",
+          5
+        ],
+        [
+          "Chicago",
+          3
+        ],
+        [
+          "Detroit",
+          3
+        ],
+        [
+          "Houston",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A City With A Lot Of Pollution"
+    },
+    {
+      "answers": [
+        [
+          "Fingerprints",
+          63
+        ],
+        [
+          "Drivers License",
+          8
+        ],
+        [
+          "Pictures",
+          7
+        ],
+        [
+          "Mug Shot",
+          4
+        ],
+        [
+          "Computer",
+          3
+        ],
+        [
+          "License Plate",
+          3
+        ],
+        [
+          "DNA Testing",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something The Police Use To Identify A Criminal."
+    },
+    {
+      "answers": [
+        [
+          "Collie",
+          34
+        ],
+        [
+          "Rescues People",
+          21
+        ],
+        [
+          "Smart",
+          16
+        ],
+        [
+          "Always Comes Home",
+          9
+        ],
+        [
+          "Owned By Timmy",
+          8
+        ],
+        [
+          "Girl Dog",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Everyone Knows About The Dog “Lassie.”"
+    },
+    {
+      "answers": [
+        [
+          "Police",
+          37
+        ],
+        [
+          "Military",
+          33
+        ],
+        [
+          "Model",
+          14
+        ],
+        [
+          "Barber",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job Where You Must Keep A Certain Haircut."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Microwave",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Fridge",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Blender",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something modern a homemaker from 100 years ago would have loved to have in the kitchen."
+    },
+    {
+      "answers": [
+        {
+          "ans": "$50 ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "$30 ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "$25 ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "$15 ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "$20 ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "$60 ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "$100 ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me How Much You’d Expect To Pay For A Bottle Of Wine At A Fancy Restaurant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bed",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Towels",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "TV",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bible",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Soap",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Coffeemaker",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Expect To See Inside Every Hotel Room"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mate",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Job",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Living Space",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About Which Friends Say, “Keep Looking. You Can Do Better.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drive",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Date",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Graduate",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Hit puberty",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Get a phone",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something a teenager would hate to be the last of their friends to do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Guitar",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Coyboy Hat",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Great Voice",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Boots",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Accent/Twang",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sad Song",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me Something That Every Country Singer Needs."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Extension Cable ",
+          58
+        ],
+        [
+          "Childrens Toys ",
+          38
+        ],
+        [
+          "Telephone Cable ",
+          25
+        ],
+        [
+          "Carpet ",
+          16
+        ],
+        [
+          "Shoes ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In The Home That People Might Trip Over"
+    },
+    {
+      "answers": [
+        [
+          "Mountain / Hill ",
+          47
+        ],
+        [
+          "Tree ",
+          31
+        ],
+        [
+          "Ladder ",
+          20
+        ],
+        [
+          "Rope ",
+          13
+        ],
+        [
+          "Stairs ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Climb"
+    },
+    {
+      "answers": [
+        [
+          "Illness",
+          41
+        ],
+        [
+          "Fish",
+          36
+        ],
+        [
+          "Balls",
+          15
+        ],
+        [
+          "Bouquet",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Catch."
+    },
+    {
+      "answers": [
+        [
+          "Hola",
+          55
+        ],
+        [
+          "Bonjour",
+          21
+        ],
+        [
+          "Aloha",
+          13
+        ],
+        [
+          "Ciao",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Way To Say Hi In Another Language"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Big Promises",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Money/Donors",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Scandal",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Media",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Power/Control",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Politicians Would Be Better Off Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Start Fire",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Flare",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "SOS",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wave Arms",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Write On The sand",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Were Stranded On An Island, Name Something You Might Do To Get The Attention Of A Search Plane"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Working",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Worrying",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Cleaning/Cooking",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Spend Less Time Doing When You’re On Vacation"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Breath",
+          "pnt": 68,
+          "trig": false
+        },
+        {
+          "ans": "Burp",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Stains",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Crumbs On Teeth",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "They Vomit",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Way You Might Be Able To Tell What Someone Just Had For Lunch."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shampoo",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Hair Spray",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Gel",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Conditioner",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Color",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Oil Sheen",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Product People Use On Their Hair"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Jeans",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Dress",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jacket",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Socks",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Article Of Clothing That You Wouldn’t Wear To Bed"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Nurse",
+          34
+        ],
+        [
+          "Maid",
+          21
+        ],
+        [
+          "Devil",
+          17
+        ],
+        [
+          "Cat",
+          11
+        ],
+        [
+          "Witch",
+          9
+        ],
+        [
+          "Vampire",
+          4
+        ],
+        [
+          "Cop",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Halloween Costume Adults Wear To Look Sexy."
+    },
+    {
+      "answers": [
+        [
+          "Smelly Feet",
+          37
+        ],
+        [
+          "Dirty Floor",
+          33
+        ],
+        [
+          "No Socks",
+          11
+        ],
+        [
+          "Ugly Feet",
+          10
+        ],
+        [
+          "Cold Feet",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Might A Person Refuse To Remove Their Shoes At A Party?"
+    },
+    {
+      "answers": [
+        [
+          "The Beach ",
+          57
+        ],
+        [
+          "Bathroom ",
+          37
+        ],
+        [
+          "Shower ",
+          24
+        ],
+        [
+          "Pool ",
+          16
+        ],
+        [
+          "Bath ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Somewhere You Might Take A Towel"
+    },
+    {
+      "answers": [
+        [
+          "Oprah Winfrey",
+          47
+        ],
+        [
+          "David Letterman",
+          12
+        ],
+        [
+          "Barbara Walters",
+          9
+        ],
+        [
+          "Jay Leno",
+          8
+        ],
+        [
+          "Jerry Springer",
+          8
+        ],
+        [
+          "Ellen",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Talk Show Host Would You Like To Have Interview You?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Diet",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Plastic Surgery",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Get Head Shots",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wear Stylish Clothes",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might A Woman Have To Do In Order To Become A Supermodel?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Darth Vaders Son",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Star Wars",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Becomes A Jedi",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Uses The Force",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Droid is R2 D2",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Destroys Death Star",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Know About Luke Skywalker"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Socks",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Underwear",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Shoes",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Athletic Supporter",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Pro Athlete Might Wear That’s Lucky"
+    },
+    {
+      "answers": [
+        {
+          "ans": 40,
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": 45,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 50,
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": 30,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 35,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "At What Age Might A Man Have Midlifecrisis?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Decorate Room",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Curious",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why Parents Want Know Sex Of Baby"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baby Food",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Blanket",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Diapers",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Something People Make For Babies Instead Of Buying"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Partridge",
+          40
+        ],
+        [
+          "Golden Rings",
+          36
+        ],
+        [
+          "Turtle Doves",
+          10
+        ],
+        [
+          "Geese A Laying",
+          5
+        ],
+        [
+          "Swans A Swimming",
+          4
+        ],
+        [
+          "Maids A Milking",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name One Of The Gifts From The Song “The Twelve Days Of Christmas”"
+    },
+    {
+      "answers": [
+        [
+          "Bone",
+          48
+        ],
+        [
+          "Shoes",
+          39
+        ],
+        [
+          "Furniture",
+          4
+        ],
+        [
+          "Toys",
+          4
+        ],
+        [
+          "Food",
+          2
+        ],
+        [
+          "Ball",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Puppy Likes To Chew On"
+    },
+    {
+      "answers": [
+        [
+          "Lemon ",
+          47
+        ],
+        [
+          "Orange ",
+          31
+        ],
+        [
+          "Lime ",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has A Bitter Taste"
+    },
+    {
+      "answers": [
+        [
+          "Milk",
+          64
+        ],
+        [
+          "Eggs",
+          16
+        ],
+        [
+          "Cigarettes",
+          7
+        ],
+        [
+          "Juice",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Comes In A Carton"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

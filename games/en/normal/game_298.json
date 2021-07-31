@@ -1,0 +1,360 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Job",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Salary",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Weight",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Age",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Looks",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Name",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Marriage",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Would Change If You Could In Your Life"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shopping",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Church",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theatre",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Salon/Spa",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Dancing",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "We Asked 100 Women: Where Do You Wish Your Partner Was More Willing To Go With You?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Gary Lineker ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Kevin Keagan ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Ray Wilkins ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Glen Hoddle ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Trevor Francis ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Viv Anderson ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous England Footballer From The 80's"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Engine On Fire ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Broken Wing ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "A Bird ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Another Plane ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Clouds ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Dont Want To See From An Aeroplane Window"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Magazines",
+          "pnt": 62,
+          "trig": false
+        },
+        {
+          "ans": "Moldy Food",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Dirty Clothes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Boogieman",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Trash",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Parents Wouldn’t Want To Find Under Their Child’s Bed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Books",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Computer",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Chalkboard",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Maps",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Videos",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Newspaper",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Teacher Might Use To Help Them Teach Their Class."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Talk",
+          28
+        ],
+        [
+          "Smoke",
+          26
+        ],
+        [
+          "Dance",
+          19
+        ],
+        [
+          "Eat",
+          9
+        ],
+        [
+          "Flirt",
+          6
+        ],
+        [
+          "Play Pool",
+          5
+        ],
+        [
+          "Fight",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Do At A Bar Besides Drink."
+    },
+    {
+      "answers": [
+        [
+          "Gas Pumps",
+          41
+        ],
+        [
+          "Cars",
+          23
+        ],
+        [
+          "Drinks",
+          14
+        ],
+        [
+          "Oil",
+          7
+        ],
+        [
+          "People",
+          6
+        ],
+        [
+          "Lottery Tickets",
+          5
+        ],
+        [
+          "Air Pump",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’d See At A Gas Station."
+    },
+    {
+      "answers": [
+        [
+          "Illness",
+          63
+        ],
+        [
+          "Helium",
+          11
+        ],
+        [
+          "Puberty",
+          9
+        ],
+        [
+          "Drunk",
+          7
+        ],
+        [
+          "Accent",
+          6
+        ],
+        [
+          "Just Woke Up",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Someone’s Voice Might Sound Funny."
+    },
+    {
+      "answers": [
+        [
+          "Flowers",
+          46
+        ],
+        [
+          "Perfume",
+          30
+        ],
+        [
+          "Me",
+          20
+        ],
+        [
+          "Dinner",
+          13
+        ],
+        [
+          "Chocolates",
+          8
+        ],
+        [
+          "Kissing",
+          5
+        ],
+        [
+          "Alcohol",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You’D Hate For Your Date To Be Allergic To"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

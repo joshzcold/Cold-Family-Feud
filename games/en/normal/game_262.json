@@ -1,0 +1,358 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Plumber",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Carpenter",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Housekeeper",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Chef",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Electrician",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Mechanic",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Profession Would You Want Your Mate To Have Just Because It’d Be Useful Around The House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "In A Hurry",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Not Feeling Well",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Late For Work/ Appt.",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Emergency",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Few Items",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Kids With Them",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Need To Use Bathroom",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Excuse Someone Might Give To Get Ahead Of You In The Check Out Line"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Crisps ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Burgers ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Chips ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Sweets ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Would Eat If You Wanted To Gain Weight"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trash The Place",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Drink To Much",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Swear",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Strip",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Not Show Up",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Start A Fire",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might A Rock Star Do At A Concert Hall That prevents Him Form Getting Hired Again"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bank",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "DMV",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Concert",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bus Stop",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Amusement Park",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Grocery Checkout",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You May Have To Stand For A Long Time"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hang Up ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "No Message ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Long Messages ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Sing ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Don't Leave Number",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Drives You Potty On Your Answer Machine"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Santa Clause",
+          36
+        ],
+        [
+          "Grandparents",
+          26
+        ],
+        [
+          "Brother/Sister",
+          13
+        ],
+        [
+          "Cousins",
+          12
+        ],
+        [
+          "Eye Doctor",
+          4
+        ],
+        [
+          "Aunt/Uncle",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Someone You Only See Once A Year."
+    },
+    {
+      "answers": [
+        [
+          "Pickles ",
+          47
+        ],
+        [
+          "Peanut Butter ",
+          31
+        ],
+        [
+          "Marmalade ",
+          20
+        ],
+        [
+          "Baby Food ",
+          13
+        ],
+        [
+          "Olives ",
+          8
+        ],
+        [
+          "Jam ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food That Comes In A Jar"
+    },
+    {
+      "answers": [
+        [
+          "Boston",
+          48
+        ],
+        [
+          "Baltimore",
+          31
+        ],
+        [
+          "Birmingham",
+          7
+        ],
+        [
+          "Boise",
+          3
+        ],
+        [
+          "Brooklyn",
+          3
+        ],
+        [
+          "Buffalo",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a U.S. city that begins with the letter “B”."
+    },
+    {
+      "answers": [
+        [
+          "Lion",
+          63
+        ],
+        [
+          "Tiger",
+          19
+        ],
+        [
+          "Bear",
+          6
+        ],
+        [
+          "Gorilla",
+          4
+        ],
+        [
+          "Giraffe",
+          3
+        ],
+        [
+          "Elephant",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name an animal that you wouldn’t want to escape from the zoo."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

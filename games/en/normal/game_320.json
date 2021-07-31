@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Dog",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Bird",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Monkey",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Lion",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If “American Idol” Had An Animal Competition, Which Animal Would Have The Best Chances?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "House ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Shop ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Land ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Boat ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Lease"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Hair Care Products",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Toy’s",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Make Up",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Type Of Product Has Commercials That Make You Want What They’re Selling?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Surprise Party",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Pin Tail On Donkey",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Kidnapped",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Pinata",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why You’d Get Blindfolded."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hospital",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Restaurant",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Zoo",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Shopping Center",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bar",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Gas station",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Public Place You Immediately Want To Wash Your Hands Immediately After Leaving"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Broom",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Box",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Pots/Pans",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Spoon",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Keys",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name a household item that children turn into a toy"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Soap",
+          34
+        ],
+        [
+          "Deoderant",
+          30
+        ],
+        [
+          "Toothpaste",
+          19
+        ],
+        [
+          "Shampoo",
+          5
+        ],
+        [
+          "Mouthwash",
+          4
+        ],
+        [
+          "Hand Sanitizer",
+          4
+        ],
+        [
+          "Perfume",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Hygiene Product That You Hope Your Office Mate Uses Every Day."
+    },
+    {
+      "answers": [
+        [
+          "Christmas Tree ",
+          45
+        ],
+        [
+          "Suitcase ",
+          29
+        ],
+        [
+          "Matress ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See Tied to the Roof Of A Car"
+    },
+    {
+      "answers": [
+        [
+          "Avoid them",
+          59
+        ],
+        [
+          "Ask for help",
+          38
+        ],
+        [
+          "Smile",
+          25
+        ],
+        [
+          "Say Hi",
+          16
+        ],
+        [
+          "Just looking",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name something you do when approached by a salesperson in a store"
+    },
+    {
+      "answers": [
+        [
+          "Coffee",
+          28
+        ],
+        [
+          "Water",
+          25
+        ],
+        [
+          "Tea",
+          19
+        ],
+        [
+          "Beer",
+          17
+        ],
+        [
+          "Milk",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Beverage That’s Not Sweet"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

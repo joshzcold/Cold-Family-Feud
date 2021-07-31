@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Peas",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Spinach",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Carrots",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Green Beans",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Asparagus",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Vegetable That Tastes The Worst When it Comes From A Can."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Caviar",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Filet Mignon",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Lobster",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Shrimp",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sushi",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Expensive Food That You Wouldn’t Serve At A Kid’s Birthday Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Food",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Reading Material",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If Someone Is Talking Too Much, What Might You Offer Them In The Hope Of Keeping Them Quiet?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Microwave ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Microphone ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Microscope ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Microchip ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Microfilm ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Begins With Micro"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flowers",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Perfume",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lingerie",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Gift That A Very Practical Woman Would Not Be Impressed By Receiving From A Man."
+    },
+    {
+      "answers": [
+        {
+          "ans": "PRESENTS",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "WRAPPING PAPER",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "FOOD",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "PINE NEEDLES",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "BOXES",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "PEOPLE",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Your House Is Full Of After Christmas"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Car",
+          45
+        ],
+        [
+          "Clothes/Shoes",
+          24
+        ],
+        [
+          "Food",
+          15
+        ],
+        [
+          "Lawn Mower",
+          8
+        ],
+        [
+          "Phone",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If Fred Flintstone Was Your Neighbor, Name Something You Wouldn’t Ask To Borrow."
+    },
+    {
+      "answers": [
+        [
+          "Bathroom ",
+          54
+        ],
+        [
+          "Kitchen ",
+          35
+        ],
+        [
+          "Bedroom ",
+          23
+        ],
+        [
+          "Study ",
+          15
+        ],
+        [
+          "Childrens Room ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Room In Your Home Thats Hard To Keep Clean"
+    },
+    {
+      "answers": [
+        [
+          "Ask A Question",
+          36
+        ],
+        [
+          "Check Up",
+          24
+        ],
+        [
+          "Perscription Refill",
+          14
+        ],
+        [
+          "Doctor’s Excuse",
+          12
+        ],
+        [
+          "Someone Else Sick",
+          8
+        ],
+        [
+          "Vaccination",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Would You Call The Doctor If You’re Not Sick?"
+    },
+    {
+      "answers": [
+        [
+          "Car",
+          26
+        ],
+        [
+          "Wealth",
+          17
+        ],
+        [
+          "House",
+          14
+        ],
+        [
+          "Kids",
+          13
+        ],
+        [
+          "Body",
+          12
+        ],
+        [
+          "New Clothes",
+          8
+        ],
+        [
+          "Weeding Ring/ Jewelry",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Like To Show Off"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

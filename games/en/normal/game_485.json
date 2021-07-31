@@ -1,0 +1,332 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Tire",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Beer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Try To Prevent From Getting Flat"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cheese",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Pepperoni",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Anchovies",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Mushrooms",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Hamburger",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Onion",
+          "pnt": 2,
+          "trig": false
+        },
+        {
+          "ans": "Bell Peppers",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "When ordering pizza,name something extra you might ask for."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rudolph",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Christmas Story",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Frosty",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Grinch",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "A Wonderful Life",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Home Alone",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Christmas Show That Is On TV Every Year."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cleaning",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Exercise",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Laundry",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pay Bills",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Avoid Doing Though You Feel Better After It’s Done."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Broccoli",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Peas",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Tomato",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Vegetable You Usually Don’t Find In Chicken Soup"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mall",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "School",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Movie Theatre",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Party",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where A Teenager Wouldn’t Want To Be Seen With Their Parent."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Weather Conditions",
+          24
+        ],
+        [
+          "Heavy Traffic",
+          20
+        ],
+        [
+          "New Driver",
+          19
+        ],
+        [
+          "Spot A Police Car",
+          17
+        ],
+        [
+          "Tailgating",
+          11
+        ],
+        [
+          "Lost",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "ame A Reason Why You Might Be Nervous While Driving."
+    },
+    {
+      "answers": [
+        [
+          "Wash Hands",
+          44
+        ],
+        [
+          "Dress Warm",
+          29
+        ],
+        [
+          "Eat Vegies/Fruit",
+          19
+        ],
+        [
+          "Get Vaccine",
+          12
+        ],
+        [
+          "Take Vitamins",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Parents Tell Their Kids To Do So They Don’t Get Sick During Flu Season"
+    },
+    {
+      "answers": [
+        [
+          6,
+          45
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name How Many People Can Ride Comfortably In The Back Of A Limo. (Numeric Only)"
+    },
+    {
+      "answers": [
+        [
+          "Golf",
+          44
+        ],
+        [
+          "Tennis",
+          19
+        ],
+        [
+          "Piano",
+          10
+        ],
+        [
+          "Football",
+          8
+        ],
+        [
+          "Playing Guitar",
+          6
+        ],
+        [
+          "Dancing",
+          6
+        ],
+        [
+          "Singing",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Hobby Or Activity In Which You’d Love To Get Lessons From A Pro."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

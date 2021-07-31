@@ -1,0 +1,310 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Homemade Gift",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Give A Card",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Charge It",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Re Gift",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Might You Do For A Gift If You’re Short On Cash?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chris Evans ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Geri Halliwell ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Cilla Black ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Mick Hucknall ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Anne Robinson ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Famous Ginger Celebrity"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Palm trees",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Beach",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Hawaiian Woman",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Volcano",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something you might see a picture of on a postcard from Hawaii."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Off To See The Wizard",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "No Place Like Home",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Follow Yellow Brick Road",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "I’ll Get You My Pretty",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lions Tigers & Bears",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Phrase From The Wizard Of Oz?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Robin Hood",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Superman",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Peter Pan",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Batman",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Mikhail Barishnikov",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Male, Real Or Fictional, Who Wears Tights"
+    },
+    {
+      "answers": [
+        {
+          "ans": 72,
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": 65,
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": 80,
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": 66,
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me A Good Score When Playing 18 Holes Of Golf."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Dirty",
+          42
+        ],
+        [
+          "Bad Service",
+          35
+        ],
+        [
+          "Crowded",
+          9
+        ],
+        [
+          "Bugs Bunny",
+          8
+        ],
+        [
+          "Long Wait",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Why Might You Leave A Restaurant Before Even Eating There?"
+    },
+    {
+      "answers": [
+        [
+          "Buttons ",
+          47
+        ],
+        [
+          "Play ",
+          31
+        ],
+        [
+          "TV ",
+          20
+        ],
+        [
+          "Numbers ",
+          13
+        ],
+        [
+          "Volume ",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Will Find On A Remote Control"
+    },
+    {
+      "answers": [
+        [
+          "In The Doghouse",
+          30
+        ],
+        [
+          "On Thin Ice",
+          28
+        ],
+        [
+          "In A Pickle",
+          15
+        ],
+        [
+          "Burned Your Bridges",
+          11
+        ],
+        [
+          "River Without Paddle",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Being In Hot Water Is One Way Of Saying You’re In Trouble, Name Another."
+    },
+    {
+      "answers": [
+        [
+          "Calvin Klein",
+          32
+        ],
+        [
+          "Ralph Lauren",
+          14
+        ],
+        [
+          "Giorgio Armani",
+          13
+        ],
+        [
+          "Tommy Hilfiger",
+          12
+        ],
+        [
+          "Versace",
+          11
+        ],
+        [
+          "Donna Karan",
+          10
+        ],
+        [
+          "Gucci",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Clothing Designer Who’s World Famous."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Crackers",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Bread",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s Often Served With Cheese At A Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Nurse",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Paperboy",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Doctor",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Construction Worker",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bus Driver",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Farmer",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Baker",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Occupation Where You Have To Wake Up Early In The Morning."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Close Windows",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Cut Grass",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Get Home",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Laundry Off Line",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Get Umbrella",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Take A Walk",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Try To Do before It Starts To Rain"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Talk",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Dance",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Sing",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Stand",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Smile",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Puppets Are Unable To Do On Their Own"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bar ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Television ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Alcohol ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Wine Glasses ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Chauffeur ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You'd Find In A Limousine But Not In A Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Looks",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "birthday",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Genes",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Last Name",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Twins Might Always Share."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Las Vegas",
+          71
+        ],
+        [
+          "New York",
+          13
+        ],
+        [
+          "Los Angeles",
+          6
+        ],
+        [
+          "Atlanta",
+          4
+        ],
+        [
+          "Chicago",
+          2
+        ],
+        [
+          "Orlando",
+          2
+        ],
+        [
+          "Atlantic City",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A City That Has A Lot Of Hotels."
+    },
+    {
+      "answers": [
+        [
+          "Underwear",
+          43
+        ],
+        [
+          "Socks",
+          28
+        ],
+        [
+          "Hat",
+          18
+        ],
+        [
+          "Shoes",
+          12
+        ],
+        [
+          "Swim Suit",
+          8
+        ],
+        [
+          "Watch",
+          5
+        ],
+        [
+          "Gloves",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Wear That Never Comes With Pockets"
+    },
+    {
+      "answers": [
+        [
+          "Ice Cream ",
+          44
+        ],
+        [
+          "Pork Chop ",
+          29
+        ],
+        [
+          "Raw Fish ",
+          19
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Food You Would Never See In A Vending Machine"
+    },
+    {
+      "answers": [
+        [
+          "Hum",
+          66
+        ],
+        [
+          "Mumble",
+          18
+        ],
+        [
+          "Pretend To Know",
+          6
+        ],
+        [
+          "Whistle",
+          4
+        ],
+        [
+          "Lip Sync",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do You Do When You Want To Sing Along With A Song, But Don’t Know The Words?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

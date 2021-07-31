@@ -1,0 +1,326 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Flying",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Costume",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Super Strength",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Sidekick",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "X Ray Vision",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific That A Superhero Would Be Useless Without."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pickles",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Food That Pregnant Women Crave."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Gun",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Watch",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Camera",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Suits",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Flashy Movie Spies Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Drink",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Bill",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Conversation",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Interests",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Two People On A Date Might Share"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Very Shy",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Too  Handsome",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Drinks Too Much",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bad Hygeine",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Smokes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Quality That Would Make Your Buddy A Bad Wing Man"
+    },
+    {
+      "answers": [
+        {
+          "ans": "School ",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Pupils ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "The Cane ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Detention ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With A Headmaster"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "A Hat ",
+          49
+        ],
+        [
+          "Boots ",
+          32
+        ],
+        [
+          "Spurs ",
+          21
+        ],
+        [
+          "Chaps ",
+          14
+        ],
+        [
+          "Jeans ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Rodeo Rider Might Wear"
+    },
+    {
+      "answers": [
+        [
+          "Pink",
+          65
+        ],
+        [
+          "Purple",
+          18
+        ],
+        [
+          "Yellow",
+          9
+        ],
+        [
+          "Red",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Color Some Men Never Wear"
+    },
+    {
+      "answers": [
+        [
+          "Lazy",
+          37
+        ],
+        [
+          "Slacker",
+          22
+        ],
+        [
+          "Free Loader",
+          13
+        ],
+        [
+          "Bum",
+          11
+        ],
+        [
+          "Deadbeat",
+          9
+        ],
+        [
+          "Leech",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word That Describes Someone Who Doesn’t Pull Their Own Weight"
+    },
+    {
+      "answers": [
+        [
+          "Oil",
+          44
+        ],
+        [
+          "Gas",
+          20
+        ],
+        [
+          "Engine",
+          15
+        ],
+        [
+          "Brakes",
+          6
+        ],
+        [
+          "Tires",
+          6
+        ],
+        [
+          "Battery",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do You Need To Check To Ensure That Your Car Runs Properly?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

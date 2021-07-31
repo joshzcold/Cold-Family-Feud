@@ -1,0 +1,301 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Suntan",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Sunburn",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Sand",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Wet",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Beach Smell",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Swim Suit",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way You Can Tell That Someone Was Just At The Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Eat French Cuisine",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Shop",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "See Eiffel Tower",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Drink Wine",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell Me Something That Americans Want To Do While Visiting France."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dating/Relationships",
+          "pnt": 63,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Work",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Women Talk About During A “Girls’ Night Out.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Manure",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Hay",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Horses/animals",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Oil/Gasoline",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Scent You’d Smell In A Barn"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pineapple",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Coconut",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Cantaloupe",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pomegranite",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Fruit That Is Hard To Break Into"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Watch TV",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Read newspaper",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Use computer",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Play video games",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "We asked 100 Married Women: Name something that your husband does that causes him to be too distracted to listen."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Empire State Bldg.",
+          35
+        ],
+        [
+          "Eiffel Tower",
+          31
+        ],
+        [
+          "Statue Of Liberty",
+          22
+        ],
+        [
+          "Sears Tower",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Sight That Tourists Take An Elevator Up To See"
+    },
+    {
+      "answers": [
+        [
+          "Hot",
+          38
+        ],
+        [
+          "Tangles",
+          24
+        ],
+        [
+          "Looks Like A Girl",
+          19
+        ],
+        [
+          "Hard To Wash",
+          7
+        ],
+        [
+          "In Their Eyes",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why A Child Might Not Want Long Hair."
+    },
+    {
+      "answers": [
+        [
+          "Lower Back/Bottom",
+          44
+        ],
+        [
+          "Ankle",
+          29
+        ],
+        [
+          "Chest",
+          19
+        ],
+        [
+          "Foot",
+          12
+        ],
+        [
+          "Hip",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place On The Body That Women Tattoo But Men Usually Don’t"
+    },
+    {
+      "answers": [
+        [
+          "Bank",
+          29
+        ],
+        [
+          "Grocery Store",
+          22
+        ],
+        [
+          "Gas Station",
+          20
+        ],
+        [
+          "Convenience Store",
+          15
+        ],
+        [
+          "Bar",
+          4
+        ],
+        [
+          "Casino",
+          4
+        ],
+        [
+          "Restaurant",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Type Of Business That Usually Has An ATM Inside"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

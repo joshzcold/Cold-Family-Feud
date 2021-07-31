@@ -1,0 +1,348 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Texas",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Georgia",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Alabama",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Kentucky",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tenessee",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "South Carolina",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A U.S. State Whose Residents Say “Y’All"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cat ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Dustbins ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Junk / Rubbish ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Robber ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Drunk ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tramp ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might See In An Alleyway"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Movie",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Album",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "TV Show",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Book",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Charity",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Celebrity Might Go On A Talk Show To Promote"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kids ",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Christmas ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Playing ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Fun ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Box ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Toys"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ice Cream",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Ribs",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Spaghetti",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sloppy Joe",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food That It’s Hard To Keep Your Face Clean While Eating."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hurricane",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Snow/Blizzard",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tornado",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Flood",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Earthquake",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Kind Of A Weather Event Makes The Front Page Of The News?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cake ",
+          52
+        ],
+        [
+          "Pictures ",
+          34
+        ],
+        [
+          "Ring ",
+          22
+        ],
+        [
+          "Wedding Dress ",
+          14
+        ],
+        [
+          "Cake Or Ornament ",
+          9
+        ],
+        [
+          "Flowers ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Couple Might Save From Their Wedding Day"
+    },
+    {
+      "answers": [
+        [
+          "Banana",
+          42
+        ],
+        [
+          "Pear",
+          14
+        ],
+        [
+          "Kiwi",
+          13
+        ],
+        [
+          "Watermelon",
+          12
+        ],
+        [
+          "Plum",
+          6
+        ],
+        [
+          "Strawberry",
+          5
+        ],
+        [
+          "Peach",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Fruit That You Rarely See Made Into Juice"
+    },
+    {
+      "answers": [
+        [
+          "Talk/Yell",
+          36
+        ],
+        [
+          "Think",
+          32
+        ],
+        [
+          "Laugh",
+          10
+        ],
+        [
+          "Bend Over",
+          7
+        ],
+        [
+          "Cough",
+          5
+        ],
+        [
+          "Look At Light",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When You Have A Headache, Name Something It Hurts To Do."
+    },
+    {
+      "answers": [
+        [
+          "Marriage ",
+          51
+        ],
+        [
+          "Becoming A Dad ",
+          33
+        ],
+        [
+          "His First Car ",
+          22
+        ],
+        [
+          "21st Birthday ",
+          14
+        ],
+        [
+          "His Birth ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Most Important Occasion In A Mans Life"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

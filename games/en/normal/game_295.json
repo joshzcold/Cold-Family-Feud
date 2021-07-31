@@ -1,0 +1,315 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Insurance",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Better Stereo",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Milage Fees",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Bigger Car",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "GPS",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Pay Extra For When Renting A Car"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Baby Showers",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Bridal Showers",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Bachelorette Party",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Girls Sleepover",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An Event That Men Are Usually Not Invited To"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Merry",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Santa",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Snow",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bells",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Holiday",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Other Than “Christmas”, Name A Word That’s In Almost Every Christmas Song"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soap ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Pencil ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Lipstick ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Eraser ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wallet ",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Chalk ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Smaller The More You Use It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Exercise",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Eat Healthy",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Drink Water",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A doctor Tells You To Do More Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swings",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Jungle Gym",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Slide",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Seesaw",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Merry Go Round",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Which Piece Of Playground Equipment Has Probably Resulted In The Most Injuries?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Giggle",
+          33
+        ],
+        [
+          "Play Dolls",
+          27
+        ],
+        [
+          "Dress Up/Makeover",
+          16
+        ],
+        [
+          "Play House",
+          11
+        ],
+        [
+          "Tea Party",
+          6
+        ],
+        [
+          "Jump Rope",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Little Girls Do When They Get Together"
+    },
+    {
+      "answers": [
+        [
+          "Expensive",
+          35
+        ],
+        [
+          "Too Old",
+          25
+        ],
+        [
+          "Focus On Career",
+          14
+        ],
+        [
+          "Not Married",
+          14
+        ],
+        [
+          "Too Young",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason A Couple Might Not Want To Have Kids."
+    },
+    {
+      "answers": [
+        [
+          "Money",
+          51
+        ],
+        [
+          "Problems",
+          12
+        ],
+        [
+          "Supporters",
+          11
+        ],
+        [
+          "Charisma",
+          8
+        ],
+        [
+          "Security/Guards",
+          8
+        ],
+        [
+          "Opponents",
+          5
+        ],
+        [
+          "Power",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That President Obama Has A Lot Of."
+    },
+    {
+      "answers": [
+        [
+          "Wedding",
+          46
+        ],
+        [
+          "Funeral",
+          30
+        ],
+        [
+          "Graduation",
+          20
+        ],
+        [
+          "Birthday",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Event Your Loved Ones Might Travel To Attend"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

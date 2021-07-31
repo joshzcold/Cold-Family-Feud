@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ex’s Name",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "It’s Ugly",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Got Old",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Occupation",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Faded",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You May Get A Tattoo Removed."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Stay Awake",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Like The Taste",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Energy",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Addicted",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Reason Would Most People Give For Why They Drink Coffee?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jennifer Lopez",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Debbie Allen",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Janet Jackson",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Britney Spears",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "John Travolta",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Christina Agulera",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Celebrity Who Could Teach A High School Dance Class."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Type",
+          "pnt": 60,
+          "trig": false
+        },
+        {
+          "ans": "Use A Computer",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Take Shorthand",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Make Copies",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Make Coffee",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "File",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Secretaries Might Be Embarrassed To Say They Don’t Know How To Do."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mow Lawn",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Take Out Trash",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Rake Leaves",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Shovel Snow",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Good Neighborhood Kid Might Do For His Elderly Neighbor"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car ",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Ring ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Lock ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Door ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "House ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With Keys"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Cut Them Off",
+          53
+        ],
+        [
+          "Call A Cab",
+          21
+        ],
+        [
+          "Take Their Keys",
+          14
+        ],
+        [
+          "Kick Them Out",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Bartender Does With A Customer Who’s Had Too Much To Drink."
+    },
+    {
+      "answers": [
+        [
+          "Love",
+          39
+        ],
+        [
+          "Trust",
+          33
+        ],
+        [
+          "Healthy Love Life",
+          11
+        ],
+        [
+          "Communication",
+          10
+        ],
+        [
+          "Compromise",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Your Mom Told You Was The Key To A Happy Marriage"
+    },
+    {
+      "answers": [
+        [
+          "Chinese ",
+          48
+        ],
+        [
+          "Indian ",
+          31
+        ],
+        [
+          "Pizza ",
+          20
+        ],
+        [
+          "McDonalds ",
+          13
+        ],
+        [
+          "KFC ",
+          9
+        ],
+        [
+          "Fish & Chips ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Popular Take Away Meal"
+    },
+    {
+      "answers": [
+        [
+          "High Paying Job",
+          33
+        ],
+        [
+          "Military Veteran",
+          20
+        ],
+        [
+          "Won The Lottery",
+          20
+        ],
+        [
+          "Inheritance/Family",
+          10
+        ],
+        [
+          "Pro Athlete",
+          9
+        ],
+        [
+          "Started Work Early",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason Why Someone Might Be Able To Retire At 40."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Drink water",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Rest",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Shower",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Stretch",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Use bathroom",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If you just ran a marathon,what would you need to do after the race was over?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Weeds",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Kids",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Grass",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Hair",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Plants",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Animals",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Grows Quickly"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Furniture",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "pillows",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Fireplace",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "candles",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Drapes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "rugs",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name something that you spend money on to make your house more cozy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bike",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Videogames",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Toy Car",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Ipod",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "GI Joe",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Present Most Boys Would Want For The Holidays"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fighting",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Talking",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Partying",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Vacuuming",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "When Living In An Apartment, Name Something You Can Often Hear Your Neighbors Doing."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Popcorn",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Food Wrappers",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Cups/Cans",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Ticket Stub",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You See The Ground Littered With After The Carnival Has Move On (More Specific Than “Trash”)."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Snake",
+          35
+        ],
+        [
+          "Giraffe",
+          33
+        ],
+        [
+          "Cat",
+          14
+        ],
+        [
+          "Deer",
+          5
+        ],
+        [
+          "Pony",
+          5
+        ],
+        [
+          "Lizard",
+          3
+        ],
+        [
+          "Monkey",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name A Slender Animal that Wouldn’t Make A Very Good Piggy Bank."
+    },
+    {
+      "answers": [
+        [
+          "touch The Art",
+          33
+        ],
+        [
+          "Run",
+          15
+        ],
+        [
+          "Steal",
+          14
+        ],
+        [
+          "Yell",
+          12
+        ],
+        [
+          "Bring Food In",
+          10
+        ],
+        [
+          "Break Something",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do People Do That Could Get Them Kicked Out Of A Museum"
+    },
+    {
+      "answers": [
+        [
+          "Rain",
+          47
+        ],
+        [
+          "Blizzard",
+          21
+        ],
+        [
+          "Thunder Strorm",
+          12
+        ],
+        [
+          "Tornado",
+          9
+        ],
+        [
+          "Hurricane",
+          4
+        ],
+        [
+          "Cold Temperature",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Might You Hear In A Weather Forecast That Would Keep You From Going Outside?"
+    },
+    {
+      "answers": [
+        [
+          "Pencil ",
+          54
+        ],
+        [
+          "Children ",
+          35
+        ],
+        [
+          "Crayons ",
+          23
+        ],
+        [
+          "Books ",
+          15
+        ],
+        [
+          "Drawing ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Associate With Colouring In"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

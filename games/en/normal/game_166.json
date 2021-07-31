@@ -1,0 +1,330 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Water",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Yogurt",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Gum",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Milk",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tea",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Medicine",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Soda",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Tastes Better Plain Than Fruit-Flavored"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shake It",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Hit It",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rub It",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Jump",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Stomp It",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do To Try And Wake Up Your Leg After It Has Fallen Asleep."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Toast ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Pizza ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Sunday Roast ",
+          "pnt": 19,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Type Of Food That Often Gets Burned"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Robber ",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Burglar ",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Tea Leaf ",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Shoplifter ",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Another Word For A Thief"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Skunk",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Garlic",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Poop",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Roses",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Gasoline",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Body Odor",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name An Odor That’s So Distinct, You Know Right Away What It Is"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Haunted",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Termites",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Mold",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Price Went Up",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Leaky Roof",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Might You Find Out About A House That Would Make You Back Out Of Buying It."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Settee ",
+          42
+        ],
+        [
+          "Sofa ",
+          27
+        ],
+        [
+          "Fridge ",
+          18
+        ],
+        [
+          "Piano ",
+          12
+        ],
+        [
+          "Bed ",
+          7
+        ],
+        [
+          "Washing Machine ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Piece Of Furniture People Need Help Moving"
+    },
+    {
+      "answers": [
+        [
+          "Money/Bills",
+          36
+        ],
+        [
+          "Chores/Nagging",
+          22
+        ],
+        [
+          "Jealousy",
+          15
+        ],
+        [
+          "No/Bad Food",
+          13
+        ],
+        [
+          "Naughty Kids",
+          6
+        ],
+        [
+          "Traffic",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "We Asked 100 Wives: If Your Husband Were The Incredible Hulk, Tell Me What Would Turn Him Into A Monster."
+    },
+    {
+      "answers": [
+        [
+          "Charles/Chuck",
+          42
+        ],
+        [
+          "Chris",
+          34
+        ],
+        [
+          "Chad",
+          12
+        ],
+        [
+          "Chandler",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell me a boy’s name that starts with “Ch”."
+    },
+    {
+      "answers": [
+        [
+          "Dick Clark",
+          76
+        ],
+        [
+          "Regis Philbin",
+          6
+        ],
+        [
+          "Carson Daly",
+          5
+        ],
+        [
+          "Ryan Seacrest",
+          4
+        ],
+        [
+          "Jay Leno",
+          4
+        ],
+        [
+          "Casey Kasem",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a New Year’s TV host."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

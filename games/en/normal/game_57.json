@@ -1,0 +1,353 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Tuna",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Soup",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Beans",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Corn",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Spam",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pet Food",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Canned Food That You’d Never Eat Directly From The Can"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Walk Home",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Sleep",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Drive",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Watch Scary Movie",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Go For A Jog",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Many People Would Be Sacred To Do Alone At Night"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spend Money",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Cook",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Children",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Household Chores",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Show Affection",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Communicate",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Decorate",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "As Newlyweds Name Something You Disagreed On How To Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dark ",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Sky ",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Light / Pale ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Navy ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Royal ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Shade Of Blue"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Swimming",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Gymnastics",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Hockey",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Martial Arts",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Beach Volleyball",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport You Can’t Compete In While Wearing Shoes"
+    },
+    {
+      "answers": [
+        {
+          "ans": 5,
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 7,
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": 4,
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Many Pairs Of Pants Does The Average Man Own?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bob",
+          50
+        ],
+        [
+          "Ben",
+          33
+        ],
+        [
+          "Jim",
+          21
+        ],
+        [
+          "Dan",
+          14
+        ],
+        [
+          "Tim",
+          9
+        ],
+        [
+          "Sam",
+          6
+        ],
+        [
+          "Ted",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "A Mans Name That It 3 Letters Long"
+    },
+    {
+      "answers": [
+        [
+          "Tell Her",
+          48
+        ],
+        [
+          "Point At It",
+          31
+        ],
+        [
+          "Giggle/Tease Her",
+          13
+        ],
+        [
+          "Wipe Your Own face",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Do To Let A Friend Know She Has Food On Her Face."
+    },
+    {
+      "answers": [
+        [
+          "Bobby Moore ",
+          50
+        ],
+        [
+          "Geoff Hurst ",
+          33
+        ],
+        [
+          "Bobby Charlton ",
+          21
+        ],
+        [
+          "Alan Ball ",
+          14
+        ],
+        [
+          "Gordon Banks ",
+          9
+        ],
+        [
+          "Jack Charlton ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Well Known English Footballer From The 60's"
+    },
+    {
+      "answers": [
+        [
+          "Pen/Pencil",
+          36
+        ],
+        [
+          "Restaurant Server",
+          20
+        ],
+        [
+          "Finger",
+          15
+        ],
+        [
+          "Nose",
+          10
+        ],
+        [
+          "Needle/Pin",
+          7
+        ],
+        [
+          "Q Tip",
+          4
+        ],
+        [
+          "Dart/Arrow",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Has A Tip"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

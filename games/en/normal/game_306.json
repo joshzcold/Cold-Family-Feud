@@ -1,0 +1,314 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Halt",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Quit",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "No",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Pause",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Freeze",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Word That Means “Stop.”"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soap ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Shampoo ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Curtain ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "A Person ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Find In The Shower"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bark ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Whine / Whimper ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Lick You ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Growl ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Wag Tail ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Dog Might Do To Tell You How He Feels"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plane ",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Bullet ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Car ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Train ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Rocket ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Travels At High Speed"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Groom It",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Walk It",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Feed It",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bathe It",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Dog Owner Might Pay Someone To Do To Their Dog?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Decorate",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Buy Gifts",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Sing Carols",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Put Up Tree",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Listen To Music",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something People Do In December In Order To Get In The Holiday Spirit"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Dog ",
+          47
+        ],
+        [
+          "Crab ",
+          31
+        ],
+        [
+          "Seagull ",
+          20
+        ],
+        [
+          "Person ",
+          13
+        ],
+        [
+          "Fish ",
+          8
+        ],
+        [
+          "Pony ",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal You Might Find At The Beach"
+    },
+    {
+      "answers": [
+        [
+          "May",
+          21
+        ],
+        [
+          "June",
+          19
+        ],
+        [
+          "April",
+          18
+        ],
+        [
+          "July",
+          12
+        ],
+        [
+          "October",
+          12
+        ],
+        [
+          "September",
+          10
+        ],
+        [
+          "March",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Month With The Nicest Weather"
+    },
+    {
+      "answers": [
+        [
+          "Place Of Worship",
+          47
+        ],
+        [
+          "Work",
+          25
+        ],
+        [
+          "School",
+          18
+        ],
+        [
+          "Public Transit",
+          4
+        ],
+        [
+          "Theater",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Place You’d Get A Dirty Look For Falling Asleep"
+    },
+    {
+      "answers": [
+        [
+          "Buy New Car",
+          45
+        ],
+        [
+          "Have An Affair",
+          21
+        ],
+        [
+          "Plastic Surgery",
+          17
+        ],
+        [
+          "Shopping Spree",
+          8
+        ],
+        [
+          "Cut/Dye Hair",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If A Woman Had A Mid-Life Crisis, What Might She Do?"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

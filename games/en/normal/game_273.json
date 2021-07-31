@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Partner",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Family",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Boss",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Teacher",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Person In Your Life That You’d Be Mortified To Call By The Wrong Name."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wedding",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Birth",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Vacation",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Graduation",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Specific Event People Create Photo Album"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Huggable",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Stuffed",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Smaller",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Softer",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "No Teeth",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Safe",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something About A Teddy Bear That’s Different From A Real Bear"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sleep",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Play On Phone",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Visit Snackbar",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Whisper",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Read",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If A Movie Was Really Terrible, Name Something You Might Do In The Theater To Pass The Time."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dumbo",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Tarzan",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Jungle Book",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Jumanji",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Operation:Dumbo Drop",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Movie Involving An Elephant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car/Tires",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "TV/Electronics",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Ring/Jewelry",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Frige/Appliance",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Glass/Window",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Duct Tape Can Fix A Lot Of Things, But Name An Expensive Item That It Would Probably Be Useless To Fix."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Jars ",
+          41
+        ],
+        [
+          "Their Hearts ",
+          27
+        ],
+        [
+          "Windows ",
+          17
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Have Trouble Opening"
+    },
+    {
+      "answers": [
+        [
+          "Football",
+          61
+        ],
+        [
+          "Basketball",
+          14
+        ],
+        [
+          "Baseball",
+          11
+        ],
+        [
+          "Soccer",
+          10
+        ],
+        [
+          "Hockey",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport Where You Might See A Lot Of Athletes"
+    },
+    {
+      "answers": [
+        [
+          "Darn",
+          38
+        ],
+        [
+          "Shoot",
+          29
+        ],
+        [
+          "Dang",
+          15
+        ],
+        [
+          "Fudge",
+          8
+        ],
+        [
+          "Gosh",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word That People Use To Avoid Swearing."
+    },
+    {
+      "answers": [
+        [
+          "Baseball",
+          46
+        ],
+        [
+          "Basketball",
+          30
+        ],
+        [
+          "Football",
+          20
+        ],
+        [
+          "Frisbee",
+          13
+        ],
+        [
+          "Tag",
+          8
+        ],
+        [
+          "Chess",
+          5
+        ],
+        [
+          "Soccer",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "A Game You See People Playing In The Park"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

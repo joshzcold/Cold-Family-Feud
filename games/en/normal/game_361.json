@@ -1,0 +1,321 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Coffee Beans",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Coffee Maker",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Water",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Sugar",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Mugs",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Creamer/Milk",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Filter",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific You Need If You Want To Make Coffee For Your Guests."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Tv",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Dishwasher",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Phone",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Washing Machine",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Common Household Item That Was A Luxury To Have 50 Years Ago"
+    },
+    {
+      "answers": [
+        {
+          "ans": "UFO",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Elvis",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ghost",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Big Foot",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lochness Monster",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Angel",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Claim To Have Seen That Others Think is Crazy"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Spin The Bottle",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Strip Poker",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Twister",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Truth Or Dare",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Beer Pong",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game That Would Be Inappropriate At A Company Party"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jeans ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Jacket ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Skirt ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "A Bag ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Might Be Mead From Denim"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Osbournes",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Brad & Angelina",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Jon & Kate",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Addams Family",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bonnie & Clyde",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Famous Past Or Present Couple Who You’d Hate To Live Next Door To."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Oil ",
+          54
+        ],
+        [
+          "Wine ",
+          35
+        ],
+        [
+          "Milk ",
+          23
+        ],
+        [
+          "Beer ",
+          15
+        ],
+        [
+          "Vinegar ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Liquid Used In Cooking"
+    },
+    {
+      "answers": [
+        [
+          "Magazine",
+          49
+        ],
+        [
+          "Coupons",
+          19
+        ],
+        [
+          "Credit Card",
+          8
+        ],
+        [
+          "Catalogs",
+          8
+        ],
+        [
+          "Sweepstakes",
+          6
+        ],
+        [
+          "Newspaper",
+          4
+        ],
+        [
+          "Fan Club",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Sign Up For If You Like To Receive Mail"
+    },
+    {
+      "answers": [
+        [
+          "Stable ",
+          55
+        ],
+        [
+          "Farm ",
+          36
+        ],
+        [
+          "Show ",
+          23
+        ],
+        [
+          "Circus ",
+          15
+        ],
+        [
+          "Rodeo ",
+          10
+        ],
+        [
+          "Carousel ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Besides The Races Name A Place You Might Find A Horse"
+    },
+    {
+      "answers": [
+        [
+          "Junk Food",
+          56
+        ],
+        [
+          "Clothes",
+          36
+        ],
+        [
+          "Magazines",
+          24
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me Something That You Never Intend To Buy At The Store But Always End Up With"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

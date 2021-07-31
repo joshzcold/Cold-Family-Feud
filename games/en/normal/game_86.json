@@ -1,0 +1,327 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Kissing",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Holding Hands",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Making Conversation",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Meeting Parents",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Teen Nervous On 1st Date"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fruit",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Lotion",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Wine",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Bath Oil",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Receive In A Gift Basket"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Frisbee",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Baseball",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Football",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tag",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Chess",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Soccer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Game That You See People Playing In The Park"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wood",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Saw",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Drill",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Lathe",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Hammer",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you might see in a High School shop class.(Tools is not an answer,be more specific)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "License Plate",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Watch/Jewelry",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Polio/Work Shirt",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Towel Set",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Luggage Tag",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Is Personalized"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cursing",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Intoxicated",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Rude",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Cheating",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Not Funny",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason A Game Show Host Might Get Fired."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Money",
+          31
+        ],
+        [
+          "Sleep",
+          25
+        ],
+        [
+          "Free Time",
+          14
+        ],
+        [
+          "Help",
+          11
+        ],
+        [
+          "Quiet",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Moms Are Desperate For."
+    },
+    {
+      "answers": [
+        [
+          "Airplane",
+          49
+        ],
+        [
+          "Bed",
+          26
+        ],
+        [
+          "Boat",
+          12
+        ],
+        [
+          "Cake",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Some People Jump Out Of"
+    },
+    {
+      "answers": [
+        [
+          "Passengers",
+          40
+        ],
+        [
+          "Planes",
+          16
+        ],
+        [
+          "Clouds",
+          12
+        ],
+        [
+          "Pilot",
+          9
+        ],
+        [
+          "Sky",
+          9
+        ],
+        [
+          "In Flight Movie",
+          4
+        ],
+        [
+          "Safety Movie",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Flight Attendant Sees Everyday"
+    },
+    {
+      "answers": [
+        [
+          "Waffle",
+          45
+        ],
+        [
+          "Bread",
+          30
+        ],
+        [
+          "Bagel",
+          17
+        ],
+        [
+          "Toaster Strudel",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Food That Goes From Your Freezer To Your Toaster."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

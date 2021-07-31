@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bread",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Spicy Food",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Crackers",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Peanut Butter",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cake/Pie",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Pretzels",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "If You Were In An Eating Contest, Tell Me The Food That Would Be Hardest To Eat Without Breaks For Water."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Grows Fangs",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Likes Blood",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Sleep Schedule",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Avoids Sun",
+          "pnt": 17,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Reason You Might Suspect That Your Roommate Is Turning Into A Vampire."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Towel",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Gym Bag",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tennis SHoes",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Deoderant",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Change Of Clothes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Weights",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific A Guy Might Take With Him To The Gym"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Coal Miner ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Photographer ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Security Guard ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cinema Usher ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Burglar ",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Tube Driver ",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Someone Who Works In The Dark"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beach",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "House",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Gym",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Front Yard",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Spa",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Where Do You Think It’s Appropriate For Men To Go Shirtless?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water ",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "A Boat ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "A Rope ",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "A Life Jacket ",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Water Skiers Need That Snow Skiers Dont"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Swim",
+          54
+        ],
+        [
+          "Exercise",
+          35
+        ],
+        [
+          "Sleep",
+          23
+        ],
+        [
+          "Read",
+          15
+        ],
+        [
+          "Kiss",
+          10
+        ],
+        [
+          "Drive",
+          6
+        ],
+        [
+          "Dance",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something More Difficult To Do With Glasses On"
+    },
+    {
+      "answers": [
+        [
+          "Eyes",
+          51
+        ],
+        [
+          "Clothes",
+          16
+        ],
+        [
+          "Hands",
+          12
+        ],
+        [
+          "Smile",
+          11
+        ],
+        [
+          "Horoscope Sign",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That People Believe Will Tell You A Lot About A Person"
+    },
+    {
+      "answers": [
+        [
+          "Batman",
+          43
+        ],
+        [
+          "Incredible Hulk",
+          28
+        ],
+        [
+          "Spider man",
+          18
+        ],
+        [
+          "Superman",
+          12
+        ],
+        [
+          "Wolverine",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Superhero Would You Trust To Babysit Your Children"
+    },
+    {
+      "answers": [
+        [
+          "Tomatoes",
+          24
+        ],
+        [
+          "Melon",
+          19
+        ],
+        [
+          "Bread",
+          18
+        ],
+        [
+          "Orange",
+          13
+        ],
+        [
+          "Toilet Paper",
+          10
+        ],
+        [
+          "Lemon",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Squeeze Before You Buy It"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

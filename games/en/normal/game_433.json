@@ -1,0 +1,305 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Bungee Jumping ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Parachuting ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Roller Coaster ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Hang Gliding ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Skiing ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something People Are Afraid To Try Even Through It Seems Fun"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Open Presents ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Eat ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Drink ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Church ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sing ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do On Christmas Day"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Flashlight",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Map",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Umbrella",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Registration",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tissues",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Item Do People Always Keep Inside Their Cars?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shorts",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Hat",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Bikini",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Gloves",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Protective Eyewear",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mask",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Some People Wear While Mowing The Lawn, But You Wouldn’t"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Icing",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Sugar Sprinkles",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Chocolate Chips",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Candy",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Tasty That’s Used To Decorate Christmas Cookies"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Water / Drink ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Helmet ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Pump ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Map ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Backpack ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might Take With You On A Bicycle Tour"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Jack Sparrow",
+          44
+        ],
+        [
+          "Captain Hook",
+          33
+        ],
+        [
+          "Blackbeard",
+          19
+        ],
+        [
+          "Long John Silver",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Pirate"
+    },
+    {
+      "answers": [
+        [
+          "Sick",
+          40
+        ],
+        [
+          "Exercise/Lifting",
+          31
+        ],
+        [
+          "Tired/slept wrong",
+          11
+        ],
+        [
+          "Arthritis/old age",
+          6
+        ],
+        [
+          "Stress",
+          5
+        ],
+        [
+          "Injury",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "If your body aches,tell me what a possible cause might be."
+    },
+    {
+      "answers": [
+        [
+          "Romantic Life",
+          32
+        ],
+        [
+          "Weight",
+          30
+        ],
+        [
+          "Financial Situation",
+          25
+        ],
+        [
+          "Age",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Friend Should Never Ask About, No Matter How Well They Know You"
+    },
+    {
+      "answers": [
+        [
+          "Toilet",
+          55
+        ],
+        [
+          "Phone",
+          36
+        ],
+        [
+          "Door Knob",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Object That Has The Most Germs In Home"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

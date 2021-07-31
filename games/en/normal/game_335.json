@@ -1,0 +1,342 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Airplane",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Kite",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Balloons",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "UFO",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Are Some Non-Living Thing That You Might See Flying In The Sky?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hold Nose & Blow ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Yawn ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Chew Gum ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Swallow ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Shake Finger In Ear ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Do To Pop Stuffed Ears"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Evergreen",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Cinnamon",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Turkey",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Peppermint",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ham",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Apples",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a smell typically associated with Christmas."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wand ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Hat ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Assistant ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pack Of Cards ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something a Magician Might Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Deceptiveness",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Middle Aged",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Male",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "White",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Handsome",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Smart",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Wealthy",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Doesn’t Have A Characteristic Of President"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Rock",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Meat",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Club",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Bones",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name something you imagine cavemen gave their girlfriends."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Jingle Bells",
+          51
+        ],
+        [
+          "Silent Night",
+          33
+        ],
+        [
+          "First Noel",
+          22
+        ],
+        [
+          "White Christmas",
+          14
+        ],
+        [
+          "Oh Christmas Tree",
+          9
+        ],
+        [
+          "12 Days Of Christmas",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Christmas Song That Most People Forget Some Of The Words To"
+    },
+    {
+      "answers": [
+        [
+          2,
+          34
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Is The Maximum Number Of Times It’s Okay For Your Partner To Call You At Work"
+    },
+    {
+      "answers": [
+        [
+          "Dancing",
+          49
+        ],
+        [
+          "Cooking Lessons",
+          13
+        ],
+        [
+          "Computer Skills",
+          10
+        ],
+        [
+          "Singing Lessons",
+          5
+        ],
+        [
+          "Playing Piano",
+          5
+        ],
+        [
+          "Drive A Car",
+          5
+        ],
+        [
+          "Golf",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Adult Might Take Lessons To Learn How To Do."
+    },
+    {
+      "answers": [
+        [
+          "Bear",
+          55
+        ],
+        [
+          "Dog Catcher",
+          36
+        ],
+        [
+          "Racoon",
+          23
+        ],
+        [
+          "Skunk",
+          15
+        ],
+        [
+          "Squirrel",
+          10
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That Might Pester You On A Camping Trip."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

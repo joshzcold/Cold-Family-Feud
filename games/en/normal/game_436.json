@@ -1,0 +1,317 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Hair ",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Mind / Memory ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Teeth ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Eyesight ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Virginity ",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Looks ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Loose As You Get Older"
+    },
+    {
+      "answers": [
+        {
+          "ans": "House ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Mum & Dad ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "People ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Family ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Tree ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The First Thing That Children Paint A Picture Of"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Personal Trainer",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Massage",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Laundry Service",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Food/ Drink",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Pool Access",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Tanning Bed",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Locker Room Use",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name An “Extra” You Might Pay More For At The Gym"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Order Most Expensive",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Argue About Paying",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Complain About Meal",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Order Extras",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Your Date Is Paying For The Meal, Name Something You Shouldn’t "
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kill Dinosaur",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Beat His Chest",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Make Fire",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Bring Her Meat",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Pull Her By The Hair",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Caveman Might Do To Impress A Cavewoman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fights At Wedding",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Bride/ Groom Flirting",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Crying/ Sad Faces",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "How They Kiss",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "While At The Wedding, Name Away You Can Tell That The Marriage Won’t Last"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Skydiving",
+          48
+        ],
+        [
+          "Hunting",
+          16
+        ],
+        [
+          "Flying",
+          14
+        ],
+        [
+          "Rock climbing",
+          14
+        ],
+        [
+          "Car racing",
+          3
+        ],
+        [
+          "Motorcycling",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a dangerous hobby you wouldn’t want your partner to have."
+    },
+    {
+      "answers": [
+        [
+          "Faster Editing",
+          41
+        ],
+        [
+          "Spell Check",
+          24
+        ],
+        [
+          "Printing",
+          12
+        ],
+        [
+          "nternet Access",
+          8
+        ],
+        [
+          "Quieter",
+          7
+        ],
+        [
+          "Screen",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Is Different About Writing A Research Paper On A Computer Than On A Typewriter."
+    },
+    {
+      "answers": [
+        [
+          "Christmas",
+          44
+        ],
+        [
+          "Wedding",
+          42
+        ],
+        [
+          "Birthday",
+          7
+        ],
+        [
+          "Valentines Day",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Tell Me A Special Day That You Wish Lasted Longer Than 24 Hours"
+    },
+    {
+      "answers": [
+        [
+          "Latte",
+          39
+        ],
+        [
+          "Cappuccino",
+          29
+        ],
+        [
+          "Mocha",
+          12
+        ],
+        [
+          "Americano",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Drink You Get At A Cafe That Most People Can’t Make At Home"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cinderella",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Snow White",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Little Red Riding Hood",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Rapunzel",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Goldy Locks",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping Beauty",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Fairy Tale Character Whose Name Would Cause Her To Stand Out In The Real World."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Money ",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Purse / Wallet ",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "List ",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Bag ",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "The Kids ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Take With You When You Go Shopping"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Drew Barrymore",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Jodie Foster",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Raven Symone",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ron Howard",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Laurence Fishburne",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Olsen Twins",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Child Actor Who Is Still Acting Or Working In Hollywood As An Adult"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sea Shells ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "A Body ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Whale ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "A Bottle ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Litter ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That May Be Found Washed Up On the Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Married?",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "How Are You?",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Your Name Again…?",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Have Kids?",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "What Do You Do?",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Want To Know When You Run Into A Friend You Haven’t Seen In Years?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Beaches",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Palm Trees",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Sun",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Movie Stars",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Artists",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Blondes",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You’d See A Lot Of In California"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Paper Towels",
+          32
+        ],
+        [
+          "Napkins",
+          24
+        ],
+        [
+          "Paper Plates",
+          17
+        ],
+        [
+          "Toilet Paper",
+          10
+        ],
+        [
+          "Tissue",
+          7
+        ],
+        [
+          "Paper",
+          5
+        ],
+        [
+          "Notebook",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Can Buy In The Paper Products Aisle At The Supermarket"
+    },
+    {
+      "answers": [
+        [
+          "Garden",
+          44
+        ],
+        [
+          "Pool",
+          39
+        ],
+        [
+          "Lots Of Rooms",
+          8
+        ],
+        [
+          "Tennis Courts",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Mansion Has That Requires Hired Help To Maintain."
+    },
+    {
+      "answers": [
+        [
+          "Exercise",
+          40
+        ],
+        [
+          "Going Out",
+          30
+        ],
+        [
+          "Vacation",
+          14
+        ],
+        [
+          "Shopping",
+          12
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "When You’re Stuck In A Rut, Name An Activity That Can Pull You Out"
+    },
+    {
+      "answers": [
+        [
+          "Dad",
+          51
+        ],
+        [
+          "Daddy",
+          28
+        ],
+        [
+          "Papa",
+          10
+        ],
+        [
+          "Pop",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Give Me Another Name That Kids Use For “Father”"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

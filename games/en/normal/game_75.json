@@ -1,0 +1,306 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Work",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Go To Bar",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Golf",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Fishing",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "From What Activity Is A Man Most Likely To Be Late Getting Home From?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Love Connection",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "I Love Lucy",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Love Boat",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Everybody Loves Raymond",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Love American Style",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Love Bug",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a tv show with the word “love” in its title"
+    },
+    {
+      "answers": [
+        {
+          "ans": "CEO",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "President",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Vice President",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Supervisor",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Manager",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a job title someone might have in a big company."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Brush/Comb",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Razor",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Tweezers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Scissors",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Device That You Keep In Your Bathroom For Grooming Purposes."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oprah",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Jerry Springer",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Maury",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Dr. Phil",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Talk Show You Might Go On Tell About Disaster Wedding"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hustler",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Dracula",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Prince",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Superman",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Firefighter",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "What Should A Man Dress As If He Wants To Get A Lot Of Dates On Halloween?"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Parrot",
+          55
+        ],
+        [
+          "Minkey",
+          31
+        ],
+        [
+          "Dog",
+          10
+        ],
+        [
+          "Snake",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That A Pirate Would Most Likely Have On His Ship."
+    },
+    {
+      "answers": [
+        [
+          "Lassie",
+          43
+        ],
+        [
+          "Snoopy",
+          17
+        ],
+        [
+          "Benji",
+          9
+        ],
+        [
+          "Scooby Doo",
+          7
+        ],
+        [
+          "Rin Tin Tin",
+          6
+        ],
+        [
+          "Clifford",
+          5
+        ],
+        [
+          "Pluto",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Famous Dog"
+    },
+    {
+      "answers": [
+        [
+          "Buddy",
+          40
+        ],
+        [
+          "Bro",
+          23
+        ],
+        [
+          "Pal",
+          16
+        ],
+        [
+          "Dude",
+          7
+        ],
+        [
+          "Mate",
+          5
+        ],
+        [
+          "Chum",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Word Men Use To Mean “Friend.”"
+    },
+    {
+      "answers": [
+        [
+          "Robe/Pajamas",
+          55
+        ],
+        [
+          "Underwear",
+          31
+        ],
+        [
+          "Towel",
+          7
+        ],
+        [
+          "Birthday Suit",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Hate To Be Wearing When Company"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

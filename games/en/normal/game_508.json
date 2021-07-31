@@ -1,0 +1,346 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Birthday",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Valentines Day",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Anniversary",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "In Love",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Funeral",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Apology",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Reason Someone Might Send You Flowers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lamb/Sheep",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cow",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Horse",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Pig",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Bunny",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Cat",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Chick/Duckling",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name The Most Gentle Farm Animal."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bed ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Sofa ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Floor ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "A Tent ",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Place You Might Sleep When Staying At A Friends House"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Garden ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Plant Pot ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Green House ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Window Seal ",
+          "pnt": 14,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Might Find A Plant"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dress",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Wig",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Lipstick",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Panty Hose",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Specific You’d Wear If You Wanted To Impersonate A Woman"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Christmas",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Valentine’s Day",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Birthday",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "New Year Eve’s",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Day Of The Year That Some People Don’t Want To Spend Alone."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Rock Them",
+          32
+        ],
+        [
+          "Pat Back",
+          21
+        ],
+        [
+          "Sing Lullaby",
+          11
+        ],
+        [
+          "Feed",
+          11
+        ],
+        [
+          "Hug/Cuddle",
+          9
+        ],
+        [
+          "Bounce Them",
+          7
+        ],
+        [
+          "Change Diaper",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something An Experienced Parent Does Automatically When They Pick Up A Crying Baby."
+    },
+    {
+      "answers": [
+        [
+          "Keys",
+          52
+        ],
+        [
+          "Pen/ Pencil",
+          34
+        ],
+        [
+          "Money",
+          22
+        ],
+        [
+          "Remote Control",
+          14
+        ],
+        [
+          "Phone",
+          9
+        ],
+        [
+          "Glasses",
+          6
+        ],
+        [
+          "Scissors",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Soemthing You Can Never Find When You Need It"
+    },
+    {
+      "answers": [
+        [
+          "School",
+          38
+        ],
+        [
+          "Acne/Looks",
+          23
+        ],
+        [
+          "Dating",
+          17
+        ],
+        [
+          "Friends/Clique",
+          14
+        ],
+        [
+          "Parents/Rules",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Teenagers Stress Out About."
+    },
+    {
+      "answers": [
+        [
+          "Moving",
+          28
+        ],
+        [
+          "They Attack People",
+          21
+        ],
+        [
+          "Not Housebroken",
+          12
+        ],
+        [
+          "Too Messy",
+          11
+        ],
+        [
+          "Chew Things",
+          10
+        ],
+        [
+          "Sickness",
+          8
+        ],
+        [
+          "They’re Allergic",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Reason a Person Might Get Rid Of A Pet."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

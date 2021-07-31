@@ -1,0 +1,334 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Ice ",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream ",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Cocolate ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Snow ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Butter ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Melts In The Sun"
+    },
+    {
+      "answers": [
+        {
+          "ans": "CD/Record",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Furniture",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Glasses/Eyeglasses",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Mirror",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Camera Lense",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That Might Be Ruined If It Had A Scratch On It."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dancing",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Saturday Night Live",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Pulp Fiction",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Grease",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pilot",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Scientology",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With John Travolta"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Steak",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Ribs",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Ham/Pork",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Specific Meat That Would Be Hardest To Eat If You Didn’t Have A Knife."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Steak",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Eggs",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Toast",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Chicken",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Cookies",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That’s Hard To Cook Well Without Burning"
+    },
+    {
+      "answers": [
+        {
+          "ans": 13,
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": 16,
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": 12,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 15,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": 18,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Tell Me The Age That A Girl Stops Telling Her Parents Everything (Numeric Only)."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Curly Hair",
+          42
+        ],
+        [
+          "Dolls",
+          17
+        ],
+        [
+          "Dimples",
+          14
+        ],
+        [
+          "Good Ship Lollypop",
+          9
+        ],
+        [
+          "Child Star",
+          4
+        ],
+        [
+          "Singing/Dancing",
+          4
+        ],
+        [
+          "Movies",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something People Associate With Shirley Temple"
+    },
+    {
+      "answers": [
+        [
+          "Doctor",
+          30
+        ],
+        [
+          "Police Officer",
+          26
+        ],
+        [
+          "Actor",
+          16
+        ],
+        [
+          "Lawyer",
+          12
+        ],
+        [
+          "Detective",
+          7
+        ],
+        [
+          "Model",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Job, Often Depicted On TV, That You’ve Dreamt Of Having Yourself."
+    },
+    {
+      "answers": [
+        [
+          "What Do You Do",
+          53
+        ],
+        [
+          "How Are You",
+          16
+        ],
+        [
+          "kids",
+          10
+        ],
+        [
+          "Married Yet",
+          10
+        ],
+        [
+          "WhoAre You",
+          2
+        ],
+        [
+          "Where Do You Live",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Question Do You Think Is Asked The Most At A High School Reunion?"
+    },
+    {
+      "answers": [
+        [
+          "Singing",
+          46
+        ],
+        [
+          "Dancing",
+          30
+        ],
+        [
+          "Drawing",
+          20
+        ],
+        [
+          "Sports",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Talent Can’t Be Learned, Born With"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

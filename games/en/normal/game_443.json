@@ -1,0 +1,316 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Girdle",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "Bra",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "High Heels",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Thong",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Earrings",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Specific That Women Wear That Hurts"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Kiss",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Picnic",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Walk",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Hold Hands",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Use Playground",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Might Do On A Date In The Park."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ready To Order",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Is Everything OK",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Want A Refill",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Need Anything Else",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Want The Bill",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name a question Your Server Usually Asks At Least At A Restaurant."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Afraid of Commitment",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Not Ready",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Saving Money",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Too Young",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why Someone Might Hold Off On Getting Married."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Skydiving",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Hunting",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Flying",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Rock Climbing",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Car Racing",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Motorcycling",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Dangerous Hobby You Wouldn’t Want Your Partner To Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Golf Balls",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Tees",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Patience",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Clubs",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Energy",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something A Bad Golfer Often Runs Out Of"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Secret Service",
+          34
+        ],
+        [
+          "Secret Agent",
+          20
+        ],
+        [
+          "Secret Admirer",
+          19
+        ],
+        [
+          "Secret Santa",
+          14
+        ],
+        [
+          "Secret Garden",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Two-Word Term That Starts With “Secret.”"
+    },
+    {
+      "answers": [
+        [
+          "Good Answer",
+          47
+        ],
+        [
+          "Laugh",
+          31
+        ],
+        [
+          "Get Mad",
+          20
+        ],
+        [
+          "Roll Eyes",
+          13
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "What Do Family Fued Contestants Do After Their Relative Has Given A Bad Answer"
+    },
+    {
+      "answers": [
+        [
+          "Money ",
+          52
+        ],
+        [
+          "Cashier ",
+          34
+        ],
+        [
+          "Robber ",
+          22
+        ],
+        [
+          "People ",
+          14
+        ],
+        [
+          "Security Guard ",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See In A Bank"
+    },
+    {
+      "answers": [
+        [
+          "Hair",
+          59
+        ],
+        [
+          "Tooth",
+          38
+        ],
+        [
+          "Birth Cert",
+          25
+        ],
+        [
+          "Pictures",
+          16
+        ],
+        [
+          "Foot Print",
+          11
+        ],
+        [
+          "Booties",
+          7
+        ],
+        [
+          "Hospital Bracelet",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Keepsake People Put In Baby’s Scrapbook"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

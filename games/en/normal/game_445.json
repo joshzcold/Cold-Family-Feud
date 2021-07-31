@@ -1,0 +1,336 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Monitor",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Mouse",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Keyboard",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Speakers",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Internet Capability",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Windows",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Power Cord",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Be Disappointed To Find Your Computer Came Without"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Towel",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Bathing Suit",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sun Screen",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Umbrella",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Sunglasses",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Beach Chair",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Kind Of Gift Would You Get Somebody That Spends A Lot Of Time At The Beach"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Garlic",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Onions",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Fish",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Beans",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Peppers",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Food Should A Movie Star Avoid Eating Before Doing A Love Scene?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sand",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom/Showers",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Umbrellas/Shade",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Lifeguards",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Refreshments",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Clear Water",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Seats",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Want A Beach To Have"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sweating",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Shaking",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Crying",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Drinking Alcohol",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Biting Nails",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Eyes Closed",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Praying",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "How Tell Person Next To You Is Nervous Flyer"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Shoes/Booties",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Diapers",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Onesie/Pajamas",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "T-Shirt",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Bib",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The Article Of Babies’ Clothing That Grown Adults Are Most Shocked By When Seeing Its Tiny Size."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "American Football",
+          56
+        ],
+        [
+          "Golf",
+          27
+        ],
+        [
+          "Bowling",
+          9
+        ],
+        [
+          "Dodgeball",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Sport That Should Be Part Of The Olympics, But Isn’t."
+    },
+    {
+      "answers": [
+        [
+          "Cook ",
+          50
+        ],
+        [
+          "DIY ",
+          33
+        ],
+        [
+          "Sing ",
+          21
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something Most Men Hate To Admit They Can't Do"
+    },
+    {
+      "answers": [
+        [
+          "Plane ",
+          40
+        ],
+        [
+          "Car ",
+          26
+        ],
+        [
+          "Train ",
+          17
+        ],
+        [
+          "Computer ",
+          11
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something That Might Crash"
+    },
+    {
+      "answers": [
+        [
+          "Pink",
+          49
+        ],
+        [
+          "Yellow",
+          32
+        ],
+        [
+          "Orange",
+          21
+        ],
+        [
+          "Purple",
+          14
+        ],
+        [
+          "Brown",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Color That Cars Seldom Come In"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

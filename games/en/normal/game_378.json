@@ -1,0 +1,304 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Furniture",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Jewelry",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Clock",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "China",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Photo",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something In Your House That’s Been Passed Down For Generations"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Looks",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Clothes",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Dating",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Driving",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Kids Start To Care More About Once They’re Teenagers"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Strawberries",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Grapes",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Peaches",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Cherries",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Watermelon",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Grapefruit",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Pineapple",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Fruit Often Served In A Bowl"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ants",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Rodents",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Roaches",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Flies",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Gets Into Your House If You Leave Food Out."
+    },
+    {
+      "answers": [
+        {
+          "ans": "baseball Cards",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "baseballs",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Autographs",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "baseball Gloves",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Valuable That A Baseball Fan Might Collect"
+    },
+    {
+      "answers": [
+        {
+          "ans": "The Trash",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "The Dog",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Your Mate",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Teeth/Dentures",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Has To Be Taken Out Every Once In A While"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Traffic",
+          35
+        ],
+        [
+          "Car Trouble",
+          31
+        ],
+        [
+          "Lost Keys",
+          11
+        ],
+        [
+          "Child Is Sick",
+          7
+        ],
+        [
+          "No Gas",
+          6
+        ],
+        [
+          "Bad Hair",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Last Minute Problem That Could Make You Late For Work"
+    },
+    {
+      "answers": [
+        [
+          "TORNADO",
+          54
+        ],
+        [
+          "HURRICANE",
+          35
+        ],
+        [
+          "SEVERE THUNDERSTORM",
+          23
+        ],
+        [
+          "SNOW",
+          15
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Type Of Weather Warning That Might Interupt Your TV Show"
+    },
+    {
+      "answers": [
+        [
+          "Trees / Branches ",
+          54
+        ],
+        [
+          "Rain ",
+          35
+        ],
+        [
+          "Snakes ",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might See In The Amazon Forest"
+    },
+    {
+      "answers": [
+        [
+          "Table Linens",
+          33
+        ],
+        [
+          "Fancy Food",
+          28
+        ],
+        [
+          "Candles",
+          20
+        ],
+        [
+          "Wine List",
+          9
+        ],
+        [
+          "Chandelier",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "name Something restaurants Have In Them To Appear Fancier"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

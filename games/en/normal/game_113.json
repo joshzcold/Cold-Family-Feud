@@ -1,0 +1,329 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Matches",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Lighter",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Gasoline",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Kindling",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "newspaper",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something A Boy Scout Wouldn’t Need To Start A Fire, But You Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hammer ",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Finger ",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Polish ",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Wood ",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Building ",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something Associated With Nails"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bathroom",
+          "pnt": 42,
+          "trig": false
+        },
+        {
+          "ans": "kitchen",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Basement",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Laundry Room",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Room In Your House You Wouldn’t Want Carpeted."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Car Keys",
+          "pnt": 54,
+          "trig": false
+        },
+        {
+          "ans": "Wallet",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Pen",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Pocket Knife",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "If Someone Turned You Upside Down, Name Something That Would Fall Out Of Your Pockets."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mow The Lawn",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Plant Flowers",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Host Barbeque",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Paint The House",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Wash The Car",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Decorate Holiday",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Buy New Car",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That, Once You Do It, Neighbors Start Doing It"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wine ",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Bottle ",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Tiles ",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Corkscrew ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Champagne ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Ireland ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Associate With The Word Cork"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Book ",
+          56
+        ],
+        [
+          "Movie ",
+          36
+        ],
+        [
+          "Play ",
+          24
+        ],
+        [
+          "Restaurant ",
+          16
+        ],
+        [
+          "Music ",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Critic Might Review"
+    },
+    {
+      "answers": [
+        [
+          "Produce",
+          34
+        ],
+        [
+          "Meat",
+          23
+        ],
+        [
+          "Frozen Food",
+          14
+        ],
+        [
+          "Bakery",
+          9
+        ],
+        [
+          "Check Out",
+          8
+        ],
+        [
+          "Dairy Section",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name The Best Part Of The Grocery Store To Pick Up A Date"
+    },
+    {
+      "answers": [
+        [
+          "Teacher",
+          58
+        ],
+        [
+          "Writer",
+          17
+        ],
+        [
+          "Librarian",
+          13
+        ],
+        [
+          "Editor",
+          8
+        ],
+        [
+          "Journalist",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name a profession that would help you be good at solving crossword puzzles."
+    },
+    {
+      "answers": [
+        [
+          "Monster",
+          43
+        ],
+        [
+          "Snake",
+          16
+        ],
+        [
+          "Rotting Food",
+          12
+        ],
+        [
+          "Spider",
+          10
+        ],
+        [
+          "Rodent",
+          8
+        ],
+        [
+          "Dust",
+          4
+        ],
+        [
+          "Person",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Would Hate To Find Under Your Bed"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

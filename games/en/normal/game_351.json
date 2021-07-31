@@ -1,0 +1,312 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Eye Contact ",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Blush ",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Lie Detector ",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Nose Grows ",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sweat ",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Way Of Telling Someone Is Lying"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Window",
+          "pnt": 61,
+          "trig": false
+        },
+        {
+          "ans": "Bathroom",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Exit",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Aisle",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Hope To Have Your Seat Near While Riding In A Plane"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clothes",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Baseball Cards",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Furniture",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Tools",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Dishes",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Cars",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Books",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something That’s Often Sold At A Swap Meet. (Be More Specific Than Junk Or Stuff)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Monopoly",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Yatzee",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Craps",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dungeos & Dragons",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Game You Need Dice To Play."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Piglet",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Lamb",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chick",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Kid/Goat",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bunny",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Baby Farm Animal That A Child Would Probably Want To Keep As A Pet."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Soup ",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Spaghetti ",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Ice Cream ",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Rice ",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Pasta ",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Food You Never Eat With Your Hands"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Dark",
+          49
+        ],
+        [
+          "Committment",
+          32
+        ],
+        [
+          "Rejection",
+          21
+        ],
+        [
+          "Heights",
+          14
+        ],
+        [
+          "Crying",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Which Fears, Adult/ Childish Men Pretend Not To Do"
+    },
+    {
+      "answers": [
+        [
+          "Bear",
+          38
+        ],
+        [
+          "Deer",
+          29
+        ],
+        [
+          "Wolf",
+          14
+        ],
+        [
+          "Fox",
+          11
+        ],
+        [
+          "Mountain Lion",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal You See In The Woods That You Would Be Surprised To See In The City."
+    },
+    {
+      "answers": [
+        [
+          "Teacher",
+          58
+        ],
+        [
+          "Writer",
+          17
+        ],
+        [
+          "Librarian",
+          13
+        ],
+        [
+          "Editor",
+          8
+        ],
+        [
+          "Journalist",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Profession That Would Help You Be Good At Solving Crossword Puzzles."
+    },
+    {
+      "answers": [
+        [
+          "Steak",
+          31
+        ],
+        [
+          "Eggs",
+          26
+        ],
+        [
+          "Toast",
+          19
+        ],
+        [
+          "Chicken",
+          11
+        ],
+        [
+          "Cookies",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Specific Food That’s Hard To Cook Well, Without Burning"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

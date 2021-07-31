@@ -1,0 +1,340 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Concert",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "While Traveling",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Sleeping",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Babysitting",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Swimming",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "In Traffic",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Arguement",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Besides On The Job, Name Another Life Situation Where You’ve Wished You Had Earplugs."
+    },
+    {
+      "answers": [
+        {
+          "ans": 12,
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": 13,
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": 10,
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": 14,
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": 11,
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": 6,
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": 5,
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Tell me an age when girls start thinking about boys.(Numeric only)"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Plane",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Falling Star",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Money",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "UFO",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Person",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You’d Be Shocked To See Falling From The Sky"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Mole ",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Worm ",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Rabbit ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Badger ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Lives Underground"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Hair",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "Home/Rooms",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Car",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Clothes/Shoes",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Drapes",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Eyes",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something Of Yours That You Might Someday Change Its Color."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bed ",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Sofa ",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Hammok ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "The Floor ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "A Tent ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Place Where You Can Sleep"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Vacuum",
+          36
+        ],
+        [
+          "TV",
+          32
+        ],
+        [
+          "Stereo",
+          14
+        ],
+        [
+          "Blender",
+          6
+        ],
+        [
+          "Phone",
+          5
+        ],
+        [
+          "Lights",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something In The House That You Might Not Use When People Are Trying To Sleep."
+    },
+    {
+      "answers": [
+        [
+          "Water",
+          75
+        ],
+        [
+          "Strength",
+          9
+        ],
+        [
+          "Rest",
+          4
+        ],
+        [
+          "Ladders",
+          4
+        ],
+        [
+          "Air",
+          2
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something A Firefighter Needs A Lot Of"
+    },
+    {
+      "answers": [
+        [
+          "Fullhouse",
+          12
+        ],
+        [
+          "Whitehouse",
+          12
+        ],
+        [
+          "Brickhouse",
+          7
+        ],
+        [
+          "Outhouse",
+          6
+        ],
+        [
+          "Open House",
+          4
+        ],
+        [
+          "Crack House",
+          3
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Expression That Ends With The word “House”"
+    },
+    {
+      "answers": [
+        [
+          "Jeans/Pants",
+          60
+        ],
+        [
+          "Shit/Sweater",
+          13
+        ],
+        [
+          "Skirt/Dress",
+          11
+        ],
+        [
+          "irdle",
+          6
+        ],
+        [
+          "Bra",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Article Of Clothing Some Women Try To Wear As Tight As Possible"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

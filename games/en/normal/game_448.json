@@ -1,0 +1,345 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Record",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Play",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Power",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Pause",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Rewind",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Eject",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Stop",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Button You’d Find On A Video Camera"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Smoke",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Pass Gas",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Sneeze",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Talk",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Kiss",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Stand Too Close",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Cough",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Wish People Wouldn’t Do In An Elevator."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Limo/Vehicle",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "DVD",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Vacation Home",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Carpet Cleaner",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Tuxedo/Gown",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Storage Unit",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name Something You Would Rent, But Probably Not Buy."
+    },
+    {
+      "answers": [
+        {
+          "ans": 30,
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": 50,
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": 60,
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": 25,
+          "pnt": null,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "At What Age Do People Stop Looking Forward To Birthdays?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Sorry",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Are You Ok?",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Have Insurance?",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Curse Word",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "What Were You Doing?",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name The First Thing You’D Say To The Other Driver After A Fender Bender"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Price ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Taste ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Brand Name ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Country Of Origin ",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Screw Off Lid ",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "A Hangover ",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something About A Wine Which Suggests Is Poor Quality"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Bedroom",
+          40
+        ],
+        [
+          "Living Room",
+          22
+        ],
+        [
+          "Den",
+          14
+        ],
+        [
+          "Family Room",
+          9
+        ],
+        [
+          "Bathroom",
+          9
+        ],
+        [
+          "Library",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Room In The House People Like To Read"
+    },
+    {
+      "answers": [
+        [
+          "Piano ",
+          51
+        ],
+        [
+          "Singing ",
+          33
+        ],
+        [
+          "Sports ",
+          22
+        ],
+        [
+          "Tennis ",
+          14
+        ],
+        [
+          "Golf ",
+          9
+        ],
+        [
+          "Juggling ",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Might Practice"
+    },
+    {
+      "answers": [
+        [
+          "Snake",
+          45
+        ],
+        [
+          "Bear",
+          19
+        ],
+        [
+          "Shark",
+          16
+        ],
+        [
+          "Rat",
+          10
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name An Animal That’s Not Loved By Many People"
+    },
+    {
+      "answers": [
+        [
+          "GET FORTUNE COOKIES",
+          45
+        ],
+        [
+          "USE CHOPSTICKS",
+          29
+        ],
+        [
+          "PRICE",
+          19
+        ],
+        [
+          "ATMOSPHERE",
+          12
+        ],
+        [
+          "SMELL’S GOOD",
+          8
+        ],
+        [
+          "SERVICE",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Other Than Food, Why Do You Like Going To A Chinese Restaurant"
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

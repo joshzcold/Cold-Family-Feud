@@ -1,0 +1,313 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Grape",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Banana",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Apricot",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Prune",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Apple",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Fruit That You Can Buy Dried"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Wrestling ",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Volleyball ",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Tennis ",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Gymnastics ",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Name A Sport That Men Like To Watch Woman Do"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fillings",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Tonsils",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Tongue",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Teeth",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Throat",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Food",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Uvula",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "What Do You See In Someones Mouth Laughing Don’t Always See"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Party",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Work Nights",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Studying",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Insomnia",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sick",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Watching TV",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "New Year’s Eve",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Reason Why Someone Might Stay Up All Night"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Decorate",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Shop For Gifts",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Put Up Tree",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Wrap Gifts",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something That Only A Person Who Really Loves Christmas Would Do As Early As October."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Football",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Horse Racing",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Boxing",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Basketball",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name A Sport That People Bet On"
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "TV",
+          51
+        ],
+        [
+          "Car",
+          25
+        ],
+        [
+          "Pets",
+          10
+        ],
+        [
+          "Phone",
+          4
+        ],
+        [
+          "Bathroom",
+          4
+        ],
+        [
+          "Property/House",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name Something You Really Only Need One Of, But Most Households Have More"
+    },
+    {
+      "answers": [
+        [
+          "T Shirts",
+          55
+        ],
+        [
+          "Towels",
+          36
+        ],
+        [
+          "Paper Airplane",
+          23
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Something You Fold"
+    },
+    {
+      "answers": [
+        [
+          "Valentine’s Day",
+          48
+        ],
+        [
+          "Birthday",
+          31
+        ],
+        [
+          "Christmas",
+          16
+        ],
+        [
+          "Anniversary",
+          4
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Date When You Shouldn’t Break Up With Someone."
+    },
+    {
+      "answers": [
+        [
+          "A Wonderful Life",
+          24
+        ],
+        [
+          "White Christmas",
+          22
+        ],
+        [
+          "Miracle On 34th St",
+          22
+        ],
+        [
+          "Home Alone",
+          12
+        ],
+        [
+          "Nightmare Before",
+          6
+        ],
+        [
+          "Christmas Story",
+          6
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Name A Christmas Movie People Are Tired Of."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}
