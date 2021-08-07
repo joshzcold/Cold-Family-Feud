@@ -16,7 +16,7 @@ export default function Final(props) {
   });
 
   return (
-    <div class="text-center mt-24 mx-20">
+    <div class="min-w-full">
       {props.game.is_final_second ? (
         <div>
           <div class="text-center my-10">

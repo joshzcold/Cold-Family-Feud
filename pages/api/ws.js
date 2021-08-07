@@ -171,7 +171,6 @@ const ioHandler = (req, res) => {
             game.rounds = message.data.rounds;
             game.final_round = message.data.final_round;
             game.gameCopy = [];
-            game.room = message.room;
             game.final_round_timers = message.data.final_round_timers;
             game.point_tracker = new Array(message.data.rounds.length).fill(0);
             game.tick = new Date().getTime();
@@ -191,6 +190,7 @@ const ioHandler = (req, res) => {
             rooms[roomCode].intervals = {};
             rooms[roomCode].game = JSON.parse(JSON.stringify(game));
             rooms[roomCode].game.tick = new Date().getTime();
+            rooms[roomCode].game.room = roomCode;
             rooms[roomCode].connections = {};
 
             let id = registerPlayer(roomCode, true, {}, ws);
