@@ -128,7 +128,7 @@ export default function Game(props) {
     }
 
     return (
-      <div>
+      <div style={{ minWidth: "100vh" }}>
         {gameSession}
         {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
       </div>

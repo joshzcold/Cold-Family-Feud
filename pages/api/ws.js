@@ -93,7 +93,7 @@ const ioHandler = (req, res) => {
         },
       ],
       title: true,
-      title_text: "Change Me",
+      title_text: "",
       point_tracker: [],
       is_final_round: false,
       is_final_second: false,
@@ -171,6 +171,7 @@ const ioHandler = (req, res) => {
             game.rounds = message.data.rounds;
             game.final_round = message.data.final_round;
             game.gameCopy = [];
+            game.room = message.room;
             game.final_round_timers = message.data.final_round_timers;
             game.point_tracker = new Array(message.data.rounds.length).fill(0);
             game.tick = new Date().getTime();

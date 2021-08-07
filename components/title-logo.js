@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
+import TitleNoInsert from "./title-no-insert";
 import "../i18n/i18n";
 
 export default function TitleLogo(props) {
   const { t } = useTranslation();
-  // don't recalculate offset if already set
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
@@ -13,7 +13,7 @@ export default function TitleLogo(props) {
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 507.285 324.08613"
+   viewBox="0 0 507.285 250.08613"
    version="1.1"
    id="svg72">
   <metadata
@@ -109,7 +109,7 @@ export default function TitleLogo(props) {
   </defs>
   <g
      id="g120"
-     transform="translate(84.547506,108.0287)">
+     transform="translate(84.547506,30.0287)">
     <g
        transform="translate(63.490999,-44.629822)"
        stroke-linejoin="round"
@@ -265,5 +265,13 @@ export default function TitleLogo(props) {
   </g>
 </svg>
   `;
-  return <div dangerouslySetInnerHTML={{ __html: logo }} />;
+  return (
+    <div>
+      {props.insert.length == 0 ? (
+        <TitleNoInsert />
+      ) : (
+        <div dangerouslySetInnerHTML={{ __html: logo }} />
+      )}
+    </div>
+  );
 }

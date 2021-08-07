@@ -156,7 +156,7 @@ export default function Buzzer(props) {
                   </div>
                 </div>
               ) : (
-                <div class="flex flex-col min-h-screen justify-center items-center align-middle">
+                <div class="flex flex-col min-h-screen items-center align-middle">
                   <div class="flex flex-col space-y-12">
                     <TitleLogo insert={game.title_text} />
                     <p class="flex-grow text-2xl">
