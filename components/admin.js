@@ -5,6 +5,61 @@ import "../i18n/i18n";
 import Players from "./Admin/players";
 import LanguageSwitcher from "./language";
 
+function TitleMusic() {
+  const { i18n, t } = useTranslation();
+  return (
+    <div class="flex flex-row items-center space-x-5  p-5">
+      <h3 class="text-2xl ">{t("titleMusic")}</h3>
+      <audio controls>
+        <source src="title.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+  );
+}
+
+function TeamControls(props) {
+  const { i18n, t } = useTranslation();
+  return (
+    <>
+      <button
+        disabled={props.pointsGivin.state}
+        class={`border-4 ${props.pointsGivin.color} rounded-lg p-2 ${props.pointsGivin.textColor}`}
+        onClick={() => {
+          props.game.teams[props.team].points =
+            props.game.point_tracker[props.game.round] +
+            props.game.teams[props.team].points;
+          props.setPointsGivin({
+            state: true,
+            color: "bg-black-200",
+            textColor: "text-gray-300",
+          });
+          props.setGame((prv) => ({ ...prv }));
+          props.send({ action: "data", data: props.game });
+        }}
+      >
+        {t("team")} {t("number", { count: props.team + 1 })}:{" "}
+        {props.game.teams[props.team].name} {t("getsPoints")}
+      </button>
+      <button
+        class="border-4 bg-red-200 rounded-lg p-2"
+        onClick={() => {
+          if (props.game.teams[props.team].mistakes < 3)
+            props.game.teams[props.team].mistakes++;
+          props.setGame((prv) => ({ ...prv }));
+          props.send({ action: "data", data: props.game });
+          props.send({
+            action: "mistake",
+            data: props.game.teams[props.team].mistake,
+          });
+        }}
+      >
+        {t("team")} {t("number", { count: props.team + 1 })}:{" "}
+        {props.game.teams[props.team].name} {t("mistake")}
+      </button>
+    </>
+  );
+}
+
 export default function Admin(props) {
   const { i18n, t } = useTranslation();
 
@@ -200,6 +255,7 @@ export default function Admin(props) {
                   send({ action: "data", data: game });
                 }}
                 placeholder={t("myFamilyPlaceHolder")}
+                defaultValue={game.title_text}
               ></input>
             </div>
             <div class="border-2 rounded text-center">
@@ -222,6 +278,7 @@ export default function Admin(props) {
                 send({ action: "data", data: game });
               }}
               placeholder={t("teamNamePlaceHolder")}
+              defaultValue={game.teams[0].name}
             ></input>
             <div class="flex flex-row">
               <p class="text-2xl">{t("points")}:</p>
@@ -252,6 +309,7 @@ export default function Admin(props) {
                 send({ action: "data", data: game });
               }}
               placeholder={t("teamNamePlaceHolder")}
+              defaultValue={game.teams[1].name}
             ></input>
             <div class="flex flex-row">
               <p class="text-2xl">{t("points")}:</p>
@@ -283,176 +341,138 @@ export default function Admin(props) {
           </p>
         ) : (
           <div>
-            <div class="flex-row space-x-16 space-y-5">
-              <h2 class="text-2xl p-5">{t("controls")}</h2>
-
-              <button
-                class="border-4 rounded-lg p-2"
-                onClick={() => {
-                  game.title = false;
-                  game.is_final_round = false;
-                  game.is_final_second = false;
-                  game.round = 0;
-                  props.setGame((prv) => ({
-                    ...prv,
-                  }));
-                  setPointsGivin({
-                    state: false,
-                    color: "bg-green-200",
-                    textColor: "text-black",
-                  });
-                  send({ action: "data", data: game });
-                }}
-              >
-                {t("startRoundOne")}
-              </button>
-
-              <button
-                class="border-4 rounded-lg p-2"
-                onClick={() => {
-                  game.title = false;
-                  game.is_final_round = false;
-                  game.is_final_second = false;
-                  game.teams[0].mistakes = 0;
-                  game.teams[1].mistakes = 0;
-                  if (game.round < game.rounds.length - 1) {
-                    game.round = game.round + 1;
-                  }
-                  props.setGame((prv) => ({ ...prv }));
-                  setPointsGivin({
-                    state: false,
-                    color: "bg-green-200",
-                    textColor: "text-black",
-                  });
-                  console.debug(game.round);
-                  send({ action: "data", data: game });
-                }}
-              >
-                {t("nextRound")}
-              </button>
-
-              <select
-                class="border-4 rounded-lg p-2"
-                value={game.round}
-                onChange={(e) => {
-                  game.round = parseInt(e.target.value);
-                  game.is_final_round = false;
-                  game.is_final_second = false;
-                  game.teams[0].mistakes = 0;
-                  game.teams[1].mistakes = 0;
-                  game.title = false;
-                  props.setGame((prv) => ({ ...prv }));
-                  setPointsGivin({
-                    state: false,
-                    color: "bg-green-200",
-                    textColor: "text-black",
-                  });
-                  send({ action: "data", data: game });
-                }}
-              >
-                {game.rounds.map((key, index) => (
-                  <option value={index}>
-                    {t("round")} {t("number", { count: index + 1 })}
-                  </option>
-                ))}
-              </select>
-              <button
-                class="border-4 rounded-lg p-2"
-                onClick={() => {
-                  game.title = true;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                }}
-              >
-                {t("titleCard")}
-              </button>
-
-              {game.final_round ? (
+            <div class="flex-col space-y-5 p-5">
+              <h2 class="text-2xl">{t("controls")}</h2>
+              {/* START ROUND 1 BUTTON */}
+              <div class="flex flex-row space-x-10">
                 <button
                   class="border-4 rounded-lg p-2"
                   onClick={() => {
                     game.title = false;
-                    game.is_final_round = true;
+                    game.is_final_round = false;
                     game.is_final_second = false;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                    send({
-                      action: "set_timer",
-                      data: game.final_round_timers[0],
+                    game.round = 0;
+                    props.setGame((prv) => ({
+                      ...prv,
+                    }));
+                    setPointsGivin({
+                      state: false,
+                      color: "bg-green-200",
+                      textColor: "text-black",
                     });
+                    send({ action: "data", data: game });
                   }}
                 >
-                  {t("finalRound")}
+                  {t("startRoundOne")}
                 </button>
-              ) : null}
 
-              <button
-                disabled={pointsGivin.state}
-                class={`border-4 ${pointsGivin.color} rounded-lg p-2 ${pointsGivin.textColor}`}
-                onClick={() => {
-                  game.teams[0].points =
-                    game.point_tracker[game.round] + game.teams[0].points;
-                  setPointsGivin({
-                    state: true,
-                    color: "bg-black-200",
-                    textColor: "text-gray-300",
-                  });
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                }}
-              >
-                {t("team")} {t("number", { count: 1 })}: {game.teams[0].name}{" "}
-                {t("getsPoints")}
-              </button>
-              <button
-                disabled={pointsGivin.state}
-                class={`border-4 ${pointsGivin.color} rounded-lg p-2 ${pointsGivin.textColor}`}
-                onClick={() => {
-                  game.teams[1].points =
-                    game.point_tracker[game.round] + game.teams[1].points;
-                  setPointsGivin({
-                    state: true,
-                    color: "bg-black-200",
-                    textColor: "text-gray-300",
-                  });
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                }}
-              >
-                {t("team")} {t("number", { count: 2 })}: {game.teams[1].name}{" "}
-                {t("getsPoints")}
-              </button>
-              <button
-                class="border-4 bg-red-200 rounded-lg p-2"
-                onClick={() => {
-                  if (game.teams[0].mistakes < 3) game.teams[0].mistakes++;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                  send({ action: "mistake", data: game.teams[0].mistake });
-                }}
-              >
-                {t("team")} {t("number", { count: 1 })}: {game.teams[0].name}{" "}
-                {t("mistake")}
-              </button>
-              <button
-                class="border-4 bg-red-200 rounded-lg p-2"
-                onClick={() => {
-                  if (game.teams[1].mistakes < 3) game.teams[1].mistakes++;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                  send({ action: "mistake", data: game.teams[1].mistake });
-                }}
-              >
-                {t("team")} {t("number", { count: 2 })}: {game.teams[1].name}{" "}
-                {t("mistake")}
-              </button>
+                {/* NEXT ROUND BUTTON */}
+                <button
+                  class="border-4 rounded-lg p-2"
+                  onClick={() => {
+                    game.title = false;
+                    game.is_final_round = false;
+                    game.is_final_second = false;
+                    game.teams[0].mistakes = 0;
+                    game.teams[1].mistakes = 0;
+                    if (game.round < game.rounds.length - 1) {
+                      game.round = game.round + 1;
+                    }
+                    props.setGame((prv) => ({ ...prv }));
+                    setPointsGivin({
+                      state: false,
+                      color: "bg-green-200",
+                      textColor: "text-black",
+                    });
+                    console.debug(game.round);
+                    send({ action: "data", data: game });
+                  }}
+                >
+                  {t("nextRound")}
+                </button>
+
+                {/* ROUND SELECTOR */}
+                <select
+                  class="border-4 rounded-lg p-2"
+                  value={game.round}
+                  onChange={(e) => {
+                    game.round = parseInt(e.target.value);
+                    game.is_final_round = false;
+                    game.is_final_second = false;
+                    game.teams[0].mistakes = 0;
+                    game.teams[1].mistakes = 0;
+                    game.title = false;
+                    props.setGame((prv) => ({ ...prv }));
+                    setPointsGivin({
+                      state: false,
+                      color: "bg-green-200",
+                      textColor: "text-black",
+                    });
+                    send({ action: "data", data: game });
+                  }}
+                >
+                  {game.rounds.map((key, index) => (
+                    <option value={index}>
+                      {t("round")} {t("number", { count: index + 1 })}
+                    </option>
+                  ))}
+                </select>
+
+                {/* TITLE SCREEN BUTTON */}
+                <button
+                  class="border-4 rounded-lg p-2"
+                  onClick={() => {
+                    game.title = true;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  }}
+                >
+                  {t("titleCard")}
+                </button>
+
+                {/* FINAL ROUND BUTTON */}
+                {game.final_round ? (
+                  <button
+                    class="border-4 rounded-lg p-2"
+                    onClick={() => {
+                      game.title = false;
+                      game.is_final_round = true;
+                      game.is_final_second = false;
+                      props.setGame((prv) => ({ ...prv }));
+                      send({ action: "data", data: game });
+                      send({
+                        action: "set_timer",
+                        data: game.final_round_timers[0],
+                      });
+                    }}
+                  >
+                    {t("finalRound")}
+                  </button>
+                ) : null}
+              </div>
+
+              {/* GETS POINTS MISTAKE */}
+              <div class="grid grid-rows-2 grid-flow-col gap-5">
+                <TeamControls
+                  game={game}
+                  setGame={props.setGame}
+                  team={0}
+                  send={send}
+                  setPointsGivin={setPointsGivin}
+                  pointsGivin={pointsGivin}
+                />
+                <TeamControls
+                  game={game}
+                  setGame={props.setGame}
+                  send={send}
+                  team={1}
+                  setPointsGivin={setPointsGivin}
+                  pointsGivin={pointsGivin}
+                />
+              </div>
             </div>
-            <div class="flex flex-row items-center space-x-5  p-5">
-              <h3 class="text-2xl ">{t("titleMusic")}</h3>
-              <audio controls>
-                <source src="title.mp3" type="audio/mpeg" />
-              </audio>
-            </div>
+
+            <TitleMusic />
 
             {!game.is_final_round ? (
               <div>
