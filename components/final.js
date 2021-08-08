@@ -16,7 +16,7 @@ export default function Final(props) {
   });
 
   return (
-    <div class="min-w-full">
+    <div class="min-w-full px-5">
       {props.game.is_final_second ? (
         <div>
           <div class="text-center my-10">
@@ -140,19 +140,21 @@ export default function Final(props) {
         </div>
       )}
 
-      <div
-        class="rounded-full justify-center inline-block px-5 border-4 py-5 bg-gradient-to-tr from-blue-900 to-blue-700"
-        style={{
-          boxShadow: "3px 3px 2px black",
-          transform: "translate(0px, -70px)",
-        }}
-      >
-        <p
-          class="self-center text-5xl text-white font-black"
-          style={{ textShadow: "1px 2px 4px black" }}
+      <div class="min-w-full flex flex-row justify-center">
+        <div
+          class="rounded-full justify-center inline-block px-5 border-4 py-5 bg-gradient-to-tr from-blue-900 to-blue-700"
+          style={{
+            boxShadow: "3px 3px 2px black",
+            transform: "translate(0px, -70px)",
+          }}
         >
-          {t("number", { count: props.timer })}
-        </p>
+          <p
+            class="self-center text-5xl text-white font-black"
+            style={{ textShadow: "1px 2px 4px black" }}
+          >
+            {t("number", { count: props.timer })}
+          </p>
+        </div>
       </div>
 
       <div class="text-center">
