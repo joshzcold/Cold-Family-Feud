@@ -602,16 +602,19 @@ export default function Admin(props) {
                 </div>
               </div>
             ) : (
+              // FINAL ROUND
               <div>
-                <div>
-                  <div class="flex py-5 items-center flex-row space-x-5">
-                    <h2 class="text-2xl px-5">
-                      {t("finalRound")}{" "}
-                      {t("number", { count: game.is_final_second ? "2" : "1" })}
-                    </h2>
+                <div class="p-5">
+                  {/* FINAL ROUND TEXT */}
+                  <h2 class="text-6xl text-center">
+                    {t("finalRound")}{" "}
+                    {t("number", { count: game.is_final_second ? "2" : "1" })}
+                  </h2>
+                  <div class="flex py-5 items-center flex-row justify-evenly">
+                    {/* START FINAL ROUND 2 */}
                     {!game.is_final_second ? (
                       <button
-                        class="border-4 rounded p-2"
+                        class="border-4 rounded p-5 text-3xl"
                         onClick={() => {
                           console.debug(game);
                           game.is_final_second = true;
@@ -637,33 +640,67 @@ export default function Admin(props) {
                         {t("number", { count: 2 })}
                       </button>
                     ) : (
-                      <button
-                        class="border-4 rounded p-2"
-                        onClick={() => {
-                          game.is_final_round = true;
-                          game.is_final_second = false;
-                          game.final_round.forEach((rnd, index) => {
-                            rnd.input = game.gameCopy[index]?.input;
-                            rnd.points = game.gameCopy[index]?.points;
-                            rnd.revealed = true;
-                            rnd.selection = game.gameCopy[index]?.selection;
-                          });
-                          game.gameCopy = [];
-                          props.setGame((prv) => ({ ...prv }));
-                          send({ action: "data", data: game });
-                          send({
-                            action: "set_timer",
-                            data: game.final_round_timers[0],
-                          });
-                        }}
-                      >
-                        {t("backTo")} {t("finalRound")}{" "}
-                        {t("number", { count: 1 })}
-                      </button>
+                      <div class="flex py-5 items-center flex-row justify-evenly space-x-5">
+                        {/* GO BACK TO FINAL ROUND 1 */}
+                        <button
+                          class="border-4 rounded p-5 text-3xl"
+                          onClick={() => {
+                            game.is_final_round = true;
+                            game.is_final_second = false;
+                            game.final_round.forEach((rnd, index) => {
+                              rnd.input = game.gameCopy[index]?.input;
+                              rnd.points = game.gameCopy[index]?.points;
+                              rnd.revealed = true;
+                              rnd.selection = game.gameCopy[index]?.selection;
+                            });
+                            game.gameCopy = [];
+                            props.setGame((prv) => ({ ...prv }));
+                            send({ action: "data", data: game });
+                            send({
+                              action: "set_timer",
+                              data: game.final_round_timers[0],
+                            });
+                          }}
+                        >
+                          {t("backTo")} {t("finalRound")}{" "}
+                          {t("number", { count: 1 })}
+                        </button>
+                        {game.is_final_second ? (
+                          <div>
+                            {/* REVEAL FIRST ROUND ANSWERS */}
+                            {game.hide_first_round ? (
+                              <button
+                                class="border-4 rounded p-5 text-3xl"
+                                onClick={() => {
+                                  game.hide_first_round = false;
+                                  props.setGame((prv) => ({ ...prv }));
+                                  send({ action: "data", data: game });
+                                }}
+                              >
+                                {t("revealFirstRoundAnswers")}
+                              </button>
+                            ) : (
+                              // HIDE FIRST ROUND ANSWERS
+                              <button
+                                class="border-4 rounded p-5 text-3xl"
+                                onClick={() => {
+                                  game.hide_first_round = true;
+                                  props.setGame((prv) => ({ ...prv }));
+                                  send({ action: "data", data: game });
+                                }}
+                              >
+                                {t("hideFirstRoundAnswers")}
+                              </button>
+                            )}
+                          </div>
+                        ) : null}
+                      </div>
                     )}
-
+                  </div>
+                  <div class="flex py-5 items-center flex-row justify-evenly">
+                    {/* START TIMER */}
                     <button
-                      class="border-4 rounded p-2"
+                      class="border-4 rounded p-5 text-3xl"
                       onClick={() => {
                         if (game.is_final_second) {
                           send({
@@ -681,50 +718,25 @@ export default function Admin(props) {
                       {t("startTimer")}
                     </button>
 
+                    {/* STOP TIMER */}
                     <button
-                      class="border-4 rounded p-2"
+                      class="border-4 rounded p-5 text-3xl"
                       onClick={() => {
                         send({ action: "stop_timer" });
                       }}
                     >
                       {t("stopTimer")}
                     </button>
-
-                    {game.is_final_second ? (
-                      <div>
-                        {game.hide_first_round ? (
-                          <button
-                            class="border-4 rounded p-2"
-                            onClick={() => {
-                              game.hide_first_round = false;
-                              props.setGame((prv) => ({ ...prv }));
-                              send({ action: "data", data: game });
-                            }}
-                          >
-                            {t("revealFirstRoundAnswers")}
-                          </button>
-                        ) : (
-                          <button
-                            class="border-4 rounded p-2"
-                            onClick={() => {
-                              game.hide_first_round = true;
-                              props.setGame((prv) => ({ ...prv }));
-                              send({ action: "data", data: game });
-                            }}
-                          >
-                            {t("hideFirstRoundAnswers")}
-                          </button>
-                        )}
-                      </div>
-                    ) : null}
                   </div>
 
+                  {/* FINAL ROUND QUESTIONS AND ANSWERS */}
                   {game.final_round?.map((x) => (
-                    <div class="px-5">
-                      <p class="text-xl pb-1">{x.question}</p>
-                      <div class="flex flex-row space-x-10 pb-7">
+                    <div class="flex-col flex space-y-5 p-12 border-2">
+                      <p class="text-4xl font-bold ">{x.question}</p>
+                      <div class="flex flex-row space-x-5 pb-7">
+                        {/* ANSWER SELECTION FINAL ROUND */}
                         <input
-                          class="border-4 rounded"
+                          class="border-4 rounded text-3xl w-48 p-5 flex-grow"
                           placeholder={t("answer")}
                           value={x.input}
                           onChange={(e) => {
@@ -734,7 +746,7 @@ export default function Admin(props) {
                         />
                         <select
                           value={x.selection}
-                          class="border-4 rounded p-2"
+                          class="border-4 rounded p-2 text-2xl flex-grow"
                           onChange={(e) => {
                             x.selection = parseInt(e.target.value);
                             props.setGame((prv) => ({ ...prv }));
@@ -747,43 +759,44 @@ export default function Admin(props) {
                             </option>
                           ))}
                         </select>
-                        <div class="flex-grow text-right pr-20">
-                          <button
-                            class="border-4 rounded p-2"
-                            onClick={() => {
-                              x.points = 0;
-                              props.setGame((prv) => ({ ...prv }));
-                              send({ action: "data", data: game });
-                              send({ action: "final_wrong" });
-                            }}
-                          >
-                            {t("wrong")}
-                          </button>
+                        {/* FINAL ROUND ANSWER BUTTON GROUP */}
+                      </div>
+                      <div class="flex flex-row ">
+                        <button
+                          class="border-4 rounded p-5 text-3xl flex-grow"
+                          onClick={() => {
+                            x.points = 0;
+                            props.setGame((prv) => ({ ...prv }));
+                            send({ action: "data", data: game });
+                            send({ action: "final_wrong" });
+                          }}
+                        >
+                          {t("wrong")}
+                        </button>
 
-                          <button
-                            class="border-4 rounded p-2"
-                            onClick={() => {
-                              x.revealed = true;
-                              props.setGame((prv) => ({ ...prv }));
-                              send({ action: "data", data: game });
-                              send({ action: "final_reveal" });
-                            }}
-                          >
-                            {t("revealAnswer")}
-                          </button>
+                        <button
+                          class="border-4 rounded p-5 text-3xl flex-grow"
+                          onClick={() => {
+                            x.revealed = true;
+                            props.setGame((prv) => ({ ...prv }));
+                            send({ action: "data", data: game });
+                            send({ action: "final_reveal" });
+                          }}
+                        >
+                          {t("revealAnswer")}
+                        </button>
 
-                          <button
-                            class="border-4 rounded p-2"
-                            onClick={() => {
-                              x.points = x.answers[x.selection][1];
-                              props.setGame((prv) => ({ ...prv }));
-                              send({ action: "data", data: game });
-                              send({ action: "final_submit" });
-                            }}
-                          >
-                            {t("submit")}
-                          </button>
-                        </div>
+                        <button
+                          class="border-4 rounded p-5 text-3xl flex-grow"
+                          onClick={() => {
+                            x.points = x.answers[x.selection][1];
+                            props.setGame((prv) => ({ ...prv }));
+                            send({ action: "data", data: game });
+                            send({ action: "final_submit" });
+                          }}
+                        >
+                          {t("submit")}
+                        </button>
                       </div>
                     </div>
                   ))}
