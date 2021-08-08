@@ -166,7 +166,7 @@ export default function Home() {
         </Head>
         <main>
           <div class="flex flex-col items-center pt-12 space-y-5 h-screen">
-            <div class="w-1/2">
+            <div class="lg:w-1/4 w-1/2">
               <TitleNoInsert />
             </div>
             <div class="flex flex-col space-y-12 flex-grow items-center">

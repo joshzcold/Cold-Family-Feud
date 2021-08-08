@@ -93,7 +93,7 @@ const ioHandler = (req, res) => {
         },
       ],
       title: true,
-      title_text: "Change Me",
+      title_text: "",
       point_tracker: [],
       is_final_round: false,
       is_final_second: false,
@@ -190,6 +190,7 @@ const ioHandler = (req, res) => {
             rooms[roomCode].intervals = {};
             rooms[roomCode].game = JSON.parse(JSON.stringify(game));
             rooms[roomCode].game.tick = new Date().getTime();
+            rooms[roomCode].game.room = roomCode;
             rooms[roomCode].connections = {};
 
             let id = registerPlayer(roomCode, true, {}, ws);

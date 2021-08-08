@@ -2,6 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Title from "../components/title";
 import Round from "../components/round";
+import TeamName from "../components/team-name.js";
+import QuestionBoard from "../components/question-board.js";
 import Final from "../components/final";
 import "tailwindcss/tailwind.css";
 import cookieCutter from "cookie-cutter";
@@ -124,18 +126,27 @@ export default function Game(props) {
     } else if (game.is_final_round) {
       gameSession = <Final game={game} timer={timer} />;
     } else {
-      gameSession = <Round game={game} />;
+      gameSession = (
+        <div class="py-12">
+          <Round game={game} />;
+          <QuestionBoard round={game.rounds[game.round]} />
+          <div class="flex flex-row justify-around">
+            <TeamName game={game} team={0} />
+            <TeamName game={game} team={1} />
+          </div>
+        </div>
+      );
     }
 
     return (
-      <div>
+      <div style={{ minWidth: "100vh" }} class="min-h-full">
         {gameSession}
         {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
       </div>
     );
   } else {
     return (
-      <div>
+      <div class="flex flex-col justify-center items-center min-h-screen">
         <p>{t("No game session. retry from the admin window")}</p>
       </div>
     );

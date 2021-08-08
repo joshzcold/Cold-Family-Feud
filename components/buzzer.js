@@ -4,12 +4,19 @@ import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import cookieCutter from "cookie-cutter";
+import Round from "./round";
+import QuestionBoard from "./question-board.js";
+import TeamName from "./team-name.js";
+import Final from "./final";
+
+let timerInterval = null;
 
 export default function Buzzer(props) {
   const { i18n, t } = useTranslation();
   const [buzzed, setBuzzed] = useState(false);
   const [buzzerReg, setBuzzerReg] = useState(null);
   const [error, setError] = useState();
+  const [timer, setTimer] = useState(0);
   let refreshCounter = 0;
 
   let game = props.game;
@@ -50,6 +57,21 @@ export default function Buzzer(props) {
       } else if (json.action === "quit") {
         props.setGame(null);
         props.setTeam(null);
+      } else if (json.action === "set_timer") {
+        setTimer(json.data);
+      } else if (json.action === "stop_timer") {
+        clearInterval(timerInterval);
+      } else if (json.action === "start_timer") {
+        let limit = json.data;
+        timerInterval = setInterval(() => {
+          if (limit > 0) {
+            limit = limit - 1;
+            setTimer(limit);
+          } else {
+            clearInterval(timerInterval);
+            setTimer(json.data);
+          }
+        }, 1000);
       } else if (json.action === "data") {
         if (json.data.title_text === "Change Me") {
           json.data.title_text = t("changeMe");
@@ -81,21 +103,30 @@ export default function Buzzer(props) {
   if (game.teams != null) {
     console.debug(game);
     return (
-      <div class="flex flex-col space-y-12">
+      <div
+        class="flex flex-col min-w-full"
+        style={{
+          minWidth: "100vh",
+        }}
+      >
         <button
-          class="shadow-md absolute top-3 right-3 rounded-lg p-2 bg-gray-200 text-sm uppercase"
+          class="shadow-md rounded-lg p-2 m-5 bg-gray-200 text-2xl font-bold uppercase"
+          style={{ alignSelf: "flex-end" }}
           onClick={() => {
             send({ action: "quit" });
           }}
         >
           {t("quit")}
         </button>
-        <div class="flex flex-col p-5 justify-center text-center space-y-5">
+        <div class="flex flex-col p-5 justify-center text-center space-y-5 items-center min-w-full">
           {buzzerReg !== null ? (
-            <div>
+            <>
               {!game.title && !game.is_final_round ? (
-                <div class="flex flex-col space-y-12 justify-center">
-                  <p class="text-2xl">{game.rounds[game.round].question}</p>
+                <div class="flex flex-col space-y-12 justify-center items-center min-w-full">
+                  {/* <p class="text-2xl">{game.rounds[game.round].question}</p> */}
+                  <Round game={game} />
+
+                  {/* Buzzer Section TODO replace with function*/}
                   <div
                     class="flex-grow"
                     style={{ width: "100%", textAlign: "center" }}
@@ -115,16 +146,23 @@ export default function Buzzer(props) {
                         src="buzz.svg"
                       />
                     )}
+                    <p class="text-gray-400 p-2 italic">
+                      buzzer is reset between rounds
+                    </p>
                     {error !== "" ? (
                       <p class="text-2xl text-red-700">{error}</p>
                     ) : null}
                   </div>
-                  <div class="border-4 rounded p-5 space-y-2 text-center">
-                    <h1 class="text-2xl">{t("buzzerOrder")}</h1>
-                    <hr />
+                  {/* END Buzzer Section TODO replace with function*/}
+                  <div class="flex flex-row justify-around min-w-full">
+                    <TeamName game={game} team={0} />
+                    <TeamName game={game} team={1} />
+                  </div>
+                  <QuestionBoard round={game.rounds[game.round]} />
+                  <div class="border-4 rounded p-4 m-4 space-y-2 text-center min-w-full">
                     <div>
                       {game.buzzed.map((x, i) => (
-                        <div key={i} class="flex flex-row space-x-2  text-sm">
+                        <div key={i} class="flex flex-row space-x-2  text-2xl">
                           <div class="flex-grow">
                             <p class="truncate">
                               {t("number", { count: i + 1 })}.{" "}
@@ -132,7 +170,7 @@ export default function Buzzer(props) {
                             </p>
                           </div>
                           <div class="flex-grow">
-                            <p class="truncate w-20">
+                            <p class="truncate w-40">
                               {
                                 game.teams[game.registeredPlayers[x.id].team]
                                   .name
@@ -156,26 +194,38 @@ export default function Buzzer(props) {
                   </div>
                 </div>
               ) : (
-                <div class="flex flex-col min-h-screen justify-center items-center align-middle">
-                  <div class="flex flex-col space-y-12">
-                    <TitleLogo insert={game.title_text} />
-                    <p class="flex-grow text-2xl">
-                      {game.is_final_round
-                        ? t("buzzerFinalRoundHelpText")
-                        : t("buzzerWaiting")}
-                    </p>
+                <div
+                  class="flex flex-col items-center min-w-full"
+                  style={{
+                    fontSize: "3em",
+                  }}
+                >
+                  <div class="flex flex-col space-y-12 min-w-full">
+                    {game.is_final_round ? (
+                      <Final game={game} timer={timer} />
+                    ) : (
+                      <div>
+                        <TitleLogo insert={game.title_text} />
+                        <p class="flex-grow">{t("buzzerWaiting")}</p>
+                      </div>
+                    )}
                   </div>
                 </div>
               )}
-            </div>
+            </>
           ) : (
-            <div>
-              <div class="flex flex-col space-y-12">
+            <>
+              <div
+                class="flex flex-col space-y-12 min-w-full"
+                style={{
+                  fontSize: "2em",
+                }}
+              >
                 <div class="">
                   <TitleLogo insert={game.title_text} />
                 </div>
                 <div>
-                  <h1 class="text-2xl">
+                  <h1 class="text-4xl">
                     {t("team")}:{" "}
                     {props.team != null
                       ? game.teams[props.team].name
@@ -229,7 +279,7 @@ export default function Buzzer(props) {
                 </div>
                 {error != null && error !== "" ? <p>👾 {error}</p> : null}
               </div>
-            </div>
+            </>
           )}
         </div>
       </div>
