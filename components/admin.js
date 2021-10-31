@@ -737,7 +737,7 @@ export default function Admin(props) {
                   {/* FINAL ROUND QUESTIONS AND ANSWERS */}
                   {game.final_round?.map((x, index) => (
                     <div class="flex-col flex space-y-5 p-12 border-2">
-                       <p class="text-4xl font-bold ">{x.question}</p>
+                      <p class="text-4xl font-bold ">{x.question}</p>
                       {game.is_final_second? (
                        <div class="text-2xl font-bold">
                        First round answer: {'gameCopy' in game ? game.gameCopy[index].input : ""}
@@ -779,7 +779,6 @@ export default function Admin(props) {
                             </option>
                           ))}
                         </select>
-                        
                         {/* FINAL ROUND ANSWER BUTTON GROUP */}
                       </div>
                       <div class="flex flex-row ">

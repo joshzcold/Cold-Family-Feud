@@ -22,6 +22,7 @@ export default function CreateGame(props) {
         points: 0,
         input: "",
         revealed: false,
+        revealed_points: false,
       };
     }),
     final_round_timers: [20, 25],
