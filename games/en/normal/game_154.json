@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Public Place Where You Undress"
     },
     {
@@ -234,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Has Springs In It."
     },
     {
@@ -263,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Business That’s Convenient To Have In Your Neighborhood"
     },
     {
@@ -284,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word Used To Describe The Sun"
     }
   ],

@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food People Associate With The South"
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Holiday Song With A Fictional Character."
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Game Show Host Has To Do, Even On A Day When He Doesn’t Feel Like It."
     },
     {
@@ -309,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Can Make You Look Older Than Your Age."
     }
   ],

@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Pinch"
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Actor Who Uses Or Used Their Middle Initial."
     },
     {
@@ -286,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name an Article Of Clothing Worn By Both Men And Women."
     },
     {
@@ -323,6 +326,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you fold, be specific"
     }
   ],

@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Celebrity Who You’re Pretty Sure Has Had Plastic Surgery"
     },
     {
@@ -240,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where do you get money that can’t be used to buy anything in the real world?"
     },
     {
@@ -273,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something An Amusement Park Has A Lot Of."
     },
     {
@@ -302,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Kids Look Forward To"
     }
   ],

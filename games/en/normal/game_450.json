@@ -251,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of Tree That Would Look Silly To Have As A Christmas Tree."
     },
     {
@@ -280,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Go Wrong With Your Car"
     },
     {
@@ -317,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Curtains, Name Something College Student Cover Window"
     },
     {
@@ -334,6 +337,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Number That People Consider Lucky"
     }
   ],

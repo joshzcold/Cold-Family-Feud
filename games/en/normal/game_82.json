@@ -233,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Finish This Sentence: Since I Got Married, I Have More_____."
     },
     {
@@ -266,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Scottish City"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Has Pineapple In It."
     },
     {
@@ -316,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Do You Need To Be A Member In Order To Enter?"
     }
   ],

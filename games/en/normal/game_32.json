@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides A Horse, Which Animal Is Used For Transportation"
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word Or Phrase That Begins With The Word “Mouth.”"
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Bad Reason For Picking A College"
     },
     {
@@ -308,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Criminal Might Do To Avoid Being Recognized In A Police Line-Up."
     }
   ],

@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Have You Done To A Crush You Hope They Never Find Out"
     },
     {
@@ -246,6 +247,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way To Tell If You Neighbors Are Home."
     },
     {
@@ -271,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Might Stock Up On Before A Huge Snowstorm"
     },
     {
@@ -304,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something your shampoo promises to do."
     }
   ],

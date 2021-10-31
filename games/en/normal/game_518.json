@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Do People Go After They Leave Church Service?"
     },
     {
@@ -265,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Why Might A Waiter Say He Had Bad Day?"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where Many People Would Feel Uncomfortable Going Without A Date."
     },
     {
@@ -331,6 +334,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Toys, Name Something A Kid Might Receive At Christmas"
     }
   ],

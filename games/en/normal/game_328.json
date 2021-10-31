@@ -258,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Tv Show Past Or Present That Has A Womanâ€™S Name In The Title"
     },
     {
@@ -283,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do In the Shower"
     },
     {
@@ -316,6 +318,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Local Gym Was Run By 5-Year-Olds, What Classes Would You Take Instead Of Pilates?"
     },
     {
@@ -345,6 +348,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do People Miss About Their Youth?"
     }
   ],

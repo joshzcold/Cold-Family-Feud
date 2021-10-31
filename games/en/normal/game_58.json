@@ -279,6 +279,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Man’s Name That Starts With The Letter “T.”"
     },
     {
@@ -308,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone In A Man’s Life Who You’D Want To Meet Before Marrying Him"
     },
     {
@@ -333,6 +335,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Flirtatious That A Man Shouldn’t Do While At Work."
     },
     {
@@ -362,6 +365,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Lawn Ornament"
     }
   ],

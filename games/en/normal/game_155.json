@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Could Choose Your Neighbors, Which Traits Would You Look For?"
     },
     {
@@ -238,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That People Try To Squeeze Themselves Into."
     },
     {
@@ -267,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Is Easily Blocked"
     },
     {
@@ -300,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Some Women Spend A Lot Of Money On, Just To Look Good."
     }
   ],

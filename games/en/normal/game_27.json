@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Need In Order To Enter A Childs Treehouse"
     },
     {
@@ -273,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Expression That Begins With The Word “First.”"
     },
     {
@@ -310,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someplace Were You’d See A Lot Of People Gossiping"
     },
     {
@@ -347,6 +350,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me An Emotion That Gets Stronger After You Have Children"
     }
   ],

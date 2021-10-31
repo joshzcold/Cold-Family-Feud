@@ -207,6 +207,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Excuse People Give For Not Voting"
     },
     {
@@ -240,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place You Wait Where It Could Be Awkward To Make Too Much Small Talk With Others"
     },
     {
@@ -273,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Red In The Pizza Parlor Of A Mafia Movie."
     },
     {
@@ -298,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That An Overprotective Parent Might Forbid Their Teen From Doing."
     }
   ],

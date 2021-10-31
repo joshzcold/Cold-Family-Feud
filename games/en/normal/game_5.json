@@ -243,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Buy In The Paper Products Aisle At The Supermarket"
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Mansion Has That Requires Hired Help To Maintain."
     },
     {
@@ -293,6 +295,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When You’re Stuck In A Rut, Name An Activity That Can Pull You Out"
     },
     {
@@ -318,6 +321,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Give Me Another Name That Kids Use For “Father”"
     }
   ],

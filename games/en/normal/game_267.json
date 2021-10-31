@@ -200,6 +200,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Part Of Your Morning Routine Won’t Leave Home Without Doing"
     },
     {
@@ -237,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Good Gift For A High School Graduate"
     },
     {
@@ -274,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Would Be Annoying For Your Roommate To Forget To Do."
     },
     {
@@ -303,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do Santa Claus, Easter Bunny, And The Tooth Fairy Have In Common?"
     }
   ],

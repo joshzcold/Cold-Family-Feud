@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of The Body That Starts With The Letter “B.”"
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name One Word You’d See On The Cover Of A Women’s Magazine, But Probably Not On A Magazine For Men"
     },
     {
@@ -305,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Game People Play At Picnics"
     },
     {
@@ -342,6 +345,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If A 10-Year-Old Ran His Own Restaurant, Name Something You Might See On The Menu."
     }
   ],

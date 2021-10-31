@@ -228,6 +228,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do To Keep Warm In The Winter."
     },
     {
@@ -257,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Referee Carries With Him"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Complaint Many People Have About Bosses"
     },
     {
@@ -319,6 +322,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Yellow Flower"
     }
   ],

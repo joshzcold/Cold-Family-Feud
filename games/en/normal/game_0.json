@@ -192,6 +192,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides numbers,name a button on a calculator"
     },
     {
@@ -205,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a Hobby That Would Be Ironic For A Firefighter To Have."
     },
     {
@@ -218,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Mom Might Tell Her Kid To Shower After Doing"
     },
     {
@@ -233,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Place Where You Often Have To Pay For Parking."
     }
   ],

@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Child Might Never Do If They weren’t Forced To"
     },
     {
@@ -253,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit That You Squeeze To See If It’s Ripe."
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Appetizer You Might Find Served At A Bar"
     },
     {
@@ -311,6 +314,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Hate About The Way People Eat"
     }
   ],

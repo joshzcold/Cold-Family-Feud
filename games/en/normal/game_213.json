@@ -258,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would A Taxi Driver Have To Stop Doing To Drive A Hearse"
     },
     {
@@ -287,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Teen Might Take Off Before Going To Grandma’s House For Dinner."
     },
     {
@@ -320,6 +322,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Makeup That Most Women Don’t Wear On A Regular Basis."
     },
     {
@@ -345,6 +348,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do While Birdwatching That You Might Also Do While Hunting"
     }
   ],

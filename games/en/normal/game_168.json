@@ -234,6 +234,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Way That A Babysitter Knows The Parents Are Nervous About Leaving."
     },
     {
@@ -255,6 +256,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Somewhere You Might Find A Painting"
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Patient In A Hospital Might Have Trouble Doing On His Own."
     },
     {
@@ -325,6 +328,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of Doctor."
     }
   ],

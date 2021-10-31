@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Sends You To Sleep"
     },
     {
@@ -257,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Your Favorite Filling In A Valentine’s Day Chocolate."
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation You’d Be Tempted To Enter If You Liked To Snoop"
     },
     {
@@ -311,6 +314,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where It Would Be Strange To Go If You Didn’t Have Kids."
     }
   ],

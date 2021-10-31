@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Cat Learned To Speak, Name Something It Would Ask For"
     },
     {
@@ -236,6 +237,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Is the Worst Part About Going to The Beach"
     },
     {
@@ -265,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word For Someone Who Never Does Anything Wrong"
     },
     {
@@ -302,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Tourist Attraction That Offers A Great View"
     }
   ],

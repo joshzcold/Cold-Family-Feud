@@ -251,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Diaper Bag Item Would A Parent Hate To Be Without?"
     },
     {
@@ -284,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Find Washed Up On The Beach"
     },
     {
@@ -317,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Wouldn’t Want To Happen When You’re In The Bathtub"
     },
     {
@@ -342,6 +345,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Stow Away Most Of The Year, And Take Out During The Holidays."
     }
   ],

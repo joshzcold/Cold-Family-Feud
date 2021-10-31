@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Associated With Jimmy Carter"
     },
     {
@@ -274,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An activity the Requires Special Footwear"
     },
     {
@@ -311,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal Or Person Who Might Spend Time In A Tree"
     },
     {
@@ -348,6 +351,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "At What Place Might A Celebrity Get Special Treatment"
     }
   ],

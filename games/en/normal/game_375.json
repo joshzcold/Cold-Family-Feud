@@ -253,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Are Some Things Truckers Might Take With Them On A Trip?"
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Camper Does That He Wouldn’t Do At Home"
     },
     {
@@ -315,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Popular Section Of A Library"
     },
     {
@@ -348,6 +351,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Do In A Van That You Can’t Do In A Sports Car."
     }
   ],

@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Restaurant Might Not Be Able To Pronounce Anything On Menu"
     },
     {
@@ -245,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something “Human” That People Try To Teach Their Dogs To Do."
     },
     {
@@ -274,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You Feel Before You Buy It."
     },
     {
@@ -299,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Whose Phone Number Might A Child Know By Heart?"
     }
   ],

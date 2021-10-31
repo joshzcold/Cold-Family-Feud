@@ -230,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Children Play With In The Bath"
     },
     {
@@ -267,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something The Indians Taught To The Pilgrims."
     },
     {
@@ -296,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Other Than Family And Friends That You Would Confide In"
     },
     {
@@ -325,6 +328,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Another Word Or Phrase People Use To Say Good-Bye"
     }
   ],

@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person Sitting Next To You At A Bar Might Do To Annoy You."
     },
     {
@@ -281,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "name A Way You Might Be Able to Tell Your Baby Is really An Alien"
     },
     {
@@ -310,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me An Occupation Where You Wouldn’t Wear High Heels"
     },
     {
@@ -347,6 +350,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Students Ran Schools,Name Some Things They Would Probably Get Rid Of"
     }
   ],

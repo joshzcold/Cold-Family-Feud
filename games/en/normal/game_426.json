@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something An Airplane Has That Your Car Doesn’t."
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Some People Name That Isn’t Alive"
     },
     {
@@ -281,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way You Know You’ve Arrived In New York City"
     },
     {
@@ -318,6 +321,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person Might Accidentally Leave Behind In A Taxicab."
     }
   ],

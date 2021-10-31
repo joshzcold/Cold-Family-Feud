@@ -195,6 +195,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do On Christmas And Your Birthday"
     },
     {
@@ -220,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Rent"
     },
     {
@@ -249,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me An Activity That Some People Are Told To Do More Of, And Others Are Told To Do Less."
     },
     {
@@ -282,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Specific You Might Wear To Bed If You’re Really Cold"
     }
   ],

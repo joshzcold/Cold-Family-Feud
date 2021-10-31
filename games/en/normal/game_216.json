@@ -232,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason You Might Get A Late Night Call From Someone"
     },
     {
@@ -265,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Pair Of Something That You Can Not Wear"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Long The Average Person Would Wait For A Table At A Restaurant"
     },
     {
@@ -323,6 +326,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might See In A Museum About The Old West."
     }
   ],

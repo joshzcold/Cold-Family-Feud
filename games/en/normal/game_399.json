@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something An Auto Racer Hopes Won’t Happen To Him During A Race."
     },
     {
@@ -234,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Thank Family And Friends, Name A Person You Give A Gift Or Tip To During The Holidays"
     },
     {
@@ -259,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Got To Be Fearless For One Day, Name The First Thing You’d Try"
     },
     {
@@ -296,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Character From The Lord Of The rings"
     }
   ],

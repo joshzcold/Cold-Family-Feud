@@ -232,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Everybody Needs To Survive"
     },
     {
@@ -253,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Hat Might Be Made From"
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Wouldn't Run Over With A Vacuum Cleaner"
     },
     {
@@ -307,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Many People Probably Lie About In Their Personal Ads"
     }
   ],

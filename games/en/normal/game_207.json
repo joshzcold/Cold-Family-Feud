@@ -230,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Cats Can Chase All Day."
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Article Of Clothing People Get Fitted For."
     },
     {
@@ -292,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Goes Bad In Your Fridge"
     },
     {
@@ -329,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Animal Has The Best Chance Of Winning At The Hurdles?"
     }
   ],

@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A City That Has A Lot Of Hotels."
     },
     {
@@ -275,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Wear That Never Comes With Pockets"
     },
     {
@@ -296,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food You Would Never See In A Vending Machine"
     },
     {
@@ -325,6 +328,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do You Do When You Want To Sing Along With A Song, But Don’t Know The Words?"
     }
   ],

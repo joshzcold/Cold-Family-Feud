@@ -201,6 +201,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would Santa Hate To Forget On Christmas Eve?"
     },
     {
@@ -226,6 +227,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might Authorities Ask To See When You’re Crossing An International Border?"
     },
     {
@@ -251,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Game In Which Small Children Have An Advantage Over Adults"
     },
     {
@@ -288,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Usually Comes With A Particular Sauce"
     }
   ],

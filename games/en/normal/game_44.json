@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way You Might Know You Were Becoming A Werewolf"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Doctor Better Not Be Afraid Of"
     },
     {
@@ -277,6 +279,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Find In A Hearty Stew."
     },
     {
@@ -306,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You’ve Never Seen In Real Life, But You See At Least 3 Of In Every Action Movie"
     }
   ],

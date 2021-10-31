@@ -243,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Might Have A Friendly Conversation With A Total Stranger."
     },
     {
@@ -280,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word That You Might See Before Or After The Word “Wax”."
     },
     {
@@ -305,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You Dread Doing After A Break-Up"
     },
     {
@@ -330,6 +333,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If A Child Were Raised By Squirrels Name Something He’d Be Good At."
     }
   ],

@@ -251,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport That Should Be Part Of The Olympics, But Isn’t."
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Most Men Hate To Admit They Can't Do"
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Crash"
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Color That Cars Seldom Come In"
     }
   ],

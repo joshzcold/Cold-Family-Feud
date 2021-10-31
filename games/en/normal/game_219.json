@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Thanksgiving Food That Often Comes From A Box Or Can."
     },
     {
@@ -265,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone You Might Tip At A Hotel"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation That Involves Touching People"
     },
     {
@@ -327,6 +330,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Pastime You’d Know Someone Has, Just By Looking At Their Shoes"
     }
   ],

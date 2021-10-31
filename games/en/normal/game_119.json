@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Catch In A Net"
     },
     {
@@ -277,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "They’ve Cloned A Sheep: Name A Creature They Should Never Clone Because We Already Have Too Many."
     },
     {
@@ -302,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place In The World Where People Might Go To Get Married"
     },
     {
@@ -331,6 +334,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A State That Many People Live In When They Retire."
     }
   ],

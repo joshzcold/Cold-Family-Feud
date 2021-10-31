@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do With Their Index Fingers"
     },
     {
@@ -240,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Surgeon Keeps Close When He Operates"
     },
     {
@@ -273,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You See Or Hear That Reminds You Of An Ex."
     },
     {
@@ -298,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do When Your Computer Freezes Up."
     }
   ],

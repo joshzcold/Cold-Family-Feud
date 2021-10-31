@@ -243,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Lose On Roller Coaster"
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Hypnotist Might Tell You To Do"
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You’d Be Asked To Stop Doing In A Movie Theater"
     },
     {
@@ -334,6 +337,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why You Might Stay In A Hotel In Your Own City."
     }
   ],

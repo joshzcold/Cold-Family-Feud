@@ -223,6 +223,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where Wish People Wouldn’t Answer Their Cell Phones"
     },
     {
@@ -260,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might You Find Out About Job Not Accepting It"
     },
     {
@@ -289,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why It’s Hard To Talk To An Attractive Person"
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You’re Asked To Turn Off Cell Phone"
     }
   ],

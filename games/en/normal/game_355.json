@@ -258,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Cat Went On Strike,Name Something He Might Demand Before Returning To Work As Your Pet"
     },
     {
@@ -291,6 +292,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport In Which The Announcers Get As Excited As The Fans."
     },
     {
@@ -324,6 +326,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Get From A Post Office"
     },
     {
@@ -349,6 +352,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something From School That A Kid Might Try To Hide From Their Parents."
     }
   ],

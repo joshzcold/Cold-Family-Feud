@@ -216,6 +216,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Gets Pulled Around In A Sled"
     },
     {
@@ -245,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of TV Show That You Wouldn’t Want To See Your Grandma On"
     },
     {
@@ -270,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Wash Everyday"
     },
     {
@@ -303,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Job That A Clumsy Person Would Be Fired From Immediately."
     }
   ],

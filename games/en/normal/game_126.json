@@ -183,6 +183,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me The Longest You’ve Ever Gone Without Eating."
     },
     {
@@ -216,6 +217,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Sleep, Name Something You’d Rather Do With The Time You Spend Commuting To And From Work"
     },
     {
@@ -245,6 +247,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Could Choose, What Would Be An Ideal Place To Meet Your Future Mate?"
     },
     {
@@ -278,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you do when looking in the mirror that you’d hate to be caught doing if it was a 2-way mirror."
     }
   ],

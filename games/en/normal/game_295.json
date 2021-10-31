@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Little Girls Do When They Get Together"
     },
     {
@@ -243,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason A Couple Might Not Want To Have Kids."
     },
     {
@@ -280,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That President Obama Has A Lot Of."
     },
     {
@@ -305,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Event Your Loved Ones Might Travel To Attend"
     }
   ],

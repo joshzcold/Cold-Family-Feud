@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Common Gag Gift At An “Over The Hill” Birthday Party."
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Kind Of Pants Are Best To Wear When You’re Planning To Overeat At Thanksgiving?"
     },
     {
@@ -279,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A way To Travel For Free"
     },
     {
@@ -316,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Male Rock Star Might Do To Make Himself Look More Rebellious."
     }
   ],

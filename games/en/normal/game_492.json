@@ -216,6 +216,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Vehicle That Makes Frequent Stops"
     },
     {
@@ -237,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Is Put On A Postcard"
     },
     {
@@ -274,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Supermarket Keeps Refrigerated Or Frozen."
     },
     {
@@ -307,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Vehicle That Has A Loud Engine"
     }
   ],

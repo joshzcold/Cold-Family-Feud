@@ -249,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You See On The Set Of Every Game Show"
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something A Man Teaches His Son To Do"
     },
     {
@@ -307,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Never Quite Believed About The Brady Bunch."
     },
     {
@@ -336,6 +339,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Himself, Name Something A Man Cleans Before A Big Date (More Specific Than “House”)."
     }
   ],

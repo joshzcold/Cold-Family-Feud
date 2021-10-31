@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Build In The Backyard."
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That people Do That Distracts Them While Driving."
     },
     {
@@ -273,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Teen I More Likely To Do To Their Appearance Then Their Parents Are"
     },
     {
@@ -294,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Late A Kid Might Stay Up At Sleepover"
     }
   ],

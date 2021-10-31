@@ -218,6 +218,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person On A Diet Might Eat For Breakfast."
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fictional Character With Two Identities"
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A U.S. City With Very Aggressive Drivers"
     },
     {
@@ -301,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Someone Might Chop Up His Credit Card"
     }
   ],

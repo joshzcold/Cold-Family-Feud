@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Really Only Need One Of, But Most Households Have More"
     },
     {
@@ -245,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Something You Fold"
     },
     {
@@ -270,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Date When You Shouldn’t Break Up With Someone."
     },
     {
@@ -303,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Christmas Movie People Are Tired Of."
     }
   ],

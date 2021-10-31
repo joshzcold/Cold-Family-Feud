@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might A Bankrobber Wear In Order To Keep His Identity A Secret?"
     },
     {
@@ -235,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Run Into A Bear In The Woods, Name Something You Should Not Do."
     },
     {
@@ -264,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Actor Do You Think Gets The Most Love Letters?"
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Situation That Makes Just About Everyone Nervous"
     }
   ],

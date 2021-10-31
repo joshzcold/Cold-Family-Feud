@@ -200,6 +200,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You’d Be Mortified If Your Cell Phone Went Off."
     },
     {
@@ -229,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Chain Store That’s Put A Lot Of Mom And Pop Stores Out Of Business"
     },
     {
@@ -262,6 +264,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Pizza Delivery Person Hates"
     },
     {
@@ -287,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Can Be Inconvenient To Do While Camping."
     }
   ],

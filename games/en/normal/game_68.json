@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Would Not Want To Get Into An Argument With Your Partner."
     },
     {
@@ -239,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something “Fake” That You Might Give To The Person Hitting On You In A Bar."
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Footwear That Doesn’t Have Laces."
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Paper, Name Something A Kid Might Scribble On"
     }
   ],

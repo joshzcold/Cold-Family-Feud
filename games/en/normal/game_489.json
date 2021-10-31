@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than An Airplane, What Might A Cartoon Character Use To Help Them Fly?"
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fast Food Restaurant People Would Recognize By Their Sign."
     },
     {
@@ -301,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Melts"
     },
     {
@@ -338,6 +341,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’D Expect To See A Lot Of In Hawaii"
     }
   ],

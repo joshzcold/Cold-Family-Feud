@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "In Today’s World, Name Something That Helps People Stay “Forever Young.”"
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Taking A Hawaiian Vacation, Name Something You’d Need To Buy Before You Go"
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might An Obsessed Lover Do That Causes His Partner To Break Up With Him?"
     },
     {
@@ -304,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Name Something A Kid Would Look For In A New House"
     }
   ],

@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do To Let A Friend Know She Has Food On Her Face"
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Test That Almost Everyone Takes"
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why A Couple Decides To Move In Together"
     },
     {
@@ -304,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Singles: Describe Last Date With Movie Genre"
     }
   ],

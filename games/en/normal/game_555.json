@@ -268,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In Your House That You’d Hate To Find Wasn’t Working"
     },
     {
@@ -305,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Nap Just To Pass The Time."
     },
     {
@@ -342,6 +344,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You Close Your Mouth To Try To Keep From Doing"
     },
     {
@@ -375,6 +378,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Specific A Student Might Do In Oder To Become The Teacher’s Pet"
     }
   ],

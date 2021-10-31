@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why A Woman Calls Her Husband While He’s Out."
     },
     {
@@ -231,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Book Where The Main Hero Is A Kid"
     },
     {
@@ -268,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Do People Usually Seek Parenting Advice?"
     },
     {
@@ -301,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Were Looking To Get Thrown Out Of Army Boot Camp, Name Something Specific You Might Refuse To Do."
     }
   ],

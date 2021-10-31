@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Place Where Parents Go To Get Away From The Kids For A While"
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something On Their Bodies That People Color In Black."
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone You Wish Wouldn’t Call So Often"
     },
     {
@@ -328,6 +331,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Teenage Daughter Parent Hope Fromn Boyfriend"
     }
   ],

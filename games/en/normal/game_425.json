@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Noise That Birds Make."
     },
     {
@@ -269,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Pay For Once A Year"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might Happen To Cause A Rock Concert To End Abruptly?"
     },
     {
@@ -331,6 +334,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Or Someone Associated With “The Partridge Family.”"
     }
   ],

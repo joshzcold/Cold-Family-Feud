@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Unlike Age Or Weight, Name A Number That You’d Be Surprised For Someone To Offer Before A Blind Date."
     },
     {
@@ -265,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Household Chore That A Kid Would Find Fun, But An Adult Would Put Off"
     },
     {
@@ -302,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a movie character you would hate to be stuck with in a broken elevator."
     },
     {
@@ -331,6 +334,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Is Square In Shape"
     }
   ],

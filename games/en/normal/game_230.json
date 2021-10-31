@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Feature Of Most Parade That Scare Children"
     },
     {
@@ -274,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Many Sick Days Does The Average Person Have A Year"
     },
     {
@@ -307,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Complaint A Customer Might Have About A Bar They’re At."
     },
     {
@@ -336,6 +339,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Has Layers"
     }
   ],

@@ -196,6 +196,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Sight That Tourists Take An Elevator Up To See"
     },
     {
@@ -225,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why A Child Might Not Want Long Hair."
     },
     {
@@ -254,6 +256,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place On The Body That Women Tattoo But Men Usually Don’t"
     },
     {
@@ -291,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Type Of Business That Usually Has An ATM Inside"
     }
   ],

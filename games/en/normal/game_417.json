@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Occupation Where They Wear Sneakers."
     },
     {
@@ -239,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Supposedly Do Differently Than Animals"
     },
     {
@@ -268,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place That’s Meant For Kids, But Adults Love It Too"
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone You Only See Once A Year"
     }
   ],

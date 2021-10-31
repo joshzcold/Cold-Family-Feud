@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal With A Long Tail."
     },
     {
@@ -256,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Best Flavor Of Popsicle."
     },
     {
@@ -281,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Announcement That You’d Hate For Your Boss To Overhear You Making"
     },
     {
@@ -306,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Started Seeing Less Of Since Cell Phones Became Popular"
     }
   ],

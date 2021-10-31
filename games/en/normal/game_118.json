@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Professional You May Come In Contact With, But Should Never Flirt With."
     },
     {
@@ -274,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Do With Your Days Off Around Christmas?"
     },
     {
@@ -303,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me An Article Of Clothing That People Who Live In Warm Climates Are Likely To Have Several Of."
     },
     {
@@ -332,6 +335,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Dry"
     }
   ],

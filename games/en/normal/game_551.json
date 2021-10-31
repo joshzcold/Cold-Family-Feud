@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Candy That Sounds Like Something You’d Dig Up From The Ground"
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Comes With A Drink Of A Fancy Cocktail"
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Need If You Wanted To Dress As A Vampire For Halloween."
     },
     {
@@ -304,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Complaints Do People Make About The Christmas Holiday?"
     }
   ],

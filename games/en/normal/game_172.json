@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name an object that some stomachs are compared to"
     },
     {
@@ -235,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Movie About Baseball Players"
     },
     {
@@ -260,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Hope A Restaurant Chef Didn’t Do Before Cooking Your Meal."
     },
     {
@@ -293,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sign You’re At A Really Cheap Birthday party"
     }
   ],

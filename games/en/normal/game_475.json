@@ -211,6 +211,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Activity That’d Be Hard To Do By CandleLight"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "aside From Animals, Name Something People Hunt For."
     },
     {
@@ -273,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Should A Clown Avoid Wearing When Not On Duty"
     },
     {
@@ -306,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something From Home That You Wish Movie Theaters Had"
     }
   ],

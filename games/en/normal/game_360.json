@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might See In A Bathtub"
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Present That Would Be Hard To Wrap"
     },
     {
@@ -281,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Don't Want To Do When Tired"
     },
     {
@@ -310,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do Before Bed That Makes It Hard To Sleep."
     }
   ],

@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Movie That Is Based On A True Story."
     },
     {
@@ -271,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Most People Try At Least Once In Their Life."
     },
     {
@@ -296,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Mom Tells Her Kids To Do Before Dinner"
     },
     {
@@ -325,6 +328,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word that people Yell At The TV While watching A Football Game"
     }
   ],

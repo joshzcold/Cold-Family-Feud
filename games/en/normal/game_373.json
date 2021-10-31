@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Weather Term That Can Also Describe Your Wife."
     },
     {
@@ -266,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Keep In Their Car For Emergencies."
     },
     {
@@ -295,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Magazine Or Tabloid Headlines You Don’t Always Believe"
     },
     {
@@ -320,6 +323,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Teeth, Name Something People Use A Toothbrush To Clean"
     }
   ],

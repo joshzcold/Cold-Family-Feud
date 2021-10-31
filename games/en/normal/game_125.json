@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something that many women wish their husbands could talk about."
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In A House That A Spoiled Kid Might Have Their Own Of."
     },
     {
@@ -274,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Phrase That’s Said In Commercials To Get You To Buy The Product Right Away."
     },
     {
@@ -299,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You Often Have A Hard Time Concentrating On."
     }
   ],

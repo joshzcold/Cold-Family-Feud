@@ -246,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Attribute Of A High School Cheerleader That Could Help Her Become President Of The United States"
     },
     {
@@ -271,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Use From The Kitchen When You’re Working In The Garage."
     },
     {
@@ -304,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That’s Noisy When People Eat It."
     },
     {
@@ -341,6 +344,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Cut Tag Off Before Using"
     }
   ],

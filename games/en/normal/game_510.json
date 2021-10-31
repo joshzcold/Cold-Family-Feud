@@ -243,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Store You’d Find In Just About All Shopping Malls."
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason You May Need Binnoculers"
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Ingredient That Tacos Would Be No Good Without."
     },
     {
@@ -322,6 +325,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The First Animal You Picture When You Think Of A Farm"
     }
   ],

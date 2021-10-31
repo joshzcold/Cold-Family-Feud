@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With Magicians"
     },
     {
@@ -234,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Pet Might Do To Its Owner’s Shoes."
     },
     {
@@ -267,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Popular Pick Up Line"
     },
     {
@@ -292,6 +295,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Eat That Comes With Sauce"
     }
   ],

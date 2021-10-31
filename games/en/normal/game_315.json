@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Wanted To Impersonate Mary Poppins, What Would You Do?"
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do When It Rains"
     },
     {
@@ -293,6 +295,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Food That Has A Hole In The Middle."
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason You Might Send Someone A Card"
     }
   ],

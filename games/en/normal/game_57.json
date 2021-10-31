@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "A Mans Name That It 3 Letters Long"
     },
     {
@@ -273,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do To Let A Friend Know She Has Food On Her Face."
     },
     {
@@ -306,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Well Known English Footballer From The 60's"
     },
     {
@@ -343,6 +346,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Has A Tip"
     }
   ],

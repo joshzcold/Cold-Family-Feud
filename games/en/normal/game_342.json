@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Zombie Might See A Doctor About"
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food Commonly Eaten With Eggs"
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Topic Most Men Can’t Stand, But Many Women Could Discuss For Hours."
     },
     {
@@ -334,6 +337,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit Put In Margaritas."
     }
   ],

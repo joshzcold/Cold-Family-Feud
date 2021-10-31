@@ -249,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Fan Might Collect From Their favorite Singer"
     },
     {
@@ -286,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Section You’D See At A Book Store"
     },
     {
@@ -315,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Living Or Dead, Name A Man Named Ted"
     },
     {
@@ -348,6 +351,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Somewhere Children Like To Go"
     }
   ],

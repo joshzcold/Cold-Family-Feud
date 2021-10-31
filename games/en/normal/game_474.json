@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In The House That You Shouldn’t Leave On When You Go Out."
     },
     {
@@ -257,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Sign That It’s Time To Enroll Your Dog In Obedience School"
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do Right Before Your Picture Is Taken"
     },
     {
@@ -307,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Has A Tail"
     }
   ],

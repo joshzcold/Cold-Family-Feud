@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Holiday You Might BBQ On."
     },
     {
@@ -257,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Dread Having Done While At Your Dentist Appointment"
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Vegetable That Starts With Word Sweet"
     },
     {
@@ -311,6 +314,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If A Man Is Trying To Get A Date With A Woman, What Might He Do In Order To Woo Her?"
     }
   ],

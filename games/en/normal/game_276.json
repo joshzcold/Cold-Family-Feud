@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Vegetable That They Make Baby Food Out Of."
     },
     {
@@ -253,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Child Would Say Is Too Short."
     },
     {
@@ -286,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Phrase That Has The Word Home In It"
     },
     {
@@ -315,6 +318,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Talk Show You Might Go On To Tell About Your Disaster Wedding"
     }
   ],

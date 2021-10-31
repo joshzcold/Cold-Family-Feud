@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Bad Job For Someone Who’s Afraid Of Heights"
     },
     {
@@ -264,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food Served With Melted Butter On It. (Vegetables Is Not An Answer, Be More Specific)"
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Pregnant Women Do A Lot Of When They’re In Labor."
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Muppet"
     }
   ],

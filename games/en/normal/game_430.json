@@ -211,6 +211,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why You’d Get A Blindfold."
     },
     {
@@ -240,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Room That You’d Find In A Mansion, But Not A Regular House"
     },
     {
@@ -265,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’re Not Supposed To Do While Filling Your Gas Tank."
     },
     {
@@ -290,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Mean Prank Kids Play On Halloween"
     }
   ],

@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Tradition That People Follow"
     },
     {
@@ -231,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Find Under A Rock"
     },
     {
@@ -256,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Need To Build A Sandcastle"
     },
     {
@@ -285,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That A Secretary Never Wants To Run Out Of At The Office."
     }
   ],

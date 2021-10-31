@@ -253,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person Has A Hard Time Remembering When They Get Old"
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Associated With Alice In Wonderland"
     },
     {
@@ -315,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Color A Teenager Might Dye Her Hair That Would Annoy Her Parents"
     },
     {
@@ -344,6 +347,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That A Las Vegas Entertainer’s Outfit Would Have Sewn On"
     }
   ],

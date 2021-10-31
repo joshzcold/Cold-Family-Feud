@@ -213,6 +213,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Adults Had Fight Like Toddlers Do, What Might Your Spouse Do The Next Time You Disagreed?"
     },
     {
@@ -242,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a Situation When It’s Better To Ride A Bike Than Take A Taxi"
     },
     {
@@ -267,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You Do When Startled By A Loud Noise"
     },
     {
@@ -300,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That’s Fake On WWF Wrestling"
     }
   ],

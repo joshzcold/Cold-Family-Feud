@@ -209,6 +209,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Man Does More Than A Woman"
     },
     {
@@ -238,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something With Wheels That People Push"
     },
     {
@@ -271,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You’re Likely To Find At A Hotel Continental Breakfast."
     },
     {
@@ -304,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Think Rich Folks Do All Day Instead Of Working."
     }
   ],

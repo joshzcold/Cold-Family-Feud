@@ -234,6 +234,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone, Real Or Fictional, Who Is Known For Having A White Beard."
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Many Teens Want To Do Before Their Parents Think They Are Ready."
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Would Make You Suspicious If Your Date Said He Didn’t Have Any."
     },
     {
@@ -317,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Imagninary Holiday Character Would You Least Like To Have On Your Relay Race Team?"
     }
   ],

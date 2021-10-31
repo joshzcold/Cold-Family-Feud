@@ -211,6 +211,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Makes Your Eyes Water"
     },
     {
@@ -232,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Complaint Next-Door Neighbor Might Approach With"
     },
     {
@@ -253,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Associated With An Anchor"
     },
     {
@@ -282,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Food That People Often Slurp While Eating"
     }
   ],

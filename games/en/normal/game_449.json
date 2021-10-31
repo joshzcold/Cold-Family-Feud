@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Gets Delivered."
     },
     {
@@ -261,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Leprechaun Would Have Made For Himself Out Of Gold"
     },
     {
@@ -286,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Instead Of A Schoolbus, How Might A Wealthy Kid Get To School?"
     },
     {
@@ -311,6 +314,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "In The Office, Name Something That People Borrow But Almost Never Return?"
     }
   ],

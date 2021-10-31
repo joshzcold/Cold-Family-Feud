@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Is Narrow"
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Need To Make Bread"
     },
     {
@@ -278,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That’s Expensive To Replace If You Lose It."
     },
     {
@@ -303,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Both A Detective And A Camper Use."
     }
   ],

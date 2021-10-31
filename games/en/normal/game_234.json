@@ -234,6 +234,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Of Santa’s Reindeer Have Names That Sound Like Nicknames For A Lady’s Man?"
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Wives: Name Something Specific You Wish Your Husband Would Be More Helpful With Around The House"
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something a fast food restaurant has that a fancy restaurant would never have."
     },
     {
@@ -313,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food You eat At Thanksgiving, but Not During The Rest Of The Year"
     }
   ],

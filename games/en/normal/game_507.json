@@ -250,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Use To Cover Up Bad Smells In Your House"
     },
     {
@@ -283,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Puppy Likes To Play With"
     },
     {
@@ -308,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Instrument Parents Hate To Hear Their Children Play"
     },
     {
@@ -337,6 +340,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way You Can Tell That A Person Has Been Crying"
     }
   ],

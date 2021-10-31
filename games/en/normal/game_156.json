@@ -256,6 +256,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Might See A Bear."
     },
     {
@@ -289,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That’s Expensive Even When It’s In Used Condition."
     },
     {
@@ -318,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In An Office That Makes A Lot Of Noise."
     },
     {
@@ -343,6 +346,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Country With A Very Long Name"
     }
   ],

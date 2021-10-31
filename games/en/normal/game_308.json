@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With The Violin"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When Sitting Close To A Date, What Clue Might They Give That They Like "
     },
     {
@@ -279,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Piece Of Furniture That Is Often Made From Wood"
     },
     {
@@ -304,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Coffee Drink That’s Easy To Mispronounce"
     }
   ],

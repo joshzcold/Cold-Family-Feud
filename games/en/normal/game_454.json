@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something With A Face"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you associate with Richard Simmons"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Actress Who is Or Was A Model"
     },
     {
@@ -328,6 +331,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Word Would You Use To Describe A Very Attractive Person"
     }
   ],

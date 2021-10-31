@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where There’s Often A Line For The Women’s Restroom."
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Way To Communicate Without Technology."
     },
     {
@@ -305,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You Would wear To A Wedding In The Dessert"
     },
     {
@@ -338,6 +341,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Kid Would Do After School To Make An Extra Buck"
     }
   ],

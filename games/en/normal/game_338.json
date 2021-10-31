@@ -244,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That’s Baked In The Oven, But Can’t Be Cooked In The Microwave"
     },
     {
@@ -281,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Most People Hate About Fall."
     },
     {
@@ -310,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why Kids Might Have A Weekday Off Of School."
     },
     {
@@ -339,6 +342,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Heavy Animal That A China Shop Owner Wouldn’t Let Into Their Store."
     }
   ],

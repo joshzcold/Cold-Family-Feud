@@ -203,6 +203,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Expect To Find On A Pirate’s Ship"
     },
     {
@@ -228,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of The Body People Like To Have Massaged"
     },
     {
@@ -257,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Give A Nickname For A Spouse That Is Also A Dessert"
     },
     {
@@ -286,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Does Not Stay Fresh For Long"
     }
   ],

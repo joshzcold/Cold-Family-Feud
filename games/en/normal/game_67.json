@@ -216,6 +216,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Put In Front Of Their House To Deter Burglars."
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do After returning Home From A Long Vacation"
     },
     {
@@ -278,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Woman Might Put In Her Hair"
     },
     {
@@ -307,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Complaint A Costumer Might Have About Their Hotel Room"
     }
   ],

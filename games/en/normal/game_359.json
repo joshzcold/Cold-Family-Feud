@@ -200,6 +200,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Presents, What Might You Find Under A Christmas Tree?"
     },
     {
@@ -229,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With Fishing"
     },
     {
@@ -262,6 +264,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where Kids Go After School"
     },
     {
@@ -291,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If you were to open “Heartbreak Hotel,” name something you’d offer your brokenhearted guests."
     }
   ],

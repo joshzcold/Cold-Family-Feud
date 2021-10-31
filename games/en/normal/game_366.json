@@ -234,6 +234,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Superman Got Old Like The Rest Of Us, Name A Sign That It Might Be Time For Him To Retire"
     },
     {
@@ -255,6 +256,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way You Might Try to Stay Awake Whilst Driving"
     },
     {
@@ -292,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Club"
     },
     {
@@ -317,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Even Though It’s A Beautiful Place To Visit, Name A Reason Why You Might Not Want To Live In Hawaii"
     }
   ],

@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Kind Of Pepper People Put In Their Food."
     },
     {
@@ -271,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name an animal that weighs a lot."
     },
     {
@@ -304,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Of Business That You Would Not Return To After Only One Bad Customer Service Experience."
     },
     {
@@ -329,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Something Rich Person Might Have More Of Than They Need"
     }
   ],

@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Month When TV Networks Start Airing Reruns."
     },
     {
@@ -256,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Woman Might Wish Her Husband Had More Of"
     },
     {
@@ -293,6 +295,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name People Used To Call Women In Old Days"
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something a girl would need if she wanted to impersonate an elderly woman."
     }
   ],

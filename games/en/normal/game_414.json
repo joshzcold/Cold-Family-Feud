@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d See A Person Do While Jogging For Exercise, But Never If They Were Being Chased"
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation That A Boy Wouldn’t Want His Girlfriend’s Father To Have."
     },
     {
@@ -287,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a specific food that doctors tell patients to cut down on."
     },
     {
@@ -312,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place You’d Be Surprised To See A New Dad On The Day Of His Child’s Birth"
     }
   ],

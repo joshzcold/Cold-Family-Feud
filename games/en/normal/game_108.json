@@ -234,6 +234,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than A Ball, Name Something That A Baseball Player Gets Asked To Sign"
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Non Living Object With An Eye"
     },
     {
@@ -296,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something A Grandma Passes On To Her Grandchildren"
     },
     {
@@ -329,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Food That Has “Hot” In Its Name"
     }
   ],

@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Character In The Wizard Of Oz That Would Require The Most Elaborate Costume."
     },
     {
@@ -252,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Cartoon Character Who Would Never Be Chosen To Narrate A Documentary."
     },
     {
@@ -289,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Holiday Food People Plan To Avoid, But End Up Eating Anyway."
     },
     {
@@ -314,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A reason You Wouldn’t recognize Someone At Your High School Reunion"
     }
   ],

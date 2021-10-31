@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Appliance You Avoid Using When People Are Sleeping"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Runners Do Right After They Finish A Marathon."
     },
     {
@@ -287,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You See Cheerleaders Do That Would Look Strange To See People Doing Otherwise."
     },
     {
@@ -312,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Put In Backyard If You Have Children"
     }
   ],

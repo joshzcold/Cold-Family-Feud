@@ -216,6 +216,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Public Place Where It’s OK To Yell"
     },
     {
@@ -253,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If They Offered A Class On How To Be A Rockstar, Name Something They Might Teach You How To Do."
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Find On Your Doorstep"
     },
     {
@@ -307,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell me something that you hope is easier to do the second time around."
     }
   ],

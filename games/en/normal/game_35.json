@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which North Pole Resident Is Most Likely To Become Jealous Of Santa’s Power?"
     },
     {
@@ -256,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something People Do To Brace Themselves While Getting A Shot"
     },
     {
@@ -285,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Activity You Turn The Lamp On For"
     },
     {
@@ -314,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of The Body That’s Often Sore After Exercise."
     }
   ],

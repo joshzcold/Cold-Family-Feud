@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Might Do With A Rental Car That They Wouldn’t Do With Their Own Car."
     },
     {
@@ -253,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why You Might Get Introduced Many People At Once"
     },
     {
@@ -278,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Bird You'd Never Keep As A Household Pet"
     },
     {
@@ -311,6 +314,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Mother-To-Be Might Ask Her Friends’ Advice On Before The Baby Is Born."
     }
   ],

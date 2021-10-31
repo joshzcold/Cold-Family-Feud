@@ -223,6 +223,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Movie Character Who Always Wears A Hat."
     },
     {
@@ -252,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Reason Co-Worker Drinks After Work"
     },
     {
@@ -289,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Politicians Always Say They’ll Improve."
     },
     {
@@ -318,6 +321,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person Might Change After Breaking Up With A Partner."
     }
   ],

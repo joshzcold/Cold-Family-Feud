@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Dentists Put In Your Mouth"
     },
     {
@@ -234,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Happens To The Furniture Of A Person Who Owns Pets."
     },
     {
@@ -259,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Activity Don’t You Start Doing Until The Water Gets Warm?"
     },
     {
@@ -284,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food New York Is Famous For."
     }
   ],

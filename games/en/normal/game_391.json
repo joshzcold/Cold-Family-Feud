@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Couple Might Save From Their Wedding Day"
     },
     {
@@ -276,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit That You Rarely See Made Into Juice"
     },
     {
@@ -309,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When You Have A Headache, Name Something It Hurts To Do."
     },
     {
@@ -338,6 +341,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Most Important Occasion In A Mans Life"
     }
   ],

@@ -180,6 +180,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "name Something Every Woman Should Take With Her On A Blind Date"
     },
     {
@@ -213,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name someone in your life who you hope never writes a tell-all book."
     },
     {
@@ -238,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Say At The End Of A Date, Even If You Don’t Mean It."
     },
     {
@@ -275,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Were You The Last Time You Felt You’d Been Ripped Off?"
     }
   ],

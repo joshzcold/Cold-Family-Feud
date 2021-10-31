@@ -218,6 +218,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Country Would You Want To Become The 51st American State?"
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something A House Needs In Order To Be Considered A Mansion"
     },
     {
@@ -280,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Why Might Someone Refuse To Use A Swimming Pool?"
     },
     {
@@ -317,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Garment In Dressing Room For Pro Wrestling Event"
     }
   ],

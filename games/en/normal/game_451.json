@@ -194,6 +194,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When Sitting Close To A Date, What Clue Might They Give That They Like You?"
     },
     {
@@ -223,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Common Sickness That Kids Seem To Get More Often Than Adults"
     },
     {
@@ -252,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason You Might Have To Get Change From A Pound"
     },
     {
@@ -285,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You May Not Be Good At The First Time You Do It."
     }
   ],

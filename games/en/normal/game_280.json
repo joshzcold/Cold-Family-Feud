@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Went Out With Santa Claus, What Might You Do On Your First Date?"
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Popular Type Of Homemade Candy Served During The Holidays"
     },
     {
@@ -269,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With Archery"
     },
     {
@@ -298,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Apart From A Matress, Name Something People Sleep On"
     }
   ],

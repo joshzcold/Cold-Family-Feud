@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Would Find An Usher."
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might A Woman Brag That Her Husband Is Better At Than Most?"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Wear To A Restaurant That Only Served Cereal."
     },
     {
@@ -324,6 +327,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do In A Booth"
     }
   ],

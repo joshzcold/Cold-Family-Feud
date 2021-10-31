@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Might Have To Stand"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Find In A Childrens Room"
     },
     {
@@ -281,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Husband Could Get One Quality From James Bond, What Would You Want It To Be?"
     },
     {
@@ -310,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Woman Treats Better Than Her Husband"
     }
   ],

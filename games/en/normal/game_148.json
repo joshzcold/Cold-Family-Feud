@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Gets Stripped."
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "early In Dating Someone, Name Something You Shouldn’t Do Repeatedly Unless The Feelings Are Mutual"
     },
     {
@@ -283,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Is Sold By The Bunch"
     },
     {
@@ -312,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Woman Might Take Home From Her Best Friend’s Wedding"
     }
   ],

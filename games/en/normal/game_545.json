@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something a ballet dancer has that most people do not."
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Sandwich You’d Expect To See In New York City."
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Muscular Celebrity Who Would Probably Have Trouble Finding Clothes In His Size."
     },
     {
@@ -301,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why A Person Might Prefer To Own A Dog Over A Cat."
     }
   ],

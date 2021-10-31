@@ -226,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Radio DJ Might Accidentally Do If He Didn’t Know He Was On The Air."
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Would Do In A Public Restroom That You Would Never Do In Your Own Bathroom"
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Way That You Wish Your Life Were Like A Hollywood Movie"
     },
     {
@@ -309,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Profession That Makes People Laugh"
     }
   ],

@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Hygiene Product That You Hope Your Office Mate Uses Every Day."
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might See Tied to the Roof Of A Car"
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you do when approached by a salesperson in a store"
     },
     {
@@ -317,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Beverage That’s Not Sweet"
     }
   ],

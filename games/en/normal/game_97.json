@@ -227,6 +227,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Way To Remove Hair"
     },
     {
@@ -260,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a good gift for a lifeguard."
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "At What Age Do People Usually Learn To Play Their First Musical Instrument?"
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of Pants You Can’t Wear To Work."
     }
   ],

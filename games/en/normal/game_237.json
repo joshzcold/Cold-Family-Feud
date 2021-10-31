@@ -230,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Do On Even The Oldest Of Computers."
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Guy Might Do When He’s With His Girlfriend That His Buddies Might Tease Him About."
     },
     {
@@ -292,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Popular Type Of Cheese"
     },
     {
@@ -317,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation That Uses A Brush"
     }
   ],

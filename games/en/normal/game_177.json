@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food You Find Raisins In."
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Wish You Had In Your Backyard"
     },
     {
@@ -295,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Almost Everyday Bride Wants At Her Wedding"
     },
     {
@@ -320,6 +323,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Phrase You’d Say To Your Partner That Starts With “You Drive Me __.”"
     }
   ],

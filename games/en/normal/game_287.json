@@ -233,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Related To Finances That It’s Hard To Explain To A Kid."
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Take Sightseeing"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That A Child Often Loses"
     },
     {
@@ -316,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might Parents Be Caught Doing That Causes Their Kid To Bust Them For Doing Santa’s Job?"
     }
   ],

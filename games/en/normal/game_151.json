@@ -234,6 +234,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Gift That Works Well As A Stocking Stuffer"
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "For What Specific Reason Might You Avoid Mistletoe?"
     },
     {
@@ -284,6 +286,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of beam You Wouldn’t Want To Balance On."
     },
     {
@@ -313,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Website Would You Go To First If You Want To Find Out More About Something"
     }
   ],

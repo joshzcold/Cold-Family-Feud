@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Can You Tell The Jewelry Your Partner Gives You Is Made Of Fake Gold?"
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Habit That Would Be Impossible To Hide From Your Spouse"
     },
     {
@@ -287,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Movie Would You Never Watch Alone?"
     },
     {
@@ -308,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Sign That Girlfriend Is Turning Into A Cat"
     }
   ],

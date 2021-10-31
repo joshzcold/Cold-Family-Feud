@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Santa’s Reindeer Couldn’t Fly On Christmas Eve, What Mode Of Transportation Might He Use Instead?"
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You See Trained Monkey’s Doing In Sitcoms And Movies."
     },
     {
@@ -277,6 +279,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Weather Condition You Hate To Drive In"
     },
     {
@@ -306,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name an activity people like to do at a lake."
     }
   ],

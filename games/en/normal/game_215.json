@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Parents Photograph Their Baby Doing For The First Time."
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person Might Read Everyday"
     },
     {
@@ -276,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People “Run” For."
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Wear At The Beach, But Not At Grocery"
     }
   ],

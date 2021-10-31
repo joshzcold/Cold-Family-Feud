@@ -242,6 +242,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous City That Features In A Song"
     },
     {
@@ -267,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something a kid might bury in the backyard."
     },
     {
@@ -304,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Remember About The Tv Show “M*A*S*H”"
     },
     {
@@ -329,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of Your Morning Ritual That It’s Hard To Get The Energy To Do."
     }
   ],

@@ -228,6 +228,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Public Place Where Even An Adult Can Get Lost Easily"
     },
     {
@@ -257,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Starts With The Word Ice"
     },
     {
@@ -286,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Wives: Name A Place In The House Where Your Husband Spends More Time Than You Do"
     },
     {
@@ -315,6 +318,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Service A Hotel Provides That You With You Had At Your House."
     }
   ],

@@ -226,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Phrase That’s Said In Commercials To Get You To Buy The Product Right Away."
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That People Wear On Their Legs"
     },
     {
@@ -296,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Job You Shouldnt Apply For If You Dont Like Waking Up Early"
     },
     {
@@ -325,6 +328,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Boy Might Wear That Is Likely To Get Him Kicked Out Of Prep School."
     }
   ],

@@ -230,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might You Do On Family Feud, That Makes Your Family Upset With You?"
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Bill You'd Be Afraid To Pay Late"
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me An Animal You Associate With India"
     },
     {
@@ -313,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Instead Of Having A Shouting Match Name Another Tactic A Person Might Use To Win A Disagreement"
     }
   ],

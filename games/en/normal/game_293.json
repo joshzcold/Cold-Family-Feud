@@ -243,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Article Of Clothing You Can’t Wash In The Wash Machine"
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Expands In The Microwave."
     },
     {
@@ -309,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Might You Be If You’re Sitting In A Cramped Spot For A Long Time?"
     },
     {
@@ -342,6 +345,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Form Of Technology That Some People Refuse to Use"
     }
   ],

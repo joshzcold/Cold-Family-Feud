@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place On Your Body That You Can’t Scratch When It Itches"
     },
     {
@@ -264,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Topic Most Men Can’t Stand, But Women Could Discuss For Hours"
     },
     {
@@ -301,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Subject That Often Comes Up In Family Feud Question"
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Can You Tell That The Person In The Car Next To You Is Listening To Music?"
     }
   ],

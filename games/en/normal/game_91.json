@@ -204,6 +204,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Posh People Have"
     },
     {
@@ -225,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way You Can Tell If A Person Has A Cold"
     },
     {
@@ -258,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something In A Teenager’s Room That They Wouldn’t Want Touched"
     },
     {
@@ -283,6 +286,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Co-Worker Might Blame On Not Having Had Their Morning Coffee."
     }
   ],

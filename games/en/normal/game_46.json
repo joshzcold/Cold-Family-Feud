@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Expect To See When You Watch The Academy Awards."
     },
     {
@@ -277,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name an animal that can live in the cold."
     },
     {
@@ -306,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do To Their Hair That Makes Them Look Silly."
     },
     {
@@ -335,6 +338,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Is The Most Used Room In Most Homes?"
     }
   ],

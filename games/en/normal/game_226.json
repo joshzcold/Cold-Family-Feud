@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Both Men And Women Use To Keep Their Hair In Place."
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Way In Which Your Office Is Kind Of Like A “Soap Opera.”"
     },
     {
@@ -293,6 +295,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a Phrase That Begins With The Word “Double.”"
     },
     {
@@ -318,6 +321,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Women: What Might You Get 2 Tickets For In Order To Entice Your Crush Into A Date?"
     }
   ],

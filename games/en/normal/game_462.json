@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something That Is Plugged Into An Outlet In A Hotel Room."
     },
     {
@@ -269,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Should Switch Off Before Going To Bed"
     },
     {
@@ -306,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of Court."
     },
     {
@@ -343,6 +346,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you probably would see in New York’s Central Park."
     }
   ],

@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might A Tv Not Work Without,"
     },
     {
@@ -261,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something It’s Probably Much Harder To Do In Outer Space Than It Is On Earth."
     },
     {
@@ -290,6 +292,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Method People Use When Deciding What Lotto Numbers They’re Going To Play."
     },
     {
@@ -327,6 +330,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Slang Expression The Mafia Uses For The Word Kill"
     }
   ],

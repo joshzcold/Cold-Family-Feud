@@ -195,6 +195,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way People Get To Work In The Morning."
     },
     {
@@ -220,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might Someone Promise To Do If They Wanted To Be Elected President?"
     },
     {
@@ -253,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Man Women Love Just For His Accent"
     },
     {
@@ -282,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Ugly That Can Grow On Your Feet"
     }
   ],

@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Would Be Harder To Do If You Lived In Los Angeles"
     },
     {
@@ -260,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Look Through To See Things More Closely"
     },
     {
@@ -281,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Read Everyday"
     },
     {
@@ -318,6 +321,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Guests Do At A Wedding Reception."
     }
   ],

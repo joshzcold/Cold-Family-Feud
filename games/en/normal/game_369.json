@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "how Many Hours Of Sleep Does The average person Need In Oder To Wake Up Refreshed?"
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Doesn’t Need To Be Refrigerated"
     },
     {
@@ -305,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Mobster Might Have A Tattoo Of."
     },
     {
@@ -342,6 +345,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit People Put In Cakes"
     }
   ],

@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Subject In School That Would Have Helped Santa Do His Job?"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell me how many months it takes before a dog is house trained.(Numeric Only)"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do You See At The Olympics That You Might Also See At A Spelling Bee."
     },
     {
@@ -324,6 +327,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Shouldn’t Leave Inside Their Parked Car."
     }
   ],

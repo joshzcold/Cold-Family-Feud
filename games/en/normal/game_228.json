@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A City With A Lot Of Pollution"
     },
     {
@@ -275,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something The Police Use To Identify A Criminal."
     },
     {
@@ -308,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Everyone Knows About The Dog “Lassie.”"
     },
     {
@@ -333,6 +336,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Job Where You Must Keep A Certain Haircut."
     }
   ],

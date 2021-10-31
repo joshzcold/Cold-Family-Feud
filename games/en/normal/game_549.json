@@ -249,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Parents Think Their Teenage Son Spends Too Much Time Doing."
     },
     {
@@ -270,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What In Your House Would You Most Be Upset To Find Out Your Dog Chewed Up"
     },
     {
@@ -303,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Are Some Milestones That A Baby Reaches In Their First Year?"
     },
     {
@@ -340,6 +343,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me The Latest Hour You Could Drink Coffee Without It Affecting Your Ability To Fall Asleep."
     }
   ],

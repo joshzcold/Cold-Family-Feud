@@ -244,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Culture Or Religion That Celebrates A Different New Year Then The West"
     },
     {
@@ -273,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Musical Instrument Made Out Of Wood"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Good Job For Someone Who Likes To Take Care Of People"
     },
     {
@@ -323,6 +326,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Product Door-To-Door Salesmen Used To Sell."
     }
   ],

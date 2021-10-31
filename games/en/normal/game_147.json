@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of Pyramid."
     },
     {
@@ -245,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Who Always Has Advice To Give You"
     },
     {
@@ -270,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Worry About If You Were To Host A Dinner Party For Your In-Laws"
     },
     {
@@ -303,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation In Which One Spends His Day Cutting."
     }
   ],

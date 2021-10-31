@@ -241,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Could Only Pack A Small Overnight Bag, What Specific Essentials Would Be In It?"
     },
     {
@@ -270,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something That People Blow Up."
     },
     {
@@ -307,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Hairstyle That Starts With “B."
     },
     {
@@ -340,6 +343,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You Watch For Out Of Your Plane Window"
     }
   ],

@@ -208,6 +208,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Eat For Breakfast In The Car On Your Way To Work."
     },
     {
@@ -245,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Class Do Students Take In College Thinking It Would Be An Easy “A”?"
     },
     {
@@ -278,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Associate With An Undertaker."
     },
     {
@@ -315,6 +318,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Cartoon Character Who Never Seems To Get Any Older"
     }
   ],

@@ -243,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do At A Bar Besides Drink."
     },
     {
@@ -280,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d See At A Gas Station."
     },
     {
@@ -313,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why Someone’s Voice Might Sound Funny."
     },
     {
@@ -350,6 +353,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’D Hate For Your Date To Be Allergic To"
     }
   ],

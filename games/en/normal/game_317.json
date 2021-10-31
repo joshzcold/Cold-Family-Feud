@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Do You Put Presents So They Aren’t Found Before Given"
     },
     {
@@ -261,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Let Soak Overnight"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Make You Throw Up."
     },
     {
@@ -327,6 +330,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Household Chore That You Do Your Best Thinking While Doing"
     }
   ],

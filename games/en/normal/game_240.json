@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where Hot Dogs Are Often Served."
     },
     {
@@ -235,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Parent May Grill Their Daughters About"
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A TV Gameshow You Think You Have A Good Chance Of Winning"
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word Or Phrase Used To Describe Milk That’s Past Its Expiration Date."
     }
   ],

@@ -241,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell me something that you’d prefer to do with strangers rather than family."
     },
     {
@@ -274,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fictional Comedy Character"
     },
     {
@@ -299,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal You Can Ride On"
     },
     {
@@ -332,6 +335,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Is The Best Part Of A 4th Of July Parade"
     }
   ],

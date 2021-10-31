@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation In Which Someone With A Baby Face Might Have A Hard Time Providing Their Authority"
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Have To Get Used To If You Were A Zoo Animal"
     },
     {
@@ -278,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How can You Tell The Show You’re watching Is Made Fore Kids?"
     },
     {
@@ -303,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Parent Reminds Kid Use At Summer Camp"
     }
   ],

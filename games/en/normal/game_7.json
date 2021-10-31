@@ -194,6 +194,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "name Something A Celebrity Hopes Won’t Happen While On Stage To Accept An Award"
     },
     {
@@ -223,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Game That Would Be Inappropriate At A Company Party."
     },
     {
@@ -252,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Did 100 Wives Say Their Husbands “Always Think They’re Right About” In An Argument?"
     },
     {
@@ -277,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a place where it is good to be tall"
     }
   ],

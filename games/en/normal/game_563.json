@@ -209,6 +209,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Girl’s Name That Begins With “S.”"
     },
     {
@@ -242,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name an ingredient some people would say makes all food taste better."
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Plugs Into Your Computer."
     },
     {
@@ -308,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Your Favorite Type Of Girl Scout Cookie"
     }
   ],

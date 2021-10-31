@@ -193,6 +193,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Teenager Couldn’t Live Without"
     },
     {
@@ -218,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Job In Which You’d Be Exposed To A Lot Of Germs"
     },
     {
@@ -255,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Singer OF Classic Holiday Standards"
     },
     {
@@ -288,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A College Student Might Hide Before His Parents Came To Visit"
     }
   ],

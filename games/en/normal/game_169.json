@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "During A Long Distance Bus Trip, Name Something You’d Be Disappointed To Learn That The Bus Didn’t Have"
     },
     {
@@ -265,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Wear That Covers Your Ears."
     },
     {
@@ -302,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Woman’s Name That Starts With The Letter “J”"
     },
     {
@@ -331,6 +334,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Slow-Moving Vehicle That You Hate To Get Stuck Behind"
     }
   ],

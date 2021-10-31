@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That’s Sticky"
     },
     {
@@ -242,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Of Yours That You’d Be Angry To Find A Partner Snooped Into"
     },
     {
@@ -271,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Use To Measure Things With"
     },
     {
@@ -300,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place On Your Body That Might Be Sore After A Day Of Shoveling."
     }
   ],

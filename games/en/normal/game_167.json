@@ -226,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do You Do When Someone Tells A Joke That’s Not Actually Funny?"
     },
     {
@@ -263,6 +264,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Country That Is Known For Their Beer"
     },
     {
@@ -292,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Offered To First Class Airline Passesngers"
     },
     {
@@ -321,6 +324,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit That Starts With The Letter “P.”"
     }
   ],

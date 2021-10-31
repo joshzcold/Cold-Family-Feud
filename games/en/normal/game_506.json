@@ -216,6 +216,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Black That You Associate With Halloween."
     },
     {
@@ -245,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do You Check Before Going To Bed?"
     },
     {
@@ -270,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Magic Trick Would Become Dangerous If The Magician Was A Phony?"
     },
     {
@@ -299,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kind Of Ticket People Wait In Line To Buy"
     }
   ],

@@ -228,6 +228,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Always Makes You Feel Better When You’re Lonely."
     },
     {
@@ -261,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If There Were Prizes For Good Boyfriends, What Categories Would They Be Rated On?"
     },
     {
@@ -294,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Swimsuits, Name Something People Wear To The Beach."
     },
     {
@@ -323,6 +326,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do People Bring Back As A Souvenir From Disneyworld?"
     }
   ],

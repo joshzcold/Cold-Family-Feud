@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Last Minute Problem That Could Make You Late For Work"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Weather Warning That Might Interupt Your TV Show"
     },
     {
@@ -265,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might See In The Amazon Forest"
     },
     {
@@ -294,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "name Something restaurants Have In Them To Appear Fancier"
     }
   ],

@@ -244,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Piece Of Info That May Be Revealed On Someones Coffee Mug"
     },
     {
@@ -269,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Term That Describes Someone Who Comes In At First Place"
     },
     {
@@ -298,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do When Your Bored"
     },
     {
@@ -327,6 +330,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Carry On Their Shoulders."
     }
   ],

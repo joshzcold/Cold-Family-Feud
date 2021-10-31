@@ -223,6 +223,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Someone You Hire For A Wedding"
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Something Kids Get Excited About Long Before It Happens"
     },
     {
@@ -285,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Beauty Queen and A Figure Skater Have In Common"
     },
     {
@@ -310,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Women: Name Something You Would Not Like To Have a Man Do For You On a Date."
     }
   ],

@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Looking Up Numbers, Name Something A Phone Book Gets Used For"
     },
     {
@@ -261,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Is The Most Common Thing People Get stuck In Their Hair"
     },
     {
@@ -286,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Einstein Failed A Subject In School, What Might It Have Been?"
     },
     {
@@ -315,6 +318,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Article Of Clothing That Children Are Always Losing"
     }
   ],

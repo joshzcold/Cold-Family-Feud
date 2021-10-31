@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Game Or Sport Where You Sit Down To Play"
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Think America Or Americans Waste Money On."
     },
     {
@@ -284,6 +286,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word Or Phrase That Has The Word “Key” In It."
     },
     {
@@ -313,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Another Word For “Ugly.”"
     }
   ],

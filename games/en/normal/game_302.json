@@ -263,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "At What Age Is It OK For A Child To Walk Home From School By Themselves?"
     },
     {
@@ -292,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Name That’s Common For Cats To Have."
     },
     {
@@ -321,6 +323,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Most People Enjoy Watching Grow"
     },
     {
@@ -354,6 +357,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A College Major That Begins With The Letter “A.”"
     }
   ],

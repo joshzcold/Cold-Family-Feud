@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Who Might Work At A Mansion."
     },
     {
@@ -243,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Spicy Food Some People Love To Eat"
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something An Astonaut And A Baby Have In Common"
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Could Have Just One Chore That Someone Else Would Always Do For You, What Would It Be? (More Specific Than “Clean.”)"
     }
   ],

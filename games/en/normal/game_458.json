@@ -201,6 +201,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason You Might Not Leave The House For An Entire Day."
     },
     {
@@ -230,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Circus Performer That Would Have Easiest Time Getting Dates"
     },
     {
@@ -255,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Teenage Boy Might Ask His Dad For."
     },
     {
@@ -280,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Book That Students Keep On Hand For Reference."
     }
   ],

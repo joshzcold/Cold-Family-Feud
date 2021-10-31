@@ -226,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Baby Spends A Lot Of Time Doing."
     },
     {
@@ -251,6 +252,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might Your Teenager Do While Borrowing Your Car That Would Break Your Trust?"
     },
     {
@@ -280,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do New Parents Wish Baby Learn Quickly"
     },
     {
@@ -313,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Mean To Do In Their Spare Time, But End Up Watching TV Instead."
     }
   ],

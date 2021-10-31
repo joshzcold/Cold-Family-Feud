@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Celeb Who Should Never Have Taken Up Acting."
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why You’d Wake Your Spouse Up In The Middle Of The Night"
     },
     {
@@ -287,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occasion When People Sing"
     },
     {
@@ -312,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Look At Through A Telecsope"
     }
   ],

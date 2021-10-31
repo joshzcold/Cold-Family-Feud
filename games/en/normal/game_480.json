@@ -233,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Disneyworld Character Forbidden Costume"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Build With Snow"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Gift That A new Mom Is Bound To Get Duplicates Of At A Baby Shower."
     },
     {
@@ -320,6 +323,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you wouldn’t want to discover in a hotel bed when checking into your room."
     }
   ],

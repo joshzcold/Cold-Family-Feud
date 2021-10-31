@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Fears, Adult/ Childish Men Pretend Not To Do"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal You See In The Woods That You Would Be Surprised To See In The City."
     },
     {
@@ -273,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Profession That Would Help You Be Good At Solving Crossword Puzzles."
     },
     {
@@ -302,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Food That’s Hard To Cook Well, Without Burning"
     }
   ],

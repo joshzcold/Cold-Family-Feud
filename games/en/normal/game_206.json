@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might A Health Inspector Find In A Restaurant That Causes It To Get A Poor Score?"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of Your Hand"
     },
     {
@@ -269,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Most Romantic Place To Go On A First Date"
     },
     {
@@ -294,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why A Teen Might Swear Off Love."
     }
   ],

@@ -213,6 +213,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Exercise, Name Something A Person Might Do At A Fancy Health Club."
     },
     {
@@ -246,6 +247,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Gymnastic Move Almost Every Kid Knows How To Do."
     },
     {
@@ -283,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Woman Might Complain That Her Husband Never Wants To Do"
     },
     {
@@ -308,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Medical Instrument That A Doctor Uses"
     }
   ],

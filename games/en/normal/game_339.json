@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What’s The Messiest Thing To Clean Up After The Christmas Holiday?"
     },
     {
@@ -256,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might A Poker Player Do To Make Bluffing Easier?"
     },
     {
@@ -285,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might Kid Forget To Bring To Pool That Would Keep Him From Swimming"
     },
     {
@@ -322,6 +325,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do Before You Go On Vacation"
     }
   ],

@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Office Supply Is Most Likely Cause An Injury"
     },
     {
@@ -277,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Costume Character May Have To Remove Their Head To Do"
     },
     {
@@ -310,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You Roll Up"
     },
     {
@@ -339,6 +342,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Department Store Where People Shop During The Holidays."
     }
   ],

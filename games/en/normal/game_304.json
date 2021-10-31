@@ -209,6 +209,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Hook Up To Your TV."
     },
     {
@@ -238,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In A Person’s House A Burglar Wouldn’t Want To Steal"
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Makes You Feel Better When You’re Having A Bad day."
     },
     {
@@ -300,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Somebody So Rich That Their Name Is Synonymous With Wealth"
     }
   ],

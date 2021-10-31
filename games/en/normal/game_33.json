@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Would Not Want To Buy At A Dollar Store."
     },
     {
@@ -227,6 +228,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That Has Fangs"
     },
     {
@@ -252,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Danny."
     },
     {
@@ -285,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Wives: Name Something In Your Makeup Drawer That Your Husband Wouldn’t Know What To Do With"
     }
   ],

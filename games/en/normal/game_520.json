@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What’s The First Thing A Husband Does When He Finds Out His Wife is Pregnant?"
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation In Which You’d Probably Go Through A Lot Of Sunscreen."
     },
     {
@@ -269,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Often Leave In Their House With A Free Sign On It?"
     },
     {
@@ -294,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation In Which You Might Be Able To Get Away With Breaking The Law."
     }
   ],

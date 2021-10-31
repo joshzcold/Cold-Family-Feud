@@ -233,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "After Getting All Dressed Up, Date Is Taking You"
     },
     {
@@ -262,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In Your Wallet That Might Be Used For An ID"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Good Occupation For A Woman Who Was Head Cheerleader."
     },
     {
@@ -316,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occasion Where People Might Dance"
     }
   ],

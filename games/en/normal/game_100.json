@@ -199,6 +199,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Be Described As “Strong.”"
     },
     {
@@ -232,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Paul (Surname)"
     },
     {
@@ -257,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something On A Kids’ Playground That Adults Could Use As Exercise Equipment."
     },
     {
@@ -294,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Complaint A Pregnant Women Might Have"
     }
   ],

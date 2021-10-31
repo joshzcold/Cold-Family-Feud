@@ -263,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell me something you’ve accidentally dropped in the toilet."
     },
     {
@@ -288,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Nursery Rhyme Character With Bad Luck"
     },
     {
@@ -317,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With A Blackout"
     },
     {
@@ -346,6 +349,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me The Worst Way For Someone To Wake You Up."
     }
   ],

@@ -232,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do To Their Hair That Makes Them Look Silly"
     },
     {
@@ -261,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Traditional Dish Would You Prepare For Somebody Learning About American Culture?"
     },
     {
@@ -290,6 +292,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Trait Of A Good Teacher Would Also Be Important For A Good Con Man?"
     },
     {
@@ -315,6 +318,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation In Which You Might Wear A Hat"
     }
   ],

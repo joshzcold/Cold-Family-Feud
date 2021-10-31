@@ -223,6 +223,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Wedding Ceremony Should Be Without"
     },
     {
@@ -256,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If A Husband Found Out That His Wife Had A Bad Day At Work, Name Something He Might Do To Make Her Feel Better."
     },
     {
@@ -281,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Would Be Hard To Do If You Didn’t Have A Mouth."
     },
     {
@@ -306,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Article Of Clothing That You Don’t Wash Every Time You Wear It"
     }
   ],

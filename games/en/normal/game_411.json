@@ -211,6 +211,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Boil You Veggies Too Long, Name Something They Lose."
     },
     {
@@ -240,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Goes Around & Around"
     },
     {
@@ -269,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Doctor Might Use"
     },
     {
@@ -290,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might See At A Fashion Parade"
     }
   ],

@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Popular Pie Filling"
     },
     {
@@ -241,6 +242,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Starts With L, That Everyone Wants"
     },
     {
@@ -270,6 +272,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Why Might You Regret Picking Up A Lost Dog?"
     },
     {
@@ -299,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What's The Worst Thing About Camping Out"
     }
   ],

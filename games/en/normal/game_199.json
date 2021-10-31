@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Clown Might Wear"
     },
     {
@@ -264,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit That Would Be Really Hard To Juggle"
     },
     {
@@ -297,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Women’s Magazines Give Advice On"
     },
     {
@@ -330,6 +333,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why You Wouldn’t Have Cake On Your Birthday."
     }
   ],

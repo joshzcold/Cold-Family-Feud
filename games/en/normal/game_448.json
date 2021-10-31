@@ -244,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Room In The House People Like To Read"
     },
     {
@@ -277,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Practice"
     },
     {
@@ -302,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That’s Not Loved By Many People"
     },
     {
@@ -335,6 +338,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Food, Why Do You Like Going To A Chinese Restaurant"
     }
   ],

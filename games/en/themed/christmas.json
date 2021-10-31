@@ -107,7 +107,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     },
     {
       "question": "Other than Santa, name an inhabitant of the North Pole.",
@@ -122,7 +123,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     },
     {
       "question": "Name one of Santa's reindeer",
@@ -140,7 +142,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     },
     {
       "question": "Aside from family, name someone else you'd buy a present for?",
@@ -155,7 +158,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     }
   ],
   "final_round_timers": [20, 25]

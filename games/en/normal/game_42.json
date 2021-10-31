@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place That You Wish You Had The Nerve To Go Alone"
     },
     {
@@ -276,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason A Person Might Pretend To Be Older"
     },
     {
@@ -313,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When You Donâ€™t Want To Get Out Of Bed In The Morning, Name Something That Gets You Up Anyway"
     },
     {
@@ -338,6 +341,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Person Who Uses A Broom"
     }
   ],

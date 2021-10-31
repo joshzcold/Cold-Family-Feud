@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why Someone Might Make Fun Of Your Dance Moves"
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Keep In Your Trousers"
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What’s The First Thing You’re Likely To Be Asked About At Your High School Reunion?"
     },
     {
@@ -308,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Who Or What Would You Not Want To Meet In The Middle Of A Hiking Trail?"
     }
   ],

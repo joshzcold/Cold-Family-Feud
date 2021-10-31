@@ -246,6 +246,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Another Word A Cool Guy Might Use For “Car”"
     },
     {
@@ -275,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Find In A Ski Lodge"
     },
     {
@@ -300,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Place Where You Don’t Want To Leave Early"
     },
     {
@@ -329,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Many Hunters Wear Camouflage In The Woods, Name A Pattern You’d Be Surprised To See A Hunter Wear."
     }
   ],

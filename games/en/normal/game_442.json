@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport Where A Player Might Wear Spiked Or Studded Shoes"
     },
     {
@@ -262,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Or Someone Associated With “The Addams Family.”"
     },
     {
@@ -295,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Coughing, What’s Something You Can’t Stop Yourself From Doing?"
     },
     {
@@ -328,6 +331,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Tv Comedian"
     }
   ],

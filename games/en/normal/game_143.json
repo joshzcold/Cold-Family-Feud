@@ -211,6 +211,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Naughty That Children Do While At The Store"
     },
     {
@@ -236,6 +237,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Do To The Products At The Grocery Store, But Not At A Clothing Store"
     },
     {
@@ -261,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If James Bond Were A Real Man, Name Something That Probably Would Have Happened To Him By Now."
     },
     {
@@ -294,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Cowboy Wears That’s Made Of Leather."
     }
   ],

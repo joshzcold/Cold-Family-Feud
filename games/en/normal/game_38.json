@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Baseball Player Might Be Holding During A Game."
     },
     {
@@ -257,6 +258,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Elope To Las Vegas, Name Something You Might Not Have At Your Wedding."
     },
     {
@@ -286,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We asked 100 Women: At what age is a man most handsome?(NUMBERS ONLY)"
     },
     {
@@ -319,6 +322,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Makes A Restaurant First Class"
     }
   ],

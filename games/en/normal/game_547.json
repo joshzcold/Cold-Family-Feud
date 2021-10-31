@@ -209,6 +209,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Make For Dinner When You’re Short On Time."
     },
     {
@@ -242,6 +243,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Bite, But Wouldn’t Eat."
     },
     {
@@ -271,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Piece Of Information You’d Include In A Personals Ad But Not On A Resume."
     },
     {
@@ -296,6 +299,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason A Policeman Might Say He Had A Bad Day On The Job."
     }
   ],

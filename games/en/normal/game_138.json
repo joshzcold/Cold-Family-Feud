@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport That Takes Place In The Water."
     },
     {
@@ -276,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do At A Bar Besides Drink"
     },
     {
@@ -301,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Board Game Is Most Challenging"
     },
     {
@@ -330,6 +333,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Old Were You When You Babysat For The First Time?"
     }
   ],

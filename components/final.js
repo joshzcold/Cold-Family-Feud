@@ -37,7 +37,7 @@ export default function Final(props) {
                         {copy.input}
                       </p>
                     </div>
-                    <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
+                    <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded text-center">
                       <p
                         class={`flex-grow text-2xl ${
                           props.game.hide_first_round ? "invisible" : ""
@@ -65,7 +65,7 @@ export default function Final(props) {
                       )}
                     </div>
                     <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
-                      {x.revealed ? (
+                      {x.revealed && x.revealed_points ? (
                         <div class="flex">
                           <p class="text-2xl">
                             {t("number", { count: x.points })}
@@ -110,7 +110,7 @@ export default function Final(props) {
                       ) : null}
                     </div>
                     <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
-                      {x.revealed ? (
+                      {x.revealed && x.revealed_points? (
                         <p class="text-2xl">
                           {t("number", { count: x.points })}
                         </p>

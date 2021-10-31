@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Country That Is Known For Its Spicy Food"
     },
     {
@@ -278,6 +279,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Term You’d Expect A Poker Player To Know"
     },
     {
@@ -311,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Best Place To Be On A Winter Night"
     },
     {
@@ -336,6 +339,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Keep In Your Top Pocket"
     }
   ],

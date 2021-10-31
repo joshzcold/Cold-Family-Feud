@@ -196,6 +196,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Sheets, Something On Bed"
     },
     {
@@ -225,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Job In Which You’d Have An Easy Time Getting Dates"
     },
     {
@@ -262,6 +264,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me The Age When Boys Stop Playing With Stuffed Animals (Numeric Only)."
     },
     {
@@ -291,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Where Do You Get Your Christmas Tree From Each Year?"
     }
   ],

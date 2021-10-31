@@ -211,6 +211,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In Your House That You Might Hear In The Middle Of the Night And Mistake For A Burglar."
     },
     {
@@ -236,6 +237,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Donate To Charity During The Holidays"
     },
     {
@@ -265,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Another Word for Mother"
     },
     {
@@ -286,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Plane Can't Fly Without"
     }
   ],

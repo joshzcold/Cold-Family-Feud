@@ -233,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport That Doesn’t Require A Lot Of Equipment"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Malls Do To Get Shoppers In The Christmas Spirit."
     },
     {
@@ -287,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Ride For A Thrill"
     },
     {
@@ -312,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Sesame Street Character Uncomfortable In Their Costume"
     }
   ],

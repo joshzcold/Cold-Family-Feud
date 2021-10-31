@@ -219,6 +219,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "ame A Reason Why You Might Be Nervous While Driving."
     },
     {
@@ -248,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Parents Tell Their Kids To Do So They Don’t Get Sick During Flu Season"
     },
     {
@@ -285,6 +287,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name How Many People Can Ride Comfortably In The Back Of A Limo. (Numeric Only)"
     },
     {
@@ -322,6 +325,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Hobby Or Activity In Which You’d Love To Get Lessons From A Pro."
     }
   ],

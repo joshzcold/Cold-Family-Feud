@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Job In Which You Could Wear Shorts To Work."
     },
     {
@@ -231,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Chain Restaurant That Would Never Be Asked To Cater A Fancy Party"
     },
     {
@@ -264,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Design You Often See On Socks, But Not On Sneakers"
     },
     {
@@ -293,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Astronauts Do"
     }
   ],

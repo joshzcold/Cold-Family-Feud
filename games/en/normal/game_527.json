@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Without Seeing Them Steal, Name Something That You’d See A Person Do To Make You Suspicious That They’re Shoplifting."
     },
     {
@@ -252,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Look At Through A Telescope"
     },
     {
@@ -277,6 +279,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Good Score When Playing 18 Holes Of Golf."
     },
     {
@@ -314,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food Someone Might Use More Than One Hand To Eat."
     }
   ],

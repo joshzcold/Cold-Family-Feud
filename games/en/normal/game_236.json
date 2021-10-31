@@ -195,6 +195,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Pile Up When You're Feeling Lazy"
     },
     {
@@ -232,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Cartoon Character Would Make A Good Athlete If Real"
     },
     {
@@ -269,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Specific A Woman Looks At When She First Meets A Man On A Blind Date."
     },
     {
@@ -298,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason You’d Go By A Nickname Instead Of Your Full Name"
     }
   ],

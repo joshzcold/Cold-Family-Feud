@@ -220,6 +220,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might You Find Under Couch Cushion?"
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Specific You Almost Always Eat Out Of A Bag."
     },
     {
@@ -274,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something College Freshmen Have To Start Sharing When They Live In The Dorms."
     },
     {
@@ -299,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Restaurant Job That A Stay-At-Home Parent Does For Free All The Time"
     }
   ],

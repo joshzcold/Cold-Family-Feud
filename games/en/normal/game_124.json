@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Piece Of Equipment Many Bikers Don’t Use, But Ought To."
     },
     {
@@ -249,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Can You Tell That A TV Show Is Old Time?"
     },
     {
@@ -282,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Which Profession Do You Often Find People With Wacky Hair?"
     },
     {
@@ -319,6 +322,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Would Be Disgusting To Be Fed ‘Romantically’."
     }
   ],

@@ -226,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What’s Something You Drink To Make You Warmer?"
     },
     {
@@ -263,6 +264,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A U.S. City Where It Snows A Lot During The Holidays"
     },
     {
@@ -292,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Specific Farmers Grow In Their Fields"
     },
     {
@@ -321,6 +324,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Name Would You Give Your Daughter If You Wanted To Name Her After A Queen?"
     }
   ],

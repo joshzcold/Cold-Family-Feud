@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Why Might You Leave A Restaurant Before Even Eating There?"
     },
     {
@@ -234,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Will Find On A Remote Control"
     },
     {
@@ -263,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Being In Hot Water Is One Way Of Saying You’re In Trouble, Name Another."
     },
     {
@@ -300,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Clothing Designer Who’s World Famous."
     }
   ],

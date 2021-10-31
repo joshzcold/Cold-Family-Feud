@@ -205,6 +205,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "In Order To Solve A Crime, What Does An Investigator Need To Find?"
     },
     {
@@ -234,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "At A Bar, How Can You Tell That Someone Is Interested In You?"
     },
     {
@@ -263,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Do For Mum On Mothers Day"
     },
     {
@@ -288,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Political Contest And A Football Game Have In Common."
     }
   ],

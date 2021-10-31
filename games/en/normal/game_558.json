@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Extracurricular Activity That Parents Say Is Good For A Child."
     },
     {
@@ -239,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Often Yawn"
     },
     {
@@ -276,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That’s Different In Different Regions Of A Country"
     },
     {
@@ -305,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Who Make Money Off Of Giving Advice"
     }
   ],

@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Celebrity From Decades Ago, Who’s Still Thought Of As A Style Icon."
     },
     {
@@ -275,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Even A Very Small Town Usually Has One Of"
     },
     {
@@ -300,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If a restaurant had the same rules as your kitchen,what would customers need to do for themselves?"
     },
     {
@@ -333,6 +336,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Extra Piece Of Clothing Might Wear To A Game Of Strip Poker To Delay Taking Off Your Essentials?"
     }
   ],

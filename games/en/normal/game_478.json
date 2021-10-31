@@ -253,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Often Gets Tied Up"
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might See While Sitting In The Dentists Chair"
     },
     {
@@ -307,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Often End Up Overeating"
     },
     {
@@ -336,6 +339,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Always Have With You So You Don’t Get Lost"
     }
   ],

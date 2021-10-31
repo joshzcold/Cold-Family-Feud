@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Keeps You From Finishing A Jigsaw Puzzle."
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Made with Ginger"
     },
     {
@@ -295,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Were An Earth Tour Guide, Which Landmarks Would You Show To An Alien?"
     },
     {
@@ -328,6 +331,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport In Which People Wear Shorts"
     }
   ],

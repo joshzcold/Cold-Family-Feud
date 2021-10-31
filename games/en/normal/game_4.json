@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "In Order To Seem Like A “Regular Guy,” Name A Place Where A Politician Might Hang Out."
     },
     {
@@ -239,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Dogs Hate Owners To Put On Them"
     },
     {
@@ -272,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Were Friends With Nancy Drew, What Might You Buy For Her Birthday?"
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Are The Advantages Of Having An Air Guitar Rather Than a Real Guitar?"
     }
   ],

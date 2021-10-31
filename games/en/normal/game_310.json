@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Rodeo Rider Might Wear"
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Color Some Men Never Wear"
     },
     {
@@ -283,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word That Describes Someone Who Doesn’t Pull Their Own Weight"
     },
     {
@@ -316,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do You Need To Check To Ensure That Your Car Runs Properly?"
     }
   ],

@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You Try To Avoid Hitting While Sledding Down A Hill"
     },
     {
@@ -262,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Item Jugglers Often Juggle"
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Activity Can A Mother Do With Daughter Not With Sons"
     },
     {
@@ -320,6 +323,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Apart From Exercise Name Something You Associate With Aerobics"
     }
   ],

@@ -195,6 +195,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That A Circus Performer’s Parents Would Cringe At Seeing Him Perform."
     },
     {
@@ -232,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Somewhere You Would Look If You Wanted To Find A Spider"
     },
     {
@@ -261,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Give Me A Mans Name That Is Only 3 Letters Long"
     },
     {
@@ -290,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Name People Use To Describe Someone Who Talks To Much"
     }
   ],

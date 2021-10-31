@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With A Camera"
     },
     {
@@ -269,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Moved To England, Name Something That Would Take Some Getting Used To."
     },
     {
@@ -290,6 +292,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Make With Snow"
     },
     {
@@ -319,6 +322,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place People Might Go For Peace And Quiet."
     }
   ],

@@ -225,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Fred Flintstone Was Your Neighbor, Name Something You Wouldn’t Ask To Borrow."
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Room In Your Home Thats Hard To Keep Clean"
     },
     {
@@ -287,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Why Would You Call The Doctor If You’re Not Sick?"
     },
     {
@@ -324,6 +327,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That People Like To Show Off"
     }
   ],

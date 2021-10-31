@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Often Gets Burned"
     },
     {
@@ -258,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Activity Done In Barefoot"
     },
     {
@@ -295,6 +297,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Dishes And Utensils, What Else Do You Need To Host A Fancy Dinner Party?"
     },
     {
@@ -328,6 +331,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What’s The First Thing New Parents Buy After Finding Out They’re Having A Baby?"
     }
   ],

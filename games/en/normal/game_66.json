@@ -207,6 +207,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit That People Might Add To Jelly"
     },
     {
@@ -232,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do To Their Food That Makes It Unhealthy"
     },
     {
@@ -257,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Worst Thing About Going To The Drive-In."
     },
     {
@@ -278,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Put In Gardens To Attract Birds"
     }
   ],

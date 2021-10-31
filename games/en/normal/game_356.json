@@ -200,6 +200,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something that house cleaners clean more often than you do(More specific than a room)"
     },
     {
@@ -237,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That You See On A Motivational Poster"
     },
     {
@@ -266,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Famous Painter Would You Ask To Paint Your Portrait?"
     },
     {
@@ -295,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A President Probably Has With Him Everywhere He Goes?"
     }
   ],

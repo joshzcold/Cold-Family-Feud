@@ -226,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might A Chef Do While Cooking, That Would Ruin The Whole Dish?"
     },
     {
@@ -247,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place That While On Vacation Might Be Difficult To Find A Bathroom"
     },
     {
@@ -284,6 +286,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word Or Phrase That’s Often Followed Up With An Exclamation Point"
     },
     {
@@ -313,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Song Do You Think Santa Claus Has As His Cell Phone Ringtone?"
     }
   ],

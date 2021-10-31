@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Parents Should Do To Be Sure That Their Kids Have A Safe Halloween."
     },
     {
@@ -256,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Used To Take Up Shelf Space In Your House, But Can Now Be Stored Electronically."
     },
     {
@@ -289,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Kids Like To Throw At Each Other."
     },
     {
@@ -314,6 +317,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides A Phone Number, Name A Set Of Numbers Most People Remember"
     }
   ],

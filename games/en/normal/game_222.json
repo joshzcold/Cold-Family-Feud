@@ -250,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Howard."
     },
     {
@@ -279,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Housekeeper Uses As Part Of Her Job"
     },
     {
@@ -304,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A New Parent Tries To Do While The Baby Is Napping."
     },
     {
@@ -337,6 +340,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Name You Might Give Your Pet That You’d Hate To Have As Your Name"
     }
   ],

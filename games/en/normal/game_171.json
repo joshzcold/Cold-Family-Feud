@@ -244,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In Your Kitchen That You’d Use As A Musical Instrument."
     },
     {
@@ -277,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Who Wears A White Coat"
     },
     {
@@ -314,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Younger Brother Wants To Do"
     },
     {
@@ -343,6 +346,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Be On A Toothpick Inside A Fancy Drink"
     }
   ],

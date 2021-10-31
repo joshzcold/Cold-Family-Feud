@@ -215,6 +215,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If you were a celebrity for a day,name a place or event you’d try to get into."
     },
     {
@@ -244,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "On “Family Feud,” Name Something The Host Asks Players About."
     },
     {
@@ -269,6 +271,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Buy For Your Daughter’s Barbie Doll, But Probably Not For Your Daughter."
     },
     {
@@ -302,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Cliche People Say About Beauty?"
     }
   ],

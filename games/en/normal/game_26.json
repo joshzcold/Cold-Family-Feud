@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Millionaire Who Could Never Be Rich Enough For You To Want To Date Him"
     },
     {
@@ -254,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Give A Word Frankenstein Would Use To Describe Himself In A Personal Ad."
     },
     {
@@ -291,6 +293,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "At A Spookhouse, What Do You Do To Make The Experience Less Scary?"
     },
     {
@@ -324,6 +327,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a feature that an executive’s fancy office must have"
     }
   ],

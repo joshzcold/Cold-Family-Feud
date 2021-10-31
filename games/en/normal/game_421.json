@@ -233,6 +233,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "name A Slender Animal that Wouldn’t Make A Very Good Piggy Bank."
     },
     {
@@ -266,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Do People Do That Could Get Them Kicked Out Of A Museum"
     },
     {
@@ -299,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might You Hear In A Weather Forecast That Would Keep You From Going Outside?"
     },
     {
@@ -328,6 +331,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With Colouring In"
     }
   ],

@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place In Your Car That You Are Likely To Find Something That’s Gone Missing"
     },
     {
@@ -246,6 +247,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Pose In Front Of For Their Christmas Photos."
     },
     {
@@ -275,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your blind date walked In And You Didn’t Feel A Spark, What Would YOu Do?"
     },
     {
@@ -300,6 +303,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Is Smaller In Europe Than In The US."
     }
   ],

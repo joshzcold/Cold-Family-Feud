@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Usually Keep From High School"
     },
     {
@@ -262,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Costs Twice As Much As It Is Worth."
     },
     {
@@ -299,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A King Has That Other Men Don’t"
     },
     {
@@ -336,6 +339,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Spend THeir Tax Returns On."
     }
   ],

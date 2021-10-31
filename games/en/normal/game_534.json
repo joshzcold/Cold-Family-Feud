@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something a manicurist needs to do her job."
     },
     {
@@ -277,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something About Which Many People Have Phobias."
     },
     {
@@ -314,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Profession In Which Rain Can Ruin A Day’s Work."
     },
     {
@@ -347,6 +350,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Went Back In Time 10,000 Years, Name A Luxury Item You’d Probably Miss."
     }
   ],

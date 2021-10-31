@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something About The Future People Discuss With A Psychic"
     },
     {
@@ -235,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’re Pleasantly Surprised To Find In Your Chocolate Chip Cookie"
     },
     {
@@ -264,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Would Do In Front Of Children, But Would Be Embarrassed To Do In Front Of Other Adults"
     },
     {
@@ -297,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Drink That Often Comes With A Spoon"
     }
   ],

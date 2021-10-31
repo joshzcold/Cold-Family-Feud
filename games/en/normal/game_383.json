@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When Shopping, Name A Way You Can Tell If Someone Is A Sales Clerk"
     },
     {
@@ -235,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When You Were A Little Kid, Where Did You Think Babies Came From."
     },
     {
@@ -264,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Type Of Work Vehicle, That’s Often Seen As A children’s Toy"
     },
     {
@@ -285,6 +288,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With A Camel"
     }
   ],

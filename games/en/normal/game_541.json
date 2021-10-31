@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Deep Sea Divers Wear, That You’d Look Silly Wearing In The Pool."
     },
     {
@@ -264,6 +265,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something men try to cover up."
     },
     {
@@ -289,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Time When A Man Might Be Extra Caring Toward His Wife"
     },
     {
@@ -326,6 +329,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "After A Week Of Camping, What Luxury Oh Home Are You Most Excited To Have Again?"
     }
   ],

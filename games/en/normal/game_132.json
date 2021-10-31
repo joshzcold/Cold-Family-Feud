@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Working, Name Something You Could Stop Doing If You Became A Millionaire."
     },
     {
@@ -260,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Phone Company That Offers Low Long Distance Rates"
     },
     {
@@ -289,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You Get Antsy From Sitting Too Long."
     },
     {
@@ -322,6 +325,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Like to Have In Your Backyard"
     }
   ],

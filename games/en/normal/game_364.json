@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Unlike Dogs, Name A Type Of Pet That People Don’t Count On To Guard Their House."
     },
     {
@@ -251,6 +252,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If There Was A Fire At The Zoo, Name An Animal A Fireman Would Have Trouble Carrying Out By Himself."
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Specific Part Of Your Body That You Never Worry About Getting Fat."
     },
     {
@@ -317,6 +320,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That People Like To Put Whipped Cream On"
     }
   ],

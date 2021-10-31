@@ -231,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Authority Figure Whose Role Makes It Hard To Imagine Them Letting Loose On A Date"
     },
     {
@@ -268,6 +269,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Throwing Them Away, Name Something You Can Do With Old Newspapers."
     },
     {
@@ -305,6 +307,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That Comes In Packs of Six Or More."
     },
     {
@@ -330,6 +333,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occasion On Which Greeting Cards Sent"
     }
   ],

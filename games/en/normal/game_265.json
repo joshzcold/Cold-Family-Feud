@@ -224,6 +224,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food Or Beverage You Wouldn’t Consume After It’d Been Sitting Out In Hot Weather"
     },
     {
@@ -253,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Might Set A Metal Detector Off At An Airport"
     },
     {
@@ -290,6 +292,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Specific That Takes Longer To Dry, Than To Wash."
     },
     {
@@ -327,6 +330,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Food That You Wish Was Healthy So You Could Eat It Every Day."
     }
   ],

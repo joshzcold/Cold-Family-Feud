@@ -198,6 +198,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You have In Your House That You Also Have In Your Car"
     },
     {
@@ -227,6 +228,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Need Before You Go Overseas"
     },
     {
@@ -252,6 +254,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Need In Order To Play A Game Of Basketball"
     },
     {
@@ -281,6 +284,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Place You Don’t Like To Set Foot If On A Diet"
     }
   ],

@@ -201,6 +201,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "\"Name A Part Of The Body Beginning With \"\"N\"\"\""
     },
     {
@@ -222,6 +223,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would A College Kid Do Right Before Parents Visit?"
     },
     {
@@ -251,6 +253,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Worst Way To Be Woken Up"
     },
     {
@@ -288,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal People Set Traps For."
     }
   ],

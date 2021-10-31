@@ -238,6 +238,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Dogs Get More Excited About Than People."
     },
     {
@@ -267,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Name Something You Bring With You Everywhere"
     },
     {
@@ -304,6 +306,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Could Have A Movie Star Narrate Your Life, Whose Voice Would You Choose?"
     },
     {
@@ -333,6 +336,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Air Conditioning Name A Word That Starts With Air"
     }
   ],

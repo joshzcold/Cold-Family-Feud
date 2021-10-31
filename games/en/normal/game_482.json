@@ -249,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That May Be Found Washed Up On The Beach"
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That It’d Be Unflattering To Be Compared To"
     },
     {
@@ -311,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With Charlie Chaplin"
     },
     {
@@ -340,6 +343,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way You Know Your Teacher Is Having A Bad Day."
     }
   ],

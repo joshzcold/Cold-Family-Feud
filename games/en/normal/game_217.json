@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Kitchen Appliance That Is Hardest To Clean"
     },
     {
@@ -251,6 +252,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Needed Some Fast Cash, Name A Possession You Might Sell"
     },
     {
@@ -288,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "How Much Do You Expect To Spend If You’re Taking A Date Out For A Nice Dinner? Please Round To Nearest $10."
     },
     {
@@ -321,6 +324,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Fruit You Might Find In A Pastry."
     }
   ],

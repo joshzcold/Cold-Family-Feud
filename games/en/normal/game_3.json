@@ -199,6 +199,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Teen Can Do For Longer Amounts Of Time Than Their Parents."
     },
     {
@@ -228,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Have To Put Up With An At Outdoor Cafe That You Wouldn’t When Eating Indoors"
     },
     {
@@ -265,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would You Be Disappointed In A Hotel In Hawaii"
     },
     {
@@ -302,6 +305,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than The U.S., What Country Is Known For Making Films?"
     }
   ],

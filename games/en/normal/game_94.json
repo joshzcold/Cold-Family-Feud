@@ -221,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Halloween Costume That Is A Complete Misrepresentation Of The Occupation It Portrays."
     },
     {
@@ -250,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Are The Most Popular Types Of Flowers Used In A Wedding"
     },
     {
@@ -279,6 +281,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Youâ€™D Find More Commonly In France Than In The Us"
     },
     {
@@ -308,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Hope Doesn’t Happen When Holding Someone’s Baby."
     }
   ],

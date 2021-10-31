@@ -200,6 +200,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "When A Kid Says “I’M Bored”, Name Something A Parent Often Suggests."
     },
     {
@@ -229,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You Might Lie To A Friend About."
     },
     {
@@ -262,6 +264,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Only Do Naked"
     },
     {
@@ -287,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why A Person might Prefer To Travel By Cruise Ship."
     }
   ],

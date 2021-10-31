@@ -218,6 +218,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Never Forget To Do On Christmas Day"
     },
     {
@@ -243,6 +244,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Person Who You Most Try To Avoid Having An Argument With."
     },
     {
@@ -280,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me An Actor In The History Of Cinema Known For His Slapstick Comedy."
     },
     {
@@ -305,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Another Word For A “Bar” That A Cowboy Might Use"
     }
   ],

@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Do In A Restaurant"
     },
     {
@@ -274,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Exercise High School Gym Teachers Make You Do."
     },
     {
@@ -307,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Way Children Submit Their Wishlists To Santa."
     },
     {
@@ -344,6 +347,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something In Your Home You Probably Turn On Every Day."
     }
   ],

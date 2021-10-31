@@ -216,6 +216,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sport That Requires Water In Order To Be Played"
     },
     {
@@ -241,6 +242,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That You Shouldn’t Have To Do On Your Birthday."
     },
     {
@@ -266,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation Where You Might Get Dirty"
     },
     {
@@ -291,6 +294,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Term For Someone Who Isn’t Very Generous."
     }
   ],

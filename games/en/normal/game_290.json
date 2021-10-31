@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Naughty That A Grandpa Might Secretly Let His grandson get Away With"
     },
     {
@@ -273,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name a place in your house that you don’t bother decorating."
     },
     {
@@ -302,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Trick Dogs Do That You Wish You Could Teach Your Partner"
     },
     {
@@ -335,6 +338,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Every UPS Driver Should Have"
     }
   ],

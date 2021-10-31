@@ -766,6 +766,7 @@ export default function Admin(props) {
                           class="border-4 rounded p-5 text-3xl flex-grow"
                           onClick={() => {
                             x.points = 0;
+                            x.revealed_points = true;
                             props.setGame((prv) => ({ ...prv }));
                             send({ action: "data", data: game });
                             send({ action: "final_wrong" });
@@ -790,6 +791,7 @@ export default function Admin(props) {
                           class="border-4 rounded p-5 text-3xl flex-grow"
                           onClick={() => {
                             x.points = x.answers[x.selection][1];
+                            x.revealed_points = true;
                             props.setGame((prv) => ({ ...prv }));
                             send({ action: "data", data: game });
                             send({ action: "final_submit" });

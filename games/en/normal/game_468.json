@@ -249,6 +249,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person With Extra Long Arms Would Be Good At"
     },
     {
@@ -274,6 +275,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A City Where A Movie Car Chase Never Be Filmed"
     },
     {
@@ -311,6 +313,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Skill That A Person’s Resume Might Claim Than Are"
     },
     {
@@ -344,6 +347,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Use To Wash The Car"
     }
   ],

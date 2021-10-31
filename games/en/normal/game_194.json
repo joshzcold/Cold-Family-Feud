@@ -241,6 +241,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would The Chatterbox Next To You Keep You From Doing On An Airplane?"
     },
     {
@@ -266,6 +267,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Wear Every Day To Feel Like A Superhero"
     },
     {
@@ -299,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Married Couple Saves From Their Wedding Day."
     },
     {
@@ -324,6 +327,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Comic Book Hero That Wears A Red, White And Blue Costume."
     }
   ],

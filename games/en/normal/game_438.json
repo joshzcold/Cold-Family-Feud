@@ -250,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place That Might Be Dimly Lit."
     },
     {
@@ -279,6 +280,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Whose Advice You Usually Accept"
     },
     {
@@ -308,6 +310,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Last Thing You Read On The Internet That You Wish You Hadn’t."
     },
     {
@@ -341,6 +344,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Type Of Person That Wears A Name Tag"
     }
   ],

@@ -202,6 +202,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Big Pet"
     },
     {
@@ -231,6 +232,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Check Under The Bonnet Of Your Car"
     },
     {
@@ -268,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Tomatoes, Name Something You Sometimes Find In Spaghetti Sauce"
     },
     {
@@ -293,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Need If You Were Going To Impersonate Mickey Mouse"
     }
   ],

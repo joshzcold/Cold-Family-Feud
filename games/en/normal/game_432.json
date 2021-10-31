@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "A Young Person “Fights For Their Right To Party.” What Might An Old Person Fight For The Right To Do?"
     },
     {
@@ -273,6 +274,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Babies Do That You Would Be Embarrassed To Have Someone See You Do As An Adult"
     },
     {
@@ -306,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Keep Near Their Favorite Easy Chair."
     },
     {
@@ -343,6 +346,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A State That Starts With The Letter “N.”"
     }
   ],

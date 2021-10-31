@@ -201,6 +201,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you’ve broken by sitting on it"
     },
     {
@@ -230,6 +231,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Product Door-To-Door Salesman Used To Sell"
     },
     {
@@ -255,6 +257,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Cartoon Movie That Features Animals As The Main Characters."
     },
     {
@@ -288,6 +291,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than A Hand-Buzzer, Name Something You’d Be Sure To Buy At A Gag Shop"
     }
   ],

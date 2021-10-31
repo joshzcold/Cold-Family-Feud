@@ -204,6 +204,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Slob Might Never Clean"
     },
     {
@@ -229,6 +230,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Used In A Game Of Hockey"
     },
     {
@@ -250,6 +252,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Can Do On An Aeroplane To Pass Time"
     },
     {
@@ -279,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Batman Doesn't Leave The Batcave Without"
     }
   ],

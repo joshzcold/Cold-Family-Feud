@@ -195,6 +195,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Job A Robot Not Entertaining Enough"
     },
     {
@@ -224,6 +225,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something That Kids Ride With Ease, But An Adult Would Be Afraid To Ride."
     },
     {
@@ -261,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A movie Based On A TV Show Or Skit"
     },
     {
@@ -298,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Food Or Drink That Vendors Walk Around Selling At Sports Games"
     }
   ],

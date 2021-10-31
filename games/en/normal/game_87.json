@@ -201,6 +201,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People dye A Different Color"
     },
     {
@@ -238,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Associate With Fairy Tales"
     },
     {
@@ -259,6 +261,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That People Ride"
     },
     {
@@ -292,6 +295,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Sign That Your Girlfriend Might Be Turning Into A Cat."
     }
   ],

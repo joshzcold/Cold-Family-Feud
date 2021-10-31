@@ -218,6 +218,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Public Place Where You’re Likely To Catch A Cold Or Flu Bug"
     },
     {
@@ -255,6 +256,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of The Body That Often Itches."
     },
     {
@@ -280,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Be Surprised To Find That A Superhero Couldn’t Do."
     },
     {
@@ -305,6 +308,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name the worst thing for a circus performer to be afraid of."
     }
   ],

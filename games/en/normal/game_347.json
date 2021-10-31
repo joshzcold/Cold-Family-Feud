@@ -195,6 +195,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Customer Might Do To Annoy A Waitress."
     },
     {
@@ -220,6 +221,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Bad That Might Happen TO A Magician’s Assistant During A Performance."
     },
     {
@@ -249,6 +251,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Dogs Like To Chase"
     },
     {
@@ -274,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would A Cowboy Do To Cheer Up When He’s Had A Bad Day?"
     }
   ],

@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Specific Food You Can Get At Almost Every Restaurant"
     },
     {
@@ -281,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Need To Check For If You’re Buying A Dress Used."
     },
     {
@@ -310,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Halloween Costume People Wear If They Don’t Want To Go All Out"
     },
     {
@@ -339,6 +342,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "We Asked 100 Husbands: If Your Wife Had A Personal Assistant, Name Something They’d Be Asked To Do."
     }
   ],

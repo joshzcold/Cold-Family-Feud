@@ -229,6 +229,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Christmas Song That Most People Forget Some Of The Words To"
     },
     {
@@ -262,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Is The Maximum Number Of Times It’s Okay For Your Partner To Call You At Work"
     },
     {
@@ -299,6 +301,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something An Adult Might Take Lessons To Learn How To Do."
     },
     {
@@ -332,6 +335,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That Might Pester You On A Camping Trip."
     }
   ],

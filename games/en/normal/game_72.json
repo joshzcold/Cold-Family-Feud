@@ -235,6 +235,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Good Place To Put Your Hands While Kissing Someone."
     },
     {
@@ -272,6 +273,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Surgeon Keeps Nearby When He Operates"
     },
     {
@@ -309,6 +311,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Piece Of Information You’d Be Surprised To Find On Someone’s Business Card."
     },
     {
@@ -346,6 +349,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Fairy Tale Character In Shrek"
     }
   ],

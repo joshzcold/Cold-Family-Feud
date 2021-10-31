@@ -250,6 +250,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Animal From A Comic Strip."
     },
     {
@@ -275,6 +276,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Somewhere That Parents Can’t Wait For Their Kids To Go"
     },
     {
@@ -300,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That’s Essential To Creating A Romantic Atmosphere At Home."
     },
     {
@@ -321,6 +324,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something People Worry About When Speaking In Front Of A Group"
     }
   ],

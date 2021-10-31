@@ -210,6 +210,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place It Would Be Strange To Go If You Didn’t Have Kids"
     },
     {
@@ -235,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Find Out About A City That Would Make You Change Your Plans To Visit."
     },
     {
@@ -260,6 +262,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Teens Should Have To Promise Never To Do Before Getting A Cell Phone."
     },
     {
@@ -293,6 +296,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Word Or Short Phrase That Begins With The Word “High.”"
     }
   ],

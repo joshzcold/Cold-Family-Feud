@@ -263,6 +263,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Profession Would You Want Mate To Have Useful House"
     },
     {
@@ -288,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If the North Pole gave guided tours,what specifically would be on the tour?"
     },
     {
@@ -317,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Would You Prefer To Have Less Of"
     },
     {
@@ -342,6 +345,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Occupation That You Hope Is Great At Their Job 100% Of The Time."
     }
   ],

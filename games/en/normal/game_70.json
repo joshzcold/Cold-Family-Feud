@@ -222,6 +222,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Has 2 Wheels"
     },
     {
@@ -259,6 +260,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell me the average temperature in Fahrenheit at which people set their thermostat.(NUMERIC ONLY)"
     },
     {
@@ -296,6 +298,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Mom Says That Her Kids Pretend Not To Hear."
     },
     {
@@ -329,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If A Restaurant Was Going Bankrupt, Name Something They Might Stop Giving Away Free."
     }
   ],

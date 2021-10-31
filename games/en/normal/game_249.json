@@ -200,6 +200,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Habit Impossible To Hide From Spouse"
     },
     {
@@ -225,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Which Part Of A Newspaper Would A Teenager Likely Read First?"
     },
     {
@@ -254,6 +256,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Someone Who’s Known For Inventing Something"
     },
     {
@@ -287,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where A Couple Should Never Fight."
     }
   ],

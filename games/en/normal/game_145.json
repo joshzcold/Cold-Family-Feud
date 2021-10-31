@@ -248,6 +248,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason Why Someone Might Miss Their Exit While Driving On A Freeway."
     },
     {
@@ -281,6 +282,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You’d Be Nervous To Do As An Actress For Fear That You’d Wind Up On A Tabloid."
     },
     {
@@ -314,6 +316,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "name A Place You’d Visit More Often If It wasn’t So Crowded There"
     },
     {
@@ -347,6 +350,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Food Do You Want To Avoid Before Kissing Someone?"
     }
   ],

@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Company Was Saving Money, Name Something That Might Not Be At The Holiday Party."
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Real Or Fictional, Name A Famous Man With Long Hair"
     },
     {
@@ -307,6 +309,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal That Might Live In A Tree"
     },
     {
@@ -344,6 +347,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Extra Something You Add To Your Mac And Cheese To Make It More Satisfying"
     }
   ],

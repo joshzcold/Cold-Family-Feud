@@ -240,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something Karaoke Singers Use For Help, But A Real Singer Shouldn’t Need."
     },
     {
@@ -265,6 +266,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides A Professional Cyclist, Name A Job That Involves Bicycle Riding"
     },
     {
@@ -298,6 +300,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something About Winnie The Pooh That Is Different From Real Bears."
     },
     {
@@ -323,6 +326,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Other Than Nice Houses, Name A Sign That You’re In A Well-To-Do Neighborhood."
     }
   ],

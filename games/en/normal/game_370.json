@@ -245,6 +245,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A School Supply That You Haven’t Used Since You Were Young."
     },
     {
@@ -282,6 +283,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Health Nut Order Lunch Without"
     },
     {
@@ -319,6 +321,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something A Person Does That Slows Down The Checkout Line At The Supermarket"
     },
     {
@@ -352,6 +355,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Drink That Tastes Disgusting When It’s Warm."
     }
   ],

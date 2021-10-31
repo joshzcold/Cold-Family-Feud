@@ -236,6 +236,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Part Of You That Looks Different When You’re Sick"
     },
     {
@@ -269,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Besides Jelly, What Else Goes Well With Peanut Butter"
     },
     {
@@ -302,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What Might You Find Out About A Man That Would Make You Think He Wasn’t Ready To Commit?"
     },
     {
@@ -339,6 +342,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Animal With Sharp Teeth"
     }
   ],

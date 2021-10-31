@@ -195,7 +195,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     },
     {
       "question": "When is the most popular time to go to bed for a programmer",
@@ -209,7 +210,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     },
     {
       "question": "Name something people associate with a nerd",
@@ -223,7 +225,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     },
     {
       "question": "Name a computer term that everybody knows",
@@ -237,7 +240,8 @@
       "selection": 0,
       "points": 0,
       "input": "",
-      "revealed": false
+      "revealed": false,
+      "revealed_points": false
     }
   ],
   "final_round_timers": [20, 25]

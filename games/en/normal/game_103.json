@@ -206,6 +206,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Organ In The Body That Many People Should Take Better Care Of"
     },
     {
@@ -239,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You'd Find In A Rich Persons Mansion"
     },
     {
@@ -268,6 +270,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You See At A WWE Match You’d Never See At A High School Wresting Match."
     },
     {
@@ -301,6 +304,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Product That Might Be Disposable"
     }
   ],

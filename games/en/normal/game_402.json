@@ -239,6 +239,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Buy For A Golfer."
     },
     {
@@ -276,6 +277,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "What’s The Worst Thing To Leave In Your Pants Pocket When They Go Through The Wash"
     },
     {
@@ -313,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Author Living Or Dead Who Writes The Scariest Stories."
     },
     {
@@ -346,6 +349,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Job You Wouldn’t Want To Have If You Worked At The Circus"
     }
   ],

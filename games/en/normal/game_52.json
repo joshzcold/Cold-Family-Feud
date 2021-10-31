@@ -268,6 +268,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me A Word People Use To Describe Female Babies But Not Male Babies"
     },
     {
@@ -301,6 +302,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Complaint A Customer Might Have About A Bar They’re At"
     },
     {
@@ -330,6 +332,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Makes A Startling Sound"
     },
     {
@@ -355,6 +358,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name An Activity That’s Good To Do In Moderation, But Not All The Time"
     }
   ],

@@ -259,6 +259,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Another Word For Lying That Makes It Sound More Innocent"
     },
     {
@@ -288,6 +289,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me Something You Use At Work Everyday, But Would Hate To Have To Use On Vacation"
     },
     {
@@ -317,6 +319,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Before 21, A Place A Young Person Could Hang On Friday Night"
     },
     {
@@ -342,6 +345,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Tell Me The Age Of A Woman That Is Too Young To Be Dating A 50 Year Old Man"
     }
   ],

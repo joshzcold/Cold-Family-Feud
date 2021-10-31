@@ -255,6 +255,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Vegetable That Isn't Green"
     },
     {
@@ -284,6 +285,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Might Find In A Briefcase"
     },
     {
@@ -313,6 +315,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something You Change On Or In Your Car"
     },
     {
@@ -350,6 +353,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Place Where You’d Hate To Get A Case Of The Giggles"
     }
   ],

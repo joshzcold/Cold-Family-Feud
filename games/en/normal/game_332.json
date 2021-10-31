@@ -214,6 +214,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name something you don’t want to have happen during a moment of silence."
     },
     {
@@ -239,6 +240,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If Your Purse Was Stolen, Tell Me The One Thing In It That Would Be Hardest To Replace."
     },
     {
@@ -276,6 +278,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name Something That Gets Described As Cheesy"
     },
     {
@@ -309,6 +312,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name The Part Of The Wedding That The Bride And Groom Might Do More Out Of Tradition Than Choice"
     }
   ],

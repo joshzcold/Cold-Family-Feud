@@ -196,6 +196,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Famous Aaron? (Erin?)"
     },
     {
@@ -225,6 +226,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Name A Reason A Person Might Wear A Disguise."
     },
     {
@@ -250,6 +252,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "Past Or Present, Name A U.S. President Who You Wouldn’t Mind Having A Beer With."
     },
     {
@@ -287,6 +290,7 @@
       "points": 0,
       "input": "",
       "revealed": false,
+			"revealed_points": false,
       "question": "If You Lived In Fairy Tale Land, Someone At Grocery"
     }
   ],
