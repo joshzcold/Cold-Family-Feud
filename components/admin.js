@@ -154,6 +154,11 @@ export default function Admin(props) {
       var current_round = game.rounds[game.round];
       console.debug("This is current round", current_round);
     }
+
+    const disabledButton = {
+      opacity: '50%',
+    };
+
     return (
       <div style={{ minWidth: "100vh" }}>
         <div class="min-w-full">
@@ -730,9 +735,24 @@ export default function Admin(props) {
                   </div>
 
                   {/* FINAL ROUND QUESTIONS AND ANSWERS */}
-                  {game.final_round?.map((x) => (
+                  {game.final_round?.map((x, index) => (
                     <div class="flex-col flex space-y-5 p-12 border-2">
-                      <p class="text-4xl font-bold ">{x.question}</p>
+                       <p class="text-4xl font-bold ">{x.question}</p>
+                      {game.is_final_second? (
+                       <div class="text-2xl font-bold">
+                       First round answer: {'gameCopy' in game ? game.gameCopy[index].input : ""}
+                       <button
+                           class="border-4 rounded p-3 text-2xl flex-grow float-right bg-red-200"
+                           onClick={() => {
+                             send({ action: "final_wrong" });
+                           }}
+                         >
+                           {t("wrong")}
+                         </button>
+                       </div>
+                      ):(
+                        <div></div>
+                      )}
                       <div class="flex flex-row space-x-5 pb-7">
                         {/* ANSWER SELECTION FINAL ROUND */}
                         <input
@@ -759,11 +779,14 @@ export default function Admin(props) {
                             </option>
                           ))}
                         </select>
+                        
                         {/* FINAL ROUND ANSWER BUTTON GROUP */}
                       </div>
                       <div class="flex flex-row ">
                         <button
                           class="border-4 rounded p-5 text-3xl flex-grow"
+                          disabled = {!x.revealed}
+                          style = {x.revealed ? {} : disabledButton}
                           onClick={() => {
                             x.points = 0;
                             x.revealed_points = true;
@@ -789,6 +812,8 @@ export default function Admin(props) {
 
                         <button
                           class="border-4 rounded p-5 text-3xl flex-grow"
+                          disabled = {!x.revealed}
+                          style = {x.revealed ? {} : disabledButton}
                           onClick={() => {
                             x.points = x.answers[x.selection][1];
                             x.revealed_points = true;
