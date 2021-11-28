@@ -100,7 +100,7 @@ export default function Admin(props) {
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
-          console.debug("admin reload()")
+          console.debug("admin reload()");
           location.reload();
         }
       } else {
@@ -165,26 +165,30 @@ export default function Admin(props) {
           <hr />
           <div class="flex flex-row justify-evenly p-5 ">
             {/* ADMIN BUTTONS */}
-            <div class="w-48 hover:shadow-md rounded bg-green-200 p-2 flex justify-center">
-              <a href="/game" target="_blank">
-                <button class="text-2xl">{t("Open Game Window")}</button>
-              </a>
-            </div>
-            <div class="w-48 hover:shadow-md rounded bg-blue-200 p-2 flex justify-center">
-              <a href="/new">
-                <button class="text-2xl">{t("newGame")}</button>
-              </a>
-            </div>
-            <div class="hover:shadow-md rounded bg-red-200 p-2 w-32 flex justify-center">
-              <button
-                class="text-2xl"
-                onClick={() => {
-                  props.quitGame(true);
-                }}
-              >
-                {t("Quit")}
+            <a href="/game" target="_blank">
+              <button class="text-2xl">
+                <div class="w-48 hover:shadow-md rounded bg-green-200 p-2 flex justify-center">
+                  {t("Open Game Window")}
+                </div>
               </button>
-            </div>
+            </a>
+            <a href="/new">
+              <button class="text-2xl">
+                <div class="w-48 hover:shadow-md rounded bg-blue-200 p-2 flex justify-center">
+                  {t("newGame")}
+                </div>
+              </button>
+            </a>
+            <button
+              class="text-2xl"
+              onClick={() => {
+                props.quitGame(true);
+              }}
+            >
+              <div class="hover:shadow-md rounded bg-red-200 p-2 w-32 flex justify-center">
+                {t("Quit")}
+              </div>
+            </button>
           </div>
           <div class="flex flex-row justify-evenly items-center m-5">
             <LanguageSwitcher
