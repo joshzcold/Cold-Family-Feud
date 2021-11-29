@@ -30,12 +30,13 @@ export default function Buzzer(props) {
 
   useEffect(() => {
     setInterval(() => {
-      if (ws.current.readyState === 3) {
+      if (ws.current.readyState !== 1) {
         setError(
           `lost connection to server refreshing in ${10 - refreshCounter}`
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
+          console.debug("buzzer reload()")
           location.reload();
         }
       } else {

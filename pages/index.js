@@ -3,10 +3,9 @@ import Head from "next/head";
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
-import LanguageSwitcher from "../components/language";
 import Admin from "../components/admin";
 import Buzzer from "../components/buzzer";
-import TitleNoInsert from "../components/title-no-insert";
+import Login from "../components/login";
 import cookieCutter from "cookie-cutter";
 
 export default function Home() {
@@ -22,6 +21,11 @@ export default function Home() {
 
   const ws = useRef(null);
 
+  /**
+   * send quit message to server
+   * server cleans up data on backend then
+   * tells client to clean up
+   */
   function quitGame(host = false) {
     ws.current.send(
       JSON.stringify({
@@ -33,95 +37,116 @@ export default function Home() {
     );
   }
 
-  function initalize_ws() {
-    console.log("connecting to server");
-    fetch("/api/ws").then(() => {
-      ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-      ws.current.onopen = function () {
-        console.debug("game connected to server", ws.current);
-        let session = cookieCutter.get("session");
-        if (session != null) {
-          console.debug("found user session", session);
-          ws.current.send(
-            JSON.stringify({ action: "get_back_in", session: session })
-          );
-        }
-      };
+  /**
+   * put initalization logic inside send method
+   * this is make sure the websocket connection
+   * doesn't stay idleing while a player is sitting
+   * on the main page
+   */
+  function send(message) {
+    console.debug("send", ws);
+    if (ws.current?.readyState !== 1 || !ws.current) {
+      console.log("connecting to server... new connection");
+      fetch("/api/ws").then(() => {
+        ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
+        ws.current.onopen = function () {
+          console.debug("game connected to server", ws.current);
 
-      ws.current.onmessage = function (evt) {
-        var received_msg = evt.data;
-        let json = JSON.parse(received_msg);
-        if (json.action === "host_room") {
-          console.debug("registering room with host", json.room);
-          setPlayerID(json.id);
-          setHost(true);
-          setRegisteredRoomCode(json.room);
-          setGame(json.game);
-          cookieCutter.set("session", `${json.room}:${json.id}`);
-        } else if (json.action === "join_room") {
-          console.debug("Joining room : ", json);
-          setPlayerID(json.id);
-          setRegisteredRoomCode(json.room);
-          setGame(json.game);
-          if (json.team != null) {
-            setTeam(json.team);
-          }
-        } else if (json.action === "quit") {
-          console.debug("player quit");
-          setPlayerID(null);
-          setRegisteredRoomCode(null);
-          setGame({});
-          setHost(false);
-          initalize_ws();
-        } else if (json.action === "get_back_in") {
-          console.debug("Getting back into room", json);
-          if (json.player === "host") {
-            setHost(true);
-          }
-          if (Number.isInteger(json.team)) {
-            setTeam(json.team);
-          }
-          setPlayerID(json.id);
-          setRegisteredRoomCode(json.room);
-          setGame(json.game);
-        } else if (json.action === "error") {
-          console.error(json.message);
-          setError(json.message);
-        } else {
-          console.debug("did not expect in index.js: ", json);
-        }
-      };
-    });
+          ws.current.onmessage = function (evt) {
+            var received_msg = evt.data;
+            let json = JSON.parse(received_msg);
+            if (json.action === "host_room") {
+              console.debug("registering room with host", json.room);
+              setPlayerID(json.id);
+              setHost(true);
+              setRegisteredRoomCode(json.room);
+              setGame(json.game);
+              cookieCutter.set("session", `${json.room}:${json.id}`);
+            } else if (json.action === "join_room") {
+              console.debug("Joining room : ", json);
+              setPlayerID(json.id);
+              setRegisteredRoomCode(json.room);
+              setGame(json.game);
+              if (json.team != null) {
+                setTeam(json.team);
+              }
+            } else if (json.action === "quit") {
+              console.debug("player quit");
+              setPlayerID(null);
+              setRegisteredRoomCode(null);
+              cookieCutter.set("session", "");
+              setGame({});
+              setHost(false);
+            } else if (json.action === "get_back_in") {
+              console.debug("Getting back into room", json);
+              if (json.player === "host") {
+                setHost(true);
+              }
+              if (Number.isInteger(json.team)) {
+                setTeam(json.team);
+              }
+              setPlayerID(json.id);
+              setRegisteredRoomCode(json.room);
+              setGame(json.game);
+            } else if (json.action === "error") {
+              console.error(json.message);
+              setError(json.message);
+            } else {
+              console.debug("did not expect in index.js: ", json);
+            }
+          };
+
+          ws.current.onerror = function (e) {
+            console.error(e);
+          };
+
+          ws.current.send(message);
+        };
+      });
+    } else {
+      console.debug("send", message);
+      ws.current.send(message);
+    }
   }
 
+  /**
+   * on page refresh check for existing session
+   * if it exists then tell the server to send back
+   * the game object
+   */
   useEffect(() => {
-    initalize_ws();
+    let session = cookieCutter.get("session");
+    console.debug("user session", session);
+    if (session != "" && session != null) {
+      send(JSON.stringify({ action: "get_back_in", session: session }));
+    }
   }, []);
 
   function hostRoom() {
-    console.debug(ws.current);
-    if (!ws.current.readyState == 3) {
-      initalize_ws();
-    }
-    ws.current.send(
+    send(
       JSON.stringify({
         action: "host_room",
       })
     );
   }
 
+  /**
+   * tell server to join a game
+   * do some validation on inputs
+   */
   function joinRoom() {
-    if (!ws.current.readyState == 3) {
-      initalize_ws();
-    }
+    console.log(`ws.current `, ws);
     setError("");
-    if (roomCode.length === 4) {
-      if (playerName.length > 0) {
-        ws.current.send(
+    let roomcode = document.getElementById("roomcode").value;
+    if (roomcode.length === 4) {
+      let playername = document.getElementById("playername").value;
+      if (playername.length > 0) {
+        console.debug(`roomcode: ${roomcode}, playername ${playername}`);
+        send(
           JSON.stringify({
             action: "join_room",
-            room: roomCode,
-            name: playerName,
+            room: roomcode,
+            name: playername,
           })
         );
       } else {
@@ -132,105 +157,55 @@ export default function Home() {
     }
   }
 
-  console.debug(game);
-  if (registeredRoomCode !== null && host && game != null) {
-    return (
-      <Admin
-        ws={ws}
-        game={game}
-        id={playerID}
-        setGame={setGame}
-        room={registeredRoomCode}
-        quitGame={quitGame}
-      />
-    );
-  } else if (registeredRoomCode !== null && !host && game != null) {
-    return (
-      <Buzzer
-        ws={ws}
-        game={game}
-        id={playerID}
-        setGame={setGame}
-        room={registeredRoomCode}
-        quitGame={quitGame}
-        setTeam={setTeam}
-        team={team}
-      />
-    );
-  } else {
-    return (
-      <>
-        <Head>
-          <title>{t("Family Feud")}</title>
-          <link rel="icon" href="x.svg"></link>
-        </Head>
-        <main>
-          <div class="flex flex-col items-center pt-12 space-y-5 h-screen">
-            <div class="lg:w-1/4 w-1/2">
-              <TitleNoInsert />
-            </div>
-            <div class="flex flex-col space-y-12 flex-grow items-center">
-              <div>
-                <div class="flex flex-row justify-between text-1xl px-2">
-                  <p class="uppercase">{t("room code")}</p>
-                </div>
-                <input
-                  class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase"
-                  onChange={(e) => {
-                    if (e.target.value.length <= 4) {
-                      setRoomCode(e.target.value);
-                    }
-                  }}
-                  value={roomCode}
-                  placeholder={t("4 letter room code")}
-                ></input>
-              </div>
+  console.debug(`game: ${game}`);
 
-              <div>
-                <div class="flex flex-row justify-between text-1xl px-2">
-                  <p class="uppercase">{t("name")}</p>
-                  <p>{12 - playerName.length}</p>
-                </div>
-                <input
-                  class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase"
-                  onChange={(e) => {
-                    if (e.target.value.length <= 12) {
-                      setPlayerName(e.target.value);
-                    }
-                  }}
-                  value={playerName}
-                  placeholder={t("enter your name")}
-                ></input>
-              </div>
-
-              <button
-                class="shadow-md rounded-md bg-blue-200 py-4 w-2/3 text-2xl uppercase"
-                onClick={() => {
-                  joinRoom();
-                }}
-              >
-                {t("play")}
-              </button>
-              {error !== "" ? (
-                <p class="text-2xl text-red-700">{error}</p>
-              ) : null}
-              <div class="bg-blue-400 flex-grow p-5 w-screen">
-                <div class="flex flex-row  h-full items-center justify-around">
-                  <LanguageSwitcher />
-                  <button
-                    class="shadow-md rounded-md bg-gray-300 p-4 text-2xl uppercase"
-                    onClick={() => {
-                      hostRoom();
-                    }}
-                  >
-                    {t("host")}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-      </>
-    );
+  // control what to render based on if the player is hosting
+  function getPage() {
+    if (registeredRoomCode !== null && host && game != null) {
+      return (
+        <Admin
+          ws={ws}
+          game={game}
+          id={playerID}
+          setGame={setGame}
+          room={registeredRoomCode}
+          quitGame={quitGame}
+        />
+      );
+    } else if (registeredRoomCode !== null && !host && game != null) {
+      return (
+        <Buzzer
+          ws={ws}
+          game={game}
+          id={playerID}
+          setGame={setGame}
+          room={registeredRoomCode}
+          quitGame={quitGame}
+          setTeam={setTeam}
+          team={team}
+        />
+      );
+    } else {
+      return (
+        <Login
+          setRoomCode={setRoomCode}
+          roomCode={roomCode}
+          setPlayerName={setPlayerName}
+          playerName={playerName}
+          joinRoom={joinRoom}
+          hostRoom={hostRoom}
+          error={error}
+        />
+      );
+    }
   }
+  return (
+    <>
+      <Head>
+        <title>{t("gameTradeMark")}</title>
+        <link rel="icon" href="x.svg"></link>
+      </Head>
+      <main>{getPage()}</main>
+    </>
+  );
 }
