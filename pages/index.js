@@ -163,39 +163,45 @@ export default function Home() {
   function getPage() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
-        <Admin
-          ws={ws}
-          game={game}
-          id={playerID}
-          setGame={setGame}
-          room={registeredRoomCode}
-          quitGame={quitGame}
-        />
+        <div class="lg:w-3/4 sm:w-full md:w-full ">
+          <Admin
+            ws={ws}
+            game={game}
+            id={playerID}
+            setGame={setGame}
+            room={registeredRoomCode}
+            quitGame={quitGame}
+          />
+        </div>
       );
     } else if (registeredRoomCode !== null && !host && game != null) {
       return (
-        <Buzzer
-          ws={ws}
-          game={game}
-          id={playerID}
-          setGame={setGame}
-          room={registeredRoomCode}
-          quitGame={quitGame}
-          setTeam={setTeam}
-          team={team}
-        />
+        <div class="lg:w-1/2 sm:w-full md:w-1/2 ">
+          <Buzzer
+            ws={ws}
+            game={game}
+            id={playerID}
+            setGame={setGame}
+            room={registeredRoomCode}
+            quitGame={quitGame}
+            setTeam={setTeam}
+            team={team}
+          />
+        </div>
       );
     } else {
       return (
-        <Login
-          setRoomCode={setRoomCode}
-          roomCode={roomCode}
-          setPlayerName={setPlayerName}
-          playerName={playerName}
-          joinRoom={joinRoom}
-          hostRoom={hostRoom}
-          error={error}
-        />
+        <div class="lg:w-1/2 sm:w-full md:w-1/2 ">
+          <Login
+            setRoomCode={setRoomCode}
+            roomCode={roomCode}
+            setPlayerName={setPlayerName}
+            playerName={playerName}
+            joinRoom={joinRoom}
+            hostRoom={hostRoom}
+            error={error}
+          />
+        </div>
       );
     }
   }
@@ -204,14 +210,16 @@ export default function Home() {
       <Head>
         <title>{t("Family Feud")}</title>
         <link rel="icon" href="x.png"></link>
-          <link
-            rel="preload"
-            href="/fonts/Roboto/Roboto-Regular.ttf"
-            as="font"
-            crossOrigin=""
-          />
+        <link
+          rel="preload"
+          href="/fonts/Roboto/Roboto-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
-      <main>{getPage()}</main>
+      <main>
+        <div class="flex flex-row justify-center">{getPage()}</div>
+      </main>
     </>
   );
 }

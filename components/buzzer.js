@@ -106,9 +106,6 @@ export default function Buzzer(props) {
     return (
       <div
         class="flex flex-col min-w-full"
-        style={{
-          minWidth: "100vh",
-        }}
       >
         <button
           class="shadow-md rounded-lg p-2 m-5 bg-gray-200 text-2xl font-bold uppercase"
