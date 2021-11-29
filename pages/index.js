@@ -202,7 +202,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{t("gameTradeMark")}</title>
+        <title>{t("Family Feud")}</title>
         <link rel="icon" href="x.svg"></link>
       </Head>
       <main>{getPage()}</main>
