@@ -21,7 +21,7 @@ export default function Final(props) {
         <div>
           <div class="text-center my-10">
             <p class="text-3xl">
-              {t("fastMoney")} {t("partTwo")}
+              {t("Fast Money")} {t("part two")}
             </p>
           </div>
           <div class="border-8 bg-blue-800 p-5 border-black">
@@ -97,7 +97,7 @@ export default function Final(props) {
       ) : (
         <div>
           <div class="text-center my-10">
-            <p class="text-3xl">{t("fastMoney")}</p>
+            <p class="text-3xl">{t("Fast Money")}</p>
           </div>
           <div class="border-8 bg-blue-800 p-5 border-black">
             <div class="flex space-x-6 text-white ">
