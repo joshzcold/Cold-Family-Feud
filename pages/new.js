@@ -85,7 +85,7 @@ export default function CreateGame(props) {
                     <input
                       class="p-2 border-2"
                       value={a.ans}
-                      placeholder={t("answer")}
+                      placeholder={t("Answer")}
                       onChange={(e) => {
                         a.ans = e.target.value;
                         setGame((prv) => ({ ...prv }));
@@ -122,7 +122,7 @@ export default function CreateGame(props) {
                   }}
                   class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
                 >
-                  {t("answer")} +
+                  {t("Answer")} +
                 </button>
                 <button
                   onClick={() => {
@@ -207,7 +207,7 @@ export default function CreateGame(props) {
                     <input
                       class="p-2 border-2"
                       value={a[0]}
-                      placeholder="answer"
+                      placeholder={t("Answer")}
                       onChange={(e) => {
                         a[0] = e.target.value;
                         setGame((prv) => ({ ...prv }));
@@ -264,22 +264,22 @@ export default function CreateGame(props) {
             // ERROR checking
             let error = [];
             if (game.rounds.length == 0) {
-              error.push(t("createSomeRoundsError"));
+              error.push(t("You need to create some rounds to save the game"));
             }
             game.rounds.forEach((r, index) => {
               if (r.question === "") {
-                error.push(t("roundEmptyQuestionError", { count: index + 1 }));
+                error.push(t("round number {{count, number}} has an empty question", { count: index + 1 }));
               }
               if (r.multiply === "" || r.multiply === 0 || isNaN(r.multiply)) {
-                error.push(t("roundNoPointMultiplier", { count: index + 1 }));
+                error.push(t("round number {{count, number}} has no point multipler", { count: index + 1 }));
               }
               if (r.answers.length === 0) {
-                error.push(t("roundNoAnswers", { count: index + 1 }));
+                error.push(t("round number {{count, number}} has no answers", { count: index + 1 }));
               }
               r.answers.forEach((a, aindex) => {
                 if (a.ans === "") {
                   error.push(
-                    t("roundItemEmptyAnswer", {
+                    t("round item {{count, number}} has empty answer at answer number {{answernum, number}}", {
                       count: index + 1,
                       answernum: aindex + 1,
                     })
@@ -287,7 +287,7 @@ export default function CreateGame(props) {
                 }
                 if (a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)) {
                   error.push(
-                    t("roundItemNoPoints", {
+                    t("round item {{count, number}} has {{zero, number}} points answer number {{answernum, number}}", {
                       count: index + 1,
                       zero: 0,
                       answernum: aindex + 1,
@@ -297,32 +297,12 @@ export default function CreateGame(props) {
               });
             });
 
-            // game.final_round.forEach((a, index) => {
-            //   if(a.question === ""){
-            //     error.push(t("finalRoundEmptyQuestion",{count:index+1}))
-            //   }
-
-            //   if(a.answers.length === 0){
-            //     error.push(t("finalRoundNoAnswer",{count:index+1}))
-            //    error.push(`final round item ${index + 1} has no answers` )
-            //   }
-            //   a.answers.forEach((ans, aindex) => {
-            //     if(ans[0] === ""){
-            //       error.push(t("finalItemEmptyAnswer",{count: index +1,answernum: aindex+ 1}))
-            //     }
-            //     if(ans[1] === "" || ans[1] === 0 || isNaN(ans[1]) ){
-
-            //       error.push(t("finalItemNoPoints",{count: index +1, zero: 0, answernum: aindex+ 1}))
-            //     }
-            //   })
-            // })
-
             console.log(error);
             if (error.length === 0) {
               setError("");
               downloadToFile(
                 JSON.stringify(game),
-                `${t("downloadFile")}.json`,
+                `${t("new-cold-feud")}.json`,
                 "text/json"
               );
             } else {
@@ -369,7 +349,7 @@ export default function CreateGame(props) {
           </div>
           <div class="flex flex-row">
             <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">
-              {t("loadGame")}
+              {t("Load Game")}
             </span>
             <div class="flex-grow"></div>
           </div>
