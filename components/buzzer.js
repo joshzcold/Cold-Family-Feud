@@ -74,7 +74,7 @@ export default function Buzzer(props) {
         }, 1000);
       } else if (json.action === "data") {
         if (json.data.title_text === "Change Me") {
-          json.data.title_text = t("changeMe");
+          json.data.title_text = t("Change Me");
         }
         if (json.data.teams[0].name === "Team 1") {
           json.data.teams[0].name = `${t("team")} ${t("number", { count: 1 })}`;
@@ -206,7 +206,7 @@ export default function Buzzer(props) {
                     ) : (
                       <div>
                         <TitleLogo insert={game.title_text} />
-                        <p class="flex-grow">{t("buzzerWaiting")}</p>
+                        <p class="flex-grow">{t("Waiting for host to start")}</p>
                       </div>
                     )}
                   </div>
@@ -268,7 +268,7 @@ export default function Buzzer(props) {
                       } else {
                         let errors = [];
                         props.team == null
-                          ? errors.push(t("buzzerTeamError"))
+                          ? errors.push(t("pick your team"))
                           : null;
                         setError(errors.join(` ${t("and")} `));
                       }

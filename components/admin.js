@@ -19,7 +19,7 @@ function TitleMusic() {
   const { i18n, t } = useTranslation();
   return (
     <div class="flex flex-row items-center space-x-5  p-5">
-      <h3 class="text-2xl ">{t("titleMusic")}</h3>
+      <h3 class="text-2xl ">{t("Title Music")}</h3>
       <audio controls>
         <source src="title.mp3" type="audio/mpeg" />
       </audio>
@@ -48,7 +48,7 @@ function TeamControls(props) {
         }}
       >
         {t("team")} {t("number", { count: props.team + 1 })}:{" "}
-        {props.game.teams[props.team].name} {t("getsPoints")}
+        {props.game.teams[props.team].name} {t("Gets Points")}
       </button>
       <button
         class="border-4 bg-red-200 text-2xl rounded p-10"
@@ -140,9 +140,9 @@ export default function Admin(props) {
     if (game.title) {
       current_screen = t("title");
     } else if (game.is_final_round && !game.is_final_second) {
-      current_screen = `${t("finalRound")} ${t("number", { count: 1 })}`;
+      current_screen = `${t("Final Round")} ${t("number", { count: 1 })}`;
     } else if (game.is_final_round && game.is_final_second) {
-      current_screen = `${t("finalRound")} ${t("number", { count: 2 })}`;
+      current_screen = `${t("Final Round")} ${t("number", { count: 2 })}`;
     } else {
       current_screen = `${t("round")} ${t("number", {
         count: game.round + 1,
@@ -171,7 +171,7 @@ export default function Admin(props) {
             </div>
             <div class="w-48 hover:shadow-md rounded bg-blue-200 p-2 flex justify-center">
               <a href="/new">
-                <button class="text-2xl">{t("newGame")}</button>
+                <button class="text-2xl">{t("Create New Game")}</button>
               </a>
             </div>
             <div class="hover:shadow-md rounded bg-red-200 p-2 w-32 flex justify-center">
@@ -250,7 +250,7 @@ export default function Admin(props) {
               </div>
               <div class="flex flex-row">
                 <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">
-                  {t("loadGame")}
+                  {t("Load Game")}
                 </span>
                 <div class="flex-grow" />
               </div>
@@ -263,7 +263,7 @@ export default function Admin(props) {
         <div class="pt-5">
           {/* TITLE TEXT INPUT */}
           <div class="grid grid-cols-3 gap-5 px-12 justify-items-start">
-            <p class="text-2xl">{t("titleText")}:</p>
+            <p class="text-2xl">{t("Title Text")}:</p>
             <input
               class="border-4 rounded text-4xl w-80 col-span-2"
               onChange={debounce((e) => {
@@ -271,7 +271,7 @@ export default function Admin(props) {
                 props.setGame((prv) => ({ ...prv }));
                 send({ action: "data", data: game });
               })}
-              placeholder={t("myFamilyPlaceHolder")}
+              placeholder={t("My Family")}
               defaultValue={game.title_text}
             ></input>
             <p class="text-2xl">{t("Team 1")}:</p>
@@ -284,7 +284,7 @@ export default function Admin(props) {
                   props.setGame((prv) => ({ ...prv }));
                   send({ action: "data", data: game });
                 })}
-                placeholder={t("teamNamePlaceHolder")}
+                placeholder={t("Team Name")}
                 defaultValue={game.teams[0].name}
               ></input>
               {/* TEAM 1 POINTS CHANGER */}
@@ -314,7 +314,7 @@ export default function Admin(props) {
                   props.setGame((prv) => ({ ...prv }));
                   send({ action: "data", data: game });
                 })}
-                placeholder={t("teamNamePlaceHolder")}
+                placeholder={t("Team Name")}
                 defaultValue={game.teams[1].name}
               ></input>
               {/* TEAM 2 POINTS CHANGER */}
@@ -338,7 +338,7 @@ export default function Admin(props) {
         {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
         {game.rounds == null ? (
           <p class="text-2xl text-center py-20 text-black text-opacity-50">
-            [{t("pleaseLoadGame")}]
+            [{t("Please load a game")}]
           </p>
         ) : (
           <div>
@@ -349,7 +349,7 @@ export default function Admin(props) {
                 {/* CURRENT SCREEN TEXT */}
                 <p class="text-2xl text-center pt-5">
                   {" "}
-                  {t("currentScreen")}: {current_screen}
+                  {t("Current Screen")}: {current_screen}
                 </p>
               </div>
 
@@ -363,7 +363,7 @@ export default function Admin(props) {
                     send({ action: "data", data: game });
                   }}
                 >
-                  {t("titleCard")}
+                  {t("Title Card")}
                 </button>
 
                 {/* FINAL ROUND BUTTON */}
@@ -382,7 +382,7 @@ export default function Admin(props) {
                       });
                     }}
                   >
-                    {t("finalRound")}
+                    {t("Final Round")}
                   </button>
                 ) : null}
 
@@ -433,7 +433,7 @@ export default function Admin(props) {
                     send({ action: "data", data: game });
                   }}
                 >
-                  {t("startRoundOne")}
+                  {t("Start Round 1")}
                 </button>
 
                 {/* NEXT ROUND BUTTON */}
@@ -458,7 +458,7 @@ export default function Admin(props) {
                     send({ action: "data", data: game });
                   }}
                 >
-                  {t("nextRound")}
+                  {t("Next Round")}
                 </button>
               </div>
 
@@ -541,7 +541,7 @@ export default function Admin(props) {
 
                 {/* BUZZERS AND PLAYERS */}
                 <div class="grid grid-cols-2 gap-4 p-5">
-                  <h1 class="text-2xl capitalize">{t("buzzerOrder")}</h1>
+                  <h1 class="text-2xl capitalize">{t("Buzzer Order")}</h1>
                   <h1 class="text-2xl capitalize">{t("players")}</h1>
                   <div class="border-4 h-48 overflow-y-scroll rounded p-5 text-center">
                     <div class="flex flex-col  h-full space-y-2 justify-between">
@@ -555,20 +555,20 @@ export default function Admin(props) {
                                 send({ action: "clearbuzzers" });
                               }}
                             >
-                              {t("clearBuzzers")}
+                              {t("Clear Buzzers")}
                             </button>
                             <p class="text-black text-opacity-50">
-                              {t("buzzerHelpText")}
+                              {t("Changing rounds also clears buzzers")}
                             </p>
                           </div>
                         ) : (
                           <div class="flex flex-row items-center space-x-5">
                             {/* disabled clear buzzers button */}
                             <button class="text-2xl border-4 bg-gray-300 rounded p-2">
-                              {t("clearBuzzers")}
+                              {t("Clear Buzzers")}
                             </button>
                             <p class="text-black text-opacity-50">
-                              {t("buzzerHelpText")}
+                              {t("Changing rounds also clears buzzers")}
                             </p>
                           </div>
                         )}
@@ -607,7 +607,7 @@ export default function Admin(props) {
                 <div class="p-5">
                   {/* FINAL ROUND TEXT */}
                   <h2 class="text-6xl text-center">
-                    {t("finalRound")}{" "}
+                    {t("Final Round")}{" "}
                     {t("number", { count: game.is_final_second ? "2" : "1" })}
                   </h2>
                   <div class="flex py-5 items-center flex-row justify-evenly">
@@ -636,7 +636,7 @@ export default function Admin(props) {
                           });
                         }}
                       >
-                        {t("start")} {t("finalRound")}{" "}
+                        {t("start")} {t("Final Round")}{" "}
                         {t("number", { count: 2 })}
                       </button>
                     ) : (
@@ -662,7 +662,7 @@ export default function Admin(props) {
                             });
                           }}
                         >
-                          {t("backTo")} {t("finalRound")}{" "}
+                          {t("Back To")} {t("Final Round")}{" "}
                           {t("number", { count: 1 })}
                         </button>
                         {game.is_final_second ? (
@@ -677,7 +677,7 @@ export default function Admin(props) {
                                   send({ action: "data", data: game });
                                 }}
                               >
-                                {t("revealFirstRoundAnswers")}
+                                {t("Reveal First Round Answers")}
                               </button>
                             ) : (
                               // HIDE FIRST ROUND ANSWERS
@@ -689,7 +689,7 @@ export default function Admin(props) {
                                   send({ action: "data", data: game });
                                 }}
                               >
-                                {t("hideFirstRoundAnswers")}
+                                {t("Hide First Round Answers")}
                               </button>
                             )}
                           </div>
@@ -715,7 +715,7 @@ export default function Admin(props) {
                         }
                       }}
                     >
-                      {t("startTimer")}
+                      {t("Start Timer")}
                     </button>
 
                     {/* STOP TIMER */}
@@ -725,7 +725,7 @@ export default function Admin(props) {
                         send({ action: "stop_timer" });
                       }}
                     >
-                      {t("stopTimer")}
+                      {t("Stop Timer")}
                     </button>
                   </div>
 
@@ -737,7 +737,7 @@ export default function Admin(props) {
                         {/* ANSWER SELECTION FINAL ROUND */}
                         <input
                           class="border-4 rounded text-3xl w-48 p-5 flex-grow"
-                          placeholder={t("answer")}
+                          placeholder={t("Answer")}
                           value={x.input}
                           onChange={(e) => {
                             x.input = e.target.value;
@@ -783,7 +783,7 @@ export default function Admin(props) {
                             send({ action: "final_reveal" });
                           }}
                         >
-                          {t("revealAnswer")}
+                          {t("Reveal Answer")}
                         </button>
 
                         <button

@@ -47,7 +47,7 @@ export default function Game(props) {
         console.debug(json);
         if (json.action === "data") {
           if (json.data.title_text === "Change Me") {
-            json.data.title_text = t("changeMe");
+            json.data.title_text = t("Change Me");
           }
           if (json.data.teams[0].name === "Team 1") {
             json.data.teams[0].name = `${t("team")} ${t("number", {
