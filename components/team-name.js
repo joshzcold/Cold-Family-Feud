@@ -15,7 +15,7 @@ export default function TeamName(props) {
       </div>
       <div class="flex justify-center flex-row text-center space-x-5">
         {Array(props.game.teams[props.team].mistakes).fill(
-          <img class="w-14" src="x.svg" />
+          <img class="w-14" src="x.png" />
         )}
       </div>
     </div>

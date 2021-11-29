@@ -203,7 +203,13 @@ export default function Home() {
     <>
       <Head>
         <title>{t("Family Feud")}</title>
-        <link rel="icon" href="x.svg"></link>
+        <link rel="icon" href="x.png"></link>
+          <link
+            rel="preload"
+            href="/fonts/Roboto/Roboto-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
       </Head>
       <main>{getPage()}</main>
     </>

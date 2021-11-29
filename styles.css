@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("/fonts/Roboto/Roboto-Bold.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "C059";
+  src: url("/fonts/C059/c059-bold.otf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "C059 Bold";
+  src: url("/fonts/C059/c059-bold.otf");
+  font-style: bold;
+  font-display: swap;
+}
