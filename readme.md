@@ -34,35 +34,19 @@ Features:
 
 ## Start
 
-In project root
-
-```
+```sh
 npm run build
-npm run start
+npm run start #( windows, do npm run start_windows )
+# npm run dev for working on code
 ```
 
 go to
 
-http://localhost:3000/game  
-(Click on the browser window to allow sounds... not sure why this is a requirement in chrome)
+https://localhost:3000/
 
-http://localhost:3000/admin
+Click on the "Host" button to go to the admin console
 
-Put /game on the projector/screen share.
-
-you'll want to screen share using an application that shares your audio
-
-Have your players go to http://[IP_ADDRESS]:3000/buzzer to register for the game
-
-### Update via Git
-
-```sh
-git checkout master
-git pull
-npm install
-npm run build
-npm start
-```
+Players can join your game by entering in the supplied room code.
 
 if you have trouble do `rm -r node_modules` then retry `npm install`
 
@@ -94,7 +78,6 @@ one your the monitor of your desktop or headset. Resulting in output audio getti
 ## Contributing
 
 Stack: Nextjs + React + Tail Wind css
-_(in the future I would like to move to saas instead of tailwind)_
 
 ### Add A Language
 
