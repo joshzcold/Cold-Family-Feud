@@ -176,31 +176,35 @@ export default function Home() {
       );
     } else if (registeredRoomCode !== null && !host && game != null) {
       return (
-        <div class="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
-          <Buzzer
-            ws={ws}
-            game={game}
-            id={playerID}
-            setGame={setGame}
-            room={registeredRoomCode}
-            quitGame={quitGame}
-            setTeam={setTeam}
-            team={team}
-          />
+        <div class="flex w-full justify-center">
+          <div class="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
+            <Buzzer
+              ws={ws}
+              game={game}
+              id={playerID}
+              setGame={setGame}
+              room={registeredRoomCode}
+              quitGame={quitGame}
+              setTeam={setTeam}
+              team={team}
+            />
+          </div>
         </div>
       );
     } else {
       return (
-        <div class="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
-          <Login
-            setRoomCode={setRoomCode}
-            roomCode={roomCode}
-            setPlayerName={setPlayerName}
-            playerName={playerName}
-            joinRoom={joinRoom}
-            hostRoom={hostRoom}
-            error={error}
-          />
+        <div class="flex w-full justify-center">
+          <div class="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
+            <Login
+              setRoomCode={setRoomCode}
+              roomCode={roomCode}
+              setPlayerName={setPlayerName}
+              playerName={playerName}
+              joinRoom={joinRoom}
+              hostRoom={hostRoom}
+              error={error}
+            />
+          </div>
         </div>
       );
     }
@@ -217,9 +221,7 @@ export default function Home() {
           crossOrigin=""
         />
       </Head>
-      <main>
-        <div class="flex w-full justify-center">{getPage()}</div>
-      </main>
+      <main>{getPage()}</main>
     </>
   );
 }
