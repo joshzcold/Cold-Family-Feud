@@ -49,10 +49,10 @@ export default function Home() {
       console.log("connecting to server... new connection");
       fetch("/api/ws").then(() => {
         ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-        ws.current.onopen = function () {
+        ws.current.onopen = function() {
           console.debug("game connected to server", ws.current);
 
-          ws.current.onmessage = function (evt) {
+          ws.current.onmessage = function(evt) {
             var received_msg = evt.data;
             let json = JSON.parse(received_msg);
             if (json.action === "host_room") {
@@ -96,7 +96,7 @@ export default function Home() {
             }
           };
 
-          ws.current.onerror = function (e) {
+          ws.current.onerror = function(e) {
             console.error(e);
           };
 
@@ -176,7 +176,7 @@ export default function Home() {
       );
     } else if (registeredRoomCode !== null && !host && game != null) {
       return (
-        <div class="lg:w-1/2 sm:w-full md:w-1/2 ">
+        <div class="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
           <Buzzer
             ws={ws}
             game={game}
@@ -191,7 +191,7 @@ export default function Home() {
       );
     } else {
       return (
-        <div class="lg:w-1/2 sm:w-full md:w-1/2 ">
+        <div class="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
           <Login
             setRoomCode={setRoomCode}
             roomCode={roomCode}
@@ -218,7 +218,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <div class="flex flex-row justify-center">{getPage()}</div>
+        <div class="flex w-full justify-center">{getPage()}</div>
       </main>
     </>
   );

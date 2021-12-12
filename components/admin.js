@@ -9,7 +9,7 @@ function debounce(callback, wait = 400) {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
-    timeout = setTimeout(function () {
+    timeout = setTimeout(function() {
       callback.apply(this, args);
     }, wait);
   };
@@ -239,13 +239,13 @@ export default function Admin(props) {
                       if (file) {
                         var reader = new FileReader();
                         reader.readAsText(file, "utf-8");
-                        reader.onload = function (evt) {
+                        reader.onload = function(evt) {
                           let data = JSON.parse(evt.target.result);
                           console.debug(data);
                           // TODO some error checking for invalid game data
                           send({ action: "load_game", data: data });
                         };
-                        reader.onerror = function (evt) {
+                        reader.onerror = function(evt) {
                           console.error("error reading file");
                         };
                       }
@@ -512,9 +512,8 @@ export default function Admin(props) {
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                   {current_round.answers.map((x) => (
                     <div
-                      class={`${
-                        x.trig ? "bg-gray-600" : "bg-blue-600"
-                      } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                      class={`${x.trig ? "bg-gray-600" : "bg-blue-600"
+                        } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
                         class="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
@@ -584,13 +583,13 @@ export default function Admin(props) {
                           <div class="flex flex-row space-x-5 justify-center">
                             <p>
                               {t("number", { count: i + 1 })}.{" "}
-                              {game.registeredPlayers[x.id].name}
+                              {game.registeredPlayers[x.id]?.name}
                             </p>
                             <p>
                               {t("team")}:{" "}
                               {
-                                game.teams[game.registeredPlayers[x.id].team]
-                                  .name
+                                game.teams[game.registeredPlayers[x.id]?.team]
+                                  ?.name
                               }
                             </p>
                             <p>
