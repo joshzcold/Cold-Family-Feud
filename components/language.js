@@ -25,12 +25,13 @@ export default function LanguageSwitcher(props) {
           props.onChange
             ? props.onChange
             : (e) => {
-                i18n.changeLanguage(e.target.value);
-              }
+              i18n.changeLanguage(e.target.value);
+            }
         }
       >
         <option value="en">English ({t("english")})</option>
         <option value="es">Español ({t("spanish")})</option>
+        <option value="id">Indonesian ({t("indonesian")})</option>
       </select>
     </div>
   );
