@@ -39,9 +39,8 @@ export default function Final(props) {
                     </div>
                     <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
                       <p
-                        class={`flex-grow text-2xl ${
-                          props.game.hide_first_round ? "invisible" : ""
-                        }`}
+                        class={`flex-grow text-2xl ${props.game.hide_first_round ? "invisible" : ""
+                          }`}
                       >
                         {t("number", { count: copy.points })}
                       </p>
@@ -85,10 +84,7 @@ export default function Final(props) {
             <div class="mt-6 flex justify-end">
               <div class="bg-black inline-block p-2 rounded">
                 <p class="font-bold uppercase text-3xl text-white">
-                  {t("total")} &nbsp;&nbsp;
-                  {props.game.hide_first_round
-                    ? t("number", { count: 0 })
-                    : t("number", { count: total })}
+                  {t("total")} &nbsp;&nbsp; {t("number", { count: total })}
                 </p>
               </div>
             </div>
