@@ -31,6 +31,7 @@ Features:
 - Localization support
   - English
   - Español
+  - Indonesian
 
 ## Start
 
