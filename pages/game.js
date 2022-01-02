@@ -110,7 +110,7 @@ export default function Game(props) {
           );
           refreshCounter++;
           if (refreshCounter >= 10) {
-            console.debug("game reload()")
+            console.debug("game reload()");
             location.reload();
           }
         } else {
@@ -129,7 +129,7 @@ export default function Game(props) {
     } else {
       gameSession = (
         <div class="py-12">
-          <Round game={game} />;
+          <Round game={game} />
           <QuestionBoard round={game.rounds[game.round]} />
           <div class="flex flex-row justify-around">
             <TeamName game={game} team={0} />
