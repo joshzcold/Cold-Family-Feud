@@ -369,6 +369,9 @@ export default function Admin(props) {
                   class="border-4 rounded p-10 text-2xl flex-grow"
                   onClick={() => {
                     game.title = true;
+                    game.round = 0;
+                    game.is_final_round = false;
+                    game.is_final_second = false;
                     props.setGame((prv) => ({ ...prv }));
                     send({ action: "data", data: game });
                   }}
