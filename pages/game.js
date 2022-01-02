@@ -22,7 +22,7 @@ export default function Game(props) {
   useEffect(() => {
     fetch("/api/ws").finally(() => {
       ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-      ws.current.onopen = function () {
+      ws.current.onopen = function() {
         console.log("game connected to server");
         let session = cookieCutter.get("session");
         console.debug(session);
@@ -41,7 +41,7 @@ export default function Game(props) {
         }
       };
 
-      ws.current.onmessage = function (evt) {
+      ws.current.onmessage = function(evt) {
         var received_msg = evt.data;
         let json = JSON.parse(received_msg);
         console.debug(json);
@@ -128,7 +128,7 @@ export default function Game(props) {
       gameSession = <Final game={game} timer={timer} />;
     } else {
       gameSession = (
-        <div class="py-12">
+        <div class="flex flex-col space-y-10 py-5">
           <Round game={game} />
           <QuestionBoard round={game.rounds[game.round]} />
           <div class="flex flex-row justify-around">
@@ -140,9 +140,11 @@ export default function Game(props) {
     }
 
     return (
-      <div style={{ minWidth: "100vh" }} class="min-h-full">
-        {gameSession}
-        {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
+      <div class="flex w-full justify-center">
+        <div class="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 pt-5">
+          {gameSession}
+          {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
+        </div>
       </div>
     );
   } else {
