@@ -156,7 +156,12 @@ export default function Admin(props) {
       console.debug("This is current round", current_round);
     }
     return (
-      <div style={{ minWidth: "100vh" }}>
+      <div
+        class="lg:min-w-0"
+        style={{
+          minWidth: "100vh",
+        }}
+      >
         <div class="min-h-full">
           {/* ROOM CODE TEXT */}
           <p class="text-center text-8xl p-4 font-semibold uppercase">

@@ -163,15 +163,17 @@ export default function Home() {
   function getPage() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
-        <div class="lg:w-3/4 sm:w-full md:w-full ">
-          <Admin
-            ws={ws}
-            game={game}
-            id={playerID}
-            setGame={setGame}
-            room={registeredRoomCode}
-            quitGame={quitGame}
-          />
+        <div class="lg:flex lg:flex-row lg:justify-center w-full">
+          <div class="lg:w-1/2 sm:w-full md:w-full">
+            <Admin
+              ws={ws}
+              game={game}
+              id={playerID}
+              setGame={setGame}
+              room={registeredRoomCode}
+              quitGame={quitGame}
+            />
+          </div>
         </div>
       );
     } else if (registeredRoomCode !== null && !host && game != null) {
