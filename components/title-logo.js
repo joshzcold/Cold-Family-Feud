@@ -2,9 +2,24 @@ import { useTranslation } from "react-i18next";
 import TitleNoInsert from "./title-no-insert";
 import "../i18n/i18n";
 
+function adjustTextSize(text, startingSize = 80) {
+  if (text.length > 10) {
+    console.log(text.length - 10);
+    let shrink = 0;
+
+    if (text.length - 10 >= 25) shrink = (text.length - 10) * 2.2;
+    else if (text.length - 10 >= 20) shrink = (text.length - 10) * 2.7;
+    else if (text.length - 10 >= 15) shrink = (text.length - 10) * 3.2;
+    else if (text.length - 10 >= 10) shrink = (text.length - 10) * 3.7;
+    else if (text.length - 10 >= 5) shrink = (text.length - 10) * 5.5;
+    else shrink = (text.length - 10) * 6;
+    return startingSize - shrink;
+  }
+  return startingSize;
+}
+
 export default function TitleLogo(props) {
   const { t } = useTranslation();
-  let textSize = "80px";
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
@@ -89,7 +104,7 @@ export default function TitleLogo(props) {
       gradientTransform="matrix(1.61884,0,0,1.61884,27.753445,-95.242264)"
     />
   </defs>
-  <g id="g120" transform="translate(84.547506,30.0287)">
+  <g id="g120" transform="translate(100,30.0287)">
     <g
       transform="translate(63.490999,-44.629822)"
       stroke-linejoin="round"
@@ -142,7 +157,7 @@ export default function TitleLogo(props) {
               text-align: center;
             "
             font-weight="700"
-            font-size="${textSize}"
+            font-size="${adjustTextSize(props.insert)}"
             font-family="C059"
             text-anchor="middle"
             id="tspan32"
@@ -151,6 +166,30 @@ export default function TitleLogo(props) {
           </tspan>
         </tspan>
       </text>
+    <text
+      transform="rotate(-4.3169998)"
+      id="text58"
+    >
+      <tspan
+        style="fill:url(#f);"
+        y="80.058754"
+        x="160.03912"
+        font-weight="700"
+        font-family="C059"
+        id="tspan56"
+      >
+        <tspan
+          style="fill: url(#f);"
+          font-size="${adjustTextSize(props.insert)}"
+          text-anchor="middle"
+          stroke="#000000"
+          stroke-width="1.13319"
+          id="tspan54"
+        >
+          ${props.insert}
+        </tspan>
+      </tspan>
+    </text>
       <text
         x="89.712997"
         transform="rotate(-4.3169998)"
@@ -169,7 +208,7 @@ export default function TitleLogo(props) {
               -inkscape-font-specification: 'C059 Bold';
               text-align: center;
             "
-            font-size="${textSize}"
+            font-size="${adjustTextSize(t("family"))}"
             text-anchor="middle"
             stroke-width="0.7"
             stroke-linejoin="round"
@@ -179,6 +218,7 @@ export default function TitleLogo(props) {
           </tspan>
         </tspan>
       </text>
+
       <text
         id="text50"
          transform="rotate(-4.3169998)"
@@ -192,8 +232,8 @@ export default function TitleLogo(props) {
         >
           <tspan
             text-anchor="middle"
-          font-size="${textSize}"
             stroke-width="0.7"
+            font-size="${adjustTextSize(t("feud"))}"
             stroke-linejoin="round"
             id="tspan46"
           >
@@ -208,30 +248,6 @@ export default function TitleLogo(props) {
     </g>
     <text
       transform="rotate(-4.3169998)"
-      id="text58"
-    >
-      <tspan
-        style="fill:url(#f);"
-        y="80.058754"
-        x="160.03912"
-        font-weight="700"
-        font-family="C059"
-        id="tspan56"
-      >
-        <tspan
-          style="fill: url(#f);"
-          font-size="${textSize}"
-          text-anchor="middle"
-          stroke="#000000"
-          stroke-width="1.13319"
-          id="tspan54"
-        >
-          ${props.insert}
-        </tspan>
-      </tspan>
-    </text>
-    <text
-      transform="rotate(-4.3169998)"
       id="text64"
     >
       <tspan
@@ -243,7 +259,7 @@ export default function TitleLogo(props) {
       >
         <tspan
           style="fill: url(#g);"
-          font-size="${textSize}"
+         font-size="${adjustTextSize(t("family"))}"
           text-anchor="middle"
           stroke="#000000"
           stroke-width="1.13319"
@@ -272,7 +288,7 @@ export default function TitleLogo(props) {
             text-align: center;
             fill: url(#h);
           "
-          font-size="${textSize}"
+         font-size="${adjustTextSize(t("feud"))}"
           text-anchor="middle"
           stroke-width="1.13319"
           id="tspan66"
