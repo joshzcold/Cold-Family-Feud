@@ -49,10 +49,10 @@ export default function Home() {
       console.log("connecting to server... new connection");
       fetch("/api/ws").then(() => {
         ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-        ws.current.onopen = function () {
+        ws.current.onopen = function() {
           console.debug("game connected to server", ws.current);
 
-          ws.current.onmessage = function (evt) {
+          ws.current.onmessage = function(evt) {
             var received_msg = evt.data;
             let json = JSON.parse(received_msg);
             if (json.action === "host_room") {
@@ -96,7 +96,7 @@ export default function Home() {
             }
           };
 
-          ws.current.onerror = function (e) {
+          ws.current.onerror = function(e) {
             console.error(e);
           };
 
@@ -163,39 +163,51 @@ export default function Home() {
   function getPage() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
-        <Admin
-          ws={ws}
-          game={game}
-          id={playerID}
-          setGame={setGame}
-          room={registeredRoomCode}
-          quitGame={quitGame}
-        />
+        <div class="lg:flex lg:flex-row lg:justify-center w-full">
+          <div class="lg:w-1/2 sm:w-full md:w-full">
+            <Admin
+              ws={ws}
+              game={game}
+              id={playerID}
+              setGame={setGame}
+              room={registeredRoomCode}
+              quitGame={quitGame}
+            />
+          </div>
+        </div>
       );
     } else if (registeredRoomCode !== null && !host && game != null) {
       return (
-        <Buzzer
-          ws={ws}
-          game={game}
-          id={playerID}
-          setGame={setGame}
-          room={registeredRoomCode}
-          quitGame={quitGame}
-          setTeam={setTeam}
-          team={team}
-        />
+        <div class="flex w-full justify-center">
+          <div class="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
+            <Buzzer
+              ws={ws}
+              game={game}
+              id={playerID}
+              setGame={setGame}
+              room={registeredRoomCode}
+              quitGame={quitGame}
+              setTeam={setTeam}
+              team={team}
+            />
+          </div>
+        </div>
       );
     } else {
       return (
-        <Login
-          setRoomCode={setRoomCode}
-          roomCode={roomCode}
-          setPlayerName={setPlayerName}
-          playerName={playerName}
-          joinRoom={joinRoom}
-          hostRoom={hostRoom}
-          error={error}
-        />
+        <div class="flex w-full justify-center">
+          <div class="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
+            <Login
+              setRoomCode={setRoomCode}
+              roomCode={roomCode}
+              setPlayerName={setPlayerName}
+              playerName={playerName}
+              joinRoom={joinRoom}
+              hostRoom={hostRoom}
+              error={error}
+            />
+          </div>
+        </div>
       );
     }
   }
@@ -204,12 +216,17 @@ export default function Home() {
       <Head>
         <title>{t("Family Feud")}</title>
         <link rel="icon" href="x.png"></link>
-          <link
-            rel="preload"
-            href="/fonts/Roboto/Roboto-Regular.ttf"
-            as="font"
-            crossOrigin=""
-          />
+        <meta name="author" content="Joshua Cold" />
+        <meta
+          name="description"
+          content="Free to play open source family feud game. Host your own custom created family feud games with built in online buzzers, timers and admin controls. Visit https://github.com/joshzcold/Cold-Family-Feud to check out the source code and contribute."
+        />
+        <link
+          rel="preload"
+          href="/fonts/Roboto/Roboto-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <main>{getPage()}</main>
     </>

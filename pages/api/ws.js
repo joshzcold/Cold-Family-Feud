@@ -97,11 +97,11 @@ const ioHandler = (req, res) => {
       point_tracker: [],
       is_final_round: false,
       is_final_second: false,
-      hide_first_round: true,
+      hide_first_round: false,
       round: 0,
     };
 
-    wss.broadcast = function (room, data) {
+    wss.broadcast = function(room, data) {
       if (rooms[room]) {
         Object.keys(rooms[room].connections).forEach((rp) => {
           rooms[room].connections[rp].send(data);
@@ -169,7 +169,9 @@ const ioHandler = (req, res) => {
             game.round = 0;
             game.title = true;
             game.rounds = message.data.rounds;
+            // clone the final round so we can store data about the second final round
             game.final_round = message.data.final_round;
+            game.final_round_2 = message.data.final_round;
             game.gameCopy = [];
             game.final_round_timers = message.data.final_round_timers;
             game.point_tracker = new Array(message.data.rounds.length).fill(0);
@@ -390,7 +392,7 @@ const ioHandler = (req, res) => {
             glob(
               `**/*.json`,
               { cwd: `games/${message.data}/` },
-              function (err, files) {
+              function(err, files) {
                 // files is an array of filenames.
                 // If the `nonull` option is set, and nothing
                 // was found, then files is ["**/*.js"]
