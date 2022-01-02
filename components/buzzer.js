@@ -186,23 +186,20 @@ export default function Buzzer(props) {
                 </div>
               </div>
             ) : (
-              <div
-                class="flex flex-col items-center min-w-full"
-                style={{
-                  fontSize: "2em",
-                }}
-              >
-                <div class="flex flex-col space-y-12 min-w-full">
-                  {game.is_final_round ? (
+              <>
+                {game.is_final_round ? (
+                  <div>
                     <Final game={game} timer={timer} />
-                  ) : (
-                    <div>
-                      <TitleLogo insert={game.title_text} />
-                      <p class="flex-grow">{t("Waiting for host to start")}</p>
-                    </div>
-                  )}
-                </div>
-              </div>
+                  </div>
+                ) : (
+                  <div>
+                    <TitleLogo insert={game.title_text} />
+                    <p class="text-3xl text-center py-12">
+                      {t("Waiting for host to start")}
+                    </p>
+                  </div>
+                )}
+              </>
             )}
           </>
         ) : (

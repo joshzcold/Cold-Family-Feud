@@ -97,7 +97,7 @@ const ioHandler = (req, res) => {
       point_tracker: [],
       is_final_round: false,
       is_final_second: false,
-      hide_first_round: true,
+      hide_first_round: false,
       round: 0,
     };
 
