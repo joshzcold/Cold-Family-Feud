@@ -144,7 +144,7 @@ export default function Buzzer(props) {
                   ) : null}
                 </div>
                 {/* END Buzzer Section TODO replace with function*/}
-                <div class="flex flex-row justify-around min-w-full">
+                <div class="flex flex-row justify-between min-w-full space-x-3">
                   <TeamName game={game} team={0} />
                   <TeamName game={game} team={1} />
                 </div>
