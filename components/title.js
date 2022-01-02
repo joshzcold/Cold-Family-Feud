@@ -6,7 +6,7 @@ export default function Title(props) {
   const [titleSize, setTitleSize] = useState("10%");
 
   useEffect(() => {
-    setTimeout(setTitleSize(window.innerWidth / 2), 2000);
+    setTimeout(setTitleSize(window.innerWidth * 0.7), 2000);
   }, []);
 
   function returnTeamMates(team) {
