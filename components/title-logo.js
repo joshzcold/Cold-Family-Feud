@@ -3,24 +3,23 @@ import TitleNoInsert from "./title-no-insert";
 import "../i18n/i18n";
 
 function adjustTextSize(text, startingSize = 80) {
-  if (text.length > 10) {
-    console.log(text.length - 10);
-    let shrink = 0;
+   if (text.length > 10) {
+      let shrink = 0;
 
-    if (text.length - 10 >= 25) shrink = (text.length - 10) * 2.2;
-    else if (text.length - 10 >= 20) shrink = (text.length - 10) * 2.7;
-    else if (text.length - 10 >= 15) shrink = (text.length - 10) * 3.2;
-    else if (text.length - 10 >= 10) shrink = (text.length - 10) * 3.7;
-    else if (text.length - 10 >= 5) shrink = (text.length - 10) * 5.5;
-    else shrink = (text.length - 10) * 6;
-    return startingSize - shrink;
-  }
-  return startingSize;
+      if (text.length - 10 >= 25) shrink = (text.length - 10) * 2.2;
+      else if (text.length - 10 >= 20) shrink = (text.length - 10) * 2.7;
+      else if (text.length - 10 >= 15) shrink = (text.length - 10) * 3.2;
+      else if (text.length - 10 >= 10) shrink = (text.length - 10) * 3.7;
+      else if (text.length - 10 >= 5) shrink = (text.length - 10) * 5.5;
+      else shrink = (text.length - 10) * 6;
+      return startingSize - shrink;
+   }
+   return startingSize;
 }
 
 export default function TitleLogo(props) {
-  const { t } = useTranslation();
-  let logo = `
+   const { t } = useTranslation();
+   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -300,13 +299,13 @@ export default function TitleLogo(props) {
   </g>
 </svg>
   `;
-  return (
-    <div>
-      {props.insert.length == 0 ? (
-        <TitleNoInsert />
-      ) : (
-        <div dangerouslySetInnerHTML={{ __html: logo }} />
-      )}
-    </div>
-  );
+   return (
+      <div>
+         {props.insert.length == 0 ? (
+            <TitleNoInsert />
+         ) : (
+            <div dangerouslySetInnerHTML={{ __html: logo }} />
+         )}
+      </div>
+   );
 }

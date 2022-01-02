@@ -6,7 +6,6 @@ import "../i18n/i18n";
 
 export default function Login(props) {
   const { t } = useTranslation();
-  console.log(props.error);
   return (
     <>
       <div class="self-end">
