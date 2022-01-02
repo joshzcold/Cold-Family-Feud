@@ -6,7 +6,6 @@ function RoundPointTally(props) {
   const { t } = useTranslation();
   // start at font size 72 and get smaller as point values increase
   let size = 72 - `${props.points}`.length * 8;
-  console.log(size);
   return (
     <div
       style={{ borderWidth: 12 }}
