@@ -125,7 +125,13 @@ export default function Game(props) {
     if (game.title) {
       gameSession = <Title game={game} />;
     } else if (game.is_final_round) {
-      gameSession = <Final game={game} timer={timer} />;
+      gameSession = (
+        <div class="flex w-full justify-center">
+          <div class="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 pt-5">
+            <Final game={game} timer={timer} />
+          </div>
+        </div>
+      );
     } else {
       gameSession = (
         <div class="flex flex-col space-y-10 py-5">
@@ -140,12 +146,10 @@ export default function Game(props) {
     }
 
     return (
-      <div class="flex w-full justify-center">
-        <div class="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 pt-5">
-          {gameSession}
-          {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
-        </div>
-      </div>
+      <>
+        {gameSession}
+        {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
+      </>
     );
   } else {
     return (
