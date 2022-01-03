@@ -1,25 +1,28 @@
 import { useTranslation } from "react-i18next";
-import TitleNoInsert from "./title-no-insert";
 import "../i18n/i18n";
 
-function adjustTextSize(text, startingSize = 80) {
-   if (text.length > 10) {
-      let shrink = 0;
+function adjustTextSize(text, limit = 8, startingSize = 80) {
+  if (!text.length > 0) {
+    startingSize = 100;
+  }
+  if (text.length > limit) {
+    let shrink = 0;
 
-      if (text.length - 10 >= 25) shrink = (text.length - 10) * 2.2;
-      else if (text.length - 10 >= 20) shrink = (text.length - 10) * 2.7;
-      else if (text.length - 10 >= 15) shrink = (text.length - 10) * 3.2;
-      else if (text.length - 10 >= 10) shrink = (text.length - 10) * 3.7;
-      else if (text.length - 10 >= 5) shrink = (text.length - 10) * 5.5;
-      else shrink = (text.length - 10) * 6;
-      return startingSize - shrink;
-   }
-   return startingSize;
+    if (text.length - limit >= 25) shrink = (text.length - limit) * 2.2;
+    else if (text.length - limit >= 20) shrink = (text.length - limit) * 2.7;
+    else if (text.length - limit >= 15) shrink = (text.length - limit) * 3.2;
+    else if (text.length - limit >= 10) shrink = (text.length - limit) * 3.7;
+    else if (text.length - limit >= 5) shrink = (text.length - limit) * 5.5;
+    else shrink = (text.length - limit) * 9;
+    return startingSize - shrink;
+  }
+  return startingSize;
 }
 
 export default function TitleLogo(props) {
-   const { t } = useTranslation();
-   let logo = `
+  let hasTitle = props.insert.length > 0 ? true : false;
+  const { t } = useTranslation();
+  let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -96,9 +99,9 @@ export default function TitleLogo(props) {
       xlink:href="#b"
       id="g"
       x1="87.878998"
-      y1="149.31"
+      y1="140"
       x2="86.325996"
-      y2="126.858"
+      y2="110"
       gradientUnits="userSpaceOnUse"
       gradientTransform="matrix(1.61884,0,0,1.61884,27.753445,-95.242264)"
     />
@@ -190,13 +193,67 @@ export default function TitleLogo(props) {
       </tspan>
     </text>
       <text
+        id="text50"
+         transform="rotate(-4.3169998)"
+      >
+        <tspan
+          y="${hasTitle ? 218 : 185}"
+          font-weight="700"
+        x="155"
+          font-family="C059"
+          id="tspan48"
+        >
+          <tspan
+            text-anchor="middle"
+            stroke-width="0.7"
+            font-size="${adjustTextSize(t("feud"))}"
+            stroke-linejoin="round"
+            id="tspan46"
+          >
+            <tspan
+              id="tspan44"
+            >
+              ${t("feud")}
+            </tspan>
+          </tspan>
+        </tspan>
+      </text>
+    <text
+      stroke="#000000"
+      transform="rotate(-4.3169998)"
+      id="text70"
+    >
+      <tspan
+        y="${hasTitle ? 218 : 180}"
+        x="152.63779"
+        font-weight="700"
+        font-family="C059"
+        id="tspan68"
+      >
+        <tspan
+          style="
+            -inkscape-font-specification: 'C059 Bold';
+            text-align: center;
+            fill: url(#h);
+          "
+         font-size="${adjustTextSize(t("feud"))}"
+          text-anchor="middle"
+          stroke-width="1.13319"
+          id="tspan66"
+        >
+          ${t("feud")}
+        </tspan>
+      </tspan>
+    </text>
+
+      <text
         x="89.712997"
         transform="rotate(-4.3169998)"
         id="text42"
       >
         <tspan
           style="-inkscape-font-specification: 'C059 Bold'"
-          y="152"
+          y="${hasTitle ? 148 : 124}"
           x="158"
           font-weight="700"
           font-family="C059"
@@ -218,39 +275,12 @@ export default function TitleLogo(props) {
         </tspan>
       </text>
 
-      <text
-        id="text50"
-         transform="rotate(-4.3169998)"
-      >
-        <tspan
-          y="223"
-          font-weight="700"
-        x="155"
-          font-family="C059"
-          id="tspan48"
-        >
-          <tspan
-            text-anchor="middle"
-            stroke-width="0.7"
-            font-size="${adjustTextSize(t("feud"))}"
-            stroke-linejoin="round"
-            id="tspan46"
-          >
-            <tspan
-              id="tspan44"
-            >
-              ${t("feud")}
-            </tspan>
-          </tspan>
-        </tspan>
-      </text>
-    </g>
     <text
       transform="rotate(-4.3169998)"
       id="text64"
     >
       <tspan
-        y="148.51942"
+        y="${hasTitle ? 148 : 120}"
         x="155.30832"
         font-weight="700"
         font-family="C059"
@@ -269,43 +299,13 @@ export default function TitleLogo(props) {
         </tspan>
       </tspan>
     </text>
-    <text
-      stroke="#000000"
-      transform="rotate(-4.3169998)"
-      id="text70"
-    >
-      <tspan
-        y="218.55051"
-        x="152.63779"
-        font-weight="700"
-        font-family="C059"
-        id="tspan68"
-      >
-        <tspan
-          style="
-            -inkscape-font-specification: 'C059 Bold';
-            text-align: center;
-            fill: url(#h);
-          "
-         font-size="${adjustTextSize(t("feud"))}"
-          text-anchor="middle"
-          stroke-width="1.13319"
-          id="tspan66"
-        >
-          ${t("feud")}
-        </tspan>
-      </tspan>
-    </text>
+    </g>
   </g>
 </svg>
   `;
-   return (
-      <div>
-         {props.insert.length == 0 ? (
-            <TitleNoInsert />
-         ) : (
-            <div dangerouslySetInnerHTML={{ __html: logo }} />
-         )}
-      </div>
-   );
+  return (
+    <div>
+      <div dangerouslySetInnerHTML={{ __html: logo }} />
+    </div>
+  );
 }
