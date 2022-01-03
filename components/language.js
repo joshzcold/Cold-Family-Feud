@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function LanguageSwitcher(props) {
   const { i18n, t } = useTranslation();
   return (
-    <div class="flex flex-row space-x-5 p-2 border-2">
+    <div class="flex flex-row space-x-5">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"

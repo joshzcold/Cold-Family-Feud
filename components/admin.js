@@ -9,7 +9,7 @@ function debounce(callback, wait = 400) {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
-    timeout = setTimeout(function () {
+    timeout = setTimeout(function() {
       callback.apply(this, args);
     }, wait);
   };
@@ -68,6 +68,83 @@ function TeamControls(props) {
       </button>
     </>
   );
+}
+
+function FinalRoundButtonControls(props) {
+  const { i18n, t } = useTranslation();
+  let control_round = props.game.is_final_second
+    ? props.game.final_round_2
+    : props.game.final_round;
+  return control_round?.map((x) => (
+    <div class="flex-col flex space-y-5 p-12 border-2">
+      <p class="text-4xl font-bold ">{x.question}</p>
+      <div class="flex flex-row space-x-5 pb-7">
+        {/* ANSWER SELECTION FINAL ROUND */}
+        <input
+          class="border-4 rounded text-3xl w-48 p-5 flex-grow"
+          placeholder={t("Answer")}
+          value={x.input}
+          onChange={(e) => {
+            x.input = e.target.value;
+            props.setGame((prv) => ({ ...prv }));
+          }}
+        />
+        <select
+          value={x.selection}
+          class="border-4 rounded p-2 text-2xl flex-grow"
+          onChange={(e) => {
+            x.selection = parseInt(e.target.value);
+            props.setGame((prv) => ({ ...prv }));
+            props.send({ action: "data", data: props.game });
+          }}
+        >
+          {x.answers.map((key, index) => (
+            <option value={index}>
+              {x.answers[index][0]} {x.answers[index][1]}
+            </option>
+          ))}
+        </select>
+        {/* FINAL ROUND ANSWER BUTTON GROUP */}
+      </div>
+      <div class="flex flex-row ">
+        <button
+          class="border-4 rounded p-5 text-3xl flex-grow"
+          onClick={() => {
+            x.points = 0;
+            props.setGame((prv) => ({ ...prv }));
+            props.send({ action: "data", data: props.game });
+            props.send({ action: "final_wrong" });
+          }}
+        >
+          {t("wrong")}
+        </button>
+
+        <button
+          class="border-4 rounded p-5 text-3xl flex-grow"
+          onClick={() => {
+            x.revealed = true;
+            props.setGame((prv) => ({ ...prv }));
+            props.send({ action: "data", data: props.game });
+            props.send({ action: "final_reveal" });
+          }}
+        >
+          {t("Reveal Answer")}
+        </button>
+
+        <button
+          class="border-4 rounded p-5 text-3xl flex-grow"
+          onClick={() => {
+            x.points = x.answers[x.selection][1];
+            props.setGame((prv) => ({ ...prv }));
+            props.send({ action: "data", data: props.game });
+            props.send({ action: "final_submit" });
+          }}
+        >
+          {t("submit")}
+        </button>
+      </div>
+    </div>
+  ));
 }
 
 export default function Admin(props) {
@@ -156,8 +233,13 @@ export default function Admin(props) {
       console.debug("This is current round", current_round);
     }
     return (
-      <div style={{ minWidth: "100vh" }}>
-        <div class="min-w-full">
+      <div
+        class="lg:min-w-0"
+        style={{
+          minWidth: "100vh",
+        }}
+      >
+        <div class="min-h-full">
           {/* ROOM CODE TEXT */}
           <p class="text-center text-8xl p-4 font-semibold uppercase">
             {props.room}
@@ -239,13 +321,13 @@ export default function Admin(props) {
                       if (file) {
                         var reader = new FileReader();
                         reader.readAsText(file, "utf-8");
-                        reader.onload = function (evt) {
+                        reader.onload = function(evt) {
                           let data = JSON.parse(evt.target.result);
                           console.debug(data);
                           // TODO some error checking for invalid game data
                           send({ action: "load_game", data: data });
                         };
-                        reader.onerror = function (evt) {
+                        reader.onerror = function(evt) {
                           console.error("error reading file");
                         };
                       }
@@ -364,6 +446,9 @@ export default function Admin(props) {
                   class="border-4 rounded p-10 text-2xl flex-grow"
                   onClick={() => {
                     game.title = true;
+                    game.round = 0;
+                    game.is_final_round = false;
+                    game.is_final_second = false;
                     props.setGame((prv) => ({ ...prv }));
                     send({ action: "data", data: game });
                   }}
@@ -512,9 +597,8 @@ export default function Admin(props) {
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                   {current_round.answers.map((x) => (
                     <div
-                      class={`${
-                        x.trig ? "bg-gray-600" : "bg-blue-600"
-                      } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                      class={`${x.trig ? "bg-gray-600" : "bg-blue-600"
+                        } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
                         class="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
@@ -584,13 +668,13 @@ export default function Admin(props) {
                           <div class="flex flex-row space-x-5 justify-center">
                             <p>
                               {t("number", { count: i + 1 })}.{" "}
-                              {game.registeredPlayers[x.id].name}
+                              {game.registeredPlayers[x.id]?.name}
                             </p>
                             <p>
                               {t("team")}:{" "}
                               {
-                                game.teams[game.registeredPlayers[x.id].team]
-                                  .name
+                                game.teams[game.registeredPlayers[x.id]?.team]
+                                  ?.name
                               }
                             </p>
                             <p>
@@ -623,16 +707,7 @@ export default function Admin(props) {
                         onClick={() => {
                           console.debug(game);
                           game.is_final_second = true;
-                          game.gameCopy = JSON.parse(
-                            JSON.stringify(game.final_round)
-                          );
-                          game.final_round.forEach((rnd) => {
-                            rnd.selection = 0;
-                            rnd.points = 0;
-                            rnd.input = "";
-                            rnd.revealed = false;
-                            rnd.selection = 0;
-                          });
+                          game.hide_first_round = true;
                           props.setGame((prv) => ({ ...prv }));
                           send({ action: "data", data: game });
                           send({
@@ -651,14 +726,8 @@ export default function Admin(props) {
                           class="border-4 rounded p-5 text-3xl"
                           onClick={() => {
                             game.is_final_round = true;
+                            game.hide_first_round = false;
                             game.is_final_second = false;
-                            game.final_round.forEach((rnd, index) => {
-                              rnd.input = game.gameCopy[index]?.input;
-                              rnd.points = game.gameCopy[index]?.points;
-                              rnd.revealed = true;
-                              rnd.selection = game.gameCopy[index]?.selection;
-                            });
-                            game.gameCopy = [];
                             props.setGame((prv) => ({ ...prv }));
                             send({ action: "data", data: game });
                             send({
@@ -735,76 +804,12 @@ export default function Admin(props) {
                   </div>
 
                   {/* FINAL ROUND QUESTIONS AND ANSWERS */}
-                  {game.final_round?.map((x) => (
-                    <div class="flex-col flex space-y-5 p-12 border-2">
-                      <p class="text-4xl font-bold ">{x.question}</p>
-                      <div class="flex flex-row space-x-5 pb-7">
-                        {/* ANSWER SELECTION FINAL ROUND */}
-                        <input
-                          class="border-4 rounded text-3xl w-48 p-5 flex-grow"
-                          placeholder={t("Answer")}
-                          value={x.input}
-                          onChange={(e) => {
-                            x.input = e.target.value;
-                            props.setGame((prv) => ({ ...prv }));
-                          }}
-                        />
-                        <select
-                          value={x.selection}
-                          class="border-4 rounded p-2 text-2xl flex-grow"
-                          onChange={(e) => {
-                            x.selection = parseInt(e.target.value);
-                            props.setGame((prv) => ({ ...prv }));
-                            send({ action: "data", data: game });
-                          }}
-                        >
-                          {x.answers.map((key, index) => (
-                            <option value={index}>
-                              {x.answers[index][0]} {x.answers[index][1]}
-                            </option>
-                          ))}
-                        </select>
-                        {/* FINAL ROUND ANSWER BUTTON GROUP */}
-                      </div>
-                      <div class="flex flex-row ">
-                        <button
-                          class="border-4 rounded p-5 text-3xl flex-grow"
-                          onClick={() => {
-                            x.points = 0;
-                            props.setGame((prv) => ({ ...prv }));
-                            send({ action: "data", data: game });
-                            send({ action: "final_wrong" });
-                          }}
-                        >
-                          {t("wrong")}
-                        </button>
-
-                        <button
-                          class="border-4 rounded p-5 text-3xl flex-grow"
-                          onClick={() => {
-                            x.revealed = true;
-                            props.setGame((prv) => ({ ...prv }));
-                            send({ action: "data", data: game });
-                            send({ action: "final_reveal" });
-                          }}
-                        >
-                          {t("Reveal Answer")}
-                        </button>
-
-                        <button
-                          class="border-4 rounded p-5 text-3xl flex-grow"
-                          onClick={() => {
-                            x.points = x.answers[x.selection][1];
-                            props.setGame((prv) => ({ ...prv }));
-                            send({ action: "data", data: game });
-                            send({ action: "final_submit" });
-                          }}
-                        >
-                          {t("submit")}
-                        </button>
-                      </div>
-                    </div>
-                  ))}
+                  <FinalRoundButtonControls
+                    game={game}
+                    setGame={props.setGame}
+                    send={send}
+                    game={game}
+                  />
                 </div>
               </div>
             )}
