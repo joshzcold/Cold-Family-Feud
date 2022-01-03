@@ -2,9 +2,6 @@ import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 
 function adjustTextSize(text, limit = 8, startingSize = 80) {
-  if (!text.length > 0) {
-    startingSize = 100;
-  }
   if (text.length > limit) {
     let shrink = 0;
 
@@ -76,34 +73,31 @@ export default function TitleLogo(props) {
       gradientUnits="userSpaceOnUse"
     />
     <linearGradient
-      xlink:href="#b"
-      id="h"
-      x1="21.422001"
-      y1="208.444"
-      x2="19.037001"
-      y2="186.57001"
-      gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(1.61884,0,0,1.61884,131.41479,-120.91377)"
-    />
-    <linearGradient
-      xlink:href="#b"
       id="f"
+      xlink:href="#b"
       x1="15.48"
-      y1="124.966"
       x2="14.362"
-      y2="102.054"
+      y1="${hasTitle ? 10 : 10}"
+      y2="${hasTitle ? 60 : 60}"
       gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(1.61884,0,0,1.61884,131.41479,-120.91377)"
     />
     <linearGradient
-      xlink:href="#b"
       id="g"
-      x1="87.878998"
-      y1="140"
-      x2="86.325996"
-      y2="110"
+      xlink:href="#b"
       gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(1.61884,0,0,1.61884,27.753445,-95.242264)"
+      x1="15.48"
+      x2="14.362"
+      y1="${hasTitle ? 100 : 50}"
+      y2="${hasTitle ? 140 : 120}"
+    />
+    <linearGradient
+      id="h"
+      xlink:href="#b"
+      x1="21.422001"
+      x2="19.037001"
+      y1="${hasTitle ? 150 : 120}"
+      y2="${hasTitle ? 180 : 150}"
+      gradientUnits="userSpaceOnUse"
     />
   </defs>
   <g id="g120" transform="translate(100,30.0287)">
@@ -197,9 +191,9 @@ export default function TitleLogo(props) {
          transform="rotate(-4.3169998)"
       >
         <tspan
-          y="${hasTitle ? 218 : 185}"
+          y="${hasTitle ? 218 : 190}"
           font-weight="700"
-        x="155"
+          x="159"
           font-family="C059"
           id="tspan48"
         >
@@ -224,8 +218,8 @@ export default function TitleLogo(props) {
       id="text70"
     >
       <tspan
-        y="${hasTitle ? 218 : 180}"
-        x="152.63779"
+        y="${hasTitle ? 218 : 187}"
+        x="156"
         font-weight="700"
         font-family="C059"
         id="tspan68"
@@ -288,7 +282,7 @@ export default function TitleLogo(props) {
       >
         <tspan
           style="fill: url(#g);"
-         font-size="${adjustTextSize(t("family"))}"
+          font-size="${adjustTextSize(t("family"))}"
           text-anchor="middle"
           stroke="#000000"
           stroke-width="1.13319"
