@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import TitleNoInsert from "../components/title-no-insert";
+import TitleLogo from "../components/title-logo";
 import LanguageSwitcher from "../components/language";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
@@ -11,7 +11,7 @@ export default function Login(props) {
       <div class="self-end">
         <LanguageSwitcher />
       </div>
-      <TitleNoInsert />
+      <TitleLogo insert="" />
       <div class="flex flex-col">
         <div class="flex flex-row justify-between text-1xl px-2">
           <p class="uppercase">{t("room code")}</p>
