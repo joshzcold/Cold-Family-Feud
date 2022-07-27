@@ -14,7 +14,7 @@ export default function CreateGame(props) {
         multiply: "",
       },
     ],
-    final_round: Array.from(Array(4), (x, index) => {
+    final_round: Array.from(Array(5), (x, index) => {
       return {
         question: `${t("question")} ${t("number", { count: index + 1 })}`,
         answers: [],

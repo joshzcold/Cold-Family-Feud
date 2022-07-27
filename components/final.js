@@ -58,7 +58,7 @@ export default function Final(props) {
         <p class="text-3xl">{t("Fast Money")}</p>
       </div>
       <div
-        class="border-8 bg-blue-800 p-5 border-black rounded-3xl grid lg:grid-rows-4 lg:grid-flow-col gap-3 text-white "
+        class="border-8 bg-blue-800 p-5 border-black rounded-3xl grid lg:grid-rows-5 lg:grid-flow-col gap-3 text-white "
         style={{}}
       >
         <Answers
