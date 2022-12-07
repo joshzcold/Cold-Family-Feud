@@ -1,6 +1,9 @@
 <div align="center">
 <img src="./public/title.png" alt="title logo" width="200"/>
   
+This app is currently available at ➡ https://famf.app
+
+_(it might take a minute to load as it becomes un-suspended from render.com)_
 
 </div>
 
