@@ -422,6 +422,28 @@ export default function Admin(props) {
             </div>
           </div>
         </div>
+        {/* ADMIN CONTROLS */}
+        <div class="pt-5">
+          <p class="text-2xl">{t("settings")}</p>
+          <div class="grid grid-cols-3 gap-5 px-12 justify-items-start">
+            {/* Hide questions to players */}
+            <div>
+              <p class="text-m">{t("Hide question to players")}:</p>
+              <div class="w-80 flex-row items-center col-span-2">
+                <input
+                  class="rounded w-60"
+                  onChange={(e) => {
+                    game.settings.hide_questions = e.target.checked;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  }}
+                  type="checkbox"
+                ></input>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SHOW ERRORS TO ADMIN */}
         {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
         {game.rounds == null ? (
           <p class="text-2xl text-center py-20 text-black text-opacity-50">
@@ -587,9 +609,29 @@ export default function Admin(props) {
                     <h3 class="text-2xl flex-grow">
                       {t("number", { count: game.point_tracker[game.round] })}
                     </h3>
-                    <h3 class="text-xl">
-                      x{t("number", { count: current_round.multiply })}
-                    </h3>
+                    <div class="flex flex-row items-center space-x-5">
+                      <h3 class="text-xl">{t("multiplier")}: </h3>
+                      <div class="flex flex-row space-x-2">
+                        <h3 class="text-3xl">
+                          x
+                        </h3>
+                        <input
+                          type="number"
+                          min="1"
+                          class="p-2 border-2"
+                          value={current_round.multiply}
+                          placeholder={t("multiplier")}
+                          onChange={(e) => {
+                            let value = parseInt(e.target.value);
+                            if (value === 0) {
+                              value = 1;
+                            }
+                            current_round.multiply = value;
+                            props.setGame((prv) => ({ ...prv }));
+                          }}
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
 

@@ -106,10 +106,10 @@ export default function Game(props) {
       setInterval(() => {
         if (ws.current.readyState !== 1) {
           setError(
-            `lost connection to server refreshing in ${10 - refreshCounter}`
+            `lost connection to server refreshing in ${5 - refreshCounter}`
           );
           refreshCounter++;
-          if (refreshCounter >= 10) {
+          if (refreshCounter >= 5) {
             console.debug("game reload()");
             location.reload();
           }
