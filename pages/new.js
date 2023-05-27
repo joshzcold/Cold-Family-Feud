@@ -247,6 +247,24 @@ export default function CreateGame(props) {
               </div>
             </div>
           ))}
+          <div class="pt-5">
+            <button
+              onClick={() => {
+                game.final_round.push({
+                  question: `${t("question")} ${t("number", { count: game.final_round.length + 1 })}`,
+                  answers: [],
+                  selection: 0,
+                  points: 0,
+                  input: "",
+                  revealed: false,
+                });
+                setGame((prv) => ({ ...prv }));
+              }}
+              class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
+            >
+              {t("Question")} +
+            </button>
+          </div>
         </div>
       </div>
 
