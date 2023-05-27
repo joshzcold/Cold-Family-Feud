@@ -14,7 +14,7 @@ export default function CreateGame(props) {
         multiply: "",
       },
     ],
-    final_round: Array.from(Array(4), (x, index) => {
+    final_round: Array.from(Array(5), (x, index) => {
       return {
         question: `${t("question")} ${t("number", { count: index + 1 })}`,
         answers: [],
@@ -191,7 +191,7 @@ export default function CreateGame(props) {
           </div>
         </div>
         <div class="border-2 p-3">
-          {game.final_round.map((q) => (
+          {game.final_round.map((q, qin) => (
             <div class="flex flex-col space-y-2 pt-5">
               <input
                 class="p-2 border-2"
@@ -242,8 +242,20 @@ export default function CreateGame(props) {
                   }}
                   class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
                 >
-                  +
+                  {t("Answer")} +
                 </button>
+                <div class="pt-5">
+                  <button
+                    onClick={() => {
+
+                      game.final_round.splice(qin, 1);
+                      setGame((prv) => ({ ...prv }));
+                    }}
+                    class="hover:shadow-md rounded-md bg-red-200 px-3 py-1 text-md"
+                  >
+                    {t("Question")} -
+                  </button>
+                </div>
               </div>
             </div>
           ))}
