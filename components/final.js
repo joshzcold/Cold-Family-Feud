@@ -58,19 +58,23 @@ export default function Final(props) {
         <p class="text-3xl">{t("Fast Money")}</p>
       </div>
       <div
-        class="border-8 bg-blue-800 p-5 border-black rounded-3xl grid lg:grid-rows-4 lg:grid-flow-col gap-3 text-white "
+        class="border-8 bg-blue-800 p-5 border-black rounded-3xl grid lg:grid-flow-col gap-3 text-white "
         style={{}}
       >
-        <Answers
-          round={props.game.final_round}
-          hide={props.game.hide_first_round}
-        />
+        <div class="grid lg:grid-flow-row gap-3">
+          <Answers
+            round={props.game.final_round}
+            hide={props.game.hide_first_round}
+          />
+        </div>
         <div class="border-yellow-600 border-4 rounded-3xl bg-yellow-600 lg:hidden" />
-        <Answers
-          round={props.game.final_round_2}
-          hide={!props.game.is_final_second}
-        />
-      </div>
+        <div class="grid lg:grid-flow-row gap-3" >
+          <Answers
+            round={props.game.final_round_2}
+            hide={!props.game.is_final_second}
+          />
+        </div>
+        </div>
       <div class="my-3 flex flex-row justify-evenly items-center align-middle">
         {/* Timer */}
         <div class="bg-black inline-block p-2 rounded">
