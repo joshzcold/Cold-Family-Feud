@@ -81,7 +81,7 @@ const ioHandler = (req, res) => {
       registeredPlayers: {},
       buzzed: [],
       settings: {
-        hide_questions: false
+        hide_questions: true
       },
       teams: [
         {
