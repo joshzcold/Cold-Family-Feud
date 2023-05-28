@@ -9,7 +9,7 @@ function debounce(callback, wait = 400) {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
-    timeout = setTimeout(function() {
+    timeout = setTimeout(function () {
       callback.apply(this, args);
     }, wait);
   };
@@ -321,13 +321,13 @@ export default function Admin(props) {
                       if (file) {
                         var reader = new FileReader();
                         reader.readAsText(file, "utf-8");
-                        reader.onload = function(evt) {
+                        reader.onload = function (evt) {
                           let data = JSON.parse(evt.target.result);
                           console.debug(data);
                           // TODO some error checking for invalid game data
                           send({ action: "load_game", data: data });
                         };
-                        reader.onerror = function(evt) {
+                        reader.onerror = function (evt) {
                           console.error("error reading file");
                         };
                       }
@@ -423,24 +423,21 @@ export default function Admin(props) {
           </div>
         </div>
         {/* ADMIN CONTROLS */}
-        <div class="pt-5">
-          <p class="text-2xl">{t("settings")}</p>
-          <div class="grid grid-cols-3 gap-5 px-12 justify-items-start">
-            {/* Hide questions to players */}
-            <div>
-              <p class="text-m">{t("Hide question to players")}:</p>
-              <div class="w-80 flex-row items-center col-span-2">
-                <input
-                  class="rounded w-60"
-                  onChange={(e) => {
-                    game.settings.hide_questions = e.target.checked;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                  }}
-                  type="checkbox"
-                ></input>
-              </div>
-            </div>
+        <div class="flex flex-col">
+          <p class="text-2xl capitalize">{t("settings")}</p>
+          {/* Hide questions to players */}
+          <div class="flow flex-row space-x-5">
+            <p class="text-m normal-case">{t("Hide questions to players")}:</p>
+            <input
+              class="w-4 h-4 rounded"
+              checked={game.settings.hide_questions}
+              onChange={(e) => {
+                game.settings.hide_questions = e.target.checked;
+                props.setGame((prv) => ({ ...prv }));
+                send({ action: "data", data: game });
+              }}
+              type="checkbox"
+            ></input>
           </div>
         </div>
         {/* SHOW ERRORS TO ADMIN */}
@@ -600,37 +597,35 @@ export default function Admin(props) {
             {!game.is_final_round ? (
               // GAME BOARD CONTROLS
               <div>
-                <div class="flex flex-row justify-between space-x-5 px-10 items-center pt-5">
+                <div class="flex flex-col space-y-2 px-10 pt-5">
                   {/* QUESTION */}
                   <p class="text-3xl font-bold">{current_round.question}</p>
                   {/* POINT TRACKER */}
-                  <div class="flex flex-row border-4 p-2 items-center space-x-5">
-                    <h3 class="text-xl">{t("Points")}: </h3>
-                    <h3 class="text-2xl flex-grow">
-                      {t("number", { count: game.point_tracker[game.round] })}
-                    </h3>
-                    <div class="flex flex-row items-center space-x-5">
+                  <div class="flex flex-row border-4 p-2 space-x-5 items-center justify-between">
+                    <div class="flex flex-row space-x-5 items-center">
+                      <h3 class="text-xl">{t("Points")}: </h3>
+                      <h3 class="text-2xl flex-grow">
+                        {t("number", { count: game.point_tracker[game.round] })}
+                      </h3>
+                    </div>
+                    <div class="flex flex-row space-x-2 items-center">
                       <h3 class="text-xl">{t("multiplier")}: </h3>
-                      <div class="flex flex-row space-x-2">
-                        <h3 class="text-3xl">
-                          x
-                        </h3>
-                        <input
-                          type="number"
-                          min="1"
-                          class="p-2 border-2"
-                          value={current_round.multiply}
-                          placeholder={t("multiplier")}
-                          onChange={(e) => {
-                            let value = parseInt(e.target.value);
-                            if (value === 0) {
-                              value = 1;
-                            }
-                            current_round.multiply = value;
-                            props.setGame((prv) => ({ ...prv }));
-                          }}
-                        />
-                      </div>
+                      <h3 class="text-2xl">x</h3>
+                      <input
+                        type="number"
+                        min="1"
+                        class="p-1 border-2 w-24"
+                        value={current_round.multiply}
+                        placeholder={t("multiplier")}
+                        onChange={(e) => {
+                          let value = parseInt(e.target.value);
+                          if (value === 0) {
+                            value = 1;
+                          }
+                          current_round.multiply = value;
+                          props.setGame((prv) => ({ ...prv }));
+                        }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -639,8 +634,9 @@ export default function Admin(props) {
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                   {current_round.answers.map((x) => (
                     <div
-                      class={`${x.trig ? "bg-gray-600" : "bg-blue-600"
-                        } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                      class={`${
+                        x.trig ? "bg-gray-600" : "bg-blue-600"
+                      } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
                         class="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
