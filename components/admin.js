@@ -654,6 +654,9 @@ export default function Admin(props) {
                             game.point_tracker[game.round] =
                               game.point_tracker[game.round] -
                               x.pnt * current_round.multiply;
+                            if (game.point_tracker[game.round] < 0) {
+                              game.point_tracker[game.round] = 0;
+                            }
                             props.setGame((prv) => ({ ...prv }));
                           }
                           send({ action: "data", data: game });
