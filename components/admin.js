@@ -147,6 +147,47 @@ function FinalRoundButtonControls(props) {
   ));
 }
 
+function TitleLogoUpload() {
+  const { i18n, t } = useTranslation();
+  return (
+    <div class="flex flex-col items-center space-y-1">
+      <div class="image-upload w-6">
+        <label htmlFor="logoUpload">
+          <svg
+            class="fill-current text-gray-400 hover:text-gray-600 cursor-pointer"
+            viewBox="0 0 384 512"
+          >
+            <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
+          </svg>
+        </label>
+        <input
+          class="hidden"
+          type="file"
+          accept=".png,.jpg"
+          id="logoUpload"
+          onChange={(e) => {
+            var file = document.getElementById("logoUpload").files[0];
+            console.debug(file);
+            if (file) {
+              var reader = new FileReader();
+              reader.readAsText(file, "utf-8");
+              reader.onload = function(evt) {
+                let data = JSON.parse(evt.target.result);
+                console.debug(data);
+                send({ action: "logo_upload", data: data });
+              };
+              reader.onerror = function(evt) {
+                console.error("error reading file");
+              };
+            }
+          }}
+        />
+      </div>
+      <p class="text-xs text-gray-500">{t("logo upload")}</p>
+    </div>
+  );
+}
+
 export default function Admin(props) {
   const { i18n, t } = useTranslation();
 
@@ -348,78 +389,83 @@ export default function Admin(props) {
 
         <hr />
         <div class="pt-5 pb-5">
-          {/* TITLE TEXT INPUT */}
-          <div class="grid grid-cols-3 gap-5 px-12 justify-items-start">
-            <p class="text-2xl">{t("Title Text")}:</p>
-            <input
-              class="border-4 rounded text-4xl w-80 col-span-2"
-              onChange={debounce((e) => {
-                game.title_text = e.target.value;
-                props.setGame((prv) => ({ ...prv }));
-                send({ action: "data", data: game });
-              })}
-              placeholder={t("My Family")}
-              defaultValue={game.title_text}
-            ></input>
-            <p class="text-2xl">{t("Team 1")}:</p>
-            <div class="w-80 flex-row items-center col-span-2">
-              {/* TEAM 1 NAME CHANGER */}
-              <input
-                class="border-4 rounded text-4xl w-60"
-                onChange={debounce((e) => {
-                  game.teams[0].name = e.target.value;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                })}
-                placeholder={t("Team Name")}
-                defaultValue={game.teams[0].name}
-              ></input>
-              {/* TEAM 1 POINTS CHANGER */}
-              <input
-                type="number"
-                min="0"
-                required
-                class="border-4 text-4xl rounded text-center w-20"
-                onChange={(e) => {
-                  let number = parseInt(e.target.value);
-                  console.debug(number);
-                  isNaN(number) ? (number = 0) : null;
-                  game.teams[0].points = number;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                }}
-                value={game.teams[0].points}
-              ></input>
+          <div class="grid grid-cols-2 px-6 justify-items-auto gap-3 items-center">
+            <div class="flex flex-row justify-between space-x-5">
+              {/* TITLE TEXT INPUT */}
+              <div class="flex flex-row space-x-5">
+                <p class="text-2xl">{t("Title Text")}:</p>
+                <input
+                  class="border-4 rounded text-2xl w-44"
+                  onChange={debounce((e) => {
+                    game.title_text = e.target.value;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  })}
+                  placeholder={t("My Family")}
+                  defaultValue={game.title_text}
+                ></input>
+              </div>
             </div>
-            <p class="text-2xl">{t("Team 2")}:</p>
-            <div class="w-80 flex-row items-center col-span-2">
-              {/* TEAM 2 NAME CHANGER */}
-              <input
-                class="border-4 rounded text-4xl w-60"
-                onChange={debounce((e) => {
-                  game.teams[1].name = e.target.value;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                })}
-                placeholder={t("Team Name")}
-                defaultValue={game.teams[1].name}
-              ></input>
-              {/* TEAM 2 POINTS CHANGER */}
-              <input
-                type="number"
-                min="0"
-                required
-                class="border-4 rounded text-center text-4xl w-20"
-                onChange={(e) => {
-                  let number = parseInt(e.target.value);
-                  isNaN(number) ? (number = 0) : null;
-                  game.teams[1].points = number;
-                  props.setGame((prv) => ({ ...prv }));
-                  send({ action: "data", data: game });
-                }}
-                value={game.teams[1].points}
-              ></input>
-            </div>
+            <TitleLogoUpload />
+              <p class="text-2xl">{t("Team 1")}:</p>
+              <div class="w-80 flex-row items-center">
+                {/* TEAM 1 NAME CHANGER */}
+                <input
+                  class="border-4 rounded text-4xl w-60"
+                  onChange={debounce((e) => {
+                    game.teams[0].name = e.target.value;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  })}
+                  placeholder={t("Team Name")}
+                  defaultValue={game.teams[0].name}
+                ></input>
+                {/* TEAM 1 POINTS CHANGER */}
+                <input
+                  type="number"
+                  min="0"
+                  required
+                  class="border-4 text-4xl rounded text-center w-20"
+                  onChange={(e) => {
+                    let number = parseInt(e.target.value);
+                    console.debug(number);
+                    isNaN(number) ? (number = 0) : null;
+                    game.teams[0].points = number;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  }}
+                  value={game.teams[0].points}
+                ></input>
+              </div>
+              <p class="text-2xl">{t("Team 2")}:</p>
+              <div class="w-80 flex-row items-center">
+                {/* TEAM 2 NAME CHANGER */}
+                <input
+                  class="border-4 rounded text-4xl w-60"
+                  onChange={debounce((e) => {
+                    game.teams[1].name = e.target.value;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  })}
+                  placeholder={t("Team Name")}
+                  defaultValue={game.teams[1].name}
+                ></input>
+                {/* TEAM 2 POINTS CHANGER */}
+                <input
+                  type="number"
+                  min="0"
+                  required
+                  class="border-4 rounded text-center text-4xl w-20"
+                  onChange={(e) => {
+                    let number = parseInt(e.target.value);
+                    isNaN(number) ? (number = 0) : null;
+                    game.teams[1].points = number;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  }}
+                  value={game.teams[1].points}
+                ></input>
+              </div>
           </div>
         </div>
         <hr />
@@ -427,7 +473,7 @@ export default function Admin(props) {
         <div class="flex flex-col p-5">
           <div>
             <p class="text-xl capitalize">{t("settings")}:</p>
-            <hr class="w-24 p-1"/>
+            <hr class="w-24 p-1" />
           </div>
           <div class="grid grid-cols-2">
             {/* Hide questions to players */}
@@ -450,7 +496,7 @@ export default function Admin(props) {
               <div>
                 <p class="text-sm normal-case text-gray-500 italic">
                   {t(
-                    'hide questions on the game window and player buzzer screens'
+                    "hide questions on the game window and player buzzer screens"
                   )}
                 </p>
               </div>
