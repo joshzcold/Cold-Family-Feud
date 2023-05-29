@@ -9,7 +9,7 @@ function debounce(callback, wait = 400) {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
-    timeout = setTimeout(function () {
+    timeout = setTimeout(function() {
       callback.apply(this, args);
     }, wait);
   };
@@ -321,13 +321,13 @@ export default function Admin(props) {
                       if (file) {
                         var reader = new FileReader();
                         reader.readAsText(file, "utf-8");
-                        reader.onload = function (evt) {
+                        reader.onload = function(evt) {
                           let data = JSON.parse(evt.target.result);
                           console.debug(data);
                           // TODO some error checking for invalid game data
                           send({ action: "load_game", data: data });
                         };
-                        reader.onerror = function (evt) {
+                        reader.onerror = function(evt) {
                           console.error("error reading file");
                         };
                       }
@@ -347,7 +347,7 @@ export default function Admin(props) {
         </div>
 
         <hr />
-        <div class="pt-5">
+        <div class="pt-5 pb-5">
           {/* TITLE TEXT INPUT */}
           <div class="grid grid-cols-3 gap-5 px-12 justify-items-start">
             <p class="text-2xl">{t("Title Text")}:</p>
@@ -422,22 +422,39 @@ export default function Admin(props) {
             </div>
           </div>
         </div>
+        <hr />
         {/* ADMIN CONTROLS */}
-        <div class="flex flex-col">
-          <p class="text-2xl capitalize">{t("settings")}</p>
-          {/* Hide questions to players */}
-          <div class="flow flex-row space-x-5">
-            <p class="text-m normal-case">{t("Hide questions to players")}:</p>
-            <input
-              class="w-4 h-4 rounded"
-              checked={game.settings.hide_questions}
-              onChange={(e) => {
-                game.settings.hide_questions = e.target.checked;
-                props.setGame((prv) => ({ ...prv }));
-                send({ action: "data", data: game });
-              }}
-              type="checkbox"
-            ></input>
+        <div class="flex flex-col p-5">
+          <div>
+            <p class="text-xl capitalize">{t("settings")}:</p>
+            <hr class="w-24 p-1"/>
+          </div>
+          <div class="grid grid-cols-2">
+            {/* Hide questions to players */}
+            <div class="flex flex-col">
+              <div class="flex flex-row space-x-5 items-center">
+                <div>
+                  <p class="text-m normal-case">{t("Hide questions")}:</p>
+                </div>
+                <input
+                  class="w-4 h-4 rounded"
+                  checked={game.settings.hide_questions}
+                  onChange={(e) => {
+                    game.settings.hide_questions = e.target.checked;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  }}
+                  type="checkbox"
+                ></input>
+              </div>
+              <div>
+                <p class="text-sm normal-case text-gray-500 italic">
+                  {t(
+                    'hide questions on the game window and player buzzer screens'
+                  )}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         {/* SHOW ERRORS TO ADMIN */}
@@ -634,9 +651,8 @@ export default function Admin(props) {
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                   {current_round.answers.map((x) => (
                     <div
-                      class={`${
-                        x.trig ? "bg-gray-600" : "bg-blue-600"
-                      } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                      class={`${x.trig ? "bg-gray-600" : "bg-blue-600"
+                        } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
                         class="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
