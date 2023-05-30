@@ -9,7 +9,7 @@ function debounce(callback, wait = 400) {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
-    timeout = setTimeout(function() {
+    timeout = setTimeout(function () {
       callback.apply(this, args);
     }, wait);
   };
@@ -147,28 +147,45 @@ function FinalRoundButtonControls(props) {
   ));
 }
 
-function TitleLogoUpload(
-  props,
-  setGame,
-  setError,
-  setImageUploaded,
-  imageUploaded
-) {
+function TitleLogoUpload(props) {
+  console.log("imageUploaded " + props.imageUploaded);
   const { i18n, t } = useTranslation();
-  if (imageUploaded) {
+  if (props.imageUploaded !== "") {
     return (
-      <div>
-        <p>Image uploaded</p>
+      <div class="flex flex-row space-x-2 items-center">
+        <p class="capitalize">logo:</p>
+        <p class="text-sm  bg-gray-200 p-1 rounded-lg text-gray-600 truncate">{props.imageUploaded}</p>
         <button
-          class="text-2xl"
+          class="border-2 bg-gray-300 hover:bg-gray-500 p-1 rounded-lg"
           onClick={(e) => {
-            send({
+            props.send({
               action: "del_logo_upload",
-              code: props.room,
+              room: props.room,
             });
-            setImageUploaded(false);
+            props.setImageUploaded("");
           }}
-        ></button>
+        >
+          {/* cancel.svg */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 717 718"
+          >
+            <path
+              d="M651.22 154c98 139 85 334-40 459s-318 137-458 40c-16-12-34-26-49-40c-15-15-28-32-39-49c-98-139-86-334 39-459s319-137 459-40c16 12 33 26 48 40c15 15 29 32 40 49zm-522 345l370-370c-104-63-242-50-331 39c-90 90-102 228-39 331zm458-280l-370 369c104 63 242 50 331-39c90-90 102-227 39-330z"
+              fill="#ffffff"
+            />
+            <rect
+              x="0"
+              y="0"
+              width="717"
+              height="718"
+              fill="rgba(0, 0, 0, 0)"
+            />
+          </svg>
+        </button>
       </div>
     );
   } else {
@@ -194,22 +211,17 @@ function TitleLogoUpload(
                 const fileSize = Math.round(file.size / 1024);
                 // 2MB
                 if (fileSize > 2098) {
-                  console.error("Logo image is too large")
-                  setError(t("Logo image is too large. 4098 KB is the limit"));
+                  console.error("Logo image is too large");
+                  props.setError(
+                    t("Logo image is too large. 4098 KB is the limit")
+                  );
                   return;
                 }
-                var reader = new FileReader();
-                reader.onload = function(evt) {
-                  // send({
-                  //   action: "logo_upload",
-                  //   data: evt.target.result,
-                  //   code: props.room,
-                  // });
-                  setImageUploaded(true);
-                };
-                reader.onerror = function(evt) {
-                  console.error("error reading file");
-                };
+                props.send({
+                  action: "logo_upload",
+                  data: file,
+                });
+                props.setImageUploaded(file.name);
               }
             }}
           />
@@ -230,7 +242,7 @@ export default function Admin(props) {
   });
   const [gameSelector, setGameSelector] = useState([]);
   const [error, setError] = useState("");
-  const [imageUploaded, setImageUploaded] = useState(false);
+  const [imageUploaded, setImageUploaded] = useState("");
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
@@ -395,13 +407,13 @@ export default function Admin(props) {
                       if (file) {
                         var reader = new FileReader();
                         reader.readAsText(file, "utf-8");
-                        reader.onload = function(evt) {
+                        reader.onload = function (evt) {
                           let data = JSON.parse(evt.target.result);
                           console.debug(data);
                           // TODO some error checking for invalid game data
                           send({ action: "load_game", data: data });
                         };
-                        reader.onerror = function(evt) {
+                        reader.onerror = function (evt) {
                           console.error("error reading file");
                         };
                       }
@@ -422,7 +434,7 @@ export default function Admin(props) {
 
         <hr />
         <div class="pt-5 pb-5">
-          <div class="grid grid-cols-2 px-6 justify-items-auto gap-3 items-center">
+          <div class="grid grid-cols-2  justify-items-auto gap-3 items-center">
             <div class="flex flex-row justify-between space-x-5">
               {/* TITLE TEXT INPUT */}
               <div class="flex flex-row space-x-5">
@@ -440,17 +452,16 @@ export default function Admin(props) {
               </div>
             </div>
             <TitleLogoUpload
-              props={props}
+              send={send}
               setGame={props.setGame}
-              setError={props.setError}
+              setError={setError}
               setImageUploaded={setImageUploaded}
               imageUploaded={imageUploaded}
             />
-            <p class="text-2xl">{t("Team 1")}:</p>
             <div class="w-80 flex-row items-center">
               {/* TEAM 1 NAME CHANGER */}
               <input
-                class="border-4 rounded text-4xl w-60"
+                class="border-4 rounded text-3xl w-52"
                 onChange={debounce((e) => {
                   game.teams[0].name = e.target.value;
                   props.setGame((prv) => ({ ...prv }));
@@ -464,7 +475,7 @@ export default function Admin(props) {
                 type="number"
                 min="0"
                 required
-                class="border-4 text-4xl rounded text-center w-20"
+                class="border-4 text-3xl rounded text-center w-20"
                 onChange={(e) => {
                   let number = parseInt(e.target.value);
                   console.debug(number);
@@ -476,11 +487,10 @@ export default function Admin(props) {
                 value={game.teams[0].points}
               ></input>
             </div>
-            <p class="text-2xl">{t("Team 2")}:</p>
             <div class="w-80 flex-row items-center">
               {/* TEAM 2 NAME CHANGER */}
               <input
-                class="border-4 rounded text-4xl w-60"
+                class="border-4 rounded text-3xl w-52"
                 onChange={debounce((e) => {
                   game.teams[1].name = e.target.value;
                   props.setGame((prv) => ({ ...prv }));
@@ -494,7 +504,7 @@ export default function Admin(props) {
                 type="number"
                 min="0"
                 required
-                class="border-4 rounded text-center text-4xl w-20"
+                class="border-4 rounded text-center text-3xl w-20"
                 onChange={(e) => {
                   let number = parseInt(e.target.value);
                   isNaN(number) ? (number = 0) : null;
@@ -736,8 +746,9 @@ export default function Admin(props) {
                 <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                   {current_round.answers.map((x) => (
                     <div
-                      class={`${x.trig ? "bg-gray-600" : "bg-blue-600"
-                        } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                      class={`${
+                        x.trig ? "bg-gray-600" : "bg-blue-600"
+                      } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
                         class="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
@@ -950,7 +961,6 @@ export default function Admin(props) {
                     game={game}
                     setGame={props.setGame}
                     send={send}
-                    game={game}
                   />
                 </div>
               </div>
