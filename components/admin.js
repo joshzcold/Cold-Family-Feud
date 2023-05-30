@@ -148,13 +148,15 @@ function FinalRoundButtonControls(props) {
 }
 
 function TitleLogoUpload(props) {
-  console.log("imageUploaded " + props.imageUploaded);
   const { i18n, t } = useTranslation();
-  if (props.imageUploaded !== "") {
+  if (props.imageUploaded !== null) {
     return (
       <div class="flex flex-row space-x-2 items-center">
         <p class="capitalize">logo:</p>
-        <p class="text-sm  bg-gray-200 p-1 rounded-lg text-gray-600 truncate">{props.imageUploaded}</p>
+        <img
+          width={"150px"}
+          src={URL.createObjectURL(props.imageUploaded)}
+        />
         <button
           class="border-2 bg-gray-300 hover:bg-gray-500 p-1 rounded-lg"
           onClick={(e) => {
@@ -162,7 +164,8 @@ function TitleLogoUpload(props) {
               action: "del_logo_upload",
               room: props.room,
             });
-            props.setImageUploaded("");
+            URL.revokeObjectURL(props.imageUploaded)
+            props.setImageUploaded(null);
           }}
         >
           {/* cancel.svg */}
@@ -217,11 +220,16 @@ function TitleLogoUpload(props) {
                   );
                   return;
                 }
-                props.send({
-                  action: "logo_upload",
-                  data: file,
-                });
-                props.setImageUploaded(file.name);
+                var reader = new FileReader()
+                reader.readAsDataURL(file)
+                reader.onload = function(evt) {
+                  let data = evt.target.result
+                  props.send({
+                    action: "logo_upload",
+                    data: data
+                  });
+                  props.setImageUploaded(file);
+                }
               }
             }}
           />
@@ -242,7 +250,7 @@ export default function Admin(props) {
   });
   const [gameSelector, setGameSelector] = useState([]);
   const [error, setError] = useState("");
-  const [imageUploaded, setImageUploaded] = useState("");
+  const [imageUploaded, setImageUploaded] = useState(null)
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
