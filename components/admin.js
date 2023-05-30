@@ -147,45 +147,77 @@ function FinalRoundButtonControls(props) {
   ));
 }
 
-function TitleLogoUpload() {
+function TitleLogoUpload(
+  props,
+  setGame,
+  setError,
+  setImageUploaded,
+  imageUploaded
+) {
   const { i18n, t } = useTranslation();
-  return (
-    <div class="flex flex-col items-center space-y-1">
-      <div class="image-upload w-6">
-        <label htmlFor="logoUpload">
-          <svg
-            class="fill-current text-gray-400 hover:text-gray-600 cursor-pointer"
-            viewBox="0 0 384 512"
-          >
-            <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
-          </svg>
-        </label>
-        <input
-          class="hidden"
-          type="file"
-          accept=".png,.jpg"
-          id="logoUpload"
-          onChange={(e) => {
-            var file = document.getElementById("logoUpload").files[0];
-            console.debug(file);
-            if (file) {
-              var reader = new FileReader();
-              reader.readAsText(file, "utf-8");
-              reader.onload = function(evt) {
-                let data = JSON.parse(evt.target.result);
-                console.debug(data);
-                send({ action: "logo_upload", data: data });
-              };
-              reader.onerror = function(evt) {
-                console.error("error reading file");
-              };
-            }
+  if (imageUploaded) {
+    return (
+      <div>
+        <p>Image uploaded</p>
+        <button
+          class="text-2xl"
+          onClick={(e) => {
+            send({
+              action: "del_logo_upload",
+              code: props.room,
+            });
+            setImageUploaded(false);
           }}
-        />
+        ></button>
       </div>
-      <p class="text-xs text-gray-500">{t("logo upload")}</p>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div class="flex flex-col items-center space-y-1">
+        <div class="image-upload w-6">
+          <label htmlFor="logoUpload">
+            <svg
+              class="fill-current text-gray-400 hover:text-gray-600 cursor-pointer"
+              viewBox="0 0 384 512"
+            >
+              <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
+            </svg>
+          </label>
+          <input
+            class="hidden"
+            type="file"
+            accept="image/png, image/jpeg"
+            id="logoUpload"
+            onChange={(e) => {
+              var file = document.getElementById("logoUpload").files[0];
+              if (file) {
+                const fileSize = Math.round(file.size / 1024);
+                // 2MB
+                if (fileSize > 2098) {
+                  console.error("Logo image is too large")
+                  setError(t("Logo image is too large. 4098 KB is the limit"));
+                  return;
+                }
+                var reader = new FileReader();
+                reader.onload = function(evt) {
+                  // send({
+                  //   action: "logo_upload",
+                  //   data: evt.target.result,
+                  //   code: props.room,
+                  // });
+                  setImageUploaded(true);
+                };
+                reader.onerror = function(evt) {
+                  console.error("error reading file");
+                };
+              }
+            }}
+          />
+        </div>
+        <p class="text-xs text-gray-500">{t("logo upload")}</p>
+      </div>
+    );
+  }
 }
 
 export default function Admin(props) {
@@ -198,6 +230,7 @@ export default function Admin(props) {
   });
   const [gameSelector, setGameSelector] = useState([]);
   const [error, setError] = useState("");
+  const [imageUploaded, setImageUploaded] = useState(false);
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
@@ -406,66 +439,72 @@ export default function Admin(props) {
                 ></input>
               </div>
             </div>
-            <TitleLogoUpload />
-              <p class="text-2xl">{t("Team 1")}:</p>
-              <div class="w-80 flex-row items-center">
-                {/* TEAM 1 NAME CHANGER */}
-                <input
-                  class="border-4 rounded text-4xl w-60"
-                  onChange={debounce((e) => {
-                    game.teams[0].name = e.target.value;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                  })}
-                  placeholder={t("Team Name")}
-                  defaultValue={game.teams[0].name}
-                ></input>
-                {/* TEAM 1 POINTS CHANGER */}
-                <input
-                  type="number"
-                  min="0"
-                  required
-                  class="border-4 text-4xl rounded text-center w-20"
-                  onChange={(e) => {
-                    let number = parseInt(e.target.value);
-                    console.debug(number);
-                    isNaN(number) ? (number = 0) : null;
-                    game.teams[0].points = number;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                  }}
-                  value={game.teams[0].points}
-                ></input>
-              </div>
-              <p class="text-2xl">{t("Team 2")}:</p>
-              <div class="w-80 flex-row items-center">
-                {/* TEAM 2 NAME CHANGER */}
-                <input
-                  class="border-4 rounded text-4xl w-60"
-                  onChange={debounce((e) => {
-                    game.teams[1].name = e.target.value;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                  })}
-                  placeholder={t("Team Name")}
-                  defaultValue={game.teams[1].name}
-                ></input>
-                {/* TEAM 2 POINTS CHANGER */}
-                <input
-                  type="number"
-                  min="0"
-                  required
-                  class="border-4 rounded text-center text-4xl w-20"
-                  onChange={(e) => {
-                    let number = parseInt(e.target.value);
-                    isNaN(number) ? (number = 0) : null;
-                    game.teams[1].points = number;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                  }}
-                  value={game.teams[1].points}
-                ></input>
-              </div>
+            <TitleLogoUpload
+              props={props}
+              setGame={props.setGame}
+              setError={props.setError}
+              setImageUploaded={setImageUploaded}
+              imageUploaded={imageUploaded}
+            />
+            <p class="text-2xl">{t("Team 1")}:</p>
+            <div class="w-80 flex-row items-center">
+              {/* TEAM 1 NAME CHANGER */}
+              <input
+                class="border-4 rounded text-4xl w-60"
+                onChange={debounce((e) => {
+                  game.teams[0].name = e.target.value;
+                  props.setGame((prv) => ({ ...prv }));
+                  send({ action: "data", data: game });
+                })}
+                placeholder={t("Team Name")}
+                defaultValue={game.teams[0].name}
+              ></input>
+              {/* TEAM 1 POINTS CHANGER */}
+              <input
+                type="number"
+                min="0"
+                required
+                class="border-4 text-4xl rounded text-center w-20"
+                onChange={(e) => {
+                  let number = parseInt(e.target.value);
+                  console.debug(number);
+                  isNaN(number) ? (number = 0) : null;
+                  game.teams[0].points = number;
+                  props.setGame((prv) => ({ ...prv }));
+                  send({ action: "data", data: game });
+                }}
+                value={game.teams[0].points}
+              ></input>
+            </div>
+            <p class="text-2xl">{t("Team 2")}:</p>
+            <div class="w-80 flex-row items-center">
+              {/* TEAM 2 NAME CHANGER */}
+              <input
+                class="border-4 rounded text-4xl w-60"
+                onChange={debounce((e) => {
+                  game.teams[1].name = e.target.value;
+                  props.setGame((prv) => ({ ...prv }));
+                  send({ action: "data", data: game });
+                })}
+                placeholder={t("Team Name")}
+                defaultValue={game.teams[1].name}
+              ></input>
+              {/* TEAM 2 POINTS CHANGER */}
+              <input
+                type="number"
+                min="0"
+                required
+                class="border-4 rounded text-center text-4xl w-20"
+                onChange={(e) => {
+                  let number = parseInt(e.target.value);
+                  isNaN(number) ? (number = 0) : null;
+                  game.teams[1].points = number;
+                  props.setGame((prv) => ({ ...prv }));
+                  send({ action: "data", data: game });
+                }}
+                value={game.teams[1].points}
+              ></input>
+            </div>
           </div>
         </div>
         <hr />
