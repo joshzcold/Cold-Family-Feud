@@ -5,7 +5,7 @@ import "../i18n/i18n";
 import Players from "./Admin/players";
 import LanguageSwitcher from "./language";
 import { Buffer } from "buffer";
-import { BSON, EJSON, ObjectId } from 'bson';
+import { BSON } from "bson";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -226,15 +226,15 @@ function TitleLogoUpload(props) {
                   rawData = evt.target.result;
                   const bufferData = Buffer.from(rawData);
                   const bsonData = BSON.serialize({
-                    // whatever js Object you need
-                    file: bufferData,
+                    file: "",
                   });
                   props.send({
                     action: "logo_upload",
-                    data: bsonData,
+                    data: bsonData
                   });
                   props.setImageUploaded(file);
                 };
+                reader.readAsArrayBuffer(file);
               }
             }}
           />
@@ -262,6 +262,12 @@ export default function Admin(props) {
   let pongInterval;
 
   function send(data) {
+    data.room = props.room;
+    data.id = props.id;
+    console.debug(data);
+    ws.current.send(JSON.stringify(data));
+  }
+  function bsonSend(data) {
     data.room = props.room;
     data.id = props.id;
     console.debug(data);

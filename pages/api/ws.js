@@ -2,6 +2,7 @@ const WebSocket = require("ws");
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const glob = require("glob");
+const bson = require("bson")
 
 const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
@@ -81,7 +82,7 @@ const ioHandler = (req, res) => {
       registeredPlayers: {},
       buzzed: [],
       settings: {
-        hide_questions: true
+        hide_questions: true,
       },
       teams: [
         {
@@ -104,7 +105,7 @@ const ioHandler = (req, res) => {
       round: 0,
     };
 
-    wss.broadcast = function(room, data) {
+    wss.broadcast = function (room, data) {
       if (rooms[room]) {
         Object.keys(rooms[room].connections).forEach((rp) => {
           rooms[room].connections[rp].send(data);
@@ -149,9 +150,10 @@ const ioHandler = (req, res) => {
         ws.close();
       });
 
-      ws.on("message", function incoming(message) {
+      ws.on("message", function incoming(messageData) {
         try {
-          message = JSON.parse(message);
+          const message = JSON.parse(messageData);
+          // TODO seperate each of these into seperate functions
           if (message.action === "load_game") {
             if (message.file != null && message.lang != null) {
               console.debug(
@@ -395,7 +397,7 @@ const ioHandler = (req, res) => {
             glob(
               `**/*.json`,
               { cwd: `games/${message.data}/` },
-              function(err, files) {
+              function (err, files) {
                 // files is an array of filenames.
                 // If the `nonull` option is set, and nothing
                 // was found, then files is ["**/*.js"]
@@ -443,6 +445,8 @@ const ioHandler = (req, res) => {
               message.room,
               JSON.stringify({ action: "data", data: game })
             );
+          } else if (message.action === "logo_upload") {
+            const dataFromClient = bson.deserialize(message.data, {promoteBuffers: true}) // edited
           } else {
             // even if not specified we always expect an action
             if (message.action) {
