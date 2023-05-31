@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import Players from "./Admin/players";
 import LanguageSwitcher from "./language";
+import { Buffer } from "buffer";
+import { BSON, EJSON, ObjectId } from 'bson';
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -153,10 +155,7 @@ function TitleLogoUpload(props) {
     return (
       <div class="flex flex-row space-x-2 items-center">
         <p class="capitalize">logo:</p>
-        <img
-          width={"150px"}
-          src={URL.createObjectURL(props.imageUploaded)}
-        />
+        <img width={"150px"} src={URL.createObjectURL(props.imageUploaded)} />
         <button
           class="border-2 bg-gray-300 hover:bg-gray-500 p-1 rounded-lg"
           onClick={(e) => {
@@ -164,7 +163,7 @@ function TitleLogoUpload(props) {
               action: "del_logo_upload",
               room: props.room,
             });
-            URL.revokeObjectURL(props.imageUploaded)
+            URL.revokeObjectURL(props.imageUploaded);
             props.setImageUploaded(null);
           }}
         >
@@ -210,6 +209,7 @@ function TitleLogoUpload(props) {
             id="logoUpload"
             onChange={(e) => {
               var file = document.getElementById("logoUpload").files[0];
+
               if (file) {
                 const fileSize = Math.round(file.size / 1024);
                 // 2MB
@@ -220,16 +220,21 @@ function TitleLogoUpload(props) {
                   );
                   return;
                 }
-                var reader = new FileReader()
-                reader.readAsDataURL(file)
-                reader.onload = function(evt) {
-                  let data = evt.target.result
+                var reader = new FileReader();
+                let rawData = new ArrayBuffer();
+                reader.onload = function (evt) {
+                  rawData = evt.target.result;
+                  const bufferData = Buffer.from(rawData);
+                  const bsonData = BSON.serialize({
+                    // whatever js Object you need
+                    file: bufferData,
+                  });
                   props.send({
                     action: "logo_upload",
-                    data: data
+                    data: bsonData,
                   });
                   props.setImageUploaded(file);
-                }
+                };
               }
             }}
           />
@@ -250,7 +255,7 @@ export default function Admin(props) {
   });
   const [gameSelector, setGameSelector] = useState([]);
   const [error, setError] = useState("");
-  const [imageUploaded, setImageUploaded] = useState(null)
+  const [imageUploaded, setImageUploaded] = useState(null);
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
