@@ -27,10 +27,10 @@
     "ws": "^7.4.1"
   },
   "scripts": {
-    "dev": "node server.js",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider node server.js",
     "build": "next build",
     "dockerbuild": "docker build . -t friendlyfeud:latest",
-    "start": "NODE_ENV=production node server.js",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node server.js",
     "start_windows": "set NODE_ENV=production && node server.js",
     "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js"
   },

@@ -2,7 +2,7 @@ const WebSocket = require("ws");
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const glob = require("glob");
-const bson = require("bson")
+const bson = require("bson");
 
 const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
@@ -82,6 +82,7 @@ const ioHandler = (req, res) => {
       registeredPlayers: {},
       buzzed: [],
       settings: {
+        logo_url: null,
         hide_questions: true,
       },
       teams: [
@@ -152,7 +153,23 @@ const ioHandler = (req, res) => {
 
       ws.on("message", function incoming(messageData) {
         try {
-          const message = JSON.parse(messageData);
+          let message = {};
+          try {
+            if (Buffer.isBuffer(messageData)) {
+              message = bson.deserialize(messageData, { promoteBuffers: true });
+            } else {
+              message = JSON.parse(messageData);
+            }
+          } catch (e) {
+            console.error(e);
+            ws.send(
+              JSON.stringify({
+                action: "error",
+                message: "Error parsing data in server",
+              })
+            );
+            return;
+          }
           // TODO seperate each of these into seperate functions
           if (message.action === "load_game") {
             if (message.file != null && message.lang != null) {
@@ -446,7 +463,29 @@ const ioHandler = (req, res) => {
               JSON.stringify({ action: "data", data: game })
             );
           } else if (message.action === "logo_upload") {
-            const dataFromClient = bson.deserialize(message.data, {promoteBuffers: true}) // edited
+            let dirpath = `./public/rooms/${message.room}/`;
+            try {
+              if (!fs.existsSync(dirpath)) {
+                fs.mkdirSync(dirpath);
+              }
+              fs.writeFile(
+                dirpath + `logo.${message.mimetype}`,
+                message.data, // edited
+                "binary",
+                (err) => {
+                  if (err != null) {
+                    console.error("Error saving logo file", err);
+                  }
+                }
+              );
+            } catch (e) {
+              console.error("Error in lgoo upload", e);
+            }
+          } else if (message.action == "del_logo_upload") {
+            let path = `./public/rooms/${message.room}`;
+            if (fs.existsSync(path)) {
+              fs.rmdirSync(path, { recursive: true, force: true });
+            }
           } else {
             // even if not specified we always expect an action
             if (message.action) {

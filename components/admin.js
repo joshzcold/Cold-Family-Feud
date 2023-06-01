@@ -165,6 +165,9 @@ function TitleLogoUpload(props) {
             });
             URL.revokeObjectURL(props.imageUploaded);
             props.setImageUploaded(null);
+            props.game.settings.logo_url = null;
+            props.setGame((prv) => ({ ...prv }));
+            props.send({ action: "data", data: props.game });
           }}
         >
           {/* cancel.svg */}
@@ -205,7 +208,7 @@ function TitleLogoUpload(props) {
           <input
             class="hidden"
             type="file"
-            accept="image/png, image/jpeg"
+            accept="image/png, image/jpeg, image/gif"
             id="logoUpload"
             onChange={(e) => {
               var file = document.getElementById("logoUpload").files[0];
@@ -224,15 +227,43 @@ function TitleLogoUpload(props) {
                 let rawData = new ArrayBuffer();
                 reader.onload = function (evt) {
                   rawData = evt.target.result;
+                  var headerarr = new Uint8Array(evt.target.result).subarray(
+                    0,
+                    4
+                  );
+                  var header = "";
+                  for (var i = 0; i < headerarr.length; i++) {
+                    header += headerarr[i].toString(16);
+                  }
+                  let mimetype = "";
+                  switch (header) {
+                    case "89504e47":
+                      mimetype = "png";
+                      break;
+                    case "47494638":
+                      mimetype = "gif";
+                      break;
+                    case "ffd8ffe0":
+                    case "ffd8ffe1":
+                    case "ffd8ffe2":
+                    case "ffd8ffe3":
+                    case "ffd8ffe8":
+                      mimetype = "jpeg";
+                      break;
+                    default:
+                      return;
+                  }
+
                   const bufferData = Buffer.from(rawData);
-                  const bsonData = BSON.serialize({
-                    file: "",
-                  });
                   props.send({
                     action: "logo_upload",
-                    data: bsonData
+                    data: bufferData,
+                    mimetype: mimetype,
                   });
                   props.setImageUploaded(file);
+                  props.game.settings.logo_url = `/rooms/logos/${props.room}/logo.${mimetype}`;
+                  props.setGame((prv) => ({ ...prv }));
+                  props.send({ action: "data", data: props.game });
                 };
                 reader.readAsArrayBuffer(file);
               }
@@ -271,7 +302,7 @@ export default function Admin(props) {
     data.room = props.room;
     data.id = props.id;
     console.debug(data);
-    ws.current.send(JSON.stringify(data));
+    ws.current.send(BSON.serialize(data));
   }
 
   useEffect(() => {
@@ -471,8 +502,10 @@ export default function Admin(props) {
               </div>
             </div>
             <TitleLogoUpload
-              send={send}
+              send={bsonSend}
+              room={props.room}
               setGame={props.setGame}
+              game={game}
               setError={setError}
               setImageUploaded={setImageUploaded}
               imageUploaded={imageUploaded}
