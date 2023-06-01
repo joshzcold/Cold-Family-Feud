@@ -347,7 +347,7 @@ export default function Admin(props) {
         </div>
 
         <hr />
-        <div class="pt-5">
+        <div class="pt-5 pb-5">
           {/* TITLE TEXT INPUT */}
           <div class="grid grid-cols-3 gap-5 px-12 justify-items-start">
             <p class="text-2xl">{t("Title Text")}:</p>
@@ -422,6 +422,42 @@ export default function Admin(props) {
             </div>
           </div>
         </div>
+        <hr />
+        {/* ADMIN CONTROLS */}
+        <div class="flex flex-col p-5">
+          <div>
+            <p class="text-xl capitalize">{t("settings")}:</p>
+            <hr class="w-24 p-1"/>
+          </div>
+          <div class="grid grid-cols-2">
+            {/* Hide questions to players */}
+            <div class="flex flex-col">
+              <div class="flex flex-row space-x-5 items-center">
+                <div>
+                  <p class="text-m normal-case">{t("Hide questions")}:</p>
+                </div>
+                <input
+                  class="w-4 h-4 rounded"
+                  checked={game.settings.hide_questions}
+                  onChange={(e) => {
+                    game.settings.hide_questions = e.target.checked;
+                    props.setGame((prv) => ({ ...prv }));
+                    send({ action: "data", data: game });
+                  }}
+                  type="checkbox"
+                ></input>
+              </div>
+              <div>
+                <p class="text-sm normal-case text-gray-500 italic">
+                  {t(
+                    'hide questions on the game window and player buzzer screens'
+                  )}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SHOW ERRORS TO ADMIN */}
         {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
         {game.rounds == null ? (
           <p class="text-2xl text-center py-20 text-black text-opacity-50">
@@ -578,18 +614,37 @@ export default function Admin(props) {
             {!game.is_final_round ? (
               // GAME BOARD CONTROLS
               <div>
-                <div class="flex flex-row justify-between space-x-5 px-10 items-center pt-5">
+                <div class="flex flex-col space-y-2 px-10 pt-5">
                   {/* QUESTION */}
                   <p class="text-3xl font-bold">{current_round.question}</p>
                   {/* POINT TRACKER */}
-                  <div class="flex flex-row border-4 p-2 items-center space-x-5">
-                    <h3 class="text-xl">{t("Points")}: </h3>
-                    <h3 class="text-2xl flex-grow">
-                      {t("number", { count: game.point_tracker[game.round] })}
-                    </h3>
-                    <h3 class="text-xl">
-                      x{t("number", { count: current_round.multiply })}
-                    </h3>
+                  <div class="flex flex-row border-4 p-2 space-x-5 items-center justify-between">
+                    <div class="flex flex-row space-x-5 items-center">
+                      <h3 class="text-xl">{t("Points")}: </h3>
+                      <h3 class="text-2xl flex-grow">
+                        {t("number", { count: game.point_tracker[game.round] })}
+                      </h3>
+                    </div>
+                    <div class="flex flex-row space-x-2 items-center">
+                      <h3 class="text-xl">{t("multiplier")}: </h3>
+                      <h3 class="text-2xl">x</h3>
+                      <input
+                        type="number"
+                        min="1"
+                        class="p-1 border-2 w-24"
+                        value={current_round.multiply}
+                        placeholder={t("multiplier")}
+                        onChange={(e) => {
+                          let value = parseInt(e.target.value);
+                          if (value === 0) {
+                            value = 1;
+                          }
+                          current_round.multiply = value;
+                          props.setGame((prv) => ({ ...prv }));
+                          send({ action: "data", data: game });
+                        }}
+                      />
+                    </div>
                   </div>
                 </div>
 
@@ -616,6 +671,9 @@ export default function Admin(props) {
                             game.point_tracker[game.round] =
                               game.point_tracker[game.round] -
                               x.pnt * current_round.multiply;
+                            if (game.point_tracker[game.round] < 0) {
+                              game.point_tracker[game.round] = 0;
+                            }
                             props.setGame((prv) => ({ ...prv }));
                           }
                           send({ action: "data", data: game });

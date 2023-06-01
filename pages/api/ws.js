@@ -80,6 +80,9 @@ const ioHandler = (req, res) => {
     let game = {
       registeredPlayers: {},
       buzzed: [],
+      settings: {
+        hide_questions: true
+      },
       teams: [
         {
           name: "Team 1",
