@@ -76,6 +76,13 @@ const ioHandler = (req, res) => {
       return id;
     }
 
+    function cleanUpPublicRoomAssets(room){
+        let path = `./public/rooms/${room}`;
+        if (fs.existsSync(path)) {
+          fs.rmdirSync(path, { recursive: true, force: true });
+        }
+    }
+
     let average = (array) => array.reduce((a, b) => a + b) / array.length;
     let rooms = {};
     let game = {
@@ -138,6 +145,7 @@ const ioHandler = (req, res) => {
                 })
               );
               delete rooms[room];
+              cleanUpPublicRoomAssets(room)
             }
           }
         }
@@ -289,6 +297,7 @@ const ioHandler = (req, res) => {
                 }
               }
               delete rooms[message.room];
+              cleanUpPublicRoomAssets(message.room)
             } else {
               let interval = rooms[message.room].intervals[message.id];
               console.debug("Clear interval =>", interval);
@@ -482,10 +491,7 @@ const ioHandler = (req, res) => {
               console.error("Error in lgoo upload", e);
             }
           } else if (message.action == "del_logo_upload") {
-            let path = `./public/rooms/${message.room}`;
-            if (fs.existsSync(path)) {
-              fs.rmdirSync(path, { recursive: true, force: true });
-            }
+            cleanUpPublicRoomAssets(message.room)
           } else {
             // even if not specified we always expect an action
             if (message.action) {
