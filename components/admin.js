@@ -755,6 +755,7 @@ export default function Admin(props) {
                           }
                           current_round.multiply = value;
                           props.setGame((prv) => ({ ...prv }));
+                          send({ action: "data", data: game });
                         }}
                       />
                     </div>
