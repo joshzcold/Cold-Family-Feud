@@ -6,12 +6,10 @@ export default function Title(props) {
   const [titleSize, setTitleSize] = useState("10%");
 
   useEffect(() => {
-    if (props.game.settings.logo_url){
-
-    setTimeout(setTitleSize(window.innerWidth * 0.4), 2000);
-    }else {
-
-    setTimeout(setTitleSize(window.innerWidth * 0.7), 2000);
+    if (props.game.settings.logo_url) {
+      setTimeout(setTitleSize(window.innerWidth * 0.4), 2000);
+    } else {
+      setTimeout(setTitleSize(window.innerWidth * 0.7), 2000);
     }
   }, []);
 
@@ -40,7 +38,7 @@ export default function Title(props) {
         <div class="flex flex-col space-y-10">
           <div class="flex-grow">
             {props.game.settings.logo_url ? (
-              <img src={`${props.game.settings.logo_url}`} size={titleSize}/>
+              <img src={`${props.game.settings.logo_url}`} size={titleSize} />
             ) : (
               <TitleLogo insert={props.game.title_text} size={titleSize} />
             )}
