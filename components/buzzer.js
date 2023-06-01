@@ -22,7 +22,7 @@ export default function Buzzer(props) {
   let game = props.game;
   let ws = props.ws;
 
-  const send = function(data) {
+  const send = function (data) {
     data.room = props.room;
     data.id = props.id;
     ws.current.send(JSON.stringify(data));
@@ -193,7 +193,15 @@ export default function Buzzer(props) {
                   </div>
                 ) : (
                   <div>
-                    <TitleLogo insert={game.title_text} />
+                    {props.game.settings.logo_url ? (
+                      <img
+                        src={`${props.game.settings.logo_url}`}
+                      />
+                    ) : (
+                      <TitleLogo
+                        insert={props.game.title_text}
+                      />
+                    )}
                     <p class="text-3xl text-center py-12">
                       {t("Waiting for host to start")}
                     </p>

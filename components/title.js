@@ -6,7 +6,13 @@ export default function Title(props) {
   const [titleSize, setTitleSize] = useState("10%");
 
   useEffect(() => {
+    if (props.game.settings.logo_url){
+
+    setTimeout(setTitleSize(window.innerWidth * 0.4), 2000);
+    }else {
+
     setTimeout(setTitleSize(window.innerWidth * 0.7), 2000);
+    }
   }, []);
 
   function returnTeamMates(team) {
@@ -33,7 +39,11 @@ export default function Title(props) {
       >
         <div class="flex flex-col space-y-10">
           <div class="flex-grow">
-            <TitleLogo insert={props.game.title_text} size={titleSize} />
+            {props.game.settings.logo_url ? (
+              <img src={`${props.game.settings.logo_url}`} size={titleSize}/>
+            ) : (
+              <TitleLogo insert={props.game.title_text} size={titleSize} />
+            )}
           </div>
           <div class="flex flex-row justify-center text-center">
             <p class="text-4xl font-bold p-5 bg-blue-200 rounded">
