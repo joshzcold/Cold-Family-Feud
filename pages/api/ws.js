@@ -8,7 +8,10 @@ const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
     console.log("*First use, starting websockets");
 
-    const wss = new WebSocket.Server({ server: res.socket.server });
+    const wss = new WebSocket.Server({ 
+      server: res.socket.server,
+      maxPayload: 5120 * 1024, // 5 MB
+    });
 
     function makeRoom(length = 4) {
       var result = [];
@@ -491,7 +494,6 @@ const ioHandler = (req, res) => {
               for (var i = 0; i < headerarr.length; i++) {
                 header += headerarr[i].toString(16);
               }
-              let mimetype = "";
               switch (header) {
                 case "89504e47":
                   mimetype = "png";
