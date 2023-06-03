@@ -932,10 +932,10 @@ export default function Admin(props) {
                             {t("number", { count: 2 })}
                           </button>
                         ) : (
-                            <div class="flex py-5 items-center flex-row justify-evenly space-x-5 bg-secondary-300 text-foreground">
+                            <div class="flex py-5 items-center flex-row justify-evenly space-x-5 text-foreground">
                               {/* GO BACK TO FINAL ROUND 1 */}
                               <button
-                                class="border-4 rounded p-5 text-3xl"
+                                class="border-4 rounded p-5 text-3xl bg-secondary-300"
                                 onClick={() => {
                                   game.is_final_round = true;
                                   game.hide_first_round = false;

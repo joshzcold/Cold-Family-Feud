@@ -12,7 +12,7 @@ function Answers(props) {
       }}
     >
       <div
-        class="bg-black font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
+        class="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
         style={{ minHeight: 70, minWidth: 0 }}
       >
         {x.revealed ? (
@@ -29,7 +29,7 @@ function Answers(props) {
           </p>
         ) : null}
       </div>
-      <div class="bg-black w-16 font-extrabold uppercase flex justify-center items-center rounded">
+      <div class="bg-fastm-holder w-16 font-extrabold uppercase flex justify-center items-center rounded">
         {x.revealed ? (
           <p class={`text-2xl ${props.hide ? "invisible" : ""}`}>
             {t("number", { count: x.points })}
@@ -58,7 +58,7 @@ export default function Final(props) {
         <p class="text-3xl text-foreground">{t("Fast Money")}</p>
       </div>
       <div
-        class="border-8 bg-primary-900 p-5 border-black rounded-3xl grid lg:grid-flow-col gap-3 text-white "
+        class="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text "
         style={{}}
       >
         <div class="grid lg:grid-flow-row gap-3">
@@ -77,14 +77,14 @@ export default function Final(props) {
         </div>
       <div class="my-3 flex flex-row justify-evenly items-center align-middle">
         {/* Timer */}
-        <div class="bg-black inline-block p-2 rounded">
-          <p class="font-bold uppercase text-3xl text-white">
+        <div class="bg-fastm-holder inline-block p-2 rounded">
+          <p class="font-bold uppercase text-3xl text-fastm-text">
             {t("timer")} &nbsp;&nbsp;{t("number", { count: props.timer })}
           </p>
         </div>
         {/* Total */}
-        <div class="bg-black inline-block p-2 rounded">
-          <p class="font-bold uppercase text-3xl text-white">
+        <div class="bg-fastm-holder inline-block p-2 rounded">
+          <p class="font-bold uppercase text-3xl text-fastm-text">
             {t("total")} &nbsp;&nbsp;{t("number", { count: total })}
           </p>
         </div>

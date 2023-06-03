@@ -50,13 +50,13 @@ export default function CreateGame(props) {
             <p class="text-foreground">{t("language")}:</p>
             <LanguageSwitcher />
           </div>
-          <p class="text-3xl">{t("rounds")}</p>
+          <p class="text-3xl text-foreground">{t("rounds")}</p>
           <div class="border-2 p-3 flex flex-col space-y-3">
             {game.rounds.map((r, index) => (
               <div class="border-2 p-3 flex flex-col space-y-3">
                 <div class="flex space-x-3 flex-row">
                   <input
-                    class="p-2 border-2"
+                    class="p-2 border-2 bg-secondary-300 text-foreground"
                     value={r.question}
                     placeholder={t("question")}
                     onChange={(e) => {
@@ -67,7 +67,7 @@ export default function CreateGame(props) {
                   <input
                     type="number"
                     min="1"
-                    class="p-2 border-2"
+                    class="p-2 border-2 bg-secondary-300 text-foreground"
                     value={r.multiply}
                     placeholder={t("multiplier")}
                     onChange={(e) => {
@@ -84,7 +84,7 @@ export default function CreateGame(props) {
                   {r.answers.map((a, ain) => (
                     <div class="flex flex-row space-x-3 pb-2" key={ain}>
                       <input
-                        class="p-2 border-2"
+                        class="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a.ans}
                         placeholder={t("Answer")}
                         onChange={(e) => {
@@ -95,7 +95,7 @@ export default function CreateGame(props) {
                       <input
                         type="number"
                         min="0"
-                        class="p-2 border-2"
+                        class="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a.pnt}
                         placeholder={t("points")}
                         onChange={(e) => {
@@ -157,15 +157,15 @@ export default function CreateGame(props) {
 
         <div class="py-10 flex-col space-y-5">
           <div class="flex flex-row space-x-10 items-end">
-            <p class="text-3xl">Fast Money </p>
+            <p class="text-3xl text-foreground">Fast Money </p>
             <div>
-              <p class="text-black text-opacity-50">
+              <p class="text-secondary-900">
                 {t("timer")} {t("number", { count: 1 })}
               </p>
               <input
                 type="number"
                 min="0"
-                class="p-2 border-2"
+                class="p-2 border-2 bg-secondary-300 text-foreground"
                 value={game.final_round_timers[0]}
                 placeholder={`${t("timer")} ${t("number", { count: 1 })}`}
                 onChange={(e) => {
@@ -175,13 +175,13 @@ export default function CreateGame(props) {
               />
             </div>
             <div>
-              <p class="text-black text-opacity-50">
+              <p class="text-secondary-900">
                 {t("timer")} {t("number", { count: 2 })}
               </p>
               <input
                 type="number"
                 min="0"
-                class="p-2 border-2"
+                class="p-2 border-2 bg-secondary-300 text-foreground"
                 value={game.final_round_timers[1]}
                 placeholder={`${t("timer")} ${t("number", { count: 2 })}`}
                 onChange={(e) => {
@@ -195,7 +195,7 @@ export default function CreateGame(props) {
             {game.final_round.map((q, qin) => (
               <div class="flex flex-col space-y-2 pt-5">
                 <input
-                  class="p-2 border-2"
+                  class="p-2 border-2 bg-secondary-300 text-foreground"
                   value={q.question}
                   onChange={(e) => {
                     q.question = e.target.value;
@@ -206,7 +206,7 @@ export default function CreateGame(props) {
                   {q.answers.map((a, ain) => (
                     <div class="flex flex-row space-x-3 pb-2" key={ain}>
                       <input
-                        class="p-2 border-2"
+                        class="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a[0]}
                         placeholder={t("Answer")}
                         onChange={(e) => {
@@ -217,7 +217,7 @@ export default function CreateGame(props) {
                       <input
                         type="number"
                         min="0"
-                        class="p-2 border-2"
+                        class="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a[1]}
                         placeholder={t("points")}
                         onChange={(e) => {
@@ -370,7 +370,7 @@ export default function CreateGame(props) {
           </button>
           <div class="flex flex-col border-2  rounded-lg">
             <div class="p-2 ml-4 items-center transform translate-y-3">
-              <input type="file" class="" id="gamePicker" accept=".json" />
+              <input type="file" class=" bg-secondary-300 text-foreground" id="gamePicker" accept=".json" />
               <button
                 class="hover:shadow-md rounded-md p-2 bg-primary-200"
                 onClick={() => {
@@ -404,7 +404,7 @@ export default function CreateGame(props) {
               </button>
             </div>
             <div class="flex flex-row">
-              <span class="translate-x-3 px-2 text-black text-opacity-50 flex-shrink inline translate-y-3 transform bg-white ">
+              <span class="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
                 {t("Load Game")}
               </span>
               <div class="flex-grow"></div>

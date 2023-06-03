@@ -52,6 +52,11 @@ module.exports = {
               200: "#BFDBFE",
             },
             foreground: "black",
+            fastm: {
+              text: "white",
+              holder: "black",
+              background: "blue",
+            },
           },
         },
       },
@@ -100,6 +105,11 @@ module.exports = {
                 200: "#3B82F6",
               },
               foreground: "white",
+              fastm: {
+                text: "white",
+                holder: "#0F172A",
+                background: "black",
+              },
             },
           },
         },
