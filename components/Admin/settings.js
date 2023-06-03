@@ -76,6 +76,7 @@ export default function AdminSettings(props) {
           {Object.keys(availableThemes).map((key, index) => (
             <option
               value={key}
+              key={index}
               class={`${availableThemes[key].bgcolor} ${availableThemes[key].fgcolor}`}
             >
               {availableThemes[key].title}

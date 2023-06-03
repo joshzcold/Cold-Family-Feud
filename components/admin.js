@@ -220,7 +220,7 @@ function TitleLogoUpload(props) {
                 if (fileSize > 2098) {
                   console.error("Logo image is too large");
                   props.setError(
-                    t("Logo image is too large. 4098 KB is the limit")
+                    t("Logo image is too large. 2MB is the limit")
                   );
                   return;
                 }
@@ -580,9 +580,9 @@ export default function Admin(props) {
           <AdminSettings game={game} setGame={props.setGame} send={send} />
         </div>
         {/* SHOW ERRORS TO ADMIN */}
-        {error !== "" ? <p class="text-2xl text-failure-700">{error}</p> : null}
+        <p class="text-xl text-failure-700">{error}</p>
         {game.rounds == null ? (
-          <p class="text-2xl text-center py-20 text-secondary-300">
+          <p class="text-2xl text-center py-20 text-secondary-900">
             [{t("Please load a game")}]
           </p>
         ) : (
