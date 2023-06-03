@@ -17,7 +17,7 @@ export default function Login(props) {
           <p class="uppercase">{t("room code")}</p>
         </div>
         <input
-          class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase"
+          class="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
           id="roomcode"
           onChange={(e) => {
             props.setRoomCode(e.target.value);
@@ -34,7 +34,7 @@ export default function Login(props) {
           <p>{12 - props.playerName.length}</p>
         </div>
         <input
-          class="border-4 border-gray-600 p-2 rounded-2xl text-2xl uppercase"
+          class="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
           id="playername"
           maxLength={12}
           value={props.playerName}
@@ -46,7 +46,7 @@ export default function Login(props) {
       </div>
       <div class="flex flex-row items-center space-x-5">
         <button
-          class="shadow-md flex-grow rounded-md bg-green-300 p-4 w-2/3 text-2xl uppercase"
+          class="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
           onClick={() => {
             props.joinRoom();
           }}
@@ -54,7 +54,7 @@ export default function Login(props) {
           <div class="flex-grow">{t("play")}</div>
         </button>
         <button
-          class="shadow-md rounded-md bg-gray-300 p-4 text-2xl uppercase"
+          class="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase"
           onClick={() => {
             props.hostRoom();
           }}
@@ -64,7 +64,7 @@ export default function Login(props) {
       </div>
 
       {props.error !== "" ? (
-        <p class="text-2xl text-red-700">{props.error}</p>
+        <p class="text-2xl text-failure-700">{props.error}</p>
       ) : null}
     </>
   );

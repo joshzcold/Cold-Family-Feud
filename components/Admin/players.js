@@ -28,7 +28,7 @@ export default function Players(props) {
               <p class="uppercase">{x.name}</p>
             </div>
             <button
-              class="border-4 bg-red-300 hover:bg-red-500 p-2 rounded-lg"
+              class="border-4 bg-failure-300 hover:bg-failure-500 p-2 rounded-lg"
               onClick={() => {
                 // props.send({action: "quit", id: })
                 props.ws.current.send(
@@ -78,7 +78,7 @@ export default function Players(props) {
           {teamSection(team1)}
         </div>
         {/* seperator */}
-        <div class="bg-gray-300 border h-full" />
+        <div class="bg-secondary-300 border h-full" />
         {/* team 2 section */}
         <div class="flex-grow">
           <p>{game.teams[1].name}</p>

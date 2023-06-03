@@ -58,7 +58,7 @@ export default function Final(props) {
         <p class="text-3xl">{t("Fast Money")}</p>
       </div>
       <div
-        class="border-8 bg-blue-800 p-5 border-black rounded-3xl grid lg:grid-flow-col gap-3 text-white "
+        class="border-8 bg-primary-900 p-5 border-black rounded-3xl grid lg:grid-flow-col gap-3 text-white "
         style={{}}
       >
         <div class="grid lg:grid-flow-row gap-3">
@@ -67,7 +67,7 @@ export default function Final(props) {
             hide={props.game.hide_first_round}
           />
         </div>
-        <div class="border-yellow-600 border-4 rounded-3xl bg-yellow-600 lg:hidden" />
+        <div class="border-warning-500 border-4 rounded-3xl bg-warning-500 lg:hidden" />
         <div class="grid lg:grid-flow-row gap-3" >
           <Answers
             round={props.game.final_round_2}
@@ -93,7 +93,7 @@ export default function Final(props) {
       {/* WIN TEXT */}
       <div class="text-center">
         {total >= 200 ? (
-          <p class="text-5xl text-green-800">{t("win")}</p>
+          <p class="text-5xl text-success-900">{t("win")}</p>
         ) : null}
       </div>
     </div>

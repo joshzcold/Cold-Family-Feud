@@ -228,7 +228,14 @@ export default function Home() {
           crossOrigin=""
         />
       </Head>
-      <main>{getPage()}</main>
+      <main>
+        {/* TODO put in the theme switcher and put setting here */}
+        <div class="darkTheme">
+          <div class="bg-background">
+            {getPage()}
+          </div>
+        </div>
+      </main>
     </>
   );
 }

@@ -107,7 +107,7 @@ export default function CreateGame(props) {
                         r.answers.splice(ain, 1);
                         setGame((prv) => ({ ...prv }));
                       }}
-                      class="hover:shadow-md text-xl px-3 bg-red-200"
+                      class="hover:shadow-md text-xl px-3 bg-failure-200"
                     >
                       -
                     </button>
@@ -120,7 +120,7 @@ export default function CreateGame(props) {
                     r.answers.push({ ans: "", pnt: 0, trig: false });
                     setGame((prv) => ({ ...prv }));
                   }}
-                  class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
+                  class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
                 >
                   {t("Answer")} +
                 </button>
@@ -129,7 +129,7 @@ export default function CreateGame(props) {
                     game.rounds.splice(index, 1);
                     setGame((prv) => ({ ...prv }));
                   }}
-                  class="hover:shadow-md rounded-md bg-red-200 px-3 py-1 text-md"
+                  class="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
                 >
                   {t("round")} -
                 </button>
@@ -146,7 +146,7 @@ export default function CreateGame(props) {
                 });
                 setGame((prv) => ({ ...prv }));
               }}
-              class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
+              class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
             >
               {t("round")} +
             </button>
@@ -229,7 +229,7 @@ export default function CreateGame(props) {
                         q.answers.splice(ain, 1);
                         setGame((prv) => ({ ...prv }));
                       }}
-                      class="hover:shadow-md text-xl px-3 bg-red-200"
+                      class="hover:shadow-md text-xl px-3 bg-failure-200"
                     >
                       -
                     </button>
@@ -240,7 +240,7 @@ export default function CreateGame(props) {
                     q.answers.push(["", ""]);
                     setGame((prv) => ({ ...prv }));
                   }}
-                  class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
+                  class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
                 >
                   {t("Answer")} +
                 </button>
@@ -251,7 +251,7 @@ export default function CreateGame(props) {
                       game.final_round.splice(qin, 1);
                       setGame((prv) => ({ ...prv }));
                     }}
-                    class="hover:shadow-md rounded-md bg-red-200 px-3 py-1 text-md"
+                    class="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
                   >
                     {t("Question")} -
                   </button>
@@ -272,7 +272,7 @@ export default function CreateGame(props) {
                 });
                 setGame((prv) => ({ ...prv }));
               }}
-              class="hover:shadow-md rounded-md bg-green-200 px-3 py-1 text-md"
+              class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
             >
               {t("Question")} +
             </button>
@@ -281,7 +281,7 @@ export default function CreateGame(props) {
       </div>
 
       {error !== "" ? (
-        <div class="bg-red-500 p-2 rounded-md">
+        <div class="bg-failure-500 p-2 rounded-md">
           <p class="text-white font-semibold uppercase">{t("error")}:</p>
           <p class="text-white">{error}</p>
         </div>
@@ -289,7 +289,7 @@ export default function CreateGame(props) {
 
       <div class="flex flex-row space-x-5 pt-5">
         <button
-          class="hover:shadow-md rounded-md bg-green-200 p-2 px-10"
+          class="hover:shadow-md rounded-md bg-success-200 p-2 px-10"
           onClick={() => {
             // ERROR checking
             let error = [];
@@ -346,7 +346,7 @@ export default function CreateGame(props) {
           <div class="p-2 ml-4 items-center transform translate-y-3">
             <input type="file" class="" id="gamePicker" accept=".json" />
             <button
-              class="hover:shadow-md rounded-md p-2 bg-blue-200"
+              class="hover:shadow-md rounded-md p-2 bg-primary-200"
               onClick={() => {
                 var file = document.getElementById("gamePicker").files[0];
                 if (file) {

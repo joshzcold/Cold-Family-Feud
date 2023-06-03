@@ -27,7 +27,7 @@ export default function Title(props) {
   }
 
   return (
-    <div class="bg-gradient-to-t items-center justify-center from-blue-500 flex via-blue-300 to-blue-500 min-h-screen min-w-screen">
+    <div class="bg-gradient-to-t items-center justify-center from-primary-500 flex via-primary-300 to-primary-500 min-h-screen min-w-screen">
       <div
         style={{
           width: titleSize,
@@ -44,7 +44,7 @@ export default function Title(props) {
             )}
           </div>
           <div class="flex flex-row justify-center text-center">
-            <p class="text-4xl font-bold p-5 bg-blue-200 rounded">
+            <p class="text-4xl font-bold p-5 bg-primary-200 rounded">
               {props.game.room}
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function Title(props) {
                 {props.game.teams[0].name}
               </p>
               {returnTeamMates(0).map((m) => (
-                <div class="bg-blue-200 m-2 rounded">
+                <div class="bg-primary-200 m-2 rounded">
                   <p class="font-bold">{m}</p>
                 </div>
               ))}
@@ -66,7 +66,7 @@ export default function Title(props) {
                 {props.game.teams[1].name}
               </p>
               {returnTeamMates(1).map((m) => (
-                <div class="bg-blue-200 m-2 rounded">
+                <div class="bg-primary-200 m-2 rounded">
                   <p class="font-bold">{m}</p>
                 </div>
               ))}

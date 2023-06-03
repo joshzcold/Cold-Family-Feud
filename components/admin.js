@@ -42,8 +42,8 @@ function TeamControls(props) {
             props.game.teams[props.team].points;
           props.setPointsGivin({
             state: true,
-            color: "bg-black-200",
-            textColor: "text-gray-300",
+            color: "bg-secondary-200",
+            textColor: "text-secondary-300",
           });
           props.setGame((prv) => ({ ...prv }));
           props.send({ action: "data", data: props.game });
@@ -53,7 +53,7 @@ function TeamControls(props) {
         {props.game.teams[props.team].name} {t("Gets Points")}
       </button>
       <button
-        class="border-4 bg-red-200 text-2xl rounded p-10"
+        class="border-4 bg-failure-200 text-2xl rounded p-10"
         onClick={() => {
           if (props.game.teams[props.team].mistakes < 3)
             props.game.teams[props.team].mistakes++;
@@ -157,7 +157,7 @@ function TitleLogoUpload(props) {
         <p class="capitalize">logo:</p>
         <img width={"150px"} src={URL.createObjectURL(props.imageUploaded)} />
         <button
-          class="border-2 bg-gray-300 hover:bg-gray-500 p-1 rounded-lg"
+          class="border-2 bg-secondary-500 hover:bg-secondary-700 p-1 rounded-lg"
           onClick={(e) => {
             props.send({
               action: "del_logo_upload",
@@ -199,7 +199,7 @@ function TitleLogoUpload(props) {
         <div class="image-upload w-6">
           <label htmlFor="logoUpload">
             <svg
-              class="fill-current text-gray-400 hover:text-gray-600 cursor-pointer"
+              class="fill-current text-secondary-500 hover:text-secondary-700 cursor-pointer"
               viewBox="0 0 384 512"
             >
               <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
@@ -270,7 +270,7 @@ function TitleLogoUpload(props) {
             }}
           />
         </div>
-        <p class="text-xs text-gray-500">{t("logo upload")}</p>
+        <p class="text-xs text-secondary-500">{t("logo upload")}</p>
       </div>
     );
   }
@@ -281,8 +281,8 @@ export default function Admin(props) {
 
   const [pointsGivin, setPointsGivin] = useState({
     state: false,
-    color: "bg-green-200",
-    textColor: "text-black",
+    color: "bg-success-200",
+    textColor: "text-foreground",
   });
   const [gameSelector, setGameSelector] = useState([]);
   const [error, setError] = useState("");
@@ -385,14 +385,14 @@ export default function Admin(props) {
             {/* ADMIN BUTTONS */}
             <a href="/game" target="_blank">
               <button class="text-2xl">
-                <div class="w-48 hover:shadow-md rounded bg-green-200 p-2 flex justify-center">
+                <div class="w-48 hover:shadow-md rounded bg-success-200 p-2 flex justify-center">
                   {t("Open Game Window")}
                 </div>
               </button>
             </a>
             <a href="/new">
               <button class="text-2xl">
-                <div class="w-48 hover:shadow-md rounded bg-blue-200 p-2 flex justify-center">
+                <div class="w-48 hover:shadow-md rounded bg-primary-200 p-2 flex justify-center">
                   {t("Create New Game")}
                 </div>
               </button>
@@ -403,7 +403,7 @@ export default function Admin(props) {
                 props.quitGame(true);
               }}
             >
-              <div class="hover:shadow-md rounded bg-red-200 p-2 w-32 flex justify-center">
+              <div class="hover:shadow-md rounded bg-failure-200 p-2 w-32 flex justify-center">
                 {t("Quit")}
               </div>
             </button>
@@ -440,7 +440,7 @@ export default function Admin(props) {
                 <div class="image-upload w-6">
                   <label htmlFor="gamePicker">
                     <svg
-                      class="fill-current text-gray-400 hover:text-gray-600 cursor-pointer"
+                      class="fill-current text-secondary-500 hover:text-secondary-700 cursor-pointer"
                       viewBox="0 0 384 512"
                     >
                       <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
@@ -595,7 +595,7 @@ export default function Admin(props) {
                 ></input>
               </div>
               <div>
-                <p class="text-sm normal-case text-gray-500 italic">
+                <p class="text-sm normal-case text-secondary-500 italic">
                   {t(
                     "hide questions on the game window and player buzzer screens"
                   )}
@@ -605,7 +605,7 @@ export default function Admin(props) {
           </div>
         </div>
         {/* SHOW ERRORS TO ADMIN */}
-        {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
+        {error !== "" ? <p class="text-2xl text-failure-700">{error}</p> : null}
         {game.rounds == null ? (
           <p class="text-2xl text-center py-20 text-black text-opacity-50">
             [{t("Please load a game")}]
@@ -673,7 +673,7 @@ export default function Admin(props) {
                     props.setGame((prv) => ({ ...prv }));
                     setPointsGivin({
                       state: false,
-                      color: "bg-green-200",
+                      color: "bg-primary-200",
                       textColor: "text-black",
                     });
                     send({ action: "data", data: game });
@@ -700,7 +700,7 @@ export default function Admin(props) {
                     }));
                     setPointsGivin({
                       state: false,
-                      color: "bg-green-200",
+                      color: "bg-primary-200",
                       textColor: "text-black",
                     });
                     send({ action: "data", data: game });
@@ -724,7 +724,7 @@ export default function Admin(props) {
                     props.setGame((prv) => ({ ...prv }));
                     setPointsGivin({
                       state: false,
-                      color: "bg-green-200",
+                      color: "bg-primary-200",
                       textColor: "text-black",
                     });
                     console.debug(game.round);
@@ -800,7 +800,7 @@ export default function Admin(props) {
                   {current_round.answers.map((x) => (
                     <div
                       class={`${
-                        x.trig ? "bg-gray-600" : "bg-blue-600"
+                        x.trig ? "bg-secondary-500" : "bg-primary-700"
                       } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
@@ -845,7 +845,7 @@ export default function Admin(props) {
                           <div class="flex flex-row items-center space-x-5">
                             {/* active clear buzzers button */}
                             <button
-                              class="border-4 bg-red-200 hover:bg-red-400 rounded p-2"
+                              class="border-4 bg-failure-200 hover:bg-failure-500 rounded p-2"
                               onClick={() => {
                                 send({ action: "clearbuzzers" });
                               }}
@@ -859,7 +859,7 @@ export default function Admin(props) {
                         ) : (
                           <div class="flex flex-row items-center space-x-5">
                             {/* disabled clear buzzers button */}
-                            <button class="text-2xl border-4 bg-gray-300 rounded p-2">
+                            <button class="text-2xl border-4 bg-secondary-200 rounded p-2">
                               {t("Clear Buzzers")}
                             </button>
                             <p class="text-black text-opacity-50">
