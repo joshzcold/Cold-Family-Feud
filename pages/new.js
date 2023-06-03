@@ -3,10 +3,14 @@ import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import LanguageSwitcher from "../components/language";
+import {ThemeSwitcher} from "../components/Admin/settings";
 
 export default function CreateGame(props) {
   const { t } = useTranslation();
   let gameTemplate = {
+    settings: {
+
+    },
     rounds: [
       {
         question: "",
@@ -49,6 +53,11 @@ export default function CreateGame(props) {
           <div class="flex flex-row space-x-5">
             <p class="text-foreground">{t("language")}:</p>
             <LanguageSwitcher />
+            <ThemeSwitcher 
+              game={game}
+              setGame={setGame}
+              send={() => {console.debug('send from new')}}
+            />
           </div>
           <p class="text-3xl text-foreground">{t("rounds")}</p>
           <div class="border-2 p-3 flex flex-col space-y-3">
