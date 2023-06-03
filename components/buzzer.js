@@ -106,7 +106,7 @@ export default function Buzzer(props) {
     return (
       <>
         <button
-          class="shadow-md rounded-lg p-2 bg-secondary-200 text-1xl font-bold uppercase absolute top-1 right-1"
+          class="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase absolute top-1 right-1"
           onClick={() => {
             send({ action: "quit" });
           }}
@@ -136,7 +136,7 @@ export default function Buzzer(props) {
                       src="buzz.svg"
                     />
                   )}
-                  <p class="text-secondary-400 p-2 italic">
+                  <p class="text-secondary-900 p-2 italic">
                     buzzer is reset between rounds
                   </p>
                   {error !== "" ? (
@@ -159,18 +159,18 @@ export default function Buzzer(props) {
                         class="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
                       >
                         <div class="flex-grow">
-                          <p class="truncate w-20 text-left">
+                          <p class="truncate w-20 text-left text-foreground">
                             {t("number", { count: i + 1 })}.{" "}
                             {game.registeredPlayers[x.id].name}
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <p class="truncate w-20 text-left">
+                          <p class="truncate w-20 text-left text-foreground">
                             {game.teams[game.registeredPlayers[x.id].team].name}
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <p class="truncate w-20 text-left">
+                          <p class="truncate w-20 text-left text-foreground">
                             {t("number", {
                               count: (
                                 ((x.time - game.tick) / 1000) %
@@ -202,7 +202,7 @@ export default function Buzzer(props) {
                         insert={props.game.title_text}
                       />
                     )}
-                    <p class="text-3xl text-center py-12">
+                    <p class="text-3xl text-center py-12 text-foreground">
                       {t("Waiting for host to start")}
                     </p>
                   </div>
@@ -214,7 +214,7 @@ export default function Buzzer(props) {
           <>
             <TitleLogo insert={game.title_text} />
             <div class="flex flex-row justify-center">
-              <h1 class="text-3xl">
+              <h1 class="text-3xl text-foreground">
                 {t("team")}:{" "}
                 {props.team != null
                   ? game.teams[props.team].name
@@ -268,7 +268,7 @@ export default function Buzzer(props) {
   } else {
     return (
       <div>
-        <p>{t("loading")}</p>
+        <p class="text-foreground">{t("loading")}</p>
       </div>
     );
   }

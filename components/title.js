@@ -27,7 +27,7 @@ export default function Title(props) {
   }
 
   return (
-    <div class="bg-gradient-to-t items-center justify-center from-primary-500 flex via-primary-300 to-primary-500 min-h-screen min-w-screen">
+    <div class="bg-gradient-to-t items-center justify-center from-primary-900 flex via-primary-200 to-primary-900 min-h-screen min-w-screen">
       <div
         style={{
           width: titleSize,
@@ -40,37 +40,33 @@ export default function Title(props) {
             {props.game.settings.logo_url ? (
               <img src={`${props.game.settings.logo_url}`} size={titleSize} />
             ) : (
-              <TitleLogo insert={props.game.title_text} size={titleSize} />
-            )}
+                <TitleLogo insert={props.game.title_text} size={titleSize} />
+              )}
           </div>
           <div class="flex flex-row justify-center text-center">
-            <p class="text-4xl font-bold p-5 bg-primary-200 rounded">
+            <p class="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
               {props.game.room}
             </p>
           </div>
           <div class="flex flex-row text-center">
-            <div class="flex-grow">
-              <p class="text-4xl flex-grow text-white">
-                {" "}
-                {props.game.teams[0].name}
-              </p>
-              {returnTeamMates(0).map((m) => (
-                <div class="bg-primary-200 m-2 rounded">
-                  <p class="font-bold">{m}</p>
+            {[0, 1].map(function(n) {
+              return (
+                <div class="flex-grow">
+                  <p class="text-4xl flex-grow text-foreground font-bold">
+                    {" "}
+                    {props.game.teams[n].name}
+                  </p>
+                  <div class="flex flex-wrap flex-row justify-center">
+                    {returnTeamMates(n).map((m) => (
+                      <div class="bg-secondary-500 m-2 rounded w-32 p-2">
+                        <p class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap"
+                        >{m}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              ))}
-            </div>
-            <div class="flex-grow">
-              <p class="text-4xl flex-grow text-white">
-                {" "}
-                {props.game.teams[1].name}
-              </p>
-              {returnTeamMates(1).map((m) => (
-                <div class="bg-primary-200 m-2 rounded">
-                  <p class="font-bold">{m}</p>
-                </div>
-              ))}
-            </div>
+              );
+            })}
           </div>
         </div>
       </div>

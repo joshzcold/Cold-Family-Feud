@@ -55,7 +55,7 @@ export default function Final(props) {
   return (
     <div class="">
       <div class="text-center my-10">
-        <p class="text-3xl">{t("Fast Money")}</p>
+        <p class="text-3xl text-foreground">{t("Fast Money")}</p>
       </div>
       <div
         class="border-8 bg-primary-900 p-5 border-black rounded-3xl grid lg:grid-flow-col gap-3 text-white "

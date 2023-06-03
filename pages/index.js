@@ -164,7 +164,7 @@ export default function Home() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
         <div class="lg:flex lg:flex-row lg:justify-center w-full">
-          <div class="lg:w-1/2 sm:w-full md:w-full">
+          <div class="lg:w-3/4 sm:w-full md:w-full">
             <Admin
               ws={ws}
               game={game}
@@ -229,11 +229,9 @@ export default function Home() {
         />
       </Head>
       <main>
-        {/* TODO put in the theme switcher and put setting here */}
-        <div class="darkTheme">
-          <div class="bg-background">
-            {getPage()}
-          </div>
+        <div class="darkTheme bg-background min-h-screen">
+          {/* TODO put in the theme switcher and put setting here */}
+              {getPage()}
         </div>
       </main>
     </>

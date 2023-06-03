@@ -51,7 +51,7 @@ export default function Round(props) {
       <div class="flex flex-row justify-center">
         {round.multiply > 1 ? (
           <div>
-            <p class="text-2xl text-start">
+            <p class="text-2xl text-start text-foreground">
               x{t("number", { count: round.multiply })}
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function Round(props) {
       </div>
       <div class="flex flex-row justify-center">
         {props.game.settings.hide_questions === false ? (
-          <p class="text-end sm:text-1xl text-2xl ">{round.question}</p>
+          <p class="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>
         ) : (
           <></>
         )}
