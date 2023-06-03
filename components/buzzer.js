@@ -22,7 +22,7 @@ export default function Buzzer(props) {
   let game = props.game;
   let ws = props.ws;
 
-  const send = function(data) {
+  const send = function (data) {
     data.room = props.room;
     data.id = props.id;
     ws.current.send(JSON.stringify(data));
@@ -106,7 +106,7 @@ export default function Buzzer(props) {
     return (
       <>
         <button
-          class="shadow-md rounded-lg p-2 bg-gray-200 text-1xl font-bold uppercase absolute top-1 right-1"
+          class="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase absolute top-1 right-1"
           onClick={() => {
             send({ action: "quit" });
           }}
@@ -136,11 +136,11 @@ export default function Buzzer(props) {
                       src="buzz.svg"
                     />
                   )}
-                  <p class="text-gray-400 p-2 italic">
+                  <p class="text-secondary-900 p-2 italic">
                     buzzer is reset between rounds
                   </p>
                   {error !== "" ? (
-                    <p class="text-2xl text-red-700">{error}</p>
+                    <p class="text-2xl text-failure-700">{error}</p>
                   ) : null}
                 </div>
                 {/* END Buzzer Section TODO replace with function*/}
@@ -159,18 +159,18 @@ export default function Buzzer(props) {
                         class="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
                       >
                         <div class="flex-grow">
-                          <p class="truncate w-20 text-left">
+                          <p class="truncate w-20 text-left text-foreground">
                             {t("number", { count: i + 1 })}.{" "}
                             {game.registeredPlayers[x.id].name}
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <p class="truncate w-20 text-left">
+                          <p class="truncate w-20 text-left text-foreground">
                             {game.teams[game.registeredPlayers[x.id].team].name}
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <p class="truncate w-20 text-left">
+                          <p class="truncate w-20 text-left text-foreground">
                             {t("number", {
                               count: (
                                 ((x.time - game.tick) / 1000) %
@@ -193,8 +193,16 @@ export default function Buzzer(props) {
                   </div>
                 ) : (
                   <div>
-                    <TitleLogo insert={game.title_text} />
-                    <p class="text-3xl text-center py-12">
+                    {props.game.settings.logo_url ? (
+                      <img
+                        src={`${props.game.settings.logo_url}`}
+                      />
+                    ) : (
+                      <TitleLogo
+                        insert={props.game.title_text}
+                      />
+                    )}
+                    <p class="text-3xl text-center py-12 text-foreground">
                       {t("Waiting for host to start")}
                     </p>
                   </div>
@@ -204,9 +212,17 @@ export default function Buzzer(props) {
           </>
         ) : (
           <>
-            <TitleLogo insert={game.title_text} />
+            {props.game.settings.logo_url ? (
+              <img
+                src={`${props.game.settings.logo_url}`}
+              />
+            ) : (
+              <TitleLogo
+                insert={props.game.title_text}
+              />
+            )}
             <div class="flex flex-row justify-center">
-              <h1 class="text-3xl">
+              <h1 class="text-3xl text-foreground">
                 {t("team")}:{" "}
                 {props.team != null
                   ? game.teams[props.team].name
@@ -215,7 +231,7 @@ export default function Buzzer(props) {
             </div>
             <div class="grid grid-cols-2 gap-4">
               <button
-                class="hover:shadow-md rounded-md bg-blue-200 p-5"
+                class="hover:shadow-md rounded-md bg-primary-200 p-5"
                 onClick={() => {
                   cookieCutter.set("session", `${props.room}:${props.id}:0`);
                   props.setTeam(0);
@@ -225,7 +241,7 @@ export default function Buzzer(props) {
               </button>
 
               <button
-                class="hover:shadow-md rounded-md bg-blue-200 p-5"
+                class="hover:shadow-md rounded-md bg-primary-200 p-5"
                 onClick={() => {
                   cookieCutter.set("session", `${props.room}:${props.id}:1`);
                   props.setTeam(1);
@@ -236,7 +252,7 @@ export default function Buzzer(props) {
             </div>
             <div class="flex flex-row justify-center">
               <button
-                class="py-8 px-16 hover:shadow-md rounded-md bg-green-200 uppercase"
+                class="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"
                 onClick={() => {
                   if (props.team != null) {
                     send({ action: "registerbuzz", team: props.team });
@@ -260,7 +276,7 @@ export default function Buzzer(props) {
   } else {
     return (
       <div>
-        <p>{t("loading")}</p>
+        <p class="text-foreground">{t("loading")}</p>
       </div>
     );
   }

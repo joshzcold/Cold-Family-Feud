@@ -2,12 +2,16 @@ const WebSocket = require("ws");
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const glob = require("glob");
+const bson = require("bson");
 
 const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
     console.log("*First use, starting websockets");
 
-    const wss = new WebSocket.Server({ server: res.socket.server });
+    const wss = new WebSocket.Server({ 
+      server: res.socket.server,
+      maxPayload: 5120 * 1024, // 5 MB
+    });
 
     function makeRoom(length = 4) {
       var result = [];
@@ -75,13 +79,22 @@ const ioHandler = (req, res) => {
       return id;
     }
 
+    function cleanUpPublicRoomAssets(room) {
+      let path = `./public/rooms/${room}`;
+      if (fs.existsSync(path)) {
+        fs.rmdirSync(path, { recursive: true, force: true });
+      }
+    }
+
     let average = (array) => array.reduce((a, b) => a + b) / array.length;
     let rooms = {};
     let game = {
       registeredPlayers: {},
       buzzed: [],
       settings: {
-        hide_questions: true
+        logo_url: null,
+        hide_questions: true,
+        theme: "default",
       },
       teams: [
         {
@@ -136,6 +149,7 @@ const ioHandler = (req, res) => {
                 })
               );
               delete rooms[room];
+              cleanUpPublicRoomAssets(room);
             }
           }
         }
@@ -149,9 +163,26 @@ const ioHandler = (req, res) => {
         ws.close();
       });
 
-      ws.on("message", function incoming(message) {
+      ws.on("message", function incoming(messageData) {
         try {
-          message = JSON.parse(message);
+          let message = {};
+          try {
+            if (Buffer.isBuffer(messageData)) {
+              message = bson.deserialize(messageData, { promoteBuffers: true });
+            } else {
+              message = JSON.parse(messageData);
+            }
+          } catch (e) {
+            console.error(e);
+            ws.send(
+              JSON.stringify({
+                action: "error",
+                message: "Error parsing data in server",
+              })
+            );
+            return;
+          }
+          // TODO seperate each of these into seperate functions
           if (message.action === "load_game") {
             if (message.file != null && message.lang != null) {
               console.debug(
@@ -270,6 +301,7 @@ const ioHandler = (req, res) => {
                 }
               }
               delete rooms[message.room];
+              cleanUpPublicRoomAssets(message.room);
             } else {
               let interval = rooms[message.room].intervals[message.id];
               console.debug("Clear interval =>", interval);
@@ -443,6 +475,67 @@ const ioHandler = (req, res) => {
               message.room,
               JSON.stringify({ action: "data", data: game })
             );
+          } else if (message.action === "logo_upload") {
+            let dirpath = `./public/rooms/${message.room}/`;
+            try {
+              const fileSize = Math.round(message.data.length / 1024);
+              if (fileSize > 2098) {
+                console.error("Image too large")
+                ws.send(
+                  JSON.stringify({
+                    action: "error",
+                    message: "Image too large",
+                  })
+                );
+                return;
+              }
+              var headerarr = new Uint8Array(message.data).subarray(0, 4);
+              var header = "";
+              for (var i = 0; i < headerarr.length; i++) {
+                header += headerarr[i].toString(16);
+              }
+              switch (header) {
+                case "89504e47":
+                  // mimetype = "png";
+                  break;
+                case "47494638":
+                  // mimetype = "gif";
+                  break;
+                case "ffd8ffe0":
+                case "ffd8ffe1":
+                case "ffd8ffe2":
+                case "ffd8ffe3":
+                case "ffd8ffe8":
+                  // mimetype = "jpeg";
+                  break;
+                default:
+                  console.error("Unknown file type in image upload")
+                  ws.send(
+                    JSON.stringify({
+                      action: "error",
+                      message: "Unknown file type in image upload",
+                    })
+                  );
+                  return;
+              }
+              if (!fs.existsSync(dirpath)) {
+                fs.mkdirSync(dirpath);
+              }
+              fs.writeFile(
+                dirpath + `logo.${message.mimetype}`,
+                message.data, // edited
+                "binary",
+                (err) => {
+                  if (err != null) {
+                    console.error("Error saving logo file", err);
+                  }
+                }
+              );
+            } catch (e) {
+              console.error("Error in logo upload", e);
+            }
+          } else if (message.action == "del_logo_upload") {
+            cleanUpPublicRoomAssets(message.room);
           } else {
             // even if not specified we always expect an action
             if (message.action) {

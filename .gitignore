@@ -1,4 +1,7 @@
 .next/
 node_modules/
 .eslintcache
+public/rooms/**/*.jpeg
+public/rooms/**/*.png
+public/rooms/**/*.gif
 

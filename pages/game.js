@@ -147,8 +147,10 @@ export default function Game(props) {
 
     return (
       <>
+        <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
         {gameSession}
-        {error !== "" ? <p class="text-2xl text-red-700">{error}</p> : null}
+        {error !== "" ? <p class="text-2xl text-failure-700">{error}</p> : null}
+        </div>
       </>
     );
   } else {

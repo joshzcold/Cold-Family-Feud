@@ -164,7 +164,7 @@ export default function Home() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
         <div class="lg:flex lg:flex-row lg:justify-center w-full">
-          <div class="lg:w-1/2 sm:w-full md:w-full">
+          <div class="lg:w-3/4 sm:w-full md:w-full">
             <Admin
               ws={ws}
               game={game}
@@ -228,7 +228,12 @@ export default function Home() {
           crossOrigin=""
         />
       </Head>
-      <main>{getPage()}</main>
+      <main>
+        <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
+          {/* TODO put in the theme switcher and put setting here */}
+              {getPage()}
+        </div>
+      </main>
     </>
   );
 }
