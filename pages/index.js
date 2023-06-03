@@ -211,6 +211,10 @@ export default function Home() {
       );
     }
   }
+
+  if (typeof window !== "undefined") {
+    document.body.className = game?.settings?.theme + " bg-background";
+  }
   return (
     <>
       <Head>
@@ -230,14 +234,13 @@ export default function Home() {
       </Head>
       <main>
         <div
-
           style={{
             minWidth: "100vh",
-            minHeight: "100vh",
           }}
-          class={`${game?.settings?.theme} bg-background min-h-screen w-screen`}>
+          class={`${game?.settings?.theme} h-screen w-screen`}
+        >
           {/* TODO put in the theme switcher and put setting here */}
-              {getPage()}
+          {getPage()}
         </div>
       </main>
     </>

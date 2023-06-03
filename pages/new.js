@@ -46,6 +46,9 @@ export default function CreateGame(props) {
     URL.revokeObjectURL(a.href);
   };
 
+  if (typeof window !== "undefined") {
+    document.body.className = game?.settings?.theme + " bg-background";
+  }
   return (
     <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
       <div class="p-5">

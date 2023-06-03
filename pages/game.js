@@ -145,10 +145,13 @@ export default function Game(props) {
       );
     }
 
+  if (typeof window !== "undefined") {
+    document.body.className = game?.settings?.theme + " bg-background";
+  }
     return (
       <>
-        <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
-          <div class="mx-12 pt-12">
+        <div class={`${game?.settings?.theme} min-h-screen`}>
+          <div class="">
             {gameSession}
             {error !== "" ? (
               <p class="text-2xl text-failure-700">{error}</p>

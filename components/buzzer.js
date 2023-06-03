@@ -106,7 +106,7 @@ export default function Buzzer(props) {
     return (
       <>
         <button
-          class="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase absolute top-1 right-1"
+          class="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
           onClick={() => {
             send({ action: "quit" });
           }}
