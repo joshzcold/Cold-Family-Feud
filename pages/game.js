@@ -147,9 +147,13 @@ export default function Game(props) {
 
     return (
       <>
-        <div class={`${game?.settings?.theme} bg-background min-h-screen mx-12 mt-12`}>
-        {gameSession}
-        {error !== "" ? <p class="text-2xl text-failure-700">{error}</p> : null}
+        <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
+          <div class="mx-12 pt-12">
+            {gameSession}
+            {error !== "" ? (
+              <p class="text-2xl text-failure-700">{error}</p>
+            ) : null}
+          </div>
         </div>
       </>
     );
