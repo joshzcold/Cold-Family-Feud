@@ -496,17 +496,17 @@ const ioHandler = (req, res) => {
               }
               switch (header) {
                 case "89504e47":
-                  mimetype = "png";
+                  // mimetype = "png";
                   break;
                 case "47494638":
-                  mimetype = "gif";
+                  // mimetype = "gif";
                   break;
                 case "ffd8ffe0":
                 case "ffd8ffe1":
                 case "ffd8ffe2":
                 case "ffd8ffe3":
                 case "ffd8ffe8":
-                  mimetype = "jpeg";
+                  // mimetype = "jpeg";
                   break;
                 default:
                   console.error("Unknown file type in image upload")
