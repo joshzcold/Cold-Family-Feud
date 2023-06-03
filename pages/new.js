@@ -43,7 +43,7 @@ export default function CreateGame(props) {
   };
 
   return (
-    <div class="darkTheme bg-background min-h-screen">
+    <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
       <div class="p-5">
         <div class="py-10 flex-col space-y-5">
           <div class="flex flex-row space-x-5">

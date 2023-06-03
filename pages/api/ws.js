@@ -91,6 +91,7 @@ const ioHandler = (req, res) => {
       settings: {
         logo_url: null,
         hide_questions: true,
+        theme: "default"
       },
       teams: [
         {

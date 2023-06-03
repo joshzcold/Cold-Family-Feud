@@ -229,7 +229,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <div class="darkTheme bg-background min-h-screen">
+        <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
           {/* TODO put in the theme switcher and put setting here */}
               {getPage()}
         </div>

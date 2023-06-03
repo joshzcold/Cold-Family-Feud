@@ -3,6 +3,7 @@ import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import Players from "./Admin/players";
+import AdminSettings from "./Admin/settings";
 import LanguageSwitcher from "./language";
 import { Buffer } from "buffer";
 import { BSON } from "bson";
@@ -42,8 +43,8 @@ function TeamControls(props) {
             props.game.teams[props.team].points;
           props.setPointsGivin({
             state: true,
-            color: "bg-secondary-200",
-            textColor: "text-secondary-300",
+            color: "bg-secondary-500",
+            textColor: "text-foreground",
           });
           props.setGame((prv) => ({ ...prv }));
           props.send({ action: "data", data: props.game });
@@ -576,35 +577,7 @@ export default function Admin(props) {
             <p class="text-xl capitalize text-foreground">{t("settings")}:</p>
             <hr class="w-24 p-1" />
           </div>
-          <div class="grid grid-cols-2">
-            {/* Hide questions to players */}
-            <div class="flex flex-col">
-              <div class="flex flex-row space-x-5 items-center">
-                <div>
-                  <p class="text-m normal-case text-foreground">
-                    {t("Hide questions")}:
-                  </p>
-                </div>
-                <input
-                  class="w-4 h-4 rounded"
-                  checked={game.settings.hide_questions}
-                  onChange={(e) => {
-                    game.settings.hide_questions = e.target.checked;
-                    props.setGame((prv) => ({ ...prv }));
-                    send({ action: "data", data: game });
-                  }}
-                  type="checkbox"
-                ></input>
-              </div>
-              <div>
-                <p class="text-sm normal-case text-secondary-900 italic">
-                  {t(
-                    "hide questions on the game window and player buzzer screens"
-                  )}
-                </p>
-              </div>
-            </div>
-          </div>
+          <AdminSettings game={game} setGame={props.setGame} send={send} />
         </div>
         {/* SHOW ERRORS TO ADMIN */}
         {error !== "" ? <p class="text-2xl text-failure-700">{error}</p> : null}
@@ -675,8 +648,8 @@ export default function Admin(props) {
                       props.setGame((prv) => ({ ...prv }));
                       setPointsGivin({
                         state: false,
-                        color: "bg-primary-200",
-                        textColor: "text-black",
+                        color: "bg-success-500",
+                        textColor: "text-foreground",
                       });
                       send({ action: "data", data: game });
                     }}
@@ -702,8 +675,8 @@ export default function Admin(props) {
                       }));
                       setPointsGivin({
                         state: false,
-                        color: "bg-primary-200",
-                        textColor: "text-black",
+                        color: "bg-success-500",
+                        textColor: "text-foreground",
                       });
                       send({ action: "data", data: game });
                     }}
@@ -726,8 +699,8 @@ export default function Admin(props) {
                       props.setGame((prv) => ({ ...prv }));
                       setPointsGivin({
                         state: false,
-                        color: "bg-primary-200",
-                        textColor: "text-black",
+                        color: "bg-success-500",
+                        textColor: "text-foreground",
                       });
                       console.debug(game.round);
                       send({ action: "data", data: game });
@@ -842,8 +815,12 @@ export default function Admin(props) {
 
                   {/* BUZZERS AND PLAYERS */}
                   <div class="grid grid-cols-2 gap-4 p-5">
-                    <h1 class="text-2xl capitalize text-foreground">{t("Buzzer Order")}</h1>
-                    <h1 class="text-2xl capitalize text-foreground">{t("players")}</h1>
+                    <h1 class="text-2xl capitalize text-foreground">
+                      {t("Buzzer Order")}
+                    </h1>
+                    <h1 class="text-2xl capitalize text-foreground">
+                      {t("players")}
+                    </h1>
                     <div class="border-4 h-48 overflow-y-scroll rounded p-5 text-center">
                       <div class="flex flex-col  h-full space-y-2 justify-between">
                         <div class="">
@@ -868,7 +845,7 @@ export default function Admin(props) {
                                 <button class="border-4 bg-secondary-500 rounded p-2 text-foreground">
                                   {t("Clear Buzzers")}
                                 </button>
-                                <p class="text-black text-opacity-50">
+                                <p class="text-secondary-900">
                                   {t("Changing rounds also clears buzzers")}
                                 </p>
                               </div>
