@@ -212,7 +212,15 @@ export default function Buzzer(props) {
           </>
         ) : (
           <>
-            <TitleLogo insert={game.title_text} />
+            {props.game.settings.logo_url ? (
+              <img
+                src={`${props.game.settings.logo_url}`}
+              />
+            ) : (
+              <TitleLogo
+                insert={props.game.title_text}
+              />
+            )}
             <div class="flex flex-row justify-center">
               <h1 class="text-3xl text-foreground">
                 {t("team")}:{" "}

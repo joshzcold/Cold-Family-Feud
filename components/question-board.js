@@ -13,7 +13,7 @@ export default function QuestionBoard(props) {
           <div class=" uppercase items-center text-center rounded border-2 font-extrabold">
             {x.trig ? (
               // answered question
-              <div class="h-full bg-gradient-to-t from-primary-900 via-primary-500 to-blue-700">
+              <div class="h-full bg-gradient-to-t from-primary-900 via-primary-500 to-primary-700">
                 <div class="flex h-full items-center justify-center">
                   <p
                     class="text-2xl text-white px-5 flex-grow"

@@ -113,6 +113,59 @@ module.exports = {
             },
           },
         },
+        {
+          // name your theme anything that could be a valid css class name
+          // remember what you named your theme because you will use it as a class to enable the theme
+          name: "slate",
+          // put any overrides your theme has here
+          // just as if you were to extend tailwind's theme like normal https://tailwindcss.com/docs/theme#extending-the-default-theme
+          extend: {
+            colors: {
+              background: "#18181B",
+              success: {
+                200: "#78716C",
+                300: "#78716C",
+                500: "#78716C",
+                700: "#78716C",
+                900: "#78716C",
+              },
+              secondary: {
+                200: "#1C1917",
+                300: "#292524",
+                500: "#44403C",
+                700: "#57534E",
+                900: "#78716C",
+              },
+              failure: {
+                900: "#1C1917",
+                700: "#292524",
+                500: "#44403C",
+                300: "#57534E",
+                200: "#78716C",
+              },
+              warning: {
+                900: "#1C1917",
+                700: "#292524",
+                500: "#44403C",
+                300: "#57534E",
+                200: "#78716C",
+              },
+              primary: {
+                900: "#1C1917",
+                700: "#292524",
+                500: "#44403C",
+                300: "#57534E",
+                200: "#78716C",
+              },
+              foreground: "white",
+              fastm: {
+                text: "white",
+                holder: "#18181B",
+                background: "black",
+              },
+            },
+          },
+        },
       ],
     }),
   ],

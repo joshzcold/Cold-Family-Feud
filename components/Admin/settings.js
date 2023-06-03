@@ -48,6 +48,11 @@ export default function AdminSettings(props) {
         fgcolor: "text-white",
         title: "dark theme",
       },
+      slate: {
+        bgcolor: "bg-black",
+        fgcolor: "text-white",
+        title: "slate",
+      },
     };
     return (
       <div class="flex flex-row space-x-5 items-center">
