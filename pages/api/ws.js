@@ -8,7 +8,7 @@ const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
     console.log("*First use, starting websockets");
 
-    const wss = new WebSocket.Server({ 
+    const wss = new WebSocket.Server({
       server: res.socket.server,
       maxPayload: 5120 * 1024, // 5 MB
     });
@@ -95,6 +95,7 @@ const ioHandler = (req, res) => {
         logo_url: null,
         hide_questions: true,
         theme: "default",
+        final_round_title: null,
       },
       teams: [
         {
@@ -117,7 +118,7 @@ const ioHandler = (req, res) => {
       round: 0,
     };
 
-    wss.broadcast = function(room, data) {
+    wss.broadcast = function (room, data) {
       if (rooms[room]) {
         Object.keys(rooms[room].connections).forEach((rp) => {
           rooms[room].connections[rp].send(data);
@@ -427,7 +428,7 @@ const ioHandler = (req, res) => {
             glob(
               `**/*.json`,
               { cwd: `games/${message.data}/` },
-              function(err, files) {
+              function (err, files) {
                 // files is an array of filenames.
                 // If the `nonull` option is set, and nothing
                 // was found, then files is ["**/*.js"]
@@ -480,7 +481,7 @@ const ioHandler = (req, res) => {
             try {
               const fileSize = Math.round(message.data.length / 1024);
               if (fileSize > 2098) {
-                console.error("Image too large")
+                console.error("Image too large");
                 ws.send(
                   JSON.stringify({
                     action: "error",
@@ -509,7 +510,7 @@ const ioHandler = (req, res) => {
                   // mimetype = "jpeg";
                   break;
                 default:
-                  console.error("Unknown file type in image upload")
+                  console.error("Unknown file type in image upload");
                   ws.send(
                     JSON.stringify({
                       action: "error",

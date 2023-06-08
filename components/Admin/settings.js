@@ -1,7 +1,16 @@
 import { useTranslation } from "react-i18next";
 import "../../i18n/i18n";
 import "tailwindcss/tailwind.css";
-import { useState, useEffect, useRef } from "react";
+
+function debounce(callback, wait = 400) {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(function () {
+      callback.apply(this, args);
+    }, wait);
+  };
+}
 
 export function ThemeSwitcher(props) {
   const availableThemes = {
@@ -59,6 +68,24 @@ export function ThemeSwitcher(props) {
   );
 }
 
+function FinalRoundTitleChanger(props) {
+  const { i18n, t } = useTranslation();
+  return (
+    <div class="flex flex-row space-x-5 items-center">
+      <p class="text-xl text-foreground">{t("Final Round Title")}:</p>
+      <input
+        class="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1"
+        onChange={debounce((e) => {
+          props.game.settings.final_round_title = e.target.value;
+          props.setGame((prv) => ({ ...prv }));
+          props.send({ action: "data", data: props.game });
+        })}
+        placeholder={t("fast money")}
+      ></input>
+    </div>
+  );
+}
+
 export default function AdminSettings(props) {
   let game = props.game;
   const { i18n, t } = useTranslation();
@@ -94,13 +121,18 @@ export default function AdminSettings(props) {
 
   return (
     <>
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-2 gap-5">
         <HideGameQuestions
           game={game}
           setGame={props.setGame}
           send={props.send}
         />
         <ThemeSwitcher game={game} setGame={props.setGame} send={props.send} />
+        <FinalRoundTitleChanger
+          game={game}
+          setGame={props.setGame}
+          send={props.send}
+        />
       </div>
     </>
   );
