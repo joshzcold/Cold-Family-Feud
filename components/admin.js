@@ -196,7 +196,7 @@ function TitleLogoUpload(props) {
     );
   } else {
     return (
-      <div class="flex flex-col items-center space-y-1">
+      <div class="flex flex-row items-center space-x-2">
         <div class="image-upload w-6">
           <label htmlFor="logoUpload">
             <svg
@@ -271,7 +271,10 @@ function TitleLogoUpload(props) {
             }}
           />
         </div>
-        <p class="text-xs text-secondary-900">{t("logo upload")}</p>
+        <div>
+          <p class="text-s text-secondary-900">{t("logo upload")}</p>
+          <p class="text-xs text-secondary-900">{t("(must be smaller than 2MB)")}</p>
+        </div>
       </div>
     );
   }
@@ -484,8 +487,8 @@ export default function Admin(props) {
         </div>
 
         <hr />
-        <div class="pt-5 pb-5">
-          <div class="grid grid-cols-2  justify-items-auto gap-3 items-center">
+        <div class="pt-12 pb-12">
+          <div class="grid grid-cols-2  justify-items-center gap-10 items-center">
             <div class="flex flex-row justify-between space-x-5">
               {/* TITLE TEXT INPUT */}
               <div class="flex flex-row space-x-5 items-center">
@@ -572,13 +575,7 @@ export default function Admin(props) {
         </div>
         <hr />
         {/* ADMIN CONTROLS */}
-        <div class="flex flex-col p-5">
-          <div>
-            <p class="text-xl capitalize text-foreground">{t("settings")}:</p>
-            <hr class="w-24 p-1" />
-          </div>
           <AdminSettings game={game} setGame={props.setGame} send={send} />
-        </div>
         {/* SHOW ERRORS TO ADMIN */}
         <p class="text-xl text-failure-700">{error}</p>
         {game.rounds == null ? (

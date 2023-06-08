@@ -121,7 +121,11 @@ export default function AdminSettings(props) {
 
   return (
     <>
-      <div class="grid grid-cols-2 gap-5">
+        <div class="grid grid-cols-2 gap-6 py-6 px-24">
+          <div class="col-span-2">
+            <p class="text-xl capitalize text-secondary-900">{t("settings")}:</p>
+            <hr class="w-24 p-1 border-secondary-900" />
+          </div>
         <HideGameQuestions
           game={game}
           setGame={props.setGame}
@@ -133,7 +137,7 @@ export default function AdminSettings(props) {
           setGame={props.setGame}
           send={props.send}
         />
-      </div>
+        </div>
     </>
   );
 }
