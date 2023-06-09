@@ -233,7 +233,7 @@ export default function Home() {
         />
         <link
           rel="preload"
-          href="/fonts/Roboto/Roboto-Regular.ttf"
+          href="/fonts/C059/c059-bold.otf"
           as="font"
           crossOrigin=""
         />
