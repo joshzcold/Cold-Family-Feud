@@ -3,14 +3,12 @@ import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import LanguageSwitcher from "../components/language";
-import {ThemeSwitcher} from "../components/Admin/settings";
+import { ThemeSwitcher } from "../components/Admin/settings";
 
 export default function CreateGame(props) {
   const { t } = useTranslation();
   let gameTemplate = {
-    settings: {
-
-    },
+    settings: {},
     rounds: [
       {
         question: "",
@@ -32,6 +30,9 @@ export default function CreateGame(props) {
   };
   const [error, setError] = useState("");
   const [game, setGame] = useState(gameTemplate);
+  const [theme, setTheme] = useState({
+    settings: {}
+  });
 
   console.debug(game);
 
@@ -48,19 +49,75 @@ export default function CreateGame(props) {
 
   if (typeof window !== "undefined") {
     document.body.className = game?.settings?.theme + " bg-background";
+    // Prevent losing changes
+    window.onbeforeunload = function() {
+      return "";
+    };
   }
   return (
-    <div class={`${game?.settings?.theme} bg-background min-h-screen`}>
+    <div class={`${theme?.settings?.theme} bg-background min-h-screen`}>
       <div class="p-5">
         <div class="py-10 flex-col space-y-5">
-          <div class="flex flex-row space-x-5">
+          <div class="flex flex-row space-x-5 items-center">
             <p class="text-foreground">{t("language")}:</p>
             <LanguageSwitcher />
-            <ThemeSwitcher 
-              game={game}
-              setGame={setGame}
-              send={() => {console.debug('send from new')}}
+            <ThemeSwitcher
+              game={theme}
+              setGame={setTheme}
+              send={() => {
+                console.debug("send from new");
+              }}
             />
+            <div class="flex flex-col border-2  rounded-lg">
+              <div class="p-2 ml-4 items-center transform translate-y-3">
+                <input
+                  type="file"
+                  class=" bg-secondary-300 text-foreground"
+                  id="gamePicker"
+                  accept=".json"
+                />
+                <button
+                  class="hover:shadow-md rounded-md p-2 bg-primary-200"
+                  onClick={() => {
+                    var file = document.getElementById("gamePicker").files[0];
+                    if (file) {
+                      var reader = new FileReader();
+                      reader.readAsText(file, "utf-8");
+                      reader.onload = function(evt) {
+                        let data = JSON.parse(evt.target.result);
+                        console.debug(data);
+
+                        data.final_round == null
+                          ? (data.final_round = gameTemplate.final_round)
+                          : null;
+                        data.rounds == null
+                          ? (data.rounds = gameTemplate.rounds)
+                          : null;
+                        data.final_round_timers == null
+                          ? (data.final_round_timers =
+                            gameTemplate.final_round_timers)
+                          : null;
+                        data.settings == null
+                          ? (data.settings = gameTemplate.settings)
+                          : null;
+                        setGame(data);
+                      };
+                      reader.onerror = function(evt) {
+                        console.error("error reading file");
+                      };
+                    }
+                  }}
+                >
+                  {t("submit")}
+                </button>
+              </div>
+              <div class="flex flex-row">
+                <span class="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
+                  {t("Load Game")}
+                </span>
+                <div class="flex-grow"></div>
+              </div>
+            </div>
           </div>
           <p class="text-3xl text-foreground">{t("rounds")}</p>
           <div class="border-2 p-3 flex flex-col space-y-3">
@@ -380,48 +437,6 @@ export default function CreateGame(props) {
           >
             {t("save")}
           </button>
-          <div class="flex flex-col border-2  rounded-lg">
-            <div class="p-2 ml-4 items-center transform translate-y-3">
-              <input type="file" class=" bg-secondary-300 text-foreground" id="gamePicker" accept=".json" />
-              <button
-                class="hover:shadow-md rounded-md p-2 bg-primary-200"
-                onClick={() => {
-                  var file = document.getElementById("gamePicker").files[0];
-                  if (file) {
-                    var reader = new FileReader();
-                    reader.readAsText(file, "utf-8");
-                    reader.onload = function(evt) {
-                      let data = JSON.parse(evt.target.result);
-                      console.debug(data);
-
-                      data.final_round == null
-                        ? (data.final_round = gameTemplate.final_round)
-                        : null;
-                      data.rounds == null
-                        ? (data.rounds = gameTemplate.rounds)
-                        : null;
-                      data.final_round_timers == null
-                        ? (data.final_round_timers =
-                          gameTemplate.final_round_timers)
-                        : null;
-                      setGame(data);
-                    };
-                    reader.onerror = function(evt) {
-                      console.error("error reading file");
-                    };
-                  }
-                }}
-              >
-                {t("submit")}
-              </button>
-            </div>
-            <div class="flex flex-row">
-              <span class="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
-                {t("Load Game")}
-              </span>
-              <div class="flex-grow"></div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
