@@ -111,7 +111,7 @@ export default function AdminSettings(props) {
           ></input>
         </div>
         <div>
-          <p class="text-sm normal-case text-secondary-900 italic">
+          <p class="text-sm normal-case text-secondary-900 italic max-w-xs">
             {t("hide questions on the game window and player buzzer screens")}
           </p>
         </div>
@@ -121,11 +121,7 @@ export default function AdminSettings(props) {
 
   return (
     <>
-        <div class="grid grid-cols-2 gap-6 py-6 px-24">
-          <div class="col-span-2">
-            <p class="text-xl capitalize text-secondary-900">{t("settings")}:</p>
-            <hr class="w-24 p-1 border-secondary-900" />
-          </div>
+        <div class="grid grid-cols-2 gap-6">
         <HideGameQuestions
           game={game}
           setGame={props.setGame}
