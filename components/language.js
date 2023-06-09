@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function LanguageSwitcher(props) {
   const { i18n, t } = useTranslation();
   return (
-    <div class="flex flex-row space-x-5">
+    <div className="flex flex-row space-x-5">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
@@ -20,7 +20,7 @@ export default function LanguageSwitcher(props) {
         />
       </svg>
       <select
-        class="bg-secondary-300 text-foreground"
+        className="bg-secondary-300 text-foreground"
         value={i18n.language}
         onChange={
           props.onChange

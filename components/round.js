@@ -9,7 +9,7 @@ function RoundPointTally(props) {
   return (
     <div
       style={{ borderWidth: 12 }}
-      class="border-black bg-gradient-to-tr from-primary-900 to-primary-500 p-1"
+      className="border-black bg-gradient-to-tr from-primary-900 to-primary-500 p-1"
     >
       {/* text within svg can resize the text based on container*/}
       <svg
@@ -38,8 +38,8 @@ export default function Round(props) {
   let current_round = props.game.round;
   let round = props.game.rounds[current_round];
   return (
-    <div class="w-auto flex flex-col space-y-1 items-center">
-      <div class="flex flex-row justify-around space-x-2 h-28">
+    <div className="w-auto flex flex-col space-y-1 items-center">
+      <div className="flex flex-row justify-around space-x-2 h-28">
         <RoundPointTally points={props.game.teams[0].points} />
         <RoundPointTally
           points={props.game.point_tracker[props.game.round]}
@@ -48,18 +48,18 @@ export default function Round(props) {
         <RoundPointTally points={props.game.teams[1].points} />
       </div>
 
-      <div class="flex flex-row justify-center">
+      <div className="flex flex-row justify-center">
         {round.multiply > 1 ? (
           <div>
-            <p class="text-2xl text-start text-foreground">
+            <p className="text-2xl text-start text-foreground">
               x{t("number", { count: round.multiply })}
             </p>
           </div>
         ) : null}
       </div>
-      <div class="flex flex-row justify-center">
+      <div className="flex flex-row justify-center">
         {props.game.settings.hide_questions === false ? (
-          <p class="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>
+          <p className="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>
         ) : (
           <></>
         )}

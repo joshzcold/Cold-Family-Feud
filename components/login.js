@@ -8,16 +8,16 @@ export default function Login(props) {
   const { t } = useTranslation();
   return (
     <>
-      <div class="self-end">
+      <div className="self-end">
         <LanguageSwitcher />
       </div>
       <TitleLogo insert="" />
-      <div class="flex flex-col">
-        <div class="flex flex-row justify-between text-1xl px-2">
-          <p class="uppercase">{t("room code")}</p>
+      <div className="flex flex-col">
+        <div className="flex flex-row justify-between text-1xl px-2">
+          <p className="uppercase">{t("room code")}</p>
         </div>
         <input
-          class="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
+          className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
           id="roomcode"
           onChange={(e) => {
             props.setRoomCode(e.target.value);
@@ -28,13 +28,13 @@ export default function Login(props) {
         ></input>
       </div>
 
-      <div class="flex flex-col">
-        <div class="flex flex-row justify-between text-1xl px-2">
-          <p class="uppercase">{t("name")}</p>
+      <div className="flex flex-col">
+        <div className="flex flex-row justify-between text-1xl px-2">
+          <p className="uppercase">{t("name")}</p>
           <p>{12 - props.playerName.length}</p>
         </div>
         <input
-          class="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
+          className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
           id="playername"
           maxLength={12}
           value={props.playerName}
@@ -44,17 +44,17 @@ export default function Login(props) {
           placeholder={t("enter your name")}
         ></input>
       </div>
-      <div class="flex flex-row items-center space-x-5">
+      <div className="flex flex-row items-center space-x-5">
         <button
-          class="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
+          className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
           onClick={() => {
             props.joinRoom();
           }}
         >
-          <div class="flex-grow">{t("play")}</div>
+          <div className="flex-grow">{t("play")}</div>
         </button>
         <button
-          class="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase"
+          className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase"
           onClick={() => {
             props.hostRoom();
           }}
@@ -64,7 +64,7 @@ export default function Login(props) {
       </div>
 
       {props.error !== "" ? (
-        <p class="text-2xl text-failure-700">{props.error}</p>
+        <p className="text-2xl text-failure-700">{props.error}</p>
       ) : null}
     </>
   );

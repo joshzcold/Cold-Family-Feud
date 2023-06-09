@@ -48,18 +48,18 @@ export default function CreateGame(props) {
   };
 
   if (typeof window !== "undefined") {
-    document.body.className = game?.settings?.theme + " bg-background";
+    document.body.className= game?.settings?.theme + " bg-background";
     // Prevent losing changes
     window.onbeforeunload = function() {
       return "";
     };
   }
   return (
-    <div class={`${theme?.settings?.theme} bg-background min-h-screen`}>
-      <div class="p-5">
-        <div class="py-10 flex-col space-y-5">
-          <div class="flex flex-row space-x-5 items-center">
-            <p class="text-foreground">{t("language")}:</p>
+    <div className={`${theme?.settings?.theme} bg-background min-h-screen`}>
+      <div className="p-5">
+        <div className="py-10 flex-col space-y-5">
+          <div className="flex flex-row space-x-5 items-center">
+            <p className="text-foreground">{t("language")}:</p>
             <LanguageSwitcher />
             <ThemeSwitcher
               game={theme}
@@ -68,16 +68,16 @@ export default function CreateGame(props) {
                 console.debug("send from new");
               }}
             />
-            <div class="flex flex-col border-2  rounded-lg">
-              <div class="p-2 ml-4 items-center transform translate-y-3">
+            <div className="flex flex-col border-2  rounded-lg">
+              <div className="p-2 ml-4 items-center transform translate-y-3">
                 <input
                   type="file"
-                  class=" bg-secondary-300 text-foreground"
+                  className=" bg-secondary-300 text-foreground"
                   id="gamePicker"
                   accept=".json"
                 />
                 <button
-                  class="hover:shadow-md rounded-md p-2 bg-primary-200"
+                  className="hover:shadow-md rounded-md p-2 bg-primary-200"
                   onClick={() => {
                     var file = document.getElementById("gamePicker").files[0];
                     if (file) {
@@ -111,21 +111,21 @@ export default function CreateGame(props) {
                   {t("submit")}
                 </button>
               </div>
-              <div class="flex flex-row">
-                <span class="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
+              <div className="flex flex-row">
+                <span className="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
                   {t("Load Game")}
                 </span>
-                <div class="flex-grow"></div>
+                <div className="flex-grow"></div>
               </div>
             </div>
           </div>
-          <p class="text-3xl text-foreground">{t("rounds")}</p>
-          <div class="border-2 p-3 flex flex-col space-y-3">
+          <p className="text-3xl text-foreground">{t("rounds")}</p>
+          <div className="border-2 p-3 flex flex-col space-y-3">
             {game.rounds.map((r, index) => (
-              <div class="border-2 p-3 flex flex-col space-y-3">
-                <div class="flex space-x-3 flex-row">
+              <div className="border-2 p-3 flex flex-col space-y-3">
+                <div className="flex space-x-3 flex-row">
                   <input
-                    class="p-2 border-2 bg-secondary-300 text-foreground"
+                    className="p-2 border-2 bg-secondary-300 text-foreground"
                     value={r.question}
                     placeholder={t("question")}
                     onChange={(e) => {
@@ -136,7 +136,7 @@ export default function CreateGame(props) {
                   <input
                     type="number"
                     min="1"
-                    class="p-2 border-2 bg-secondary-300 text-foreground"
+                    className="p-2 border-2 bg-secondary-300 text-foreground"
                     value={r.multiply}
                     placeholder={t("multiplier")}
                     onChange={(e) => {
@@ -149,11 +149,11 @@ export default function CreateGame(props) {
                     }}
                   />
                 </div>
-                <div class="p-2 border-2">
+                <div className="p-2 border-2">
                   {r.answers.map((a, ain) => (
-                    <div class="flex flex-row space-x-3 pb-2" key={ain}>
+                    <div className="flex flex-row space-x-3 pb-2" key={ain}>
                       <input
-                        class="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a.ans}
                         placeholder={t("Answer")}
                         onChange={(e) => {
@@ -164,7 +164,7 @@ export default function CreateGame(props) {
                       <input
                         type="number"
                         min="0"
-                        class="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a.pnt}
                         placeholder={t("points")}
                         onChange={(e) => {
@@ -177,20 +177,20 @@ export default function CreateGame(props) {
                           r.answers.splice(ain, 1);
                           setGame((prv) => ({ ...prv }));
                         }}
-                        class="hover:shadow-md text-xl px-3 bg-failure-200"
+                        className="hover:shadow-md text-xl px-3 bg-failure-200"
                       >
                         -
                       </button>
                     </div>
                   ))}
                 </div>
-                <div class="py-2 flex flex-row space-x-3">
+                <div className="py-2 flex flex-row space-x-3">
                   <button
                     onClick={() => {
                       r.answers.push({ ans: "", pnt: 0, trig: false });
                       setGame((prv) => ({ ...prv }));
                     }}
-                    class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                    className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
                   >
                     {t("Answer")} +
                   </button>
@@ -199,14 +199,14 @@ export default function CreateGame(props) {
                       game.rounds.splice(index, 1);
                       setGame((prv) => ({ ...prv }));
                     }}
-                    class="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
+                    className="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
                   >
                     {t("round")} -
                   </button>
                 </div>
               </div>
             ))}
-            <div class="pt-5">
+            <div className="pt-5">
               <button
                 onClick={() => {
                   game.rounds.push({
@@ -216,7 +216,7 @@ export default function CreateGame(props) {
                   });
                   setGame((prv) => ({ ...prv }));
                 }}
-                class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
               >
                 {t("round")} +
               </button>
@@ -224,17 +224,17 @@ export default function CreateGame(props) {
           </div>
         </div>
 
-        <div class="py-10 flex-col space-y-5">
-          <div class="flex flex-row space-x-10 items-end">
-            <p class="text-3xl text-foreground">Fast Money </p>
+        <div className="py-10 flex-col space-y-5">
+          <div className="flex flex-row space-x-10 items-end">
+            <p className="text-3xl text-foreground">Fast Money </p>
             <div>
-              <p class="text-secondary-900">
+              <p className="text-secondary-900">
                 {t("timer")} {t("number", { count: 1 })}
               </p>
               <input
                 type="number"
                 min="0"
-                class="p-2 border-2 bg-secondary-300 text-foreground"
+                className="p-2 border-2 bg-secondary-300 text-foreground"
                 value={game.final_round_timers[0]}
                 placeholder={`${t("timer")} ${t("number", { count: 1 })}`}
                 onChange={(e) => {
@@ -244,13 +244,13 @@ export default function CreateGame(props) {
               />
             </div>
             <div>
-              <p class="text-secondary-900">
+              <p className="text-secondary-900">
                 {t("timer")} {t("number", { count: 2 })}
               </p>
               <input
                 type="number"
                 min="0"
-                class="p-2 border-2 bg-secondary-300 text-foreground"
+                className="p-2 border-2 bg-secondary-300 text-foreground"
                 value={game.final_round_timers[1]}
                 placeholder={`${t("timer")} ${t("number", { count: 2 })}`}
                 onChange={(e) => {
@@ -260,22 +260,22 @@ export default function CreateGame(props) {
               />
             </div>
           </div>
-          <div class="border-2 p-3">
+          <div className="border-2 p-3">
             {game.final_round.map((q, qin) => (
-              <div class="flex flex-col space-y-2 pt-5">
+              <div className="flex flex-col space-y-2 pt-5">
                 <input
-                  class="p-2 border-2 bg-secondary-300 text-foreground"
+                  className="p-2 border-2 bg-secondary-300 text-foreground"
                   value={q.question}
                   onChange={(e) => {
                     q.question = e.target.value;
                     setGame((prv) => ({ ...prv }));
                   }}
                 />
-                <div class="border-2 p-3">
+                <div className="border-2 p-3">
                   {q.answers.map((a, ain) => (
-                    <div class="flex flex-row space-x-3 pb-2" key={ain}>
+                    <div className="flex flex-row space-x-3 pb-2" key={ain}>
                       <input
-                        class="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a[0]}
                         placeholder={t("Answer")}
                         onChange={(e) => {
@@ -286,7 +286,7 @@ export default function CreateGame(props) {
                       <input
                         type="number"
                         min="0"
-                        class="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a[1]}
                         placeholder={t("points")}
                         onChange={(e) => {
@@ -299,7 +299,7 @@ export default function CreateGame(props) {
                           q.answers.splice(ain, 1);
                           setGame((prv) => ({ ...prv }));
                         }}
-                        class="hover:shadow-md text-xl px-3 bg-failure-200"
+                        className="hover:shadow-md text-xl px-3 bg-failure-200"
                       >
                         -
                       </button>
@@ -310,17 +310,17 @@ export default function CreateGame(props) {
                       q.answers.push(["", ""]);
                       setGame((prv) => ({ ...prv }));
                     }}
-                    class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                    className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
                   >
                     {t("Answer")} +
                   </button>
-                  <div class="pt-5">
+                  <div className="pt-5">
                     <button
                       onClick={() => {
                         game.final_round.splice(qin, 1);
                         setGame((prv) => ({ ...prv }));
                       }}
-                      class="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
+                      className="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
                     >
                       {t("Question")} -
                     </button>
@@ -328,7 +328,7 @@ export default function CreateGame(props) {
                 </div>
               </div>
             ))}
-            <div class="pt-5">
+            <div className="pt-5">
               <button
                 onClick={() => {
                   game.final_round.push({
@@ -343,7 +343,7 @@ export default function CreateGame(props) {
                   });
                   setGame((prv) => ({ ...prv }));
                 }}
-                class="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
               >
                 {t("Question")} +
               </button>
@@ -352,15 +352,15 @@ export default function CreateGame(props) {
         </div>
 
         {error !== "" ? (
-          <div class="bg-failure-500 p-2 rounded-md">
-            <p class="text-white font-semibold uppercase">{t("error")}:</p>
-            <p class="text-white">{error}</p>
+          <div className="bg-failure-500 p-2 rounded-md">
+            <p className="text-white font-semibold uppercase">{t("error")}:</p>
+            <p className="text-white">{error}</p>
           </div>
         ) : null}
 
-        <div class="flex flex-row space-x-5 pt-5">
+        <div className="flex flex-row space-x-5 pt-5">
           <button
-            class="hover:shadow-md rounded-md bg-success-200 p-2 px-10"
+            className="hover:shadow-md rounded-md bg-success-200 p-2 px-10"
             onClick={() => {
               // ERROR checking
               let error = [];

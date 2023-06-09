@@ -132,18 +132,18 @@ export default function Game(props) {
       gameSession = <Title game={game} />;
     } else if (game.is_final_round) {
       gameSession = (
-        <div class="flex w-full justify-center">
-          <div class="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 pt-5">
+        <div className="flex w-full justify-center">
+          <div className="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 pt-5">
             <Final game={game} timer={timer} />
           </div>
         </div>
       );
     } else {
       gameSession = (
-        <div class="flex flex-col space-y-10 py-5">
+        <div className="flex flex-col space-y-10 py-5">
           <Round game={game} />
           <QuestionBoard round={game.rounds[game.round]} />
-          <div class="flex flex-row justify-around">
+          <div className="flex flex-row justify-around">
             <TeamName game={game} team={0} />
             <TeamName game={game} team={1} />
           </div>
@@ -152,15 +152,15 @@ export default function Game(props) {
     }
 
     if (typeof window !== "undefined") {
-      document.body.className = game?.settings?.theme + " bg-background";
+      document.body.className= game?.settings?.theme + " bg-background";
     }
     return (
       <>
-        <div class={`${game?.settings?.theme} min-h-screen`}>
-          <div class="">
+        <div className={`${game?.settings?.theme} min-h-screen`}>
+          <div className="">
             {gameSession}
             {error !== "" ? (
-              <p class="text-2xl text-failure-700">{error}</p>
+              <p className="text-2xl text-failure-700">{error}</p>
             ) : null}
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function Game(props) {
     );
   } else {
     return (
-      <div class="flex flex-col justify-center items-center min-h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen">
         <p>{t("No game session. retry from the admin window")}</p>
       </div>
     );

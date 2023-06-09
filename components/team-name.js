@@ -1,14 +1,14 @@
 export default function TeamName(props) {
   return (
     <div
-      class="text-3xl flex flex-col text-center space-y-2"
+      className="text-3xl flex flex-col text-center space-y-2"
       style={{
         minWidth: 0,
       }}
     >
-      <div class="bg-gradient-to-tr from-primary-900 to-primary-500">
+      <div className="bg-gradient-to-tr from-primary-900 to-primary-500">
         <p
-          class="p-5 uppercase text-white"
+          className="p-5 uppercase text-white"
           style={{
             fontWeight: 600,
             whiteSpace: "nowrap",
@@ -21,9 +21,9 @@ export default function TeamName(props) {
           {props.game.teams[props.team].name}
         </p>
       </div>
-      <div class="flex justify-center flex-row text-center space-x-2">
+      <div className="flex justify-center flex-row text-center space-x-2">
         {Array(props.game.teams[props.team].mistakes).fill(
-          <div class="flex-shrink">
+          <div className="flex-shrink">
             <img src="x.png" />
           </div>
         )}
