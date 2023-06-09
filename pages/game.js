@@ -14,10 +14,16 @@ export default function Game(props) {
   const { i18n, t } = useTranslation();
   const [game, setGame] = useState({});
   const [timer, setTimer] = useState(0);
-  const [error, setError] = useState("");
+  const [error, setErrorVal] = useState("");
   const ws = useRef(null);
   let refreshCounter = 0;
-  let pongInterval;
+
+  function setError(e) {
+    setErrorVal(e);
+    setTimeout(() => {
+      setErrorVal("");
+    }, 5000);
+  }
 
   useEffect(() => {
     fetch("/api/ws").finally(() => {
@@ -31,7 +37,7 @@ export default function Game(props) {
           ws.current.send(
             JSON.stringify({ action: "game_window", session: session })
           );
-          pongInterval = setInterval(() => {
+          setInterval(() => {
             console.debug("sending pong in game window");
             let [room, id] = session.split(":");
             ws.current.send(
@@ -145,9 +151,9 @@ export default function Game(props) {
       );
     }
 
-  if (typeof window !== "undefined") {
-    document.body.className = game?.settings?.theme + " bg-background";
-  }
+    if (typeof window !== "undefined") {
+      document.body.className = game?.settings?.theme + " bg-background";
+    }
     return (
       <>
         <div class={`${game?.settings?.theme} min-h-screen`}>

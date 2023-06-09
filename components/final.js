@@ -55,7 +55,11 @@ export default function Final(props) {
   return (
     <div class="">
       <div class="text-center my-10">
-        <p class="text-3xl text-foreground">{t("Fast Money")}</p>
+        { props.game.settings.final_round_title ? 
+          <p class="text-3xl text-foreground">{props.game.settings.final_round_title}</p>
+        :
+          <p class="text-3xl text-foreground">{t("Fast Money")}</p>
+        }
       </div>
       <div
         class="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text "
