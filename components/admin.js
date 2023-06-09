@@ -21,8 +21,8 @@ function debounce(callback, wait = 400) {
 function TitleMusic() {
   const { i18n, t } = useTranslation();
   return (
-    <div class="flex flex-row items-center space-x-5  p-5">
-      <h3 class="text-2xl text-foreground">{t("Title Music")}</h3>
+    <div className="flex flex-row items-center space-x-5  p-5">
+      <h3 className="text-2xl text-foreground">{t("Title Music")}</h3>
       <audio controls>
         <source src="title.mp3" type="audio/mpeg" />
       </audio>
@@ -36,7 +36,7 @@ function TeamControls(props) {
     <>
       <button
         disabled={props.pointsGivin.state}
-        class={`border-4 text-2xl ${props.pointsGivin.color} rounded p-10 ${props.pointsGivin.textColor}`}
+        className={`border-4 text-2xl ${props.pointsGivin.color} rounded p-10 ${props.pointsGivin.textColor}`}
         onClick={() => {
           props.game.teams[props.team].points =
             props.game.point_tracker[props.game.round] +
@@ -54,7 +54,7 @@ function TeamControls(props) {
         {props.game.teams[props.team].name} {t("Gets Points")}
       </button>
       <button
-        class="border-4 bg-failure-500 text-2xl rounded p-10 text-foreground"
+        className="border-4 bg-failure-500 text-2xl rounded p-10 text-foreground"
         onClick={() => {
           if (props.game.teams[props.team].mistakes < 3)
             props.game.teams[props.team].mistakes++;
@@ -79,12 +79,12 @@ function FinalRoundButtonControls(props) {
     ? props.game.final_round_2
     : props.game.final_round;
   return control_round?.map((x) => (
-    <div class="flex-col flex space-y-5 p-12 border-2">
-      <p class="text-4xl font-bold text-foreground">{x.question}</p>
-      <div class="flex flex-row space-x-5 pb-7">
+    <div className="flex-col flex space-y-5 p-12 border-2">
+      <p className="text-4xl font-bold text-foreground">{x.question}</p>
+      <div className="flex flex-row space-x-5 pb-7">
         {/* ANSWER SELECTION FINAL ROUND */}
         <input
-          class="border-4 rounded text-3xl w-48 p-5 flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded text-3xl w-48 p-5 flex-grow bg-secondary-300 text-foreground"
           placeholder={t("Answer")}
           value={x.input}
           onChange={(e) => {
@@ -94,7 +94,7 @@ function FinalRoundButtonControls(props) {
         />
         <select
           value={x.selection}
-          class="border-4 rounded p-2 text-2xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-2 text-2xl flex-grow bg-secondary-300 text-foreground"
           onChange={(e) => {
             x.selection = parseInt(e.target.value);
             props.setGame((prv) => ({ ...prv }));
@@ -109,9 +109,9 @@ function FinalRoundButtonControls(props) {
         </select>
         {/* FINAL ROUND ANSWER BUTTON GROUP */}
       </div>
-      <div class="flex flex-row ">
+      <div className="flex flex-row ">
         <button
-          class="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
             x.points = 0;
             props.setGame((prv) => ({ ...prv }));
@@ -123,7 +123,7 @@ function FinalRoundButtonControls(props) {
         </button>
 
         <button
-          class="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
             x.revealed = true;
             props.setGame((prv) => ({ ...prv }));
@@ -135,7 +135,7 @@ function FinalRoundButtonControls(props) {
         </button>
 
         <button
-          class="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
             x.points = x.answers[x.selection][1];
             props.setGame((prv) => ({ ...prv }));
@@ -154,11 +154,11 @@ function TitleLogoUpload(props) {
   const { i18n, t } = useTranslation();
   if (props.imageUploaded !== null) {
     return (
-      <div class="flex flex-row space-x-2 items-center">
-        <p class="capitalize text-foreground">logo:</p>
+      <div className="flex flex-row space-x-2 items-center">
+        <p className="capitalize text-foreground">logo:</p>
         <img width={"150px"} src={URL.createObjectURL(props.imageUploaded)} />
         <button
-          class="border-2 bg-secondary-500 hover:bg-secondary-700 p-1 rounded-lg"
+          className="border-2 bg-secondary-500 hover:bg-secondary-700 p-1 rounded-lg"
           onClick={(e) => {
             props.send({
               action: "del_logo_upload",
@@ -196,18 +196,18 @@ function TitleLogoUpload(props) {
     );
   } else {
     return (
-      <div class="flex flex-row items-center space-x-2">
-        <div class="image-upload w-6">
+      <div className="flex flex-row items-center space-x-2">
+        <div className="image-upload w-6">
           <label htmlFor="logoUpload">
             <svg
-              class="fill-current text-secondary-900 hover:text-secondary-500 cursor-pointer"
+              className="fill-current text-secondary-900 hover:text-secondary-500 cursor-pointer"
               viewBox="0 0 384 512"
             >
               <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
             </svg>
           </label>
           <input
-            class="hidden"
+            className="hidden"
             type="file"
             accept="image/png, image/jpeg, image/gif"
             id="logoUpload"
@@ -273,8 +273,8 @@ function TitleLogoUpload(props) {
           />
         </div>
         <div>
-          <p class="text-s text-secondary-900">{t("logo upload")}</p>
-          <p class="text-xs text-secondary-900">
+          <p className="text-s text-secondary-900">{t("logo upload")}</p>
+          <p className="text-xs text-secondary-900">
             {t("(must be smaller than 2MB)")}
           </p>
         </div>
@@ -382,45 +382,45 @@ export default function Admin(props) {
     }
     return (
       <div
-        class="lg:min-w-0"
+        className="lg:min-w-0"
         style={{
           minWidth: "100vh",
         }}
       >
-        <div class="min-h-full">
+        <div className="min-h-full">
           {/* ROOM CODE TEXT */}
-          <p class="text-center text-8xl p-4 font-semibold uppercase text-foreground">
+          <p className="text-center text-8xl p-4 font-semibold uppercase text-foreground">
             {props.room}
           </p>
           <hr />
-          <div class="flex flex-row justify-evenly p-5 ">
+          <div className="flex flex-row justify-evenly p-5 ">
             {/* ADMIN BUTTONS */}
             <a href="/game" target="_blank">
-              <button class="text-2xl">
-                <div class="w-48 hover:shadow-md rounded bg-success-200 p-2 flex justify-center">
+              <button className="text-2xl">
+                <div className="w-48 hover:shadow-md rounded bg-success-200 p-2 flex justify-center">
                   {t("Open Game Window")}
                 </div>
               </button>
             </a>
             <a href="/new">
-              <button class="text-2xl">
-                <div class="w-48 hover:shadow-md rounded bg-primary-200 p-2 flex justify-center">
+              <button className="text-2xl">
+                <div className="w-48 hover:shadow-md rounded bg-primary-200 p-2 flex justify-center">
                   {t("Create New Game")}
                 </div>
               </button>
             </a>
             <button
-              class="text-2xl"
+              className="text-2xl"
               onClick={() => {
                 props.quitGame(true);
               }}
             >
-              <div class="hover:shadow-md rounded bg-failure-200 p-2 w-32 flex justify-center">
+              <div className="hover:shadow-md rounded bg-failure-200 p-2 w-32 flex justify-center">
                 {t("Quit")}
               </div>
             </button>
           </div>
-          <div class="flex flex-row justify-evenly items-center m-5">
+          <div className="flex flex-row justify-evenly items-center m-5">
             <LanguageSwitcher
               onChange={(e) => {
                 i18n.changeLanguage(e.target.value);
@@ -428,11 +428,11 @@ export default function Admin(props) {
               }}
             />
             {/* START GAME LOADER */}
-            <div class="flex flex-col border-2  rounded">
-              <div class="justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
+            <div className="flex flex-col border-2  rounded">
+              <div className="justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
                 {gameSelector.length > 0 ? (
                   <select
-                    class="border-2 rounded bg-secondary-500 text-foreground"
+                    className="border-2 rounded bg-secondary-500 text-foreground"
                     onChange={(e) => {
                       send({
                         action: "load_game",
@@ -449,17 +449,17 @@ export default function Admin(props) {
                     ))}
                   </select>
                 ) : null}
-                <div class="image-upload w-6">
+                <div className="image-upload w-6">
                   <label htmlFor="gamePicker">
                     <svg
-                      class="fill-current text-secondary-900 hover:text-secondary-500 cursor-pointer"
+                      className="fill-current text-secondary-900 hover:text-secondary-500 cursor-pointer"
                       viewBox="0 0 384 512"
                     >
                       <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
                     </svg>
                   </label>
                   <input
-                    class="hidden"
+                    className="hidden"
                     type="file"
                     accept=".json"
                     id="gamePicker"
@@ -484,26 +484,26 @@ export default function Admin(props) {
                   />
                 </div>
               </div>
-              <div class="flex flex-row">
-                <span class="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
+              <div className="flex flex-row">
+                <span className="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
                   {t("Load Game")}
                 </span>
-                <div class="flex-grow" />
+                <div className="flex-grow" />
               </div>
             </div>
           </div>
           {/* END GAME LOADER */}
         </div>
 
-        <hr class="my-12" />
-        <div class="flex flex-col items-center space-y-5">
-          <div class="grid grid-cols-2 gap-y-10 gap-x-48">
-            <div class="flex flex-row justify-between space-x-5">
+        <hr className="my-12" />
+        <div className="flex flex-col items-center space-y-5">
+          <div className="grid grid-cols-2 gap-y-10 gap-x-48">
+            <div className="flex flex-row justify-between space-x-5">
               {/* TITLE TEXT INPUT */}
-              <div class="flex flex-row space-x-5 items-center">
-                <p class="text-2xl text-foreground">{t("Title Text")}:</p>
+              <div className="flex flex-row space-x-5 items-center">
+                <p className="text-2xl text-foreground">{t("Title Text")}:</p>
                 <input
-                  class="border-4 rounded text-2xl w-44 bg-secondary-500 text-foreground p-1"
+                  className="border-4 rounded text-2xl w-44 bg-secondary-500 text-foreground p-1"
                   onChange={debounce((e) => {
                     game.title_text = e.target.value;
                     props.setGame((prv) => ({ ...prv }));
@@ -523,10 +523,10 @@ export default function Admin(props) {
               setImageUploaded={setImageUploaded}
               imageUploaded={imageUploaded}
             />
-            <div class="w-80 flex-row items-center space-x-1">
+            <div className="w-80 flex-row items-center space-x-1">
               {/* TEAM 1 NAME CHANGER */}
               <input
-                class="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1"
+                className="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1"
                 onChange={debounce((e) => {
                   game.teams[0].name = e.target.value;
                   props.setGame((prv) => ({ ...prv }));
@@ -540,7 +540,7 @@ export default function Admin(props) {
                 type="number"
                 min="0"
                 required
-                class="border-4 text-3xl rounded text-center w-20 bg-secondary-500 text-foreground p-1"
+                className="border-4 text-3xl rounded text-center w-20 bg-secondary-500 text-foreground p-1"
                 onChange={(e) => {
                   let number = parseInt(e.target.value);
                   console.debug(number);
@@ -552,10 +552,10 @@ export default function Admin(props) {
                 value={game.teams[0].points}
               ></input>
             </div>
-            <div class="w-80 flex-row items-center space-x-1">
+            <div className="w-80 flex-row items-center space-x-1">
               {/* TEAM 2 NAME CHANGER */}
               <input
-                class="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1"
+                className="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1"
                 onChange={debounce((e) => {
                   game.teams[1].name = e.target.value;
                   props.setGame((prv) => ({ ...prv }));
@@ -569,7 +569,7 @@ export default function Admin(props) {
                 type="number"
                 min="0"
                 required
-                class="border-4 rounded text-center text-3xl w-20 bg-secondary-500 text-foreground p-1"
+                className="border-4 rounded text-center text-3xl w-20 bg-secondary-500 text-foreground p-1"
                 onChange={(e) => {
                   let number = parseInt(e.target.value);
                   isNaN(number) ? (number = 0) : null;
@@ -581,35 +581,35 @@ export default function Admin(props) {
               ></input>
             </div>
           </div>
-          <p class="text-xl text-failure-700">{error}</p>
+          <p className="text-xl text-failure-700">{error}</p>
         </div>
-        <hr class="my-12" />
+        <hr className="my-12" />
         {/* ADMIN CONTROLS */}
-        <div class="flex flex-col items-center">
+        <div className="flex flex-col items-center">
           <AdminSettings game={game} setGame={props.setGame} send={send} />
         </div>
         {/* SHOW ERRORS TO ADMIN */}
         {game.rounds == null ? (
-          <p class="text-2xl text-center py-20 text-secondary-900">
+          <p className="text-2xl text-center py-20 text-secondary-900">
             [{t("Please load a game")}]
           </p>
         ) : (
           <div>
-            <div class="flex-col space-y-5 p-5">
+            <div className="flex-col space-y-5 p-5">
               <hr />
-              <div class="flex flex-row justify-evenly items-baseline">
+              <div className="flex flex-row justify-evenly items-baseline">
                 <TitleMusic />
                 {/* CURRENT SCREEN TEXT */}
-                <p class="text-2xl text-center pt-5 text-foreground">
+                <p className="text-2xl text-center pt-5 text-foreground">
                   {" "}
                   {t("Current Screen")}: {current_screen}
                 </p>
               </div>
 
-              <div class="flex flex-row space-x-10 flex-grow">
+              <div className="flex flex-row space-x-10 flex-grow">
                 {/* TITLE SCREEN BUTTON */}
                 <button
-                  class="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
+                  className="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
                   onClick={() => {
                     game.title = true;
                     game.round = 0;
@@ -625,7 +625,7 @@ export default function Admin(props) {
                 {/* FINAL ROUND BUTTON */}
                 {game.final_round ? (
                   <button
-                    class="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
+                    className="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
                     onClick={() => {
                       game.title = false;
                       game.is_final_round = true;
@@ -644,7 +644,7 @@ export default function Admin(props) {
 
                 {/* ROUND SELECTOR */}
                 <select
-                  class="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
+                  className="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
                   value={game.round}
                   onChange={(e) => {
                     game.round = parseInt(e.target.value);
@@ -670,9 +670,9 @@ export default function Admin(props) {
                 </select>
               </div>
               {/* START ROUND 1 BUTTON */}
-              <div class="flex flex-row space-x-10">
+              <div className="flex flex-row space-x-10">
                 <button
-                  class="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground"
+                  className="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground"
                   onClick={() => {
                     game.title = false;
                     game.is_final_round = false;
@@ -694,7 +694,7 @@ export default function Admin(props) {
 
                 {/* NEXT ROUND BUTTON */}
                 <button
-                  class="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground"
+                  className="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground"
                   onClick={() => {
                     game.title = false;
                     game.is_final_round = false;
@@ -719,7 +719,7 @@ export default function Admin(props) {
               </div>
 
               {/* GETS POINTS MISTAKE */}
-              <div class="grid grid-rows-2 grid-flow-col gap-5">
+              <div className="grid grid-rows-2 grid-flow-col gap-5">
                 <TeamControls
                   game={game}
                   setGame={props.setGame}
@@ -744,28 +744,28 @@ export default function Admin(props) {
             {!game.is_final_round ? (
               // GAME BOARD CONTROLS
               <div>
-                <div class="flex flex-col space-y-2 px-10 pt-5">
+                <div className="flex flex-col space-y-2 px-10 pt-5">
                   {/* QUESTION */}
-                  <p class="text-3xl font-bold text-foreground">
+                  <p className="text-3xl font-bold text-foreground">
                     {current_round.question}
                   </p>
                   {/* POINT TRACKER */}
-                  <div class="flex flex-row border-4 p-2 space-x-5 items-center justify-between">
-                    <div class="flex flex-row space-x-5 items-center">
-                      <h3 class="text-xl  text-foreground">{t("Points")}: </h3>
-                      <h3 class="text-2xl flex-grow  text-foreground">
+                  <div className="flex flex-row border-4 p-2 space-x-5 items-center justify-between">
+                    <div className="flex flex-row space-x-5 items-center">
+                      <h3 className="text-xl  text-foreground">{t("Points")}: </h3>
+                      <h3 className="text-2xl flex-grow  text-foreground">
                         {t("number", { count: game.point_tracker[game.round] })}
                       </h3>
                     </div>
-                    <div class="flex flex-row space-x-2 items-center">
-                      <h3 class="text-xl text-foreground">
+                    <div className="flex flex-row space-x-2 items-center">
+                      <h3 className="text-xl text-foreground">
                         {t("multiplier")}:{" "}
                       </h3>
-                      <h3 class="text-2xl text-foreground">x</h3>
+                      <h3 className="text-2xl text-foreground">x</h3>
                       <input
                         type="number"
                         min="1"
-                        class="p-1 border-2 w-24 bg-secondary-200 text-foreground"
+                        className="p-1 border-2 w-24 bg-secondary-200 text-foreground"
                         value={current_round.multiply}
                         placeholder={t("multiplier")}
                         onChange={(e) => {
@@ -783,15 +783,15 @@ export default function Admin(props) {
                 </div>
 
                 {/* GAME BOARD BUTTONS */}
-                <div class=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
+                <div className=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                   {current_round.answers.map((x) => (
                     <div
-                      class={`${
+                      className={`${
                         x.trig ? "bg-secondary-500" : "bg-primary-700"
                       } font-extrabold uppercase rounded border-2 text-2xl rounded `}
                     >
                       <button
-                        class="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
+                        className="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
                         onClick={() => {
                           x.trig = !x.trig;
                           props.setGame((prv) => ({ ...prv }));
@@ -814,67 +814,67 @@ export default function Admin(props) {
                           send({ action: "data", data: game });
                         }}
                       >
-                        <div class="flex-grow">{x.ans}</div>
-                        <div class="p-2">{t("number", { count: x.pnt })}</div>
+                        <div className="flex-grow">{x.ans}</div>
+                        <div className="p-2">{t("number", { count: x.pnt })}</div>
                       </button>
                     </div>
                   ))}
                 </div>
 
                 {/* BUZZERS AND PLAYERS */}
-                <div class="grid grid-cols-2 gap-4 p-5">
-                  <h1 class="text-2xl capitalize text-foreground">
+                <div className="grid grid-cols-2 gap-4 p-5">
+                  <h1 className="text-2xl capitalize text-foreground">
                     {t("Buzzer Order")}
                   </h1>
-                  <h1 class="text-2xl capitalize text-foreground">
+                  <h1 className="text-2xl capitalize text-foreground">
                     {t("players")}
                   </h1>
-                  <div class="border-4 h-48 overflow-y-scroll rounded p-5 text-center">
-                    <div class="flex flex-col  h-full space-y-2 justify-between">
-                      <div class="">
+                  <div className="border-4 h-48 overflow-y-scroll rounded p-5 text-center">
+                    <div className="flex flex-col  h-full space-y-2 justify-between">
+                      <div className="">
                         {game.buzzed.length > 0 ? (
-                          <div class="flex flex-row items-center space-x-5">
+                          <div className="flex flex-row items-center space-x-5">
                             {/* active clear buzzers button */}
                             <button
-                              class="border-4 bg-failure-200 hover:bg-failure-500 rounded p-2 text-foreground"
+                              className="border-4 bg-failure-200 hover:bg-failure-500 rounded p-2 text-foreground"
                               onClick={() => {
                                 send({ action: "clearbuzzers" });
                               }}
                             >
                               {t("Clear Buzzers")}
                             </button>
-                            <p class="text-secondary-900">
+                            <p className="text-secondary-900">
                               {t("Changing rounds also clears buzzers")}
                             </p>
                           </div>
                         ) : (
-                          <div class="flex flex-row items-center space-x-5">
+                          <div className="flex flex-row items-center space-x-5">
                             {/* disabled clear buzzers button */}
-                            <button class="border-4 bg-secondary-500 rounded p-2 text-foreground">
+                            <button className="border-4 bg-secondary-500 rounded p-2 text-foreground">
                               {t("Clear Buzzers")}
                             </button>
-                            <p class="text-secondary-900">
+                            <p className="text-secondary-900">
                               {t("Changing rounds also clears buzzers")}
                             </p>
                           </div>
                         )}
                       </div>
                       <hr />
-                      <div class="flex-grow">
+                      <div className="flex-grow">
                         {game.buzzed.map((x, i) => (
-                          <div class="flex flex-row space-x-5 justify-center">
-                            <p class="text-foreground">
+                          <div className="flex flex-row space-x-5 justify-center">
+                            <p className="text-foreground">
                               {t("number", { count: i + 1 })}.{" "}
                               {game.registeredPlayers[x.id]?.name}
                             </p>
-                            <p class="text-foreground">
+                            <p className="text-foreground">
                               {t("team")}:{" "}
                               {
                                 game.teams[game.registeredPlayers[x.id]?.team]
                                   ?.name
                               }
                             </p>
-                            <p class="text-foreground">
+                            <p className="text-foreground">
                               {t("time")}:{" "}
                               {(((x.time - game.tick) / 1000) % 60).toFixed(2)}{" "}
                               {t("seconds")}
@@ -890,17 +890,17 @@ export default function Admin(props) {
             ) : (
               // FINAL ROUND
               <div>
-                <div class="p-5">
+                <div className="p-5">
                   {/* FINAL ROUND TEXT */}
-                  <h2 class="text-6xl text-center text-foreground">
+                  <h2 className="text-6xl text-center text-foreground">
                     {t("Final Round")}{" "}
                     {t("number", { count: game.is_final_second ? "2" : "1" })}
                   </h2>
-                  <div class="flex py-5 items-center flex-row justify-evenly">
+                  <div className="flex py-5 items-center flex-row justify-evenly">
                     {/* START FINAL ROUND 2 */}
                     {!game.is_final_second ? (
                       <button
-                        class="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                        className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
                         onClick={() => {
                           console.debug(game);
                           game.is_final_second = true;
@@ -917,10 +917,10 @@ export default function Admin(props) {
                         {t("number", { count: 2 })}
                       </button>
                     ) : (
-                      <div class="flex py-5 items-center flex-row justify-evenly space-x-5 text-foreground">
+                      <div className="flex py-5 items-center flex-row justify-evenly space-x-5 text-foreground">
                         {/* GO BACK TO FINAL ROUND 1 */}
                         <button
-                          class="border-4 rounded p-5 text-3xl bg-secondary-300"
+                          className="border-4 rounded p-5 text-3xl bg-secondary-300"
                           onClick={() => {
                             game.is_final_round = true;
                             game.hide_first_round = false;
@@ -941,7 +941,7 @@ export default function Admin(props) {
                             {/* REVEAL FIRST ROUND ANSWERS */}
                             {game.hide_first_round ? (
                               <button
-                                class="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                                className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
                                 onClick={() => {
                                   game.hide_first_round = false;
                                   props.setGame((prv) => ({ ...prv }));
@@ -953,7 +953,7 @@ export default function Admin(props) {
                             ) : (
                               // HIDE FIRST ROUND ANSWERS
                               <button
-                                class="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                                className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
                                 onClick={() => {
                                   game.hide_first_round = true;
                                   props.setGame((prv) => ({ ...prv }));
@@ -968,10 +968,10 @@ export default function Admin(props) {
                       </div>
                     )}
                   </div>
-                  <div class="flex py-5 items-center flex-row justify-evenly">
+                  <div className="flex py-5 items-center flex-row justify-evenly">
                     {/* START TIMER */}
                     <button
-                      class="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                      className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
                       onClick={() => {
                         if (game.is_final_second) {
                           send({
@@ -991,7 +991,7 @@ export default function Admin(props) {
 
                     {/* STOP TIMER */}
                     <button
-                      class="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                      className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
                       onClick={() => {
                         send({ action: "stop_timer" });
                       }}

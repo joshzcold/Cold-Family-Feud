@@ -6,18 +6,18 @@ function Answers(props) {
   const { t } = useTranslation();
   return props.round.map((x) => (
     <div
-      class="flex flex-row space-x-2"
+      className="flex flex-row space-x-2"
       style={{
         minWidth: 0,
       }}
     >
       <div
-        class="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
+        className="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
         style={{ minHeight: 70, minWidth: 0 }}
       >
         {x.revealed ? (
           <p
-            class={`text-2xl ${props.hide ? "invisible" : ""}`}
+            className={`text-2xl ${props.hide ? "invisible" : ""}`}
             style={{
               whiteSpace: "nowrap",
               overflow: "hidden",
@@ -29,9 +29,9 @@ function Answers(props) {
           </p>
         ) : null}
       </div>
-      <div class="bg-fastm-holder w-16 font-extrabold uppercase flex justify-center items-center rounded">
+      <div className="bg-fastm-holder w-16 font-extrabold uppercase flex justify-center items-center rounded">
         {x.revealed ? (
-          <p class={`text-2xl ${props.hide ? "invisible" : ""}`}>
+          <p className={`text-2xl ${props.hide ? "invisible" : ""}`}>
             {t("number", { count: x.points })}
           </p>
         ) : null}
@@ -53,51 +53,51 @@ export default function Final(props) {
     total = total + parseInt(round.points);
   });
   return (
-    <div class="">
-      <div class="text-center my-10">
+    <div className="">
+      <div className="text-center my-10">
         { props.game.settings.final_round_title ? 
-          <p class="text-3xl text-foreground">{props.game.settings.final_round_title}</p>
+          <p className="text-3xl text-foreground">{props.game.settings.final_round_title}</p>
         :
-          <p class="text-3xl text-foreground">{t("Fast Money")}</p>
+          <p className="text-3xl text-foreground">{t("Fast Money")}</p>
         }
       </div>
       <div
-        class="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text "
+        className="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text "
         style={{}}
       >
-        <div class="grid lg:grid-flow-row gap-3">
+        <div className="grid lg:grid-flow-row gap-3">
           <Answers
             round={props.game.final_round}
             hide={props.game.hide_first_round}
           />
         </div>
-        <div class="border-warning-500 border-4 rounded-3xl bg-warning-500 lg:hidden" />
-        <div class="grid lg:grid-flow-row gap-3" >
+        <div className="border-warning-500 border-4 rounded-3xl bg-warning-500 lg:hidden" />
+        <div className="grid lg:grid-flow-row gap-3" >
           <Answers
             round={props.game.final_round_2}
             hide={!props.game.is_final_second}
           />
         </div>
         </div>
-      <div class="my-3 flex flex-row justify-evenly items-center align-middle">
+      <div className="my-3 flex flex-row justify-evenly items-center align-middle">
         {/* Timer */}
-        <div class="bg-fastm-holder inline-block p-2 rounded">
-          <p class="font-bold uppercase text-3xl text-fastm-text">
+        <div className="bg-fastm-holder inline-block p-2 rounded">
+          <p className="font-bold uppercase text-3xl text-fastm-text">
             {t("timer")} &nbsp;&nbsp;{t("number", { count: props.timer })}
           </p>
         </div>
         {/* Total */}
-        <div class="bg-fastm-holder inline-block p-2 rounded">
-          <p class="font-bold uppercase text-3xl text-fastm-text">
+        <div className="bg-fastm-holder inline-block p-2 rounded">
+          <p className="font-bold uppercase text-3xl text-fastm-text">
             {t("total")} &nbsp;&nbsp;{t("number", { count: total })}
           </p>
         </div>
       </div>
 
       {/* WIN TEXT */}
-      <div class="text-center">
+      <div className="text-center">
         {total >= 200 ? (
-          <p class="text-5xl text-success-900">{t("win")}</p>
+          <p className="text-5xl text-success-900">{t("win")}</p>
         ) : null}
       </div>
     </div>

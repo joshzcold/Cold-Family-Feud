@@ -169,8 +169,8 @@ export default function Home() {
   function getPage() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
-        <div class="lg:flex lg:flex-row lg:justify-center w-full">
-          <div class="lg:w-3/4 sm:w-full md:w-full">
+        <div className="lg:flex lg:flex-row lg:justify-center w-full">
+          <div className="lg:w-3/4 sm:w-full md:w-full">
             <Admin
               ws={ws}
               game={game}
@@ -184,8 +184,8 @@ export default function Home() {
       );
     } else if (registeredRoomCode !== null && !host && game != null) {
       return (
-        <div class="flex w-full justify-center">
-          <div class="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
+        <div className="flex w-full justify-center">
+          <div className="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
             <Buzzer
               ws={ws}
               game={game}
@@ -201,8 +201,8 @@ export default function Home() {
       );
     } else {
       return (
-        <div class="flex w-full justify-center">
-          <div class="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
+        <div className="flex w-full justify-center">
+          <div className="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
             <Login
               setRoomCode={setRoomCode}
               roomCode={roomCode}
@@ -219,7 +219,7 @@ export default function Home() {
   }
 
   if (typeof window !== "undefined") {
-    document.body.className = game?.settings?.theme + " bg-background";
+    document.body.className= game?.settings?.theme + " bg-background";
   }
   return (
     <>
@@ -243,7 +243,7 @@ export default function Home() {
           style={{
             minWidth: "100vh",
           }}
-          class={`${game?.settings?.theme} h-screen w-screen`}
+          className={`${game?.settings?.theme} h-screen w-screen`}
         >
           {/* TODO put in the theme switcher and put setting here */}
           {getPage()}
