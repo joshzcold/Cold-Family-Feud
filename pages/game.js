@@ -37,7 +37,7 @@ export default function Game(props) {
           ws.current.send(
             JSON.stringify({ action: "game_window", session: session })
           );
-          pongInterval = setInterval(() => {
+          setInterval(() => {
             console.debug("sending pong in game window");
             let [room, id] = session.split(":");
             ws.current.send(
@@ -151,9 +151,9 @@ export default function Game(props) {
       );
     }
 
-  if (typeof window !== "undefined") {
-    document.body.className = game?.settings?.theme + " bg-background";
-  }
+    if (typeof window !== "undefined") {
+      document.body.className = game?.settings?.theme + " bg-background";
+    }
     return (
       <>
         <div class={`${game?.settings?.theme} min-h-screen`}>
