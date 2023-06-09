@@ -547,6 +547,12 @@ const ioHandler = (req, res) => {
           }
         } catch (e) {
           console.error("Error in processing socket message: ", e);
+          ws.send(
+            JSON.stringify({
+              action: "error",
+              message: `Error on server: ${e}`,
+            })
+          );
         }
       });
     });
