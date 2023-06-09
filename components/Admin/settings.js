@@ -95,7 +95,7 @@ export default function AdminSettings(props) {
       <div class="flex flex-col">
         <div class="flex flex-row space-x-5 items-center">
           <div>
-            <p class="text-m normal-case text-foreground">
+            <p class="text-xl normal-case text-foreground">
               {t("Hide questions")}:
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function AdminSettings(props) {
 
   return (
     <>
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-2 gap-y-10 gap-x-48">
         <HideGameQuestions
           game={game}
           setGame={props.setGame}

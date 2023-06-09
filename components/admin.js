@@ -490,7 +490,7 @@ export default function Admin(props) {
 
         <hr class="my-12" />
         <div class="flex flex-row justify-center">
-          <div class="grid grid-cols-2 gap-10 justify-between">
+        <div class="grid grid-cols-2 gap-y-10 gap-x-48">
             <div class="flex flex-row justify-between space-x-5">
               {/* TITLE TEXT INPUT */}
               <div class="flex flex-row space-x-5 items-center">
