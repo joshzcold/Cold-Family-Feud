@@ -14,10 +14,16 @@ export default function Game(props) {
   const { i18n, t } = useTranslation();
   const [game, setGame] = useState({});
   const [timer, setTimer] = useState(0);
-  const [error, setError] = useState("");
+  const [error, setErrorVal] = useState("");
   const ws = useRef(null);
   let refreshCounter = 0;
-  let pongInterval;
+
+  function setError(e) {
+    setErrorVal(e);
+    setTimeout(() => {
+      setErrorVal("");
+    }, 5000);
+  }
 
   useEffect(() => {
     fetch("/api/ws").finally(() => {

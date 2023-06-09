@@ -15,9 +15,16 @@ export default function Buzzer(props) {
   const { i18n, t } = useTranslation();
   const [buzzed, setBuzzed] = useState(false);
   const [buzzerReg, setBuzzerReg] = useState(null);
-  const [error, setError] = useState();
+  const [error, setErrorVal] = useState("");
   const [timer, setTimer] = useState(0);
   let refreshCounter = 0;
+
+  function setError(e) {
+    setErrorVal(e);
+    setTimeout(() => {
+      setErrorVal("");
+    }, 5000);
+  }
 
   let game = props.game;
   let ws = props.ws;

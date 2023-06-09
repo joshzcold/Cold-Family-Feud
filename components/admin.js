@@ -252,6 +252,7 @@ function TitleLogoUpload(props) {
                       mimetype = "jpeg";
                       break;
                     default:
+                      props.setError(t("Unknown file type"));
                       return;
                   }
 
@@ -291,12 +292,19 @@ export default function Admin(props) {
     textColor: "text-foreground",
   });
   const [gameSelector, setGameSelector] = useState([]);
-  const [error, setError] = useState("");
+  const [error, setErrorVal] = useState("");
   const [imageUploaded, setImageUploaded] = useState(null);
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
   let pongInterval;
+
+  function setError(e) {
+    setErrorVal(e);
+    setTimeout(() => {
+      setErrorVal("");
+    }, 5000);
+  }
 
   function send(data) {
     data.room = props.room;
@@ -322,8 +330,6 @@ export default function Admin(props) {
           console.debug("admin reload()");
           location.reload();
         }
-      } else {
-        setError("");
       }
     }, 1000);
 
@@ -471,6 +477,7 @@ export default function Admin(props) {
                         };
                         reader.onerror = function (evt) {
                           console.error("error reading file");
+                          setError(t("error reading file"));
                         };
                       }
                     }}
@@ -489,8 +496,8 @@ export default function Admin(props) {
         </div>
 
         <hr class="my-12" />
-        <div class="flex flex-row justify-center">
-        <div class="grid grid-cols-2 gap-y-10 gap-x-48">
+        <div class="flex flex-col items-center space-y-5">
+          <div class="grid grid-cols-2 gap-y-10 gap-x-48">
             <div class="flex flex-row justify-between space-x-5">
               {/* TITLE TEXT INPUT */}
               <div class="flex flex-row space-x-5 items-center">
@@ -574,14 +581,14 @@ export default function Admin(props) {
               ></input>
             </div>
           </div>
+          <p class="text-xl text-failure-700">{error}</p>
         </div>
         <hr class="my-12" />
         {/* ADMIN CONTROLS */}
-        <div class="flex flex-row justify-center">
+        <div class="flex flex-col items-center">
           <AdminSettings game={game} setGame={props.setGame} send={send} />
         </div>
         {/* SHOW ERRORS TO ADMIN */}
-        <p class="text-xl text-failure-700">{error}</p>
         {game.rounds == null ? (
           <p class="text-2xl text-center py-20 text-secondary-900">
             [{t("Please load a game")}]

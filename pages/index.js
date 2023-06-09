@@ -12,7 +12,7 @@ export default function Home() {
   const { t } = useTranslation();
   const [playerName, setPlayerName] = useState("");
   const [roomCode, setRoomCode] = useState("");
-  const [error, setError] = useState("");
+  const [error, setErrorVal] = useState("");
   const [registeredRoomCode, setRegisteredRoomCode] = useState(null);
   const [host, setHost] = useState(false);
   const [game, setGame] = useState(null);
@@ -21,6 +21,12 @@ export default function Home() {
 
   const ws = useRef(null);
 
+  function setError(e) {
+    setErrorVal(e);
+    setTimeout(() => {
+      setErrorVal("");
+    }, 5000);
+  }
   /**
    * send quit message to server
    * server cleans up data on backend then

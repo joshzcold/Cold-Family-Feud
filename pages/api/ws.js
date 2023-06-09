@@ -542,7 +542,7 @@ const ioHandler = (req, res) => {
             if (message.action) {
               wss.broadcast(message.room, JSON.stringify(message));
             } else {
-              console.log("didnt expect this message server: ", message);
+              console.error("didnt expect this message server: ", message);
             }
           }
         } catch (e) {
