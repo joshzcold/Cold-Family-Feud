@@ -166,6 +166,59 @@ module.exports = {
             },
           },
         },
+        {
+          // name your theme anything that could be a valid css class name
+          // remember what you named your theme because you will use it as a class to enable the theme
+          name: "educational",
+          // put any overrides your theme has here
+          // just as if you were to extend tailwind's theme like normal https://tailwindcss.com/docs/theme#extending-the-default-theme
+          extend: {
+            colors: {
+              background: "#fffbf0",
+              success: {
+                900: "#454534",
+                700: "#5c5c46",
+                500: "#75755e",
+                300: "#858569",
+                200: "#9B9B7A",
+              },
+              secondary: {
+                200: "#E5C59E",
+                300: "#c9ab85",
+                500: "#a88e6d",
+                700: "#856f55",
+                900: "#735b3f",
+              },
+              failure: {
+                200: "#D9AE94",
+                300: "#ad856d",
+                500: "#8a654e",
+                700: "#6b4630",
+                900: "#613a23",
+              },
+              warning: {
+                900: "#F8D488",
+                700: "#dbb972",
+                500: "#ad8f50",
+                300: "#8c7035",
+                200: "#8a6924",
+              },
+              primary: {
+                200: "#f5b182",
+                300: "#d1a98c",
+                500: "#d1a98c",
+                700: "#b08e76",
+                900: "#997B66",
+              },
+              foreground: "black",
+              fastm: {
+                text: "white",
+                holder: "#997B66",
+                background: "black",
+              },
+            },
+          },
+        },
       ],
     }),
   ],

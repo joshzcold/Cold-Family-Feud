@@ -15,19 +15,24 @@ function debounce(callback, wait = 400) {
 export function ThemeSwitcher(props) {
   const availableThemes = {
     default: {
-      bgcolor: "bg-white",
+      bgcolor: "white",
       fgcolor: "text-black",
       title: "default",
     },
     darkTheme: {
-      bgcolor: "bg-gray-900",
+      bgcolor: "#18181B",
       fgcolor: "text-white",
       title: "dark theme",
     },
     slate: {
-      bgcolor: "bg-black",
+      bgcolor: "#18181B",
       fgcolor: "text-white",
       title: "slate",
+    },
+    educational: {
+      bgcolor: "#fffbf0",
+      fgcolor: "text-black",
+      title: "educational",
     },
   };
   return (
@@ -58,7 +63,10 @@ export function ThemeSwitcher(props) {
           <option
             value={key}
             key={index}
-            class={`${availableThemes[key].bgcolor} ${availableThemes[key].fgcolor}`}
+            style={{
+              backgroundColor: availableThemes[key].bgcolor
+            }}
+            class={`${availableThemes[key].fgcolor}`}
           >
             {availableThemes[key].title}
           </option>
@@ -74,7 +82,7 @@ function FinalRoundTitleChanger(props) {
     <div class="flex flex-row space-x-5 items-center">
       <p class="text-xl text-foreground">{t("Final Round Title")}:</p>
       <input
-        class="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1"
+        class="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
         onChange={debounce((e) => {
           props.game.settings.final_round_title = e.target.value;
           props.setGame((prv) => ({ ...prv }));
@@ -100,7 +108,7 @@ export default function AdminSettings(props) {
             </p>
           </div>
           <input
-            class="w-4 h-4 rounded"
+            class="w-4 h-4 rounded  placeholder-secondary-900"
             checked={game.settings.hide_questions}
             onChange={(e) => {
               game.settings.hide_questions = e.target.checked;

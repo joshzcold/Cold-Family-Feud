@@ -84,7 +84,7 @@ function FinalRoundButtonControls(props) {
       <div className="flex flex-row space-x-5 pb-7">
         {/* ANSWER SELECTION FINAL ROUND */}
         <input
-          className="border-4 rounded text-2xl w-48 p-5 flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded text-2xl w-48 p-5 flex-grow bg-secondary-300 text-foreground placeholder-secondary-900"
           placeholder={t("Answer")}
           value={x.input}
           onChange={(e) => {
@@ -560,7 +560,7 @@ export default function Admin(props) {
               <div className="flex flex-row space-x-5 items-center">
                 <p className="text-2xl text-foreground">{t("Title Text")}:</p>
                 <input
-                  className="border-4 rounded text-2xl w-44 bg-secondary-500 text-foreground p-1"
+                  className="border-4 rounded text-2xl w-44 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                   onChange={debounce((e) => {
                     game.title_text = e.target.value;
                     props.setGame((prv) => ({ ...prv }));
@@ -583,7 +583,7 @@ export default function Admin(props) {
             <div className="w-80 flex-row items-center space-x-1">
               {/* TEAM 1 NAME CHANGER */}
               <input
-                className="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1"
+                className="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                 onChange={debounce((e) => {
                   game.teams[0].name = e.target.value;
                   props.setGame((prv) => ({ ...prv }));
@@ -597,7 +597,7 @@ export default function Admin(props) {
                 type="number"
                 min="0"
                 required
-                className="border-4 text-3xl rounded text-center w-20 bg-secondary-500 text-foreground p-1"
+                className="border-4 text-3xl rounded text-center w-20 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                 onChange={(e) => {
                   let number = parseInt(e.target.value);
                   console.debug(number);
@@ -612,7 +612,7 @@ export default function Admin(props) {
             <div className="w-80 flex-row items-center space-x-1">
               {/* TEAM 2 NAME CHANGER */}
               <input
-                className="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1"
+                className="border-4 rounded text-3xl w-52 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                 onChange={debounce((e) => {
                   game.teams[1].name = e.target.value;
                   props.setGame((prv) => ({ ...prv }));
@@ -626,7 +626,7 @@ export default function Admin(props) {
                 type="number"
                 min="0"
                 required
-                className="border-4 rounded text-center text-3xl w-20 bg-secondary-500 text-foreground p-1"
+                className="border-4 rounded text-center text-3xl w-20 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                 onChange={(e) => {
                   let number = parseInt(e.target.value);
                   isNaN(number) ? (number = 0) : null;
@@ -824,7 +824,7 @@ export default function Admin(props) {
                       <input
                         type="number"
                         min="1"
-                        className="p-1 border-2 w-24 bg-secondary-200 text-foreground"
+                        className="p-1 border-2 w-24 bg-secondary-200 text-foreground placeholder-secondary-900"
                         value={current_round.multiply}
                         placeholder={t("multiplier")}
                         onChange={(e) => {
