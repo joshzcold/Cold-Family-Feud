@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import TitleLogo from "../components/title-logo";
 import LanguageSwitcher from "../components/language";
-import Footer from "../components/Login/footer"
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 
@@ -66,7 +65,6 @@ export default function Login(props) {
       {props.error !== "" ? (
         <p className="text-2xl text-failure-700">{props.error}</p>
       ) : null}
-      <Footer />
 
     </>
   );

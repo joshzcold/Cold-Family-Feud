@@ -6,6 +6,7 @@ import "../i18n/i18n";
 import Admin from "../components/admin";
 import Buzzer from "../components/buzzer";
 import Login from "../components/login";
+import Footer from "../components/Login/footer"
 import cookieCutter from "cookie-cutter";
 
 export default function Home() {
@@ -213,6 +214,7 @@ export default function Home() {
               error={error}
             />
           </div>
+          <Footer />
         </div>
       );
     }
@@ -241,7 +243,7 @@ export default function Home() {
       <main>
         <div
           style={{
-            minWidth: "100vh",
+            width: "100vh",
           }}
           className={`${game?.settings?.theme} h-screen w-screen`}
         >
