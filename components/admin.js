@@ -80,11 +80,11 @@ function FinalRoundButtonControls(props) {
     : props.game.final_round;
   return control_round?.map((x) => (
     <div className="flex-col flex space-y-5 p-12 border-2">
-      <p className="text-4xl font-bold text-foreground">{x.question}</p>
+      <p className="text-3xl font-bold text-foreground">{x.question}</p>
       <div className="flex flex-row space-x-5 pb-7">
         {/* ANSWER SELECTION FINAL ROUND */}
         <input
-          className="border-4 rounded text-3xl w-48 p-5 flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded text-2xl w-48 p-5 flex-grow bg-secondary-300 text-foreground"
           placeholder={t("Answer")}
           value={x.input}
           onChange={(e) => {
@@ -111,7 +111,7 @@ function FinalRoundButtonControls(props) {
       </div>
       <div className="flex flex-row ">
         <button
-          className="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
             x.points = 0;
             props.setGame((prv) => ({ ...prv }));
@@ -123,7 +123,7 @@ function FinalRoundButtonControls(props) {
         </button>
 
         <button
-          className="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
             x.revealed = true;
             props.setGame((prv) => ({ ...prv }));
@@ -135,7 +135,7 @@ function FinalRoundButtonControls(props) {
         </button>
 
         <button
-          className="border-4 rounded p-5 text-3xl flex-grow bg-secondary-300 text-foreground"
+          className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
             x.points = x.answers[x.selection][1];
             props.setGame((prv) => ({ ...prv }));
