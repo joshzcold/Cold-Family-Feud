@@ -283,6 +283,62 @@ function TitleLogoUpload(props) {
   }
 }
 
+function FinalRoundPointTotalsTextFunction(props) {
+  const { i18n, t } = useTranslation();
+  let backgroundColor = "bg-secondary-300";
+  if (props.isFinalSecond && props.place === 1) {
+    backgroundColor = "bg-primary-200";
+  } else if (!props.isFinalSecond && props.place === 0) {
+    backgroundColor = "bg-primary-200";
+  }
+  console.log(backgroundColor, props.place, props.isFinalSecond);
+  return (
+    <div
+      className={`flex flex-row space-x-2 text-foreground items-center border-2 rounded-3xl text-2xl p-4 ${backgroundColor} text-foreground`}
+    >
+      <p className="">{t(props.title)}: </p>
+      <p className="">{props.total}</p>
+    </div>
+  );
+}
+
+function FinalRoundPointTotals(props) {
+  let roundOneTotal = 0;
+  let roundTwoTotal = 0;
+  let total = 0;
+  props.game.final_round.forEach((round) => {
+    console.debug("round one total: ");
+    roundOneTotal = roundOneTotal + parseInt(round.points);
+  });
+  props.game.final_round_2.forEach((round) => {
+    console.debug("round two total", total);
+    roundTwoTotal = roundTwoTotal + parseInt(round.points);
+  });
+  total = roundOneTotal + roundTwoTotal;
+  return (
+    <div className="flex items-center flex-row space-x-5 justify-start py-3">
+      <FinalRoundPointTotalsTextFunction
+        title="Round one"
+        total={roundOneTotal}
+        isFinalSecond={props.game.is_final_second}
+        place={0}
+      />
+      <FinalRoundPointTotalsTextFunction
+        title="Round two"
+        total={roundTwoTotal}
+        isFinalSecond={props.game.is_final_second}
+        place={1}
+      />
+      <FinalRoundPointTotalsTextFunction
+        title="Total"
+        total={total}
+        isFinalSecond={props.game.is_final_second}
+        place={2}
+      />
+    </div>
+  );
+}
+
 export default function Admin(props) {
   const { i18n, t } = useTranslation();
 
@@ -294,6 +350,7 @@ export default function Admin(props) {
   const [gameSelector, setGameSelector] = useState([]);
   const [error, setErrorVal] = useState("");
   const [imageUploaded, setImageUploaded] = useState(null);
+  const [timerStarted, setTimerStarted] = useState(false);
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
@@ -752,7 +809,9 @@ export default function Admin(props) {
                   {/* POINT TRACKER */}
                   <div className="flex flex-row border-4 p-2 space-x-5 items-center justify-between">
                     <div className="flex flex-row space-x-5 items-center">
-                      <h3 className="text-xl  text-foreground">{t("Points")}: </h3>
+                      <h3 className="text-xl  text-foreground">
+                        {t("Points")}:{" "}
+                      </h3>
                       <h3 className="text-2xl flex-grow  text-foreground">
                         {t("number", { count: game.point_tracker[game.round] })}
                       </h3>
@@ -815,7 +874,9 @@ export default function Admin(props) {
                         }}
                       >
                         <div className="flex-grow">{x.ans}</div>
-                        <div className="p-2">{t("number", { count: x.pnt })}</div>
+                        <div className="p-2">
+                          {t("number", { count: x.pnt })}
+                        </div>
                       </button>
                     </div>
                   ))}
@@ -892,11 +953,12 @@ export default function Admin(props) {
               <div>
                 <div className="p-5">
                   {/* FINAL ROUND TEXT */}
-                  <h2 className="text-6xl text-center text-foreground">
+                  <h2 className="text-6xl py-5 text-center text-foreground">
                     {t("Final Round")}{" "}
                     {t("number", { count: game.is_final_second ? "2" : "1" })}
                   </h2>
-                  <div className="flex py-5 items-center flex-row justify-evenly">
+                  <hr />
+                  <div className="flex py-5 items-center flex-row justify-evenly space-x-5">
                     {/* START FINAL ROUND 2 */}
                     {!game.is_final_second ? (
                       <button
@@ -917,7 +979,7 @@ export default function Admin(props) {
                         {t("number", { count: 2 })}
                       </button>
                     ) : (
-                      <div className="flex py-5 items-center flex-row justify-evenly space-x-5 text-foreground">
+                      <div className="flex py-5 items-center flex-row justify-evenly text-foreground space-x-5">
                         {/* GO BACK TO FINAL ROUND 1 */}
                         <button
                           className="border-4 rounded p-5 text-3xl bg-secondary-300"
@@ -967,39 +1029,43 @@ export default function Admin(props) {
                         ) : null}
                       </div>
                     )}
+                    <div class="px-2">
+                      {!timerStarted ? (
+                        /* START TIMER */
+                        <button
+                          className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                          onClick={() => {
+                            if (game.is_final_second) {
+                              send({
+                                action: "start_timer",
+                                data: game.final_round_timers[1],
+                              });
+                            } else {
+                              send({
+                                action: "start_timer",
+                                data: game.final_round_timers[0],
+                              });
+                            }
+                            setTimerStarted(true);
+                          }}
+                        >
+                          {t("Start Timer")}
+                        </button>
+                      ) : (
+                        /* STOP TIMER */
+                        <button
+                          className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                          onClick={() => {
+                            send({ action: "stop_timer" });
+                            setTimerStarted(false);
+                          }}
+                        >
+                          {t("Stop Timer")}
+                        </button>
+                      )}
+                    </div>
                   </div>
-                  <div className="flex py-5 items-center flex-row justify-evenly">
-                    {/* START TIMER */}
-                    <button
-                      className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
-                      onClick={() => {
-                        if (game.is_final_second) {
-                          send({
-                            action: "start_timer",
-                            data: game.final_round_timers[1],
-                          });
-                        } else {
-                          send({
-                            action: "start_timer",
-                            data: game.final_round_timers[0],
-                          });
-                        }
-                      }}
-                    >
-                      {t("Start Timer")}
-                    </button>
-
-                    {/* STOP TIMER */}
-                    <button
-                      className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
-                      onClick={() => {
-                        send({ action: "stop_timer" });
-                      }}
-                    >
-                      {t("Stop Timer")}
-                    </button>
-                  </div>
-
+                  <FinalRoundPointTotals game={game} />
                   {/* FINAL ROUND QUESTIONS AND ANSWERS */}
                   <FinalRoundButtonControls
                     game={game}
