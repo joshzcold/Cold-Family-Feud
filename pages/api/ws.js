@@ -87,6 +87,7 @@ const ioHandler = (req, res) => {
     }
 
     let average = (array) => array.reduce((a, b) => a + b) / array.length;
+    // TODO instead of storing game data in memory, this should be stored to disk or redis
     let rooms = {};
     let game = {
       registeredPlayers: {},
@@ -134,6 +135,16 @@ const ioHandler = (req, res) => {
 
       return date < anHourAgo;
     };
+
+    const setTick = (message) => {
+      if (message.room) {
+        if (rooms[message.room]) {
+          if (rooms[message.room].game) {
+            rooms[message.room].game.tick = new Date().getTime();
+          }
+        }
+      }
+    }
 
     setInterval(() => {
       for (const [room, roomData] of Object.entries(rooms)) {
@@ -183,6 +194,10 @@ const ioHandler = (req, res) => {
             );
             return;
           }
+
+          // If there is activity in this room, do not clear
+          setTick(message)
+
           // TODO seperate each of these into seperate functions
           if (message.action === "load_game") {
             if (message.file != null && message.lang != null) {
@@ -210,7 +225,6 @@ const ioHandler = (req, res) => {
             game.gameCopy = [];
             game.final_round_timers = message.data.final_round_timers;
             game.point_tracker = new Array(message.data.rounds.length).fill(0);
-            game.tick = new Date().getTime();
             wss.broadcast(
               message.room,
               JSON.stringify({ action: "data", data: game })
@@ -226,7 +240,6 @@ const ioHandler = (req, res) => {
 
             rooms[roomCode].intervals = {};
             rooms[roomCode].game = JSON.parse(JSON.stringify(game));
-            rooms[roomCode].game.tick = new Date().getTime();
             rooms[roomCode].game.room = roomCode;
             rooms[roomCode].connections = {};
 
@@ -253,7 +266,6 @@ const ioHandler = (req, res) => {
             console.debug("joining room", roomCode);
             if (rooms[roomCode]) {
               let id = registerPlayer(roomCode, false, message, ws);
-              rooms[roomCode].game.tick = new Date().getTime();
               ws.send(
                 JSON.stringify({
                   action: "join_room",
@@ -368,7 +380,6 @@ const ioHandler = (req, res) => {
               copy_title != message.data.title
             ) {
               game.buzzed = [];
-              game.tick = new Date().getTime();
               wss.broadcast(
                 message.room,
                 JSON.stringify({ action: "clearbuzzers" })
@@ -415,7 +426,6 @@ const ioHandler = (req, res) => {
           } else if (message.action === "clearbuzzers") {
             let game = rooms[message.room].game;
             game.buzzed = [];
-            game.tick = new Date().getTime();
             wss.broadcast(
               message.room,
               JSON.stringify({ action: "data", data: game })
