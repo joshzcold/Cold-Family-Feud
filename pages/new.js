@@ -422,7 +422,7 @@ export default function CreateGame(props) {
                 });
               });
 
-              console.log(error);
+              console.error(error);
               if (error.length === 0) {
                 setError("");
                 downloadToFile(

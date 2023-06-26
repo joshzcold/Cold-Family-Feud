@@ -291,7 +291,6 @@ function FinalRoundPointTotalsTextFunction(props) {
   } else if (!props.isFinalSecond && props.place === 0) {
     backgroundColor = "bg-primary-200";
   }
-  console.log(backgroundColor, props.place, props.isFinalSecond);
   return (
     <div
       className={`flex flex-row space-x-2 text-foreground items-center border-2 rounded-3xl text-2xl p-4 ${backgroundColor} text-foreground`}

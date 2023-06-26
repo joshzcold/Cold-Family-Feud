@@ -53,7 +53,7 @@ export default function Home() {
   function send(message) {
     console.debug("send", ws);
     if (ws.current?.readyState !== 1 || !ws.current) {
-      console.log("connecting to server... new connection");
+      console.debug("connecting to server... new connection");
       fetch("/api/ws").then(() => {
         ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
         ws.current.onopen = function() {
@@ -142,7 +142,7 @@ export default function Home() {
    * do some validation on inputs
    */
   function joinRoom() {
-    console.log(`ws.current `, ws);
+    console.debug(`ws.current `, ws);
     setError("");
     let roomcode = document.getElementById("roomcode").value;
     if (roomcode.length === 4) {
