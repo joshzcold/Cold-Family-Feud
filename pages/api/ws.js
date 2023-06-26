@@ -140,6 +140,10 @@ const ioHandler = (req, res) => {
       if (message.room) {
         if (rooms[message.room]) {
           if (rooms[message.room].game) {
+            if (message.action !== "pong") {
+              // Show in logs if there are any active players
+              console.debug(`Tick => ${message.room} ${message.action}`)
+            }
             rooms[message.room].game.tick = new Date().getTime();
           }
         }
@@ -201,11 +205,6 @@ const ioHandler = (req, res) => {
           // TODO seperate each of these into seperate functions
           if (message.action === "load_game") {
             if (message.file != null && message.lang != null) {
-              console.debug(
-                "attempting to read file from selector",
-                message.file,
-                message.lang
-              );
               let data = fs.readFileSync(
                 `games/${message.lang}/${message.file}`
               );
@@ -410,7 +409,6 @@ const ioHandler = (req, res) => {
             }
             pingInterval(rooms[message.room], id, ws);
           } else if (message.action === "pong") {
-            console.debug("pong =>", message.room, message.id);
             let game = rooms[message.room].game;
             let player = game.registeredPlayers[message.id];
             if (player != null && player.start) {
