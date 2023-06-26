@@ -37,9 +37,11 @@ Features:
 
 ## Start
 
+To run a local instance of the application
+
 ```sh
 npm run build
-npm run start #( windows, do npm run start_windows )
+npm run start_local #( windows, do npm run start_windows )
 # npm run dev for working on code
 ```
 

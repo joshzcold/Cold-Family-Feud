@@ -31,7 +31,8 @@
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "dockerbuild": "docker build . -t friendlyfeud:latest",
     "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node server.js",
-    "start_windows": "set NODE_ENV=production && node server.js",
+    "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local node server.js",
+    "start_windows": "set NODE_ENV=local && node server.js",
     "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js"
   },
   "devDependencies": {
