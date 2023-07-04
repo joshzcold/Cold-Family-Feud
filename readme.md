@@ -3,10 +3,6 @@
   
 This app is currently available at ➡ https://famf.app
 
-_(it might take a minute to load as it becomes un-suspended from render.com)_
-
-_(WARNING: this app is hosted on a free tier, which is subject to random restarts of the app. If you need your game to be 100% interruption free I would suggest hosting your game yourself.)_
-
 </div>
 
 ---
