@@ -83,7 +83,7 @@ function FinalRoundTitleChanger(props) {
       <p class="text-xl text-foreground">{t("Final Round Title")}:</p>
       <input
         class="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
-        onChange={debounce((e) => {
+        onl={debounce((e) => {
           props.game.settings.final_round_title = e.target.value;
           props.setGame((prv) => ({ ...prv }));
           props.send({ action: "data", data: props.game });
