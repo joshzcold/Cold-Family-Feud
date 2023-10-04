@@ -144,7 +144,7 @@ export default function Buzzer(props) {
                     />
                   )}
                   <p className="text-secondary-900 p-2 italic">
-                    buzzer is reset between rounds
+                    {t("buzzer is reset between rounds")}
                   </p>
                   {error !== "" ? (
                     <p className="text-2xl text-failure-700">{error}</p>
@@ -233,7 +233,7 @@ export default function Buzzer(props) {
                 {t("team")}:{" "}
                 {props.team != null
                   ? game.teams[props.team].name
-                  : "pick your team"}
+                  : t("pick your team")}
               </h1>
             </div>
             <div className="grid grid-cols-2 gap-4">

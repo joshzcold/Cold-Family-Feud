@@ -226,7 +226,7 @@ export default function CreateGame(props) {
 
         <div className="py-10 flex-col space-y-5">
           <div className="flex flex-row space-x-10 items-end">
-            <p className="text-3xl text-foreground">Fast Money </p>
+            <p className="text-3xl text-foreground">{t("Fast Money")}</p>
             <div>
               <p className="text-secondary-900">
                 {t("timer")} {t("number", { count: 1 })}
