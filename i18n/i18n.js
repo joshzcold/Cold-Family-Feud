@@ -5,6 +5,7 @@ import format from "./i18n-format.js";
 import translationEN from "../public/locales/en/translation.json";
 import translationES from "../public/locales/es/translation.json";
 import translationID from "../public/locales/id/translation.json";
+import translationET from "../public/locales/et/translation.json";
 
 const resources = {
   en: {
@@ -15,6 +16,9 @@ const resources = {
   },
   id: {
     translation: translationID,
+  },
+  et: {
+    translation: translationET,
   },
 };
 i18n
@@ -29,5 +33,5 @@ i18n
     interpolation: {
       format,
     },
-    whitelist: ["es", "en", "id"],
+    whitelist: ["es", "en", "id", "et"],
   });
