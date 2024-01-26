@@ -125,7 +125,7 @@ export default function CreateGame(props) {
               <div className="border-2 p-3 flex flex-col space-y-3">
                 <div className="flex space-x-3 flex-row">
                   <input
-                    className="p-2 border-2 bg-secondary-300 text-foreground"
+                    className="p-2 border-2 bg-secondary-300 text-foreground w-full"
                     value={r.question}
                     placeholder={t("question")}
                     onChange={(e) => {
@@ -136,7 +136,7 @@ export default function CreateGame(props) {
                   <input
                     type="number"
                     min="1"
-                    className="p-2 border-2 bg-secondary-300 text-foreground"
+                    className="p-2 border-2 bg-secondary-300 text-foreground w-15"
                     value={r.multiply}
                     placeholder={t("multiplier")}
                     onChange={(e) => {
