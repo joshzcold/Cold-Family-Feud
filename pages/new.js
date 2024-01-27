@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
@@ -20,7 +20,7 @@ export default function CreateGame(props) {
       return {
         question: `${t("question")} ${t("number", { count: index + 1 })}`,
         answers: [],
-        selection: 0,
+        selection: -1,
         points: 0,
         input: "",
         revealed: false,
