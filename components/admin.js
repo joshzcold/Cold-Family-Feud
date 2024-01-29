@@ -85,7 +85,7 @@ function FinalRoundButtonControls(props) {
       {props.game.is_final_second &&
         <div className="flex flex-row space-x-5 pb-2">
           {/* PARTNER'S ANSWER PROVIDED FINAL ROUND */}
-          <div className="w-48 flex-grow text-foreground text-3xl p-5">
+          <div className="w-48 flex-grow text-foreground text-3xl p-5 align-middle">
             <i>{t("Partner's Answer")}</i>: {props.game.final_round[i].input || `(${t("No Answer")})`}
           </div>
           {props.game.final_round[i].input &&
