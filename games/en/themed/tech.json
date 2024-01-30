@@ -192,7 +192,7 @@
         ["Work/Life Balance", 11],
         ["Trouble with management", 7]
       ],
-      "selection": 0,
+      "selection": -1,
       "points": 0,
       "input": "",
       "revealed": false
@@ -206,7 +206,7 @@
         ["2AM", 11],
         ["10PM", 7]
       ],
-      "selection": 0,
+      "selection": -1,
       "points": 0,
       "input": "",
       "revealed": false
@@ -220,7 +220,7 @@
         ["Smart", 12],
         ["Short Pants", 8]
       ],
-      "selection": 0,
+      "selection": -1,
       "points": 0,
       "input": "",
       "revealed": false
@@ -234,7 +234,7 @@
         ["RAM", 20],
         ["Keyboard", 13]
       ],
-      "selection": 0,
+      "selection": -1,
       "points": 0,
       "input": "",
       "revealed": false

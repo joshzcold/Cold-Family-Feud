@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
@@ -6,7 +6,6 @@ import Players from "./Admin/players";
 import AdminSettings from "./Admin/settings";
 import LanguageSwitcher from "./language";
 import CSVLoader from "./Admin/csv-loader";
-import csvStringToArray from "./Admin/csv-loader"
 import { Buffer } from "buffer";
 import { BSON } from "bson";
 
@@ -77,14 +76,30 @@ function TeamControls(props) {
 
 function FinalRoundButtonControls(props) {
   const { i18n, t } = useTranslation();
-  let control_round = props.game.is_final_second
+  const controlRound = props.game.is_final_second
     ? props.game.final_round_2
     : props.game.final_round;
-  return control_round?.map((x) => (
-    <div className="flex-col flex space-y-5 p-12 border-2">
+  return controlRound?.map((x, i) => (
+    <div key={`round-${i}`} className="flex-col flex space-y-5 p-12 border-2">
       <p className="text-3xl font-bold text-foreground">{x.question}</p>
-      <div className="flex flex-row space-x-5 pb-7">
-        {/* ANSWER SELECTION FINAL ROUND */}
+      {props.game.is_final_second &&
+        <div className="flex flex-row space-x-5 pb-2">
+          {/* PARTNER'S ANSWER PROVIDED FINAL ROUND */}
+          <div className="w-48 flex-grow text-foreground text-3xl p-5 align-middle">
+            <i>{t("Partner's Answer")}</i>: {props.game.final_round[i].input || `(${t("No Answer")})`}
+          </div>
+          {props.game.final_round[i].input &&
+            <button
+              className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
+              onClick={() => props.send({ action: "duplicate" })}
+            >
+              {t("Already Answered")}
+            </button>
+          }
+        </div>
+      }
+      <div className="flex flex-row space-x-5 pb-2">
+        {/* ANSWER PROVIDED FINAL ROUND */}
         <input
           className="border-4 rounded text-2xl w-48 p-5 flex-grow bg-secondary-300 text-foreground placeholder-secondary-900"
           placeholder={t("Answer")}
@@ -94,35 +109,6 @@ function FinalRoundButtonControls(props) {
             props.setGame((prv) => ({ ...prv }));
           }}
         />
-        <select
-          value={x.selection}
-          className="border-4 rounded p-2 text-2xl flex-grow bg-secondary-300 text-foreground"
-          onChange={(e) => {
-            x.selection = parseInt(e.target.value);
-            props.setGame((prv) => ({ ...prv }));
-            props.send({ action: "data", data: props.game });
-          }}
-        >
-          {x.answers.map((key, index) => (
-            <option value={index}>
-              {x.answers[index][0]} {x.answers[index][1]}
-            </option>
-          ))}
-        </select>
-        {/* FINAL ROUND ANSWER BUTTON GROUP */}
-      </div>
-      <div className="flex flex-row ">
-        <button
-          className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
-          onClick={() => {
-            x.points = 0;
-            props.setGame((prv) => ({ ...prv }));
-            props.send({ action: "data", data: props.game });
-            props.send({ action: "final_wrong" });
-          }}
-        >
-          {t("wrong")}
-        </button>
 
         <button
           className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
@@ -135,17 +121,36 @@ function FinalRoundButtonControls(props) {
         >
           {t("Reveal Answer")}
         </button>
+      </div>
+      <div className="flex flex-row space-x-5">
+        {/* POINTS AWARDED FINAL ROUND */}
+        <select
+          value={x.selection}
+          className="border-4 rounded w-48 p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
+          onChange={(e) => {
+            x.selection = parseInt(e.target.value);
+            props.setGame((prv) => ({ ...prv }));
+            props.send({ action: "data", data: props.game });
+          }}
+        >
+          <option value={-1}>({t("No Answer")}) 0</option>
+          {x.answers.map((key, index) => (
+            <option key={`answers-${key}`} value={index}>
+              {x.answers[index][0]} {x.answers[index][1]}
+            </option>
+          ))}
+        </select>
 
         <button
           className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
-            x.points = x.answers[x.selection][1];
+            x.points = (x.selection !== -1) ? x.answers[x.selection][1] : 0;
             props.setGame((prv) => ({ ...prv }));
             props.send({ action: "data", data: props.game });
-            props.send({ action: "final_submit" });
+            props.send({ action: (x.selection !== -1) ? "final_submit" : "mistake" });
           }}
         >
-          {t("submit")}
+          {t("Award points")}
         </button>
       </div>
     </div>
@@ -1058,7 +1063,7 @@ export default function Admin(props) {
                               ) : null}
                             </div>
                           )}
-                        <div class="px-2">
+                        <div className="px-2">
                           {!timerStarted ? (
                             /* START TIMER */
                             <button

@@ -78,6 +78,9 @@ export default function Game(props) {
         } else if (json.action === "final_reveal") {
           var audio = new Audio("fm-answer-reveal.mp3");
           audio.play();
+        } else if (json.action === "duplicate") {
+          var audio = new Audio("duplicate.mp3");
+          audio.play();
         } else if (json.action === "final_submit") {
           var audio = new Audio("good-answer.mp3");
           audio.play();

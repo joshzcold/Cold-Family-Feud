@@ -151,7 +151,7 @@ class CSVParser
         i = 0
         round_hash = {
           answers: [],
-          selection: 0,
+          selection: -1,
           points: 0,
           input: "",
           revealed: false

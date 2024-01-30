@@ -117,7 +117,7 @@ function csvToColdFamilyFeudFormat(
     };
     let finalRowPush = {
       answers: [],
-      selection: 0,
+      selection: -1,
       points: 0,
       input: "",
       revealed: false,
