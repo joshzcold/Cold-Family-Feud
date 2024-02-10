@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Secret Garden",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Top Secret",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Secret Agent",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Secret Admirer/ Lover",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Secret Service",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Secret Santa",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Secret Society",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Miner",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Doctor/Dentist",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "police/Detective",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Construction Worker",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Shaquille O’Neil",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Paul Bunyan",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Abe Lincoln",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Andre The Giant",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Michael Jordan",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Goliath",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Dead Battery",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Out Of range",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Didn’t Pay Bill",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wet",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Paper",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Hair",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Clothes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Nails",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ribbon",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Hit And Run",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Cut In Front",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Drunk Driving",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Drive Recklessly",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -219,10 +189,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Wedding Ceremony Should Be Without"
     },
     {
@@ -252,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If A Husband Found Out That His Wife Had A Bad Day At Work, Name Something He Might Do To Make Her Feel Better."
     },
     {
@@ -277,10 +239,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Would Be Hard To Do If You Didn’t Have A Mouth."
     },
     {
@@ -302,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Article Of Clothing That You Don’t Wash Every Time You Wear It"
     }
   ],

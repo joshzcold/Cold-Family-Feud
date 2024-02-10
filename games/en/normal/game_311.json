@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Watergate",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Resigned",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "I Am Not A Crook",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Went To China",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Checkers Speech",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Belt ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Hand Bag ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Shoe ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Sing",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Dance",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Yell",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tour",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Jump",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Beans",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Cheese",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Meat",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Crackers",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -113,33 +96,27 @@
       "answers": [
         {
           "ans": "Tasmanian Devil",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Mickey Mouse",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bugs Bunny",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Pepe Le Pew",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Road Runner",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wile E Coyote",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "God",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Fans",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Parents",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Partner",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Producer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Director",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Bankrobber Wear In Order To Keep His Identity A Secret?"
     },
     {
@@ -231,10 +198,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Run Into A Bear In The Woods, Name Something You Should Not Do."
     },
     {
@@ -260,10 +223,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Actor Do You Think Gets The Most Love Letters?"
     },
     {
@@ -293,10 +252,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Situation That Makes Just About Everyone Nervous"
     }
   ],

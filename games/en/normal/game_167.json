@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Politics",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "War",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "World Peace",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Religion",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hunger/Poverty",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Global Warming",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Prawns ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Fish ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Crab ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Oysters ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lobster ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Caviar ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Sing Lullaby",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Rock Them",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Feed Them",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Read To them",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Bed",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Toilet",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Inmate",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Bars",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "BBQ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Sour Cream & Onion",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Vinegar",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Ranch",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Original",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cheese",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Pointy Bra",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Top Hat",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Jewelry",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "A Cross",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "dress",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "A Wig",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Makeup",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do You Do When Someone Tells A Joke That’s Not Actually Funny?"
     },
     {
@@ -259,10 +222,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Country That Is Known For Their Beer"
     },
     {
@@ -288,10 +247,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Offered To First Class Airline Passesngers"
     },
     {
@@ -317,10 +272,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit That Starts With The Letter “P.”"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Hiccups",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Coughing/Choking",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Pass Gass",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Sneezing Fit",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bloody Nose",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Vacuumming",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Dishes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Laundry",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Mowing lawn",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Library",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Bedroom",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Bathroom",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Park",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Church",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Beach",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Spa",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Seeds ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Yellow ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sun ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Oil ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Field ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Rock’n Roll",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hair ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Graceland",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Blue Suede Shoes",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Dancing Hips",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Fashion Sense",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -169,18 +142,15 @@
       "answers": [
         {
           "ans": "Tiger ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Zebra ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cat ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See In A Bathtub"
     },
     {
@@ -244,10 +210,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Present That Would Be Hard To Wrap"
     },
     {
@@ -277,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Don't Want To Do When Tired"
     },
     {
@@ -306,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do Before Bed That Makes It Hard To Sleep."
     }
   ],

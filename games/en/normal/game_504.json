@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Monopoly",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Life",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Scrabble",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Risk",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Chess",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Checkers",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Food ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Blanket ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Kids ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Football ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Frisbee ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dog ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Soda",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Champagne",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bubble Bath",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Soap",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dishwashing Liquid",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Talking",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Eat",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "move",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sleep",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sing",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Umbrella",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Rain Coat",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Bug Spray",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Food/Water",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hat",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Binoculars",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Drink",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bathroom",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Take Off",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Landing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Late Passenger",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That New Orleans Wouldn’t Be Same Without"
     },
     {
@@ -256,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Do In Your Sleep That Someone Else Would Find Cute?"
     },
     {
@@ -281,10 +239,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phrase That A Cool Guy Might Use To Say Hello"
     },
     {
@@ -310,10 +264,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Snoopy Does That Your Dog Would Not"
     }
   ],

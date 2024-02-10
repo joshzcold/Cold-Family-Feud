@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Airplane",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Kite",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Balloons",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "UFO",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Hold Nose & Blow ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Yawn ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Chew Gum ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Swallow ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Shake Finger In Ear ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Evergreen",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Cinnamon",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cookies",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Turkey",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Peppermint",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ham",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Apples",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Wand ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Rabbit ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hat ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Assistant ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pack Of Cards ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Deceptiveness",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Middle Aged",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Male",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "White",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Handsome",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Smart",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wealthy",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Rock",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Meat",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Club",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bones",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Christmas Song That Most People Forget Some Of The Words To"
     },
     {
@@ -258,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Is The Maximum Number Of Times It’s Okay For Your Partner To Call You At Work"
     },
     {
@@ -295,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Adult Might Take Lessons To Learn How To Do."
     },
     {
@@ -328,10 +284,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Might Pester You On A Camping Trip."
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Wish List",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Been Good",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Leave Him Cookies",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Name",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Age",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Address",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Librarian",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Writer/ Editor",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Teacher",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Secretary",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Security Guard",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Taste",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Type Of Meat",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Color",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Smell",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Tired",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Sick",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hung Over",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Stressed",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Computer Trouble",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Hangover",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Headache",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Sore Dancing Legs",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Nausea",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Orange",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Apple",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Lemon",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cranberry",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tomato",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Grapefruit",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -219,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where Wish People Wouldn’t Answer Their Cell Phones"
     },
     {
@@ -256,10 +222,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Find Out About Job Not Accepting It"
     },
     {
@@ -285,10 +247,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why It’s Hard To Talk To An Attractive Person"
     },
     {
@@ -322,10 +280,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You’re Asked To Turn Off Cell Phone"
     }
   ],

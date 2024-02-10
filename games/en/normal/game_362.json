@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Camping",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Searching For Something",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Reading",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hiking",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Fixing A Car",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Jail",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Desert",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Military",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Frozen Tundra",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Outer Space",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Pin The Tailâ€¦",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Twister",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Spin The Bottle",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Musical Chairs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Gun",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Water",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Bug Spray",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Shorts",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Camera",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Sunglasses",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Binoculars",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Lawyer",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Reporter",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Telemarketer",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Doctor",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Detective",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Teacher",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Therapist",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Blanket",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Toy",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Teddy Bear",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Doll",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bottle",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pacifier",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Article Of Clothing That Makes You Feel You Can’t Move"
     },
     {
@@ -268,10 +230,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Begins With Great"
     },
     {
@@ -305,10 +263,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Real Or Fictional, Name Someone Who’s Known For Being A Fast Runner."
     },
     {
@@ -338,10 +292,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Decorate With In Winter To Get In The Holiday Spirit"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Snoring ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Bed ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Dreams ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Pillow ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Night ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Opera",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Broadway/Play",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Wedding",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Symphony",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Ballet",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Feed",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Talk",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Play With",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Read",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Score",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Runs",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Outs",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Inning",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Teams",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Sing/Hum It Through",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Think Of Other Songs",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Go To Sleep",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Have A Conversation",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": 100,
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": 80,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 90,
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": 75,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 70,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Sticky"
     },
     {
@@ -238,10 +206,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Of Yours That You’d Be Angry To Find A Partner Snooped Into"
     },
     {
@@ -267,10 +231,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Use To Measure Things With"
     },
     {
@@ -296,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place On Your Body That Might Be Sore After A Day Of Shoveling."
     }
   ],

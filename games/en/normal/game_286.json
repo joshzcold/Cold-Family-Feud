@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Work",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Church",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "School",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Car",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Movies",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Airplane",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pool",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Toaster",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Stove",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Microwave",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Refrigerator",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Dishwasher",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Post Signs",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Look For Him",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Be Sad/Cry",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Call Humane Society",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Call Police",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Place An Ad",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Monster",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Snake",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Rotting Food",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Spider",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Rodent",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dust",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Person",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Lifeguard",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Swim Coach",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Swimmer",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Fisherman",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pool Cleaner",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Plumber",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Marine Biologist",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -194,18 +162,15 @@
       "answers": [
         {
           "ans": "Newspaper ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "On TV ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "On A Billboard ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 2,
@@ -232,10 +197,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Expect To Find In A Modern Home"
     },
     {
@@ -261,10 +222,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Found Beached On The Shore"
     },
     {
@@ -294,10 +251,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Unit Of Currency That’s Used In A Foreign Country"
     },
     {
@@ -319,10 +272,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Large Animal That Many People Are Afraid Of"
     }
   ],

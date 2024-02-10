@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Blender",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Toaster",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Mixer",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Dishwasher",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pan",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Knife",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Spatula",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Humor/Comics",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Romance",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "History",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Horror",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Self Help",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sci Fi/Fantasy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "At Work",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Midnight",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "While Driving",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "When Mad",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "After Drinking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Teeth",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Shirt",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Glass",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Someone’s Cheek",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Around Lips",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Title",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Interest",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Tax",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Air Conditioner",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stereo",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Limo Driver",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "police Officer",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Racecar Driver",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Taxi Driver",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pizza driver",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Swimming, Name Something People Do To Stay Cool In The Summer"
     },
     {
@@ -259,10 +222,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Pet That Requires Very Little Maintenance"
     },
     {
@@ -288,10 +247,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Find In A Boy’s High School Gym Locker Room."
     },
     {
@@ -317,10 +272,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Some Siblings Have In Common That Others Don’t"
     }
   ],

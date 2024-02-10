@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Golf",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Gardening",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Traveling",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Fishing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Playing An Instrument",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Knitting",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Writing",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Playing sports",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Carrying things",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Going to bathroom",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Raising hand",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Refill Drinks",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Take Order",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Clear Dishes",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Check On You",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Give The Bill",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Big Bird",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Elmo",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Oscar",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cookie Monster",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Ernie",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Grover",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Bert",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Hair ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Teeth ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Nose ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Trousers ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bumper ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Walking/Running",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Active Love Life",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Driving",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Traveling",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Related To Finances That It’s Hard To Explain To A Kid."
     },
     {
@@ -250,10 +214,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Take Sightseeing"
     },
     {
@@ -287,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Child Often Loses"
     },
     {
@@ -312,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Parents Be Caught Doing That Causes Their Kid To Bust Them For Doing Santa’s Job?"
     }
   ],

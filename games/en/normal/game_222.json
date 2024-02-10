@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Sing Carols",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Go To Church",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Party",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Eat",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Trim The Tree",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Visit Family",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wrap Presents",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Bird",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Children",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "People",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fish",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Horse",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "Teacher",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Doctor",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Customer Service",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Food Server",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Therapist",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Nurse",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Salesperson",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -122,33 +102,27 @@
       "answers": [
         {
           "ans": "Affection",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Dating",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Romance",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Talking",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Fun",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Flirting",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -158,28 +132,23 @@
       "answers": [
         {
           "ans": "Feet",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Belly",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Ankles",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Face",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Hands",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -189,33 +158,27 @@
       "answers": [
         {
           "ans": "Bottle ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Fuel Tank ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Prescription ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Coffee Cup ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Glass ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "A Pen ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -246,10 +209,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Howard."
     },
     {
@@ -275,10 +234,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Housekeeper Uses As Part Of Her Job"
     },
     {
@@ -300,10 +255,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A New Parent Tries To Do While The Baby Is Napping."
     },
     {
@@ -333,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Name You Might Give Your Pet That You’d Hate To Have As Your Name"
     }
   ],

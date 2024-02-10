@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Radio",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Engine",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Lights",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Heater/AC",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Wipers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Go Up & Down ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Push Buttons ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Snog ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Fart ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Bad Food",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Lonely",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "No Gravity",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "No Bathroom",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "No Fresh Air",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cramped",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "It’s Cold",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": 4,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 6,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 8,
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": 12,
-          "pnt": null,
-          "trig": false
+          "pnt": null
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Dress ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Suit ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Wedding Dress ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hat ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Veil ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Hot Chocolate",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Hot Bath",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sit By Fire",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Change Clothes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Blanket",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Soup",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Hope Will Last Forever"
     },
     {
@@ -241,10 +206,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Test In The Store Before Buying It"
     },
     {
@@ -266,10 +227,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Bring To The Stadium If You Wanted To Be Featured On The Jumbo Tron Screen."
     },
     {
@@ -295,10 +252,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something your partner might do first thing in the morning that wakes you up."
     }
   ],

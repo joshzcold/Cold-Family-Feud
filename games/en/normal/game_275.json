@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Tour Bus",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Bicycle For 2",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Rental Cars",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Taxi",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Carriage",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Rickshaw",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Elephant",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Monkey",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Bear",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Lion",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tiger",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Seal",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Eggs",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Hamburger",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Spaghetti",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Macaroni & Cheese",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Peanut Butter & Jelly",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Chicken",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cereal",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -117,33 +98,27 @@
       "answers": [
         {
           "ans": "Ball",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Frisbee",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Game/Contest",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Darts",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Tantrum",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Party",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Funeral",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Prom",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Job Interview",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Clean",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Water Plants",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Feed Animals",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Take Out Trash",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Get Mail",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Office Supply Is Most Likely Cause An Injury"
     },
     {
@@ -273,10 +234,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Costume Character May Have To Remove Their Head To Do"
     },
     {
@@ -306,10 +263,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Roll Up"
     },
     {
@@ -335,10 +288,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Department Store Where People Shop During The Holidays."
     }
   ],

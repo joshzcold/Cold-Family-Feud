@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Bagels",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Rolls",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Donuts",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Muffins",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cakes",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Buns",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Croissant",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Wait Tables",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Clean",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Security",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Commercials",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Valet Parking",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Model",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Singing Telegram",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -86,38 +72,31 @@
       "answers": [
         {
           "ans": "Bus",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Bicycle",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Car",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Airplane",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Motorcycle",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Subway",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Train",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -127,23 +106,19 @@
       "answers": [
         {
           "ans": "Jokes",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Clown",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Movies",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Comedian",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,23 +128,19 @@
       "answers": [
         {
           "ans": "Steroids",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Fighting",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bad Attitude",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bad Grades",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Lemonade",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Iced Tea",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Water",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Beer",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "kool Aid",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where There’s Often A Line For The Women’s Restroom."
     },
     {
@@ -268,10 +230,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Way To Communicate Without Technology."
     },
     {
@@ -301,10 +259,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Would wear To A Wedding In The Dessert"
     },
     {
@@ -334,10 +288,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Kid Would Do After School To Make An Extra Buck"
     }
   ],

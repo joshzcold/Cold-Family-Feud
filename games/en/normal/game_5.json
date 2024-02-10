@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Cinderella",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Snow White",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Little Red Riding Hood",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Rapunzel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Goldy Locks",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sleeping Beauty",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Money ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Purse / Wallet ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "List ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bag ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "The Kids ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Drew Barrymore",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Jodie Foster",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Raven Symone",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Ron Howard",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Laurence Fishburne",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Olsen Twins",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Sea Shells ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "A Body ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Whale ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "A Bottle ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Litter ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Married?",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "How Are You?",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Your Name Again…?",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Have Kids?",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "What Do You Do?",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Beaches",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Palm Trees",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Sun",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Movie Stars",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Artists",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cars",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Blondes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Buy In The Paper Products Aisle At The Supermarket"
     },
     {
@@ -264,10 +226,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Mansion Has That Requires Hired Help To Maintain."
     },
     {
@@ -289,10 +247,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When You’re Stuck In A Rut, Name An Activity That Can Pull You Out"
     },
     {
@@ -314,10 +268,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Give Me Another Name That Kids Use For “Father”"
     }
   ],

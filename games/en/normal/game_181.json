@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Flowers",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Jewelry",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Money",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Chocolate",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Kidney",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Appendix",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Gall Bladder",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lung",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Spleen",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Eat/Drink",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Use The Bathroom",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Move Around/Exercise",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Sleep",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Breathe",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Performance",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sporting Event",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Speech",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Graduation",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Wedding",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sit Com/TV",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Birthday Party",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Homework ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "School ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bed Time ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Hungry ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Boredom ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Wings",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Steak",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Chinese",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Fish",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do To Keep Warm In The Winter."
     },
     {
@@ -253,10 +218,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Referee Carries With Him"
     },
     {
@@ -290,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Complaint Many People Have About Bosses"
     },
     {
@@ -315,10 +272,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Yellow Flower"
     }
   ],

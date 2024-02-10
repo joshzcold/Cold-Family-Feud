@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Car",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Razor",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Socks",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Lose Weight",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Quit Smoking",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Exercise",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Do Better In School",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Quit Drinking",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Be A Better Person",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Save Money",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Hockey",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Boxing",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Football",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Baseball",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Wrestling",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Restaurant",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Grocery Store",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bar",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Coffee Shop",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bank",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Gas Station",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Salon",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Drive/Heavy Equipment",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Drink",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Overdose",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Take Without Eating",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Bambi",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Lion King",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cinderella",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fox & The Hound",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Finding Nemo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Beauty & The Beast",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dumbo",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Decision That People Don’t Make Lightly."
     },
     {
@@ -264,10 +226,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Celebrities Do When Their Children Are Born That Most Of Us Don’t Do."
     },
     {
@@ -297,10 +255,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Clothing Store, Name A Type Of Business You Find In A Mall"
     },
     {
@@ -326,10 +280,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something At Your Company Holiday Party That Could Lead You To Embarrass Yourself."
     }
   ],

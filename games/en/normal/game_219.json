@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Bambi",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Mickey Mouse",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Castle",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "People",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Epcot Center",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Space Mountain",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tea Cups",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Donuts",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Coffee Cake",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bagels",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cookies",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Toast",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Buscuit",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "BUY FLOWERS",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "OPEN DOORS",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "KISS",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "HOLD HANDS",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "BE NICE",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Skis ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Warm Clothes ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Gloves ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jumper ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Ski Suit ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Bathroom",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Kitchen",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Roof",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Garage",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Doors",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Basement",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Casino/Slots",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Money/Coins",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Poker Chips",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bar/Restaurant",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Show Girls",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fountain",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -232,10 +197,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Thanksgiving Food That Often Comes From A Box Or Can."
     },
     {
@@ -261,10 +222,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone You Might Tip At A Hotel"
     },
     {
@@ -290,10 +247,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation That Involves Touching People"
     },
     {
@@ -323,10 +276,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Pastime You’d Know Someone Has, Just By Looking At Their Shoes"
     }
   ],

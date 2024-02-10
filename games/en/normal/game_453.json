@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Drain ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Toilet ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Nose ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Sink ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Road ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Jockey ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Dominatrix ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Lion Tamer ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Ringmaster ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Indiana Jones ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wife / Partner ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Scissors",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Mirror",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Clippers",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Comb",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bowl",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Cheetah",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Jaguar",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Tiger",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cougar",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Horse",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bird",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Cheetah",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Horse",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Rabbit",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Jaguar",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dog",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tiger",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lion",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Tea ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Coffee ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Soup ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Hot Chocolate ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Honey & Lemon ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you can do to your nose"
     },
     {
@@ -276,10 +238,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "A Mistake Determined Never To Make Again"
     },
     {
@@ -305,10 +263,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Find In Your Food That Belongs To The Cook?"
     },
     {
@@ -330,10 +284,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Endearment Would Many Women Be Annoyed To Hear A Stranger Call Them By?"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Good",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Too Short",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Box Of Chocolates",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Beautiful",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "A Bowl Of Cherries",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "A Beach",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Singer",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Radio Host",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Teacher",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Receptionist",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Telemarketer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Actor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Nurse",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Doctor",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Work In Store",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Police",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Santa Claus",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Restaurant",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pilot",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Scream",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Hide Under Blanket",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cry",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Turn It Off",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Go To Another Room",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Chess/checkers",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "King Kong",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "King Of The Hill",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "King’s Corner",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Banana",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Hand",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Shoe",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Remote",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Brush",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tin Can",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Pilgrims Wear"
     },
     {
@@ -268,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Can You Consult For Directions When You’re Lost?"
     },
     {
@@ -293,10 +251,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place An Animal Might Take A Bath, But You Never Would."
     },
     {
@@ -318,10 +272,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Can Make A Person Suddenly Think Of Their Partner."
     }
   ],

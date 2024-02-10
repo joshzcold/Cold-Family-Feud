@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Cars",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Airplanes",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Legos",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Trucks",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Trains",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Buildings",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Love",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Intimacy",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Companionship",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Money/ Security",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Kids",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Love",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Baked Goods",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Card",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Gift card",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hugs/Kiss",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Weapon",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Mask",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Flashlight",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Movies",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Actress",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Antonio Banderas",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Don Johnson",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Blonde Hair",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "The Size",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "The Price",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "If It’s Real",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Quality",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Keep In A Cupboard"
     },
     {
@@ -240,10 +206,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something To Watch Out For While Skiing"
     },
     {
@@ -273,10 +235,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Place Where You See People Killing Time."
     },
     {
@@ -302,10 +260,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Changes Colour"
     }
   ],

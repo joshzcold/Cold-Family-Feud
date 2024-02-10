@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Microwave",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Dishwasher",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Fridge",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Blender",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "$50 ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "$30 ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "$25 ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "$15 ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "$20 ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "$60 ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "$100 ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Bed",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Towels",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "TV",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bible",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Soap",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Coffeemaker",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Mate",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Job",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Clothes",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Living Space",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Date",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Graduate",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hit puberty",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Get a phone",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Guitar",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Coyboy Hat",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Great Voice",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Boots",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Accent/Twang",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sad Song",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In The Home That People Might Trip Over"
     },
     {
@@ -250,10 +214,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Climb"
     },
     {
@@ -275,10 +235,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Catch."
     },
     {
@@ -300,10 +256,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Way To Say Hi In Another Language"
     }
   ],

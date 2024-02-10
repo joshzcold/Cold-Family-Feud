@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Fight",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "In Trouble",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Bad Grade",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Being Bullied",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Tall",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Basketball Player",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Raps",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Officer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bad Actor",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Read",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Concentrate",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Talk",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Study",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Peanuts",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Doonsbury",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Garfield",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Blondie",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Boondocks",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Beetle Bailey",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Cheeta/Cat",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Road Runner",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Rabbit",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Gizelle",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Greyhound",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Horse",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Head",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Neck",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Back",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Shoulders",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Feet",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Chest",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Do You Find Proper Directions If Lost"
     },
     {
@@ -254,10 +218,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way People Warm Themselves Up When They’re Cold."
     },
     {
@@ -283,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Tastes Good Hot Or Cold"
     },
     {
@@ -308,10 +264,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Make Drinks, Name Something Else A Bartender Might Do."
     }
   ],

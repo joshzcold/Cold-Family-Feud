@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Good Looks",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Height",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Agent",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stylish Clothes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Strut",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Confidence",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Read",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Sleep",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Watch TV/Movies",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Clean",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Lick You",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Bark",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Jump On You",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sniff You",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Furry/Fluffy",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Fat",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Funny",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fast",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Frisky",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -123,18 +104,15 @@
       "answers": [
         {
           "ans": "Needle ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Pins ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cotton ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 2,
@@ -144,23 +122,19 @@
       "answers": [
         {
           "ans": "Room Service ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Next Door ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "An Escort ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "A Guest ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -199,10 +173,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Expect To Find On A Pirate’s Ship"
     },
     {
@@ -224,10 +194,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of The Body People Like To Have Massaged"
     },
     {
@@ -253,10 +219,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Give A Nickname For A Spouse That Is Also A Dessert"
     },
     {
@@ -282,10 +244,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Does Not Stay Fresh For Long"
     }
   ],

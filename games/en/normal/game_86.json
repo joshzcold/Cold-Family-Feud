@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Kissing",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Holding Hands",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Making Conversation",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Meeting Parents",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Fruit",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Candy",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lotion",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wine",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bath Oil",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Frisbee",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Baseball",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Football",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tag",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Chess",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Basketball",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Soccer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Wood",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Saw",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Car",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Drill",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Books",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lathe",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Hammer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "License Plate",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Watch/Jewelry",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Polio/Work Shirt",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Towel Set",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Luggage Tag",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Cursing",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Intoxicated",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Rude",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cheating",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Not Funny",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Moms Are Desperate For."
     },
     {
@@ -251,10 +214,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Some People Jump Out Of"
     },
     {
@@ -288,10 +247,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Flight Attendant Sees Everyday"
     },
     {
@@ -313,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Food That Goes From Your Freezer To Your Toaster."
     }
   ],

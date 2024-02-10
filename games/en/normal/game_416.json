@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Can Fly",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Wears Cape",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "No Kryptonite",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Has Xray Vision",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Strong",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hero",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Doors Slammed In Face",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "No Sales",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Too  Much Walking",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Feel Hurt",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "No One Answers Door",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Rude People",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Rejection",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,23 +68,19 @@
       "answers": [
         {
           "ans": "Weather",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Prices",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Where To Stay",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Attractions",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "TV",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Clock",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Canara",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "MP3/Music",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Phone",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Water Pistol ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Spray Bottle ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Ketchup ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Plunger ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shampoo ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Sports",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Music",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Dance Class",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Theatre",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Martial Arts",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Keeps You From Finishing A Jigsaw Puzzle."
     },
     {
@@ -254,10 +218,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Made with Ginger"
     },
     {
@@ -291,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Were An Earth Tour Guide, Which Landmarks Would You Show To An Alien?"
     },
     {
@@ -324,10 +280,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport In Which People Wear Shorts"
     }
   ],

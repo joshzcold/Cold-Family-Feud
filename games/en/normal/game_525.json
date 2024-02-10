@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": 50,
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": 60,
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": 65,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": 70,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Charlie’s Angels",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Bewitched",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Wayne’s World",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Duke’s of Hazzard",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Brady Bunch",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Starsky And Hutch",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Blues Brothers",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "House",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Bank Account",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Muscles",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Car",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "TV",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Business Suit",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Dress/Skirt",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Glasses",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "High Heels",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Dentist",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Hair Salon",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Mechanic",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Toni",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Chris",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Brandy",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jamie",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Shawn",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Alex",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Husbands! Name A Subject Your Wife Likes To Be The Expert On."
     },
     {
@@ -252,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name another word for “Tired”."
     },
     {
@@ -277,10 +239,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Parent Wants To See Baby Do 1St Time"
     },
     {
@@ -302,10 +260,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teenager Might Try To Get Away With When Their Parents Are Out Of Town."
     }
   ],

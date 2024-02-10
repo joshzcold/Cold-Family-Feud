@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Dinner",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Bedtime",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Homework",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chores",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Curfew",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Mask",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Sword",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Z",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Horse",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cape",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Sitting Too Long",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Need A Bathroom",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Hungry",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Bored",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Temperature",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,18 +82,15 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Drinks",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Entertainment",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Hard Hat",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Tool Belt",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Boots",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Orange Vests",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Overalls",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -149,38 +126,31 @@
       "answers": [
         {
           "ans": "Juice",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Bubblegum",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Soda",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Jelly",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Medicine",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Lolipop",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Ice Cream",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Looks Better Polished"
     },
     {
@@ -244,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A School Might Forbid Students From Wearing."
     },
     {
@@ -281,10 +243,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job You Should Never Apply If You Don’t Like Wake Early"
     },
     {
@@ -306,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Normally Don’t Pay Cash For."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Pig",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Rat",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Weasel",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Snake",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Toy Making",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Gift Wrapping",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Good With kids",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Flight",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Dictionary ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Encyclopedia ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Atlas ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "ER",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "General Hospital",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Grey’s Anatomy",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "House",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -108,28 +92,23 @@
       "answers": [
         {
           "ans": "Hat/Headband",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Flapper Dress",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Beads",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Wig/Bob",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Feather/Boa",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -139,28 +118,23 @@
       "answers": [
         {
           "ans": "Police",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Doctor",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Lawyer",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Teacher",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "President",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Pile Up When You're Feeling Lazy"
     },
     {
@@ -228,10 +198,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Cartoon Character Would Make A Good Athlete If Real"
     },
     {
@@ -265,10 +231,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific A Woman Looks At When She First Meets A Man On A Blind Date."
     },
     {
@@ -294,10 +256,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You’d Go By A Nickname Instead Of Your Full Name"
     }
   ],

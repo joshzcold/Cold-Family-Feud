@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Stretch",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Warm Up",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Meditate",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Eat Well",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Plenty Of Sleep",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Kind",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Funny",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Friendly",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Smart",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Honest",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Happy",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Fun",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Homework ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Teachers ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Going ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Lessons ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Exams ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bullying ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Pedals ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Wheels ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Saddle ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Handle Bars ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Chain ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -143,18 +120,15 @@
       "answers": [
         {
           "ans": "Christmas ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Birthday ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "New Years Eve ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Tiger Woods",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Michael Jordan",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Mary Lou Retton",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Joe Montana",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Character In The Wizard Of Oz That Would Require The Most Elaborate Costume."
     },
     {
@@ -248,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Cartoon Character Who Would Never Be Chosen To Narrate A Documentary."
     },
     {
@@ -285,10 +247,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Holiday Food People Plan To Avoid, But End Up Eating Anyway."
     },
     {
@@ -310,10 +268,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A reason You Wouldn’t recognize Someone At Your High School Reunion"
     }
   ],

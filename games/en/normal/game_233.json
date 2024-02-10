@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Elephant",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Lion/Big Cats",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Snake",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Birds",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Shark",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Whales",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Backpack ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Water ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Sleeping Bag ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Tent ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bag ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Star ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Diamond ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Crystal ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "New Coin ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Glitter ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Hiss",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Scratch",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Run",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Jump",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Attack",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Arch It’s Back",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Divorce",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Sex/ Affair",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Star",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Scandal",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hot",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pregnant",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Diet/ Weight",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Pen/Pencil",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Money",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Handkerchief",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Glasses",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cigarettes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Reason You Like To Shop On Line"
     },
     {
@@ -268,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Forgot Your Date’s Name, What Might You Call Them Instead?"
     },
     {
@@ -297,10 +255,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Were Designing An Airport, Name Something You’d Make Sure There Was A Lot Of."
     },
     {
@@ -330,10 +284,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Activity That Requires Moving Your Hips."
     }
   ],

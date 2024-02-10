@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Parents",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Spouse",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Parole Officer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Children",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Venice",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Daytona",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Malibu",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Huntington",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pebble",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Miami",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Long",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Keanu Reeves",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Kevin Bacon",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bruce Willis",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Jack Black",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Russell Crowe",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Go To The Bathroom",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Bark",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bite",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Shed",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dig Holes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Oreo",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Oatmeal",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Peanut Butter",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sugar",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Vanilla Wafers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Snake",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Dog",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Shark",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Lion",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Tiger",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Alligator",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bear",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Your Bathroom Is Better Than An Outhouse"
     },
     {
@@ -259,10 +222,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Button On TV Remote Husband Will Wear Out"
     },
     {
@@ -288,10 +247,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Be Carved Into A Christmas Ice Sculpture."
     },
     {
@@ -325,10 +280,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Sports Are You Most Likely To Break An Arm Playing?"
     }
   ],

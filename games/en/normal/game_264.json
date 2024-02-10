@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bacon",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Coffee",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Eggs",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bread",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Doughnut",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Eggs ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Jesus ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Bunny ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chocolate ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Holiday ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cross ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Clothes",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "House",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jewelry",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Cricket",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Fly",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Mosquito",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Bee",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Ice ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Snake ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Banana Skin ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Oil ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Snow ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "A Budgie ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Food ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "A Mirror ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "A Swing ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "In Order To Solve A Crime, What Does An Investigator Need To Find?"
     },
     {
@@ -230,10 +198,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "At A Bar, How Can You Tell That Someone Is Interested In You?"
     },
     {
@@ -259,10 +223,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Do For Mum On Mothers Day"
     },
     {
@@ -284,10 +244,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Political Contest And A Football Game Have In Common."
     }
   ],

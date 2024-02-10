@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Popcorn",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Soda Pop",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Pop Tart",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Popsicle",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Popular",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pop Goes The Weasel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Speed ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Eat ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Run A Red Light ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "No Seatbelt ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sing ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Train Tracks",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Tower",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Castle",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "A Dark Alley",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Basement",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Car",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Elevator",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Pool cue",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Balls",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cover",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Chalk",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Book ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Trophy ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Ribbon ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Medal ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Certificate ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -169,18 +142,15 @@
       "answers": [
         {
           "ans": "Toffee ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Chewing Gum ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Nuts ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Activity That’d Be Hard To Do By CandleLight"
     },
     {
@@ -240,10 +206,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "aside From Animals, Name Something People Hunt For."
     },
     {
@@ -269,10 +231,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Should A Clown Avoid Wearing When Not On Duty"
     },
     {
@@ -302,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something From Home That You Wish Movie Theaters Had"
     }
   ],

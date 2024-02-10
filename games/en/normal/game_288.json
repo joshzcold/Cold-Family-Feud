@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Frankenstein",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Witch",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Ghost",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Freddy Kruger",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Onions",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Crying",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Allergies",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Smoke",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Yawn",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sick",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dirt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Excaliber ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "A Court ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Knights ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "His Wife (Guinevere)",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "A Sword ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "A Hat ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "A Wand ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "A Rabbit ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "A Cloak ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "An Assistant ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Subway",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Bus",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Taxi",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Train",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Strawberry",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Apple",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pineapple",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Peach",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Banana",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Grape",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cherry",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Usually Keep From High School"
     },
     {
@@ -258,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Costs Twice As Much As It Is Worth."
     },
     {
@@ -295,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A King Has That Other Men Don’t"
     },
     {
@@ -332,10 +288,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Spend THeir Tax Returns On."
     }
   ],

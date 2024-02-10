@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "A Fire Extinguisher ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Blanket ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Sand ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -25,23 +22,19 @@
       "answers": [
         {
           "ans": "Ant ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Fly ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Spider ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Wasp ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -51,33 +44,27 @@
       "answers": [
         {
           "ans": "Stuart Little",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Little Bo Peep",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Little John",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Chicken little",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Lil red Riding Hood",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Little Boy Blue",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Bat",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Owl",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cat",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Raccoon",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 2,
@@ -113,28 +96,23 @@
       "answers": [
         {
           "ans": "Pee Outside",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Lick",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Drink From Toilet",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Eat Scraps",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Run Loose",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -144,38 +122,31 @@
       "answers": [
         {
           "ans": "Bicycle",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Video Games",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Remote Control Car",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Money",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "GI Joe",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Computer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Truck",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a ballet dancer has that most people do not."
     },
     {
@@ -243,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Sandwich You’d Expect To See In New York City."
     },
     {
@@ -268,10 +231,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Muscular Celebrity Who Would Probably Have Trouble Finding Clothes In His Size."
     },
     {
@@ -297,10 +256,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Person Might Prefer To Own A Dog Over A Cat."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Birthday",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Party",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Graduation",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Baby Shower",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Lion Tamer",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Trapeze Artist",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Tightrope Walker",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fire Eater",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Sword Swallower",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Wears A Crown",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Rides White Horse",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Good Looking",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Magical Kiss",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Toothbrush/Paste",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Hairbrush/Comb",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hair Dryer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Razor",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Alarm Clock",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Make Up",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Golden Girls/Acting",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Comedienne",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Her Age",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "White/Blonde Hair",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Under desk/table",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Bathroom",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Closet/Supply room",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Kitchen/Staff lounge",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Could Choose Your Neighbors, Which Traits Would You Look For?"
     },
     {
@@ -234,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Try To Squeeze Themselves Into."
     },
     {
@@ -263,10 +227,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Easily Blocked"
     },
     {
@@ -296,10 +256,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Some Women Spend A Lot Of Money On, Just To Look Good."
     }
   ],

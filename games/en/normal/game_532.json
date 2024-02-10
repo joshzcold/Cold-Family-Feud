@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Mom",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Dad",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Spouse",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Grandparent",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Child",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Pawn ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Knight ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Rook ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Queen ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bishop ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "King ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Dirty Clothes ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Dishes ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Rubbish / Junk ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Food ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Money ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Swings",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Slide",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Jungle Gym",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "See Saw",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Basketball Court",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Merry Go Round",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Start Fire",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Door To Door Sales",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Camp",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Community Service",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "First Aid",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "School",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Puberty",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Acne",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Potty Training",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Public Place Where It’s OK To Yell"
     },
     {
@@ -249,10 +214,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If They Offered A Class On How To Be A Rockstar, Name Something They Might Teach You How To Do."
     },
     {
@@ -278,10 +239,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find On Your Doorstep"
     },
     {
@@ -303,10 +260,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell me something that you hope is easier to do the second time around."
     }
   ],

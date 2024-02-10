@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "E Mail",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Computer",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bank Account",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Credit Card",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Voice Mail",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Pool",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Ball",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Swimsuit",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Net",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Goggles",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Paycheck",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Package",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Birthday Cards",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Letters",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Tails",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Nine Lives",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Fur",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Whiskers",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "4 Feet",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Claws",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Pedals",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "seat",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wheels",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Handlebars",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Chain",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bell",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Brakes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "French Fries",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chicken",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Hamburger",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cheese",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sandwich",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pizza",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Chips",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Take A Deep Breath Before Looking At"
     },
     {
@@ -256,10 +218,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation Where You Have To Wear A Hat"
     },
     {
@@ -289,10 +247,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do While They’re Waiting For The Doctor."
     },
     {
@@ -318,10 +272,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job Where You’d Need Great Vision."
     }
   ],

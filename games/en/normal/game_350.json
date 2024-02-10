@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Ticket",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Bugs",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bird Droppings",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Snow",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "A Crack",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fliers",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,18 +34,15 @@
       "answers": [
         {
           "ans": "Boats ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "People ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Models ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "No Diving",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "No Running",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Lifejacket/Floaties",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Hor After Eating",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "No Deep Water",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stay Supervised",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Ice Cream Truck",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Music",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cones",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Freezer",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Friendly Personality",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,18 +108,15 @@
       "answers": [
         {
           "ans": "Cream ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Gloves ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Ring ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -149,38 +126,31 @@
       "answers": [
         {
           "ans": 25,
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": 20,
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": 21,
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": 30,
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": 18,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 22,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 24,
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something First Time Parent Has To Do Before Baby Is Born"
     },
     {
@@ -248,10 +214,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Complaint A Circus Clown Might Have About His Job."
     },
     {
@@ -273,10 +235,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Go To A Professional To Have Cleaned."
     },
     {
@@ -310,10 +268,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Need If You Were Putting On A Rock Concert."
     }
   ],

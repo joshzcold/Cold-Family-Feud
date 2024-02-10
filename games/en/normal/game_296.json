@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Wash Dishes",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Laundry",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Vacuum",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cook",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Sweep",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Clean Bathroom",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "13 ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "12 ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "14 ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "16 ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "10 ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Kiss",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Wedding",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Couple Begins Dating",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Someone Dies",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Exercise ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Sweat ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Leotards ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dance ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Gym ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Drinking",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hair Styling",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Going Out/Partying",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Makeup",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Eating Junk Food",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Smoking",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dieting/Exercise",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,18 +142,15 @@
       "answers": [
         {
           "ans": "Cat ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Seal ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Dog ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 2,
@@ -219,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a movie featuring a horse."
     },
     {
@@ -244,10 +210,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Have To Get A Picture With During A Vacation To Los Angeles."
     },
     {
@@ -269,10 +231,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job That Requires You To Risk Your Life"
     },
     {
@@ -302,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See Next To The Cash Register At A Restaurant"
     }
   ],

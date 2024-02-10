@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Flashlight",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Phone",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "First Aid KIt",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Spare Tire",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Blanket",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Jumper Cables",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Flares",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "No Kids",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Job’s Not Suitable",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "No Job",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Naughty Kid",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Too Busy At Work",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Boring Job",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Copper ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Bill ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Pigs ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Mr Plod ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sweeney ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "The Fuzz ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Gas Station",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Park",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Mall",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bar",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Beach",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Restaurant",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Train Station",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -158,28 +132,23 @@
       "answers": [
         {
           "ans": "Trees ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Furniture ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cones ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Table ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Forest ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -189,28 +158,23 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Intimacy",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Time",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Privacy",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Partners Love",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -241,10 +205,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do In A Restaurant"
     },
     {
@@ -270,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Exercise High School Gym Teachers Make You Do."
     },
     {
@@ -303,10 +259,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way Children Submit Their Wishlists To Santa."
     },
     {
@@ -340,10 +292,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Your Home You Probably Turn On Every Day."
     }
   ],

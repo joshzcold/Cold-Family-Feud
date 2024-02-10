@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Discount",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Convenience Store",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Grocery Store",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Drugstore",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Gas Station",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Department Store",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Toy Store",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Your Wedding",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Birthday Party",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Family Reunion",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Your House",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": " Bouquet (flowers)",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Cake/food",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Groom",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Wine/Champagne",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Gown/Veil",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Wedding Ring",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Apple Sauce",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Hot Sauce",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Ketchup",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "BBQ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Chocolate Sauce",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Boots",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Hat",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jeans",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Flannel Shirt",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "SunGlasses",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Dentist",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Proctocologist",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Eye",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "OB/GYN",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a profession that would be most difficult to perform while 8 months pregnant."
     },
     {
@@ -253,10 +218,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason People Return Gifts"
     },
     {
@@ -290,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Dessert That’s Made With Fruit."
     },
     {
@@ -327,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where A Woman Would Hate For Her Husband To be When She Went Into Labor"
     }
   ],

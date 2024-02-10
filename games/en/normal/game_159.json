@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Mall",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Restaurant",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Grocery Store",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bank",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Doctor’s Office",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sports Game",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Bones",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Dirt",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Treasure",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Flowers/Plants",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Weeds",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Worms",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Tie ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Shirt ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Hat ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Shoes ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Test",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Office",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "In The Bedroom",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "ATM",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bathroom",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Celebrity",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Politician",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Customer Service",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Advice Columnist",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Food/Drink",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Bathroom",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lip Balm/Makeup",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Tooth Brush",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Towel/Washcloth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Comb/Brush",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Headphones",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "In Today’s World, Name Something That Helps People Stay “Forever Young.”"
     },
     {
@@ -246,10 +210,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your Taking A Hawaiian Vacation, Name Something You’d Need To Buy Before You Go"
     },
     {
@@ -271,10 +231,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might An Obsessed Lover Do That Causes His Partner To Break Up With Him?"
     },
     {
@@ -300,10 +256,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Name Something A Kid Would Look For In A New House"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Mayo",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Cheese",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Meat",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Butter",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Shoe Laces",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Hair",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Tounge",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Stomach",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -56,38 +48,31 @@
       "answers": [
         {
           "ans": "Brakes",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Radio",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Mirrors",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Head Lights",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Accelerator",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Seat Belt",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Turn Signals",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Agatha Christie",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Arthur Conan Doyle",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Dashiell Hammett",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Raymond Chandler",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sue Grafton",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Elephant",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Cow",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Horse",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bear",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hippo",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Rhino",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Moose",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "PRESIDENT",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "PEANUTS",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "WHITE HOUSE",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "AMY CARTER",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "HABITAT FOR HUMANITY",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "PEACE NEGOTIATIONS",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "ROSLYNN CARTER",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Clown Might Wear"
     },
     {
@@ -260,10 +222,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit That Would Be Really Hard To Juggle"
     },
     {
@@ -293,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Women’s Magazines Give Advice On"
     },
     {
@@ -326,10 +280,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why You Wouldn’t Have Cake On Your Birthday."
     }
   ],

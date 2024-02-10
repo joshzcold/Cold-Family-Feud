@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Underwear",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Shoes",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "TV",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Food",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Car",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bed",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Computer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Birthday Parties",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Sporting Events",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Graduations",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Family Reunions",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Weddings",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "recitals/Plays",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Church",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -86,33 +72,27 @@
       "answers": [
         {
           "ans": "Got In A Fight",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Being Sick",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Talk Back To Teacher",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bring A Weapon",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Swearing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Smoking",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -122,28 +102,23 @@
       "answers": [
         {
           "ans": "Jewelry",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Car",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Cash",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Perfume",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Clothes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Scream",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cry",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Jump",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Smile",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Faint",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Laugh",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Gasp",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -194,28 +162,23 @@
       "answers": [
         {
           "ans": "Doughnut ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Polo Mint ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "CD ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Plate ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Putting Green ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -238,10 +201,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous City That Features In A Song"
     },
     {
@@ -263,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a kid might bury in the backyard."
     },
     {
@@ -300,10 +255,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Remember About The Tv Show “M*A*S*H”"
     },
     {
@@ -325,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of Your Morning Ritual That It’s Hard To Get The Energy To Do."
     }
   ],

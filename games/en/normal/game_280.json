@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Shake Hands",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "High Five",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Clap",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Congratulate",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "House/Home Repair",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Food",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Gifts",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Insurance",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Blood ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Crucifix ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Garlic ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Fangs ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Dracula ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Gold ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Diamonds ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Stars ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Glitter ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ring ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Jailhouse Rock",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Viva Las Vegas",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Blue Hawaii",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Love Me tender",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Girls Girls Girls",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "King Creole",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Kissing Them ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Hugging Them ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Flowers ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Telling Them ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Gifts / Presents ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Went Out With Santa Claus, What Might You Do On Your First Date?"
     },
     {
@@ -244,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Popular Type Of Homemade Candy Served During The Holidays"
     },
     {
@@ -265,10 +227,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Archery"
     },
     {
@@ -294,10 +252,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Apart From A Matress, Name Something People Sleep On"
     }
   ],

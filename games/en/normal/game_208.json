@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Life Jacket ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Oar ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Anchor ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Flares ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Fishing Rod ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Dolls",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Stamps",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Action Figures",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Baseball Cards",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Comic Books",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stuffed Animals",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "A Pimple",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Booger",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Wart",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "A Bug",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Food",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Nosering",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hair",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Hit By Another Car",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Carjacked",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Keyed",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Broken Into",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Flat Tire",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Towed",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Parking Ticket",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Jacket",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Hat",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Gloves",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lunch Box",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Glasses",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Book",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Shoes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -194,23 +162,19 @@
       "answers": [
         {
           "ans": "Lottery Numbers",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Betting/Horse Races",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Investment",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Invention",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -249,10 +213,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Can Almost Everyone Cook"
     },
     {
@@ -274,10 +234,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Popular Flavor Of Sherbet."
     },
     {
@@ -299,10 +255,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Have To Buy For A Wedding"
     },
     {
@@ -324,10 +276,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Might Use to Help Them Count."
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Halloween",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Thanksgiving",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "St Patrick’s Day",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Fourth Of July",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "New Year’s",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Swimming",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Gymnastics",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Basketball",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hockey",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Track",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Ice Skating",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Get Mail/Newspaper",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Emergency/Fire",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "They’re Cold",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "They’re Lazy",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pajama Party",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Take Out Trash",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Hula Hoop",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Barbie",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Yo Yo",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Mr Potato Head",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Slinky",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Airport",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Wedding/Church",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Train Station/Bus Depot",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Beach",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bridge",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Park",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Yells A Lot",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Grumpy",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Extra Homework",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Gives Punishments",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Facial Expression",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Without Seeing Them Steal, Name Something That You’d See A Person Do To Make You Suspicious That They’re Shoplifting."
     },
     {
@@ -248,10 +210,6 @@
           21
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Look At Through A Telescope"
     },
     {
@@ -273,10 +231,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Good Score When Playing 18 Holes Of Golf."
     },
     {
@@ -310,10 +264,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food Someone Might Use More Than One Hand To Eat."
     }
   ],

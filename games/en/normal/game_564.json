@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Penne",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Lasagna",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fettucini",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Rotini",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Linguine",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Ravioli",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "French",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "English",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Spanish",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "German",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Italian",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Flares",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Flashlight",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "First Aid Kit",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Blanket",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Car Jack",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Water",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Jumper Cables",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Apple",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Peach",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bananas",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Pear",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "$30 ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "$25 ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "$35 ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "$20 ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "$40 ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "$50 ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "$15 ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,18 +150,15 @@
       "answers": [
         {
           "ans": "Owl ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bush Baby ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Ostrich ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Celeb Who Should Never Have Taken Up Acting."
     },
     {
@@ -254,10 +218,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why You’d Wake Your Spouse Up In The Middle Of The Night"
     },
     {
@@ -283,10 +243,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occasion When People Sing"
     },
     {
@@ -308,10 +264,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Look At Through A Telecsope"
     }
   ],

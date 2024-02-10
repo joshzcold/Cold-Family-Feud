@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Closet",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Under Bed",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Attic",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Garage",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Kitchen Drawer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Basement",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Stock Market",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Money",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Wall Street Journal",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Suites And Ties",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Christmas",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Wedding",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Birthday",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Vacation",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Shopping Trip",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Night Out",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Steak",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Chicken",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bread",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hamburger",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cheese",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Sumo Wrestling",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Football",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "WWF Wrestling",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Weight Lifting",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Cleaning",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Execising",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Studying",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Gardening",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Eating",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Dancing",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Driving",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport That Doesn’t Require A Lot Of Equipment"
     },
     {
@@ -254,10 +218,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Malls Do To Get Shoppers In The Christmas Spirit."
     },
     {
@@ -283,10 +243,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Ride For A Thrill"
     },
     {
@@ -308,10 +264,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Sesame Street Character Uncomfortable In Their Costume"
     }
   ],

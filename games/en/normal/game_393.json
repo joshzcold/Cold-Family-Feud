@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Chihauhua",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Poodle",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Dashound",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cocker Spanial",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Rich",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Fame",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Meet Other Stars",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Free Movies",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Huge House",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Get Roles",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Blush",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Cry",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Sweat",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Giggle",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Violin",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Flute",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Clarinet",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Guitar",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Saxiphone",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Under mattress",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Dresser drawer",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Cookie jar",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Closet",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Freezer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Hat ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Horse ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Gun ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Lasso ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Boots ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Chaps ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where People Hope Not To Have A Baby Seated Near Them."
     },
     {
@@ -244,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Clown Has"
     },
     {
@@ -273,10 +235,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Skip When You Are Sick"
     },
     {
@@ -306,10 +264,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Need Coins To Use."
     }
   ],

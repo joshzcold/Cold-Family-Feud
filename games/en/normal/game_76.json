@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Sunglasses",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Hat",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Trench Coat",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Wig",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Badge",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Weapon",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Elves",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Rudolph",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Easter Bunny",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Mrs. Claus",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tooth Fairy",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Frosty",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Children",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Letter",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Pictures",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cards",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Invitations",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bills",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Concert",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Flight",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Movie",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cruise",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Travel",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Get Married",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Go Back To School",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Move Back Home",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Party",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Join The Military",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Dorothy",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Toto",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tin Man",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Yellow Brick Road",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Wicked Witch",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Ruby Slippers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something Nerdy You Had In High School Photos But Not In Photos Today"
     },
     {
@@ -260,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Is The First Thing People Do If They Encounter A Bear In The Woods?"
     },
     {
@@ -293,10 +251,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With Goldie Hawn."
     },
     {
@@ -330,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Baby Can’t Do On Own At Birthday Party"
     }
   ],

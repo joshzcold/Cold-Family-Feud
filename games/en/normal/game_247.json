@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Apple",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Candy",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Card",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Coffee Mug",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cookies",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Candle",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Book",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Hotel",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Mall",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Hospital",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Office Building",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Tattoos",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Get Body Pierced",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Dye Hair",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Shave Head",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Paint Face",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Long Hair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Facial Hair",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Toast",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Eggs",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cereal",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Waffle/Pop Tart",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Bacon",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Titanic",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Lord Of The Rings",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Gone With The Wind",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Harry Potter",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "King Kong",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dances With Wolves",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Gravy",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Butter",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Mashed Potatoes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Jelly",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Honey",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do On Ice"
     },
     {
@@ -268,10 +230,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place That Gets Crowded At The End Of A Work Day"
     },
     {
@@ -297,10 +255,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something Specific That A Barber Must Get Sick Of Doing"
     },
     {
@@ -334,10 +288,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Public Place That You Can Almost Never Park Right In Front Of."
     }
   ],

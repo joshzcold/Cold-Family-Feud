@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Store Clerk",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Bank Teller",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Security Guard",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Toll Collecter",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Factory Worker",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Mickey Mouse Ears ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Cuddly Toy ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Photo ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "No Seatbelt",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Unsupervised Play",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "No Bike Helmet",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Walk To School",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sit In Front Seat",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -87,33 +74,27 @@
       "answers": [
         {
           "ans": "Psychology",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Chemistry",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Calculus",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Physics",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Philosophy",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Economics",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Purse",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Watch",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Belt",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sunglasses",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Scarf",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Jewelry",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Reality TV",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Talk Show",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Dating Show",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Romantic Drama",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "True Crime",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Celebrity Who You’re Pretty Sure Has Had Plastic Surgery"
     },
     {
@@ -236,10 +202,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where do you get money that can’t be used to buy anything in the real world?"
     },
     {
@@ -269,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Amusement Park Has A Lot Of."
     },
     {
@@ -298,10 +256,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Look Forward To"
     }
   ],

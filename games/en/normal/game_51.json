@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Mom",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Dad",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Boss",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Grandma",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Kids",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sibling",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "7 Days",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "5 Days",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "10 Days",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "14 Days",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "3 Days",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "4 Days",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "cars",
-          "pnt": 71,
-          "trig": false
+          "pnt": 71
         },
         {
           "ans": "Clothes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Houses",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Jewlery",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Plane",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "boat",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Snakes ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Rats ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Spiders ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Mosquitoes ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cockroaches ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sharks ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Smoking",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Eating Too Much",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Eating Junk",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Too Much Salt",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drinking Alcohol",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Your Hair ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Weather ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Traffic ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Tv ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Your Partner ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Might Have A Friendly Conversation With A Total Stranger."
     },
     {
@@ -276,10 +238,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word That You Might See Before Or After The Word “Wax”."
     },
     {
@@ -301,10 +259,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Dread Doing After A Break-Up"
     },
     {
@@ -326,10 +280,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If A Child Were Raised By Squirrels Name Something He’d Be Good At."
     }
   ],

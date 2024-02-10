@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Say Hi Back",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Just Smile",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Ignore Them",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Ask Who They Are",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Judge Judy",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Judge Mathis",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Judge Wapner",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Judge Joe Brown",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": 100,
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": 80,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 90,
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": 70,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 75,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Summer ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Winter ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Spring ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Autumn ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -113,33 +96,27 @@
       "answers": [
         {
           "ans": "Seat/Cushion",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Refreshments",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Safety Belt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "TV",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Blanket",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bathroom",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Kiss",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Sing",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Speak",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Try On Clothes",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dance",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See On A Christmas Wreath"
     },
     {
@@ -230,10 +198,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Business In Which You Might Have To Work Over THe Holidays."
     },
     {
@@ -259,10 +223,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Your Mum Made You Do That You'd Do In The Army"
     },
     {
@@ -284,10 +244,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Classical Music Composer That Most Know About"
     }
   ],

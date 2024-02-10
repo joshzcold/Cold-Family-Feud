@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Hands",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Flag",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Sign/Banner",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Kite",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Lighter",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Rockies",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Swiss Alps",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Sierras",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Appalachian",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Himilaysa",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Bats ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Bear ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Treasure ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Caveman ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Rocks ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Chair",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Water",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Magazines",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Towels",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Waiting Room",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Music",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Bacon",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Coffee",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Eggs",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pancakes",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sausage",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Donuts",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Fall Off",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Start Moving",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Crash",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Flat Tire",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation In Which Someone With A Baby Face Might Have A Hard Time Providing Their Authority"
     },
     {
@@ -245,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Have To Get Used To If You Were A Zoo Animal"
     },
     {
@@ -274,10 +235,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How can You Tell The Show You’re watching Is Made Fore Kids?"
     },
     {
@@ -299,10 +256,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Parent Reminds Kid Use At Summer Camp"
     }
   ],

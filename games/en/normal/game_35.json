@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Swimming",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Dance",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Art",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Gymnastics",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Music",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Toilet Paper",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Milk",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Tissue",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Toothpaste",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Soap",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Tiara",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Dress",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Magic Wand",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Makeup",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Jewelry",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Charm",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Red",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Black",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "White",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Silver",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Blue",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Green",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "construction",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Sports",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Teacher",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Police",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stock Broker",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Auctioneer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Kitchen",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Basement",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Garage",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dining Room",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bedroom",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "bathroom",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which North Pole Resident Is Most Likely To Become Jealous Of Santa’s Power?"
     },
     {
@@ -252,10 +214,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something People Do To Brace Themselves While Getting A Shot"
     },
     {
@@ -281,10 +239,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Activity You Turn The Lamp On For"
     },
     {
@@ -310,10 +264,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of The Body That’s Often Sore After Exercise."
     }
   ],

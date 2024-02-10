@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Patience",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Bullets",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Courage",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Donuts",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Citations",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Coffee",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Back Up",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Bad Grades",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Kids",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Time",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Work",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Apathy",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Alarm",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "TV",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Lamp",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Radio",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Electric Blanket",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": 120,
-          "pnt": 110,
-          "trig": false
+          "pnt": 110
         },
         {
           "ans": 100,
-          "pnt": 105,
-          "trig": false
+          "pnt": 105
         },
         {
           "ans": 115,
-          "pnt": 95,
-          "trig": false
+          "pnt": 95
         },
         {
           "ans": 125,
-          "pnt": null,
-          "trig": false
+          "pnt": null
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Don’t Talk To Strangers",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Look Both Ways",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Wear Helmet",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Be Careful",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Tire",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Hair",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Soda",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Beer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal With A Long Tail."
     },
     {
@@ -252,10 +218,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Best Flavor Of Popsicle."
     },
     {
@@ -277,10 +239,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Announcement That You’d Hate For Your Boss To Overhear You Making"
     },
     {
@@ -302,10 +260,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Started Seeing Less Of Since Cell Phones Became Popular"
     }
   ],

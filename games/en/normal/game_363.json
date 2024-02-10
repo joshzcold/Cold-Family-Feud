@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Jewelry",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "House",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Clothes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Deer",
-          "pnt": 70,
-          "trig": false
+          "pnt": 70
         },
         {
           "ans": "Moose",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bear",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bull",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Raccoon",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Antelope",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Shopping Trip",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Money",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Coupons",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Cart",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Floor Mats",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Windows",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Ashtray",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Carpet",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Trunk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dashboard",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Steering Wheel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Food Server",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Model",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Cook",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Washing Cars",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Cave",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Canyon",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Hallway",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Phone Booth",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Mountain",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bathroom",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Bottle You Might Find On A Kitchen Table"
     },
     {
@@ -253,10 +218,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something California Has More Of Than Any Other State"
     },
     {
@@ -290,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Good Place To Study"
     },
     {
@@ -319,10 +276,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Use To Wake Them Up"
     }
   ],

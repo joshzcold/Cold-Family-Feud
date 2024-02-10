@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Drink water",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Rest",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Shower",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Stretch",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Use bathroom",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Weeds",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Kids",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Grass",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hair",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Plants",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Animals",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Furniture",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "pillows",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Fireplace",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "candles",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Drapes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "rugs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": "Bike",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Videogames",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Toy Car",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Ipod",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "GI Joe",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Football",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Fighting",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Talking",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Watching TV",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Partying",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Vacuuming",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Popcorn",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Food Wrappers",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cups/Cans",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Ticket Stub",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name A Slender Animal that Wouldn’t Make A Very Good Piggy Bank."
     },
     {
@@ -262,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do People Do That Could Get Them Kicked Out Of A Museum"
     },
     {
@@ -295,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Hear In A Weather Forecast That Would Keep You From Going Outside?"
     },
     {
@@ -324,10 +280,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Colouring In"
     }
   ],

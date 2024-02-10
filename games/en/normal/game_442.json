@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Star Wars",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Hairstyle",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Han Solo",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Luke Skywalker",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Darth Vader",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Rebel Alliance",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Treats",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Toys",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Attention",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Clothes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Praise",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,18 +60,15 @@
       "answers": [
         {
           "ans": "Cream ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Wimbledon ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sugar ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Wig",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Guitar",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sunglasses",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Albums",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "White Pantsuit",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Sideburns",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Blue Suede Shoes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Wash Dishes",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Take Out Trash",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Clean Room",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Mow Lawn",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Smoke",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Drink Alcohol",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Swear",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Eat",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Drive",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Work",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Gossip",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport Where A Player Might Wear Spiked Or Studded Shoes"
     },
     {
@@ -258,10 +222,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Or Someone Associated With “The Addams Family.”"
     },
     {
@@ -291,10 +251,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Coughing, What’s Something You Can’t Stop Yourself From Doing?"
     },
     {
@@ -324,10 +280,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Tv Comedian"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Save / Collect Them",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Throw In Fountain ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Put In Jar ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Roll Them Up ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Throw Away ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "7 ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "13 ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "11 ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "6 ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "2 ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Body",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Power",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Strength",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Looks",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Invisible Plane",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": 16,
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": 15,
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": 14,
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": 13,
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": 17,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 18,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 12,
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Parent",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Ex",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Grandparent",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Boss",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Paint/Wallpaper",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Carpet",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Contact Information",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Locks",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Curtains",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Age That A Boy First Becomes Interested In Girls."
     },
     {
@@ -245,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Go To Sleep With The Windows Open, Name A Sound That Might Wake You Up."
     },
     {
@@ -270,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Distracting That You Shouldn’t Take With You On A Date."
     },
     {
@@ -295,10 +252,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A TV Show About An Island."
     }
   ],

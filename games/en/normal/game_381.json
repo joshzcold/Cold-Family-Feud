@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Throw Away",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Hide Them",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Burn Them",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Change Grade",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Rip Them",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Flying Reindeer",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Generosity",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Works Once A Year",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "World Travel",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Paid In Cookies",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fancy Sleigh",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Efficiency",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Sugar",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Chocolate",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Corn Syrup",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Salt",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Say Thank You",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Blush",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Smile",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Brush It Off",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Soap Opera",
-          "pnt": 74,
-          "trig": false
+          "pnt": 74
         },
         {
           "ans": "Talk Shows",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cooking",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Fashion",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Ship / Boat ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Fish ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Submarine ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Dolphin ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shark ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who Might Work At A Mansion."
     },
     {
@@ -239,10 +206,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Spicy Food Some People Love To Eat"
     },
     {
@@ -268,10 +231,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Astonaut And A Baby Have In Common"
     },
     {
@@ -293,10 +252,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Could Have Just One Chore That Someone Else Would Always Do For You, What Would It Be? (More Specific Than “Clean.”)"
     }
   ],

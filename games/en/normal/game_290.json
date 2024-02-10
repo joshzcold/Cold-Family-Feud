@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Brassiere",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "High Heels",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Underwear",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Girdle",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Nylons",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Watch",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Wallet/Purse",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Handkerchief",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Necklace",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Ring",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Earrings",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Ring",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "House",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Furniture",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Mattress",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dishes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wedding Dress",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Soft Drinks",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Beer",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Ice",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Water",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Chicken",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Frosty Mug For Beer",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Kick Butt",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Kick Boxing",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "A Kick Out Of You",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Kick Ball",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Kick It In",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Kick Off",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Concert",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Outdoors",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bar",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "party",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Athletic Event",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Naughty That A Grandpa Might Secretly Let His grandson get Away With"
     },
     {
@@ -269,10 +230,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a place in your house that you don’t bother decorating."
     },
     {
@@ -298,10 +255,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Trick Dogs Do That You Wish You Could Teach Your Partner"
     },
     {
@@ -331,10 +284,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Every UPS Driver Should Have"
     }
   ],

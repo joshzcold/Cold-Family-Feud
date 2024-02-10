@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Fart ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Burp ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hiccup ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Tummy Rumble ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Snoring ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sneeze ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Collar ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Bone ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Food ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Leash / Lead ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Biscuits ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Help ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Strawberry Fields ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Love Me Do ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Penny Lane ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Yellow Submarine ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Paperback Writer ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Younger Man",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Lives With Parents",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "No Job",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "No Car",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Goofs Around",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "No Money",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Baby Face",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -148,38 +124,31 @@
       "answers": [
         {
           "ans": "Black And White",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Has Knobs",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "No Remote Control",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Doesn’t Work",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Small Screen",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fuzzy Picture",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Console Cabinet",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -189,38 +158,31 @@
       "answers": [
         {
           "ans": "Sonny and Cher",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "The Judds",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "The Osmonds",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ike and Tina",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "The Carpenters",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Simon and Garfunkle",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Captain and Tennille",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -259,10 +221,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "At What Age Is It OK For A Child To Walk Home From School By Themselves?"
     },
     {
@@ -288,10 +246,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Name That’s Common For Cats To Have."
     },
     {
@@ -317,10 +271,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Most People Enjoy Watching Grow"
     },
     {
@@ -350,10 +300,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A College Major That Begins With The Letter “A.”"
     }
   ],

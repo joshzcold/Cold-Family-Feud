@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Romance Novels",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Long Hair",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Commercials",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Handsome",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Model",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bare Chest",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Computer",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Cell Phone",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "TV",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Camera",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "DVD Player",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Car",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Ford",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Chevrolet",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Chrysler",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dodge",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "GM",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Toyota",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Jeep",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Coffee shop",
-          "pnt": 71,
-          "trig": false
+          "pnt": 71
         },
         {
           "ans": "Energy Drink",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Soda",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tea",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Planae",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Fire",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Anger/Temper",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Body",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Address",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Size of family",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "How noisy",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Pets",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Evening activities",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Car you drive",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a man might try to keep covered during a first date."
     },
     {
@@ -264,10 +226,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Do At A Bowling Ally, But It’s Not The Reason Most People Go"
     },
     {
@@ -289,10 +247,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name Something You Put in Your Mouth But don’t Swallow"
     },
     {
@@ -314,10 +268,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which subject would most elementary school kids say is their favorite?"
     }
   ],

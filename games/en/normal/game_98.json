@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Leg Room",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Seats",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pillows/Blankets",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Drinks",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Too Much Food",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Spicy Food",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Spoiled Food",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pizza",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Greasy Foods",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stress",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Shop",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Date",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Model/Get A Job",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Party",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Go To The Beach",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cruise In Corvette",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Rabbit",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Bird",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Tiger",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Monkey",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Leopard",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Zebra",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Tiger",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cheetah",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Dress Code",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Leaving Early",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Being Late",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Workload",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sauce You Wouldn’t Put On Ice Cream."
     },
     {
@@ -247,10 +214,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The First Thing You Would Do If You Were Stranded On A Deserted Island."
     },
     {
@@ -280,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Uses Lots Of Balls"
     },
     {
@@ -309,10 +268,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Devoted Cheerleader Would Know About Her School"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Rice Krispies",
-          "pnt": 71,
-          "trig": false
+          "pnt": 71
         },
         {
           "ans": "Chex",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cheerios",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Froot Loops",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Corn Flakes",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Quaker Oats",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Onions",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Mushrooms",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Chicken",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Shrimp",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Play Sports",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Be Like Daddy",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shave",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Date",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Be A Firefighter",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "People Hanging Up",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Rude People",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Getting Rejected",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Making Phone Calls",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Asking Questions",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Boring",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": 40,
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": 30,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 35,
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": 45,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": 50,
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Price",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Pool",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Location",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Star Rating",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Includes Breakfast",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Clean",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Vacancy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Would Be Harder To Do If You Lived In Los Angeles"
     },
     {
@@ -256,10 +218,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Look Through To See Things More Closely"
     },
     {
@@ -277,10 +235,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Read Everyday"
     },
     {
@@ -314,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Guests Do At A Wedding Reception."
     }
   ],

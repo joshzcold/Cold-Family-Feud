@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Didn't Realise ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Didn't See The Sign ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Late For Work ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Going To Hospital ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Estate ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Secret ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "News ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Travel ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Insurance ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Watch TV",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Eat",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sleep",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Party",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Play Video Games",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Text",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Shower",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Make Coffee",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Eat Breakfast",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Watch TV",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Read",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pray",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Use The Bathroom",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Shoes",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Socks",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Ball",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Newspaper",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Instruments",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Announcer’s Voice",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sad Songs",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Commercials",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "In A Spelling Bee, What Might A Kid Ask About A Word Before Spelling It?"
     },
     {
@@ -240,10 +206,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Worst Part About The Lavatories On Planes"
     },
     {
@@ -269,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Activity You Might Do To Prove You Aren’t Afraid Of Heights"
     },
     {
@@ -294,10 +252,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Professional That Charges You For Advice."
     }
   ],

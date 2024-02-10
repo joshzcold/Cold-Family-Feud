@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Sprite",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Pepsi",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Root Beer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "7 Up",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Dr Pepper",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Mountain Dew",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Interupt",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Look Away",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Leave The Room",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Yawn",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Use Cell Phone",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Not Make Eye Contact",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Actor",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Model",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Dancer",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Firefighter",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "President",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Free Drink",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Job",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pass On Speeding Ticket",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Phone Number",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Car",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Jewelry",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Penguin",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Human",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Bird",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Wolf",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Whale",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Read",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Watch TV",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Listen To Radio",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Drink Coffee",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drink Juice",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Talk",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -240,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Your Kitchen That You’d Use As A Musical Instrument."
     },
     {
@@ -273,10 +234,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who Wears A White Coat"
     },
     {
@@ -310,10 +267,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Younger Brother Wants To Do"
     },
     {
@@ -339,10 +292,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Be On A Toothpick Inside A Fancy Drink"
     }
   ],

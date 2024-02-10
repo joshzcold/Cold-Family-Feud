@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Calculator",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Pencil",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Computer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ruler",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Compass",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "paper",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Books",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Shower",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Fragrance",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Comb",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Toothpaste/Brush",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Deodorant",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Mirror",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Razor",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Somebody At Door ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Need The Loo ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Dinner Ready ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Call Waiting ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Going Out ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Coke ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Soft Drink ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Beer ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Water ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Milk ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -148,38 +124,31 @@
       "answers": [
         {
           "ans": "Pool",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Poker",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Ping Pong",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Chess",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Foosball",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Monopoly",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Roulette",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -189,28 +158,23 @@
       "answers": [
         {
           "ans": "Sore Throat/Sick",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Can’t Sing",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Lost Voice",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Too Much Too Drink",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Stage Fright",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -241,10 +205,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Feature Of Most Parade That Scare Children"
     },
     {
@@ -270,10 +230,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Many Sick Days Does The Average Person Have A Year"
     },
     {
@@ -303,10 +259,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Complaint A Customer Might Have About A Bar They’re At."
     },
     {
@@ -332,10 +284,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Has Layers"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Marge/Margie",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Maggie",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Peggy/Peg",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Meg",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Jason",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Dracula",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Ghost",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Witch",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Frankenstein",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Freddy Krueger",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Zombie",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "United States",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Mexico",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Australia",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bahamas",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "France",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Spain",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Brazil",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Each Other",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "TV",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Worry",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -138,18 +116,15 @@
       "answers": [
         {
           "ans": "Music ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Radio ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Eachother ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Striking Out",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Fetting Hurt",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Getting Hit By A Ball",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Drug Testing",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Losing A Game",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dropping Ball",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Animals Had Yearly Check-Ups, Name One That Might Be Told To Lose Some Weight."
     },
     {
@@ -253,10 +218,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Girl Wants As A Gift That Most Guys Would Never Want."
     },
     {
@@ -282,10 +243,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Celebrity Do That Causes People To Criticize Him?"
     },
     {
@@ -307,10 +264,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Climb A Tree To Get"
     }
   ],

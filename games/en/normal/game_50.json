@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Birthday",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Batchelor",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Pool",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Holiday",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bridal",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Political",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Slumber",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Green Eggs And Ham",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Rhymes",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cat In The Hat",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Not A Doctor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Gloves",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Magazine",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Band Aids",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pen",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "medicine",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Spider ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "A Baby ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Snake ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Insects ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Deer",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Cow",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Moose",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Rat",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Doctors",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Beds",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Nurses",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Patients",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Needles",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Drugs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Babies",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Keep In Your Pocket Or Purse “Just In Case.”"
     },
     {
@@ -253,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Your Likely To Find At A Fall Harvest Fair"
     },
     {
@@ -278,10 +239,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of A Doll’s Body That Might Be Movable"
     },
     {
@@ -303,10 +260,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do When They Are Happy"
     }
   ],

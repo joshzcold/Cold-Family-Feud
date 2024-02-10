@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Leaves",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Nuts",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Flowers",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Acorn",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Money",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pine Cones",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Mother",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Priest",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "God",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Father",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Husband",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Friend",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wife",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Paint",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Marker",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Makeup",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Glue",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Candy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dirt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Rich",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Wealthy",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Millionaire",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Loaded",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Filthy Rich",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "High Roller",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Billionaire",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -158,23 +132,19 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": 5,
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": 8,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 9,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -184,18 +154,15 @@
       "answers": [
         {
           "ans": "Dog ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cat ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Rabbit ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Game Adults Play At A BBQ Party"
     },
     {
@@ -251,10 +214,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Santa Might Bring With Him To Keep From Getting Lost On Christmas Eve."
     },
     {
@@ -280,10 +239,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell me something that makes you mad when you’re watching TV."
     },
     {
@@ -309,10 +264,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Member Of The Celebrity Elite Who Is Famous For No Apparent Reason."
     }
   ],

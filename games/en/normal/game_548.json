@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Alcohol",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Flowers",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Chips",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Yourself",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Hats",
-          "pnt": 74,
-          "trig": false
+          "pnt": 74
         },
         {
           "ans": "Dress",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tux",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "New Clothes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Tiara",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Jewlery",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Glitter",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Tuxedo ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Fancy Dress ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Jewellery ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Wedding Dress ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Suit ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Dry Off ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Go Out ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Get Dressed ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Turn It Off ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Vermont",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "New York",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Maine",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "New Hampshire",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Michigan",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Ohio",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Cutlery ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Coin ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Jewellery ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Ring ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Teapot ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Reason Why A Person Might Be Awake At 3AM."
     },
     {
@@ -253,10 +218,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something The Sign Outside A Hotel Might Tell You"
     },
     {
@@ -286,10 +247,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something that Gets Heated"
     },
     {
@@ -319,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With David Letterman"
     }
   ],

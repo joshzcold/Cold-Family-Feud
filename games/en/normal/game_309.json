@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Spin The Bottle",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Twister",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Quarters",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cards",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Postcards",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Magazine",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Candy",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Newspaper",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Books",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Food",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Greeting cards",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Birds ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Alarm ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Rooster ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Dogs ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Radio ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Skittles",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "M&M",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Lifesavers",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Starburst",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Now & Laters",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Taffy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Jolly Ranchers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Eating Sweets",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Watch Shows",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Shop",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Walk Around",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Watch Parade",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Take Pictures/Video",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Disney Characters",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Oyster ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Crab ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Lobster ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Caviar ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Prawns ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Sitting Next To You At A Bar Might Do To Annoy You."
     },
     {
@@ -277,10 +238,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name A Way You Might Be Able to Tell Your Baby Is really An Alien"
     },
     {
@@ -306,10 +263,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Occupation Where You Wouldn’t Wear High Heels"
     },
     {
@@ -343,10 +296,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Students Ran Schools,Name Some Things They Would Probably Get Rid Of"
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Thanksgiving",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Sales",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Turkey",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Christmas Decoration",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Vacation",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cooler Weather",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Family Gets Together",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "PEOPLE",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "BARTENDER",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "LIGHTS",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "DRINKS",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "DJ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "BAND",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "DANCERS",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Bedspread",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Curtains",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Couch",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Art",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Carpet",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -117,18 +98,15 @@
       "answers": [
         {
           "ans": "Cry ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Laugh ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "See It Again ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Lights ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Glow Worms ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Candles ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Stars ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Firefly ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Hair",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Eyes",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Skin",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Vehicle That Makes Frequent Stops"
     },
     {
@@ -233,10 +198,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Put On A Postcard"
     },
     {
@@ -270,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Supermarket Keeps Refrigerated Or Frozen."
     },
     {
@@ -303,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Vehicle That Has A Loud Engine"
     }
   ],

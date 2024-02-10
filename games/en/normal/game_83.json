@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Car ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "House / Mansion ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Boat ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Money ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Football Club ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Shop ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Giraffe ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Building ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Tree ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Basketball Player ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Tower ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Raft",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Inner Tube",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Beach Ball",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Life Jacket",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Water Wings",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Noodle",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "House ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Roof ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Street ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bowling Alley ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Stream ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Hunk",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Sexy",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Stud",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Cutie",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hottie",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Make Up",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Feminine Products",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Perfume",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Brush",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Lotion",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Mirror",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Lives On Both Land And Water"
     },
     {
@@ -255,10 +218,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Teens Do To Butter Parents Before Asking A Favor"
     },
     {
@@ -284,10 +243,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Look For Rental Car Vs Regular Car"
     },
     {
@@ -313,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Women: Name Something You Like To See A man Do Because It Expresses His gentle Side."
     }
   ],

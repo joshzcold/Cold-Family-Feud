@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Hat",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Jewelry",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Flower",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Nametag",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Weapon",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Door Knob",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Body",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Window",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Movie",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Book",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Family",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Drugs/Addiction",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Romance",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "losing weight",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Sandwich",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Fruit",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cookies",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Juice Box",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Milk",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Candy Bar",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Thermos",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Wreck It",
-          "pnt": 84,
-          "trig": false
+          "pnt": 84
         },
         {
           "ans": "Make A Mess",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Smoke In It",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Use Up The Gas",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "National Enquirer",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "People",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Star",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Time",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cosmopolitan",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Seventeen",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "TV Guide",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Can See Teachers Relaxing"
     },
     {
@@ -242,10 +206,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place You Might Find A Diamond"
     },
     {
@@ -275,10 +235,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Some People Do While Playing Cards That Would Annoy Everyone Else At The Table"
     },
     {
@@ -308,10 +264,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous James Bond Theme"
     }
   ],

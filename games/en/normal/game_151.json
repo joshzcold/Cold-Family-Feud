@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Carries a gun",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Lots of money",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Italian accent",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Black clothes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Secretive",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Weather",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Sports Game",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Game Show",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Crime/Mystery Show",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Soap Opera",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Crowne",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Beanie",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Baseball Cap",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cowboy",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Helmet",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Snake",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Skunk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Frog",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Mouse",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Scuba",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Luau",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Scuba Diver",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Lay On Beach",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Swim",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Snorkel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Hula",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Swim",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Play Games",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Arts & Crafts",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Sing Songs",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Hike",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Go Fishing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Gift That Works Well As A Stocking Stuffer"
     },
     {
@@ -255,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "For What Specific Reason Might You Avoid Mistletoe?"
     },
     {
@@ -280,10 +239,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of beam You Wouldn’t Want To Balance On."
     },
     {
@@ -309,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Website Would You Go To First If You Want To Find Out More About Something"
     }
   ],

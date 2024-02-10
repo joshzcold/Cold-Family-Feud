@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Note Cards",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Chart",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Pointer",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Powerpoint",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Projector",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Jacket ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Cap ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bag ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Book ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Kitchen",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Bed",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Pants",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Picnic",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Spaghetti ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Fettuccini ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Ravioli ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Lasagne ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shells ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -118,33 +100,27 @@
       "answers": [
         {
           "ans": "Drive Fast",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Shoot",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Fight",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Save The World",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Kiss Well",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Use Gadgets",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -154,18 +130,15 @@
       "answers": [
         {
           "ans": "Make Up",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Perfume",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Jewelry",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -196,10 +169,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You’d Be Mortified If Your Cell Phone Went Off."
     },
     {
@@ -225,10 +194,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Chain Store That’s Put A Lot Of Mom And Pop Stores Out Of Business"
     },
     {
@@ -258,10 +223,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Pizza Delivery Person Hates"
     },
     {
@@ -283,10 +244,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Can Be Inconvenient To Do While Camping."
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Lawyer",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Model",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sales Person",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Banker",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "CEO",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Teacher",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Cold",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Dark",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cement Floors",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Damp",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Creatures Live There",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Wax",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Vacuum",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Detailing",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dry Car",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Polish",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Ice Cream",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Jell O",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cookies",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Brownies",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pie",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Cupcakes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Donuts",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Come Untied",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Length",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Knots",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Too Tight",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Less Caffeine",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Taste",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Healthier",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Have A Cold",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "They’re English",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place In Your Car That You Are Likely To Find Something That’s Gone Missing"
     },
     {
@@ -242,10 +206,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Pose In Front Of For Their Christmas Photos."
     },
     {
@@ -271,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your blind date walked In And You Didn’t Feel A Spark, What Would YOu Do?"
     },
     {
@@ -296,10 +252,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Smaller In Europe Than In The US."
     }
   ],

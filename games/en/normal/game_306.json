@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Halt",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Quit",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "No",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Pause",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Freeze",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Soap ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Shampoo ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Curtain ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "A Person ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Bark ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Whine / Whimper ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Lick You ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Growl ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Wag Tail ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Plane ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Bullet ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Car ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Train ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rocket ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Groom It",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Walk It",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Feed It",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bathe It",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Decorate",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Buy Gifts",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Sing Carols",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Put Up Tree",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Listen To Music",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -205,10 +177,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal You Might Find At The Beach"
     },
     {
@@ -242,10 +210,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Month With The Nicest Weather"
     },
     {
@@ -271,10 +235,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place You’d Get A Dirty Look For Falling Asleep"
     },
     {
@@ -300,10 +260,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If A Woman Had A Mid-Life Crisis, What Might She Do?"
     }
   ],

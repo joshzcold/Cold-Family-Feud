@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Hair",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Plastic",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Rubber",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Dinner",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Young People",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Medicine/Health",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Dentures",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Getting Old",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Fixed Income",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Aches and Pains",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "He’s Plump",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Is Jolly",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Has A Beard",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Wears A Red Suit",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "He’s Real",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Brings Presents",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Lives At North Pole",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Breast feeding",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Changing diapers",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Feeding with a bottle",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Holding the baby",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -133,18 +112,15 @@
       "answers": [
         {
           "ans": "Snake ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Spider ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Bat ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Give Money",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Donate Canned Goods",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Serve Meals",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Donate Toys",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Invite To Dinner",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food People Associate With The South"
     },
     {
@@ -243,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Holiday Song With A Fictional Character."
     },
     {
@@ -268,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Game Show Host Has To Do, Even On A Day When He Doesn’t Feel Like It."
     },
     {
@@ -305,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Can Make You Look Older Than Your Age."
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Valentines Day",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Her Birthday",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Christmas",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "At A Wedding",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Anniversary",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Vacation",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Road",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Other Cars",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "speed Limit",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Traffic Signs",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Gas guage",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pedestrians",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Fake Hair",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Marker/Pen",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Plastic",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Kool Aid",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ketchup",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Cricket",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bird",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Chihuahua",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cat",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Frog",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Fishing",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Sleeping",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Reading",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Hiking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Relaxing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Hunting",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Eating",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,23 +154,19 @@
       "answers": [
         {
           "ans": "Apple",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Toothbrush/Paste",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Pennies",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Raisins",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Parents Should Do To Be Sure That Their Kids Have A Safe Halloween."
     },
     {
@@ -252,10 +214,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Used To Take Up Shelf Space In Your House, But Can Now Be Stored Electronically."
     },
     {
@@ -285,10 +243,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Like To Throw At Each Other."
     },
     {
@@ -310,10 +264,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides A Phone Number, Name A Set Of Numbers Most People Remember"
     }
   ],

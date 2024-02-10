@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "TV ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Newspaper ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Magazine ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Billboard ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Internet ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Somersault ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Cartwheel ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Walk On Hands ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 1,
@@ -56,38 +48,31 @@
       "answers": [
         {
           "ans": "Chocolate",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Cake",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Candy",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Ice Cream",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pizza",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bread",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Chips",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Turkey",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Ham",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Cookies",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Candy",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fruitcake",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Saddle ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Rider ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Mane ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Hair ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tail ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Super Bowl",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Rose Bowl",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Sugar Bowl",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cotton Bowl",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Orange Bowl",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Peach Bowl",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Look Bad When You Have A Cold"
     },
     {
@@ -245,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Cotton, Name A Material Many Clothes Are Made Out Of."
     },
     {
@@ -278,10 +239,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone The Groom Might Not Want At His Bachelor Party"
     },
     {
@@ -303,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation In Which You’d Need To Wear Comfortable Shoes."
     }
   ],

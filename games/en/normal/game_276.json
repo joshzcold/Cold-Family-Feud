@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Underwear",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Socks",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cologne",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tools",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Groceries",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Furniture",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Food",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Decoration",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Family",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Appliances",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Speak",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Dress",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sit",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Hair",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Pageant Walk",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Winning Smile",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Make Up Application",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pageant Wave",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Hair Styling",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Singing",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Correct Posture",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Swim",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Breathe/Blow Hole",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Jump High",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Catch Fish",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Balance Ball ON Nose",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Speak Dolphin",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Hats",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Shoes",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Glasses",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sweater",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Vegetable That They Make Baby Food Out Of."
     },
     {
@@ -249,10 +214,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Child Would Say Is Too Short."
     },
     {
@@ -282,10 +243,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phrase That Has The Word Home In It"
     },
     {
@@ -311,10 +268,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Talk Show You Might Go On To Tell About Your Disaster Wedding"
     }
   ],

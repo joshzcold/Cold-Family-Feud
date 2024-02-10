@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Weather ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Health ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Prices ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Partners ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Work ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Traffic ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Gray Hair",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Wrinkles",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Fat",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bald",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,18 +56,15 @@
       "answers": [
         {
           "ans": "Birthday ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Christmas ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Wedding ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 1,
@@ -87,38 +74,31 @@
       "answers": [
         {
           "ans": "Expectations",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Mom",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Fiancee",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dancer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Boss",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dad",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Minister",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,18 +108,15 @@
       "answers": [
         {
           "ans": "Park ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Forest ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Race Track ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Loud Sounds",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Played Too Much",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Too Long",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Catchy Song",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Too Boring",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Dentists Put In Your Mouth"
     },
     {
@@ -230,10 +198,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Happens To The Furniture Of A Person Who Owns Pets."
     },
     {
@@ -255,10 +219,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Activity Don’t You Start Doing Until The Water Gets Warm?"
     },
     {
@@ -280,10 +240,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food New York Is Famous For."
     }
   ],

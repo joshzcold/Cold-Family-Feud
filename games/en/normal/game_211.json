@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Water",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Hot Chocolate",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Juice",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tea",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Dragon",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Ogre",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Witch",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Monster",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Beast",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Trol",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Trampoline ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Bus ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bed ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Train ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Scales ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "The Wife ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Violent Crime",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Explosion/ Fire",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Kidnapping",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Car Crash/ Chase",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fight",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Tree Or Bush ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Under The Bed ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "In The Garden ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Under House ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Under Car ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -169,18 +142,15 @@
       "answers": [
         {
           "ans": "Door ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Window ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Book ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Young Children Memorize"
     },
     {
@@ -244,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Instead Of “Courage” Or “A Brain”, What Quality Would You Ask The Wizard Of Oz For?"
     },
     {
@@ -273,10 +235,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Use To Decorate Your Face For Halloween"
     },
     {
@@ -306,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something About Which People Always Want To Give You Their Opinion"
     }
   ],

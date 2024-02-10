@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Bells ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Glenfiddich ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Grants ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Teachers ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Famous Grouse ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Whyte & Mackay ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Price ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Location ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Number Of Bedrooms ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Garage (Y/N) ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Garden (Y/N) ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Leasehold / Freehold ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Bottle ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Jar ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Milk ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Boiled Egg ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Partner ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Toothpaste ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Check",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Photo",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Contract",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shirt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Book",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Ball",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Petition",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -153,33 +128,27 @@
       "answers": [
         {
           "ans": "Birds And The Bees",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Drinking",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Relationships",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Money",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Smoking",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Politics",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -189,33 +158,27 @@
       "answers": [
         {
           "ans": "Dress",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Photos",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Cake Topper",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Veil/Bridal Accessry",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Invitations",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Video Tape",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -254,10 +217,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Tv Show Past Or Present That Has A Womanâ€™S Name In The Title"
     },
     {
@@ -279,10 +238,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do In the Shower"
     },
     {
@@ -312,10 +267,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your Local Gym Was Run By 5-Year-Olds, What Classes Would You Take Instead Of Pilates?"
     },
     {
@@ -341,10 +292,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do People Miss About Their Youth?"
     }
   ],

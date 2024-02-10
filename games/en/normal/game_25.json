@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Ball ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Birds ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Waves ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Crabs ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Each Other ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Sneaking Out",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Shoplifting",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Skipping School",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Smoking/Drinking",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Making A Mess",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "No Cash/Credit",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Using Mail",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "To Keep Records",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Post Dated",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Halloween",
-          "pnt": 64,
-          "trig": false
+          "pnt": 64
         },
         {
           "ans": "Easter",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Christmas",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Birthday",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Relationship",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Marriage",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Money",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Ex Girlfriends",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Maternity",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Television",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Couch",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Refrigerator",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Microwave",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Table",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bed",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do With Their Index Fingers"
     },
     {
@@ -236,10 +202,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Surgeon Keeps Close When He Operates"
     },
     {
@@ -269,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See Or Hear That Reminds You Of An Ex."
     },
     {
@@ -294,10 +252,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do When Your Computer Freezes Up."
     }
   ],

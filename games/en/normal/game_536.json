@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Sponge ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Soap ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Washcloth ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Dishcloth ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hose ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "2 Mins ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "3 Mins ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "5 Mins ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Airport",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Train",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bar",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fire Station",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Highway",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dog",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Illness",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Ball",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bugs/ Butterflies",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Fish",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Frogs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Name",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Eyes",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hair",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Shirt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -149,18 +126,15 @@
       "answers": [
         {
           "ans": "I Love You",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "I Am Sorry",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "You Are Right",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do On Christmas And Your Birthday"
     },
     {
@@ -216,10 +186,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Rent"
     },
     {
@@ -245,10 +211,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Activity That Some People Are Told To Do More Of, And Others Are Told To Do Less."
     },
     {
@@ -278,10 +240,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific You Might Wear To Bed If You’re Really Cold"
     }
   ],

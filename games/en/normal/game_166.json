@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Water",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Yogurt",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Gum",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Milk",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tea",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Medicine",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Soda",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Shake It",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Walk",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hit It",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rub It",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Jump",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Stomp It",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,18 +68,15 @@
       "answers": [
         {
           "ans": "Toast ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Pizza ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sunday Roast ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Robber ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Burglar ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Tea Leaf ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Shoplifter ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Skunk",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Garlic",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Onions",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Poop",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Roses",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Gasoline",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Body Odor",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Haunted",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Termites",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Mold",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Price Went Up",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Leaky Roof",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Furniture People Need Help Moving"
     },
     {
@@ -258,10 +222,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Wives: If Your Husband Were The Incredible Hulk, Tell Me What Would Turn Him Into A Monster."
     },
     {
@@ -283,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell me a boy’s name that starts with “Ch”."
     },
     {
@@ -316,10 +272,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a New Year’s TV host."
     }
   ],

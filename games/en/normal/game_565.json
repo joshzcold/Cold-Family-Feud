@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Hats",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Drinks",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Binoculars",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cushion",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Money",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Camera",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Jersey",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Adds Shine",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Cleans It",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Makes It Grow faster",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Increases Volume",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Smooths/Softens It",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Makes It Healthier",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Turkey",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Stuffing",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Mashed Potatoes",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Pie",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cranberry Sauce",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Elvis",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Mahalia Jackson",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Amy Grant",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Aretha Franklin",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Yolanda Adams",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Kirk Franklin",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bill Gaither",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Oprah",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "I Love Lucy",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Ally Mcbeal",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Roseanne",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Rosie O’Donnell",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Murphy Brown",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Will & Grace",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -194,28 +162,23 @@
       "answers": [
         {
           "ans": "Schools",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Yard",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bedrooms/Bathrooms",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Neighborhood/kids",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Near Playground",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -246,10 +209,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Youngest Age A Person Should Get Married"
     },
     {
@@ -283,10 +242,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Do If You Were A Supermodel"
     },
     {
@@ -316,10 +271,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where People Like To Listen To The Radio"
     },
     {
@@ -353,10 +304,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Use Bricks To Build."
     }
   ],

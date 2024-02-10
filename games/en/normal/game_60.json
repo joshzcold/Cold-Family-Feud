@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Caps",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Baseball",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "T Shirts",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Free Tickets",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Baseball Cards",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stickers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Autographs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Tie A Knot",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Build A Fire",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Camping",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Swim",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Take An Oath",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pitch A Tent",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Wilderness Survival",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,23 +72,19 @@
       "answers": [
         {
           "ans": "Carrot ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Potato ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Turnip ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Swede ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Drink",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Dance",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Eat",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "WatchTV",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Introduce Yourself",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Listen To Music",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Solar Panels",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Insulation",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Light Bulbs",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Windows",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Gardner ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Street Sweeper ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lollipop Person ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Farmer ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Fisherman ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job That People Did More 100 Years Ago Than Today."
     },
     {
@@ -243,10 +206,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Clean With Soap"
     },
     {
@@ -272,10 +231,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Stop To Do When Driving Across The Country."
     },
     {
@@ -301,10 +256,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A First-Time Parent Would Need To Do Before The Baby Was Born."
     }
   ],

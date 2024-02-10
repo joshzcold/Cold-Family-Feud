@@ -1,10 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Title from "../components/title";
-import Round from "../components/round";
-import TeamName from "../components/team-name.js";
-import QuestionBoard from "../components/question-board.js";
-import Final from "../components/final";
+import Title from "components/title";
+import Round from "components/round";
+import TeamName from "components/team-name.js";
+import QuestionBoard from "components/question-board.js";
+import Final from "components/final";
 import "tailwindcss/tailwind.css";
 import cookieCutter from "cookie-cutter";
 

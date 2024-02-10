@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Snot",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Milk",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Water",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Soda",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Breath",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Smile",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Say Cheese",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Move Left/Right",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Move Closer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Grilled Cheese",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Macaroni",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Cheeseburger",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -87,38 +74,31 @@
       "answers": [
         {
           "ans": "Angelina Jolie",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Madonna",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Rosie O’Donnell",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Will Smith",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Oprah Winfrey",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Brad Pitt",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Jerry Lewis",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Bedroom",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bed",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Toys",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Food",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bathroom",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Car",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "PLAID",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "FLORAL",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "ANIMAL PRINTS",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "STRIPES",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "POLKA DOTS",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "PAISLEY",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You’d Stay Inside On A Saturday."
     },
     {
@@ -251,10 +214,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Quality That’s Important In A Friend, and Even More Important In A Spouse."
     },
     {
@@ -272,10 +231,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Might Scrape Off Bottom Shoes"
     },
     {
@@ -301,10 +256,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With A Scarecrow"
     }
   ],

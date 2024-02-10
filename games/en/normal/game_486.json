@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Football/Baseball",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Snowballs",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Stones",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tantrum",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Spitballs",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Work/School",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Politics",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Weather",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Past Relationships",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Kids",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Money",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Easter",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Mothers Day",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Wedding",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Graduation",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Cry ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Dirty Nappy ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Burp ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Dribble ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sleep ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Alcohol",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Dessert",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Salad",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Chips",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Surf",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Swim",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sun Bathe",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wear Bathing Suits",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hula Dance",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Skinny Dip",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Us City On The Ocean."
     },
     {
@@ -249,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "With Eyes Closed, Name Something About A Man’s Mouth That A Woman Kissing Him Could Use To Identify Him."
     },
     {
@@ -278,10 +239,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Game Show Host And A Good Teacher Have In Common"
     },
     {
@@ -311,10 +268,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someplace People Go To Help Them Think."
     }
   ],

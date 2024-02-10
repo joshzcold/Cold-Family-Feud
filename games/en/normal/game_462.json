@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Make conversation",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Ask Questions",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Smile",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Introduce Teams",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sense of Humor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Crowded",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Stinky",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bumpy",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Noise",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Takes Longer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hot",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bus Fare",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Stethoscope",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Clipboard",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Thermometer",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Gloves",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pen/Pencil",
-          "pnt": 1,
-          "trig": false
+          "pnt": 1
         },
         {
           "ans": "Beeper",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Jingle Bells",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Silent Night",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Silver Bells",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "I’ll Be Home For Xmas",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Santa Coming To Town",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Beginning To Look A",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Adeste Fideles",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -153,23 +128,19 @@
       "answers": [
         {
           "ans": "Lower Taxes",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "World Peace",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Create Jobs",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Healthcare",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Paperwork",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "People",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Standing/Sitting",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Boss",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Talking",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Computer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something That Is Plugged Into An Outlet In A Hotel Room."
     },
     {
@@ -265,10 +226,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Should Switch Off Before Going To Bed"
     },
     {
@@ -302,10 +259,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Court."
     },
     {
@@ -339,10 +292,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you probably would see in New York’s Central Park."
     }
   ],

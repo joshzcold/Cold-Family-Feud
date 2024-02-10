@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bank ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Shop ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Office ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Car ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Factory ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Chicken",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Steak",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Fish",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pasta",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Mouse ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Cat ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Dog ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 1,
@@ -82,28 +70,23 @@
       "answers": [
         {
           "ans": "Doll/ Teddy Bear",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Diary",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pictures",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Security Blanket",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Piece Of Jewelry",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -113,28 +96,23 @@
       "answers": [
         {
           "ans": "Water",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Fish",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Hooks",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Boats",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Worms",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -144,33 +122,27 @@
       "answers": [
         {
           "ans": "Whoopie Cushion",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Dog Doo Doo",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Hand Buzzer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Decks Of Cards",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Trick Gum",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Silly String",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -205,10 +177,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Make For Dinner When You’re Short On Time."
     },
     {
@@ -238,10 +206,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Bite, But Wouldn’t Eat."
     },
     {
@@ -267,10 +231,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Information You’d Include In A Personals Ad But Not On A Resume."
     },
     {
@@ -292,10 +252,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason A Policeman Might Say He Had A Bad Day On The Job."
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Love",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Family",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Friends",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Health",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Food",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Trees",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Ornaments",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Toys",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Lights",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Wrapping Paper",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Christmas Cards",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Marine Animals",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Treasure",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Shells",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Missing Person",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sunken Ship",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Laugh",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Interest",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Smile",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Name",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Accent",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Age",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Height",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Marital Status",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Weight",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Horoscope Sign",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Beaches",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Luau",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Volcanos",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hula Dancers",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Leis",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pineapples",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Islands",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "how Many Hours Of Sleep Does The average person Need In Oder To Wake Up Refreshed?"
     },
     {
@@ -268,10 +230,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Doesn’t Need To Be Refrigerated"
     },
     {
@@ -301,10 +259,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Mobster Might Have A Tattoo Of."
     },
     {
@@ -338,10 +292,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit People Put In Cakes"
     }
   ],

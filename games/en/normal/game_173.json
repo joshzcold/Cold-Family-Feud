@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Steep Drop",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Loop",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Incline",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Water",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Food",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Money",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bedding",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Toys",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "backpack",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bike",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Mud / Dirt ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Chocolate ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Food ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Ice Cream ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Stay Awake",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Like The Taste",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Energy",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Addicted",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -123,38 +104,31 @@
       "answers": [
         {
           "ans": "Night Before Christmas",
-          "pnt": 64,
-          "trig": false
+          "pnt": 64
         },
         {
           "ans": "Rudolph The Red Nose",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Grinch Stole Xmas",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "A Christmas Carol",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bible",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Frosty The Snow Man",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "A Christmas Carol",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Train ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Bus ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Theatre ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Parking ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lottery ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Football Match ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something A Dog Can’t Stand."
     },
     {
@@ -246,10 +210,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Cartton Character Who Is Always Getting Hurt"
     },
     {
@@ -279,10 +239,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Associate With The Colour Black"
     },
     {
@@ -308,10 +264,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport That Can Only Be Played Outdoors In The Winter?"
     }
   ],

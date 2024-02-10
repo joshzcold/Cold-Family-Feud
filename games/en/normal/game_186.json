@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Makeup",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Lotion",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cold Cream",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Mask",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Cotton Candy",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Hot dogs",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Pop Corn",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Peanuts",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -56,38 +48,31 @@
       "answers": [
         {
           "ans": "Weight",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Affairs",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Dating History",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Spending",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Real Age",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Passwords",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Diary",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Borrow Money",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Use Car",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Help Moving",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Babysitting",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Fire",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Get Robbed",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Break Something",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tornado",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "Cook/Baker",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Doctor",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Exotic Dancer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hair Stylist",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Actor/Model",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dishwasher",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Besides Food And Drinks That You Can Buy At Starbucks."
     },
     {
@@ -243,10 +210,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Popular Beauty Treatment"
     },
     {
@@ -268,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you might find in a suitcase that would tell you it belongs to Elton John."
     },
     {
@@ -305,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Items Are Most Commonly Found In A Restaurant’s Lost-And-Found Box?"
     }
   ],

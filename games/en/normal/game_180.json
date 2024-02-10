@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "All Caps",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Exclamation Points",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Swearing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Angry Face",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "No Response",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "No Bills",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "No Work",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "No Worries",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "More Fun/Playing",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "No Resposibility",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Tent",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Sleeping Bag",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Food",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Water",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Matches",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bug Spray",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Reading Material",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "TV",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Music",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Coffee",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Van",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "SUV",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Bus",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Station Wagon",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Playing In The Snow",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Christmas",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sled/ Ski",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Vacation",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -205,10 +177,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do Some Women Say About Men As A Reason For Why They Can’t Get Dates"
     },
     {
@@ -242,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Most Popular Halloween Masks"
     },
     {
@@ -267,10 +231,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Style Of Music That You’d Be Surprised To Hear That A Teenager Listened To."
     },
     {
@@ -300,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might An Actor Do To Cure Stage Fright?"
     }
   ],

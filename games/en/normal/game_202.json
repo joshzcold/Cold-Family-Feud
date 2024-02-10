@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Stereo",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "TV",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Headset",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Computer",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Plumber",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Salesperson",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Housekeeper",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Police",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Real Estate",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Electrician",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cable Installer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Pose",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Work Out",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Act",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dress Up",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fight",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Strut",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Contacts",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Perfume",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Lotion",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Deodorant",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Braces",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hairspray",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sunscreen",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Boss",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Police",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Parents",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "President",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Judge",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Doctor",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Wile E Coyote",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Daffy Duck",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Tom/Jerry",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Tasmanian Devil",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Itchy & Scratchy",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -228,10 +193,6 @@
           18
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Person Who Might Wear A Name Tag"
     },
     {
@@ -257,10 +218,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Clown Might Wear"
     },
     {
@@ -294,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Be Lying On A Teenager’s Floor"
     },
     {
@@ -327,10 +280,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Find In A Hotel Room"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Camping Ground ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Caravan Park ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Park ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Circus ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Beach ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Tired",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Sick",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bad Weather",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Going To Work/School",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Stayed Up Late",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "It’s Monday",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Party",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Steal",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Use My Clothes",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Make A Mess",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Smoke",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Santa Claus",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Roofer",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Chimney Sweep",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Burglar",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Electrician",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "A Fiddler",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Brad Pitt",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "George Clooney",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Tom Cruise",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Will Smith",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Denzel Washington",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Religous Activity",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sports",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Reading",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Family Meals",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Board Games",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Baking/Cooking",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Question That Twins Are Often Asked"
     },
     {
@@ -263,10 +226,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Many Days Does A Cold Last?"
     },
     {
@@ -292,10 +251,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Women: If You’re Underdressed For A Party, What Can You Put On Quickly To Look Dressed Up?"
     },
     {
@@ -325,10 +280,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Need Change In Order To Pay For."
     }
   ],

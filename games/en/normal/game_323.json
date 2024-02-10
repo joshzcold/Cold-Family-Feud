@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Pick",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Case",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Strings",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Amp",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sheet Music",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Water",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Food",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Air",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sleep",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Star / Actor ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Camera ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lights ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Director ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "People ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Compassion",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Honesty",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Good Sense Of Humor",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Beautiful Eyes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Lookin For My Ken",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Plastic",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Blonde Hair",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Measurements",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Spelling Errors",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "Kangaroos",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Ocean",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Koalas",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sand Beaches",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -192,10 +165,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Activity For Which You Might Use Walkie Talkies."
     },
     {
@@ -229,10 +198,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Pack For Your Stay At A Hotel Made Of Ice"
     },
     {
@@ -258,10 +223,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me What Kids Hate Most About School."
     },
     {
@@ -283,10 +244,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kids Movie that Makes Adults Cry To."
     }
   ],

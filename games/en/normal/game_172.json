@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Leave Store",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Carry No Money",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cash Not Credit",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Set A Budget",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Use Coupons",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Patient Name",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Directions",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Date/Expiration",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Drug/Ingredients",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Doctor/Contact",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Weather",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Distance",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Work",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Fighting",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": 6,
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": 7,
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": 8,
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": 5,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 10,
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": 9,
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": 2,
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Dating The Boss",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "On Time/ Attendance",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Blackmail",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sucking Up",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Angelina Jolie",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Jennifer Aniston",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Kim Kardashian",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Oprah",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name an object that some stomachs are compared to"
     },
     {
@@ -231,10 +198,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Movie About Baseball Players"
     },
     {
@@ -256,10 +219,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Hope A Restaurant Chef Didn’t Do Before Cooking Your Meal."
     },
     {
@@ -289,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sign You’re At A Really Cheap Birthday party"
     }
   ],

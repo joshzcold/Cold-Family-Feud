@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Advanced Math",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Science",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "History",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Art",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Foreign Language",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Cheque ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Money ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Letter ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Present ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Card ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Photos ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Baked Potato",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Salad",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Fries",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Wine",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Beer",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Steak Sauce",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Mushrooms",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Bran",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Banana",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Raisin",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Corn",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Chocolate Chip",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Apple",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Swimming/ Beach",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Warm Weather",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "More Sun",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Family Vacation",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Snow",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Skiing",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Resorts",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mountains",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Your Boyfriend Does That Makes You Question Why You’re Still With Him."
     },
     {
@@ -254,10 +218,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Activity Doen In Bare Feet"
     },
     {
@@ -283,10 +243,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Buy With Fav Sports Team Logo On It"
     },
     {
@@ -316,10 +272,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Pet That Makes A Good Holiday Gift"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Stinky Feet",
-          "pnt": 78,
-          "trig": false
+          "pnt": 78
         },
         {
           "ans": "Ugly Feet",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Returns",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Big Feet",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Backache",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Ice Cream",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Cheese",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Snow",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Butter",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Chocolate",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Plastic",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Heart",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Moving Truck",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "For Sale Sign",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Boxes",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Furniture",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Tornado",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Hurricane",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Twister",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Thunder",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Cyclone",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tsunami",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Typhoon",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Sing",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Tap Dance",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Baton Twirling",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Juggle",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Kiss",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Hold Hands",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Shake Hands",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Share a Drink",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Hug",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Man Would Wax Hair Off Part Of His Body."
     },
     {
@@ -246,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Public Place Where You Might Be Spotted Wearing Less Clothing Than Usual."
     },
     {
@@ -283,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Couple Often Does Once The Kids Have To Move Out"
     },
     {
@@ -312,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Insist On Doing By Themselves Even If It Takes A Long Time."
     }
   ],

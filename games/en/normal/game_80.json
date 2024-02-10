@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Snore",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Talk",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Snuggle",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Watch TV",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Toss And Turn",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Server",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Valet service",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hairdresser",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Taxi driver",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bartender",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bellhop",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Cook",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Clean",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Watch TV",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Change Diapers",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Use Computer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Use Cell Phone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Shop",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Football",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Golf",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Baseball",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hockey",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cheerleading",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Horseback Riding",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Gymnastics",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Weight",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Age",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Date Of Last Cycle",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "High Blood Pressure",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Are You Pregnant",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Service",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bugs",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sanitary Condition",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Price",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Food You Can Get At Almost Every Restaurant"
     },
     {
@@ -277,10 +238,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Need To Check For If You’re Buying A Dress Used."
     },
     {
@@ -306,10 +263,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Halloween Costume People Wear If They Don’t Want To Go All Out"
     },
     {
@@ -335,10 +288,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Husbands: If Your Wife Had A Personal Assistant, Name Something They’d Be Asked To Do."
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Candy Bar",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Potato Chips",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Potatoes",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Fast Food",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Ice Cream",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bread",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Sleigh",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Santa",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Reindeer",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Footsteps",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Paper",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Gum",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Food Wrappers",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pencil Shavings",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Blanket",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Teddy Bear",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Night Light",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Milk",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bedtime Story",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pacifier",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Directions",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cooking",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Fixing Cars",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Paying The Bills",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Men",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Hard Hats",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tractors",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Big Trucks",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bulldozer",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hammers",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Wood",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food Or Beverage You Wouldn’t Consume After It’d Been Sitting Out In Hot Weather"
     },
     {
@@ -249,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Set A Metal Detector Off At An Airport"
     },
     {
@@ -286,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific That Takes Longer To Dry, Than To Wash."
     },
     {
@@ -323,10 +280,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That You Wish Was Healthy So You Could Eat It Every Day."
     }
   ],

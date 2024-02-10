@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Tony",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Don",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Joey",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Frank",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Al",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Scarface",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Vinny",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Door",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Fan",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Outlet",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cookie Jar",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Food/Drink",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Magazine/Paper",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Souveniers",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Luggage Fee",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Parking",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Recycling",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Buy Hybrid Car",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Use Less Paper",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Plant Trees",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "TV",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Video Games",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Toys",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Books",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Snacks",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Music",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Your Highness",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Your Majesty",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Sir",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Madam",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your Cat Learned To Speak, Name Something It Would Ask For"
     },
     {
@@ -232,10 +198,6 @@
           24
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Is the Worst Part About Going to The Beach"
     },
     {
@@ -261,10 +223,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word For Someone Who Never Does Anything Wrong"
     },
     {
@@ -298,10 +256,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Tourist Attraction That Offers A Great View"
     }
   ],

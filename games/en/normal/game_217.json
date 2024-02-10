@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Medicine ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Cotton Wool ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Plasters ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Condoms ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tampons ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Cars",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Houses",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Spouses",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Affairs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Kids",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Affection ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Romance ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Care ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Friendship ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Presents ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Pumpkin",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Oven",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Pie Pan",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Spices",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Evaporated Milk",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "United",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "American",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Southwest",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Delta",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Float",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Hold Breath",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Doggy paddle",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Blow Bubbles",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Head Under Water",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kitchen Appliance That Is Hardest To Clean"
     },
     {
@@ -247,10 +214,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Needed Some Fast Cash, Name A Possession You Might Sell"
     },
     {
@@ -284,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Much Do You Expect To Spend If You’re Taking A Date Out For A Nice Dinner? Please Round To Nearest $10."
     },
     {
@@ -317,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit You Might Find In A Pastry."
     }
   ],

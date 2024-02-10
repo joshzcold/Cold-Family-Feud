@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Parents House",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Mall",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "School",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bar",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Church",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Friends",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Clothes",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Free Time",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Acne",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Music",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Emotions",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Bus",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Subway",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Taxi",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Car",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Train",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Walk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bike",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Lifeguard",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Tanning Salon",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Construction",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Gardener",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Scones ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Cereal ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Biscuits ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Oatmeal ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Puddings ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Clothes ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Dress ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Shoes ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Coat Hanger ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shirts ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Would Find An Usher."
     },
     {
@@ -250,10 +214,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Woman Brag That Her Husband Is Better At Than Most?"
     },
     {
@@ -287,10 +247,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Wear To A Restaurant That Only Served Cereal."
     },
     {
@@ -320,10 +276,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do In A Booth"
     }
   ],

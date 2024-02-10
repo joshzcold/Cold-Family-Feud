@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Garden Hose",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Rope",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Electrical Cord",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bike Chain",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Water ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Fire Engine ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Hose ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sand ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -56,38 +48,31 @@
       "answers": [
         {
           "ans": "Runny Nose",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Coughing",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Fever",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sneezing",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sore Throat",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Stuffy Head",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Chills",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Watching TV",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Sleeping",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Golfing",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Swimming",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Shopping",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Using A Computer",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Plumber",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Lawyer",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Doctor",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Electrician",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Mechanic",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Puzzle",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Earring",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Car",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Board Game",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pie",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cake",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find In A Person’s Shopping Cart If They’re Planning A Romantic Dinner"
     },
     {
@@ -259,10 +222,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who You’d Hate To Accidentally Forward A Personal Email To"
     },
     {
@@ -288,10 +247,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation Where You Have To Be Really Smart"
     },
     {
@@ -317,10 +272,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Are Afraid To Get From Their Teacher"
     }
   ],

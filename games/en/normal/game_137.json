@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Passing Gas",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Fight",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bad Food",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Phone Call",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Kids",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Getting Sick",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Paper",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Napkin",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Towels",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Shirts",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Underwear",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sweaters",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sheets",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,23 +68,19 @@
       "answers": [
         {
           "ans": "Pineapple ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Banana ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Melon ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Grapes ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Money ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Sex ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Youth ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "A Holiday ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "A Ride ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": 12,
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": 8,
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": 13,
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": 11,
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": 14,
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": 9,
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "Pillow",
-          "pnt": 72,
-          "trig": false
+          "pnt": 72
         },
         {
           "ans": "A Big Ball",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Towels",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Balloon",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you might do if you heard a burglar in your house."
     },
     {
@@ -267,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Women Put In Their Hair"
     },
     {
@@ -296,10 +255,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Find In Every Country"
     },
     {
@@ -333,10 +288,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Dyed Your Hair, What Color Would You Hate To Turn Out"
     }
   ],

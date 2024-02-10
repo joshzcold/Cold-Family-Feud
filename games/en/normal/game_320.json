@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Bird",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Monkey",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cat",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Lion",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cow",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Car ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "House ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Shop ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Land ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Boat ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Beer",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Car",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Hair Care Products",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Toy’s",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Make Up",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Surprise Party",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Pin Tail On Donkey",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Kidnapped",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pinata",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Hospital",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Restaurant",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Zoo",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Shopping Center",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bar",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Gas station",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Broom",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Box",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Pots/Pans",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Spoon",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Keys",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Phone",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Hygiene Product That You Hope Your Office Mate Uses Every Day."
     },
     {
@@ -255,10 +218,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See Tied to the Roof Of A Car"
     },
     {
@@ -284,10 +243,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you do when approached by a salesperson in a store"
     },
     {
@@ -313,10 +268,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Beverage That’s Not Sweet"
     }
   ],

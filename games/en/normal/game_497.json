@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Pursue A Career",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Get Married",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Have Kids",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Buy A House",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Finish College",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Museum/Gallery",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Zoo",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Gentleman’s Club",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "China Shop",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "VIOLIN",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "FLUTE",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "TRUMPET",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "TROMBONE",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "TUBA",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "CELLO",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "SAXOPHONE",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Dye it",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Curl it",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Wash it",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cut it",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Brush it",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Braid it",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Admissions",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Souvenirs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Toys",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Parking",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Lifeguard",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Gardening",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Theme Park Employees",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Ice Cream Vendor",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Construction",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Painter",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Every Cowboy Has"
     },
     {
@@ -255,10 +218,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Prisoner Might Daydream About Doing Once He Is Free"
     },
     {
@@ -284,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Paper You Were Nervous To Sign"
     },
     {
@@ -317,10 +272,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Spaghetti Sauce"
     }
   ],

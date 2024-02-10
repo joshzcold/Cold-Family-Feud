@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Sports",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dancing",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hiking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Watching Movies",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Tattoo",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Motorcycle",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Piercings",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Kid",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Criminal Record",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "His Own Place",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Balloon",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Popcorn",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Gun",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Gum",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tire",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Slow",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Waltz",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Jazz",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Country",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Beard",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Size",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Hearty Laugh",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stranger",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Deep Voice",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Hamburger",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "French Fries",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Chicken Nuggets",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Milkshake",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Filet O Fish",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Wear That Only Comes In One Size."
     },
     {
@@ -245,10 +210,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something On Everyone’s Driver’s License."
     },
     {
@@ -282,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Talking, Name Something Shouldn’t Do While Eating"
     },
     {
@@ -319,10 +276,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If you moved to Los Angeles, what would be the first thing youd have to get used to."
     }
   ],

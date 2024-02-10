@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Teachers",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "New Books",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "New Friends",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "New Clothes",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Bike",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Ball",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jumprope",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Trampoline",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Swimming Pool",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Digits",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bones",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Hairs",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Teeth",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -87,33 +74,27 @@
       "answers": [
         {
           "ans": "Job",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Money",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Love/Married",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Degree",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Driver’s License",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "House",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Breakfast/Meals",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "School/Work",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Rope",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Stones",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "Crying",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Diapers",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Expensive",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sleepless nights",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "College Tuition",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Kids Grow Up",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When Shopping, Name A Way You Can Tell If Someone Is A Sales Clerk"
     },
     {
@@ -231,10 +198,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When You Were A Little Kid, Where Did You Think Babies Came From."
     },
     {
@@ -260,10 +223,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Type Of Work Vehicle, That’s Often Seen As A children’s Toy"
     },
     {
@@ -281,10 +240,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With A Camel"
     }
   ],

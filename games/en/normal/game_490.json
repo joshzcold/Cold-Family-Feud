@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Chipmunk/Squirrel",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Pig",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Panda/Koala Bear",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Monkey",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bulldog",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Rabbit",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Hopscotch",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Hide N Seek",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Tag",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Twister",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Jump Rope",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Musical Chairs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dress Up",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "Great Expectations",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Great Dane",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Great Wall Of China",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Great Day",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Great Grandparents",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Great Buy",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Great Scott",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -122,28 +102,23 @@
       "answers": [
         {
           "ans": "Baby / Child ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Puppy ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Teddy Bear ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Kitten ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Dress ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Roadkill",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Garbage",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hitchhiker",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Trees",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sign",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "School",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Outside Of House",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "On A Car",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Side Of A Building",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Display Case",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "On A Uniform",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -245,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Act Of High School Rebellion That You Can’t Imagine A Kindergartener Doing."
     },
     {
@@ -274,10 +234,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Man Might Delay Proposing To His Girlfriend."
     },
     {
@@ -307,10 +263,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job That Ends With The Word “Guard.”"
     },
     {
@@ -336,10 +288,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Person That Wears Gloves"
     }
   ],

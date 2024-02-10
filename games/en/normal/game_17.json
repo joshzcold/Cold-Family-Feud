@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Dishes",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Clothes",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bathroom",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Floors",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Accident",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Traffic Jam",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Animal",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Flat Tire",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rain/Snow",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Police Activity",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Doctor’s Office",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Gym",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "A Fish",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bathroom",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Truck Stop",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Butcher/Deli",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Cold/Allergies",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Alcohol",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Exhaustion",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Sleeping On Back",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stress",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Bears",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Bugs",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Snakes",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Rain",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "BATS",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "OWLS",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "NIGHT CLUBS",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "BUGS",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "VAMPIRES",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "CRIMINAL BEHAVIOR",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "RACCOONS",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Common Gag Gift At An “Over The Hill” Birthday Party."
     },
     {
@@ -246,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Kind Of Pants Are Best To Wear When You’re Planning To Overeat At Thanksgiving?"
     },
     {
@@ -275,10 +235,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A way To Travel For Free"
     },
     {
@@ -312,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Male Rock Star Might Do To Make Himself Look More Rebellious."
     }
   ],

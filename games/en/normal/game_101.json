@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Overalls",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Cowboy Hat",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Blue Jeans",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Boots",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Suspenders",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Speech ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Play ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Song ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Wedding ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lines ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Boxing",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Football",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Hockey",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Wrestling",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Harry Potter",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Bible",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Chronicals Of Narnia",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Willy Wonka",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Lord Of The Rings",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Catcher In The Rye",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Blood",
-          "pnt": 72,
-          "trig": false
+          "pnt": 72
         },
         {
           "ans": "The Dark",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cross",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Neck Bites",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bats",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Mail",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Safe/Lock Box",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Dresser Drawers",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Jewelery Box",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Purse/Wallet",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Diary/Journal",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Narrow"
     },
     {
@@ -245,10 +210,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Need To Make Bread"
     },
     {
@@ -274,10 +235,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Expensive To Replace If You Lose It."
     },
     {
@@ -299,10 +256,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Both A Detective And A Camper Use."
     }
   ],

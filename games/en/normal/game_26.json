@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Pinball",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Foosball",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Air Hockey",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Basket Ball",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Skee Ball",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Crawl",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Walk",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Eating Junk",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cry",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Smile",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Kangaroo ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Koala ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Emu ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Ostrich ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Toucan ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Platypus ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Dogs",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Alligator",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Horse",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Frog",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Snake",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Goat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Snails",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Barking Dog",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "No One’s Home",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "No Soliciting Sign",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Run Down House",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Teacher ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Parent ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Professor ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Police ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Partner ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Millionaire Who Could Never Be Rich Enough For You To Want To Date Him"
     },
     {
@@ -250,10 +214,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Give A Word Frankenstein Would Use To Describe Himself In A Personal Ad."
     },
     {
@@ -287,10 +247,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "At A Spookhouse, What Do You Do To Make The Experience Less Scary?"
     },
     {
@@ -320,10 +276,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a feature that an executive’s fancy office must have"
     }
   ],

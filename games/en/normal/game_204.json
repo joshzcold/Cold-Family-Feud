@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Sushi ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Kimono ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Sake ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Cars ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bonsai ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Karate ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Drugs",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Evidence",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Weapon",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Suspect",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Home",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Movie Theatre",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Mall",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Library",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Museum",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Gym",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "VCR",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Typewriter",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Record Player",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Radio",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pader",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Home Telephone",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Light Bulbs",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Batteries",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Toilet Paper",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Groceries",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "School",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Church",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Library",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Singapore",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Court",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Can Be Folded"
     },
     {
@@ -249,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Heaviest Item You Buy At The Supermarket."
     },
     {
@@ -278,10 +239,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Part Of Your Body That The Doctor Might Say To Take Better Care Of"
     },
     {
@@ -311,10 +268,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place You'd Expect To See Animals"
     }
   ],

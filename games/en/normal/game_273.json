@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Partner",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Family",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Boss",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Teacher",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Birth",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Vacation",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Graduation",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Huggable",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Stuffed",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Smaller",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Softer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "No Teeth",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Safe",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Play On Phone",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Visit Snackbar",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Whisper",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Kiss",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Read",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Dumbo",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Tarzan",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Jungle Book",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Jumanji",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Operation:Dumbo Drop",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Car/Tires",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "TV/Electronics",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Ring/Jewelry",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Frige/Appliance",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Glass/Window",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -203,10 +173,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Have Trouble Opening"
     },
     {
@@ -232,10 +198,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport Where You Might See A Lot Of Athletes"
     },
     {
@@ -261,10 +223,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word That People Use To Avoid Swearing."
     },
     {
@@ -298,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "A Game You See People Playing In The Park"
     }
   ],

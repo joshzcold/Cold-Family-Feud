@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Cigarettes",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Rotten Fruit",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Spoiled Milk",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fish",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wet Dog",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Body Ordor",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Onion",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Staying Up Late",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Sneaking Out",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Eating Junk Food",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Drinking",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Mileage",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Gas",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "If There Is Damage",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "If It is Clean",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Jell O",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Soup",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Ice Cream",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pudding",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Apple Sauce",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Color",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "License Plate",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Dents",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bumper Stickers",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Tires",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dirty/Clean",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Toy Store",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Toy Maker",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Child Care",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Puppeteer",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Add Milk To"
     },
     {
@@ -236,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do With Pennies."
     },
     {
@@ -273,10 +235,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someplace You Might Expect To Find A Snake."
     },
     {
@@ -310,10 +268,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a Rowdy Star Who Might Benefit From Going To Charm School"
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Hair",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Jeans",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Carpet",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Jacket",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Shoes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dog",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Blanket",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Strike",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Spare",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Turkey",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Gutter Ball",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pin",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "10 Mins ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "8 Mins ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "20 Mins ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "6 Mins ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "15 Mins ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Sushi",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Caviar",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Escargot",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tofu",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Girls",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Toys",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Clothes",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "TV",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Sled",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Snow",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Hill",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Mittens",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Jacket",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Boots",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Married Women: Name Something You Wish Your Husband Would Be More Helpful With Around The House"
     },
     {
@@ -249,10 +214,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Germophobe Would Hate To Share"
     },
     {
@@ -278,10 +239,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Young Man Might Do To Look Older"
     },
     {
@@ -307,10 +264,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You'd Hate To Land In After Skydiving"
     }
   ],

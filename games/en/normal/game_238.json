@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Shark",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Stop",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Get Out",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "No Running",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Stethoscope",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "White Coat",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Scrubs",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "ID Photo",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -56,38 +48,31 @@
       "answers": [
         {
           "ans": "Bears",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Dolphins",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lions",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Eagles",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Panthers",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Colts",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Rams",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Hair",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Time",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Muscles",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Love",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Energy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "patience",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Barking",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Grow A Tail",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Growing Fur",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Need T Scratch",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fetch",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Floppy Ears",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Rake ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Spade ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Shovel ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Pitchfork ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hoe ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of A Beauticians Body That Probably Gets Tired By The End Of The Day"
     },
     {
@@ -259,10 +222,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a chauvinist might try to claim that men are better at."
     },
     {
@@ -284,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A High School Student Might Join In Order To Become More Popular."
     },
     {
@@ -317,10 +272,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Got A New Puppy, Name Something You’d Teach It"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "German Shepard",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Pit Bull",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Doberman Pinscher",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Rottweiler",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bulldog",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Eat Nuts",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Climb Trees",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bring Germs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Nibble On Everything",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Hide Things",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Jump",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Birthday ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Wedding ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Get Well ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Christmas ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "New Baby ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Valentines ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Flour",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Eggs",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Cake Mix",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Baking Pan",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Oven",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Spatula",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Milk",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Driver’s License",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Graduation",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "First Kiss/ Date",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Prom",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "College",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,38 +150,31 @@
       "answers": [
         {
           "ans": "Death",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Monster",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Falling",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Ghosts",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Spiders",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Clowns",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Witches",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -245,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Fan Might Collect From Their favorite Singer"
     },
     {
@@ -282,10 +242,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Section You’D See At A Book Store"
     },
     {
@@ -311,10 +267,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Living Or Dead, Name A Man Named Ted"
     },
     {
@@ -344,10 +296,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Somewhere Children Like To Go"
     }
   ],

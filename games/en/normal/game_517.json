@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Truck Driver",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Bus Driver",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Police Officers",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Taxi Driver",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Ambulance Driver",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Chaffeur",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Spouse",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Extra Pillows",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Stuffed Animal",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Blanket",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Night Light",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Gun",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Pet",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -81,18 +68,15 @@
       "answers": [
         {
           "ans": "Lion ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Tiger ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bear ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Horse",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Sword",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Armour",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lance",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Shield",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Jump",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Lose Balance",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Run",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Swing It",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Drive",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dance",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Look Down",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,38 +146,31 @@
       "answers": [
         {
           "ans": "Living Room",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Dining Room",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Extra Bedroom",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Attic",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bedroom",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Storage Room",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Den",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -240,10 +205,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Song You Associate With Elvis Presley"
     },
     {
@@ -269,10 +230,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Party That’s Bound To Get A Little Out Of Hand."
     },
     {
@@ -306,10 +263,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food You Wouldn’t Eat With A Fork."
     },
     {
@@ -335,10 +288,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If An Alien Landed At Christmas Time, Name A Christmas Tradition That Would Be Hard To Explain."
     }
   ],

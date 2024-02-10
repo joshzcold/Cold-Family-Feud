@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Scared",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Sick",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Too Old/Young",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "No Costume",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Bad Weather",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Fighting",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Nudity",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Security",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Jerry Springer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Chairs Thrown",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Dishes",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Laundry",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Cooking",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Take Out Trash",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Bank",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Restaurant",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bar",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Supermarket",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Post Office",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Characters",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "More Action",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Light Sabers",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Prefer Movies",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Special Effects",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Halloween",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Easter",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Christmas",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -209,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Almost Anyone Can Cook."
     },
     {
@@ -242,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Men Probably Lie About Most"
     },
     {
@@ -271,10 +235,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Hate To Forget On A Ski Trip."
     },
     {
@@ -300,10 +260,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Wave At A Football Match"
     }
   ],

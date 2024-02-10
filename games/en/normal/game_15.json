@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Boots",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Saddles",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Cowboy Hat",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Rope",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Horse",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Spurs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Gun",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Name",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Address",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Phone Number",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Owner’s Name",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Reward",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Ant",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Beaver",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Horse",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bee",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Happiness",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Health",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Friendship",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Family",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Time",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Accident",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Break Down",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Flat Tire",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Rain",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Run Out Of Gas",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Trees",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Trash Can",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "plants",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Swing Set",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Umbrella",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Chairs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Can You Tell The Jewelry Your Partner Gives You Is Made Of Fake Gold?"
     },
     {
@@ -246,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Habit That Would Be Impossible To Hide From Your Spouse"
     },
     {
@@ -283,10 +243,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Movie Would You Never Watch Alone?"
     },
     {
@@ -304,10 +260,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Sign That Girlfriend Is Turning Into A Cat"
     }
   ],

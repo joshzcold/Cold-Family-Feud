@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Hat",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Whip",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Knife",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Gun",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Selling Cookies",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Lost",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Halloween",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Newspaper",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -56,18 +48,15 @@
       "answers": [
         {
           "ans": "Overeating ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Indigestion ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cramp ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -77,18 +66,15 @@
       "answers": [
         {
           "ans": "Dry Eyes ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Putting Them In ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Taking Them Out ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -98,23 +84,19 @@
       "answers": [
         {
           "ans": "Old Clothes",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Toys",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Washer & Dryer",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Junk",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -124,23 +106,19 @@
       "answers": [
         {
           "ans": "Cement",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Asphalt",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Steam Roller",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Water",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -179,10 +157,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Longest You’ve Ever Gone Without Eating."
     },
     {
@@ -212,10 +186,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Sleep, Name Something You’d Rather Do With The Time You Spend Commuting To And From Work"
     },
     {
@@ -241,10 +211,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Could Choose, What Would Be An Ideal Place To Meet Your Future Mate?"
     },
     {
@@ -274,10 +240,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you do when looking in the mirror that you’d hate to be caught doing if it was a 2-way mirror."
     }
   ],

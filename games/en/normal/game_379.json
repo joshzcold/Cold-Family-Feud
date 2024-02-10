@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Actors",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Subtitles",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Music",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Title",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Shovel",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Tow Truck",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Chains",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Salt",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sand",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cat Litter",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Plow",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Bra ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Bag ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Braces ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Saddle ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Shoes ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Stamps",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Dolls",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cars",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Rocks",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Toys",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Seashells",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Spoons",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Steak",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Burger",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pizza",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Ribs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pasta",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Family Dinner",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Birthday Party",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "On A Date",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Church Picnic",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phrase That’s Said In Commercials To Get You To Buy The Product Right Away."
     },
     {
@@ -255,10 +218,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Wear On Their Legs"
     },
     {
@@ -292,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Job You Shouldnt Apply For If You Dont Like Waking Up Early"
     },
     {
@@ -321,10 +276,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Boy Might Wear That Is Likely To Get Him Kicked Out Of Prep School."
     }
   ],

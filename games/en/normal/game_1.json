@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Black Hood & Cape",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Sickle",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Skeleton",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mask",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Makeup",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Country Music",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Guitar",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Cowboy",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cowboy Hat",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Country Accent",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Enter",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Space Bar",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Backspace",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tab Key",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Their Love Lives",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Infidelity",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Rumor",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Divorce",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Spare Tyre ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Jack ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Tools ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Spare Petrol Tank ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Jump Leads ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Lower Back/Bottom",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Ankle",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Chest",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Foot",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Hip",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "\"Name A Part Of The Body Beginning With \"\"N\"\"\""
     },
     {
@@ -218,10 +186,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Would A College Kid Do Right Before Parents Visit?"
     },
     {
@@ -247,10 +211,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Worst Way To Be Woken Up"
     },
     {
@@ -284,10 +244,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal People Set Traps For."
     }
   ],

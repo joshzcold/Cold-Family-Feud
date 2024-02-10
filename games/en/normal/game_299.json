@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Obey",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Love",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cherish",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Honor",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Snooze",
-          "pnt": 76,
-          "trig": false
+          "pnt": 76
         },
         {
           "ans": "Set Alarm",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "AM/FM Switch",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Volume",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -56,18 +48,15 @@
       "answers": [
         {
           "ans": "Sledge ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Ski's ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Snow Board ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 1,
@@ -77,33 +66,27 @@
       "answers": [
         {
           "ans": "Big Foot",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "King Kong",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Godzilla",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "dragon",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Unicorn",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Loch Ness Monster",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -113,38 +96,31 @@
       "answers": [
         {
           "ans": "Kimono",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Beret",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Kilt",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Serape",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Poncho",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Turban",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sombrero",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Rope ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Pick ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Boots ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Helmet ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Can Make An Ordinary Dinner Romantic."
     },
     {
@@ -238,10 +206,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Song Made Famous By The Beach Boys"
     },
     {
@@ -263,10 +227,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Burn"
     },
     {
@@ -300,10 +260,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Vegetable That Is Not Green"
     }
   ],

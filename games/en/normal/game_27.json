@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Homes For Sale",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Car",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Clients",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Advertisement",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Good Attitude",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Casper",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Headless Horseman",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Nearly Headless Nich",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Ghost of Xmas Past",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Ghost of Xmas Future",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Christmas Present",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Jacob Marley",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Open Door",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Pay",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bring Flowers",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cook Dinner",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "High Heels",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Pantyhose",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Makeup",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Girdle/Corset",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Perfume",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "No Service",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Dropped Calls",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fuzzy Reception",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Expensive",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Batteries Die Fast",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Break Easily",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Can’t Hear Well",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,38 +146,31 @@
       "answers": [
         {
           "ans": "Cup Of Sugar",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Lawn Mower",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Charcoal",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Milk",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Mayonnaise",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Tool",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "RAKE",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -232,10 +197,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Need In Order To Enter A Childs Treehouse"
     },
     {
@@ -269,10 +230,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Expression That Begins With The Word “First.”"
     },
     {
@@ -306,10 +263,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someplace Were You’d See A Lot Of People Gossiping"
     },
     {
@@ -343,10 +296,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Emotion That Gets Stronger After You Have Children"
     }
   ],

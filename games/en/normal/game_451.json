@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "Movies",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Magazines",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Music",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -25,28 +22,23 @@
       "answers": [
         {
           "ans": "Candy",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cookies",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Brownies",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pies",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cake",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -56,23 +48,19 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Cook",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Eat",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Use Bathroom",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "Good Grades",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Birthday",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Good Behavior",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Upset",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -108,28 +92,23 @@
       "answers": [
         {
           "ans": "Movie Theater",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Public Transit",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Concert",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sporting Event",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -139,23 +118,19 @@
       "answers": [
         {
           "ans": "Bathroom",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Bedroom",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Kitchen",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Garage",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -190,10 +165,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When Sitting Close To A Date, What Clue Might They Give That They Like You?"
     },
     {
@@ -219,10 +190,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Common Sickness That Kids Seem To Get More Often Than Adults"
     },
     {
@@ -248,10 +215,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Have To Get Change From A Pound"
     },
     {
@@ -281,10 +244,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You May Not Be Good At The First Time You Do It."
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Elephant",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Lion",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tiger",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Monkey",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Giraffe",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bear",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dog",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Drugs",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Death",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Safety",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Coming Back",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Lonely",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "First aid kit",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Flashlight",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Water",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Knife",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Matches",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Cellular Phone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Blanket",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -122,28 +102,23 @@
       "answers": [
         {
           "ans": "Trim It ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Shave It ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Twirl It ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Comb It ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Wax It ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Education",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Votes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Running Mate",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Gift Of Gab",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Be A Citizen",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Clean Backgroung",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -194,28 +162,23 @@
       "answers": [
         {
           "ans": "Orange",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Peach",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Steak",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Apple",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hamburger",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -246,10 +209,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Rumbles"
     },
     {
@@ -283,10 +242,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That It Is Harder To Do When You Have Too Many Roommates."
     },
     {
@@ -312,10 +267,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Would Be Foolish To Apply Makeup Before Doing."
     },
     {
@@ -341,10 +292,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find In A Mans Toiletry Bag"
     }
   ],

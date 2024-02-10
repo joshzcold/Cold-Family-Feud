@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Costume ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Mask ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Hat ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Dress ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Wig ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Makeup ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Intimacy",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Time",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Privacy",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Partner’s Love",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Ball and Chain",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Tie The Knot",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hitched",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Tied Down",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Jewelry",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "TV",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Watch",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Gun",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Musical Instrument",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Stereo",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Balding",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Bad Hair Day",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Protect From The Sun",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "They’re Cold",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Short Wait",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Good News",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "TV",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Magazine",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Food/Drink",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pain Meds",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Popular Pie Filling"
     },
     {
@@ -237,10 +202,6 @@
           21
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Starts With L, That Everyone Wants"
     },
     {
@@ -266,10 +227,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Why Might You Regret Picking Up A Lost Dog?"
     },
     {
@@ -295,10 +252,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What's The Worst Thing About Camping Out"
     }
   ],

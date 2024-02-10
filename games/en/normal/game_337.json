@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Shuffle",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Play Poker",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Play Solitaire",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Deal",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Do Tricks",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Gamble",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Motor",
-          "pnt": 75,
-          "trig": false
+          "pnt": 75
         },
         {
           "ans": "Baby",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Caster",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Suntan",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Ice Cream",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Candy",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pizza",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Cookies",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hot Dog",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "French Fries",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Popsicle",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Jello",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Dough",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cheese",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Meatloaf",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Mashed Potatoes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Candy",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Costume",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Pumpkin",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Decorations",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Ride A Horse",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Ride In Rodeo",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Wear Boots",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lasso Him",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Use Cowboy Slang",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Wear Cowboy Hat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Bad Habit Some People Haves When They Are Stressed"
     },
     {
@@ -242,10 +206,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Dog Owners Demanded Fido Get A Job, What Job Might He Be Good At?"
     },
     {
@@ -267,10 +227,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "With Regard To Dating, Name Something Moms Warn Their Sons To Avoid"
     },
     {
@@ -304,10 +260,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Probably Don’t Wash As Often As You Should"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "CANNED",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "AXED",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "KICKED TO THE CURB",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "GOT THE BOOT",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Irresponsible",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Smoke/ Drink",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Bad Manners",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Loud",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Troublemaker",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bad Driver",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Moody",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Pee Outside",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Sleep Anywhere",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Catch Food",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Make Lots Of Noise",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Mirror ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Tiles ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Picture ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Towel Holder ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -123,38 +104,31 @@
       "answers": [
         {
           "ans": "Movie Theater",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Concert",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Funeral",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Seaworld",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Circus",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "School",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Closing Eyes",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Smiling",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Laughing",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sneezing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Frowning",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Moving",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Slouching",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Acticity That Requires Someone To Hold On Whey They Are First Learning To Do It"
     },
     {
@@ -255,10 +218,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Pay For Once A Year"
     },
     {
@@ -292,10 +251,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a fish that tastes good grilled."
     },
     {
@@ -329,10 +284,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Associate With “A Christmas Carol” By Charles Dickens."
     }
   ],

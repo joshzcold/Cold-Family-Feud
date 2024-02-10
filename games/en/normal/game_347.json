@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Overworked",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "kids/New Baby",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Can’t Sleep",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sick",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Studying",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Leave",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Fall Asleep",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Watch It Anyway",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Ask For Money back",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Fair",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Fast Food",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Street Corner",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Beach",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Spy On People",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Follow People",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Snoop For Info",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Take Pictures",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -113,33 +96,27 @@
       "answers": [
         {
           "ans": "Name",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Hair Color",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Economic Status",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Attitude",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Nose",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Religion",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,18 +126,15 @@
       "answers": [
         {
           "ans": "Socks ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Insoles ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Laces ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Customer Might Do To Annoy A Waitress."
     },
     {
@@ -216,10 +186,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Bad That Might Happen TO A Magician’s Assistant During A Performance."
     },
     {
@@ -245,10 +211,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Dogs Like To Chase"
     },
     {
@@ -270,10 +232,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Would A Cowboy Do To Cheer Up When He’s Had A Bad Day?"
     }
   ],

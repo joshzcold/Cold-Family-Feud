@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Japanese",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Chinese",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Latin",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Russian",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "German",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Hospital",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Church",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "School",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Funeral",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Flowers",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sun",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Swimming Suit",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "People In Shorts",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bugs",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Kids Playing",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Air ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Clowns ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Party ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Colours ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "String ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Stuttering",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Dead Air",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Profanity",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Belch/Cough",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Wrong Song",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Head",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Ears",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Eyes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Stomach",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -214,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person On A Diet Might Eat For Breakfast."
     },
     {
@@ -243,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fictional Character With Two Identities"
     },
     {
@@ -268,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A U.S. City With Very Aggressive Drivers"
     },
     {
@@ -297,10 +256,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Someone Might Chop Up His Credit Card"
     }
   ],

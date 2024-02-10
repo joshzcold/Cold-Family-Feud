@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Pumpkin Pie",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Turkey",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Apples",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Chili",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Soup",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Squash",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,18 +34,15 @@
       "answers": [
         {
           "ans": "The Noise ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Property Prices ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Traffic ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Watching TV/Movie",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Reading",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Playing Games",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Sleeping",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cooking",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Problems",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Bear",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Dog",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bully",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bee",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "The Law",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Snake",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Bark",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Act Like Chicken",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Go To Sleep",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sing",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Dance",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Dracula",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Zorro",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Elvis Presley",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sherlock Holmes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Pope",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In The House That You Shouldn’t Leave On When You Go Out."
     },
     {
@@ -253,10 +218,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Sign That It’s Time To Enroll Your Dog In Obedience School"
     },
     {
@@ -278,10 +239,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do Right Before Your Picture Is Taken"
     },
     {
@@ -303,10 +260,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Has A Tail"
     }
   ],

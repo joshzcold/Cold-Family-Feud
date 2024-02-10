@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Queue Jump ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Ignorance & Stupidity ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Noisy Eaters ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Liars ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Loud Music ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Smoking ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "16 ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "13 ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "15 ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "12 ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "14 ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Pumpkin",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Glass",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bugs",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cans",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Potatoes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Eggs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Angelina Jolie",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Jennifer Aniston",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Julia Roberts",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Halle Berry",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -133,18 +112,15 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": 8,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 5,
-          "pnt": null,
-          "trig": false
+          "pnt": null
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Pass Gas",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Wet Pants",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Snort",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Choke",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Cry",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Nose Runs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Spit",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Gets Delivered."
     },
     {
@@ -257,10 +222,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Leprechaun Would Have Made For Himself Out Of Gold"
     },
     {
@@ -282,10 +243,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Instead Of A Schoolbus, How Might A Wealthy Kid Get To School?"
     },
     {
@@ -307,10 +264,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "In The Office, Name Something That People Borrow But Almost Never Return?"
     }
   ],

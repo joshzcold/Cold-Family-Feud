@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "MGM Lion",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Exxon Tiger",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Budweiser Eagle",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Energizer Bunny",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "RCA dog",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Walt Disney Mouse",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Accountant ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Stationer ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Computer Programmer ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Maths Teacher ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Astro",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Elroy",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Spaceships",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Future",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Technology",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Epp Opp Ork Ah Ah",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Hook ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Coat Hanger ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Door Knob ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Wardrobe ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Chair ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Door ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,18 +116,15 @@
       "answers": [
         {
           "ans": "Shoes ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Polish ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Insoles ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Shopping Cart",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Stroller",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lawn Mower",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Wheel Barrow",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -214,10 +185,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Never Forget To Do On Christmas Day"
     },
     {
@@ -239,10 +206,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Person Who You Most Try To Avoid Having An Argument With."
     },
     {
@@ -276,10 +239,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Actor In The History Of Cinema Known For His Slapstick Comedy."
     },
     {
@@ -301,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Another Word For A “Bar” That A Cowboy Might Use"
     }
   ],

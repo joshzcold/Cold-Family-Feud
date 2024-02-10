@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Pitcher",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "catcher",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "shortstop",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "First Base",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Batter",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Outfield",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Cheese ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Cat ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Trap ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Squeaking ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tail ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Wash ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Registration ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Phone ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Caravan ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Carpet ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Identification",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Credit Cards",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Photos",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Wallet/Money",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cell Phone",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cigarettes",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Keys",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tools",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Ice Cream ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Meat ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Ice ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Peas ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Chicken ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a reason why a person might be annoyed that the weather is nice."
     },
     {
@@ -240,10 +206,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something From The Ocean That You’d Never Find On A Restaurant Menu"
     },
     {
@@ -261,10 +223,6 @@
           24
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Vehicle With A Siren"
     },
     {
@@ -286,10 +244,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do You Do When Your Stomach Growls?"
     }
   ],

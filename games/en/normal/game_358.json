@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Bucket ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Spade ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Sandwiches ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Fishing Rod ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Turn Away",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Not Kiss",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Breath Mint",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Cover Nose",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Top Hat",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Cowboy Hat",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Fedora",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Straw Hat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Beret",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Doesn’t Leave On Porch",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Skips Them",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Wet Paper",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Late",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Breaks Window",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Death",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Get Old",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Traffic Problems",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Weight Loss",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Taxation",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,38 +126,31 @@
       "answers": [
         {
           "ans": "Wheat",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Rye",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sourdough",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "French Roll",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "White Bread",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Onion Roll",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Pumpernickel",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Glove That Is Not Used For Warmth"
     },
     {
@@ -232,10 +198,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Excuse That Bosses Are Probably Tired Of Hearing From Late Employees."
     },
     {
@@ -265,10 +227,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Men In Fairy Tales Fight Against, That Real Men Don’t"
     },
     {
@@ -298,10 +256,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Break A Couple Up If They Disagreed About It"
     }
   ],
