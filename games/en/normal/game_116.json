@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Meow",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Catch Mice",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Climb Tree",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Eat Cat Food",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Purr",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Scratching",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Cookies",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Cake",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pie",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Fruit Cake",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bread",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Rolls",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Drinks",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Salad",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dessert",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Rolls",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cranberry Sauce",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Speeding",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Stealing",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Jaywalking",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Littering",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Teddy Bear ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Blanket ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Parents ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "BFriend / GFriend ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Birds",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Wolves",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fish",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Lions",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Elephant",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Deer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport That Requires Water In Order To Be Played"
     },
     {
@@ -237,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Shouldn’t Have To Do On Your Birthday."
     },
     {
@@ -262,10 +223,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation Where You Might Get Dirty"
     },
     {
@@ -287,10 +244,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Term For Someone Who Isn’t Very Generous."
     }
   ],

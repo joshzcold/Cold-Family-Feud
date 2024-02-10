@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Record",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Play",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Power",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pause",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Rewind",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Eject",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Stop",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Smoke",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Pass Gas",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sneeze",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Talk",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Kiss",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Stand Too Close",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Cough",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -86,33 +72,27 @@
       "answers": [
         {
           "ans": "Limo/Vehicle",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "DVD",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Vacation Home",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Carpet Cleaner",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Tuxedo/Gown",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Storage Unit",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -122,23 +102,19 @@
       "answers": [
         {
           "ans": 30,
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": 50,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 60,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": 25,
-          "pnt": null,
-          "trig": false
+          "pnt": null
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Sorry",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Are You Ok?",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Have Insurance?",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Curse Word",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "What Were You Doing?",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Price ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Taste ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Brand Name ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Country Of Origin ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Screw Off Lid ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "A Hangover ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -240,10 +205,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Room In The House People Like To Read"
     },
     {
@@ -273,10 +234,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Practice"
     },
     {
@@ -298,10 +255,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That’s Not Loved By Many People"
     },
     {
@@ -331,10 +284,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Food, Why Do You Like Going To A Chinese Restaurant"
     }
   ],

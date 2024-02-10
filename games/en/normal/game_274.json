@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Crackers",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Wine",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bread",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Meat",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Nurse",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Paperboy",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Doctor",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Construction Worker",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bus Driver",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Farmer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Baker",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Close Windows",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Cut Grass",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Get Home",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Laundry Off Line",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Get Umbrella",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Take A Walk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": "Talk",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Walk",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dance",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sing",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Stand",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Smile",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Bar ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Television ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Alcohol ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Wine Glasses ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Chauffeur ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Looks",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Parents",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "birthday",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Genes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Last Name",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A City That Has A Lot Of Hotels."
     },
     {
@@ -271,10 +234,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Wear That Never Comes With Pockets"
     },
     {
@@ -292,10 +251,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food You Would Never See In A Vending Machine"
     },
     {
@@ -321,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do You Do When You Want To Sing Along With A Song, But Don’t Know The Words?"
     }
   ],

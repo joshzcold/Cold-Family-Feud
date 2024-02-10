@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Low End Job",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Clean/Laundry",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Borrow Money",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Fly Economy",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Buy Used",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Clip Coupons",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Ian Wright ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Stuart Pearce ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Paul Ince ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Teddy Sheringham ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sol Campbell ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Stave McManaman ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Bedroom",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Bathroom",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Time",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Toys",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Clothes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "TV",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Parents Attention",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,33 +98,27 @@
       "answers": [
         {
           "ans": "Altitude",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Turbulence",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Temperature",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Look Below",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Estimated Time/Arrival",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "No Smoking",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Not Looking At You",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Yawning",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Fall Asleep",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Rolling Eyes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Talking to Someone Else",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "Better Food",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Laundry",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Special Occasion",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "They’re Broke",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "To Visit Family/Friends",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Peace & Quiet",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -241,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your Company Was Saving Money, Name Something That Might Not Be At The Holiday Party."
     },
     {
@@ -278,10 +238,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Real Or Fictional, Name A Famous Man With Long Hair"
     },
     {
@@ -303,10 +259,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Might Live In A Tree"
     },
     {
@@ -340,10 +292,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Extra Something You Add To Your Mac And Cheese To Make It More Satisfying"
     }
   ],

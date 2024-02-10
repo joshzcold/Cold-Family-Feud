@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Over Dinner",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "With A Party",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "In An Email",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Send Out Announcements",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "By Phone",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "In Person",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Throw Food",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Burp",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Play With Food",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Not Finish Food",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Spit Out Food",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Spill Something",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Eat With Hands",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "Emeril Lagasse",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Rachel Ray",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bobbie Flay",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Gordon Ramsey",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Paula Deen",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Jamie Oliver",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wolfgang Puck",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -122,23 +102,19 @@
       "answers": [
         {
           "ans": "Glove Box",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Trunk",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Under Seat",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Console",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Breakup",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Death",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Fence",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Virus",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mountain",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Beer",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Cologne/Aftershave",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Razors",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Deodorant",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Car",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation In Which You Might Be In A New City Every Night."
     },
     {
@@ -268,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Single Ladies: Name Something A Guy Should Always Do First Before Asking You On A Date."
     },
     {
@@ -297,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Baby Doesn’t Have That Most Adults Do"
     },
     {
@@ -322,10 +276,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s More Likely To Happen To You If You’re Hanging Out At A Bar."
     }
   ],

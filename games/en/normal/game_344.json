@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Kissing",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Stay In Car",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Privacy",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Big Screen",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "No Standing In Line",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Deepens",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Softer",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Nervous Stutter",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Higher Pitch",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Crack",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Laugh/Tease",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Yawn/Sleep",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Talk/Use Phone",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Walk Away",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Water",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Fruit",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Whipped Cream",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Alcohol",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Use My Finger",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Buy A New One",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Ask For An Extra",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Mouthwash",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -144,28 +122,23 @@
       "answers": [
         {
           "ans": "News",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Soap Opera",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Reality TV",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Talk Show",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Crime Drama",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -200,10 +173,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Slob Might Never Clean"
     },
     {
@@ -225,10 +194,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Used In A Game Of Hockey"
     },
     {
@@ -246,10 +211,6 @@
           21
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Do On An Aeroplane To Pass Time"
     },
     {
@@ -275,10 +236,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Batman Doesn't Leave The Batcave Without"
     }
   ],

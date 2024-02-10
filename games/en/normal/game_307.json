@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Spaghetti ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Linguini ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Ravioli ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Tortellini ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Macaroni ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Change Of Clothes",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Snacks",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Gum",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tissue",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Haircut",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Confident Walk",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Badge",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Good Posture",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Personality/Attitude",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Eyes",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Name",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sense Of Humor",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Smile",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Playstation ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "X Box ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Dreamcast ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Megadrive ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Wii ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Snes ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Window",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Bathroom",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Exit",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Aisle",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -214,10 +185,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Public Place Where You’re Likely To Catch A Cold Or Flu Bug"
     },
     {
@@ -251,10 +218,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of The Body That Often Itches."
     },
     {
@@ -276,10 +239,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Be Surprised To Find That A Superhero Couldn’t Do."
     },
     {
@@ -301,10 +260,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name the worst thing for a circus performer to be afraid of."
     }
   ],

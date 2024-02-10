@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Chains/Bars",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Dragons",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Bones",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bats",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Candles/Darkness",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Rats/Mice",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Lettuce",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Tomatoes",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Cheese",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Mayo",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Ham",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Salami",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bologna",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "Sandwiches",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Soup",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Turkey Salad",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Turkey Pot Pie",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Casserole",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Turkey Ala King",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Turkey Hash",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -122,23 +102,19 @@
       "answers": [
         {
           "ans": "Nail",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Glass Shard",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Pin",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rocks",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Pass Gas",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Show Affection",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Eat",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Undress",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Use The Restroom",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Giraffe",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Ostrich",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Frog",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Horse",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Gazelle",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Camel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Catch In A Net"
     },
     {
@@ -273,10 +234,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "They’ve Cloned A Sheep: Name A Creature They Should Never Clone Because We Already Have Too Many."
     },
     {
@@ -298,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place In The World Where People Might Go To Get Married"
     },
     {
@@ -327,10 +280,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A State That Many People Live In When They Retire."
     }
   ],

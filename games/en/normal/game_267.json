@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Magazines",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "News Papers",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Road Signs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Poems",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Billboards",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Talk Show",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Self Esteem",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Charisma",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Style",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Car ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Tools ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lawn Mower ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Junk ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Boxes ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Get Upset",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Stock Up",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Complain",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Switch Brands",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Pink",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Blue",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Yellow",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Green",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "Sink",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Toilet",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Water",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Food",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -196,10 +169,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Part Of Your Morning Routine Won’t Leave Home Without Doing"
     },
     {
@@ -233,10 +202,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Good Gift For A High School Graduate"
     },
     {
@@ -270,10 +235,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Would Be Annoying For Your Roommate To Forget To Do."
     },
     {
@@ -299,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do Santa Claus, Easter Bunny, And The Tooth Fairy Have In Common?"
     }
   ],

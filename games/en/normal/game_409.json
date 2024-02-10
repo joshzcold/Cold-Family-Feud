@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Turn Off Alarm",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Put In Ear Plugs",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Close Bedroom Door",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Turn Off Phone",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Take A Sleep Aid",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Close Shades",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Travel",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Get Married",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Go Back To School",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Move Back Home",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Party",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Join The Military",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "A Christmas Story",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Rudolph/Red Nosed Reindeer",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "The Grinch",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Home Alone",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "White Christmas",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "It’s/Wonderful Life",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Frosty The Snowman",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Vitamins",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Milk",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Fruit",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Orange Juice",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Millionaire",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Sunscreen",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Wheel Of Fortune",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Family Fued",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Price Is Right",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Cars ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "People ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "White Lines ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Signs ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Businesswoman Must Always Wear To Work."
     },
     {
@@ -250,10 +214,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Nickname For The Toilet"
     },
     {
@@ -287,10 +247,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation Where You Might Wear Suspenders."
     },
     {
@@ -316,10 +272,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Is Often Cooked In A Microwave"
     }
   ],

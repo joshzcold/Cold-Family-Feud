@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Eat ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Drink ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Snog ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Talk ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sleep ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Mall",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Park",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Zoo",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Theme Park",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Airport",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Rub Them together",
-          "pnt": 75,
-          "trig": false
+          "pnt": 75
         },
         {
           "ans": "Put On Gloves",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Blow On Them",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Put Under Warm Water",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Sit On Them",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Put In Pocket",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Passport",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Mug Shot",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Driver’s License",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Sports Photo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Mint",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Spray",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Chew Gum",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Brush Teeth",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Mouthwash",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Queen",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Crown",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "His kingdom",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Throne",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Servents",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fool",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Subjects",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Halloween Costume That Is A Complete Misrepresentation Of The Occupation It Portrays."
     },
     {
@@ -246,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Are The Most Popular Types Of Flowers Used In A Wedding"
     },
     {
@@ -275,10 +235,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Youâ€™D Find More Commonly In France Than In The Us"
     },
     {
@@ -304,10 +260,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Hope Doesn’t Happen When Holding Someone’s Baby."
     }
   ],

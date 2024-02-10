@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Cleaning",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Food",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Money",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Space",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "music",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bedtime",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Sanitation",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Hospital",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Childcare",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Zookeeper",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Police",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Mortician",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Military",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "November",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "October",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "September",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "December",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "August",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "January",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "June",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -122,28 +102,23 @@
       "answers": [
         {
           "ans": "Funny",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "They’re Acting",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Always Happy",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Rich",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Always Look Good",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Pebbles",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sand/Mud",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Fish",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Seaweed",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Shells",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Casinos",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Bright Lights",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Beautiful Women",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Night Life",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Money",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific That Piles Up Before You Can Get To It."
     },
     {
@@ -269,10 +230,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Annoying Thing About Pigeons"
     },
     {
@@ -302,10 +259,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With E.T."
     },
     {
@@ -331,10 +284,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Know About The Easter Bunny"
     }
   ],

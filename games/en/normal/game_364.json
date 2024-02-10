@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Kiss A Frog",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Fall Fast Asleep",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Go To A Ball",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Lose Your Shoe",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Phone Book ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Dictionary ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Address Book ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Alphabet ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Filing List ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Cats",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Cars",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Other Dogs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Balls",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Your Tail",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Rabbit",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": 8,
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": 5,
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": 7,
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": 9,
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Gray Hair",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Wrinkles",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Wisdom",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Baldness",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Chicken",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Potatoes",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Fish",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Onions",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Unlike Dogs, Name A Type Of Pet That People Don’t Count On To Guard Their House."
     },
     {
@@ -247,10 +214,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If There Was A Fire At The Zoo, Name An Animal A Fireman Would Have Trouble Carrying Out By Himself."
     },
     {
@@ -284,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Specific Part Of Your Body That You Never Worry About Getting Fat."
     },
     {
@@ -313,10 +272,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Like To Put Whipped Cream On"
     }
   ],

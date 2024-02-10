@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Iron ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Oven ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Heater ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Hair Dryer ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Toaster ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Mountains",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Grand Canyon",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Eiffel Tower",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Empire State Bldg",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Christmas",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Mother’s Day",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Thanksgiving",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Family Birthday",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -87,33 +74,27 @@
       "answers": [
         {
           "ans": "Shave",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Remove Eye Patch",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Cut Hair",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Change Clothes",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Shower",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Leave Parrot Home",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Nap",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Vomit",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Take Medicine",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Eat Soup",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Home From Work",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Go To Doctor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Parking Lot",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Driving School",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Field",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Driveway",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Country Road",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Month When TV Networks Start Airing Reruns."
     },
     {
@@ -252,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Might Wish Her Husband Had More Of"
     },
     {
@@ -289,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name People Used To Call Women In Old Days"
     },
     {
@@ -322,10 +280,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a girl would need if she wanted to impersonate an elderly woman."
     }
   ],

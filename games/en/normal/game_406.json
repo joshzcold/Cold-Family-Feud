@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Perfume",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Insect Repelant",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hairspray",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Sunscreen/Tan",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Deoderant",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Semi Truck",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Motorcycle",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Bus",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Train",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Navy Blue",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Baby Blue",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sky Blue",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Teal/Turquoise",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Royal",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sapphire",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Compters",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Magazines",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Librarian",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Chairs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Desks",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Students",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Videos",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Bowls ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Darts ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Snooker ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Sumo ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Eye Spy ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Cards ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Sex ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hide & Seek ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Playstation ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pillow Fight ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Changes Every Year For A Kid In Elementary School"
     },
     {
@@ -250,10 +214,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Found In A Birds Nest"
     },
     {
@@ -279,10 +239,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Like To Feel With Your Toes"
     },
     {
@@ -300,10 +256,6 @@
           18
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit That Starts With The Letter P"
     }
   ],

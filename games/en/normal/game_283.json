@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Write / Hold Pen ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Hitch Hike ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Tie Shoelaces ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Use Scissors ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Light A Lighter ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Tie",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Tools",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Socks",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Money",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cologne",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Shirt",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Watch",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Pick Nose",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Suck Thumb",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Bite Nails",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Lying",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Swearing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Grocery Store",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Bank",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bakery",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Restaurant",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Clothing Store",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bar",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Hair Salon/Barber",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Forget Money",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Always Win",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Cheat",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Lose A Lot",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Car",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Gas",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Food",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Furniture",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "TV",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something That’s forbidden In Most Swimming Pools"
     },
     {
@@ -264,10 +226,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Need A Reservation For"
     },
     {
@@ -285,10 +243,6 @@
           25
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Household Item That Has Lots Of Germs"
     },
     {
@@ -318,10 +272,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Brand OF Soft Drink"
     }
   ],

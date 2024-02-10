@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Make Pie",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Smash It",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Throw It Away",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Toast Seeds",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Make Soup",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Vanilla",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Pine",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Strawberry",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cinnamon",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lemon",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Spice",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Rainbow",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Sun",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Worms",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bugs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Purse / Wallet ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "A Bank ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Pocket ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Sofa ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Amusement Arcade ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Thanksgiving",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Birthday Party",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wedding",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Christmas",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "The Stork",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Heaven",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "A Cabbage Patch",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mom’s Tummy",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "The Hospital",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Santa Clause",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -219,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Term For Someone Who Thinks Very Highly Of Himself"
     },
     {
@@ -244,10 +210,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Food That Could Most Easily Be Turned Into A Heart-Shape For Valentine’s Day."
     },
     {
@@ -273,10 +235,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Profession For Someone Good With Their Hands"
     },
     {
@@ -302,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Hate To See Litter"
     }
   ],

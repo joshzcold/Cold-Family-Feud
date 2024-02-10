@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Best Man",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Parent",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bridesmaid",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bride/Groom",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Clergy Member",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Redial",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Speaker Phone",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Call Waiting",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Caller ID",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Speed Dial",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Mute",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Voice Mail",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "No Eye Contact",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Stutter",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sweating",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Smile/Nervous Laugh",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Red Face",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Violin ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Harp ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Piano ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Guitar ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Flute ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Alarm Clock",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Birds",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Phone Call",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Kids",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Dog Barking",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Traffic",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Mac And Cheese",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Grilled Cheese",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Nachos",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Crackers",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Of Santa’s Reindeer Have Names That Sound Like Nicknames For A Lady’s Man?"
     },
     {
@@ -255,10 +218,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Wives: Name Something Specific You Wish Your Husband Would Be More Helpful With Around The House"
     },
     {
@@ -284,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a fast food restaurant has that a fancy restaurant would never have."
     },
     {
@@ -309,10 +264,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food You eat At Thanksgiving, but Not During The Rest Of The Year"
     }
   ],

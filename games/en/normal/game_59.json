@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Eat It",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Throw Snowballs",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Make Snow Angels",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Build Snowmen",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sled In It",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Cold Bath",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Medicine",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cold Washcloth",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Use Ice",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Get Married",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Drink",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Work",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Become Parents",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -87,33 +74,27 @@
       "answers": [
         {
           "ans": "Lion",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Elephant",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Giraffe",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Tiger",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Zebra",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Monkey",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Travel",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Get Married",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Go Back To School",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Move Back Home",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Party",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Join The Military",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Snake",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Dog",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Rat",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bird",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Fish",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Lizard",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hamster",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Running From The Law Might Not Put On Their Social Networking Site"
     },
     {
@@ -254,10 +218,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than A Bar, Name A Place Where It’s Common To Get Hit On."
     },
     {
@@ -291,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Child Might Sleep With"
     },
     {
@@ -316,10 +272,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If you were to write a memoir,name a specific topic that would come up a lot."
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Age",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Weight",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Job",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Marital Status",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Kids",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Religion",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Income",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Skiing",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Curling",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bobsled",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Ice Skating",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Snowboard",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hockey",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Luge",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Food ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Milk ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Paper ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Petrol ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bread ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Noise",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Money/Property",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Dogs/Pets",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Naughty Kids",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Unkempt Yard",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Model",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Hair Stylist",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Actor",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Rock star",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Food server",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "News Anchor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,23 +154,19 @@
       "answers": [
         {
           "ans": "Blood ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Wine ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Ribena ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Diesel ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Good Place To Put Your Hands While Kissing Someone."
     },
     {
@@ -268,10 +230,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Surgeon Keeps Nearby When He Operates"
     },
     {
@@ -305,10 +263,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Information You’d Be Surprised To Find On Someone’s Business Card."
     },
     {
@@ -342,10 +296,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Fairy Tale Character In Shrek"
     }
   ],

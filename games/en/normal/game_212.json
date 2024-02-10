@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Snake",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Fish",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Lizzard",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bird",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Frog",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "The Sea ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "A River ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "A Swimming Pool ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -56,23 +48,19 @@
       "answers": [
         {
           "ans": "Die",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Make A Flop",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Retire",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Get Arrested",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -82,33 +70,27 @@
       "answers": [
         {
           "ans": "No Cookies",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Can’t Use Chimney",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "A Fire in Fireplace",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Children Awake",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "A Dog",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Naughty Kids",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Find Out Sex",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Looks",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Personality",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Indecisive",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -144,38 +122,31 @@
       "answers": [
         {
           "ans": "Burp",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Leave",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Spit",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Try To Kiss You",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Swear",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Not Open Door",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Talk On Phone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Tradition That People Follow"
     },
     {
@@ -227,10 +194,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find Under A Rock"
     },
     {
@@ -252,10 +215,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Need To Build A Sandcastle"
     },
     {
@@ -281,10 +240,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Secretary Never Wants To Run Out Of At The Office."
     }
   ],

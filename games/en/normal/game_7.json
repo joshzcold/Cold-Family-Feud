@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Chocolate/ Candy",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chips",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Pizza",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "French Fries",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Coat",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Jeans",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Girdle",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Tights",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Snowsuit",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Personality",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Hight/Stature",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Eye Color",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Kite",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "A Windmill",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Sailboat",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Chimes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -113,23 +96,19 @@
       "answers": [
         {
           "ans": "Bull ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Rhino ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Buffalo ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Deer ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -139,23 +118,19 @@
       "answers": [
         {
           "ans": "Feminine Products",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Make Up",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Perfume",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Flowers",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -190,10 +165,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name Something A Celebrity Hopes Won’t Happen While On Stage To Accept An Award"
     },
     {
@@ -219,10 +190,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Game That Would Be Inappropriate At A Company Party."
     },
     {
@@ -248,10 +215,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Did 100 Wives Say Their Husbands “Always Think They’re Right About” In An Argument?"
     },
     {
@@ -273,10 +236,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a place where it is good to be tall"
     }
   ],

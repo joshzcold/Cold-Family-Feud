@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Weightlifting",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Wrestling",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Football",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cars",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Boxing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Sports",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Dancing",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Hiking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "watching movies",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Stop",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Yeild/Caution",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bo Not Enter",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "No Turns",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "One Way",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dead End",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Beach",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Aloha",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sunny",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Surfing",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Volcano",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Beautiful",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tropical",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Potato Chips",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Peanuts",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Popcorn",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "French Fries",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pretzels",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -174,38 +146,31 @@
       "answers": [
         {
           "ans": "Gardening",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Baseball",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Golf",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Boxing",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cleaning",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Skiing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Surgery",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -240,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Daydream About"
     },
     {
@@ -277,10 +238,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That An Adventurous Person Might Try While At The Beach"
     },
     {
@@ -310,10 +267,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Would See Someones Initials"
     },
     {
@@ -335,10 +288,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Non Living Object With Feet"
     }
   ],

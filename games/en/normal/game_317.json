@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Gamble",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Drink",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Get Married",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "See A Show",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Shop",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Eat Too much",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Monkey",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cat",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Dolphin",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bird",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Lion",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Horse",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,18 +68,15 @@
       "answers": [
         {
           "ans": "Lettuce ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Celery ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Tomato ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Their Wealth",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Their Conquests",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Their Looks",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Their Job",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Their Education",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Their Car",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Weight",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Time",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Going Down Chiminy",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Weather",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Not Enough Elves",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Naughty Kids",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,38 +146,31 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Food",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Money",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bedding",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Toys",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Backpack",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bike",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -232,10 +197,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Do You Put Presents So They Aren’t Found Before Given"
     },
     {
@@ -257,10 +218,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Let Soak Overnight"
     },
     {
@@ -290,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Make You Throw Up."
     },
     {
@@ -323,10 +276,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Household Chore That You Do Your Best Thinking While Doing"
     }
   ],

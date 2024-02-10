@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "People Talking",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "No Seats",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Crowds",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "The Homeless",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "swearing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Smell",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Bar",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Restaurant/Coffee Shop",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Barber Shop",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Gentleman’s Club",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Semi Truck",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Train",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Motorcycle",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Police Car",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Ice Cream Truck",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bus",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Ambulance",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Actor",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Hair Stylist",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Model",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Clown",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Library",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Book Store",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "School",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "On Line",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Friend’s House",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Swim",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Go To Disney World",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Relax",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Play Golf",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Visit The Everglades",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Go to Beach",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Fish",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Baby Spends A Lot Of Time Doing."
     },
     {
@@ -247,10 +210,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Your Teenager Do While Borrowing Your Car That Would Break Your Trust?"
     },
     {
@@ -276,10 +235,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do New Parents Wish Baby Learn Quickly"
     },
     {
@@ -309,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Mean To Do In Their Spare Time, But End Up Watching TV Instead."
     }
   ],

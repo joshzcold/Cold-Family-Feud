@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Partner",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "AAA",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Tow Truck",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": 911,
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Best Friend",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Parent",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Leaves ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Paper ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Dust ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Rubbish ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Kite ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Tiny ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Mini ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Titchy ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Minnoscule ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Polar Bear ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Penguin ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Deer ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bunny ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Seal ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Smoking",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Drinking",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Job",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Talking",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Toilet Paper ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Tea Bag ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "A Match ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "An Ice Cube ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "A Condom ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "A Stamp ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Put Behind Their Ears"
     },
     {
@@ -232,10 +198,6 @@
           21
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Another Word For Long Underwear"
     },
     {
@@ -261,10 +223,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Buy That Is Dried"
     },
     {
@@ -294,10 +252,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you associate with Elmer Fudd."
     }
   ],

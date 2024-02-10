@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Light Out",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Swerving",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Failure To Stop",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "No Seatbelt",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Bird",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Snakes",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Bee",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rat",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Laundry",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Dishes",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cooking",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fixing Car",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Mowing Lawn",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Fixing Toilet",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Dog ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Gerbil ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hampster ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Rabbit ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Popcorn ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Crisps ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Nuts ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Chips ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -144,23 +122,19 @@
       "answers": [
         {
           "ans": "Al/ Peggy Bundy",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Homer/Marge Simpson",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "RoseAnn/ Dan Conner",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Archie/Edith Bunker",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -195,10 +169,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Be Described As “Strong.”"
     },
     {
@@ -228,10 +198,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Paul (Surname)"
     },
     {
@@ -253,10 +219,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something On A Kids’ Playground That Adults Could Use As Exercise Equipment."
     },
     {
@@ -290,10 +252,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Complaint A Pregnant Women Might Have"
     }
   ],

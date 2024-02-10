@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Exercise",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Lose weight",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Eat healthier",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Go to the doctor",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dye hair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Retire",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Names",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Peoples Ages",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Birthdays",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "The Past",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Where They Put Items",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Phone Numbr",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Grocery Items",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Teacher",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Boss",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Friend",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Doctor",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Neighbor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Buy Some",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Borrow Clothes",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Wash Clothes",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Wear Dirty Clothes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Shoes",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Hat",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Socks",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Stretch Pants",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sweats",
-          "pnt": 1,
-          "trig": false
+          "pnt": 1
         },
         {
           "ans": "Underware/Bra",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Hammer ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Drill ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Saw ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cement Mixer ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Have You Done To A Crush You Hope They Never Find Out"
     },
     {
@@ -242,10 +206,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way To Tell If You Neighbors Are Home."
     },
     {
@@ -267,10 +227,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Might Stock Up On Before A Huge Snowstorm"
     },
     {
@@ -300,10 +256,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something your shampoo promises to do."
     }
   ],

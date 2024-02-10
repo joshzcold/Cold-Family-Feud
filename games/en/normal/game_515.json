@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Zebra",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Skunk",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Panda Bear",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cow",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Penguin",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Television",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Couch",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Refrigerator",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Microwave",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Table",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bed",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Mole",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Modeling",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Beauty",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Aerobics",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Body",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Blender",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Dish Washer",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Coffe Maker",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "TV",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Microwave",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Fridge",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Practice Responses",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Pray",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Clothes",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Walking",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Driving",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Using Bathroom",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Eating",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Paying Bills",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dressing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Laundry",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place You Hate To See Litter."
     },
     {
@@ -255,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Sleep, Name Something You Do While Lying Down"
     },
     {
@@ -288,10 +247,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Never Wear To Work Out At The Gym."
     },
     {
@@ -317,10 +272,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Why Might A Bride Or Groom Back Out Of Wedding At The Last Minute"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Jeans",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Gown",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Car",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Elevator",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Smiling",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Waving",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Posing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Crying",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Clapping",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Kissing Date",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Gum",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Sole",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Lint",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Taps",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Heel",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dog Poo",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Strawberries",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Nuts",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cherries",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Ice Cream",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Raisins",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pretzels",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ants",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Cowboy Boots",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cowboy Hat",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Chaps",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Spurs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Rope",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Saddle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Billy",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Willy",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Lily",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Millie",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Tillie",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than An Airplane, What Might A Cartoon Character Use To Help Them Fly?"
     },
     {
@@ -264,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fast Food Restaurant People Would Recognize By Their Sign."
     },
     {
@@ -297,10 +255,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Melts"
     },
     {
@@ -334,10 +288,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’D Expect To See A Lot Of In Hawaii"
     }
   ],

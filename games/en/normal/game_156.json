@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Phony",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "FALSE",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Imposter",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Imitation",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Counterfit",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Artificial",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bogus",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Dance",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Drink",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Eat",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cry",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Chat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "THrow Rice",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Toast The Couple",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -86,38 +72,31 @@
       "answers": [
         {
           "ans": "Appearance",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Honesty",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Experience",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Personality",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Education",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Intelligence",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Confidence",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -127,28 +106,23 @@
       "answers": [
         {
           "ans": "Mom",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Friends",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Kids",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sibling",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dad",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -158,38 +132,31 @@
       "answers": [
         {
           "ans": "Jim Carrey",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Mike Myers",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Michael J Fox",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Dan Aykroyd",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "William Shatner",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "John Candy",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Donald sutherland",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -199,33 +166,27 @@
       "answers": [
         {
           "ans": "Darth Vader",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Lightsaber",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Spaceships",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "R2 D2",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "C 3PO",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Jedi",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -252,10 +213,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Might See A Bear."
     },
     {
@@ -285,10 +242,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Expensive Even When It’s In Used Condition."
     },
     {
@@ -314,10 +267,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In An Office That Makes A Lot Of Noise."
     },
     {
@@ -339,10 +288,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Country With A Very Long Name"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Wrinkles",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Baldness",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Gain Weight",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Nose/Ear Hair",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lose Teeth",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Lose Hearing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Someone Else ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Boredom ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Husband Wife ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "On A Date ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Get Out Of House ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Shop",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Manicure",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Hair Salon",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Massage",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bubble Bath",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Elephant",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Lion",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tiger",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Monkey",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Pony",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bear",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Bear",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Bat",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Caveman",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Lion",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Make Up",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Clothes",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Car",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cigarettes",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hair Product",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Perfume",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Weight Loss Product",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Associate With David Beckham"
     },
     {
@@ -255,10 +218,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Extra Body Part You Would Like To Have"
     },
     {
@@ -292,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word That Begins With “Uni-.”"
     },
     {
@@ -317,10 +272,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place In The House Where Frightened Children Go During A Thunderstorm."
     }
   ],

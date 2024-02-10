@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Algebra",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "English",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Calculus",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Chemistry",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Geometry",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Physics",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Napkins",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Salt And Pepper",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Menu",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Glass",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Table Cloth",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ketchup",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Suitcase",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Wife",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Extra Clothes",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Baby Bag",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Flowers",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Car Seat",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Medical Professional",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Cop",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Military",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Mail Carrier",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Prisoner",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Janitor",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "T-Shirt",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Fries",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pizza",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Soda",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Eggs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "Telemarketer",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Ex",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bill Collecter",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Wrong Number",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Someone Might Not Want Their Phone Number listed In The Phone Book."
     },
     {
@@ -259,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Might Buy To Go With Their Motorcycle."
     },
     {
@@ -292,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Hobo Does To Pass His Time While Ridin’ The Rails"
     },
     {
@@ -321,10 +276,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Patriotic Song"
     }
   ],

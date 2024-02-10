@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Spider ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Snake ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Rat ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Scorpion ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Piranha ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Not White Enough",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Hurt",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Crooked",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cavity",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Cologne/Aftershave",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Car",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Deodorant",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Shampoo",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hair Growth Cream",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Beer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,18 +82,15 @@
       "answers": [
         {
           "ans": 100,
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": 200,
-          "pnt": 150,
-          "trig": false
+          "pnt": 150
         },
         {
           "ans": 300,
-          "pnt": null,
-          "trig": false
+          "pnt": null
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Lights",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Santa",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Snowman",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Reindeer",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tree",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "School/Work",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Both Have Kids",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Mutual Friiends",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -204,10 +177,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Eat For Breakfast In The Car On Your Way To Work."
     },
     {
@@ -241,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Class Do Students Take In College Thinking It Would Be An Easy “A”?"
     },
     {
@@ -274,10 +239,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Associate With An Undertaker."
     },
     {
@@ -311,10 +272,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Cartoon Character Who Never Seems To Get Any Older"
     }
   ],

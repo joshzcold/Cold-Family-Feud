@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Lady Gaga",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Royalty/Princess Diana",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "First Lady",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dog/Lady And The Tramp",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Internet",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Mouse",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Printer",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Speakers",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Keyboard",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Dinner",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Picnic",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Stay In Bed",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Movie",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Beach",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Dress",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Mini Skirt",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Swimsuit",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Underclothes",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Park",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Concert",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Sports Event",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Amusement Park",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -144,33 +122,27 @@
       "answers": [
         {
           "ans": "Shirt",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Dress",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Shoes",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hat",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Lipstick",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Swimsuit",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -209,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Exercise, Name Something A Person Might Do At A Fancy Health Club."
     },
     {
@@ -242,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Gymnastic Move Almost Every Kid Knows How To Do."
     },
     {
@@ -279,10 +243,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Might Complain That Her Husband Never Wants To Do"
     },
     {
@@ -304,10 +264,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Medical Instrument That A Doctor Uses"
     }
   ],

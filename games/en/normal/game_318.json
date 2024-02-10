@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Teachers Lounge",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Bar",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Homework",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Library",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cafeteria",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Nothing",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Shorts",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Underwear",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Tights",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "T Shirt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Newspapers ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Eggs ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cards ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sweets ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cigarettes ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Singing",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Sports",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Fishing",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Painting",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Needlework",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Writing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Gambling",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Unknown Sender",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "No Subject",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Goes To Junk",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Virus Alert",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Shift",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Backspace",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Delete",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Tab",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Caps Lock",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Footwear Worn By Both Men And Woman"
     },
     {
@@ -241,10 +206,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Something Politician Would Hate To Come Out About Past In News"
     },
     {
@@ -274,10 +235,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Married people: After How Many Did You Know Your Partner was The one?"
     },
     {
@@ -299,10 +256,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Who Might You Pool Money With To Buy Lottery Tickets?"
     }
   ],

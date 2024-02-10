@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Bathroom",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Hello",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Food",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Thank You",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Help",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Please",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Money",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Mickey Mouse",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Nurse",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Dentist",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Band Instructor",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Police Officer",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Circus",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Party",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Wedding",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Church",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Camping",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Registration",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Map",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Insurance Card",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Flashlight",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Gloves",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Tissues",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Car Manual",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Low Pay",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Hours Are Bad",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Mean Boss",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Location",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "No Benefits",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dangerous",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Travel A Lot",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -194,33 +162,27 @@
       "answers": [
         {
           "ans": "Gun",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Parasol",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pitchfork",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cane",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fan",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hat",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -255,10 +217,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Another Word For Lying That Makes It Sound More Innocent"
     },
     {
@@ -284,10 +242,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Use At Work Everyday, But Would Hate To Have To Use On Vacation"
     },
     {
@@ -313,10 +267,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Before 21, A Place A Young Person Could Hang On Friday Night"
     },
     {
@@ -338,10 +288,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Age Of A Woman That Is Too Young To Be Dating A 50 Year Old Man"
     }
   ],

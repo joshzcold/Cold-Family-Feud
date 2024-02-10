@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Guinness ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Fosters ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Stella ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Kronenbourg ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Grolsch ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Carling ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Gynaecologist ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Paediatrician ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Optician ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dentist ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cardiologist ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Food",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bed",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bathroom",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Clothes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Secrets",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": 8,
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": 9,
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": 11,
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Noon",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 7,
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Dirty Water",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "No Food",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Bowl Too Small",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Not Enough Water",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Beat Up By Other Fish",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Electricity Went Out",
-          "pnt": 80,
-          "trig": false
+          "pnt": 80
         },
         {
           "ans": "Romance",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Lightbulb Burned Out",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Birthday Cake",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a little boy might do that would make you suspect his father is Tarzan"
     },
     {
@@ -250,10 +214,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place You Might See A Balcony"
     },
     {
@@ -271,10 +231,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Something You Wish Couples Wouldn’t Do In Public"
     },
     {
@@ -296,10 +252,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A High School Subject Kids Might Take To Get An Easy “A.”"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Read",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Sleep",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Study",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Thinik",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Meditate/Pray",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Take A Test",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Plastic Surgery",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Exercise",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Wear Makeup",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Diet",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Use Botox",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dye Hair",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Shower",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Drink",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Water Lawn",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Laundry/Wash",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Swim",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Flush",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Smile",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Wink",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Chat Them Up",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Play With Hair",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Giggle",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Roller Coasters",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Bungee Jumping",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Horror Movies",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sky Diving",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fun Houses",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Driving Fast",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Rock Climbing",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,38 +154,31 @@
       "answers": [
         {
           "ans": "Blemish",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Scar",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bruise",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wrinkles",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Mole",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Freckles",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Hickey",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -254,10 +217,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your Cat Went On Strike,Name Something He Might Demand Before Returning To Work As Your Pet"
     },
     {
@@ -287,10 +246,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport In Which The Announcers Get As Excited As The Fans."
     },
     {
@@ -320,10 +275,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Get From A Post Office"
     },
     {
@@ -345,10 +296,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something From School That A Kid Might Try To Hide From Their Parents."
     }
   ],

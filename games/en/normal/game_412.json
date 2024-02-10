@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Alley",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Graveyard",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Woods",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Park",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Home",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Free Animals",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Don’t Feed Animals",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Animal Cruelty",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sleep On Job",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Show Up Late",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Themselves",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Oceans",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Tall Buildings",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Landmarks",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Trees",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Wax",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sticker",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "License Plate",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cover",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Antenna",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Make Up",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Period",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Fashion",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cooking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pregnancy",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Beach",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Pool",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Dance Club",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Spa",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Inflate"
     },
     {
@@ -239,10 +206,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Kind Of Bread Would Be Horrible For Making A Sandwich?"
     },
     {
@@ -264,10 +227,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Excuse People Use At A Party To Get Away From A Boring Person."
     },
     {
@@ -301,10 +260,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Grade Were You In School When You Developed Your First Crush?"
     }
   ],

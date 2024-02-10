@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Military Uniform",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Beard",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Cigar",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hat",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bandana",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Gun",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Monster",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Weapon",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Ghost",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Bad Guy",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Carnival Goers",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Pig/Animal",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Pumpkin/Squash",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Jar Of Candy",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Melon",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Baby",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Sheets",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Light Bulb",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Air Filter",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Batteries",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Furniture/Decor",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Keys",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Money",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Minds",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Glove",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Elevator",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Car",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Public Transit",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bathroom",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place It Would Be Strange To Go If You Didn’t Have Kids"
     },
     {
@@ -231,10 +198,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find Out About A City That Would Make You Change Your Plans To Visit."
     },
     {
@@ -256,10 +219,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Teens Should Have To Promise Never To Do Before Getting A Cell Phone."
     },
     {
@@ -289,10 +248,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word Or Short Phrase That Begins With The Word “High.”"
     }
   ],

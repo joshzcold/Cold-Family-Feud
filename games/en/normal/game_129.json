@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Try A Cigarette",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Stay Out Late",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Dye Hair",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Run Away",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sneak Out",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Talk Back",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tattoo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Lawyer",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Librarian",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Spy",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Mime",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Clergy",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Therapist",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Police",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Quiet",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Good Cook",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Not Nosey",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lives Far Away",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Nie",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Tennis Balls",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Racquet",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Towel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tennis Shoes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Socks",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Curtains",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Wallpaper",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Couch",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Rug",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Artwork",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "Football",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Hockey",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Baseball",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Rugby",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Commuted To Work By Jet Pack, Name Something Dangerous That Could Happen. Be Specific."
     },
     {
@@ -267,10 +230,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a common potato chip flavor."
     },
     {
@@ -296,10 +255,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Someone Might Not Ride Their Bike To Work"
     },
     {
@@ -329,10 +284,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With Rowing"
     }
   ],

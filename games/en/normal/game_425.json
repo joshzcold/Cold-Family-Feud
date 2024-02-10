@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Ball & Chain",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Extra Pounds",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Debt",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pets",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Cereal",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Macaroni and cheese",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Crackers",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hamburger Helper",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Donuts",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Popcorn",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pizza",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Learn How To Drive",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Take Driving Test",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Learn Rules Of Road",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Watch Videos",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Read A Book",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Take Notes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "SonnyAnd Cher",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "The Judds",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "The Osmonds",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ike And Tina Turner",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "The Carpenters",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Simon And Garfunkle",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Captain And Tennille",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Talking",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Shopping/Spending",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Drinking",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Sleeping",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Spending Money",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Watching TV",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Don’t Want To Talk",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Sleeping",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Busy",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Telemarketer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "In The Shower",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Noise That Birds Make."
     },
     {
@@ -265,10 +226,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Pay For Once A Year"
     },
     {
@@ -290,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Happen To Cause A Rock Concert To End Abruptly?"
     },
     {
@@ -327,10 +280,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Or Someone Associated With “The Partridge Family.”"
     }
   ],

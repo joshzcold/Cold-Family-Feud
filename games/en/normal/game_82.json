@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Strawberries",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Chocolate",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Grapes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Steak",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Oysters",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Lobster",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pasta",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Snow/Cold",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Wildlife",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Darkness",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Isolation/Nature",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Music",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Talk Show",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "News",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Traffic report",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Mother In Law",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Aunt",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cousin",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Mom",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Ex Spouse",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Uncle",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Music",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Reading Matereal",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Games",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Snacks",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "TV/Movie",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Soup",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Pudding/Jello",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Ice Cream",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Mashed Poatoes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Apple Sauce",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Oatmeal",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Finish This Sentence: Since I Got Married, I Have More_____."
     },
     {
@@ -262,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Scottish City"
     },
     {
@@ -287,10 +247,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Has Pineapple In It."
     },
     {
@@ -312,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Do You Need To Be A Member In Order To Enter?"
     }
   ],

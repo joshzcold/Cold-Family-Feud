@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Latte",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Mocha",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Cappuccino",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Espresso",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Meals",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Snacks",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Movies",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Drinks",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pillows",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Phones",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Casinos",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Bright Lights",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Beautiful Women",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Night Life",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Money",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Big Eyes",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Green Skin",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Big Head",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Small/Pointy Ears",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Antenna",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Hat/Headband",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Glasses",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Facial Hair",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Scarf",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hood",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Plant/Flowers",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Dessert",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Wine",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Candle",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Game Or Sport Where You Sit Down To Play"
     },
     {
@@ -243,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Think America Or Americans Waste Money On."
     },
     {
@@ -280,10 +243,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word Or Phrase That Has The Word “Key” In It."
     },
     {
@@ -309,10 +268,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Another Word For “Ugly.”"
     }
   ],

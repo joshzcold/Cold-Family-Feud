@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Long Hair",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Tattoos",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Inappropriate dress",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Piercings",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Dirty/Unkempt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Facial Hair",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Jail",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Mall",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bar",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Grocery Store",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Hair Products",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Make Up",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Jewelry",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Police ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Boss / Manager ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Parent ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "King / Queen ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lawyer / Judge ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Apple",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Snake",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tree",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Adam & Eve",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Partying",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Friends",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Freedom",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Financial Help",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People dye A Different Color"
     },
     {
@@ -234,10 +202,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Fairy Tales"
     },
     {
@@ -255,10 +219,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That People Ride"
     },
     {
@@ -288,10 +248,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sign That Your Girlfriend Might Be Turning Into A Cat."
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Bad Kids",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Too Many Kids",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Smells",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Low Pay",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "No One Laughs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Costumes Are Hot",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Gets Tired",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Helmet",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Knee pads",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Protective cup",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Elbow pads",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Goggles",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Gloves",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Smoke ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Talk On The Phone ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Open Door ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Open Window ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Jump Out ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Caesar / Bloody Mary ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Cosmopolitan ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Margarita ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Manhattan ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pina Colada ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sex On The Beech ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Out Of Focus",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Leave Lens Cap On",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "No Flash",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Finger In Picture",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Movie/TV Star",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Their Favorite Band",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sports",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pro Wrestling",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Superhero",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Way That A Babysitter Knows The Parents Are Nervous About Leaving."
     },
     {
@@ -251,10 +214,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Somewhere You Might Find A Painting"
     },
     {
@@ -284,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Patient In A Hospital Might Have Trouble Doing On His Own."
     },
     {
@@ -321,10 +276,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Doctor."
     }
   ],

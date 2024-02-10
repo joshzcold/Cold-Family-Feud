@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Donald duck",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Goofy",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Minnie Mouse",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Pluto",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Dumbo",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Bleached Hair",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Tights",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Boa",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tan",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bandana",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Earring",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Shampoo ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Water ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "A Hose ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "A Dog ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "A Bath ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Bloke ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Geezer ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Fella ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Guy ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Chap ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Shark",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Whale",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Dolphin",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Octopus",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Seal",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Clown",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Games",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cake",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Balloons",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Party Favors",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Parents",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Gets Stripped."
     },
     {
@@ -250,10 +214,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "early In Dating Someone, Name Something You Shouldn’t Do Repeatedly Unless The Feelings Are Mutual"
     },
     {
@@ -279,10 +239,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Sold By The Bunch"
     },
     {
@@ -308,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Might Take Home From Her Best Friend’s Wedding"
     }
   ],

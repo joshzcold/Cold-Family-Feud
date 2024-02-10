@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Grapes ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Tomatoes ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Ivy / Poison Ivy ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Strawberries ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Blackberries ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Lassie",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "101 Dalmations",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Benji",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dogs Go To Heaven",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bolt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Lady & The Tramp",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Shaggy Dog",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Helmet ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Shorts ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Gloves ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Glasses ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Hair Dryer",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Scissors",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Make Up",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Salon Chairs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Shampoo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Women",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Soda",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Coffee",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Tea",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Water",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Solar Panels",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Good Insulation",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Efficient Bilbs",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "New Windows",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -219,10 +189,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Movie Character Who Always Wears A Hat."
     },
     {
@@ -248,10 +214,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Reason Co-Worker Drinks After Work"
     },
     {
@@ -285,10 +247,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Politicians Always Say They’ll Improve."
     },
     {
@@ -314,10 +272,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Might Change After Breaking Up With A Partner."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Cleaning Up ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Feeding Him ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "To Big To Handle ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "No Room ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bathing Him ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Costume Party",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "In A Play",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Christmas/ Santa",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Just For Fun",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Teddy Bear ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "People ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Dog ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Towels",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Dishes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Eating Utensils",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -108,18 +92,15 @@
       "answers": [
         {
           "ans": "Colouring Book ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Your Hair ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Clothes ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -129,23 +110,19 @@
       "answers": [
         {
           "ans": "Grapefruit",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Lemon",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Cranberry",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Orange",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -176,10 +153,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name Something Every Woman Should Take With Her On A Blind Date"
     },
     {
@@ -209,10 +182,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name someone in your life who you hope never writes a tell-all book."
     },
     {
@@ -234,10 +203,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Say At The End Of A Date, Even If You Don’t Mean It."
     },
     {
@@ -271,10 +236,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Were You The Last Time You Felt You’d Been Ripped Off?"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Fall Out",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Pops",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Collision",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Rains",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Mouse ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Door Hinge ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bed ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Floor ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Wheel ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Fog",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Precipitation",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Trees",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Darkness",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mountains",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Buildings",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Vision",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Television",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bathroom",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dishwasher",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Microwave",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Drinks",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bed",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Religion",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Politics",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sense Of Humor",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Age",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "If They Have Kids",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Male/ Female",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Where They Live",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Dolphin ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Killer Whale ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Seal Lion ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Seal ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Walrus ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -232,10 +197,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Tv Not Work Without,"
     },
     {
@@ -257,10 +218,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something It’s Probably Much Harder To Do In Outer Space Than It Is On Earth."
     },
     {
@@ -286,10 +243,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Method People Use When Deciding What Lotto Numbers They’re Going To Play."
     },
     {
@@ -323,10 +276,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Slang Expression The Mafia Uses For The Word Kill"
     }
   ],

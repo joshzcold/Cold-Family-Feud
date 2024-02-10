@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Homemade Gift",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Give A Card",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Charge It",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Re Gift",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Chris Evans ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Geri Halliwell ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Cilla Black ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Mick Hucknall ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Anne Robinson ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Palm trees",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Beach",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Water",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Hawaiian Woman",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Volcano",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Off To See The Wizard",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "No Place Like Home",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Follow Yellow Brick Road",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "I’ll Get You My Pretty",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lions Tigers & Bears",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Robin Hood",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Superman",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Peter Pan",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Batman",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Mikhail Barishnikov",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": 72,
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": 65,
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": 80,
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": 66,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Why Might You Leave A Restaurant Before Even Eating There?"
     },
     {
@@ -230,10 +198,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Will Find On A Remote Control"
     },
     {
@@ -259,10 +223,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Being In Hot Water Is One Way Of Saying You’re In Trouble, Name Another."
     },
     {
@@ -296,10 +256,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Clothing Designer Who’s World Famous."
     }
   ],

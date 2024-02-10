@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "The Loot",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "ID",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Fingerprints",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Wallet",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "His gun",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Egypt ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bandages ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "A Tomb ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Wine",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Coffee",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Beer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Juice",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Milk",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Test",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Partner",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Taxes",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Diet",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -113,33 +96,27 @@
       "answers": [
         {
           "ans": "Jewelry Store",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Macys",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Neman Marcus",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bloomingdales",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Department Store",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Lord & Taylor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "Head",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Throat",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Feet",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Neck",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Back",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Ears",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someplace That Kids Need Their Parents To Drive Them"
     },
     {
@@ -231,10 +198,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Wear When You Ride A Bike."
     },
     {
@@ -264,10 +227,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Person In Your Life Who It Would Be Unwise To Live With."
     },
     {
@@ -289,10 +248,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Best Dish To Order At A Mexican Restaurant"
     }
   ],

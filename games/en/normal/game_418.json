@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bread ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Fruit ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Cereal ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Meat ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Potato ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Cars",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Music",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Food",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Gas Prices",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Economy",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "TV Shows",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Fashion",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Heart",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Prostate",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Blood Pressure",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Colon",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Vision",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Hearing",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Cholesterol",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,18 +98,15 @@
       "answers": [
         {
           "ans": "Motor",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Gas Tank",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Headlight",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Bad Vision",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Fear Of Flying",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Fear Of Heights",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Criminal Record",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Drinking Problem",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Fruit ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Sweets ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Perfume ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bath Oil ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Wine ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -213,10 +181,6 @@
           18
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Can Be Kept As A Pet"
     },
     {
@@ -246,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "At The Grocery Store, Name Something A Kid Is Told Not To Do."
     },
     {
@@ -283,10 +243,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Cheese With A Funny Name."
     },
     {
@@ -316,10 +272,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’ll Find On The Breakfast Menu No Matter What Kind Of Restaurant You’re At"
     }
   ],

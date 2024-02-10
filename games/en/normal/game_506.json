@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Water ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Big / Fat ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Mud ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Big Teeth ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Africa ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Clean",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Cook",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Buy Food",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Freshen Up Room",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Little Miss Muffet",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Twinkle Little Star",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Little Boy Blue",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Red Riding Hood",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Three Little Pigs",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Little Bo Peep",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Little Tommy Tucker",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Shower ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Swim ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Drink ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Wash ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Jump In Pool ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Traffic ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Overslept ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Car Trouble ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Someone Died ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Got Lost ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Hat",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Vest",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Name Tag",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Jacket",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tie",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Black That You Associate With Halloween."
     },
     {
@@ -241,10 +206,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do You Check Before Going To Bed?"
     },
     {
@@ -266,10 +227,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Magic Trick Would Become Dangerous If The Magician Was A Phony?"
     },
     {
@@ -295,10 +252,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Ticket People Wait In Line To Buy"
     }
   ],

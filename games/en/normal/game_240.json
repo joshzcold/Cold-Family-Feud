@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Eyes",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Hair",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Smile",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Clothes",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Body",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Shirt",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Underwear",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Socks",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Pants",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Fast Food Restaurant",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Movies",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Park",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bar",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bowling Alley",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Jungle ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Rain / Rainforest ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "River ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Snakes ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Piranhas ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Goldfish",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Kitten",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bunny",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hamster",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Turtle",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Gerbil",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Food/drinks",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Presents/bonus",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Fun",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "To network/suck up",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where Hot Dogs Are Often Served."
     },
     {
@@ -231,10 +198,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Parent May Grill Their Daughters About"
     },
     {
@@ -268,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A TV Gameshow You Think You Have A Good Chance Of Winning"
     },
     {
@@ -293,10 +252,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word Or Phrase Used To Describe Milk That’s Past Its Expiration Date."
     }
   ],

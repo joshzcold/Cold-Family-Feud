@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Candy Cane",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Fudge",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Mints",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Peppermints",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Chocolate Santa",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Hard Candy",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Elderly",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Pregnant",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Disability",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Hands Full",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Bride",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Minister",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Rings",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Music",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Flowers",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Groom",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Vows",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Banana Split",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Banana Pudding",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Banana Cream Pie",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Banana Bread",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Algebra",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Geometry",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Calculus",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Trigonometry",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Long Beard",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Comes Down Chimney",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Sitting On His Lap",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Employs Elves",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Would Not Want To Get Into An Argument With Your Partner."
     },
     {
@@ -235,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something “Fake” That You Might Give To The Person Hitting On You In A Bar."
     },
     {
@@ -268,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Footwear That Doesn’t Have Laces."
     },
     {
@@ -293,10 +252,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Paper, Name Something A Kid Might Scribble On"
     }
   ],

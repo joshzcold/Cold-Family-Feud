@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Drink",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Eat",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Talk",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Exchange gifts",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Dance",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sing",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Anniversary",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Prom",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Birthday Party",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dinner Date",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Late",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Esspresso",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Mocha",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cappuccino",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Carrot ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Vegetables ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Cabbage ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Potato ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Tomato ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Charades",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cards",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Monopoly",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Scrabble",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pictionary",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Family Fued",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Football",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Monster",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Cars",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cops",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bad Guys",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Dogs",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something Specific You Hate About Going To The Dentist"
     },
     {
@@ -246,10 +210,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do When Bored"
     },
     {
@@ -271,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Most Romantic Place To Go On A First Date."
     },
     {
@@ -308,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phrase That Begins With The Word “Open”"
     }
   ],

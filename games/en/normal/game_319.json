@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Work",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Family Members",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "School",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Old Times",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Food",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Donald Duck ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Daffy Duck ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Golden Duck ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Ed The Duck ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Jemima Puddleduck",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Toilet Duck ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Gel",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Mousse",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Grease",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Shampoo",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hair Spray",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dye",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Oil",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Romeo & Juliet",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Hamlet",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Othello",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Macbeth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Taming Of The Shrew",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Midsummer Nights Dream",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Much Ado About Nothing",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -153,38 +128,31 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Social Graces",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Good Job",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Appearance",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Maturity",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Well Dressed",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Education",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -194,33 +162,27 @@
       "answers": [
         {
           "ans": "Clock Radio ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Car ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Smoke Detector ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Watch ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bank Vault ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "House ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -259,10 +221,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Profession Would You Want Mate To Have Useful House"
     },
     {
@@ -284,10 +242,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If the North Pole gave guided tours,what specifically would be on the tour?"
     },
     {
@@ -313,10 +267,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Would You Prefer To Have Less Of"
     },
     {
@@ -338,10 +288,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation That You Hope Is Great At Their Job 100% Of The Time."
     }
   ],

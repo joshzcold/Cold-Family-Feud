@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Bride",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Minister",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "rings",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Music",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Flowers",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Grooms",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Vows",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Actor",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Catherine Zeta Jones",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Won Oscars",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Son Of Kirk Douglas",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Streets Of SF",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Producer",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Movies",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,23 +72,19 @@
       "answers": [
         {
           "ans": "Tie",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Socks",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Underwear",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sweater",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Dating",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Clothes",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Kids",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Work",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Batmobile",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Cape",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Robin",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Utility Belt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": 2,
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": 3,
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": 5,
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": 6,
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Someone At The Symphony Do That Tells You They’re Enjoying The Music"
     },
     {
@@ -248,10 +214,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That’s Often Described As “Beautiful.”"
     },
     {
@@ -273,10 +235,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Your House That Has Numbers On It."
     },
     {
@@ -306,10 +264,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Child Star Who’s Still Famous Today."
     }
   ],

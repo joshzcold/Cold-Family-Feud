@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Dust ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Pollen ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Hay ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Work ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Nuts ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fish ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Bread",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Medicine",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Eggs",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sour Cream",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cheese",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Yogurt",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Sport Events",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Bar",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Work",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Supermarket",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Strip Club",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Doctor/Dentist",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Head",
-          "pnt": 70,
-          "trig": false
+          "pnt": 70
         },
         {
           "ans": "Hands",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "House",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Sun",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Belly",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Lingerie",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Flowers",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Jewelry",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Chocolates",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Wings",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Engine",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Fuel",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Tail",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Rudder",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Chef Do While Cooking, That Would Ruin The Whole Dish?"
     },
     {
@@ -243,10 +206,6 @@
           18
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place That While On Vacation Might Be Difficult To Find A Bathroom"
     },
     {
@@ -280,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word Or Phrase That’s Often Followed Up With An Exclamation Point"
     },
     {
@@ -309,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Song Do You Think Santa Claus Has As His Cell Phone Ringtone?"
     }
   ],

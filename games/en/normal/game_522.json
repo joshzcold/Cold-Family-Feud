@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Dance",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Walk",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Age",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Eat",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lab Technician",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Scientist",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Nurse",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Chemist",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pharmicist",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dentist",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Night Light",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Refrigerator",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Alarm Clock",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Central Air",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "TV",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Radio",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Computer",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Under Bed",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Closet",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Garage",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Under Sofa",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Windows",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Corners",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -148,23 +124,19 @@
       "answers": [
         {
           "ans": "Celebs/ScandlesCelebs/Scandals",
-          "pnt": 73,
-          "trig": false
+          "pnt": 73
         },
         {
           "ans": "Aliens",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Diets",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fashion",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Pumpkin ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Witches ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Trick Or Treat ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Ghosts ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dressing Up ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Comes In An Aerosol Can"
     },
     {
@@ -259,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See In Horror Movies That Begins With The Letter “B.”"
     },
     {
@@ -292,10 +251,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Place Where You Feel The Need To Get Up And Stretch Your Legs."
     },
     {
@@ -321,10 +276,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Needed To Wash A Dog"
     }
   ],

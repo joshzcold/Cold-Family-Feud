@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Churn Butter",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Carry Water",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Handwash Clothes",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Milk Cows",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Farm Work",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Chop Wood",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Hunt",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Eggs",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Coffee",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Pancakes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bacon",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Juice",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Toast",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Bungee Jumping ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Parachuting ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Roller Coaster ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Hang Gliding ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Skiing ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Police",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Firefighter",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Lawyer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Teachers",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Nurse",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Turning Green",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Ears Grow",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Growing Antennas",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Eyes Get Bigger",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Glowing",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Can’t Speak",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "MILK",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "CIGARETTES",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "MEAT",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "ICE CREAM",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "ALCOHOL",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "FLOWERS",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -245,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person With Extra Long Arms Would Be Good At"
     },
     {
@@ -270,10 +230,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A City Where A Movie Car Chase Never Be Filmed"
     },
     {
@@ -307,10 +263,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Skill That A Person’s Resume Might Claim Than Are"
     },
     {
@@ -340,10 +292,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Use To Wash The Car"
     }
   ],

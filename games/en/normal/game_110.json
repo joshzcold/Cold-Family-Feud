@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Camping ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Tent ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Sleep ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Zip ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Ants ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Lawyer",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Actor/Model",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Business Person",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Monopoly",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Scrabble",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Life",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Triveal Persuit",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Family Fued",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Candy Land",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Sorry",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Friends",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Parents",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Therapist",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pastor",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Psychic",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Internet",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Bathroom",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Kitchen",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Bedroom",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Den",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dining Room",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Kids Room",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Living Room",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "Crying Baby",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Nightmares",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Feeding Times",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Sick Kid",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Activity You’d Never Do Without Wearing A Helmet"
     },
     {
@@ -263,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s More Important To A Teenager Than To An Adult."
     },
     {
@@ -292,10 +251,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Stop Doing When You Become An Adult"
     },
     {
@@ -317,10 +272,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Kind Of Athlete Would Have An Unfair Advantage In A Roller Derby?"
     }
   ],

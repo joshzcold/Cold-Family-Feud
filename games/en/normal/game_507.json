@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bell",
-          "pnt": 75,
-          "trig": false
+          "pnt": 75
         },
         {
           "ans": "Cheering",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Booing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Punching",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Applause",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Hollywood",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "New York",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Miami",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Paris",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Las Vegas",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Rope",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Food",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Water",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Boots",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "First Aid",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cell Phone",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Chalk",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Backpack",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Clothes",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Pencils",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pens",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Crayons",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Books",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Notebook",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Police Station",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Donut Shop",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Concert",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Riot",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Parade",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Crime Scene",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -184,38 +154,31 @@
       "answers": [
         {
           "ans": "A Prince",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Evil Stepmothers",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Fairy Tails",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Beauty",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Women",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Princesses",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cartoons",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -246,10 +209,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Use To Cover Up Bad Smells In Your House"
     },
     {
@@ -279,10 +238,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Puppy Likes To Play With"
     },
     {
@@ -304,10 +259,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Instrument Parents Hate To Hear Their Children Play"
     },
     {
@@ -333,10 +284,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way You Can Tell That A Person Has Been Crying"
     }
   ],

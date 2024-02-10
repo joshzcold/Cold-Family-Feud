@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Wind",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Swimming",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Exercise",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Ceiling Fan",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Convertible",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Roller Coasters",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Flames",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Food",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Kids",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "A Surprise",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Kiss/Touch",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Touch",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Turn On Music",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Undress/Change Clothes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Acty Flirty",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Coupons",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Eat Less",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sales",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Buy In Bulk",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Buy Generic Brands",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Boss",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Parent",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Ex",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Grandparent",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Donut/Coffee Shop",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "In A Police Station",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "At A Mall",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "At A Concert",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "In A Parade",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Streets/Sidewalk",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Co-Workers Talk About Around The Water Cooler"
     },
     {
@@ -249,10 +214,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Doctor Might Ask A Patient To Do During A Checkup."
     },
     {
@@ -282,10 +243,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Married People: What Do You Do With Your Spouse That Reminds You Why You Fell In Love?"
     },
     {
@@ -303,10 +260,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Talent A Beauty Contestant Might Demonstrate"
     }
   ],

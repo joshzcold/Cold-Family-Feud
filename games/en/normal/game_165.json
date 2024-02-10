@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Sports Illustrated",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Time",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "G.O.",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Vogue",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Rolling Stone",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Money",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Vacuums",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Book",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Magazines",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cosmetics",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cookies",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Insurance",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Fuller Brushes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Baked ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Runner ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Broad ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Kidney ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Soya ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Les-Bean (True) ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Wear Makeup",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Shave",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Pierce Ears",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cook",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Stay Home Alone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,38 +124,31 @@
       "answers": [
         {
           "ans": "Beating On Chest",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Eating Habits",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Very Possessive",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Hair All Over",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pull Hair",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Has Club",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Rude",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -189,23 +158,19 @@
       "answers": [
         {
           "ans": "Opie",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Barney Fife",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Aunt Bea",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Gomer Pyle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -228,10 +193,6 @@
           18
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do To Their Hair That Makes Them Look Silly"
     },
     {
@@ -257,10 +218,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Traditional Dish Would You Prepare For Somebody Learning About American Culture?"
     },
     {
@@ -286,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Trait Of A Good Teacher Would Also Be Important For A Good Con Man?"
     },
     {
@@ -311,10 +264,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation In Which You Might Wear A Hat"
     }
   ],

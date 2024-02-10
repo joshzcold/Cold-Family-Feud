@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Wave",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Hug",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Smile",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Shake Hands",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Kiss",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "High Five",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Nod",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Cough",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Vomit",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Cry",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Take Temperature",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Easter ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "April Fool ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Showers ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Rain ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Spring ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Grows tail",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "She swims often",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Getting scales",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Always in water",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Gills",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Blueberry",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Strawberry",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Raspberry",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Boisenberry",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Grape",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Cherry",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Darling ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Babe ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Sweetheart ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Honey ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Love ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something From The Laundry That’s Impossible To Fold Neatly."
     },
     {
@@ -254,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Be Hired To Do For A Wedding"
     },
     {
@@ -283,10 +243,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Is White"
     },
     {
@@ -308,10 +264,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Animal You Would Not Want To Encounter Hanging From Tree"
     }
   ],

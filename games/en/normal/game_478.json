@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Asking For Date",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Job Interview",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Break Up",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Wrong Number",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Socks",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Undergarments",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "T Shirt",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hat",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Makeup",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sunglasses",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tie",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": 12,
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": 11,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": 9,
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Las Vegas",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Theater",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Times Square",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bar",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Store",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Motel",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Theme Park",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Jerry Springer",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cops",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cheaters",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "The Nightly News",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "America’s Most Wanted",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Oprah Winfrey",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Judge Judy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,38 +150,31 @@
       "answers": [
         {
           "ans": "Work",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Pay Taxes",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Feed Themselves",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pay Bills",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Clean",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Brush Teeth",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Wipe Themselves",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -249,10 +213,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Often Gets Tied Up"
     },
     {
@@ -278,10 +238,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See While Sitting In The Dentists Chair"
     },
     {
@@ -303,10 +259,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Often End Up Overeating"
     },
     {
@@ -332,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Always Have With You So You Don’t Get Lost"
     }
   ],

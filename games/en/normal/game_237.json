@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Can Of Drink ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Door ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "A Jar ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bag ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Car Door ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Music Box ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Love At First Sight",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Endless",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Fate",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Soul Mate",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Sun Protection",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Bad Hair Day",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Raining",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bald Head",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bad Haircut",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cold",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Purse",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Baby",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Lipstick",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Kleenex",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Lock Of Baby Hair",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Photos",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Baby Teeth",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Clothes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Blanket",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Artwork",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Tattoo",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Job",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hair Dye",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Marker",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Teeth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Relationship",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Housing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Do On Even The Oldest Of Computers."
     },
     {
@@ -255,10 +218,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Guy Might Do When He’s With His Girlfriend That His Buddies Might Tease Him About."
     },
     {
@@ -288,10 +247,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Popular Type Of Cheese"
     },
     {
@@ -313,10 +268,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation That Uses A Brush"
     }
   ],

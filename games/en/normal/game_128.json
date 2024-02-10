@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Concert",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "While Traveling",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sleeping",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Babysitting",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Swimming",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "In Traffic",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Arguement",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": 12,
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": 13,
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": 10,
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": 14,
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": 11,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 6,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 5,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Plane",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Falling Star",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Money",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "UFO",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Person",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Mole ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Worm ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Rabbit ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Badger ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Hair",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Home/Rooms",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Car",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Clothes/Shoes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drapes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Eyes",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Bed ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Sofa ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Hammok ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "The Floor ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "A Tent ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In The House That You Might Not Use When People Are Trying To Sleep."
     },
     {
@@ -264,10 +226,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Firefighter Needs A Lot Of"
     },
     {
@@ -297,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Expression That Ends With The word “House”"
     },
     {
@@ -326,10 +280,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Article Of Clothing Some Women Try To Wear As Tight As Possible"
     }
   ],

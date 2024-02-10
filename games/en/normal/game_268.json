@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Bar",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Church",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Grocery Store",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Internet",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Work",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Party",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Sold",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Going Once … Gone",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bid",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Do I Hear",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "10 Gallon Hat",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Gun",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Horse",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Boots",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Rope",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Pray",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Sing",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Close Eyes",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Count",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Talk",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Look Outside",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Heart",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Baby",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Kiss",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Forever",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Fries",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Ketchup",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Grease",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Salt",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Fat",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Beverage",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Napkins",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Your Mother, Name A Female Who Told You What To Do While You Were Growing Up"
     },
     {
@@ -250,10 +214,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Athlete Wouldn’t Do The Night Before A Big Game"
     },
     {
@@ -279,10 +239,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Test In Store Before Buying"
     },
     {
@@ -312,10 +268,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Winter Activity That Makes You Sweat."
     }
   ],

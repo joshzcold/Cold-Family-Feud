@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Birthday",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Valentines Day",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Anniversary",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "In Love",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sick",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Funeral",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Apology",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Lamb/Sheep",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cow",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Horse",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pig",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bunny",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Chick/Duckling",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,23 +72,19 @@
       "answers": [
         {
           "ans": "Bed ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Sofa ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Floor ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "A Tent ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Garden ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Plant Pot ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Green House ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Window Seal ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Dress",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Wig",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Bra",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "High Heels",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lipstick",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Panty Hose",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Christmas",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Birthday",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "New Year Eve’s",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Experienced Parent Does Automatically When They Pick Up A Crying Baby."
     },
     {
@@ -266,10 +230,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Soemthing You Can Never Find When You Need It"
     },
     {
@@ -295,10 +255,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Teenagers Stress Out About."
     },
     {
@@ -332,10 +288,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason a Person Might Get Rid Of A Pet."
     }
   ],

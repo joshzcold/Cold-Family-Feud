@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "An Envelope ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "A Letter ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Licence ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Form ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Suitcase ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Busy",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bad Mood",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Stuck Up",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tired",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "No Pen",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "With Family",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Undress",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Cough",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Wait",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Open Mouth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bend Over",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Urine Sample",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": "Drink",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Lose Money",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Smoke",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Play Cards",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Scream",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sweat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Christmas",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Thanksgiving",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "New Year’s",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Halloween",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "4th Of July",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "Kangaroo",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Koala",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Dingo",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Desert",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word That Begins With “Con.”"
     },
     {
@@ -267,10 +230,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food You Cook For Which You Don’t Need To Read A Recipe"
     },
     {
@@ -292,10 +251,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Object Considered To Be Good Luck"
     },
     {
@@ -321,10 +276,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Might A Pet Lover Think Their Dog Should Be Allowed?"
     }
   ],

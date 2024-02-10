@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Sweater",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Hat",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Socks",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Earrings",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tie/Scarf",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Shop",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Sleep",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Eat Leftovers",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Watch Football",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Clean Up",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Actor",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Musician",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Model",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Politition",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Athlete",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Stop working",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Leak",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Ruin clothes",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Make noise",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Overflow",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Shake",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Drink",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Snack",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Another Story",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "TV/ Movies",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Singing/Guitar",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Farming",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Barbecuing",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Horse Back Riding",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Line Dancing",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Manners",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -208,10 +177,6 @@
           22
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Look Forward To Doing On A Day Off"
     },
     {
@@ -245,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Bell"
     },
     {
@@ -270,10 +231,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You're Likely To Find In A Kitchen Drawer"
     },
     {
@@ -295,10 +252,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A House Have That Makes Trick/ Treaters Afraid Approach"
     }
   ],

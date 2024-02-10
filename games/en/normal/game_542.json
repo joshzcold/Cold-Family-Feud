@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Drink ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Cake ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Paint ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cement ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Food ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Suntan Lotion ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "A Dingy ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Cold Drinks ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Sing",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Read",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Talk",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Listen To Music",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sleep",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Pit Stop",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Smoke",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Drive",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Talk On Phone",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sing",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Shells",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Whale",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Message In A Bottle",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Seaweed",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Trash",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "Chips",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Popcorn",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Peanuts",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pizza",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Crackers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ice Cream",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Our Ancient Ancestors Might Have Danced To Celebrate."
     },
     {
@@ -231,10 +198,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Rich Woman Might Have."
     },
     {
@@ -268,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Your House You Wish Were Just A Little Bit Bigger"
     },
     {
@@ -293,10 +252,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something About The Brady Bunch That Is Different From Most Families."
     }
   ],

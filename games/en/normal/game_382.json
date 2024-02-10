@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "No Smoking",
-          "pnt": 78,
-          "trig": false
+          "pnt": 78
         },
         {
           "ans": "Restrooms",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Wait To Be Seated",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "No Shirt No Service",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Not Resp. For Items",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Miami",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Orlando",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Jacksonville",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Tampa Bay",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Daytona Beach",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Tellahassee",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Key West",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,18 +64,15 @@
       "answers": [
         {
           "ans": "Lawnmower ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Conversation ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "A Business ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "No Food",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Spoiled Food",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Frost",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Empty Ice Tray",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Food Is Thawed",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Exploded Can",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Tyres ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Exhaust ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Windscreen ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Clutch ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Windscreen Wipers ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Mexico",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "France",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Canada",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "England",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ireland",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Holland",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Italy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -234,10 +201,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Dogs Get More Excited About Than People."
     },
     {
@@ -263,10 +226,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Name Something You Bring With You Everywhere"
     },
     {
@@ -300,10 +259,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Could Have A Movie Star Narrate Your Life, Whose Voice Would You Choose?"
     },
     {
@@ -329,10 +284,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Air Conditioning Name A Word That Starts With Air"
     }
   ],

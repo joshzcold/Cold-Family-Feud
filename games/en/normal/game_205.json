@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Illegal Substance",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Criminals",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bones",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Missing People",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Birds",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Snow",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Polar Bears",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Santa Claus",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Icebergs",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Penguin",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Research Station",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Seals",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Triangle",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Circle",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Square",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Oval",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Rectangle",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Diamond",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Star",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "His Dad/Homer",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "His Sister/Lisa",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "His Mom/Marge",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "The Bully/Nelson",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Principal Skinner",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Sing Carols",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Show Affection",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Dance",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Play Family Games",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pose For Pictures",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Shirt",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Hat",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Jacket",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Uniform",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Badge",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Woman Wouldn’t Change Her Last Name After Marrying."
     },
     {
@@ -268,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides “Family Feud”, Name A Tv Show With “Family” In Its Title"
     },
     {
@@ -305,10 +263,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Real Or Fictional Name A Famous Family That Has A Lot Of Kids"
     },
     {
@@ -338,10 +292,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Club A High School Student Might Belong To"
     }
   ],

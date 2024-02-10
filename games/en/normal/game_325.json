@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Nurse",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Doctor",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bride",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Chef",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dentist",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Painter",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Ice Cream Vendor",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -45,18 +38,15 @@
       "answers": [
         {
           "ans": "Teacher",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Babysitter",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Girl Next Door",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Arcade",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Park",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Bar",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Toy Store",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "School",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Amusement Park",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Michael Jackson",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Brittney Spears",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Donny Osmond",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Shirley Temple",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -128,18 +108,15 @@
       "answers": [
         {
           "ans": "Fish ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Butterfly ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "A Crab ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "Under Kitchen Sink",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Garage",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Medicine Cabinet",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Laundry Room",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -192,10 +165,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Sheets, Something On Bed"
     },
     {
@@ -221,10 +190,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job In Which You’d Have An Easy Time Getting Dates"
     },
     {
@@ -258,10 +223,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Age When Boys Stop Playing With Stuffed Animals (Numeric Only)."
     },
     {
@@ -287,10 +248,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Do You Get Your Christmas Tree From Each Year?"
     }
   ],

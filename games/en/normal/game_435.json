@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Clock",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Microwave",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "TV",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Computer",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Stove",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "VCR/DVD Player",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Sapronas",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Godfather",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Untouchables",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Public Enemy",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Scarface",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Goodfellows",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Weapon",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Binoculars",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Camera",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Phone",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Magnifying Glass",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Briefcase",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Flashlight",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,28 +98,23 @@
       "answers": [
         {
           "ans": "Closet",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Bedroom",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cupboard",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Under Rug",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Under Couch",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Haunted",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Termites",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Mold",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Price Went Up",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Leaky Roof",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bad Foundation",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,23 +154,19 @@
       "answers": [
         {
           "ans": "Pierce",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Tatoo",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Tan",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Shave Their Head",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of The Body That Starts With The Letter “B.”"
     },
     {
@@ -264,10 +226,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name One Word You’d See On The Cover Of A Women’s Magazine, But Probably Not On A Magazine For Men"
     },
     {
@@ -301,10 +259,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Game People Play At Picnics"
     },
     {
@@ -338,10 +292,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If A 10-Year-Old Ran His Own Restaurant, Name Something You Might See On The Menu."
     }
   ],

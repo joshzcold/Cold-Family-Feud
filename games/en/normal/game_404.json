@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Flies / Insects ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Bird Mess ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Ticket ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Fliers ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Frost ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Police Officer",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Trucker",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Construction",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Security Guard",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Hamburgers",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Sanswiches",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -87,33 +74,27 @@
       "answers": [
         {
           "ans": "Economical Car",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "House/Improvement",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Stocks/Savings Plan",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "washer/Appliance",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Insurance",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Groceries",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -123,38 +104,31 @@
       "answers": [
         {
           "ans": "Ship Sinkong",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Iceberg",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Overeating",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Drowning",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Motion Sickness",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hurricane",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Fire",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Harry Potter",
-          "pnt": 76,
-          "trig": false
+          "pnt": 76
         },
         {
           "ans": "Peter Pan",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tom Sawyer",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Huck Finn",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place You See A Lot Of Green Grass."
     },
     {
@@ -244,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Can You Identify The Bad Guy In A Movie, Even Before He Does Anything Wrong"
     },
     {
@@ -269,10 +231,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Children Might Get Rewarded For"
     },
     {
@@ -302,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Cartoon Villains Are Always Doing That Lets You Know They’re Bad"
     }
   ],

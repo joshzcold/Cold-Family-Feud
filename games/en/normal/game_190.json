@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Friends",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Boss",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Teacher",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Doctor",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Partner",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Clergy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Bumps",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Speed",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Curves",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Eating Too Much",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Napkin",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Origami/Paper",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Towels",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sheet",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Newspaper",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Blanket",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Eat",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Relax",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Shower",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Watch TV",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Sir Elton John",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Stevie Wonder",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Liberace",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ray Charles",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Beethoven",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Billy Joel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Keys ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Leg ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Stool ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Pedals ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Strings ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Might Do While Playing Cards That Would Annoy Everyone Else At The Table"
     },
     {
@@ -260,10 +222,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Soemthing Strapped To Family’s Car On Vacation"
     },
     {
@@ -285,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Street That You’ll Find In Almost Every City In America"
     },
     {
@@ -306,10 +260,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Has Buttons"
     }
   ],

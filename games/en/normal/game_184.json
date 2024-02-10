@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Water It ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Fertilizer ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Talk To It ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Music ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Child",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Puppy",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Teddy Bear",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Woman",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "ID",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Bad Tips",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Dogs",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Driving",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Finding House",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bad Areas",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Bar Of Soap",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Wash Cloth/Loofah",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bubble Bath/Salts",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Shampoo",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Rubber Ducky",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Razor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Family",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Yourself",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Money",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Last Job",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Politics",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Dust",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "vacuum",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sweep",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mop",
-          "pnt": 1,
-          "trig": false
+          "pnt": 1
         },
         {
           "ans": "Wipe Windows",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With A Pirate"
     },
     {
@@ -244,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something On A Baby That Might Be Described As “Chubby”."
     },
     {
@@ -269,10 +231,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Find In Wallets"
     },
     {
@@ -290,10 +248,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Gets Plucked"
     }
   ],

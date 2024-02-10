@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Wink ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Eye Contact ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Chat Up Line ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Smile ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Buy A Drink ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Get Phone Number ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "French Fries",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Burger",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Milkshake",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Chicken Nuggets",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "I Have To Go Pee Pee",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "I Have To Go Potty",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Poo Poo",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Got To Go Tinkle",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Napkin",
-          "pnt": 75,
-          "trig": false
+          "pnt": 75
         },
         {
           "ans": "Paper Towel",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Handkerchief",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tissue",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sleeve",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Wash Cloth",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Pain Reliever",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Lay Down",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Massage",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Heating Pad",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Chiropractor",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bengay",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Population",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "State Flower",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "State Bird",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Size",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Makes Your Eyes Water"
     },
     {
@@ -228,10 +194,6 @@
           22
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Complaint Next-Door Neighbor Might Approach With"
     },
     {
@@ -249,10 +211,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With An Anchor"
     },
     {
@@ -278,10 +236,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Food That People Often Slurp While Eating"
     }
   ],

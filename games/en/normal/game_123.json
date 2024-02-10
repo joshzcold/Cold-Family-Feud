@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Laundry",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Names",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Toys",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Birthdays",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Food",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Toothbrush",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Hair",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Clothes/Pants",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hands",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Car",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Coat",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Car",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Sweatshirt",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Cape",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Sleeping Pill",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Count Sheep",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Drink Warm Milk",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Read",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Watch TV",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Listen To Music",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Listen To The Radio",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "President’s Day",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Martin Luther King",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Columbus Day",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Dust",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Dirt",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Eyelash",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bug",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Soap",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Smoke",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name something You Hope For, But Can’t Count On, When Going On Vacation"
     },
     {
@@ -249,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Expression That Begins With The Word â€œFirstâ€"
     },
     {
@@ -274,10 +235,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Fan Ask Of Their Favorite Musician For If They Met In Person"
     },
     {
@@ -307,10 +264,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Car Can’t Run Without"
     }
   ],

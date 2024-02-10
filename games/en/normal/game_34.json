@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Age",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Weight",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Address",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Phone Number",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Income",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drinking Habits",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Sleep Naked",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Underwear ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Socks ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Scarf ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Hat ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Big Bird",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Oscar The Grouch",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cookie Monster",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Snuffy",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Head ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Tooth ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Back ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Ear ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Heart ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Footloose",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Tremors",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Diner",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Mystic River",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hollow Man",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Apollo 13",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "A Few Good Men",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Talks Too Loud",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Tap Pen/Pencil",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Sings",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cough",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Chew Gum",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Never Leave Unlocked"
     },
     {
@@ -246,10 +210,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something that people pitch"
     },
     {
@@ -279,10 +239,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Former President Would Look Funny Wearing A Dress?"
     },
     {
@@ -316,10 +272,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Alternative To Turkey On Thanksgiving"
     }
   ],

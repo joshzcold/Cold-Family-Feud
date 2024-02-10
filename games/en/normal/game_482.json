@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Place Of Worship",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Park",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Restaurant",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Mall",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Office",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Movie Theater",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Car",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Sand",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Sun Burn",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Crowded",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Parking",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Driving",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Warm Food",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Being Looked At",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -86,23 +72,19 @@
       "answers": [
         {
           "ans": "Bad Reception",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Cost To Much",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Bad Service",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Not Enough Channels",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Bread ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Lunch ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Butter ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Ham ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Lettuce ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Weapon",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Camera",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Money",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Magnifying Glass",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Binoculars",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Spy Glasses",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Tape Recorder",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "General Lee ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Knight Rider ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Starsky & Hutch ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Mr Bean ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Only Fools ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Flintstones ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -245,10 +209,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That May Be Found Washed Up On The Beach"
     },
     {
@@ -278,10 +238,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That It’d Be Unflattering To Be Compared To"
     },
     {
@@ -307,10 +263,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Charlie Chaplin"
     },
     {
@@ -336,10 +288,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way You Know Your Teacher Is Having A Bad Day."
     }
   ],

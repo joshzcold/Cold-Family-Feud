@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Lisence",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Airplane",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Radar",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Flight Attendant",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Gas",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Passengers",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Uniforms",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Sing",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Speak Loudly",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Dance",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ignore Someone",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Squid",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Sharks",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Whales",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Jellyfish",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Octopus",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Eel",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dolphins",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Tattoo",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Hair",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Watch",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bracelet",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cast",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Lover",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Freckle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,23 +128,19 @@
       "answers": [
         {
           "ans": "Sing",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Listen",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Shut The Door",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hide",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Diet",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Muscle",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Protein",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Weights",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Gym",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place On Your Body That You Can’t Scratch When It Itches"
     },
     {
@@ -260,10 +222,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Topic Most Men Can’t Stand, But Women Could Discuss For Hours"
     },
     {
@@ -297,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Subject That Often Comes Up In Family Feud Question"
     },
     {
@@ -322,10 +276,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Can You Tell That The Person In The Car Next To You Is Listening To Music?"
     }
   ],

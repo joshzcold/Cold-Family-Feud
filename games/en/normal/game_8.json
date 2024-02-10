@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Riding Horses",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Roping",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Shooting",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hunting",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stealing Cattle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Rodeo",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Other People",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Work/ School",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Eating",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Alcohol",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Pitch Fork ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Spade Or Shovel ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Rake ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Lawn Mower ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Wheel Barrow ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "A Hoe ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Moving Out",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Getting Married",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Going To Be A Dad",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Dropping Out",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Joining Military",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Rudolph",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Christmas Story",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Charlie Brown",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Frosty",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Grinch",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "A Wonderful Life",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Home Alone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Traffic",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Accident",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Breakdown",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Road Work",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something At A Rock Concert That You Don’t Pay To See, But See Anyway."
     },
     {
@@ -254,10 +218,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Wear To Protect Themselves."
     },
     {
@@ -291,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Is The First Thing You Would Do After A Fender Bender?"
     },
     {
@@ -316,10 +272,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Stand-up Comedian Might Say He Had A Bad Night"
     }
   ],

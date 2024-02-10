@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Food Server",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Cashier",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Nurse",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Doctor",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Teacher",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Construction",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cook",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Dwarfes",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Deadly Sins",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wonders Of The World",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Days Per Week",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Seas",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Continents",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,23 +68,19 @@
       "answers": [
         {
           "ans": "Kiss",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Say Vows",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cut Cake",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Dance To First Song",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Take Medicine",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Doctor",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Rest",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Vitamin C",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Hospital",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Airport",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "School",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Store",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Eat",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Sleep",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Dance",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Yell",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Not Want To Buy At A Dollar Store."
     },
     {
@@ -223,10 +190,6 @@
           25
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Has Fangs"
     },
     {
@@ -248,10 +211,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Danny."
     },
     {
@@ -281,10 +240,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Wives: Name Something In Your Makeup Drawer That Your Husband Wouldn’t Know What To Do With"
     }
   ],

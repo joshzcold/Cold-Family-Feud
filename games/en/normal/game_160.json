@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Name",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Religion",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Room Color",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Childcare",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Discipline",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Motor Racing ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Ice Hockey ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Canoeing ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "American Football ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "6 Months",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "12 Months",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "2Months",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "3 Months",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "24 Months",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "4 Months",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "8 Months",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Driving To Fast",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Wash Me",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Not Enough Gas",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Being Run Too Much",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Irregular Oil Change",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Too Much Weight",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Left In The Rain",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Sweets",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Valentines",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Notes",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Schoolwork",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Germs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Invitations",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Not Attracted",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Rude",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "No Sparks",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bad Breath",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Boring",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Use To Help Them Find A Lost Item."
     },
     {
@@ -268,10 +230,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Sister Borrow From Their Brothers."
     },
     {
@@ -301,10 +259,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Mickey Mouse."
     },
     {
@@ -330,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Many People Spend A Lot Of Money On, Just To Impress Others."
     }
   ],

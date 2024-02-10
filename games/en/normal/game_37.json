@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Watch TV",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Burp",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Smoke Cigarette",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Brush Teeth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dishes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dessert/ Coffee",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Wear Extra Clothes",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Wrap In A Blanket",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Light A Fire",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Cuddle Up",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Take A Bath",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Drink Something Hot",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Hickey",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Tattoo",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Piercing",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Revealing Clothes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Make Up",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Diary",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Lock The Door",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Turn Off The Lights",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Grab Keys",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Brush Teeth",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -143,18 +120,15 @@
       "answers": [
         {
           "ans": "8.00am ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "7.30am ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "9.00am ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Florida",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Arizona",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Texas",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "California",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Feature You Have In Your Car That A Mother Might Like To Have On Her Baby’s Stroller"
     },
     {
@@ -248,10 +214,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Hard To Hold Onto"
     },
     {
@@ -281,10 +243,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Look For In Their Dream Car"
     },
     {
@@ -318,10 +276,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Office Worker Says They Could Use More Of."
     }
   ],

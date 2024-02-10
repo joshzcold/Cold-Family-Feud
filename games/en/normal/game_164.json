@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Stores",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "People",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Entertainment",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Crime",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Traffic",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Money",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Crashing The Car",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Speeding",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Fighting",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Jumping Off Roof",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Beef",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Milkbone",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bacon",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Chicken",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cat",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Blue Jeans",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Shorts",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "T Shirt",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bathing Suit",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tank Top",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sneakers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sweats",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Run",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Go In To Work",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Yard Work",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sleep",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Breathe",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Bedtime",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Before A Trip",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Before Church",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "At The Movies",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Might Do With A Rental Car That They Wouldn’t Do With Their Own Car."
     },
     {
@@ -249,10 +214,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why You Might Get Introduced Many People At Once"
     },
     {
@@ -274,10 +235,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Bird You'd Never Keep As A Household Pet"
     },
     {
@@ -307,10 +264,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Mother-To-Be Might Ask Her Friends’ Advice On Before The Baby Is Born."
     }
   ],

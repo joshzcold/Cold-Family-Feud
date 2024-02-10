@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Sick",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Work",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Broke",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Far Away",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Car Problems",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Too Much Homework",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Dolly Parton",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Garth Brooks",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Johnny Cash",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Tim Mcgraw",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Willie Nelson",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hank Williams",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Kenny Rogers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Internet",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Cookbook",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "TV",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Friends",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Family Recipe",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Lips",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Heart",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Eyes",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hair",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Price Is Right",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Family Fued",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Wheel Of Fortune",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Jeopardy",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Prom",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Party",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Reunion",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Kid Might Not Be Allowed To Go In A Swimming Pool Without"
     },
     {
@@ -244,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Trip Over"
     },
     {
@@ -277,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Cut In Half Before Eating"
     },
     {
@@ -302,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit You Often Find on Or In Pancakes"
     }
   ],

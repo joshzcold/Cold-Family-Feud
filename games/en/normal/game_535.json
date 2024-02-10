@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Arms ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Ears ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Eyes ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Legs ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Breasts ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Testicles ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Eat Meals",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Wake Up/ Sleep",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Brush Teeth",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Shower",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Go To Work/ School",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Bird ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Kettle ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Train ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Whistle ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Person ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Wind ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "They’re Shy",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Not Just About Looks",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "It’s Safer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Convenience",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "People Are Sober",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Lots of glasses",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Music",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pictures",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "CDs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Rolls",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "French Toast",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Cookies",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Apple Pie",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Candles",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Gum/Candy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do People Use To Keep Their Place In A Book If They Don’t Have A Bookmark?"
     },
     {
@@ -258,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Music Easy To Dance To"
     },
     {
@@ -283,10 +243,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Happens To A Couch That Lets You Know It’s Time To Get Rid Of It?"
     },
     {
@@ -312,10 +268,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Find On The Cover Of A Novel."
     }
   ],

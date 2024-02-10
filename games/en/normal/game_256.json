@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Cat",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Snake",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bird",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fish",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hamster/Gerbil",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Lizard",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Taxes",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Credit",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Interest",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Budget",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stocks",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mortgage",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Loans",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Lose Weight",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Get Rich",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Attract A Mate",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Look Younger",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Grow Hair",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Become Happier",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,33 +98,27 @@
       "answers": [
         {
           "ans": "Wool",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Down",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Fur",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Leather",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fleece",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cotton",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Piano ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Instruments ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Guitar ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Music Sheets ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Drums ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "Sky/Clouds",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Birds",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Body Of Water",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Land",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Wings",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Another Plane",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -245,10 +209,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See On The Set Of Every Game Show"
     },
     {
@@ -278,10 +238,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something A Man Teaches His Son To Do"
     },
     {
@@ -303,10 +259,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Never Quite Believed About The Brady Bunch."
     },
     {
@@ -332,10 +284,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Himself, Name Something A Man Cleans Before A Big Date (More Specific Than “House”)."
     }
   ],

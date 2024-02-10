@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Drink Too Much",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Kiss Someone",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Dance All Night",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Get Naked",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Put Foot In Mouth",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Ostrich",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Flamingo",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Crane",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Stork",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Singing",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Directing",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Modeling",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Fashion design",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Politics",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Spokeperson",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Eating",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Smoking",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Using A Bathroom",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Sitting On Furniture",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Keeping Shoes On",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Helping To Clean Up",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Leave Name",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Leave Number",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Leave Message",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Call back",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Song",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Character/ Voice",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Slogan",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "The Product",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Organ In The Body That Many People Should Take Better Care Of"
     },
     {
@@ -235,10 +202,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You'd Find In A Rich Persons Mansion"
     },
     {
@@ -264,10 +227,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See At A WWE Match You’d Never See At A High School Wresting Match."
     },
     {
@@ -297,10 +256,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Product That Might Be Disposable"
     }
   ],

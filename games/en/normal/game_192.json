@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Movie ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "TV ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Book ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Play ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Restaurant ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Corn On The Cob",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Apples",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Steak",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Candy",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ribs",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Mickey Mouse",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Buds Bunny",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Charlie Brown",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Mighty Mouse",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Snoopy",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Popeye",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Betty Boop",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Gold Coins",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Jewelry",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Parrot",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Eye Patch",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Rum",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Argue",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Eat",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Party",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sleep",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Date",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Talk On The Phone",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Shop",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Monday ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Friday ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Saturday ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Thursday ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tuesday ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Lose On Roller Coaster"
     },
     {
@@ -268,10 +230,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Hypnotist Might Tell You To Do"
     },
     {
@@ -293,10 +251,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You’d Be Asked To Stop Doing In A Movie Theater"
     },
     {
@@ -330,10 +284,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why You Might Stay In A Hotel In Your Own City."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "I Love You",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Your In Trouble",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Let’s Leave",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Stop Talking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Help Out/Dishes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "License Plate",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Bumper Stickers",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Bumper",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Dirt",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tires",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Lights",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Dark Sunglasses",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "The Way They Dress",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Haircut",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "With The President",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Have An Earpiece",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "They’re Quiet",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "ID Card",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Undress",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Cry",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Discuss Heavy Issues",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stick Out Tongue",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cough",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Love",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Intimacy",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Companionship",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Money/Security",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Kids",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,18 +146,15 @@
       "answers": [
         {
           "ans": "Candles",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Frosting",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Lettering",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Put In Front Of Their House To Deter Burglars."
     },
     {
@@ -245,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do After returning Home From A Long Vacation"
     },
     {
@@ -274,10 +235,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Might Put In Her Hair"
     },
     {
@@ -303,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Complaint A Costumer Might Have About Their Hotel Room"
     }
   ],

@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "Cooking ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Shopping ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Chores ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 1,
@@ -25,33 +22,27 @@
       "answers": [
         {
           "ans": "French Fries",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Eggs",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Potato Chips",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Corn On The Cob",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Meat",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Tomatoes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Heart",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Cupid",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Kiss",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Ring",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Rose",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Pictures",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Gift Cards",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Form Letter",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -118,38 +100,31 @@
       "answers": [
         {
           "ans": "Paint",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Plumbing",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Lumber",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bathroom",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Kitchen",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Electical",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Flooring",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Bone ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Ball ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Cat ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Stick ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Shoes ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Public Place Where You’d Expect Married Couples To Show Affection"
     },
     {
@@ -240,10 +206,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Complaint People Might Have About Buying Things Online."
     },
     {
@@ -277,10 +239,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That People Put In Their Ears"
     },
     {
@@ -306,10 +264,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With A Hippopotamus"
     }
   ],

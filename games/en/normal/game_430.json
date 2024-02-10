@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": 3,
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": 4,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 2,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 6,
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": 5,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": 1,
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Lord Of The Rings",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Star Wars",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Titanic",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Jaws",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "King Kong",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Jurassic Park",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "The Matrix",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,23 +68,19 @@
       "answers": [
         {
           "ans": "Old Clothes",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Toys",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Funiture",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Photos",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,18 +90,15 @@
       "answers": [
         {
           "ans": "Smell ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Flowers ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Woman ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Model ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Salesperson ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Cabin Crew ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Receptionist ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hostess ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Auto",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Dental",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Life",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Home",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Vision",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why You’d Get A Blindfold."
     },
     {
@@ -236,10 +202,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Room That You’d Find In A Mansion, But Not A Regular House"
     },
     {
@@ -261,10 +223,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’re Not Supposed To Do While Filling Your Gas Tank."
     },
     {
@@ -286,10 +244,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Mean Prank Kids Play On Halloween"
     }
   ],

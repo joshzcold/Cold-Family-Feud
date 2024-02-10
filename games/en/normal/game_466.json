@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Santa",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Parents",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Grandparents",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Friends",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pen Pal",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "President",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Tire",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Lightbulb",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Windshield Wipers",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Spark Plugs",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Battery",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Air Filter",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Wine ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Vine ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Seeds ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Bunch ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Green ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": "Consession Stand",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Seats",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Screen",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Bathroom",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Movies",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Customers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Eating",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Cooking",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Beauty",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Singing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Jeans",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bikini",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Birthday Suit",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Shorts",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Underwear",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sweats",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sneakers",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do At Home, But Not While Staying In A Hotel."
     },
     {
@@ -260,10 +222,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Most Women Want To Be Successful At"
     },
     {
@@ -281,10 +239,6 @@
           25
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Doctor Would Hate To Run Out Of"
     },
     {
@@ -314,10 +268,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Vampires Hate"
     }
   ],

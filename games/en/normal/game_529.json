@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "School",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Age",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Clean Room",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Name",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Frog",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Spider",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Anteater",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Birt",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lizzard",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Swimming Area",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Park",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Shopping District",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bar",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Celebrity’s Home",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "School",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Fight Back",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Tell Adult",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Stand Up To Them",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Ignore Them",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Use Bathroom",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Get Gas",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Eat",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Car Trouble",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Need Rest",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Car Sick",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Kids Fighting",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Tails",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Claws",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Fur",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Paws",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "9 Lives",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do While Waiting In Line"
     },
     {
@@ -254,10 +218,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Modern Device That Older People Have Trouble Using"
     },
     {
@@ -287,10 +247,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Tv Comedy Character"
     },
     {
@@ -316,10 +272,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Oil"
     }
   ],

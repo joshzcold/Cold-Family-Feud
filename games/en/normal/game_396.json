@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Eggs Benidict",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Crepes",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Belgian Waffles",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bagel",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Quiche",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Croissant",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Her Bedroom",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Take A Bath",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Spa",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Place Of worship",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Library",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Park",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Z ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Q ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "X ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Y ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "U ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Mat ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Milk Bottles ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Paper ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pot Plant ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cat ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Sock ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Wellington ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Stiletto ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Winke Picker ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Food/Drinks",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Cable TV",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Hot Tub/Pool",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Alarm",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Internet Access",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Air Conditioning",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous England Footballer From The 70's"
     },
     {
@@ -250,10 +214,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food Or Drink That Makes A Sound The First Time Its Container Is Opened."
     },
     {
@@ -279,10 +239,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Food, Name Something You Buy At A Supermarket"
     },
     {
@@ -304,10 +260,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone, Past Or Present, Who Is Known For Hosting A Children’s Television Program"
     }
   ],

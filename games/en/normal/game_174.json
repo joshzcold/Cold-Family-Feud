@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "HEELS",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "SNEAKERS",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "BOOTS",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "SANDLES",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Make Bed",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Sing/ Play Radio",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Vacuum",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Dust",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "…Mad Black Woman",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Diary Of Ann Frank",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Princess Diaries",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bridgette Jones’",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Diary Of A Wimpy Kid",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Vampire Diaries",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Spinning Round ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Lack Of Air ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Alcohol ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Giving Blood ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Phone Number",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Name",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "What Dhe Looks Like",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Address",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -144,33 +122,27 @@
       "answers": [
         {
           "ans": "Age",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Name",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Phone Number",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sex",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Status",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Height",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -209,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific In A Hotel Handy To Have Camping"
     },
     {
@@ -238,10 +206,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Academic Why Might A Teen Choose A Certain College?"
     },
     {
@@ -267,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When It’s Cold Outside, Name Something You Dream About Doing On A Sunny Beach"
     },
     {
@@ -300,10 +260,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Superhero Who Doesn’t Fly"
     }
   ],

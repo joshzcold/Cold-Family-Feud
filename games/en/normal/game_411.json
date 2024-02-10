@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Macy",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Saks",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bloomingdales",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Barneys",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Laundry",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Clean",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Eat",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Go To Work",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Go To Sleep",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Use The Bathroom",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Shop",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Cell Phone",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Radio",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Rooster",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Sun",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cat/Dog",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Arm",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Leg",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Finger",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Foot",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Airplanes",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Snowflakes",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Footballs",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cards/Valentines",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Paper Dolls",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Crane/Bird",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Eye",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Leg",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Hand/Warm",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Teeth",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Boil You Veggies Too Long, Name Something They Lose."
     },
     {
@@ -236,10 +202,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Goes Around & Around"
     },
     {
@@ -265,10 +227,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Doctor Might Use"
     },
     {
@@ -286,10 +244,6 @@
           24
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See At A Fashion Parade"
     }
   ],

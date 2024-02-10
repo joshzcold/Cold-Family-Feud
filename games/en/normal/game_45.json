@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Snake",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Worm",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Turtle",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Ant",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Caterpillar",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "His Live Life",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Buying A Car",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "His Career",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "His Outfit",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "His Finances",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Party",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Holiday",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Food",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Carnival",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Decorations",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Shoes",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Nose",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Pants",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Hat",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Soda",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Beer",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Perfume",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Milk",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shampoo",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Jokes",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Being Tickled",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "TV Show/Movie",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Clown",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -205,10 +177,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Most Children Have In Their Bedroom"
     },
     {
@@ -238,10 +206,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job Where You Might Have Your Name On The Front Of Your Shirt."
     },
     {
@@ -267,10 +231,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do If You Run Out Of Clean Pants"
     },
     {
@@ -292,10 +252,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Expense From A Business Trip That Your Employer Probably Wouldn’t Reimburse"
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Not Hungry",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Too Busy",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "On A Diet",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Work/Meeting",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Feeling Sick",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Dirty Hair",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "The Tip",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Always Moving",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Late",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Too Picky",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Batman",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Spiderman",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Zorro",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Jason Vorhees",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Lone Ranger",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "The Mask",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Silent Treatment",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Yell",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Pout/Frown",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Slam Doors",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Roll Eyes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Glare",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Good With Money",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Cooking",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cleaning",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Maintainance",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Pumkin",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Bunny",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Clown",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Angel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Princess",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why It Takes You Forever To Get Out Of The Grocery Store."
     },
     {
@@ -241,10 +206,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Worst Job For Someone With Allergies."
     },
     {
@@ -274,10 +235,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Most Parents have Pictures Of Their Child Doing"
     },
     {
@@ -311,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Dessert That’s Made With Chocolate."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "A Club ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "An Axe ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Rock / Stone ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hammer ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "A Spear ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Doctor’s Office",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "DMV",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Court",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Classroom",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Restaurant",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Sleigh Bells",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Ho Ho Ho",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Reindeer On Roof",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Footsteps",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Get Into drugs",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Kidnapped",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Become Spoiled",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Grow Up To Fast",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Test Tubes",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Brains",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Beakers",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Chemicals",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -144,33 +122,27 @@
       "answers": [
         {
           "ans": "Wedding ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Birthday Party ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Night Out ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Graduation ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "School Play ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Photoshoot ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Scientists Wear In The Lab"
     },
     {
@@ -226,10 +194,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Put On Your Car"
     },
     {
@@ -255,10 +219,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Past or present,name a presidential couple whose dinner conversations you’d love to eavesdrop on."
     },
     {
@@ -280,10 +240,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Real Or Fictional, Name A Famous Tony"
     }
   ],

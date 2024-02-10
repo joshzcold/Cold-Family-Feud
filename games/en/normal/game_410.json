@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Ice ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Ice Cream ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cocolate ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Snow ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Butter ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "CD/Record",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Furniture",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Glasses/Eyeglasses",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Car",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Mirror",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Camera Lense",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Dancing",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Saturday Night Live",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Pulp Fiction",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Grease",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pilot",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Scientology",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Steak",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Ribs",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Ham/Pork",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Chicken",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Steak",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Eggs",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Toast",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Chicken",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cookies",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": 13,
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": 16,
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": 12,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": 15,
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": 14,
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": 18,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Associate With Shirley Temple"
     },
     {
@@ -262,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job, Often Depicted On TV, That You’ve Dreamt Of Having Yourself."
     },
     {
@@ -295,10 +255,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Question Do You Think Is Asked The Most At A High School Reunion?"
     },
     {
@@ -320,10 +276,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Talent Can’t Be Learned, Born With"
     }
   ],

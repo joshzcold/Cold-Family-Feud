@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Papers In Driveway",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cars Are Gone",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "They Told You",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Don’t Pick Up Phone",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Mail Pile Up",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Lights Off At Night",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Sauce ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Mustard ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Cheese ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Onions ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sausage ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Iraq",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Afghanistan",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "North Korea",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sudan",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Columbia",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Syria",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Haiti",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "No Time",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Lazy",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Too Expensive",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Taste",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Only Live Once",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Batting",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Throwing",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Catching",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Running",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pitching",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Coordination",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Jay Leno",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Jerry Seinfeld",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Steve Martin",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Jimmy Darante",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bob Hope",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Adam Sandler",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Lived In Soap Opera Land, Name Something That Would Happen A Lot More Often."
     },
     {
@@ -265,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Do You Get You Christmas Tree From Every Year?"
     },
     {
@@ -294,10 +251,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Sold In Checkout Lines"
     },
     {
@@ -323,10 +276,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of TV Show A Man Might Be Embarrassed To Say He Watches A Lot Of."
     }
   ],

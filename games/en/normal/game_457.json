@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Cook",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "House Chores",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Show Affection",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Show Emotion",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Talk",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Sneeze",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Cough",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Blow Nose",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sleep",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sniffle",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Lack Of Preperation",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Shuttering",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Mis Pronunciation",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sweating",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Impression",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Volume Of Voice",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Baseball Cap",
-          "pnt": 71,
-          "trig": false
+          "pnt": 71
         },
         {
           "ans": "Piercing",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Makeup",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sunglasses",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Memory",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Hair",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Teeth",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Eye Sight",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hearing",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Drink",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Move Out",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Date",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Get A Job",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "No Curfew",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Subject In School That Would Have Helped Santa Do His Job?"
     },
     {
@@ -254,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell me how many months it takes before a dog is house trained.(Numeric Only)"
     },
     {
@@ -287,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do You See At The Olympics That You Might Also See At A Spelling Bee."
     },
     {
@@ -320,10 +276,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Shouldn’t Leave Inside Their Parked Car."
     }
   ],

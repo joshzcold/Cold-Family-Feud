@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Texas",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Georgia",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Alabama",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Kentucky",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tenessee",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "South Carolina",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Cat ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Dustbins ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Junk / Rubbish ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Robber ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Drunk ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tramp ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Movie",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Album",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "TV Show",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Book",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Charity",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Clothes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Kids ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Christmas ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Playing ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Fun ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Box ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Ice Cream",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Ribs",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Spaghetti",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sloppy Joe",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pizza",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Watermelon",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Hurricane",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Snow/Blizzard",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tornado",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Flood",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Earthquake",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Couple Might Save From Their Wedding Day"
     },
     {
@@ -272,10 +234,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fruit That You Rarely See Made Into Juice"
     },
     {
@@ -305,10 +263,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When You Have A Headache, Name Something It Hurts To Do."
     },
     {
@@ -334,10 +288,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Most Important Occasion In A Mans Life"
     }
   ],

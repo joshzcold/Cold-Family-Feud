@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Knives ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Apron ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hat ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Pots & Pans ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cookware Dishes ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cookbook ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Leading Lady",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Gun",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Bad Guy",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Computers",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "People skills",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Punctuality",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Multitasking",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Organization",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Stop",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Green Light",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Yield/Slow Down",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dead End",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Do Not Enter",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Curves Ahead",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Caution",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,13 +116,11 @@
       "answers": [
         {
           "ans": 13,
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": 10,
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Zebra",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Tiger",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Cheetah",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Leopard",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Skunk",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Children Are Excited By At The Zoo."
     },
     {
@@ -235,10 +202,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason A Person Might Prefer To Walk On A Treadmill Instead Of Taking A Walk Outside."
     },
     {
@@ -264,10 +227,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Smell You Associate With Fall"
     },
     {
@@ -297,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do People Wear To Work Now That Would Have Been Considered Too Informal 50 Years Ago?"
     }
   ],

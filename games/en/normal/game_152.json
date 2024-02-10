@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Back ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Head ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Legs ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Feet ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Neck ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Money ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Jewellery ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "A Will ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Documents ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Deeds ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Grouchy",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Grumpy",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Crabby",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Cranky",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Angry",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Moody",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Ring ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Money ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Engagement ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sparkles ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Necklace ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Make Up",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "My Cell Phone",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "My Keys",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,18 +134,15 @@
       "answers": [
         {
           "ans": "Windows ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Gutter ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Chimney ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Would Santa Hate To Forget On Christmas Eve?"
     },
     {
@@ -222,10 +190,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Authorities Ask To See When You’re Crossing An International Border?"
     },
     {
@@ -247,10 +211,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Game In Which Small Children Have An Advantage Over Adults"
     },
     {
@@ -284,10 +244,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Usually Comes With A Particular Sauce"
     }
   ],

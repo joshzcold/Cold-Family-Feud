@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Work",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Romance",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Fashion",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Parenting",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Relationships",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "TV ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Video / DVD ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Video Games ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Toys ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Games ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Lawyer",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Doctor",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Politician",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Judge",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Teacher",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Police",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Accountant",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Stamp",
-          "pnt": 64,
-          "trig": false
+          "pnt": 64
         },
         {
           "ans": "Signature",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Address",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Salutation/ Greeting",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Cheat",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Gossip",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Smoke",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Flirt",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Daydream",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bite Nails",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Spend Time With Kids",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Set Own Hours",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Dress Casual",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sleep In",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Rest",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "No Boss",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "A Young Person “Fights For Their Right To Party.” What Might An Old Person Fight For The Right To Do?"
     },
     {
@@ -269,10 +230,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Babies Do That You Would Be Embarrassed To Have Someone See You Do As An Adult"
     },
     {
@@ -302,10 +259,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Keep Near Their Favorite Easy Chair."
     },
     {
@@ -339,10 +292,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A State That Starts With The Letter “N.”"
     }
   ],

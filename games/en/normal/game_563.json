@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Sell It",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Throw It Away",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Give It Back",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Keep It",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "100MPH",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "80 MPH",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "70 MPH",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "90 MPH",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "60 MPH",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Traffic",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Smog",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Too Many People",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Crime",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Leaves ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Paper ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Dust ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Litter / Rubbish ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Kite ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Upper Arm",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Chest",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Stomach",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Calf",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Butt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Singing",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Magic",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Juggling",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Mime",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Guitar",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -205,10 +177,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Girl’s Name That Begins With “S.”"
     },
     {
@@ -238,10 +206,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name an ingredient some people would say makes all food taste better."
     },
     {
@@ -271,10 +235,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Plugs Into Your Computer."
     },
     {
@@ -304,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Your Favorite Type Of Girl Scout Cookie"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Yell",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Throw Things",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Argue",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Curse",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cry",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Turn Red",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Locker",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Beach Bag",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Purse",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pocket",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cars",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Shoes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Towel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Vet ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Film Star ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Chef ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Lion Tamer ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Trainer ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Zoo Keeper ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Towel",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Sunscreen",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Beach Toys",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sandals",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Bathroom",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Playground",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Hallway",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Alley",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cafeteria",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Locker room",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Parent",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Boss",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Ex",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "partner",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Kids",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place That You Wish You Had The Nerve To Go Alone"
     },
     {
@@ -272,10 +234,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason A Person Might Pretend To Be Older"
     },
     {
@@ -309,10 +267,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When You Donâ€™t Want To Get Out Of Bed In The Morning, Name Something That Gets You Up Anyway"
     },
     {
@@ -334,10 +288,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Person Who Uses A Broom"
     }
   ],

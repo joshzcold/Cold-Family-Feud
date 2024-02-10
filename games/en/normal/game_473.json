@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Too Hot",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Expensive",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Volcano",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Far Away",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Chores",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Drive carefully",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Fill it up",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Make curfew",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Wash it",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Werinkles",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Aches",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Gray Hair",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sagd",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -87,38 +74,31 @@
       "answers": [
         {
           "ans": "Hot Dogs",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pudding",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Little Cereal Boxes",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Beer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Soda",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Yogurt",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Eggs",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Water ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Window / Glass ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Lake / Pond ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Polished Steel ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Cup ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Cars",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Toilet/Sink",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Refrigerator",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Nose",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -198,10 +169,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Big Pet"
     },
     {
@@ -227,10 +194,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Check Under The Bonnet Of Your Car"
     },
     {
@@ -264,10 +227,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Tomatoes, Name Something You Sometimes Find In Spaghetti Sauce"
     },
     {
@@ -289,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Need If You Were Going To Impersonate Mickey Mouse"
     }
   ],

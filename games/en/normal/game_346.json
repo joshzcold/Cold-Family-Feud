@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Get Flowers",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Make Reservations",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Buy Gift",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Choose The Place",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Kiss/Intimacy",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Swim",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Ride A Bike",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Go To School",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Get On A Plane",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Coffee",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Hot Chocolate",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Tea",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Alcohol",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Sand ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Moat ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Knight ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "King ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Drawbridge ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Candy",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Stuffed Animal",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Jewelry",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Flowers",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Plane ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Superman ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bird ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Batman ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Fairy ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you’ve broken by sitting on it"
     },
     {
@@ -226,10 +194,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Product Door-To-Door Salesman Used To Sell"
     },
     {
@@ -251,10 +215,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Cartoon Movie That Features Animals As The Main Characters."
     },
     {
@@ -284,10 +244,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than A Hand-Buzzer, Name Something You’d Be Sure To Buy At A Gag Shop"
     }
   ],

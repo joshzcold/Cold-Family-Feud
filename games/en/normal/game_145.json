@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Relationship",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Elevator",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lies",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Car",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Debt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Traffic",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cave",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Salt And Pepper",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Glass",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Silverware",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bread",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Napkins",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Butter",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Food",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Dressing",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Cheese",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Salt/Pepper",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Croutons",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Meat",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Beer",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Vodka",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Rum",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Tequila",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Gin",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Whiskey",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Wine",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -158,28 +132,23 @@
       "answers": [
         {
           "ans": "Barbie Doll",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Yo Yo",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Baby Doll",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Top",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hula Hoop",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -189,23 +158,19 @@
       "answers": [
         {
           "ans": "Weather",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Needs Repairs",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Security Advisory",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Refueling",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Someone Might Miss Their Exit While Driving On A Freeway."
     },
     {
@@ -277,10 +238,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Be Nervous To Do As An Actress For Fear That You’d Wind Up On A Tabloid."
     },
     {
@@ -310,10 +267,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "name A Place You’d Visit More Often If It wasn’t So Crowded There"
     },
     {
@@ -343,10 +296,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Food Do You Want To Avoid Before Kissing Someone?"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Toothpaste",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Gum",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Mouthwash",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Teeth Strips",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Caramel",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Cherries",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cream",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Coconut",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Marhmellow",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Nuts",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Ketchup/Sauce",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Napkins",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "French Fries",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "salt",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Ice",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Attitude",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Books",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Food",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Beer",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Computer",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Tuition",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Rings",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Dress",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Cake",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Location",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Date",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Flowers",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Menu",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Jewellery ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Trophies / Cups ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "China / Porcelain ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Figurines ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pictures ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Do On Family Feud, That Makes Your Family Upset With You?"
     },
     {
@@ -255,10 +218,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Bill You'd Be Afraid To Pay Late"
     },
     {
@@ -284,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Animal You Associate With India"
     },
     {
@@ -309,10 +264,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Instead Of Having A Shouting Match Name Another Tactic A Person Might Use To Win A Disagreement"
     }
   ],

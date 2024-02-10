@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Crown",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Castle",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Marriage to queen",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Thrown",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Riches",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Servants",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Command",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Brazil ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Hazel ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Peanut ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Chestnut ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cashew ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Drink ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Go Out ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Have A Party ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Dance ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Make Phone Calls ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Gym",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Work",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Theme/Water Park",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bus Station",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Beans",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Hot Dog",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Fish",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Marshmellows",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Spam",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Beef Jerky",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Lens ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Shutter ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Lens Cap ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Film ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Find Under Couch Cushion?"
     },
     {
@@ -245,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific You Almost Always Eat Out Of A Bag."
     },
     {
@@ -270,10 +231,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something College Freshmen Have To Start Sharing When They Live In The Dorms."
     },
     {
@@ -295,10 +252,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Restaurant Job That A Stay-At-Home Parent Does For Free All The Time"
     }
   ],
