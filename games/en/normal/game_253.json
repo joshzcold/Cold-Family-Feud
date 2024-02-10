@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Clubs ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Flask ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Tees ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Balls ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Lunch ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Dramatic Lives",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Big Houses",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Nice Clothes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Good Looks",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Spanking",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Breaking Up",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Shot",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Loss Of Privileges",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Sneezy",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sleepy",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Grumpy",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Bashful",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -118,33 +100,27 @@
       "answers": [
         {
           "ans": "Eye Patch",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Hook",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Hat",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Wooden Leg",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sword",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Parrot",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Elevator",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Seesaw",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Yo Yo",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Thermometer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ball",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Airplane",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Skiing, Name Something People Enjoy Doing At A Ski Resort"
     },
     {
@@ -248,10 +214,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Really Shouldn't Do When Driving"
     },
     {
@@ -273,10 +235,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Something About Current Job Better Than Former Job"
     },
     {
@@ -298,10 +256,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Repairman You Might Call To Your House In An Emergency."
     }
   ],

@@ -3,6 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const glob = require("glob");
 const bson = require("bson");
+import * as loadGame from "backend/load-game"
 
 const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
@@ -212,18 +213,20 @@ const ioHandler = (req, res) => {
               message.data = JSON.parse(loaded);
             }
 
+            let loadGameData = loadGame.addGameKeys(message.data)
+
             let game = rooms[message.room].game;
             game.teams[0].points = 0;
             game.teams[1].points = 0;
             game.round = 0;
             game.title = true;
-            game.rounds = message.data.rounds;
+            game.rounds = loadGameData.rounds;
             // clone the final round so we can store data about the second final round
-            game.final_round = message.data.final_round;
-            game.final_round_2 = message.data.final_round;
+            game.final_round = loadGameData.final_round;
+            game.final_round_2 = loadGameData.final_round;
             game.gameCopy = [];
-            game.final_round_timers = message.data.final_round_timers;
-            game.point_tracker = new Array(message.data.rounds.length).fill(0);
+            game.final_round_timers = loadGameData.final_round_timers;
+            game.point_tracker = new Array(loadGameData.rounds.length).fill(0);
             wss.broadcast(
               message.room,
               JSON.stringify({ action: "data", data: game })

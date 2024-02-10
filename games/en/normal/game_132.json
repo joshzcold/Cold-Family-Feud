@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Balls",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bowling Pins",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Fruit",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Job and Home/Duties",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Multiple Dates",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cigarettes",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Painkiller",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Feminine Products",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Chocolate",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "T Bone",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Bad To The",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Dog",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Back",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Wish",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Funny",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Chicken",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Duck",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Penguin",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pregnant Woman",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Toddler",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Fireworks",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Shooting Star",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Rainbow",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hot Air Balloon",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Airplane",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Blimp",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Dark Clouds",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "TV",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Refrigerator",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Clock",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Computer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Telephone",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stereo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Working, Name Something You Could Stop Doing If You Became A Millionaire."
     },
     {
@@ -256,10 +218,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phone Company That Offers Low Long Distance Rates"
     },
     {
@@ -285,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Get Antsy From Sitting Too Long."
     },
     {
@@ -318,10 +272,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Like to Have In Your Backyard"
     }
   ],

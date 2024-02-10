@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Trumpet ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Saxophone ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Drums ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Clarinet ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Double Bass ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Swimsuit",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Summer Clothing",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pool Equipment",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lawn Care",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ice Cream",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Air Conditioner",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Meat ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Cleaver ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Knife ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chopping Board ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Conversation",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Date",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Work/Meeting",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Movie/TV Show",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Underwear",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Socks",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Jeans",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tie",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Nightgown",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Bow/Ribbon",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Sweater",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Diamond Collar",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tutu",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something At The Playground Wish Adult Size"
     },
     {
@@ -238,10 +206,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Might Find A Frog"
     },
     {
@@ -271,10 +235,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part of A Fish That Most People Don’t Eat."
     },
     {
@@ -308,10 +268,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Put On Their French Fries."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Mowing Lawn",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Washing Car",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Gardening",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Raking",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Taking Out Trash",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Jesus",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Gandhi",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "President Bush",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Martin Luther King, Jr.",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Moses",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Dalai Lama",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Child",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Dog",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Police Officer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Owner",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Decent Food",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Family",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Gravity",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Normal Bathroom",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Gym",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Golf/Country Club",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Military",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Fraternity",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "They’re Dirty",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Picture Day",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "It’s Halloween",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Wear’s A Uniform",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -196,10 +169,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something that house cleaners clean more often than you do(More specific than a room)"
     },
     {
@@ -233,10 +202,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That You See On A Motivational Poster"
     },
     {
@@ -262,10 +227,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Famous Painter Would You Ask To Paint Your Portrait?"
     },
     {
@@ -291,10 +252,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A President Probably Has With Him Everywhere He Goes?"
     }
   ],

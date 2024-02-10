@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Ex’s Name",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "It’s Ugly",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Got Old",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Occupation",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Faded",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Stay Awake",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Like The Taste",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Energy",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Addicted",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Jennifer Lopez",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Debbie Allen",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Janet Jackson",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Britney Spears",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "John Travolta",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Christina Agulera",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Type",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Use A Computer",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Take Shorthand",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Make Copies",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Make Coffee",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "File",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Mow Lawn",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Take Out Trash",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Rake Leaves",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Shovel Snow",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Car ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Ring ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Lock ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Door ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "House ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Bartender Does With A Customer Who’s Had Too Much To Drink."
     },
     {
@@ -236,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Your Mom Told You Was The Key To A Happy Marriage"
     },
     {
@@ -269,10 +231,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Popular Take Away Meal"
     },
     {
@@ -302,10 +260,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Someone Might Be Able To Retire At 40."
     }
   ],

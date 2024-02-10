@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Banker",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Police Officer",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Lawyer",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Teacher",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Religious Leader",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Judge",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Orange",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Watermelon",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Tomato",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Peach",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Tossing And Turning",
-          "pnt": 72,
-          "trig": false
+          "pnt": 72
         },
         {
           "ans": "Talking",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Watching TV",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Lights On",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Shark",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Sea Snake",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Octopus",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Whale",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Electric Eel",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Squid",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Sick",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Car Trouble",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Traffic",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Overslept",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Talk To Someone Else",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Eat",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Interrupt",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Hang Up",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Put You On Hold",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "make Noises",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That would Keep You From Sleeping On An Airplane"
     },
     {
@@ -232,10 +198,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Must Remember To Lock"
     },
     {
@@ -269,10 +231,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Patient Might Do That Would Make A Dentist Complain?"
     },
     {
@@ -302,10 +260,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Kid Might Use To Slide Down The Stairs"
     }
   ],

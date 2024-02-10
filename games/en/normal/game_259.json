@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "Mickey Mouse",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Goofy",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Donald Duck",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 1,
@@ -25,28 +22,23 @@
       "answers": [
         {
           "ans": "Waiste",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Length",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Backside",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Hips",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Thighs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Beer",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Soda",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Salad",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bread Sticks",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Chicken Wings",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Chips",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "New Jersey",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Men",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Her Hair",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Drinking",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Tanning",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pickles",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Cater",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Play Music",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Take Pictures",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Provide Flowers",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Plan It",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Make The Cake",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Decorate",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Drama",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Suspicious Deaths",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Love Affairs",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Weddings",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Divorce",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Sexiest Piece Of Clothing That A Woman Can Wear In Public"
     },
     {
@@ -258,10 +222,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Drive-Thru Worker Might Forget To Give You That Would Be Annoying."
     },
     {
@@ -283,10 +243,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Word Do You Dread Hearing At The Dentist’s Office?"
     },
     {
@@ -312,10 +268,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Gift That Fathers Receive On Fathers Day"
     }
   ],

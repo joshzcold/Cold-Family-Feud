@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Speed ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Expensive ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Computer System ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Buttons ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Hard Drive ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Skirt/Dress",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Pants",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Shorts",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Hair",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Gum/Candy",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Juice",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Jell O",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Soda",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Ice Cream",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Speeding",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Stealing",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Jaywalking",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Littering",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Elbow ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Arm ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Knee ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Back ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Leg ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "School/Childcare",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Play Ground",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sports Team",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Neighborhood",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Camp",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -202,10 +173,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Stick Out Your Tongue"
     },
     {
@@ -231,10 +198,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Height In Feet And Inches Where People Consider A Man Tall"
     },
     {
@@ -256,10 +219,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Sign Of Affection Woman Wants From Husband"
     },
     {
@@ -289,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Cowboy Have Hidden Under His Hat?"
     }
   ],

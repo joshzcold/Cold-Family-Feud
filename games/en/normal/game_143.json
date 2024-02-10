@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Cheese",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Alps",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Chocolate",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Watches",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bank Accounts",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Chimp ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Ape ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Gorilla ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Baboon ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Orangutan ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,18 +56,15 @@
       "answers": [
         {
           "ans": "Church",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Movie Theater",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Restaurant",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Nurse",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Doctor",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Teacher",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Childcare Provider",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -113,33 +96,27 @@
       "answers": [
         {
           "ans": "Purse",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Clothes",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hat",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Keys",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hangers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Shopping Bags",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,38 +126,31 @@
       "answers": [
         {
           "ans": "Top/Bottoms",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Jewelry",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Shoes",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Money",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cell Phone",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Keys",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Balance",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -207,10 +177,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Naughty That Children Do While At The Store"
     },
     {
@@ -232,10 +198,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do To The Products At The Grocery Store, But Not At A Clothing Store"
     },
     {
@@ -257,10 +219,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If James Bond Were A Real Man, Name Something That Probably Would Have Happened To Him By Now."
     },
     {
@@ -290,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Cowboy Wears That’s Made Of Leather."
     }
   ],

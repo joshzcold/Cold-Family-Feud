@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Leave Me Alone",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Go Away",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Bug Off",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Get Lost",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Quit It",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Snow",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Rain",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Cold",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Wind",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Hail",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Frog ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Grass ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Trees ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Leaves ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Apple ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Lime ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Get searched",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Get Lost",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Miss Flight",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Luggage Comes open",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "At Work",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Midnight",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "While Driving",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mad",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "When Drinking",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Stars",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Moon",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Streetlights",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fire Flies",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Headlights",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -219,10 +189,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Someone You Hire For A Wedding"
     },
     {
@@ -244,10 +210,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Something Kids Get Excited About Long Before It Happens"
     },
     {
@@ -281,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Beauty Queen and A Figure Skater Have In Common"
     },
     {
@@ -306,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Women: Name Something You Would Not Like To Have a Man Do For You On a Date."
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Hawaii",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Bahamas",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Niagra Falls",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Mexico",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Las Vegas",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Paris",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Jamaica",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Talk",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Fall Asleep",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Skip Class",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cheat",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Text Message",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Arrive Late",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Chew Gum",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Age",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Weight",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Marital Status",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Gender",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Photo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Make Your Bed",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Clean Up",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Wash The Dishes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Clean Bathroom",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Laundry",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Obey",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Fold Your Clothes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -158,23 +132,19 @@
       "answers": [
         {
           "ans": "Ball",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Pool",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Bike",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sprinkler/Hose",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "Ice cream parlor",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Bathing suit store",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Amusement Parks",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Swimming Pool",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Air conditioning",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Parks and recreation",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -237,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Could Only Pack A Small Overnight Bag, What Specific Essentials Would Be In It?"
     },
     {
@@ -266,10 +226,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something That People Blow Up."
     },
     {
@@ -303,10 +259,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Hairstyle That Starts With “B."
     },
     {
@@ -336,10 +288,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Watch For Out Of Your Plane Window"
     }
   ],

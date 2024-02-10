@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Santa",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Grandparent",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tooth Fairy",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Easter Bunny",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Phone",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Jacket/Clothes",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Bad Job",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Boxing Gloves",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Close Eyes ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Act Like A Dog ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Rest / Relax ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Act Like A Chicken ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Give Me Your Money ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Wake Up ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "10 ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "12 ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "8 ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "16 ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "5 ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Cold",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Too Hot",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Too Weak",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Too Strong",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "No Sugar",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "No Cream",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Elton John",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Liberace",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Prince",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Elvis",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Boy George",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dennis Rodman",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Michael Jackson",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason People Give To Play Certain Lottery Numbers"
     },
     {
@@ -250,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Instrument Used For Measuring"
     },
     {
@@ -275,10 +235,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Skill Kids Are Taught So They’re Able to Make Friends"
     },
     {
@@ -308,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Be Surprised To Hear A Six Month Old Baby Has Already Learned How To Do."
     }
   ],

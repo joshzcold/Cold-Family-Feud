@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Squirrel",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Ants/Bugs",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Worms",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Rat/Mouse",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rabbit",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Raccoon",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Strong Wind",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Dark Sky/Clouds",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hail",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Rain",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Siren",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Thunder Storm",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Mice",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Tail",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Ball Of Yarn",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Birds",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Toys",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Groceries",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Toilet Papaer",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Car",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "House",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Couch",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "New York",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Airport",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Hotel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Breathe",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Railway Station",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Family",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Greetings",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Career",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Health",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you might find on a miniature golf course."
     },
     {
@@ -245,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A US City That Probably Has A Lot Of Single People"
     },
     {
@@ -278,10 +239,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Physically Happen To Your Body When Scared"
     },
     {
@@ -315,10 +272,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Does Las Vegas Have Per Capita That Other Cities Don’t"
     }
   ],

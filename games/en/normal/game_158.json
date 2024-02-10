@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Tom Cruise",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jim Carrey",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Brad Pitt",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Julia Roberts",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tom Hanks",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Denzel Washington",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Will Smith",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Rose",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Orchid",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Tulip",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Iris",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Carnation",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Lily",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "John",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Commode",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Potty",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Can",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Latrine",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Loo",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bathroom",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -122,38 +102,31 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Go Out",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Date",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Stay Out Late",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Move Out",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Get A Tattoo",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Get Married",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -163,28 +136,23 @@
       "answers": [
         {
           "ans": "Bible",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Dictionary",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Encyclopedia",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Text Book",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Phone Book",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -194,33 +162,27 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Driving",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Watching Tv",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Working",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Homework",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Eating",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -251,10 +213,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who Might Make You Pretend You're Not At Home"
     },
     {
@@ -280,10 +238,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Something Teenagers Do That Makes Parents Angry"
     },
     {
@@ -313,10 +267,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Celebrities And Young Children Have In Common"
     },
     {
@@ -338,10 +288,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Who Uses A Gun"
     }
   ],

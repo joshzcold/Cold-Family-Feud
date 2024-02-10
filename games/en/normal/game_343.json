@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Dogs",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Criminals",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Storms",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Footballs/Balls",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Airplain",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Boat",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tractor",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Motorcycle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Robot Dog",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "COSTUME",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "CANDY",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "DECORATIONS",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "MUSIC",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "PUMPKIN",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "DRINKS",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "APPLES",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Ice Cream",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Applesauce",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Pudding",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Peanut Butter",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Jell O",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Mashed Potatoes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Yogurt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Run / Jog ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Excercise ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Walk ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Aerobics ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Gym ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Bum ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Backside ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Derriere ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Behind ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Rear ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Buttock ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Gambling, What Do Casinos Have Inside To Get Customers To Stick Around"
     },
     {
@@ -261,10 +222,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Need To Eat A Steak."
     },
     {
@@ -290,10 +247,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Child Might Not Want Long Hair"
     },
     {
@@ -319,10 +272,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation In Which People Often Use Their Middle Name Or Initial."
     }
   ],

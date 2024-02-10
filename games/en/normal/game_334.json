@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Baseball",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Golf",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Tennis",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Swimming",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Skiing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": 2,
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": 3,
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": 1,
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": 5,
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Ghost ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Screams ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cob Webs ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Birthday",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Anniversary",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Graduation",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -108,23 +92,19 @@
       "answers": [
         {
           "ans": "Lawyer",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Used Car Sales",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Politician",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Spy",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 2,
@@ -134,23 +114,19 @@
       "answers": [
         {
           "ans": "Flowers",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Kiss/Affection",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Jewellery",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Candy",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -189,10 +165,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teenager Couldn’t Live Without"
     },
     {
@@ -214,10 +186,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job In Which You’d Be Exposed To A Lot Of Germs"
     },
     {
@@ -251,10 +219,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Singer OF Classic Holiday Standards"
     },
     {
@@ -284,10 +248,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A College Student Might Hide Before His Parents Came To Visit"
     }
   ],

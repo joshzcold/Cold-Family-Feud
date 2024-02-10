@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Bed ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Oven ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Sink ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "People ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Rocking ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Music ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bottle ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Lullaby ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dummy ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Gambling",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Collect Cars",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Shopping",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "Sleeping",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Tying Shoes/ Bending",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Walking",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Eating",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -108,28 +92,23 @@
       "answers": [
         {
           "ans": "Dogs",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Leash",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Poop",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Collar/Tag",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Trainers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -139,28 +118,23 @@
       "answers": [
         {
           "ans": "Baseball",
-          "pnt": 72,
-          "trig": false
+          "pnt": 72
         },
         {
           "ans": "Football",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Golf",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Soccer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Tennis",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Job A Robot Not Entertaining Enough"
     },
     {
@@ -220,10 +190,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something That Kids Ride With Ease, But An Adult Would Be Afraid To Ride."
     },
     {
@@ -257,10 +223,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A movie Based On A TV Show Or Skit"
     },
     {
@@ -294,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Food Or Drink That Vendors Walk Around Selling At Sports Games"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Frog",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "worm",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "pig",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "rodent",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Legs",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Hair",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Ken",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Wears Clothes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Car",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lives On Land",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Spouse",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Doctor",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Parents",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Boy/Girl Friend",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Friend",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Children",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Eat",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Take A bath",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": null,
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Read",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Price",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Pool",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Location",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Star Rating",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Includes Breakfast?",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Clean?",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Vacancy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Jane Fonda",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Jane Lynch",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Jane Krakowski",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Jane Curtain",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Jane Seymore",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tarzan’s Jane",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Blow"
     },
     {
@@ -264,10 +226,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Can Climb Trees"
     },
     {
@@ -301,10 +259,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Company Which Sends Out Special Holiday Catalog."
     },
     {
@@ -330,10 +284,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Magazine Teenagers Buy."
     }
   ],

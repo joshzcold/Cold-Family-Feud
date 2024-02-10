@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Pancakes",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Omelet",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Coffee",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Grits",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Phone",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Hands",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Bathroom",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Pen",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Computer",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Soup ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Spaghetti ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Rice Pudding ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Ice Cream ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Curry ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Almond",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Hazelnut",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Soy",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cashew",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Walnut",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Detergent ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Pipes ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Plug ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Sponge ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Soap ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Dog Catcher",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Mail Carrier",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Veterinarian",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dog Walker",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pet Shop Manager",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Shelter Worker",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Dog Trainer",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Equipment Many Bikers Don’t Use, But Ought To."
     },
     {
@@ -245,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Can You Tell That A TV Show Is Old Time?"
     },
     {
@@ -278,10 +239,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Which Profession Do You Often Find People With Wacky Hair?"
     },
     {
@@ -315,10 +272,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Would Be Disgusting To Be Fed ‘Romantically’."
     }
   ],

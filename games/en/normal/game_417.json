@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Police",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Mom",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Spouse",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Stay Up",
-          "pnt": 85,
-          "trig": false
+          "pnt": 85
         },
         {
           "ans": "Eat In Bed",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Play Games",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Watch Scary Movie",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -56,18 +48,15 @@
       "answers": [
         {
           "ans": "House ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Wedding Ring ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Coffin ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -77,33 +66,27 @@
       "answers": [
         {
           "ans": "Mail",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Pizza",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Newspaper",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Package",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Flowers",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Milk",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -113,38 +96,31 @@
       "answers": [
         {
           "ans": "Mom",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Dad",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Ex",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Brother",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Clergy",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Mother-In-Law",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Boss",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Bring Water",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Refill glasses",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Serve Food",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Clear Table",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dishes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Occupation Where They Wear Sneakers."
     },
     {
@@ -235,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Supposedly Do Differently Than Animals"
     },
     {
@@ -264,10 +227,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place That’s Meant For Kids, But Adults Love It Too"
     },
     {
@@ -293,10 +252,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone You Only See Once A Year"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Smile",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Kiss",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Pose",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Hold Hands",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Dress Up",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Embrace",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Bar",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Mall",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Jail",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Casino",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Church",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Party",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Children",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Money",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Shopping",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shoes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pet",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Chocolate",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Jewelry",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Shrek",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Toy Story",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Lion King",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "ET",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Bambi",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cinderella",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Finding Nemo",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -158,33 +132,27 @@
       "answers": [
         {
           "ans": "Racoon",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Rat",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Dog",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pig",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bear",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Goat",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -194,33 +162,27 @@
       "answers": [
         {
           "ans": "Sleep",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Burp",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Unbutton Pants",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Go To Bathroom",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Smoke Cigarettes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Take Antacid",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -259,10 +221,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell me something you’ve accidentally dropped in the toilet."
     },
     {
@@ -284,10 +242,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Nursery Rhyme Character With Bad Luck"
     },
     {
@@ -313,10 +267,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With A Blackout"
     },
     {
@@ -342,10 +292,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Worst Way For Someone To Wake You Up."
     }
   ],

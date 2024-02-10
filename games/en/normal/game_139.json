@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "The Beach ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Sea Or Ocean ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Oysters ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "A Tortoise ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "A Snail ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Typing",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Working Hard",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Communication",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Sales",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Customer Service",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Foreign Language",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Breath",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Hair",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "manners",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Attitude",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hygiene",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Credit",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,18 +90,15 @@
       "answers": [
         {
           "ans": "Food ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Money ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Patience ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Turkey",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Animals",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Pillows",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Eggs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Coffee shop",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Day Care/School",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Breakfast",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Gas station",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Kid Might Do To Get Out Of Participating In Gym Class"
     },
     {
@@ -234,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Child Can’t Wait To Grow Up"
     },
     {
@@ -263,10 +227,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do To Your Lawn That You Would Never Do To Your Wall-To-Wall Carpet."
     },
     {
@@ -296,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Jewelry, Name Something A Person Might Wear Around Their Neck."
     }
   ],

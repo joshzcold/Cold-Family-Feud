@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Chips",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Tacos",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Enchaladas",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Burritos",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Eggs",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Party",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Drink",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Go Naked",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sleep All Day",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Dark Hair",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Tall",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Well Dressed",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Accent",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mysterious",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Shells ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Rocks / Stones ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Butterflies ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Junk ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Flowers / Plants ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Muscles ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Weights ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "The Gym ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Steroids ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Mr Universe ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Cow",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Dog",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Pig",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Donkey",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Elephant",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Camel",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Peoiple Subscribe To By Month"
     },
     {
@@ -240,10 +206,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Restaurant Owner Would Hate To Tell Customers They’ve Run Out Of"
     },
     {
@@ -273,10 +235,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A type Of Dance People Do In A Dance Competition"
     },
     {
@@ -302,10 +260,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Musical Instrument Least Expect In A Country Music Band"
     }
   ],

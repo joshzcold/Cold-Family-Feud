@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Nervous",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Name On Board",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Doesn’t Know Names",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "No Control",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Music",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Turntable",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Microphone",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Laptop/Ipod",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sound System",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Bite/Sting",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Buzzing",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Ability To Fly",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Traveling In Swarms",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -87,38 +74,31 @@
       "answers": [
         {
           "ans": "Stop Speeding",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Cursing",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Smoking",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chatting",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Charging Fare",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Honking",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Picking People Up",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Cry",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Wear A Hat",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Complain",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hide",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Shopping Cart",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Manicure",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Hair Salon",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Massage",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bubble Bath",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Instance When You Fake A Smile"
     },
     {
@@ -235,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Cartoon Pet That’s Smarter Than Its Owner."
     },
     {
@@ -260,10 +223,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Big Event That Happens To TV Characters In Order To Up Ratings."
     },
     {
@@ -289,10 +248,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Take To The Laundrette"
     }
   ],

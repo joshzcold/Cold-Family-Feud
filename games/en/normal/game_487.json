@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Buy A House",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Buy A Car",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Vacation",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Shopping Spree",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pay Bills",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Quit Job",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Ask Many Questions",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Carries A Gun",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Wears A Badge",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Ask For ID",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Squid",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Snails",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Clams",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Oysters",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sushi",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Crab",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lobster",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Hair",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Dishes",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Car",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sheets",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "London ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Paris ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "New York ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Japan ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Birthday Cake ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Caviar ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Turkey ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Roast ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Christmas Pudding ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Christmas Dinner ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Alarm"
     },
     {
@@ -246,10 +210,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Article Of Clothing You Are Constantly Buying More Of."
     },
     {
@@ -275,10 +235,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When Traveling Overseas, Tell Me The Ideal Amount Of Time To Be Away From Home"
     },
     {
@@ -300,10 +256,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Lie To Your Boss About."
     }
   ],

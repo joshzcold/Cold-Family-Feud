@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bungee Jumping ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Parachuting ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Roller Coaster ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Hang Gliding ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Skiing ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Open Presents ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Eat ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Drink ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Church ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sing ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Flashlight",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Map",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Umbrella",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Registration",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Sunglasses",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tissues",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Shorts",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Hat",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Bikini",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Gloves",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Protective Eyewear",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Mask",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Icing",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Sugar Sprinkles",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Chocolate Chips",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Candy",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Water / Drink ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Helmet ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Pump ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Map ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Backpack ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Pirate"
     },
     {
@@ -245,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If your body aches,tell me what a possible cause might be."
     },
     {
@@ -270,10 +231,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Friend Should Never Ask About, No Matter How Well They Know You"
     },
     {
@@ -291,10 +248,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Object That Has The Most Germs In Home"
     }
   ],

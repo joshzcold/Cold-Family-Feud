@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Shopping Center",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Restaurant",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Movie Theater",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hawii",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ballet",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Love",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bike",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pet",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "House",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "World Peace",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Shave",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Lose Weight",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Dye His Hair",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Change Clothes",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Eating",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Homework",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cleaning/Chores",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Growing Up",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Talking",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Driving",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Hives",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Sneezing",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Swelling",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Red Eyes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Chicken",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Salad Bar",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Shrimp",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Crab Legs",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Pasta",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Gets Sewn Onto Clothes"
     },
     {
@@ -241,10 +206,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Study At Clown College"
     },
     {
@@ -270,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Building That’s Big Enough To House A Dinosaur."
     },
     {
@@ -303,10 +260,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Around The House You Might Keep Spare Batteries For"
     }
   ],

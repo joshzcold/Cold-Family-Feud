@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Tiny Tim",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Tinkerbell",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Tom Thumb",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Stuart Little",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Thumbelina",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Shopping Center",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Restaurant",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Grocery Store",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Home",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hotel",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Easter",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Halloween",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Church",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Christmas",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "School Picture Day",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Volcanoes",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Rain",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "High Cost Of Living",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Too Many Tourists",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Train ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Plane ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Lessons ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Work ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Plant/ Flowers",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Dessert",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Wine",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Candle",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Not Leave The House For An Entire Day."
     },
     {
@@ -226,10 +194,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Circus Performer That Would Have Easiest Time Getting Dates"
     },
     {
@@ -251,10 +215,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teenage Boy Might Ask His Dad For."
     },
     {
@@ -276,10 +236,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Book That Students Keep On Hand For Reference."
     }
   ],

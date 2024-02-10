@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "News",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Talking",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Weather",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Jokes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Commercials",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Traffic",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sports",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Swim",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Play",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Go To Camp",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sleep In",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Travel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Watch TV",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Read",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,28 +72,23 @@
       "answers": [
         {
           "ans": "Theatre ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Cinema ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Tv Studio ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hospital ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Church ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Bugs Bunny",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Mickey Mouse",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Donald Duck",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Snoopy",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -143,28 +120,23 @@
       "answers": [
         {
           "ans": "Sauce",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Bread",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Salad",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Grated Cheese",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Meatballs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -174,38 +146,31 @@
       "answers": [
         {
           "ans": "Cake",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cookies",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bread",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Chicken",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pie",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Beef",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Ribs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -228,10 +193,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Get A Late Night Call From Someone"
     },
     {
@@ -261,10 +222,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Pair Of Something That You Can Not Wear"
     },
     {
@@ -290,10 +247,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Long The Average Person Would Wait For A Table At A Restaurant"
     },
     {
@@ -319,10 +272,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See In A Museum About The Old West."
     }
   ],

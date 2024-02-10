@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Paycheck/Money",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Postcard",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Package/Gift",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Magazine",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Letter",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Coupons",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Drink",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Get Married",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Eat",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "See Shows",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Shop",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Cowboys",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Cowboy Boots",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cowboy Hat",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Beer",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Dancing",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Mechanical Bulls",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Guitar",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Traveling",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Sleeping In",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Watching TV",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Shopping",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Reading",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Volunteer Work",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Plant ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Tea ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Stew ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Food ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Soup ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Los Angeles",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Chicago",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "New York",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "St Louis",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Atlanta",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dallas",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something About Wife Makes You Think She’s A Witch"
     },
     {
@@ -261,10 +222,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See At A Fire Station"
     },
     {
@@ -290,10 +247,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Often See For Sale Classified Section"
     },
     {
@@ -315,10 +268,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Summer Picnic Food That Will Make Your Face Messy."
     }
   ],

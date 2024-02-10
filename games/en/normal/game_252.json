@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Park",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "School Yard",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Amusement Park",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Beach",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Library",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Civic Centre",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Medical Building",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "No Carb Diet",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Fasting",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Diet Pills",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Diet Shakes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Sleeping",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Behaving",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Playing Games",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Watch TV",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Homework",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Exam/Due Dates",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Days Off",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Graduation",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Parties",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "A Date",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Class Schedule",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Passport",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Luggage",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cellphone",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "ID/ License",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Keys",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "The Kids",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,18 +150,15 @@
       "answers": [
         {
           "ans": "Pen / Pencil ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Notepad ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Manners ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do To Let A Friend Know She Has Food On Her Face"
     },
     {
@@ -246,10 +210,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Test That Almost Everyone Takes"
     },
     {
@@ -271,10 +231,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Couple Decides To Move In Together"
     },
     {
@@ -300,10 +256,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Singles: Describe Last Date With Movie Genre"
     }
   ],

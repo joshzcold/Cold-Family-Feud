@@ -5,33 +5,27 @@
       "answers": [
         {
           "ans": "C",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Java",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "JavaScript",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "C++",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "PHP",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Perl",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1
@@ -41,33 +35,27 @@
       "answers": [
         {
           "ans": "Stack Overflow",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Do other Work/Come Back Later",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Tutorial Videos",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Help from friend/coworker",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Take a walk/physical activity",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Play games",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1
@@ -77,23 +65,19 @@
       "answers": [
         {
           "ans": "Cop Shows",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Sci-fi",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Spy",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Heist",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1
@@ -103,23 +87,19 @@
       "answers": [
         {
           "ans": "Fix my Printer/tech?",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Develop my app idea?",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Can you Hack X?",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Help me buy/review a product?",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1
@@ -129,23 +109,19 @@
       "answers": [
         {
           "ans": "Creativity",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Figuring out problems",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Always learning",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Money/Pay",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2
@@ -155,28 +131,23 @@
       "answers": [
         {
           "ans": "Meetings",
-          "pnt": 64,
-          "trig": false
+          "pnt": 64
         },
         {
           "ans": "Deadlines",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Changing spec",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Legacy System",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Burn out ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2
@@ -186,59 +157,106 @@
     {
       "question": "Name a reason you might look for a new job",
       "answers": [
-        ["More pay", 41],
-        ["New Technologies", 27],
-        ["Promotion/Opportunities", 17],
-        ["Work/Life Balance", 11],
-        ["Trouble with management", 7]
-      ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false
+        [
+          "More pay",
+          41
+        ],
+        [
+          "New Technologies",
+          27
+        ],
+        [
+          "Promotion/Opportunities",
+          17
+        ],
+        [
+          "Work/Life Balance",
+          11
+        ],
+        [
+          "Trouble with management",
+          7
+        ]
+      ]
     },
     {
       "question": "When is the most popular time to go to bed for a programmer",
       "answers": [
-        ["11 PM", 39],
-        ["Never/What is sleep?", 25],
-        ["1 AM", 16],
-        ["2AM", 11],
-        ["10PM", 7]
-      ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false
+        [
+          "11 PM",
+          39
+        ],
+        [
+          "Never/What is sleep?",
+          25
+        ],
+        [
+          "1 AM",
+          16
+        ],
+        [
+          "2AM",
+          11
+        ],
+        [
+          "10PM",
+          7
+        ]
+      ]
     },
     {
       "question": "Name something people associate with a nerd",
       "answers": [
-        ["Glasses", 42],
-        ["Technology", 29],
-        ["Pocket Protector", 19],
-        ["Smart", 12],
-        ["Short Pants", 8]
-      ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false
+        [
+          "Glasses",
+          42
+        ],
+        [
+          "Technology",
+          29
+        ],
+        [
+          "Pocket Protector",
+          19
+        ],
+        [
+          "Smart",
+          12
+        ],
+        [
+          "Short Pants",
+          8
+        ]
+      ]
     },
     {
       "question": "Name a computer term that everybody knows",
       "answers": [
-        ["Mouse", 72],
-        ["Internet", 47],
-        ["Download", 31],
-        ["RAM", 20],
-        ["Keyboard", 13]
-      ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false
+        [
+          "Mouse",
+          72
+        ],
+        [
+          "Internet",
+          47
+        ],
+        [
+          "Download",
+          31
+        ],
+        [
+          "RAM",
+          20
+        ],
+        [
+          "Keyboard",
+          13
+        ]
+      ]
     }
   ],
-  "final_round_timers": [20, 25]
+  "final_round_timers": [
+    20,
+    25
+  ]
 }

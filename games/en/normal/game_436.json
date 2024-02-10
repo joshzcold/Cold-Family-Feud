@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Hair ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Mind / Memory ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Teeth ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Eyesight ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Virginity ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Looks ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "House ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Mum & Dad ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "People ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Family ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tree ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Personal Trainer",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Massage",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Laundry Service",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Food/ Drink",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Pool Access",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tanning Bed",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Locker Room Use",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Order Most Expensive",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Argue About Paying",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Complain About Meal",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Order Extras",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Kill Dinosaur",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Beat His Chest",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Make Fire",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bring Her Meat",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Pull Her By The Hair",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Fights At Wedding",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Bride/ Groom Flirting",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Crying/ Sad Faces",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "How They Kiss",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a dangerous hobby you wouldn’t want your partner to have."
     },
     {
@@ -253,10 +218,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Is Different About Writing A Research Paper On A Computer Than On A Typewriter."
     },
     {
@@ -278,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Special Day That You Wish Lasted Longer Than 24 Hours"
     },
     {
@@ -303,10 +260,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Drink You Get At A Cafe That Most People Can’t Make At Home"
     }
   ],

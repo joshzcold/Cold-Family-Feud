@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Candles",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Incense",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Crystals",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "New Age Clothes",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Terot Cards",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Lava Lamp",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "New Age Books",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Out Of Focus",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Put Finger In Lense",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Leave Lense Cap On",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "No Flash",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Consume Sweets",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Smoke",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wiggle",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Swallow",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bite Down",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Grind Teeth",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Rocks",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Marbles",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Frog",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Dirt",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Worms",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Candy",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Toy Car",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Clothes",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "House",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "TV",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Appliances",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Bike",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Ball",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "TV",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Golf Clubs",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Avoid When You Are Sick"
     },
     {
@@ -256,10 +218,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find At the End Of A Fishing Line"
     },
     {
@@ -285,10 +243,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Really Big State."
     },
     {
@@ -322,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Breakfast Food That Could Just As Easily Be A Dessert"
     }
   ],

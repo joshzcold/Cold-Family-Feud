@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Posters",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Color Pink",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Makeup",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Clothes",
-          "pnt": 121,
-          "trig": false
+          "pnt": 121
         },
         {
           "ans": "Diary",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Magazines",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Stuffed Animals",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Turn Off Lights",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Set Thermostat Low",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Use Less A/C",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Efficient Bulbs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Unplug Electronics",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,23 +64,19 @@
       "answers": [
         {
           "ans": "Cadalac",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Continental",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Chevy",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Buick",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "PICTURE",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "CLOTHES",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "JEWELRY",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "CARDS/LETTERS",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Put Seat Belt On",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Start Car",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Close Car Door",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Keys In Ignition",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lock Doors",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Fix Mirrors",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Sit Down",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Luggage",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Boarding Pass",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "ID/Passport",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Money",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Kids",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Might See A Lot Of Rats"
     },
     {
@@ -262,10 +226,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Woman In A Man’s Life Who His Wife Might Not Get Along With."
     },
     {
@@ -291,10 +251,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Movie With The Word “Dr.” In The Title."
     },
     {
@@ -328,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place That You Wouldn’t Want To Go After Having A Few To Drink"
     }
   ],

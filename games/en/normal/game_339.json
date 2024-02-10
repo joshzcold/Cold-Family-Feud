@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Batman ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Superman ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Dracula ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Wizard / Magician ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Nurse ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Zorro ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Tour bus",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Taxi",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "On foot",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bilkes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Public Transportation",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Chores",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Babysitting",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Paper Route",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Mow Lawns",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Lemonade Stand",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Detention",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Stand In Corner",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Suspension",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Write Lines",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Principal’s Office",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "No Recess",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Eggs",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Cheese",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Meat",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Beans",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Tomato/Salsa",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Computer",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Chess",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Debate",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Glee Club",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Boy Scouts",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Math",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Science",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What’s The Messiest Thing To Clean Up After The Christmas Holiday?"
     },
     {
@@ -252,10 +214,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Poker Player Do To Make Bluffing Easier?"
     },
     {
@@ -281,10 +239,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Kid Forget To Bring To Pool That Would Keep Him From Swimming"
     },
     {
@@ -318,10 +272,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do Before You Go On Vacation"
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Baking Soda",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Ketchup",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Jell O",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Water",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Soda",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tomato Sauce",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pudding",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Coffee",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Tea",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Martini",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Chocolate Milk",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Kool Aid",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Use Computer",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Study",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Meet People",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Research",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "It’s Quiet",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Trash",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Penny",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Gum",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Dog Doo",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Rocky Horror",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Pulp Fiction",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "A Clockwork Orange",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Breakfast Club",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Napolean Dynamite",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Blair Witch Project",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Cushion ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Person ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Cat ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Magazine ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Article Of Clothing That Usually Can’t Be Put In The Dryer"
     },
     {
@@ -237,10 +202,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Should You Do To Celebrate The First Snowfall?"
     },
     {
@@ -270,10 +231,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Brooklyn."
     },
     {
@@ -299,10 +256,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Term For “Little Boy” That Old Person Might Use"
     }
   ],

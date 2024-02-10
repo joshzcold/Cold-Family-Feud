@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Work",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Go To Bar",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Golf",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Fishing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Love Connection",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "I Love Lucy",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Love Boat",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Everybody Loves Raymond",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Love American Style",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Love Bug",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "CEO",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "President",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Vice President",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Supervisor",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Manager",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Brush/Comb",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Razor",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Tweezers",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Scissors",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Oprah",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Jerry Springer",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Maury",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Dr. Phil",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Hustler",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Dracula",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Prince",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Superman",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Firefighter",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That A Pirate Would Most Likely Have On His Ship."
     },
     {
@@ -234,10 +202,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Dog"
     },
     {
@@ -267,10 +231,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Word Men Use To Mean “Friend.”"
     },
     {
@@ -292,10 +252,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Hate To Be Wearing When Company"
     }
   ],

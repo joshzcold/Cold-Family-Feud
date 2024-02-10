@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Homework",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Boring",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Teacher",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Bullies",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Too Hard",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Lights",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "TV",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Oven Radio",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Radio",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Partner",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "History",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Geography",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Movies",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Current Events",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "The Bible",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Speed",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Stop The Car",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Go The Wrong Way",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Crash",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Slow Down",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -128,33 +108,27 @@
       "answers": [
         {
           "ans": "Turtle Doves",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Partridge",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Geese",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Calling Birds",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "French Hens",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Swans",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Lice",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Bad Grades",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Drugs",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Illness",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Germs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Baseball Player Might Be Holding During A Game."
     },
     {
@@ -253,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Elope To Las Vegas, Name Something You Might Not Have At Your Wedding."
     },
     {
@@ -282,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We asked 100 Women: At what age is a man most handsome?(NUMBERS ONLY)"
     },
     {
@@ -315,10 +272,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Makes A Restaurant First Class"
     }
   ],

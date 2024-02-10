@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "CCTV ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Security Guards ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tags On Items ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 1,
@@ -25,23 +22,19 @@
       "answers": [
         {
           "ans": "High Heels",
-          "pnt": 68,
-          "trig": false
+          "pnt": 68
         },
         {
           "ans": "Boots",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sandals",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Slippers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -51,33 +44,27 @@
       "answers": [
         {
           "ans": "Light ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Oven ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Ignition ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Central Heating ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Air Conditioning ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Partner ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -87,38 +74,31 @@
       "answers": [
         {
           "ans": "Another Woman",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cell Phone",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "His Parents",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Work/ Laptop",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "His Best Friend",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Golf Clubs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "His Pet",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Dating",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Driving",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Playing Sports",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Staying Out Late",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Hospital",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Police",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Dmv",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Law Office",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Post Office",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fast Food",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Retail",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Information You’d Be Surprised To Find On Someone’s Business Card."
     },
     {
@@ -253,10 +218,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Did You Do As A Baby That You’re Glad You Don’t Do I Public Anymore?"
     },
     {
@@ -274,10 +235,6 @@
           22
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Get Broken During A Party"
     },
     {
@@ -303,10 +260,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Practice In The Mirror"
     }
   ],

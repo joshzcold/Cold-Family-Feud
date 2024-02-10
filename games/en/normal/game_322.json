@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Drink Coffee",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Take A Pill",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Exercise",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Get Cool Air",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Listen To Radio",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Eat",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drink Soda",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Eat",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Type",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Write",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cook",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Get Dressed",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Wash Dishes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Scratch An Itch",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -86,33 +72,27 @@
       "answers": [
         {
           "ans": "Sleep schedule",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Crying",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "How cute",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Feeding",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Changing diapers",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Weight",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -122,33 +102,27 @@
       "answers": [
         {
           "ans": "Make Up ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "New Hairstyle ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "New Clothes ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Plastic Surgery ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Loose Weight ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Fake Tan ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -158,23 +132,19 @@
       "answers": [
         {
           "ans": "Prices",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Names of Dishes",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Name Of Business",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Phone Number/ Address",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -184,23 +154,19 @@
       "answers": [
         {
           "ans": "Address/Location",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Dates Name",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Phone Number",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Description Of Date",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Workers Might Go On Strike."
     },
     {
@@ -256,10 +218,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Keep In An Envelope"
     },
     {
@@ -281,10 +239,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal Associated With A Holiday"
     },
     {
@@ -310,10 +264,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Always Bring Along For A Day Of Fishing"
     }
   ],

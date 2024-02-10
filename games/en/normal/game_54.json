@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Cookies",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Snack Cake",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "pudding",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Ice Cream",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Perfume",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Soap",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Deodorant",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Lotion",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Jacket",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Purse/Wallet",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cell Phone",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Camera",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Umbrella",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Water Bottle",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Fangs",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cape",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Coffin",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "His Thirst",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "He Can Fly",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Wears Tights",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "never grows Up",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Small",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Pointy Ears",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,38 +126,31 @@
       "answers": [
         {
           "ans": "SNUFFLEUPAGUS",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "OSCAR THE GROUCH",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "ELMO",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "COOKIE MONSTER",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "KERMIT THE FROG",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "ERNIE",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "GORDON",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Build In The Backyard."
     },
     {
@@ -244,10 +210,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That people Do That Distracts Them While Driving."
     },
     {
@@ -269,10 +231,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teen I More Likely To Do To Their Appearance Then Their Parents Are"
     },
     {
@@ -290,10 +248,6 @@
           null
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Late A Kid Might Stay Up At Sleepover"
     }
   ],

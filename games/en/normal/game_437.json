@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bikini",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Jeans",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "High Heels",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Mini Skirt",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Spandex",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Performances",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Train",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Electricity",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Survey",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Water ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Soap ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Baby Bath ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Washer ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Towel ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Policeman",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Garbage Man",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Lawyer",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Stripper",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Truck Driver",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Drug Dealer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Fireman",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Open Doors",
-          "pnt": 76,
-          "trig": false
+          "pnt": 76
         },
         {
           "ans": "Pay For Dinner",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Compliment Her",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Give Her Flowers",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Model",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Salesperson",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Flight Attendant",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Receptionist",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "News Reporter",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Photographer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Host",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Someone Might Make Fun Of Your Dance Moves"
     },
     {
@@ -246,10 +210,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Keep In Your Trousers"
     },
     {
@@ -271,10 +231,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What’s The First Thing You’re Likely To Be Asked About At Your High School Reunion?"
     },
     {
@@ -304,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Who Or What Would You Not Want To Meet In The Middle Of A Hiking Trail?"
     }
   ],

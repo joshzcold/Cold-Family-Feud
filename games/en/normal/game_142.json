@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Sunglasses",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Mask",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Wig",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Facial Hair",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Trench Coat",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cook",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Ride A Bike",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cut/Carve",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Swim",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Use Tools",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Childhood",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Daughter’s Skirt",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Summer/School Calendar",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Money",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Life",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Fuse/Temper",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Swimming",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Basketball",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Volleyball",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Soccer",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tennis",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wrestling",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Boxing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Rock And Roll",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Rubber",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Wedding",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Jazz",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Country",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Mariachi",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -184,23 +154,19 @@
       "answers": [
         {
           "ans": "Lobster",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Steak",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Fish",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "French Fries",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Don’t Want The Person Next To You To Do While You’re Eating."
     },
     {
@@ -264,10 +226,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation That Keeps You On Your Feet"
     },
     {
@@ -293,10 +251,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal That Eats Meat"
     },
     {
@@ -318,10 +272,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With Jerry Lewis."
     }
   ],

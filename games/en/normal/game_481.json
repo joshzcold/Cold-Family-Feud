@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Teeth",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Hair",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Chest",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Eyelashes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Eyebrows",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Sharp Teeth",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Claws",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Roar",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Horns",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Venom",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Candles",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cookies/ Candy",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Clothes",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Toys",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Get Certificate",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Perfume",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Jewelry",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Car",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "TV",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Watch",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Computer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Appliance",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Flippers",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Goggles",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Oxygen Tank",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Wetsuit",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Dress",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Jewelry",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Makeup",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bra",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Skirt",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "High Heels",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bikini",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Radio DJ Might Accidentally Do If He Didn’t Know He Was On The Air."
     },
     {
@@ -255,10 +218,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Do In A Public Restroom That You Would Never Do In Your Own Bathroom"
     },
     {
@@ -284,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Way That You Wish Your Life Were Like A Hollywood Movie"
     },
     {
@@ -305,10 +260,6 @@
           25
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Profession That Makes People Laugh"
     }
   ],

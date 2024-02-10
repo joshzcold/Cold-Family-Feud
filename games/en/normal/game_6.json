@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Chow Mein",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Chicken",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hamburgers",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Mexican",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Sandwiches",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -45,18 +38,15 @@
       "answers": [
         {
           "ans": "Pepto Bismol",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Milk",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Tums",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Eggs",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "butter",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bacon",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Fired Chicken",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pizza",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "French Fries",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Sports",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Car",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cooking",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Men’s Mag",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "News/Politics",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hunting/Fishing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Dentist",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hair Salon",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Mechanic",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Passport",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Mug Shot",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Driver’s License",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Sports Photo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If you were a celebrity for a day,name a place or event you’d try to get into."
     },
     {
@@ -240,10 +206,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "On “Family Feud,” Name Something The Host Asks Players About."
     },
     {
@@ -265,10 +227,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Buy For Your Daughter’s Barbie Doll, But Probably Not For Your Daughter."
     },
     {
@@ -298,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Cliche People Say About Beauty?"
     }
   ],

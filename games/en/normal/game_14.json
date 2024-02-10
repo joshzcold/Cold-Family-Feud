@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Sick",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Snoring",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Bad Breath",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Gas",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cold Feet",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Body Odor",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Bad Breath",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Miss Their Mouth",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bump Nose/ Head",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cough",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sneeze",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Burp",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bite Up",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Cell Phone",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Money",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Mace",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Friend",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Own Transportation",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Pig",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Tiger",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bear",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Fox",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Cow",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Kitten",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -153,33 +128,27 @@
       "answers": [
         {
           "ans": "Runny Nose",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Cough",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Sneeze",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sore Throat",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fever",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drowsiness",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -189,18 +158,15 @@
       "answers": [
         {
           "ans": "Stars ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Moon ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Owls ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Gladiator Might Take With Him Into Battle"
     },
     {
@@ -264,10 +226,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something On Your Body That You Wiggle"
     },
     {
@@ -293,10 +251,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That’s Made From Corn."
     },
     {
@@ -318,10 +272,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Place In The Newspaper Where You Wouldn’t Want To See Your Name."
     }
   ],

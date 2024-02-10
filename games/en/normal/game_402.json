@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": 35,
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": 25,
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": 21,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 18,
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Never",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Put Toilet Paper On It",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Curse",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Put Bandaid On It",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Says Ouch",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Let It Bleed",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Put Alcohol On It",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Get Dressed",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Walk Red Carpet",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hair/Makeup",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Interview",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Take Pictures",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Reherse",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": 12,
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": 13,
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": 10,
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": 9,
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": 11,
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": 8,
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": 14,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Tea ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Coffee ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Soup ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Drink ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Water ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Rocks",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Wet Floor",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hot Coffee",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Cracks/Bumps",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Condiments/Dressing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Buy For A Golfer."
     },
     {
@@ -272,10 +234,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What’s The Worst Thing To Leave In Your Pants Pocket When They Go Through The Wash"
     },
     {
@@ -309,10 +267,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Author Living Or Dead Who Writes The Scariest Stories."
     },
     {
@@ -342,10 +296,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Job You Wouldn’t Want To Have If You Worked At The Circus"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "MOW LAWN",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "COLD DRINKS/LEMONADE",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "TAN",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "GARDEN",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Hotel ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "House ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tent ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Caravan ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Prison ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Weight",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Looks",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Friendships",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "House",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Birthdates",
-          "pnt": 74,
-          "trig": false
+          "pnt": 74
         },
         {
           "ans": "Quick Pick",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Social Security",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Random",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Dreams",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Shortcake",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Pie",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Sundae",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Cheesecake",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -144,23 +122,19 @@
       "answers": [
         {
           "ans": "Milking Cows",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Riding Horses",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Gardening",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Cooking",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Type Of Character That Appears In Fairy Tales"
     },
     {
@@ -216,10 +186,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who Could Show Up In A Will That Would Be A Big Surprise To The Deceased’s Family."
     },
     {
@@ -245,10 +211,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Has An Aerial"
     },
     {
@@ -270,10 +232,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone in Your Life Who loves You Unconditionally"
     }
   ],

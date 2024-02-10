@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Trumpet",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Tuba",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "French Horn",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Drums",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cymbals",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Xylophone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Tromebone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Chores",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Drive Carefully",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Fill It Up",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Make Curfew",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Wash It",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Bowling",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Soccer",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Golf",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Track",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Football",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Basketball",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wrestling",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Art",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "English",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Gym",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Music",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Psychology",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cooking",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Drama",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -158,33 +132,27 @@
       "answers": [
         {
           "ans": "Hold Breath",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cover Mouth",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Bite Lip",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Think Of something Sad",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Look Away",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pinch Yourself",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -194,38 +162,31 @@
       "answers": [
         {
           "ans": "Snow Boots",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Coat",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Gloves",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Long Johns",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Scarf",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Snow Pants",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -264,10 +225,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Your House That You’d Hate To Find Wasn’t Working"
     },
     {
@@ -301,10 +258,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Nap Just To Pass The Time."
     },
     {
@@ -338,10 +291,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Close Your Mouth To Try To Keep From Doing"
     },
     {
@@ -371,10 +320,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific A Student Might Do In Oder To Become The Teacher’s Pet"
     }
   ],

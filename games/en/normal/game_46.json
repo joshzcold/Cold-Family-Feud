@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Womans Clothes ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Adams Apple ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Makeup ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Big Hands ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Stuble ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Hairy Legs ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Sophia Loren",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Queen Elizabeth",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Nicole Kidman",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Madonna",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Zsa Zsa Gabor",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Penelope Cruz",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dolly Parton",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Magazines ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Cassettes ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Computers ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Newspapers ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Films / Dvd's ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Jelly ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Apple Pie ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Banana ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cream ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pudding ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Travel",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Skydive",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sleep",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Swim",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Walk At Night",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Watch Scary Movie",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Camp",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Cowboy Hat",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Coyboy Boots",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Toy Gun",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Chaps",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Spurs",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -244,10 +209,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Expect To See When You Watch The Academy Awards."
     },
     {
@@ -273,10 +234,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name an animal that can live in the cold."
     },
     {
@@ -302,10 +259,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do To Their Hair That Makes Them Look Silly."
     },
     {
@@ -331,10 +284,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Is The Most Used Room In Most Homes?"
     }
   ],

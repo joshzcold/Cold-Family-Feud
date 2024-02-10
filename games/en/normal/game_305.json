@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Diet",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Exercise",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Plastic Surgery",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Get Head Shots",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Wear Stylish Clothes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Darth Vaders Son",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Star Wars",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Becomes A Jedi",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Uses The Force",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Droid is R2 D2",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pilot",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Destroys Death Star",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Socks",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Underwear",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Jewelry",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Shoes",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Athletic Supporter",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": 40,
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": 45,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 50,
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": 30,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 35,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Name",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Decorate Room",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Curious",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Baby Food",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Clothes",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Blanket",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Diapers",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name One Of The Gifts From The Song “The Twelve Days Of Christmas”"
     },
     {
@@ -248,10 +214,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Puppy Likes To Chew On"
     },
     {
@@ -269,10 +231,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Has A Bitter Taste"
     },
     {
@@ -294,10 +252,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Comes In A Carton"
     }
   ],

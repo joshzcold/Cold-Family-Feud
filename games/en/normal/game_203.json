@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Chicken ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Eggs ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Fish ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Rice ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Chips ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Smoking",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Weapons",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Cells Phones",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pets",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Get Driver’s License",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Marry",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Get A Tattoo",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Get A Piercing",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Call Police",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Get An Alarm",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Move",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cry",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Yell",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Little Richard",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Little John",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Little Red Riding Hood",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Little Bo Peep",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 2,
@@ -144,33 +122,27 @@
       "answers": [
         {
           "ans": "White Dress",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "All black",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Shorts",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Jeans",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cap",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "T Shirt",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Parent Might Limit Their Child’s Time Using"
     },
     {
@@ -226,10 +194,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See Inside A Bank"
     },
     {
@@ -255,10 +219,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Can You Consult When Lost"
     },
     {
@@ -288,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That it’s Hard To Do While Listening To Music"
     }
   ],

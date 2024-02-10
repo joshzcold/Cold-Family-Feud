@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Flowers",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Perfume/Cologne",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Me",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Dinner",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Chocolates",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Kissing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Alcohol",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Kevorkian",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Jekyll",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Suess",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dolittle",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Spock",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dre",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,33 +68,27 @@
       "answers": [
         {
           "ans": "Stairs",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Outlets",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Cabinets/Bleach",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Table Corners",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Medication",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Stove/Oven",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Green Bean",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Tuna",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Chicken",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Turkey",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Sweet Potato",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Broccoli",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Mushroom",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -158,23 +132,19 @@
       "answers": [
         {
           "ans": "Bring Coupons",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Carry A Calculator",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Buy Generic Brands",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "How They Dress",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,38 +154,31 @@
       "answers": [
         {
           "ans": "Bar",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Internet",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Work",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "TV",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Comedy Club",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Party",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Friends",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -242,10 +205,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Another Word A Cool Guy Might Use For “Car”"
     },
     {
@@ -271,10 +230,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find In A Ski Lodge"
     },
     {
@@ -296,10 +251,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Place Where You Don’t Want To Leave Early"
     },
     {
@@ -325,10 +276,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Many Hunters Wear Camouflage In The Woods, Name A Pattern You’d Be Surprised To See A Hunter Wear."
     }
   ],

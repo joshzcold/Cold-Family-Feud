@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Girdle",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bra",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "High Heels",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Thong",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Earrings",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Kiss",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Picnic",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Walk",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hold Hands",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Use Playground",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Ready To Order",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Is Everything OK",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Want A Refill",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Need Anything Else",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Want The Bill",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Afraid of Commitment",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Not Ready",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Saving Money",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Too Young",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Skydiving",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Hunting",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Flying",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Rock Climbing",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Car Racing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Motorcycling",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Golf Balls",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Tees",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Patience",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Clubs",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Energy",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Two-Word Term That Starts With “Secret.”"
     },
     {
@@ -236,10 +202,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do Family Fued Contestants Do After Their Relative Has Given A Bad Answer"
     },
     {
@@ -265,10 +227,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See In A Bank"
     },
     {
@@ -302,10 +260,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Keepsake People Put In Baby’s Scrapbook"
     }
   ],

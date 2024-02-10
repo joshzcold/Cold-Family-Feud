@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Pitcher",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Catcher",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Shortstop",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "First Base",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Bugs",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Rodents",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Mold",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Fire",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Speed",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Cut You Off",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Honk",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Talk On Phone",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Tailgate",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Apply Make Up",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,38 +78,31 @@
       "answers": [
         {
           "ans": "Test Tubes",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Beakers",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Microscope",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Chemicals",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bunsen Burners",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Lab Coat",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Goggles",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "Hot Dogs",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Hamburgers",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Marshmallows",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Chicken",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Steak",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fish",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Beans",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -174,23 +146,19 @@
       "answers": [
         {
           "ans": "Weekend",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Football game",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Payday",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Place Of worship",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Place Where Parents Go To Get Away From The Kids For A While"
     },
     {
@@ -250,10 +214,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something On Their Bodies That People Color In Black."
     },
     {
@@ -287,10 +247,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone You Wish Wouldn’t Call So Often"
     },
     {
@@ -324,10 +280,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teenage Daughter Parent Hope Fromn Boyfriend"
     }
   ],

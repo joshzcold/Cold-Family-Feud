@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "Sewing ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Knitting ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Injection ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -25,28 +22,23 @@
       "answers": [
         {
           "ans": "Toys",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Bed",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Hairstyle",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bike",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Habits",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Corkscrew",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Screw Driver",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Scissors",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Can Opener",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bottle Opener",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Nail File",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Tea",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Soda",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Alcohol",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Water",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Juice",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -123,33 +104,27 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Prayer Service",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Baptism",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bible Studies",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Holy Communion",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Concert",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Work",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "TV",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Traffic",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bills",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Telephone",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "People",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Housework",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With The Violin"
     },
     {
@@ -254,10 +218,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When Sitting Close To A Date, What Clue Might They Give That They Like "
     },
     {
@@ -275,10 +235,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Piece Of Furniture That Is Often Made From Wood"
     },
     {
@@ -300,10 +256,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Coffee Drink That’s Easy To Mispronounce"
     }
   ],

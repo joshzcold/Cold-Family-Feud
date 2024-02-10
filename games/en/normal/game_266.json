@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Broccoli",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Onion",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Potatoes",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Cucumber",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Celery",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Turnip",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Lettuce",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Engine",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Bear",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Crowd",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Waterfall/Water",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fire",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Thunder",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -81,28 +68,23 @@
       "answers": [
         {
           "ans": "Dog",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Child",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Chocolate",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Ice Cream",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Milk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Mole",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Tattoos",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Teeth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tonsils",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Warts",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Appendix",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Make A Phone Call",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Vending Machine",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Parking Meter",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bus Fare",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Newspaper Machine",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "Pictures",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Animal Characters",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Princess",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Once Upon A Time",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pop Up Pages",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Small Words",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -237,10 +201,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell me something that you’d prefer to do with strangers rather than family."
     },
     {
@@ -270,10 +230,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Fictional Comedy Character"
     },
     {
@@ -295,10 +251,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal You Can Ride On"
     },
     {
@@ -328,10 +280,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Is The Best Part Of A 4th Of July Parade"
     }
   ],

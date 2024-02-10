@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Wear Fur",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Hunting",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Eat Meat",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Tests",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Cactus ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Hedgehog ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Porkupine ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Conquer ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -56,33 +48,27 @@
       "answers": [
         {
           "ans": "Fib ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Porky ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Untruth ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Falsehood ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tale ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Economical With The Truth ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Drum",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Candy",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Dog",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Horn",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Guitar",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Toy Gun",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Books",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Movies",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Food",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "CDS",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Church ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Doorbell ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bluebell ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "School ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tubular ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "In Order To Seem Like A “Regular Guy,” Name A Place Where A Politician Might Hang Out."
     },
     {
@@ -235,10 +202,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Dogs Hate Owners To Put On Them"
     },
     {
@@ -268,10 +231,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Were Friends With Nancy Drew, What Might You Buy For Her Birthday?"
     },
     {
@@ -293,10 +252,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Are The Advantages Of Having An Air Guitar Rather Than a Real Guitar?"
     }
   ],

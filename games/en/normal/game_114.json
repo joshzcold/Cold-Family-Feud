@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Prime Time",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Prime Rib",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Prime Interest Rate",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Prime Minister",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "prime Number",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Prime Example",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Bus",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Drive Anyway",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Walk",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Ask A Friend",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Take A Cab",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bike",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Smoking",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Sunbathing",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Drinking",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lack Of Sleep",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Stress",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Glass ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Microsoft ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Frames ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Double Glazing ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": "At Home",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Work",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Long Car/ Bus Ride",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Airport/ Plane",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Park",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "School",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Doctor’s Office",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Cool",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Awesome",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Yummy",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Good",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Nice",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An American City That Has Its Own Accent"
     },
     {
@@ -251,10 +214,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something you Might Find On Top Of A Tv Set"
     },
     {
@@ -280,10 +239,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Golf Caddy Might Carry"
     },
     {
@@ -313,10 +268,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do In Front Of A Mirror You Wouldn’t Want Anyone To See"
     }
   ],

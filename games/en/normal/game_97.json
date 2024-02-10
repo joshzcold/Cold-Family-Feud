@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Glasses",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Long Hair",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Guitar",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Hippie Clothes",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Suit",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Court",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Work",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Home",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Police",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "School",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Store",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Piano",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Drums",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Guitar",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Violin",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Flute",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Saxophone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Mace",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Stick",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Treats",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bone",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Meat",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Whistle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Jail",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Desert",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Military",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Frozen Tundra",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Outer Space",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "Working",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Playing A Game",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Chatting/Email",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Studying",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Looking For Love",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -223,10 +189,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Way To Remove Hair"
     },
     {
@@ -256,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a good gift for a lifeguard."
     },
     {
@@ -293,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "At What Age Do People Usually Learn To Play Their First Musical Instrument?"
     },
     {
@@ -322,10 +276,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Pants You Can’t Wear To Work."
     }
   ],

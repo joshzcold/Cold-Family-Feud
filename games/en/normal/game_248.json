@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Airbags ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Seatbelts ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cd Player ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Air Conditioning ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sat Nav ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Electric Windows ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Water",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Coffee",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Soda",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Milk",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Tea",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Food",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Clothes",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "People",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cars",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Crash It",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Drink",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bad Grades",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Speed",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Stay Out Late",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Get A Ticket",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Mom",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Significant Other",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dad",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Best Friend",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Sister",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Grandma",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Jail",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Court",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "TV",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Billboard",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hospital",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -213,10 +181,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Drink You Might Drink From The Bottle"
     },
     {
@@ -246,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In A Woman’s Purse That She Might Lend Out And Not Get Back."
     },
     {
@@ -275,10 +235,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Instrument Might You Be Playing Wait For Part To Come"
     },
     {
@@ -308,10 +264,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Sometimes Cheaper To Replace Than Fix"
     }
   ],

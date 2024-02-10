@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Tire",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Hair",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Soda",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Beer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,38 +26,31 @@
       "answers": [
         {
           "ans": "Cheese",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Pepperoni",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Anchovies",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Mushrooms",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Hamburger",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Onion",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Bell Peppers",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Rudolph",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Christmas Story",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Frosty",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Grinch",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "A Wonderful Life",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Home Alone",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Cleaning",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Exercise",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Shower",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Laundry",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pay Bills",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Broccoli",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Peas",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Tomato",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Corn",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Mall",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "School",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Movie Theatre",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Party",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "ame A Reason Why You Might Be Nervous While Driving."
     },
     {
@@ -244,10 +210,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Parents Tell Their Kids To Do So They Don’t Get Sick During Flu Season"
     },
     {
@@ -281,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name How Many People Can Ride Comfortably In The Back Of A Limo. (Numeric Only)"
     },
     {
@@ -318,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Hobby Or Activity In Which You’d Love To Get Lessons From A Pro."
     }
   ],

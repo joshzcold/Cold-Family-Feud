@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Butter",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Jelly",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Berries",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cinnamon",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Jeans",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Apron",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Tennis Shoes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "T Shirt",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Colorful Seater",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Overcrowding ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "The Smell ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Allergic To Animals ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "Shoveling",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Building A Snowman",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Walking",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bundling Up",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -108,23 +92,19 @@
       "answers": [
         {
           "ans": "Jack O’Lantern",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Fruitcake",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Christmas Tree",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Gingerbread House",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -134,33 +114,27 @@
       "answers": [
         {
           "ans": 13,
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": 12,
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": 16,
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": 14,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 15,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 10,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Common Type Of Ache"
     },
     {
@@ -220,10 +190,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Has An Aerial"
     },
     {
@@ -253,10 +219,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Household Item That You Would Take To A Special Facility To Throw Away"
     },
     {
@@ -282,10 +244,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A recreational Activity Traditionally Don In Hot Weather"
     }
   ],

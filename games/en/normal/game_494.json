@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Butter",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Bib",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Fork",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Napkin",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cracking Tool",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Roommate Wanted",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Jobs",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Books",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lecture",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Concert",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Classes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Tutoring",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Romeo",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Hamlet",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "JulietteJuliet",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "MacBeth",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Othello",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "China",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Mexico",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "India",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Japan",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Vietnam",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Dogs",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Water",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Grab Their Tail",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Mouse",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Vacuum Cleaner",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Hotel",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Meals",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Rental Car",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Airplane Ticket",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Clothing Trend From The 1980S That Has Come Back In Style"
     },
     {
@@ -249,10 +214,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Telemarketer Tries To Sell You"
     },
     {
@@ -282,10 +243,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Book You Carry Around To Impress Someone Else."
     },
     {
@@ -311,10 +268,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something That Can Momentarily Blind You."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Honey ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Sting ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Hive ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Buzz ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Wings ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Soap",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Sand",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Dust",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Smoke",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Insect",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Hair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sun",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Red",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Pink",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Blue",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Green",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Yellow",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Orange",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Purple",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Computer",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Cell Phone",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "TV",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Microwave",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Bread ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Cake ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Cheese ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Pizza ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Cucumber ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Onion ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -179,38 +150,31 @@
       "answers": [
         {
           "ans": "Lassie",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Snoopy",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Benji",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Scoobie Doo",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Rin Tin Tin",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Clifford",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pluto",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -249,10 +213,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Has A Hard Time Remembering When They Get Old"
     },
     {
@@ -278,10 +238,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With Alice In Wonderland"
     },
     {
@@ -311,10 +267,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Color A Teenager Might Dye Her Hair That Would Annoy Her Parents"
     },
     {
@@ -340,10 +292,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Las Vegas Entertainer’s Outfit Would Have Sewn On"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Beer",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Fans",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Yelling",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,18 +26,15 @@
       "answers": [
         {
           "ans": "Top ",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Bowler ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cowboy / 10 Gallon ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         }
       ],
       "multiply": 1,
@@ -51,28 +44,23 @@
       "answers": [
         {
           "ans": "Snore",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Drool",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Pass Gas",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Jerk/Fall Over",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Talk In Sleep",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -82,23 +70,19 @@
       "answers": [
         {
           "ans": "Grumpy",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Sleepy",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Dopey",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bashful",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -108,38 +92,31 @@
       "answers": [
         {
           "ans": "Mind",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Cerebrum",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Intellect",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Thinking Cap",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Gray Matter",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Noggin",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Noodle",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -149,38 +126,31 @@
       "answers": [
         {
           "ans": "Flashed Someone",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Kissed Co-Worker",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Got Sick",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Passed Out",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Danced On Tables",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Fell Down",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Got Into A Fight",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -215,10 +185,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Santa’s Reindeer Couldn’t Fly On Christmas Eve, What Mode Of Transportation Might He Use Instead?"
     },
     {
@@ -244,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See Trained Monkey’s Doing In Sitcoms And Movies."
     },
     {
@@ -273,10 +235,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Weather Condition You Hate To Drive In"
     },
     {
@@ -302,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name an activity people like to do at a lake."
     }
   ],

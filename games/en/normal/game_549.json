@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Escargot",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Wine",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Croissant",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Crepes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fondue",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "French Fries",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "french Bread",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Speed",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Arrest Someone",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Run Red Lights",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Carry/ Use Gun",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Trees",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Money",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Oil",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Water",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Undeveloped Land",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Morals",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Jobs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,33 +94,27 @@
       "answers": [
         {
           "ans": "Address",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Social Security Number",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Weight",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Phone Number",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Age",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Income",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -148,28 +124,23 @@
       "answers": [
         {
           "ans": "Rude Boss",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Too Stressfull",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bad Pay",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Long Hours/Schedule",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dangerous",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,38 +150,31 @@
       "answers": [
         {
           "ans": "Park",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Golf Course",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Mansion",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "White House",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ball Field",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Farm",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "School",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -245,10 +209,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Parents Think Their Teenage Son Spends Too Much Time Doing."
     },
     {
@@ -266,10 +226,6 @@
           20
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What In Your House Would You Most Be Upset To Find Out Your Dog Chewed Up"
     },
     {
@@ -299,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Are Some Milestones That A Baby Reaches In Their First Year?"
     },
     {
@@ -336,10 +288,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Latest Hour You Could Drink Coffee Without It Affecting Your Ability To Fall Asleep."
     }
   ],

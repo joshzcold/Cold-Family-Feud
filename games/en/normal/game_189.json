@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Hair Clip ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Hair Spray ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Hair Gel ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Mousse ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Alice Band ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Go To Bathroom",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Bark",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Bite",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Shed",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Dig",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": 12,
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": 24,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 10,
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": 50,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": 20,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": 52,
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": 30,
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Bar",
-          "pnt": 70,
-          "trig": false
+          "pnt": 70
         },
         {
           "ans": "Home",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Restaurant",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Movie",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Tractor",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Horse",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bull",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Farm Truck",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Computer/Calculator",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Forms",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Records",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Pencil",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In A Pocket That Might Go Through The Laundry"
     },
     {
@@ -235,10 +202,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Do On A Farm"
     },
     {
@@ -272,10 +235,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides An Office, Place To Find Copy Machine"
     },
     {
@@ -301,10 +260,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Causes People To Change Seats At The Movies"
     }
   ],

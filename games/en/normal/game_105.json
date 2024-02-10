@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Spit",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Chew Tobacco",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Chew Gum",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Drink Fluids",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Watch Game",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Talk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Cheer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Gym Teacher/Coach",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Personal Trainer",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Janitor",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Babysitter",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Lay down",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Drink",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Smile",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Eat",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cry",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Talk About It",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -107,38 +90,31 @@
       "answers": [
         {
           "ans": "Eggs",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Donuts",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Roses",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Beer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Soda",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Socks",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dishes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -148,33 +124,27 @@
       "answers": [
         {
           "ans": "Scream",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Get Into Fight",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Argue With ref",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Swear",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Insult Players",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Bother Coach",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": 8,
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": 7,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": 6,
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": 10,
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": 9,
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -240,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Culture Or Religion That Celebrates A Different New Year Then The West"
     },
     {
@@ -269,10 +230,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Musical Instrument Made Out Of Wood"
     },
     {
@@ -290,10 +247,6 @@
           25
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Good Job For Someone Who Likes To Take Care Of People"
     },
     {
@@ -319,10 +272,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Product Door-To-Door Salesmen Used To Sell."
     }
   ],

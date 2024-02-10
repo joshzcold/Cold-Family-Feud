@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Twigs",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Mud",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Leaves",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Grass",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Straw",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Flour ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Oven ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Eggs ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Tin ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ingredients ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Too Loud",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Not Romantic",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Too Expensive",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Parents Disapprove",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -92,18 +78,15 @@
       "answers": [
         {
           "ans": "Bear ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Goldfish ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Elephant ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 2,
@@ -113,28 +96,23 @@
       "answers": [
         {
           "ans": "Principal",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Detention",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Time Out",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Home",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Reform School",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -144,23 +122,19 @@
       "answers": [
         {
           "ans": "Broom",
-          "pnt": 62,
-          "trig": false
+          "pnt": 62
         },
         {
           "ans": "Mop",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Plunger",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Toilet Brush",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Circus Performer’s Parents Would Cringe At Seeing Him Perform."
     },
     {
@@ -228,10 +198,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Somewhere You Would Look If You Wanted To Find A Spider"
     },
     {
@@ -257,10 +223,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Give Me A Mans Name That Is Only 3 Letters Long"
     },
     {
@@ -286,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Name People Use To Describe Someone Who Talks To Much"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Work",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "School",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bar",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Place Of Worship",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Internet",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Summer Camp",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Bra",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Underwear",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bathing Suit",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Jeans",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Colonel Sanders",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Mashed potatoes",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Coleslaw",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Biscuits",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Corn on the cob",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Secret recipe",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Shop",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Drink",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Cash Check",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Pay Bills",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Map/ GPS",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Money",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Snacks",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Change Of Clothes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Cell Phone",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Family/ Friends",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Music",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "New York City",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Las Vegas",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Paris",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Los Angeles",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Chicago",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "New Orleans",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Miami",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Financial Expert Tell You To Put Your Money Into?"
     },
     {
@@ -264,10 +226,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific That People Flip"
     },
     {
@@ -293,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Find Yourself Watching The Clock."
     },
     {
@@ -322,10 +276,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Grease"
     }
   ],

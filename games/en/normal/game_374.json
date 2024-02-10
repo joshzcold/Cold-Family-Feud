@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "Snooker Balls ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Criminal ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Picture ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 1,
@@ -25,33 +22,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Good Looks",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Car",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Stylish Clothes",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Good Grades",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Personality",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Fighting",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Men",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Spandex",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Yelling",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Skin",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Muscles",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "A1 Sauce",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Teriyaki",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "BBQ Sauce",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Soy Sauce",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Tobasco",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Ketchup",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Bill Collector",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Telemarketer",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Parents",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Boss",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "In Laws",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Your Ex",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Selling Cookies",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Lost",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Trick Or Treat",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Newspaper",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Another Way Of Saying Goodbye"
     },
     {
@@ -249,10 +214,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Parents Might Want Their Kid To Go To A Particular College."
     },
     {
@@ -286,10 +247,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "When ordering pizza,name something extra you might ask for."
     },
     {
@@ -319,10 +276,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way People Try To Stop A Bloody Nose."
     }
   ],

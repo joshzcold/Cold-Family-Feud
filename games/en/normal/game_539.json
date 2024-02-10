@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "I’m Sorry",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Whoops",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Uh Oh",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "I Didn’t Do It",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Stockings ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Socks ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Jeans ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Leggings ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Trousers ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Chicken Pox",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Cold",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Measles",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lice",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mumps",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Pink Eye",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "TV",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Computer",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Microwave",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Stove",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Table",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Washer",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Banjo",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bass",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Fiddle/Violin",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ukelele",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Harp",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mandolin",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Soup",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Meat",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Bread",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pizza",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pasta",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Coffee/Tea",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -226,10 +193,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Your car That Can Be turned On And Off"
     },
     {
@@ -251,10 +214,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Wives: What Percent Of The Housework Does Your Husband Do?"
     },
     {
@@ -284,10 +243,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "How Can You Tell That Your Date Isn’t Interested In The Movie?"
     },
     {
@@ -309,10 +264,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Send A Bowl Of Soup Back"
     }
   ],

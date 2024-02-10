@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Talking",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Making Promises",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Shaking Hands",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Smiling",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Kissing Babies",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Insulting Opponent",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Waving",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,18 +38,15 @@
       "answers": [
         {
           "ans": "Christmas",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Birthday",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Anniversary",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Edward Scissorhand",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Pirates Of The Caribbean",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Sleepy Hollow",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Blow",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Charlie & The Chocolate Factory",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Mustard",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Reslish",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Onion",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Tomato",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sauerkraut",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cheese",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,38 +112,31 @@
       "answers": [
         {
           "ans": 30,
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": 15,
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": 20,
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": 10,
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": 60,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": 5,
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": 45,
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -174,28 +146,23 @@
       "answers": [
         {
           "ans": "Soldier ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Athlete ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Winner ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Hero ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Olympian ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -222,10 +189,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do More Of When They’re Tired"
     },
     {
@@ -247,10 +210,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Hope That You’re Still Doing When You’re 80"
     },
     {
@@ -272,10 +231,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason A Person Might Phone Up A Radio Show"
     },
     {
@@ -301,10 +256,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Associate With A Dream"
     }
   ],

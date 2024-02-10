@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Rain",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Wind",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Humidity",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lightning",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "In Love",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Pregnant",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Stability",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Green Card",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Stranger At Door",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Hungry",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Sees A Cat",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hears A Loud Noise",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sees Another Dog",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Internet Acronyms",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Slang",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Misspelling",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Swearing",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Smiley Face",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -118,23 +100,19 @@
       "answers": [
         {
           "ans": "Family Name",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Job",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Age",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Hometown",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 2,
@@ -144,33 +122,27 @@
       "answers": [
         {
           "ans": "Black",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Red",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Green",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Blue",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Grey",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "White",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Auto Racer Hopes Won’t Happen To Him During A Race."
     },
     {
@@ -230,10 +198,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Thank Family And Friends, Name A Person You Give A Gift Or Tip To During The Holidays"
     },
     {
@@ -255,10 +219,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Got To Be Fearless For One Day, Name The First Thing You’d Try"
     },
     {
@@ -292,10 +252,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Character From The Lord Of The rings"
     }
   ],

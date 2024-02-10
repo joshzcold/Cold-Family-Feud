@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Knockers ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Numbers ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Letterbox ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bell ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Lock ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Handle ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Construction",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Cowboy",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Firefighter",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Army",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Farmer",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Police Officer",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Sky ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Ocean ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Blueberries ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Eyes ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Flowers ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Wall",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "School Desk",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Clothes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Skin",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Car",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Coat",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Gloves",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Hat",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sweater",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Long Johns",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Boots",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "A Bed",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Room Service",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Running Water",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "A TV",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "A Pool",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Internet",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Wanted To Impersonate Mary Poppins, What Would You Do?"
     },
     {
@@ -264,10 +226,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do When It Rains"
     },
     {
@@ -289,10 +247,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Food That Has A Hole In The Middle."
     },
     {
@@ -322,10 +276,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Send Someone A Card"
     }
   ],

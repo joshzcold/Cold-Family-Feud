@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Library",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Hotel",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Cafe",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fast Food",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Home",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Google",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Facebook",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Yahoo",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Amazon",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ebay",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Ring ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Chain ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Tooth ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Pen ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Corn",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Spinach",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Popcorn",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Steak",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Running",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Tap Dancing",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Walking",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mopping",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Jumping",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -149,33 +126,27 @@
       "answers": [
         {
           "ans": "Picnic",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Sleeping",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Reading A Book",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sitting",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Relaxing",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Kissing",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific A Waiter Would Do To Get Good Tips"
     },
     {
@@ -243,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do On The Day After Thanksgiving"
     },
     {
@@ -276,10 +239,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Associated With Alaska"
     },
     {
@@ -301,10 +260,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Wear While Swimming"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Merry Go Round",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Swing",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "See Saw",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Slide",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Put Seat Belt On ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Start Engine ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Close The Door ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Keys In Ignition ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Lock The Door ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Singer",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Comedian",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Motivational Speaker",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Politician",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Dancer",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Teacher",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Groom",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Bride",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Clergy",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Best Man",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Father",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Box",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Wrapping Paper",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bow",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bubble Wrap",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -154,28 +130,23 @@
       "answers": [
         {
           "ans": "Moustache",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Beard",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Big Nose",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Horns",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Glasses",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something About The Future People Discuss With A Psychic"
     },
     {
@@ -231,10 +198,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’re Pleasantly Surprised To Find In Your Chocolate Chip Cookie"
     },
     {
@@ -260,10 +223,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Do In Front Of Children, But Would Be Embarrassed To Do In Front Of Other Adults"
     },
     {
@@ -293,10 +252,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Drink That Often Comes With A Spoon"
     }
   ],

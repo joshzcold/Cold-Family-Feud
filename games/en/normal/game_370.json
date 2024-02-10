@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Socks ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Underwear ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Jeans ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Tee Shirt ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Shirt ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Shoes ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Teacher",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Doctor",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Customer Service",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Food Server",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Therapist",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Nurse",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Salesperson",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "Eat",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Write/Type",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Snap/Clap",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bite Nails",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Count",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cross Them",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Point",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -122,33 +102,27 @@
       "answers": [
         {
           "ans": "Toy",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Blanket",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Pet",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Teddy Bear",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Tooth",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Game",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -158,23 +132,19 @@
       "answers": [
         {
           "ans": "New York",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Chicago",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Los Angeles",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Las Vegas",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Cook",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Nurse",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dentist",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Mechanic",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Restaurant Worker",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -241,10 +205,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A School Supply That You Haven’t Used Since You Were Young."
     },
     {
@@ -278,10 +238,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Health Nut Order Lunch Without"
     },
     {
@@ -315,10 +271,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Person Does That Slows Down The Checkout Line At The Supermarket"
     },
     {
@@ -348,10 +300,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Drink That Tastes Disgusting When It’s Warm."
     }
   ],

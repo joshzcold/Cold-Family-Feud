@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Front Garden ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Fence ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Hedge / Plant ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Gate ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bailiffs ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Bingo",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Visitors",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Playing Cards",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Meals",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Crafts",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Lawn Mower",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Hoe",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Shovel",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hose",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Rake",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Edger",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Shoes",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Shirt",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Jewelery",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bra",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Underware",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Make Pie",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Smash It",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Throw It Away",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Roast Seeds",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Photo Doesn’t Match",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Made Up Name",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Expired Date",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "No Seal",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Need For Shaving"
     },
     {
@@ -243,10 +210,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You See A Lot Of When You Look Out The Window On A Long Car Ride."
     },
     {
@@ -268,10 +231,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason People Might Put Lawnchairs On The Sidewalk"
     },
     {
@@ -297,10 +256,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do People Start Having More Of In Their Car Once They Have Kids?"
     }
   ],

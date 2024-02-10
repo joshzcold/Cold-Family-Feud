@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Scream",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Smash Instrument",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Jump Around",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Take Off Shirt",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dance",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Free Food",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "A TV Set",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Alcohol",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Music",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Childcare",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Friend",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Romantic Interest",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Ex",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sibling",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Child",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Parent",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Books ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Bag ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Lunch ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pen ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pencil ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Play ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Eating ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Swimming ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Dancing ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Playing In Mud ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Hippies",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Music",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Vietnam",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "60S Hairstyles",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bell Bottoms",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Drink Or Food That Can Be Eaten Either Hot Or Cold."
     },
     {
@@ -253,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Child Bring To Summer Camp, In Case They Get Homesick"
     },
     {
@@ -286,10 +247,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Place Where You Often Have To Pay For Parking"
     },
     {
@@ -307,10 +264,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Might Hear Bells"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Football ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Hockey ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Basketball ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Rugby ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Volleyball ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Polo ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Sick",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Bad Behavior",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Bad Grades",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fight",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Skipping Class",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Wash Hands",
-          "pnt": 71,
-          "trig": false
+          "pnt": 71
         },
         {
           "ans": "Put Gloves On",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Gone To School",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sterilized Equipment",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Drive",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Dishes",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Massage",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Clap",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cook",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Eat",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Hungry",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Teething",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Tired",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sickness",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Wet Diaper",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Colic",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "A Spot ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "A Bogey ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "A Hair ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "A Fist ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Restaurant Might Not Be Able To Pronounce Anything On Menu"
     },
     {
@@ -241,10 +206,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something “Human” That People Try To Teach Their Dogs To Do."
     },
     {
@@ -270,10 +231,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something You Feel Before You Buy It."
     },
     {
@@ -295,10 +252,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Whose Phone Number Might A Child Know By Heart?"
     }
   ],

@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "TV/Movies",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Pets/Animals",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sports",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Kids",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "By Mistake",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "For Wife",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Asleep",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hot Actress",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Fish ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Otter ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Crocodile ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Frog ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Newt ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Couch",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Lounge Chair",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bed",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Table",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -113,38 +96,31 @@
       "answers": [
         {
           "ans": "Your Windows",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Your Diary/Journal",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Medicine Cabinet/Closet",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Your Purse",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Your Mail",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cell Phone Records",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Your Trash",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Price Is Right",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Wheel Of Fortune",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Family Feud",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Jeopardy",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -180,61 +152,111 @@
   "final_round": [
     {
       "answers": [
-        ["Plus", 25],
-        ["Equal", 19],
-        ["Multiply", 14],
-        ["Divide", 12],
-        ["On/Off", 8],
-        ["Percent", 8],
-        ["Minus", 6]
+        [
+          "Plus",
+          25
+        ],
+        [
+          "Equal",
+          19
+        ],
+        [
+          "Multiply",
+          14
+        ],
+        [
+          "Divide",
+          12
+        ],
+        [
+          "On/Off",
+          8
+        ],
+        [
+          "Percent",
+          8
+        ],
+        [
+          "Minus",
+          6
+        ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides numbers,name a button on a calculator"
     },
     {
       "answers": [
-        ["Smoking", 38],
-        ["Camping/Campfire", 27],
-        ["Fireworks", 15],
-        ["Fire Eating", 14]
+        [
+          "Smoking",
+          38
+        ],
+        [
+          "Camping/Campfire",
+          27
+        ],
+        [
+          "Fireworks",
+          15
+        ],
+        [
+          "Fire Eating",
+          14
+        ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a Hobby That Would Be Ironic For A Firefighter To Have."
     },
     {
       "answers": [
-        ["Playing Outside", 52],
-        ["Playing Sports", 25],
-        ["Swimming", 18],
-        ["Getting Out Of Bed", 3]
+        [
+          "Playing Outside",
+          52
+        ],
+        [
+          "Playing Sports",
+          25
+        ],
+        [
+          "Swimming",
+          18
+        ],
+        [
+          "Getting Out Of Bed",
+          3
+        ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Mom Might Tell Her Kid To Shower After Doing"
     },
     {
       "answers": [
-        ["Mall", 28],
-        ["Hospital", 18],
-        ["Concert", 16],
-        ["Airport", 15],
-        ["Work/Downtown", 14],
-        ["Sporting Event", 6]
+        [
+          "Mall",
+          28
+        ],
+        [
+          "Hospital",
+          18
+        ],
+        [
+          "Concert",
+          16
+        ],
+        [
+          "Airport",
+          15
+        ],
+        [
+          "Work/Downtown",
+          14
+        ],
+        [
+          "Sporting Event",
+          6
+        ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Place Where You Often Have To Pay For Parking."
     }
   ],
-  "final_round_timers": [20, 25]
+  "final_round_timers": [
+    20,
+    25
+  ]
 }

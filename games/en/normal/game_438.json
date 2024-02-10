@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Soap",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Towels",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Ashtray",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Shampoo",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Robe",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pen",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pillow",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Warning",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Nice",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Flirts",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Driver Cute",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Driver Cries",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Friend",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Light Out",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -86,23 +72,19 @@
       "answers": [
         {
           "ans": "Attacked By A Dog",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Bad Weather",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Traffic",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Too Much Mail",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Worship Service",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Party",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Work/Interview",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Going For Dinner",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Chips",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Popcorn",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Peanuts",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Crackers",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pretzels",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fruit",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Cookies",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -184,38 +154,31 @@
       "answers": [
         {
           "ans": "Read",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sing",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Coloring Books",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sleep",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Watch TV",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Eat",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Play Games",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -246,10 +209,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place That Might Be Dimly Lit."
     },
     {
@@ -275,10 +234,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Whose Advice You Usually Accept"
     },
     {
@@ -304,10 +259,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Last Thing You Read On The Internet That You Wish You Hadn’t."
     },
     {
@@ -337,10 +288,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Person That Wears A Name Tag"
     }
   ],

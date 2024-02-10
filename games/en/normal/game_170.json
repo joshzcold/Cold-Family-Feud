@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Bell ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Light ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Things In The Spokes ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "A Clapper ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Stickers ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Nurse",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Teacher",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Police Officer",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Doctor",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -61,18 +52,15 @@
       "answers": [
         {
           "ans": "Monument",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Library",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Bridge",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 1,
@@ -82,33 +70,27 @@
       "answers": [
         {
           "ans": "TOILET PAPER",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "BREAD",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "PILLOW",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "BLANKET",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "TOWEL",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "SHIRT",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -118,33 +100,27 @@
       "answers": [
         {
           "ans": "Bird Droppings ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Parking Ticket ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Frost Or Ice ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Flies / Insects ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Crack ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Flyers / Ads ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Kool Aid",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Tea",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Juice Concentrate",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Coffee",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -197,10 +169,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something From Your Ex That You Might Get Rid Of When Starting A New Relationship."
     },
     {
@@ -226,10 +194,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name an activity you might do while on a Hawaiian honeymoon."
     },
     {
@@ -263,10 +227,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Gets Delivered By Trucks."
     },
     {
@@ -300,10 +260,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation That Adult Men Still Dream About Having"
     }
   ],

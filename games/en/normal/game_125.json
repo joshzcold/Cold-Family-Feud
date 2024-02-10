@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "TV",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Bathroom",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Toys",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Food",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Computer",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bed",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Parents Attention",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,33 +38,27 @@
       "answers": [
         {
           "ans": "Complain",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Get Sick",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Never Return",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bad Tip",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Tell Friends",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Bad Review",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -81,23 +68,19 @@
       "answers": [
         {
           "ans": "Nurse ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Doctor ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Cleaner ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Porter ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Outfit",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Man",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hairstyle",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Purse",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Turkey",
-          "pnt": 87,
-          "trig": false
+          "pnt": 87
         },
         {
           "ans": "Cranberry Sauce",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Family Dinner",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Pumpkin Pie",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Priest",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Exorcist",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Ghost Busters",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Psychic",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Movers",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Police",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something that many women wish their husbands could talk about."
     },
     {
@@ -245,10 +210,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In A House That A Spoiled Kid Might Have Their Own Of."
     },
     {
@@ -270,10 +231,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phrase That’s Said In Commercials To Get You To Buy The Product Right Away."
     },
     {
@@ -295,10 +252,6 @@
           15
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That You Often Have A Hard Time Concentrating On."
     }
   ],

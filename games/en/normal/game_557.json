@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Door",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Safe",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Car",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Locker",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Gate",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Ice Cream",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Beef",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Chicken",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Pizza",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Vegetables",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Leave Classroom",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Duck And Cover",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Form A Line",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Stay Calm",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Exercise",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sports",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Crafts",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Playing Instrument",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cooking",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Listening To Radio",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,33 +116,27 @@
       "answers": [
         {
           "ans": "Typing",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Eating",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Blowing Nose",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Writing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Scratching An Itch",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Tying Shoes",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -174,33 +146,27 @@
       "answers": [
         {
           "ans": "Golf",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Tennis",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Soccer",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Ping Pong",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Swimming",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bowling",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -227,10 +193,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Most Parents Would Let Their Teen Experiment With"
     },
     {
@@ -252,10 +214,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Artical Of Clothing Made Of Leather"
     },
     {
@@ -285,10 +243,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Biggest Event In A Teenager’s Life"
     },
     {
@@ -322,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Age A Man Might Start Losing His Hair. (Numeric Only)"
     }
   ],

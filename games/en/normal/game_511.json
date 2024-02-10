@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Table Cloth ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Cutlery ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Plates ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Salt / Pepper ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Menu ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Crackers",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Cheese Sauce",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Chips",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bread",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Ex",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Enemy",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Boss",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Affair",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cops",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Princess",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Witch",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Fairy",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Angel",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Hat",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Jeans",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Chaps",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Boots",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Mag./Subscription",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Book Light",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "E Reader",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Bookmark",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Book Shelf",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Annoying That Cats Do."
     },
     {
@@ -238,10 +206,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Specific Your Partner Did Early In Your Relationship That You Wish They Still Did Now?"
     },
     {
@@ -275,10 +239,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Saint"
     },
     {
@@ -304,10 +264,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Children Do On A Long Car Trip"
     }
   ],

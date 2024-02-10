@@ -4,18 +4,15 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Buildings",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Furniture",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         }
       ],
       "multiply": 1,
@@ -25,38 +22,31 @@
       "answers": [
         {
           "ans": "David Letterman",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Chris Rock",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Whoopi Goldberg",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Chevy Chase",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Steve Martin",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Jon Stewart",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Billy Crystal",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Melt",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Wind",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Stolen",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Animals Eat Them",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Turtle Doves",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Partridge",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Geese",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Calling Birds",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "French Hens",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Swans",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Red Carpet",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Dough",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Yoga Mat",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sleeping Bag",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "TV",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Computer",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Jewelry",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Camera",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Video Game System",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Article Of Clothing",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Place In The House Where A Nosey House Guest Might Snoop."
     },
     {
@@ -240,10 +206,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Throw Away Every Day"
     },
     {
@@ -277,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal Character That Talks In The Movies"
     },
     {
@@ -310,10 +268,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Truck Driver Might Have To Go Without For A While."
     }
   ],

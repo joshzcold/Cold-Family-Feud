@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Security Guard",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Police Officer",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Nurse",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Conv. Store Clerk",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Factory Worker",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Doctor",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Janitor",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Open Door",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Pay Bills",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Be Affectionate",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Bring Flowers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Trivial Pursuit ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Monopoly ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Chess ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Scrabble ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pictionary ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "ABC’S",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Reading",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Math",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Writing",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Spelling",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Writing Name",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Formal dress",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "High Heels",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Makeup",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Coursage",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bra",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Seats ",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Popcorn ",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "People ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Screen ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Food ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -225,10 +193,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food You Find Raisins In."
     },
     {
@@ -254,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Wish You Had In Your Backyard"
     },
     {
@@ -291,10 +251,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Almost Everyday Bride Wants At Her Wedding"
     },
     {
@@ -316,10 +272,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Phrase You’d Say To Your Partner That Starts With “You Drive Me __.”"
     }
   ],

@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Talk Loudly",
-          "pnt": 80,
-          "trig": false
+          "pnt": 80
         },
         {
           "ans": "Use Phone",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Cough",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Laugh",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Snore",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Heckle",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,33 +34,27 @@
       "answers": [
         {
           "ans": "Traffic Jam",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Get Gas",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Your Destination",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Accident",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Restroom",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "To Eat",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Ford",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Chevrolet",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cadilac",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Buick",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Chrysler",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Jeep",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,38 +94,31 @@
       "answers": [
         {
           "ans": "Restroom",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Bar",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Library",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Fast Food",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Mall",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Work",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Sports Gym",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -153,33 +128,27 @@
       "answers": [
         {
           "ans": "Toilet Paper",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Towels",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Soap",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Toothpaste",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Shampoo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lotion",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -189,23 +158,19 @@
       "answers": [
         {
           "ans": "Miss flight",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Lose luggage",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Stopped by security",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Delayed",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -240,10 +205,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That’s Baked In The Oven, But Can’t Be Cooked In The Microwave"
     },
     {
@@ -277,10 +238,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Most People Hate About Fall."
     },
     {
@@ -306,10 +263,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Kids Might Have A Weekday Off Of School."
     },
     {
@@ -335,10 +288,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Heavy Animal That A China Shop Owner Wouldn’t Let Into Their Store."
     }
   ],

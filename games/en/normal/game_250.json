@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "A Camera ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Binnoculars ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Food ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Sunglasses ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Noodles",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "TV dinner",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Fast food",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Soup",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sandwich",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": 70,
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": 75,
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": 65,
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": 80,
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": 60,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -97,28 +82,23 @@
       "answers": [
         {
           "ans": "Alarm ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "TV ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Light ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Radio ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lamp ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -128,38 +108,31 @@
       "answers": [
         {
           "ans": "Hamburger",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Fries",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Chicken",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Steak",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pizza",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Salad",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Pasta",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Deepens",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Softer",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Nervous stutter",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Higher pitch",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Crack",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Reason You’d Hate To Run Into Your Boss At The Beach."
     },
     {
@@ -242,10 +206,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "In Which Profession Wear Sweat Pants"
     },
     {
@@ -271,10 +231,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation Where You Have To Wake Up Early"
     },
     {
@@ -308,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Requested Hamburger Garbled, What You Get"
     }
   ],

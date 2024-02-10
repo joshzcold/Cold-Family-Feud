@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Construction",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Mail Carrier",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Traffic Cop",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bus/Truck Driver",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pilot",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Reading",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Study",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Summer School",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Working",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Camp",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Stay On Computer",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Fly",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Jump From Building",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Car Crash",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Endure Fire",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Flips",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Chips",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Cookies",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Ice Cream",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Pizza",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sandwich",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cereal",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Popcorn",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Prom",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Birthday Party",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Graduation",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Make Honey",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Fly",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Sting",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Collect Pollen",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Holiday You Might BBQ On."
     },
     {
@@ -253,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Dread Having Done While At Your Dentist Appointment"
     },
     {
@@ -278,10 +239,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Vegetable That Starts With Word Sweet"
     },
     {
@@ -307,10 +264,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If A Man Is Trying To Get A Date With A Woman, What Might He Do In Order To Woo Her?"
     }
   ],

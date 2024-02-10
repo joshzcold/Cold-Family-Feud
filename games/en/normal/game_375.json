@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Fly",
-          "pnt": 86,
-          "trig": false
+          "pnt": 86
         },
         {
           "ans": "Build A Nest",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Eat Worms",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sing",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Avoid Cats",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Eat",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Drink Coffee",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Smoke",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Fill Gas Tank",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Talk On Cb",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Sit",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Listen To Radio",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Clothes",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Food",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Money",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bedding",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Toys",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Backpack",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bike",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -117,38 +98,31 @@
       "answers": [
         {
           "ans": "Circus",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Fair",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Carnival",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Amusement Park",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Movie Theater",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Candy Store",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Chuck E. Cheese",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -158,23 +132,19 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Eggs",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Baking Soda",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Mayo",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -184,33 +154,27 @@
       "answers": [
         {
           "ans": "Tuba",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Trumpet",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Trombone",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Saxaphone",
-          "pnt": 1,
-          "trig": false
+          "pnt": 1
         },
         {
           "ans": "Flute",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bagpipe",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -249,10 +213,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Are Some Things Truckers Might Take With Them On A Trip?"
     },
     {
@@ -278,10 +238,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Camper Does That He Wouldn’t Do At Home"
     },
     {
@@ -311,10 +267,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Popular Section Of A Library"
     },
     {
@@ -344,10 +296,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Do In A Van That You Can’t Do In A Sports Car."
     }
   ],

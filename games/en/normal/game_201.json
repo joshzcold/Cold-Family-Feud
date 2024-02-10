@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Pet ",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Family ",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Football Team ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Chocolate ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Celebs ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Yourself ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,38 +34,31 @@
       "answers": [
         {
           "ans": "Foundation",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Blush",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Lipstick",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Eye Shadow",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Powder",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Mascara",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Eyeliner",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -81,38 +68,31 @@
       "answers": [
         {
           "ans": "Yawn",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Sigh",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Sleep",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Roll Their Eyes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Twiddle Thumbs",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Tap Fingers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Look At Watch",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -122,28 +102,23 @@
       "answers": [
         {
           "ans": "Shopping",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Work",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Driving",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cleaning",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Paying Bills",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -153,33 +128,27 @@
       "answers": [
         {
           "ans": "Trumpet ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Trombone ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Tuba ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "French Horn ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bugle ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bazooka ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -189,28 +158,23 @@
       "answers": [
         {
           "ans": "Football ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Karate ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Rugby ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Running ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Boxing ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -241,10 +205,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Buy From A Butchers"
     },
     {
@@ -270,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Cheesy People Do In Family Portraits."
     },
     {
@@ -303,10 +259,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a talent you see street performers doing"
     },
     {
@@ -328,10 +280,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Trait That’s Essential For A High School Teacher To Have"
     }
   ],

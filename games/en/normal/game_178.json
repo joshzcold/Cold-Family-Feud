@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Dress/Tux",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Corsage",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Shoes",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Limo",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Family",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Job",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Name",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Age",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Hometown",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Bed",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Homemade Meal",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Family",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pet",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -87,28 +74,23 @@
       "answers": [
         {
           "ans": "Drinks",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Food",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Decorations",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Utensils",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Noise Makers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Ghost",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Witch",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Pumpkin",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Vampire",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pajamas",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "Walking/ Running",
-          "pnt": 67,
-          "trig": false
+          "pnt": 67
         },
         {
           "ans": "Cleaning",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Intercourse",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Laughing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -192,10 +165,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Aaron? (Erin?)"
     },
     {
@@ -221,10 +190,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason A Person Might Wear A Disguise."
     },
     {
@@ -246,10 +211,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Past Or Present, Name A U.S. President Who You Wouldn’t Mind Having A Beer With."
     },
     {
@@ -283,10 +244,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Lived In Fairy Tale Land, Someone At Grocery"
     }
   ],

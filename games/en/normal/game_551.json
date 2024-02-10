@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Drinks",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Appetizers",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Dessert",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Entree",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Childrens Menu",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Bible",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Cross",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Rosary",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Books",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Angel",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Bookmark",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Cards",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Dressing",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Croutons",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Cheese",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Fruit",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Bacon",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "stairs",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Door",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Swimming Pool",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cabinets",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Crib",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Dirty",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Carrying Gear",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Tired",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bug Bites",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Tanned",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Dog ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cat ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Turtle ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Parrot ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bird ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Candy That Sounds Like Something You’d Dig Up From The Ground"
     },
     {
@@ -246,10 +210,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Comes With A Drink Of A Fancy Cocktail"
     },
     {
@@ -271,10 +231,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Need If You Wanted To Dress As A Vampire For Halloween."
     },
     {
@@ -300,10 +256,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Complaints Do People Make About The Christmas Holiday?"
     }
   ],

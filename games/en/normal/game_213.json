@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "New York City",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "St Louise",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Houston",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "San Francisco",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Los Angeles",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "New Orleans",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Washington D.C.",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Singing",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Dancing",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Drawing",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sports",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Hot Dogs",
-          "pnt": 76,
-          "trig": false
+          "pnt": 76
         },
         {
           "ans": "Hamburger",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "French Fries",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Corn Dogs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Ketchup",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Hot Pretzel",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Ham",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Birthday ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Valentines Day ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Birthday ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Funeral ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Admirer ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Bicycle",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Boat",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bull",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Train",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Motorcycle",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Rhinocerous",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Unicorn",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,38 +154,31 @@
       "answers": [
         {
           "ans": "Phone call",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Pass gas",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Family member",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Weather",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Sneeze/cough",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Door bell",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Bad breath",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -254,10 +217,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Would A Taxi Driver Have To Stop Doing To Drive A Hearse"
     },
     {
@@ -283,10 +242,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teen Might Take Off Before Going To Grandma’s House For Dinner."
     },
     {
@@ -316,10 +271,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Makeup That Most Women Don’t Wear On A Regular Basis."
     },
     {
@@ -341,10 +292,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do While Birdwatching That You Might Also Do While Hunting"
     }
   ],

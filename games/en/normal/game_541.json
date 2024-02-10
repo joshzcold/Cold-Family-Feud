@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Peace",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Environment",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Voting",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Animal Rights",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Poverty",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Abortions",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Gun Or Gun Control",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Pants",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Car",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Shoes",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Bed",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "House",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Kiss ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Nerves ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Place ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Romance ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Didn't Turn Up ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": "Attire",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "lateness",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Personal Calls",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Office Gossip",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Attitude/Behavior",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Hygiene",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Breaking News",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Sports",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Presidential Speech",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Weather alert",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -169,38 +142,31 @@
       "answers": [
         {
           "ans": "Clean",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Cook",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Decorate",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Get Dressed",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Shower",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Have A Drink",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Go To The Bathroom",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -231,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Deep Sea Divers Wear, That You’d Look Silly Wearing In The Pool."
     },
     {
@@ -260,10 +222,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something men try to cover up."
     },
     {
@@ -285,10 +243,6 @@
           17
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Time When A Man Might Be Extra Caring Toward His Wife"
     },
     {
@@ -322,10 +276,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "After A Week Of Camping, What Luxury Oh Home Are You Most Excited To Have Again?"
     }
   ],

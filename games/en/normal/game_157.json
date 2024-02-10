@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Bar/Club",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Movie Theater",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Concert",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Sporting Event",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Airport",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fair",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Coffee Shop",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Arachnophobia",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Agoraphobia",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Claustrophobia",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Germophobia",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Cheerleaders",
-          "pnt": 60,
-          "trig": false
+          "pnt": 60
         },
         {
           "ans": "Football",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Troy Aikman",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Champs",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         },
         {
           "ans": "Blue Star",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Cat",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Dolphin",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Monkey",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bird",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dog",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Whale",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Hyena",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Pittsburgh",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Philadelphia",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Portland",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Phoenix",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Pasadena",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pomona",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Park City",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,38 +154,31 @@
       "answers": [
         {
           "ans": "Sleeping",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Using Bathroom",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Eating",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Causing Trouble",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Reading",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Coloring",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Watching TV",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -246,10 +209,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Animal From A Comic Strip."
     },
     {
@@ -271,10 +230,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Somewhere That Parents Can’t Wait For Their Kids To Go"
     },
     {
@@ -296,10 +251,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Essential To Creating A Romantic Atmosphere At Home."
     },
     {
@@ -317,10 +268,6 @@
           19
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Worry About When Speaking In Front Of A Group"
     }
   ],

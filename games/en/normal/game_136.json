@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Socks",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Change",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Lint",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Food",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Stapler",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Pens",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Money",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Paper",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Paper Clips",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Computer",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Bathtub",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Ac",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Alarm",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Garage Door Opnr",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cable TV",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Siding",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Toilet",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Ride A Horse",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Shoot",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Act",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Fight",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Talk About Boys ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Put On Make Up ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Gossip ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Stay Up All Night ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Giggle ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Fridge",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "TV",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Soap/Shampoo",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Bathroom",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Shower",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Table",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Man Does That Gets Him In The Doghouse With His wife."
     },
     {
@@ -262,10 +226,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find At An Oasis"
     },
     {
@@ -291,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation That Might Get Tired Of Wearing The Same Thing Every Day"
     },
     {
@@ -324,10 +280,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Your Cell Phone Provider Charge Extra For"
     }
   ],

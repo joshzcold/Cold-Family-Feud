@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Subway Station",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Overpass",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "TRains",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Buildings",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Billboards",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bathrooms",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Parks",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "People Talking ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "No Seats ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Loud Music ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Tramps ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sitting Too Close ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -76,28 +64,23 @@
       "answers": [
         {
           "ans": "Pocket ",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Purse ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Car ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "In A Jar ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Ashtray ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "What Time",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "What To Wear",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "What To Bring",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Directions",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Cheese",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Soup",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Peanut Butter",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Chili",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": "Siren",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Horn",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Music",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Screaming Baby",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Extracurricular Activity That Parents Say Is Good For A Child."
     },
     {
@@ -235,10 +202,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Often Yawn"
     },
     {
@@ -272,10 +235,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s Different In Different Regions Of A Country"
     },
     {
@@ -301,10 +260,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who Make Money Off Of Giving Advice"
     }
   ],

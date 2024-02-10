@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Facebook",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Google",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Yahoo",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Ebay",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Msn",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Myspace",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Iwin",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Truck ",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Car ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Bicycle ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Cake ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Train Set ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Love",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Gambling",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Coffee",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Eating",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "TV",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Chocolate",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Internet",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -117,33 +98,27 @@
       "answers": [
         {
           "ans": "Players",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Net",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Cleats",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Feet",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Uniform",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Protective Gear",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -153,28 +128,23 @@
       "answers": [
         {
           "ans": "Chickens ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Bacon ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Omelette ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Yolk ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Easter ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -184,23 +154,19 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": 5,
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": 8,
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": 9,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -235,10 +201,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Both Men And Women Use To Keep Their Hair In Place."
     },
     {
@@ -264,10 +226,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Way In Which Your Office Is Kind Of Like A “Soap Opera.”"
     },
     {
@@ -289,10 +247,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a Phrase That Begins With The Word “Double.”"
     },
     {
@@ -314,10 +268,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "We Asked 100 Women: What Might You Get 2 Tickets For In Order To Entice Your Crush Into A Date?"
     }
   ],

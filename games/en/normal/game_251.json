@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Police Ahead",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Driving Too Slow",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Lights Off/On",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Brights On",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Deer/Animal In The Road",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Rodent",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Cricket",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Snake",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Monster",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Fly",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Mosquito",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Ozzy Osbourne",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Mick Jagger",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Gene Simmons",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Kid Rock",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Control Freak",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Remote Control",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Out Of Control",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Control Panel",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Self Control",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Mind Control",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -133,23 +112,19 @@
       "answers": [
         {
           "ans": "Ski",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Sled",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Car",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Snowmobile",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 2,
@@ -159,33 +134,27 @@
       "answers": [
         {
           "ans": "Vacuum",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "TV",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Stereo",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Blender",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Phone",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Lights",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Where Were You The Last Time You Had A Bit Too Much To Drink."
     },
     {
@@ -245,10 +210,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something In Nature That You Wouldn’t Want To Cuddle Up Next To"
     },
     {
@@ -274,10 +235,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Professional Who Might Overcharge If You Don’t Know Any Better."
     },
     {
@@ -311,10 +268,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me The Most Number Of People That Could Squeeze Into A Telephone Booth (Numeric Only)"
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Salesperson",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Collections/Landlord",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Parents/In Laws",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Neighbor",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cops",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Friend",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Postal Worker",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Smoking",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Drinking",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Staying Out Late",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Swearing",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Vicar ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Altar ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Pew ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "People ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Seats ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Stain Glass Windows ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -107,23 +90,19 @@
       "answers": [
         {
           "ans": "Wedding",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Party",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Reunion",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Christmas",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Candles",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Mirrors",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Colored Lights",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Silk Sheets",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Stereo System",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -164,38 +138,31 @@
       "answers": [
         {
           "ans": "Legs",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Hearts",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Glass",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Promise",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Rules",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "The Bank",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Habbits",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Measurement A Man Probably Doesn’t Know About His Wife’s Body."
     },
     {
@@ -267,10 +230,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something About A Celebrity’s Life Plastered Magazines"
     },
     {
@@ -292,10 +251,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Causes A Person To Laugh"
     },
     {
@@ -325,10 +280,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can’t Do Until You’re A Certain Age."
     }
   ],

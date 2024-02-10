@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Coffee Beans",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Coffee Maker",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Water",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sugar",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Mugs",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Creamer/Milk",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Filter",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Tv",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Dishwasher",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Phone",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Washing Machine",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "UFO",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Elvis",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Ghost",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Big Foot",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Lochness Monster",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Angel",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Spin The Bottle",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Strip Poker",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Twister",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Truth Or Dare",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Beer Pong",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,23 +116,19 @@
       "answers": [
         {
           "ans": "Jeans ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Jacket ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Skirt ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "A Bag ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "The Osbournes",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Brad & Angelina",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Jon & Kate",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Addams Family",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bonnie & Clyde",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Liquid Used In Cooking"
     },
     {
@@ -253,10 +218,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Sign Up For If You Like To Receive Mail"
     },
     {
@@ -286,10 +247,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides The Races Name A Place You Might Find A Horse"
     },
     {
@@ -307,10 +264,6 @@
           24
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something That You Never Intend To Buy At The Store But Always End Up With"
     }
   ],

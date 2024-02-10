@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "The World",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Work/School",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Mountain/Hill",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Your Game",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Bills",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Necklace ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Scarf ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "A Pen ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Spinning Top ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Bottle ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Money ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Wheel ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ball ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -87,38 +74,31 @@
       "answers": [
         {
           "ans": "Spoon",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Shirt",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Key Chain",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Coffee Cups",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Glasses",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Plates",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Ashtray",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Perfume",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Deodorant",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Lotion",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "After Shave",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Mouth Wash",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,38 +134,31 @@
       "answers": [
         {
           "ans": "Blood",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Police",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Body",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Yellow Tape",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Chalk Outline",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dog",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Police Car",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -229,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Disneyworld Character Forbidden Costume"
     },
     {
@@ -254,10 +218,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Can Build With Snow"
     },
     {
@@ -287,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Gift That A new Mom Is Bound To Get Duplicates Of At A Baby Shower."
     },
     {
@@ -316,10 +272,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you wouldn’t want to discover in a hotel bed when checking into your room."
     }
   ],

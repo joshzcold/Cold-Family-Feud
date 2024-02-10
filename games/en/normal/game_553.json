@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Play Poker",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Go To Bar",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Watch Sports",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Golf Outing",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bachelor Party",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Sugar",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Lemon",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Milk",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Honey",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Ice",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Brave",
-          "pnt": 70,
-          "trig": false
+          "pnt": 70
         },
         {
           "ans": "Strength",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Fortitude",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Heroic",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Heart",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Bold",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,33 +86,27 @@
       "answers": [
         {
           "ans": "Seats",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Bathroom",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Floor",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pillows/Blankets",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Windows",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Tray Tables",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Bake Sales",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Car Wash",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Dinner",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Auction",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Raffle",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Concert",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Walk/ Run",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -179,28 +150,23 @@
       "answers": [
         {
           "ans": "FOOD",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "COCKTAILS",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "LODGING",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "ENTERTAINMENT",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "SNORKLING TOUR",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -239,10 +205,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone You Don’t Want To Get A Phone Call From."
     },
     {
@@ -272,10 +234,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason You Might Take Your Child Out Of A Movie."
     },
     {
@@ -309,10 +267,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal A Lion Likes To Eat"
     },
     {
@@ -334,10 +288,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something people often lose"
     }
   ],

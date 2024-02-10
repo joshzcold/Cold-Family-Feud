@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Eat",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Sleep",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Exersice",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Games",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Talk",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -35,18 +30,15 @@
       "answers": [
         {
           "ans": "Bubblegum",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Cherry",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Grape",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         }
       ],
       "multiply": 1,
@@ -56,23 +48,19 @@
       "answers": [
         {
           "ans": "Gas Station",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Coffee Shop",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Fast Food",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Store",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -82,28 +70,23 @@
       "answers": [
         {
           "ans": "Have Homework?",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "How Are Your grades?",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "How Was Your Day?",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "What Did You Learn?",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "When Is Your Test?",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -113,38 +96,31 @@
       "answers": [
         {
           "ans": "Pass Gass",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Pee",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Snort",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Spit",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Teeth Fall Out",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Cry",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Burp",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Watermelon",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Cantaloupe",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Orange",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Grapefruit",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Pinapple",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Banana",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Coconuts",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -224,10 +193,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Always Makes You Feel Better When You’re Lonely."
     },
     {
@@ -257,10 +222,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If There Were Prizes For Good Boyfriends, What Categories Would They Be Rated On?"
     },
     {
@@ -290,10 +251,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than Swimsuits, Name Something People Wear To The Beach."
     },
     {
@@ -319,10 +276,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do People Bring Back As A Souvenir From Disneyworld?"
     }
   ],

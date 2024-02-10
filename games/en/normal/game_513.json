@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Suntan",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Sunburn",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Sand",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Wet",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Beach Smell",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Swim Suit",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Eat French Cuisine",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Shop",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "See Eiffel Tower",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Drink Wine",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Dating/Relationships",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Kids",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Work",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Clothes",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -92,23 +78,19 @@
       "answers": [
         {
           "ans": "Manure",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Hay",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Horses/animals",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Oil/Gasoline",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -118,28 +100,23 @@
       "answers": [
         {
           "ans": "Pineapple",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Coconut",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Watermelon",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cantaloupe",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pomegranite",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -149,23 +126,19 @@
       "answers": [
         {
           "ans": "Watch TV",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Read newspaper",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Use computer",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Play video games",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -192,10 +165,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Famous Sight That Tourists Take An Elevator Up To See"
     },
     {
@@ -221,10 +190,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Child Might Not Want Long Hair."
     },
     {
@@ -250,10 +215,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place On The Body That Women Tattoo But Men Usually Don’t"
     },
     {
@@ -287,10 +248,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Specific Type Of Business That Usually Has An ATM Inside"
     }
   ],

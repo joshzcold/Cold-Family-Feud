@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Out Of Gas",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "It’s A Police Car",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Fas GPS",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "It Doesn’t Run",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Taxes",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Birth Certificate",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Will",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Marriage Certificate",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Medical Bills",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Insurance Forms",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Joke ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Clown ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Comedian ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Babies ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Laughter ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Partner ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Giddy Up",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Whoa",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Hi Ho",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Yeehaw",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Squeeze",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Smell",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Cut Open",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Feel It",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Taste It",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -159,28 +134,23 @@
       "answers": [
         {
           "ans": "Foot",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Table",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Fingers",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Drum",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Pencil",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might A Health Inspector Find In A Restaurant That Causes It To Get A Poor Score?"
     },
     {
@@ -240,10 +206,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of Your Hand"
     },
     {
@@ -265,10 +227,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Most Romantic Place To Go On A First Date"
     },
     {
@@ -290,10 +248,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why A Teen Might Swear Off Love."
     }
   ],

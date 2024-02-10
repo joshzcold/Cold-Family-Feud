@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Air Bags",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Seat Belts",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Anti Lock Break",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Child Locks",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "No Loitering",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "No Parking",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "No Dogs",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "No Swimming",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "No Alcohol",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Closes At Dusk",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -66,23 +56,19 @@
       "answers": [
         {
           "ans": "Butter",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Salt",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Caramel",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cheese",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Personal Trainer",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Construction",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Bouncer",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Lifeguard",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Model",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Stretch",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Get A Massage",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Soak In Hot Tub",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Apply Ice",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -149,28 +126,23 @@
       "answers": [
         {
           "ans": "Baseball",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Football",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Soccer",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Basketball",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Swimwear",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of A Boxer’s Body That Might Be Swollen After A Match"
     },
     {
@@ -234,10 +202,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a dangerous hobby you wouldn’t want your partner to have."
     },
     {
@@ -267,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Character From The Muppet Show"
     },
     {
@@ -292,10 +252,6 @@
           14
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Put In Their Ears"
     }
   ],

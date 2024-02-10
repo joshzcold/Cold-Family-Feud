@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Phone Call",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Email",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Send Flowers",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Text Message",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Internet",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Phone Book",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Friends",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Parents",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "Pay",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Title",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Hours",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Duties",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Location",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -87,33 +74,27 @@
       "answers": [
         {
           "ans": "Change Hair",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Diet",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Put On Makeup",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Plastic Surgery",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Exercise",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Clean Up",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -123,23 +104,19 @@
       "answers": [
         {
           "ans": "Mixing Colors",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Bleach Clothes",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Too Much Soap",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Things For Dry Clean",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -149,18 +126,15 @@
       "answers": [
         {
           "ans": "Become Intimate",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Get Married",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Live Together",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         }
       ],
       "multiply": 2,
@@ -191,10 +165,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way People Get To Work In The Morning."
     },
     {
@@ -216,10 +186,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might Someone Promise To Do If They Wanted To Be Elected President?"
     },
     {
@@ -249,10 +215,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Man Women Love Just For His Accent"
     },
     {
@@ -278,10 +240,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Ugly That Can Grow On Your Feet"
     }
   ],

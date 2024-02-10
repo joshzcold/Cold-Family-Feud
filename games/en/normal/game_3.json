@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Sugar",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Chocolate",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Syrup",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Salt",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -30,23 +26,19 @@
       "answers": [
         {
           "ans": "Florida",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "California",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Hawaii",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Arizona",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -56,28 +48,23 @@
       "answers": [
         {
           "ans": "TV ",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Seat Belt / Belt ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Car Seat ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bra Strap ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Ladder ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -87,18 +74,15 @@
       "answers": [
         {
           "ans": "Christams",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Birthday",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "New Years",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         }
       ],
       "multiply": 2,
@@ -108,23 +92,19 @@
       "answers": [
         {
           "ans": "Collar ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Food ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bell ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Milk ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 2,
@@ -134,33 +114,27 @@
       "answers": [
         {
           "ans": "Model",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Dance",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Walk Confidently",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Type",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Play Piano",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Yoga",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -195,10 +169,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Teen Can Do For Longer Amounts Of Time Than Their Parents."
     },
     {
@@ -224,10 +194,6 @@
           12
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Have To Put Up With An At Outdoor Cafe That You Wouldn’t When Eating Indoors"
     },
     {
@@ -261,10 +227,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Would You Be Disappointed In A Hotel In Hawaii"
     },
     {
@@ -298,10 +260,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than The U.S., What Country Is Known For Making Films?"
     }
   ],

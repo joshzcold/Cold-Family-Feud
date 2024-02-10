@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Celebrity",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Politician",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Customer Service",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Advice Columnist",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Getting Let Go",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Promotion/Raise",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Lateness",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Warning/Reprimand",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Have A Meeting",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Elephant ",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Dog ",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Pig ",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Anteater ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Cat ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -92,28 +78,23 @@
       "answers": [
         {
           "ans": "Nurse",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Dancer",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Model",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Waitress",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Secretary",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Stereo",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "GPS",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Air Conditioning",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Seat Belts",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Air Bags",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "The Tree",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Gifts/Gift Wrap",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Ornaments/Figurines",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Lights",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Turkey/Bones",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Stockings",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A One Word Term People Use Playing Cards"
     },
     {
@@ -248,10 +214,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Which Luxuries Are People Least To Give Up When On A Budget"
     },
     {
@@ -281,10 +243,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name a Meal You’d Never Serve At a Fancy Party"
     },
     {
@@ -306,10 +264,6 @@
           13
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Part Of Uniform Clown Hates Putting On"
     }
   ],

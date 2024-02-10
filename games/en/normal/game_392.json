@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Grape",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Banana",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Apricot",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Prune",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Apple",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Wrestling ",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Volleyball ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Tennis ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Gymnastics ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Fillings",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Tonsils",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Tongue",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Teeth",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Throat",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Food",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Uvula",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -102,38 +86,31 @@
       "answers": [
         {
           "ans": "Party",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Work Nights",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Studying",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Insomnia",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sick",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Watching TV",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "New Year’s Eve",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -143,23 +120,19 @@
       "answers": [
         {
           "ans": "Decorate",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Shop For Gifts",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Put Up Tree",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Wrap Gifts",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Football",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Horse Racing",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Boxing",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Basketball",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -220,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Really Only Need One Of, But Most Households Have More"
     },
     {
@@ -241,10 +206,6 @@
           23
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Something You Fold"
     },
     {
@@ -266,10 +227,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Date When You Shouldn’t Break Up With Someone."
     },
     {
@@ -299,10 +256,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Christmas Movie People Are Tired Of."
     }
   ],

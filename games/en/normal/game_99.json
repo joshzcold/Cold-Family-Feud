@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "8 ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "7 ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "6 ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "9 ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "10 ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "12 ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Chef",
-          "pnt": 66,
-          "trig": false
+          "pnt": 66
         },
         {
           "ans": "Host",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dishwasher",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Cashier",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Busser",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,33 +60,27 @@
       "answers": [
         {
           "ans": "Computers ",
-          "pnt": 53,
-          "trig": false
+          "pnt": 53
         },
         {
           "ans": "Video Games ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Televisions ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Video Recorder ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Dvd ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Internet ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -107,28 +90,23 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Space",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Cleaning",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Bathroom",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "TV",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -138,38 +116,31 @@
       "answers": [
         {
           "ans": "Manager",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Driver",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Groupies",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Band",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "BodyGaurd",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Agent",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Journalist",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,33 +150,27 @@
       "answers": [
         {
           "ans": "Sew",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Wash Clothes",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Wash Dishes",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Write",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Saw",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Math",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -232,10 +197,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Part Of You That Looks Different When You’re Sick"
     },
     {
@@ -265,10 +226,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Jelly, What Else Goes Well With Peanut Butter"
     },
     {
@@ -298,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Find Out About A Man That Would Make You Think He Wasn’t Ready To Commit?"
     },
     {
@@ -335,10 +288,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Animal With Sharp Teeth"
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Brad Pitt",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Tom Hanks",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Julia Roberts",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Jennifer Aniston",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Denzel Washington",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Sean Penn",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Reese Witherspoon",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Wallet",
-          "pnt": 72,
-          "trig": false
+          "pnt": 72
         },
         {
           "ans": "Cell Phone",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bodyguard",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Checkbook",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -71,23 +60,19 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Spinach",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Carrots",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Broccoli",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -97,33 +82,27 @@
       "answers": [
         {
           "ans": "Campaign",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Give Speeches",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Make Posters",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Shake Hands",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Say Hello",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Draft Platform",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Swimming ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Fishing ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Surfing ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Sailing ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Scuba Diving ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -164,18 +138,15 @@
       "answers": [
         {
           "ans": "Handprint ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Collage ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Painting ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         }
       ],
       "multiply": 2,
@@ -210,10 +181,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That A Person Might Change Many Times Throughout Their Life."
     },
     {
@@ -243,10 +210,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Add To Oatmeal"
     },
     {
@@ -276,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something you associate with Mickey Mouse"
     },
     {
@@ -309,10 +268,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Wan’t To Run Over With Your Lawnmower."
     }
   ],

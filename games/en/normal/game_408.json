@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Poke Eyes",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Slap",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Laugh",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Kick",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bite",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Head Butt",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Funny Noises",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,28 +38,23 @@
       "answers": [
         {
           "ans": "Alcohol",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Beans",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Onions",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Garlic",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Leaving Things",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -76,38 +64,31 @@
       "answers": [
         {
           "ans": "Chicken Nuggets",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Hamburger",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Hot Dog",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "French Fries",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Pizza",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Grilled Cheese",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Mac & Cheese",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -117,23 +98,19 @@
       "answers": [
         {
           "ans": "Hair/Makeup",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Outfit",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Weight Loss",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Significant Other",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Parent",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Teacher",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Detective",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "IRS Auditor",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Psychiatrist",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "COUPLES",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "AFFECTION",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "TEARS",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "TISSUE",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Time Of The Year That Everybody Loves"
     },
     {
@@ -259,10 +222,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Get You To Watch A New TV Show"
     },
     {
@@ -288,10 +247,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Do With A Turkey"
     },
     {
@@ -313,10 +268,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Usually Do At The Seaside"
     }
   ],

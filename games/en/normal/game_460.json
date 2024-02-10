@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Clean Your Room",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Go To Bed",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Do Homework",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Eat Vegetables",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Be Quiet",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Their Name",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "No",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -45,38 +38,31 @@
       "answers": [
         {
           "ans": "Hiking",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Skiing",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Hunting",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Fishing",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sledding",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Shoveling",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Horseback Riding",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -86,33 +72,27 @@
       "answers": [
         {
           "ans": "Milk",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Cigarettes",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Meat",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Ice Cream",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Alcohol",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Flowers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -122,38 +102,31 @@
       "answers": [
         {
           "ans": "Doctor",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Ceo",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Teacher",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Magician",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Celebrity",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Principal",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Lawyer",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -163,33 +136,27 @@
       "answers": [
         {
           "ans": "Musical Taste",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Age",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Hobbies",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Style of Dress",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Night life",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Other Friends",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -199,18 +166,15 @@
       "answers": [
         {
           "ans": "Tank ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Jeep ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Truck ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         }
       ],
       "multiply": 2,
@@ -241,10 +205,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Country That Is Known For Its Spicy Food"
     },
     {
@@ -274,10 +234,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Term You’d Expect A Poker Player To Know"
     },
     {
@@ -307,10 +263,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Best Place To Be On A Winter Night"
     },
     {
@@ -332,10 +284,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Keep In Your Top Pocket"
     }
   ],

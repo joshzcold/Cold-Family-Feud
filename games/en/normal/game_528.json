@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Cook",
-          "pnt": 64,
-          "trig": false
+          "pnt": 64
         },
         {
           "ans": "Sew",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Clean",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Laundry",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -30,33 +26,27 @@
       "answers": [
         {
           "ans": "Jewlery",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Flowers",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Clothing",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Money",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Perfume",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Shoes",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Rabbit",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Humans",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Cats",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Frogs",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Dogs",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Flowers",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "9 Lives",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Lots Of Sleep",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Lazy",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Freedom",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "House of Cards",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Building",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Sandle Castle",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Trust",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 2,
@@ -154,33 +130,27 @@
       "answers": [
         {
           "ans": "Too Thin",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Wrestler/Athlete",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Been Sick",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Pregnant",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Winter/Keep Warm",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Actor/Movie Role",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           2
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Peter Pan Had A Phone, Name Someone He’d Probably Have On Speed Dial."
     },
     {
@@ -236,10 +202,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Kids Look Forward To The Most In winter"
     },
     {
@@ -273,10 +235,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Movie That Wasn’t Nearly As Good As The Book"
     },
     {
@@ -306,10 +264,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Would Find In A Weather Forecaster’s Closet."
     }
   ],

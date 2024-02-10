@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Rock",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Hip Hop",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Heavy Metal",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Classical",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Jazz",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Opera",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Blow Smoke In Face",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Eating",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Throw On Ground",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Spit",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Place Of Worship",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Court",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "School",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Sporting Event",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Wedding",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Silk",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Satin",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Egyptian Cotton",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Velvet",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Mini Skirt ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Bikini ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Swimming Trunks ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Shorts ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Thong ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Stick Thumb Out",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Hold Out A Sign",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Wave",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Shout",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -201,10 +173,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something Most Burglars Never Steal In A Home Robbery"
     },
     {
@@ -238,10 +206,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Food That Gets Bigger When It’s Cooked"
     },
     {
@@ -275,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Do Parents Most Like To Receive From Their Children?"
     },
     {
@@ -304,10 +264,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me An Occupation In Which It Could Be Disastrous To Fall Asleep On The Job."
     }
   ],

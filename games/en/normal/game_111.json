@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Laziness",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Lateness",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Lying",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Stealing",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Poor Attendance",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,28 +30,23 @@
       "answers": [
         {
           "ans": "Burp",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Elbows On Table",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Talk With Full Mouth",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Eat With Hands",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Chew With Mouth Open",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "School",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Mall",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Sports Game",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Park",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Car Dealership",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Grocery Store",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -102,18 +86,15 @@
       "answers": [
         {
           "ans": "Cat ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Dog ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Dolphin ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -123,38 +104,31 @@
       "answers": [
         {
           "ans": "Bartender",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "DJ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "People",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Drinks",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Band",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Lights",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Dancers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -164,33 +138,27 @@
       "answers": [
         {
           "ans": "Breakfast",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Makeup",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Shower",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Doing Dishes",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Coffee",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Exercise",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -217,10 +185,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Might Suggest Her Husband Do To Improve His Appearance."
     },
     {
@@ -246,10 +210,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than For A Passenger, Name A Reason A Cab Driver Would Stop The Car."
     },
     {
@@ -275,10 +235,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Print You’d Find On A Woman’s Dress, But Not On A Country’s Flag."
     },
     {
@@ -304,10 +260,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Check At Least Once A Day."
     }
   ],

@@ -4,38 +4,31 @@
       "answers": [
         {
           "ans": "Sand",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Sun",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Seashore",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sunscreen",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Surfers",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Shells",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Sandals",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -45,23 +38,19 @@
       "answers": [
         {
           "ans": "Bank",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Post Office",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Market",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Dry Cleaners",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Tomato",
-          "pnt": 37,
-          "trig": false
+          "pnt": 37
         },
         {
           "ans": "Onion",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Croutons",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Cheese",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Carrots",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Dressing",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Cucumbers",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -112,18 +94,15 @@
       "answers": [
         {
           "ans": "Black",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Girdle",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Vertical Stripes",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Ring ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Jewellery ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Necklace ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Earrings ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Crucifix ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -164,23 +138,19 @@
       "answers": [
         {
           "ans": "Open Doors",
-          "pnt": 78,
-          "trig": false
+          "pnt": 78
         },
         {
           "ans": "Bring Flowers",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Pay Bills/Dinner",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Pulling Out Chair",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -211,10 +181,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Place Where You Might Have To Stand"
     },
     {
@@ -240,10 +206,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might Find In A Childrens Room"
     },
     {
@@ -277,10 +239,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If Your Husband Could Get One Quality From James Bond, What Would You Want It To Be?"
     },
     {
@@ -306,10 +264,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Woman Treats Better Than Her Husband"
     }
   ],

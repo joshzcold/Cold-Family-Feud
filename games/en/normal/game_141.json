@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Plow The Field",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Plant Seeds",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Milk Cows",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Harvest Crops",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Water Crops",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Paper ",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Cans ",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Organs ",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Bottles ",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 1,
@@ -61,28 +52,23 @@
       "answers": [
         {
           "ans": "Football",
-          "pnt": 65,
-          "trig": false
+          "pnt": 65
         },
         {
           "ans": "Baseball",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Basketball",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Hockey",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Golf",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -92,33 +78,27 @@
       "answers": [
         {
           "ans": "Speeches",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Legislative Process",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Wars",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Election Process",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Political Terms",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "The Recession",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -128,28 +108,23 @@
       "answers": [
         {
           "ans": "Anniversary",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Birthday",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Valentine’s Day",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Christmas",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Wedding",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -159,23 +134,19 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": 12,
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": 11,
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": 9,
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -206,10 +177,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Reason Why Somebody Would Be Underground"
     },
     {
@@ -235,10 +202,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Flavor Found In Candy And Coffee"
     },
     {
@@ -268,10 +231,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Type Of Business That You Can Smell Before You See It."
     },
     {
@@ -293,10 +252,6 @@
           16
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Shape Other Than A Square"
     }
   ],

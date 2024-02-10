@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Their Love Lives",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Infidelity",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Rumor",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Divorce",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Answering Machine ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Paper ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Telephone ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Door ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "The Fridge ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -61,38 +52,31 @@
       "answers": [
         {
           "ans": "Pizza",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Meatloaf",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Jell O",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Fries",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Chicken Nuggets",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Hamburgers",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Snake ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Basket ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Flute ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Turban ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Music ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -133,33 +112,27 @@
       "answers": [
         {
           "ans": "Chocolate Cake",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Cheese Cake",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Cherry Pie",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Pumpkin Pie",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Ice Cream/Float",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Choc. Chip Cookie",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -169,28 +142,23 @@
       "answers": [
         {
           "ans": "Bumps",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Pot Holl",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Gravel Road",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Rocks",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Railroad Track",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -221,10 +189,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Might Buy For Their New Goldfish."
     },
     {
@@ -250,10 +214,6 @@
           10
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Character Associated With Walt Disney"
     },
     {
@@ -287,10 +247,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Bartender Probably Tired Custmr"
     },
     {
@@ -320,10 +276,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Why You’d See An Adult Hiding"
     }
   ],

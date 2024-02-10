@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Ribs",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Wings",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Seafood",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Steak",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -30,28 +26,23 @@
       "answers": [
         {
           "ans": "Suzanne Somers",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "George Foreman",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Dionne Warwick",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Linda Evans",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Billy Blanks",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -61,33 +52,27 @@
       "answers": [
         {
           "ans": "Football ",
-          "pnt": 45,
-          "trig": false
+          "pnt": 45
         },
         {
           "ans": "Tennis ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Netball ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Fishing ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Badminton ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Table Tennis ",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -97,23 +82,19 @@
       "answers": [
         {
           "ans": "Sit",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Stay",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Roll Over",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Fetch",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -123,28 +104,23 @@
       "answers": [
         {
           "ans": "Pet",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Bed",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Family",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "TV",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Computer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -154,18 +130,15 @@
       "answers": [
         {
           "ans": "Fish ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Water ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Stones Or Pebbles ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         }
       ],
       "multiply": 2,
@@ -200,10 +173,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Posh People Have"
     },
     {
@@ -221,10 +190,6 @@
           18
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Way You Can Tell If A Person Has A Cold"
     },
     {
@@ -254,10 +219,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something In A Teenager’s Room That They Wouldn’t Want Touched"
     },
     {
@@ -279,10 +240,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something A Co-Worker Might Blame On Not Having Had Their Morning Coffee."
     }
   ],

@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "House ",
-          "pnt": 40,
-          "trig": false
+          "pnt": 40
         },
         {
           "ans": "Wall ",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Statue ",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "A Building ",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "A Tomb ",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -35,33 +30,27 @@
       "answers": [
         {
           "ans": "Car ",
-          "pnt": 52,
-          "trig": false
+          "pnt": 52
         },
         {
           "ans": "Shoes ",
-          "pnt": 34,
-          "trig": false
+          "pnt": 34
         },
         {
           "ans": "Bath / Shower ",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Floor ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Teeth ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Oven ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -71,28 +60,23 @@
       "answers": [
         {
           "ans": "Cheese Bar",
-          "pnt": 63,
-          "trig": false
+          "pnt": 63
         },
         {
           "ans": "Beer",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Dirty Clothes",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Female Mice",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Mini TV",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,23 +86,19 @@
       "answers": [
         {
           "ans": "Birthdays",
-          "pnt": 69,
-          "trig": false
+          "pnt": 69
         },
         {
           "ans": "Appointments",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Anniversary",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Vacation",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -128,23 +108,19 @@
       "answers": [
         {
           "ans": "Finances",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "House Chores",
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": "Childcare",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Cooking",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -154,38 +130,31 @@
       "answers": [
         {
           "ans": "Washing Dishes",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Dusting",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Vacuum",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Sweeping",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Taking Out Trash",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Picking Up",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Making Bed",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -216,10 +185,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Kind Of Pyramid."
     },
     {
@@ -241,10 +206,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Someone Who Always Has Advice To Give You"
     },
     {
@@ -266,10 +227,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Worry About If You Were To Host A Dinner Party For Your In-Laws"
     },
     {
@@ -299,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation In Which One Spends His Day Cutting."
     }
   ],

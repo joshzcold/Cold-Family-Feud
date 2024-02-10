@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Crystall Ball",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Bible",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Fortune Cookie",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Horoscope",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "News",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Alminac",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Gum",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Toothpaste",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Mouthwash",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Hard Candy/ Sucker",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -66,38 +56,31 @@
       "answers": [
         {
           "ans": "Telemarketer",
-          "pnt": 56,
-          "trig": false
+          "pnt": 56
         },
         {
           "ans": "Hair Dresser",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Cab Driver",
-          "pnt": 24,
-          "trig": false
+          "pnt": 24
         },
         {
           "ans": "Secretary",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Bartender",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Waitress",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Psychiatrist",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -107,33 +90,27 @@
       "answers": [
         {
           "ans": "Poker",
-          "pnt": 41,
-          "trig": false
+          "pnt": 41
         },
         {
           "ans": "Bridge",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Uno",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Solitaire",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Gin Rummy",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "War",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -143,38 +120,31 @@
       "answers": [
         {
           "ans": "Bad Traffic",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Getting Lost",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Car Trouble",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Car Accident",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Kids Misbehaving",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Lost Wallet/ Cash",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Getting Sick",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -184,28 +154,23 @@
       "answers": [
         {
           "ans": "Seattle",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Rainforest",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "London",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Florida Everglades",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Oregon",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -236,10 +201,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name something a manicurist needs to do her job."
     },
     {
@@ -273,10 +234,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something About Which Many People Have Phobias."
     },
     {
@@ -310,10 +267,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Profession In Which Rain Can Ruin A Day’s Work."
     },
     {
@@ -343,10 +296,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "If You Went Back In Time 10,000 Years, Name A Luxury Item You’d Probably Miss."
     }
   ],

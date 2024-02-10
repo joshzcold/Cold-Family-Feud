@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Glass/Dishes",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "TV",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Computer",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Toys",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Stereo",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 1,
@@ -35,38 +30,31 @@
       "answers": [
         {
           "ans": "Fireman",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Doctor",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Police",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Singer",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Athlete",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Pilot",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Astronaut",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 1,
@@ -76,33 +64,27 @@
       "answers": [
         {
           "ans": "Twins",
-          "pnt": 51,
-          "trig": false
+          "pnt": 51
         },
         {
           "ans": "Dice",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Eyes",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Tires",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Scissors",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Tweezers",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -112,28 +94,23 @@
       "answers": [
         {
           "ans": "Boxing Gloves",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Muscles",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Shorts",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Wig",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Black Eye",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         }
       ],
       "multiply": 2,
@@ -143,33 +120,27 @@
       "answers": [
         {
           "ans": "Seat",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Brakes",
-          "pnt": 17,
-          "trig": false
+          "pnt": 17
         },
         {
           "ans": "Mirror",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Steering Wheel",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Tires",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Radio",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -179,23 +150,19 @@
       "answers": [
         {
           "ans": "Run",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Scream",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Climb A Tree",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Stand Still",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than A Ball, Name Something That A Baseball Player Gets Asked To Sign"
     },
     {
@@ -255,10 +218,6 @@
           11
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Non Living Object With An Eye"
     },
     {
@@ -292,10 +251,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me Something A Grandma Passes On To Her Grandchildren"
     },
     {
@@ -325,10 +280,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Food That Has “Hot” In Its Name"
     }
   ],

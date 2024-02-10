@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Toast",
-          "pnt": 39,
-          "trig": false
+          "pnt": 39
         },
         {
           "ans": "Marshmellow",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Popcorn",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Steak",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "Bacon",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Hot Dogs",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,28 +34,23 @@
       "answers": [
         {
           "ans": "Toothbrush",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Candy",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Sticker",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Laughing Gas",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Clean Teeth",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 1,
@@ -71,38 +60,31 @@
       "answers": [
         {
           "ans": "Bruise",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Scar",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Cut",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cast",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Bandage",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Expression",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Scab",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -112,23 +94,19 @@
       "answers": [
         {
           "ans": "Police officer",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Teacher",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Judge",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Politician",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Truncheon ",
-          "pnt": 47,
-          "trig": false
+          "pnt": 47
         },
         {
           "ans": "Helmet ",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Police Car ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Horse ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Radio ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -169,33 +142,27 @@
       "answers": [
         {
           "ans": "Golf Balls ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Windmill ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Golf Clubs ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Cup / Hole ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Putting Green ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Hills / Humps ",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 2,
@@ -230,10 +197,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Might Happen If You Had Bad Luck On Your Honeymoon."
     },
     {
@@ -259,10 +222,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Other Than A Job Name Something For Which You Fill Out An Application."
     },
     {
@@ -296,10 +255,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That Goes “Round And Round”"
     },
     {
@@ -325,10 +280,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Sport That Might Be Played At A Family Reunion."
     }
   ],

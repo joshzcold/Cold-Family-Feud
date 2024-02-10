@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Egg Nog",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Wine",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         },
         {
           "ans": "Champagne",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Beer",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Soda",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Juice",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Clowns ",
-          "pnt": 42,
-          "trig": false
+          "pnt": 42
         },
         {
           "ans": "Animals ",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Candy Floss ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Fun ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -66,33 +56,27 @@
       "answers": [
         {
           "ans": "Car Sales",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Limo Driver",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Police",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Delivery Person",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Taxi",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Racecar Driver",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 1,
@@ -102,28 +86,23 @@
       "answers": [
         {
           "ans": "Toaster ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Money ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "China ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Silverware ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Dishes ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -133,28 +112,23 @@
       "answers": [
         {
           "ans": "Hair",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Teeth",
-          "pnt": 33,
-          "trig": false
+          "pnt": 33
         },
         {
           "ans": "Knowledge",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Money",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Sight",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -164,28 +138,23 @@
       "answers": [
         {
           "ans": "Remote Control",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Color",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Video player",
-          "pnt": 4,
-          "trig": false
+          "pnt": 4
         },
         {
           "ans": "Video Jacks",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         },
         {
           "ans": "Cable",
-          "pnt": 2,
-          "trig": false
+          "pnt": 2
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name The Worst Thing To Criticize Your Mother-In-Law For"
     },
     {
@@ -249,10 +214,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Associate With The TV Show “60 Minutes”"
     },
     {
@@ -278,10 +239,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Tell Me A Reason Why A Kid Would Not Go Swimming All Summer Long"
     },
     {
@@ -303,10 +260,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Age That People Worry About Turning"
     }
   ],

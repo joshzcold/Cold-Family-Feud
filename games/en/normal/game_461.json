@@ -4,28 +4,23 @@
       "answers": [
         {
           "ans": "Cotton ",
-          "pnt": 46,
-          "trig": false
+          "pnt": 46
         },
         {
           "ans": "Rabbit ",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Pillow ",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Cat / Kitten ",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Teddy Bear ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 1,
@@ -35,23 +30,19 @@
       "answers": [
         {
           "ans": "Plants ",
-          "pnt": 44,
-          "trig": false
+          "pnt": 44
         },
         {
           "ans": "Orchids ",
-          "pnt": 29,
-          "trig": false
+          "pnt": 29
         },
         {
           "ans": "Ferns ",
-          "pnt": 19,
-          "trig": false
+          "pnt": 19
         },
         {
           "ans": "Weed Killer ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         }
       ],
       "multiply": 1,
@@ -61,23 +52,19 @@
       "answers": [
         {
           "ans": "Not Dressed Properly",
-          "pnt": 59,
-          "trig": false
+          "pnt": 59
         },
         {
           "ans": "Drunk",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Belligerent Attitude",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         },
         {
           "ans": "Has No Money",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -87,23 +74,19 @@
       "answers": [
         {
           "ans": "Phone",
-          "pnt": 58,
-          "trig": false
+          "pnt": 58
         },
         {
           "ans": "Email",
-          "pnt": 38,
-          "trig": false
+          "pnt": 38
         },
         {
           "ans": "Letter",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Text Message",
-          "pnt": 16,
-          "trig": false
+          "pnt": 16
         }
       ],
       "multiply": 2,
@@ -113,38 +96,31 @@
       "answers": [
         {
           "ans": 10,
-          "pnt": 26,
-          "trig": false
+          "pnt": 26
         },
         {
           "ans": 12,
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": 8,
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": 16,
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": 5,
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": 14,
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": 15,
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -154,23 +130,19 @@
       "answers": [
         {
           "ans": "Actors",
-          "pnt": 48,
-          "trig": false
+          "pnt": 48
         },
         {
           "ans": "Bright Lights",
-          "pnt": 31,
-          "trig": false
+          "pnt": 31
         },
         {
           "ans": "Palm Trees",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Prints In Sidewalks",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         }
       ],
       "multiply": 2,
@@ -209,10 +181,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "What Might You Put In The Yard If You Had Nosey Neighbors?"
     },
     {
@@ -246,10 +214,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You’d Hate To Have Happen While Driving A New Car Home"
     },
     {
@@ -275,10 +239,6 @@
           4
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something That’s “As American As Apple Pie.”"
     },
     {
@@ -300,10 +260,6 @@
           9
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something You Might See Pictured On A Postcard From Alaska."
     }
   ],

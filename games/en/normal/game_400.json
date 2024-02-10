@@ -4,23 +4,19 @@
       "answers": [
         {
           "ans": "Babysitting",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Eat Over",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Close For Holidays",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Visit Often",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         }
       ],
       "multiply": 1,
@@ -30,18 +26,15 @@
       "answers": [
         {
           "ans": "Balloon ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Lungs ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Diving Kit ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         }
       ],
       "multiply": 1,
@@ -51,28 +44,23 @@
       "answers": [
         {
           "ans": "Cans ",
-          "pnt": 55,
-          "trig": false
+          "pnt": 55
         },
         {
           "ans": "Foil ",
-          "pnt": 36,
-          "trig": false
+          "pnt": 36
         },
         {
           "ans": "Window Frame ",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Saucepan ",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Bicycle ",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 1,
@@ -82,28 +70,23 @@
       "answers": [
         {
           "ans": "Wrinkles",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Arthritis",
-          "pnt": 25,
-          "trig": false
+          "pnt": 25
         },
         {
           "ans": "Gray Hair",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Sagging",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Back Ache",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 2,
@@ -113,28 +96,23 @@
       "answers": [
         {
           "ans": "Bread ",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Tomato ",
-          "pnt": 28,
-          "trig": false
+          "pnt": 28
         },
         {
           "ans": "Cheese ",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Meat ",
-          "pnt": 12,
-          "trig": false
+          "pnt": 12
         },
         {
           "ans": "Cake ",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         }
       ],
       "multiply": 2,
@@ -144,23 +122,19 @@
       "answers": [
         {
           "ans": "Bring Coupons",
-          "pnt": 61,
-          "trig": false
+          "pnt": 61
         },
         {
           "ans": "Carry A Calculator",
-          "pnt": 22,
-          "trig": false
+          "pnt": 22
         },
         {
           "ans": "Buy Generic Brands",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "How They dress",
-          "pnt": 3,
-          "trig": false
+          "pnt": 3
         }
       ],
       "multiply": 2,
@@ -195,10 +169,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A British Airport"
     },
     {
@@ -220,10 +190,6 @@
           5
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Whose car would A Thief Be Unlikely To Steal?"
     },
     {
@@ -253,10 +219,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something An Impatient Person Might Do While Waiting In Line"
     },
     {
@@ -282,10 +244,6 @@
           6
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Occupation Where People Are Paid To Tell Others What To Do (More Specific Than Boss)."
     }
   ],

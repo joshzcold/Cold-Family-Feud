@@ -4,33 +4,27 @@
       "answers": [
         {
           "ans": "Money",
-          "pnt": 50,
-          "trig": false
+          "pnt": 50
         },
         {
           "ans": "Comb Over",
-          "pnt": 11,
-          "trig": false
+          "pnt": 11
         },
         {
           "ans": "The Apprentice",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Real Estate",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Ivana",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         },
         {
           "ans": "Trump Towers",
-          "pnt": 7,
-          "trig": false
+          "pnt": 7
         }
       ],
       "multiply": 1,
@@ -40,23 +34,19 @@
       "answers": [
         {
           "ans": "Kiss",
-          "pnt": 54,
-          "trig": false
+          "pnt": 54
         },
         {
           "ans": "Cuddle",
-          "pnt": 35,
-          "trig": false
+          "pnt": 35
         },
         {
           "ans": "Hug",
-          "pnt": 23,
-          "trig": false
+          "pnt": 23
         },
         {
           "ans": "Hold Hands",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         }
       ],
       "multiply": 1,
@@ -66,28 +56,23 @@
       "answers": [
         {
           "ans": "Jeans",
-          "pnt": 57,
-          "trig": false
+          "pnt": 57
         },
         {
           "ans": "Shirt",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Coat",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         },
         {
           "ans": "Bra",
-          "pnt": 8,
-          "trig": false
+          "pnt": 8
         },
         {
           "ans": "Socks",
-          "pnt": 6,
-          "trig": false
+          "pnt": 6
         }
       ],
       "multiply": 1,
@@ -97,38 +82,31 @@
       "answers": [
         {
           "ans": "Yell",
-          "pnt": 27,
-          "trig": false
+          "pnt": 27
         },
         {
           "ans": "Swear",
-          "pnt": 20,
-          "trig": false
+          "pnt": 20
         },
         {
           "ans": "Slam Doors",
-          "pnt": 18,
-          "trig": false
+          "pnt": 18
         },
         {
           "ans": "Talk Back",
-          "pnt": 13,
-          "trig": false
+          "pnt": 13
         },
         {
           "ans": "Walk Away",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         },
         {
           "ans": "Say I Hate You",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         },
         {
           "ans": "Roll Eyes",
-          "pnt": 5,
-          "trig": false
+          "pnt": 5
         }
       ],
       "multiply": 2,
@@ -138,28 +116,23 @@
       "answers": [
         {
           "ans": "Shark ",
-          "pnt": 49,
-          "trig": false
+          "pnt": 49
         },
         {
           "ans": "Sea Snake ",
-          "pnt": 32,
-          "trig": false
+          "pnt": 32
         },
         {
           "ans": "Octopus ",
-          "pnt": 21,
-          "trig": false
+          "pnt": 21
         },
         {
           "ans": "Whale ",
-          "pnt": 14,
-          "trig": false
+          "pnt": 14
         },
         {
           "ans": "Electric Eel ",
-          "pnt": 9,
-          "trig": false
+          "pnt": 9
         }
       ],
       "multiply": 2,
@@ -169,23 +142,19 @@
       "answers": [
         {
           "ans": "Santa Claus",
-          "pnt": 43,
-          "trig": false
+          "pnt": 43
         },
         {
           "ans": "Decorations",
-          "pnt": 30,
-          "trig": false
+          "pnt": 30
         },
         {
           "ans": "Pine Tree",
-          "pnt": 15,
-          "trig": false
+          "pnt": 15
         },
         {
           "ans": "Lights",
-          "pnt": 10,
-          "trig": false
+          "pnt": 10
         }
       ],
       "multiply": 2,
@@ -212,10 +181,6 @@
           7
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Besides Tennis, Name Something People Associate With Andre Agassi"
     },
     {
@@ -241,10 +206,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name Something People Do To Make Their Breath Smell Good."
     },
     {
@@ -266,10 +227,6 @@
           8
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name An Alcoholic Beverage That’s Also A Woman’s Name"
     },
     {
@@ -299,10 +256,6 @@
           3
         ]
       ],
-      "selection": -1,
-      "points": 0,
-      "input": "",
-      "revealed": false,
       "question": "Name A Musical Instrument That Is Soothing."
     }
   ],
