@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import "../../i18n/i18n";
+import "i18n/i18n";
 import "tailwindcss/tailwind.css";
 import { useState, useEffect, useRef } from "react";
 
@@ -87,26 +87,8 @@ function csvToColdFamilyFeudFormat(
   let gameTemplate = {
     settings: {},
     rounds: [
-      // {
-      //   question: "",
-      //   answers: [{ ans: "", pnt: 0, trig: false }],
-      //   multiply: "",
-      // },
     ],
     final_round: [],
-    // Array.from(Array(5), (x, index) => {
-    //   return {
-    //     question: `${t("question")} ${t("number", { count: index + 1 })}`,
-    //     answers: [
-    //       ["Jingle Bells", 51],
-    //       ["Rudolph", 12],
-    //     ],
-    //     selection: 0,
-    //     points: 0,
-    //     input: "",
-    //     revealed: false,
-    //   };
-    // }),
     final_round_timers: [timer, timer2nd],
   };
 
@@ -117,10 +99,6 @@ function csvToColdFamilyFeudFormat(
     };
     let finalRowPush = {
       answers: [],
-      selection: -1,
-      points: 0,
-      input: "",
-      revealed: false,
     };
     let answer = true;
     let answerCount = 0;

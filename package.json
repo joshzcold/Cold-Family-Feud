@@ -27,11 +27,11 @@
     "ws": "^7.4.1"
   },
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon -w pages/api/ -w server.js server.js",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon -w pages/api/ -w backend/ backend/server.js",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node server.js",
-    "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local node server.js",
-    "start_windows": "set NODE_ENV=local && node server.js",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node backend/server.js",
+    "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local node backend/server.js",
+    "start_windows": "set NODE_ENV=local && node backend/server.js",
     "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js",
     "build_docker": "docker build -t ghcr.io/joshzcold/cold-family-feud .",
     "build_docker_push": "docker push ghcr.io/joshzcold/cold-family-feud"

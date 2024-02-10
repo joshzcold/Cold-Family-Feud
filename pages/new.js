@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
-import LanguageSwitcher from "../components/language";
-import { ThemeSwitcher } from "../components/Admin/settings";
+import "i18n/i18n";
+import LanguageSwitcher from "components/language";
+import { ThemeSwitcher } from "components/Admin/settings";
 
 export default function CreateGame(props) {
   const { t } = useTranslation();
@@ -12,18 +12,14 @@ export default function CreateGame(props) {
     rounds: [
       {
         question: "",
-        answers: [{ ans: "", pnt: 0, trig: false }],
-        multiply: "",
+        answers: [{ ans: "", pnt: 0 }],
+        multiply: 1,
       },
     ],
     final_round: Array.from(Array(5), (x, index) => {
       return {
         question: `${t("question")} ${t("number", { count: index + 1 })}`,
         answers: [],
-        selection: -1,
-        points: 0,
-        input: "",
-        revealed: false,
       };
     }),
     final_round_timers: [20, 25],
@@ -187,7 +183,7 @@ export default function CreateGame(props) {
                 <div className="py-2 flex flex-row space-x-3">
                   <button
                     onClick={() => {
-                      r.answers.push({ ans: "", pnt: 0, trig: false });
+                      r.answers.push({ ans: "", pnt: 0});
                       setGame((prv) => ({ ...prv }));
                     }}
                     className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
@@ -211,8 +207,8 @@ export default function CreateGame(props) {
                 onClick={() => {
                   game.rounds.push({
                     question: "",
-                    answers: [{ ans: "", pnt: 0, trig: false }],
-                    multiply: "",
+                    answers: [{ ans: "", pnt: 0}],
+                    multiply: 1,
                   });
                   setGame((prv) => ({ ...prv }));
                 }}
@@ -336,10 +332,6 @@ export default function CreateGame(props) {
                       count: game.final_round.length + 1,
                     })}`,
                     answers: [],
-                    selection: 0,
-                    points: 0,
-                    input: "",
-                    revealed: false,
                   });
                   setGame((prv) => ({ ...prv }));
                 }}

@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
-import Admin from "../components/admin";
-import Buzzer from "../components/buzzer";
-import Login from "../components/login";
-import Footer from "../components/Login/footer"
+import "i18n/i18n";
+import Admin from "components/admin";
+import Buzzer from "components/buzzer";
+import Login from "components/login";
+import Footer from "components/Login/footer"
 import cookieCutter from "cookie-cutter";
 
 export default function Home() {
