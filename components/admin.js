@@ -82,22 +82,23 @@ function FinalRoundButtonControls(props) {
   return controlRound?.map((x, i) => (
     <div key={`round-${i}`} className="flex-col flex space-y-5 p-12 border-2">
       <p className="text-3xl font-bold text-foreground">{x.question}</p>
-      {props.game.is_final_second &&
+      {props.game.is_final_second && (
         <div className="flex flex-row space-x-5 pb-2">
           {/* PARTNER'S ANSWER PROVIDED FINAL ROUND */}
           <div className="w-48 flex-grow text-foreground text-3xl p-5 align-middle">
-            <i>{t("Partner's Answer")}</i>: {props.game.final_round[i].input || `(${t("No Answer")})`}
+            <i>{t("Partner's Answer")}</i>:{" "}
+            {props.game.final_round[i].input || `(${t("No Answer")})`}
           </div>
-          {props.game.final_round[i].input &&
+          {props.game.final_round[i].input && (
             <button
               className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
               onClick={() => props.send({ action: "duplicate" })}
             >
               {t("Already Answered")}
             </button>
-          }
+          )}
         </div>
-      }
+      )}
       <div className="flex flex-row space-x-5 pb-2">
         {/* ANSWER PROVIDED FINAL ROUND */}
         <input
@@ -144,10 +145,12 @@ function FinalRoundButtonControls(props) {
         <button
           className="border-4 rounded p-5 text-2xl flex-grow bg-secondary-300 text-foreground"
           onClick={() => {
-            x.points = (x.selection !== -1) ? x.answers[x.selection][1] : 0;
+            x.points = x.selection !== -1 ? x.answers[x.selection][1] : 0;
             props.setGame((prv) => ({ ...prv }));
             props.send({ action: "data", data: props.game });
-            props.send({ action: (x.selection !== -1) ? "final_submit" : "mistake" });
+            props.send({
+              action: x.selection !== -1 ? "final_submit" : "mistake",
+            });
           }}
         >
           {t("Award points")}
@@ -227,7 +230,7 @@ function TitleLogoUpload(props) {
                 if (fileSize > 2098) {
                   console.error("Logo image is too large");
                   props.setError(
-                    t("Logo image is too large. 2MB is the limit")
+                    t("Logo image is too large. 2MB is the limit"),
                   );
                   return;
                 }
@@ -237,7 +240,7 @@ function TitleLogoUpload(props) {
                   rawData = evt.target.result;
                   var headerarr = new Uint8Array(evt.target.result).subarray(
                     0,
-                    4
+                    4,
                   );
                   var header = "";
                   for (var i = 0; i < headerarr.length; i++) {
@@ -276,7 +279,7 @@ function TitleLogoUpload(props) {
                 };
                 reader.readAsArrayBuffer(file);
               }
-              document.getElementById("logoUpload").value = null
+              document.getElementById("logoUpload").value = null;
             }}
           />
         </div>
@@ -389,7 +392,7 @@ export default function Admin(props) {
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${10 - refreshCounter}`
+          `lost connection to server refreshing in ${10 - refreshCounter}`,
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
@@ -567,7 +570,7 @@ export default function Admin(props) {
                         setError(t("Unknown file type in game load"));
                       }
                       // allow same file to be selected again
-                      document.getElementById("gamePicker").value = null
+                      document.getElementById("gamePicker").value = null;
                     }}
                   />
                 </div>
@@ -806,6 +809,26 @@ export default function Admin(props) {
                     }}
                   >
                     {t("Next Round")}
+                  </button>
+                  <button
+                    className="border-4 rounded p-10 flex-grow text-2xl bg-failure-200 text-foreground"
+                    onClick={() => {
+                      send({ action: "show_mistake" });
+                    }}
+                  >
+                    {t("Mistake")}
+                  </button>
+                  <button
+                    className="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground"
+                    onClick={() => {
+                      for (let team in props.game.teams) {
+                        props.game.teams[team].mistakes = 0
+                      }
+                      props.setGame((prv) => ({ ...prv }));
+                      send({ action: "data", data: props.game });
+                    }}
+                  >
+                    {t("Reset Mistakes")}
                   </button>
                 </div>
 
