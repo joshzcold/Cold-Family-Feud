@@ -17,6 +17,7 @@ export default function Buzzer(props) {
   const [buzzerReg, setBuzzerReg] = useState(null);
   const [error, setErrorVal] = useState("");
   const [timer, setTimer] = useState(0);
+  const [showMistake, setShowMistake] = useState(false);
   let refreshCounter = 0;
 
   function setError(e) {
@@ -29,7 +30,7 @@ export default function Buzzer(props) {
   let game = props.game;
   let ws = props.ws;
 
-  const send = function (data) {
+  const send = function(data) {
     data.room = props.room;
     data.id = props.id;
     ws.current.send(JSON.stringify(data));
@@ -39,7 +40,7 @@ export default function Buzzer(props) {
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${10 - refreshCounter}`
+          `lost connection to server refreshing in ${10 - refreshCounter}`,
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
@@ -62,6 +63,15 @@ export default function Buzzer(props) {
         // server gets the average latency periodically
         console.debug(props.id);
         send({ action: "pong", id: props.id });
+      } else if (json.action === "mistake" || json.action === "show_mistake") {
+        var audio = new Audio("wrong.mp3");
+        audio.play();
+        if (json.action === "mistake" || json.action === "show_mistake") {
+          setShowMistake(true);
+          setTimeout(() => {
+            setShowMistake(false);
+          }, 2000);
+        }
       } else if (json.action === "quit") {
         props.setGame(null);
         props.setTeam(null);
@@ -112,6 +122,12 @@ export default function Buzzer(props) {
     console.debug(game);
     return (
       <>
+        <img
+          className={`lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 top-2/4 pointer-events-none ${
+            showMistake ? "opacity-90" : "opacity-0"
+            } transition-opacity ease-in-out duration-300 absolute`}
+          src="x.svg"
+        />
         <button
           className="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
           onClick={() => {
@@ -127,22 +143,25 @@ export default function Buzzer(props) {
                 <Round game={game} />
 
                 {/* Buzzer Section TODO replace with function*/}
-                <div className="" style={{ width: "100%", textAlign: "center" }}>
+                <div
+                  className=""
+                  style={{ width: "100%", textAlign: "center" }}
+                >
                   {buzzed ? (
                     <img
                       style={{ width: "50%", display: "inline-block" }}
                       src="buzzed.svg"
                     />
                   ) : (
-                    <img
-                      className="cursor-pointer"
-                      style={{ width: "50%", display: "inline-block" }}
-                      onClick={() => {
-                        send({ action: "buzz", id: props.id });
-                      }}
-                      src="buzz.svg"
-                    />
-                  )}
+                      <img
+                        className="cursor-pointer"
+                        style={{ width: "50%", display: "inline-block" }}
+                        onClick={() => {
+                          send({ action: "buzz", id: props.id });
+                        }}
+                        src="buzz.svg"
+                      />
+                    )}
                   <p className="text-secondary-900 p-2 italic">
                     {t("buzzer is reset between rounds")}
                   </p>
@@ -193,91 +212,83 @@ export default function Buzzer(props) {
                 </div>
               </div>
             ) : (
-              <>
-                {game.is_final_round ? (
-                  <div>
-                    <Final game={game} timer={timer} />
-                  </div>
-                ) : (
-                  <div>
-                    {props.game.settings.logo_url ? (
-                      <img
-                        src={`${props.game.settings.logo_url}`}
-                      />
-                    ) : (
-                      <TitleLogo
-                        insert={props.game.title_text}
-                      />
+                <>
+                  {game.is_final_round ? (
+                    <div>
+                      <Final game={game} timer={timer} />
+                    </div>
+                  ) : (
+                      <div>
+                        {props.game.settings.logo_url ? (
+                          <img src={`${props.game.settings.logo_url}`} />
+                        ) : (
+                            <TitleLogo insert={props.game.title_text} />
+                          )}
+                        <p className="text-3xl text-center py-12 text-foreground">
+                          {t("Waiting for host to start")}
+                        </p>
+                      </div>
                     )}
-                    <p className="text-3xl text-center py-12 text-foreground">
-                      {t("Waiting for host to start")}
-                    </p>
-                  </div>
-                )}
-              </>
-            )}
+                </>
+              )}
           </>
         ) : (
-          <>
-            {props.game.settings.logo_url ? (
-              <img
-                src={`${props.game.settings.logo_url}`}
-              />
-            ) : (
-              <TitleLogo
-                insert={props.game.title_text}
-              />
-            )}
-            <div className="flex flex-row justify-center">
-              <h1 className="text-3xl text-foreground">
-                {t("team")}:{" "}
-                {props.team != null
-                  ? game.teams[props.team].name
-                  : t("pick your team")}
-              </h1>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <button
-                className="hover:shadow-md rounded-md bg-primary-200 p-5"
-                onClick={() => {
-                  cookieCutter.set("session", `${props.room}:${props.id}:0`);
-                  props.setTeam(0);
-                }}
-              >
-                {game.teams[0].name}
-              </button>
+            <>
+              {props.game.settings.logo_url ? (
+                <img src={`${props.game.settings.logo_url}`} />
+              ) : (
+                  <TitleLogo insert={props.game.title_text} />
+                )}
+              <div className="flex flex-row justify-center">
+                <h1 className="text-3xl text-foreground">
+                  {t("team")}:{" "}
+                  {props.team != null
+                    ? game.teams[props.team].name
+                    : t("pick your team")}
+                </h1>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <button
+                  className="hover:shadow-md rounded-md bg-primary-200 p-5"
+                  onClick={() => {
+                    cookieCutter.set("session", `${props.room}:${props.id}:0`);
+                    props.setTeam(0);
+                  }}
+                >
+                  {game.teams[0].name}
+                </button>
 
-              <button
-                className="hover:shadow-md rounded-md bg-primary-200 p-5"
-                onClick={() => {
-                  cookieCutter.set("session", `${props.room}:${props.id}:1`);
-                  props.setTeam(1);
-                }}
-              >
-                {game.teams[1].name}
-              </button>
-            </div>
-            <div className="flex flex-row justify-center">
-              <button
-                className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"
-                onClick={() => {
-                  if (props.team != null) {
-                    send({ action: "registerbuzz", team: props.team });
-                  } else {
-                    let errors = [];
-                    props.team == null
-                      ? errors.push(t("pick your team"))
-                      : null;
-                    setError(errors.join(` ${t("and")} `));
-                  }
-                }}
-              >
-                {t("play")}
-              </button>
-            </div>
-            {error != null && error !== "" ? <p>👾 {error}</p> : null}
-          </>
-        )}
+                <button
+                  className="hover:shadow-md rounded-md bg-primary-200 p-5"
+                  onClick={() => {
+                    cookieCutter.set("session", `${props.room}:${props.id}:1`);
+                    props.setTeam(1);
+                  }}
+                >
+                  {game.teams[1].name}
+                </button>
+              </div>
+              <div className="flex flex-row justify-center">
+                <button
+                  className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"
+                  onClick={() => {
+                    if (props.team != null) {
+                      send({ action: "registerbuzz", team: props.team });
+                    } else {
+                      let errors = [];
+                      props.team == null
+                        ? errors.push(t("pick your team"))
+                        : null;
+                      setError(errors.join(` ${t("and")} `));
+                    }
+                  }}
+                >
+                  {t("play")}
+                </button>
+              </div>
+              {error != null && error !== "" ? <p>👾 {error}</p> : null}
+            </>
+          )}
       </>
     );
   } else {

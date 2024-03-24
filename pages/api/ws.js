@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const glob = require("glob");
 const bson = require("bson");
-import * as loadGame from "backend/load-game"
+import * as loadGame from "backend/load-game";
 
 const ioHandler = (req, res) => {
   if (!res.socket.server.ws) {
@@ -20,7 +20,7 @@ const ioHandler = (req, res) => {
       var charactersLength = characters.length;
       for (var i = 0; i < length; i++) {
         result.push(
-          characters.charAt(Math.floor(Math.random() * charactersLength))
+          characters.charAt(Math.floor(Math.random() * charactersLength)),
         );
       }
       return result.join("");
@@ -51,7 +51,7 @@ const ioHandler = (req, res) => {
       room.intervals[id] = interval;
       console.debug(
         "room.intervals length => ",
-        Object.keys(room.intervals).length
+        Object.keys(room.intervals).length,
       );
     }
 
@@ -120,7 +120,7 @@ const ioHandler = (req, res) => {
       round: 0,
     };
 
-    wss.broadcast = function (room, data) {
+    wss.broadcast = function(room, data) {
       if (rooms[room]) {
         Object.keys(rooms[room].connections).forEach((rp) => {
           rooms[room].connections[rp].send(data);
@@ -143,13 +143,13 @@ const ioHandler = (req, res) => {
           if (rooms[message.room].game) {
             if (message.action !== "pong") {
               // Show in logs if there are any active players
-              console.debug(`Tick => ${message.room} ${message.action}`)
+              console.debug(`Tick => ${message.room} ${message.action}`);
             }
             rooms[message.room].game.tick = new Date().getTime();
           }
         }
       }
-    }
+    };
 
     setInterval(() => {
       for (const [room, roomData] of Object.entries(rooms)) {
@@ -163,7 +163,7 @@ const ioHandler = (req, res) => {
                 JSON.stringify({
                   action: "error",
                   message: "game closed, no activity for 1 hour",
-                })
+                }),
               );
               delete rooms[room];
               cleanUpPublicRoomAssets(room);
@@ -195,25 +195,25 @@ const ioHandler = (req, res) => {
               JSON.stringify({
                 action: "error",
                 message: "Error parsing data in server",
-              })
+              }),
             );
             return;
           }
 
           // If there is activity in this room, do not clear
-          setTick(message)
+          setTick(message);
 
           // TODO seperate each of these into seperate functions
           if (message.action === "load_game") {
             if (message.file != null && message.lang != null) {
               let data = fs.readFileSync(
-                `games/${message.lang}/${message.file}`
+                `games/${message.lang}/${message.file}`,
               );
               let loaded = data.toString();
               message.data = JSON.parse(loaded);
             }
 
-            let loadGameData = loadGame.addGameKeys(message.data)
+            let loadGameData = loadGame.addGameKeys(message.data);
 
             let game = rooms[message.room].game;
             game.teams[0].points = 0;
@@ -229,7 +229,7 @@ const ioHandler = (req, res) => {
             game.point_tracker = new Array(loadGameData.rounds.length).fill(0);
             wss.broadcast(
               message.room,
-              JSON.stringify({ action: "data", data: game })
+              JSON.stringify({ action: "data", data: game }),
             );
           } else if (message.action === "host_room") {
             // loop until we find an available room code
@@ -254,14 +254,14 @@ const ioHandler = (req, res) => {
                 room: roomCode,
                 game: rooms[roomCode].game,
                 id: id,
-              })
+              }),
             );
           } else if (message.action === "game_window") {
             let [room_code, user_id] = message.session.split(":");
             rooms[room_code].connections[`game_window_${uuidv4()}`] = ws;
             wss.broadcast(
               room_code,
-              JSON.stringify({ action: "data", data: rooms[room_code].game })
+              JSON.stringify({ action: "data", data: rooms[room_code].game }),
             );
           } else if (message.action === "join_room") {
             let roomCode = message.room.toUpperCase();
@@ -274,12 +274,12 @@ const ioHandler = (req, res) => {
                   room: roomCode,
                   game: rooms[roomCode].game,
                   id: id,
-                })
+                }),
               );
             } else {
               // TODO errors sent from server should be internationalized
               ws.send(
-                JSON.stringify({ action: "error", message: "room not found" })
+                JSON.stringify({ action: "error", message: "room not found" }),
               );
             }
           } else if (message.action === "quit") {
@@ -287,7 +287,7 @@ const ioHandler = (req, res) => {
               "user quit game",
               message.room,
               message.id,
-              message.host
+              message.host,
             );
             if (message.host) {
               wss.broadcast(message.room, JSON.stringify({ action: "quit" }));
@@ -296,7 +296,7 @@ const ioHandler = (req, res) => {
                 JSON.stringify({
                   action: "error",
                   message: "host quit the game",
-                })
+                }),
               );
 
               // if host quits then we need to clean up the running intervals
@@ -310,7 +310,7 @@ const ioHandler = (req, res) => {
               // clear ws from server
               if (rooms[message.room].connections) {
                 for (const [id, ws_entry] of Object.entries(
-                  rooms[message.room].connections
+                  rooms[message.room].connections,
                 )) {
                   ws_entry.close();
                 }
@@ -338,7 +338,7 @@ const ioHandler = (req, res) => {
                 JSON.stringify({
                   action: "data",
                   data: rooms[message.room].game,
-                })
+                }),
               );
             }
           } else if (message.action === "get_back_in") {
@@ -349,7 +349,7 @@ const ioHandler = (req, res) => {
                   "user session get_back_in:",
                   room_code,
                   user_id,
-                  team
+                  team,
                 );
                 // set the new websocket connection
                 rooms[room_code].connections[user_id] = ws;
@@ -361,7 +361,7 @@ const ioHandler = (req, res) => {
                     id: user_id,
                     player: rooms[room_code].game.registeredPlayers[user_id],
                     team: parseInt(team),
-                  })
+                  }),
                 );
 
                 if (Number.isInteger(parseInt(team))) {
@@ -384,13 +384,13 @@ const ioHandler = (req, res) => {
               game.buzzed = [];
               wss.broadcast(
                 message.room,
-                JSON.stringify({ action: "clearbuzzers" })
+                JSON.stringify({ action: "clearbuzzers" }),
               );
             }
             // get the current time to compare when users buzz in
             wss.broadcast(
               message.room,
-              JSON.stringify({ action: "data", data: game })
+              JSON.stringify({ action: "data", data: game }),
             );
           } else if (message.action === "registerbuzz") {
             let id = message.id;
@@ -405,7 +405,7 @@ const ioHandler = (req, res) => {
               ws.send(JSON.stringify({ action: "registered", id: id }));
               wss.broadcast(
                 message.room,
-                JSON.stringify({ action: "data", data: game })
+                JSON.stringify({ action: "data", data: game }),
               );
             } catch (e) {
               console.error("Problem in register ", e);
@@ -429,17 +429,17 @@ const ioHandler = (req, res) => {
             game.buzzed = [];
             wss.broadcast(
               message.room,
-              JSON.stringify({ action: "data", data: game })
+              JSON.stringify({ action: "data", data: game }),
             );
             wss.broadcast(
               message.room,
-              JSON.stringify({ action: "clearbuzzers" })
+              JSON.stringify({ action: "clearbuzzers" }),
             );
           } else if (message.action === "change_lang") {
             glob(
               `**/*.json`,
               { cwd: `games/${message.data}/` },
-              function (err, files) {
+              function(err, files) {
                 // files is an array of filenames.
                 // If the `nonull` option is set, and nothing
                 // was found, then files is ["**/*.js"]
@@ -458,9 +458,9 @@ const ioHandler = (req, res) => {
                     action: "change_lang",
                     data: message.data,
                     games: files.sort(collator.compare),
-                  })
+                  }),
                 );
-              }
+              },
             );
           } else if (message.action === "buzz") {
             let game = rooms[message.room].game;
@@ -485,7 +485,7 @@ const ioHandler = (req, res) => {
             ws.send(JSON.stringify({ action: "buzzed" }));
             wss.broadcast(
               message.room,
-              JSON.stringify({ action: "data", data: game })
+              JSON.stringify({ action: "data", data: game }),
             );
           } else if (message.action === "logo_upload") {
             let dirpath = `./public/rooms/${message.room}/`;
@@ -497,7 +497,7 @@ const ioHandler = (req, res) => {
                   JSON.stringify({
                     action: "error",
                     message: "Image too large",
-                  })
+                  }),
                 );
                 return;
               }
@@ -526,7 +526,7 @@ const ioHandler = (req, res) => {
                     JSON.stringify({
                       action: "error",
                       message: "Unknown file type in image upload",
-                    })
+                    }),
                   );
                   return;
               }
@@ -541,7 +541,7 @@ const ioHandler = (req, res) => {
                   if (err != null) {
                     console.error("Error saving logo file", err);
                   }
-                }
+                },
               );
             } catch (e) {
               console.error("Error in logo upload", e);
@@ -562,7 +562,7 @@ const ioHandler = (req, res) => {
             JSON.stringify({
               action: "error",
               message: `Error on server: ${e}`,
-            })
+            }),
           );
         }
       });

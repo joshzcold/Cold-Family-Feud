@@ -15,6 +15,7 @@ export default function Game(props) {
   const [game, setGame] = useState({});
   const [timer, setTimer] = useState(0);
   const [error, setErrorVal] = useState("");
+  const [showMistake, setShowMistake] = useState(false);
   const ws = useRef(null);
   let refreshCounter = 0;
 
@@ -35,13 +36,13 @@ export default function Game(props) {
         if (session != null) {
           console.debug("found user session", session);
           ws.current.send(
-            JSON.stringify({ action: "game_window", session: session })
+            JSON.stringify({ action: "game_window", session: session }),
           );
           setInterval(() => {
             console.debug("sending pong in game window");
             let [room, id] = session.split(":");
             ws.current.send(
-              JSON.stringify({ action: "pong", id: id, room: room })
+              JSON.stringify({ action: "pong", id: id, room: room }),
             );
           }, 5000);
         }
@@ -66,9 +67,16 @@ export default function Game(props) {
             })}`;
           }
           setGame(json.data);
-        } else if (json.action === "mistake") {
+        } else if (
+          json.action === "mistake" ||
+          json.action === "show_mistake"
+        ) {
           var audio = new Audio("wrong.mp3");
           audio.play();
+          setShowMistake(true);
+          setTimeout(() => {
+            setShowMistake(false)
+          }, 2000);
         } else if (json.action === "quit") {
           setGame({});
           window.close();
@@ -115,7 +123,7 @@ export default function Game(props) {
       setInterval(() => {
         if (ws.current.readyState !== 1) {
           setError(
-            `lost connection to server refreshing in ${5 - refreshCounter}`
+            `lost connection to server refreshing in ${5 - refreshCounter}`,
           );
           refreshCounter++;
           if (refreshCounter >= 5) {
@@ -155,10 +163,13 @@ export default function Game(props) {
     }
 
     if (typeof window !== "undefined") {
-      document.body.className= game?.settings?.theme + " bg-background";
+      document.body.className = game?.settings?.theme + " bg-background";
     }
     return (
       <>
+        <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center pointer-events-none">
+          <img  className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-300`} src="x.svg" />
+        </div>
         <div className={`${game?.settings?.theme} min-h-screen`}>
           <div className="">
             {gameSession}
