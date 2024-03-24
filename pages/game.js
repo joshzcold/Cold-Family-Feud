@@ -73,12 +73,10 @@ export default function Game(props) {
         ) {
           var audio = new Audio("wrong.mp3");
           audio.play();
-          if (json.action === "show_mistake") {
-            setShowMistake(true);
-            setTimeout(() => {
-              setShowMistake(false)
-            }, 3000);
-          }
+          setShowMistake(true);
+          setTimeout(() => {
+            setShowMistake(false)
+          }, 2000);
         } else if (json.action === "quit") {
           setGame({});
           window.close();
@@ -169,8 +167,8 @@ export default function Game(props) {
     }
     return (
       <>
-        <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center">
-          <img  className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-500`} src="x.svg" />
+        <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center pointer-events-none">
+          <img  className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-300`} src="x.svg" />
         </div>
         <div className={`${game?.settings?.theme} min-h-screen`}>
           <div className="">
