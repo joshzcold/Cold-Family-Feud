@@ -811,18 +811,18 @@ export default function Admin(props) {
                     {t("Next Round")}
                   </button>
                   <button
-                    className="border-4 rounded p-10 flex-grow text-2xl bg-failure-200 text-foreground"
+                    className="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground flex flex-row justify-center items-center"
                     onClick={() => {
                       send({ action: "show_mistake" });
                     }}
                   >
-                    {t("Mistake")}
+                    <img className={`w-3/12`} src="x.svg" />
                   </button>
                   <button
                     className="border-4 rounded p-10 flex-grow text-2xl bg-secondary-300 text-foreground"
                     onClick={() => {
                       for (let team in props.game.teams) {
-                        props.game.teams[team].mistakes = 0
+                        props.game.teams[team].mistakes = 0;
                       }
                       props.setGame((prv) => ({ ...prv }));
                       send({ action: "data", data: props.game });
