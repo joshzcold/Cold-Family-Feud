@@ -37,6 +37,7 @@ export default function Buzzer(props) {
   };
 
   useEffect(() => {
+    cookieCutter.set("session", `${props.room}:${props.id}:0`);
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
@@ -75,6 +76,7 @@ export default function Buzzer(props) {
       } else if (json.action === "quit") {
         props.setGame(null);
         props.setTeam(null);
+        location.reload();
       } else if (json.action === "set_timer") {
         setTimer(json.data);
       } else if (json.action === "stop_timer") {
@@ -251,7 +253,6 @@ export default function Buzzer(props) {
                 <button
                   className="hover:shadow-md rounded-md bg-primary-200 p-5"
                   onClick={() => {
-                    cookieCutter.set("session", `${props.room}:${props.id}:0`);
                     props.setTeam(0);
                   }}
                 >
@@ -261,7 +262,6 @@ export default function Buzzer(props) {
                 <button
                   className="hover:shadow-md rounded-md bg-primary-200 p-5"
                   onClick={() => {
-                    cookieCutter.set("session", `${props.room}:${props.id}:1`);
                     props.setTeam(1);
                   }}
                 >
@@ -285,6 +285,19 @@ export default function Buzzer(props) {
                 >
                   {t("play")}
                 </button>
+              </div>
+              <div className="flex flex-row justify-center">
+                <a href="/game" target="_blank">
+                  <button
+                    className="py-8 px-16 hover:shadow-md rounded-md bg-success-200"
+                    onClick={() => {
+                      send({ action: "registerbuzz", team: props.team });
+                    }}
+                  >
+
+                    {t("Open Game Window")}
+                  </button>
+                </a>
               </div>
               {error != null && error !== "" ? <p>👾 {error}</p> : null}
             </>

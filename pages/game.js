@@ -16,6 +16,7 @@ export default function Game(props) {
   const [timer, setTimer] = useState(0);
   const [error, setErrorVal] = useState("");
   const [showMistake, setShowMistake] = useState(false);
+  const [isHost, setIsHost] = useState(false);
   const ws = useRef(null);
   let refreshCounter = 0;
 
@@ -67,6 +68,11 @@ export default function Game(props) {
             })}`;
           }
           setGame(json.data);
+          let session = cookieCutter.get("session");
+          let [_, id] = session.split(":");
+          if (json.data?.registeredPlayers[id] == "host") {
+            setIsHost(true);
+          }
         } else if (
           json.action === "mistake" ||
           json.action === "show_mistake"
@@ -75,7 +81,7 @@ export default function Game(props) {
           audio.play();
           setShowMistake(true);
           setTimeout(() => {
-            setShowMistake(false)
+            setShowMistake(false);
           }, 2000);
         } else if (json.action === "quit") {
           setGame({});
@@ -168,7 +174,21 @@ export default function Game(props) {
     return (
       <>
         <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center pointer-events-none">
-          <img  className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-300`} src="x.svg" />
+          {!isHost ? (
+            <button
+              className="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
+              onClick={() => {
+                cookieCutter.set("session", "");
+                window.location.href = "/";
+              }}
+            >
+              {t("quit")}
+            </button>
+          ) : null}
+          <img
+            className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-300`}
+            src="x.svg"
+          />
         </div>
         <div className={`${game?.settings?.theme} min-h-screen`}>
           <div className="">
