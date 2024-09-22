@@ -408,9 +408,24 @@ const ioHandler = (req, res) => {
                 JSON.stringify({ action: "data", data: game }),
               );
             } catch (e) {
-              console.error("Problem in register ", e);
+              console.error("Problem in buzzer register ", e);
             }
             pingInterval(rooms[message.room], id, ws);
+          } else if (message.action === "registerspectator") {
+            let id = message.id;
+            let game = rooms[message.room].game;
+            try {
+              console.debug("spectator ready: ", id);
+              // get inital latency, client pongs on registered
+              ws.send(JSON.stringify({ action: "ping", id: id }));
+              ws.send(JSON.stringify({ action: "registered", id: id }));
+              wss.broadcast(
+                message.room,
+                JSON.stringify({ action: "data", data: game }),
+              );
+            } catch (e) {
+              console.error("Problem in spectator register ", e);
+            }
           } else if (message.action === "pong") {
             let game = rooms[message.room].game;
             let player = game.registeredPlayers[message.id];
