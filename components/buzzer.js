@@ -53,10 +53,6 @@ export default function Buzzer(props) {
       }
     }, 1000);
 
-    if (props.id !== null && props.team !== null) {
-      setBuzzerReg(props.id);
-    }
-
     ws.current.addEventListener("message", (evt) => {
       let received_msg = evt.data;
       let json = JSON.parse(received_msg);
@@ -270,7 +266,7 @@ export default function Buzzer(props) {
               </div>
               <div className="flex flex-row justify-center">
                 <button
-                  className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"
+                  className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold"
                   onClick={() => {
                     if (props.team != null) {
                       send({ action: "registerbuzz", team: props.team });
@@ -280,6 +276,9 @@ export default function Buzzer(props) {
                         ? errors.push(t("pick your team"))
                         : null;
                       setError(errors.join(` ${t("and")} `));
+                      if (props.id !== null && props.team !== null) {
+                        setBuzzerReg(props.id);
+                      }
                     }
                   }}
                 >
@@ -287,14 +286,13 @@ export default function Buzzer(props) {
                 </button>
               </div>
               <div className="flex flex-row justify-center">
-                <a href="/game" target="_blank">
+                <a href="/game">
                   <button
-                    className="py-8 px-16 hover:shadow-md rounded-md bg-success-200"
+                    className="py-4 px-8 hover:shadow-md rounded-md bg-secondary-300"
                     onClick={() => {
-                      send({ action: "registerbuzz", team: props.team });
+                      send({ action: "registerspectator", team: props.team });
                     }}
                   >
-
                     {t("Open Game Window")}
                   </button>
                 </a>

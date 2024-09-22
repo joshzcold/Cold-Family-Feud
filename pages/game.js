@@ -150,14 +150,14 @@ export default function Game(props) {
     } else if (game.is_final_round) {
       gameSession = (
         <div className="flex w-full justify-center">
-          <div className="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 pt-5">
+          <div className="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 py-20">
             <Final game={game} timer={timer} />
           </div>
         </div>
       );
     } else {
       gameSession = (
-        <div className="flex flex-col space-y-10 py-5 px-10">
+        <div className="flex flex-col space-y-10 py-20 px-10">
           <Round game={game} />
           <QuestionBoard round={game.rounds[game.round]} />
           <div className="flex flex-row justify-around">
@@ -173,10 +173,10 @@ export default function Game(props) {
     }
     return (
       <>
-        <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center pointer-events-none">
-          {!isHost ? (
+        {!isHost ? (
+          <div className="w-screen flex flex-col items-end absolute">
             <button
-              className="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
+              className="shadow-md rounded-lg m-1 p-2 bg-secondary-500 hover:bg-secondary-200 font-bold uppercase"
               onClick={() => {
                 cookieCutter.set("session", "");
                 window.location.href = "/";
@@ -184,7 +184,9 @@ export default function Game(props) {
             >
               {t("quit")}
             </button>
-          ) : null}
+          </div>
+        ) : null}
+        <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center pointer-events-none">
           <img
             className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-300`}
             src="x.svg"
