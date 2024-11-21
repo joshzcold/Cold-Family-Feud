@@ -15,10 +15,10 @@ func main() {
 
 	flag.StringVar(&cfg.addr, "listen-address", ":8080", "Address for server to bind to.")
 	flag.Parse()
-	hub := ws.NewHub()
-	go hub.Run()
+	// hub := ws.NewHub()
+	// go hub.Run()
 	http.HandleFunc("/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
-		ws.ServeWs(hub, httpWriter, httpRequest)
+		ws.ServeWs(httpWriter, httpRequest)
 	})
 	log.Printf("Server listening on %s", cfg.addr)
 	err := http.ListenAndServe(*&cfg.addr, nil)

@@ -6,11 +6,13 @@ package ws
 
 import (
 	"bytes"
+	"fmt"
 	"log"
 	"net/http"
 	"time"
 
 	"github.com/gorilla/websocket"
+	"github.com/joshzcold/Cold-Family-Feud/events"
 )
 
 const (
@@ -24,7 +26,7 @@ const (
 	pingPeriod = (pongWait * 9) / 10
 
 	// Maximum message size allowed from peer.
-	maxMessageSize = 512
+	maxMessageSize = 5120 * 1024 // 5 MB
 )
 
 var (
@@ -70,7 +72,16 @@ func (c *Client) readPump() {
 			break
 		}
 		message = bytes.TrimSpace(bytes.Replace(message, newline, space, -1))
-		c.hub.broadcast <- message
+		err = events.EventPipe(c, message)
+		if err != nil {
+			fmt.Errorf(" %w", err)
+			w, writerErr := c.conn.NextWriter(websocket.TextMessage)
+			if writerErr != nil {
+				return
+			}
+			errorMessage := fmt.Sprintf("Error reading socket message: %s", fmt.Sprint(err))
+			w.Write([]byte(errorMessage))
+		}
 	}
 }
 
@@ -94,7 +105,6 @@ func (c *Client) writePump() {
 				c.conn.WriteMessage(websocket.CloseMessage, []byte{})
 				return
 			}
-
 			w, err := c.conn.NextWriter(websocket.TextMessage)
 			if err != nil {
 				return
@@ -121,15 +131,13 @@ func (c *Client) writePump() {
 }
 
 // ServeWs handles websocket requests from the peer.
-func ServeWs(hub *Hub, w http.ResponseWriter, r *http.Request) {
+func ServeWs(w http.ResponseWriter, r *http.Request) {
 	conn, err := upgrader.Upgrade(w, r, nil)
 	if err != nil {
 		log.Println(err)
 		return
 	}
-	client := &Client{hub: hub, conn: conn, send: make(chan []byte, 256)}
-	client.hub.register <- client
-
+	client := &Client{conn: conn, send: make(chan []byte, 256)}
 	// Allow collection of memory referenced by the caller by doing all work in
 	// new goroutines.
 	go client.writePump()

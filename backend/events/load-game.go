@@ -1,0 +1,5 @@
+package events
+
+func LoadGame()
+
+
