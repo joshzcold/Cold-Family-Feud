@@ -1,14 +1,62 @@
-# Default values for famf.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
-
 replicaCount: 1
 
-image:
-  repository: ghcr.io/joshzcold/cold-family-feud
+backend:
+  repository: ghcr.io/joshzcold/famf-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
+  securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+  resources: {}
+  # limits:
+  #   cpu: 100m
+  #   memory: 128Mi
+  # requests:
+  #   cpu: 100m
+  #   memory: 128Mi
+  service:
+    type: ClusterIP
+    port: 8080
+  volumeMounts: {}
+  # Example: Sqlite store
+  # volumeMounts:
+  #   - name: famf-data
+  #     mountPath: /data
+  env: {}
+  # Example: Sqlite store
+  # env:
+  #   - name: GAME_STORE
+  #     value: "sqlite"
+  #   - name: GAME_STORE_SQLITE_PATH
+  #     value: "/data/famf.db"
+frontend:
+  repository: ghcr.io/joshzcold/famf-web
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+  securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+  service:
+    type: ClusterIP
+    port: 3000
+  volumeMounts: {}
+  env: {}
+
+volumes: {}
+# Example: Sqlite store
+# volumes:
+#   - name: famf-data
+#     hostPath: /var/lib/famf/
 
 imagePullSecrets: []
 nameOverride: ""
@@ -17,55 +65,20 @@ fullnameOverride: ""
 podAnnotations: {}
 
 podSecurityContext: {}
-  # fsGroup: 2000
-
-securityContext: {}
-  # capabilities:
-  #   drop:
-  #   - ALL
-  # readOnlyRootFilesystem: true
-  # runAsNonRoot: true
-  # runAsUser: 1000
-
-service:
-  type: ClusterIP
-  port: 3000
 
 ingress:
   enabled: true
   className: ""
   annotations: {}
-    # kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
+  # kubernetes.io/ingress.class: nginx
+  # kubernetes.io/tls-acme: "true"
   hosts:
     - host: www.famf.app
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
     - host: famf.app
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
-    - host: famf.joshcold.duckdns.org
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
-
-resources: {}
-  # We usually recommend not to specify default resources and to leave this as a conscious
-  # choice for the user. This also increases chances charts run on environments with little
-  # resources, such as Minikube. If you do want to specify resources, uncomment the following
-  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
-  # limits:
-  #   cpu: 100m
-  #   memory: 128Mi
-  # requests:
-  #   cpu: 100m
-  #   memory: 128Mi
 
 nodeSelector: {}
 

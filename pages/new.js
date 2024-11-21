@@ -27,7 +27,7 @@ export default function CreateGame(props) {
   const [error, setError] = useState("");
   const [game, setGame] = useState(gameTemplate);
   const [theme, setTheme] = useState({
-    settings: {}
+    settings: {},
   });
 
   console.debug(game);
@@ -44,7 +44,7 @@ export default function CreateGame(props) {
   };
 
   if (typeof window !== "undefined") {
-    document.body.className= game?.settings?.theme + " bg-background";
+    document.body.className = game?.settings?.theme + " bg-background";
     // Prevent losing changes
     window.onbeforeunload = function() {
       return "";
@@ -73,6 +73,7 @@ export default function CreateGame(props) {
                   accept=".json"
                 />
                 <button
+                  id="gamePickerSubmitButton"
                   className="hover:shadow-md rounded-md p-2 bg-primary-200"
                   onClick={() => {
                     var file = document.getElementById("gamePicker").files[0];
@@ -109,7 +110,7 @@ export default function CreateGame(props) {
               </div>
               <div className="flex flex-row">
                 <span className="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
-                  {t("Load Game")}
+                  {t("Edit Existing Game")}
                 </span>
                 <div className="flex-grow"></div>
               </div>
@@ -121,6 +122,7 @@ export default function CreateGame(props) {
               <div className="border-2 p-3 flex flex-col space-y-3">
                 <div className="flex space-x-3 flex-row">
                   <input
+                    id={`round${index}QuestionInput`}
                     className="p-2 border-2 bg-secondary-300 text-foreground w-full"
                     value={r.question}
                     placeholder={t("question")}
@@ -130,6 +132,7 @@ export default function CreateGame(props) {
                     }}
                   />
                   <input
+                    id={`round${index}QuestionMultiplierInput`}
                     type="number"
                     min="1"
                     className="p-2 border-2 bg-secondary-300 text-foreground w-15"
@@ -149,6 +152,7 @@ export default function CreateGame(props) {
                   {r.answers.map((a, ain) => (
                     <div className="flex flex-row space-x-3 pb-2" key={ain}>
                       <input
+                        id={`round${index}Answer${ain}NameInput`}
                         className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a.ans}
                         placeholder={t("Answer")}
@@ -158,6 +162,7 @@ export default function CreateGame(props) {
                         }}
                       />
                       <input
+                        id={`round${index}Answer${ain}PointsInput`}
                         type="number"
                         min="0"
                         className="p-2 border-2 bg-secondary-300 text-foreground"
@@ -169,6 +174,7 @@ export default function CreateGame(props) {
                         }}
                       />
                       <button
+                        id={`round${index}Answer${ain}RemoveButton`}
                         onClick={() => {
                           r.answers.splice(ain, 1);
                           setGame((prv) => ({ ...prv }));
@@ -182,8 +188,9 @@ export default function CreateGame(props) {
                 </div>
                 <div className="py-2 flex flex-row space-x-3">
                   <button
+                    id={`round${index}AnswerAddButton`}
                     onClick={() => {
-                      r.answers.push({ ans: "", pnt: 0});
+                      r.answers.push({ ans: "", pnt: 0 });
                       setGame((prv) => ({ ...prv }));
                     }}
                     className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
@@ -191,6 +198,7 @@ export default function CreateGame(props) {
                     {t("Answer")} +
                   </button>
                   <button
+                    id={`round${index}AnswerRemoveButton`}
                     onClick={() => {
                       game.rounds.splice(index, 1);
                       setGame((prv) => ({ ...prv }));
@@ -204,10 +212,11 @@ export default function CreateGame(props) {
             ))}
             <div className="pt-5">
               <button
+                id="roundAddButton"
                 onClick={() => {
                   game.rounds.push({
                     question: "",
-                    answers: [{ ans: "", pnt: 0}],
+                    answers: [{ ans: "", pnt: 0 }],
                     multiply: 1,
                   });
                   setGame((prv) => ({ ...prv }));
@@ -224,10 +233,11 @@ export default function CreateGame(props) {
           <div className="flex flex-row space-x-10 items-end">
             <p className="text-3xl text-foreground">{t("Fast Money")}</p>
             <div>
-              <p className="text-secondary-900">
+              <p id="finalRound1TimerText" className="text-secondary-900">
                 {t("timer")} {t("number", { count: 1 })}
               </p>
               <input
+                id="finalRound1TimerInput"
                 type="number"
                 min="0"
                 className="p-2 border-2 bg-secondary-300 text-foreground"
@@ -240,10 +250,11 @@ export default function CreateGame(props) {
               />
             </div>
             <div>
-              <p className="text-secondary-900">
+              <p id="finalRound2TimerText" className="text-secondary-900">
                 {t("timer")} {t("number", { count: 2 })}
               </p>
               <input
+                id="finalRound2TimerInput"
                 type="number"
                 min="0"
                 className="p-2 border-2 bg-secondary-300 text-foreground"
@@ -260,6 +271,7 @@ export default function CreateGame(props) {
             {game.final_round.map((q, qin) => (
               <div className="flex flex-col space-y-2 pt-5">
                 <input
+                  id={`finalRoundQuestion${qin}Input`}
                   className="p-2 border-2 bg-secondary-300 text-foreground"
                   value={q.question}
                   onChange={(e) => {
@@ -271,6 +283,7 @@ export default function CreateGame(props) {
                   {q.answers.map((a, ain) => (
                     <div className="flex flex-row space-x-3 pb-2" key={ain}>
                       <input
+                        id={`finalRoundQuestion${qin}Answer${ain}Input`}
                         className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a[0]}
                         placeholder={t("Answer")}
@@ -280,6 +293,7 @@ export default function CreateGame(props) {
                         }}
                       />
                       <input
+                        id={`finalRoundQuestion${qin}AnswerPoints${ain}Input`}
                         type="number"
                         min="0"
                         className="p-2 border-2 bg-secondary-300 text-foreground"
@@ -291,6 +305,7 @@ export default function CreateGame(props) {
                         }}
                       />
                       <button
+                        id={`finalRoundQuestion${qin}RemoveAnswerButton`}
                         onClick={() => {
                           q.answers.splice(ain, 1);
                           setGame((prv) => ({ ...prv }));
@@ -302,6 +317,7 @@ export default function CreateGame(props) {
                     </div>
                   ))}
                   <button
+                    id={`finalRoundQuestion${qin}AddAnswerButton`}
                     onClick={() => {
                       q.answers.push(["", ""]);
                       setGame((prv) => ({ ...prv }));
@@ -312,6 +328,7 @@ export default function CreateGame(props) {
                   </button>
                   <div className="pt-5">
                     <button
+                      id={`finalRoundQuestion${qin}RemoveQuestionButton`}
                       onClick={() => {
                         game.final_round.splice(qin, 1);
                         setGame((prv) => ({ ...prv }));
@@ -326,6 +343,7 @@ export default function CreateGame(props) {
             ))}
             <div className="pt-5">
               <button
+                id={`finalRoundAddQuestionButton`}
                 onClick={() => {
                   game.final_round.push({
                     question: `${t("question")} ${t("number", {
@@ -346,19 +364,20 @@ export default function CreateGame(props) {
         {error !== "" ? (
           <div className="bg-failure-500 p-2 rounded-md">
             <p className="text-white font-semibold uppercase">{t("error")}:</p>
-            <p className="text-white">{error}</p>
+            <p id="errorText" className="text-white">{error}</p>
           </div>
         ) : null}
 
         <div className="flex flex-row space-x-5 pt-5">
           <button
+            id="newGameSubmitButton"
             className="hover:shadow-md rounded-md bg-success-200 p-2 px-10"
             onClick={() => {
               // ERROR checking
               let error = [];
               if (game.rounds.length == 0) {
                 error.push(
-                  t("You need to create some rounds to save the game")
+                  t("You need to create some rounds to save the game"),
                 );
               }
               game.rounds.forEach((r, index) => {
@@ -366,7 +385,7 @@ export default function CreateGame(props) {
                   error.push(
                     t("round number {{count, number}} has an empty question", {
                       count: index + 1,
-                    })
+                    }),
                   );
                 }
                 if (
@@ -377,14 +396,14 @@ export default function CreateGame(props) {
                   error.push(
                     t("round number {{count, number}} has no point multipler", {
                       count: index + 1,
-                    })
+                    }),
                   );
                 }
                 if (r.answers.length === 0) {
                   error.push(
                     t("round number {{count, number}} has no answers", {
                       count: index + 1,
-                    })
+                    }),
                   );
                 }
                 r.answers.forEach((a, aindex) => {
@@ -395,8 +414,8 @@ export default function CreateGame(props) {
                         {
                           count: index + 1,
                           answernum: aindex + 1,
-                        }
-                      )
+                        },
+                      ),
                     );
                   }
                   if (a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)) {
@@ -407,8 +426,8 @@ export default function CreateGame(props) {
                           count: index + 1,
                           zero: 0,
                           answernum: aindex + 1,
-                        }
-                      )
+                        },
+                      ),
                     );
                   }
                 });
@@ -420,7 +439,7 @@ export default function CreateGame(props) {
                 downloadToFile(
                   JSON.stringify(game),
                   `${t("new-cold-feud")}.json`,
-                  "text/json"
+                  "text/json",
                 );
               } else {
                 setError(error.join(", "));

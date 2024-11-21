@@ -258,13 +258,13 @@ export default function TitleLogo(props) {
               -inkscape-font-specification: 'C059 Bold';
               text-align: center;
             "
-            font-size="${adjustTextSize(t("family"))}"
+            font-size="${adjustTextSize(t("friendly"))}"
             text-anchor="middle"
             stroke-width="0.7"
             stroke-linejoin="round"
             id="tspan38"
           >
-            ${t("family")}
+            ${t("friendly")}
           </tspan>
         </tspan>
       </text>
@@ -282,14 +282,14 @@ export default function TitleLogo(props) {
       >
         <tspan
           style="fill: url(#g);"
-          font-size="${adjustTextSize(t("family"))}"
+          font-size="${adjustTextSize(t("friendly"))}"
           text-anchor="middle"
           stroke="#000000"
           stroke-width="1.13319"
           stroke-linejoin="round"
           id="tspan60"
         >
-          ${t("family")}
+          ${t("friendly")}
         </tspan>
       </tspan>
     </text>
@@ -298,7 +298,7 @@ export default function TitleLogo(props) {
 </svg>
   `;
   return (
-    <div>
+    <div id="titleLogoImg">
       <div dangerouslySetInnerHTML={{ __html: logo }} />
     </div>
   );
