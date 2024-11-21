@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 	"net/http"
-	"github.com/joshzcold/Cold-Family-Feud/ws"
+	"github.com/joshzcold/Cold-Family-Feud/api"
 )
 
 var cfg = struct {
@@ -18,7 +18,7 @@ func main() {
 	// hub := ws.NewHub()
 	// go hub.Run()
 	http.HandleFunc("/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
-		ws.ServeWs(httpWriter, httpRequest)
+		api.ServeWs(httpWriter, httpRequest)
 	})
 	log.Printf("Server listening on %s", cfg.addr)
 	err := http.ListenAndServe(*&cfg.addr, nil)

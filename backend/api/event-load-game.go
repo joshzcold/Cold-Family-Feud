@@ -1,5 +1,3 @@
-package events
+package api
 
 func LoadGame()
-
-

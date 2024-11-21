@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package ws
+package api
 
 import (
 	"bytes"
@@ -12,7 +12,6 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/joshzcold/Cold-Family-Feud/events"
 )
 
 const (
@@ -72,11 +71,11 @@ func (c *Client) readPump() {
 			break
 		}
 		message = bytes.TrimSpace(bytes.Replace(message, newline, space, -1))
-		err = events.EventPipe(c, message)
+		err = EventPipe(c, message)
 		if err != nil {
-			fmt.Errorf(" %w", err)
 			w, writerErr := c.conn.NextWriter(websocket.TextMessage)
 			if writerErr != nil {
+				log.Printf("Error starting writer", fmt.Sprint(writerErr))
 				return
 			}
 			errorMessage := fmt.Sprintf("Error reading socket message: %s", fmt.Sprint(err))
