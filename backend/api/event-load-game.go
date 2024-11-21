@@ -1,3 +1,6 @@
 package api
 
-func LoadGame()
+
+func LoadGame(client *Client, event *Event) error {
+	return nil
+}

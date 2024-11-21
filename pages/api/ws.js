@@ -39,7 +39,7 @@ const ioHandler = (req, res) => {
             clearInterval(interval);
           } else {
             console.debug("Sending ping to id", id);
-            room.game.eegisteredPlayers[id].start = new Date();
+            room.game.registeredPlayers[id].start = new Date();
             ws.send(JSON.stringify({ action: "ping", id: id }));
           }
         } catch (e) {

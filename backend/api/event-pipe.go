@@ -13,9 +13,40 @@ type Event struct {
 	Room   string      `json:"room"`
 }
 
-// var events = map[string]interface{}{
-// 	"load_game": 
-// }
+type ActionFunc func(*Client, *Event) error
+
+var recieveActions = map[string]func(client *Client, event *Event) error {
+	"load_game": LoadGame,
+	"host_room": HostRoom,
+	"game_window": GameWindow,
+	"join_room": JoinRoom,
+	"quit": Quit,
+	"get_back_in": GetBackIn,
+	"data": NewData,
+	"registerbuzz": RegisterBuzzer,
+	"registerspectator":  RegisterSpectator,
+	"pong": Pong,
+	"clearbuzzers": ClearBuzzers,
+	"change_lang": ChangeLanguage,
+	"buzz": Buzzed,
+	"logo_upload": LogoUpload,
+	"del_logo_upload": DeleteLogoUpload,
+}
+
+// TODO map each of these to a data type
+var sendActions = map[string]interface{} {
+	"data": "",
+	"error": "",
+	"ping": "",
+	"host_room": "",
+	"join_room": "",
+	"quit": "",
+	"get_back_in": "",
+	"clearbuzzers": "",
+	"registered": "",
+	"change_lang": "",
+	"buzzed": "",
+}
 
 func parseEvent(message []byte) (*Event, error) {
 	var event *Event
@@ -26,7 +57,7 @@ func parseEvent(message []byte) (*Event, error) {
 	return event, nil
 }
 
-func EventPipe(client interface{}, message []byte) error {
+func EventPipe(client *Client, message []byte) error {
 	event, err := parseEvent(message)
 	if err != nil {
 		return err
