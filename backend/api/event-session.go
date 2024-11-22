@@ -1,5 +1,9 @@
 package api
 
+// TODO initialize Hub on HostRoom
+// TODO join Hub on JoinRoom
+// TODO clear hub on Quit
+
 func Quit(client *Client, event *Event) error {
 	return nil
 }

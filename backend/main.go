@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
+	"github.com/joshzcold/Cold-Family-Feud/api"
 	"log"
 	"net/http"
-	"github.com/joshzcold/Cold-Family-Feud/api"
 )
 
 var cfg = struct {
@@ -15,8 +15,9 @@ func main() {
 
 	flag.StringVar(&cfg.addr, "listen-address", ":8080", "Address for server to bind to.")
 	flag.Parse()
-	// hub := ws.NewHub()
-	// go hub.Run()
+
+	// TODO Initialize store based on argument
+
 	http.HandleFunc("/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
 		api.ServeWs(httpWriter, httpRequest)
 	})
