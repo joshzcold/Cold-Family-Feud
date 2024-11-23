@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"github.com/joshzcold/Cold-Family-Feud/api"
+	"github.com/joshzcold/Cold-Family-Feud/stores"
 	"log"
 	"net/http"
 )
 
 var cfg = struct {
-	addr string
+	addr  string
 	store string
 }{}
 
@@ -18,15 +19,16 @@ func main() {
 	flag.StringVar(&cfg.store, "game_store", "memory", "Choice of storage medium of the game")
 	flag.Parse()
 
-	// TODO Initialize store based on argument
-
-
+	err := stores.NewGameStore(cfg.store)
+	if err != nil {
+		log.Panicf("Error: unable initalize store: %w", err)
+	}
 
 	http.HandleFunc("/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
 		api.ServeWs(httpWriter, httpRequest)
 	})
 	log.Printf("Server listening on %s", cfg.addr)
-	err := http.ListenAndServe(*&cfg.addr, nil)
+	err = http.ListenAndServe(*&cfg.addr, nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}

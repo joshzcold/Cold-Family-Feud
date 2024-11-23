@@ -1,7 +1,6 @@
 package game
 
 import "math/rand"
-import "github.com/joshzcold/Cold-Family-Feud/ws"
 
 const ()
 
@@ -16,9 +15,3 @@ func MakeRoom() string {
 	}
 	return string(b)
 }
-
-type Room struct {
-    // Connections map[string]*Client
-}
-
-type Rooms map[string]*Room
