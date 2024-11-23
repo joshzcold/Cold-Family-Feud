@@ -129,7 +129,6 @@ func (c *Client) writePump() {
 				return
 			}
 		case <- c.stop:
-			c.conn.Close()
 			return
 		}
 	}

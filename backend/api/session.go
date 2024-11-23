@@ -13,9 +13,15 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 			room.game.Buzzed = append(room.game.Buzzed[:idx], room.game.Buzzed[idx+1:]...)
 		}
 	}
+
+	message, err := NewSendQuit()
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	client.send <- message
 	client.stop <- true
 	delete(room.game.RegisteredPlayers, event.ID)
-	message, err := NewSendData(room)
+	message, err = NewSendData(room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

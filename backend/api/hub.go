@@ -33,6 +33,15 @@ func NewHub() *Hub {
 }
 
 func (h *Hub) run() {
+	defer func() {
+		for client := range h.clients {
+			client.conn.Close()
+			close(client.send)
+		}
+		close(h.register)
+		close(h.unregister)
+		close(h.broadcast)
+	}()
 	for {
 		select {
 		case client := <-h.register:
@@ -52,10 +61,6 @@ func (h *Hub) run() {
 				}
 			}
 		case <- h.stop:
-			for client := range h.clients {
-				client.conn.Close()
-				close(client.send)
-			}
 			return
 		}
 	}
