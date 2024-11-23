@@ -47,6 +47,9 @@ type Client struct {
 
 	// Buffered channel of outbound messages.
 	send chan []byte
+
+	// Stop the goroutine
+	stop chan bool
 }
 
 // readPump pumps messages from the websocket connection to the hub.
@@ -125,6 +128,9 @@ func (c *Client) writePump() {
 			if err := c.conn.WriteMessage(websocket.PingMessage, nil); err != nil {
 				return
 			}
+		case <- c.stop:
+			c.conn.Close()
+			return
 		}
 	}
 }

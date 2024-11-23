@@ -10,8 +10,56 @@ import (
 // TODO join Hub on JoinRoom
 // TODO clear hub on Quit
 
-func Quit(client *Client, event *Event) error {
+func quitPlayer(room *room, client *Client, event *Event) error {
+	for idx, b := range room.game.Buzzed {
+		if b.ID == event.ID {
+			// Remove from buzzed player list
+			room.game.Buzzed = append(room.game.Buzzed[:idx], room.game.Buzzed[idx+1:]...)
+		}
+	}
+	client.stop <- true
+	delete(room.game.RegisteredPlayers, event.ID)
+	message, err := NewSendData(room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Hub.broadcast <- message
 	return nil
+}
+
+func quitHost(room *room, event *Event) error {
+	s := store
+	// Make everyone else quit
+	message, err := NewSendQuit()
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Hub.broadcast <- message
+
+	message, err = NewSendError("host quit the game")
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Hub.broadcast <- message
+	room.Hub.stop <- true
+	// Remove room
+	s.deleteRoom(event.Room)
+	return nil
+}
+
+// Quit clear sessions for user or host
+// TODO clear intervals if I still want those.
+func Quit(client *Client, event *Event) error {
+	log.Println("user quit game", event.Room, event.ID, event.Host)
+	s := store
+	room, err := s.getRoom(event.Room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	if event.Host {
+		return quitHost(&room, event)
+	}
+	return quitPlayer(&room, client, event)
 }
 
 func JoinRoom(client *Client, event *Event) error {

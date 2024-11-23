@@ -18,6 +18,9 @@ type Hub struct {
 
 	// Unregister requests from clients.
 	unregister chan *Client
+
+	// unregister all client and stop routine
+	stop chan bool
 }
 
 func NewHub() *Hub {
@@ -48,6 +51,12 @@ func (h *Hub) run() {
 					delete(h.clients, client)
 				}
 			}
+		case <- h.stop:
+			for client := range h.clients {
+				client.conn.Close()
+				close(client.send)
+			}
+			return
 		}
 	}
 }

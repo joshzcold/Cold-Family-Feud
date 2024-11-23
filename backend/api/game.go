@@ -13,7 +13,7 @@ type registeredPlayer struct {
 
 type buzzed struct {
 	Time time.Time `json:"time"`
-	Id   string    `json:"id"`
+	ID   string    `json:"id"`
 }
 
 type settings struct {

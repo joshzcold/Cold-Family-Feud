@@ -16,6 +16,8 @@ type Event struct {
 	Data interface{} `json:"data"`
 	Room string      `json:"room"`
 	Name string      `json:"name"`
+	Host bool        `json:"host"`
+	ID   string      `json:"id"`
 }
 
 type ActionFunc func(*Client, *Event) error
