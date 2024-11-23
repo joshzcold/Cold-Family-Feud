@@ -2,11 +2,15 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 )
 
 type Event struct {
+	// Main decider in function
 	Action string      `json:"action"`
+
+	// supplemental fields
 	File   string      `json:"file"`
 	Lang   string      `json:"lang"`
 	Data   interface{} `json:"data"`
@@ -48,5 +52,13 @@ func EventPipe(client *Client, message []byte) error {
 		return err
 	}
 	log.Printf("Event: %+v\n", event)
+
+	if event.Action != "" {
+		_, ok := recieveActions[event.Action]
+		if ok {
+			return recieveActions[event.Action](client, event)
+		}
+		return fmt.Errorf("unknown action in backend: %q", event.Action)
+	}
 	return nil
 }
