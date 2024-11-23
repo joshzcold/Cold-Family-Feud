@@ -1,13 +1,11 @@
 package api
 
-import "github.com/joshzcold/Cold-Family-Feud/game"
-
 type sendData struct {
 	action string
-	data   game.Room
+	data   Room
 }
 
-func NewSendData(newGameData game.Room) sendData {
+func NewSendData(newGameData Room) sendData {
 	return sendData{
 		action: "data",
 		data:   newGameData,
@@ -41,11 +39,11 @@ func NewSendPing(id string) sendPing {
 type sendHostRoom struct {
 	action string
 	room   string
-	game   game.Room
+	game   Room
 	id     string
 }
 
-func NewSendHostRoom(room string, game game.Room, id string) sendHostRoom {
+func NewSendHostRoom(room string, game Room, id string) sendHostRoom {
 	return sendHostRoom{
 		action: "host_room",
 		room:   room,
@@ -57,11 +55,11 @@ func NewSendHostRoom(room string, game game.Room, id string) sendHostRoom {
 type sendJoinRoom struct {
 	action string
 	room   string
-	game   game.Room
+	game   Room
 	id     string
 }
 
-func NewSendJoinRoom(room string, game game.Room, id string) sendJoinRoom {
+func NewSendJoinRoom(room string, game Room, id string) sendJoinRoom {
 	return sendJoinRoom{
 		action: "join_room",
 		room:   room,
@@ -83,13 +81,13 @@ func NewSendQuit() sendQuit {
 type sendGetBackIn struct {
 	action string
 	room   string
-	game   game.Room
+	game   Room
 	id     string
-	player game.RegisteredPlayer
+	player registeredPlayer
 	team   int
 }
 
-func NewSendGetBackIn(room string, game game.Room, id string, player game.RegisteredPlayer, team int) sendGetBackIn {
+func NewSendGetBackIn(room string, game Room, id string, player game.RegisteredPlayer, team int) sendGetBackIn {
 	return sendGetBackIn{
 		action: "get_back_in",
 		room:   room,

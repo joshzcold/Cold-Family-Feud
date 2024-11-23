@@ -1,21 +1,20 @@
-package stores
+package api
 
 import (
 	"fmt"
 	"os"
 	"path/filepath"
 	"sync"
-	"github.com/joshzcold/Cold-Family-Feud/game"
 )
 
 type MemoryStore struct{
 	mu sync.RWMutex
-	rooms map[string]game.Room
+	rooms map[string]Room
 }
 
 func NewMemoryStore() *MemoryStore{
 	return &MemoryStore{
-		rooms: make(map[string]game.Room),
+		rooms: make(map[string]Room),
 	}
 }
 
@@ -29,17 +28,17 @@ func (m *MemoryStore) CurrentRooms() []string {
 	return keys
 }
 
-func (m *MemoryStore) GetRoom(roomCode string) (game.Room, error) {
+func (m *MemoryStore) GetRoom(roomCode string) (Room, error) {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 	foundGame, ok := m.rooms[roomCode]
 	if ok {
 		return foundGame, nil
 	}
-	return game.Room{}, fmt.Errorf("Error: could not game of room code: %s", roomCode)
+	return Room{}, fmt.Errorf("Error: could not game of room code: %s", roomCode)
 }
 
-func (m *MemoryStore) WriteRoom(roomCode string, game game.Room) error {
+func (m *MemoryStore) WriteRoom(roomCode string, game Room) error {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	m.rooms[roomCode] = game

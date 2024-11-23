@@ -1,4 +1,4 @@
-package stores
+package api
 
 import (
 	"fmt"
@@ -20,5 +20,13 @@ func VerifyLogo(logo []byte) error {
 	if !slices.Contains(acceptedMimeTypes, mimeType) {
 		return fmt.Errorf("unknown file type in logo upload")
 	}
+	return nil
+}
+
+func LogoUpload(client *Client, event *Event) error {
+	return nil
+}
+
+func DeleteLogoUpload(client *Client, event *Event) error {
 	return nil
 }

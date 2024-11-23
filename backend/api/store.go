@@ -1,6 +1,5 @@
-package stores
+package api
 
-import "github.com/joshzcold/Cold-Family-Feud/game"
 import "fmt"
 
 var Store GameStore
@@ -11,9 +10,9 @@ type GameStore interface {
 	// List of active rooms on the server
 	CurrentRooms() ([]string) 
 	// Game data of room
-	GetRoom(string) (game.Room, error)
+	GetRoom(string) (Room, error)
 	// Update game data of room
-	WriteRoom(string, game.Room) error
+	WriteRoom(string, Room) error
 	// Erase room from server
 	DeleteRoom(string) error
 	// Save an image file for the game logo
