@@ -6,10 +6,6 @@ import (
 	"slices"
 )
 
-// TODO initialize Hub on HostRoom
-// TODO join Hub on JoinRoom
-// TODO clear hub on Quit
-
 func quitPlayer(room *room, client *Client, event *Event) error {
 	for idx, b := range room.game.Buzzed {
 		if b.ID == event.ID {
@@ -48,8 +44,8 @@ func quitHost(room *room, event *Event) error {
 }
 
 // Quit clear sessions for user or host
-// TODO clear intervals if I still want those.
 func Quit(client *Client, event *Event) error {
+	// TODO clear intervals if I still want those.
 	log.Println("user quit game", event.Room, event.ID, event.Host)
 	s := store
 	room, err := s.getRoom(event.Room)
