@@ -15,6 +15,17 @@ func Quit(client *Client, event *Event) error {
 }
 
 func JoinRoom(client *Client, event *Event) error {
+	s := store
+	room, err := s.getRoom(event.Room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	playerID := registerPlayer(&room, event.Name)
+	message, err := NewSendJoinRoom(room.game.Room, room.game, playerID)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	client.send <- message
 	return nil
 }
 

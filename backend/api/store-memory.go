@@ -35,7 +35,7 @@ func (m *MemoryStore) getRoom(roomCode string) (room, error) {
 	if ok {
 		return foundGame, nil
 	}
-	return room{}, fmt.Errorf("Error: could not game of room code: %s", roomCode)
+	return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
 }
 
 func (m *MemoryStore) writeRoom(roomCode string, game room) error {

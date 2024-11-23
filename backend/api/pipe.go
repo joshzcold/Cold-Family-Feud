@@ -8,13 +8,14 @@ import (
 
 type Event struct {
 	// Main decider in function
-	Action string      `json:"action"`
+	Action string `json:"action"`
 
 	// supplemental fields
-	File   string      `json:"file"`
-	Lang   string      `json:"lang"`
-	Data   interface{} `json:"data"`
-	Room   string      `json:"room"`
+	File string      `json:"file"`
+	Lang string      `json:"lang"`
+	Data interface{} `json:"data"`
+	Room string      `json:"room"`
+	Name string      `json:"name"`
 }
 
 type ActionFunc func(*Client, *Event) error

@@ -59,11 +59,11 @@ func NewSendHostRoom(room string, game game, id string) ([]byte, error) {
 type sendJoinRoom struct {
 	Action string `json:"action"`
 	Room   string `json:"room"`
-	Game   room   `json:"game"`
+	Game   game   `json:"game"`
 	ID     string `json:"id"`
 }
 
-func NewSendJoinRoom(room string, game room, id string) ([]byte, error) {
+func NewSendJoinRoom(room string, game game, id string) ([]byte, error) {
 	return json.Marshal(sendJoinRoom{
 		Action: "join_room",
 		Room:   room,
