@@ -2,29 +2,29 @@ package api
 
 import "fmt"
 
-var Store GameStore
+var store gameStore
 
-// GameStore interface to implement a game store location
+// gameStore interface to implement a game store location
 // defines functions required to implement the state of the game.
-type GameStore interface {
+type gameStore interface {
 	// List of active rooms on the server
-	CurrentRooms() ([]string) 
+	currentRooms() ([]string) 
 	// Game data of room
-	GetRoom(string) (Room, error)
+	getRoom(string) (room, error)
 	// Update game data of room
-	WriteRoom(string, Room) error
+	writeRoom(string, room) error
 	// Erase room from server
-	DeleteRoom(string) error
+	deleteRoom(string) error
 	// Save an image file for the game logo
-	SaveLogo(string, []byte) error
+	saveLogo(string, []byte) error
 	// Delete a logo file for a room 
-	LoadLogo(string) ([]byte, error)
+	loadLogo(string) ([]byte, error)
 }
 
 func NewGameStore(gameStore string) error {
 	switch gameStore {
 	case "memory":
-		Store = NewMemoryStore()
+		store = NewMemoryStore()
 		return nil
 	default:
 		return fmt.Errorf("unknown store: %q", gameStore)

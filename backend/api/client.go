@@ -73,13 +73,13 @@ func (c *Client) readPump() {
 		message = bytes.TrimSpace(bytes.Replace(message, newline, space, -1))
 		err = EventPipe(c, message)
 		if err != nil {
-			w, writerErr := c.conn.NextWriter(websocket.TextMessage)
-			if writerErr != nil {
-				log.Printf("Error starting writer", fmt.Sprint(writerErr))
+			errorMessage, err := NewSendError(fmt.Sprintf("Error reading socket message: %s", fmt.Sprint(err)))
+			if err != nil {
+				c.send <- []byte(fmt.Sprintf(" %w", err))
 				return
 			}
-			errorMessage := fmt.Sprintf("Error reading socket message: %s", fmt.Sprint(err))
-			w.Write([]byte(errorMessage))
+			log.Println("HERE 3", string(errorMessage[:]), err)
+			c.send <- errorMessage
 		}
 	}
 }

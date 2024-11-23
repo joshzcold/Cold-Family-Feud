@@ -1,6 +1,8 @@
 package api
 
 import (
+	"fmt"
+	"log"
 	"slices"
 )
 
@@ -16,17 +18,24 @@ func JoinRoom(client *Client, event *Event) error {
 	return nil
 }
 
+// HostRoom create new room and websocket hub
 func HostRoom(client *Client, event *Event) error {
-	newRoomCode := RoomCode()
-	s := Store
-	currentRooms := s.CurrentRooms()
+	newRoomCode := roomCode()
+	s := store
+	currentRooms := s.currentRooms()
 	for slices.Contains(currentRooms, newRoomCode) {
-		newRoomCode = RoomCode()
+		newRoomCode = roomCode()
 	}
 	initRoom := NewGame(newRoomCode)
-	registerHost(&initRoom)
+	hostID := registerHost(&initRoom)
 	initRoom.Hub = NewHub()
 	go initRoom.Hub.run()
+	initRoom.Hub.register <- client
+	message, err := NewSendHostRoom(newRoomCode, initRoom.game, hostID)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	client.send <- message
 	return nil
 }
 
@@ -34,16 +43,23 @@ func GetBackIn(client *Client, event *Event) error {
 	return nil
 }
 
-func registerPlayer(room *Room, player string) {
-	room.Game.RegisteredPlayers[PlayerID()] = registeredPlayer{
+func registerPlayer(room *room, playerName string) string {
+	playerID := playerID()
+	room.game.RegisteredPlayers[playerID] = registeredPlayer{
 		Role: "player",
-		Name: player,
+		Name: playerName,
 	}
+	log.Println("Registered player in room: ", playerName, playerID, room.game.Room)
+	return playerID
 }
 
 // registerHost Set current player as host
-func registerHost(room *Room) {
-	room.Game.RegisteredPlayers[PlayerID()] = registeredPlayer{
+func registerHost(room *room) string {
+	hostID := playerID()
+	room.game.RegisteredPlayers[hostID] = registeredPlayer{
 		Role: "host",
 	}
+	log.Println("Registered host in room: ", hostID, room.game.Room)
+	store.writeRoom(room.game.Room, *room)
+	return hostID
 }

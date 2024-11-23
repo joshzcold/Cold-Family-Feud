@@ -1,111 +1,115 @@
 package api
 
+import (
+	"encoding/json"
+)
+
 type sendData struct {
-	action string
-	data   Room
+	Action string `json:"action"`
+	Data   room   `json:"data"`
 }
 
-func NewSendData(newGameData Room) sendData {
-	return sendData{
-		action: "data",
-		data:   newGameData,
-	}
+func NewSendData(newGameData room) ([]byte, error) {
+	return json.Marshal(sendData{
+		Action: "data",
+		Data:   newGameData,
+	})
 }
 
 type sendError struct {
-	action  string
-	message string
+	Action  string `json:"action"`
+	Message string `json:"message"`
 }
 
-func NewSendError(message string) sendError {
-	return sendError{
-		action:  "error",
-		message: message,
-	}
+func NewSendError(message string) ([]byte, error) {
+	return json.Marshal(sendError{
+		Action:  "error",
+		Message: message,
+	})
 }
 
 type sendPing struct {
-	action string
-	id     string
+	Action string `json:"action"`
+	Id     string `json:"id"`
 }
 
-func NewSendPing(id string) sendPing {
-	return sendPing{
-		action: "ping",
-		id:     id,
-	}
+func NewSendPing(id string) ([]byte, error) {
+	return json.Marshal(sendPing{
+		Action: "ping",
+		Id:     id,
+	})
 }
 
 type sendHostRoom struct {
-	action string
-	room   string
-	game   Room
-	id     string
+	Action string `json:"action"`
+	Room   string `json:"room"`
+	Game   game   `json:"game"`
+	ID     string `json:"id"`
 }
 
-func NewSendHostRoom(room string, game Room, id string) sendHostRoom {
-	return sendHostRoom{
-		action: "host_room",
-		room:   room,
-		game:   game,
-		id:     id,
-	}
+func NewSendHostRoom(room string, game game, id string) ([]byte, error) {
+	return json.Marshal(sendHostRoom{
+		Action: "host_room",
+		Room:   room,
+		Game:   game,
+		ID:     id,
+	})
 }
 
 type sendJoinRoom struct {
-	action string
-	room   string
-	game   Room
-	id     string
+	Action string `json:"action"`
+	Room   string `json:"room"`
+	Game   room   `json:"game"`
+	ID     string `json:"id"`
 }
 
-func NewSendJoinRoom(room string, game Room, id string) sendJoinRoom {
-	return sendJoinRoom{
-		action: "join_room",
-		room:   room,
-		game:   game,
-		id:     id,
-	}
+func NewSendJoinRoom(room string, game room, id string) ([]byte, error) {
+	return json.Marshal(sendJoinRoom{
+		Action: "join_room",
+		Room:   room,
+		Game:   game,
+		ID:     id,
+	})
 }
 
 type sendQuit struct {
-	action string
+	Action string `json:"action"`
 }
 
-func NewSendQuit() sendQuit {
-	return sendQuit{
-		action: "quit",
-	}
+func NewSendQuit() ([]byte, error) {
+	return json.Marshal(sendQuit{
+		Action: "quit",
+	})
 }
 
 type sendGetBackIn struct {
-	action string
-	room   string
-	game   Room
-	id     string
-	player registeredPlayer
-	team   int
+	Action string           `json:"action"`
+	Room   string           `json:"room"`
+	Game   room             `json:"game"`
+	ID     string           `json:"id"`
+	Player registeredPlayer `json:"player"`
+	Team   int              `json:"team"`
 }
 
-func NewSendGetBackIn(room string, game Room, id string, player game.RegisteredPlayer, team int) sendGetBackIn {
-	return sendGetBackIn{
-		action: "get_back_in",
-		room:   room,
-		game:   game,
-		id:     id,
-		player: player,
-		team:   team,
-	}
+func NewSendGetBackIn(room string, game room, id string, player registeredPlayer, team int) ([]byte, error) {
+	return json.Marshal(sendGetBackIn{
+		Action: "get_back_in",
+		Room:   room,
+		Game:   game,
+		ID:     id,
+		Player: player,
+		Team:   team,
+	})
 }
 
 type sendClearBuzzers struct {
 	action string
 }
 
-func NewSendClearBuzzers() sendClearBuzzers {
-	return sendClearBuzzers{
+func NewSendClearBuzzers() ([]byte, error) {
+	return json.Marshal(sendClearBuzzers{
 		action: "clearbuzzers",
-	}
+	})
 }
 
 type sendRegistered struct {
@@ -113,11 +117,11 @@ type sendRegistered struct {
 	id     string
 }
 
-func NewSendRegistered(id string) sendRegistered {
-	return sendRegistered{
+func NewSendRegistered(id string) ([]byte, error) {
+	return json.Marshal(sendRegistered{
 		action: "registered",
 		id:     id,
-	}
+	})
 }
 
 type sendChangeLang struct {
@@ -126,20 +130,20 @@ type sendChangeLang struct {
 	games  []string
 }
 
-func NewSendChangeLang(language string, games []string) sendChangeLang {
-	return sendChangeLang{
+func NewSendChangeLang(language string, games []string) ([]byte, error) {
+	return json.Marshal(sendChangeLang{
 		action: "change_lang",
 		data:   language,
 		games:  games,
-	}
+	})
 }
 
 type sendBuzzed struct {
 	action string
 }
 
-func NewSendBuzzed() sendBuzzed {
-	return sendBuzzed{
+func NewSendBuzzed() ([]byte, error) {
+	return json.Marshal(sendBuzzed{
 		action: "buzzed",
-	}
+	})
 }

@@ -29,7 +29,7 @@ type team struct {
 	Mistakes int    `json:"mistakes"`
 }
 
-type Game struct {
+type game struct {
 	Room              string                      `json:"room"`
 	RegisteredPlayers map[string]registeredPlayer `json:"registeredPlayers"`
 	Buzzed            []buzzed                    `json:"buzzed"`
@@ -43,10 +43,10 @@ type Game struct {
 	HideFirstRound    bool                        `json:"hide_first_round"`
 	Round             int                         `json:"round"`
 }
-func NewGame(roomCode string) Room {
-	return Room{
+func NewGame(roomCode string) room {
+	return room{
 		Hub: nil,
-		Game: Game{
+		game: game{
 			Room:              roomCode,
 			RegisteredPlayers: make(map[string]registeredPlayer),
 			Buzzed:            []buzzed{},

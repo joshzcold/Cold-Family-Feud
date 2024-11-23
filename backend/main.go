@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"github.com/joshzcold/Cold-Family-Feud/api"
-	"github.com/joshzcold/Cold-Family-Feud/stores"
 	"log"
 	"net/http"
 )
@@ -19,7 +18,7 @@ func main() {
 	flag.StringVar(&cfg.store, "game_store", "memory", "Choice of storage medium of the game")
 	flag.Parse()
 
-	err := stores.NewGameStore(cfg.store)
+	err := api.NewGameStore(cfg.store)
 	if err != nil {
 		log.Panicf("Error: unable initalize store: %w", err)
 	}

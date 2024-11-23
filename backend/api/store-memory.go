@@ -9,16 +9,16 @@ import (
 
 type MemoryStore struct{
 	mu sync.RWMutex
-	rooms map[string]Room
+	rooms map[string]room
 }
 
 func NewMemoryStore() *MemoryStore{
 	return &MemoryStore{
-		rooms: make(map[string]Room),
+		rooms: make(map[string]room),
 	}
 }
 
-func (m *MemoryStore) CurrentRooms() []string {
+func (m *MemoryStore) currentRooms() []string {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 	keys := make([]string, len(m.rooms))
@@ -28,31 +28,31 @@ func (m *MemoryStore) CurrentRooms() []string {
 	return keys
 }
 
-func (m *MemoryStore) GetRoom(roomCode string) (Room, error) {
+func (m *MemoryStore) getRoom(roomCode string) (room, error) {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 	foundGame, ok := m.rooms[roomCode]
 	if ok {
 		return foundGame, nil
 	}
-	return Room{}, fmt.Errorf("Error: could not game of room code: %s", roomCode)
+	return room{}, fmt.Errorf("Error: could not game of room code: %s", roomCode)
 }
 
-func (m *MemoryStore) WriteRoom(roomCode string, game Room) error {
+func (m *MemoryStore) writeRoom(roomCode string, game room) error {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	m.rooms[roomCode] = game
 	return nil
 }
 
-func (m *MemoryStore) DeleteRoom(roomCode string) error {
+func (m *MemoryStore) deleteRoom(roomCode string) error {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	delete(m.rooms, roomCode)
 	return nil
 }
 
-func (m *MemoryStore) SaveLogo(roomCode string, logo []byte) error {
+func (m *MemoryStore) saveLogo(roomCode string, logo []byte) error {
 	dirPath := filepath.Join(".", "public", "rooms", roomCode)
 	err := VerifyLogo(logo)
 	if err != nil {
@@ -70,7 +70,7 @@ func (m *MemoryStore) SaveLogo(roomCode string, logo []byte) error {
 	return nil
 }
 
-func (m *MemoryStore) LoadLogo(roomCode string) ([]byte, error) {
+func (m *MemoryStore) loadLogo(roomCode string) ([]byte, error) {
 	logoPath := filepath.Join(".", "public", "rooms", roomCode, "logo")
 	_, err := os.Stat(logoPath)
 	if err != nil {

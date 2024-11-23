@@ -54,9 +54,9 @@ func EventPipe(client *Client, message []byte) error {
 	log.Printf("Event: %+v\n", event)
 
 	if event.Action != "" {
-		_, ok := recieveActions[event.Action]
+		action, ok := recieveActions[event.Action]
 		if ok {
-			return recieveActions[event.Action](client, event)
+			return action(client, event)
 		}
 		return fmt.Errorf("unknown action in backend: %q", event.Action)
 	}

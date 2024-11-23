@@ -9,7 +9,7 @@ var roomLetterLength = 4
 var roomLetters = []rune("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 // MakeRoom return a room code from random pick of characters of room code length
-func RoomCode() string {
+func roomCode() string {
 	b := make([]rune, roomLetterLength)
 	for i := range b {
 		b[i] = roomLetters[rand.Intn(len(roomLetters))]
@@ -17,14 +17,14 @@ func RoomCode() string {
 	return string(b)
 }
 
-func PlayerID() string {
+func playerID() string {
 	return uuid.New().String()
 }
 
-type Room struct {
-	Game Game `json:"game"`
+type room struct {
+	game game `json:"game"`
 	// Assign to ws Hub when hosting room
 	Hub *Hub
 	// Get lag of each client
-	Intervals any
+	intervals any
 }
