@@ -4,7 +4,7 @@ import "time"
 
 type registeredPlayer struct {
 	Start     time.Time `json:"start"`
-	Latencies []float64 `json:"latencies"`
+	Latencies []int64   `json:"latencies"`
 	Team      string    `json:"team"`
 	Latency   float64   `json:"latency"`
 	Role      string    `json:"role"`
@@ -29,6 +29,27 @@ type team struct {
 	Mistakes int    `json:"mistakes"`
 }
 
+type answer struct {
+	Triggered bool   `json:"trig"`
+	Answer    string `json:"ans"`
+	Points    int    `json:"pnt"`
+}
+
+type round struct {
+	Answers   []answer `json:"answers"`
+	Multiply  int      `json:"multiply"`
+	Question  string   `json:"question"`
+}
+
+type finalRound struct {
+	Answers []any `json:"answers"`
+	Questions string `json:"question"`
+	Selection int      `json:"selection"`
+	Points    int      `json:"points"`
+	Input     string   `json:"input"`
+	Revealed  bool     `json:"revealed"`
+}
+
 type game struct {
 	Room              string                      `json:"room"`
 	RegisteredPlayers map[string]registeredPlayer `json:"registeredPlayers"`
@@ -42,7 +63,11 @@ type game struct {
 	IsFinalSecond     bool                        `json:"is_final_second"`
 	HideFirstRound    bool                        `json:"hide_first_round"`
 	Round             int                         `json:"round"`
+	Rounds            []round                     `json:"rounds"`
+	FinalRound        []finalRound                `json:""`
+	FinalRoundTimers  []int                       `json:"final_round_timers"`
 }
+
 func NewGame(roomCode string) room {
 	return room{
 		Hub: nil,
