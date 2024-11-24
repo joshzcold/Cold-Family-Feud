@@ -43,7 +43,7 @@ func LoadGame(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	gameBytes, err := os.ReadFile(filePath)
-	loadedGame := room.game
+	loadedGame := room.Game
 	json.Unmarshal(gameBytes, &loadedGame)
 	if err != nil {
 		return fmt.Errorf(" %w", err)

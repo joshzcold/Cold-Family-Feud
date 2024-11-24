@@ -12,7 +12,7 @@ func Pong(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	player, ok := room.game.RegisteredPlayers[event.ID]
+	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if ! ok {
 		return fmt.Errorf("player not found in pong")
 	}

@@ -17,7 +17,7 @@ func GameWindow(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 
-	message, err := NewSendData(&room.game)
+	message, err := NewSendData(&room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

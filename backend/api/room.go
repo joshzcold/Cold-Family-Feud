@@ -1,7 +1,11 @@
 package api
 
-import "github.com/google/uuid"
-import "math/rand"
+import (
+	"math/rand"
+	"time"
+
+	"github.com/google/uuid"
+)
 
 const ()
 
@@ -21,10 +25,35 @@ func playerID() string {
 	return uuid.New().String()
 }
 
+func (p *PingInterval) pingInterval() {
+	ticker := time.NewTicker(5 * time.Second)
+	defer func() {
+		ticker.Stop()
+	}()
+	for {
+		select {
+			case <- ticker.C:
+				if p.client.conn.CloseHandler() {
+					
+				}
+			case <- p.stop:
+				return
+		}
+	}
+
+}
+
+type PingInterval struct {
+	id string
+	client Client
+	room room
+	stop chan bool
+}
+
 type room struct {
-	game game `json:"game"`
+	Game game `json:"game"`
 	// Assign to ws Hub when hosting room
 	Hub *Hub
 	// Get lag of each client
-	intervals any
+	intervals map[string]PingInterval
 }

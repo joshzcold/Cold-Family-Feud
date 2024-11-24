@@ -11,20 +11,21 @@ type Event struct {
 	Action string `json:"action"`
 
 	// supplemental fields
-	File string      `json:"file"`
-	Lang string      `json:"lang"`
-	Data interface{} `json:"data"`
-	Room string      `json:"room"`
-	Name string      `json:"name"`
-	Host bool        `json:"host"`
-	ID   string      `json:"id"`
+	File    string `json:"file"`
+	Lang    string `json:"lang"`
+	Data    any    `json:"data"`
+	Room    string `json:"room"`
+	Name    string `json:"name"`
+	Host    bool   `json:"host"`
+	ID      string `json:"id"`
 	Session string `json:"session"`
+	Team int `json:"team"`
 }
 
 type ActionFunc func(*Client, *Event) error
 
 var recieveActions = map[string]func(client *Client, event *Event) error{
-	"buzz":              Buzzed,
+	"buzz":              Buzz,
 	"change_lang":       ChangeLanguage,
 	"clearbuzzers":      ClearBuzzers,
 	"data":              NewData,

@@ -9,10 +9,10 @@ import (
 )
 
 func quitPlayer(room *room, client *Client, event *Event) error {
-	for idx, b := range room.game.Buzzed {
+	for idx, b := range room.Game.Buzzed {
 		if b.ID == event.ID {
 			// Remove from buzzed player list
-			room.game.Buzzed = append(room.game.Buzzed[:idx], room.game.Buzzed[idx+1:]...)
+			room.Game.Buzzed = append(room.Game.Buzzed[:idx], room.Game.Buzzed[idx+1:]...)
 		}
 	}
 
@@ -22,7 +22,7 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	}
 	client.send <- message
 	client.stop <- true
-	delete(room.game.RegisteredPlayers, event.ID)
+	delete(room.Game.RegisteredPlayers, event.ID)
 	message, err = NewSendData(room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
@@ -73,7 +73,7 @@ func JoinRoom(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	playerID := registerPlayer(&room, event.Name)
-	message, err := NewSendJoinRoom(room.game.Room, room.game, playerID)
+	message, err := NewSendJoinRoom(room.Game.Room, room.Game, playerID)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -94,7 +94,7 @@ func HostRoom(client *Client, event *Event) error {
 	initRoom.Hub = NewHub()
 	go initRoom.Hub.run()
 	initRoom.Hub.register <- client
-	message, err := NewSendHostRoom(newRoomCode, initRoom.game, hostID)
+	message, err := NewSendHostRoom(newRoomCode, initRoom.Game, hostID)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -113,7 +113,7 @@ func GetBackIn(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	val, ok := room.game.RegisteredPlayers[playerID]
+	val, ok := room.Game.RegisteredPlayers[playerID]
 	if !ok {
 		return fmt.Errorf("player not found in get_back_in")
 	}
@@ -122,7 +122,7 @@ func GetBackIn(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Hub.register <- client
-	message, err := NewSendGetBackIn(roomCode, room.game, playerID, val, teamInt)
+	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, val, teamInt)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -133,21 +133,21 @@ func GetBackIn(client *Client, event *Event) error {
 
 func registerPlayer(room *room, playerName string) string {
 	playerID := playerID()
-	room.game.RegisteredPlayers[playerID] = registeredPlayer{
+	room.Game.RegisteredPlayers[playerID] = registeredPlayer{
 		Role: "player",
 		Name: playerName,
 	}
-	log.Println("Registered player in room: ", playerName, playerID, room.game.Room)
+	log.Println("Registered player in room: ", playerName, playerID, room.Game.Room)
 	return playerID
 }
 
 // registerHost Set current player as host
 func registerHost(room *room) string {
 	hostID := playerID()
-	room.game.RegisteredPlayers[hostID] = registeredPlayer{
+	room.Game.RegisteredPlayers[hostID] = registeredPlayer{
 		Role: "host",
 	}
-	log.Println("Registered host in room: ", hostID, room.game.Room)
-	store.writeRoom(room.game.Room, *room)
+	log.Println("Registered host in room: ", hostID, room.Game.Room)
+	store.writeRoom(room.Game.Room, *room)
 	return hostID
 }
