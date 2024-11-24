@@ -10,7 +10,7 @@ func GameWindow(client *Client, event *Event) error {
 	if len(session) != 2 {
 		return fmt.Errorf("session string game window not in expected format")
 	}
-	roomCode, userID := session[0], session[1]
+	roomCode, _ := session[0], session[1]
 	s := store
 	room, err := s.getRoom(roomCode)
 	if err != nil {
