@@ -6,10 +6,10 @@ import (
 
 type sendData struct {
 	Action string `json:"action"`
-	Data   *room  `json:"data"`
+	Data   *game  `json:"data"`
 }
 
-func NewSendData(newGameData *room) ([]byte, error) {
+func NewSendData(newGameData *game) ([]byte, error) {
 	return json.Marshal(sendData{
 		Action: "data",
 		Data:   newGameData,
