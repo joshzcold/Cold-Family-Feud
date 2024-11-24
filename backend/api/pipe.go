@@ -18,6 +18,7 @@ type Event struct {
 	Name string      `json:"name"`
 	Host bool        `json:"host"`
 	ID   string      `json:"id"`
+	Session string `json:"session"`
 }
 
 type ActionFunc func(*Client, *Event) error

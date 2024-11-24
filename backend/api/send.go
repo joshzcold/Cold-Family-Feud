@@ -6,7 +6,7 @@ import (
 
 type sendData struct {
 	Action string `json:"action"`
-	Data   *room   `json:"data"`
+	Data   *room  `json:"data"`
 }
 
 func NewSendData(newGameData *room) ([]byte, error) {
@@ -85,13 +85,13 @@ func NewSendQuit() ([]byte, error) {
 type sendGetBackIn struct {
 	Action string           `json:"action"`
 	Room   string           `json:"room"`
-	Game   room             `json:"game"`
+	Game   game             `json:"game"`
 	ID     string           `json:"id"`
 	Player registeredPlayer `json:"player"`
 	Team   int              `json:"team"`
 }
 
-func NewSendGetBackIn(room string, game room, id string, player registeredPlayer, team int) ([]byte, error) {
+func NewSendGetBackIn(room string, game game, id string, player registeredPlayer, team int) ([]byte, error) {
 	return json.Marshal(sendGetBackIn{
 		Action: "get_back_in",
 		Room:   room,

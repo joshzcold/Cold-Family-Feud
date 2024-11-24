@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"slices"
+	"strconv"
+	"strings"
 )
 
 func quitPlayer(room *room, client *Client, event *Event) error {
@@ -101,6 +103,31 @@ func HostRoom(client *Client, event *Event) error {
 }
 
 func GetBackIn(client *Client, event *Event) error {
+	session := strings.Split(event.Session, ":")
+	if len(session) != 3 {
+		return fmt.Errorf("session string getting back in not in expected format")
+	}
+	roomCode, playerID, team := session[0], session[1], session[2]
+	s := store
+	room, err := s.getRoom(roomCode)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	val, ok := room.game.RegisteredPlayers[playerID]
+	if !ok {
+		return fmt.Errorf("player not found in get_back_in")
+	}
+	teamInt, err := strconv.Atoi(team)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Hub.register <- client
+	message, err := NewSendGetBackIn(roomCode, room.game, playerID, val, teamInt)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	client.send <- message
+	// TODO ping interval if wanted
 	return nil
 }
 
