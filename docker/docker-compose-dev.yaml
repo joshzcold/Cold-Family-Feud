@@ -1,22 +1,17 @@
 services:
   frontend:
-    build:
-      dockerfile: Dockerfile
-      context: ../
-      target: dev
+    image: ${docker_registry}/famf-web:dev
     volumes:
       - ../:/src
     ports:
       - 3000:3000
   backend:
-    build:
-      dockerfile: Dockerfile
-      context: ../backend
-      target: dev
+    image: ${docker_registry}/famf-server:dev
     ports:
       - 8080:8080
     volumes:
       - ../backend:/src
+      - ../games/:/src/games/
   proxy:
     image: nginx:1.27-alpine
     ports:

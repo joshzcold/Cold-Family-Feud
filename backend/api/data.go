@@ -3,6 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 )
 
 func NewData(client *Client, event *Event) error {
@@ -17,6 +18,7 @@ func NewData(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
+	log.Println("Incoming data", string(rawData[:]))
 	err = json.Unmarshal([]byte(rawData), &newData)
 	if err != nil {
 		return fmt.Errorf(" %w", err)

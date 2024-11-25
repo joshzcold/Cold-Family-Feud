@@ -37,7 +37,7 @@ func LoadGame(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	filePath := filepath.Join("games", event.Lang, event.File)
+	filePath := filepath.Join(event.File)
 	_, err = os.Stat(filePath)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
@@ -52,6 +52,10 @@ func LoadGame(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
+	message, err := NewSendData(&room.Game)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Hub.broadcast <- message
 	return nil
-
 }

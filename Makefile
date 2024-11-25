@@ -14,13 +14,17 @@ build-frontend:
 build-backend:
 	set -x
 	cd backend
-	docker build -t ${docker_registry}/famf-server:latest .
-	docker build -t ${docker_registry}/famf-server:dev --target dev .
+	docker build \
+		--build-context=games=../games \
+		-t ${docker_registry}/famf-server:latest .
+	docker build \
+		--build-context=games=../games \
+		-t ${docker_registry}/famf-server:dev --target dev .
 		
 build: build-frontend build-backend
 
-dev:
-	docker compose -p famf -f ./docker/docker-compose-dev.yaml up --build 
+dev: build
+	docker compose -p famf -f ./docker/docker-compose-dev.yaml up
 
 dev-down:
 	docker compose -p famf -f ./docker/docker-compose-dev.yaml down
