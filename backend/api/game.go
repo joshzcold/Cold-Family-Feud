@@ -9,6 +9,7 @@ type registeredPlayer struct {
 	Latency   float64   `json:"latency"`
 	Role      string    `json:"role"`
 	Name      string    `json:"name"`
+	Ping      PingInterval
 }
 
 type buzzed struct {

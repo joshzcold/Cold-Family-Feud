@@ -1,0 +1,19 @@
+FROM golang:1.23.3-alpine as base
+
+FROM base AS builder
+
+WORKDIR /tmp
+
+COPY backend/ .
+
+RUN go build .
+
+FROM base as app
+
+RUN mkdir -p /app
+
+WORKDIR /app
+
+COPY --from=builder /tmp/Cold-Family-Feud .
+
+CMD ["/app"]

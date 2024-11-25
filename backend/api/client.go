@@ -40,8 +40,6 @@ var upgrader = websocket.Upgrader{
 
 // Client is a middleman between the websocket connection and the hub.
 type Client struct {
-	hub *Hub
-
 	// The websocket connection.
 	conn *websocket.Conn
 
@@ -59,7 +57,6 @@ type Client struct {
 // reads from this goroutine.
 func (c *Client) readPump() {
 	defer func() {
-		c.hub.unregister <- c
 		c.conn.Close()
 	}()
 	c.conn.SetReadLimit(maxMessageSize)
@@ -69,7 +66,7 @@ func (c *Client) readPump() {
 		_, message, err := c.conn.ReadMessage()
 		if err != nil {
 			if websocket.IsUnexpectedCloseError(err, websocket.CloseGoingAway, websocket.CloseAbnormalClosure) {
-				log.Printf("error: %v", err)
+				log.Printf("client read error: %v", err)
 			}
 			break
 		}
@@ -78,10 +75,9 @@ func (c *Client) readPump() {
 		if err != nil {
 			errorMessage, err := NewSendError(fmt.Sprintf("Error reading socket message: %s", fmt.Sprint(err)))
 			if err != nil {
-				c.send <- []byte(fmt.Sprintf(" %w", err))
+				c.send <- []byte(fmt.Sprintf("%s", fmt.Sprint(err)))
 				return
 			}
-			log.Println("HERE 3", string(errorMessage[:]), err)
 			c.send <- errorMessage
 		}
 	}
@@ -128,7 +124,7 @@ func (c *Client) writePump() {
 			if err := c.conn.WriteMessage(websocket.PingMessage, nil); err != nil {
 				return
 			}
-		case <- c.stop:
+		case <-c.stop:
 			return
 		}
 	}

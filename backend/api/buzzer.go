@@ -54,6 +54,15 @@ func RegisterBuzzer(client *Client, event *Event) error {
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
+
+	// Set up recurring ping loop to get player latency
+	player.Ping = PingInterval {
+		id: event.ID,
+		client: *client,
+		room: &room,
+		stop: make(chan bool),
+	}
+	go player.Ping.pingInterval()
 	return nil
 }
 

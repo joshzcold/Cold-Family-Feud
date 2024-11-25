@@ -1,0 +1,7 @@
+# Ignore everything
+*
+# Allow list
+!backend/api/
+!backend/go.mod
+!backend/go.sum
+!backend/main.go

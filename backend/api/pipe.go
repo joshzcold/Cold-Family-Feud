@@ -3,7 +3,6 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	"log"
 )
 
 type Event struct {
@@ -56,8 +55,6 @@ func EventPipe(client *Client, message []byte) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("Event: %+v\n", event)
-
 	if event.Action != "" {
 		action, ok := recieveActions[event.Action]
 		if ok {

@@ -2,7 +2,6 @@ package api
 
 import (
 	"fmt"
-	"math"
 	"time"
 )
 
@@ -24,11 +23,11 @@ func Pong(client *Client, event *Event) error {
 		}
 		player.Latencies = append(player.Latencies, latency.Milliseconds())
 		total := 0
-		for l range player.Latencies {
+		for l := range player.Latencies {
 			total += l
 		}
 		// Average latency
-		player.Latency = total / len(player.Latencies)
+		player.Latency = float64(total / len(player.Latencies))
 	}
 	return nil
 }

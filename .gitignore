@@ -4,4 +4,4 @@ node_modules/
 public/rooms/**/*.jpeg
 public/rooms/**/*.png
 public/rooms/**/*.gif
-
+.venv/

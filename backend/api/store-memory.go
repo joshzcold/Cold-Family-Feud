@@ -38,10 +38,10 @@ func (m *MemoryStore) getRoom(roomCode string) (room, error) {
 	return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
 }
 
-func (m *MemoryStore) writeRoom(roomCode string, game room) error {
+func (m *MemoryStore) writeRoom(roomCode string, room room) error {
 	m.mu.Lock()
 	defer m.mu.Unlock()
-	m.rooms[roomCode] = game
+	m.rooms[roomCode] = room
 	return nil
 }
 

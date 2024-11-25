@@ -22,8 +22,13 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	}
 	client.send <- message
 	client.stop <- true
+	player, ok := room.Game.RegisteredPlayers[event.ID]
+	if ok {
+		// clear interval
+		player.Ping.stop <- true
+	}
 	delete(room.Game.RegisteredPlayers, event.ID)
-	message, err = NewSendData(room)
+	message, err = NewSendData(&room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -53,7 +58,6 @@ func quitHost(room *room, event *Event) error {
 
 // Quit clear sessions for user or host
 func Quit(client *Client, event *Event) error {
-	// TODO clear intervals if I still want those.
 	log.Println("user quit game", event.Room, event.ID, event.Host)
 	s := store
 	room, err := s.getRoom(event.Room)
@@ -99,6 +103,7 @@ func HostRoom(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
+	s.writeRoom(newRoomCode, initRoom)
 	return nil
 }
 
@@ -113,7 +118,7 @@ func GetBackIn(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	val, ok := room.Game.RegisteredPlayers[playerID]
+	player, ok := room.Game.RegisteredPlayers[playerID]
 	if !ok {
 		return fmt.Errorf("player not found in get_back_in")
 	}
@@ -122,12 +127,26 @@ func GetBackIn(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Hub.register <- client
-	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, val, teamInt)
+	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, player, teamInt)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
-	// TODO ping interval if wanted
+
+	teamNumber, err := strconv.Atoi(team)
+	if err != nil {
+		return err
+	}
+	if teamNumber > 0 {
+		// Set up recurring ping loop to get player latency
+		player.Ping = PingInterval{
+			id:     playerID,
+			client: *client,
+			room:   &room,
+			stop:   make(chan bool),
+		}
+		go player.Ping.pingInterval()
+	}
 	return nil
 }
 

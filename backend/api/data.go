@@ -5,8 +5,6 @@ import (
 	"fmt"
 )
 
-// TODO merge in new data and broadcast out
-
 func NewData(client *Client, event *Event) error {
 	s := store
 	room, err := s.getRoom(event.Room)
