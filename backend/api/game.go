@@ -9,7 +9,7 @@ type registeredPlayer struct {
 	Latency   float64   `json:"latency"`
 	Role      string    `json:"role"`
 	Name      string    `json:"name"`
-	Ping      PingInterval
+	Ping      PingInterval `json:"ping"`
 }
 
 type buzzed struct {
@@ -65,7 +65,7 @@ type game struct {
 	HideFirstRound    bool                        `json:"hide_first_round"`
 	Round             int                         `json:"round"`
 	Rounds            []round                     `json:"rounds"`
-	FinalRound        []finalRound                `json:""`
+	FinalRound        []finalRound                `json:"final_round"`
 	FinalRoundTimers  []int                       `json:"final_round_timers"`
 }
 

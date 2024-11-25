@@ -12,21 +12,30 @@ func NewData(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	copyRound := room.Game.Round
-	copyTitle := room.Game.Title
 	newData := game{}
-	json.Unmarshal([]byte(fmt.Sprint(event.Data)), &newData)
+	rawData, err := json.Marshal(event.Data)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	err = json.Unmarshal([]byte(rawData), &newData)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
 	newData.RegisteredPlayers = make(map[string]registeredPlayer)
-	// TODO clone?
-	// game = clone
-	if copyRound != newData.Round || copyTitle != newData.Title {
-		newData.Buzzed = []buzzed{}
+
+	err = json.Unmarshal([]byte(rawData), &room.Game)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	if copyRound != newData.Round {
+		room.Game.Buzzed = []buzzed{}
 		message, err := NewSendClearBuzzers()
 		if err != nil {
 			return fmt.Errorf(" %w", err)
 		}
 		room.Hub.broadcast <- message
 	}
-	message, err := NewSendData(&newData)
+	message, err := NewSendData(&room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
