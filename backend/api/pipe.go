@@ -2,7 +2,6 @@ package api
 
 import (
 	"encoding/json"
-	"fmt"
 )
 
 type Event struct {
@@ -18,7 +17,7 @@ type Event struct {
 	Host    bool   `json:"host"`
 	ID      string `json:"id"`
 	Session string `json:"session"`
-	Team int `json:"team"`
+	Team    int    `json:"team"`
 }
 
 type ActionFunc func(*Client, *Event) error
@@ -39,6 +38,7 @@ var recieveActions = map[string]func(client *Client, event *Event) error{
 	"quit":              Quit,
 	"registerbuzz":      RegisterBuzzer,
 	"registerspectator": RegisterSpectator,
+	"unknown":           SendUnknown,
 }
 
 func parseEvent(message []byte) (*Event, error) {
@@ -60,7 +60,8 @@ func EventPipe(client *Client, message []byte) error {
 		if ok {
 			return action(client, event)
 		}
-		return fmt.Errorf("unknown action in backend: %q", event.Action)
+		// Catch all for generic messages coming from admin
+		return recieveActions["unknown"](client, event)
 	}
 	return nil
 }

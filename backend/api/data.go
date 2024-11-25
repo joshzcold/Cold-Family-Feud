@@ -3,7 +3,6 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	"log"
 )
 
 func NewData(client *Client, event *Event) error {
@@ -18,7 +17,6 @@ func NewData(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	log.Println("Incoming data", string(rawData[:]))
 	err = json.Unmarshal([]byte(rawData), &newData)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
@@ -38,6 +36,20 @@ func NewData(client *Client, event *Event) error {
 		room.Hub.broadcast <- message
 	}
 	message, err := NewSendData(&room.Game)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Hub.broadcast <- message
+	return nil
+}
+
+func SendUnknown(client *Client, event *Event) error {
+	s := store
+	room, err := s.getRoom(event.Room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	message, err := json.Marshal(event)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

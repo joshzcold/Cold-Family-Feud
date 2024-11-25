@@ -52,7 +52,7 @@ func LoadGame(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	message, err := NewSendData(&room.Game)
+	message, err := NewSendData(&loadedGame)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

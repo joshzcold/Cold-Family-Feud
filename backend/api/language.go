@@ -3,6 +3,9 @@ package api
 import (
 	"fmt"
 	"path/filepath"
+
+	"golang.org/x/text/collate"
+	"golang.org/x/text/language"
 )
 
 func ChangeLanguage(client *Client, event *Event) error {
@@ -16,6 +19,16 @@ func ChangeLanguage(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
+	cull := collate.New(
+		language.English,
+		collate.IgnoreCase,
+		collate.IgnoreDiacritics,
+		collate.IgnoreWidth,
+		collate.Loose,
+		collate.Force,
+		collate.Numeric,
+	)
+	cull.SortStrings(gameList)
 	message, err := NewSendChangeLang(fmt.Sprint(event.Data), gameList)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
