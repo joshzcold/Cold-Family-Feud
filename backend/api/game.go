@@ -3,12 +3,12 @@ package api
 import "time"
 
 type registeredPlayer struct {
-	Start     time.Time `json:"start"`
-	Latencies []int64   `json:"latencies"`
-	Team      int       `json:"team"`
-	Latency   float64   `json:"latency"`
-	Role      string    `json:"role"`
-	Name      string    `json:"name"`
+	Start     time.Time    `json:"start"`
+	Latencies []int64      `json:"latencies"`
+	Team      int          `json:"team"`
+	Latency   float64      `json:"latency"`
+	Role      string       `json:"role"`
+	Name      string       `json:"name"`
 	Ping      PingInterval `json:"ping"`
 }
 
@@ -59,7 +59,7 @@ type game struct {
 	Teams             []team                      `json:"teams"`
 	Title             bool                        `json:"title"`
 	TitleText         string                      `json:"title_text"`
-	PointTracker      []interface{}               `json:"point_tracker"`
+	PointTracker      []int                       `json:"point_tracker"`
 	IsFinalRound      bool                        `json:"is_final_round"`
 	IsFinalSecond     bool                        `json:"is_final_second"`
 	HideFirstRound    bool                        `json:"hide_first_round"`
@@ -96,7 +96,7 @@ func NewGame(roomCode string) room {
 			},
 			Title:          true,
 			TitleText:      "",
-			PointTracker:   []any{},
+			PointTracker:   []int{},
 			IsFinalRound:   false,
 			IsFinalSecond:  false,
 			HideFirstRound: false,

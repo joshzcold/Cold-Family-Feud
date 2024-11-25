@@ -20,6 +20,10 @@ func addGameKeys(game *game) error {
 			answer.Triggered = false
 		}
 	}
+	game.PointTracker = make([]int, len(game.Rounds))
+	for i := range game.PointTracker {
+		game.PointTracker[i] = 0
+	}
 	if len(game.FinalRound) > 0 {
 		for _, round := range game.FinalRound {
 			round.Selection = -1
