@@ -2,9 +2,11 @@ FROM golang:1.23.3-alpine as base
 
 FROM base AS builder
 
-WORKDIR /tmp
+RUN mkdir -p app
 
-COPY backend/ .
+WORKDIR /app
+
+COPY . .
 
 RUN go build .
 
@@ -14,6 +16,6 @@ RUN mkdir -p /app
 
 WORKDIR /app
 
-COPY --from=builder /tmp/Cold-Family-Feud .
+COPY --from=builder /app/Cold-Family-Feud .
 
-CMD ["/app"]
+CMD ["/app/Cold-Family-Feud"]

@@ -1,0 +1,16 @@
+# Ignore everything
+*
+# Allow list
+!components/
+!games/
+!i18n/
+!pages/
+!public/
+!jsconfig.json
+!LICENSE
+!next.config.js
+!package-lock.json
+!package.json
+!postcss.config.js
+!styles.css
+!tailwind.config.js

@@ -1,0 +1,13 @@
+services:
+  frontend:
+    build:
+      dockerfile: Dockerfile
+      context: ../
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: ../backend
+    ports:
+      - 8080:8080
+  proxy:
+    image: nginx:1.27-alpine
