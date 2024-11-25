@@ -5,3 +5,4 @@ public/rooms/**/*.jpeg
 public/rooms/**/*.png
 public/rooms/**/*.gif
 .venv/
+backend/tmp/

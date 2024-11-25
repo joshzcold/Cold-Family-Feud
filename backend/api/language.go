@@ -2,6 +2,7 @@ package api
 
 import (
 	"fmt"
+	"log"
 	"path/filepath"
 )
 
@@ -20,6 +21,7 @@ func ChangeLanguage(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
+	log.Println("ChangeLanguage", string(message[:]))
 	room.Hub.broadcast <- message
 	return nil
 }

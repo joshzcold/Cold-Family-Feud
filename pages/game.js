@@ -50,6 +50,7 @@ export default function Game(props) {
       };
 
       ws.current.onmessage = function(evt) {
+        console.log(evt.data)
         var received_msg = evt.data;
         let json = JSON.parse(received_msg);
         console.debug(json);

@@ -35,7 +35,7 @@ type sendPing struct {
 
 func NewSendPing(id string) ([]byte, error) {
 	return json.Marshal(sendPing{
-		Action: "ping",
+		Action: "ping", 
 		Id:     id,
 	})
 }
@@ -88,62 +88,60 @@ type sendGetBackIn struct {
 	Game   game             `json:"game"`
 	ID     string           `json:"id"`
 	Player registeredPlayer `json:"player"`
-	Team   int              `json:"team"`
 }
 
-func NewSendGetBackIn(room string, game game, id string, player registeredPlayer, team int) ([]byte, error) {
+func NewSendGetBackIn(room string, game game, id string, player registeredPlayer) ([]byte, error) {
 	return json.Marshal(sendGetBackIn{
 		Action: "get_back_in",
 		Room:   room,
 		Game:   game,
 		ID:     id,
 		Player: player,
-		Team:   team,
 	})
 }
 
 type sendClearBuzzers struct {
-	action string
+	Action string `json:"action"`
 }
 
 func NewSendClearBuzzers() ([]byte, error) {
 	return json.Marshal(sendClearBuzzers{
-		action: "clearbuzzers",
+		Action: "clearbuzzers",
 	})
 }
 
 type sendRegistered struct {
-	action string
-	id     string
+	Action string `json:"action"`
+	Id     string `json:"id"`
 }
 
 func NewSendRegistered(id string) ([]byte, error) {
 	return json.Marshal(sendRegistered{
-		action: "registered",
-		id:     id,
+		Action: "registered",
+		Id:     id,
 	})
 }
 
 type sendChangeLang struct {
-	action string
-	data   string
-	games  []string
+	Action string `json:"action"`
+	Data   string `json:"data"`
+	Games  []string `json:"games"`
 }
 
 func NewSendChangeLang(language string, games []string) ([]byte, error) {
 	return json.Marshal(sendChangeLang{
-		action: "change_lang",
-		data:   language,
-		games:  games,
+		Action: "change_lang",
+		Data:   language,
+		Games:  games,
 	})
 }
 
 type sendBuzzed struct {
-	action string
+	Action string `json:"action"`
 }
 
 func NewSendBuzzed() ([]byte, error) {
 	return json.Marshal(sendBuzzed{
-		action: "buzzed",
+		Action: "buzzed",
 	})
 }

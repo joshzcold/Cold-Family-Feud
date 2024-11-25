@@ -223,14 +223,14 @@ export default function CSVLoader(props) {
           })}
         </div>
         <div className="grid lg:grid-cols-3 gap-5 md:grid-cols-1 sm:grid-cols-1">
-          <div class="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row space-x-5 items-center">
             <div>
-              <p class="text-xl normal-case text-foreground">
+              <p className="text-xl normal-case text-foreground">
                 {t("No Header")}:
               </p>
             </div>
             <input
-              class="w-4 h-4 rounded bg-secondary-900 text-foreground"
+              className="w-4 h-4 rounded bg-secondary-900 text-foreground"
               checked={noHeader}
               onChange={(e) => {
                 setNoHeader(e.target.checked);
@@ -238,12 +238,12 @@ export default function CSVLoader(props) {
               type="checkbox"
             ></input>
           </div>
-          <div class="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row space-x-5 items-center">
             <div>
-              <p class="text-xl normal-case text-foreground">{t("Rounds")}:</p>
+              <p className="text-xl normal-case text-foreground">{t("Rounds")}:</p>
             </div>
             <input
-              class="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 if (value === 0) {
@@ -256,14 +256,14 @@ export default function CSVLoader(props) {
               min="1"
             ></input>
           </div>
-          <div class="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row space-x-5 items-center">
             <div>
-              <p class="text-xl normal-case text-foreground">
+              <p className="text-xl normal-case text-foreground">
                 {t("Final Rounds")}:
               </p>
             </div>
             <input
-              class="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 setRoundFinalCount(value);
@@ -273,14 +273,14 @@ export default function CSVLoader(props) {
               min="0"
             ></input>
           </div>
-          <div class="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row space-x-5 items-center">
             <div>
-              <p class="text-xl normal-case text-foreground">
+              <p className="text-xl normal-case text-foreground">
                 {t("Final Round Timer")}:
               </p>
             </div>
             <input
-              class="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 setTimer(value);
@@ -290,14 +290,14 @@ export default function CSVLoader(props) {
               min="0"
             ></input>
           </div>
-          <div class="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row space-x-5 items-center">
             <div>
-              <p class="text-xl normal-case text-foreground">
+              <p className="text-xl normal-case text-foreground">
                 {t("2nd Final Round Timer")}:
               </p>
             </div>
             <input
-              class="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 setTimer2nd(value);

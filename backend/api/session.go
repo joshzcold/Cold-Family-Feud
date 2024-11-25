@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"slices"
-	"strconv"
 	"strings"
 )
 
@@ -77,6 +76,7 @@ func JoinRoom(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	playerID := registerPlayer(&room, event.Name)
+	room.Hub.register <- client
 	message, err := NewSendJoinRoom(room.Game.Room, room.Game, playerID)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
@@ -109,35 +109,27 @@ func HostRoom(client *Client, event *Event) error {
 
 func GetBackIn(client *Client, event *Event) error {
 	session := strings.Split(event.Session, ":")
-	if len(session) != 3 {
-		return fmt.Errorf("session string getting back in not in expected format")
+	if len(session) < 2 {
+		return fmt.Errorf("session string %q getting back in not in expected format", session)
 	}
-	roomCode, playerID, team := session[0], session[1], session[2]
+	roomCode, playerID := session[0], session[1]
 	s := store
 	room, err := s.getRoom(roomCode)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return nil
 	}
 	player, ok := room.Game.RegisteredPlayers[playerID]
 	if !ok {
 		return fmt.Errorf("player not found in get_back_in")
 	}
-	teamInt, err := strconv.Atoi(team)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
 	room.Hub.register <- client
-	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, player, teamInt)
+	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, player)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
 
-	teamNumber, err := strconv.Atoi(team)
-	if err != nil {
-		return err
-	}
-	if teamNumber > 0 {
+	if player.Role != "host" {
 		// Set up recurring ping loop to get player latency
 		player.Ping = PingInterval{
 			id:     playerID,

@@ -126,6 +126,7 @@ func RegisterSpectator(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
+	room.Hub.register <- client
 	room.Hub.broadcast <- message
 	return nil
 }
