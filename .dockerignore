@@ -14,3 +14,6 @@
 !postcss.config.js
 !styles.css
 !tailwind.config.js
+# TODO reorganize frontend and backend
+!backend/server.js
+!backend/load-game.js

@@ -28,7 +28,7 @@ export default function Game(props) {
   }
 
   useEffect(() => {
-    fetch("/api/ws").finally(() => {
+    fetch("/ws").finally(() => {
       ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
       ws.current.onopen = function() {
         console.log("game connected to server");

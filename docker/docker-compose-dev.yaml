@@ -3,11 +3,24 @@ services:
     build:
       dockerfile: Dockerfile
       context: ../
+      target: dev
+    volumes:
+      - ../:/src
+    ports:
+      - 3000:3000
   backend:
     build:
       dockerfile: Dockerfile
       context: ../backend
+      target: dev
     ports:
       - 8080:8080
+    volumes:
+      - ../backend:/src
   proxy:
     image: nginx:1.27-alpine
+    ports:
+      - 443:443
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ../dev/cert/:/etc/nginx/cert/

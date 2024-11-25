@@ -7,13 +7,6 @@ const handle = app.getRequestHandler();
 
 let httpsOptions = {};
 var { createServer } = require("http");
-if (dev) {
-  var { createServer } = require("https");
-  httpsOptions = {
-    key: fs.readFileSync("./dev/cert/localhost.key"),
-    cert: fs.readFileSync("./dev/cert/localhost.crt"),
-  };
-}
 
 const PORT = process.env.PORT || 3000;
 app.prepare().then(async () => {
