@@ -20,7 +20,7 @@ export default function Login(props) {
           className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
           id="roomcode"
           onChange={(e) => {
-            props.setRoomCode(e.target.value);
+            props.setRoomCode(e.target.value.toUpperCase());
           }}
           maxLength={4}
           value={props.roomCode}

@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/gorilla/websocket"
 )
 
 const ()
@@ -31,22 +30,14 @@ func playerID() string {
 // pingInterval Send a ping message every 5 seconds on a player
 // This is to try and calcuate latency of a player when acting on buzzers
 func (p *PingInterval) pingInterval() error {
+	log.Println("Started ping for interval", p.id)
 	ticker := time.NewTicker(5 * time.Second)
 	defer func() {
 		ticker.Stop()
 	}()
-	p.client.conn.SetCloseHandler(func (code int, text string) error {
-		p.stop <- true
-		return nil
-	})
 	for {
 		select {
 		case <-ticker.C:
-			_, _, err := p.client.conn.ReadMessage()
-			if websocket.IsUnexpectedCloseError(err, websocket.CloseGoingAway, websocket.CloseAbnormalClosure) {
-				log.Println("Player client disconnected stopping ping", p.id)
-				return nil
-			}
 			player, ok := p.room.Game.RegisteredPlayers[p.id]
 			if !ok {
 				log.Println("Player not found stopping ping", p.id)
@@ -57,9 +48,14 @@ func (p *PingInterval) pingInterval() error {
 			if err != nil {
 				return fmt.Errorf(" %w", err)
 			}
+			if p.client.send == nil {
+				log.Println("Stopping ping, nil client send channel", p.id)
+				return nil
+			}
 			p.client.send <- message
 			log.Println("Sent ping to id", p.id)
 		case <-p.stop:
+			log.Println("Stop ping via channel", p.id)
 			return nil
 		}
 	}
@@ -73,7 +69,7 @@ type PingInterval struct {
 }
 
 type room struct {
-	Game game `json:"game"`
+	Game *game `json:"game"`
 	// Assign to ws Hub when hosting room
 	Hub *Hub
 	// Get lag of each client

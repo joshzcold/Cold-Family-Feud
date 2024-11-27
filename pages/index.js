@@ -86,7 +86,7 @@ export default function Home() {
             setHost(false);
           } else if (json.action === "get_back_in") {
             console.debug("Getting back into room", json);
-            if (json.player.role === "host") {
+            if (json.host === true) {
               setHost(true);
             }
             if (Number.isInteger(json.team)) {

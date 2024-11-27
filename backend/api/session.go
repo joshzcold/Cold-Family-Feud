@@ -8,6 +8,7 @@ import (
 )
 
 func quitPlayer(room *room, client *Client, event *Event) error {
+	log.Println("Removing from buzzer", event.ID)
 	for idx, b := range room.Game.Buzzed {
 		if b.ID == event.ID {
 			// Remove from buzzed player list
@@ -22,12 +23,12 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	client.send <- message
 	client.stop <- true
 	player, ok := room.Game.RegisteredPlayers[event.ID]
-	if ok {
+	if ok && player.Ping.stop != nil {
 		// clear interval
 		player.Ping.stop <- true
 	}
 	delete(room.Game.RegisteredPlayers, event.ID)
-	message, err = NewSendData(&room.Game)
+	message, err = NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -107,6 +108,42 @@ func HostRoom(client *Client, event *Event) error {
 	return nil
 }
 
+func getBackInHost(client *Client, room room, roomCode string, playerID string) error {
+	room.Hub.register <- client
+	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, registeredPlayer{}, true)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	client.send <- message
+	return nil
+}
+
+func getBackInPlayer(client *Client, room room, roomCode string, playerID string) error {
+	player, ok := room.Game.RegisteredPlayers[playerID]
+	if !ok {
+		return fmt.Errorf("player not found in get_back_in")
+	}
+	room.Hub.register <- client
+	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, *player, false)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	client.send <- message
+
+	if player.Ping.stop != nil {
+		player.Ping.stop <- true
+	}
+	// Set up recurring ping loop to get player latency
+	player.Ping = PingInterval{
+		id:     playerID,
+		client: *client,
+		room:   &room,
+		stop:   make(chan bool),
+	}
+	go player.Ping.pingInterval()
+	return nil
+}
+
 func GetBackIn(client *Client, event *Event) error {
 	session := strings.Split(event.Session, ":")
 	if len(session) < 2 {
@@ -118,45 +155,27 @@ func GetBackIn(client *Client, event *Event) error {
 	if err != nil {
 		return nil
 	}
-	player, ok := room.Game.RegisteredPlayers[playerID]
-	if !ok {
-		return fmt.Errorf("player not found in get_back_in")
+	if playerID == room.Game.Host.ID {
+		return getBackInHost(client, room, roomCode, playerID)
 	}
-	room.Hub.register <- client
-	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, player)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
-	client.send <- message
-
-	if player.Role != "host" {
-		// Set up recurring ping loop to get player latency
-		player.Ping = PingInterval{
-			id:     playerID,
-			client: *client,
-			room:   &room,
-			stop:   make(chan bool),
-		}
-		go player.Ping.pingInterval()
-	}
-	return nil
+	return getBackInPlayer(client, room, roomCode, playerID)
 }
 
 func registerPlayer(room *room, playerName string) string {
 	playerID := playerID()
-	room.Game.RegisteredPlayers[playerID] = registeredPlayer{
-		Role: "player",
+	room.Game.RegisteredPlayers[playerID] = &registeredPlayer{
 		Name: playerName,
 	}
 	log.Println("Registered player in room: ", playerName, playerID, room.Game.Room)
+
 	return playerID
 }
 
 // registerHost Set current player as host
 func registerHost(room *room) string {
 	hostID := playerID()
-	room.Game.RegisteredPlayers[hostID] = registeredPlayer{
-		Role: "host",
+	room.Game.Host = host{
+		ID: hostID,
 	}
 	log.Println("Registered host in room: ", hostID, room.Game.Room)
 	store.writeRoom(room.Game.Room, *room)

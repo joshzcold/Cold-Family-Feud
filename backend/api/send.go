@@ -35,7 +35,7 @@ type sendPing struct {
 
 func NewSendPing(id string) ([]byte, error) {
 	return json.Marshal(sendPing{
-		Action: "ping", 
+		Action: "ping",
 		Id:     id,
 	})
 }
@@ -43,11 +43,11 @@ func NewSendPing(id string) ([]byte, error) {
 type sendHostRoom struct {
 	Action string `json:"action"`
 	Room   string `json:"room"`
-	Game   game   `json:"game"`
+	Game   *game  `json:"game"`
 	ID     string `json:"id"`
 }
 
-func NewSendHostRoom(room string, game game, id string) ([]byte, error) {
+func NewSendHostRoom(room string, game *game, id string) ([]byte, error) {
 	return json.Marshal(sendHostRoom{
 		Action: "host_room",
 		Room:   room,
@@ -59,11 +59,11 @@ func NewSendHostRoom(room string, game game, id string) ([]byte, error) {
 type sendJoinRoom struct {
 	Action string `json:"action"`
 	Room   string `json:"room"`
-	Game   game   `json:"game"`
+	Game   *game  `json:"game"`
 	ID     string `json:"id"`
 }
 
-func NewSendJoinRoom(room string, game game, id string) ([]byte, error) {
+func NewSendJoinRoom(room string, game *game, id string) ([]byte, error) {
 	return json.Marshal(sendJoinRoom{
 		Action: "join_room",
 		Room:   room,
@@ -85,18 +85,20 @@ func NewSendQuit() ([]byte, error) {
 type sendGetBackIn struct {
 	Action string           `json:"action"`
 	Room   string           `json:"room"`
-	Game   game             `json:"game"`
+	Game   *game            `json:"game"`
 	ID     string           `json:"id"`
 	Player registeredPlayer `json:"player"`
+	Host   bool             `json:"host"`
 }
 
-func NewSendGetBackIn(room string, game game, id string, player registeredPlayer) ([]byte, error) {
+func NewSendGetBackIn(room string, game *game, id string, player registeredPlayer, host bool) ([]byte, error) {
 	return json.Marshal(sendGetBackIn{
 		Action: "get_back_in",
 		Room:   room,
 		Game:   game,
 		ID:     id,
 		Player: player,
+		Host:   host,
 	})
 }
 
@@ -123,8 +125,8 @@ func NewSendRegistered(id string) ([]byte, error) {
 }
 
 type sendChangeLang struct {
-	Action string `json:"action"`
-	Data   string `json:"data"`
+	Action string   `json:"action"`
+	Data   string   `json:"data"`
 	Games  []string `json:"games"`
 }
 

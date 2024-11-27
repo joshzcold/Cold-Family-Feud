@@ -2,12 +2,15 @@ package api
 
 import "time"
 
+type host struct {
+	ID string `json:"id"`
+}
+
 type registeredPlayer struct {
 	Start     time.Time    `json:"start"`
 	Latencies []int64      `json:"latencies"`
 	Team      int          `json:"team"`
 	Latency   float64      `json:"latency"`
-	Role      string       `json:"role"`
 	Name      string       `json:"name"`
 	Ping      PingInterval `json:"ping"`
 }
@@ -53,7 +56,8 @@ type finalRound struct {
 
 type game struct {
 	Room              string                      `json:"room"`
-	RegisteredPlayers map[string]registeredPlayer `json:"registeredPlayers"`
+	RegisteredPlayers map[string]*registeredPlayer `json:"registeredPlayers"`
+	Host              host                        `json:"host"`
 	Buzzed            []buzzed                    `json:"buzzed"`
 	Settings          settings                    `json:"settings"`
 	Teams             []team                      `json:"teams"`
@@ -72,9 +76,9 @@ type game struct {
 func NewGame(roomCode string) room {
 	return room{
 		Hub: nil,
-		Game: game{
+		Game: &game{
 			Room:              roomCode,
-			RegisteredPlayers: make(map[string]registeredPlayer),
+			RegisteredPlayers: make(map[string]*registeredPlayer),
 			Buzzed:            []buzzed{},
 			Settings: settings{
 				LogoUrl:         nil,

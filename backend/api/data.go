@@ -21,7 +21,7 @@ func NewData(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	newData.RegisteredPlayers = make(map[string]registeredPlayer)
+	newData.RegisteredPlayers = make(map[string]*registeredPlayer)
 
 	err = json.Unmarshal([]byte(rawData), &room.Game)
 	if err != nil {
@@ -35,7 +35,7 @@ func NewData(client *Client, event *Event) error {
 		}
 		room.Hub.broadcast <- message
 	}
-	message, err := NewSendData(&room.Game)
+	message, err := NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

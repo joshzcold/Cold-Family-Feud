@@ -12,7 +12,7 @@ func ClearBuzzers(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Game.Buzzed = []buzzed{}
-	message, err := NewSendData(&room.Game)
+	message, err := NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -48,13 +48,16 @@ func RegisterBuzzer(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
-	message, err = NewSendData(&room.Game)
+	message, err = NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
 
+	if player.Ping.stop != nil {
+		player.Ping.stop <- true
+	}
 	// Set up recurring ping loop to get player latency
 	player.Ping = PingInterval {
 		id: event.ID,
@@ -63,6 +66,7 @@ func RegisterBuzzer(client *Client, event *Event) error {
 		stop: make(chan bool),
 	}
 	go player.Ping.pingInterval()
+	s.writeRoom(room.Game.Room, room)
 	return nil
 }
 
@@ -98,7 +102,7 @@ func Buzz(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
-	message, err = NewSendData(&room.Game)
+	message, err = NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -122,7 +126,7 @@ func RegisterSpectator(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
-	message, err = NewSendData(&room.Game)
+	message, err = NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
