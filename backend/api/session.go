@@ -16,22 +16,23 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 		}
 	}
 
-	message, err := NewSendQuit()
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
-	client.send <- message
-	client.stop <- true
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if ok && player.Ping.stop != nil {
 		// clear interval
 		player.Ping.stop <- true
 	}
+	message, err := NewSendQuit()
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	player.client.send <- message
+	player.client.stop <- true
 	delete(room.Game.RegisteredPlayers, event.ID)
 	message, err = NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
+	log.Println(string(message[:]))
 	room.Hub.broadcast <- message
 	return nil
 }
@@ -76,7 +77,7 @@ func JoinRoom(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	playerID := registerPlayer(&room, event.Name)
+	playerID := registerPlayer(&room, event.Name, client)
 	room.Hub.register <- client
 	message, err := NewSendJoinRoom(room.Game.Room, room.Game, playerID)
 	if err != nil {
@@ -136,7 +137,7 @@ func getBackInPlayer(client *Client, room room, roomCode string, playerID string
 	// Set up recurring ping loop to get player latency
 	player.Ping = PingInterval{
 		id:     playerID,
-		client: *client,
+		client: client,
 		room:   &room,
 		stop:   make(chan bool),
 	}
@@ -161,10 +162,11 @@ func GetBackIn(client *Client, event *Event) error {
 	return getBackInPlayer(client, room, roomCode, playerID)
 }
 
-func registerPlayer(room *room, playerName string) string {
+func registerPlayer(room *room, playerName string, client *Client) string {
 	playerID := playerID()
 	room.Game.RegisteredPlayers[playerID] = &registeredPlayer{
 		Name: playerName,
+		client: client,
 	}
 	log.Println("Registered player in room: ", playerName, playerID, room.Game.Room)
 

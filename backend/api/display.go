@@ -7,7 +7,7 @@ import (
 
 func GameWindow(client *Client, event *Event) error {
 	session := strings.Split(event.Session, ":")
-	if len(session) != 2 {
+	if len(session) != 3 {
 		return fmt.Errorf("session string game window not in expected format")
 	}
 	roomCode, _ := session[0], session[1]

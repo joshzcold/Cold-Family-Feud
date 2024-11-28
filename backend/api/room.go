@@ -63,7 +63,7 @@ func (p *PingInterval) pingInterval() error {
 
 type PingInterval struct {
 	id     string
-	client Client
+	client *Client
 	room   *room
 	stop   chan bool
 }

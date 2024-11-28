@@ -366,7 +366,6 @@ export default function Admin(props) {
   let ws = props.ws;
   let game = props.game;
   let refreshCounter = 0;
-  let pongInterval;
 
   function setError(e) {
     setErrorVal(e);
@@ -402,11 +401,6 @@ export default function Admin(props) {
       }
     }, 1000);
 
-    pongInterval = setInterval(() => {
-      console.debug("sending pong in admin");
-      send({ action: "pong" });
-    }, 5000);
-
     ws.current.addEventListener("message", (evt) => {
       var received_msg = evt.data;
       let json = JSON.parse(received_msg);
@@ -427,7 +421,6 @@ export default function Admin(props) {
       }
     });
     send({ action: "change_lang", data: i18n.language });
-    return () => clearInterval(pongInterval);
   }, []);
 
   if (game.teams != null) {

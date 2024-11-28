@@ -13,6 +13,7 @@ type registeredPlayer struct {
 	Latency   float64      `json:"latency"`
 	Name      string       `json:"name"`
 	Ping      PingInterval `json:"ping"`
+	client    *Client
 }
 
 type buzzed struct {
@@ -55,22 +56,22 @@ type finalRound struct {
 }
 
 type game struct {
-	Room              string                      `json:"room"`
+	Room              string                       `json:"room"`
 	RegisteredPlayers map[string]*registeredPlayer `json:"registeredPlayers"`
-	Host              host                        `json:"host"`
-	Buzzed            []buzzed                    `json:"buzzed"`
-	Settings          settings                    `json:"settings"`
-	Teams             []team                      `json:"teams"`
-	Title             bool                        `json:"title"`
-	TitleText         string                      `json:"title_text"`
-	PointTracker      []int                       `json:"point_tracker"`
-	IsFinalRound      bool                        `json:"is_final_round"`
-	IsFinalSecond     bool                        `json:"is_final_second"`
-	HideFirstRound    bool                        `json:"hide_first_round"`
-	Round             int                         `json:"round"`
-	Rounds            []round                     `json:"rounds"`
-	FinalRound        []finalRound                `json:"final_round"`
-	FinalRoundTimers  []int                       `json:"final_round_timers"`
+	Host              host                         `json:"host"`
+	Buzzed            []buzzed                     `json:"buzzed"`
+	Settings          settings                     `json:"settings"`
+	Teams             []team                       `json:"teams"`
+	Title             bool                         `json:"title"`
+	TitleText         string                       `json:"title_text"`
+	PointTracker      []int                        `json:"point_tracker"`
+	IsFinalRound      bool                         `json:"is_final_round"`
+	IsFinalSecond     bool                         `json:"is_final_second"`
+	HideFirstRound    bool                         `json:"hide_first_round"`
+	Round             int                          `json:"round"`
+	Rounds            []round                      `json:"rounds"`
+	FinalRound        []finalRound                 `json:"final_round"`
+	FinalRoundTimers  []int                        `json:"final_round_timers"`
 }
 
 func NewGame(roomCode string) room {
