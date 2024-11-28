@@ -57,6 +57,7 @@ func LoadGame(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Game.FinalRound = loadedGame.FinalRound
+	room.Game.FinalRound2 = loadedGame.FinalRound
 	room.Game.FinalRoundTimers = loadedGame.FinalRoundTimers
 	room.Game.Rounds = loadedGame.Rounds
 	message, err := NewSendData(room.Game)

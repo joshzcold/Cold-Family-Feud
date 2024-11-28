@@ -49,7 +49,7 @@ export default function Game(props) {
     };
 
     ws.current.onmessage = function(evt) {
-      console.log(evt.data)
+      console.log(evt.data);
       var received_msg = evt.data;
       let json = JSON.parse(received_msg);
       console.debug(json);
@@ -73,10 +73,7 @@ export default function Game(props) {
         if (json.data?.registeredPlayers[id] == "host") {
           setIsHost(true);
         }
-      } else if (
-        json.action === "mistake" ||
-        json.action === "show_mistake"
-      ) {
+      } else if (json.action === "mistake" || json.action === "show_mistake") {
         var audio = new Audio("wrong.mp3");
         audio.play();
         setShowMistake(true);
@@ -203,8 +200,16 @@ export default function Game(props) {
     );
   } else {
     return (
-      <div className="flex flex-col justify-center items-center min-h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen space-y-10">
         <p>{t("No game session. retry from the admin window")}</p>
+        <button
+          className="shadow-md rounded-lg m-1 p-2 bg-secondary-500 hover:bg-secondary-200 font-bold uppercase"
+          onClick={() => {
+            window.location.href = "/";
+          }}
+        >
+          {t("quit")}
+        </button>
       </div>
     );
   }

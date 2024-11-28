@@ -73,5 +73,5 @@ type room struct {
 	// Assign to ws Hub when hosting room
 	Hub *Hub
 	// Get lag of each client
-	registeredClients map[string]RegisteredClient
+	registeredClients map[string]*RegisteredClient
 }

@@ -55,17 +55,13 @@ func RegisterBuzzer(client *Client, event *Event) error {
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
 
-	if player.ping.stopPing != nil {
-		player.ping.stopPing <- true
+	clientPlayer, ok := room.registeredClients[event.ID]
+	if !ok {
+		return fmt.Errorf("player client not found in register buzzer")
 	}
 	// Set up recurring ping loop to get player latency
-	player.ping = RegisteredClient {
-		id: event.ID,
-		client: client,
-		room: &room,
-		stopPing: make(chan bool),
-	}
-	go player.ping.pingInterval()
+	clientPlayer.stopPing = make(chan bool)
+	go clientPlayer.pingInterval()
 	s.writeRoom(room.Game.Room, room)
 	return nil
 }

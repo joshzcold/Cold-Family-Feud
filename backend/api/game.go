@@ -70,12 +70,14 @@ type game struct {
 	Round             int                          `json:"round"`
 	Rounds            []round                      `json:"rounds"`
 	FinalRound        []finalRound                 `json:"final_round"`
+	FinalRound2        []finalRound                 `json:"final_round_2"`
 	FinalRoundTimers  []int                        `json:"final_round_timers"`
 }
 
 func NewGame(roomCode string) room {
 	return room{
 		Hub: nil,
+		registeredClients: make(map[string]*RegisteredClient),
 		Game: &game{
 			Room:              roomCode,
 			RegisteredPlayers: make(map[string]*registeredPlayer),
