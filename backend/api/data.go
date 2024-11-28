@@ -3,6 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 )
 
 func NewData(client *Client, event *Event) error {
@@ -18,12 +19,18 @@ func NewData(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	err = json.Unmarshal([]byte(rawData), &newData)
+	log.Println(newData)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
 	newData.RegisteredPlayers = make(map[string]*registeredPlayer)
 
+	// TODO how to get in new data without overwriting needed clients/pointers
 	err = json.Unmarshal([]byte(rawData), &room.Game)
+	for _, player := range room.Game.RegisteredPlayers {
+		log.Println(player)
+	}
+
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

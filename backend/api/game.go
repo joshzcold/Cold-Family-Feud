@@ -6,14 +6,13 @@ type host struct {
 	ID string `json:"id"`
 }
 
+// TODO put any client or goroutine data outside of game data.
 type registeredPlayer struct {
 	Start     time.Time    `json:"start"`
 	Latencies []int64      `json:"latencies"`
 	Team      int          `json:"team"`
 	Latency   float64      `json:"latency"`
 	Name      string       `json:"name"`
-	Ping      PingInterval `json:"ping"`
-	client    *Client
 }
 
 type buzzed struct {

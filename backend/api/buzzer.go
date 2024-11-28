@@ -55,17 +55,17 @@ func RegisterBuzzer(client *Client, event *Event) error {
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
 
-	if player.Ping.stop != nil {
-		player.Ping.stop <- true
+	if player.ping.stopPing != nil {
+		player.ping.stopPing <- true
 	}
 	// Set up recurring ping loop to get player latency
-	player.Ping = PingInterval {
+	player.ping = RegisteredClient {
 		id: event.ID,
 		client: client,
 		room: &room,
-		stop: make(chan bool),
+		stopPing: make(chan bool),
 	}
-	go player.Ping.pingInterval()
+	go player.ping.pingInterval()
 	s.writeRoom(room.Game.Room, room)
 	return nil
 }
@@ -77,6 +77,7 @@ func Buzz(client *Client, event *Event) error {
 	if !ok {
 		return fmt.Errorf("player not found in buzz function")
 	}
+	// TODO put in time that javascript expects
 	latencyDuration := time.Millisecond * time.Duration(player.Latency)
 	time := time.Now().Add(-time.Millisecond * latencyDuration)
 	if len(room.Game.Buzzed) == 0 {

@@ -8,7 +8,6 @@ import (
 )
 
 func quitPlayer(room *room, client *Client, event *Event) error {
-	log.Println("Removing from buzzer", event.ID)
 	for idx, b := range room.Game.Buzzed {
 		if b.ID == event.ID {
 			// Remove from buzzed player list
@@ -17,9 +16,9 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	}
 
 	player, ok := room.Game.RegisteredPlayers[event.ID]
-	if ok && player.Ping.stop != nil {
+	if ok && player.ping.stopPing != nil {
 		// clear interval
-		player.Ping.stop <- true
+		player.ping.stopPing <- true
 	}
 	message, err := NewSendQuit()
 	if err != nil {
@@ -32,7 +31,6 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	log.Println(string(message[:]))
 	room.Hub.broadcast <- message
 	return nil
 }
@@ -131,17 +129,17 @@ func getBackInPlayer(client *Client, room room, roomCode string, playerID string
 	}
 	client.send <- message
 
-	if player.Ping.stop != nil {
-		player.Ping.stop <- true
+	if player.ping.stopPing != nil {
+		player.ping.stopPing <- true
 	}
 	// Set up recurring ping loop to get player latency
-	player.Ping = PingInterval{
+	player.ping = RegisteredClient{
 		id:     playerID,
 		client: client,
 		room:   &room,
-		stop:   make(chan bool),
+		stopPing:   make(chan bool),
 	}
-	go player.Ping.pingInterval()
+	go player.ping.pingInterval()
 	return nil
 }
 

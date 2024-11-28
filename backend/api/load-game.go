@@ -47,16 +47,19 @@ func LoadGame(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	gameBytes, err := os.ReadFile(filePath)
-	loadedGame := room.Game
+	loadedGame := game{}
 	json.Unmarshal(gameBytes, &loadedGame)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	err = addGameKeys(loadedGame)
+	err = addGameKeys(&loadedGame)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	message, err := NewSendData(loadedGame)
+	room.Game.FinalRound = loadedGame.FinalRound
+	room.Game.FinalRoundTimers = loadedGame.FinalRoundTimers
+	room.Game.Rounds = loadedGame.Rounds
+	message, err := NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

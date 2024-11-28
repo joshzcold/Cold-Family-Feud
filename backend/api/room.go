@@ -29,7 +29,7 @@ func playerID() string {
 
 // pingInterval Send a ping message every 5 seconds on a player
 // This is to try and calcuate latency of a player when acting on buzzers
-func (p *PingInterval) pingInterval() error {
+func (p *RegisteredClient) pingInterval() error {
 	log.Println("Started ping for interval", p.id)
 	ticker := time.NewTicker(5 * time.Second)
 	defer func() {
@@ -54,18 +54,18 @@ func (p *PingInterval) pingInterval() error {
 			}
 			p.client.send <- message
 			log.Println("Sent ping to id", p.id)
-		case <-p.stop:
+		case <-p.stopPing:
 			log.Println("Stop ping via channel", p.id)
 			return nil
 		}
 	}
 }
 
-type PingInterval struct {
+type RegisteredClient struct {
 	id     string
 	client *Client
 	room   *room
-	stop   chan bool
+	stopPing   chan bool
 }
 
 type room struct {
@@ -73,5 +73,5 @@ type room struct {
 	// Assign to ws Hub when hosting room
 	Hub *Hub
 	// Get lag of each client
-	intervals map[string]PingInterval
+	registeredClients map[string]RegisteredClient
 }
