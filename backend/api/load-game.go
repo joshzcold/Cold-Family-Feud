@@ -12,6 +12,7 @@ func addGameKeys(game *game) error {
 	if len(game.Rounds) == 0 {
 		return fmt.Errorf("invalid game: loaded game missing rounds")
 	}
+	game.PointTracker = []int{}
 	for _, round := range game.Rounds {
 		if len(round.Answers) == 0 {
 			return fmt.Errorf("invalid game: round %q is missing answers", round.Question)
@@ -19,10 +20,7 @@ func addGameKeys(game *game) error {
 		for _, answer := range round.Answers {
 			answer.Triggered = false
 		}
-	}
-	game.PointTracker = make([]int, len(game.Rounds))
-	for i := range game.PointTracker {
-		game.PointTracker[i] = 0
+		game.PointTracker = append(game.PointTracker, 0)
 	}
 	if len(game.FinalRound) > 0 {
 		for _, round := range game.FinalRound {
@@ -52,14 +50,15 @@ func LoadGame(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	err = addGameKeys(&loadedGame)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
 	room.Game.FinalRound = loadedGame.FinalRound
 	room.Game.FinalRound2 = loadedGame.FinalRound
 	room.Game.FinalRoundTimers = loadedGame.FinalRoundTimers
 	room.Game.Rounds = loadedGame.Rounds
+
+	err = addGameKeys(room.Game)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
 	message, err := NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
