@@ -56,6 +56,9 @@ func EventPipe(client *Client, message []byte) error {
 		return err
 	}
 	if event.Action != "" {
+		if event.Action != "pong" && event.Action != "buzz" {
+			setTick(event)
+		}
 		action, ok := recieveActions[event.Action]
 		if ok {
 			return action(client, event)

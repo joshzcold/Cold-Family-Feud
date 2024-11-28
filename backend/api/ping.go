@@ -22,12 +22,12 @@ func Pong(client *Client, event *Event) error {
 			player.Latencies = player.Latencies[1:]
 		}
 		player.Latencies = append(player.Latencies, latency.Milliseconds())
-		total := 0
-		for l := range player.Latencies {
-			total += l
+		var total int64
+		for _, val := range player.Latencies {
+			total += val
 		}
 		// Average latency
-		player.Latency = float64(total / len(player.Latencies))
+		player.Latency = float64(total / int64(len(player.Latencies)))
 	}
 	return nil
 }

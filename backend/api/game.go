@@ -1,6 +1,10 @@
 package api
 
-import "time"
+import (
+	"fmt"
+	"log"
+	"time"
+)
 
 type host struct {
 	ID string `json:"id"`
@@ -8,16 +12,16 @@ type host struct {
 
 // TODO put any client or goroutine data outside of game data.
 type registeredPlayer struct {
-	Start     time.Time    `json:"start"`
-	Latencies []int64      `json:"latencies"`
-	Team      int          `json:"team"`
-	Latency   float64      `json:"latency"`
-	Name      string       `json:"name"`
+	Start     time.Time `json:"start"`
+	Latencies []int64   `json:"latencies"`
+	Team      int       `json:"team"`
+	Latency   float64   `json:"latency"`
+	Name      string    `json:"name"`
 }
 
 type buzzed struct {
-	Time time.Time `json:"time"`
-	ID   string    `json:"id"`
+	Time int64  `json:"time"`
+	ID   string `json:"id"`
 }
 
 type settings struct {
@@ -70,13 +74,25 @@ type game struct {
 	Round             int                          `json:"round"`
 	Rounds            []round                      `json:"rounds"`
 	FinalRound        []finalRound                 `json:"final_round"`
-	FinalRound2        []finalRound                 `json:"final_round_2"`
+	FinalRound2       []finalRound                 `json:"final_round_2"`
 	FinalRoundTimers  []int                        `json:"final_round_timers"`
+	Tick              int64                        `json:"tick"`
+}
+
+func setTick(event *Event) error {
+	room, err := store.getRoom(event.Room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	room.Game.Tick = time.Now().UTC().UnixMilli()
+	log.Println("Set tick for room", room.Game.Room, room.Game.Tick)
+	store.writeRoom(room.Game.Room, room)
+	return nil
 }
 
 func NewGame(roomCode string) room {
 	return room{
-		Hub: nil,
+		Hub:               nil,
 		registeredClients: make(map[string]*RegisteredClient),
 		Game: &game{
 			Room:              roomCode,

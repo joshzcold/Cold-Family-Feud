@@ -3,6 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 )
 
 func NewData(client *Client, event *Event) error {
@@ -17,12 +18,14 @@ func NewData(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	err = json.Unmarshal([]byte(rawData), &newData)
+	err = json.Unmarshal(rawData, &newData)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	newData.RegisteredPlayers = make(map[string]*registeredPlayer)
-	err = json.Unmarshal([]byte(rawData), &room.Game)
+	err = json.Unmarshal(rawData, &room.Game)
+	log.Println("What is input?", string(newData.FinalRound[0].Input))
+	log.Println("What is input?", string(room.Game.FinalRound[0].Input))
+	setTick(event)
 
 	if err != nil {
 		return fmt.Errorf(" %w", err)
