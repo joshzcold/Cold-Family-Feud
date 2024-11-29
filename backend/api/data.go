@@ -3,11 +3,11 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	"log"
 )
 
 func mergeGame(game *game, newData *game) {
 	game.Round = newData.Round 
+	game.Rounds = newData.Rounds
 	game.FinalRound = newData.FinalRound
 	game.FinalRound2 = newData.FinalRound2
 	game.HideFirstRound = newData.HideFirstRound
@@ -38,8 +38,6 @@ func NewData(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	mergeGame(room.Game, &newData)
-	log.Println("What is input?", string(newData.FinalRound[0].Input))
-	log.Println("What is input?", string(room.Game.FinalRound[0].Input))
 	setTick(event)
 
 	if copyRound != newData.Round {

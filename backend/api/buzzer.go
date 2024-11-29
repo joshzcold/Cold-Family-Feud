@@ -109,21 +109,12 @@ func Buzz(client *Client, event *Event) error {
 
 func RegisterSpectator(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.ID)
+	room, err := s.getRoom(event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	message, err := NewSendPing(event.ID)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
-	client.send <- message
-	message, err = NewSendRegistered(event.ID)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
-	client.send <- message
-	message, err = NewSendData(room.Game)
+	delete(room.Game.RegisteredPlayers, event.ID)
+	message, err := NewSendData(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

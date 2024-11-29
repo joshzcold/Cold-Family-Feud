@@ -2,6 +2,7 @@ package api
 
 import (
 	"encoding/json"
+	"log"
 )
 
 type Event struct {
@@ -59,6 +60,7 @@ func EventPipe(client *Client, message []byte) error {
 		if event.Action != "pong" && event.Action != "buzz" {
 			setTick(event)
 		}
+		log.Println(event.Action)
 		action, ok := recieveActions[event.Action]
 		if ok {
 			return action(client, event)
