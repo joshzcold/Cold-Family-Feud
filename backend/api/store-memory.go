@@ -1,8 +1,8 @@
 package api
 
 import (
-	"encoding/base64"
 	"fmt"
+	"log"
 	"os"
 	"path/filepath"
 	"sync"
@@ -71,18 +71,18 @@ func (m *MemoryStore) saveLogo(roomCode string, logo []byte) error {
 	return nil
 }
 
-func (m *MemoryStore) loadLogo(roomCode string) (string, error) {
+func (m *MemoryStore) loadLogo(roomCode string) ([]byte, error) {
+	log.Println("Trying to load logo from", "./public/rooms/", roomCode, "logo")
 	logoPath := filepath.Join(".", "public", "rooms", roomCode, "logo")
 	_, err := os.Stat(logoPath)
 	if err != nil {
-		return "", fmt.Errorf(" %w", err)
+		return nil, fmt.Errorf(" %w", err)
 	}
 	logo, err := os.ReadFile(logoPath)
 	if err != nil {
-		return "", fmt.Errorf(" %w", err)
+		return nil, fmt.Errorf(" %w", err)
 	}
-	base64EncodedLogo := base64.StdEncoding.EncodeToString(logo)
-	return base64EncodedLogo, nil
+	return logo, nil
 }
 
 func (m *MemoryStore) deleteLogo(roomCode string) error {

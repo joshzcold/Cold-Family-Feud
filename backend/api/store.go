@@ -18,7 +18,7 @@ type gameStore interface {
 	// Save an image file for the game logo
 	saveLogo(string, []byte) error
 	// Load a logo image from room
-	loadLogo(string) (string, error)
+	loadLogo(string) ([]byte, error)
 	// Delete a logo image from room
 	deleteLogo(string) error
 

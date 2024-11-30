@@ -5,7 +5,7 @@ import asyncio
 import time
 from websockets.asyncio.client import connect
 
-URL = "ws://127.0.0.1:8080/ws"
+URL = "ws://127.0.0.1:8080/api/ws"
 
 PURPLE = "\033[95m"
 BLUE = "\033[94m"

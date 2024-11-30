@@ -54,7 +54,7 @@ export default function Home() {
     console.debug("send", ws);
     if (ws.current?.readyState !== 1 || !ws.current) {
       console.debug("connecting to server... new connection");
-      ws.current = new WebSocket(`wss://${window.location.host}/ws`);
+      ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
       ws.current.onopen = function() {
         console.debug("game connected to server", ws.current);
 

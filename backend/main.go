@@ -20,11 +20,18 @@ func main() {
 
 	err := api.NewGameStore(cfg.store)
 	if err != nil {
-		log.Panicf("Error: unable initalize store: %w", err)
+		log.Panicf("Error: unable initalize store: %s", err)
 	}
 
-	http.HandleFunc("/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
+	http.HandleFunc("/api/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
 		api.ServeWs(httpWriter, httpRequest)
+	})
+	mux := http.NewServeMux()
+
+	mux.HandleFunc("/api/rooms/{roomCode}/logo", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
+		log.Println("HERE")
+		roomCode := httpRequest.PathValue("roomCode")
+		api.FetchLogo(httpWriter, roomCode)
 	})
 	log.Printf("Server listening on %s", cfg.addr)
 	err = http.ListenAndServe(*&cfg.addr, nil)
