@@ -2,7 +2,6 @@ package api
 
 import (
 	"encoding/json"
-	"log"
 )
 
 type Event struct {
@@ -10,15 +9,17 @@ type Event struct {
 	Action string `json:"action"`
 
 	// supplemental fields
-	File    string `json:"file"`
-	Lang    string `json:"lang"`
-	Data    any    `json:"data"`
-	Room    string `json:"room"`
-	Name    string `json:"name"`
-	Host    bool   `json:"host"`
-	ID      string `json:"id"`
-	Session string `json:"session"`
-	Team    int    `json:"team"`
+	File     string `json:"file"`
+	Lang     string `json:"lang"`
+	Data     any    `json:"data"`
+	LogoData string `json:"logoData"`
+	Room     string `json:"room"`
+	Name     string `json:"name"`
+	Host     bool   `json:"host"`
+	ID       string `json:"id"`
+	Session  string `json:"session"`
+	Team     int    `json:"team"`
+	MimeType string `json:"mimetype"`
 }
 
 type ActionFunc func(*Client, *Event) error
@@ -60,7 +61,6 @@ func EventPipe(client *Client, message []byte) error {
 		if event.Action != "pong" && event.Action != "buzz" {
 			setTick(event)
 		}
-		log.Println(event.Action)
 		action, ok := recieveActions[event.Action]
 		if ok {
 			return action(client, event)

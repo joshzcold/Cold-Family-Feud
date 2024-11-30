@@ -147,3 +147,13 @@ func NewSendBuzzed() ([]byte, error) {
 		Action: "buzzed",
 	})
 }
+
+type sendLogo struct {
+	Logo string `json:"logo"`
+}
+
+func NewSendLogo(logo string) ([]byte, error) {
+	return json.Marshal(sendLogo{
+		Logo: logo,
+	})
+}

@@ -1,18 +1,19 @@
 package api
 
 import (
+	"encoding/base64"
 	"fmt"
 	"os"
 	"path/filepath"
 	"sync"
 )
 
-type MemoryStore struct{
-	mu sync.RWMutex
+type MemoryStore struct {
+	mu    sync.RWMutex
 	rooms map[string]room
 }
 
-func NewMemoryStore() *MemoryStore{
+func NewMemoryStore() *MemoryStore {
 	return &MemoryStore{
 		rooms: make(map[string]room),
 	}
@@ -70,15 +71,29 @@ func (m *MemoryStore) saveLogo(roomCode string, logo []byte) error {
 	return nil
 }
 
-func (m *MemoryStore) loadLogo(roomCode string) ([]byte, error) {
+func (m *MemoryStore) loadLogo(roomCode string) (string, error) {
 	logoPath := filepath.Join(".", "public", "rooms", roomCode, "logo")
 	_, err := os.Stat(logoPath)
 	if err != nil {
-		return nil, fmt.Errorf(" %w", err)
+		return "", fmt.Errorf(" %w", err)
 	}
 	logo, err := os.ReadFile(logoPath)
 	if err != nil {
-		return nil, fmt.Errorf(" %w", err)
+		return "", fmt.Errorf(" %w", err)
 	}
-	return logo, nil
+	base64EncodedLogo := base64.StdEncoding.EncodeToString(logo)
+	return base64EncodedLogo, nil
+}
+
+func (m *MemoryStore) deleteLogo(roomCode string) error {
+	logoPath := filepath.Join(".", "public", "rooms", roomCode, "logo")
+	_, err := os.Stat(logoPath)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	err = os.Remove(logoPath)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	return nil
 }

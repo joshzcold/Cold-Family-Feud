@@ -266,10 +266,10 @@ function TitleLogoUpload(props) {
                       return;
                   }
 
-                  const bufferData = Buffer.from(rawData);
+                  const bufferData = Buffer.from(rawData).toString('base64');
                   props.send({
                     action: "logo_upload",
-                    data: bufferData,
+                    logoData: bufferData,
                     mimetype: mimetype,
                   });
                   props.setImageUploaded(file);
@@ -369,6 +369,7 @@ export default function Admin(props) {
 
   function setError(e) {
     setErrorVal(e);
+    console.error(e)
     setTimeout(() => {
       setErrorVal("");
     }, 5000);
@@ -379,12 +380,6 @@ export default function Admin(props) {
     data.id = props.id;
     console.debug(data);
     ws.current.send(JSON.stringify(data));
-  }
-  function bsonSend(data) {
-    data.room = props.room;
-    data.id = props.id;
-    console.debug(data);
-    ws.current.send(BSON.serialize(data));
   }
 
   useEffect(() => {
@@ -602,7 +597,7 @@ export default function Admin(props) {
               </div>
             </div>
             <TitleLogoUpload
-              send={bsonSend}
+              send={send}
               room={props.room}
               setGame={props.setGame}
               game={game}

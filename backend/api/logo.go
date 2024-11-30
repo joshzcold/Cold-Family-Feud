@@ -1,7 +1,9 @@
 package api
 
 import (
+	"encoding/base64"
 	"fmt"
+	"log"
 	"math"
 	"net/http"
 	"slices"
@@ -24,9 +26,37 @@ func VerifyLogo(logo []byte) error {
 }
 
 func LogoUpload(client *Client, event *Event) error {
+	s := store
+	base64DecodedLogoData, err := base64.StdEncoding.DecodeString(event.LogoData)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	err = s.saveLogo(event.Room, base64DecodedLogoData)
+	log.Println(fmt.Errorf("HERE --> %w", err))
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	message, err := NewSendLogo(event.LogoData)
+	client.send <- message
+	return nil
+}
+
+func FetchLogo(client *Client, event *Event) error {
+	s := store
+	logoData, err := s.loadLogo(event.Room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	message, err := NewSendLogo(logoData)
+	client.send <- message
 	return nil
 }
 
 func DeleteLogoUpload(client *Client, event *Event) error {
+	s := store
+	err := s.deleteLogo(event.Room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
 	return nil
 }

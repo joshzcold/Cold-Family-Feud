@@ -6,4 +6,5 @@ public/rooms/**/*.png
 public/rooms/**/*.gif
 .venv/
 backend/tmp/
+backend/public/
 backend/Cold-Family-Feud

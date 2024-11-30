@@ -17,8 +17,11 @@ type gameStore interface {
 	deleteRoom(string) error
 	// Save an image file for the game logo
 	saveLogo(string, []byte) error
-	// Delete a logo file for a room 
-	loadLogo(string) ([]byte, error)
+	// Load a logo image from room
+	loadLogo(string) (string, error)
+	// Delete a logo image from room
+	deleteLogo(string) error
+
 }
 
 func NewGameStore(gameStore string) error {
