@@ -11,7 +11,7 @@ COPY ./backend/ .
 RUN go build .
 
 FROM base AS app
-RUN apk add nginx
+RUN apk add nginx bash
 WORKDIR /src
 COPY --chmod=755 docker/allinone/start.sh /start.sh
 COPY --from=back-end-builder /src/Cold-Family-Feud /src/Cold-Family-Feud
