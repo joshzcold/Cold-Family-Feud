@@ -497,8 +497,9 @@ export default function Admin(props) {
                         lang: i18n.language,
                       });
                     }}
+                    defaultValue="default"
                   >
-                    <option disabled selected value></option>
+                    <option disabled value="default"></option>
                     {gameSelector.map((value, index) => (
                       <option key={index} value={value}>
                         {value.replace(".json", "")}
@@ -745,7 +746,7 @@ export default function Admin(props) {
                     }}
                   >
                     {game.rounds.map((key, index) => (
-                      <option value={index}>
+                      <option value={index} key={index}>
                         {t("round")} {t("number", { count: index + 1 })}
                       </option>
                     ))}
@@ -888,11 +889,12 @@ export default function Admin(props) {
 
                   {/* GAME BOARD BUTTONS */}
                   <div className=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
-                    {current_round.answers.map((x) => (
+                    {current_round.answers.map((x, index) => (
                       <div
+                        key={index}
                         className={`${
                           x.trig ? "bg-secondary-500" : "bg-primary-700"
-                          } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                          } font-extrabold uppercase rounded border-2 text-2xl`}
                       >
                         <button
                           className="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
