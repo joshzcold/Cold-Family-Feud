@@ -34,17 +34,15 @@ Features:
 
 ## Start
 
-To run a local instance of the application
+To run a local instance of the application using the prebuilt "all in one" image.
 
 ```sh
-npm run build
-npm run start_local #( windows, do npm run start_windows )
-# npm run dev for working on code
+    docker run -p 443:443 -ti ghcr.io/joshzcold/famf-allinone:latest
 ```
 
 go to
 
-https://localhost:3000/
+https://localhost/
 
 Click on the "Host" button to go to the admin console
 
