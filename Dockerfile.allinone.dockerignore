@@ -1,6 +1,7 @@
 # Ignore everything
 *
 # Allow list
+## Frontend
 !components/
 !games/
 !i18n/
@@ -16,3 +17,13 @@
 !tailwind.config.js
 !backend/server.js
 !backend/load-game.js
+
+## Backend
+!backend/api/
+!backend/go.mod
+!backend/go.sum
+!backend/main.go
+
+## Scripts
+!docker/allinone/
+!docker/nginx

@@ -14,6 +14,11 @@ build-frontend-dev:
 	set -x
 	docker build -t ${docker_registry}/famf-web:dev --target dev .
 
+build-allinone:
+	set -x
+	docker build -t ${docker_registry}/famf-allinone:latest \
+		-f Dockerfile.allinone .
+
 build-backend:
 	set -x
 	cd backend
@@ -28,7 +33,13 @@ build-backend-dev:
 		--build-context=games=../games \
 		-t ${docker_registry}/famf-server:dev --target dev .
 		
-build: build-frontend build-backend
+build: build-frontend build-backend build-allinone
+
+push: build
+	docker push ${docker_registry}/famf-web:latest
+	docker push ${docker_registry}/famf-server:latest
+	docker push ${docker_registry}/famf-allinone:latest
+
 
 build-dev: build-frontend-dev build-backend-dev
 
