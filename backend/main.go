@@ -26,9 +26,8 @@ func main() {
 	http.HandleFunc("/api/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
 		api.ServeWs(httpWriter, httpRequest)
 	})
-	mux := http.NewServeMux()
 
-	mux.HandleFunc("/api/rooms/{roomCode}/logo", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
+	http.HandleFunc("/api/rooms/{roomCode}/logo", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
 		log.Println("HERE")
 		roomCode := httpRequest.PathValue("roomCode")
 		api.FetchLogo(httpWriter, roomCode)
