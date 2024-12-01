@@ -28,7 +28,6 @@ func main() {
 	})
 
 	http.HandleFunc("/api/rooms/{roomCode}/logo", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
-		log.Println("HERE")
 		roomCode := httpRequest.PathValue("roomCode")
 		api.FetchLogo(httpWriter, roomCode)
 	})

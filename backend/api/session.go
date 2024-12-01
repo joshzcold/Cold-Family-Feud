@@ -52,6 +52,7 @@ func quitHost(room *room, event *Event) error {
 	room.Hub.stop <- true
 	// Remove room
 	s.deleteRoom(event.Room)
+	s.deleteLogo(event.Room)
 	return nil
 }
 

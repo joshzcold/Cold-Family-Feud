@@ -59,7 +59,6 @@ export default function Home() {
         console.debug("game connected to server", ws.current);
 
         ws.current.onmessage = function(evt) {
-          console.log(evt.data)
           var received_msg = evt.data;
           let json = JSON.parse(received_msg);
           if (json.action === "host_room") {
