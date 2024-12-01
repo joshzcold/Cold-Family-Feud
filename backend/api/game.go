@@ -123,6 +123,7 @@ func NewGame(roomCode string) room {
 			IsFinalSecond:  false,
 			HideFirstRound: false,
 			Round:          0,
+			Tick: time.Now().UTC().UnixMilli(),
 		},
 	}
 }

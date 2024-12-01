@@ -61,11 +61,40 @@ func (p *RegisteredClient) pingInterval() error {
 	}
 }
 
+func (r *room) gameTimeout() error {
+	ticker := time.NewTicker(60 * time.Second)
+	defer func() {
+		ticker.Stop()
+	}()
+	select {
+	case <-ticker.C:
+		oneHour := 1 * time.Hour
+		oneHourAgo := time.Now().UTC().Add(-oneHour).UnixMilli()
+		if r.Game.Tick > 0 && r.Game.Tick < oneHourAgo {
+			log.Println("clearing room, no activity for 1 hour: ", r.Game.Room)
+			message, err := NewSendQuit()
+			if err != nil {
+				return fmt.Errorf(" %w", err)
+			}
+			r.Hub.broadcast <- message
+			message, err = NewSendError("game closed, no activity for 1 hour")
+			if err != nil {
+				return fmt.Errorf(" %w", err)
+			}
+			r.Hub.broadcast <- message
+			store.deleteLogo(r.Game.Room)
+			store.deleteRoom(r.Game.Room)
+			return nil
+		}
+	}
+	return nil
+}
+
 type RegisteredClient struct {
-	id     string
-	client *Client
-	room   *room
-	stopPing   chan bool
+	id       string
+	client   *Client
+	room     *room
+	stopPing chan bool
 }
 
 type room struct {

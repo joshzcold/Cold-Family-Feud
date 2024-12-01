@@ -97,6 +97,7 @@ func HostRoom(client *Client, event *Event) error {
 	hostID := registerHost(&initRoom)
 	initRoom.Hub = NewHub()
 	go initRoom.Hub.run()
+	go initRoom.gameTimeout()
 	initRoom.Hub.register <- client
 	message, err := NewSendHostRoom(newRoomCode, initRoom.Game, hostID)
 	if err != nil {
