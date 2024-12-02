@@ -6,7 +6,6 @@ class GamePage {
     this.page = page;
     this.roomCodeText = page.getByTestId("roomCodeText");
   }
-
 }
 
-export {GamePage}
+export { GamePage };

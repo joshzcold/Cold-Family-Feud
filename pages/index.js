@@ -142,9 +142,9 @@ export default function Home() {
   function joinRoom() {
     console.debug(`ws.current `, ws);
     setError("");
-    let roomcode = document.getElementById("roomcode").value;
+    let roomcode = document.getElementById("roomCodeInput").value;
     if (roomcode.length === 4) {
-      let playername = document.getElementById("playername").value;
+      let playername = document.getElementById("playerNameInput").value;
       if (playername.length > 0) {
         console.debug(`roomcode: ${roomcode}, playername ${playername}`);
         send(

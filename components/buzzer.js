@@ -226,7 +226,7 @@ export default function Buzzer(props) {
                         ) : (
                             <TitleLogo insert={props.game.title_text} />
                           )}
-                        <p className="text-3xl text-center py-12 text-foreground">
+                        <p id="waitingForHostText" className="text-3xl text-center py-12 text-foreground">
                           {t("Waiting for host to start")}
                         </p>
                       </div>

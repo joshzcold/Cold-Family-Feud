@@ -1,18 +1,57 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "./models/LoginPage.js";
 import { AdminPage } from "./models/AdminPage.js";
 import { GamePage } from "./models/GamePage.js";
+import { BuzzerPage } from "./models/BuzzerPage.js";
+import { Setup } from "./lib/Setup.js";
+import path from "path";
 
-test("has correct room code", async ({ page, baseURL }) => {
-  await page.goto("/");
+test("has correct room code", async ({ browser, page, baseURL }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
 
-  const loginPage = new LoginPage(page);
-  const adminPage = new AdminPage(page);
-  const gamePage = new GamePage(page);
-  const roomCode = await loginPage.hostRoom();
+  const adminPage = new AdminPage(host.page);
+  const gamePage = new GamePage(host.page);
+
   const gameUrl = await adminPage.openGameWindowButton.getAttribute("href");
   await page.goto(gameUrl);
   expect(page.url()).toEqual(baseURL + "/game");
-  expect(await gamePage.roomCodeText.innerText()).toEqual(roomCode);
+  expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
 });
+
+test("can join game", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const player = await s.addPlayer();
+  const buzzerPagePlayer = new BuzzerPage(player.page);
+  expect(buzzerPagePlayer.titleLogoImg).toBeVisible();
+  expect(await buzzerPagePlayer.waitingForHostText.innerText()).toEqual(
+    "Waiting for host to start",
+  );
+});
+
+test("can pick game", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const player = await s.addPlayer();
+  const adminPage = new AdminPage(host.page);
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.startRoundOneButton.click()
+  const buzzerPage = new BuzzerPage(player.page)
+  expect(buzzerPage.answer0UnAnswered).toBeVisible()
+});
+
+test.skip("can upload game", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const player = await s.addPlayer();
+  const adminPage = new AdminPage(host.page);
+  const fileChooserPromise = host.page.waitForEvent('filechooser')
+  await adminPage.gamePickerFileUpload.click()
+  const fileChooser = await fileChooserPromise;
+  await fileChooser.setFiles(path.join(__dirname, "../", "static", "game.json"))
+  await adminPage.startRoundOneButton.click()
+  const buzzerPage = new BuzzerPage(player.page)
+  expect(buzzerPage.answer0UnAnswered).toBeVisible()
+});
+

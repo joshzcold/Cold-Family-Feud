@@ -1,5 +1,3 @@
-import { AdminPage } from "./AdminPage.js";
-
 class LoginPage {
   /**
    * @param {import('playwright').Page} page
@@ -11,13 +9,6 @@ class LoginPage {
     this.joinRoomButton = page.getByTestId("joinRoomButton");
     this.hostRoomButton = page.getByTestId("hostRoomButton");
     this.errorText = page.getByTestId("errorText");
-  }
-
-  async hostRoom() {
-    await this.hostRoomButton.click();
-    let adminPage = new AdminPage(this.page);
-    let roomCode = await adminPage.roomCodeText.innerText();
-    return roomCode;
   }
 }
 

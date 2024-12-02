@@ -68,16 +68,6 @@ class AdminPage {
     this.startTimerButton = page.getByTestId("startTimerButton");
     this.stopTimerButton = page.getByTestId("stopTimerButton");
   }
-
-  // async getStarted() {
-  //   await this.getStartedLink.first().click();
-  //   await expect(this.gettingStartedHeader).toBeVisible();
-  // }
-  //
-  // async pageObjectModel() {
-  //   await this.getStarted();
-  //   await this.pomLink.click();
-  // }
 }
 
 export { AdminPage };
