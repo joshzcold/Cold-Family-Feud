@@ -44,7 +44,7 @@ export default function Title(props) {
               )}
           </div>
           <div className="flex flex-row justify-center text-center">
-            <p className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
+            <p id="roomCodeText" className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
               {props.game.room}
             </p>
           </div>
