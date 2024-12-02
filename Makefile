@@ -46,5 +46,17 @@ build-dev: build-frontend-dev build-backend-dev
 dev: build-dev
 	docker compose -p famf -f ./docker/docker-compose-dev.yaml up
 
+dev-background: build-dev
+	docker compose -p famf -f ./docker/docker-compose-dev.yaml up -d
+
 dev-down:
 	docker compose -p famf -f ./docker/docker-compose-dev.yaml down
+
+e2e: dev-background
+	cd e2e
+	npx playwright test
+	$(MAKE) dev-down
+
+e2e-ui:
+	cd e2e	
+	npx playwright test --ui
