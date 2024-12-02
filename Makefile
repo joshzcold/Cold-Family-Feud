@@ -58,6 +58,8 @@ e2e: dev-background
 	cd -
 	$(MAKE) dev-down
 
-e2e-ui:
+e2e-ui: dev-background
 	cd e2e	
 	npx playwright test --ui
+	cd -
+	$(MAKE) dev-down
