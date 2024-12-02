@@ -8,6 +8,7 @@ export default function TeamName(props) {
     >
       <div className="bg-gradient-to-tr from-primary-900 to-primary-500">
         <p
+          id={`team${props.team}TeamName`}
           className="p-5 uppercase text-white"
           style={{
             fontWeight: 600,
@@ -21,7 +22,7 @@ export default function TeamName(props) {
           {props.game.teams[props.team].name}
         </p>
       </div>
-      <div className="flex justify-center flex-row text-center space-x-2">
+      <div id={`team${props.team}MistakesList`} className="flex justify-center flex-row text-center space-x-2">
         {Array(props.game.teams[props.team].mistakes).fill(
           <div className="flex-shrink">
             <img src="x.png" />

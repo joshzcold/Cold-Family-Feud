@@ -18,7 +18,7 @@ export default function Players(props) {
     }
   }
 
-  function teamSection(team) {
+  function teamSection(team, teamNumber) {
     return (
       <div>
         {team.map((x, i) => (
@@ -28,6 +28,7 @@ export default function Players(props) {
               <p className="uppercase text-foreground">{x.name}</p>
             </div>
             <button
+              id={`player${i}Team${teamNumber}QuitButton`}
               className="border-4 bg-failure-300 hover:bg-failure-500 p-2 rounded-lg"
               onClick={() => {
                 // props.send({action: "quit", id: })
@@ -75,7 +76,7 @@ export default function Players(props) {
         <div className="flex-grow">
           <p className="text-foreground">{game.teams[0].name}</p>
           <hr />
-          {teamSection(team1)}
+          {teamSection(team1, 1)}
         </div>
         {/* seperator */}
         <div className="bg-secondary-300 border h-full" />
@@ -83,7 +84,7 @@ export default function Players(props) {
         <div className="flex-grow">
           <p className="text-foreground">{game.teams[1].name}</p>
           <hr />
-          {teamSection(team2)}
+          {teamSection(team2, 2)}
         </div>
       </div>
     </div>

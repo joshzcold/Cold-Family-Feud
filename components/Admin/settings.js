@@ -56,6 +56,7 @@ export function ThemeSwitcher(props) {
                 />
             </svg>
             <select
+                id="themeSwitcherInput"
                 className="bg-secondary-300 text-foreground rounded-lg p-2"
                 value={props.game.settings.theme}
                 onChange={(e) => {
@@ -87,6 +88,7 @@ function FinalRoundTitleChanger(props) {
         <div className="flex flex-row space-x-5 items-center">
             <p className="text-xl text-foreground">{t("Final Round Title")}:</p>
             <input
+                id="finalRoundTitleChangerInput"
                 className="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                 onChange={debounce((e) => {
                     props.game.settings.final_round_title = e.target.value;
@@ -114,6 +116,7 @@ export default function AdminSettings(props) {
                         </p>
                     </div>
                     <input
+                        id="hideQuestionsInput"
                         className="w-4 h-4 rounded  placeholder-secondary-900"
                         checked={game.settings.hide_questions}
                         onChange={(e) => {

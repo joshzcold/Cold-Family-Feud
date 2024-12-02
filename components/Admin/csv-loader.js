@@ -179,15 +179,15 @@ export default function CSVLoader(props) {
           <hr />
         </div>
         {error ? (
-          <div className="p-4 bg-failure-200 rounded">
+          <div id="csvErrorText" className="p-4 bg-failure-200 rounded">
             <p>{error}</p>
           </div>
         ) : null}
         <div className="p-2 flex flex-col bg-secondary-500 overflow-x-scroll h-96 ">
           {csvData.map((row, roundCounter) => {
             return (
-              <div className="grid grid-flow-col divide-dashed divide-x divide-secondary-900">
-                {row.map((col) => {
+              <div id={`csvRow${roundCounter}`} className="grid grid-flow-col divide-dashed divide-x divide-secondary-900">
+                {row.map((col, colidx) => {
                   let rowBackgroundColor = "bg-secondary-500";
                   let rowTextColor = "text-foreground";
                   let roundOffSet = 0;
@@ -209,6 +209,7 @@ export default function CSVLoader(props) {
                   if (col.length !== 0) {
                     return (
                       <div
+                        id={`csvRow${roundCounter}Col${colidx}`}
                         className={`w-96 font-bold p-4 ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
                       >
                         <p className="text-ellipsis whitespace-nowrap overflow-hidden">
@@ -230,6 +231,7 @@ export default function CSVLoader(props) {
               </p>
             </div>
             <input
+              id="csvSetNoHeaderInput"
               className="w-4 h-4 rounded bg-secondary-900 text-foreground"
               checked={noHeader}
               onChange={(e) => {
@@ -243,6 +245,7 @@ export default function CSVLoader(props) {
               <p className="text-xl normal-case text-foreground">{t("Rounds")}:</p>
             </div>
             <input
+              id="csvSetRoundCountInput"
               className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
@@ -263,6 +266,7 @@ export default function CSVLoader(props) {
               </p>
             </div>
             <input
+              id="csvSetFinalRoundCountInput"
               className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
@@ -280,6 +284,7 @@ export default function CSVLoader(props) {
               </p>
             </div>
             <input
+              id="csvFinalRoundTimerInput"
               className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
@@ -297,6 +302,7 @@ export default function CSVLoader(props) {
               </p>
             </div>
             <input
+              id="csvFinalRound2ndTimerInput"
               className="p-2 w-24 rounded bg-secondary-300 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
@@ -309,7 +315,7 @@ export default function CSVLoader(props) {
           </div>
         </div>
         <div className="flex flex-row space-x-5">
-          <button className="text-2xl">
+          <button id="csvCancelUploadButton" className="text-2xl">
             <div
               className="w-48 hover:bg-secondary-200 rounded bg-secondary-500 p-2 flex justify-center"
               onClick={() => {
@@ -323,6 +329,7 @@ export default function CSVLoader(props) {
           {!error ? (
             <button
               className="text-2xl"
+              id="csvFileUploadSubmitButton"
               onClick={() => {
                 csvToColdFamilyFeudFormat(
                   csvData,
@@ -342,7 +349,7 @@ export default function CSVLoader(props) {
               </div>
             </button>
           ) : (
-              <button className="text-2xl cursor-default">
+              <button id="csvFileUploadSubmitButtonDisabled" className="text-2xl cursor-default">
                 <div className="w-48 rounded bg-secondary-500 text-secondary-900 p-2 flex justify-center">
                   {t("Submit")}
                 </div>
