@@ -41,7 +41,7 @@ test("can pick game", async ({ browser }) => {
   expect(buzzerPage.answer0UnAnswered).toBeVisible()
 });
 
-test.skip("can upload game", async ({ browser }) => {
+test("can upload game", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
   const player = await s.addPlayer();

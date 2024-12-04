@@ -524,8 +524,8 @@ export default function Admin(props) {
                     ))}
                   </select>
                 ) : null}
-                <div id="gamePickerFileUpload" className="image-upload w-6">
-                  <label htmlFor="gamePicker">
+                <div id="gamePickerFileUploadButton" className="image-upload w-6">
+                  <label htmlFor="gamePickerFileUpload">
                     <svg
                       className="fill-current text-secondary-900 hover:text-secondary-500 cursor-pointer"
                       viewBox="0 0 384 512"
@@ -537,8 +537,9 @@ export default function Admin(props) {
                     className="hidden"
                     type="file"
                     accept=".json, .csv"
+                    id="gamePickerFileUpload"
                     onChange={(e) => {
-                      var file = document.getElementById("gamePicker").files[0];
+                      var file = document.getElementById("gamePickerFileUpload").files[0];
                       console.debug(file);
                       if (file?.type === "application/json") {
                         if (file) {
@@ -575,7 +576,7 @@ export default function Admin(props) {
                         setError(t("Unknown file type in game load"));
                       }
                       // allow same file to be selected again
-                      document.getElementById("gamePicker").value = null;
+                      document.getElementById("gamePickerFileUpload").value = null;
                     }}
                   />
                 </div>

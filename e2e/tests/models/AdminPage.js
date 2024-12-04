@@ -11,7 +11,7 @@ class AdminPage {
     this.createNewGameButton = page.getByTestId("createNewGameButton");
     this.quitButton = page.getByTestId("quitButton");
     this.gameSelector = page.getByTestId("gameSelector");
-    this.gamePickerFileUpload = page.getByTestId("gamePickerFileUpload");
+    this.gamePickerFileUpload = page.getByTestId("gamePickerFileUploadButton");
     this.titleTextInput = page.getByTestId("titleTextInput");
     this.teamOneNameInput = page.getByTestId("teamOneNameInput");
     this.teamOnePointsInput = page.getByTestId("teamOnePointsInput");
