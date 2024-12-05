@@ -53,5 +53,7 @@ test("can upload game", async ({ browser }) => {
   await adminPage.startRoundOneButton.click()
   const buzzerPage = new BuzzerPage(player.page)
   expect(buzzerPage.answer0UnAnswered).toBeVisible()
+  await adminPage.question0Button.click()
+  expect(buzzerPage.answer0Answered).toBeVisible()
 });
 

@@ -67,6 +67,16 @@ class AdminPage {
     );
     this.startTimerButton = page.getByTestId("startTimerButton");
     this.stopTimerButton = page.getByTestId("stopTimerButton");
+    this.question0Button = page.getByTestId("question0Button")
+    this.question1Button = page.getByTestId("question1Button")
+    this.question2Button = page.getByTestId("question2Button")
+    this.question3Button = page.getByTestId("question3Button")
+    this.question4Button = page.getByTestId("question4Button")
+    this.question5Button = page.getByTestId("question5Button")
+    this.question6Button = page.getByTestId("question6Button")
+    this.question7Button = page.getByTestId("question7Button")
+    this.question8Button = page.getByTestId("question8Button")
+    this.question9Button = page.getByTestId("question9Button")
   }
 }
 

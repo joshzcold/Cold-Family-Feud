@@ -25,6 +25,15 @@ class BuzzerPage {
     this.answer6UnAnswered = page.getByTestId("answer6UnAnswered");
     this.answer7UnAnswered = page.getByTestId("answer7UnAnswered");
     this.answer8UnAnswered = page.getByTestId("answer8UnAnswered");
+    this.answer0Answered = page.getByTestId("answer0Answered");
+    this.answer1Answered = page.getByTestId("answer1Answered");
+    this.answer2Answered = page.getByTestId("answer2Answered");
+    this.answer3Answered = page.getByTestId("answer3Answered");
+    this.answer4Answered = page.getByTestId("answer4Answered");
+    this.answer5Answered = page.getByTestId("answer5Answered");
+    this.answer6Answered = page.getByTestId("answer6Answered");
+    this.answer7Answered = page.getByTestId("answer7Answered");
+    this.answer8Answered = page.getByTestId("answer8Answered");
   }
 }
 

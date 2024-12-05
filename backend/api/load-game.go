@@ -39,13 +39,16 @@ func LoadGame(client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	filePath := filepath.Join(event.File)
-	_, err = os.Stat(filePath)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
-	}
-	gameBytes, err := os.ReadFile(filePath)
+	gameBytes, err := json.Marshal(event.Data)
 	loadedGame := game{}
+	if event.File != "" {
+		filePath := filepath.Join(event.File)
+		_, err = os.Stat(filePath)
+		if err != nil {
+			return fmt.Errorf(" %w", err)
+		}
+		gameBytes, err = os.ReadFile(filePath)
+	}
 	json.Unmarshal(gameBytes, &loadedGame)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
