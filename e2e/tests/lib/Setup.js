@@ -87,6 +87,20 @@ class Setup {
     }
     await bp.registerBuzzerButton.click();
   }
+  async joinRoom(page, teamNumber, playerName) {
+    const bp = new BuzzerPage(page);
+    const loginPage = new LoginPage(page);
+    await loginPage.roomCodeInput.fill(this.roomCode);
+    await loginPage.playerNameInput.fill(playerName);
+    await loginPage.joinRoomButton.click();
+    console.log(teamNumber)
+    if (teamNumber === 0) {
+      await bp.joinTeam1.click();
+    } else if (teamNumber === 1) {
+      await bp.joinTeam2.click();
+    }
+    await bp.registerBuzzerButton.click();
+  }
 }
 
 export { Setup };
