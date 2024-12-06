@@ -16,8 +16,9 @@ function Answers(props) {
         className="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
         style={{ minHeight: 70, minWidth: 0 }}
       >
-        {x.revealed &&
+        {x.revealed && (
           <p
+            id={`finalRound${props.finalRoundNumber}Answer${i}Text`}
             className="text-2xl"
             style={{
               whiteSpace: "nowrap",
@@ -28,14 +29,17 @@ function Answers(props) {
           >
             {x.input}
           </p>
-        }
+        )}
       </div>
       <div className="bg-fastm-holder w-16 font-extrabold uppercase flex justify-center items-center rounded">
-        {x.revealed &&
-          <p className="text-2xl">
+        {x.revealed && (
+          <p
+            id={`finalRound${props.finalRoundNumber}PointsTotalText`}
+            className="text-2xl"
+          >
             {t("number", { count: x.points })}
           </p>
-        }
+        )}
       </div>
     </div>
   ));
@@ -56,33 +60,39 @@ export default function Final(props) {
   return (
     <div>
       <div className="text-center my-10">
-        <p className="text-3xl text-foreground">
+        <p id="finalRoundTitle" className="text-3xl text-foreground">
           {props.game.settings.final_round_title || t("Fast Money")}
         </p>
       </div>
       <div className="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text">
-        {!props.game.hide_first_round &&
+        {!props.game.hide_first_round && (
           <div className="grid lg:grid-flow-row gap-3">
-            <Answers round={props.game.final_round} />
+            <Answers finalRoundNumber={1} round={props.game.final_round} />
           </div>
-        }
+        )}
         <div className="border-warning-500 border-4 rounded-3xl bg-warning-500 lg:hidden" />
-        {props.game.is_final_second &&
-          <div className="grid lg:grid-flow-row gap-3" >
-            <Answers round={props.game.final_round_2} />
+        {props.game.is_final_second && (
+          <div className="grid lg:grid-flow-row gap-3">
+            <Answers finalRoundNumber={2} round={props.game.final_round_2} />
           </div>
-        }
-        </div>
+        )}
+      </div>
       <div className="my-3 flex flex-row justify-evenly items-center align-middle">
         {/* Timer */}
         <div className="bg-fastm-holder inline-block p-2 rounded">
-          <p className="font-bold uppercase text-3xl text-fastm-text">
+          <p
+            id="finalRoundTimerText"
+            className="font-bold uppercase text-3xl text-fastm-text"
+          >
             {t("timer")} &nbsp;&nbsp;{t("number", { count: props.timer })}
           </p>
         </div>
         {/* Total */}
         <div className="bg-fastm-holder inline-block p-2 rounded">
-          <p className="font-bold uppercase text-3xl text-fastm-text">
+          <p
+            id="finalRoundTotalPointsText"
+            className="font-bold uppercase text-3xl text-fastm-text"
+          >
             {t("total")} &nbsp;&nbsp;{t("number", { count: total })}
           </p>
         </div>
@@ -91,7 +101,9 @@ export default function Final(props) {
       {/* WIN TEXT */}
       <div className="text-center">
         {total >= 200 ? (
-          <p className="text-5xl text-success-900">{t("win")}</p>
+          <p id="finalRoundWinText" className="text-5xl text-success-900">
+            {t("win")}
+          </p>
         ) : null}
       </div>
     </div>

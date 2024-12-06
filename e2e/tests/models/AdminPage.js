@@ -2,71 +2,113 @@ class AdminPage {
   /**
    * @param {import('playwright').Page} page
    */
+  // prettier-ignore
   constructor(page) {
     this.page = page;
-    this.deleteLogoButton = page.getByTestId("deleteLogoButton");
-    this.logoUpload = page.getByTestId("logoUpload");
-    this.roomCodeText = page.getByTestId("roomCodeText");
-    this.openGameWindowButton = page.getByTestId("openGameWindowButton");
+    this.backToRound1FinalButton = page.getByTestId("backToRound1FinalButton");
+    this.backToRound1FinalButton = page.getByTestId("backToRound1FinalButton");
+    this.clearBuzzersButton = page.getByTestId("clearBuzzersButton");
+    this.clearBuzzersButton = page.getByTestId("clearBuzzersButton");
+    this.clearBuzzersButtonDisabled = page.getByTestId("clearBuzzersButtonDisabled",);
+    this.clearBuzzersButtonDisabled = page.getByTestId("clearBuzzersButtonDisabled",);
     this.createNewGameButton = page.getByTestId("createNewGameButton");
-    this.quitButton = page.getByTestId("quitButton");
-    this.gameSelector = page.getByTestId("gameSelector");
-    this.gamePickerFileUpload = page.getByTestId("gamePickerFileUploadButton");
-    this.titleTextInput = page.getByTestId("titleTextInput");
-    this.teamOneNameInput = page.getByTestId("teamOneNameInput");
-    this.teamOnePointsInput = page.getByTestId("teamOnePointsInput");
-    this.teamTwoNameInput = page.getByTestId("teamTwoNameInput");
-    this.teamTwoPointsInput = page.getByTestId("teamTwoPointsInput");
-    this.errorText = page.getByTestId("errorText");
+    this.csvCancelUploadButton = page.getByTestId("csvCancelUploadButton")
+    this.csvErrorText = page.getByTestId("csvErrorText")
+    this.csvFileUploadSubmitButton = page.getByTestId("csvFileUploadSubmitButton")
+    this.csvFileUploadSubmitButtonDisabled = page.getByTestId("csvFileUploadSubmitButtonDisabled")
+    this.csvFinalRound2ndTimerInput = page.getByTestId("csvFinalRound2ndTimerInput")
+    this.csvFinalRoundTimerInput = page.getByTestId("csvFinalRoundTimerInput")
+    this.csvRow0 = page.getByTestId("csvRow0")
+    this.csvRow1 = page.getByTestId("csvRow1")
+    this.csvRow2 = page.getByTestId("csvRow2")
+    this.csvRow3 = page.getByTestId("csvRow3")
+    this.csvRow4 = page.getByTestId("csvRow4")
+    this.csvRow5 = page.getByTestId("csvRow5")
+    this.csvRow6 = page.getByTestId("csvRow6")
+    this.csvRow7 = page.getByTestId("csvRow7")
+    this.csvSetFinalRoundCountInput = page.getByTestId("csvSetFinalRoundCountInput")
+    this.csvSetNoHeaderInput = page.getByTestId("csvSetNoHeaderInput")
+    this.csvSetRoundCountInput = page.getByTestId("csvSetRoundCountInput")
+    this.currentRoundQuestionText = page.getByTestId("currentRoundQuestionText",);
     this.currentScreenText = page.getByTestId("currentScreenText");
-    this.titleCardButton = page.getByTestId("titleCardButton");
+    this.deleteLogoButton = page.getByTestId("deleteLogoButton");
+    this.errorText = page.getByTestId("errorText");
+    this.finalRound0PointsTotalText = page.getByTestId("finalRound0PointsTotalText")
+    this.finalRound1Answer0Text = page.getByTestId("finalRound1Answer0Text")
+    this.finalRound1Answer1Text = page.getByTestId("finalRound1Answer1Text")
+    this.finalRound1Answer2Text = page.getByTestId("finalRound1Answer2Text")
+    this.finalRound1Answer3Text = page.getByTestId("finalRound1Answer3Text")
+    this.finalRound1Answer4Text = page.getByTestId("finalRound1Answer4Text")
+    this.finalRound1Answer5Text = page.getByTestId("finalRound1Answer5Text")
+    this.finalRound1PointsTotalText = page.getByTestId("finalRound1PointsTotalText")
+    this.finalRound2Answer0Text = page.getByTestId("finalRound2Answer0Text")
+    this.finalRound2Answer1Text = page.getByTestId("finalRound2Answer1Text")
+    this.finalRound2Answer2Text = page.getByTestId("finalRound2Answer2Text")
+    this.finalRound2Answer3Text = page.getByTestId("finalRound2Answer3Text")
+    this.finalRound2Answer4Text = page.getByTestId("finalRound2Answer4Text")
+    this.finalRound2Answer5Text = page.getByTestId("finalRound2Answer5Text")
+    this.finalRoundAnswer0Input = page.getByTestId("finalRoundAnswer0Input")
+    this.finalRoundAnswer0RevealButton = page.getByTestId("finalRoundAnswer0RevealButton")
+    this.finalRoundAnswer0Selector = page.getByTestId("finalRoundAnswer0Selector")
+    this.finalRoundAnswer1Input = page.getByTestId("finalRoundAnswer1Input")
+    this.finalRoundAnswer1RevealButton = page.getByTestId("finalRoundAnswer1RevealButton")
+    this.finalRoundAnswer1Selector = page.getByTestId("finalRoundAnswer1Selector")
+    this.finalRoundAnswer2Input = page.getByTestId("finalRoundAnswer2Input")
+    this.finalRoundAnswer2RevealButton = page.getByTestId("finalRoundAnswer2RevealButton")
+    this.finalRoundAnswer2Selector = page.getByTestId("finalRoundAnswer2Selector")
+    this.finalRoundAnswer3Input = page.getByTestId("finalRoundAnswer3Input")
+    this.finalRoundAnswer3RevealButton = page.getByTestId("finalRoundAnswer3RevealButton")
+    this.finalRoundAnswer3Selector = page.getByTestId("finalRoundAnswer3Selector")
+    this.finalRoundAnswer4Input = page.getByTestId("finalRoundAnswer4Input")
+    this.finalRoundAnswer4RevealButton = page.getByTestId("finalRoundAnswer4RevealButton")
+    this.finalRoundAnswer4Selector = page.getByTestId("finalRoundAnswer4Selector")
+    this.finalRoundAnswer5Input = page.getByTestId("finalRoundAnswer5Input")
+    this.finalRoundAnswer5RevealButton = page.getByTestId("finalRoundAnswer5RevealButton")
+    this.finalRoundAnswer5Selector = page.getByTestId("finalRoundAnswer5Selector")
+    this.finalRoundAnswer6Input = page.getByTestId("finalRoundAnswer6Input")
+    this.finalRoundAnswer6RevealButton = page.getByTestId("finalRoundAnswer6RevealButton")
+    this.finalRoundAnswer6Selector = page.getByTestId("finalRoundAnswer6Selector")
+    this.finalRoundAnswer7Input = page.getByTestId("finalRoundAnswer7Input")
+    this.finalRoundAnswer7RevealButton = page.getByTestId("finalRoundAnswer7RevealButton")
+    this.finalRoundAnswer7Selector = page.getByTestId("finalRoundAnswer7Selector")
+    this.finalRoundAnswer8Input = page.getByTestId("finalRoundAnswer8Input")
+    this.finalRoundAnswer8RevealButton = page.getByTestId("finalRoundAnswer8RevealButton")
+    this.finalRoundAnswer8Selector = page.getByTestId("finalRoundAnswer8Selector")
+    this.finalRoundAnswer9Input = page.getByTestId("finalRoundAnswer9Input")
+    this.finalRoundAnswer9RevealButton = page.getByTestId("finalRoundAnswer9RevealButton")
+    this.finalRoundAnswer9Selector = page.getByTestId("finalRoundAnswer9Selector")
+    this.finalRoundAnswers0SubmitButton = page.getByTestId("finalRoundAnswers0SubmitButton")
+    this.finalRoundAnswers1SubmitButton = page.getByTestId("finalRoundAnswers1SubmitButton")
+    this.finalRoundAnswers2SubmitButton = page.getByTestId("finalRoundAnswers2SubmitButton")
+    this.finalRoundAnswers3SubmitButton = page.getByTestId("finalRoundAnswers3SubmitButton")
+    this.finalRoundAnswers4SubmitButton = page.getByTestId("finalRoundAnswers4SubmitButton")
+    this.finalRoundAnswers5SubmitButton = page.getByTestId("finalRoundAnswers5SubmitButton")
+    this.finalRoundAnswers6SubmitButton = page.getByTestId("finalRoundAnswers6SubmitButton")
+    this.finalRoundAnswers7SubmitButton = page.getByTestId("finalRoundAnswers7SubmitButton")
+    this.finalRoundAnswers8SubmitButton = page.getByTestId("finalRoundAnswers8SubmitButton")
+    this.finalRoundAnswers9SubmitButton = page.getByTestId("finalRoundAnswers9SubmitButton")
     this.finalRoundButton = page.getByTestId("finalRoundButton");
-    this.roundSelector = page.getByTestId("roundSelector");
-    this.startRoundOneButton = page.getByTestId("startRoundOneButton");
+    this.finalRoundNumberText = page.getByTestId("finalRoundNumberText");
+    this.finalRoundNumberText = page.getByTestId("finalRoundNumberText");
+    this.finalRoundTimerText = page.getByTestId("finalRoundTimerText")
+    this.finalRoundTitle = page.getByTestId("finalRoundTitle")
+    this.finalRoundTotalPointsText = page.getByTestId("finalRoundTotalPointsText")
+    this.finalRoundWinText = page.getByTestId("finalRoundWinText")
+    this.gamePickerFileUpload = page.getByTestId("gamePickerFileUploadButton");
+    this.gameSelector = page.getByTestId("gameSelector");
+    this.hideFirstRoundAnswersButton = page.getByTestId("hideFirstRoundAnswersButton",);
+    this.hideFirstRoundAnswersButton = page.getByTestId("hideFirstRoundAnswersButton",);
+    this.logoUpload = page.getByTestId("logoUpload");
+    this.multiplierInput = page.getByTestId("multiplierInput");
+    this.multiplierInput = page.getByTestId("multiplierInput");
+    this.multiplierText = page.getByTestId("multiplierText");
+    this.multiplierText = page.getByTestId("multiplierText");
     this.nextRoundButton = page.getByTestId("nextRoundButton");
-    this.showMistakeButton = page.getByTestId("showMistakeButton");
-    this.resetMistakesButton = page.getByTestId("resetMistakesButton");
-    this.currentRoundQuestionText = page.getByTestId(
-      "currentRoundQuestionText",
-    );
-    this.pointsText = page.getByTestId("pointsText");
+    this.openGameWindowButton = page.getByTestId("openGameWindowButton");
     this.pointsNumberText = page.getByTestId("pointsNumberText");
-    this.multiplierText = page.getByTestId("multiplierText");
-    this.multiplierInput = page.getByTestId("multiplierInput");
-    this.clearBuzzersButton = page.getByTestId("clearBuzzersButton");
-    this.clearBuzzersButtonDisabled = page.getByTestId(
-      "clearBuzzersButtonDisabled",
-    );
-    this.finalRoundNumberText = page.getByTestId("finalRoundNumberText");
-    this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
-    this.backToRound1FinalButton = page.getByTestId("backToRound1FinalButton");
-    this.revealFirstRoundFinalButton = page.getByTestId(
-      "revealFirstRoundFinalButton",
-    );
-    this.hideFirstRoundAnswersButton = page.getByTestId(
-      "hideFirstRoundAnswersButton",
-    );
-    this.startTimerButton = page.getByTestId("startTimerButton");
-    this.stopTimerButton = page.getByTestId("stopTimerButton");
-    this.pointsText = page.getByTestId("pointsText");
     this.pointsNumberText = page.getByTestId("pointsNumberText");
-    this.multiplierText = page.getByTestId("multiplierText");
-    this.multiplierInput = page.getByTestId("multiplierInput");
-    this.clearBuzzersButton = page.getByTestId("clearBuzzersButton");
-    this.clearBuzzersButtonDisabled = page.getByTestId(
-      "clearBuzzersButtonDisabled",
-    );
-    this.finalRoundNumberText = page.getByTestId("finalRoundNumberText");
-    this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
-    this.backToRound1FinalButton = page.getByTestId("backToRound1FinalButton");
-    this.revealFirstRoundFinalButton = page.getByTestId(
-      "revealFirstRoundFinalButton",
-    );
-    this.hideFirstRoundAnswersButton = page.getByTestId(
-      "hideFirstRoundAnswersButton",
-    );
-    this.startTimerButton = page.getByTestId("startTimerButton");
-    this.stopTimerButton = page.getByTestId("stopTimerButton");
+    this.pointsText = page.getByTestId("pointsText");
+    this.pointsText = page.getByTestId("pointsText");
     this.question0Button = page.getByTestId("question0Button")
     this.question1Button = page.getByTestId("question1Button")
     this.question2Button = page.getByTestId("question2Button")
@@ -77,6 +119,26 @@ class AdminPage {
     this.question7Button = page.getByTestId("question7Button")
     this.question8Button = page.getByTestId("question8Button")
     this.question9Button = page.getByTestId("question9Button")
+    this.quitButton = page.getByTestId("quitButton");
+    this.resetMistakesButton = page.getByTestId("resetMistakesButton");
+    this.revealFirstRoundFinalButton = page.getByTestId("revealFirstRoundFinalButton",);
+    this.revealFirstRoundFinalButton = page.getByTestId("revealFirstRoundFinalButton",);
+    this.roomCodeText = page.getByTestId("roomCodeText");
+    this.roundSelector = page.getByTestId("roundSelector");
+    this.showMistakeButton = page.getByTestId("showMistakeButton");
+    this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
+    this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
+    this.startRoundOneButton = page.getByTestId("startRoundOneButton");
+    this.startTimerButton = page.getByTestId("startTimerButton");
+    this.startTimerButton = page.getByTestId("startTimerButton");
+    this.stopTimerButton = page.getByTestId("stopTimerButton");
+    this.stopTimerButton = page.getByTestId("stopTimerButton");
+    this.teamOneNameInput = page.getByTestId("teamOneNameInput");
+    this.teamOnePointsInput = page.getByTestId("teamOnePointsInput");
+    this.teamTwoNameInput = page.getByTestId("teamTwoNameInput");
+    this.teamTwoPointsInput = page.getByTestId("teamTwoPointsInput");
+    this.titleCardButton = page.getByTestId("titleCardButton");
+    this.titleTextInput = page.getByTestId("titleTextInput");
   }
 }
 
