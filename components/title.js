@@ -49,10 +49,10 @@ export default function Title(props) {
             </p>
           </div>
           <div className="flex flex-row text-center">
-            {[0, 1].map(function(n) {
+            {[0, 1].map(function(n, i) {
               return (
                 <div key={n} className="flex-grow">
-                  <p className="text-4xl flex-grow text-foreground font-bold">
+                  <p id={`team${i}TeamName`} className="text-4xl flex-grow text-foreground font-bold">
                     {" "}
                     {props.game.teams[n].name}
                   </p>

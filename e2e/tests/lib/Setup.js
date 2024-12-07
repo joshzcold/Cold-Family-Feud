@@ -34,7 +34,7 @@ class Setup {
    *  newPlayerObj {any}
    * }
    */
-  async addPlayer() {
+  async addPlayer(spectator = false) {
     const newPlayerContext = await this.browser.newContext()
     const newPlayerName = this.clients.players.length
     const newPlayerObj = {
@@ -48,8 +48,13 @@ class Setup {
     // flip the current team.
     this.currentTeam = 1 - this.currentTeam
     await newPlayerObj.page.goto("/")
-    await this.joinRoom(newPlayerObj.page, newPlayerObj.team, newPlayerObj.name)
-    console.log(`Player ${newPlayerName} added to game`)
+    if (spectator) {
+      await this.joinRoomSpectator(newPlayerObj.page, newPlayerObj.name)
+      console.log(`Spectator ${newPlayerName} added to game`)
+    } else {
+      await this.joinRoom(newPlayerObj.page, newPlayerObj.team, newPlayerObj.name)
+      console.log(`Player ${newPlayerName} added to game`)
+    }
     return newPlayerObj
   }
 
@@ -87,19 +92,18 @@ class Setup {
     }
     await bp.registerBuzzerButton.click();
   }
-  async joinRoom(page, teamNumber, playerName) {
+
+  /**
+   * @param {import('playwright').Page} page 
+   * @param {string} playerName 
+   */
+  async joinRoomSpectator(page, playerName) {
     const bp = new BuzzerPage(page);
     const loginPage = new LoginPage(page);
     await loginPage.roomCodeInput.fill(this.roomCode);
     await loginPage.playerNameInput.fill(playerName);
     await loginPage.joinRoomButton.click();
-    console.log(teamNumber)
-    if (teamNumber === 0) {
-      await bp.joinTeam1.click();
-    } else if (teamNumber === 1) {
-      await bp.joinTeam2.click();
-    }
-    await bp.registerBuzzerButton.click();
+    await bp.openGameWindowButton.click()
   }
 }
 

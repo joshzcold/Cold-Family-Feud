@@ -48,12 +48,10 @@ func (p *RegisteredClient) pingInterval() error {
 			if err != nil {
 				return fmt.Errorf(" %w", err)
 			}
-			if p.client.send == nil {
-				log.Println("Stopping ping, nil client send channel", p.id)
-				return nil
+			if p.client.send != nil {
+				p.client.send <- message
+				log.Println("Sent ping to id", p.id)
 			}
-			p.client.send <- message
-			log.Println("Sent ping to id", p.id)
 		case <-p.stopPing:
 			log.Println("Stop ping via channel", p.id)
 			return nil

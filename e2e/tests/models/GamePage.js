@@ -41,6 +41,8 @@ class GamePage {
     this.titleLogoUserUploaded = page.getByTestId("titleLogoUserUploaded");
     this.waitingForHostText = page.getByTestId("waitingForHostText");
     this.xImg = page.getByTestId("xImg");
+    this.team0TeamName = page.getByTestId("team0TeamName")
+    this.team1TeamName = page.getByTestId("team1TeamName")
   }
 }
 

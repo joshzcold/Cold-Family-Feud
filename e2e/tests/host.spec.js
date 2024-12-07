@@ -44,17 +44,22 @@ test("can pick game", async ({ browser }) => {
 test("can edit game settings", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
-
+  const spectator = await s.addPlayer(true);
   const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(host.page);
+  const gamePage = new GamePage(spectator.page);
 
   await adminPage.gameSelector.selectOption({ index: 1 });
-  await adminPage.titleCardButton.click()
   await adminPage.titleTextInput.type("Test Title")
-
-  const gameUrl = await adminPage.openGameWindowButton.getAttribute("href");
-  await host.page.goto(gameUrl);
-  expect(await gamePage.titleLogoImg.innerText()).toBe("Test Title")
+  await adminPage.teamOneNameInput.fill("")
+  await adminPage.teamOneNameInput.type("Test 1")
+  await adminPage.teamTwoNameInput.fill("")
+  await adminPage.teamTwoNameInput.type("Test 2")
+  await adminPage.titleCardButton.click()
+  await expect(async () => {
+    expect(await gamePage.titleLogoImg.innerText()).toContain("Test Title")
+    expect(await gamePage.team0TeamName.innerText()).toContain("Test 1")
+    expect(await gamePage.team1TeamName.innerText()).toContain("Test 2")
+  }).toPass()
 });
 
 test("can upload game", async ({ browser }) => {
