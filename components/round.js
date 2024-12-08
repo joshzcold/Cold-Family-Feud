@@ -25,6 +25,7 @@ function RoundPointTally(props) {
           fill="white"
           textAnchor="middle"
           dominantBaseline="middle"
+          id={`roundPointsTeam${props.team}`}
         >
           {t("number", { count: props.points })}
         </text>
@@ -40,18 +41,19 @@ export default function Round(props) {
   return (
     <div className="w-auto flex flex-col space-y-1 items-center">
       <div className="flex flex-row justify-around space-x-2 h-28">
-        <RoundPointTally points={props.game.teams[0].points} />
+        <RoundPointTally points={props.game.teams[0].points} team={1} />
         <RoundPointTally
           points={props.game.point_tracker[props.game.round]}
           fontWeight="bold"
+          team="total"
         />
-        <RoundPointTally points={props.game.teams[1].points} />
+        <RoundPointTally points={props.game.teams[1].points} team={2}/>
       </div>
 
       <div className="flex flex-row justify-center">
         {round.multiply > 1 ? (
           <div>
-            <p className="text-2xl text-start text-foreground">
+            <p id="roundMultiplyText" className="text-2xl text-start text-foreground">
               x{t("number", { count: round.multiply })}
             </p>
           </div>
@@ -59,7 +61,7 @@ export default function Round(props) {
       </div>
       <div className="flex flex-row justify-center">
         {props.game.settings.hide_questions === false ? (
-          <p className="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>
+          <p id="roundQuestionText" className="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>
         ) : (
           <></>
         )}

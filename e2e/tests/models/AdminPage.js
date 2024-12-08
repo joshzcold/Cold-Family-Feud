@@ -5,11 +5,9 @@ class AdminPage {
   // prettier-ignore
   constructor(page) {
     this.page = page;
-    this.backToRound1FinalButton = page.getByTestId("backToRound1FinalButton");
+
     this.backToRound1FinalButton = page.getByTestId("backToRound1FinalButton");
     this.clearBuzzersButton = page.getByTestId("clearBuzzersButton");
-    this.clearBuzzersButton = page.getByTestId("clearBuzzersButton");
-    this.clearBuzzersButtonDisabled = page.getByTestId("clearBuzzersButtonDisabled",);
     this.clearBuzzersButtonDisabled = page.getByTestId("clearBuzzersButtonDisabled",);
     this.createNewGameButton = page.getByTestId("createNewGameButton");
     this.csvCancelUploadButton = page.getByTestId("csvCancelUploadButton")
@@ -75,25 +73,21 @@ class AdminPage {
     this.finalRoundAnswers9SubmitButton = page.getByTestId("finalRoundAnswers9SubmitButton")
     this.finalRoundButton = page.getByTestId("finalRoundButton");
     this.finalRoundNumberText = page.getByTestId("finalRoundNumberText");
-    this.finalRoundNumberText = page.getByTestId("finalRoundNumberText");
     this.finalRoundTimerText = page.getByTestId("finalRoundTimerText")
     this.finalRoundTitle = page.getByTestId("finalRoundTitle")
+    this.finalRoundTitleChangerInput = page.getByTestId("finalRoundTitleChangerInput")
     this.finalRoundTotalPointsText = page.getByTestId("finalRoundTotalPointsText")
     this.finalRoundWinText = page.getByTestId("finalRoundWinText")
     this.gamePickerFileUpload = page.getByTestId("gamePickerFileUploadButton");
     this.gameSelector = page.getByTestId("gameSelector");
     this.hideFirstRoundAnswersButton = page.getByTestId("hideFirstRoundAnswersButton",);
-    this.hideFirstRoundAnswersButton = page.getByTestId("hideFirstRoundAnswersButton",);
+    this.hideQuestionsInput = page.getByTestId("hideQuestionsInput")
     this.logoUpload = page.getByTestId("logoUpload");
     this.multiplierInput = page.getByTestId("multiplierInput");
-    this.multiplierInput = page.getByTestId("multiplierInput");
-    this.multiplierText = page.getByTestId("multiplierText");
     this.multiplierText = page.getByTestId("multiplierText");
     this.nextRoundButton = page.getByTestId("nextRoundButton");
     this.openGameWindowButton = page.getByTestId("openGameWindowButton");
     this.pointsNumberText = page.getByTestId("pointsNumberText");
-    this.pointsNumberText = page.getByTestId("pointsNumberText");
-    this.pointsText = page.getByTestId("pointsText");
     this.pointsText = page.getByTestId("pointsText");
     this.question0Button = page.getByTestId("question0Button")
     this.question1Button = page.getByTestId("question1Button")
@@ -108,21 +102,18 @@ class AdminPage {
     this.quitButton = page.getByTestId("quitButton");
     this.resetMistakesButton = page.getByTestId("resetMistakesButton");
     this.revealFirstRoundFinalButton = page.getByTestId("revealFirstRoundFinalButton",);
-    this.revealFirstRoundFinalButton = page.getByTestId("revealFirstRoundFinalButton",);
     this.roomCodeText = page.getByTestId("roomCodeText");
     this.roundSelector = page.getByTestId("roundSelector");
     this.showMistakeButton = page.getByTestId("showMistakeButton");
     this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
-    this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
     this.startRoundOneButton = page.getByTestId("startRoundOneButton");
     this.startTimerButton = page.getByTestId("startTimerButton");
-    this.startTimerButton = page.getByTestId("startTimerButton");
-    this.stopTimerButton = page.getByTestId("stopTimerButton");
     this.stopTimerButton = page.getByTestId("stopTimerButton");
     this.teamOneNameInput = page.getByTestId("teamOneNameInput");
     this.teamOnePointsInput = page.getByTestId("teamOnePointsInput");
     this.teamTwoNameInput = page.getByTestId("teamTwoNameInput");
     this.teamTwoPointsInput = page.getByTestId("teamTwoPointsInput");
+    this.themeSwitcherInput = page.getByTestId("themeSwitcherInput")
     this.titleCardButton = page.getByTestId("titleCardButton");
     this.titleTextInput = page.getByTestId("titleTextInput");
   }

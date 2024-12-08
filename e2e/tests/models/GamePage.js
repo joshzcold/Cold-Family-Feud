@@ -4,7 +4,6 @@ class GamePage {
    */
   constructor(page) {
     this.page = page;
-    this.roomCodeText = page.getByTestId("roomCodeText");
     this.answer0Answered = page.getByTestId("answer0Answered");
     this.answer0UnAnswered = page.getByTestId("answer0UnAnswered");
     this.answer1Answered = page.getByTestId("answer1Answered");
@@ -37,12 +36,18 @@ class GamePage {
     this.finalRound2Answer3Text = page.getByTestId("finalRound2Answer3Text")
     this.finalRound2Answer4Text = page.getByTestId("finalRound2Answer4Text")
     this.finalRound2Answer5Text = page.getByTestId("finalRound2Answer5Text")
+    this.roomCodeText = page.getByTestId("roomCodeText");
+    this.roundMultiplyText = page.getByTestId("roundMultiplyText")
+    this.roundPointsTeam1 = page.getByTestId("roundPointsTeam1")
+    this.roundPointsTeam2 = page.getByTestId("roundPointsTeam2")
+    this.roundPointsTeamtotal = page.getByTestId("roundPointsTeamtotal")
+    this.roundQuestionText = page.getByTestId("roundQuestionText")
+    this.team0TeamName = page.getByTestId("team0TeamName")
+    this.team1TeamName = page.getByTestId("team1TeamName")
     this.titleLogoImg = page.getByTestId("titleLogoImg");
     this.titleLogoUserUploaded = page.getByTestId("titleLogoUserUploaded");
     this.waitingForHostText = page.getByTestId("waitingForHostText");
     this.xImg = page.getByTestId("xImg");
-    this.team0TeamName = page.getByTestId("team0TeamName")
-    this.team1TeamName = page.getByTestId("team1TeamName")
   }
 }
 
