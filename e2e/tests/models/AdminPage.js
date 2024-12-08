@@ -134,6 +134,16 @@ class AdminPage {
     this.playerBuzzed2BuzzerTimeText = page.getByTestId("playerBuzzed2BuzzerTimeText")
     this.playerBuzzed3BuzzerTimeText = page.getByTestId("playerBuzzed3BuzzerTimeText")
     this.playerBuzzed4BuzzerTimeText = page.getByTestId("playerBuzzed4BuzzerTimeText")
+
+    this.player0Team1QuitButton = page.getByTestId("player0Team1QuitButton")
+    this.player1Team1QuitButton = page.getByTestId("player1Team1QuitButton")
+    this.player2Team1QuitButton = page.getByTestId("player2Team1QuitButton")
+    this.player3Team1QuitButton = page.getByTestId("player3Team1QuitButton")
+
+    this.player0Team2QuitButton = page.getByTestId("player0Team2QuitButton")
+    this.player1Team2QuitButton = page.getByTestId("player1Team2QuitButton")
+    this.player2Team2QuitButton = page.getByTestId("player2Team2QuitButton")
+    this.player3Team2QuitButton = page.getByTestId("player3Team2QuitButton")
   }
 }
 

@@ -73,7 +73,6 @@ func Buzz(client *Client, event *Event) error {
 	if !ok {
 		return fmt.Errorf("player not found in buzz function")
 	}
-	// TODO put in time that javascript expects
 	latencyMilliseconds := time.Millisecond * time.Duration(player.Latency)
 	latencyTime := time.Now().UTC().Add(-latencyMilliseconds).UnixMilli()
 	if len(room.Game.Buzzed) == 0 {
@@ -83,15 +82,20 @@ func Buzz(client *Client, event *Event) error {
 		})
 	} else {
 		for idx, buz := range room.Game.Buzzed {
-			if buz.Time < latencyTime && idx == len(room.Game.Buzzed)-1 {
+			if buz.Time < latencyTime {
 				room.Game.Buzzed = append(room.Game.Buzzed, buzzed{
 					ID:   event.ID,
 					Time: latencyTime,
 				})
-			} else {
-				room.Game.Buzzed = append(room.Game.Buzzed[:idx], room.Game.Buzzed[idx+1:]...)
 				break
 			}
+			// Prepend to buzzed list since this buzzed was faster
+			toAppend := []buzzed{{
+				ID:   event.ID,
+				Time: latencyTime,
+			}}
+			room.Game.Buzzed = append(toAppend, room.Game.Buzzed[idx+1:]...)
+			break
 		}
 	}
 	message, err := NewSendBuzzed()

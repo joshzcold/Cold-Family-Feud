@@ -17,17 +17,21 @@ test("has correct room code", async ({ browser, baseURL }) => {
   await host.page.goto(gameUrl);
   expect(host.page.url()).toEqual(baseURL + "/game");
   expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
+  await host.page.goto("/");
+  await adminPage.quitButton.click()
 });
 
 test("can join game", async ({ browser }) => {
   const s = new Setup(browser);
-  await s.host();
+  const host = await s.host();
   const player = await s.addPlayer();
   const buzzerPagePlayer = new BuzzerPage(player.page);
+  const adminPage = new AdminPage(host.page);
   expect(buzzerPagePlayer.titleLogoImg).toBeVisible();
   expect(await buzzerPagePlayer.waitingForHostText.innerText()).toEqual(
     "Waiting for host to start",
   );
+  await adminPage.quitButton.click()
 });
 
 test("can pick game", async ({ browser }) => {
@@ -39,6 +43,7 @@ test("can pick game", async ({ browser }) => {
   await adminPage.startRoundOneButton.click();
   const buzzerPage = new BuzzerPage(player.page);
   expect(buzzerPage.answer0UnAnswered).toBeVisible();
+  await adminPage.quitButton.click()
 });
 
 test("can edit game settings", async ({ browser }) => {
@@ -65,6 +70,7 @@ test("can edit game settings", async ({ browser }) => {
   expect(gamePage.roundQuestionText).toBeVisible();
   await adminPage.themeSwitcherInput.selectOption({ index: 1 });
   expect(spectator.page.locator("body")).toHaveClass("darkTheme bg-background");
+  await adminPage.quitButton.click()
 });
 
 test("can upload game", async ({ browser }) => {
@@ -81,10 +87,10 @@ test("can upload game", async ({ browser }) => {
   await expect(async () => {
     await adminPage.startRoundOneButton.click();
     const buzzerPage = new BuzzerPage(player.page);
-    expect(buzzerPage.answer0UnAnswered).toBeVisible();
+    await expect(buzzerPage.answer0UnAnswered).toBeVisible();
     await adminPage.question0Button.click();
-    expect(buzzerPage.answer0Answered).toBeVisible();
-    expect(adminPage.currentRoundQuestionText).toContainText(
+    await expect(buzzerPage.answer0Answered).toBeVisible();
+    await expect(adminPage.currentRoundQuestionText).toContainText(
       "Name Something That People Could Watch For Hours",
     );
   }).toPass();
@@ -119,6 +125,7 @@ test("can upload csv game", async ({ browser }) => {
   await adminPage.csvFileUploadSubmitButton.click();
   await adminPage.startRoundOneButton.click();
   expect(adminPage.currentRoundQuestionText).toContainText("We Asked 100 Moms");
+  await adminPage.quitButton.click()
 });
 
 test("can select final round answers", async ({ browser }) => {
@@ -162,4 +169,5 @@ test("can select final round answers", async ({ browser }) => {
   expect(await buzzerPage.finalRound1Answer1Text.innerText()).toBe("TEST 2");
 
   expect(await buzzerPage.finalRound2Answer1Text.innerText()).toBe("TEST 3");
+  await adminPage.quitButton.click()
 });
