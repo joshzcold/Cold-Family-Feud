@@ -1021,7 +1021,7 @@ export default function Admin(props) {
                           {game.buzzed.map((x, i) => (
                             <div className="flex flex-row space-x-5 justify-center">
                               <p
-                                id={`player${i}NameText`}
+                                id={`playerBuzzed${i}NameText`}
                                 className="text-foreground"
                               >
                                 {t("number", { count: i + 1 })}.{" "}
@@ -1029,7 +1029,7 @@ export default function Admin(props) {
                               </p>
                               <p
                                 className="text-foreground"
-                                id={`player${i}TeamNameText`}
+                                id={`playerBuzzed${i}TeamNameText`}
                               >
                                 {t("team")}:{" "}
                                 {
@@ -1039,7 +1039,7 @@ export default function Admin(props) {
                               </p>
                               <p
                                 className="text-foreground"
-                                id={`player${i}BuzzerTimeText`}
+                                id={`playerBuzzer${i}BuzzerTimeText`}
                               >
                                 {t("time")}:{" "}
                                 {(((x.time - game.tick) / 1000) % 60).toFixed(2)}{" "}

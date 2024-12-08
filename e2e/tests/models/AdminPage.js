@@ -116,6 +116,24 @@ class AdminPage {
     this.themeSwitcherInput = page.getByTestId("themeSwitcherInput")
     this.titleCardButton = page.getByTestId("titleCardButton");
     this.titleTextInput = page.getByTestId("titleTextInput");
+
+    this.playerBuzzed0TeamNameText = page.getByTestId("playerBuzzed0TeamNameText")
+    this.playerBuzzed1TeamNameText = page.getByTestId("playerBuzzed1TeamNameText")
+    this.playerBuzzed2TeamNameText = page.getByTestId("playerBuzzed2TeamNameText")
+    this.playerBuzzed3TeamNameText = page.getByTestId("playerBuzzed3TeamNameText")
+    this.playerBuzzed4TeamNameText = page.getByTestId("playerBuzzed4TeamNameText")
+
+    this.playerBuzzed0NameText = page.getByTestId("playerBuzzed0NameText")
+    this.playerBuzzed1NameText = page.getByTestId("playerBuzzed1NameText")
+    this.playerBuzzed2NameText = page.getByTestId("playerBuzzed2NameText")
+    this.playerBuzzed3NameText = page.getByTestId("playerBuzzed3NameText")
+    this.playerBuzzed4NameText = page.getByTestId("playerBuzzed4NameText")
+
+    this.playerBuzzed0BuzzerTimeText = page.getByTestId("playerBuzzed0BuzzerTimeText")
+    this.playerBuzzed1BuzzerTimeText = page.getByTestId("playerBuzzed1BuzzerTimeText")
+    this.playerBuzzed2BuzzerTimeText = page.getByTestId("playerBuzzed2BuzzerTimeText")
+    this.playerBuzzed3BuzzerTimeText = page.getByTestId("playerBuzzed3BuzzerTimeText")
+    this.playerBuzzed4BuzzerTimeText = page.getByTestId("playerBuzzed4BuzzerTimeText")
   }
 }
 
