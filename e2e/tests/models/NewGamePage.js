@@ -116,6 +116,7 @@ class NewGamePage {
     this.finalRoundQuestion6Answer4Input = page.getByTestId("finalRoundQuestion6Answer4Input")
     this.finalRoundQuestion6Answer5Input = page.getByTestId("finalRoundQuestion6Answer5Input")
     this.gamePicker = page.getByTestId("gamePicker")
+    this.gamePickerSubmitButton = page.getByTestId("gamePickerSubmitButton")
     this.newGameSubmitButton = page.getByTestId("newGameSubmitButton")
     this.round0Answer0NameInput = page.getByTestId("round0Answer0NameInput")
     this.round0Answer0PointsInput = page.getByTestId("round0Answer0PointsInput")

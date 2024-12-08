@@ -163,15 +163,3 @@ test("can select final round answers", async ({ browser }) => {
 
   expect(await buzzerPage.finalRound2Answer1Text.innerText()).toBe("TEST 3");
 });
-
-test("Can create new game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  await host.page.goto("/new");
-});
-
-test("Can create new game upload existing game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  await host.page.goto("/new");
-});

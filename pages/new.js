@@ -73,6 +73,7 @@ export default function CreateGame(props) {
                   accept=".json"
                 />
                 <button
+                  id="gamePickerSubmitButton"
                   className="hover:shadow-md rounded-md p-2 bg-primary-200"
                   onClick={() => {
                     var file = document.getElementById("gamePicker").files[0];
