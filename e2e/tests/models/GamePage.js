@@ -48,6 +48,11 @@ class GamePage {
     this.titleLogoUserUploaded = page.getByTestId("titleLogoUserUploaded");
     this.waitingForHostText = page.getByTestId("waitingForHostText");
     this.xImg = page.getByTestId("xImg");
+    this.team0MistakesList = page.getByTestId("team0MistakesList")
+    this.team1MistakesList = page.getByTestId("team1MistakesList")
+    this.roundPointsTeam1 = page.getByTestId("roundPointsTeam1")
+    this.roundPointsTeam2 = page.getByTestId("roundPointsTeam2")
+    this.roundPointsTeamtotal = page.getByTestId("roundPointsTeamtotal")
   }
 }
 

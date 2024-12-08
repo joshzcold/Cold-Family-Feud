@@ -171,3 +171,48 @@ test("can select final round answers", async ({ browser }) => {
   expect(await buzzerPage.finalRound2Answer1Text.innerText()).toBe("TEST 3");
   await adminPage.quitButton.click()
 });
+
+test("can see mistakes", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const spectator = await s.addPlayer(true);
+  const adminPage = new AdminPage(host.page);
+  const gamePage = new GamePage(spectator.page);
+
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.startRoundOneButton.click()
+
+  await adminPage.team0MistakeButton.click()
+  await adminPage.team0MistakeButton.click()
+  await adminPage.team1MistakeButton.click()
+
+  const count1 = await gamePage.team0MistakesList.locator("div").count()
+  const count2 = await gamePage.team1MistakesList.locator("div").count()
+  expect(count1).toBe(2)
+  expect(count2).toBe(1)
+});
+
+test("can get points", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const spectator = await s.addPlayer(true);
+  const adminPage = new AdminPage(host.page);
+  const gamePage = new GamePage(spectator.page);
+
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.startRoundOneButton.click()
+
+  await adminPage.question0Button.click()
+  await adminPage.question1Button.click()
+  const points1Text = await adminPage.question0Button.innerText()
+  const points2Text = await adminPage.question1Button.innerText()
+  const points1 = parseInt(points1Text.replace(/^\D+/g, ''))
+  const points2 = parseInt(points2Text.replace(/^\D+/g, ''))
+
+  await adminPage.team0GivePointsButton.click()
+
+  const pointsTotal = points1 + points2
+
+  expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
+  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
+});

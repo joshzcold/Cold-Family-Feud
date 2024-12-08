@@ -144,6 +144,11 @@ class AdminPage {
     this.player1Team2QuitButton = page.getByTestId("player1Team2QuitButton")
     this.player2Team2QuitButton = page.getByTestId("player2Team2QuitButton")
     this.player3Team2QuitButton = page.getByTestId("player3Team2QuitButton")
+
+    this.team0MistakeButton = page.getByTestId("team0MistakeButton")
+    this.team1MistakeButton = page.getByTestId("team1MistakeButton")
+    this.team0GivePointsButton = page.getByTestId("team0GivePointsButton")
+    this.team1GivePointsButton = page.getByTestId("team1GivePointsButton")
   }
 }
 
