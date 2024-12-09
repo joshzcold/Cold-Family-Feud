@@ -5,6 +5,7 @@ import (
 	"github.com/joshzcold/Cold-Family-Feud/api"
 	"log"
 	"net/http"
+	"os"
 )
 
 var cfg = struct {
@@ -12,12 +13,48 @@ var cfg = struct {
 	store string
 }{}
 
-func main() {
+type flagVal struct {
+	cfgVal      *string
+	name        string
+	defaultVal  any
+	description string
+	flagFunc    func(p *string, name string, value string, usage string)
+	osVal       string
+}
 
-	flag.StringVar(&cfg.addr, "listen_address", ":8080", "Address for server to bind to.")
-	flag.StringVar(&cfg.store, "game_store", "memory", "Choice of storage medium of the game")
+func flags() {
+	flags := []flagVal{
+		flagVal{
+			cfgVal:     &cfg.addr,
+			name:       "listen_address",
+			defaultVal: ":8080",
+			flagFunc:   flag.StringVar,
+			osVal:      "LISTEN_ADDRESS",
+			description: "Address for server to bind to.",
+		},
+		flagVal{
+			cfgVal:     &cfg.store,
+			name:       "game_store",
+			defaultVal: "memory",
+			flagFunc:   flag.StringVar,
+			osVal:      "GAME_STORE",
+			description: "Choice of storage medium of the game",
+		},
+	}
+
+	for _, f := range flags {
+		f.flagFunc(&f.cfgVal, f.name, f.description)
+	}
 	flag.Parse()
+	for _, f := range flags {
+		if envVar := os.Getenv(f.osVal); envVar != "" {
+			f.cfgVal = &envVar
+		}
+	}
+}
 
+func main() {
+	flags()
 	err := api.NewGameStore(cfg.store)
 	if err != nil {
 		log.Panicf("Error: unable initalize store: %s", err)

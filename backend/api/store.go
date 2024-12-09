@@ -8,7 +8,7 @@ var store gameStore
 // defines functions required to implement the state of the game.
 type gameStore interface {
 	// List of active rooms on the server
-	currentRooms() ([]string) 
+	currentRooms() []string
 	// Game data of room
 	getRoom(string) (room, error)
 	// Update game data of room
@@ -21,7 +21,6 @@ type gameStore interface {
 	loadLogo(string) ([]byte, error)
 	// Delete a logo image from room
 	deleteLogo(string) error
-
 }
 
 func NewGameStore(gameStore string) error {
@@ -29,7 +28,10 @@ func NewGameStore(gameStore string) error {
 	case "memory":
 		store = NewMemoryStore()
 		return nil
+	case "sqlite":
+		store, _ = NewSQLiteStore()
 	default:
 		return fmt.Errorf("unknown store: %q", gameStore)
 	}
+	return nil
 }
