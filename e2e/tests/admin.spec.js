@@ -192,7 +192,7 @@ test("can see mistakes", async ({ browser }) => {
   expect(count2).toBe(1)
 });
 
-test("can get points", async ({ browser }) => {
+test("can track points between rounds", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
   const spectator = await s.addPlayer(true);
@@ -214,5 +214,24 @@ test("can get points", async ({ browser }) => {
   const pointsTotal = points1 + points2
 
   expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
+  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
+
+  await adminPage.nextRoundButton.click()
+  expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
+  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe("0")
+  const points1Text_2 = await adminPage.question0Button.innerText()
+  const points2Text_2 = await adminPage.question1Button.innerText()
+  const points1_2 = parseInt(points1Text_2.replace(/^\D+/g, ''))
+  const points2_2 = parseInt(points2Text_2.replace(/^\D+/g, ''))
+  const points2TotalPlusPrevious = points1_2 + points2_2 + pointsTotal
+  const points2Total = points1_2 + points2_2
+  await adminPage.question0Button.click()
+  await adminPage.question1Button.click()
+  await adminPage.team0GivePointsButton.click()
+  expect (await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString())
+  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(points2Total.toString())
+  await adminPage.roundSelector.selectOption({index: 0})
+
+  expect (await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString())
   expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
 });
