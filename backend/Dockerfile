@@ -3,10 +3,16 @@ RUN mkdir -p /src
 WORKDIR /src
 
 FROM base as dev
+ENV CGO_ENABLED 1
+RUN apk add gcc musl-dev sqlite
 RUN go install github.com/air-verse/air@latest
+COPY . .
+RUN go mod download
 CMD ["air", "--build.cmd", "go build .", "--build.bin", "/src/Cold-Family-Feud"]
 
 FROM base AS builder
+ENV CGO_ENABLED 1
+RUN apk add gcc musl-dev
 COPY . .
 RUN go build .
 

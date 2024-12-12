@@ -6,6 +6,8 @@ SHELL := /bin/bash
 export docker_registry ?= ghcr.io/joshzcold
 export DOCKER_BUILDKIT=1
 
+export game_store ?= memory
+
 build-frontend:
 	set -x
 	docker build -t ${docker_registry}/famf-web:latest .

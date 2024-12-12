@@ -9,6 +9,9 @@ services:
     image: ${docker_registry}/famf-server:dev
     ports:
       - 8080:8080
+    environment:
+      # One of memory, sqlite
+      GAME_STORE: ${game_store}
     volumes:
       - ../backend:/src
       - ../games/:/src/games/

@@ -30,15 +30,17 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 	if err != nil {
 		return &SQLiteStore{}, fmt.Errorf(" %w", err)
 	}
+	db.AutoMigrate(&Room{})
 	return &SQLiteStore{
 		db: db,
+		rooms: make(map[string]room),
 	}, nil
 }
 
 func (s *SQLiteStore) currentRooms() []string {
 	var rooms []Room
 	var roomList []string
-	s.db.Select("roomcode").Find(&rooms)
+	s.db.Select("room_code").Find(&rooms)
 
 	for _, r := range rooms {
 		roomList = append(roomList, r.RoomCode)
@@ -49,8 +51,13 @@ func (s *SQLiteStore) currentRooms() []string {
 func (s *SQLiteStore) getRoom(roomCode string) (room, error) {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
+	var exists bool
+	err := s.db.Model(&Room{}).Where("room_code = ?", roomCode).Find(&exists).Error
+	if err != nil {
+	return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
+	}
 	var foundRoomDB Room
-	s.db.Where("roomcode = ?", roomCode).First(&foundRoomDB)
+	s.db.Where("room_code = ?", roomCode).First(&foundRoomDB)
 	foundRoom, ok := s.rooms[roomCode]
 	if ok {
 		json.Unmarshal(foundRoomDB.RoomJson, &foundRoom.Game)
@@ -62,38 +69,44 @@ func (s *SQLiteStore) getRoom(roomCode string) (room, error) {
 func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
 	s.mu.Lock()
 	defer s.mu.Unlock()
-	var foundRoomDB Room
-	s.db.Where("roomcode = ?", roomCode).First(&foundRoomDB)
 
-	_, ok := s.rooms[roomCode]
-	if !ok {
-		return fmt.Errorf("could not find game of room code: %s", roomCode)
-	}
 	jsonData, err := json.Marshal(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	s.db.Update("roomjson", jsonData).Where("roomcode = ?", roomCode)
+	var exists bool
+	err = s.db.Where("room_code = ?", roomCode).Find(&exists).Error
+	if err != nil {
+		newRoom := Room{
+				RoomCode: roomCode,
+				RoomJson: jsonData,
+		}
+		s.db.Create(&newRoom)
+		s.rooms[roomCode] = room
+		return nil
+	}
+	s.db.Update("room_json", jsonData).Where("room_code = ?", roomCode)
+	s.rooms[roomCode] = room
 	return nil
 }
 
 func (s *SQLiteStore) deleteRoom(roomCode string) error {
-	s.db.Where("roomcode = ?", roomCode).Delete(&Room{})
+	s.db.Where("room_code = ?", roomCode).Delete(&Room{})
 	return nil
 }
 
 func (s *SQLiteStore) saveLogo(roomCode string, logo []byte) error {
-	s.db.Model(&Room{}).Where("roomcode = ?", roomCode).Update("roomicon", logo)
+	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_icon", logo)
 	return nil
 }
 
 func (s *SQLiteStore) loadLogo(roomCode string) ([]byte, error) {
 	var logo []byte
-	s.db.Model(&Room{}).Where("roomcode = ?", roomCode).Select("roomicon", &logo)
+	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Select("room_icon", &logo)
 	return logo, nil
 }
 
 func (s *SQLiteStore) deleteLogo(roomCode string) error {
-	s.db.Model(&Room{}).Where("roomcode = ?", roomCode).Update("roomicon", nil)
+	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_icon", nil)
 	return nil
 }

@@ -1,6 +1,9 @@
 package api
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 var store gameStore
 
@@ -26,9 +29,11 @@ type gameStore interface {
 func NewGameStore(gameStore string) error {
 	switch gameStore {
 	case "memory":
+		log.Println("Starting famf with memory store")
 		store = NewMemoryStore()
 		return nil
 	case "sqlite":
+		log.Println("Starting famf with sqlite store")
 		store, _ = NewSQLiteStore()
 	default:
 		return fmt.Errorf("unknown store: %q", gameStore)

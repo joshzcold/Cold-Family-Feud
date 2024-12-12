@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/joshzcold/Cold-Family-Feud/api"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/joshzcold/Cold-Family-Feud/api"
 )
 
 var cfg = struct {
@@ -13,43 +14,17 @@ var cfg = struct {
 	store string
 }{}
 
-type flagVal struct {
-	cfgVal      *string
-	name        string
-	defaultVal  any
-	description string
-	flagFunc    func(p *string, name string, value string, usage string)
-	osVal       string
-}
-
 func flags() {
-	flags := []flagVal{
-		flagVal{
-			cfgVal:     &cfg.addr,
-			name:       "listen_address",
-			defaultVal: ":8080",
-			flagFunc:   flag.StringVar,
-			osVal:      "LISTEN_ADDRESS",
-			description: "Address for server to bind to.",
-		},
-		flagVal{
-			cfgVal:     &cfg.store,
-			name:       "game_store",
-			defaultVal: "memory",
-			flagFunc:   flag.StringVar,
-			osVal:      "GAME_STORE",
-			description: "Choice of storage medium of the game",
-		},
+	flag.StringVar(&cfg.addr, "listen_address", ":8080", "Address for server to bind to.")
+	flag.StringVar(&cfg.store, "game_store", "memory", "Choice of storage medium of the game")
+	flag.Parse()
+
+	if envAddr := os.Getenv("LISTEN_ADDRESS"); envAddr != "" {
+		cfg.addr = envAddr
 	}
 
-	for _, f := range flags {
-		f.flagFunc(&f.cfgVal, f.name, f.description)
-	}
-	flag.Parse()
-	for _, f := range flags {
-		if envVar := os.Getenv(f.osVal); envVar != "" {
-			f.cfgVal = &envVar
-		}
+	if envGameStore := os.Getenv("GAME_STORE"); envGameStore != "" {
+		cfg.store = envGameStore
 	}
 }
 
