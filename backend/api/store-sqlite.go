@@ -3,6 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"sync"
 
 	"gorm.io/datatypes"
@@ -20,7 +21,7 @@ type SQLiteStore struct {
 
 type Room struct {
 	gorm.Model
-	RoomCode string
+	RoomCode string `gorm:"primaryKey"`
 	RoomJson datatypes.JSON
 	RoomIcon datatypes.NullByte
 }
@@ -32,7 +33,7 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 	}
 	db.AutoMigrate(&Room{})
 	return &SQLiteStore{
-		db: db,
+		db:    db,
 		rooms: make(map[string]room),
 	}, nil
 }
@@ -40,7 +41,7 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 func (s *SQLiteStore) currentRooms() []string {
 	var rooms []Room
 	var roomList []string
-	s.db.Select("room_code").Find(&rooms)
+	s.db.Model(&Room{}).Select("room_code").Find(&rooms)
 
 	for _, r := range rooms {
 		roomList = append(roomList, r.RoomCode)
@@ -51,13 +52,12 @@ func (s *SQLiteStore) currentRooms() []string {
 func (s *SQLiteStore) getRoom(roomCode string) (room, error) {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
-	var exists bool
-	err := s.db.Model(&Room{}).Where("room_code = ?", roomCode).Find(&exists).Error
-	if err != nil {
-	return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
-	}
 	var foundRoomDB Room
-	s.db.Where("room_code = ?", roomCode).First(&foundRoomDB)
+
+	log.Println("Hitting getRoom", roomCode)
+	if err := s.db.Where("room_code = ?", roomCode).Find(&foundRoomDB).Error; err != nil {
+		return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
+	}
 	foundRoom, ok := s.rooms[roomCode]
 	if ok {
 		json.Unmarshal(foundRoomDB.RoomJson, &foundRoom.Game)
@@ -74,19 +74,17 @@ func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	var exists bool
-	err = s.db.Where("room_code = ?", roomCode).Find(&exists).Error
-	if err != nil {
+	log.Println("Hitting writeRoom", roomCode)
+	result := s.db.Where("room_code = ?", roomCode).Limit(1).Find(&Room{})
+	if result.Error != nil {
 		newRoom := Room{
-				RoomCode: roomCode,
-				RoomJson: jsonData,
+			RoomCode: roomCode,
+			RoomJson: jsonData,
 		}
 		s.db.Create(&newRoom)
-		s.rooms[roomCode] = room
 		return nil
 	}
-	s.db.Update("room_json", jsonData).Where("room_code = ?", roomCode)
-	s.rooms[roomCode] = room
+	result.Update("room_json", jsonData)
 	return nil
 }
 
