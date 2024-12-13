@@ -2,9 +2,9 @@ package api
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"log"
-	"sync"
 
 	"gorm.io/datatypes"
 	"gorm.io/driver/sqlite"
@@ -14,9 +14,6 @@ import (
 type SQLiteStore struct {
 	// Keep game data in storage
 	db *gorm.DB
-	// Keep connections and registeredClients in memory
-	rooms map[string]room
-	mu    sync.RWMutex
 }
 
 type Room struct {
@@ -34,7 +31,6 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 	db.AutoMigrate(&Room{})
 	return &SQLiteStore{
 		db:    db,
-		rooms: make(map[string]room),
 	}, nil
 }
 
@@ -50,33 +46,26 @@ func (s *SQLiteStore) currentRooms() []string {
 }
 
 func (s *SQLiteStore) getRoom(roomCode string) (room, error) {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
 	var foundRoomDB Room
 
 	log.Println("Hitting getRoom", roomCode)
-	if err := s.db.Where("room_code = ?", roomCode).Find(&foundRoomDB).Error; err != nil {
-		return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
+	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
+		return room{}, fmt.Errorf("could not find game of room code: %s in database", roomCode)
 	}
-	foundRoom, ok := s.rooms[roomCode]
-	if ok {
-		json.Unmarshal(foundRoomDB.RoomJson, &foundRoom.Game)
-		return foundRoom, nil
-	}
-	return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
+	// TODO how to store only game data in the store, but then also put other state data
+	// like clients in memory.
+	retrievedRoom := room{}
+	json.Unmarshal(foundRoomDB.RoomJson, &retrievedRoom.Game)
+	return retrievedRoom, nil
 }
 
 func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-
 	jsonData, err := json.Marshal(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
 	log.Println("Hitting writeRoom", roomCode)
-	result := s.db.Where("room_code = ?", roomCode).Limit(1).Find(&Room{})
-	if result.Error != nil {
+	if err := s.db.Where("room_code = ?", roomCode).First(&Room{}).Error; errors.Is(err, gorm.ErrRecordNotFound) {
 		newRoom := Room{
 			RoomCode: roomCode,
 			RoomJson: jsonData,
@@ -84,7 +73,7 @@ func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
 		s.db.Create(&newRoom)
 		return nil
 	}
-	result.Update("room_json", jsonData)
+	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_json", jsonData)
 	return nil
 }
 

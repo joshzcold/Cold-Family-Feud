@@ -67,7 +67,12 @@ func Quit(client *Client, event *Event) error {
 	if event.Host {
 		return quitHost(&room, event)
 	}
-	return quitPlayer(&room, client, event)
+	err = quitPlayer(&room, client, event)
+	s.writeRoom(room.Game.Room, room)
+	if err != nil {
+		return fmt.Errorf(" %w", err)
+	}
+	return nil
 }
 
 func JoinRoom(client *Client, event *Event) error {
@@ -83,6 +88,7 @@ func JoinRoom(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	client.send <- message
+	s.writeRoom(event.Room, room)
 	return nil
 }
 

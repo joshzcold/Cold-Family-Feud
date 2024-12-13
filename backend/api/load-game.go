@@ -67,5 +67,6 @@ func LoadGame(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Hub.broadcast <- message
+	s.writeRoom(event.Room, room)
 	return nil
 }
