@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"log"
+	"sync"
 
 	"gorm.io/datatypes"
 	"gorm.io/driver/sqlite"
@@ -14,6 +14,8 @@ import (
 type SQLiteStore struct {
 	// Keep game data in storage
 	db *gorm.DB
+	rooms map[string]roomConnections
+	mu    sync.RWMutex
 }
 
 type Room struct {
@@ -31,6 +33,7 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 	db.AutoMigrate(&Room{})
 	return &SQLiteStore{
 		db:    db,
+		rooms: make(map[string]roomConnections),
 	}, nil
 }
 
@@ -46,38 +49,54 @@ func (s *SQLiteStore) currentRooms() []string {
 }
 
 func (s *SQLiteStore) getRoom(roomCode string) (room, error) {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
 	var foundRoomDB Room
 
-	log.Println("Hitting getRoom", roomCode)
 	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
 		return room{}, fmt.Errorf("could not find game of room code: %s in database", roomCode)
 	}
-	// TODO how to store only game data in the store, but then also put other state data
-	// like clients in memory.
-	retrievedRoom := room{}
+
+	foundRoom, ok := s.rooms[roomCode]
+	if ! ok {
+		return room{}, fmt.Errorf("could not find connection of room code: %s", roomCode)
+	}
+	retrievedRoom := room {
+		Game: &game{},
+		roomConnections: roomConnections {
+			Hub: foundRoom.Hub,
+			registeredClients: foundRoom.registeredClients,
+		},
+	}
 	json.Unmarshal(foundRoomDB.RoomJson, &retrievedRoom.Game)
+
 	return retrievedRoom, nil
 }
 
 func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
 	jsonData, err := json.Marshal(room.Game)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	log.Println("Hitting writeRoom", roomCode)
 	if err := s.db.Where("room_code = ?", roomCode).First(&Room{}).Error; errors.Is(err, gorm.ErrRecordNotFound) {
 		newRoom := Room{
 			RoomCode: roomCode,
 			RoomJson: jsonData,
 		}
 		s.db.Create(&newRoom)
+		s.rooms[roomCode] = room.roomConnections
 		return nil
 	}
 	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_json", jsonData)
+	s.rooms[roomCode] = room.roomConnections
 	return nil
 }
 
 func (s *SQLiteStore) deleteRoom(roomCode string) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
 	s.db.Where("room_code = ?", roomCode).Delete(&Room{})
 	return nil
 }

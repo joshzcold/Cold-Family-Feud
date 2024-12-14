@@ -95,10 +95,14 @@ type RegisteredClient struct {
 	stopPing chan bool
 }
 
-type room struct {
-	Game *game `json:"game"`
-	// Assign to ws Hub when hosting room
+type roomConnections struct {
 	Hub *Hub
 	// Get lag of each client
 	registeredClients map[string]*RegisteredClient
+}
+
+type room struct {
+	Game *game `json:"game"`
+	// Assign to ws Hub when hosting room
+	roomConnections
 }

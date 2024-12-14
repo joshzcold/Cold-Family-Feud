@@ -92,8 +92,10 @@ func setTick(event *Event) error {
 
 func NewGame(roomCode string) room {
 	return room{
-		Hub:               nil,
-		registeredClients: make(map[string]*RegisteredClient),
+		roomConnections: roomConnections{
+			Hub:               nil,
+			registeredClients: make(map[string]*RegisteredClient),
+		},
 		Game: &game{
 			Room:              roomCode,
 			RegisteredPlayers: make(map[string]*registeredPlayer),
