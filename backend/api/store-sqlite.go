@@ -23,7 +23,7 @@ type Room struct {
 	gorm.Model
 	RoomCode string `gorm:"primaryKey"`
 	RoomJson datatypes.JSON
-	RoomIcon datatypes.NullByte
+	RoomIcon []byte
 }
 
 func NewSQLiteStore() (*SQLiteStore, error) {
@@ -54,7 +54,6 @@ func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, error) {
 	defer s.mu.RUnlock()
 	var foundRoomDB Room
 
-	log.Println("Incoming room code", roomCode)
 	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
 		return room{}, fmt.Errorf("could not find game of room code: %s in database", roomCode)
 	}
@@ -113,9 +112,12 @@ func (s *SQLiteStore) saveLogo(roomCode string, logo []byte) error {
 }
 
 func (s *SQLiteStore) loadLogo(roomCode string) ([]byte, error) {
-	var logo []byte
-	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Select("room_icon", &logo)
-	return logo, nil
+	var foundRoomDB Room
+
+	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
+		return nil, nil
+	}
+	return foundRoomDB.RoomIcon, nil
 }
 
 func (s *SQLiteStore) deleteLogo(roomCode string) error {
