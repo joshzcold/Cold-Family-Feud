@@ -50,8 +50,12 @@ func quitHost(room *room, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	room.Hub.broadcast <- message
-	room.Hub.stop <- true
+	if room.Hub.broadcast != nil {
+		room.Hub.broadcast <- message
+	}
+	if room.Hub.stop != nil {
+		room.Hub.stop <- true
+	}
 	// Remove room
 	s.deleteRoom(event.Room)
 	s.deleteLogo(event.Room)

@@ -102,9 +102,8 @@ func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
 }
 
 func (s *SQLiteStore) deleteRoom(roomCode string) error {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	s.db.Where("room_code = ?", roomCode).Delete(&Room{})
+	log.Println("Try to delete room", roomCode)
+	s.db.Unscoped().Where("room_code = ?", roomCode).Delete(&Room{})
 	return nil
 }
 
