@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"log"
 	"sync"
 
 	"gorm.io/datatypes"
@@ -13,7 +14,7 @@ import (
 
 type SQLiteStore struct {
 	// Keep game data in storage
-	db *gorm.DB
+	db    *gorm.DB
 	rooms map[string]roomConnections
 	mu    sync.RWMutex
 }
@@ -48,23 +49,29 @@ func (s *SQLiteStore) currentRooms() []string {
 	return roomList
 }
 
-func (s *SQLiteStore) getRoom(roomCode string) (room, error) {
+func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, error) {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var foundRoomDB Room
 
+	log.Println("Incoming room code", roomCode)
 	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
 		return room{}, fmt.Errorf("could not find game of room code: %s in database", roomCode)
 	}
+	_, ok := s.rooms[roomCode]
 
-	foundRoom, ok := s.rooms[roomCode]
-	if ! ok {
-		return room{}, fmt.Errorf("could not find connection of room code: %s", roomCode)
+	// Reattach to the game creating a new hub
+	if !ok && roomCode != "" {
+		log.Println("getRoom recreating roomConnections map")
+		initRoom := InitalizeRoom(client, roomCode)
+		s.rooms[roomCode] = initRoom.roomConnections
 	}
-	retrievedRoom := room {
+
+	foundRoom, _ := s.rooms[roomCode]
+	retrievedRoom := room{
 		Game: &game{},
-		roomConnections: roomConnections {
-			Hub: foundRoom.Hub,
+		roomConnections: roomConnections{
+			Hub:               foundRoom.Hub,
 			registeredClients: foundRoom.registeredClients,
 		},
 	}

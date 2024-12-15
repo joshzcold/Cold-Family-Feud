@@ -35,7 +35,7 @@ func addGameKeys(game *game) error {
 
 func LoadGame(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

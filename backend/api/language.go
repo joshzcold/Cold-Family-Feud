@@ -15,7 +15,7 @@ func ChangeLanguage(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

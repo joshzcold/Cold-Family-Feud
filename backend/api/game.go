@@ -79,8 +79,8 @@ type game struct {
 	Tick              int64                        `json:"tick"`
 }
 
-func setTick(event *Event) error {
-	room, err := store.getRoom(event.Room)
+func setTick(client *Client, event *Event) error {
+	room, err := store.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

@@ -13,7 +13,7 @@ type gameStore interface {
 	// List of active rooms on the server
 	currentRooms() []string
 	// Game data of room
-	getRoom(string) (room, error)
+	getRoom(*Client, string) (room, error)
 	// Update game data of room
 	writeRoom(string, room) error
 	// Erase room from server

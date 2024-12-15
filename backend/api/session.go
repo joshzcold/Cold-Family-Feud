@@ -24,8 +24,10 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
-	playerClient.client.send <- message
-	playerClient.client.stop <- true
+	if playerClient != nil {
+		playerClient.client.send <- message
+		playerClient.client.stop <- true
+	}
 	delete(room.Game.RegisteredPlayers, event.ID)
 	message, err = NewSendData(room.Game)
 	if err != nil {
@@ -60,7 +62,7 @@ func quitHost(room *room, event *Event) error {
 func Quit(client *Client, event *Event) error {
 	log.Println("user quit game", event.Room, event.ID, event.Host)
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -77,7 +79,7 @@ func Quit(client *Client, event *Event) error {
 
 func JoinRoom(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -92,6 +94,15 @@ func JoinRoom(client *Client, event *Event) error {
 	return nil
 }
 
+func InitalizeRoom(client *Client, newRoomCode string) room {
+	initRoom := NewGame(newRoomCode)
+	initRoom.Hub = NewHub()
+	go initRoom.Hub.run()
+	go initRoom.gameTimeout()
+	initRoom.Hub.register <- client
+	return initRoom
+}
+
 // HostRoom create new room and websocket hub
 func HostRoom(client *Client, event *Event) error {
 	newRoomCode := roomCode()
@@ -100,12 +111,8 @@ func HostRoom(client *Client, event *Event) error {
 	for slices.Contains(currentRooms, newRoomCode) {
 		newRoomCode = roomCode()
 	}
-	initRoom := NewGame(newRoomCode)
+	initRoom := InitalizeRoom(client, newRoomCode)
 	hostID := registerHost(&initRoom)
-	initRoom.Hub = NewHub()
-	go initRoom.Hub.run()
-	go initRoom.gameTimeout()
-	initRoom.Hub.register <- client
 	message, err := NewSendHostRoom(newRoomCode, initRoom.Game, hostID)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
@@ -142,15 +149,16 @@ func getBackInPlayer(client *Client, room room, roomCode string, playerID string
 		if playerClient.stopPing != nil {
 			playerClient.stopPing <- true
 		}
-		// Set up recurring ping loop to get player latency
-		playerClient = &RegisteredClient{
-			id:     playerID,
-			client: client,
-			room:   &room,
-			stopPing:   make(chan bool),
-		}
-		go playerClient.pingInterval()
 	}
+	playerClient = &RegisteredClient{
+		id:       playerID,
+		client:   client,
+		room:     &room,
+		stopPing: make(chan bool),
+	}
+	go playerClient.pingInterval()
+	room.registeredClients[playerID] = playerClient
+
 	return nil
 }
 
@@ -161,7 +169,7 @@ func GetBackIn(client *Client, event *Event) error {
 	}
 	roomCode, playerID := session[0], session[1]
 	s := store
-	room, err := s.getRoom(roomCode)
+	room, err := s.getRoom(client, roomCode)
 	if err != nil {
 		return nil
 	}
@@ -177,9 +185,9 @@ func registerPlayer(room *room, playerName string, client *Client) string {
 		Name: playerName,
 	}
 	room.registeredClients[playerID] = &RegisteredClient{
-		id: playerID,
+		id:     playerID,
 		client: client,
-		room: room,
+		room:   room,
 	}
 	log.Println("Registered player in room: ", playerName, playerID, room.Game.Room)
 

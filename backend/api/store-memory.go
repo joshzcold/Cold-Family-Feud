@@ -29,7 +29,7 @@ func (m *MemoryStore) currentRooms() []string {
 	return keys
 }
 
-func (m *MemoryStore) getRoom(roomCode string) (room, error) {
+func (m *MemoryStore) getRoom(client *Client, roomCode string) (room, error) {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 	foundGame, ok := m.rooms[roomCode]

@@ -23,7 +23,7 @@ func mergeGame(game *game, newData *game) {
 
 func NewData(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -38,7 +38,7 @@ func NewData(client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	mergeGame(room.Game, &newData)
-	setTick(event)
+	setTick(client, event)
 
 	if copyRound != newData.Round {
 		room.Game.Buzzed = []buzzed{}
@@ -59,7 +59,7 @@ func NewData(client *Client, event *Event) error {
 
 func SendUnknown(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

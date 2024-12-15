@@ -7,7 +7,7 @@ import (
 
 func ClearBuzzers(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -28,7 +28,7 @@ func ClearBuzzers(client *Client, event *Event) error {
 
 func RegisterBuzzer(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
@@ -68,7 +68,7 @@ func RegisterBuzzer(client *Client, event *Event) error {
 
 func Buzz(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if !ok {
 		return fmt.Errorf("player not found in buzz function")
@@ -114,7 +114,7 @@ func Buzz(client *Client, event *Event) error {
 
 func RegisterSpectator(client *Client, event *Event) error {
 	s := store
-	room, err := s.getRoom(event.Room)
+	room, err := s.getRoom(client, event.Room)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}
