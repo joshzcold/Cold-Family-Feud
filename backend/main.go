@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/joshzcold/Cold-Family-Feud/api"
+	"github.com/joshzcold/Cold-Friendly-Feud/api"
 )
 
 var cfg = struct {

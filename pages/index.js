@@ -224,12 +224,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{t("Family Feud")}</title>
+        <title>{t("Friendly Feud")}</title>
         <link rel="icon" href="x.png"></link>
         <meta name="author" content="Joshua Cold" />
         <meta
           name="description"
-          content="Free to play open source family feud game. Host your own custom created family feud games with built in online buzzers, timers and admin controls. Visit https://github.com/joshzcold/Cold-Family-Feud to check out the source code and contribute."
+          content="Free to play open source friendly feud game. Host your own custom created family feud games with built in online buzzers, timers and admin controls. Visit https://github.com/joshzcold/Cold-Family-Feud to check out the source code and contribute."
         />
         <link
           rel="preload"

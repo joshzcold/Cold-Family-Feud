@@ -49,7 +49,7 @@ function SourceCode() {
   return (
     <div className="flex flex-row items-center space-x-4">
       <p className="text-secondary-900 text-sm">{t("source code")}</p>
-      <a href="https://github.com/joshzcold/Cold-Family-Feud" target="_blank">
+      <a href="https://github.com/joshzcold/Cold-Friendly-Feud" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"

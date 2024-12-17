@@ -1,8 +1,8 @@
-module github.com/joshzcold/Cold-Family-Feud
+module github.com/joshzcold/Cold-Friendly-Feud
 
 go 1.23.3
 
-replace github.com/joshzcold/Cold-Family-Feud => ./
+replace github.com/joshzcold/Cold-Friendly-Feud => ./
 
 require (
 	github.com/google/uuid v1.6.0

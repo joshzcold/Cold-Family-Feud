@@ -8,7 +8,7 @@ RUN apk add gcc musl-dev sqlite
 RUN go install github.com/air-verse/air@latest
 COPY . .
 RUN go mod download
-CMD ["air", "--build.cmd", "go build .", "--build.bin", "/src/Cold-Family-Feud"]
+CMD ["air", "--build.cmd", "go build .", "--build.bin", "/src/Cold-Friendly-Feud"]
 
 FROM base AS builder
 ENV CGO_ENABLED 1
@@ -20,5 +20,5 @@ FROM base as app
 RUN mkdir -p /src
 WORKDIR /src
 COPY --from=games . /src/games/
-COPY --from=builder --chmod=755 /src/Cold-Family-Feud /src/Cold-Family-Feud
-CMD ["/src/Cold-Family-Feud"]
+COPY --from=builder --chmod=755 /src/Cold-Friendly-Feud /src/Cold-Family-Feud
+CMD ["/src/Cold-Friendly-Feud"]

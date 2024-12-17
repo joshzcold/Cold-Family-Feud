@@ -73,7 +73,7 @@ function validateCsv(
   }
 }
 
-function csvToColdFamilyFeudFormat(
+function csvToColdFriendlyFeudFormat(
   csvData,
   roundCount,
   roundFinalCount,
@@ -331,7 +331,7 @@ export default function CSVLoader(props) {
               className="text-2xl"
               id="csvFileUploadSubmitButton"
               onClick={() => {
-                csvToColdFamilyFeudFormat(
+                csvToColdFriendlyFeudFormat(
                   csvData,
                   roundCount,
                   roundFinalCount,

@@ -6,7 +6,7 @@ FAMF_STORE=${FAMF_STORE:-memory}
 
 cd /src
 
-./Cold-Family-Feud --game_store "$FAMF_STORE" &
+./Cold-Friendly-Feud --game_store "$FAMF_STORE" &
 nginx -g 'daemon off;' &
 npm run start &
 
