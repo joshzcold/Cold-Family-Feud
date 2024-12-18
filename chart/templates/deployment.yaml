@@ -24,6 +24,10 @@ spec:
       {{- end }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      {{- with .Values.volumes }}
+      volumes:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
       containers:
         - name: frontend
           securityContext:
@@ -34,6 +38,10 @@ spec:
             - name: http
               containerPort: {{ .Values.frontend.service.port }}
               protocol: TCP
+          {{- with .Values.backend.end }}
+          env:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           livenessProbe:
             httpGet:
               path: /
@@ -42,6 +50,10 @@ spec:
             httpGet:
               path: /
               port: http
+          {{- with .Values.backend.volumeMounts }}
+          volumeMounts:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           resources:
             {{- toYaml .Values.frontend.resources | nindent 12 }}
         - name: backend
@@ -53,6 +65,11 @@ spec:
             - name: http
               containerPort: {{ .Values.backend.service.port }}
               protocol: TCP
+          {{- with .Values.backend.end }}
+          env:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          {{- end }}
           livenessProbe:
             httpGet:
               path: /
@@ -61,6 +78,10 @@ spec:
             httpGet:
               path: /
               port: http
+          {{- with .Values.backend.volumeMounts }}
+          volumeMounts:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           resources:
             {{- toYaml .Values.backend.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
