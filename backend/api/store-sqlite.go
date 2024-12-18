@@ -32,7 +32,7 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 	if envPath := os.Getenv("GAME_STORE_SQLITE_PATH"); envPath != "" {
 		storePath = envPath
 	}
-	log.Println("Sqlite store path: ", storePath)
+	log.Println("Using sqlite store path", storePath)
 	db, err := gorm.Open(sqlite.Open(storePath), &gorm.Config{})
 	if err != nil {
 		return &SQLiteStore{}, fmt.Errorf(" %w", err)
