@@ -47,8 +47,6 @@ Click on the "Host" button to go to the admin console
 
 Players can join your game by entering in the supplied room code.
 
-if you have trouble do `rm -r node_modules` then retry `npm install`
-
 ### Screen Share Audio Linux
 
 it is kinda hard on linux to get an application that will share your audio so here is a quick hack
@@ -76,7 +74,8 @@ one your the monitor of your desktop or headset. Resulting in output audio getti
 
 ## Contributing
 
-Stack: Nextjs + React + Tail Wind css
+Frontend Stack: Nextjs + React + Tail Wind css
+Backend Stack: Golang with multiple storage backends (see: backend/api/store*)
 
 ### Add A Language
 
