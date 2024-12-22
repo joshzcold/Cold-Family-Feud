@@ -56,7 +56,9 @@ volumes: {}
 # Example: Sqlite store
 # volumes:
 #   - name: famf-data
-#     hostPath: /var/lib/famf/
+#     hostPath:
+#       path: /var/lib/famf/
+#       type: Directory
 
 imagePullSecrets: []
 nameOverride: ""
