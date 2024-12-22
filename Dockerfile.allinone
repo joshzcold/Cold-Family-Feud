@@ -6,6 +6,8 @@ COPY package-lock.json package.json /src/
 RUN npm install
 
 FROM golang:1.23.3-alpine AS back-end-builder
+ENV CGO_ENABLED 1
+RUN apk add gcc musl-dev sqlite
 WORKDIR /src
 COPY ./backend/ .
 RUN go build .
