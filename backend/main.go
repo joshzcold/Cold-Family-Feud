@@ -39,6 +39,11 @@ func main() {
 		api.ServeWs(httpWriter, httpRequest)
 	})
 
+	http.HandleFunc("/api/healthcheckz", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
+		httpWriter.Write([]byte("ok"))
+		httpWriter.WriteHeader(200)
+	})
+
 	http.HandleFunc("/api/rooms/{roomCode}/logo", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
 		roomCode := httpRequest.PathValue("roomCode")
 		api.FetchLogo(httpWriter, roomCode)
