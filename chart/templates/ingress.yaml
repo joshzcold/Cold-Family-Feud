@@ -44,15 +44,15 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
-                name: {{ include "famf.fullname" . }}-frontend
+                name: {{ $fullName }}-frontend
                 port:
-                  number: {{ .Values.frontend.service.port }}
+                  number: {{ $.Values.frontend.service.port }}
           - path: /api
             pathType: ImplementationSpecific
             backend:
               service:
-                name: {{ include "famf.fullname" . }}-backend
+                name: {{ $fullName }}-backend
                 port:
-                  number: {{ .Values.backend.service.port }}
+                  number: {{ $.Values.backend.service.port }}
     {{- end }}
 {{- end }}

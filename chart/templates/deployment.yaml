@@ -32,8 +32,8 @@ spec:
         - name: frontend
           securityContext:
             {{- toYaml .Values.frontend.securityContext | nindent 12 }}
-          image: "{{ .Values.frontend.image.repository }}:{{ .Values.frontend.image.tag | default .Chart.AppVersion }}"
-          imagePullPolicy: {{ .Values.frontend.image.pullPolicy }}
+          image: "{{ .Values.frontend.repository }}:{{ .Values.frontend.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.frontend.pullPolicy }}
           ports:
             - name: http
               containerPort: {{ .Values.frontend.service.port }}
@@ -59,8 +59,8 @@ spec:
         - name: backend
           securityContext:
             {{- toYaml .Values.backend.securityContext | nindent 12 }}
-          image: "{{ .Values.backend.image.repository }}:{{ .Values.backend.image.tag | default .Chart.AppVersion }}"
-          imagePullPolicy: {{ .Values.backend.image.pullPolicy }}
+          image: "{{ .Values.backend.repository }}:{{ .Values.backend.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.backend.pullPolicy }}
           ports:
             - name: http
               containerPort: {{ .Values.backend.service.port }}
@@ -68,7 +68,6 @@ spec:
           {{- with .Values.backend.end }}
           env:
             {{- toYaml . | nindent 12 }}
-          {{- end }}
           {{- end }}
           livenessProbe:
             httpGet:
