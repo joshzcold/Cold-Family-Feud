@@ -29,6 +29,9 @@
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon -w pages/api/ -w backend/ backend/server.js",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node backend/server.js",
+    "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local node backend/server.js",
+    "start_windows": "set NODE_ENV=local && node backend/server.js",
     "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js"
   },
   "devDependencies": {
