@@ -21,5 +21,5 @@ FROM base as app
 RUN mkdir -p /src
 WORKDIR /src
 COPY --from=games . /src/games/
-COPY --from=builder --chmod=755 /src/Cold-Friendly-Feud /src/Cold-Family-Feud
+COPY --from=builder --chmod=755 /src/Cold-Friendly-Feud /src/Cold-Friendly-Feud
 CMD ["/src/Cold-Friendly-Feud"]
