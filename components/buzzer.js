@@ -218,7 +218,10 @@ export default function Buzzer(props) {
                   ) : (
                       <div>
                         {props.game.settings.logo_url ? (
-                          <img src={`${props.game.settings.logo_url}`} />
+                            <div className="mx-auto max-w-md w-full">
+                              <img className="w-full h-[300px] min-h-[200px] object-contain" src={`${props.game.settings.logo_url}`} 
+                              alt="Game logo"/>
+                            </div>
                         ) : (
                             <TitleLogo insert={props.game.title_text} />
                           )}
@@ -233,7 +236,10 @@ export default function Buzzer(props) {
         ) : (
             <>
               {props.game.settings.logo_url ? (
-                <img src={`${props.game.settings.logo_url}`} />
+                  <div className="mx-auto max-w-md w-full">
+                    <img className="w-full h-[300px] min-h-[200px] object-contain" src={`${props.game.settings.logo_url}`} 
+                    alt="Game logo"/>
+                  </div>
               ) : (
                   <TitleLogo insert={props.game.title_text} />
                 )}
