@@ -116,6 +116,15 @@ export default function Game(props) {
               audio.play();
               clearInterval(timerInterval);
               setTimer(json.data);
+              // Send timer stop to admin.js
+              let session = cookieCutter.get("session");
+              let [room, id] = session.split(":");
+              
+              ws.current.send(JSON.stringify({
+                action: "timer_complete",
+                room: room,
+                id: id
+              }));
             }
           }, 1000);
         } else if (json.action === "change_lang") {

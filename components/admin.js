@@ -422,6 +422,8 @@ export default function Admin(props) {
       } else if (json.action === "error") {
         console.error(json.message);
         setError(json.message);
+      } else if (json.action === "timer_complete") {
+        setTimerStarted(false);
       } else {
         console.debug("did not expect admin: ", json);
       }
