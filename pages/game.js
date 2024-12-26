@@ -120,7 +120,7 @@ export default function Game(props) {
               try {
                 let session = cookieCutter.get("session");
                 let [room, id] = session.split(":");
-                
+
                 if(!session) {
                   console.error("No session cookie found");
                   return;
@@ -144,6 +144,10 @@ export default function Game(props) {
         } else if (json.action === "change_lang") {
           console.debug("Language Change", json.data);
           i18n.changeLanguage(json.data);
+        } else if (json.action === "timer_complete") {
+          console.debug("Timer complete");
+        } else if (json.action === "clearbuzzers") {
+          console.debug("Clear buzzers");
         } else {
           console.error("didn't expect", json);
         }
