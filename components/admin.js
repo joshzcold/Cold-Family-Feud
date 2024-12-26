@@ -361,6 +361,7 @@ export default function Admin(props) {
   const [error, setErrorVal] = useState("");
   const [imageUploaded, setImageUploaded] = useState(null);
   const [timerStarted, setTimerStarted] = useState(false);
+  const [timerCompleted, setTimerCompleted] = useState(false);
   const [csvFileUpload, setCsvFileUpload] = useState(null);
   const [csvFileUploadText, setCsvFileUploadText] = useState(null);
   let ws = props.ws;
@@ -424,6 +425,7 @@ export default function Admin(props) {
         setError(json.message);
       } else if (json.action === "timer_complete") {
         setTimerStarted(false);
+        setTimerCompleted(true);
       } else {
         console.debug("did not expect admin: ", json);
       }
@@ -1021,7 +1023,8 @@ export default function Admin(props) {
                         {/* START FINAL ROUND 2 */}
                         {!game.is_final_second ? (
                           <button
-                            className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                            className={`border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground ${timerStarted ? 'opacity-50': ''}`}
+                            disabled={timerStarted}
                             onClick={() => {
                               console.debug(game);
                               game.is_final_second = true;
@@ -1032,6 +1035,7 @@ export default function Admin(props) {
                                 action: "set_timer",
                                 data: game.final_round_timers[1],
                               });
+                              setTimerCompleted(false);
                             }}
                           >
                             {t("start")} {t("Final Round")}{" "}
@@ -1041,7 +1045,8 @@ export default function Admin(props) {
                             <div className="flex py-5 items-center flex-row justify-evenly text-foreground space-x-5">
                               {/* GO BACK TO FINAL ROUND 1 */}
                               <button
-                                className="border-4 rounded p-5 text-3xl bg-secondary-300"
+                                className={`border-4 rounded p-5 text-3xl bg-secondary-300 ${timerStarted ? 'opacity-50': ''}`}
+                                disabled={timerStarted}
                                 onClick={() => {
                                   game.is_final_round = true;
                                   game.hide_first_round = false;
@@ -1092,7 +1097,8 @@ export default function Admin(props) {
                           {!timerStarted ? (
                             /* START TIMER */
                             <button
-                              className="border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground"
+                              className={`border-4 rounded p-5 text-3xl bg-secondary-300 text-foreground ${timerCompleted ? 'opacity-50' : ''}`}
+                              disabled={timerCompleted}
                               onClick={() => {
                                 if (game.is_final_second) {
                                   send({
@@ -1106,6 +1112,7 @@ export default function Admin(props) {
                                   });
                                 }
                                 setTimerStarted(true);
+                                setTimerCompleted(false);
                               }}
                             >
                               {t("Start Timer")}
@@ -1138,6 +1145,7 @@ export default function Admin(props) {
                                     });
                                   }
                                 }
+                                setTimerCompleted(false);
                               }}>
                               {t("Reset Timer")}
                             </button>
