@@ -115,16 +115,30 @@ export default function Game(props) {
               var audio = new Audio("try-again.mp3");
               audio.play();
               clearInterval(timerInterval);
-              setTimer(json.data);
+              setTimer(0);
               // Send timer stop to admin.js
-              let session = cookieCutter.get("session");
-              let [room, id] = session.split(":");
-              
-              ws.current.send(JSON.stringify({
-                action: "timer_complete",
-                room: room,
-                id: id
-              }));
+              try {
+                let session = cookieCutter.get("session");
+                let [room, id] = session.split(":");
+                
+                if(!session) {
+                  console.error("No session cookie found");
+                  return;
+                }
+
+                if(!room || !id) {
+                  console.error("Invalid session cookie format");
+                  return;
+                }
+
+                ws.current.send(JSON.stringify({
+                  action: "timer_complete",
+                  room: room,
+                  id: id
+                }));
+              } catch (error) {
+                console.error("Error processing session cookie:", error);
+              }
             }
           }, 1000);
         } else if (json.action === "change_lang") {
