@@ -1088,7 +1088,7 @@ export default function Admin(props) {
                               ) : null}
                             </div>
                           )}
-                        <div className="px-2">
+                        <div className="px-2 flex">
                           {!timerStarted ? (
                             /* START TIMER */
                             <button
@@ -1122,6 +1122,25 @@ export default function Admin(props) {
                                 {t("Stop Timer")}
                               </button>
                             )}
+                            <button className={`border-4 rounded p-5 ml-2 text-3xl bg-secondary-300 text-foreground ${!timerStarted ? '' : 'opacity-50'}`}
+                            disabled={timerStarted} 
+                            onClick={() => {
+                                if(!timerStarted) {
+                                  if (game.is_final_second) {
+                                    send({
+                                      action: "set_timer",
+                                      data: game.final_round_timers[1],
+                                    });
+                                  } else {
+                                    send({
+                                      action: "set_timer",
+                                      data: game.final_round_timers[0],
+                                    });
+                                  }
+                                }
+                              }}>
+                              {t("Reset Timer")}
+                            </button>
                         </div>
                       </div>
                       <FinalRoundPointTotals game={game} />
