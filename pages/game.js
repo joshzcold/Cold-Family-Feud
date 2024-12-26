@@ -106,16 +106,15 @@ export default function Game(props) {
         } else if (json.action === "stop_timer") {
           clearInterval(timerInterval);
         } else if (json.action === "start_timer") {
-          let limit = json.data;
           timerInterval = setInterval(() => {
-            if (limit > 0) {
-              limit = limit - 1;
-              setTimer(limit);
+          setTimer(prevTimer => {
+            if (prevTimer > 0) {
+              return prevTimer - 1;
             } else {
               var audio = new Audio("try-again.mp3");
               audio.play();
               clearInterval(timerInterval);
-              setTimer(0);
+
               // Send timer stop to admin.js
               try {
                 let session = cookieCutter.get("session");
@@ -123,12 +122,12 @@ export default function Game(props) {
 
                 if(!session) {
                   console.error("No session cookie found");
-                  return;
+                  return 0;
                 }
 
                 if(!room || !id) {
                   console.error("Invalid session cookie format");
-                  return;
+                  return 0;
                 }
 
                 ws.current.send(JSON.stringify({
@@ -139,7 +138,9 @@ export default function Game(props) {
               } catch (error) {
                 console.error("Error processing session cookie:", error);
               }
+              return 0;
             }
+          });
           }, 1000);
         } else if (json.action === "change_lang") {
           console.debug("Language Change", json.data);
