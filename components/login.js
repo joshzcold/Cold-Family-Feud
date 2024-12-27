@@ -63,7 +63,9 @@ export default function Login(props) {
         </button>
       </div>
       {props.error !== "" ? (
-        <p className="text-2xl text-failure-700">{props.error}</p>
+        <p className="text-2xl text-failure-700">
+          {props.error.code ? t(props.error.code, { message: props.error.message }) : t(props.error)}
+          </p>
       ) : null}
 
     </>

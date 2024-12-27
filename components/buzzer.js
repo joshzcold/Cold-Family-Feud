@@ -8,6 +8,7 @@ import Round from "./round";
 import QuestionBoard from "./question-board.js";
 import TeamName from "./team-name.js";
 import Final from "./final";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 let timerInterval = null;
 
@@ -41,7 +42,7 @@ export default function Buzzer(props) {
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${10 - refreshCounter}`,
+          t(ERROR_CODES.CONNECTION_LOST, {message: `${10 - refreshCounter}`}),
         );
         refreshCounter++;
         if (refreshCounter >= 10) {

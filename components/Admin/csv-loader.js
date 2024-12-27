@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import "tailwindcss/tailwind.css";
 import { useState, useEffect, useRef } from "react";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 export function csvStringToArray(data) {
   const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;
@@ -61,8 +62,8 @@ function validateCsv(
         // Answer point needs to be a number
         if (!/^\d+$/.test(csvData[index][i])) {
           setError(
-            t(
-              "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ..."
+            t(ERROR_CODES.CSV_INVALID_FORMAT
+              // "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ..."
             )
           );
           return;
