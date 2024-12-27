@@ -111,6 +111,12 @@
   "email": "email",
   "source code": "source code",
   "Question": "Question",
+  "Expected format": "Expected format",
+  "Format Example": "Each row should have: Question, Answer, Points, Answer, Points, etc.",
+  "Points must be numbers": "Points must be numbers",
+  "Example row": "Example row",
+  "Format Guide": "Format Guide",
+  "Each row follows this pattern. Points must be numbers.": "Each row follows this pattern. Points must be numbers.",
   "errors": {
     "room_not_found": "Room not found",
     "host_quit": "Host quit the game",
