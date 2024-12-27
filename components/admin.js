@@ -8,6 +8,7 @@ import LanguageSwitcher from "./language";
 import CSVLoader from "./Admin/csv-loader";
 import { Buffer } from "buffer";
 import { BSON } from "bson";
+import { handleCsvFile, handleJsonFile } from "utils/files";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -347,6 +348,18 @@ function FinalRoundPointTotals(props) {
   );
 }
 
+function isValidFileType(file, allowedTypes) {
+  const fileName = file.name.toLowerCase();
+  const fileExtension = fileName.split('.').pop();
+
+  if(!allowedTypes[fileExtension]) {
+    return false;
+  }
+
+  const mimePattern = allowedTypes[fileExtension].pattern;
+  return mimePattern.test(file.type);
+}
+
 export default function Admin(props) {
   const { i18n, t } = useTranslation();
 
@@ -520,6 +533,7 @@ export default function Admin(props) {
                     ))}
                   </select>
                 ) : null}
+                {/* Image Upload */}
                 <div className="image-upload w-6">
                   <label htmlFor="gamePicker">
                     <svg
@@ -529,6 +543,7 @@ export default function Admin(props) {
                       <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
                     </svg>
                   </label>
+                  {/* CSV Upload */}
                   <input
                     className="hidden"
                     type="file"
@@ -547,41 +562,37 @@ export default function Admin(props) {
                         }
                       }
 
-                      console.debug(file);
-                      if (file?.type === "application/json") {
-                        if (file) {
-                          var reader = new FileReader();
-                          reader.readAsText(file, "utf-8");
-                          reader.onload = function(evt) {
-                            let data = JSON.parse(evt.target.result);
-                            console.debug(data);
-                            // TODO some error checking for invalid game data
-                            send({ action: "load_game", data: data });
-                          };
-                          reader.onerror = function(evt) {
-                            console.error("error reading file");
-                            setError(t("error reading file"));
-                          };
+                      const allowedTypes = {
+                        'json': {
+                          pattern: /^application\/(json|.*\+json)$/,
+                          handler: (file) => handleJsonFile(file, { 
+                            setError, 
+                            t, 
+                            send 
+                          })
+                        },
+                        'csv': {
+                          pattern: /^(text\/csv|application\/(vnd\.ms-excel|csv|x-csv|text-csv))$/,
+                          handler: (file) => handleCsvFile(file, { 
+                            setError, 
+                            t, 
+                            setCsvFileUpload, 
+                            setCsvFileUploadText 
+                          })
                         }
-                      } else if (file?.type === "text/csv") {
-                        var reader = new FileReader();
-                        reader.readAsText(file, "utf-8");
-                        reader.onload = function(evt) {
-                          let lineCount = evt.target.result.split("\n");
-                          if (lineCount.length > 30) {
-                            setError(t("This csv file is too large"));
-                          } else {
-                            setCsvFileUpload(file);
-                            setCsvFileUploadText(evt.target.result);
-                          }
-                        };
-                        reader.onerror = function(evt) {
-                          console.error("error reading file");
-                          setError(t("error reading file"));
-                        };
-                      } else {
-                        setError(t("Unknown file type in game load"));
+                      };
+
+                      const fileType = isValidFileType(file, allowedTypes);
+                      if (!fileType) {
+                        setError(t("Unknown file type"));
+                        return;
                       }
+
+                      const fileExtension = file.name.toLowerCase().split('.').pop();
+                      allowedTypes[fileExtension].handler(file);
+
+                      console.debug(file);
+
                       // allow same file to be selected again
                       document.getElementById("gamePicker").value = null;
                     }}
