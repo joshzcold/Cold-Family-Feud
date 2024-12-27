@@ -506,6 +506,7 @@ export default function Admin(props) {
               <div className="justify-center flex flex-row  space-x-5 p-2 items-center transform translate-y-3">
                 {gameSelector.length > 0 ? (
                   <select
+                    defaultValue={""}
                     className="border-2 rounded bg-secondary-500 text-foreground"
                     onChange={(e) => {
                       send({
@@ -515,7 +516,7 @@ export default function Admin(props) {
                       });
                     }}
                   >
-                    <option disabled selected value></option>
+                    <option disabled value="">{t("question_select")}</option>
                     {gameSelector.map((value, index) => (
                       <option key={index} value={value}>
                         {value.replace(".json", "")}
@@ -911,7 +912,7 @@ export default function Admin(props) {
                       <div
                         className={`${
                           x.trig ? "bg-secondary-500" : "bg-primary-700"
-                          } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                          } font-extrabold uppercase rounded border-2 text-2xl`}
                       >
                         <button
                           className="flex flex-row p-5 justify-center min-h-full items-center min-w-full"
