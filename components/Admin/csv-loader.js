@@ -180,10 +180,31 @@ export default function CSVLoader(props) {
           <hr />
         </div>
         {error ? (
-          <div className="p-4 bg-failure-200 rounded">
-            <p>{error}</p>
+          <div className="p-4 bg-failure-200 rounded space-y-2">
+            <p className="font-bold">{error}</p>
+            <div className="text-sm space-y-1">
+              <p>{t("Expected format")}:</p>
+              <p>• {t("Format Example")}</p>
+              <p>• {t("Points must be numbers")}</p>
+              <p>• {t("Example row")}: What is popular?, Pizza, 30, Burger, 25, Fries, 20</p>
+            </div>
           </div>
         ) : null}
+        <div className="bg-secondary-300 p-4 rounded space-y-2">
+          <p className="font-semibold">{t("Format Guide")}:</p>
+          <div className="text-sm space-y-1">
+            <div className="grid grid-cols-7 gap-2">
+              <div className="bg-secondary-500 p-2 rounded">{t("Question")}</div>
+              <div className="bg-success-200 p-2 rounded">{t("Answer")} 1</div>
+              <div className="bg-primary-200 p-2 rounded">{t("points")} 1</div>
+              <div className="bg-success-200 p-2 rounded">{t("Answer")} 2</div>
+              <div className="bg-primary-200 p-2 rounded">{t("points")} 2</div>
+              <div className="bg-success-200 p-2 rounded">...</div>
+              <div className="bg-primary-200 p-2 rounded">...</div>
+            </div>
+            <p className="text-xs mt-2">{t("Each row follows this pattern. Points must be numbers.")}</p>
+          </div>
+        </div>
         <div className="p-2 flex flex-col bg-secondary-500 overflow-x-scroll h-96 ">
           {csvData.map((row, roundCounter) => {
             return (
