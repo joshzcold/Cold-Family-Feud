@@ -1,8 +1,10 @@
 import "tailwindcss/tailwind.css";
 import TitleLogo from "./title-logo";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Title(props) {
+  const {i18n, t} = useTranslation();
   const [titleSize, setTitleSize] = useState("10%");
 
   useEffect(() => {
@@ -35,6 +37,7 @@ export default function Title(props) {
         }}
         className="align-middle inline-block"
       >
+        {/* Logo Section */}
         <div className="flex flex-col space-y-10">
           <div className="flex-grow mx-auto">
             {props.game.settings.logo_url ? (
@@ -43,11 +46,28 @@ export default function Title(props) {
                 <TitleLogo insert={props.game.title_text} size={titleSize} />
               )}
           </div>
+
+          {/* Room Code Section */}
           <div className="flex flex-row justify-center text-center">
-            <p className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
-              {props.game.room}
-            </p>
+            <div className="flex flex-col items-center">
+              <div className="text-xl font-semibold text-foreground p-0.5 px-2 pb-0 rounded-t-xl bg-secondary-500 shadow-lg">{t("Room Code")}</div>
+              <p className="text-6xl font-bold p-6 text-foreground rounded-xl bg-secondary-500 shadow-lg">
+                {props.game.room}
+              </p>
+            </div>
           </div>
+
+          {/* URL Section */}
+          {process.env.NEXT_PUBLIC_TITLE_URL && (
+            <div className="flex flex-row justify-center text-center mt-4">
+              <span 
+                className="text-4xl p-6 text-foreground rounded-xl bg-secondary-500 shadow-lg transition-colors duration-200"
+              >
+                {t("Join at")} <span className="font-bold">{process.env.NEXT_PUBLIC_TITLE_URL}</span>
+              </span>
+            </div>
+          )}
+          {/* Teams and players section */}
           <div className="flex flex-row text-center">
             {[0, 1].map(function(n) {
               return (
