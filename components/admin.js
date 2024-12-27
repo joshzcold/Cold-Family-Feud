@@ -225,9 +225,7 @@ function TitleLogoUpload(props) {
               var file = document.getElementById("logoUpload").files[0];
 
               if (file) {
-                const fileSize = Math.round(file.size / 1024);
-                // 2MB
-                if (fileSize > 2098) {
+                if (file.size > process.env.NEXT_PUBLIC_MAX_IMAGE_UPLOAD_SIZE_MB * 1024 * 1024) {
                   console.error("Logo image is too large");
                   props.setError(
                     t("Logo image is too large. 2MB is the limit"),
@@ -538,6 +536,17 @@ export default function Admin(props) {
                     id="gamePicker"
                     onChange={(e) => {
                       var file = document.getElementById("gamePicker").files[0];
+
+                      if (file) {
+                        if (file.size > process.env.NEXT_PUBLIC_MAX_CSV_UPLOAD_SIZE_MB * 1024 * 1024) {
+                          console.error("This csv file is too large");
+                          props.setError(
+                            t("This csv file is too large"),
+                          );
+                          return;
+                        }
+                      }
+
                       console.debug(file);
                       if (file?.type === "application/json") {
                         if (file) {
