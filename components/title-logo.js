@@ -298,7 +298,7 @@ export default function TitleLogo(props) {
 </svg>
   `;
   return (
-    <div>
+    <div className="w-full">
       <div dangerouslySetInnerHTML={{ __html: logo }} />
     </div>
   );
