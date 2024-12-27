@@ -22,13 +22,13 @@ export default function Players(props) {
     return (
       <div>
         {team.map((x, i) => (
-          <div class="border-2 flex flex-row space-x-5 items-center m-2">
+          <div className="border-2 flex flex-row space-x-5 items-center m-2">
             {/* information about player */}
-            <div class="flex-grow">
-              <p class="uppercase text-foreground">{x.name}</p>
+            <div className="flex-grow">
+              <p className="uppercase text-foreground">{x.name}</p>
             </div>
             <button
-              class="border-4 bg-failure-300 hover:bg-failure-500 p-2 rounded-lg"
+              className="border-4 bg-failure-300 hover:bg-failure-500 p-2 rounded-lg"
               onClick={() => {
                 // props.send({action: "quit", id: })
                 props.ws.current.send(
@@ -69,19 +69,19 @@ export default function Players(props) {
   }
 
   return (
-    <div class="flex-grow ">
-      <div class="h-48 overflow-y-scroll border-4 rounded p-2 text-center flex flex-row flex-grow">
+    <div className="flex-grow ">
+      <div className="h-48 overflow-y-scroll border-4 rounded p-2 text-center flex flex-row flex-grow">
         {/* team 1 section */}
-        <div class="flex-grow">
-          <p class="text-foreground">{game.teams[0].name}</p>
+        <div className="flex-grow">
+          <p className="text-foreground">{game.teams[0].name}</p>
           <hr />
           {teamSection(team1)}
         </div>
         {/* seperator */}
-        <div class="bg-secondary-300 border h-full" />
+        <div className="bg-secondary-300 border h-full" />
         {/* team 2 section */}
-        <div class="flex-grow">
-          <p class="text-foreground">{game.teams[1].name}</p>
+        <div className="flex-grow">
+          <p className="text-foreground">{game.teams[1].name}</p>
           <hr />
           {teamSection(team2)}
         </div>
