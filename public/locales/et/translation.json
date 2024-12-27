@@ -90,11 +90,9 @@
     "logo upload": "logo \u00fcleslaadimine",
     "(must be smaller than 2MB)": "(peab olema v\u00e4iksem kui 2 MB)",
     "error reading file": "Vea faili lugemine",
-    "This csv file is too large": "See CSV -fail on liiga suur",
     "Unknown file type in game load": "Tundmatu failit\u00fc\u00fcp m\u00e4ngu laadimisel",
     ".json, .csv": "json, csv",
     "Error: round and final round is greater than document has available.": "Viga: \u00fcmmargune ja viimane voor on suurem kui dokumendil on saadaval",
-    "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ...": "Viga: CSV -fail vajab eeldatavat vormingut: k\u00fcsimus, vastus, punktid (number), vastus, punktid (number) ",
     "CSV file upload": "CSV -faili \u00fcleslaadimine",
     "No Header": "Pole p\u00e4ist",
     "Rounds": "Voorud",
@@ -112,5 +110,18 @@
     "donate": "annetama",
     "email": "e -kiri",
     "source code": "l\u00e4htekood",
-    "Question": "K\u00fcsitlus"
+    "Question": "K\u00fcsitlus",
+    "errors": {
+        "room_not_found": "Mängu ei leitud",
+        "host_quit": "Mängu juht lahkus mängust",
+        "server_error": "Viga serveris: {{message}}",
+        "parse_error": "Viga andmete töötlemisel",
+        "game_closed": "Mäng suleti, kuna 1 tunni jooksul ei olnud tegevust.",
+        "image_too_large": "Pilt on liiga suur, piirang on {{message}}",
+        "unknown_file_type": "Tundmatu või mitte lubatud failitüüp",
+        "csv_too_large": "Üles laaditud CSV fail on liiga pikk",
+        "connection_lost": "Ühendus serveriga katkes, proovime uuesti {{message}}s pärast.",
+        "csv_invalid_format": "CSV faili vorming on ebakorrektne",
+        "missing_input": "{{message}} lahter on täitmata"
+      }
 }
