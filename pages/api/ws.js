@@ -278,7 +278,6 @@ const ioHandler = (req, res) => {
                 }),
               );
             } else {
-              // TODO errors sent from server should be internationalized
               ws.send(
                 JSON.stringify({ action: "error", code: ERROR_CODES.ROOM_NOT_FOUND }),
               );
