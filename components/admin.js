@@ -81,7 +81,9 @@ function FinalRoundButtonControls(props) {
     ? props.game.final_round_2
     : props.game.final_round;
   return controlRound?.map((x, i) => (
-    <div key={`round-${i}`} className="flex-col flex space-y-5 p-12 border-2">
+    <div 
+      key={`${props.game.is_final_second ? 'final-round-2' : 'final-round-1'}-question-${i}`}
+      className="flex-col flex space-y-5 p-12 border-2">
       <p className="text-3xl font-bold text-foreground">{x.question}</p>
       {props.game.is_final_second && (
         <div className="flex flex-row space-x-5 pb-2">
@@ -518,7 +520,7 @@ export default function Admin(props) {
                   >
                     <option disabled value="">{t("question_select")}</option>
                     {gameSelector.map((value, index) => (
-                      <option key={index} value={value}>
+                      <option key={`set-${index}`} value={value}>
                         {value.replace(".json", "")}
                       </option>
                     ))}
@@ -765,7 +767,7 @@ export default function Admin(props) {
                     }}
                   >
                     {game.rounds.map((key, index) => (
-                      <option value={index}>
+                      <option value={index} key={`round-select-${index}`}>
                         {t("round")} {t("number", { count: index + 1 })}
                       </option>
                     ))}
@@ -908,8 +910,9 @@ export default function Admin(props) {
 
                   {/* GAME BOARD BUTTONS */}
                   <div className=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
-                    {current_round.answers.map((x) => (
+                    {current_round.answers.map((x, index) => (
                       <div
+                        key={`answer-${index}`}
                         className={`${
                           x.trig ? "bg-secondary-500" : "bg-primary-700"
                           } font-extrabold uppercase rounded border-2 text-2xl`}
@@ -988,7 +991,7 @@ export default function Admin(props) {
                         <hr />
                         <div className="flex-grow">
                           {game.buzzed.map((x, i) => (
-                            <div className="flex flex-row space-x-5 justify-center">
+                            <div key={`buzzer-${x.id}-${i}`} className="flex flex-row space-x-5 justify-center">
                               <p className="text-foreground">
                                 {t("number", { count: i + 1 })}.{" "}
                                 {game.registeredPlayers[x.id]?.name}

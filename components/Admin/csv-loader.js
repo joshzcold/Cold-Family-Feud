@@ -206,8 +206,8 @@ export default function CSVLoader(props) {
         <div className="p-2 flex flex-col bg-secondary-500 overflow-x-scroll h-96 ">
           {csvData.map((row, roundCounter) => {
             return (
-              <div className="grid grid-flow-col divide-dashed divide-x divide-secondary-900">
-                {row.map((col) => {
+              <div key={`csvloader-round-${roundCounter}`} className="grid grid-flow-col divide-dashed divide-x divide-secondary-900">
+                {row.map((col, index) => {
                   let rowBackgroundColor = "bg-secondary-500";
                   let rowTextColor = "text-foreground";
                   let roundOffSet = 0;
@@ -229,6 +229,7 @@ export default function CSVLoader(props) {
                   if (col.length !== 0) {
                     return (
                       <div
+                        key={`csvloader-round-${roundCounter}-${index}`}
                         className={`w-96 font-bold p-4 ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
                       >
                         <p className="text-ellipsis whitespace-nowrap overflow-hidden">

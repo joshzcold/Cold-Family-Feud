@@ -67,7 +67,7 @@ export function ThemeSwitcher(props) {
                 {Object.keys(availableThemes).map((key, index) => (
                     <option
                         value={key}
-                        key={index}
+                        key={`theme-${index}`}
                         style={{
                             backgroundColor: availableThemes[key].bgcolor
                         }}
