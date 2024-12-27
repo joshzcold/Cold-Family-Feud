@@ -290,14 +290,17 @@ const ioHandler = (req, res) => {
               message.host,
             );
             if (message.host) {
-              wss.broadcast(message.room, JSON.stringify({ action: "quit" }));
-              wss.broadcast(
-                message.room,
-                JSON.stringify({
-                  action: "error",
-                  code: ERROR_CODES.HOST_QUIT,
-                }),
-              );
+              Object.keys(rooms[message.room].connections).forEach((id) => {
+                wss.broadcast(message.room, JSON.stringify({ action: "quit" }));
+                if(id !== message.id) {
+                  rooms[message.room].connections[id].send(
+                    JSON.stringify({
+                      action: "error",
+                      code: ERROR_CODES.HOST_QUIT,
+                    }),
+                  )
+                }
+              })
 
               // if host quits then we need to clean up the running intervals
               if (rooms[message.room].intervals) {
