@@ -187,18 +187,27 @@ export default function Buzzer(props) {
                         className="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
                       >
                         <div className="flex-grow">
-                          <p id={`buzzedList${i}Name`} className="truncate w-20 text-left text-foreground">
+                          <p
+                            id={`buzzedList${i}Name`}
+                            className="truncate w-20 text-left text-foreground"
+                          >
                             {t("number", { count: i + 1 })}.{" "}
                             {game.registeredPlayers[x.id].name}
                           </p>
                         </div>
                         <div className="flex-grow">
-                          <p id={`buzzedList${i}TeamName`} className="truncate w-20 text-left text-foreground">
+                          <p
+                            id={`buzzedList${i}TeamName`}
+                            className="truncate w-20 text-left text-foreground"
+                          >
                             {game.teams[game.registeredPlayers[x.id].team].name}
                           </p>
                         </div>
                         <div className="flex-grow">
-                          <p id={`buzzedList${i}Time`} className="truncate w-20 text-left text-foreground">
+                          <p
+                            id={`buzzedList${i}Time`}
+                            className="truncate w-20 text-left text-foreground"
+                          >
                             {t("number", {
                               count: (
                                 ((x.time - game.tick) / 1000) %
@@ -222,11 +231,20 @@ export default function Buzzer(props) {
                   ) : (
                       <div>
                         {props.game.settings.logo_url ? (
-                          <img src={`${props.game.settings.logo_url}`} />
+                          <div className="mx-auto max-w-md w-full">
+                            <img
+                              className="w-full h-[300px] min-h-[200px] object-contain"
+                              src={`${props.game.settings.logo_url}`}
+                              alt="Game logo"
+                            />
+                          </div>
                         ) : (
                             <TitleLogo insert={props.game.title_text} />
                           )}
-                        <p id="waitingForHostText" className="text-3xl text-center py-12 text-foreground">
+                        <p
+                          id="waitingForHostText"
+                          className="text-3xl text-center py-12 text-foreground"
+                        >
                           {t("Waiting for host to start")}
                         </p>
                       </div>
@@ -237,7 +255,14 @@ export default function Buzzer(props) {
         ) : (
             <>
               {props.game.settings.logo_url ? (
-                <img id="titleLogoUserUploaded" src={`${props.game.settings.logo_url}`} />
+                <div className="mx-auto max-w-md w-full">
+                  <img
+                    id="titleLogoUserUploaded"
+                    className="w-full h-[300px] min-h-[200px] object-contain"
+                    src={`${props.game.settings.logo_url}`}
+                    alt="Game logo"
+                  />
+                </div>
               ) : (
                   <TitleLogo insert={props.game.title_text} />
                 )}
@@ -313,7 +338,9 @@ export default function Buzzer(props) {
   } else {
     return (
       <div>
-        <p id="loadingText" className="text-foreground">{t("loading")}</p>
+        <p id="loadingText" className="text-foreground">
+          {t("loading")}
+        </p>
       </div>
     );
   }

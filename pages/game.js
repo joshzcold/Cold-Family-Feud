@@ -102,23 +102,69 @@ export default function Game(props) {
       } else if (json.action === "stop_timer") {
         clearInterval(timerInterval);
       } else if (json.action === "start_timer") {
-        let limit = json.data;
         timerInterval = setInterval(() => {
-          if (limit > 0) {
-            limit = limit - 1;
-            setTimer(limit);
-          } else {
-            var audio = new Audio("try-again.mp3");
-            audio.play();
-            clearInterval(timerInterval);
-            setTimer(json.data);
-          }
+          setTimer((prevTimer) => {
+            if (prevTimer > 0) {
+              return prevTimer - 1;
+            } else {
+              var audio = new Audio("try-again.mp3");
+              audio.play();
+              clearInterval(timerInterval);
+
+              // Send timer stop to admin.js
+              try {
+                let session = cookieCutter.get("session");
+                let [room, id] = session.split(":");
+
+                if (!session) {
+                  console.error("No session cookie found");
+                  return 0;
+                }
+
+                if (!room || !id) {
+                  console.error("Invalid session cookie format");
+                  return 0;
+                }
+
+                ws.current.send(
+                  JSON.stringify({
+                    action: "timer_complete",
+                    room: room,
+                    id: id,
+                  }),
+                );
+              } catch (error) {
+                console.error("Error processing session cookie:", error);
+              }
+              return 0;
+            }
+          });
         }, 1000);
       } else if (json.action === "change_lang") {
         console.debug("Language Change", json.data);
         i18n.changeLanguage(json.data);
+      } else if (json.action === "timer_complete") {
+        console.debug("Timer complete");
+      } else if (json.action === "clearbuzzers") {
+        console.debug("Clear buzzers");
       } else {
         console.error("didn't expect", json);
+      }
+      if (json.data.teams[0].name === "Team 1") {
+        json.data.teams[0].name = `${t("team")} ${t("number", {
+          count: 1,
+        })}`;
+      }
+      if (json.data.teams[1].name === "Team 2") {
+        json.data.teams[1].name = `${t("team")} ${t("number", {
+          count: 2,
+        })}`;
+      }
+      setGame(json.data);
+      let session = cookieCutter.get("session");
+      let [_, id] = session.split(":");
+      if (json.data?.registeredPlayers[id] == "host") {
+        setIsHost(true);
       }
     };
 
