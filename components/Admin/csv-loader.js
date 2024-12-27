@@ -31,7 +31,7 @@ function validateCsv(
   setError,
   t
 ) {
-  let headerOffSet = noHeader ? 1 : 0;
+  let headerOffSet = noHeader ? 0 : 1;
   // the setting of rows is greater than the data provided
   if (roundCount + roundFinalCount + headerOffSet > csvData.length) {
     setError(
@@ -60,7 +60,7 @@ function validateCsv(
         continue colLoop;
       } else {
         // Answer point needs to be a number
-        if (!/^\d+$/.test(csvData[index][i])) {
+        if (csvData[index][i] && !/^\d+$/.test(csvData[index][i])) {
           setError(
             t(ERROR_CODES.CSV_INVALID_FORMAT
               // "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ..."
@@ -192,10 +192,10 @@ export default function CSVLoader(props) {
                   let rowBackgroundColor = "bg-secondary-500";
                   let rowTextColor = "text-foreground";
                   let roundOffSet = 0;
-                  if (!noHeader) {
+                  if (noHeader) {
                     roundOffSet = -1;
                   }
-                  if (roundCounter === 0 && noHeader) {
+                  if (roundCounter === 0 && !noHeader) {
                     rowTextColor = "text-secondary-900";
                   } else if (roundCounter - 1 < roundCount + roundOffSet) {
                     rowBackgroundColor = "bg-success-200";
