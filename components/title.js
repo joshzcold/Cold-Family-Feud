@@ -9,9 +9,9 @@ export default function Title(props) {
 
   useEffect(() => {
     if (props.game.settings.logo_url) {
-      setTimeout(setTitleSize(window.innerWidth * 0.4), 2000);
+      setTimeout(() => setTitleSize(window.innerWidth * 0.4), 2000);
     } else {
-      setTimeout(setTitleSize(window.innerWidth * 0.7), 2000);
+      setTimeout(() => setTitleSize(window.innerWidth * 0.7), 2000);
     }
   }, []);
 
