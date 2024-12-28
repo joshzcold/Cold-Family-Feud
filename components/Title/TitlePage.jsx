@@ -55,7 +55,7 @@ export default function TitlePage(props) {
             )}
           </div>
 
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-3 min-h-[220px]">
             <Team team={props.game.teams[0].name} players={returnTeamMates(0)} />
 
             <div className="flex flex-col">
