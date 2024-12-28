@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Title from "components/title";
+import TitlePage from "components/Title/TitlePage.jsx";
 import Round from "components/round";
 import TeamName from "components/team-name.js";
 import QuestionBoard from "components/question-board.js";
@@ -175,7 +175,7 @@ export default function Game(props) {
   if (game.teams != null) {
     let gameSession;
     if (game.title) {
-      gameSession = <Title game={game} />;
+      gameSession = <TitlePage game={game} />;
     } else if (game.is_final_round) {
       gameSession = (
         <div className="flex w-full justify-center">

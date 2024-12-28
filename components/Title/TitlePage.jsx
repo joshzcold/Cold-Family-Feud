@@ -1,14 +1,14 @@
-import "tailwindcss/tailwind.css";
-import TitleLogo from "./title-logo";
-import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import Team from "./Title/Team";
-import TitleUrl from "./Title/TitleUrl";
-import RoomCode from "./Title/RoomCode";
+import 'tailwindcss/tailwind.css';
+import TitleLogo from '../title-logo';
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import Team from './Team';
+import TitleUrl from './TitleUrl';
+import RoomCode from './RoomCode';
 
-export default function Title(props) {
-  const {i18n, t} = useTranslation();
-  const [titleSize, setTitleSize] = useState("10%");
+export default function TitlePage(props) {
+  const { i18n, t } = useTranslation();
+  const [titleSize, setTitleSize] = useState('10%');
 
   useEffect(() => {
     if (props.game.settings.logo_url) {
@@ -36,7 +36,7 @@ export default function Title(props) {
       <div
         style={{
           width: titleSize,
-          transition: "width 2s",
+          transition: 'width 2s',
         }}
         className="align-middle inline-block"
       >
@@ -56,14 +56,14 @@ export default function Title(props) {
           </div>
 
           <div className="grid grid-cols-3">
-            <Team team={props.game.teams[0].name} players={returnTeamMates(0)}/>
+            <Team team={props.game.teams[0].name} players={returnTeamMates(0)} />
 
             <div className="flex flex-col">
               <RoomCode code={props.game.room} />
               <TitleUrl />
             </div>
-            
-            <Team team={props.game.teams[1].name} players={returnTeamMates(1)}/>
+
+            <Team team={props.game.teams[1].name} players={returnTeamMates(1)} />
           </div>
         </div>
       </div>
