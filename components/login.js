@@ -3,6 +3,7 @@ import TitleLogo from "../components/title-logo";
 import LanguageSwitcher from "../components/language";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 export default function Login(props) {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ export default function Login(props) {
 
   const handlePlay = () => {
     if(!isValidPlayerName(playerName)) {
-      setError(t("errors.missing_input", {message: t("name")}));
+      setError(t(ERROR_CODES.MISSING_INPUT, {message: t("name")}));
       return;
     }
     

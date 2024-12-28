@@ -276,7 +276,6 @@ export default function Buzzer(props) {
                   disabled={props.team === null}
                   className={`py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold ${props.team === null ? 'opacity-50 hover:shadow-none cursor-not-allowed': ''}`}
                   onClick={() => {
-                    console.log("Team value:", props.team);
                     if (props.team != null) {
                       send({ action: "registerbuzz", team: props.team });
                     } 

@@ -62,9 +62,7 @@ function validateCsv(
         // Answer point needs to be a number
         if (csvData[index][i] && !/^\d+$/.test(csvData[index][i])) {
           setError(
-            t(ERROR_CODES.CSV_INVALID_FORMAT
-              // "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ..."
-            )
+            t(ERROR_CODES.CSV_INVALID_FORMAT)
           );
           return;
         }
