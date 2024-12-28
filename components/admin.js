@@ -281,7 +281,7 @@ function TitleLogoUpload(props) {
                     mimetype: mimetype,
                   });
                   props.setImageUploaded(file);
-                  props.game.settings.logo_url = `/rooms/${props.room}/logo.${mimetype}?${new Date().getTime()}`;
+                  props.game.settings.logo_url = `/api/rooms/${props.room}/logo?${new Date().getTime()}`;
                   props.setGame((prv) => ({ ...prv }));
                   props.send({ action: "data", data: props.game });
                 };

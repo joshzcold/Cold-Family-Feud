@@ -36,7 +36,7 @@ export default function Title(props) {
         className="align-middle inline-block"
       >
         <div className="flex flex-col space-y-10">
-          <div className="flex-grow mx-auto">
+          <div className="flex-grow">
             {props.game.settings.logo_url ? (
               <img className="w-full h-[300px] min-h-[200px] object-contain" src={`${props.game.settings.logo_url}`} size={titleSize} alt="Game logo"/>
             ) : (
@@ -44,15 +44,15 @@ export default function Title(props) {
               )}
           </div>
           <div className="flex flex-row justify-center text-center">
-            <p id="roomCodeText" className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
+            <p className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
               {props.game.room}
             </p>
           </div>
           <div className="flex flex-row text-center">
-            {[0, 1].map(function(n, i) {
+            {[0, 1].map(function(n) {
               return (
-                <div key={n} className="flex-grow">
-                  <p id={`team${i}TeamName`} className="text-4xl flex-grow text-foreground font-bold">
+                <div className="flex-grow">
+                  <p className="text-4xl flex-grow text-foreground font-bold">
                     {" "}
                     {props.game.teams[n].name}
                   </p>
