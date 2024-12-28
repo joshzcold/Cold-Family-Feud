@@ -117,6 +117,10 @@ export default function Buzzer(props) {
     });
   }, []);
 
+
+  const currentPlayer = game.registeredPlayers[props.id];
+  if (currentPlayer?.hidden) return <h1>{t("You have been blindfolded...")}</h1>
+
   if (game.teams != null) {
     console.debug(game);
     return (

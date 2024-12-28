@@ -72,6 +72,7 @@ const ioHandler = (req, res) => {
             game.registeredPlayers[id] = {
               role: "player",
               name: message.name,
+              hidden: false
             };
             rooms[roomCode].connections[id] = ws;
             console.debug("Registered player: ", id, message.name, roomCode);
@@ -374,8 +375,30 @@ const ioHandler = (req, res) => {
             let game = rooms[message.room].game;
             let copy_round = game.round;
             let copy_title = game.title;
+
+            // Save only the hidden states from incoming data
+            const incomingHiddenStates = {};
+            if (message.data.registeredPlayers) {
+              Object.entries(message.data.registeredPlayers).forEach(([id, player]) => {
+                // Skip if player is "host" or not an object
+                if (typeof player === 'object' && player !== null && typeof player.hidden === 'boolean') {
+                  incomingHiddenStates[id] = { hidden: player.hidden };
+                }
+              });
+            }
+
+            // Remove registered players data from client message to prevent unauthorized player modifications
             delete message.data.registeredPlayers;
+
             let clone = Object.assign(game, message.data);
+
+            // Selectively update only the hidden states
+            Object.entries(incomingHiddenStates).forEach(([id, state]) => {
+              if (clone.registeredPlayers[id] && typeof clone.registeredPlayers[id] === 'object') {
+                clone.registeredPlayers[id].hidden = state.hidden;
+              }
+            });
+
             game = clone;
             if (
               copy_round != message.data.round ||
