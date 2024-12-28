@@ -8,6 +8,7 @@ import LanguageSwitcher from "./language";
 import CSVLoader from "./Admin/csv-loader";
 import { Buffer } from "buffer";
 import { BSON } from "bson";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -230,7 +231,7 @@ function TitleLogoUpload(props) {
                 if (fileSize > 2098) {
                   console.error("Logo image is too large");
                   props.setError(
-                    t("Logo image is too large. 2MB is the limit"),
+                    t(ERROR_CODES.IMAGE_TOO_LARGE, { message: "2MB" })
                   );
                   return;
                 }
@@ -262,7 +263,7 @@ function TitleLogoUpload(props) {
                       mimetype = "jpeg";
                       break;
                     default:
-                      props.setError(t("Unknown file type"));
+                      props.setError(t(ERROR_CODES.UNKNOWN_FILE_TYPE));
                       return;
                   }
 
@@ -393,7 +394,7 @@ export default function Admin(props) {
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${10 - refreshCounter}`,
+          t(ERROR_CODES.CONNECTION_LOST, {message: `${10 - refreshCounter}`}),
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
@@ -421,8 +422,8 @@ export default function Admin(props) {
           setGameSelector([]);
         }
       } else if (json.action === "error") {
-        console.error(json.message);
-        setError(json.message);
+        console.error(json.code);
+        setError(t(json.code, { message: json.message }));
       } else if (json.action === "timer_complete") {
         setTimerStarted(false);
         setTimerCompleted(true);
@@ -551,7 +552,7 @@ export default function Admin(props) {
                           };
                           reader.onerror = function(evt) {
                             console.error("error reading file");
-                            setError(t("error reading file"));
+                            setError(t(ERROR_CODES.PARSE_ERROR));
                           };
                         }
                       } else if (file?.type === "text/csv") {
@@ -560,7 +561,7 @@ export default function Admin(props) {
                         reader.onload = function(evt) {
                           let lineCount = evt.target.result.split("\n");
                           if (lineCount.length > 30) {
-                            setError(t("This csv file is too large"));
+                            setError(t(ERROR_CODES.CSV_TOO_LARGE));
                           } else {
                             setCsvFileUpload(file);
                             setCsvFileUploadText(evt.target.result);
@@ -568,10 +569,10 @@ export default function Admin(props) {
                         };
                         reader.onerror = function(evt) {
                           console.error("error reading file");
-                          setError(t("error reading file"));
+                          setError(t(ERROR_CODES.PARSE_ERROR));
                         };
                       } else {
-                        setError(t("Unknown file type in game load"));
+                        setError(t(ERROR_CODES.UNKNOWN_FILE_TYPE));
                       }
                       // allow same file to be selected again
                       document.getElementById("gamePicker").value = null;
@@ -679,7 +680,9 @@ export default function Admin(props) {
               ></input>
             </div>
           </div>
-          <p className="text-xl text-failure-700">{error}</p>
+          <p className="text-xl text-failure-700">
+            {error.code ? t(error.code, { message: error.message }) : t(error)}
+          </p>
         </div>
         <hr className="my-12" />
         {/* ADMIN CONTROLS */}

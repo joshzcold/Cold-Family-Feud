@@ -8,6 +8,7 @@ import Buzzer from "components/buzzer";
 import Login from "components/login";
 import Footer from "components/Login/footer"
 import cookieCutter from "cookie-cutter";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -96,8 +97,8 @@ export default function Home() {
               setRegisteredRoomCode(json.room);
               setGame(json.game);
             } else if (json.action === "error") {
-              console.error(json.message);
-              setError(json.message);
+              console.error(json.code);
+              setError(t(json.code, { message: json.message }));
             } else {
               console.debug("did not expect in index.js: ", json);
             }
@@ -157,7 +158,7 @@ export default function Home() {
           })
         );
       } else {
-        setError(t("input your name"));
+        setError(t(ERROR_CODES.MISSING_INPUT, {message: t("name")}));
       }
     } else {
       setError(t("room code is not correct length, should be 4 characters"));
