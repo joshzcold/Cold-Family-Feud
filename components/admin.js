@@ -523,7 +523,7 @@ export default function Admin(props) {
                       });
                     }}
                   >
-                    <option disabled value="">{t("question_select")}</option>
+                    <option disabled value="">{t("Select question set")}</option>
                     {gameSelector.map((value, index) => (
                       <option key={`set-${index}`} value={value}>
                         {value.replace(".json", "")}
