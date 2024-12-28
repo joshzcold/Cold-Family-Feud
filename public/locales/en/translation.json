@@ -90,11 +90,9 @@
   "logo upload": "logo upload",
   "(must be smaller than 2MB)": "(must be smaller than 2MB)",
   "error reading file": "error reading file",
-  "This csv file is too large": "This csv file is too large",
   "Unknown file type in game load": "Unknown file type in game load",
   ".json, .csv": ".json, .csv",
   "Error: round and final round is greater than document has available.": "__STRING_NOT_TRANSLATED__",
-  "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ...": "__STRING_NOT_TRANSLATED__",
   "CSV file upload": "CSV file upload",
   "No Header": "No Header",
   "Rounds": "Rounds",
@@ -114,5 +112,24 @@
   "source code": "source code",
   "Question": "Question",
   "Join at": "Join at",
-  "Room Code": "Room Code"
+  "Room Code": "Room Code",
+  "Expected format": "Expected format",
+  "Format Example": "Each row should have: Question, Answer, Points, Answer, Points, etc.",
+  "Points must be numbers": "Points must be numbers",
+  "Example row": "Example row",
+  "Format Guide": "Format Guide",
+  "Each row follows this pattern. Points must be numbers.": "Each row follows this pattern. Points must be numbers.",
+  "errors": {
+    "room_not_found": "Room not found",
+    "host_quit": "Host quit the game",
+    "server_error": "Error on server: {{message}}",
+    "parse_error": "Error parsing data in server",
+    "game_closed": "The game has been closed, there has been no activity in the past hour",
+    "image_too_large": "Image too large, the limit is {{message}}",
+    "unknown_file_type": "Unknown file type in image upload",
+    "csv_too_large": "The CSV file is too large",
+    "connection_lost": "Connection to the server was lost, retrying in {{message}}s",
+    "csv_invalid_format": "Invalid CSV format",
+    "missing_input": "Please fill in the {{message}} field"
+  }
 }

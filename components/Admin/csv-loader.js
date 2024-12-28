@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import "tailwindcss/tailwind.css";
 import { useState, useEffect, useRef } from "react";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 export function csvStringToArray(data) {
   const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;
@@ -30,7 +31,7 @@ function validateCsv(
   setError,
   t
 ) {
-  let headerOffSet = noHeader ? 1 : 0;
+  let headerOffSet = noHeader ? 0 : 1;
   // the setting of rows is greater than the data provided
   if (roundCount + roundFinalCount + headerOffSet > csvData.length) {
     setError(
@@ -59,11 +60,9 @@ function validateCsv(
         continue colLoop;
       } else {
         // Answer point needs to be a number
-        if (!/^\d+$/.test(csvData[index][i])) {
+        if (csvData[index][i] && !/^\d+$/.test(csvData[index][i])) {
           setError(
-            t(
-              "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ..."
-            )
+            t(ERROR_CODES.CSV_INVALID_FORMAT)
           );
           return;
         }
@@ -179,10 +178,31 @@ export default function CSVLoader(props) {
           <hr />
         </div>
         {error ? (
-          <div className="p-4 bg-failure-200 rounded">
-            <p>{error}</p>
+          <div className="p-4 bg-failure-200 rounded space-y-2">
+            <p className="font-bold">{error}</p>
+            <div className="text-sm space-y-1">
+              <p>{t("Expected format")}:</p>
+              <p>• {t("Format Example")}</p>
+              <p>• {t("Points must be numbers")}</p>
+              <p>• {t("Example row")}: What is popular?, Pizza, 30, Burger, 25, Fries, 20</p>
+            </div>
           </div>
         ) : null}
+        <div className="bg-secondary-300 p-4 rounded space-y-2">
+          <p className="font-semibold">{t("Format Guide")}:</p>
+          <div className="text-sm space-y-1">
+            <div className="grid grid-cols-7 gap-2">
+              <div className="bg-secondary-500 p-2 rounded">{t("Question")}</div>
+              <div className="bg-success-200 p-2 rounded">{t("Answer")} 1</div>
+              <div className="bg-primary-200 p-2 rounded">{t("points")} 1</div>
+              <div className="bg-success-200 p-2 rounded">{t("Answer")} 2</div>
+              <div className="bg-primary-200 p-2 rounded">{t("points")} 2</div>
+              <div className="bg-success-200 p-2 rounded">...</div>
+              <div className="bg-primary-200 p-2 rounded">...</div>
+            </div>
+            <p className="text-xs mt-2">{t("Each row follows this pattern. Points must be numbers.")}</p>
+          </div>
+        </div>
         <div className="p-2 flex flex-col bg-secondary-500 overflow-x-scroll h-96 ">
           {csvData.map((row, roundCounter) => {
             return (
@@ -191,10 +211,10 @@ export default function CSVLoader(props) {
                   let rowBackgroundColor = "bg-secondary-500";
                   let rowTextColor = "text-foreground";
                   let roundOffSet = 0;
-                  if (!noHeader) {
+                  if (noHeader) {
                     roundOffSet = -1;
                   }
-                  if (roundCounter === 0 && noHeader) {
+                  if (roundCounter === 0 && !noHeader) {
                     rowTextColor = "text-secondary-900";
                   } else if (roundCounter - 1 < roundCount + roundOffSet) {
                     rowBackgroundColor = "bg-success-200";
