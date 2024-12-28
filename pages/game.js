@@ -7,6 +7,7 @@ import QuestionBoard from "components/question-board.js";
 import Final from "components/final";
 import "tailwindcss/tailwind.css";
 import cookieCutter from "cookie-cutter";
+import BuzzerPopup from "components/BuzzerPopup";
 
 let timerInterval = null;
 
@@ -17,6 +18,7 @@ export default function Game(props) {
   const [error, setErrorVal] = useState("");
   const [showMistake, setShowMistake] = useState(false);
   const [isHost, setIsHost] = useState(false);
+  const [buzzed, setBuzzed] = useState({});
   const ws = useRef(null);
   let refreshCounter = 0;
 
@@ -54,6 +56,17 @@ export default function Game(props) {
         let json = JSON.parse(received_msg);
         console.debug(json);
         if (json.action === "data") {
+          if(Object.keys(buzzed).length === 0 && json.data.buzzed.length > 0) {
+            let userId = json.data.buzzed[0].id
+            let user = json.data.registeredPlayers[userId]
+            setBuzzed({
+              id: userId,
+              name: user.name,
+              team: json.data.teams[user.team].name
+            })
+          } else if (Object.keys(buzzed).length > 0 && json.data.buzzed.length === 0) {
+            setBuzzed({});
+          }
           if (json.data.title_text === "Change Me") {
             json.data.title_text = t("Change Me");
           }
@@ -149,6 +162,7 @@ export default function Game(props) {
           console.debug("Timer complete");
         } else if (json.action === "clearbuzzers") {
           console.debug("Clear buzzers");
+          setBuzzed({});
         } else {
           console.error("didn't expect", json);
         }
@@ -228,6 +242,7 @@ export default function Game(props) {
             ) : null}
           </div>
         </div>
+        <BuzzerPopup buzzed={buzzed} />
       </>
     );
   } else {
