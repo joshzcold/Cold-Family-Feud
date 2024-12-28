@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 const TitleUrl = () => {
-  if (!process.env.NEXT_PUBLIC_TITLE_URL) return;
+  if (!process.env.NEXT_PUBLIC_TITLE_URL) return null;
 
   const { i18n, t } = useTranslation();
 
