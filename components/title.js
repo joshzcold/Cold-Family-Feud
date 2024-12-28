@@ -36,7 +36,7 @@ export default function Title(props) {
         className="align-middle inline-block"
       >
         <div className="flex flex-col space-y-10">
-          <div className="flex-grow mx-auto">
+          <div className="flex-grow">
             {props.game.settings.logo_url ? (
               <img className="w-full h-[300px] min-h-[200px] object-contain" src={`${props.game.settings.logo_url}`} size={titleSize} alt="Game logo"/>
             ) : (
