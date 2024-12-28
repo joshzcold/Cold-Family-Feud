@@ -108,6 +108,7 @@ class AdminPage {
     this.startFinalRound2Button = page.getByTestId("startFinalRound2Button");
     this.startRoundOneButton = page.getByTestId("startRoundOneButton");
     this.startTimerButton = page.getByTestId("startTimerButton");
+    this.resetTimerButton = page.getByTestId("resetTimerButton")
     this.stopTimerButton = page.getByTestId("stopTimerButton");
     this.teamOneNameInput = page.getByTestId("teamOneNameInput");
     this.teamOnePointsInput = page.getByTestId("teamOnePointsInput");

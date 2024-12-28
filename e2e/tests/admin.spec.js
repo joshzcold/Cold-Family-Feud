@@ -192,6 +192,36 @@ test("can see mistakes", async ({ browser }) => {
   expect(count2).toBe(1)
 });
 
+test("can use timer controls", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const spectator = await s.addPlayer(true);
+  const adminPage = new AdminPage(host.page);
+  const gamePage = new GamePage(spectator.page);
+
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.startRoundOneButton.click()
+  await adminPage.finalRoundButton.click();
+
+  const currentTimerText = await gamePage.finalRoundTimerText.innerText()
+  const currentTimerNum = parseInt(currentTimerText.replace(/^\D+/g, ''))
+  expect(currentTimerNum).toBeGreaterThan(0)
+
+  await adminPage.startTimerButton.click()
+
+  await host.page.waitForTimeout(2000);
+  await adminPage.stopTimerButton.click()
+  const newTimerText = await gamePage.finalRoundTimerText.innerText()
+  const newTimerNum = parseInt(newTimerText.replace(/^\D+/g, ''))
+
+  expect(currentTimerNum).toBeGreaterThan(newTimerNum)
+
+  await adminPage.resetTimerButton.click()
+  const resetTimerText = await gamePage.finalRoundTimerText.innerText()
+  const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ''))
+  expect(currentTimerNum).toBe(resetTimerNum)
+});
+
 test("can track points between rounds", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();

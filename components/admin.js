@@ -1188,6 +1188,7 @@ export default function Admin(props) {
                             )}
                             <button className={`border-4 rounded p-5 ml-2 text-3xl bg-secondary-300 text-foreground ${!timerStarted ? '' : 'opacity-50'}`}
                             disabled={timerStarted} 
+                            id="resetTimerButton"
                             onClick={() => {
                                 if(!timerStarted) {
                                   if (game.is_final_second) {
