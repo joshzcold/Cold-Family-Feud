@@ -150,22 +150,6 @@ export default function Game(props) {
       } else {
         console.error("didn't expect", json);
       }
-      if (json.data.teams[0].name === "Team 1") {
-        json.data.teams[0].name = `${t("team")} ${t("number", {
-          count: 1,
-        })}`;
-      }
-      if (json.data.teams[1].name === "Team 2") {
-        json.data.teams[1].name = `${t("team")} ${t("number", {
-          count: 2,
-        })}`;
-      }
-      setGame(json.data);
-      let session = cookieCutter.get("session");
-      let [_, id] = session.split(":");
-      if (json.data?.registeredPlayers[id] == "host") {
-        setIsHost(true);
-      }
     };
 
     setInterval(() => {
