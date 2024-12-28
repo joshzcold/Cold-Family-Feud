@@ -3,6 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const glob = require("glob");
 const bson = require("bson");
+import {ERROR_CODES} from "i18n/errorCodes"
 import * as loadGame from "backend/load-game";
 
 const ioHandler = (req, res) => {
@@ -162,7 +163,7 @@ const ioHandler = (req, res) => {
                 room,
                 JSON.stringify({
                   action: "error",
-                  message: "game closed, no activity for 1 hour",
+                  code: ERROR_CODES.GAME_CLOSED,
                 }),
               );
               delete rooms[room];
@@ -194,7 +195,7 @@ const ioHandler = (req, res) => {
             ws.send(
               JSON.stringify({
                 action: "error",
-                message: "Error parsing data in server",
+                code: ERROR_CODES.PARSE_ERROR,
               }),
             );
             return;
@@ -277,9 +278,8 @@ const ioHandler = (req, res) => {
                 }),
               );
             } else {
-              // TODO errors sent from server should be internationalized
               ws.send(
-                JSON.stringify({ action: "error", message: "room not found" }),
+                JSON.stringify({ action: "error", code: ERROR_CODES.ROOM_NOT_FOUND }),
               );
             }
           } else if (message.action === "quit") {
@@ -295,7 +295,7 @@ const ioHandler = (req, res) => {
                 message.room,
                 JSON.stringify({
                   action: "error",
-                  message: "host quit the game",
+                  code: ERROR_CODES.HOST_QUIT,
                 }),
               );
 
@@ -511,7 +511,7 @@ const ioHandler = (req, res) => {
                 ws.send(
                   JSON.stringify({
                     action: "error",
-                    message: "Image too large",
+                    code: ERROR_CODES.IMAGE_TOO_LARGE,
                   }),
                 );
                 return;
@@ -540,7 +540,7 @@ const ioHandler = (req, res) => {
                   ws.send(
                     JSON.stringify({
                       action: "error",
-                      message: "Unknown file type in image upload",
+                      code: ERROR_CODES.UNKNOWN_FILE_TYPE,
                     }),
                   );
                   return;
@@ -576,7 +576,8 @@ const ioHandler = (req, res) => {
           ws.send(
             JSON.stringify({
               action: "error",
-              message: `Error on server: ${e}`,
+              code: ERROR_CODES.SERVER_ERROR,
+              message: e.toString()
             }),
           );
         }
