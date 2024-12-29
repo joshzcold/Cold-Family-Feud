@@ -75,7 +75,7 @@ func (r *room) gameTimeout() error {
 				return fmt.Errorf(" %w", err)
 			}
 			r.Hub.broadcast <- message
-			message, err = NewSendError("game closed, no activity for 1 hour")
+			message, err = NewSendError(GAME_CLOSED)
 			if err != nil {
 				return fmt.Errorf(" %w", err)
 			}

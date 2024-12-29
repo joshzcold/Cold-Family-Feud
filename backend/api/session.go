@@ -46,7 +46,7 @@ func quitHost(room *room, event *Event) error {
 	}
 	room.Hub.broadcast <- message
 
-	message, err = NewSendError("host quit the game")
+	message, err = NewSendError(HOST_QUIT)
 	if err != nil {
 		return fmt.Errorf(" %w", err)
 	}

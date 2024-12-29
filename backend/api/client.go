@@ -73,7 +73,8 @@ func (c *Client) readPump() {
 		message = bytes.TrimSpace(bytes.Replace(message, newline, space, -1))
 		err = EventPipe(c, message)
 		if err != nil {
-			errorMessage, err := NewSendError(fmt.Sprintf("Error reading socket message: %s", fmt.Sprint(err)))
+			log.Println(fmt.Sprint(err))
+			errorMessage, err := NewSendError(SERVER_ERROR)
 			if err != nil {
 				c.send <- []byte(fmt.Sprintf("%s", fmt.Sprint(err)))
 				return

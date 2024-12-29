@@ -412,11 +412,6 @@ export default function Admin(props) {
       }
     }, 1000);
 
-    const pongInterval = setInterval(() => {
-      console.debug("sending pong in admin");
-      send({ action: "pong" });
-    }, 5000);
-
     const handleMessage = (evt) => {
       var received_msg = evt.data;
       let json = JSON.parse(received_msg);
@@ -443,7 +438,6 @@ export default function Admin(props) {
     ws.current.addEventListener("message", handleMessage);
     send({ action: "change_lang", data: i18n.language });
     return () => {
-      clearInterval(pongInterval);
       clearInterval(retryInterval);
       ws.current.removeEventListener("message", handleMessage);
     };
