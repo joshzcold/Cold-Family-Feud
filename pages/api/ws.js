@@ -259,7 +259,26 @@ const ioHandler = (req, res) => {
             );
           } else if (message.action === "game_window") {
             let [room_code, user_id] = message.session.split(":");
+
+            // First, check if the room exists
+            if(!rooms[room_code]) {
+              ws.send(JSON.stringify({ 
+                action: "error", 
+                code: ERROR_CODES.ROOM_NOT_FOUND 
+              }));
+              return;
+            }
+
+            // Then, send the current game state to this window first
+            ws.send(JSON.stringify({ 
+              action: "data", 
+              data: rooms[room_code].game 
+            }));
+
+            // After that, add this window to the connections
             rooms[room_code].connections[`game_window_${uuidv4()}`] = ws;
+
+            // Finally, broadcast to everyone to keep all in sync
             wss.broadcast(
               room_code,
               JSON.stringify({ action: "data", data: rooms[room_code].game }),

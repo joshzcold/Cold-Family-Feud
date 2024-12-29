@@ -13,7 +13,7 @@ let timerInterval = null;
 
 export default function Game(props) {
   const { i18n, t } = useTranslation();
-  const [game, setGame] = useState({});
+  const [game, setGame] = useState(null);
   const [timer, setTimer] = useState(0);
   const [error, setErrorVal] = useState("");
   const [showMistake, setShowMistake] = useState(false);
@@ -34,9 +34,9 @@ export default function Game(props) {
       ws.current.onopen = function() {
         console.log("game connected to server");
         let session = cookieCutter.get("session");
-        console.debug(session);
+        console.debug("session:", session);
         if (session != null) {
-          console.debug("found user session", session);
+          console.debug("found user session, requesting game state");
           ws.current.send(
             JSON.stringify({ action: "game_window", session: session }),
           );
@@ -55,6 +55,8 @@ export default function Game(props) {
         let json = JSON.parse(received_msg);
         console.debug(json);
         if (json.action === "data") {
+          console.debug("Received game state:", json.data);
+          console.debug("Title flag:", json.data.title);
           if (json.data.title_text === "Change Me") {
             json.data.title_text = t("Change Me");
           }
@@ -172,7 +174,7 @@ export default function Game(props) {
     });
   }, []);
 
-  if (game.teams != null) {
+  if (game?.registeredPlayers && Object.keys(game.registeredPlayers).length) {
     let gameSession;
     if (game.title) {
       gameSession = <Title game={game} />;
