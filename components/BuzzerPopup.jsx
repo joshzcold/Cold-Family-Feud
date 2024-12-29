@@ -8,7 +8,11 @@ const BuzzerPopup = ({ buzzed }) => {
   useEffect(() => {
     let timer;
     if (buzzed && buzzed.id) {
-      var audio = new Audio('buzzer.mp3');
+      // Sound Attribution:
+      // "Quiz Show Buzzer 2" by JapanYoshiTheGamer
+      // Source: https://freesound.org/s/423219/
+      // License: Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/)
+      var audio = new Audio('buzzer.wav');
       audio.play();
       setIsVisible(true);
       timer = setTimeout(() => {

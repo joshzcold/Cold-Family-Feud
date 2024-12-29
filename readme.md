@@ -166,3 +166,8 @@ Usage: parse_csv -[rfov] [ CSV_FILES ]
     -o, --target=FOLDER              where to put generated files
     -v                               Verbose Mode
 ```
+
+## Attributions
+
+### Sound Effects
+- [Quiz Show Buzzer 2](https://freesound.org/people/JapanYoshiTheGamer/sounds/423219/) by [JapanYoshiTheGamer](https://freesound.org/people/JapanYoshiTheGamer/) | License: [Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
