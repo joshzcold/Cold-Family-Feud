@@ -45,6 +45,78 @@ export default function Home() {
     );
   }
 
+  function startWsConnection(ws) {
+    ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
+    ws.current.onopen = function() {
+      console.debug("game connected to server", ws.current);
+      ws.current.onmessage = function(evt) {
+        var received_msg = evt.data;
+        let json = JSON.parse(received_msg);
+        if (json.action === "host_room") {
+          console.debug("registering room with host", json.room);
+          setPlayerID(json.id);
+          setHost(true);
+          setRegisteredRoomCode(json.room);
+          setGame(json.game);
+          cookieCutter.set("session", `${json.room}:${json.id}`);
+        } else if (json.action === "join_room") {
+          console.debug("Joining room : ", json);
+          setPlayerID(json.id);
+          setRegisteredRoomCode(json.room);
+          setGame(json.game);
+          if (json.team != null) {
+            setTeam(json.team);
+          }
+        } else if (json.action === "quit") {
+          console.debug("player quit");
+          setPlayerID(null);
+          setRegisteredRoomCode(null);
+          cookieCutter.set("session", "");
+          setGame({});
+          setHost(false);
+        } else if (json.action === "get_back_in") {
+          console.debug("Getting back into room", json);
+          if (json.player === "host") {
+            setHost(true);
+          }
+          if (Number.isInteger(json.team)) {
+            setTeam(json.team);
+          }
+          setPlayerID(json.id);
+          setRegisteredRoomCode(json.room);
+          setGame(json.game);
+        } else if (json.action === "error") {
+          console.error(json.code);
+          setError(t(json.code, { message: json.message }));
+        } else {
+          console.debug("did not expect in index.js: ", json);
+        }
+      };
+
+      ws.current.onerror = function(e) {
+        console.error(e);
+      };
+    };
+  }
+
+  function waitForSocketConnection(socket, callback, tries = 0) {
+    setTimeout(function() {
+      if (socket.readyState === 1) {
+        if (callback != null) {
+          callback();
+        }
+      } else {
+        console.debug("wait for connection...");
+        tries++
+        if (tries > 30) {
+          setError(t(ERROR_CODES.UNABLE_TO_CONNECT))
+          return
+        }
+        waitForSocketConnection(socket, callback, tries);
+      }
+    }, 100); // wait 100 milisecond for the connection...
+  }
+
   /**
    * put initalization logic inside send method
    * this is make sure the websocket connection
@@ -55,59 +127,10 @@ export default function Home() {
     console.debug("send", ws);
     if (ws.current?.readyState !== 1 || !ws.current) {
       console.debug("connecting to server... new connection");
-      ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-      ws.current.onopen = function() {
-        console.debug("game connected to server", ws.current);
-        ws.current.onmessage = function(evt) {
-          var received_msg = evt.data;
-          let json = JSON.parse(received_msg);
-          if (json.action === "host_room") {
-            console.debug("registering room with host", json.room);
-            setPlayerID(json.id);
-            setHost(true);
-            setRegisteredRoomCode(json.room);
-            setGame(json.game);
-            cookieCutter.set("session", `${json.room}:${json.id}`);
-          } else if (json.action === "join_room") {
-            console.debug("Joining room : ", json);
-            setPlayerID(json.id);
-            setRegisteredRoomCode(json.room);
-            setGame(json.game);
-            if (json.team != null) {
-              setTeam(json.team);
-            }
-          } else if (json.action === "quit") {
-            console.debug("player quit");
-            setPlayerID(null);
-            setRegisteredRoomCode(null);
-            cookieCutter.set("session", "");
-            setGame({});
-            setHost(false);
-          } else if (json.action === "get_back_in") {
-            console.debug("Getting back into room", json);
-            if (json.player === "host") {
-              setHost(true);
-            }
-            if (Number.isInteger(json.team)) {
-              setTeam(json.team);
-            }
-            setPlayerID(json.id);
-            setRegisteredRoomCode(json.room);
-            setGame(json.game);
-          } else if (json.action === "error") {
-            console.error(json.code);
-            setError(t(json.code, { message: json.message }));
-          } else {
-            console.debug("did not expect in index.js: ", json);
-          }
-        };
-      };
-
-      ws.current.onerror = function(e) {
-        console.error(e);
-      };
-
-      ws.current.send(message);
+      startWsConnection(ws)
+      waitForSocketConnection(ws.current, function(){
+        ws.current.send(message);
+      })
     } else {
       console.debug("send", message);
       ws.current.send(message);

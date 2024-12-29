@@ -128,6 +128,7 @@
     "unknown_file_type": "Unknown file type in image upload",
     "csv_too_large": "The CSV file is too large",
     "connection_lost": "Connection to the server was lost, retrying in {{message}}s",
+    "unable_to_connect": "Unable to connect to server...",
     "csv_invalid_format": "Invalid CSV format",
     "missing_input": "Please fill in the {{message}} field"
   }
