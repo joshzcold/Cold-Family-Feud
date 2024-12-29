@@ -76,7 +76,7 @@ export default function Home() {
           setHost(false);
         } else if (json.action === "get_back_in") {
           console.debug("Getting back into room", json);
-          if (json.player === "host") {
+          if (json.host === true) {
             setHost(true);
           }
           if (Number.isInteger(json.team)) {
@@ -107,10 +107,10 @@ export default function Home() {
         }
       } else {
         console.debug("wait for connection...");
-        tries++
+        tries++;
         if (tries > 30) {
-          setError(t(ERROR_CODES.UNABLE_TO_CONNECT))
-          return
+          setError(t(ERROR_CODES.UNABLE_TO_CONNECT));
+          return;
         }
         waitForSocketConnection(socket, callback, tries);
       }
@@ -127,10 +127,10 @@ export default function Home() {
     console.debug("send", ws);
     if (ws.current?.readyState !== 1 || !ws.current) {
       console.debug("connecting to server... new connection");
-      startWsConnection(ws)
-      waitForSocketConnection(ws.current, function(){
+      startWsConnection(ws);
+      waitForSocketConnection(ws.current, function() {
         ws.current.send(message);
-      })
+      });
     } else {
       console.debug("send", message);
       ws.current.send(message);
