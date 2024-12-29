@@ -310,7 +310,7 @@ export default function TitleLogo(props) {
 </svg>
   `;
   return (
-    <div className="-mt-8 w-full">
+    <div className="-mt-16 w-full">
       <div dangerouslySetInnerHTML={{ __html: logo }} />
     </div>
   );
