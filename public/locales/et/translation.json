@@ -118,6 +118,10 @@
     "Example row": "Näidis rida",
     "Format Guide": "Vormingu juhend",
     "Each row follows this pattern. Points must be numbers.": "Iga rida järgib seda vormingut. Punktid peavad olema numbrid",
+    "Allow players to hear sound on their devices when they press their buzzer": "Luba mängijatel kuulda heli oma seadmetes, kui nad vajutavad summerit",
+    "Player Buzzer Sounds": "Mängija summeri helid",
+    "Only play sound for the first player to buzz in": "Mängi heli ainult esimesese mängija seadmel, kes summerit vajutab",
+    "First Press Only": "Ainult esimene summer",
     "errors": {
         "room_not_found": "Mängu ei leitud",
         "host_quit": "Mängu juht lahkus mängust",

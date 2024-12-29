@@ -120,6 +120,10 @@
   "Example row": "Example row",
   "Format Guide": "Format Guide",
   "Each row follows this pattern. Points must be numbers.": "Each row follows this pattern. Points must be numbers.",
+  "Allow players to hear sound on their devices when they press their buzzer": "Allow players to hear sound on their devices when they press their buzzer",
+  "Player Buzzer Sounds": "Player Buzzer Sounds",
+  "Only play sound for the first player to buzz in": "Only play sound for the first player to buzz in",
+  "First Press Only": "First Press Only",
   "errors": {
     "room_not_found": "Room not found",
     "host_quit": "Host quit the game",
