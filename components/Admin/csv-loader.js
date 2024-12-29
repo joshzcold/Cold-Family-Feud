@@ -230,7 +230,7 @@ export default function CSVLoader(props) {
                     return (
                       <div
                         id={`csvRow${roundCounter}Col${colidx}`}
-                        key={`csvloader-round-${roundCounter}-${index}`}
+                        key={`csvloader-round-${roundCounter}-${colidx}`}
                         className={`w-96 font-bold p-4 ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
                       >
                         <p className="text-ellipsis whitespace-nowrap overflow-hidden">
