@@ -45,7 +45,7 @@ export default function Login(props) {
 
   return (
     <div className={`min-h-screen w-full flex flex-col space-y-10 p-5 bg-background`}>
-      <div className="w-full flex justify-between">
+      <div className="w-full flex justify-between flex-col sm:flex-row gap-2">
         <LanguageSwitcher />
         <ThemeSwitcher game={game} setGame={setGame} send={() => {}} />
       </div>

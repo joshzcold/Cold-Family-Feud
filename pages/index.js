@@ -203,8 +203,8 @@ export default function Home() {
       );
     } else {
       return (
-        <div className="flex w-full justify-center">
-          <div className="lg:w-1/2 sm:w-10/12 sm:px-8 md:w-3/4 w-10/12 flex flex-col space-y-6 pt-5">
+        <div className="flex w-full justify-center relative min-h-screen">
+          <div className="lg:w-1/2 w-full sm:px-4 lg:px-6 md:px-8 flex flex-col">
             <Login
               setRoomCode={setRoomCode}
               roomCode={roomCode}
