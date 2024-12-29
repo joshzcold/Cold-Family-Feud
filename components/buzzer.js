@@ -119,7 +119,11 @@ export default function Buzzer(props) {
 
 
   const currentPlayer = game.registeredPlayers[props.id];
-  if (currentPlayer?.hidden) return <h1>{t("You have been blindfolded...")}</h1>
+  if (currentPlayer?.hidden) return (
+    <div className="flex flex-col justify-center items-center min-h-screen">
+      <h1>{t("You have been blindfolded...")}</h1>
+    </div>
+  );
 
   if (game.teams != null) {
     console.debug(game);
