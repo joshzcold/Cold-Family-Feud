@@ -1,6 +1,7 @@
 package api
 
 import (
+	"errors"
 	"fmt"
 	"time"
 )
@@ -34,7 +35,7 @@ func RegisterBuzzer(client *Client, event *Event) error {
 	}
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if !ok {
-		return fmt.Errorf("player not found in register buzzer")
+		return errors.New(string(PLAYER_NOT_FOUND))
 	}
 	player.Team = event.Team
 	player.Start = time.Now()
@@ -57,7 +58,7 @@ func RegisterBuzzer(client *Client, event *Event) error {
 
 	clientPlayer, ok := room.registeredClients[event.ID]
 	if !ok {
-		return fmt.Errorf("player client not found in register buzzer")
+		return errors.New(string(PLAYER_NOT_FOUND))
 	}
 	// Set up recurring ping loop to get player latency
 	clientPlayer.stopPing = make(chan bool)
@@ -71,7 +72,7 @@ func Buzz(client *Client, event *Event) error {
 	room, err := s.getRoom(client, event.Room)
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if !ok {
-		return fmt.Errorf("player not found in buzz function")
+		return errors.New(string(PLAYER_NOT_FOUND))
 	}
 	latencyMilliseconds := time.Millisecond * time.Duration(player.Latency)
 	latencyTime := time.Now().UTC().Add(-latencyMilliseconds).UnixMilli()

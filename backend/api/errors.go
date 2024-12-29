@@ -18,4 +18,5 @@ const (
 	CONNECTION_LOST          ErrorCode = "errors.connection_lost"
 	MISSING_INPUT            ErrorCode = "errors.missing_input"
 	UNABLE_TO_CONNECT        ErrorCode = "errors.unable_to_connect"
+	PLAYER_NOT_FOUND         ErrorCode = "errors.player_not_found"
 )

@@ -1,6 +1,7 @@
 package api
 
 import (
+	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -36,7 +37,7 @@ func (m *MemoryStore) getRoom(client *Client, roomCode string) (room, error) {
 	if ok {
 		return foundGame, nil
 	}
-	return room{}, fmt.Errorf("could not find game of room code: %s", roomCode)
+	return room{}, errors.New(string(ROOM_NOT_FOUND))
 }
 
 func (m *MemoryStore) writeRoom(roomCode string, room room) error {

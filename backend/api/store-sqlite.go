@@ -61,7 +61,7 @@ func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, error) {
 	var foundRoomDB Room
 
 	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
-		return room{}, fmt.Errorf("could not find game of room code: %s in database", roomCode)
+		return room{}, errors.New(string(ROOM_NOT_FOUND))
 	}
 	_, ok := s.rooms[roomCode]
 

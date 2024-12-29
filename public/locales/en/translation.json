@@ -130,6 +130,7 @@
     "connection_lost": "Connection to the server was lost, retrying in {{message}}s",
     "unable_to_connect": "Unable to connect to server...",
     "csv_invalid_format": "Invalid CSV format",
-    "missing_input": "Please fill in the {{message}} field"
+    "missing_input": "Please fill in the {{message}} field",
+    "player_not_found": "Player not found in server."
   }
 }

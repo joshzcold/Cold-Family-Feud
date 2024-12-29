@@ -1,6 +1,7 @@
 package api
 
 import (
+	"errors"
 	"fmt"
 	"log"
 	"slices"
@@ -139,7 +140,7 @@ func getBackInHost(client *Client, room room, roomCode string, playerID string) 
 func getBackInPlayer(client *Client, room room, roomCode string, playerID string) error {
 	player, ok := room.Game.RegisteredPlayers[playerID]
 	if !ok {
-		return fmt.Errorf("player not found in get_back_in")
+		return errors.New(string(PLAYER_NOT_FOUND))
 	}
 	room.Hub.register <- client
 	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, *player, false)
@@ -169,7 +170,7 @@ func getBackInPlayer(client *Client, room room, roomCode string, playerID string
 func GetBackIn(client *Client, event *Event) error {
 	session := strings.Split(event.Session, ":")
 	if len(session) < 2 {
-		return fmt.Errorf("session string %q getting back in not in expected format", session)
+		return errors.New(string(PARSE_ERROR))
 	}
 	roomCode, playerID := session[0], session[1]
 	s := store

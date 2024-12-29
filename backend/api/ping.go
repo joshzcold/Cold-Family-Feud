@@ -1,6 +1,7 @@
 package api
 
 import (
+	"errors"
 	"fmt"
 	"time"
 )
@@ -13,7 +14,7 @@ func Pong(client *Client, event *Event) error {
 	}
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if ! ok {
-		return fmt.Errorf("player not found in pong")
+		return errors.New(string(PLAYER_NOT_FOUND))
 	}
 	if ! player.Start.IsZero() {
 		end := time.Now()

@@ -2,6 +2,7 @@ package api
 
 import (
 	"encoding/base64"
+	"errors"
 	"fmt"
 	"math"
 	"net/http"
@@ -19,7 +20,7 @@ func VerifyLogo(logo []byte) error {
 	acceptedMimeTypes := []string{"image/png", "image/gif", "image/jpeg"}
 
 	if !slices.Contains(acceptedMimeTypes, mimeType) {
-		return fmt.Errorf("unknown file type in logo upload")
+		return errors.New(string(UNKNOWN_FILE_TYPE))
 	}
 	return nil
 }

@@ -2,6 +2,7 @@ package api
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -10,12 +11,12 @@ import (
 // addGameKeys Add state data to a loaded game
 func addGameKeys(game *game) error {
 	if len(game.Rounds) == 0 {
-		return fmt.Errorf("invalid game: loaded game missing rounds")
+		return errors.New(string(PARSE_ERROR))
 	}
 	game.PointTracker = []int{}
 	for _, round := range game.Rounds {
 		if len(round.Answers) == 0 {
-			return fmt.Errorf("invalid game: round %q is missing answers", round.Question)
+			return errors.New(string(PARSE_ERROR))
 		}
 		for _, answer := range round.Answers {
 			answer.Triggered = false
