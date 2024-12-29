@@ -508,8 +508,7 @@ const ioHandler = (req, res) => {
           } else if (message.action === "logo_upload") {
             let dirpath = `./public/rooms/${message.room}/`;
             try {
-              const fileSize = Math.round(message.data.length / 1024);
-              if (fileSize > 2098) {
+              if (message.data.length > process.env.NEXT_PUBLIC_MAX_IMAGE_UPLOAD_SIZE_MB * 1024 * 1024) {
                 console.error("Image too large");
                 ws.send(
                   JSON.stringify({
