@@ -1,10 +1,10 @@
 import { Palette } from "lucide-react";
-import { useEffect } from "react";
+import { useTheme } from 'next-themes';
 import { useTranslation } from "react-i18next";
 
 const ThemeSwitcher = ({game, setGame, send}) => {
     const { t } = useTranslation();
-    const THEME_STORAGE_KEY = "theme";
+    const { theme, setTheme } = useTheme();
 
     const availableThemes = {
         default: {
@@ -33,19 +33,10 @@ const ThemeSwitcher = ({game, setGame, send}) => {
             title: "red",
         },
     };
- 
-    // Load theme from localStorage on mount
-    useEffect(() => {
-        const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-        if(savedTheme && availableThemes[savedTheme] && game.settings.theme !== savedTheme) {
-            handleThemeChange(savedTheme);
-        }
-    }, [])
 
     const handleThemeChange = (newTheme) => {
         try {
-            // Save to localStorage first
-            localStorage.setItem(THEME_STORAGE_KEY, newTheme);
+            setTheme(newTheme);
 
             // Create deep copy of game state
             const updatedGame = JSON.parse(JSON.stringify(game));
@@ -57,28 +48,21 @@ const ThemeSwitcher = ({game, setGame, send}) => {
             // Send update to server
             send({ 
                 action: "data", 
-                data: updatedGame,
-                callback: (success) => {
-                    if (!success) {
-                        console.error('Failed to update theme on server');
-                        // Revert localStorage if server update failed
-                        localStorage.setItem(THEME_STORAGE_KEY, game.settings.theme);
-                    }
-                }
+                data: updatedGame
             });
         } catch (error) {
             console.error('Error updating theme:', error);
-            // Revert localStorage on error
-            localStorage.setItem(THEME_STORAGE_KEY, game.settings.theme);
+            // Revert theme on error
+            setTheme(game.settings.theme);
         }
-    } 
+    }
 
     return (         
     <div className="flex flex-row space-x-5 items-center">
         <Palette color="gray" />
         <select
-            className="bg-secondary-300 text-foreground rounded-lg p-2"
-            value={game.settings.theme}
+            className="bg-secondary-300 text-foreground rounded-lg p-2 capitalize"
+            value={theme || 'default'}
             onChange={(e) => handleThemeChange(e.target.value)}
             aria-label={t("Select theme")}
         >
@@ -89,7 +73,7 @@ const ThemeSwitcher = ({game, setGame, send}) => {
                     style={{
                         backgroundColor: availableThemes[key].bgcolor
                     }}
-                    className={`${availableThemes[key].fgcolor}`}
+                    className={`${availableThemes[key].fgcolor} capitalize`}
                 >
                     {availableThemes[key].title}
                 </option>
@@ -98,5 +82,5 @@ const ThemeSwitcher = ({game, setGame, send}) => {
     </div> 
     );
 }
- 
+
 export default ThemeSwitcher;
