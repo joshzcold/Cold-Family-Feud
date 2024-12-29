@@ -1,0 +1,345 @@
+{
+    "settings": {},
+    "rounds": [
+        {
+            "question": "Nimeta midagi, mis teeb talvest toreda aastaaja.",
+            "answers": [
+                {
+                    "ans": "Lumi",
+                    "pnt": 220
+                },
+                {
+                    "ans": "Jõulud",
+                    "pnt": 53
+                },
+                {
+                    "ans": "Pimedus/Hämarus",
+                    "pnt": 13
+                },
+                {
+                    "ans": "Mandariinid",
+                    "pnt": 7
+                },
+                {
+                    "ans": "Piparkoogid",
+                    "pnt": 6
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta värv, mis seostub jõuludega.",
+            "answers": [
+                {
+                    "ans": "Punane",
+                    "pnt": 238
+                },
+                {
+                    "ans": "Roheline",
+                    "pnt": 56
+                },
+                {
+                    "ans": "Valge",
+                    "pnt": 51
+                },
+                {
+                    "ans": "Kuldne",
+                    "pnt": 6
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta toit jõululaual.",
+            "answers": [
+                {
+                    "ans": "Verivorst",
+                    "pnt": 160
+                },
+                {
+                    "ans": "Kapsas",
+                    "pnt": 88
+                },
+                {
+                    "ans": "Seapraad",
+                    "pnt": 49
+                },
+                {
+                    "ans": "Kartul",
+                    "pnt": 18
+                },
+                {
+                    "ans": "Sült",
+                    "pnt": 17
+                },
+                {
+                    "ans": "Kõrvits",
+                    "pnt": 9
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta populaarne jõulufilm.",
+            "answers": [
+                {
+                    "ans": "Üksinda kodsu",
+                    "pnt": 211
+                },
+                {
+                    "ans": "Visa hing",
+                    "pnt": 100
+                },
+                {
+                    "ans": "Grinch",
+                    "pnt": 20
+                },
+                {
+                    "ans": "Love actually",
+                    "pnt": 8
+                },
+                {
+                    "ans": "Eia jõulud tondikakul",
+                    "pnt": 6
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta populaarne jõululaul.",
+            "answers": [
+                {
+                    "ans": "Aisakell",
+                    "pnt": 115
+                },
+                {
+                    "ans": "All I Want For Christmas Is You",
+                    "pnt": 88
+                },
+                {
+                    "ans": "Last Christmas",
+                    "pnt": 40
+                },
+                {
+                    "ans": "Püha öö",
+                    "pnt": 25
+                },
+                {
+                    "ans": "Oh, kuusepuu",
+                    "pnt": 20
+                },
+                {
+                    "ans": "We Wish You a Merry Christmas",
+                    "pnt": 12
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta ettevõte, kelle jõulureklaame telekast näinud oled.",
+            "answers": [
+                {
+                    "ans": "Coca Cola",
+                    "pnt": 212
+                },
+                {
+                    "ans": "Kalev",
+                    "pnt": 14
+                },
+                {
+                    "ans": "Telia",
+                    "pnt": 13
+                },
+                {
+                    "ans": "Rakvere",
+                    "pnt": 10
+                },
+                {
+                    "ans": "Elisa",
+                    "pnt": 8
+                },
+                {
+                    "ans": "Bauhof",
+                    "pnt": 6
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta midagi, mida päkapikud sussi sisse toovad.",
+            "answers": [
+                {
+                    "ans": "Kommi",
+                    "pnt": 134
+                },
+                {
+                    "ans": "Šokolaadi",
+                    "pnt": 120
+                },
+                {
+                    "ans": "Mandariini",
+                    "pnt": 33
+                },
+                {
+                    "ans": "Fanta pudeli",
+                    "pnt": 21
+                },
+                {
+                    "ans": "Sütt",
+                    "pnt": 9
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta Eesti artist, kelle jõulukontserdile tahaksid minna.",
+            "answers": [
+                {
+                    "ans": "Ivo Linna",
+                    "pnt": 28
+                },
+                {
+                    "ans": "Ott Lepland",
+                    "pnt": 23
+                },
+                {
+                    "ans": "Koit Toome",
+                    "pnt": 22
+                },
+                {
+                    "ans": "Karl-Erik Taukar",
+                    "pnt": 17
+                },
+                {
+                    "ans": "Maarja-Liis Ilus",
+                    "pnt": 15
+                },
+                {
+                    "ans": "Lenna",
+                    "pnt": 12
+                }
+            ],
+            "multiply": 1
+        },
+        {
+            "question": "Nimeta perekondlik jõulutraditsioon.",
+            "answers": [
+                {
+                    "ans": "Kinkid",
+                    "pnt": 126
+                },
+                {
+                    "ans": "Söömine",
+                    "pnt": 104
+                }
+            ],
+            "multiply": 1
+        }
+    ],
+    "final_round": [
+        {
+          "question": "Nimeta midagi, mida inimesed jõulu päeval teevad",
+          "answers": [
+            [
+              "Kingituste avamine",
+              70
+            ],
+            [
+              "Söömine",
+              10
+            ],
+            [
+              "Kirikus käimine",
+              8
+            ],
+            [
+              "Magamine",
+              7
+            ],
+            [
+              "Pere külastamine",
+              4
+            ]
+          ]
+        },
+        {
+          "question": "Nimeta midagi, mida saab jõulupuule riputada",
+          "answers": [
+            [
+              "Tuled",
+              30
+            ],
+            [
+              "Ehted",
+              25
+            ],
+            [
+              "Ingel",
+              22
+            ],
+            [
+              "Piparkoogid",
+              13
+            ],
+            [
+              "Vihmaniidid",
+              9
+            ]
+          ]
+        },
+        {
+          "question": "Nimeta põhjus, miks Jõuluvana naine võiks Põhjapolaarilt põgeneda",
+          "answers": [
+            [
+              "Külm",
+              33
+            ],
+            [
+              "Jõuluvana",
+              31
+            ],
+            [
+              "Tüütud päkapikud",
+              29
+            ],
+            [
+              "Põhjapõdrad",
+              3
+            ]
+          ]
+        },
+        {
+          "question": "Mida võiks Jõuluvanale jõuludeks kinkida",
+          "answers": [
+            [
+              "Puhkus",
+              72
+            ],
+            [
+              "Uus ülikond",
+              16
+            ],
+            [
+              "Küpsised",
+              16
+            ],
+            [
+              "Alkohol",
+              4
+            ],
+            [
+              "Jõulumemm",
+              4
+            ],
+            [
+              "Käesoojendajad",
+              3
+            ]
+          ]
+        }
+      ],
+      "final_round_timers": [
+        20,
+        25
+      ]
+}

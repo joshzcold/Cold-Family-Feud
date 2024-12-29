@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
+import { useEffect, useState } from "react";
 
 function adjustTextSize(text, limit = 8, startingSize = 80) {
   if (text.length > limit) {
@@ -17,8 +18,19 @@ function adjustTextSize(text, limit = 8, startingSize = 80) {
 }
 
 export default function TitleLogo(props) {
+  const [isMounted, setIsMounted] = useState(false);
+  
+  useEffect(() => {
+    setIsMounted(true);
+  }, [])
+
   let hasTitle = props.insert.length > 0 ? true : false;
   const { t } = useTranslation();
+
+  if (!isMounted) {
+    return <div className="w-full" />;
+  }
+
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
@@ -298,7 +310,7 @@ export default function TitleLogo(props) {
 </svg>
   `;
   return (
-    <div>
+    <div className="w-full">
       <div dangerouslySetInnerHTML={{ __html: logo }} />
     </div>
   );
