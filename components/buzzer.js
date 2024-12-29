@@ -8,6 +8,7 @@ import Round from "./round";
 import QuestionBoard from "./question-board.js";
 import TeamName from "./team-name.js";
 import Final from "./final";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 let timerInterval = null;
 
@@ -41,7 +42,7 @@ export default function Buzzer(props) {
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${5 - refreshCounter}`,
+          t(ERROR_CODES.CONNECTION_LOST, {message: `${5 - refreshCounter}`}),
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
@@ -183,7 +184,7 @@ export default function Buzzer(props) {
                   <div className="flex flex-col">
                     {game.buzzed.map((x, i) => (
                       <div
-                        key={i}
+                        key={`buzzer-${x.id}-${i}`}
                         className="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
                       >
                         <div className="flex-grow">
@@ -277,7 +278,7 @@ export default function Buzzer(props) {
               <div className="grid grid-cols-2 gap-4">
                 <button
                   id="joinTeam1"
-                  className="hover:shadow-md rounded-md bg-primary-200 p-5"
+                  className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 0 ? 'border-2 border-sky-600' : ''}`}
                   onClick={() => {
                     props.setTeam(0);
                   }}
@@ -287,7 +288,7 @@ export default function Buzzer(props) {
 
                 <button
                   id="joinTeam2"
-                  className="hover:shadow-md rounded-md bg-primary-200 p-5"
+                  className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 1 ? 'border-2 border-sky-600' : ''}`}
                   onClick={() => {
                     props.setTeam(1);
                   }}
@@ -298,20 +299,12 @@ export default function Buzzer(props) {
               <div className="flex flex-row justify-center">
                 <button
                   id="registerBuzzerButton"
-                  className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold"
+                  disabled={props.team === null}
+                  className={`py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold ${props.team === null ? 'opacity-50 hover:shadow-none cursor-not-allowed': ''}`}
                   onClick={() => {
                     if (props.team != null) {
                       send({ action: "registerbuzz", team: props.team });
-                    } else {
-                      let errors = [];
-                      props.team == null
-                        ? errors.push(t("pick your team"))
-                        : null;
-                      setError(errors.join(` ${t("and")} `));
-                      if (props.id !== null && props.team !== null) {
-                        setBuzzerReg(props.id);
-                      }
-                    }
+                    } 
                   }}
                 >
                   {t("play")}

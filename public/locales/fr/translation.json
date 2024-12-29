@@ -89,11 +89,9 @@
   "logo upload": "charger un logo",
   "(must be smaller than 2MB)": "(doit etre plus petit que 2mb)",
   "error reading file": "erreur de lecture du fichier",
-  "This csv file is too large": "Le fichier csv est trop gros",
   "Unknown file type in game load": "Le type de fichier n\u0027est pas reconnu",
   ".json, .csv": ".json, .csv",
   "Error: round and final round is greater than document has available.": "Le tour et le tour finale sont sup\u00E9rieurs \u00E0 la capacit\u00E9 du document.",
-  "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ...": "le fichier csv doit avoir le format attendu�: Question, r\u00E9ponse, Points (nombre), r\u00E9ponse, Points (nombre)",
   "CSV file upload": "charger le fichier CSV",
   "No Header": "Pas d\u0027ent\u00EAte",
   "Rounds": "Tours",
@@ -111,5 +109,18 @@
   "donate": "don",
   "email": "email",
   "source code": "code source",
-  "Question": "Question"
+  "Question": "Question",
+  "errors": {
+    "room_not_found": "Salle introuvable",
+    "host_quit": "L'hôte a quitté la partie",
+    "server_error": "Erreur du serveur: {{message}}",
+    "parse_error": "Erreur d'analyse des données sur le serveur",
+    "game_closed": "La partie a été fermée, il n'y a eu aucune activité depuis une heure",
+    "image_too_large": "Image trop grande, la limite est de {{message}}",
+    "unknown_file_type": "Type de fichier inconnu pour l'upload d'image",
+    "csv_too_large": "Le fichier CSV est trop volumineux",
+    "connection_lost": "La connexion au serveur a été perdue, nouvelle tentative dans {{message}}s",
+    "csv_invalid_format": "Format CSV invalide",
+    "missing_input": "Veuillez remplir le champ {{message}}"
+  }
 }

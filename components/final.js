@@ -6,7 +6,7 @@ function Answers(props) {
   const { t } = useTranslation();
   return props.round.map((x, i) => (
     <div
-      key={`round-${i}`}
+      key={`final-round-answers-${i}`}
       className="flex flex-row space-x-2"
       style={{
         minWidth: 0,

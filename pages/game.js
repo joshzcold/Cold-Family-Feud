@@ -7,6 +7,7 @@ import QuestionBoard from "components/question-board.js";
 import Final from "components/final";
 import "tailwindcss/tailwind.css";
 import cookieCutter from "cookie-cutter";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 let timerInterval = null;
 
@@ -155,7 +156,7 @@ export default function Game(props) {
     setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${5 - refreshCounter}`,
+          t(ERROR_CODES.CONNECTION_LOST, { message: `${5 - refreshCounter}` }),
         );
         refreshCounter++;
         if (refreshCounter >= 5) {

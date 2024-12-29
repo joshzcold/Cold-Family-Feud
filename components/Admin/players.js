@@ -22,7 +22,7 @@ export default function Players(props) {
     return (
       <div>
         {team.map((x, i) => (
-          <div className="border-2 flex flex-row space-x-5 items-center m-2">
+          <div key={`teamSection-player-${x.id}`} className="border-2 flex flex-row space-x-5 items-center m-2">
             {/* information about player */}
             <div className="flex-grow">
               <p className="uppercase text-foreground">{x.name}</p>

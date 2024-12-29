@@ -95,11 +95,9 @@
   "Unknown file type": "Jenis file yang tidak diketahui",
   "(must be smaller than 2MB)": "(Harus lebih kecil dari 2MB)",
   "error reading file": "file membaca kesalahan",
-  "This csv file is too large": "File CSV ini terlalu besar",
   "Unknown file type in game load": "Jenis file yang tidak diketahui dalam beban game",
   ".json, .csv": "json, csv",
   "Error: round and final round is greater than document has available.": "Kesalahan: Babak putaran dan final lebih besar dari yang tersedia",
-  "Error: csv file needs expected format: Question, Answer, Points (number), Answer, Points (number) ...": "Kesalahan: File CSV Membutuhkan Format yang Diharapkan: Pertanyaan, Jawaban, Poin (Nomor), Jawaban, Poin (Nomor) ",
   "CSV file upload": "Unggah file CSV",
   "No Header": "Tidak ada header",
   "Rounds": "Putaran",
@@ -111,5 +109,18 @@
   "estonian": "Estonia",
   "donate": "menyumbangkan",
   "email": "surel",
-  "source code": "Kode sumber"
+  "source code": "Kode sumber",
+  "errors": {
+    "room_not_found": "Room tidak ditemukan",
+    "host_quit": "Host keluar dari permainan",
+    "server_error": "Error pada server: {{message}}",
+    "parse_error": "Error mengurai data di server",
+    "game_closed": "Permainan telah ditutup, tidak ada aktivitas dalam satu jam terakhir",
+    "image_too_large": "Gambar terlalu besar, batas adalah {{message}}",
+    "unknown_file_type": "Jenis file tidak dikenal dalam unggahan gambar",
+    "csv_too_large": "File CSV terlalu besar",
+    "connection_lost": "Koneksi ke server terputus, mencoba lagi dalam {{message}}s",
+    "csv_invalid_format": "Format CSV tidak valid",
+    "missing_input": "Silakan isi kolom {{message}}"
+    }
 }

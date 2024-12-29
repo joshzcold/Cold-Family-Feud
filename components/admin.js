@@ -8,6 +8,7 @@ import LanguageSwitcher from "./language";
 import CSVLoader from "./Admin/csv-loader";
 import { Buffer } from "buffer";
 import { BSON } from "bson";
+import { ERROR_CODES } from "i18n/errorCodes";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -82,7 +83,9 @@ function FinalRoundButtonControls(props) {
     ? props.game.final_round_2
     : props.game.final_round;
   return controlRound?.map((x, i) => (
-    <div key={`round-${i}`} className="flex-col flex space-y-5 p-12 border-2">
+    <div 
+      key={`${props.game.is_final_second ? 'final-round-2' : 'final-round-1'}-question-${i}`}
+      className="flex-col flex space-y-5 p-12 border-2">
       <p className="text-3xl font-bold text-foreground">{x.question}</p>
       {props.game.is_final_second && (
         <div className="flex flex-row space-x-5 pb-2">
@@ -238,7 +241,7 @@ function TitleLogoUpload(props) {
                 if (fileSize > 2098) {
                   console.error("Logo image is too large");
                   props.setError(
-                    t("Logo image is too large. 2MB is the limit"),
+                    t(ERROR_CODES.IMAGE_TOO_LARGE, { message: "2MB" })
                   );
                   return;
                 }
@@ -270,7 +273,7 @@ function TitleLogoUpload(props) {
                       mimetype = "jpeg";
                       break;
                     default:
-                      props.setError(t("Unknown file type"));
+                      props.setError(t(ERROR_CODES.UNKNOWN_FILE_TYPE));
                       return;
                   }
 
@@ -396,10 +399,10 @@ export default function Admin(props) {
   }
 
   useEffect(() => {
-    setInterval(() => {
+    const retryInterval = setInterval(() => {
       if (ws.current.readyState !== 1) {
         setError(
-          `lost connection to server refreshing in ${5 - refreshCounter}`,
+          t(ERROR_CODES.CONNECTION_LOST, {message: `${5 - refreshCounter}`}),
         );
         refreshCounter++;
         if (refreshCounter >= 10) {
@@ -409,7 +412,12 @@ export default function Admin(props) {
       }
     }, 1000);
 
-    ws.current.addEventListener("message", (evt) => {
+    const pongInterval = setInterval(() => {
+      console.debug("sending pong in admin");
+      send({ action: "pong" });
+    }, 5000);
+
+    const handleMessage = (evt) => {
       var received_msg = evt.data;
       let json = JSON.parse(received_msg);
       if (json.action === "data") {
@@ -422,17 +430,24 @@ export default function Admin(props) {
           setGameSelector([]);
         }
       } else if (json.action === "error") {
-        console.error(json.message);
-        setError(json.message);
+        console.error(json.code);
+        setError(t(json.code, { message: json.message }));
       } else if (json.action === "timer_complete") {
         setTimerStarted(false);
         setTimerCompleted(true);
       } else {
         console.debug("did not expect admin: ", json);
       }
-    });
+    }
+
+    ws.current.addEventListener("message", handleMessage);
     send({ action: "change_lang", data: i18n.language });
-  }, []);
+    return () => {
+      clearInterval(pongInterval);
+      clearInterval(retryInterval);
+      ws.current.removeEventListener("message", handleMessage);
+    };
+  }, [i18n.language]);
 
   if (game.teams != null) {
     let current_screen;
@@ -510,6 +525,7 @@ export default function Admin(props) {
                 {gameSelector.length > 0 ? (
                   <select
                     id="gameSelector"
+                    defaultValue={""}
                     className="border-2 rounded bg-secondary-500 text-foreground"
                     onChange={(e) => {
                       send({
@@ -518,11 +534,10 @@ export default function Admin(props) {
                         lang: i18n.language,
                       });
                     }}
-                    defaultValue="default"
                   >
-                    <option disabled value="default"></option>
+                    <option disabled value="">{t("Select question set")}</option>
                     {gameSelector.map((value, index) => (
-                      <option key={index} value={value}>
+                      <option key={`set-${index}`} value={value}>
                         {value.replace(".json", "")}
                       </option>
                     ))}
@@ -557,7 +572,7 @@ export default function Admin(props) {
                           };
                           reader.onerror = function(evt) {
                             console.error("error reading file");
-                            setError(t("error reading file"));
+                            setError(t(ERROR_CODES.PARSE_ERROR));
                           };
                         }
                       } else if (file?.type === "text/csv") {
@@ -566,7 +581,7 @@ export default function Admin(props) {
                         reader.onload = function(evt) {
                           let lineCount = evt.target.result.split("\n");
                           if (lineCount.length > 30) {
-                            setError(t("This csv file is too large"));
+                            setError(t(ERROR_CODES.CSV_TOO_LARGE));
                           } else {
                             setCsvFileUpload(file);
                             setCsvFileUploadText(evt.target.result);
@@ -574,10 +589,10 @@ export default function Admin(props) {
                         };
                         reader.onerror = function(evt) {
                           console.error("error reading file");
-                          setError(t("error reading file"));
+                          setError(t(ERROR_CODES.PARSE_ERROR));
                         };
                       } else {
-                        setError(t("Unknown file type in game load"));
+                        setError(t(ERROR_CODES.UNKNOWN_FILE_TYPE));
                       }
                       // allow same file to be selected again
                       document.getElementById("gamePickerFileUpload").value = null;
@@ -691,7 +706,7 @@ export default function Admin(props) {
             </div>
           </div>
           <p id="errorText" className="text-xl text-failure-700">
-            {error}
+            {error.code ? t(error.code, { message: error.message }) : t(error)}
           </p>
         </div>
         <hr className="my-12" />
@@ -780,7 +795,7 @@ export default function Admin(props) {
                     }}
                   >
                     {game.rounds.map((key, index) => (
-                      <option value={index} key={index}>
+                      <option value={index} key={`round-select-${index}`}>
                         {t("round")} {t("number", { count: index + 1 })}
                       </option>
                     ))}
@@ -939,7 +954,7 @@ export default function Admin(props) {
                   <div className=" text-white rounded border-4 grid grid-rows-4 grid-flow-col  p-3 mx-10 mt-5 gap-3 ">
                     {current_round.answers.map((x, index) => (
                       <div
-                        key={index}
+                        key={`answer-${index}`}
                         className={`${
                           x.trig ? "bg-secondary-500" : "bg-primary-700"
                           } font-extrabold uppercase rounded border-2 text-2xl`}
@@ -1023,11 +1038,9 @@ export default function Admin(props) {
                         <hr />
                         <div className="flex-grow">
                           {game.buzzed.map((x, i) => (
-                            <div className="flex flex-row space-x-5 justify-center">
-                              <p
+                            <div key={`buzzer-${x.id}-${i}`} className="flex flex-row space-x-5 justify-center">
+                              <p className="text-foreground">
                                 id={`playerBuzzed${i}NameText`}
-                                className="text-foreground"
-                              >
                                 {t("number", { count: i + 1 })}.{" "}
                                 {game.registeredPlayers[x.id]?.name}
                               </p>
