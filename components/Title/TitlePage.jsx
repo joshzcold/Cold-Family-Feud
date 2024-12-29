@@ -42,7 +42,7 @@ export default function TitlePage(props) {
       >
         {/* Logo Section */}
         <div className="flex flex-col space-y-10">
-          <div className="flex-grow">
+          <div className="flex justify-center w-full">
             {props.game.settings.logo_url ? (
               <img
                 className="w-full h-[300px] min-h-[200px] object-contain"

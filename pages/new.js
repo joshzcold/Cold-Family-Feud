@@ -118,7 +118,7 @@ export default function CreateGame(props) {
           <p className="text-3xl text-foreground">{t("rounds")}</p>
           <div className="border-2 p-3 flex flex-col space-y-3">
             {game.rounds.map((r, index) => (
-              <div className="border-2 p-3 flex flex-col space-y-3">
+              <div key={`round-${index}`} className="border-2 p-3 flex flex-col space-y-3">
                 <div className="flex space-x-3 flex-row">
                   <input
                     className="p-2 border-2 bg-secondary-300 text-foreground w-full"
@@ -147,7 +147,7 @@ export default function CreateGame(props) {
                 </div>
                 <div className="p-2 border-2">
                   {r.answers.map((a, ain) => (
-                    <div className="flex flex-row space-x-3 pb-2" key={ain}>
+                    <div className="flex flex-row space-x-3 pb-2" key={`round-${index}-answer-${ain}`}>
                       <input
                         className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a.ans}
@@ -258,7 +258,7 @@ export default function CreateGame(props) {
           </div>
           <div className="border-2 p-3">
             {game.final_round.map((q, qin) => (
-              <div className="flex flex-col space-y-2 pt-5">
+              <div key={`final-round-${qin}`} className="flex flex-col space-y-2 pt-5">
                 <input
                   className="p-2 border-2 bg-secondary-300 text-foreground"
                   value={q.question}
@@ -269,7 +269,7 @@ export default function CreateGame(props) {
                 />
                 <div className="border-2 p-3">
                   {q.answers.map((a, ain) => (
-                    <div className="flex flex-row space-x-3 pb-2" key={ain}>
+                    <div className="flex flex-row space-x-3 pb-2" key={`final-round-${qin}-answer-${ain}`}>
                       <input
                         className="p-2 border-2 bg-secondary-300 text-foreground"
                         value={a[0]}

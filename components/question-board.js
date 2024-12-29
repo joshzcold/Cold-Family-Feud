@@ -10,7 +10,7 @@ export default function QuestionBoard(props) {
         style={{ borderWidth: 12 }}
       >
         {props.round.answers.map((x, index) => (
-          <div className=" uppercase items-center text-center rounded border-2 font-extrabold">
+          <div key={`qboard-answer-${index}`} className=" uppercase items-center text-center rounded border-2 font-extrabold">
             {x.trig ? (
               // answered question
               <div className="h-full bg-gradient-to-t from-primary-900 via-primary-500 to-primary-700">
