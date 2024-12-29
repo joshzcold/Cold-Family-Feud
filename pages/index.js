@@ -6,7 +6,7 @@ import "i18n/i18n";
 import Admin from "components/admin";
 import Buzzer from "components/buzzer";
 import Login from "components/login";
-import Footer from "components/Login/footer"
+import Footer from "components/Login/Footer"
 import cookieCutter from "cookie-cutter";
 import { ERROR_CODES } from "i18n/errorCodes";
 
