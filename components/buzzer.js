@@ -193,7 +193,7 @@ export default function Buzzer(props) {
                   <div className="flex flex-col">
                     {game.buzzed.map((x, i) => (
                       <div
-                        key={i}
+                        key={`buzzer-${x.id}-${i}`}
                         className="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
                       >
                         <div className="flex-grow">
