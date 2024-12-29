@@ -82,7 +82,7 @@ function csvToColdFamilyFeudFormat(
   setError,
   send
 ) {
-  let headerOffSet = noHeader ? 1 : 0;
+  let headerOffSet = noHeader ? 0 : 1;
   let gameTemplate = {
     settings: {},
     rounds: [
