@@ -8,12 +8,12 @@ import (
 func GameWindow(client *Client, event *Event) GameError {
 	session := strings.Split(event.Session, ":")
 	if len(session) < 2 {
-		return GameError{code: "PARSE_ERROR"}
+		return GameError{code: PARSE_ERROR}
 	}
 
 	roomCode := session[0]
 	if roomCode == "" {
-		return GameError{code: "PARSE_ERROR"}
+		return GameError{code: PARSE_ERROR}
 	}
 
 	s := store
