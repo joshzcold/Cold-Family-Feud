@@ -19,5 +19,5 @@ services:
     image: nginx:1.27-alpine
     network_mode: "host"
     volumes:
-      - ./nginx/nginx.wsl.conf:/etc/nginx/nginx.conf
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ../dev/cert/:/etc/nginx/cert/
