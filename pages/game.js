@@ -43,7 +43,12 @@ export default function Game(props) {
           console.debug("sending pong in game window");
           let [room, id] = session.split(":");
           ws.current.send(
-            JSON.stringify({ action: "pong", id: id, room: room }),
+            JSON.stringify({ 
+              action: "pong", 
+              session: session,
+              id: session.split(":")[1],
+              room: session.split(":")[0] 
+            }),
           );
         }, 5000);
       }
