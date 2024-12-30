@@ -18,7 +18,6 @@ test("has correct room code", async ({ browser, baseURL }) => {
   expect(host.page.url()).toEqual(baseURL + "/game");
   expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
   await host.page.goto("/");
-  await adminPage.quitButton.click()
 });
 
 test("can join game", async ({ browser }) => {
