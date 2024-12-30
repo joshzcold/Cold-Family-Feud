@@ -20,6 +20,7 @@ export default function LanguageSwitcher(props) {
                 />
             </svg>
             <select
+                id="languageInput"
                 className="bg-secondary-300 text-foreground"
                 value={i18n.language}
                 onChange={

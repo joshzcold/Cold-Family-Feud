@@ -2,7 +2,7 @@
     "indonesian": "Indoneesia",
     "english": "Inglise",
     "error": "Error",
-    "family": "Rooside",
+    "friendly": "sõbralik",
     "feud": "S\u00f5da",
     "Final Round": "L\u00f5ppvoor",
     "language": "Keel",
@@ -82,7 +82,7 @@
     "pick your team": "Valige enda tiim",
     "and": "ja",
     "Fast Money": "L\u00f5ppvoor",
-    "Family Feud": "Rooside S\u00f5da",
+    "Friendly Feud": "Sõbralik Vaen",
     "You need to create some rounds to save the game": "Te peate looma m\u00f5ne vooru, et salvestada m\u00e4ng",
     "new-cold-feud": "new-cold-feud",
     "Logo image is too large. 2MB is the limit": "Logo pilt on liiga suur 2MB on piir",
@@ -132,5 +132,5 @@
         "connection_lost": "Ühendus serveriga katkes, proovime uuesti {{message}}s pärast.",
         "csv_invalid_format": "CSV faili vorming on ebakorrektne",
         "missing_input": "{{message}} lahter on täitmata"
-      }
+    }
 }

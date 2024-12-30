@@ -2,7 +2,7 @@
   "indonesian": "Indonesian",
   "english": "English",
   "error": "Error",
-  "family": "Family",
+  "friendly": "Friendly",
   "feud": "Feud",
   "Final Round": "Final Round",
   "language": "Language",
@@ -82,7 +82,7 @@
   "pick your team": "pick your team",
   "and": "and",
   "Fast Money": "Fast Money",
-  "Family Feud": "Family Feud",
+  "Friendly Feud": "Friendly Feud",
   "You need to create some rounds to save the game": "You need to create some rounds to save the game",
   "new-cold-feud": "new-cold-feud",
   "Logo image is too large. 2MB is the limit": "Logo image is too large. 2MB is the limit",
@@ -130,7 +130,9 @@
     "unknown_file_type": "Unknown file type in image upload",
     "csv_too_large": "The CSV file is too large",
     "connection_lost": "Connection to the server was lost, retrying in {{message}}s",
+    "unable_to_connect": "Unable to connect to server...",
     "csv_invalid_format": "Invalid CSV format",
-    "missing_input": "Please fill in the {{message}} field"
+    "missing_input": "Please fill in the {{message}} field",
+    "player_not_found": "Player not found in server."
   }
 }

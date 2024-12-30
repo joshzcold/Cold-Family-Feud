@@ -7,7 +7,7 @@ This app is currently available at ➡ https://famf.app
 
 ---
 
-I was unsatisfied with the family feud projects
+I was unsatisfied with the other feud projects
 I found on github and I didn't want to use powerpoint(I use linux 🐧)
 
 I so I decided to make it from scratch and make it as functional as possible.
@@ -20,8 +20,7 @@ Features:
 - Buzzer functionality that accounts for latency with registered players. `/buzzer`
 - functional fast money round with appropriate controls
 - Changable title screen text
-- family feud sounds at triggered events
-  (sounds are subject to copyright and will be changed later)
+- Sounds at triggered events
 - timers for fast money 1 and 2
 - game window screen can go back in history
 - Changeable team names
@@ -34,23 +33,19 @@ Features:
 
 ## Start
 
-To run a local instance of the application
+To run a local instance of the application using the prebuilt "all in one" image.
 
 ```sh
-npm run build
-npm run start_local #( windows, do npm run start_windows )
-# npm run dev for working on code
+    docker run -p 443:443 -ti ghcr.io/joshzcold/famf-allinone:latest
 ```
 
 go to
 
-https://localhost:3000/
+https://localhost/
 
 Click on the "Host" button to go to the admin console
 
 Players can join your game by entering in the supplied room code.
-
-if you have trouble do `rm -r node_modules` then retry `npm install`
 
 ### Screen Share Audio Linux
 
@@ -83,11 +78,12 @@ The application can be configured using environment variables. Check the `.env` 
 
 ## Contributing
 
-Stack: Nextjs + React + Tail Wind css
+Frontend Stack: Nextjs + React + Tail Wind css
+Backend Stack: Golang with multiple storage backends (see: backend/api/store*)
 
 ### Add A Language
 
-Check out this link in the wiki: [Link](https://github.com/joshzcold/Cold-Family-Feud/wiki/Add-A-New-Language)
+Check out this link in the wiki: [Link](https://github.com/joshzcold/Cold-Friendly-Feud/wiki/Add-A-New-Language)
 
 ### New Games
 
@@ -111,7 +107,7 @@ Like a holiday or topic like tech or media
 
 `scripts/get_points`
 
-Sometimes you have family feud questions and answers, but with no answer point data.
+Sometimes you have friendly feud questions and answers, but with no answer point data.
 
 This script does its best to generate an array of points to use giving a number of parameters
 
@@ -141,7 +137,7 @@ Works well within a 3-8 point range, but can go higher
 
 ### Parse CSV Data
 
-Assuming you have family feud data that matches this format
+Assuming you have friendly feud data that matches this format
 
 ```csv
 QUESTION, ANSWER, POINTS, ANSWER, POINTS
@@ -156,7 +152,7 @@ QUSTION, ANSWER, ANSWER, ANSWER
 > if you use this format, then this script will auto generate point values
 > using the point_generator script/lib above
 
-You can convert lots of CSV files into cold_family_feud .json format
+You can convert lots of CSV files into cold_friendly_feud .json format
 
 ```sh
 ❯ ./scripts/parse_csv -h

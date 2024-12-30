@@ -2,7 +2,7 @@
   "indonesian": "Indon\u00e9sien",
   "english": "Anglais",
   "error": "Erreur",
-  "family": "Famille",
+  "friendly": "amical",
   "feud": "En or",
   "Final Round": "Tour final",
   "language": "Langue",
@@ -81,7 +81,7 @@
   "pick your team": "choississez votre \u00e9quipe",
   "and": "et",
   "Fast Money": "Argent facile",
-  "Family Feud": "Famille en or",
+  "Friendly Feud": "Querelle Amicale",
   "You need to create some rounds to save the game": "Vous devez cr\u00e9er des tours pour enregistrer la partie",
   "new-cold-feud": "new-cold-feud",
   "Logo image is too large. 2MB is the limit": "La taille du fichier de logo est trop importante. 2mb est la limite",
@@ -122,5 +122,5 @@
     "connection_lost": "La connexion au serveur a été perdue, nouvelle tentative dans {{message}}s",
     "csv_invalid_format": "Format CSV invalide",
     "missing_input": "Veuillez remplir le champ {{message}}"
-    }
+  }
 }

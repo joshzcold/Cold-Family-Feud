@@ -13,7 +13,7 @@ $opt = {
 }
 
 OptionParser.new do |opts|
-  opts.banner = "Usage: parse_csv -[rfov] *.csv \n Convert csv family feud data to cold_family_feud .json"
+  opts.banner = "Usage: parse_csv -[rfov] *.csv \n Convert csv friendly feud data to cold_family_feud .json"
   opts.on('--no-fast-money', 'Should fast money rounds be generated') do 
     $opt[:fastmoney] = false
   end
