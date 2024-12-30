@@ -1,6 +1,7 @@
 .next/
 node_modules/
 .eslintcache
+.vscode
 public/rooms/**/*.jpeg
 public/rooms/**/*.png
 public/rooms/**/*.gif
