@@ -13,5 +13,6 @@ export const ERROR_CODES = {
     CHANGE_LANG_ERROR: "errors.change_lang",
     CONNECTION_LOST: "errors.connection_lost",
     MISSING_INPUT: "errors.missing_input",
-  };
-  
+    UNABLE_TO_CONNECT: "errors.unable_to_connect",
+    PLAYER_NOT_FOUND: "errors.player_not_found",
+};

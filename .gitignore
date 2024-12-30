@@ -4,4 +4,8 @@ node_modules/
 public/rooms/**/*.jpeg
 public/rooms/**/*.png
 public/rooms/**/*.gif
-
+.venv/
+backend/tmp/
+backend/public/
+backend/Cold-Friendly-Feud
+backend/famf.db

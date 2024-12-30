@@ -1,15 +1,20 @@
-FROM node:18-alpine
+FROM node:18-alpine AS base
+FROM base AS builder
 
-
-COPY . /src
+COPY package-lock.json package.json /src/
 WORKDIR /src
+RUN npm install
 
-RUN apk add ruby bash
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+FROM base AS dev
+COPY --from=builder /src/node_modules/ /src/node_modules/
+COPY . /src/
+WORKDIR /src
+CMD ["npm", "run", "dev"]
 
-
-RUN npm ci
+FROM base AS app
+COPY --from=builder /src/node_modules/ /src/node_modules/
+COPY . /src/
+WORKDIR /src
 RUN npm run build
 
 CMD ["npm", "run", "start"]
-

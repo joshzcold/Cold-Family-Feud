@@ -1,0 +1,24 @@
+services:
+  frontend:
+    image: ${docker_registry}/famf-web:dev
+    volumes:
+      - ../:/src
+    ports:
+      - 3000:3000
+  backend:
+    image: ${docker_registry}/famf-server:dev
+    ports:
+      - 8080:8080
+    environment:
+      # One of memory, sqlite
+      GAME_STORE: ${game_store}
+    volumes:
+      - ../backend:/src
+      - ../games/:/src/games/
+  proxy:
+    image: nginx:1.27-alpine
+    ports:
+      - 443:443
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ../dev/cert/:/etc/nginx/cert/
