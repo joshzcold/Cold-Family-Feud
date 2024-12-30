@@ -73,7 +73,6 @@ func (c *Client) readPump() {
 		message = bytes.TrimSpace(bytes.Replace(message, newline, space, -1))
 		gameErr := EventPipe(c, message)
 		if gameErr.code != "" {
-			log.Println(fmt.Sprint(err))
 			errorMessage, err := NewSendError(gameErr)
 			if err != nil {
 				c.send <- []byte(fmt.Sprintf("%s", fmt.Sprint(err)))
