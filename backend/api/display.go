@@ -8,12 +8,12 @@ import (
 func GameWindow(client *Client, event *Event) GameError {
 	session := strings.Split(event.Session, ":")
 	if len(session) < 2 {
-		return GameError{code: "INVALID_SESSION_FORMAT", message: "Session must be in format 'roomCode:id' or 'roomCode:id:0' for spectators"}
+		return GameError{code: "PARSE_ERROR"}
 	}
 
 	roomCode := session[0]
 	if roomCode == "" {
-		return GameError{code: "INVALID_ROOM", message: "Room code cannot be empty"}
+		return GameError{code: "PARSE_ERROR"}
 	}
 
 	s := store
