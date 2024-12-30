@@ -16,6 +16,7 @@ export default function QuestionBoard(props) {
               <div className="h-full bg-gradient-to-t from-primary-900 via-primary-500 to-primary-700">
                 <div className="flex h-full items-center justify-center">
                   <p
+                    id={`answer${index}Answered`}
                     className="text-2xl text-white px-5 flex-grow"
                     style={{ textShadow: "1px 2px 4px black" }}
                   >
@@ -25,6 +26,7 @@ export default function QuestionBoard(props) {
                     <p
                       className="text-4xl text-white"
                       style={{ textShadow: "1px 2px 4px black" }}
+                      id={`answer${index}PointsText`}
                     >
                       {t("number", { count: x.pnt })}
                     </p>
@@ -40,6 +42,7 @@ export default function QuestionBoard(props) {
                   style={{ boxShadow: "3px 3px 2px black" }}
                 >
                   <p
+                    id={`answer${index}UnAnswered`}
                     className="self-center text-4xl text-white font-black"
                     style={{ textShadow: "1px 2px 4px black" }}
                   >

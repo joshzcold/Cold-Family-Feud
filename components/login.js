@@ -51,7 +51,7 @@ export default function Login(props) {
         </div>
         <input
           className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
-          id="roomcode"
+          id="roomCodeInput"
           onChange={(e) => setRoomCode(e.target.value)}
           maxLength={4}
           value={roomCode}
@@ -66,7 +66,7 @@ export default function Login(props) {
         </div>
         <input
           className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
-          id="playername"
+          id="playerNameInput"
           maxLength={12}
           value={playerName}
           onChange={(e) => setPlayerName(e.target.value)}
@@ -75,12 +75,14 @@ export default function Login(props) {
       </div>
       <div className="flex flex-row items-center space-x-5">
         <button
+          id="joinRoomButton"
           className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
           onClick={handlePlay}
         >
           <div className="flex-grow">{t("play")}</div>
         </button>
         <button
+          id="hostRoomButton"
           className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase"
           onClick={() => {
             props.hostRoom();
@@ -90,7 +92,7 @@ export default function Login(props) {
         </button>
       </div>
       {displayError !== "" ? (
-        <p className="text-2xl text-failure-700">
+        <p id="errorText" className="text-2xl text-failure-700">
           {displayError.code 
             ? t(displayError.code, { message: displayError.message }) 
             : t(displayError)}
