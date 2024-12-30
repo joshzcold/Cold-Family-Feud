@@ -1033,8 +1033,7 @@ export default function Admin(props) {
                         <div className="flex-grow">
                           {game.buzzed.map((x, i) => (
                             <div key={`buzzer-${x.id}-${i}`} className="flex flex-row space-x-5 justify-center">
-                              <p className="text-foreground">
-                                id={`playerBuzzed${i}NameText`}
+                              <p id={`playerBuzzed${i}NameText`} className="text-foreground">
                                 {t("number", { count: i + 1 })}.{" "}
                                 {game.registeredPlayers[x.id]?.name}
                               </p>

@@ -69,6 +69,7 @@ class Setup {
     await loginPage.hostRoomButton.click();
     let adminPage = new AdminPage(page);
     let roomCode = await adminPage.roomCodeText.innerText();
+    // Type in lowercase to make sure client/server handles case correctly
     return roomCode;
   }
 

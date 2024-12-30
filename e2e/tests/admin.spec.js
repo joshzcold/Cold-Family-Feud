@@ -104,9 +104,10 @@ test("can upload csv game", async ({ browser }) => {
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
   await fileChooser.setFiles(path.join(__dirname, "../", "static", "game.csv"));
+  expect(adminPage.csvErrorText).not.toBeVisible();
+  await adminPage.csvSetNoHeaderInput.click();
   expect(adminPage.csvErrorText).toBeVisible();
   await adminPage.csvSetNoHeaderInput.click();
-  expect(adminPage.csvErrorText).not.toBeVisible();
 
   await adminPage.csvSetRoundCountInput.focus();
   await adminPage.csvSetRoundCountInput.press("Backspace");

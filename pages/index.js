@@ -86,7 +86,7 @@ export default function Home() {
           setRegisteredRoomCode(json.room);
           setGame(json.game);
         } else if (json.action === "error") {
-          console.error(json.code);
+          console.error(json);
           setError(t(json.code, { message: json.message }));
         } else {
           console.debug("did not expect in index.js: ", json);
@@ -173,7 +173,7 @@ export default function Home() {
         send(
           JSON.stringify({
             action: "join_room",
-            room: roomcode,
+            room: roomcode.toUpperCase(),
             name: playername,
           }),
         );
