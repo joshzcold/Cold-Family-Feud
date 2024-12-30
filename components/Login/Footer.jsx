@@ -29,7 +29,7 @@ const SourceCode = () => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-row items-center space-x-4">
-      <a href="https://github.com/joshzcold/Cold-Family-Feud" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
+      <a href="https://github.com/joshzcold/Cold-Friendly-Feud" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
       <p className="text-secondary-900 text-sm capitalize">{t("source code")}</p>
       <svg 
           role="img" 

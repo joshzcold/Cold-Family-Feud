@@ -24,16 +24,24 @@ spec:
       {{- end }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      {{- with .Values.volumes }}
+      volumes:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
       containers:
-        - name: {{ .Chart.Name }}
+        - name: frontend
           securityContext:
-            {{- toYaml .Values.securityContext | nindent 12 }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
+            {{- toYaml .Values.frontend.securityContext | nindent 12 }}
+          image: "{{ .Values.frontend.repository }}:{{ .Values.frontend.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.frontend.pullPolicy }}
           ports:
             - name: http
-              containerPort: {{ .Values.service.port }}
+              containerPort: {{ .Values.frontend.service.port }}
               protocol: TCP
+          {{- with .Values.backend.end }}
+          env:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           livenessProbe:
             httpGet:
               path: /
@@ -42,8 +50,39 @@ spec:
             httpGet:
               path: /
               port: http
+          {{- with .Values.backend.volumeMounts }}
+          volumeMounts:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           resources:
-            {{- toYaml .Values.resources | nindent 12 }}
+            {{- toYaml .Values.frontend.resources | nindent 12 }}
+        - name: backend
+          securityContext:
+            {{- toYaml .Values.backend.securityContext | nindent 12 }}
+          image: "{{ .Values.backend.repository }}:{{ .Values.backend.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.backend.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.backend.service.port }}
+              protocol: TCP
+          {{- with .Values.backend.end }}
+          env:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          livenessProbe:
+            httpGet:
+              path: /api/healthcheckz
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /api/healthcheckz
+              port: http
+          {{- with .Values.backend.volumeMounts }}
+          volumeMounts:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          resources:
+            {{- toYaml .Values.backend.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

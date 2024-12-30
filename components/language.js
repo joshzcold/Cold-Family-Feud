@@ -8,6 +8,7 @@ export default function LanguageSwitcher(props) {
         <div className="flex items-center gap-4 ">
             <Languages color="gray" />
             <select
+                id="languageInput"
                 className="bg-secondary-300 text-foreground rounded-lg p-2 capitalize w-full sm:w-fit"
                 value={i18n.language}
                 onChange={

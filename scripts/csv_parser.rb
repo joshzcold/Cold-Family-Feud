@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# CSV family feud parse
+# CSV friendly feud parse
 # expects:
 # Question, answer1, pnt1, answer2, pnt2   
 # or
@@ -77,11 +77,11 @@ class CSVParser
   end
 
   # after gathering up rows 
-  # create games using cold family feud format
+  # create games using friendly feud format
   #
   # using round number + fast money (4 questions)
   # create as many games as possible until we run out
-  def createFamilyJson
+  def createFriendlyJson
     if @random
       @@round_arr = @@round_arr.shuffle
     end
@@ -238,7 +238,7 @@ def parse
       raise "#{file} is not a .csv file"
     end
   end
-  createFamilyJson()
+  createFriendlyJson()
   return @@file_arr
 end
 end

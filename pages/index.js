@@ -41,8 +41,80 @@ export default function Home() {
         host: host,
         id: playerID,
         room: registeredRoomCode,
-      })
+      }),
     );
+  }
+
+  function startWsConnection(ws) {
+    ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
+    ws.current.onopen = function() {
+      console.debug("game connected to server", ws.current);
+      ws.current.onmessage = function(evt) {
+        var received_msg = evt.data;
+        let json = JSON.parse(received_msg);
+        if (json.action === "host_room") {
+          console.debug("registering room with host", json.room);
+          setPlayerID(json.id);
+          setHost(true);
+          setRegisteredRoomCode(json.room);
+          setGame(json.game);
+          cookieCutter.set("session", `${json.room}:${json.id}`);
+        } else if (json.action === "join_room") {
+          console.debug("Joining room : ", json);
+          setPlayerID(json.id);
+          setRegisteredRoomCode(json.room);
+          setGame(json.game);
+          if (json.team != null) {
+            setTeam(json.team);
+          }
+        } else if (json.action === "quit") {
+          console.debug("player quit");
+          setPlayerID(null);
+          setRegisteredRoomCode(null);
+          cookieCutter.set("session", "");
+          setGame({});
+          setHost(false);
+        } else if (json.action === "get_back_in") {
+          console.debug("Getting back into room", json);
+          if (json.host === true) {
+            setHost(true);
+          }
+          if (Number.isInteger(json.team)) {
+            setTeam(json.team);
+          }
+          setPlayerID(json.id);
+          setRegisteredRoomCode(json.room);
+          setGame(json.game);
+        } else if (json.action === "error") {
+          console.error(json);
+          setError(t(json.code, { message: json.message }));
+        } else {
+          console.debug("did not expect in index.js: ", json);
+        }
+      };
+
+      ws.current.onerror = function(e) {
+        console.error(e);
+      };
+    };
+  }
+
+  function waitForSocketConnection(socket, callback, tries = 0) {
+    setTimeout(function() {
+      if (socket.readyState === 1) {
+        if (callback != null) {
+          callback();
+        }
+      } else {
+        console.debug("wait for connection...");
+        tries++;
+        if (tries > 30) {
+          setError(t(ERROR_CODES.UNABLE_TO_CONNECT));
+          return;
+        }
+        waitForSocketConnection(socket, callback, tries);
+      }
+    }, 100); // wait 100 milisecond for the connection...
   }
 
   /**
@@ -55,61 +127,9 @@ export default function Home() {
     console.debug("send", ws);
     if (ws.current?.readyState !== 1 || !ws.current) {
       console.debug("connecting to server... new connection");
-      fetch("/api/ws").then(() => {
-        ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-        ws.current.onopen = function() {
-          console.debug("game connected to server", ws.current);
-
-          ws.current.onmessage = function(evt) {
-            var received_msg = evt.data;
-            let json = JSON.parse(received_msg);
-            if (json.action === "host_room") {
-              console.debug("registering room with host", json.room);
-              setPlayerID(json.id);
-              setHost(true);
-              setRegisteredRoomCode(json.room);
-              setGame(json.game);
-              cookieCutter.set("session", `${json.room}:${json.id}`);
-            } else if (json.action === "join_room") {
-              console.debug("Joining room : ", json);
-              setPlayerID(json.id);
-              setRegisteredRoomCode(json.room);
-              setGame(json.game);
-              if (json.team != null) {
-                setTeam(json.team);
-              }
-            } else if (json.action === "quit") {
-              console.debug("player quit");
-              setPlayerID(null);
-              setRegisteredRoomCode(null);
-              cookieCutter.set("session", "");
-              setGame({});
-              setHost(false);
-            } else if (json.action === "get_back_in") {
-              console.debug("Getting back into room", json);
-              if (json.player === "host") {
-                setHost(true);
-              }
-              if (Number.isInteger(json.team)) {
-                setTeam(json.team);
-              }
-              setPlayerID(json.id);
-              setRegisteredRoomCode(json.room);
-              setGame(json.game);
-            } else if (json.action === "error") {
-              console.error(json.code);
-              setError(t(json.code, { message: json.message }));
-            } else {
-              console.debug("did not expect in index.js: ", json);
-            }
-          };
-
-          ws.current.onerror = function(e) {
-            console.error(e);
-          };
-
-          ws.current.send(message);
-        };
+      startWsConnection(ws);
+      waitForSocketConnection(ws.current, function() {
+        ws.current.send(message);
       });
     } else {
       console.debug("send", message);
@@ -134,7 +154,7 @@ export default function Home() {
     send(
       JSON.stringify({
         action: "host_room",
-      })
+      }),
     );
   }
 
@@ -145,20 +165,20 @@ export default function Home() {
   function joinRoom() {
     console.debug(`ws.current `, ws);
     setError("");
-    let roomcode = document.getElementById("roomcode").value;
+    let roomcode = document.getElementById("roomCodeInput").value;
     if (roomcode.length === 4) {
-      let playername = document.getElementById("playername").value;
+      let playername = document.getElementById("playerNameInput").value;
       if (playername.length > 0) {
         console.debug(`roomcode: ${roomcode}, playername ${playername}`);
         send(
           JSON.stringify({
             action: "join_room",
-            room: roomcode,
+            room: roomcode.toUpperCase(),
             name: playername,
-          })
+          }),
         );
       } else {
-        setError(t(ERROR_CODES.MISSING_INPUT, {message: t("name")}));
+        setError(t(ERROR_CODES.MISSING_INPUT, { message: t("name") }));
       }
     } else {
       setError(t("room code is not correct length, should be 4 characters"));
@@ -222,17 +242,17 @@ export default function Home() {
   }
 
   if (typeof window !== "undefined") {
-    document.body.className= game?.settings?.theme + " bg-background";
+    document.body.className = game?.settings?.theme + " bg-background";
   }
   return (
     <>
       <Head>
-        <title>{t("Family Feud")}</title>
+        <title>{t("Friendly Feud")}</title>
         <link rel="icon" href="x.png"></link>
         <meta name="author" content="Joshua Cold" />
         <meta
           name="description"
-          content="Free to play open source family feud game. Host your own custom created family feud games with built in online buzzers, timers and admin controls. Visit https://github.com/joshzcold/Cold-Family-Feud to check out the source code and contribute."
+          content="Free to play open source friendly feud game. Host your own custom created family feud games with built in online buzzers, timers and admin controls. Visit https://github.com/joshzcold/Cold-Friendly-Feud to check out the source code and contribute."
         />
         <link
           rel="preload"
