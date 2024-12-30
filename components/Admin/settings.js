@@ -41,7 +41,7 @@ export function ThemeSwitcher(props) {
         },
     };
     return (
-        <div class="flex flex-row space-x-5 items-center">
+        <div className="flex flex-row space-x-5 items-center">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
@@ -56,7 +56,8 @@ export function ThemeSwitcher(props) {
                 />
             </svg>
             <select
-                class="bg-secondary-300 text-foreground rounded-lg p-2"
+                id="themeSwitcherInput"
+                className="bg-secondary-300 text-foreground rounded-lg p-2"
                 value={props.game.settings.theme}
                 onChange={(e) => {
                     props.game.settings.theme = e.target.value;
@@ -67,11 +68,11 @@ export function ThemeSwitcher(props) {
                 {Object.keys(availableThemes).map((key, index) => (
                     <option
                         value={key}
-                        key={index}
+                        key={`theme-${index}`}
                         style={{
                             backgroundColor: availableThemes[key].bgcolor
                         }}
-                        class={`${availableThemes[key].fgcolor}`}
+                        className={`${availableThemes[key].fgcolor}`}
                     >
                         {availableThemes[key].title}
                     </option>
@@ -84,10 +85,11 @@ export function ThemeSwitcher(props) {
 function FinalRoundTitleChanger(props) {
     const { i18n, t } = useTranslation();
     return (
-        <div class="flex flex-row space-x-5 items-center">
-            <p class="text-xl text-foreground">{t("Final Round Title")}:</p>
+        <div className="flex flex-row space-x-5 items-center">
+            <p className="text-xl text-foreground">{t("Final Round Title")}:</p>
             <input
-                class="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
+                id="finalRoundTitleChangerInput"
+                className="border-4 rounded text-xl w-32 bg-secondary-500 text-foreground p-1 placeholder-secondary-900"
                 onChange={debounce((e) => {
                     props.game.settings.final_round_title = e.target.value;
                     props.setGame((prv) => ({ ...prv }));
@@ -106,15 +108,16 @@ export default function AdminSettings(props) {
 
     function HideGameQuestions(props) {
         return (
-            <div class="flex flex-col">
-                <div class="flex flex-row space-x-5 items-center">
+            <div className="flex flex-col">
+                <div className="flex flex-row space-x-5 items-center">
                     <div>
-                        <p class="text-xl normal-case text-foreground">
+                        <p className="text-xl normal-case text-foreground">
                             {t("Hide questions")}:
                         </p>
                     </div>
                     <input
-                        class="w-4 h-4 rounded  placeholder-secondary-900"
+                        id="hideQuestionsInput"
+                        className="w-4 h-4 rounded  placeholder-secondary-900"
                         checked={game.settings.hide_questions}
                         onChange={(e) => {
                             game.settings.hide_questions = e.target.checked;
@@ -125,7 +128,7 @@ export default function AdminSettings(props) {
                     ></input>
                 </div>
                 <div>
-                    <p class="text-sm normal-case text-secondary-900 italic max-w-xs">
+                    <p className="text-sm normal-case text-secondary-900 italic max-w-xs">
                         {t("hide questions on the game window and player buzzer screens")}
                     </p>
                 </div>
@@ -135,7 +138,7 @@ export default function AdminSettings(props) {
 
     return (
         <>
-            <div class="grid grid-cols-2 gap-y-10 gap-x-48">
+            <div className="grid grid-cols-2 gap-y-10 gap-x-48">
                 <HideGameQuestions
                     game={game}
                     setGame={props.setGame}

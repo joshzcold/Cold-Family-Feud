@@ -1,0 +1,27 @@
+FROM node:18-alpine AS base
+
+FROM base AS front-end-builder
+WORKDIR /src
+COPY package-lock.json package.json /src/
+RUN npm install
+
+FROM golang:1.23.3-alpine AS back-end-builder
+ENV CGO_ENABLED 1
+RUN apk add gcc musl-dev sqlite
+WORKDIR /src
+COPY ./backend/ .
+RUN go build .
+
+FROM base AS app
+RUN apk add nginx bash
+WORKDIR /src
+COPY --chmod=755 docker/allinone/start.sh /start.sh
+COPY ./games/ /src/games/
+COPY --from=back-end-builder /src/Cold-Friendly-Feud /src/Cold-Friendly-Feud
+COPY --from=front-end-builder /src/node_modules/ /src/node_modules/
+COPY docker/allinone/nginx.conf /etc/nginx/nginx.conf
+COPY dev/cert/ /etc/nginx/cert/
+COPY . /src/
+RUN npm run build
+
+CMD ["/start.sh"]

@@ -1,0 +1,9 @@
+services:
+  frontend:
+    image: ${docker_registry}/famf-web:latest
+    ports:
+      - 3000:3000
+  backend:
+    image: ${docker_registry}/famf-server:latest
+    environment:
+      GAME_STORE: ${game_store}
