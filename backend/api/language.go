@@ -8,16 +8,16 @@ import (
 	"golang.org/x/text/language"
 )
 
-func ChangeLanguage(client *Client, event *Event) error {
+func ChangeLanguage(client *Client, event *Event) GameError {
 	gamePath := filepath.Join("games", fmt.Sprint(event.Data), "**/*.json")
 	gameList, err := filepath.Glob(gamePath)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	cull := collate.New(
 		language.English,
@@ -31,8 +31,8 @@ func ChangeLanguage(client *Client, event *Event) error {
 	cull.SortStrings(gameList)
 	message, err := NewSendChangeLang(fmt.Sprint(event.Data), gameList)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
-	return nil
+	return GameError{}
 }

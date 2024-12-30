@@ -25,36 +25,36 @@ func VerifyLogo(logo []byte) error {
 	return nil
 }
 
-func LogoUpload(client *Client, event *Event) error {
+func LogoUpload(client *Client, event *Event) GameError {
 	s := store
 	base64DecodedLogoData, err := base64.StdEncoding.DecodeString(event.LogoData)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
-	err = s.saveLogo(event.Room, base64DecodedLogoData)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	storeError := s.saveLogo(event.Room, base64DecodedLogoData)
+	if storeError.code != "" {
+		return storeError
 	}
-	return nil
+	return GameError{}
 }
 
-func DeleteLogoUpload(client *Client, event *Event) error {
+func DeleteLogoUpload(client *Client, event *Event) GameError {
 	s := store
-	err := s.deleteLogo(event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	storeError := s.deleteLogo(event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
-	return nil
+	return GameError{}
 }
 
-func FetchLogo(w http.ResponseWriter, roomCode string) error {
+func FetchLogo(w http.ResponseWriter, roomCode string) GameError {
 	s := store
-	logoData, err := s.loadLogo(roomCode)
-	if err != nil {
+	logoData, storeError := s.loadLogo(roomCode)
+	if storeError.code != "" {
 		w.WriteHeader(404)
-		return err
+		return storeError
 	}
 	w.WriteHeader(200)
 	w.Write(logoData)
-	return nil
+	return GameError{}
 }

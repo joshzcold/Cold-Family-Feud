@@ -1,78 +1,80 @@
 package api
 
 import (
-	"errors"
 	"fmt"
 	"time"
 )
 
-func ClearBuzzers(client *Client, event *Event) error {
+func ClearBuzzers(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	room.Game.Buzzed = []buzzed{}
 	message, err := NewSendData(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
 	message, err = NewSendClearBuzzers()
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
-	return nil
+	return GameError{}
 }
 
-func RegisterBuzzer(client *Client, event *Event) error {
+func RegisterBuzzer(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if !ok {
-		return errors.New(string(PLAYER_NOT_FOUND))
+		return GameError{code: PLAYER_NOT_FOUND}
 	}
 	player.Team = event.Team
 	player.Start = time.Now()
 	message, err := NewSendPing(event.ID)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
 	message, err = NewSendRegistered(event.ID)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
 	message, err = NewSendData(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
 
 	clientPlayer, ok := room.registeredClients[event.ID]
 	if !ok {
-		return errors.New(string(PLAYER_NOT_FOUND))
+		return GameError{code: PLAYER_NOT_FOUND}
 	}
 	// Set up recurring ping loop to get player latency
 	clientPlayer.stopPing = make(chan bool)
 	go clientPlayer.pingInterval()
 	s.writeRoom(room.Game.Room, room)
-	return nil
+	return GameError{}
 }
 
-func Buzz(client *Client, event *Event) error {
+func Buzz(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
+	}
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if !ok {
-		return errors.New(string(PLAYER_NOT_FOUND))
+		return GameError{code: PLAYER_NOT_FOUND}
 	}
 	latencyMilliseconds := time.Millisecond * time.Duration(player.Latency)
 	latencyTime := time.Now().UTC().Add(-latencyMilliseconds).UnixMilli()
@@ -101,30 +103,30 @@ func Buzz(client *Client, event *Event) error {
 	}
 	message, err := NewSendBuzzed()
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
 	message, err = NewSendData(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(event.Room, room)
-	return nil
+	return GameError{}
 }
 
-func RegisterSpectator(client *Client, event *Event) error {
+func RegisterSpectator(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	delete(room.Game.RegisteredPlayers, event.ID)
 	message, err := NewSendData(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.register <- client
 	room.Hub.broadcast <- message
-	return nil
+	return GameError{}
 }

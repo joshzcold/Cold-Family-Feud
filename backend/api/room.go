@@ -50,7 +50,6 @@ func (p *RegisteredClient) pingInterval() error {
 			}
 			if p.client.send != nil {
 				p.client.send <- message
-				log.Println("Sent ping to id", p.id)
 			}
 		case <-p.stopPing:
 			log.Println("Stop ping via channel", p.id)
@@ -75,7 +74,7 @@ func (r *room) gameTimeout() error {
 				return fmt.Errorf(" %w", err)
 			}
 			r.Hub.broadcast <- message
-			message, err = NewSendError(GAME_CLOSED)
+			message, err = NewSendError(GameError{code: GAME_CLOSED})
 			if err != nil {
 				return fmt.Errorf(" %w", err)
 			}

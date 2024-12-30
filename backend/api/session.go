@@ -1,7 +1,6 @@
 package api
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"slices"
@@ -38,18 +37,18 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	return nil
 }
 
-func quitHost(room *room, event *Event) error {
+func quitHost(room *room, event *Event) GameError {
 	s := store
 	// Make everyone else quit
 	message, err := NewSendQuit()
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
 
-	message, err = NewSendError(HOST_QUIT)
+	message, err = NewSendError(GameError{code: HOST_QUIT})
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	if room.Hub.broadcast != nil {
 		room.Hub.broadcast <- message
@@ -60,43 +59,43 @@ func quitHost(room *room, event *Event) error {
 	// Remove room
 	s.deleteRoom(event.Room)
 	s.deleteLogo(event.Room)
-	return nil
+	return GameError{}
 }
 
 // Quit clear sessions for user or host
-func Quit(client *Client, event *Event) error {
+func Quit(client *Client, event *Event) GameError {
 	log.Println("user quit game", event.Room, event.ID, event.Host)
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	if event.Host {
 		return quitHost(&room, event)
 	}
-	err = quitPlayer(&room, client, event)
+	err := quitPlayer(&room, client, event)
 	s.writeRoom(room.Game.Room, room)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
-	return nil
+	return GameError{}
 }
 
-func JoinRoom(client *Client, event *Event) error {
+func JoinRoom(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	playerID := registerPlayer(&room, event.Name, client)
 	room.Hub.register <- client
 	message, err := NewSendJoinRoom(room.Game.Room, room.Game, playerID)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
 	s.writeRoom(event.Room, room)
-	return nil
+	return GameError{}
 }
 
 func InitalizeRoom(client *Client, newRoomCode string) room {
@@ -109,7 +108,7 @@ func InitalizeRoom(client *Client, newRoomCode string) room {
 }
 
 // HostRoom create new room and websocket hub
-func HostRoom(client *Client, event *Event) error {
+func HostRoom(client *Client, event *Event) GameError {
 	newRoomCode := roomCode()
 	s := store
 	currentRooms := s.currentRooms()
@@ -120,32 +119,32 @@ func HostRoom(client *Client, event *Event) error {
 	hostID := registerHost(&initRoom)
 	message, err := NewSendHostRoom(newRoomCode, initRoom.Game, hostID)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
 	s.writeRoom(newRoomCode, initRoom)
-	return nil
+	return GameError{}
 }
 
-func getBackInHost(client *Client, room room, roomCode string, playerID string) error {
+func getBackInHost(client *Client, room room, roomCode string, playerID string) GameError {
 	room.Hub.register <- client
 	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, registeredPlayer{}, true)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
-	return nil
+	return GameError{}
 }
 
-func getBackInPlayer(client *Client, room room, roomCode string, playerID string) error {
+func getBackInPlayer(client *Client, room room, roomCode string, playerID string) GameError {
 	player, ok := room.Game.RegisteredPlayers[playerID]
 	if !ok {
-		return errors.New(string(PLAYER_NOT_FOUND))
+		return GameError{code: PLAYER_NOT_FOUND}
 	}
 	room.Hub.register <- client
 	message, err := NewSendGetBackIn(roomCode, room.Game, playerID, *player, false)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	client.send <- message
 
@@ -164,19 +163,19 @@ func getBackInPlayer(client *Client, room room, roomCode string, playerID string
 	go playerClient.pingInterval()
 	room.registeredClients[playerID] = playerClient
 
-	return nil
+	return GameError{}
 }
 
-func GetBackIn(client *Client, event *Event) error {
+func GetBackIn(client *Client, event *Event) GameError {
 	session := strings.Split(event.Session, ":")
 	if len(session) < 2 {
-		return errors.New(string(PARSE_ERROR))
+		return GameError{code: PARSE_ERROR}
 	}
 	roomCode, playerID := session[0], session[1]
 	s := store
-	room, err := s.getRoom(client, roomCode)
-	if err != nil {
-		return nil
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	if playerID == room.Game.Host.ID {
 		return getBackInHost(client, room, roomCode, playerID)

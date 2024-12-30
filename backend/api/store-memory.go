@@ -1,7 +1,6 @@
 package api
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -30,71 +29,71 @@ func (m *MemoryStore) currentRooms() []string {
 	return keys
 }
 
-func (m *MemoryStore) getRoom(client *Client, roomCode string) (room, error) {
+func (m *MemoryStore) getRoom(client *Client, roomCode string) (room, GameError) {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 	foundGame, ok := m.rooms[roomCode]
 	if ok {
-		return foundGame, nil
+		return foundGame, GameError{}
 	}
-	return room{}, errors.New(string(ROOM_NOT_FOUND))
+	return room{}, GameError{code: ROOM_NOT_FOUND}
 }
 
-func (m *MemoryStore) writeRoom(roomCode string, room room) error {
+func (m *MemoryStore) writeRoom(roomCode string, room room) GameError {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	m.rooms[roomCode] = room
-	return nil
+	return GameError{}
 }
 
-func (m *MemoryStore) deleteRoom(roomCode string) error {
+func (m *MemoryStore) deleteRoom(roomCode string) GameError {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	delete(m.rooms, roomCode)
-	return nil
+	return GameError{}
 }
 
-func (m *MemoryStore) saveLogo(roomCode string, logo []byte) error {
+func (m *MemoryStore) saveLogo(roomCode string, logo []byte) GameError {
 	dirPath := filepath.Join(".", "public", "rooms", roomCode)
 	err := VerifyLogo(logo)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	err = os.MkdirAll(dirPath, os.ModePerm)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 
 	err = os.WriteFile(filepath.Join(dirPath, "logo"), logo, 0644)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
-	return nil
+	return GameError{}
 }
 
-func (m *MemoryStore) loadLogo(roomCode string) ([]byte, error) {
+func (m *MemoryStore) loadLogo(roomCode string) ([]byte, GameError) {
 	log.Println("Trying to load logo from", "./public/rooms/", roomCode, "logo")
 	logoPath := filepath.Join(".", "public", "rooms", roomCode, "logo")
 	_, err := os.Stat(logoPath)
 	if err != nil {
-		return nil, fmt.Errorf(" %w", err)
+		return nil, GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	logo, err := os.ReadFile(logoPath)
 	if err != nil {
-		return nil, fmt.Errorf(" %w", err)
+		return nil, GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
-	return logo, nil
+	return logo, GameError{}
 }
 
-func (m *MemoryStore) deleteLogo(roomCode string) error {
+func (m *MemoryStore) deleteLogo(roomCode string) GameError {
 	logoPath := filepath.Join(".", "public", "rooms", roomCode, "logo")
 	_, err := os.Stat(logoPath)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	err = os.Remove(logoPath)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
-	return nil
+	return GameError{}
 }

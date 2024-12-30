@@ -1,5 +1,10 @@
 package api
 
+type GameError struct {
+	code ErrorCode
+	message string
+}
+
 type ErrorCode string
 
 const (

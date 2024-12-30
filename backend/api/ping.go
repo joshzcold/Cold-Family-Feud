@@ -1,20 +1,18 @@
 package api
 
 import (
-	"errors"
-	"fmt"
 	"time"
 )
 
-func Pong(client *Client, event *Event) error {
+func Pong(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	player, ok := room.Game.RegisteredPlayers[event.ID]
 	if ! ok {
-		return errors.New(string(PLAYER_NOT_FOUND))
+		return GameError{code: PLAYER_NOT_FOUND}
 	}
 	if ! player.Start.IsZero() {
 		end := time.Now()
@@ -30,5 +28,5 @@ func Pong(client *Client, event *Event) error {
 		// Average latency
 		player.Latency = float64(total / int64(len(player.Latencies)))
 	}
-	return nil
+	return GameError{}
 }

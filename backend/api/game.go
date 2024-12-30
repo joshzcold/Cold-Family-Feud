@@ -1,7 +1,6 @@
 package api
 
 import (
-	"fmt"
 	"log"
 	"time"
 )
@@ -79,15 +78,15 @@ type game struct {
 	Tick              int64                        `json:"tick"`
 }
 
-func setTick(client *Client, event *Event) error {
-	room, err := store.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+func setTick(client *Client, event *Event) GameError {
+	room, storeError := store.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	room.Game.Tick = time.Now().UTC().UnixMilli()
 	log.Println("Set tick for room", room.Game.Room, room.Game.Tick)
 	store.writeRoom(room.Game.Room, room)
-	return nil
+	return GameError{}
 }
 
 func NewGame(roomCode string) room {

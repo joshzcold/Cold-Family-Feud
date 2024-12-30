@@ -13,17 +13,17 @@ type gameStore interface {
 	// List of active rooms on the server
 	currentRooms() []string
 	// Game data of room
-	getRoom(*Client, string) (room, error)
+	getRoom(*Client, string) (room, GameError)
 	// Update game data of room
-	writeRoom(string, room) error
+	writeRoom(string, room) GameError
 	// Erase room from server
-	deleteRoom(string) error
+	deleteRoom(string) GameError
 	// Save an image file for the game logo
-	saveLogo(string, []byte) error
+	saveLogo(string, []byte) GameError
 	// Load a logo image from room
-	loadLogo(string) ([]byte, error)
+	loadLogo(string) ([]byte, GameError)
 	// Delete a logo image from room
-	deleteLogo(string) error
+	deleteLogo(string) GameError
 }
 
 func NewGameStore(gameStore string) error {

@@ -34,11 +34,11 @@ func addGameKeys(game *game) error {
 	return nil
 }
 
-func LoadGame(client *Client, event *Event) error {
+func LoadGame(client *Client, event *Event) GameError {
 	s := store
-	room, err := s.getRoom(client, event.Room)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, event.Room)
+	if storeError.code != "" {
+		return storeError
 	}
 	gameBytes, err := json.Marshal(event.Data)
 	loadedGame := game{}
@@ -46,13 +46,13 @@ func LoadGame(client *Client, event *Event) error {
 		filePath := filepath.Join(event.File)
 		_, err = os.Stat(filePath)
 		if err != nil {
-			return fmt.Errorf(" %w", err)
+			return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 		}
 		gameBytes, err = os.ReadFile(filePath)
 	}
 	json.Unmarshal(gameBytes, &loadedGame)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Game.FinalRound = loadedGame.FinalRound
 	room.Game.FinalRound2 = loadedGame.FinalRound
@@ -61,13 +61,13 @@ func LoadGame(client *Client, event *Event) error {
 
 	err = addGameKeys(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	message, err := NewSendData(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(event.Room, room)
-	return nil
+	return GameError{}
 }

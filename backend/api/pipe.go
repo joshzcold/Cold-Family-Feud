@@ -2,6 +2,7 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
 )
 
 type Event struct {
@@ -24,7 +25,7 @@ type Event struct {
 
 type ActionFunc func(*Client, *Event) error
 
-var recieveActions = map[string]func(client *Client, event *Event) error{
+var recieveActions = map[string]func(client *Client, event *Event) GameError {
 	"buzz":              Buzz,
 	"change_lang":       ChangeLanguage,
 	"clearbuzzers":      ClearBuzzers,
@@ -52,10 +53,10 @@ func parseEvent(message []byte) (*Event, error) {
 	return event, nil
 }
 
-func EventPipe(client *Client, message []byte) error {
+func EventPipe(client *Client, message []byte) GameError {
 	event, err := parseEvent(message)
 	if err != nil {
-		return err
+		return GameError{code: PARSE_ERROR, message: fmt.Sprint(err)}
 	}
 	if event.Action != "" {
 		if event.Action != "pong" && event.Action != "buzz" {
@@ -68,5 +69,5 @@ func EventPipe(client *Client, message []byte) error {
 		// Catch all for generic messages coming from admin
 		return recieveActions["unknown"](client, event)
 	}
-	return nil
+	return GameError{}
 }

@@ -19,12 +19,14 @@ func NewSendData(newGameData *game) ([]byte, error) {
 type sendError struct {
 	Action  string `json:"action"`
 	Code ErrorCode `json:"code"`
+	Message string `json:"message"`
 }
 
-func NewSendError(code ErrorCode) ([]byte, error) {
+func NewSendError(ge GameError) ([]byte, error) {
 	return json.Marshal(sendError{
 		Action:  "error",
-		Code: code,
+		Code: ge.code,
+		Message: ge.message,
 	})
 }
 

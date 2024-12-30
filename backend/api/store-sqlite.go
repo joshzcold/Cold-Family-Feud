@@ -27,7 +27,7 @@ type Room struct {
 	RoomIcon []byte
 }
 
-func NewSQLiteStore() (*SQLiteStore, error) {
+func NewSQLiteStore() (*SQLiteStore, GameError) {
 	storePath := "famf.db"
 	if envPath := os.Getenv("GAME_STORE_SQLITE_PATH"); envPath != "" {
 		storePath = envPath
@@ -35,13 +35,13 @@ func NewSQLiteStore() (*SQLiteStore, error) {
 	log.Println("Using sqlite store path", storePath)
 	db, err := gorm.Open(sqlite.Open(storePath), &gorm.Config{})
 	if err != nil {
-		return &SQLiteStore{}, fmt.Errorf(" %w", err)
+		return &SQLiteStore{}, GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	db.AutoMigrate(&Room{})
 	return &SQLiteStore{
 		db:    db,
 		rooms: make(map[string]roomConnections),
-	}, nil
+	}, GameError{}
 }
 
 func (s *SQLiteStore) currentRooms() []string {
@@ -55,13 +55,13 @@ func (s *SQLiteStore) currentRooms() []string {
 	return roomList
 }
 
-func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, error) {
+func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, GameError) {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var foundRoomDB Room
 
 	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
-		return room{}, errors.New(string(ROOM_NOT_FOUND))
+		return room{}, GameError{code: ROOM_NOT_FOUND}
 	}
 	_, ok := s.rooms[roomCode]
 
@@ -82,15 +82,15 @@ func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, error) {
 	}
 	json.Unmarshal(foundRoomDB.RoomJson, &retrievedRoom.Game)
 
-	return retrievedRoom, nil
+	return retrievedRoom, GameError{}
 }
 
-func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
+func (s *SQLiteStore) writeRoom(roomCode string, room room) GameError {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 	jsonData, err := json.Marshal(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	if err := s.db.Where("room_code = ?", roomCode).First(&Room{}).Error; errors.Is(err, gorm.ErrRecordNotFound) {
 		newRoom := Room{
@@ -99,34 +99,34 @@ func (s *SQLiteStore) writeRoom(roomCode string, room room) error {
 		}
 		s.db.Create(&newRoom)
 		s.rooms[roomCode] = room.roomConnections
-		return nil
+		return GameError{}
 	}
 	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_json", jsonData)
 	s.rooms[roomCode] = room.roomConnections
-	return nil
+	return GameError{}
 }
 
-func (s *SQLiteStore) deleteRoom(roomCode string) error {
+func (s *SQLiteStore) deleteRoom(roomCode string) GameError {
 	log.Println("Try to delete room", roomCode)
 	s.db.Unscoped().Where("room_code = ?", roomCode).Delete(&Room{})
-	return nil
+	return GameError{}
 }
 
-func (s *SQLiteStore) saveLogo(roomCode string, logo []byte) error {
+func (s *SQLiteStore) saveLogo(roomCode string, logo []byte) GameError {
 	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_icon", logo)
-	return nil
+	return GameError{}
 }
 
-func (s *SQLiteStore) loadLogo(roomCode string) ([]byte, error) {
+func (s *SQLiteStore) loadLogo(roomCode string) ([]byte, GameError) {
 	var foundRoomDB Room
 
 	if err := s.db.Where("room_code = ?", roomCode).First(&foundRoomDB).Error; errors.Is(err, gorm.ErrRecordNotFound) {
-		return nil, nil
+		return nil, GameError{code: SERVER_ERROR, message: "logo not found"}
 	}
-	return foundRoomDB.RoomIcon, nil
+	return foundRoomDB.RoomIcon, GameError{}
 }
 
-func (s *SQLiteStore) deleteLogo(roomCode string) error {
+func (s *SQLiteStore) deleteLogo(roomCode string) GameError {
 	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_icon", nil)
-	return nil
+	return GameError{}
 }

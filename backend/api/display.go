@@ -5,20 +5,20 @@ import (
 	"strings"
 )
 
-func GameWindow(client *Client, event *Event) error {
+func GameWindow(client *Client, event *Event) GameError {
 	session := strings.Split(event.Session, ":")
 	roomCode, _ := session[0], session[1]
 	s := store
-	room, err := s.getRoom(client, roomCode)
-	if err != nil {
-		return fmt.Errorf(" %w", err)
+	room, storeError := s.getRoom(client, roomCode)
+	if storeError.code != "" {
+		return storeError
 	}
 
 	message, err := NewSendData(room.Game)
 	if err != nil {
-		return fmt.Errorf(" %w", err)
+		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	room.Hub.register <- client
 	room.Hub.broadcast <- message
-	return nil
+	return GameError{}
 }
