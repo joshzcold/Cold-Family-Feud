@@ -21,6 +21,13 @@ export default function Game(props) {
   const ws = useRef(null);
   let refreshCounter = 0;
 
+  useEffect(() => {
+    if (game.is_final_round && game.final_round_timers) {
+      const timerIndex = game.is_final_second ? 1 : 0;
+      setTimer(game.final_round_timers[timerIndex]);
+    }
+  }, [game.is_final_round, game.is_final_second]);
+
   function setError(e) {
     setErrorVal(e);
     setTimeout(() => {
