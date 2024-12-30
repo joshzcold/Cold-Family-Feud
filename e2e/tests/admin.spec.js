@@ -62,8 +62,8 @@ test("can edit game settings", async ({ browser }) => {
   await adminPage.titleCardButton.click();
   await expect(async () => {
     expect(await gamePage.titleLogoImg.innerText()).toContain("Test Title");
-    expect(await gamePage.team0TeamName.innerText()).toContain("Test 1");
-    expect(await gamePage.team1TeamName.innerText()).toContain("Test 2");
+    expect(await gamePage.getTeamNameText(0)).toContain("Test 1");
+    expect(await gamePage.getTeamNameText(1)).toContain("Test 2");
   }).toPass();
   await adminPage.startRoundOneButton.click();
   await adminPage.hideQuestionsInput.click();

@@ -42,8 +42,8 @@ class GamePage {
     this.roundPointsTeam2 = page.getByTestId("roundPointsTeam2")
     this.roundPointsTeamtotal = page.getByTestId("roundPointsTeamtotal")
     this.roundQuestionText = page.getByTestId("roundQuestionText")
-    this.team0TeamName = page.getByTestId("team0TeamName")
-    this.team1TeamName = page.getByTestId("team1TeamName")
+    this.teamNames = page.getByTestId('team-name');
+    this.getTeamNameByIndex = (index) => this.teamNames.nth(index);
     this.titleLogoImg = page.getByTestId("titleLogoImg");
     this.titleLogoUserUploaded = page.getByTestId("titleLogoUserUploaded");
     this.waitingForHostText = page.getByTestId("waitingForHostText");
@@ -55,6 +55,10 @@ class GamePage {
     this.roundPointsTeamtotal = page.getByTestId("roundPointsTeamtotal")
     this.finalRoundTimerText = page.getByTestId("finalRoundTimerText")
   }
+
+    async getTeamNameText(index) {
+        return await this.getTeamNameByIndex(index).textContent();
+    }
 }
 
 export { GamePage };

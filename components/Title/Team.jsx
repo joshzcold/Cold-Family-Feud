@@ -1,7 +1,7 @@
 const Team = ({team, players}) => {
   return (
     <div className="flex flex-col text-center bg-secondary-500 rounded-xl shadow-lg overflow-hidden h-full">
-        <p className="text-4xl text-foreground font-bold bg-secondary-700 rounded-t-xl py-2 shadow-sm">
+        <p className="text-4xl text-foreground font-bold bg-secondary-700 rounded-t-xl py-2 shadow-sm" id="team-name">
           {team}
         </p>
         <div className="flex-1 min-h-0 relative">

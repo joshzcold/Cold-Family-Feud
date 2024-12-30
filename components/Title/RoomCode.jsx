@@ -9,7 +9,7 @@ const RoomCode = ({ code }) => {
     <div className="flex flex-row justify-center items-center text-center">
       <div className="flex flex-col items-center rounded-xl bg-secondary-500 shadow-lg transition-transform xl:p-4 2xl:p-6 h-fit">
         <div className={`${process.env.NEXT_PUBLIC_TITLE_URL ? '' : 'p-8'}`}>
-          <p className="text-6xl font-bold  text-foreground ">{code}</p>
+          <p className="text-6xl font-bold  text-foreground" id="roomCodeText">{code}</p>
           <p className="text-xl font-semibold text-foreground">{t('Room Code')}</p>
         </div>
         {process.env.NEXT_PUBLIC_TITLE_URL && (
