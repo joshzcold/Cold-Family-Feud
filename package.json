@@ -33,11 +33,9 @@
     "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node backend/server.js",
     "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local node backend/server.js",
     "start_windows": "set NODE_ENV=local && node backend/server.js",
-    "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js",
-    "test": "playwright test"
+    "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js"
   },
   "devDependencies": {
-    "@playwright/test": "^1.49.1",
     "i18next-scanner": "^3.0.0",
     "nodemon": "^2.0.22",
     "tailwindcss-themer": "^3.1.0"
