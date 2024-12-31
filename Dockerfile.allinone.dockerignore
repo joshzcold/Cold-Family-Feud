@@ -17,6 +17,7 @@
 !tailwind.config.js
 !backend/server.js
 !backend/load-game.js
+!utils/
 
 ## Backend
 !backend/api/
