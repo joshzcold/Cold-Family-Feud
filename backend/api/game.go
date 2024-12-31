@@ -16,6 +16,7 @@ type registeredPlayer struct {
 	Team      int       `json:"team"`
 	Latency   float64   `json:"latency"`
 	Name      string    `json:"name"`
+	Hidden    bool      `json:"hidden"`
 }
 
 type buzzed struct {

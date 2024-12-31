@@ -1080,12 +1080,23 @@ export default function Admin(props) {
                         </div>
                       </div>
                     </div>
-                    <Players game={game} ws={ws} room={props.room} />
+                    <Players 
+                      game={game}
+                      setGame={props.setGame}
+                      ws={ws}
+                      room={props.room}
+                    />
                   </div>
                 </div>
               ) : (
                   // FINAL ROUND
                   <div>
+                    <Players 
+                      game={game}
+                      setGame={props.setGame}
+                      ws={ws}
+                      room={props.room}
+                    />
                     <div className="p-5">
                       {/* FINAL ROUND TEXT */}
                       <h2
