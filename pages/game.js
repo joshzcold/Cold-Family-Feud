@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Title from "components/title";
+import TitlePage from "components/Title/TitlePage.jsx";
 import Round from "components/round";
 import TeamName from "components/team-name.js";
 import QuestionBoard from "components/question-board.js";
@@ -20,6 +20,13 @@ export default function Game(props) {
   const [isHost, setIsHost] = useState(false);
   const ws = useRef(null);
   let refreshCounter = 0;
+
+  useEffect(() => {
+    if (game.is_final_round && game.final_round_timers) {
+      const timerIndex = game.is_final_second ? 1 : 0;
+      setTimer(game.final_round_timers[timerIndex]);
+    }
+  }, [game.is_final_round, game.is_final_second]);
 
   function setError(e) {
     setErrorVal(e);
@@ -43,7 +50,12 @@ export default function Game(props) {
           console.debug("sending pong in game window");
           let [room, id] = session.split(":");
           ws.current.send(
-            JSON.stringify({ action: "pong", id: id, room: room }),
+            JSON.stringify({ 
+              action: "pong", 
+              session: session,
+              id: session.split(":")[1],
+              room: session.split(":")[0] 
+            }),
           );
         }, 5000);
       }
@@ -172,7 +184,7 @@ export default function Game(props) {
   if (game.teams != null) {
     let gameSession;
     if (game.title) {
-      gameSession = <Title game={game} />;
+      gameSession = <TitlePage game={game} />;
     } else if (game.is_final_round) {
       gameSession = (
         <div className="flex w-full justify-center">

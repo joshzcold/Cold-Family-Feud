@@ -88,6 +88,8 @@ export default function Home() {
         } else if (json.action === "error") {
           console.error(json);
           setError(t(json.code, { message: json.message }));
+        } else if (json.action === "ping") {
+          console.debug('index.js: ping')
         } else {
           console.debug("did not expect in index.js: ", json);
         }

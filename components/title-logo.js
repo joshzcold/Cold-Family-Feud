@@ -310,7 +310,7 @@ export default function TitleLogo(props) {
 </svg>
   `;
   return (
-    <div id="titleLogoImg" className="w-full">
+    <div id="titleLogoImg" className="-mt-16 w-full">
       <div dangerouslySetInnerHTML={{ __html: logo }} />
     </div>
   );

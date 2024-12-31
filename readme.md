@@ -63,6 +63,10 @@ In pulse audio choose outputs in the recording tab
 This will give you multiple recording sinks where you can attach one to your microphone and
 one your the monitor of your desktop or headset. Resulting in output audio getting piped to your application
 
+## Environment Variables
+
+The application can be configured using environment variables. Check the `.env` file in the root directory for all available configuration options.
+
 ## Screenshots
 
 ![Example title screen](doc/example_title.png)
