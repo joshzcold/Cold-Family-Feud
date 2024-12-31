@@ -173,7 +173,7 @@ func GetBackIn(client *Client, event *Event) GameError {
 	}
 	roomCode, playerID := session[0], session[1]
 	s := store
-	room, storeError := s.getRoom(client, event.Room)
+	room, storeError := s.getRoom(client, roomCode)
 	if storeError.code != "" {
 		return storeError
 	}
