@@ -32,6 +32,7 @@ export default function Players(props) {
               {/* Toggle visibility button */}
               <button
                 className={`border-4 ${x.hidden ? 'bg-secondary-300' : 'bg-success-300'} hover:opacity-80 p-2 rounded-lg`}
+                id={`player${i}Team${teamNumber}HideGameButton`}
                 onClick={() => {
                   game.registeredPlayers[x.id].hidden = !game.registeredPlayers[x.id].hidden;
                   props.setGame((prv) => ({ ...prv }));
