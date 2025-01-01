@@ -51,6 +51,9 @@ frontend:
     port: 3000
   volumeMounts: {}
   env: {}
+  # env:
+  #   - name: NEXT_PUBLIC_TITLE_URL
+  #     value: "famf.app"
 
 volumes: {}
 # Example: Sqlite store

@@ -35,10 +35,10 @@ spec:
           image: "{{ .Values.frontend.repository }}:{{ .Values.frontend.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.frontend.pullPolicy }}
           ports:
-            - name: http
+            - name: fhttp
               containerPort: {{ .Values.frontend.service.port }}
               protocol: TCP
-          {{- with .Values.backend.end }}
+          {{- with .Values.frontend.env }}
           env:
             {{- toYaml . | nindent 12 }}
           {{- end }}
@@ -62,10 +62,10 @@ spec:
           image: "{{ .Values.backend.repository }}:{{ .Values.backend.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.backend.pullPolicy }}
           ports:
-            - name: http
+            - name: bhttp
               containerPort: {{ .Values.backend.service.port }}
               protocol: TCP
-          {{- with .Values.backend.end }}
+          {{- with .Values.backend.env }}
           env:
             {{- toYaml . | nindent 12 }}
           {{- end }}
