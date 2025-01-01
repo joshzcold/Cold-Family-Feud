@@ -229,10 +229,12 @@ test("can use timer controls", async ({ browser }) => {
 
   expect(currentTimerNum).toBeGreaterThan(newTimerNum)
 
-  await adminPage.resetTimerButton.click()
-  const resetTimerText = await gamePage.finalRoundTimerText.innerText()
-  const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ''))
-  expect(currentTimerNum).toBe(resetTimerNum)
+  await expect(async () => {
+    await adminPage.resetTimerButton.click()
+    const resetTimerText = await gamePage.finalRoundTimerText.innerText()
+    const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ''))
+    expect(currentTimerNum).toBe(resetTimerNum)
+  }).toPass({ timeout: 5000 });
 });
 
 test("can track points between rounds", async ({ browser }) => {
