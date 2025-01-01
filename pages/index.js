@@ -187,8 +187,6 @@ export default function Home() {
     }
   }
 
-  console.debug(`game: ${game}`);
-
   // control what to render based on if the player is hosting
   function getPage() {
     if (registeredRoomCode !== null && host && game != null) {

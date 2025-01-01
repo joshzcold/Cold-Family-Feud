@@ -13,7 +13,8 @@ type host struct {
 type registeredPlayer struct {
 	Start     time.Time `json:"start"`
 	Latencies []int64   `json:"latencies"`
-	Team      int       `json:"team"`
+	// Allow team to be set to null in json
+	Team      *int       `json:"team"`
 	Latency   float64   `json:"latency"`
 	Name      string    `json:"name"`
 	Hidden    bool      `json:"hidden"`

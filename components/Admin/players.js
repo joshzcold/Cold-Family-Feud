@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import "tailwindcss/tailwind.css";
-import { useState, useEffect, useRef } from "react";
 import { Eye, EyeOff } from "lucide-react";
 
 export default function Players(props) {

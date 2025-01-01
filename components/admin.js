@@ -7,7 +7,6 @@ import AdminSettings from "./Admin/settings";
 import LanguageSwitcher from "./language";
 import CSVLoader from "./Admin/csv-loader";
 import { Buffer } from "buffer";
-import { BSON } from "bson";
 import { handleCsvFile, handleJsonFile } from "utils/files";
 import { ERROR_CODES } from "i18n/errorCodes";
 
