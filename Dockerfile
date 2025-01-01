@@ -16,5 +16,6 @@ COPY --from=builder /src/node_modules/ /src/node_modules/
 COPY . /src/
 WORKDIR /src
 RUN npm run build
+COPY --chmod=775 docker/frontend-start.sh /src/start.sh
 
-CMD ["npm", "run", "start"]
+CMD ["/src/start.sh"]

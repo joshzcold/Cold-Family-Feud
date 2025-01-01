@@ -23,12 +23,12 @@ backend:
     type: ClusterIP
     port: 8080
   volumeMounts: {}
-  # Example: Sqlite store
+  # NOTE Example: Sqlite store instead of default memory store
   # volumeMounts:
   #   - name: famf-data
   #     mountPath: /data
   env: {}
-  # Example: Sqlite store
+  # NOTE Example: Sqlite store instead of default memory store
   # env:
   #   - name: GAME_STORE
   #     value: "sqlite"
@@ -50,10 +50,16 @@ frontend:
     type: ClusterIP
     port: 3000
   volumeMounts: {}
+  # WARNING: env vars are available to the browser, don't but in secrets.
   env: {}
   # env:
+  #   # NOTE display the "join at" url to the players on the game window
   #   - name: NEXT_PUBLIC_TITLE_URL
   #     value: "famf.app"
+  #   - name: NEXT_PUBLIC_MAX_IMAGE_UPLOAD_SIZE_MB
+  #     value: "2"
+  #   - name: NEXT_PUBLIC_MAX_CSV_UPLOAD_SIZE_MB
+  #     value: "2"
 
 volumes: {}
 # Example: Sqlite store

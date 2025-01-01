@@ -1,3 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-dot-env
+data:
+  .env: |
+    {{- range $val := .Values.frontend.env }}
+    {{ $val.name }}={{ $val.value | quote }}
+    {{- end }}
+
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -26,6 +37,9 @@ spec:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       {{- with .Values.volumes }}
       volumes:
+        - name: frontend-dot-env
+          configMap:
+            name: frontend-dot-env
         {{- toYaml . | nindent 8 }}
       {{- end }}
       containers:
@@ -38,20 +52,19 @@ spec:
             - name: fhttp
               containerPort: {{ .Values.frontend.service.port }}
               protocol: TCP
-          {{- with .Values.frontend.env }}
-          env:
-            {{- toYaml . | nindent 12 }}
-          {{- end }}
           livenessProbe:
             httpGet:
               path: /
-              port: http
+              port: fhttp
           readinessProbe:
             httpGet:
               path: /
-              port: http
+              port: fhttp
           {{- with .Values.backend.volumeMounts }}
           volumeMounts:
+            - name: frontend-dot-env
+              mountPath: /src/.env
+              subPath: .env
             {{- toYaml . | nindent 12 }}
           {{- end }}
           resources:
@@ -72,11 +85,11 @@ spec:
           livenessProbe:
             httpGet:
               path: /api/healthcheckz
-              port: http
+              port: bhttp
           readinessProbe:
             httpGet:
               path: /api/healthcheckz
-              port: http
+              port: bhttp
           {{- with .Values.backend.volumeMounts }}
           volumeMounts:
             {{- toYaml . | nindent 12 }}
