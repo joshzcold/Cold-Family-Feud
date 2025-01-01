@@ -62,12 +62,14 @@ dev-down:
 	docker compose -p famf -f ./docker/${COMPOSE_FILE} down
 
 e2e: dev-background
+	npm install
 	cd e2e
 	npx playwright test
 	cd -
 	$(MAKE) dev-down
 
 e2e-ui: dev-background
+	npm install
 	cd e2e	
 	npx playwright test --ui
 	cd -

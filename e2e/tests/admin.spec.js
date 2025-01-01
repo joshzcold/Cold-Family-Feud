@@ -288,3 +288,17 @@ test("can track points between rounds", async ({ browser }) => {
     expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
   }).toPass({ timeout: 2000 });
 });
+
+test('can hide game board from player', async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const player1 = await s.addPlayer();
+  const buzzerPage1 = new BuzzerPage(player1.page);
+
+  const adminPage = new AdminPage(host.page);
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.startRoundOneButton.click();
+  expect(buzzerPage1.playerBlindFoldedText).not.toBeVisible();
+  await adminPage.player0Team1HideGameButton.click();
+  expect(buzzerPage1.playerBlindFoldedText).toBeVisible();
+});

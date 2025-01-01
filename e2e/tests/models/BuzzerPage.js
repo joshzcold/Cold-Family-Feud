@@ -49,6 +49,7 @@ class BuzzerPage {
     this.titleLogoUserUploaded = page.getByTestId("titleLogoUserUploaded");
     this.waitingForHostText = page.getByTestId("waitingForHostText");
     this.xImg = page.getByTestId("xImg");
+    this.playerBlindFoldedText = page.getByTestId("playerBlindFoldedText")
   }
 }
 
