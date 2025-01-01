@@ -36,7 +36,7 @@ Features:
 To run a local instance of the application using the prebuilt "all in one" image.
 
 ```sh
-    docker run -p 443:443 -ti ghcr.io/joshzcold/famf-allinone:latest
+    sudo docker run -p 443:443 -ti ghcr.io/joshzcold/famf-allinone:latest
 ```
 
 go to
