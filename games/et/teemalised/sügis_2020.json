@@ -1,0 +1,285 @@
+{
+  "settings": {},
+  "rounds": [
+    {
+      "question": "Nimeta, mille poolest on sügis tore aastaaeg.",
+      "answers": [
+        {
+          "ans": "Sügise värvid/värvilised lehed",
+          "pnt": 166
+        },
+        {
+          "ans": "Hea temperatuur (ei ole liiga palav, ega külm)",
+          "pnt": 32
+        },
+        {
+          "ans": "Sügissaadused (seened, õunad, marjad)",
+          "pnt": 18
+        },
+        {
+          "ans": "Vihm/äike/tormid",
+          "pnt": 15
+        },
+        {
+          "ans": "Kooli algus",
+          "pnt": 13
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mida saab tanklast osta.",
+      "answers": [
+        {
+          "ans": "Kütust",
+          "pnt": 103
+        },
+        {
+          "ans": "Hot dog",
+          "pnt": 84
+        },
+        {
+          "ans": "Kohvi",
+          "pnt": 23
+        },
+        {
+          "ans": "Suitsu",
+          "pnt": 16
+        },
+        {
+          "ans": "Kondoome",
+          "pnt": 12
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta toit, mida sünnipäeva pakutakse.",
+      "answers": [
+        {
+          "ans": "Salat",
+          "pnt": 149
+        },
+        {
+          "ans": "Tort/kook/kringel",
+          "pnt": 104
+        },
+        {
+          "ans": "Singirullid",
+          "pnt": 8
+        },
+        {
+          "ans": "Täidetud munad",
+          "pnt": 6
+        },
+        {
+          "ans": "Krõpsud",
+          "pnt": 5
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta tuntud eestlane, kellel on Instagramis palju jälgijad.",
+      "answers": [
+        {
+          "ans": "BSH",
+          "pnt": 47
+        },
+        {
+          "ans": "Liis Lemsalu",
+          "pnt": 32
+        },
+        {
+          "ans": "Ott Tänak",
+          "pnt": 29
+        },
+        {
+          "ans": "Paljas Porgand",
+          "pnt": 22
+        },
+        {
+          "ans": "Tommy Cash",
+          "pnt": 17
+        },
+        {
+          "ans": "Tanel Padar",
+          "pnt": 16
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta äpp, mis sul telefonis on.",
+      "answers": [
+        {
+          "ans": "Instagram",
+          "pnt": 47
+        },
+        {
+          "ans": "Reddit",
+          "pnt": 38
+        },
+        {
+          "ans": "Facebook",
+          "pnt": 30
+        },
+        {
+          "ans": "Messenger",
+          "pnt": 19
+        },
+        {
+          "ans": "Youtube",
+          "pnt": 14
+        },
+        {
+          "ans": "Tinder",
+          "pnt": 12
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta kaubanduskeskus Eestis.",
+      "answers": [
+        {
+          "ans": "Ülemiste",
+          "pnt": 73
+        },
+        {
+          "ans": "Lõunakeskus",
+          "pnt": 46
+        },
+        {
+          "ans": "T1",
+          "pnt": 31
+        },
+        {
+          "ans": "Kaubamaja (Tallinn/Tartu)",
+          "pnt": 20
+        },
+        {
+          "ans": "Rocca Al Mare",
+          "pnt": 19
+        },
+        {
+          "ans": "Viru Keskus",
+          "pnt": 18
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta Ameerika osariik.",
+      "answers": [
+        {
+          "ans": "California",
+          "pnt": 45
+        },
+        {
+          "ans": "Texas",
+          "pnt": 38
+        },
+        {
+          "ans": "Florida",
+          "pnt": 35
+        },
+        {
+          "ans": "Washington",
+          "pnt": 21
+        },
+        {
+          "ans": "Ohio",
+          "pnt": 19
+        },
+        {
+          "ans": "New York",
+          "pnt": 16
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mida sünnipäeva minnes kaasa võtad.",
+      "answers": [
+        {
+          "ans": "Kingitus",
+          "pnt": 147
+        },
+        {
+          "ans": "Lilled",
+          "pnt": 47
+        },
+        {
+          "ans": "Alkohol",
+          "pnt": 39
+        },
+        {
+          "ans": "Hea tuju",
+          "pnt": 20
+        },
+        {
+          "ans": "Sünnipäevakaart",
+          "pnt": 12
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta jook, mille baaris tellid.",
+      "answers": [
+        {
+          "ans": "Õlu",
+          "pnt": 82
+        },
+        {
+          "ans": "Ginikokteil (GT, Tom Collins)",
+          "pnt": 32
+        },
+        {
+          "ans": "Vesi",
+          "pnt": 27
+        },
+        {
+          "ans": "Rummikokteil",
+          "pnt": 24
+        },
+        {
+          "ans": "Mojito",
+          "pnt": 23
+        },
+        {
+          "ans": "Viinakokteil",
+          "pnt": 17
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta pitsa koostisosa.",
+      "answers": [
+        {
+          "ans": "Juust",
+          "pnt": 152
+        },
+        {
+          "ans": "Ananass",
+          "pnt": 49
+        },
+        {
+          "ans": "Tomatipasta/kaste",
+          "pnt": 28
+        },
+        {
+          "ans": "Tainas",
+          "pnt": 22
+        },
+        {
+          "ans": "Pepperoni",
+          "pnt": 13
+        }
+      ],
+      "multiply": 1
+    }
+  ]
+}

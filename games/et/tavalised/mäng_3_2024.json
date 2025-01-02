@@ -1,0 +1,265 @@
+{
+  "settings": {},
+  "rounds": [
+    {
+      "question": "Nimeta tuntud inimene, kelle eesnimi on Paul.",
+      "answers": [
+        {
+          "ans": "Paul Keres",
+          "pnt": 289
+        },
+        {
+          "ans": "Paul Walker",
+          "pnt": 16
+        },
+        {
+          "ans": "Paul Aron",
+          "pnt": 15
+        },
+        {
+          "ans": "Paul McCartney",
+          "pnt": 12
+        },
+        {
+          "ans": "Paul Neitsov",
+          "pnt": 9
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta koht, kus peab jalanõud ära võtma.",
+      "answers": [
+        {
+          "ans": "Toas/kodus",
+          "pnt": 267
+        },
+        {
+          "ans": "Ujulas/spaas",
+          "pnt": 29
+        },
+        {
+          "ans": "Saunas",
+          "pnt": 23
+        },
+        {
+          "ans": "Mošees",
+          "pnt": 7
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta spordiala, kus on vaja täpsust.",
+      "answers": [
+        {
+          "ans": "Noolevise",
+          "pnt": 119
+        },
+        {
+          "ans": "Laskmine",
+          "pnt": 92
+        },
+        {
+          "ans": "Vibulaskmine",
+          "pnt": 83
+        },
+        {
+          "ans": "Laskesuustamine",
+          "pnt": 30
+        },
+        {
+          "ans": "Korvall",
+          "pnt": 16
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta arsti töövahend.",
+      "answers": [
+        {
+          "ans": "Skalpell",
+          "pnt": 165
+        },
+        {
+          "ans": "Stetoskoop",
+          "pnt": 132
+        },
+        {
+          "ans": "Süstal",
+          "pnt": 45
+        },
+        {
+          "ans": "Arvuti",
+          "pnt": 9
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mis maitseb hapult.",
+      "answers": [
+        {
+          "ans": "Sidrun",
+          "pnt": 152
+        },
+        {
+          "ans": "Hapukurk",
+          "pnt": 103
+        },
+        {
+          "ans": "Hapukapsas",
+          "pnt": 29
+        },
+        {
+          "ans": "Kommid",
+          "pnt": 24
+        },
+        {
+          "ans": "Õun",
+          "pnt": 23
+        },
+        {
+          "ans": "Laim",
+          "pnt": 13
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta alkohoolne kokteil.",
+      "answers": [
+        {
+          "ans": "Mojito",
+          "pnt": 114
+        },
+        {
+          "ans": "Gin&Tonic",
+          "pnt": 39
+        },
+        {
+          "ans": "Bloody Mary",
+          "pnt": 36
+        },
+        {
+          "ans": "Cuba Libre/Rum&Cola",
+          "pnt": 31
+        },
+        {
+          "ans": "Margarita",
+          "pnt": 27
+        },
+        {
+          "ans": "Aperol Spritz",
+          "pnt": 14
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta lisaks eurole mõni rahaühik.",
+      "answers": [
+        {
+          "ans": "Dollar",
+          "pnt": 149
+        },
+        {
+          "ans": "Jeen",
+          "pnt": 98
+        },
+        {
+          "ans": "Kroon",
+          "pnt": 92
+        },
+        {
+          "ans": "Nael",
+          "pnt": 31
+        },
+        {
+          "ans": "Rubla",
+          "pnt": 18
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta elukutse, kelle palk on häbiväärselt väike.",
+      "answers": [
+        {
+          "ans": "Õpetajad",
+          "pnt": 103
+        },
+        {
+          "ans": "Päästjad",
+          "pnt": 92
+        },
+        {
+          "ans": "Klienditeenindaja",
+          "pnt": 53
+        },
+        {
+          "ans": "Koristajad",
+          "pnt": 45
+        },
+        {
+          "ans": "Hooldaja",
+          "pnt": 29
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta Eesti vaatamisväärsus.",
+      "answers": [
+        {
+          "ans": "Munamägi",
+          "pnt": 71
+        },
+        {
+          "ans": "Tallinna vanalinn",
+          "pnt": 45
+        },
+        {
+          "ans": "Teletorn",
+          "pnt": 33
+        },
+        {
+          "ans": "Rabad",
+          "pnt": 24
+        },
+        {
+          "ans": "Jägala juga",
+          "pnt": 14
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mida inimesed hoiavad sügavkülmikus.",
+      "answers": [
+        {
+          "ans": "Jäätis",
+          "pnt": 132
+        },
+        {
+          "ans": "Pelmeenid",
+          "pnt": 57
+        },
+        {
+          "ans": "Jää",
+          "pnt": 48
+        },
+        {
+          "ans": "Liha",
+          "pnt": 41
+        },
+        {
+          "ans": "Marjad",
+          "pnt": 39
+        }
+      ],
+      "multiply": 1
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "settings": {},
+  "rounds": [
+    {
+      "question": "Nimeta midagi, mis teeb suvest suve.",
+      "answers": [
+        { "ans": "Päike ja soojad ilmad", "pnt": 80 },
+        { "ans": "Puhkus", "pnt": 13 },
+        { "ans": "Ujumine", "pnt": 10 },
+        { "ans": "Jäätis", "pnt": 9 },
+        { "ans": "Sääsed ja parmud", "pnt": 9 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mis seostub ettevõtte suvepäevadega.",
+      "answers": [
+        { "ans": "Alkohol", "pnt": 77 },
+        { "ans": "Seltskonnamängud", "pnt": 27 },
+        { "ans": "Toit", "pnt": 12 },
+        { "ans": "Piinlikkus", "pnt": 9 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta suvelaul.",
+      "answers": [
+        { "ans": "FIX - Jaanipäev", "pnt": 21 },
+        { "ans": "Getter Jaani & Koit Toome - Valged ööd", "pnt": 17 },
+        { "ans": "Karavan - Pärlipüüdja", "pnt": 12 },
+        { "ans": "Curly Strings - Kauges külas", "pnt": 9 },
+        { "ans": "Terminaator - Juulikuu lumi", "pnt": 8 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta populaarne suveüritus.",
+      "answers": [
+        { "ans": "Jaanituli", "pnt": 48 },
+        { "ans": "Õllesummer ", "pnt": 31 },
+        { "ans": "Viljandi folk", "pnt": 26 },
+        { "ans": "Pärnu Beach Grind", "pnt": 8 },
+        { "ans": "Võsu Rannafestival", "pnt": 7 },
+        { "ans": "Laulupidu", "pnt": 7 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta suvesöök.",
+      "answers": [
+        { "ans": "Šašlõkk", "pnt": 77 },
+        { "ans": "Arbuus", "pnt": 30 },
+        { "ans": "Jäätis", "pnt": 25 },
+        { "ans": "Värske salat", "pnt": 16 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta suvejook.",
+      "answers": [
+        { "ans": "Õlu", "pnt": 64 },
+        { "ans": "Vesi", "pnt": 26 },
+        { "ans": "Mojito", "pnt": 17 },
+        { "ans": "Siider", "pnt": 16 },
+        { "ans": "Kali", "pnt": 14 },
+        { "ans": "Jäätisekokteil", "pnt": 8 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta suvelill.",
+      "answers": [
+        { "ans": "Võilill", "pnt": 42 },
+        { "ans": "Päevalill", "pnt": 28 },
+        { "ans": "Rukkilill", "pnt": 21 },
+        { "ans": "Karikakar", "pnt": 18 },
+        { "ans": "Roos", "pnt": 14 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta suvise reisi sihtkoht. ",
+      "answers": [
+        { "ans": "Saaremaa", "pnt": 33 },
+        { "ans": "Pärnu", "pnt": 31 },
+        { "ans": "Kreeka", "pnt": 12 },
+        { "ans": "Hiiumaa", "pnt": 10 },
+        { "ans": "Itaalia", "pnt": 10 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta enda lemmiktegevus suvel. ",
+      "answers": [
+        { "ans": "Ujumine", "pnt": 53 },
+        { "ans": "Puhkamine", "pnt": 44 },
+        { "ans": "Reisimine/Matkamine", "pnt": 19 },
+        { "ans": "Päevitamine", "pnt": 12 },
+        { "ans": "Grillimine", "pnt": 9 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta tegevus, mida sa suvel kindlasti EI tee. ",
+      "answers": [
+        { "ans": "Suusatamine", "pnt": 85 },
+        { "ans": "Lume lükkamine", "pnt": 23 },
+        { "ans": "Töö", "pnt": 9 },
+        { "ans": "Kelgutamine", "pnt": 9 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta koht, kus võiks asuda/asub sinu unistuste suvekodu. ",
+      "answers": [
+        { "ans": "Saaremaa", "pnt": 27 },
+        { "ans": "Pärnu", "pnt": 18 },
+        { "ans": "Hiiumaa", "pnt": 13 },
+        { "ans": "Võrumaa", "pnt": 8 }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta koht, kus käid suvel kõige sagedamini ujumas.",
+      "answers": [
+        { "ans": "Meri", "pnt": 58 },
+        { "ans": "Järv", "pnt": 43 },
+        { "ans": "Jõgi", "pnt": 19 },
+        { "ans": "Karjäär", "pnt": 18 }
+      ],
+      "multiply": 1
+    }
+  ],
+  "final_round": [
+    {
+      "question": "Küsimus 1",
+      "answers": [
+        ["Vastus 1", 5],
+        ["Vasts 2", 3]
+      ]
+    },
+    { "question": "Küsimus 2", "answers": [] },
+    { "question": "Küsimus 3", "answers": [] },
+    { "question": "Küsimus 4", "answers": [] },
+    { "question": "Küsimus 5", "answers": [] }
+  ],
+  "final_round_timers": [20, 25]
+}
