@@ -9,6 +9,7 @@ import CSVLoader from "./Admin/csv-loader";
 import { Buffer } from "buffer";
 import { handleCsvFile, handleJsonFile } from "utils/files";
 import { ERROR_CODES } from "i18n/errorCodes";
+import BuzzerTable from "./BuzzerTable";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -1050,32 +1051,7 @@ export default function Admin(props) {
                         </div>
                         <hr />
                         <div className="flex-grow">
-                          {game.buzzed.map((x, i) => (
-                            <div key={`buzzer-${x.id}-${i}`} className="flex flex-row space-x-5 justify-center">
-                              <p id={`playerBuzzed${i}NameText`} className="text-foreground">
-                                {t("number", { count: i + 1 })}.{" "}
-                                {game.registeredPlayers[x.id]?.name}
-                              </p>
-                              <p
-                                className="text-foreground"
-                                id={`playerBuzzed${i}TeamNameText`}
-                              >
-                                {t("team")}:{" "}
-                                {
-                                  game.teams[game.registeredPlayers[x.id]?.team]
-                                    ?.name
-                                }
-                              </p>
-                              <p
-                                className="text-foreground"
-                                id={`playerBuzzer${i}BuzzerTimeText`}
-                              >
-                                {t("time")}:{" "}
-                                {((x.time - game.round_start_time) / 1000).toFixed(2)}{" "}
-                                {t("seconds")}
-                              </p>
-                            </div>
-                          ))}
+                          <BuzzerTable game={game} />
                         </div>
                       </div>
                     </div>
