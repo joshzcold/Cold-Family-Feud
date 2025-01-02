@@ -80,9 +80,9 @@ e2e-ui: dev-background
 e2e-prod:
 	cd e2e
 	npm install
-	npx playwright test --config playwright-prod.config.js
+	npx playwright test --ui --config playwright-prod.config.js
 
 e2e-dev:
 	cd e2e
 	npm install
-	npx playwright test --config playwright-dev.config.js
+	npx playwright test --ui --config playwright-dev.config.js
