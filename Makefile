@@ -64,6 +64,7 @@ dev-down:
 e2e: dev-background
 	npm install
 	cd e2e
+	npm install
 	npx playwright test
 	cd -
 	$(MAKE) dev-down
@@ -71,6 +72,17 @@ e2e: dev-background
 e2e-ui: dev-background
 	npm install
 	cd e2e	
+	npm install
 	npx playwright test --ui
 	cd -
 	$(MAKE) dev-down
+
+e2e-prod:
+	cd e2e
+	npm install
+	npx playwright test --config playwright-prod.config.js
+
+e2e-dev:
+	cd e2e
+	npm install
+	npx playwright test --config playwright-dev.config.js
