@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import "tailwindcss/tailwind.css";
 import ThemeSwitcher from "./ThemeSwitcher";
+import InfoTooltip from "../ui/tooltip";
 
 function debounce(callback, wait = 400) {
     let timeout;
@@ -69,6 +70,58 @@ export default function AdminSettings(props) {
         );
     }
 
+    const BuzzerSoundSettings = (props) => {
+        return (
+            <div class="flex flex-col space-y-4">
+                <div class="flex flex-col">
+                    <div class="flex flex-row space-x-5 items-center">
+                        <div class="flex flex-row items-center space-x-2">
+                            <InfoTooltip message={t("Allow players to hear sound on their devices when they press their buzzer")} />
+                            <p class="text-xl normal-case text-foreground">
+                                {t("Player Buzzer Sounds")}
+                            </p>
+                        </div>
+                        <input
+                            class="w-4 h-4 rounded placeholder-secondary-900"
+                            checked={game.settings.enable_player_buzzer_sound}
+                            onChange={(e) => {
+                                game.settings.enable_player_buzzer_sound = e.target.checked;
+                                if (!e.target.checked) {
+                                    game.settings.first_buzzer_sound_only = false;
+                                }
+                                props.setGame((prv) => ({ ...prv }));
+                                props.send({ action: "data", data: game });
+                            }}
+                            type="checkbox"
+                        ></input>
+                    </div>
+                </div>
+
+                <div class={`flex flex-col ${!game.settings.enable_player_buzzer_sound ? 'opacity-50' : ''}`}>
+                    <div class="flex flex-row space-x-5 items-center">
+                        <div class="flex flex-row items-center space-x-2">
+                            <InfoTooltip message={t("Only play sound for the first player to buzz in")} />
+                            <p class="text-xl normal-case text-foreground">
+                                {t("First Press Only")}
+                            </p>
+                        </div>
+                        <input
+                            class="w-4 h-4 rounded placeholder-secondary-900"
+                            checked={game.settings.first_buzzer_sound_only}
+                            disabled={!game.settings.enable_player_buzzer_sound}
+                            onChange={(e) => {
+                                game.settings.first_buzzer_sound_only = e.target.checked;
+                                props.setGame((prv) => ({ ...prv }));
+                                props.send({ action: "data", data: game });
+                            }}
+                            type="checkbox"
+                        ></input>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <>
             <div className="grid grid-cols-2 gap-y-10 gap-x-48">
@@ -79,6 +132,11 @@ export default function AdminSettings(props) {
                 />
                 <ThemeSwitcher game={game} setGame={props.setGame} send={props.send} />
                 <FinalRoundTitleChanger
+                    game={game}
+                    setGame={props.setGame}
+                    send={props.send}
+                />
+                <BuzzerSoundSettings
                     game={game}
                     setGame={props.setGame}
                     send={props.send}

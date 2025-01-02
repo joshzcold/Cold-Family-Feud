@@ -1,0 +1,269 @@
+{
+  "settings": {},
+  "rounds": [
+    {
+      "question": "Nimeta midagi, mis iseloomustab 90.ndaid Eestis.",
+      "answers": [
+        {
+          "ans": "Kuritegevus (maffia, tapmised, vargused)",
+          "pnt": 101
+        },
+        {
+          "ans": "Tantsumuusika",
+          "pnt": 27
+        },
+        {
+          "ans": "Vaesus",
+          "pnt": 14
+        },
+        {
+          "ans": "Eesti kroon",
+          "pnt": 9
+        },
+        {
+          "ans": "(Kile)dressid",
+          "pnt": 8
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta tuntud Eesti koomik.",
+      "answers": [
+        {
+          "ans": "Ari-Matti Mustonen",
+          "pnt": 46
+        },
+        {
+          "ans": "Sander Õigus",
+          "pnt": 35
+        },
+        {
+          "ans": "Jan Uuspõld",
+          "pnt": 27
+        },
+        {
+          "ans": "Peeter Oja",
+          "pnt": 18
+        },
+        {
+          "ans": "Ott Sepp",
+          "pnt": 14
+        },
+        {
+          "ans": "Tõnis Niinemets",
+          "pnt": 13
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta parim Eesti meelelahutussaade.",
+      "answers": [
+        {
+          "ans": "Rooside sõda",
+          "pnt": 29
+        },
+        {
+          "ans": "Tujurikkuja",
+          "pnt": 20
+        },
+        {
+          "ans": "Kuldvillak",
+          "pnt": 19
+        },
+        {
+          "ans": "Õhtu",
+          "pnt": 17
+        },
+        {
+          "ans": "Kaks kanget",
+          "pnt": 15
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mida teed enne magama minekut.",
+      "answers": [
+        {
+          "ans": "Pesen hambaid",
+          "pnt": 117
+        },
+        {
+          "ans": "Olen telefonis",
+          "pnt": 26
+        },
+        {
+          "ans": "Rahuldan ennast",
+          "pnt": 12
+        },
+        {
+          "ans": "Loen raamatut",
+          "pnt": 8
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta Eesti olümpiavõitja.",
+      "answers": [
+        {
+          "ans": "Erki Nool",
+          "pnt": 117
+        },
+        {
+          "ans": "Gerd Kanter",
+          "pnt": 36
+        },
+        {
+          "ans": "Erika Salumäe",
+          "pnt": 25
+        },
+        {
+          "ans": "Kristina Šmigun-Vähi",
+          "pnt": 13
+        },
+        {
+          "ans": "Katrina Lehis",
+          "pnt": 6
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mis seostub Sinu jaoks pokkeriga.",
+      "answers": [
+        {
+          "ans": "Raha",
+          "pnt": 53
+        },
+        {
+          "ans": "Kaardid",
+          "pnt": 40
+        },
+        {
+          "ans": "Žetoonid",
+          "pnt": 36
+        },
+        {
+          "ans": "Bluffimine",
+          "pnt": 10
+        },
+        {
+          "ans": "Pokerface",
+          "pnt": 7
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta muinasjututegelane.",
+      "answers": [
+        {
+          "ans": "Punamütsike",
+          "pnt": 62
+        },
+        {
+          "ans": "Lumivalgeke",
+          "pnt": 32
+        },
+        {
+          "ans": "Tuhkatriinu",
+          "pnt": 28
+        },
+        {
+          "ans": "Rapuntsel",
+          "pnt": 12
+        },
+        {
+          "ans": "Kuri hunt",
+          "pnt": 9
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mis kuulub hea tööandja \"motivatsioonipaketti\".",
+      "answers": [
+        {
+          "ans": "Hea palk",
+          "pnt": 61
+        },
+        {
+          "ans": "Sporditoetus",
+          "pnt": 36
+        },
+        {
+          "ans": "Lisapuhkus",
+          "pnt": 13
+        },
+        {
+          "ans": "Hambaravi",
+          "pnt": 11
+        },
+        {
+          "ans": "Ametiauto",
+          "pnt": 9
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mida sooviksid jõuluvana kingikotist leida.",
+      "answers": [
+        {
+          "ans": "Sokid",
+          "pnt": 42
+        },
+        {
+          "ans": "Raha",
+          "pnt": 33
+        },
+        {
+          "ans": "Telefon",
+          "pnt": 14
+        },
+        {
+          "ans": "Erinevad maiustused (šokolaad, komm)",
+          "pnt": 13
+        },
+        {
+          "ans": "Raamat",
+          "pnt": 9
+        },
+        {
+          "ans": "Parfüüm",
+          "pnt": 8
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta parim rämpstoit.",
+      "answers": [
+        {
+          "ans": "Burger",
+          "pnt": 106
+        },
+        {
+          "ans": "Friikartulid",
+          "pnt": 32
+        },
+        {
+          "ans": "Pitsa",
+          "pnt": 25
+        },
+        {
+          "ans": "Krõpsud",
+          "pnt": 13
+        },
+        {
+          "ans": "Kebab",
+          "pnt": 12
+        }
+      ],
+      "multiply": 1
+    }
+  ]
+}

@@ -37,6 +37,13 @@ export default function Buzzer(props) {
     ws.current.send(JSON.stringify(data));
   };
 
+  const playBuzzerSound = () => {
+    const audio = new Audio("buzzer.wav");
+    audio.play().catch(error => {
+      console.warn('Error playing buzzer sound:', error);
+    });
+  };
+
   useEffect(() => {
     cookieCutter.set('session', `${props.room}:${props.id}:0`);
     setInterval(() => {
@@ -158,6 +165,12 @@ export default function Buzzer(props) {
                       style={{ width: '50%', display: 'inline-block' }}
                       onClick={() => {
                         send({ action: 'buzz', id: props.id });
+                          // Play sound based on settings
+                          if (game.settings.enable_player_buzzer_sound) {
+                            if (!game.settings.first_buzzer_sound_only || game.buzzed.length === 0) {
+                              playBuzzerSound();
+                            }
+                          }
                       }}
                       src="buzz.svg"
                     />
