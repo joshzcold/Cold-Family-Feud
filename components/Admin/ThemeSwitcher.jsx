@@ -61,6 +61,7 @@ const ThemeSwitcher = ({game, setGame, send}) => {
     <div className="flex flex-row space-x-5 items-center">
         <Palette color="gray" />
         <select
+            id="themeSwitcherInput"
             className="bg-secondary-300 text-foreground rounded-lg p-2 capitalize w-full sm:w-fit"
             value={theme || 'default'}
             onChange={(e) => handleThemeChange(e.target.value)}
