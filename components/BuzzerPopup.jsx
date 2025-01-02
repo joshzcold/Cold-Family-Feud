@@ -10,6 +10,12 @@ const BuzzerPopup = ({ buzzed }) => {
   useEffect(() => {
     let timer;
     
+    if(isVisible) {
+      timer = setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
+    }
+
     // Skip audio and animation if this is the initial mount with existing buzzer state
     // If we don't, on refresh this will cause errors due to needing user interaction on audio autoplay
     if (isInitialMount.current && buzzed?.id) {
@@ -37,9 +43,6 @@ const BuzzerPopup = ({ buzzed }) => {
       });
 
       setIsVisible(true);
-      timer = setTimeout(() => {
-        setIsVisible(false);
-      }, 5000);
     }
 
     // Reset the first press tracking when buzzed is cleared
@@ -57,7 +60,7 @@ const BuzzerPopup = ({ buzzed }) => {
         clearTimeout(timer);
       }
     };
-  }, [buzzed]);
+  }, [buzzed, isVisible]);
 
   // Only show popup for valid buzzer press
   if (!buzzed?.id) {
