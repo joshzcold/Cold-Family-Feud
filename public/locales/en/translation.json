@@ -72,6 +72,7 @@
   "Points": "Points",
   "Buzzer Order": "Buzzer Order",
   "players": "players",
+  "player": "Player",
   "Clear Buzzers": "Clear Buzzers",
   "Changing rounds also clears buzzers": "Changing rounds also clears buzzers",
   "Back To": "Back To",
@@ -121,6 +122,7 @@
   "Format Guide": "Format Guide",
   "Each row follows this pattern. Points must be numbers.": "Each row follows this pattern. Points must be numbers.",
   "You have been blindfolded...": "You have been blindfolded...",
+  "Reset Mistakes": "Reset Mistakes",
   "errors": {
     "room_not_found": "Room not found",
     "host_quit": "Host quit the game",

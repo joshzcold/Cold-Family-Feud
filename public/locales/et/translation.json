@@ -72,6 +72,7 @@
     "Points": "Punktid",
     "Buzzer Order": "M\u00e4rguande J\u00e4rjekord",
     "players": "m\u00e4ngjad",
+    "player": "Mängija",
     "Clear Buzzers": "T\u00fchjenda m\u00e4rguanded",
     "Changing rounds also clears buzzers": "Vooru vahetust t\u00fchjendab m\u00e4rguanded",
     "Back To": "Tagasi",
@@ -121,6 +122,7 @@
     "Format Guide": "Vormingu juhend",
     "Each row follows this pattern. Points must be numbers.": "Iga rida järgib seda vormingut. Punktid peavad olema numbrid",
     "You have been blindfolded...": "Sind on pimestatud...",
+    "Reset Mistakes": "Lähtesta vead",
     "errors": {
         "room_not_found": "Mängu ei leitud",
         "host_quit": "Mängu juht lahkus mängust",
