@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import "tailwindcss/tailwind.css";
-import { useState, useEffect, useRef } from "react";
+import { Eye, EyeOff } from "lucide-react";
 
 export default function Players(props) {
   let game = props.game;
@@ -12,7 +12,7 @@ export default function Players(props) {
   if (game.registeredPlayers) {
     for (const [id, player] of Object.entries(game.registeredPlayers)) {
       if (player.hasOwnProperty("team")) {
-        let content = { id: id, name: player.name };
+        let content = { id: id, name: player.name, hidden: player.hidden };
         player.team === 0 ? team1.push(content) : team2.push(content);
       }
     }
@@ -27,6 +27,26 @@ export default function Players(props) {
             <div className="flex-grow">
               <p className="uppercase text-foreground">{x.name}</p>
             </div>
+            <div className="flex flex-row space-x-2">
+              {/* Toggle visibility button */}
+              <button
+                className={`border-4 ${x.hidden ? 'bg-secondary-300' : 'bg-success-300'} hover:opacity-80 p-2 rounded-lg`}
+                id={`player${i}Team${teamNumber}HideGameButton`}
+                onClick={() => {
+                  game.registeredPlayers[x.id].hidden = !game.registeredPlayers[x.id].hidden;
+                  props.setGame((prv) => ({ ...prv }));
+                  props.ws.current.send(
+                    JSON.stringify({
+                      action: "data",
+                      data: game,
+                      room: props.room,
+                    })
+                  );
+              }}
+              >
+                {x.hidden ? <EyeOff /> : <Eye />}
+              </button>
+              {/* Remove player button */}
             <button
               id={`player${i}Team${teamNumber}QuitButton`}
               className="border-4 bg-failure-300 hover:bg-failure-500 p-2 rounded-lg"
@@ -63,6 +83,7 @@ export default function Players(props) {
                 />
               </svg>
             </button>
+            </div>
           </div>
         ))}
       </div>

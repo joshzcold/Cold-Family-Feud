@@ -18,7 +18,6 @@ test("has correct room code", async ({ browser, baseURL }) => {
   expect(host.page.url()).toEqual(baseURL + "/game");
   expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
   await host.page.goto("/");
-  await adminPage.quitButton.click()
 });
 
 test("can join game", async ({ browser }) => {
@@ -54,16 +53,23 @@ test("can edit game settings", async ({ browser }) => {
   const gamePage = new GamePage(spectator.page);
 
   await adminPage.gameSelector.selectOption({ index: 1 });
+
   await adminPage.titleTextInput.type("Test Title");
+  await host.page.waitForTimeout(500);
+
   await adminPage.teamOneNameInput.fill("");
   await adminPage.teamOneNameInput.type("Test 1");
+  await host.page.waitForTimeout(500);
+
   await adminPage.teamTwoNameInput.fill("");
   await adminPage.teamTwoNameInput.type("Test 2");
+  await host.page.waitForTimeout(500);
+
   await adminPage.titleCardButton.click();
   await expect(async () => {
     expect(await gamePage.titleLogoImg.innerText()).toContain("Test Title");
-    expect(await gamePage.team0TeamName.innerText()).toContain("Test 1");
-    expect(await gamePage.team1TeamName.innerText()).toContain("Test 2");
+    expect(await gamePage.getTeamNameText(0)).toContain("Test 1");
+    expect(await gamePage.getTeamNameText(1)).toContain("Test 2");
   }).toPass();
   await adminPage.startRoundOneButton.click();
   await adminPage.hideQuestionsInput.click();
@@ -204,6 +210,12 @@ test("can use timer controls", async ({ browser }) => {
   await adminPage.startRoundOneButton.click()
   await adminPage.finalRoundButton.click();
 
+  await expect(async () => {
+    const timerText = await gamePage.finalRoundTimerText.innerText();
+    const timerNum = parseInt(timerText.replace(/^\D+/g, ''));
+    expect(timerNum).toBeGreaterThan(0);
+  }).toPass({ timeout: 5000 });
+
   const currentTimerText = await gamePage.finalRoundTimerText.innerText()
   const currentTimerNum = parseInt(currentTimerText.replace(/^\D+/g, ''))
   expect(currentTimerNum).toBeGreaterThan(0)
@@ -217,10 +229,12 @@ test("can use timer controls", async ({ browser }) => {
 
   expect(currentTimerNum).toBeGreaterThan(newTimerNum)
 
-  await adminPage.resetTimerButton.click()
-  const resetTimerText = await gamePage.finalRoundTimerText.innerText()
-  const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ''))
-  expect(currentTimerNum).toBe(resetTimerNum)
+  await expect(async () => {
+    await adminPage.resetTimerButton.click()
+    const resetTimerText = await gamePage.finalRoundTimerText.innerText()
+    const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ''))
+    expect(currentTimerNum).toBe(resetTimerNum)
+  }).toPass({ timeout: 5000 });
 });
 
 test("can track points between rounds", async ({ browser }) => {
@@ -240,16 +254,20 @@ test("can track points between rounds", async ({ browser }) => {
   const points1 = parseInt(points1Text.replace(/^\D+/g, ''))
   const points2 = parseInt(points2Text.replace(/^\D+/g, ''))
 
-  await adminPage.team0GivePointsButton.click()
-
   const pointsTotal = points1 + points2
-
-  expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
-  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
+  
+  await adminPage.team0GivePointsButton.click()
+  await expect(async () => {
+    expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
+    expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
+  }).toPass({ timeout: 2000 });
 
   await adminPage.nextRoundButton.click()
-  expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
-  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe("0")
+  await expect(async () => {
+    expect (await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString())
+    expect (await gamePage.roundPointsTeamtotal.textContent()).toBe("0")
+  }).toPass({ timeout: 2000 });
+
   const points1Text_2 = await adminPage.question0Button.innerText()
   const points2Text_2 = await adminPage.question1Button.innerText()
   const points1_2 = parseInt(points1Text_2.replace(/^\D+/g, ''))
@@ -259,10 +277,28 @@ test("can track points between rounds", async ({ browser }) => {
   await adminPage.question0Button.click()
   await adminPage.question1Button.click()
   await adminPage.team0GivePointsButton.click()
-  expect (await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString())
-  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(points2Total.toString())
+  await expect(async () => {
+    expect (await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString())
+    expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(points2Total.toString())
+  }).toPass({ timeout: 2000 });
   await adminPage.roundSelector.selectOption({index: 0})
 
-  expect (await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString())
-  expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
+  await expect(async () => {
+    expect (await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString())
+    expect (await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString())
+  }).toPass({ timeout: 2000 });
+});
+
+test('can hide game board from player', async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const player1 = await s.addPlayer();
+  const buzzerPage1 = new BuzzerPage(player1.page);
+
+  const adminPage = new AdminPage(host.page);
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.startRoundOneButton.click();
+  expect(buzzerPage1.playerBlindFoldedText).not.toBeVisible();
+  await adminPage.player0Team1HideGameButton.click();
+  expect(buzzerPage1.playerBlindFoldedText).toBeVisible();
 });

@@ -1,10 +1,10 @@
 module.exports = {
   important: true,
   content: [
-    "./components/**/*.{js,jsx}",
-    "./pages/**/*.{js,jsx}"
+    "./pages/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     extend: {},
   },

@@ -113,6 +113,8 @@
     "Question": "Küsimus",
     "First Buzzer": "Esimesena vajutas",
     "Select question set": "Vali küsimused",
+    "Join at": "Liitu: ",
+    "Room Code": "Ruumi Kood",
     "Expected format": "Oodatud vorming",
     "Format Example": "Igal real peaks olema: Küsimus, Vastus, Küsimus, Vastus, Küsimus, jne...",
     "Points must be numbers": "Punktide lahtrid peavad olema numbrid",
@@ -123,6 +125,7 @@
     "Player Buzzer Sounds": "Mängija summeri helid",
     "Only play sound for the first player to buzz in": "Mängi heli ainult esimesese mängija seadmel, kes summerit vajutab",
     "First Press Only": "Ainult esimene summer",
+    "You have been blindfolded...": "Sind on pimestatud...",
     "errors": {
         "room_not_found": "Mängu ei leitud",
         "host_quit": "Mängu juht lahkus mängust",

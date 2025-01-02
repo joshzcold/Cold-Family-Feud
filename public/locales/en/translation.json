@@ -115,6 +115,8 @@
   "Room Code": "Room Code",
   "First Buzzer": "First Buzzer",
   "Select question set": "Select question set",
+  "Join at": "Join at",
+  "Room Code": "Room Code",
   "Expected format": "Expected format",
   "Format Example": "Each row should have: Question, Answer, Points, Answer, Points, etc.",
   "Points must be numbers": "Points must be numbers",
@@ -125,6 +127,7 @@
   "Player Buzzer Sounds": "Player Buzzer Sounds",
   "Only play sound for the first player to buzz in": "Only play sound for the first player to buzz in",
   "First Press Only": "First Press Only",
+  "You have been blindfolded...": "You have been blindfolded...",
   "errors": {
     "room_not_found": "Room not found",
     "host_quit": "Host quit the game",
