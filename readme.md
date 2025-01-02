@@ -36,7 +36,7 @@ Features:
 To run a local instance of the application using the prebuilt "all in one" image.
 
 ```sh
-    docker run -p 443:443 -ti ghcr.io/joshzcold/famf-allinone:latest
+    sudo docker run -p 443:443 -ti ghcr.io/joshzcold/famf-allinone:latest
 ```
 
 go to
@@ -63,19 +63,23 @@ In pulse audio choose outputs in the recording tab
 This will give you multiple recording sinks where you can attach one to your microphone and
 one your the monitor of your desktop or headset. Resulting in output audio getting piped to your application
 
+## Environment Variables
+
+The application can be configured using environment variables. Check the `.env` file in the root directory for all available configuration options.
+
 ## Screenshots
 
 ![Example title screen](doc/example_title.png)
-![image](https://user-images.githubusercontent.com/36175703/121817731-5589ce80-cc40-11eb-97d5-e5abcc7107ee.png)
+![Example login screen](doc/example_login.png)
 ![Example rounds](doc/example_rounds.png)
 ![Example fast money ](doc/example_fast_money.png)
-![image](https://user-images.githubusercontent.com/36175703/121817749-70f4d980-cc40-11eb-9142-7e48ec7814a0.png)
-![image](https://user-images.githubusercontent.com/36175703/114311740-2c688880-9aad-11eb-8c68-acc1a687fd1e.png)
+![Example admin console ](doc/example_admin.png)
+![Example buzzer ](doc/example_buzzer.png)
 
 ## Contributing
 
 Frontend Stack: Nextjs + React + Tail Wind css
-Backend Stack: Golang with multiple storage backends (see: backend/api/store*)
+Backend Stack: Golang with multiple storage backends (see: backend/api/store\*)
 
 ### Add A Language
 
@@ -134,6 +138,8 @@ Works well within a 3-8 point range, but can go higher
 ### Parse CSV Data
 
 Assuming you have friendly feud data that matches this format
+
+> NOTE: the website has built in support for csv games in this format
 
 ```csv
 QUESTION, ANSWER, POINTS, ANSWER, POINTS

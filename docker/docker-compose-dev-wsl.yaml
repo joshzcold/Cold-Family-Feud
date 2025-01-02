@@ -1,0 +1,23 @@
+services:
+  frontend:
+    image: ${docker_registry}/famf-web:dev
+    network_mode: "host"
+    volumes:
+      - ../:/src
+    environment:
+      - HOST=0.0.0.0
+  backend:
+    image: ${docker_registry}/famf-server:dev
+    network_mode: "host"
+    environment:
+      - HOST=0.0.0.0
+      - GAME_STORE=${game_store}
+    volumes:
+      - ../backend:/src
+      - ../games/:/src/games/
+  proxy:
+    image: nginx:1.27-alpine
+    network_mode: "host"
+    volumes:
+      - ./nginx/nginx.wsl.conf:/etc/nginx/nginx.conf
+      - ../dev/cert/:/etc/nginx/cert/

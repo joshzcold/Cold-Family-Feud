@@ -6,6 +6,7 @@ FAMF_STORE=${FAMF_STORE:-memory}
 
 cd /src
 
+npm run build
 ./Cold-Friendly-Feud --game_store "$FAMF_STORE" &
 nginx -g 'daemon off;' &
 npm run start &

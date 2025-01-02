@@ -146,6 +146,16 @@ class AdminPage {
     this.player2Team2QuitButton = page.getByTestId("player2Team2QuitButton")
     this.player3Team2QuitButton = page.getByTestId("player3Team2QuitButton")
 
+    this.player0Team1HideGameButton = page.getByTestId("player0Team1HideGameButton")
+    this.player1Team1HideGameButton = page.getByTestId("player1Team1HideGameButton")
+    this.player2Team1HideGameButton = page.getByTestId("player2Team1HideGameButton")
+    this.player3Team1HideGameButton = page.getByTestId("player3Team1HideGameButton")
+
+    this.player0Team2HideGameButton = page.getByTestId("player0Team2HideGameButton")
+    this.player1Team2HideGameButton = page.getByTestId("player1Team2HideGameButton")
+    this.player2Team2HideGameButton = page.getByTestId("player2Team2HideGameButton")
+    this.player3Team2HideGameButton = page.getByTestId("player3Team2HideGameButton")
+
     this.team0MistakeButton = page.getByTestId("team0MistakeButton")
     this.team1MistakeButton = page.getByTestId("team1MistakeButton")
     this.team0GivePointsButton = page.getByTestId("team0GivePointsButton")

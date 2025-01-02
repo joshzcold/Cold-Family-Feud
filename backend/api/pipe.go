@@ -19,7 +19,7 @@ type Event struct {
 	Host     bool   `json:"host"`
 	ID       string `json:"id"`
 	Session  string `json:"session"`
-	Team     int    `json:"team"`
+	Team     *int    `json:"team"`
 	MimeType string `json:"mimetype"`
 }
 

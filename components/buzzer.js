@@ -1,22 +1,22 @@
-import { useState, useEffect, useRef } from "react";
-import TitleLogo from "./title-logo";
-import "tailwindcss/tailwind.css";
-import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
-import cookieCutter from "cookie-cutter";
-import Round from "./round";
-import QuestionBoard from "./question-board.js";
-import TeamName from "./team-name.js";
-import Final from "./final";
-import { ERROR_CODES } from "i18n/errorCodes";
+import { useState, useEffect, useRef } from 'react';
+import TitleLogo from './title-logo';
+import 'tailwindcss/tailwind.css';
+import { useTranslation } from 'react-i18next';
+import '../i18n/i18n';
+import cookieCutter from 'cookie-cutter';
+import Round from './round';
+import QuestionBoard from './question-board.js';
+import TeamName from './team-name.js';
+import Final from './final';
+import { ERROR_CODES } from 'i18n/errorCodes';
+import { EyeOff } from 'lucide-react';
 
 let timerInterval = null;
 
 export default function Buzzer(props) {
   const { i18n, t } = useTranslation();
   const [buzzed, setBuzzed] = useState(false);
-  const [buzzerReg, setBuzzerReg] = useState(null);
-  const [error, setErrorVal] = useState("");
+  const [error, setErrorVal] = useState('');
   const [timer, setTimer] = useState(0);
   const [showMistake, setShowMistake] = useState(false);
   let refreshCounter = 0;
@@ -24,61 +24,59 @@ export default function Buzzer(props) {
   function setError(e) {
     setErrorVal(e);
     setTimeout(() => {
-      setErrorVal("");
+      setErrorVal('');
     }, 5000);
   }
 
   let game = props.game;
   let ws = props.ws;
 
-  const send = function(data) {
+  const send = function (data) {
     data.room = props.room;
     data.id = props.id;
     ws.current.send(JSON.stringify(data));
   };
 
   useEffect(() => {
-    cookieCutter.set("session", `${props.room}:${props.id}:0`);
+    cookieCutter.set('session', `${props.room}:${props.id}:0`);
     setInterval(() => {
       if (ws.current.readyState !== 1) {
-        setError(
-          t(ERROR_CODES.CONNECTION_LOST, {message: `${5 - refreshCounter}`}),
-        );
+        setError(t(ERROR_CODES.CONNECTION_LOST, { message: `${5 - refreshCounter}` }));
         refreshCounter++;
         if (refreshCounter >= 10) {
-          console.debug("buzzer reload()");
+          console.debug('buzzer reload()');
           location.reload();
         }
       } else {
-        setError("");
+        setError('');
       }
     }, 1000);
 
-    ws.current.addEventListener("message", (evt) => {
+    ws.current.addEventListener('message', (evt) => {
       let received_msg = evt.data;
       let json = JSON.parse(received_msg);
-      if (json.action === "ping") {
+      if (json.action === 'ping') {
         // server gets the average latency periodically
         console.debug(props.id);
-        send({ action: "pong", id: props.id });
-      } else if (json.action === "mistake" || json.action === "show_mistake") {
-        var audio = new Audio("wrong.mp3");
+        send({ action: 'pong', id: props.id });
+      } else if (json.action === 'mistake' || json.action === 'show_mistake') {
+        var audio = new Audio('wrong.mp3');
         audio.play();
-        if (json.action === "mistake" || json.action === "show_mistake") {
+        if (json.action === 'mistake' || json.action === 'show_mistake') {
           setShowMistake(true);
           setTimeout(() => {
             setShowMistake(false);
           }, 2000);
         }
-      } else if (json.action === "quit") {
+      } else if (json.action === 'quit') {
         props.setGame(null);
         props.setTeam(null);
         location.reload();
-      } else if (json.action === "set_timer") {
+      } else if (json.action === 'set_timer') {
         setTimer(json.data);
-      } else if (json.action === "stop_timer") {
+      } else if (json.action === 'stop_timer') {
         clearInterval(timerInterval);
-      } else if (json.action === "start_timer") {
+      } else if (json.action === 'start_timer') {
         let limit = json.data;
         timerInterval = setInterval(() => {
           if (limit > 0) {
@@ -89,88 +87,83 @@ export default function Buzzer(props) {
             setTimer(json.data);
           }
         }, 1000);
-      } else if (json.action === "data") {
-        if (json.data.title_text === "Change Me") {
-          json.data.title_text = t("Change Me");
+      } else if (json.action === 'data') {
+        if (json.data.title_text === 'Change Me') {
+          json.data.title_text = t('Change Me');
         }
-        if (json.data.teams[0].name === "Team 1") {
-          json.data.teams[0].name = `${t("team")} ${t("number", { count: 1 })}`;
+        if (json.data.teams[0].name === 'Team 1') {
+          json.data.teams[0].name = `${t('team')} ${t('number', { count: 1 })}`;
         }
-        if (json.data.teams[1].name === "Team 2") {
-          json.data.teams[1].name = `${t("team")} ${t("number", { count: 2 })}`;
+        if (json.data.teams[1].name === 'Team 2') {
+          json.data.teams[1].name = `${t('team')} ${t('number', { count: 2 })}`;
         }
         props.setGame(json.data);
-      } else if (json.action === "buzzed") {
+      } else if (json.action === 'buzzed') {
         setBuzzed(true);
-      } else if (json.action === "clearbuzzers") {
+      } else if (json.action === 'clearbuzzers') {
         setBuzzed(false);
-      } else if (json.action === "change_lang") {
-        console.debug("Language Change", json.data);
+      } else if (json.action === 'change_lang') {
+        console.debug('Language Change', json.data);
         i18n.changeLanguage(json.data);
-      } else if (json.action === "registered") {
+      } else if (json.action === 'registered') {
         console.debug(props.id);
-        send({ action: "pong", id: props.id });
-        setBuzzerReg(props.id);
+        send({ action: 'pong', id: props.id });
       } else {
-        console.debug("didnt expect action in buzzer: ", json);
+        console.debug('didnt expect action in buzzer: ', json);
       }
     });
   }, []);
 
+  const currentPlayer = game.registeredPlayers[props.id];
+  if (currentPlayer?.hidden)
+    return (
+      <div className="flex flex-col justify-center items-center min-h-screen">
+        <EyeOff />
+        <h1 id="playerBlindFoldedText">{t('You have been blindfolded...')}</h1>
+      </div>
+    );
   if (game.teams != null) {
-    console.debug(game);
     return (
       <>
         <img
           id="xImg"
           className={`lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 top-2/4 pointer-events-none ${
-            showMistake ? "opacity-90" : "opacity-0"
-            } transition-opacity ease-in-out duration-300 absolute`}
+            showMistake ? 'opacity-90' : 'opacity-0'
+          } transition-opacity ease-in-out duration-300 absolute`}
           src="x.svg"
         />
         <button
           id="quitButton"
-          className="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
+          className="z-50 shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
           onClick={() => {
-            send({ action: "quit" });
+            send({ action: 'quit' });
           }}
         >
-          {t("quit")}
+          {t('quit')}
         </button>
-        {buzzerReg !== null ? (
+        {props.id in game.registeredPlayers && game.registeredPlayers[props.id].team !== null ? (
           <>
             {!game.title && !game.is_final_round ? (
               <div className="pt-8 flex flex-col space-y-5">
                 <Round game={game} />
 
                 {/* Buzzer Section TODO replace with function*/}
-                <div
-                  className=""
-                  style={{ width: "100%", textAlign: "center" }}
-                >
+                <div className="" style={{ width: '100%', textAlign: 'center' }}>
                   {buzzed ? (
-                    <img
-                      id="buzzerButtonPressed"
-                      style={{ width: "50%", display: "inline-block" }}
-                      src="buzzed.svg"
-                    />
+                    <img id="buzzerButtonPressed" style={{ width: '50%', display: 'inline-block' }} src="buzzed.svg" />
                   ) : (
-                      <img
-                        id="buzzerButton"
-                        className="cursor-pointer"
-                        style={{ width: "50%", display: "inline-block" }}
-                        onClick={() => {
-                          send({ action: "buzz", id: props.id });
-                        }}
-                        src="buzz.svg"
-                      />
-                    )}
-                  <p className="text-secondary-900 p-2 italic">
-                    {t("buzzer is reset between rounds")}
-                  </p>
-                  {error !== "" ? (
-                    <p className="text-2xl text-failure-700">{error}</p>
-                  ) : null}
+                    <img
+                      id="buzzerButton"
+                      className="cursor-pointer"
+                      style={{ width: '50%', display: 'inline-block' }}
+                      onClick={() => {
+                        send({ action: 'buzz', id: props.id });
+                      }}
+                      src="buzz.svg"
+                    />
+                  )}
+                  <p className="text-secondary-900 p-2 italic">{t('buzzer is reset between rounds')}</p>
+                  {error !== '' ? <p className="text-2xl text-failure-700">{error}</p> : null}
                 </div>
                 {/* END Buzzer Section TODO replace with function*/}
                 <div className="flex flex-row justify-between min-w-full space-x-3">
@@ -188,34 +181,21 @@ export default function Buzzer(props) {
                         className="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
                       >
                         <div className="flex-grow">
-                          <p
-                            id={`buzzedList${i}Name`}
-                            className="truncate w-20 text-left text-foreground"
-                          >
-                            {t("number", { count: i + 1 })}.{" "}
-                            {game.registeredPlayers[x.id].name}
+                          <p id={`buzzedList${i}Name`} className="truncate w-20 text-left text-foreground">
+                            {t('number', { count: i + 1 })}. {game.registeredPlayers[x.id].name}
                           </p>
                         </div>
                         <div className="flex-grow">
-                          <p
-                            id={`buzzedList${i}TeamName`}
-                            className="truncate w-20 text-left text-foreground"
-                          >
+                          <p id={`buzzedList${i}TeamName`} className="truncate w-20 text-left text-foreground">
                             {game.teams[game.registeredPlayers[x.id].team].name}
                           </p>
                         </div>
                         <div className="flex-grow">
-                          <p
-                            id={`buzzedList${i}Time`}
-                            className="truncate w-20 text-left text-foreground"
-                          >
-                            {t("number", {
-                              count: (
-                                ((x.time - game.tick) / 1000) %
-                                60
-                              ).toFixed(2),
-                            })}{" "}
-                            {t("second")}
+                          <p id={`buzzedList${i}Time`} className="truncate w-20 text-left text-foreground">
+                            {t('number', {
+                              count: (((x.time - game.tick) / 1000) % 60).toFixed(2),
+                            })}{' '}
+                            {t('second')}
                           </p>
                         </div>
                       </div>
@@ -224,117 +204,110 @@ export default function Buzzer(props) {
                 </div>
               </div>
             ) : (
-                <>
-                  {game.is_final_round ? (
-                    <div>
-                      <Final game={game} timer={timer} />
-                    </div>
-                  ) : (
-                      <div>
-                        {props.game.settings.logo_url ? (
-                          <div className="mx-auto max-w-md w-full">
-                            <img
-                              className="w-full h-[300px] min-h-[200px] object-contain"
-                              src={`${props.game.settings.logo_url}`}
-                              alt="Game logo"
-                            />
-                          </div>
-                        ) : (
-                            <TitleLogo insert={props.game.title_text} />
-                          )}
-                        <p
-                          id="waitingForHostText"
-                          className="text-3xl text-center py-12 text-foreground"
-                        >
-                          {t("Waiting for host to start")}
-                        </p>
+              <>
+                {game.is_final_round ? (
+                  <div>
+                    <Final game={game} timer={timer} />
+                  </div>
+                ) : (
+                  <div>
+                    {props.game.settings.logo_url ? (
+                      <div className="mx-auto max-w-md w-full">
+                        <img
+                          className="w-full h-[300px] min-h-[200px] object-contain"
+                          src={`${props.game.settings.logo_url}`}
+                          alt="Game logo"
+                        />
                       </div>
+                    ) : (
+                      <TitleLogo insert={props.game.title_text} />
                     )}
-                </>
-              )}
+                    <p id="waitingForHostText" className="text-3xl text-center py-12 text-foreground">
+                      {t('Waiting for host to start')}
+                    </p>
+                  </div>
+                )}
+              </>
+            )}
           </>
         ) : (
-            <>
-              {props.game.settings.logo_url ? (
-                <div className="mx-auto max-w-md w-full">
-                  <img
-                    id="titleLogoUserUploaded"
-                    className="w-full h-[300px] min-h-[200px] object-contain"
-                    src={`${props.game.settings.logo_url}`}
-                    alt="Game logo"
-                  />
-                </div>
-              ) : (
-                  <TitleLogo insert={props.game.title_text} />
-                )}
-              <div className="flex flex-row justify-center">
-                <h1 className="text-3xl text-foreground">
-                  {t("team")}:{" "}
-                  {props.team != null
-                    ? game.teams[props.team].name
-                    : t("pick your team")}
-                </h1>
+          <>
+            {props.game.settings.logo_url ? (
+              <div className="mx-auto max-w-md w-full">
+                <img
+                  id="titleLogoUserUploaded"
+                  className="w-full h-[300px] min-h-[200px] object-contain"
+                  src={`${props.game.settings.logo_url}`}
+                  alt="Game logo"
+                />
               </div>
-              <div className="grid grid-cols-2 gap-4">
-                <button
-                  id="joinTeam1"
-                  className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 0 ? 'border-2 border-sky-600' : ''}`}
-                  onClick={() => {
-                    props.setTeam(0);
-                  }}
-                >
-                  {game.teams[0].name}
-                </button>
+            ) : (
+              <TitleLogo insert={props.game.title_text} />
+            )}
+            <div className="flex flex-row justify-center">
+              <h1 className="text-3xl text-foreground">
+                {t('team')}: {props.team != null ? game.teams[props.team].name : t('pick your team')}
+              </h1>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <button
+                id="joinTeam1"
+                className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 0 ? 'border-2 border-sky-600' : ''}`}
+                onClick={() => {
+                  props.setTeam(0);
+                }}
+              >
+                {game.teams[0].name}
+              </button>
 
+              <button
+                id="joinTeam2"
+                className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 1 ? 'border-2 border-sky-600' : ''}`}
+                onClick={() => {
+                  props.setTeam(1);
+                }}
+              >
+                {game.teams[1].name}
+              </button>
+            </div>
+            <div className="flex flex-row justify-center">
+              <button
+                id="registerBuzzerButton"
+                disabled={props.team === null}
+                className={`py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold ${props.team === null ? 'opacity-50 hover:shadow-none cursor-not-allowed' : ''}`}
+                onClick={() => {
+                  if (props.team != null) {
+                    send({ action: 'registerbuzz', team: props.team });
+                  }
+                }}
+              >
+                {t('play')}
+              </button>
+            </div>
+            <div className="flex flex-row justify-center">
+              <a href="/game">
                 <button
-                  id="joinTeam2"
-                  className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 1 ? 'border-2 border-sky-600' : ''}`}
+                  id="openGameWindowButton"
+                  className="py-4 px-8 hover:shadow-md rounded-md bg-secondary-300"
                   onClick={() => {
-                    props.setTeam(1);
+                    send({ action: 'registerspectator', team: props.team });
                   }}
                 >
-                  {game.teams[1].name}
+                  {t('Open Game Window')}
                 </button>
-              </div>
-              <div className="flex flex-row justify-center">
-                <button
-                  id="registerBuzzerButton"
-                  disabled={props.team === null}
-                  className={`py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold ${props.team === null ? 'opacity-50 hover:shadow-none cursor-not-allowed': ''}`}
-                  onClick={() => {
-                    if (props.team != null) {
-                      send({ action: "registerbuzz", team: props.team });
-                    } 
-                  }}
-                >
-                  {t("play")}
-                </button>
-              </div>
-              <div className="flex flex-row justify-center">
-                <a href="/game">
-                  <button
-                    id="openGameWindowButton"
-                    className="py-4 px-8 hover:shadow-md rounded-md bg-secondary-300"
-                    onClick={() => {
-                      send({ action: "registerspectator", team: props.team });
-                    }}
-                  >
-                    {t("Open Game Window")}
-                  </button>
-                </a>
-              </div>
-              {error != null && error !== "" ? <p>👾 {error}</p> : null}
-            </>
-          )}
+              </a>
+            </div>
+            {error != null && error !== '' ? <p>👾 {error}</p> : null}
+          </>
+        )}
       </>
     );
-  } else {
-    return (
-      <div>
-        <p id="loadingText" className="text-foreground">
-          {t("loading")}
-        </p>
-      </div>
-    );
   }
+  return (
+    <div>
+      <p id="loadingText" className="text-foreground">
+        {t('loading')}
+      </p>
+    </div>
+  );
 }

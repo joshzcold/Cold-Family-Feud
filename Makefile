@@ -45,22 +45,31 @@ push: build
 
 build-dev: build-frontend-dev build-backend-dev
 
+# Use different yaml for WSL
+ifneq ($(shell uname -r | grep -i microsoft),)
+  COMPOSE_FILE=docker-compose-dev.wsl.yaml
+else
+  COMPOSE_FILE=docker-compose-dev.yaml
+endif
+
 dev: build-dev
-	docker compose -p famf -f ./docker/docker-compose-dev.yaml up
+	docker compose -p famf -f ./docker/${COMPOSE_FILE} up
 
 dev-background: build-dev
-	docker compose -p famf -f ./docker/docker-compose-dev.yaml up -d
+	docker compose -p famf -f ./docker/${COMPOSE_FILE} up -d
 
 dev-down:
-	docker compose -p famf -f ./docker/docker-compose-dev.yaml down
+	docker compose -p famf -f ./docker/${COMPOSE_FILE} down
 
 e2e: dev-background
+	npm install
 	cd e2e
 	npx playwright test
 	cd -
 	$(MAKE) dev-down
 
 e2e-ui: dev-background
+	npm install
 	cd e2e	
 	npx playwright test --ui
 	cd -

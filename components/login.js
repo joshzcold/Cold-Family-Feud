@@ -30,7 +30,7 @@ export default function Login(props) {
       setError(t(ERROR_CODES.MISSING_INPUT, {message: t("name")}));
       return;
     }
-    
+
     if(!isValidRoomCode(roomCode)) {
       setError(t("room code is not correct length, should be 4 characters"));
       return;

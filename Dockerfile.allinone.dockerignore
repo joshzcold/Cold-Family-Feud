@@ -17,6 +17,9 @@
 !tailwind.config.js
 !backend/server.js
 !backend/load-game.js
+!utils/
+!.env
+!docker/frontend-start.sh
 
 ## Backend
 !backend/api/
