@@ -1,0 +1,269 @@
+{
+  "settings": {},
+  "rounds": [
+    {
+      "question": "Nimeta populaarne lauamäng.",
+      "answers": [
+        {
+          "ans": "Monopoly",
+          "pnt": 149
+        },
+        {
+          "ans": "Alias",
+          "pnt": 75
+        },
+        {
+          "ans": "Reis ümber maailma",
+          "pnt": 21
+        },
+        {
+          "ans": "Catan",
+          "pnt": 20
+        },
+        {
+          "ans": "Male",
+          "pnt": 16
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta midagi, mis teeb jaanipäevast jaanipäeva.",
+      "answers": [
+        {
+          "ans": "Jaanilõke",
+          "pnt": 188
+        },
+        {
+          "ans": "Alkohol",
+          "pnt": 41
+        },
+        {
+          "ans": "Vihm/halb ilm",
+          "pnt": 30
+        },
+        {
+          "ans": "Grillimine/šašlõkk",
+          "pnt": 28
+        },
+        {
+          "ans": "Sääsed",
+          "pnt": 9
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta tuntud Eesti naispoliitik.",
+      "answers": [
+        {
+          "ans": "Kaja Kallas",
+          "pnt": 241
+        },
+        {
+          "ans": "Mailis Reps",
+          "pnt": 22
+        },
+        {
+          "ans": "Marina Kaljurand",
+          "pnt": 12
+        },
+        {
+          "ans": "Kersti Kaljulaid",
+          "pnt": 10
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta vaatamisväärsus Ida-Virumaal.",
+      "answers": [
+        {
+          "ans": "Narva linnus",
+          "pnt": 92
+        },
+        {
+          "ans": "Tuhamäed",
+          "pnt": 60
+        },
+        {
+          "ans": "Kaevandusmuuseum",
+          "pnt": 28
+        },
+        {
+          "ans": "Valaste juga",
+          "pnt": 17
+        },
+        {
+          "ans": "Kreenholm",
+          "pnt": 9
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta auto, mille ostaksid piiramatute võimaluste korral.",
+      "answers": [
+        {
+          "ans": "Tesla",
+          "pnt": 65
+        },
+        {
+          "ans": "Porsche",
+          "pnt": 31
+        },
+        {
+          "ans": "Audi",
+          "pnt": 25
+        },
+        {
+          "ans": "Ferrari",
+          "pnt": 24
+        },
+        {
+          "ans": "Lamborghini",
+          "pnt": 20
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta suveüritus, millel kindlasti osaled.",
+      "answers": [
+        {
+          "ans": "Jaanipäeva üritus",
+          "pnt": 99
+        },
+        {
+          "ans": "Viljandi folk",
+          "pnt": 25
+        },
+        {
+          "ans": "Laulupidu",
+          "pnt": 15
+        },
+        {
+          "ans": "Grillfest",
+          "pnt": 14
+        },
+        {
+          "ans": "Õllesummer",
+          "pnt": 10
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta Eesti telesaade, milles tahaksid osaleda.",
+      "answers": [
+        {
+          "ans": "Rooside sõda",
+          "pnt": 87
+        },
+        {
+          "ans": "Kuldvillak",
+          "pnt": 58
+        },
+        {
+          "ans": "Rannamaja",
+          "pnt": 15
+        },
+        {
+          "ans": "Ma näen su häält",
+          "pnt": 10
+        },
+        {
+          "ans": "Kes tahab saada miljonäriks",
+          "pnt": 8
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta põhjus, miks inimesed hilinevad kokkulepitud kohtumisele.",
+      "answers": [
+        {
+          "ans": "Ummikud/liiklus",
+          "pnt": 123
+        },
+        {
+          "ans": "Magas sisse",
+          "pnt": 48
+        },
+        {
+          "ans": "Halb ajaplaneerimine",
+          "pnt": 31
+        },
+        {
+          "ans": "Laiskus",
+          "pnt": 27
+        },
+        {
+          "ans": "Pohhuism/hoolimatus teiste suhtes",
+          "pnt": 23
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta võõrkeel, mida tahaksid osata.",
+      "answers": [
+        {
+          "ans": "Hispaania",
+          "pnt": 67
+        },
+        {
+          "ans": "Saksa",
+          "pnt": 42
+        },
+        {
+          "ans": "Prantsuse",
+          "pnt": 38
+        },
+        {
+          "ans": "Vene",
+          "pnt": 36
+        },
+        {
+          "ans": "Hiina",
+          "pnt": 31
+        },
+        {
+          "ans": "Jaapani",
+          "pnt": 29
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Nimeta õppeaine, mis sulle koolis kõige vähem meeldis.",
+      "answers": [
+        {
+          "ans": "Vene keel",
+          "pnt": 76
+        },
+        {
+          "ans": "Matemaatika",
+          "pnt": 56
+        },
+        {
+          "ans": "Keemia",
+          "pnt": 48
+        },
+        {
+          "ans": "Füüsika",
+          "pnt": 35
+        },
+        {
+          "ans": "Kehaline kasvatus",
+          "pnt": 27
+        },
+        {
+          "ans": "Bioloogia",
+          "pnt": 17
+        }
+      ],
+      "multiply": 1
+    }
+  ]
+}
