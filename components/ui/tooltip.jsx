@@ -7,7 +7,7 @@ const InfoTooltip = ({ message }) => {
   return (
     <div className="relative inline-block">
       <Info
-        className="w-5 h-5 text-secondary-900 cursor-help transition-colors hover:text-secondary-700"
+        className="w-5 h-5 text-secondary-900 transition-colors hover:text-secondary-700"
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
       />

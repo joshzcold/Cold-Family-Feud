@@ -47,7 +47,7 @@ build-dev: build-frontend-dev build-backend-dev
 
 # Use different yaml for WSL
 ifneq ($(shell uname -r | grep -i microsoft),)
-  COMPOSE_FILE=docker-compose-dev.wsl.yaml
+  COMPOSE_FILE=docker-compose-dev-wsl.yaml
 else
   COMPOSE_FILE=docker-compose-dev.yaml
 endif
