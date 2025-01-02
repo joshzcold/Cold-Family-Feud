@@ -1071,7 +1071,7 @@ export default function Admin(props) {
                                 id={`playerBuzzer${i}BuzzerTimeText`}
                               >
                                 {t("time")}:{" "}
-                                {(((x.time - game.tick) / 1000) % 60).toFixed(2)}{" "}
+                                {((x.time - game.round_start_time) / 1000).toFixed(2)}{" "}
                                 {t("seconds")}
                               </p>
                             </div>
