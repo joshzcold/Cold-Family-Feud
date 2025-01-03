@@ -9,7 +9,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build-and-push-image:
+  build-and-push-images:
     runs-on: ubuntu-latest
 
     permissions:
@@ -62,7 +62,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/joshzcold/famf-allinone
 
-      - name: Build and push backend image
+      - name: Build and push allinone image
         uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
         with:
           context: .
