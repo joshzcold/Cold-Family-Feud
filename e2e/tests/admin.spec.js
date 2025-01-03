@@ -297,8 +297,8 @@ test('can hide game board from player', async ({ browser }) => {
 
   const adminPage = new AdminPage(host.page);
   await adminPage.gameSelector.selectOption({ index: 1 });
-  await adminPage.startRoundOneButton.click();
-  expect(buzzerPage1.playerBlindFoldedText).not.toBeVisible();
-  await adminPage.player0Team1HideGameButton.click();
-  expect(buzzerPage1.playerBlindFoldedText).toBeVisible();
+  await adminPage.startRoundOneButton.click({ timeout: 2000 });
+  await expect(buzzerPage1.playerBlindFoldedText).not.toBeVisible({ timeout: 2000 });
+  await adminPage.player0Team1HideGameButton.click({ timeout: 2000 });
+  await expect(buzzerPage1.playerBlindFoldedText).toBeVisible({ timeout: 2000 });
 });
