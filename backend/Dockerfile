@@ -6,7 +6,7 @@ FROM base as dev
 ENV CGO_ENABLED 1
 ENV GOCACHE=/src/.cache/go-build
 ENV GOMODCACHE=/src/.cache/go-mod
-RUN apk add gcc musl-dev sqlite
+RUN apk add gcc musl-dev sqlite curl
 RUN go install github.com/air-verse/air@latest
 COPY --from=games . /src/games/
 COPY . .
