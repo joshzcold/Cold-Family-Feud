@@ -248,7 +248,6 @@ export default function Home() {
     <>
       <Head>
         <title>{t("Friendly Feud")}</title>
-        <link rel="icon" href="x.png"></link>
         <meta name="author" content="Joshua Cold" />
         <meta
           name="description"
