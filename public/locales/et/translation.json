@@ -72,6 +72,7 @@
     "Points": "Punktid",
     "Buzzer Order": "M\u00e4rguande J\u00e4rjekord",
     "players": "m\u00e4ngjad",
+    "player": "Mängija",
     "Clear Buzzers": "T\u00fchjenda m\u00e4rguanded",
     "Changing rounds also clears buzzers": "Vooru vahetust t\u00fchjendab m\u00e4rguanded",
     "Back To": "Tagasi",
@@ -126,6 +127,7 @@
     "Only play sound for the first player to buzz in": "Mängi heli ainult esimesese mängija seadmel, kes summerit vajutab",
     "First Press Only": "Ainult esimene summer",
     "You have been blindfolded...": "Sind on pimestatud...",
+    "Reset Mistakes": "Lähtesta vead",
     "errors": {
         "room_not_found": "Mängu ei leitud",
         "host_quit": "Mängu juht lahkus mängust",
