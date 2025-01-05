@@ -78,6 +78,7 @@ type game struct {
 	FinalRound2       []finalRound                 `json:"final_round_2"`
 	FinalRoundTimers  []int                        `json:"final_round_timers"`
 	Tick              int64                        `json:"tick"`
+	RoundStartTime    int64                        `json:"round_start_time"`
 }
 
 func setTick(client *Client, event *Event) GameError {
@@ -127,6 +128,7 @@ func NewGame(roomCode string) room {
 			HideFirstRound: false,
 			Round:          0,
 			Tick: time.Now().UTC().UnixMilli(),
+			RoundStartTime: time.Now().UTC().UnixMilli(),
 		},
 	}
 }
