@@ -6,6 +6,7 @@ WORKDIR /src
 RUN npm install
 
 FROM base AS dev
+RUN apk add curl
 COPY --from=builder /src/node_modules/ /src/node_modules/
 COPY . /src/
 WORKDIR /src
