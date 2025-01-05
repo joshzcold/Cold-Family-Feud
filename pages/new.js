@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import LanguageSwitcher from "components/language";
-import { ThemeSwitcher } from "components/Admin/settings";
+import ThemeSwitcher from "components/Admin/ThemeSwitcher";
 
 export default function CreateGame(props) {
   const { t } = useTranslation();
