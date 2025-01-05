@@ -76,8 +76,8 @@ func Buzz(client *Client, event *Event) GameError {
 	if !ok {
 		return GameError{code: PLAYER_NOT_FOUND}
 	}
-	latencyMilliseconds := time.Millisecond * time.Duration(player.Latency)
-	latencyTime := time.Now().UTC().Add(-latencyMilliseconds).UnixMilli()
+	latency := time.Millisecond * time.Duration(player.Latency)
+	latencyTime := time.Now().UTC().Add(-latency).UnixMilli()
 	if len(room.Game.Buzzed) == 0 {
 		room.Game.Buzzed = append(room.Game.Buzzed, buzzed{
 			ID:   event.ID,
