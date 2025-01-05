@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TeamName(props) {
   return (
     <div
@@ -25,7 +27,7 @@ export default function TeamName(props) {
       <div id={`team${props.team}MistakesList`} className="flex justify-center flex-row text-center space-x-2">
         {Array(props.game.teams[props.team].mistakes).fill(
           <div className="flex-shrink">
-            <img src="x.png" />
+            <Image width={139} height={160} src="/x.png" />
           </div>
         )}
       </div>

@@ -10,6 +10,7 @@ import TeamName from './team-name.js';
 import Final from './final';
 import { ERROR_CODES } from 'i18n/errorCodes';
 import { EyeOff } from 'lucide-react';
+import Image from 'next/image';
 
 let timerInterval = null;
 
@@ -132,13 +133,19 @@ export default function Buzzer(props) {
   if (game.teams != null) {
     return (
       <>
-        <img
-          id="xImg"
-          className={`lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 top-2/4 pointer-events-none ${
-            showMistake ? 'opacity-90' : 'opacity-0'
-          } transition-opacity ease-in-out duration-300 absolute`}
-          src="x.svg"
-        />
+        <div className="absolute pointer-events-none">
+          <Image
+            id="xImg"
+            width={1000}
+            height={1000}
+            className={`fixed inset-0 p-24 z-50 pointer-events-none ${
+              showMistake ? 'opacity-90' : 'opacity-0'
+            } transition-opacity ease-in-out duration-300`}
+            src="/x.svg"
+            alt="Mistake indicator"
+            aria-hidden={!showMistake}
+          />
+        </div>
         <button
           id="quitButton"
           className="z-50 shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
@@ -155,14 +162,20 @@ export default function Buzzer(props) {
                 <Round game={game} />
 
                 {/* Buzzer Section TODO replace with function*/}
-                <div className="" style={{ width: '100%', textAlign: 'center' }}>
+                <div className="w-full text-center">
                   {buzzed ? (
-                    <img id="buzzerButtonPressed" style={{ width: '50%', display: 'inline-block' }} src="buzzed.svg" />
+                    <Image 
+                    id="buzzerButtonPressed" 
+                    width={500}
+                    height={200}
+                    alt="Buzzer Button"
+                    src="/buzzed.svg" />
                   ) : (
-                    <img
+                    <Image 
                       id="buzzerButton"
-                      className="cursor-pointer"
-                      style={{ width: '50%', display: 'inline-block' }}
+                      width={500}
+                      height={200}
+                      className="cursor-pointer w-1/2 inline-block"
                       onClick={() => {
                         send({ action: 'buzz', id: props.id });
                           // Play sound based on settings
@@ -172,7 +185,8 @@ export default function Buzzer(props) {
                             }
                           }
                       }}
-                      src="buzz.svg"
+                      src="/buzz.svg"
+                      alt="Buzzer Button Pressed"
                     />
                   )}
                   <p className="text-secondary-900 p-2 italic">{t('buzzer is reset between rounds')}</p>
@@ -225,11 +239,15 @@ export default function Buzzer(props) {
                 ) : (
                   <div>
                     {props.game.settings.logo_url ? (
-                      <div className="mx-auto max-w-md w-full">
-                        <img
-                          className="w-full h-[300px] min-h-[200px] object-contain"
-                          src={`${props.game.settings.logo_url}`}
+                      <div className="flex justify-center">
+                        <Image
+                          width={300}
+                          height={300}
+                          objectFit={'contain'}
+                          src={`${props.game.settings.logo_url}?v=${Date.now()}`}
                           alt="Game logo"
+                          priority // Load image immediately
+                          unoptimized // Skip caching
                         />
                       </div>
                     ) : (
@@ -247,11 +265,15 @@ export default function Buzzer(props) {
           <>
             {props.game.settings.logo_url ? (
               <div className="mx-auto max-w-md w-full">
-                <img
+                <Image
                   id="titleLogoUserUploaded"
-                  className="w-full h-[300px] min-h-[200px] object-contain"
-                  src={`${props.game.settings.logo_url}`}
+                  width={300}
+                  height={300}
+                  objectFit={'contain'}
+                  src={`${props.game.settings.logo_url}?v=${Date.now()}`}
                   alt="Game logo"
+                  priority // Load image immediately
+                  unoptimized // Skip caching
                 />
               </div>
             ) : (

@@ -9,6 +9,7 @@ import "tailwindcss/tailwind.css";
 import cookieCutter from "cookie-cutter";
 import BuzzerPopup from "components/BuzzerPopup";
 import { ERROR_CODES } from "i18n/errorCodes";
+import Image from "next/image";
 
 let timerInterval = null;
 
@@ -238,10 +239,17 @@ export default function Game(props) {
             </button>
           </div>
         ) : null}
-        <div className="min-h-screen absolute w-screen flex flex-col items-center justify-center pointer-events-none">
-          <img
-            className={`w-4/12 ${showMistake ? "opacity-90" : "opacity-0"} transition-opacity ease-in-out duration-300`}
-            src="x.svg"
+        <div className="absolute pointer-events-none">
+          <Image
+            id="xImg"
+            width={1000}
+            height={1000}
+            className={`fixed inset-0 p-24 z-50 pointer-events-none ${
+              showMistake ? 'opacity-90' : 'opacity-0'
+            } transition-opacity ease-in-out duration-300`}
+            src="/x.svg"
+            alt="Mistake indicator"
+            aria-hidden={!showMistake}
           />
         </div>
         <div className={`${game?.settings?.theme} min-h-screen`}>
