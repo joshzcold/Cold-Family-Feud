@@ -72,17 +72,17 @@ export default function AdminSettings(props) {
 
     const BuzzerSoundSettings = (props) => {
         return (
-            <div class="flex flex-col space-y-4">
-                <div class="flex flex-col">
-                    <div class="flex flex-row space-x-5 items-center">
-                        <div class="flex flex-row items-center space-x-2">
+            <div className="flex flex-col space-y-4">
+                <div className="flex flex-col">
+                    <div className="flex flex-row space-x-5 items-center">
+                        <div className="flex flex-row items-center space-x-2">
                             <InfoTooltip message={t("Allow players to hear sound on their devices when they press their buzzer")} />
-                            <p class="text-xl normal-case text-foreground">
+                            <p className="text-xl normal-case text-foreground">
                                 {t("Player Buzzer Sounds")}
                             </p>
                         </div>
                         <input
-                            class="w-4 h-4 rounded placeholder-secondary-900"
+                            className="w-4 h-4 rounded placeholder-secondary-900"
                             checked={game.settings.enable_player_buzzer_sound}
                             onChange={(e) => {
                                 game.settings.enable_player_buzzer_sound = e.target.checked;
@@ -97,16 +97,16 @@ export default function AdminSettings(props) {
                     </div>
                 </div>
 
-                <div class={`flex flex-col ${!game.settings.enable_player_buzzer_sound ? 'opacity-50' : ''}`}>
-                    <div class="flex flex-row space-x-5 items-center">
-                        <div class="flex flex-row items-center space-x-2">
+                <div className={`flex flex-col ${!game.settings.enable_player_buzzer_sound ? 'opacity-50' : ''}`}>
+                    <div className="flex flex-row space-x-5 items-center">
+                        <div className="flex flex-row items-center space-x-2">
                             <InfoTooltip message={t("Only play sound for the first player to buzz in")} />
-                            <p class="text-xl normal-case text-foreground">
+                            <p className="text-xl normal-case text-foreground">
                                 {t("First Press Only")}
                             </p>
                         </div>
                         <input
-                            class="w-4 h-4 rounded placeholder-secondary-900"
+                            className="w-4 h-4 rounded placeholder-secondary-900"
                             checked={game.settings.first_buzzer_sound_only}
                             disabled={!game.settings.enable_player_buzzer_sound}
                             onChange={(e) => {
