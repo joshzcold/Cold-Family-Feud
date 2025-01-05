@@ -253,12 +253,6 @@ export default function Home() {
           name="description"
           content="Free to play open source friendly feud game. Host your own custom created family feud games with built in online buzzers, timers and admin controls. Visit https://github.com/joshzcold/Cold-Friendly-Feud to check out the source code and contribute."
         />
-        <link
-          rel="preload"
-          href="/fonts/C059/c059-bold.otf"
-          as="font"
-          crossOrigin=""
-        />
       </Head>
       <main>
         <div
