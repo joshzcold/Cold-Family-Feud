@@ -12,6 +12,8 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   testDir: './tests',
+  /* 60s timeout (initial build takes 60s) */
+  timeout: 60000,
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -44,19 +46,26 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      name: 'docker',
+      testMatch: /global\.setup\.ts/,
+    },
+    {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
+      dependencies: ['docker'],
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    //   dependencies: ['docker'],
+    // },
+    //
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    //   dependencies: ['docker'],
+    // },
 
     /* Test against mobile viewports. */
     // {

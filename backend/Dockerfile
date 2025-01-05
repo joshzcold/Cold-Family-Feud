@@ -4,11 +4,14 @@ WORKDIR /src
 
 FROM base as dev
 ENV CGO_ENABLED 1
-RUN apk add gcc musl-dev sqlite
+ENV GOCACHE=/src/.cache/go-build
+ENV GOMODCACHE=/src/.cache/go-mod
+RUN apk add gcc musl-dev sqlite curl
 RUN go install github.com/air-verse/air@latest
 COPY --from=games . /src/games/
 COPY . .
-RUN go mod download
+RUN mkdir -p .cache/go-build .cache/go-mod && \
+    go mod download
 CMD ["air", "--build.cmd", "go build .", "--build.bin", "/src/Cold-Friendly-Feud"]
 
 FROM base AS builder
