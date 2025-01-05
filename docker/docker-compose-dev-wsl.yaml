@@ -4,6 +4,9 @@ services:
     network_mode: 'host'
     volumes:
       - ../:/src
+      # for SWC compatibility
+      - /src/node_modules
+      - /src/.next
     environment:
       - HOST=0.0.0.0
     healthcheck:
