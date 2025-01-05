@@ -84,11 +84,11 @@ spec:
           {{- end }}
           livenessProbe:
             httpGet:
-              path: /api/healthcheckz
+              path: /api/health
               port: bhttp
           readinessProbe:
             httpGet:
-              path: /api/healthcheckz
+              path: /api/health
               port: bhttp
           {{- with .Values.backend.volumeMounts }}
           volumeMounts:
