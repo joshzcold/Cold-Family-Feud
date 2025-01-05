@@ -10,6 +10,7 @@ import { Buffer } from "buffer";
 import { handleCsvFile, handleJsonFile } from "utils/files";
 import { ERROR_CODES } from "i18n/errorCodes";
 import BuzzerTable from "./BuzzerTable";
+import Image from "next/image";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -177,7 +178,7 @@ function TitleLogoUpload(props) {
     return (
       <div className="flex flex-row space-x-2 items-center">
         <p className="capitalize text-foreground">logo:</p>
-        <img width={"150px"} src={URL.createObjectURL(props.imageUploaded)} />
+        <Image width={150} height={150} objectFit="contain" src={URL.createObjectURL(props.imageUploaded)} />
         <button
           className="border-2 bg-secondary-500 hover:bg-secondary-700 p-1 rounded-lg"
           id="deleteLogoButton"
@@ -283,7 +284,7 @@ function TitleLogoUpload(props) {
                     mimetype: mimetype,
                   });
                   props.setImageUploaded(file);
-                  props.game.settings.logo_url = `/api/rooms/${props.room}/logo?${new Date().getTime()}`;
+                  props.game.settings.logo_url = `/api/rooms/${props.room}/logo`;
                   props.setGame((prv) => ({ ...prv }));
                   props.send({ action: "data", data: props.game });
                 };
@@ -871,7 +872,7 @@ export default function Admin(props) {
                       send({ action: "show_mistake" });
                     }}
                   >
-                    <img className={`w-3/12`} src="x.svg" />
+                    <Image width={150} height={150} objectFit={'contain'} src="/x.svg" />
                   </button>
                   <button
                     id="resetMistakesButton"

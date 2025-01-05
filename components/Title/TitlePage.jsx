@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Team from './Team';
 import RoomCode from './RoomCode';
+import Image from 'next/image';
 
 export default function TitlePage(props) {
   const { i18n, t } = useTranslation();
@@ -62,11 +63,14 @@ export default function TitlePage(props) {
       >
         <div className="flex justify-center w-full ">
           {props.game.settings.logo_url ? (
-            <img
-              className="w-full h-[300px] min-h-[200px] object-contain"
-              src={`${props.game.settings.logo_url}`}
-              size={titleSize}
+            <Image
+              width={300}
+              height={300}
+              objectFit={'contain'}
+              src={`${props.game.settings.logo_url}?v=${Date.now()}`}
               alt="Game logo"
+              priority // Load image immediately
+              unoptimized // Skip caching
             />
           ) : (
             <TitleLogo insert={props.game.title_text} size={titleSize} />
