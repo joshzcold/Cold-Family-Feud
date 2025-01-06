@@ -190,13 +190,18 @@ test("can see mistakes", async ({ browser }) => {
   await adminPage.startRoundOneButton.click()
 
   await adminPage.team0MistakeButton.click()
+  await host.page.waitForTimeout(500);
   await adminPage.team0MistakeButton.click()
+  await host.page.waitForTimeout(500);
   await adminPage.team1MistakeButton.click()
+  await host.page.waitForTimeout(500);
 
-  const count1 = await gamePage.team0MistakesList.locator("div").count()
-  const count2 = await gamePage.team1MistakesList.locator("div").count()
-  expect(count1).toBe(2)
-  expect(count2).toBe(1)
+  await expect(async () => {
+    const count1 = await gamePage.team0MistakesList.locator("div").count();
+    const count2 = await gamePage.team1MistakesList.locator("div").count();
+    expect(count1).toBe(2);
+    expect(count2).toBe(1);
+  }).toPass({ timeout: 5000 });
 });
 
 test("can use timer controls", async ({ browser }) => {
