@@ -179,7 +179,13 @@ function TitleLogoUpload(props) {
     return (
       <div className="flex flex-row space-x-2 items-center">
         <p className="capitalize text-foreground">logo:</p>
-        <Image width={150} height={150} objectFit="contain" src={URL.createObjectURL(props.imageUploaded)} />
+        <Image 
+          width={150} 
+          height={150} 
+          objectFit="contain" 
+          src={URL.createObjectURL(props.imageUploaded)} 
+          alt="Game Logo"
+        />
         <button
           className="border-2 bg-secondary-500 hover:bg-secondary-700 p-1 rounded-lg"
           id="deleteLogoButton"
@@ -873,7 +879,13 @@ export default function Admin(props) {
                       send({ action: "show_mistake" });
                     }}
                   >
-                    <Image width={150} height={150} objectFit={'contain'} src="/x.svg" />
+                    <Image 
+                      width={150} 
+                      height={150} 
+                      objectFit={'contain'} 
+                      src="/x.svg"
+                      alt="Show Mistake"
+                    />
                   </button>
                   <button
                     id="resetMistakesButton"
