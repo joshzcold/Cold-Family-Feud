@@ -182,7 +182,7 @@ function TitleLogoUpload(props) {
         <Image 
           width={150} 
           height={150} 
-          objectFit="contain" 
+          style={{objectFit: 'contain'}}
           src={URL.createObjectURL(props.imageUploaded)} 
           alt="Game Logo"
         />
@@ -882,7 +882,7 @@ export default function Admin(props) {
                     <Image 
                       width={150} 
                       height={150} 
-                      objectFit={'contain'} 
+                      style={{objectFit: 'contain'}}
                       src="/x.svg"
                       alt="Show Mistake"
                     />
