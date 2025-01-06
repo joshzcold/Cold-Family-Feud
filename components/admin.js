@@ -11,6 +11,7 @@ import { handleCsvFile, handleJsonFile } from "utils/files";
 import { ERROR_CODES } from "i18n/errorCodes";
 import BuzzerTable from "./BuzzerTable";
 import Image from "next/image";
+import Link from "next/link";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -492,20 +493,20 @@ export default function Admin(props) {
           <hr />
           <div className="flex flex-row justify-evenly p-5 ">
             {/* ADMIN BUTTONS */}
-            <a href="/game" target="_blank" id="openGameWindowButton">
+            <Link href="/game" target="_blank" id="openGameWindowButton">
               <button className="text-2xl">
                 <div className="w-48 hover:shadow-md rounded bg-success-200 p-2 flex justify-center">
                   {t("Open Game Window")}
                 </div>
               </button>
-            </a>
-            <a href="/new" id="createNewGameButton">
+            </Link>
+            <Link href="/new" id="createNewGameButton">
               <button className="text-2xl">
                 <div className="w-48 hover:shadow-md rounded bg-primary-200 p-2 flex justify-center">
                   {t("Create New Game")}
                 </div>
               </button>
-            </a>
+            </Link>
             <button
               id="quitButton"
               className="text-2xl"

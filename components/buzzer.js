@@ -11,6 +11,7 @@ import Final from './final';
 import { ERROR_CODES } from 'i18n/errorCodes';
 import { EyeOff } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 let timerInterval = null;
 
@@ -320,7 +321,7 @@ export default function Buzzer(props) {
               </button>
             </div>
             <div className="flex flex-row justify-center">
-              <a href="/game">
+              <Link href="/game">
                 <button
                   id="openGameWindowButton"
                   className="py-4 px-8 hover:shadow-md rounded-md bg-secondary-300"
@@ -330,7 +331,7 @@ export default function Buzzer(props) {
                 >
                   {t('Open Game Window')}
                 </button>
-              </a>
+              </Link>
             </div>
             {error != null && error !== '' ? <p>👾 {error}</p> : null}
           </>
