@@ -11,6 +11,7 @@ import Final from './final';
 import { ERROR_CODES } from 'i18n/errorCodes';
 import { EyeOff } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 let timerInterval = null;
 
@@ -39,8 +40,8 @@ export default function Buzzer(props) {
   };
 
   const playBuzzerSound = () => {
-    const audio = new Audio("buzzer.wav");
-    audio.play().catch(error => {
+    const audio = new Audio('buzzer.wav');
+    audio.play().catch((error) => {
       console.warn('Error playing buzzer sound:', error);
     });
   };
@@ -164,26 +165,21 @@ export default function Buzzer(props) {
                 {/* Buzzer Section TODO replace with function*/}
                 <div className="w-full text-center">
                   {buzzed ? (
-                    <Image 
-                    id="buzzerButtonPressed" 
-                    width={500}
-                    height={200}
-                    alt="Buzzer Button"
-                    src="/buzzed.svg" />
+                    <Image id="buzzerButtonPressed" width={500} height={200} alt="Buzzer Button" src="/buzzed.svg" />
                   ) : (
-                    <Image 
+                    <Image
                       id="buzzerButton"
                       width={500}
                       height={200}
                       className="cursor-pointer w-1/2 inline-block"
                       onClick={() => {
                         send({ action: 'buzz', id: props.id });
-                          // Play sound based on settings
-                          if (game.settings.enable_player_buzzer_sound) {
-                            if (!game.settings.first_buzzer_sound_only || game.buzzed.length === 0) {
-                              playBuzzerSound();
-                            }
+                        // Play sound based on settings
+                        if (game.settings.enable_player_buzzer_sound) {
+                          if (!game.settings.first_buzzer_sound_only || game.buzzed.length === 0) {
+                            playBuzzerSound();
                           }
+                        }
                       }}
                       src="/buzz.svg"
                       alt="Buzzer Button Pressed"
@@ -243,7 +239,7 @@ export default function Buzzer(props) {
                         <Image
                           width={300}
                           height={300}
-                          objectFit={'contain'}
+                          style={{ objectFit: 'contain' }}
                           src={`${props.game.settings.logo_url}?v=${Date.now()}`}
                           alt="Game logo"
                           priority // Load image immediately
@@ -269,7 +265,7 @@ export default function Buzzer(props) {
                   id="titleLogoUserUploaded"
                   width={300}
                   height={300}
-                  objectFit={'contain'}
+                  style={{ objectFit: 'contain' }}
                   src={`${props.game.settings.logo_url}?v=${Date.now()}`}
                   alt="Game logo"
                   priority // Load image immediately
@@ -287,7 +283,9 @@ export default function Buzzer(props) {
             <div className="grid grid-cols-2 gap-4">
               <button
                 id="joinTeam1"
-                className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 0 ? 'border-2 border-sky-600' : ''}`}
+                className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${
+                  props.team === 0 ? 'border-2 border-sky-600' : ''
+                }`}
                 onClick={() => {
                   props.setTeam(0);
                 }}
@@ -297,7 +295,9 @@ export default function Buzzer(props) {
 
               <button
                 id="joinTeam2"
-                className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${props.team === 1 ? 'border-2 border-sky-600' : ''}`}
+                className={`hover:shadow-md rounded-md bg-primary-200 p-5 ${
+                  props.team === 1 ? 'border-2 border-sky-600' : ''
+                }`}
                 onClick={() => {
                   props.setTeam(1);
                 }}
@@ -309,7 +309,9 @@ export default function Buzzer(props) {
               <button
                 id="registerBuzzerButton"
                 disabled={props.team === null}
-                className={`py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold ${props.team === null ? 'opacity-50 hover:shadow-none cursor-not-allowed' : ''}`}
+                className={`py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase font-bold ${
+                  props.team === null ? 'opacity-50 hover:shadow-none cursor-not-allowed' : ''
+                }`}
                 onClick={() => {
                   if (props.team != null) {
                     send({ action: 'registerbuzz', team: props.team });
@@ -320,7 +322,7 @@ export default function Buzzer(props) {
               </button>
             </div>
             <div className="flex flex-row justify-center">
-              <a href="/game">
+              <Link href="/game">
                 <button
                   id="openGameWindowButton"
                   className="py-4 px-8 hover:shadow-md rounded-md bg-secondary-300"
@@ -330,7 +332,7 @@ export default function Buzzer(props) {
                 >
                   {t('Open Game Window')}
                 </button>
-              </a>
+              </Link>
             </div>
             {error != null && error !== '' ? <p>👾 {error}</p> : null}
           </>

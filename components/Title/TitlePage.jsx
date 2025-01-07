@@ -66,7 +66,7 @@ export default function TitlePage(props) {
             <Image
               width={300}
               height={300}
-              objectFit={'contain'}
+              style={{ objectFit: 'contain' }}
               src={`${props.game.settings.logo_url}?v=${Date.now()}`}
               alt="Game logo"
               priority // Load image immediately

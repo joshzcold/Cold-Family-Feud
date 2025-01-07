@@ -11,6 +11,7 @@ import { handleCsvFile, handleJsonFile } from "utils/files";
 import { ERROR_CODES } from "i18n/errorCodes";
 import BuzzerTable from "./BuzzerTable";
 import Image from "next/image";
+import Link from "next/link";
 
 function debounce(callback, wait = 400) {
   let timeout;
@@ -178,7 +179,13 @@ function TitleLogoUpload(props) {
     return (
       <div className="flex flex-row space-x-2 items-center">
         <p className="capitalize text-foreground">logo:</p>
-        <Image width={150} height={150} objectFit="contain" src={URL.createObjectURL(props.imageUploaded)} />
+        <Image 
+          width={150} 
+          height={150} 
+          style={{objectFit: 'contain'}}
+          src={URL.createObjectURL(props.imageUploaded)} 
+          alt="Game Logo"
+        />
         <button
           className="border-2 bg-secondary-500 hover:bg-secondary-700 p-1 rounded-lg"
           id="deleteLogoButton"
@@ -492,20 +499,20 @@ export default function Admin(props) {
           <hr />
           <div className="flex flex-row justify-evenly p-5 ">
             {/* ADMIN BUTTONS */}
-            <a href="/game" target="_blank" id="openGameWindowButton">
+            <Link href="/game" target="_blank" id="openGameWindowButton">
               <button className="text-2xl">
                 <div className="w-48 hover:shadow-md rounded bg-success-200 p-2 flex justify-center">
                   {t("Open Game Window")}
                 </div>
               </button>
-            </a>
-            <a href="/new" id="createNewGameButton">
+            </Link>
+            <Link href="/new" id="createNewGameButton">
               <button className="text-2xl">
                 <div className="w-48 hover:shadow-md rounded bg-primary-200 p-2 flex justify-center">
                   {t("Create New Game")}
                 </div>
               </button>
-            </a>
+            </Link>
             <button
               id="quitButton"
               className="text-2xl"
@@ -872,7 +879,13 @@ export default function Admin(props) {
                       send({ action: "show_mistake" });
                     }}
                   >
-                    <Image width={150} height={150} objectFit={'contain'} src="/x.svg" />
+                    <Image 
+                      width={150} 
+                      height={150} 
+                      style={{objectFit: 'contain'}}
+                      src="/x.svg"
+                      alt="Show Mistake"
+                    />
                   </button>
                   <button
                     id="resetMistakesButton"
