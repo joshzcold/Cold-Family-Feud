@@ -2,9 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
-import Admin from "@/components/admin";
-import Buzzer from "@/components/buzzer";
-import Login from "@/components/login";
+import AdminPage from "@/components/AdminPage";
+import BuzzerPage from "@/components/BuzzerPage";
+import LoginPage from "@/components/LoginPage";
 import Footer from "@/components/Login/Footer"
 import cookieCutter from "cookie-cutter";
 import { ERROR_CODES } from "@/i18n/errorCodes";
@@ -192,7 +192,7 @@ export default function Home() {
       return (
         <div className="lg:flex lg:flex-row lg:justify-center w-full">
           <div className="lg:w-3/4 sm:w-full md:w-full">
-            <Admin
+            <AdminPage
               ws={ws}
               game={game}
               id={playerID}
@@ -207,7 +207,7 @@ export default function Home() {
       return (
         <div className="flex w-full justify-center">
           <div className="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
-            <Buzzer
+            <BuzzerPage
               ws={ws}
               game={game}
               id={playerID}
@@ -224,7 +224,7 @@ export default function Home() {
       return (
         <div className="flex w-full justify-center relative min-h-screen">
           <div className="lg:w-1/2 w-full sm:px-4 lg:px-6 md:px-8 flex flex-col">
-            <Login
+            <LoginPage
               setRoomCode={setRoomCode}
               roomCode={roomCode}
               setPlayerName={setPlayerName}

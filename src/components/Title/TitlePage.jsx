@@ -1,4 +1,4 @@
-import TitleLogo from '@/components/title-logo';
+import TitleLogo from '@/components/TitleLogo';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Team from '@/components/Title/Team';

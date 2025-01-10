@@ -44,7 +44,7 @@ function Answers(props) {
   ));
 }
 
-export default function Final(props) {
+export default function FinalPage(props) {
   const { t } = useTranslation();
   let total = 0;
 

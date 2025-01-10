@@ -1,10 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import TitlePage from "@/components/Title/TitlePage.jsx";
-import Round from "@/components/round";
-import TeamName from "@/components/team-name.js";
-import QuestionBoard from "@/components/question-board.js";
-import Final from "@/components/final";
+import Round from "@/components/Round";
+import TeamName from "@/components/TeamName";
+import QuestionBoard from "@/components/QuestionBoard";
+import FinalPage from "@/components/FinalPage";
 import cookieCutter from "cookie-cutter";
 import BuzzerPopup from "@/components/BuzzerPopup";
 import { ERROR_CODES } from "@/i18n/errorCodes";
@@ -203,7 +203,7 @@ export default function Game(props) {
       gameSession = (
         <div className="flex w-full justify-center">
           <div className="lg:w-5/6 sm:w-11/12 sm:px-8 md:w-4/6 w-11/12 flex flex-col space-y-6 py-20">
-            <Final game={game} timer={timer} />
+            <FinalPage game={game} timer={timer} />
           </div>
         </div>
       );

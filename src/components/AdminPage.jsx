@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
-import Players from "@/components/Admin/players";
-import AdminSettings from "@/components/Admin/settings";
-import LanguageSwitcher from "@/components/language";
-import CSVLoader from "@/components/Admin/csv-loader";
+import Players from "@/components/Admin/Players";
+import AdminSettings from "@/components/Admin/Settings";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+import CSVLoader from "@/components/Admin/CSVLoader";
 import { Buffer } from "buffer";
 import { handleCsvFile, handleJsonFile } from "@/lib/utils";
 import { ERROR_CODES } from "@/i18n/errorCodes";
@@ -382,7 +382,7 @@ function isValidFileType(file, allowedTypes) {
   return mimePattern.test(file.type);
 }
 
-export default function Admin(props) {
+export default function AdminPage(props) {
   const { i18n, t } = useTranslation();
 
   const [pointsGivin, setPointsGivin] = useState({

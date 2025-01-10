@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
-import LanguageSwitcher from "@/components/language";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
 
 export default function CreateGame(props) {
