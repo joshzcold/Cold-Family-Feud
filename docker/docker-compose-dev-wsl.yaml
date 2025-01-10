@@ -3,10 +3,10 @@ services:
     image: ${docker_registry}/famf-web:dev
     network_mode: 'host'
     volumes:
-      - ../:/src
+      - ../:/app
       # for SWC compatibility
-      - /src/node_modules
-      - /src/.next
+      - /app/node_modules
+      - /app/.next
     environment:
       - HOST=0.0.0.0
     healthcheck:

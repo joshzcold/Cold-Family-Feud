@@ -4,7 +4,7 @@ set -e
 
 FAMF_STORE=${FAMF_STORE:-memory}
 
-cd /src
+cd /app
 
 npm run build
 ./Cold-Friendly-Feud --game_store "$FAMF_STORE" &

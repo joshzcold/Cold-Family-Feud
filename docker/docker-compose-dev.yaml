@@ -2,10 +2,10 @@ services:
   frontend:
     image: ${docker_registry}/famf-web:dev
     volumes:
-      - ../:/src
+      - ../:/app
       # for SWC compatibility
-      - /src/node_modules
-      - /src/.next
+      - /app/node_modules
+      - /app/.next
     ports:
       - 3000:3000
     healthcheck:
