@@ -1,7 +1,7 @@
 module.exports = {
   input: [
-    "./components/**/*.js",
-    "./pages/**/*.js",
+    "./src/components/**/*.jsx",
+    "./src/pages/**/*.jsx",
     // Use ! to filter out files or directories
     "!locales/**",
     "!**/node_modules/**",
@@ -14,7 +14,7 @@ module.exports = {
     },
     trans: false,
     plural: false,
-    lngs: ["en", "es", "et", "id","fr"],
+    lngs: ["en", "es", "et", "id", "fr"],
     ns: ["translation"],
     defaultNs: "translation",
     defaultValue: "__STRING_NOT_TRANSLATED__",
