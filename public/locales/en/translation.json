@@ -112,8 +112,6 @@
   "email": "email",
   "source code": "source code",
   "Question": "Question",
-  "Join at": "Join at",
-  "Room Code": "Room Code",
   "First Buzzer": "First Buzzer",
   "Select question set": "Select question set",
   "Join at": "Join at",
@@ -130,6 +128,7 @@
   "First Press Only": "First Press Only",
   "You have been blindfolded...": "You have been blindfolded...",
   "Reset Mistakes": "Reset Mistakes",
+  "Version": "Version",
   "errors": {
     "room_not_found": "Room not found",
     "host_quit": "Host quit the game",
