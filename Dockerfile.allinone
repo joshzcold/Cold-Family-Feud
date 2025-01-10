@@ -5,7 +5,7 @@ RUN apk add --no-cache libc6-compat
 FROM base AS front-end-builder
 WORKDIR /app
 COPY package-lock.json package.json /app/
-RUN npm install --legacy-peer-deps
+RUN npm install
 
 FROM golang:1.23.3-alpine AS back-end-builder
 ENV CGO_ENABLED 1

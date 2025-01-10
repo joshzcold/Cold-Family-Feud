@@ -6,7 +6,7 @@ FROM base AS builder
 
 COPY package-lock.json package.json /app/
 WORKDIR /app
-RUN npm install --legacy-peer-deps
+RUN npm install
 
 FROM base AS dev
 RUN apk add curl
