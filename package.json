@@ -10,6 +10,7 @@
     "axios": "^1.7.9",
     "bson": "^5.3.0",
     "cookie-cutter": "^0.2.0",
+    "eslint": "^8.57.1",
     "eslint-config-next": "^13.5.8",
     "express": "^4.21.2",
     "glob": "^7.1.7",
@@ -30,16 +31,23 @@
     "ws": "^7.4.1"
   },
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production next start",
-    "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production next start",
+    "start_local": "NODE_ENV=local next start",
     "start_windows": "set NODE_ENV=local && next start",
     "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js"
   },
   "devDependencies": {
+    "@types/react": "19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "i18next-scanner": "^3.0.0",
     "nodemon": "^2.0.22",
-    "tailwindcss-themer": "^3.1.0"
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss-themer": "^3.1.0",
+    "typescript": "^5"
   }
 }
