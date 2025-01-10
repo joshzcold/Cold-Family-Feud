@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useTheme } from 'next-themes';
-import TitleLogo from "../components/title-logo";
-import LanguageSwitcher from "../components/language";
+import TitleLogo from "@/components/title-logo";
+import LanguageSwitcher from "@/components/language";
 import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
-import { ERROR_CODES } from "i18n/errorCodes";
-import ThemeSwitcher from "./Admin/ThemeSwitcher";
+import "@/i18n/i18n";
+import { ERROR_CODES } from "@/i18n/errorCodes";
+import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
 
 export default function Login(props) {
   const { t } = useTranslation();

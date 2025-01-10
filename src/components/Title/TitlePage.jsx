@@ -1,9 +1,8 @@
-import 'tailwindcss/tailwind.css';
-import TitleLogo from '../title-logo';
+import TitleLogo from '@/components/title-logo';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import Team from './Team';
-import RoomCode from './RoomCode';
+import Team from '@/components/Title/Team';
+import RoomCode from '@/components/Title/RoomCode';
 import Image from 'next/image';
 
 export default function TitlePage(props) {

@@ -1,8 +1,7 @@
 import { useTranslation } from "react-i18next";
-import "i18n/i18n";
-import "tailwindcss/tailwind.css";
+import "@/i18n/i18n";
 import { useState, useEffect, useRef } from "react";
-import { ERROR_CODES } from "i18n/errorCodes";
+import { ERROR_CODES } from "@/i18n/errorCodes";
 
 export function csvStringToArray(data) {
   const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;

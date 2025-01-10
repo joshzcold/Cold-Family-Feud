@@ -1,8 +1,7 @@
 import { useTranslation } from "react-i18next";
-import "i18n/i18n";
-import "tailwindcss/tailwind.css";
-import ThemeSwitcher from "./ThemeSwitcher";
-import InfoTooltip from "../ui/tooltip";
+import "@/i18n/i18n";
+import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
+import InfoTooltip from "@/components/ui/tooltip";
 
 function debounce(callback, wait = 400) {
     let timeout;

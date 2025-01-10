@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import "i18n/i18n";
+import "@/i18n/i18n";
 import { Coffee, Mail } from "lucide-react";
 import Link from "next/link";
 

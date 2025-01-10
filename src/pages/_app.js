@@ -1,5 +1,5 @@
 import '../global.css'
-import ThemeProvider from '../components/ThemeProvider'
+import ThemeProvider from '@/components/ThemeProvider'
 import Head from 'next/head'
 import Script from 'next/script'
 

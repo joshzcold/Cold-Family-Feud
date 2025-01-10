@@ -1,14 +1,13 @@
 import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import TitlePage from "components/Title/TitlePage.jsx";
-import Round from "components/round";
-import TeamName from "components/team-name.js";
-import QuestionBoard from "components/question-board.js";
-import Final from "components/final";
-import "tailwindcss/tailwind.css";
+import TitlePage from "@/components/Title/TitlePage.jsx";
+import Round from "@/components/round";
+import TeamName from "@/components/team-name.js";
+import QuestionBoard from "@/components/question-board.js";
+import Final from "@/components/final";
 import cookieCutter from "cookie-cutter";
-import BuzzerPopup from "components/BuzzerPopup";
-import { ERROR_CODES } from "i18n/errorCodes";
+import BuzzerPopup from "@/components/BuzzerPopup";
+import { ERROR_CODES } from "@/i18n/errorCodes";
 import Image from "next/image";
 
 let timerInterval = null;

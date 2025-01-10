@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
-import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
-import Players from "./Admin/players";
-import AdminSettings from "./Admin/settings";
-import LanguageSwitcher from "./language";
-import CSVLoader from "./Admin/csv-loader";
+import "@/i18n/i18n";
+import Players from "@/components/Admin/players";
+import AdminSettings from "@/components/Admin/settings";
+import LanguageSwitcher from "@/components/language";
+import CSVLoader from "@/components/Admin/csv-loader";
 import { Buffer } from "buffer";
-import { handleCsvFile, handleJsonFile } from "utils/files";
-import { ERROR_CODES } from "i18n/errorCodes";
-import BuzzerTable from "./BuzzerTable";
+import { handleCsvFile, handleJsonFile } from "@/lib/utils";
+import { ERROR_CODES } from "@/i18n/errorCodes";
+import BuzzerTable from "@/components/BuzzerTable";
 import Image from "next/image";
 import Link from "next/link";
 
