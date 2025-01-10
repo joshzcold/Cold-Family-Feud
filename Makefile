@@ -62,27 +62,27 @@ dev-down:
 	docker compose -p famf -f ./docker/${COMPOSE_FILE} down
 
 e2e: dev-background
-	npm install
+	npm install --legacy-peer-deps
 	cd e2e
-	npm install
+	npm install --legacy-peer-deps
 	npx playwright test
 	cd -
 	$(MAKE) dev-down
 
 e2e-ui: dev-background
-	npm install
+	npm install --legacy-peer-deps
 	cd e2e	
-	npm install
+	npm install --legacy-peer-deps
 	npx playwright test --ui
 	cd -
 	$(MAKE) dev-down
 
 e2e-prod:
 	cd e2e
-	npm install
+	npm install --legacy-peer-deps
 	npx playwright test --ui --config playwright-prod.config.js
 
 e2e-dev:
 	cd e2e
-	npm install
+	npm install --legacy-peer-deps
 	npx playwright test --ui --config playwright-dev.config.js
