@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 
 	"github.com/joshzcold/Cold-Friendly-Feud/api"
 )
@@ -13,11 +14,17 @@ import (
 var cfg = struct {
 	addr  string
 	store string
-}{}
+	roomTimeoutSeconds int64
+}{
+	addr: ":8080",
+	store: "memory",
+	roomTimeoutSeconds: 86400,
+}
 
 func flags() {
-	flag.StringVar(&cfg.addr, "listen_address", ":8080", "Address for server to bind to.")
-	flag.StringVar(&cfg.store, "game_store", "memory", "Choice of storage medium of the game")
+	flag.StringVar(&cfg.addr, "listen_address", cfg.addr, "Address for server to bind to.")
+	flag.StringVar(&cfg.store, "game_store", cfg.store, "Choice of storage medium of the game")
+	flag.Int64Var(&cfg.roomTimeoutSeconds, "room_timeout_seconds", cfg.roomTimeoutSeconds, "Seconds before inactive rooms are cleaned up")
 	flag.Parse()
 
 	if envAddr := os.Getenv("LISTEN_ADDRESS"); envAddr != "" {
@@ -27,10 +34,17 @@ func flags() {
 	if envGameStore := os.Getenv("GAME_STORE"); envGameStore != "" {
 		cfg.store = envGameStore
 	}
+
+	if envTimeout := os.Getenv("ROOM_TIMEOUT_SECONDS"); envTimeout != "" {
+		if timeout, err := strconv.ParseInt(envTimeout, 10, 64); err == nil {
+			cfg.roomTimeoutSeconds = timeout
+		}
+	}
 }
 
 func main() {
 	flags()
+	api.SetConfig(cfg.roomTimeoutSeconds)
 	err := api.NewGameStore(cfg.store)
 	if err != nil {
 		log.Panicf("Error: unable initalize store: %s", err)
@@ -59,7 +73,7 @@ func main() {
 		api.FetchLogo(httpWriter, roomCode)
 	})
 	log.Printf("Server listening on %s", cfg.addr)
-	err = http.ListenAndServe(*&cfg.addr, nil)
+	err = http.ListenAndServe(cfg.addr, nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
