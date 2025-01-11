@@ -1,21 +1,20 @@
 import { useState, useEffect, useRef } from 'react';
-import TitleLogo from './title-logo';
-import 'tailwindcss/tailwind.css';
+import TitleLogo from '@/components/TitleLogo';
 import { useTranslation } from 'react-i18next';
-import '../i18n/i18n';
+import '@/i18n/i18n';
 import cookieCutter from 'cookie-cutter';
-import Round from './round';
-import QuestionBoard from './question-board.js';
-import TeamName from './team-name.js';
-import Final from './final';
-import { ERROR_CODES } from 'i18n/errorCodes';
+import Round from '@/components/Round';
+import QuestionBoard from '@/components/QuestionBoard';
+import TeamName from '@/components/TeamName';
+import FinalPage from '@/components/FinalPage';
+import { ERROR_CODES } from '@/i18n/errorCodes';
 import { EyeOff } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 let timerInterval = null;
 
-export default function Buzzer(props) {
+export default function BuzzerPage(props) {
   const { i18n, t } = useTranslation();
   const [buzzed, setBuzzed] = useState(false);
   const [error, setErrorVal] = useState('');
@@ -230,7 +229,7 @@ export default function Buzzer(props) {
               <>
                 {game.is_final_round ? (
                   <div>
-                    <Final game={game} timer={timer} />
+                    <FinalPage game={game} timer={timer} />
                   </div>
                 ) : (
                   <div>

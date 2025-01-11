@@ -1,6 +1,5 @@
-import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
+import "@/i18n/i18n";
 
 function RoundPointTally(props) {
   const { t } = useTranslation();

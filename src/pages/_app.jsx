@@ -1,5 +1,5 @@
-import 'styles.css'
-import ThemeProvider from '../components/ThemeProvider'
+import '../global.css'
+import ThemeProvider from '@/components/ThemeProvider'
 import Head from 'next/head'
 import Script from 'next/script'
 
@@ -32,6 +32,7 @@ export default function MyApp({ Component, pageProps }) {
         {/* Prevent unloaded theme on page refresh causing white flash if dark theme */}
       </Head>
       <Script
+      id='theme-loader'
         dangerouslySetInnerHTML={{
           __html: `
           var theme = localStorage.getItem('theme') || 'default'

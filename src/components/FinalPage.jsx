@@ -1,6 +1,5 @@
-import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
-import "../i18n/i18n";
+import "@/i18n/i18n";
 
 function Answers(props) {
   const { t } = useTranslation();
@@ -45,7 +44,7 @@ function Answers(props) {
   ));
 }
 
-export default function Final(props) {
+export default function FinalPage(props) {
   const { t } = useTranslation();
   let total = 0;
 

@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import "i18n/i18n";
+import "@/i18n/i18n";
 import { Coffee, Mail } from "lucide-react";
 import Link from "next/link";
-import Version from "components/Title/Version";
+import Version from "@/components/Title/Version";
 
 const Donate = () => {
   const { t } = useTranslation();

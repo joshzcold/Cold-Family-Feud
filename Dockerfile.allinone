@@ -3,8 +3,8 @@ FROM node:20-alpine AS base
 RUN apk add --no-cache libc6-compat
 
 FROM base AS front-end-builder
-WORKDIR /src
-COPY package-lock.json package.json /src/
+WORKDIR /app
+COPY package-lock.json package.json /app/
 RUN npm install
 
 FROM golang:1.23.3-alpine AS back-end-builder
@@ -16,14 +16,14 @@ RUN go build .
 
 FROM base AS app
 RUN apk add nginx bash
-WORKDIR /src
+WORKDIR /app
 COPY --chmod=755 docker/allinone/start.sh /start.sh
-COPY ./games/ /src/games/
-COPY --from=back-end-builder /src/Cold-Friendly-Feud /src/Cold-Friendly-Feud
-COPY --from=front-end-builder /src/node_modules/ /src/node_modules/
+COPY ./games/ /app/games/
+COPY --from=back-end-builder /src/Cold-Friendly-Feud /app/Cold-Friendly-Feud
+COPY --from=front-end-builder /app/node_modules/ /app/node_modules/
 COPY docker/allinone/nginx.conf /etc/nginx/nginx.conf
 COPY dev/cert/ /etc/nginx/cert/
-COPY . /src/
+COPY . /app/
 RUN npm run build
 
 CMD ["/start.sh"]

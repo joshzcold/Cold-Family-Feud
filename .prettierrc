@@ -4,10 +4,11 @@
     "tabWidth": 2, 
     "trailingComma": "es5", 
     "semi": true, 
-    "singleQuote": true,
+    "singleQuote": false,
     "bracketSpacing": true,
     "arrowParens": "always", 
     "jsxSingleQuote": false, 
     "bracketSameLine": false, 
-    "endOfLine": "lf"
+    "endOfLine": "lf",
+    "plugins": ["prettier-plugin-tailwindcss", "@ianvs/prettier-plugin-sort-imports"]
 }

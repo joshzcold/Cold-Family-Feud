@@ -1,21 +1,22 @@
 # Ignore everything
 *
 # Allow list
-!components/
+!src/components/
 !games/
 !i18n/
-!pages/
-!public/
+!src/pages/
+!src/public/
 !jsconfig.json
+!tsconfig.json
 !LICENSE
 !next.config.js
 !package-lock.json
 !package.json
 !postcss.config.js
-!styles.css
+!src/global.css
 !tailwind.config.js
 !backend/server.js
 !backend/load-game.js
-!utils/
+!src/lib/
 !.env
 !docker/frontend-start.sh
