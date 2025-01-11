@@ -12,12 +12,12 @@ import (
 )
 
 var cfg = struct {
-	addr  string
-	store string
+	addr               string
+	store              string
 	roomTimeoutSeconds int64
 }{
-	addr: ":8080",
-	store: "memory",
+	addr:               ":8080",
+	store:              "memory",
 	roomTimeoutSeconds: 86400,
 }
 

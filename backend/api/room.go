@@ -73,9 +73,9 @@ func (r *room) gameTimeout() error {
 	for {
 		select {
 		case <-ticker.C:
-            timeout := time.Duration(cfg.roomTimeoutSeconds) * time.Second
-            timeoutAgo := time.Now().UTC().Add(-timeout).UnixMilli()
-            if r.Game.Tick > 0 && r.Game.Tick < timeoutAgo {
+			timeout := time.Duration(cfg.roomTimeoutSeconds) * time.Second
+			timeoutAgo := time.Now().UTC().Add(-timeout).UnixMilli()
+			if r.Game.Tick > 0 && r.Game.Tick < timeoutAgo {
 				log.Println("clearing room, no activity for", cfg.roomTimeoutSeconds, "seconds:", r.Game.Room)
 				message, err := NewSendQuit()
 				if err != nil {
@@ -92,7 +92,7 @@ func (r *room) gameTimeout() error {
 				return nil
 			}
 		// If host quits, remove loop
-		case <- r.cleanup:
+		case <-r.cleanup:
 			return nil
 		}
 	}
