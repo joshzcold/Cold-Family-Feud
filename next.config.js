@@ -1,10 +1,11 @@
 /** @type {import("next").NextConfig} */
-module.exports = {
-  webpack(config) {
-    config.experiments = { ...config.experiments, topLevelAwait: true };
-    return config;
-  },
-  compiler: {
-    removeConsole: process.env.NODE_ENV === "production",
-  },
-};
+const nextConfig = {};
+
+// https://github.com/vercel/next.js/discussions/57555
+if (process.env.NODE_ENV === 'production') {
+  nextConfig.compiler = {
+    removeConsole: true
+  };
+}
+
+module.exports = nextConfig;
