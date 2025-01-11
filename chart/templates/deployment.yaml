@@ -4,6 +4,7 @@ metadata:
   name: frontend-dot-env
 data:
   .env: |
+    NEXT_PUBLIC_APP_VERSION={{ .Values.frontend.tag | default .Chart.AppVersion }}
     {{- range $val := .Values.frontend.env }}
     {{ $val.name }}={{ $val.value | quote }}
     {{- end }}
