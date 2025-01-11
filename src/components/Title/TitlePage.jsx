@@ -1,13 +1,13 @@
-import TitleLogo from '@/components/TitleLogo';
-import { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
-import Team from '@/components/Title/Team';
-import RoomCode from '@/components/Title/RoomCode';
-import Image from 'next/image';
+import RoomCode from "@/components/Title/RoomCode";
+import Team from "@/components/Title/Team";
+import TitleLogo from "@/components/TitleLogo";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function TitlePage(props) {
   const { i18n, t } = useTranslation();
-  const [titleSize, setTitleSize] = useState('10%');
+  const [titleSize, setTitleSize] = useState("10%");
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,21 +19,21 @@ export default function TitlePage(props) {
             (window.innerWidth < 640
               ? 0.8
               : window.innerWidth < 1024
-              ? 0.8
-              : window.innerWidth < 1280
-              ? 0.7
-              : window.innerWidth < 1536
-              ? 0.75
-              : 0.75)
+                ? 0.8
+                : window.innerWidth < 1280
+                  ? 0.7
+                  : window.innerWidth < 1536
+                    ? 0.75
+                    : 0.75)
         );
       }
     };
 
     handleResize();
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, [props.game.settings.logo_url]);
 
@@ -51,21 +51,21 @@ export default function TitlePage(props) {
   }
 
   return (
-    <div className="bg-gradient-to-t items-center justify-center from-primary-900 flex flex-col via-primary-200 to-primary-900 min-h-screen min-w-screen py-5">
+    <div className="min-w-screen flex min-h-screen flex-col items-center justify-center bg-gradient-to-t from-primary-900 via-primary-200 to-primary-900 py-5">
       {/* Logo Section */}
       <div
         style={{
           width: titleSize,
-          transition: 'width 2s',
+          transition: "width 2s",
         }}
-        className="align-middle inline-block"
+        className="inline-block align-middle"
       >
-        <div className="flex justify-center w-full ">
+        <div className="flex w-full justify-center ">
           {props.game.settings.logo_url ? (
             <Image
               width={300}
               height={300}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
               src={`${props.game.settings.logo_url}?v=${Date.now()}`}
               alt="Game logo"
               priority // Load image immediately
@@ -78,10 +78,10 @@ export default function TitlePage(props) {
       </div>
 
       <div
-        className="grid grid-cols-3 gap-4 h-[200px] 2xl:h-[250px]"
+        className="grid h-[200px] grid-cols-3 gap-4 2xl:h-[250px]"
         style={{
           width: titleSize,
-          transition: 'width 2s',
+          transition: "width 2s",
         }}
       >
         <Team team={props.game.teams[0].name} players={returnTeamMates(0)} />

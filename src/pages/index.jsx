@@ -1,13 +1,13 @@
-import { useState, useEffect, useRef } from "react";
 import Head from "next/head";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import AdminPage from "@/components/AdminPage";
 import BuzzerPage from "@/components/BuzzerPage";
+import Footer from "@/components/Login/Footer";
 import LoginPage from "@/components/LoginPage";
-import Footer from "@/components/Login/Footer"
-import cookieCutter from "cookie-cutter";
 import { ERROR_CODES } from "@/i18n/errorCodes";
+import cookieCutter from "cookie-cutter";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -40,15 +40,15 @@ export default function Home() {
         host: host,
         id: playerID,
         room: registeredRoomCode,
-      }),
+      })
     );
   }
 
   function startWsConnection(ws) {
     ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-    ws.current.onopen = function() {
+    ws.current.onopen = function () {
       console.debug("game connected to server", ws.current);
-      ws.current.onmessage = function(evt) {
+      ws.current.onmessage = function (evt) {
         var received_msg = evt.data;
         let json = JSON.parse(received_msg);
         if (json.action === "host_room") {
@@ -88,20 +88,20 @@ export default function Home() {
           console.error(json);
           setError(t(json.code, { message: json.message }));
         } else if (json.action === "ping") {
-          console.debug('index.js: ping')
+          console.debug("index.js: ping");
         } else {
           console.debug("did not expect in index.js: ", json);
         }
       };
 
-      ws.current.onerror = function(e) {
+      ws.current.onerror = function (e) {
         console.error(e);
       };
     };
   }
 
   function waitForSocketConnection(socket, callback, tries = 0) {
-    setTimeout(function() {
+    setTimeout(function () {
       if (socket.readyState === 1) {
         if (callback != null) {
           callback();
@@ -129,7 +129,7 @@ export default function Home() {
     if (ws.current?.readyState !== 1 || !ws.current) {
       console.debug("connecting to server... new connection");
       startWsConnection(ws);
-      waitForSocketConnection(ws.current, function() {
+      waitForSocketConnection(ws.current, function () {
         ws.current.send(message);
       });
     } else {
@@ -155,7 +155,7 @@ export default function Home() {
     send(
       JSON.stringify({
         action: "host_room",
-      }),
+      })
     );
   }
 
@@ -176,7 +176,7 @@ export default function Home() {
             action: "join_room",
             room: roomcode.toUpperCase(),
             name: playername,
-          }),
+          })
         );
       } else {
         setError(t(ERROR_CODES.MISSING_INPUT, { message: t("name") }));
@@ -190,8 +190,8 @@ export default function Home() {
   function getPage() {
     if (registeredRoomCode !== null && host && game != null) {
       return (
-        <div className="lg:flex lg:flex-row lg:justify-center w-full">
-          <div className="lg:w-3/4 sm:w-full md:w-full">
+        <div className="w-full lg:flex lg:flex-row lg:justify-center">
+          <div className="sm:w-full md:w-full lg:w-3/4">
             <AdminPage
               ws={ws}
               game={game}
@@ -206,7 +206,7 @@ export default function Home() {
     } else if (registeredRoomCode !== null && !host && game != null) {
       return (
         <div className="flex w-full justify-center">
-          <div className="lg:w-1/2 sm:w-10/12 md:w-3/4 w-11/12 flex flex-col space-y-3 pt-5">
+          <div className="flex w-11/12 flex-col space-y-3 pt-5 sm:w-10/12 md:w-3/4 lg:w-1/2">
             <BuzzerPage
               ws={ws}
               game={game}
@@ -222,8 +222,8 @@ export default function Home() {
       );
     } else {
       return (
-        <div className="flex w-full justify-center relative min-h-screen">
-          <div className="lg:w-1/2 w-full sm:px-4 lg:px-6 md:px-8 flex flex-col">
+        <div className="relative flex min-h-screen w-full justify-center">
+          <div className="flex w-full flex-col sm:px-4 md:px-8 lg:w-1/2 lg:px-6">
             <LoginPage
               setRoomCode={setRoomCode}
               roomCode={roomCode}

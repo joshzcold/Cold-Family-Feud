@@ -12,7 +12,7 @@ function Answers(props) {
       }}
     >
       <div
-        className="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
+        className="shrink grow items-center rounded bg-fastm-holder p-5 text-center  font-extrabold uppercase"
         style={{ minHeight: 70, minWidth: 0 }}
       >
         {x.revealed && (
@@ -30,12 +30,9 @@ function Answers(props) {
           </p>
         )}
       </div>
-      <div className="bg-fastm-holder w-16 font-extrabold uppercase flex justify-center items-center rounded">
+      <div className="flex w-16 items-center justify-center rounded bg-fastm-holder font-extrabold uppercase">
         {x.revealed && (
-          <p
-            id={`finalRound${props.finalRoundNumber}PointsTotalText`}
-            className="text-2xl"
-          >
+          <p id={`finalRound${props.finalRoundNumber}PointsTotalText`} className="text-2xl">
             {t("number", { count: x.points })}
           </p>
         )}
@@ -58,40 +55,34 @@ export default function FinalPage(props) {
   });
   return (
     <div>
-      <div className="text-center my-10">
+      <div className="my-10 text-center">
         <p id="finalRoundTitle" className="text-3xl text-foreground">
           {props.game.settings.final_round_title || t("Fast Money")}
         </p>
       </div>
-      <div className="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text">
+      <div className="grid gap-3 rounded-3xl border-8 border-fastm-holder bg-fastm-background p-5 text-fastm-text lg:grid-flow-col">
         {!props.game.hide_first_round && (
-          <div className="grid lg:grid-flow-row gap-3">
+          <div className="grid gap-3 lg:grid-flow-row">
             <Answers finalRoundNumber={1} round={props.game.final_round} />
           </div>
         )}
-        <div className="border-warning-500 border-4 rounded-3xl bg-warning-500 lg:hidden" />
+        <div className="rounded-3xl border-4 border-warning-500 bg-warning-500 lg:hidden" />
         {props.game.is_final_second && (
-          <div className="grid lg:grid-flow-row gap-3">
+          <div className="grid gap-3 lg:grid-flow-row">
             <Answers finalRoundNumber={2} round={props.game.final_round_2} />
           </div>
         )}
       </div>
-      <div className="my-3 flex flex-row justify-evenly items-center align-middle">
+      <div className="my-3 flex flex-row items-center justify-evenly align-middle">
         {/* Timer */}
-        <div className="bg-fastm-holder inline-block p-2 rounded">
-          <p
-            id="finalRoundTimerText"
-            className="font-bold uppercase text-3xl text-fastm-text"
-          >
+        <div className="inline-block rounded bg-fastm-holder p-2">
+          <p id="finalRoundTimerText" className="text-3xl font-bold uppercase text-fastm-text">
             {t("timer")} &nbsp;&nbsp;{t("number", { count: props.timer })}
           </p>
         </div>
         {/* Total */}
-        <div className="bg-fastm-holder inline-block p-2 rounded">
-          <p
-            id="finalRoundTotalPointsText"
-            className="font-bold uppercase text-3xl text-fastm-text"
-          >
+        <div className="inline-block rounded bg-fastm-holder p-2">
+          <p id="finalRoundTotalPointsText" className="text-3xl font-bold uppercase text-fastm-text">
             {t("total")} &nbsp;&nbsp;{t("number", { count: total })}
           </p>
         </div>

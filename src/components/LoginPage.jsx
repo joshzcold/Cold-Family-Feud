@@ -1,19 +1,19 @@
-import { useState } from "react";
-import { useTheme } from 'next-themes';
-import TitleLogo from "@/components/TitleLogo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import TitleLogo from "@/components/TitleLogo";
+import { useTheme } from "next-themes";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
-import { ERROR_CODES } from "@/i18n/errorCodes";
 import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
+import { ERROR_CODES } from "@/i18n/errorCodes";
 
 export default function LoginPage(props) {
   const { t } = useTranslation();
   const { theme } = useTheme();
-  const [playerName, setPlayerName] = useState('');
-  const [roomCode, setRoomCode] = useState('');
+  const [playerName, setPlayerName] = useState("");
+  const [roomCode, setRoomCode] = useState("");
   const [error, setErrorVal] = useState("");
-  const [game, setGame] = useState({ settings: { theme: theme || 'default' } });
+  const [game, setGame] = useState({ settings: { theme: theme || "default" } });
 
   function setError(e) {
     setErrorVal(e);
@@ -26,12 +26,12 @@ export default function LoginPage(props) {
   const isValidPlayerName = (name) => name.length > 0 && name.length <= 12;
 
   const handlePlay = () => {
-    if(!isValidPlayerName(playerName)) {
-      setError(t(ERROR_CODES.MISSING_INPUT, {message: t("name")}));
+    if (!isValidPlayerName(playerName)) {
+      setError(t(ERROR_CODES.MISSING_INPUT, { message: t("name") }));
       return;
     }
 
-    if(!isValidRoomCode(roomCode)) {
+    if (!isValidRoomCode(roomCode)) {
       setError(t("room code is not correct length, should be 4 characters"));
       return;
     }
@@ -39,23 +39,23 @@ export default function LoginPage(props) {
     props.setRoomCode(roomCode);
     props.setPlayerName(playerName);
     props.joinRoom();
-  }
+  };
 
   const displayError = props.error || error;
 
   return (
-    <div className={`min-h-screen w-full flex flex-col space-y-10 p-5 bg-background`}>
-      <div className="w-full flex justify-between flex-col sm:flex-row gap-2">
+    <div className={`flex min-h-screen w-full flex-col space-y-10 bg-background p-5`}>
+      <div className="flex w-full flex-col justify-between gap-2 sm:flex-row">
         <LanguageSwitcher />
         <ThemeSwitcher game={game} setGame={setGame} send={() => {}} />
       </div>
       <TitleLogo insert="" />
       <div className="flex flex-col">
-        <div className="flex flex-row justify-between text-1xl px-2">
+        <div className="text-1xl flex flex-row justify-between px-2">
           <p className="uppercase text-foreground">{t("room code")}</p>
         </div>
         <input
-          className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase bg-secondary-300 text-foreground"
+          className="border-secondary-600 rounded-2xl border-4 bg-secondary-300 p-2 text-2xl uppercase text-foreground"
           id="roomCodeInput"
           onChange={(e) => setRoomCode(e.target.value)}
           maxLength={4}
@@ -65,12 +65,12 @@ export default function LoginPage(props) {
       </div>
 
       <div className="flex flex-col">
-        <div className="flex flex-row justify-between text-1xl px-2">
+        <div className="text-1xl flex flex-row justify-between px-2">
           <p className="text-foreground">{t("name")}</p>
           <p className="text-foreground">{12 - playerName.length}</p>
         </div>
         <input
-          className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase bg-secondary-300 text-foreground"
+          className="border-secondary-600 rounded-2xl border-4 bg-secondary-300 p-2 text-2xl uppercase text-foreground"
           id="playerNameInput"
           maxLength={12}
           value={playerName}
@@ -81,14 +81,14 @@ export default function LoginPage(props) {
       <div className="flex flex-row items-center space-x-5">
         <button
           id="joinRoomButton"
-          className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase text-foreground"
+          className="w-2/3 grow rounded-md bg-success-300 p-4 text-2xl uppercase text-foreground shadow-md"
           onClick={handlePlay}
         >
-          <div className="flex-grow">{t("play")}</div>
+          <div className="grow">{t("play")}</div>
         </button>
         <button
           id="hostRoomButton"
-          className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase text-foreground"
+          className="rounded-md bg-secondary-300 p-4 text-2xl uppercase text-foreground shadow-md"
           onClick={() => {
             props.hostRoom();
           }}
@@ -98,9 +98,7 @@ export default function LoginPage(props) {
       </div>
       {displayError !== "" ? (
         <p id="errorText" className="text-2xl text-failure-700">
-          {displayError.code 
-            ? t(displayError.code, { message: displayError.message }) 
-            : t(displayError)}
+          {displayError.code ? t(displayError.code, { message: displayError.message }) : t(displayError)}
         </p>
       ) : null}
     </div>

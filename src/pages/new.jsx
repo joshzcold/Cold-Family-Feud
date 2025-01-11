@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
 import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function CreateGame(props) {
   const { t } = useTranslation();
@@ -45,15 +45,15 @@ export default function CreateGame(props) {
   if (typeof window !== "undefined") {
     document.body.className = game?.settings?.theme + " bg-background";
     // Prevent losing changes
-    window.onbeforeunload = function() {
+    window.onbeforeunload = function () {
       return "";
     };
   }
   return (
-    <div className={`${theme?.settings?.theme} bg-background min-h-screen`}>
+    <div className={`${theme?.settings?.theme} min-h-screen bg-background`}>
       <div className="p-5">
-        <div className="py-10 flex-col space-y-5">
-          <div className="flex flex-row space-x-5 items-center">
+        <div className="flex-col space-y-5 py-10">
+          <div className="flex flex-row items-center space-x-5">
             <p className="text-foreground">{t("language")}:</p>
             <LanguageSwitcher />
             <ThemeSwitcher
@@ -63,42 +63,30 @@ export default function CreateGame(props) {
                 console.debug("send from new");
               }}
             />
-            <div className="flex flex-col border-2  rounded-lg">
-              <div className="p-2 ml-4 items-center transform translate-y-3">
-                <input
-                  type="file"
-                  className=" bg-secondary-300 text-foreground"
-                  id="gamePicker"
-                  accept=".json"
-                />
+            <div className="flex flex-col rounded-lg  border-2">
+              <div className="ml-4 translate-y-3 items-center p-2">
+                <input type="file" className=" bg-secondary-300 text-foreground" id="gamePicker" accept=".json" />
                 <button
                   id="gamePickerSubmitButton"
-                  className="hover:shadow-md rounded-md p-2 bg-primary-200"
+                  className="rounded-md bg-primary-200 p-2 hover:shadow-md"
                   onClick={() => {
                     var file = document.getElementById("gamePicker").files[0];
                     if (file) {
                       var reader = new FileReader();
                       reader.readAsText(file, "utf-8");
-                      reader.onload = function(evt) {
+                      reader.onload = function (evt) {
                         let data = JSON.parse(evt.target.result);
                         console.debug(data);
 
-                        data.final_round == null
-                          ? (data.final_round = gameTemplate.final_round)
-                          : null;
-                        data.rounds == null
-                          ? (data.rounds = gameTemplate.rounds)
-                          : null;
+                        data.final_round == null ? (data.final_round = gameTemplate.final_round) : null;
+                        data.rounds == null ? (data.rounds = gameTemplate.rounds) : null;
                         data.final_round_timers == null
-                          ? (data.final_round_timers =
-                            gameTemplate.final_round_timers)
+                          ? (data.final_round_timers = gameTemplate.final_round_timers)
                           : null;
-                        data.settings == null
-                          ? (data.settings = gameTemplate.settings)
-                          : null;
+                        data.settings == null ? (data.settings = gameTemplate.settings) : null;
                         setGame(data);
                       };
-                      reader.onerror = function(evt) {
+                      reader.onerror = function (evt) {
                         console.error("error reading file");
                       };
                     }
@@ -108,21 +96,21 @@ export default function CreateGame(props) {
                 </button>
               </div>
               <div className="flex flex-row">
-                <span className="translate-x-3 px-2 text-foreground flex-shrink inline translate-y-3 transform bg-background ">
+                <span className="inline shrink translate-x-3 translate-y-3 bg-background px-2 text-foreground">
                   {t("Edit Existing Game")}
                 </span>
-                <div className="flex-grow"></div>
+                <div className="grow"></div>
               </div>
             </div>
           </div>
           <p className="text-3xl text-foreground">{t("rounds")}</p>
-          <div className="border-2 p-3 flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3 border-2 p-3">
             {game.rounds.map((r, index) => (
-              <div key={`round-${index}`} className="border-2 p-3 flex flex-col space-y-3">
-                <div className="flex space-x-3 flex-row">
+              <div key={`round-${index}`} className="flex flex-col space-y-3 border-2 p-3">
+                <div className="flex flex-row space-x-3">
                   <input
                     id={`round${index}QuestionInput`}
-                    className="p-2 border-2 bg-secondary-300 text-foreground w-full"
+                    className="w-full border-2 bg-secondary-300 p-2 text-foreground"
                     value={r.question}
                     placeholder={t("question")}
                     onChange={(e) => {
@@ -134,7 +122,7 @@ export default function CreateGame(props) {
                     id={`round${index}QuestionMultiplierInput`}
                     type="number"
                     min="1"
-                    className="p-2 border-2 bg-secondary-300 text-foreground w-15"
+                    className="w-15 border-2 bg-secondary-300 p-2 text-foreground"
                     value={r.multiply}
                     placeholder={t("multiplier")}
                     onChange={(e) => {
@@ -147,12 +135,12 @@ export default function CreateGame(props) {
                     }}
                   />
                 </div>
-                <div className="p-2 border-2">
+                <div className="border-2 p-2">
                   {r.answers.map((a, ain) => (
                     <div className="flex flex-row space-x-3 pb-2" key={`round-${index}-answer-${ain}`}>
                       <input
                         id={`round${index}Answer${ain}NameInput`}
-                        className="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="border-2 bg-secondary-300 p-2 text-foreground"
                         value={a.ans}
                         placeholder={t("Answer")}
                         onChange={(e) => {
@@ -164,7 +152,7 @@ export default function CreateGame(props) {
                         id={`round${index}Answer${ain}PointsInput`}
                         type="number"
                         min="0"
-                        className="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="border-2 bg-secondary-300 p-2 text-foreground"
                         value={a.pnt}
                         placeholder={t("points")}
                         onChange={(e) => {
@@ -178,21 +166,21 @@ export default function CreateGame(props) {
                           r.answers.splice(ain, 1);
                           setGame((prv) => ({ ...prv }));
                         }}
-                        className="hover:shadow-md text-xl px-3 bg-failure-200"
+                        className="bg-failure-200 px-3 text-xl hover:shadow-md"
                       >
                         -
                       </button>
                     </div>
                   ))}
                 </div>
-                <div className="py-2 flex flex-row space-x-3">
+                <div className="flex flex-row space-x-3 py-2">
                   <button
                     id={`round${index}AnswerAddButton`}
                     onClick={() => {
                       r.answers.push({ ans: "", pnt: 0 });
                       setGame((prv) => ({ ...prv }));
                     }}
-                    className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                    className="text-md rounded-md bg-success-200 px-3 py-1 hover:shadow-md"
                   >
                     {t("Answer")} +
                   </button>
@@ -202,7 +190,7 @@ export default function CreateGame(props) {
                       game.rounds.splice(index, 1);
                       setGame((prv) => ({ ...prv }));
                     }}
-                    className="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
+                    className="text-md rounded-md bg-failure-200 px-3 py-1 hover:shadow-md"
                   >
                     {t("round")} -
                   </button>
@@ -220,7 +208,7 @@ export default function CreateGame(props) {
                   });
                   setGame((prv) => ({ ...prv }));
                 }}
-                className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                className="text-md rounded-md bg-success-200 px-3 py-1 hover:shadow-md"
               >
                 {t("round")} +
               </button>
@@ -228,8 +216,8 @@ export default function CreateGame(props) {
           </div>
         </div>
 
-        <div className="py-10 flex-col space-y-5">
-          <div className="flex flex-row space-x-10 items-end">
+        <div className="flex-col space-y-5 py-10">
+          <div className="flex flex-row items-end space-x-10">
             <p className="text-3xl text-foreground">{t("Fast Money")}</p>
             <div>
               <p id="finalRound1TimerText" className="text-secondary-900">
@@ -239,7 +227,7 @@ export default function CreateGame(props) {
                 id="finalRound1TimerInput"
                 type="number"
                 min="0"
-                className="p-2 border-2 bg-secondary-300 text-foreground"
+                className="border-2 bg-secondary-300 p-2 text-foreground"
                 value={game.final_round_timers[0]}
                 placeholder={`${t("timer")} ${t("number", { count: 1 })}`}
                 onChange={(e) => {
@@ -256,7 +244,7 @@ export default function CreateGame(props) {
                 id="finalRound2TimerInput"
                 type="number"
                 min="0"
-                className="p-2 border-2 bg-secondary-300 text-foreground"
+                className="border-2 bg-secondary-300 p-2 text-foreground"
                 value={game.final_round_timers[1]}
                 placeholder={`${t("timer")} ${t("number", { count: 2 })}`}
                 onChange={(e) => {
@@ -271,7 +259,7 @@ export default function CreateGame(props) {
               <div key={`final-round-${qin}`} className="flex flex-col space-y-2 pt-5">
                 <input
                   id={`finalRoundQuestion${qin}Input`}
-                  className="p-2 border-2 bg-secondary-300 text-foreground"
+                  className="border-2 bg-secondary-300 p-2 text-foreground"
                   value={q.question}
                   onChange={(e) => {
                     q.question = e.target.value;
@@ -283,7 +271,7 @@ export default function CreateGame(props) {
                     <div className="flex flex-row space-x-3 pb-2" key={`final-round-${qin}-answer-${ain}`}>
                       <input
                         id={`finalRoundQuestion${qin}Answer${ain}Input`}
-                        className="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="border-2 bg-secondary-300 p-2 text-foreground"
                         value={a[0]}
                         placeholder={t("Answer")}
                         onChange={(e) => {
@@ -295,7 +283,7 @@ export default function CreateGame(props) {
                         id={`finalRoundQuestion${qin}AnswerPoints${ain}Input`}
                         type="number"
                         min="0"
-                        className="p-2 border-2 bg-secondary-300 text-foreground"
+                        className="border-2 bg-secondary-300 p-2 text-foreground"
                         value={a[1]}
                         placeholder={t("points")}
                         onChange={(e) => {
@@ -309,7 +297,7 @@ export default function CreateGame(props) {
                           q.answers.splice(ain, 1);
                           setGame((prv) => ({ ...prv }));
                         }}
-                        className="hover:shadow-md text-xl px-3 bg-failure-200"
+                        className="bg-failure-200 px-3 text-xl hover:shadow-md"
                       >
                         -
                       </button>
@@ -321,7 +309,7 @@ export default function CreateGame(props) {
                       q.answers.push(["", ""]);
                       setGame((prv) => ({ ...prv }));
                     }}
-                    className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                    className="text-md rounded-md bg-success-200 px-3 py-1 hover:shadow-md"
                   >
                     {t("Answer")} +
                   </button>
@@ -332,7 +320,7 @@ export default function CreateGame(props) {
                         game.final_round.splice(qin, 1);
                         setGame((prv) => ({ ...prv }));
                       }}
-                      className="hover:shadow-md rounded-md bg-failure-200 px-3 py-1 text-md"
+                      className="text-md rounded-md bg-failure-200 px-3 py-1 hover:shadow-md"
                     >
                       {t("Question")} -
                     </button>
@@ -352,7 +340,7 @@ export default function CreateGame(props) {
                   });
                   setGame((prv) => ({ ...prv }));
                 }}
-                className="hover:shadow-md rounded-md bg-success-200 px-3 py-1 text-md"
+                className="text-md rounded-md bg-success-200 px-3 py-1 hover:shadow-md"
               >
                 {t("Question")} +
               </button>
@@ -361,60 +349,53 @@ export default function CreateGame(props) {
         </div>
 
         {error !== "" ? (
-          <div className="bg-failure-500 p-2 rounded-md">
-            <p className="text-white font-semibold uppercase">{t("error")}:</p>
-            <p id="errorText" className="text-white">{error}</p>
+          <div className="rounded-md bg-failure-500 p-2">
+            <p className="font-semibold uppercase text-white">{t("error")}:</p>
+            <p id="errorText" className="text-white">
+              {error}
+            </p>
           </div>
         ) : null}
 
         <div className="flex flex-row space-x-5 pt-5">
           <button
             id="newGameSubmitButton"
-            className="hover:shadow-md rounded-md bg-success-200 p-2 px-10"
+            className="rounded-md bg-success-200 p-2 px-10 hover:shadow-md"
             onClick={() => {
               // ERROR checking
               let error = [];
               if (game.rounds.length == 0) {
-                error.push(
-                  t("You need to create some rounds to save the game"),
-                );
+                error.push(t("You need to create some rounds to save the game"));
               }
               game.rounds.forEach((r, index) => {
                 if (r.question === "") {
                   error.push(
                     t("round number {{count, number}} has an empty question", {
                       count: index + 1,
-                    }),
+                    })
                   );
                 }
-                if (
-                  r.multiply === "" ||
-                  r.multiply === 0 ||
-                  isNaN(r.multiply)
-                ) {
+                if (r.multiply === "" || r.multiply === 0 || isNaN(r.multiply)) {
                   error.push(
                     t("round number {{count, number}} has no point multipler", {
                       count: index + 1,
-                    }),
+                    })
                   );
                 }
                 if (r.answers.length === 0) {
                   error.push(
                     t("round number {{count, number}} has no answers", {
                       count: index + 1,
-                    }),
+                    })
                   );
                 }
                 r.answers.forEach((a, aindex) => {
                   if (a.ans === "") {
                     error.push(
-                      t(
-                        "round item {{count, number}} has empty answer at answer number {{answernum, number}}",
-                        {
-                          count: index + 1,
-                          answernum: aindex + 1,
-                        },
-                      ),
+                      t("round item {{count, number}} has empty answer at answer number {{answernum, number}}", {
+                        count: index + 1,
+                        answernum: aindex + 1,
+                      })
                     );
                   }
                   if (a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)) {
@@ -425,8 +406,8 @@ export default function CreateGame(props) {
                           count: index + 1,
                           zero: 0,
                           answernum: aindex + 1,
-                        },
-                      ),
+                        }
+                      )
                     );
                   }
                 });
@@ -435,11 +416,7 @@ export default function CreateGame(props) {
               console.error(error);
               if (error.length === 0) {
                 setError("");
-                downloadToFile(
-                  JSON.stringify(game),
-                  `${t("new-cold-feud")}.json`,
-                  "text/json",
-                );
+                downloadToFile(JSON.stringify(game), `${t("new-cold-feud")}.json`, "text/json");
               } else {
                 setError(error.join(", "));
               }

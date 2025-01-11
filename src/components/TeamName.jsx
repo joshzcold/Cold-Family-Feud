@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TeamName(props) {
   return (
     <div
-      className="text-3xl flex flex-col text-center space-y-2"
+      className="flex flex-col space-y-2 text-center text-3xl"
       style={{
         minWidth: 0,
       }}
@@ -24,15 +24,10 @@ export default function TeamName(props) {
           {props.game.teams[props.team].name}
         </p>
       </div>
-      <div id={`team${props.team}MistakesList`} className="flex justify-center flex-row text-center space-x-2">
+      <div id={`team${props.team}MistakesList`} className="flex flex-row justify-center space-x-2 text-center">
         {Array(props.game.teams[props.team].mistakes).fill(
-          <div className="flex-shrink">
-            <Image 
-              width={139}
-              height={160} 
-              src="/x.png" 
-              alt="Team Mistake Indicator" 
-            />
+          <div className="shrink">
+            <Image width={139} height={160} src="/x.png" alt="Team Mistake Indicator" />
           </div>
         )}
       </div>

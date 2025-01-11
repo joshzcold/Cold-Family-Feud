@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
-import { useState, useEffect, useRef } from "react";
 import { ERROR_CODES } from "@/i18n/errorCodes";
+import { useEffect, useRef, useState } from "react";
 
 export function csvStringToArray(data) {
   const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;
@@ -9,9 +9,7 @@ export function csvStringToArray(data) {
   let matches;
   while ((matches = re.exec(data))) {
     if (matches[1].length && matches[1] !== ",") result.push([]);
-    result[result.length - 1].push(
-      matches[2] !== undefined ? matches[2].replace(/""/g, '"') : matches[3]
-    );
+    result[result.length - 1].push(matches[2] !== undefined ? matches[2].replace(/""/g, '"') : matches[3]);
   }
   // remove last empty array element
   result.pop();
@@ -22,29 +20,17 @@ export function csvStringToArray(data) {
  * Verify the format <Question (string), Answer (string), Points (number), ...>
  * Verify the number of rounds doesn't exceed the amount of data
  */
-function validateCsv(
-  csvData,
-  roundCount,
-  roundFinalCount,
-  noHeader,
-  setError,
-  t
-) {
+function validateCsv(csvData, roundCount, roundFinalCount, noHeader, setError, t) {
   let headerOffSet = noHeader ? 0 : 1;
   // the setting of rows is greater than the data provided
   if (roundCount + roundFinalCount + headerOffSet > csvData.length) {
-    setError(
-      t("Error: round and final round is greater than document has available.")
-    );
+    setError(t("Error: round and final round is greater than document has available."));
     return;
   }
 
   for (let r in csvData) {
     let index = parseInt(r) + parseInt(headerOffSet);
-    if (
-      roundCount + roundFinalCount + headerOffSet < r ||
-      csvData[index] === undefined
-    ) {
+    if (roundCount + roundFinalCount + headerOffSet < r || csvData[index] === undefined) {
       break;
     }
     let answer = true;
@@ -60,9 +46,7 @@ function validateCsv(
       } else {
         // Answer point needs to be a number
         if (csvData[index][i] && !/^\d+$/.test(csvData[index][i])) {
-          setError(
-            t(ERROR_CODES.CSV_INVALID_FORMAT)
-          );
+          setError(t(ERROR_CODES.CSV_INVALID_FORMAT));
           return;
         }
         answer = !answer;
@@ -71,21 +55,11 @@ function validateCsv(
   }
 }
 
-function csvToColdFriendlyFeudFormat(
-  csvData,
-  roundCount,
-  roundFinalCount,
-  noHeader,
-  timer,
-  timer2nd,
-  setError,
-  send
-) {
+function csvToColdFriendlyFeudFormat(csvData, roundCount, roundFinalCount, noHeader, timer, timer2nd, setError, send) {
   let headerOffSet = noHeader ? 0 : 1;
   let gameTemplate = {
     settings: {},
-    rounds: [
-    ],
+    rounds: [],
     final_round: [],
     final_round_timers: [timer, timer2nd],
   };
@@ -100,10 +74,10 @@ function csvToColdFriendlyFeudFormat(
     };
     let answer = true;
     let answerCount = 0;
-    let index = parseInt(row) + parseInt(headerOffSet)
-    console.log(row, (roundCount+ roundFinalCount+ headerOffSet))
-    if (index  < roundCount + headerOffSet) {
-      colLoop: for (let col = 0 ; col < csvData[index].length; col++) {
+    let index = parseInt(row) + parseInt(headerOffSet);
+    console.log(row, roundCount + roundFinalCount + headerOffSet);
+    if (index < roundCount + headerOffSet) {
+      colLoop: for (let col = 0; col < csvData[index].length; col++) {
         if (col === 0) {
           rowPush.question = csvData[index][col];
           continue colLoop;
@@ -114,16 +88,14 @@ function csvToColdFriendlyFeudFormat(
           });
           answer = !answer;
         } else {
-          rowPush.answers[answerCount].pnt = parseInt(
-            csvData[index][col]
-          );
+          rowPush.answers[answerCount].pnt = parseInt(csvData[index][col]);
           answerCount++;
           answer = !answer;
         }
       }
       gameTemplate.rounds.push(rowPush);
     } else if (index < roundCount + roundFinalCount + headerOffSet) {
-      colLoop: for (let col = 0 ; col < csvData[index].length; col++) {
+      colLoop: for (let col = 0; col < csvData[index].length; col++) {
         if (col === 0) {
           finalRowPush.question = csvData[index][col];
           continue colLoop;
@@ -132,9 +104,7 @@ function csvToColdFriendlyFeudFormat(
           finalRowPush.answers.push([csvData[index][col]]);
           answer = !answer;
         } else {
-          finalRowPush.answers[answerCount][1] = parseInt(
-            csvData[index][col]
-          );
+          finalRowPush.answers[answerCount][1] = parseInt(csvData[index][col]);
           answerCount++;
           answer = !answer;
         }
@@ -159,27 +129,24 @@ export default function CSVLoader(props) {
     validateCsv(csvData, roundCount, roundFinalCount, noHeader, setError, t);
   });
   return (
-    <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full">
-      <div className="relative top-20 mx-auto p-5 border w-3/4 shadow-lg rounded-md bg-background flex flex-col space-y-5">
-        <div className="flex flex-row space-x-2 items-center">
+    <div className="fixed inset-0 size-full overflow-y-auto bg-gray-600 bg-opacity-50">
+      <div className="relative top-20 mx-auto flex w-3/4 flex-col space-y-5 rounded-md border bg-background p-5 shadow-lg">
+        <div className="flex flex-row items-center space-x-2">
           <div className="w-4">
-            <svg
-              className="fill-current text-secondary-900"
-              viewBox="0 0 384 512"
-            >
+            <svg className="fill-current text-secondary-900" viewBox="0 0 384 512">
               <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
             </svg>
           </div>
           <p className="text-foreground">{t("CSV file upload")}: </p>
-          <div className="p-2 rounded bg-secondary-500">
+          <div className="rounded bg-secondary-500 p-2">
             <p>{props.csvFileUpload.name}</p>
           </div>
           <hr />
         </div>
         {error ? (
-          <div id="csvErrorText" className="p-4 bg-failure-200 rounded space-y-2">
+          <div id="csvErrorText" className="space-y-2 rounded bg-failure-200 p-4">
             <p className="font-bold">{error}</p>
-            <div className="text-sm space-y-1">
+            <div className="space-y-1 text-sm">
               <p>{t("Expected format")}:</p>
               <p>• {t("Format Example")}</p>
               <p>• {t("Points must be numbers")}</p>
@@ -187,25 +154,29 @@ export default function CSVLoader(props) {
             </div>
           </div>
         ) : null}
-        <div className="bg-secondary-300 p-4 rounded space-y-2">
+        <div className="space-y-2 rounded bg-secondary-300 p-4">
           <p className="font-semibold">{t("Format Guide")}:</p>
-          <div className="text-sm space-y-1">
+          <div className="space-y-1 text-sm">
             <div className="grid grid-cols-7 gap-2">
-              <div className="bg-secondary-500 p-2 rounded">{t("Question")}</div>
-              <div className="bg-success-200 p-2 rounded">{t("Answer")} 1</div>
-              <div className="bg-primary-200 p-2 rounded">{t("points")} 1</div>
-              <div className="bg-success-200 p-2 rounded">{t("Answer")} 2</div>
-              <div className="bg-primary-200 p-2 rounded">{t("points")} 2</div>
-              <div className="bg-success-200 p-2 rounded">...</div>
-              <div className="bg-primary-200 p-2 rounded">...</div>
+              <div className="rounded bg-secondary-500 p-2">{t("Question")}</div>
+              <div className="rounded bg-success-200 p-2">{t("Answer")} 1</div>
+              <div className="rounded bg-primary-200 p-2">{t("points")} 1</div>
+              <div className="rounded bg-success-200 p-2">{t("Answer")} 2</div>
+              <div className="rounded bg-primary-200 p-2">{t("points")} 2</div>
+              <div className="rounded bg-success-200 p-2">...</div>
+              <div className="rounded bg-primary-200 p-2">...</div>
             </div>
-            <p className="text-xs mt-2">{t("Each row follows this pattern. Points must be numbers.")}</p>
+            <p className="mt-2 text-xs">{t("Each row follows this pattern. Points must be numbers.")}</p>
           </div>
         </div>
-        <div className="p-2 flex flex-col bg-secondary-500 overflow-x-scroll h-96 ">
+        <div className="flex h-96 flex-col overflow-x-scroll bg-secondary-500 p-2 ">
           {csvData.map((row, roundCounter) => {
             return (
-              <div key={`csvloader-round-${roundCounter}`} id={`csvRow${roundCounter}`} className="grid grid-flow-col divide-dashed divide-x divide-secondary-900">
+              <div
+                key={`csvloader-round-${roundCounter}`}
+                id={`csvRow${roundCounter}`}
+                className="grid grid-flow-col divide-x divide-dashed divide-secondary-900"
+              >
                 {row.map((col, colidx) => {
                   let rowBackgroundColor = "bg-secondary-500";
                   let rowTextColor = "text-foreground";
@@ -217,10 +188,7 @@ export default function CSVLoader(props) {
                     rowTextColor = "text-secondary-900";
                   } else if (roundCounter - 1 < roundCount + roundOffSet) {
                     rowBackgroundColor = "bg-success-200";
-                  } else if (
-                    roundCounter - 1 <
-                    roundCount + roundFinalCount + roundOffSet
-                  ) {
+                  } else if (roundCounter - 1 < roundCount + roundFinalCount + roundOffSet) {
                     rowBackgroundColor = "bg-primary-200";
                   } else {
                     rowTextColor = "text-secondary-900";
@@ -230,11 +198,9 @@ export default function CSVLoader(props) {
                       <div
                         id={`csvRow${roundCounter}Col${colidx}`}
                         key={`csvloader-round-${roundCounter}-${colidx}`}
-                        className={`w-96 font-bold p-4 ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
+                        className={`w-96 p-4 font-bold ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
                       >
-                        <p className="text-ellipsis whitespace-nowrap overflow-hidden">
-                          {col}
-                        </p>
+                        <p className="truncate">{col}</p>
                       </div>
                     );
                   }
@@ -243,16 +209,14 @@ export default function CSVLoader(props) {
             );
           })}
         </div>
-        <div className="grid lg:grid-cols-3 gap-5 md:grid-cols-1 sm:grid-cols-1">
-          <div className="flex flex-row space-x-5 items-center">
+        <div className="grid gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
+          <div className="flex flex-row items-center space-x-5">
             <div>
-              <p className="text-xl normal-case text-foreground">
-                {t("No Header")}:
-              </p>
+              <p className="text-xl normal-case text-foreground">{t("No Header")}:</p>
             </div>
             <input
               id="csvSetNoHeaderInput"
-              className="w-4 h-4 rounded bg-secondary-900 text-foreground"
+              className="size-4 rounded bg-secondary-900 text-foreground"
               checked={noHeader}
               onChange={(e) => {
                 setNoHeader(e.target.checked);
@@ -260,13 +224,13 @@ export default function CSVLoader(props) {
               type="checkbox"
             ></input>
           </div>
-          <div className="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row items-center space-x-5">
             <div>
               <p className="text-xl normal-case text-foreground">{t("Rounds")}:</p>
             </div>
             <input
               id="csvSetRoundCountInput"
-              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 if (value === 0) {
@@ -279,15 +243,13 @@ export default function CSVLoader(props) {
               min="1"
             ></input>
           </div>
-          <div className="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row items-center space-x-5">
             <div>
-              <p className="text-xl normal-case text-foreground">
-                {t("Final Rounds")}:
-              </p>
+              <p className="text-xl normal-case text-foreground">{t("Final Rounds")}:</p>
             </div>
             <input
               id="csvSetFinalRoundCountInput"
-              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 setRoundFinalCount(value);
@@ -297,15 +259,13 @@ export default function CSVLoader(props) {
               min="0"
             ></input>
           </div>
-          <div className="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row items-center space-x-5">
             <div>
-              <p className="text-xl normal-case text-foreground">
-                {t("Final Round Timer")}:
-              </p>
+              <p className="text-xl normal-case text-foreground">{t("Final Round Timer")}:</p>
             </div>
             <input
               id="csvFinalRoundTimerInput"
-              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 setTimer(value);
@@ -315,15 +275,13 @@ export default function CSVLoader(props) {
               min="0"
             ></input>
           </div>
-          <div className="flex flex-row space-x-5 items-center">
+          <div className="flex flex-row items-center space-x-5">
             <div>
-              <p className="text-xl normal-case text-foreground">
-                {t("2nd Final Round Timer")}:
-              </p>
+              <p className="text-xl normal-case text-foreground">{t("2nd Final Round Timer")}:</p>
             </div>
             <input
               id="csvFinalRound2ndTimerInput"
-              className="p-2 w-24 rounded bg-secondary-300 text-foreground"
+              className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
                 setTimer2nd(value);
@@ -337,7 +295,7 @@ export default function CSVLoader(props) {
         <div className="flex flex-row space-x-5">
           <button id="csvCancelUploadButton" className="text-2xl">
             <div
-              className="w-48 hover:bg-secondary-200 rounded bg-secondary-500 p-2 flex justify-center"
+              className="flex w-48 justify-center rounded bg-secondary-500 p-2 hover:bg-secondary-200"
               onClick={() => {
                 setError(null);
                 props.setCsvFileUpload(null);
@@ -364,17 +322,15 @@ export default function CSVLoader(props) {
                 props.setCsvFileUpload(null);
               }}
             >
-              <div className="w-48 hover:shadow-md rounded bg-success-200 p-2 flex justify-center">
+              <div className="flex w-48 justify-center rounded bg-success-200 p-2 hover:shadow-md">{t("Submit")}</div>
+            </button>
+          ) : (
+            <button id="csvFileUploadSubmitButtonDisabled" className="cursor-default text-2xl">
+              <div className="flex w-48 justify-center rounded bg-secondary-500 p-2 text-secondary-900">
                 {t("Submit")}
               </div>
             </button>
-          ) : (
-              <button id="csvFileUploadSubmitButtonDisabled" className="text-2xl cursor-default">
-                <div className="w-48 rounded bg-secondary-500 text-secondary-900 p-2 flex justify-center">
-                  {t("Submit")}
-                </div>
-              </button>
-            )}
+          )}
         </div>
       </div>
     </div>
