@@ -64,7 +64,7 @@ spec:
           {{- with .Values.backend.volumeMounts }}
           volumeMounts:
             - name: frontend-dot-env
-              mountPath: /src/.env
+              mountPath: /app/.env
               subPath: .env
             {{- toYaml . | nindent 12 }}
           {{- end }}
