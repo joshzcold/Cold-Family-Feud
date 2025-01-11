@@ -56,6 +56,8 @@ func quitHost(room *room, event *Event) GameError {
 	if room.Hub.stop != nil {
 		room.Hub.stop <- true
 	}
+	// Signal cleanup channel to stop the room timeout goroutine
+	close(room.cleanup)
 	// Remove room
 	s.deleteRoom(event.Room)
 	s.deleteLogo(event.Room)

@@ -130,5 +130,6 @@ func NewGame(roomCode string) room {
 			Tick: time.Now().UTC().UnixMilli(),
 			RoundStartTime: time.Now().UTC().UnixMilli(),
 		},
+        cleanup: make(chan struct{}),
 	}
 }

@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import { Coffee, Mail } from "lucide-react";
 import Link from "next/link";
+import Version from "@/components/Title/Version";
 
 const Donate = () => {
   const { t } = useTranslation();
@@ -57,6 +58,7 @@ export default function Footer(props) {
         <Email />
         <Donate />
       </div>
+      <Version />
     </div>
   );
 }
