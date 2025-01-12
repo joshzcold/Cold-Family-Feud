@@ -130,3 +130,20 @@ func (s *SQLiteStore) deleteLogo(roomCode string) GameError {
 	s.db.Model(&Room{}).Where("room_code = ?", roomCode).Update("room_icon", nil)
 	return GameError{}
 }
+
+func (s *SQLiteStore) isHealthy() error {
+	sqlDB, err := s.db.DB()
+	if err != nil {
+		return fmt.Errorf("failed to get database instance: %v", err)
+	}
+	
+	if err := sqlDB.Ping(); err != nil {
+		return fmt.Errorf("failed to ping database: %v", err)
+	}
+
+	if !s.db.Migrator().HasTable(&Room{}) {
+		return fmt.Errorf("rooms table does not exist")
+	}
+	
+	return nil
+}

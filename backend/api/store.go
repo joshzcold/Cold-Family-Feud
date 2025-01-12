@@ -24,6 +24,8 @@ type gameStore interface {
 	loadLogo(string) ([]byte, GameError)
 	// Delete a logo image from room
 	deleteLogo(string) GameError
+	// Health check
+	isHealthy() error
 }
 
 func NewGameStore(gameStore string) error {
