@@ -98,7 +98,6 @@ func Buzz(client *Client, event *Event) GameError {
 				Time: latencyTime,
 			}}
 			room.Game.Buzzed = append(toAppend, room.Game.Buzzed[idx+1:]...)
-			break
 		}
 	}
 	message, err := NewSendBuzzed()
