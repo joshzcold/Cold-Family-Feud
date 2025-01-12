@@ -18,18 +18,7 @@ func addGameKeys(game *game) error {
 		if len(round.Answers) == 0 {
 			return errors.New(string(PARSE_ERROR))
 		}
-		for _, answer := range round.Answers {
-			answer.Triggered = false
-		}
 		game.PointTracker = append(game.PointTracker, 0)
-	}
-	if len(game.FinalRound) > 0 {
-		for _, round := range game.FinalRound {
-			round.Selection = -1
-			round.Points = 0
-			round.Input = ""
-			round.Revealed = false
-		}
 	}
 	return nil
 }
