@@ -97,3 +97,10 @@ func (m *MemoryStore) deleteLogo(roomCode string) GameError {
 	}
 	return GameError{}
 }
+
+func (m *MemoryStore) isHealthy() error {
+	if m.rooms == nil {
+		return fmt.Errorf("memory store is not initialized")
+	}
+	return nil
+}

@@ -84,13 +84,10 @@ func checkDatabase() ComponentStatus {
 		return status
 	}
 
-	// TODO need to replace this with some kind of check that just checks that the store
-	// DB table is ready, so that this works when the database has no users
-	// rooms := store.currentRooms()
-	// if rooms == nil {
-	// 	status.Status = "down"
-	// 	status.Error = "failed to query rooms"
-	// }
+	if err := store.isHealthy(); err != nil {
+		status.Status = "down"
+		status.Error = fmt.Sprintf("database health check failed: %v", err)
+	}
 
 	return status
 }
