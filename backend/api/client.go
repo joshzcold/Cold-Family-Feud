@@ -75,7 +75,7 @@ func (c *Client) readPump() {
 		if gameErr.code != "" {
 			errorMessage, err := NewSendError(gameErr)
 			if err != nil {
-				c.send <- []byte(fmt.Sprintf("%s", fmt.Sprint(err)))
+				c.send <- []byte(fmt.Sprint(err))
 				return
 			}
 			c.send <- errorMessage
