@@ -14,10 +14,10 @@ type registeredPlayer struct {
 	Start     time.Time `json:"start"`
 	Latencies []int64   `json:"latencies"`
 	// Allow team to be set to null in json
-	Team      *int       `json:"team"`
-	Latency   float64   `json:"latency"`
-	Name      string    `json:"name"`
-	Hidden    bool      `json:"hidden"`
+	Team    *int    `json:"team"`
+	Latency float64 `json:"latency"`
+	Name    string  `json:"name"`
+	Hidden  bool    `json:"hidden"`
 }
 
 type buzzed struct {
@@ -26,10 +26,12 @@ type buzzed struct {
 }
 
 type settings struct {
-	LogoUrl         any    `json:"logo_url"`
-	HideQuestions   bool   `json:"hide_questions"`
-	Theme           string `json:"theme"`
-	FinalRoundTitle any    `json:"final_round_title"`
+	LogoUrl              any    `json:"logo_url"`
+	HideQuestions        bool   `json:"hide_questions"`
+	Theme                string `json:"theme"`
+	FinalRoundTitle      any    `json:"final_round_title"`
+	PlayerBuzzerSound    bool   `json:"player_buzzer_sound"`
+	FirstBuzzerSoundOnly bool   `json:"first_buzzer_sound_only"`
 }
 
 type team struct {
@@ -127,9 +129,9 @@ func NewGame(roomCode string) room {
 			IsFinalSecond:  false,
 			HideFirstRound: false,
 			Round:          0,
-			Tick: time.Now().UTC().UnixMilli(),
+			Tick:           time.Now().UTC().UnixMilli(),
 			RoundStartTime: time.Now().UTC().UnixMilli(),
 		},
-        cleanup: make(chan struct{}),
+		cleanup: make(chan struct{}),
 	}
 }
