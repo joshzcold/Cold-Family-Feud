@@ -140,6 +140,8 @@
         "csv_too_large": "Üles laaditud CSV fail on liiga pikk",
         "connection_lost": "Ühendus serveriga katkes, proovime uuesti {{message}}s pärast.",
         "csv_invalid_format": "CSV faili vorming on ebakorrektne",
-        "missing_input": "{{message}} lahter on täitmata"
+        "missing_input": "{{message}} lahter on täitmata",
+        "player_not_found": "Mängijat ei leitud.",
+        "forbidden": "Te ei tohi seda toimingut teha."
     }
 }

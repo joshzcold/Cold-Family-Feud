@@ -1,7 +1,7 @@
 package api
 
 type GameError struct {
-	code ErrorCode
+	code    ErrorCode
 	message string
 }
 
@@ -24,4 +24,5 @@ const (
 	MISSING_INPUT            ErrorCode = "errors.missing_input"
 	UNABLE_TO_CONNECT        ErrorCode = "errors.unable_to_connect"
 	PLAYER_NOT_FOUND         ErrorCode = "errors.player_not_found"
+	FORBIDDEN                ErrorCode = "errors.forbidden"
 )
