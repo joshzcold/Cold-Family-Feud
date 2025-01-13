@@ -13,16 +13,19 @@ func quitPlayer(room *room, client *Client, event *Event) error {
         return fmt.Errorf("player not found")
     }
 
-	hostClient, hostExists := room.registeredClients[room.Game.Host.ID]
-	if !hostExists {
-		return fmt.Errorf("host not found")
-	}
-
-	isHost := hostClient.client == client
-	isPlayer := playerClient.client == client
+    hostClient, hostExists := room.registeredClients[room.Game.Host.ID]
+    
+    isHost := false
+    if hostExists {
+        isHost = hostClient.client == client
+    }
+    isPlayer := playerClient.client == client
 	
-	// Only allow kicking/quitting from game host or player himself
-    if !isHost && !isPlayer {
+    // Allow quitting if:
+    // 1. Player is quitting themselves
+    // 2. Client is the host
+    // 3. No host exists (orphaned room)
+    if !isPlayer && !isHost && hostExists {
         return fmt.Errorf("forbidden")
     }
 
