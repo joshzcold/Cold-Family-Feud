@@ -164,7 +164,14 @@ export default function BuzzerPage(props) {
                 {/* Buzzer Section TODO replace with function*/}
                 <div className="w-full text-center">
                   {buzzed || game.buzzed.map((a) => a.id).includes(props.id) ? (
-                    <Image id="buzzerButtonPressed" width={500} height={200} alt="Buzzer Button" src="/buzzed.svg" />
+                    <Image
+                      className="inline-block w-1/2"
+                      id="buzzerButtonPressed"
+                      width={500}
+                      height={200}
+                      alt="Buzzer Button"
+                      src="/buzzed.svg"
+                    />
                   ) : (
                     <Image
                       id="buzzerButton"
