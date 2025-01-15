@@ -8,6 +8,27 @@ import (
 )
 
 func quitPlayer(room *room, client *Client, event *Event) error {
+    playerClient, ok := room.registeredClients[event.ID]
+	if !ok {
+        return fmt.Errorf("player not found")
+    }
+
+    hostClient, hostExists := room.registeredClients[room.Game.Host.ID]
+    
+    isHost := false
+    if hostExists {
+        isHost = hostClient.client == client
+    }
+    isPlayer := playerClient.client == client
+	
+    // Allow quitting if:
+    // 1. Player is quitting themselves
+    // 2. Client is the host
+    // 3. No host exists (orphaned room)
+    if !isPlayer && !isHost && hostExists {
+        return fmt.Errorf("forbidden")
+    }
+
 	for idx, b := range room.Game.Buzzed {
 		if b.ID == event.ID {
 			// Remove from buzzed player list
@@ -15,7 +36,6 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 		}
 	}
 
-	playerClient, ok := room.registeredClients[event.ID]
 	if ok && playerClient.stopPing != nil {
 		// clear interval
 		playerClient.stopPing <- true
@@ -80,6 +100,9 @@ func Quit(client *Client, event *Event) GameError {
 	err := quitPlayer(&room, client, event)
 	s.writeRoom(room.Game.Room, room)
 	if err != nil {
+		if err.Error() == "forbidden" {
+			return GameError{code: FORBIDDEN}
+		}
 		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
 	return GameError{}
@@ -120,7 +143,7 @@ func HostRoom(client *Client, event *Event) GameError {
 		newRoomCode = roomCode()
 	}
 	initRoom := InitalizeRoom(client, newRoomCode)
-	hostID := registerHost(&initRoom)
+	hostID := registerHost(&initRoom, client)
 	message, err := NewSendHostRoom(newRoomCode, initRoom.Game, hostID)
 	if err != nil {
 		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
@@ -204,11 +227,18 @@ func registerPlayer(room *room, playerName string, client *Client) string {
 }
 
 // registerHost Set current player as host
-func registerHost(room *room) string {
+func registerHost(room *room, client *Client) string {
 	hostID := playerID()
 	room.Game.Host = host{
 		ID: hostID,
 	}
+
+	room.registeredClients[hostID] = &RegisteredClient{
+		id:     hostID,
+		client: client,
+		room:   room,
+	}
+
 	log.Println("Registered host in room: ", hostID, room.Game.Room)
 	store.writeRoom(room.Game.Room, *room)
 	return hostID
