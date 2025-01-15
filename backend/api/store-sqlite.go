@@ -72,7 +72,7 @@ func (s *SQLiteStore) getRoom(client *Client, roomCode string) (room, GameError)
 		s.rooms[roomCode] = initRoom.roomConnections
 	}
 
-	foundRoom, _ := s.rooms[roomCode]
+	foundRoom := s.rooms[roomCode]
 	retrievedRoom := room{
 		Game: &game{},
 		roomConnections: roomConnections{

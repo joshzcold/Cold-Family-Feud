@@ -139,9 +139,9 @@ function FinalRoundButtonControls(props) {
             props.send({ action: "data", data: props.game });
           }}
         >
-          <option value={-1}>({t("No Answer")}) 0</option>
+          <option value={0}>({t("No Answer")}) 0</option>
           {x.answers.map((key, index) => (
-            <option key={`answers-${key}`} value={index}>
+            <option key={`answers-${key}`} value={index + 1}>
               {x.answers[index][0]} {x.answers[index][1]}
             </option>
           ))}
