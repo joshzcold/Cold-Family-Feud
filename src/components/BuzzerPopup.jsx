@@ -71,7 +71,7 @@ const BuzzerPopup = ({ buzzed }) => {
     // TODO: Figure out why this isn't getting bigger
     <div className={`fixed inset-0 z-50 flex items-center justify-center`}>
       <div
-        className={`rounded-lg border-4 border-warning-500 bg-black transition-all duration-300${isVisible ? "opacity-100" : "opacity-0"}`}
+        className={`rounded-lg border-4 border-warning-500 bg-black transition-all duration-300 ${isVisible ? "opacity-100" : "opacity-0"}`}
       >
         <div className="flex flex-col items-center p-8 text-warning-500">
           <div className="text-4xl font-bold">{t("First Buzzer")}</div>

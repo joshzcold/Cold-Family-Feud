@@ -174,7 +174,7 @@ export default function BuzzerPage(props) {
                       onClick={() => {
                         send({ action: "buzz", id: props.id });
                         // Play sound based on settings
-                        if (game.settings.enable_player_buzzer_sound) {
+                        if (game.settings.player_buzzer_sound) {
                           if (!game.settings.first_buzzer_sound_only || game.buzzed.length === 0) {
                             playBuzzerSound();
                           }
