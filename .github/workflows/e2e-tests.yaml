@@ -1,15 +1,16 @@
-name: Run e2e tests
+name: Lint & E2E Checks
 on:
-  pull_request:
-    branches:
-      - master
+  workflow_dispatch:
+  issue_comment:
+    types: [created]
 
 env:
   docker_registry: ghcr.io/joshzcold
   game_store: memory
 
 jobs:
-  test:
+  lint:
+    name: Lint Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,11 +18,46 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "20"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Run lint
+        run: npm run lint
+
+  check-comment:
+    name: Check for Maintainer Comment
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.find-comment.outputs.comment-id != '' }}
+    steps:
+      - name: Find "!test" Comment by Maintainers
+        id: find-comment
+        uses: peter-evans/find-comment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: |
+            joshzcold
+            karlromets
+          body-includes: "!test"
+
+  test:
+    name: E2E Tests
+    needs: [lint, check-comment]
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.check-comment.outputs.should_run == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+          cache: "npm"
       - name: Install dependencies
         run: |
-          npm install
+          npm ci
           cd e2e
-          npm install
+          npm ci
       - name: Install Playwright browsers
         run: |
           cd e2e
