@@ -1,0 +1,39 @@
+name: Run e2e tests
+on:
+  pull_request:
+    branches:
+      - master
+
+env:
+  docker_registry: ghcr.io/joshzcold
+  game_store: memory
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: |
+          npm install
+          cd e2e
+          npm install
+      - name: Install Playwright browsers
+        run: |
+          cd e2e
+          npx playwright install --with-deps
+      - name: Build and start containers
+        run: |
+          docker compose -p famf -f ./docker/docker-compose-dev.yaml up -d
+      - name: Run e2e tests
+        run: |
+          cd e2e
+          npx playwright test
+      - name: Stop containers
+        if: always()
+        run: |
+          docker compose -p famf -f ./docker/docker-compose-dev.yaml down
