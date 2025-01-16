@@ -25,6 +25,13 @@ jobs:
             joshzcold
             karlromets
           body-includes: "!test"
+      - name: Set should_run to true for manual dispatch
+        id: set-run
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: echo "should_run=true" >> $GITHUB_OUTPUT
+      - name: Set should_run based on comment
+        if: ${{ github.event_name == 'issue_comment' }}
+        run: echo "should_run=${{ steps.find-comment.outputs.comment-id != '' }}" >> $GITHUB_OUTPUT
 
   lint:
     name: Lint Check
