@@ -3,15 +3,22 @@
 ## Dependencies
 
 Windows:
-    It is required to run this project under [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+It is required to run this project under [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 Required Applications:
-    - `make`
-    - `docker`
-    - `docker-compose`
-    - `nodejs + npm` (Check `./Dockerfile`) for current supported version.
-    - `golang`
-    - `chromium` (for e2e tests)
+
+- `make`
+
+- `docker`
+
+- `docker-compose`
+
+- `nodejs + npm` (Check `./Dockerfile`) for current supported version.
+
+- `golang`
+
+- `chromium` (for e2e tests)
 
 
 | Application                                                              | OS      | Install Method                                                                               |
@@ -77,7 +84,7 @@ The frontend is using `nextjs` as its way to serve pages.
 
 https://nextjs.org/docs/app/getting-started/project-structure
 
-So code is arranged in the [./src)[../src/] folder with (./src/pages/index.jsx](../src/pages/index.jsx) being the entry point
+Code is arranged in the [./src](../src/) folder with [./src/pages/index.jsx](../src/pages/index.jsx) being the entry point
 
 From their you can expect the usual "ReactJS" functionality.
 
@@ -173,7 +180,7 @@ go client.readPump()
 
 If you look in `readPump()` you will see we get the message and pass it off to `EventPipe()`
 
-`EventPipe()` located in [backend/api/pipe.go](../backend/api/pipe.go) is the next "Entry Point" of the application.
+`EventPipe()` is located in [backend/api/pipe.go](../backend/api/pipe.go) and is the next "Entry Point" of the application.
 
 This is where we take the "events" coming from the backend and run our backend functions.
 
@@ -230,7 +237,7 @@ or we created a [Hub](../backend/api/hub.go) when we started the room which hold
 
 Writing a new game store can be pretty straight forward.
 
-There is a go insterface located in [backend/api/store.go](../backend/api/store.go) that defines the functions a new game store must have.
+There is a go interface located in [backend/api/store.go](../backend/api/store.go) that defines the functions a new game store must have.
 
 ```go
 type gameStore interface {}
