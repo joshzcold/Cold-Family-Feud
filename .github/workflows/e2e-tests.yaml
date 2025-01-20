@@ -69,14 +69,6 @@ jobs:
         run: |
           cd e2e
           npx playwright install --with-deps
-      - name: Build and start containers
-        run: |
-          docker compose -p famf -f ./docker/docker-compose-dev.yaml up -d
       - name: Run e2e tests
         run: |
-          cd e2e
-          npx playwright test
-      - name: Stop containers
-        if: always()
-        run: |
-          docker compose -p famf -f ./docker/docker-compose-dev.yaml down
+          make e2e
