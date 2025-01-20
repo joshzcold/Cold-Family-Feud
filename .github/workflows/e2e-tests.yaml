@@ -20,7 +20,7 @@ jobs:
         uses: peter-evans/find-comment@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
+          issue-number: ${{ github.event.issue.number }}
           comment-author: |
             joshzcold
             karlromets
