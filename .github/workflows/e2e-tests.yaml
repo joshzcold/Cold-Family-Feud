@@ -21,9 +21,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
-          comment-author: |
-            joshzcold
-            karlromets
+          comment-author: joshzcold
           body-includes: "!test"
       - name: Set should_run to true for manual dispatch
         id: set-run
