@@ -2,16 +2,7 @@ import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
 import InfoTooltip from "@/components/ui/tooltip";
-
-function debounce(callback, wait = 400) {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(function () {
-      callback.apply(this, args);
-    }, wait);
-  };
-}
+import { debounce } from "../../utils";
 
 function FinalRoundTitleChanger(props) {
   const { i18n, t } = useTranslation();

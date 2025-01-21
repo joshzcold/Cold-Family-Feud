@@ -11,16 +11,7 @@ import { ERROR_CODES } from "@/i18n/errorCodes";
 import { handleCsvFile, handleJsonFile } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-
-function debounce(callback, wait = 400) {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(function () {
-      callback.apply(this, args);
-    }, wait);
-  };
-}
+import { debounce } from "../utils";
 
 function TitleMusic() {
   const { i18n, t } = useTranslation();
