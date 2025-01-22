@@ -8,7 +8,15 @@ export function csvStringToArray(data) {
   const result = [[]];
   let matches;
   while ((matches = re.exec(data))) {
-    if (matches[1].length && matches[1] !== ",") result.push([]);
+    // skip empty lines
+    if (!matches[3]) {
+      continue;
+    }
+    // push new array to results array
+    if (matches[1].length && matches[1] !== ",") {
+      result.push([]);
+    }
+    // push item to array within array
     result[result.length - 1].push(matches[2] !== undefined ? matches[2].replace(/""/g, '"') : matches[3]);
   }
   // remove last empty array element
