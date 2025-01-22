@@ -1,10 +1,11 @@
 import { ERROR_CODES } from "@/i18n/errorCodes";
 import { handleCsvFile, handleJsonFile, isValidFileType } from "@/lib/utils";
 import { FileUp } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFileUploadText }) => {
+  const [selectedGame, setSelectedGame] = useState("");
   const MAX_SIZE_MB = process.env.NEXT_PUBLIC_MAX_CSV_UPLOAD_SIZE_MB
     ? parseInt(process.env.NEXT_PUBLIC_MAX_CSV_UPLOAD_SIZE_MB, 10) // type safety
     : 2; // default to 2MB
@@ -64,9 +65,10 @@ const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFile
           <div>
             <select
               id="gameSelector"
-              defaultValue={""}
+              value={selectedGame}
               className="rounded border-2 bg-secondary-500 text-foreground"
               onChange={(e) => {
+                setSelectedGame(e.target.value);
                 send({
                   action: "load_game",
                   file: e.target.value,
