@@ -1,3 +1,4 @@
+import { ERROR_CODES } from "@/i18n/errorCodes";
 import { handleCsvFile, handleJsonFile, isValidFileType } from "@/lib/utils";
 import { FileUp } from "lucide-react";
 import { useRef } from "react";
@@ -15,7 +16,7 @@ const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFile
     if (file) {
       if (file.size > MAX_SIZE_MB * 1024 * 1024) {
         console.error("This csv file is too large");
-        props.setError(t(ERROR_CODES.CSV_TOO_LARGE));
+        setError(t(ERROR_CODES.CSV_TOO_LARGE));
         return;
       }
     }
