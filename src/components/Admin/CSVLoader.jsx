@@ -271,8 +271,13 @@ export default function CSVLoader(props) {
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
+                // Rounds must always be atleast 1
                 if (value === 0) {
                   value = 1;
+                }
+                // Don't allow more rounds than available data
+                if (value + roundFinalCount + headerOffSet > csvData.length) {
+                  return;
                 }
                 setRoundCount(value);
               }}
@@ -290,6 +295,10 @@ export default function CSVLoader(props) {
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
+                // Don't allow more rounds than available data
+                if (value + roundCount + headerOffSet > csvData.length) {
+                  return;
+                }
                 setRoundFinalCount(value);
               }}
               value={roundFinalCount}
