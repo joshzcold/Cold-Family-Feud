@@ -1,5 +1,6 @@
 import { handleCsvFile, handleJsonFile, isValidFileType } from "@/lib/utils";
 import { FileUp } from "lucide-react";
+import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFileUploadText }) => {
@@ -7,9 +8,10 @@ const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFile
     ? parseInt(process.env.NEXT_PUBLIC_MAX_CSV_UPLOAD_SIZE_MB, 10) // type safety
     : 2; // default to 2MB
   const { i18n, t } = useTranslation();
+  const fileInputRef = useRef(null);
 
   function handleGameUpload() {
-    var file = document.getElementById("gamePickerFileUpload").files[0];
+    let file = fileInputRef.current.files[0];
     if (file) {
       if (file.size > MAX_SIZE_MB * 1024 * 1024) {
         console.error("This csv file is too large");
@@ -52,7 +54,7 @@ const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFile
     console.debug(file);
 
     // allow same file to be selected again
-    document.getElementById("gamePickerFileUpload").value = null;
+    fileInputRef.current.value = null;
   }
   return (
     <div className="flex flex-col rounded  border-2">
@@ -98,6 +100,7 @@ const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFile
             type="file"
             accept=".json, .csv"
             id="gamePickerFileUpload"
+            ref={fileInputRef}
             onChange={handleGameUpload}
           />
         </div>
