@@ -4,6 +4,7 @@ import QuestionBoard from "@/components/QuestionBoard";
 import Round from "@/components/Round";
 import TeamName from "@/components/TeamName";
 import TitlePage from "@/components/Title/TitlePage.jsx";
+import UnMutePopup from "@/components/UnMutePopup";
 import { ERROR_CODES } from "@/i18n/errorCodes";
 import cookieCutter from "cookie-cutter";
 import Image from "next/image";
@@ -254,6 +255,7 @@ export default function Game(props) {
           </div>
         </div>
         <BuzzerPopup buzzed={buzzed} />
+        <UnMutePopup />
       </>
     );
   } else {
