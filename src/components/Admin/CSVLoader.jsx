@@ -123,19 +123,49 @@ function csvToColdFriendlyFeudFormat(csvData, roundCount, roundFinalCount, noHea
   send({ action: "load_game", data: gameTemplate });
 }
 
+/**
+ * If first time loading, then count up the initial count of round and final round
+ *  so that users start with a round and final round count
+ *  that is less than their CSV document.
+ */
+function initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCount, setRoundFinalCount, noHeader) {
+  if (roundCount < 0 || roundFinalCount < 0) {
+    let headerOffSet = noHeader ? 0 : 1;
+    let _roundCount = 0;
+    let _roundCountDefaultLimit = 6;
+    let _finalRoundCount = 0;
+    let _finalRoundCountDefaultLimit = 4;
+    for (let _ in csvData) {
+      if (_roundCount < _roundCountDefaultLimit && _roundCount + headerOffSet < csvData.length) {
+        _roundCount++;
+      } else if (
+        _finalRoundCount < _finalRoundCountDefaultLimit &&
+        _finalRoundCount + _roundCount + headerOffSet < csvData.length
+      ) {
+        _finalRoundCount++;
+      }
+    }
+    console.log(_roundCount, _finalRoundCount, csvData.length);
+    setRoundCount(_roundCount);
+    setRoundFinalCount(_finalRoundCount);
+  }
+}
+
 export default function CSVLoader(props) {
   const { i18n, t } = useTranslation();
   let csvData = csvStringToArray(props.csvFileUploadText);
-  const [roundCount, setRoundCount] = useState(6);
-  const [roundFinalCount, setRoundFinalCount] = useState(4);
+  const [roundCount, setRoundCount] = useState(-1);
+  const [roundFinalCount, setRoundFinalCount] = useState(-1);
   const [noHeader, setNoHeader] = useState(false);
   const [error, setError] = useState(false);
   const [timer, setTimer] = useState(20);
   const [timer2nd, setTimer2nd] = useState(25);
   useEffect(() => {
     setError(null);
+    initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCount, setRoundFinalCount, noHeader);
     validateCsv(csvData, roundCount, roundFinalCount, noHeader, setError, t);
   });
+  let headerOffSet = noHeader ? 0 : 1;
   return (
     <div className="fixed inset-0 size-full overflow-y-auto bg-gray-600 bg-opacity-50">
       <div className="relative top-20 mx-auto flex w-3/4 flex-col space-y-5 rounded-md border bg-background p-5 shadow-lg">
