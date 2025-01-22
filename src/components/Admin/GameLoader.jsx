@@ -62,7 +62,7 @@ const GameLoader = ({
                 </svg>
               </div>
               <div>
-                <p className="text-secondary-900 text-s">{t("upload game")}</p>
+                <p className="text-s text-secondary-900">{t("upload game")}</p>
                 <p className="text-secondary-900 text-xs">.json, .csv</p>
               </div>
             </div>
