@@ -4,7 +4,7 @@ import "@/i18n/i18n";
 import { Buffer } from "buffer";
 import CSVLoader from "@/components/Admin/CSVLoader";
 import Players from "@/components/Admin/Players";
-import AdminSettings from "@/components/Admin/Settings";
+import AdminSettings from "@/components/Admin/AdminSettings";
 import BuzzerTable from "@/components/BuzzerTable";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ERROR_CODES } from "@/i18n/errorCodes";
@@ -699,9 +699,7 @@ export default function AdminPage(props) {
         </div>
         <hr className="my-12" />
         {/* ADMIN CONTROLS */}
-        <div className="flex flex-col items-center">
-          <AdminSettings game={game} setGame={props.setGame} send={send} />
-        </div>
+        <AdminSettings game={game} setGame={props.setGame} send={send} />
         {/* SHOW ERRORS TO ADMIN */}
         {game.rounds == null ? (
           <p className="py-20 text-center text-2xl text-secondary-900">[{t("Please load a game")}]</p>
