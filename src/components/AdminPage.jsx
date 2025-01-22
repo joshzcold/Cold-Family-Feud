@@ -11,7 +11,7 @@ import { ERROR_CODES } from "@/i18n/errorCodes";
 import { handleCsvFile, handleJsonFile } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { debounce } from "../utils";
+import { debounce } from "@/lib/utils";
 
 function TitleMusic() {
   const { i18n, t } = useTranslation();
