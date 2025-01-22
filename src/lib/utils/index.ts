@@ -1,1 +1,1 @@
-export { handleCsvFile, handleJsonFile } from './files';
+export { handleCsvFile, handleJsonFile, isValidFileType } from "./files";
