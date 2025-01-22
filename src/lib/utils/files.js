@@ -7,7 +7,7 @@ export function handleJsonFile(file, { setError, t, send }) {
       let errors = validateGameData(data, { t });
 
       if (errors.length > 0) {
-        setError(t("Game file error") + ": " + errors.join("\n"));
+        setError(t("Game file error") + ":\n" + errors.join("\n"));
         return;
       }
       console.debug(data);

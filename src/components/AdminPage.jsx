@@ -702,9 +702,9 @@ export default function AdminPage(props) {
               ></input>
             </div>
           </div>
-          <p id="errorText" className="text-xl text-failure-700">
+          <div id="errorText" className="whitespace-pre-wrap text-xl text-failure-700">
             {error.code ? t(error.code, { message: error.message }) : t(error)}
-          </p>
+          </div>
         </div>
         <hr className="my-12" />
         {/* ADMIN CONTROLS */}
