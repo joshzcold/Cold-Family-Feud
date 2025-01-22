@@ -111,6 +111,9 @@
     "email": "correo electr\u00f3nico",
     "source code": "c\u00f3digo fuente",
     "Question": "Pregunta",
+    "Remove player's blindfold": "Quitarle la venda de los ojos al jugador", 
+    "Blindfold player": "Ponerle una venda en los ojos al jugador",
+    "Remove player from game": "Eliminar jugador del juego",
     "errors": {
         "room_not_found": "Sala no encontrada",
         "host_quit": "El anfitrión abandonó el juego",

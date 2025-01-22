@@ -129,6 +129,9 @@
   "You have been blindfolded...": "You have been blindfolded...",
   "Reset Mistakes": "Reset Mistakes",
   "Version": "Version",
+  "Remove player's blindfold": "Remove player's blindfold", 
+  "Blindfold player": "Blindfold player",
+  "Remove player from game": "Remove player from game",
   "errors": {
     "room_not_found": "Room not found",
     "host_quit": "Host quit the game",

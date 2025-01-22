@@ -129,6 +129,9 @@
     "You have been blindfolded...": "Sind on pimestatud...",
     "Reset Mistakes": "Lähtesta vead",
     "Version": "Versioon",
+    "Remove player's blindfold": "Eemaldage m\u00e4ngija silmside", 
+    "Blindfold player": "Pange m\u00e4ngijale silmad kinni",
+    "Remove player from game": "Eemaldage m\u00e4ngija m\u00e4ngust",
     "errors": {
         "room_not_found": "Mängu ei leitud",
         "host_quit": "Mängu juht lahkus mängust",
