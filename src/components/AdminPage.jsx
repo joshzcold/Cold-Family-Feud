@@ -3,12 +3,13 @@ import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import { Buffer } from "buffer";
 import CSVLoader from "@/components/Admin/CSVLoader";
+import GameLoader from "@/components/Admin/GameLoader";
 import Players from "@/components/Admin/Players";
 import AdminSettings from "@/components/Admin/Settings";
-import GameLoader from "@/components/Admin/GameLoader";
 import BuzzerTable from "@/components/BuzzerTable";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ERROR_CODES } from "@/i18n/errorCodes";
+import { FileUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +17,7 @@ function debounce(callback, wait = 400) {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
-    timeout = setTimeout(function() {
+    timeout = setTimeout(function () {
       callback.apply(this, args);
     }, wait);
   };
@@ -214,14 +215,9 @@ function TitleLogoUpload(props) {
   } else {
     return (
       <div className="flex flex-row items-center space-x-2">
-        <div className="image-upload w-6">
+        <div className="image-upload">
           <label htmlFor="logoUpload">
-            <svg
-              className="cursor-pointer fill-current text-secondary-900 hover:text-secondary-500"
-              viewBox="0 0 384 512"
-            >
-              <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm65.18 216.01H224v80c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-80H94.82c-14.28 0-21.41-17.29-11.27-27.36l96.42-95.7c6.65-6.61 17.39-6.61 24.04 0l96.42 95.7c10.15 10.07 3.03 27.36-11.25 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z" />
-            </svg>
+            <FileUp className="cursor-pointer text-secondary-900 hover:text-secondary-500" size={38} />
           </label>
           <input
             className="hidden"
@@ -239,7 +235,7 @@ function TitleLogoUpload(props) {
                 }
                 var reader = new FileReader();
                 let rawData = new ArrayBuffer();
-                reader.onload = function(evt) {
+                reader.onload = function (evt) {
                   rawData = evt.target.result;
                   var headerarr = new Uint8Array(evt.target.result).subarray(0, 4);
                   var header = "";
@@ -830,8 +826,9 @@ export default function AdminPage(props) {
                   {current_round.answers.map((x, index) => (
                     <div
                       key={`answer-${index}`}
-                      className={`${x.trig ? "bg-secondary-500" : "bg-primary-700"
-                        } rounded border-2 text-2xl font-extrabold uppercase`}
+                      className={`${
+                        x.trig ? "bg-secondary-500" : "bg-primary-700"
+                      } rounded border-2 text-2xl font-extrabold uppercase`}
                     >
                       <button
                         className="flex min-h-full min-w-full flex-row items-center justify-center p-5"
