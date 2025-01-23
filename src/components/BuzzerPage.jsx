@@ -125,7 +125,7 @@ export default function BuzzerPage(props) {
   const currentPlayer = game.registeredPlayers[props.id];
   if (currentPlayer?.hidden)
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center">
+      <div className="flex min-h-screen flex-col items-center justify-center text-foreground">
         <EyeOff />
         <h1 id="playerBlindFoldedText">{t("You have been blindfolded...")}</h1>
       </div>
