@@ -5,23 +5,14 @@ import { Buffer } from "buffer";
 import CSVLoader from "@/components/Admin/CSVLoader";
 import GameLoader from "@/components/Admin/GameLoader";
 import Players from "@/components/Admin/Players";
-import AdminSettings from "@/components/Admin/Settings";
+import AdminSettings from "@/components/Admin/AdminSettings";
 import BuzzerTable from "@/components/BuzzerTable";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ERROR_CODES } from "@/i18n/errorCodes";
 import { FileUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
-function debounce(callback, wait = 400) {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(function () {
-      callback.apply(this, args);
-    }, wait);
-  };
-}
+import { debounce } from "@/lib/utils";
 
 function TitleMusic() {
   const { i18n, t } = useTranslation();
@@ -596,9 +587,7 @@ export default function AdminPage(props) {
         </div>
         <hr className="my-12" />
         {/* ADMIN CONTROLS */}
-        <div className="flex flex-col items-center">
-          <AdminSettings game={game} setGame={props.setGame} send={send} />
-        </div>
+        <AdminSettings game={game} setGame={props.setGame} send={send} />
         {/* SHOW ERRORS TO ADMIN */}
         {game.rounds == null ? (
           <p className="py-20 text-center text-2xl text-secondary-900">[{t("Please load a game")}]</p>
