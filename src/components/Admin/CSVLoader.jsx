@@ -1,28 +1,16 @@
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import { ERROR_CODES } from "@/i18n/errorCodes";
-import { useEffect, useState } from "react";
+import Papa from "papaparse";
+import { useEffect, useMemo, useState } from "react";
 import CSVRow from "./CSVRow";
 
 export function csvStringToArray(data) {
-  const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;
-  const result = [[]];
-  let matches;
-  while ((matches = re.exec(data))) {
-    // skip empty lines
-    if (!matches[3]) {
-      continue;
-    }
-    // push new array to results array
-    if (matches[1].length && matches[1] !== ",") {
-      result.push([]);
-    }
-    // push item to array within array
-    result[result.length - 1].push(matches[2] !== undefined ? matches[2].replace(/""/g, '"') : matches[3]);
-  }
-  // remove last empty array element
-  result.pop();
-  return result;
+  const parsedData = Papa.parse(data, {
+    header: false,
+    skipEmptyLines: true,
+  });
+  return parsedData.data;
 }
 
 /**
@@ -154,7 +142,7 @@ function initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCo
 
 export default function CSVLoader(props) {
   const { i18n, t } = useTranslation();
-  let csvData = csvStringToArray(props.csvFileUploadText);
+  const csvData = useMemo(() => csvStringToArray(props.csvFileUploadText), [props.csvFileUploadText]);
   const [roundCount, setRoundCount] = useState(-1);
   const [roundFinalCount, setRoundFinalCount] = useState(-1);
   const [noHeader, setNoHeader] = useState(false);
