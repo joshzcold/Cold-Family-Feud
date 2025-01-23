@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import { ERROR_CODES } from "@/i18n/errorCodes";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
+import CSVRow from "./CSVRow";
 
 export function csvStringToArray(data) {
   const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;
@@ -208,44 +209,16 @@ export default function CSVLoader(props) {
           </div>
         </div>
         <div className="flex h-96 flex-col overflow-x-scroll bg-secondary-500 p-2 ">
-          {csvData.map((row, roundCounter) => {
-            return (
-              <div
-                key={`csvloader-round-${roundCounter}`}
-                id={`csvRow${roundCounter}`}
-                className="grid grid-flow-col divide-x divide-dashed divide-secondary-900"
-              >
-                {row.map((col, colidx) => {
-                  let rowBackgroundColor = "bg-secondary-500";
-                  let rowTextColor = "text-foreground";
-                  let roundOffSet = 0;
-                  if (noHeader) {
-                    roundOffSet = -1;
-                  }
-                  if (roundCounter === 0 && !noHeader) {
-                    rowTextColor = "text-secondary-900";
-                  } else if (roundCounter - 1 < roundCount + roundOffSet) {
-                    rowBackgroundColor = "bg-success-200";
-                  } else if (roundCounter - 1 < roundCount + roundFinalCount + roundOffSet) {
-                    rowBackgroundColor = "bg-primary-200";
-                  } else {
-                    rowTextColor = "text-secondary-900";
-                  }
-                  if (col.length !== 0) {
-                    return (
-                      <div
-                        id={`csvRow${roundCounter}Col${colidx}`}
-                        key={`csvloader-round-${roundCounter}-${colidx}`}
-                        className={`w-96 p-4 font-bold ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
-                      >
-                        <p className="truncate">{col}</p>
-                      </div>
-                    );
-                  }
-                })}
-              </div>
-            );
-          })}
+          {csvData.map((row, roundCounter) => (
+            <CSVRow
+              key={`csvloader-round-${roundCounter}`}
+              row={row}
+              roundCounter={roundCounter}
+              noHeader={noHeader}
+              roundCount={roundCount}
+              roundFinalCount={roundFinalCount}
+            />
+          ))}
         </div>
         <div className="grid gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
           <div className="flex flex-row items-center space-x-5">
