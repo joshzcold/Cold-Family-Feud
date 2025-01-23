@@ -1,19 +1,16 @@
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import { ERROR_CODES } from "@/i18n/errorCodes";
-import { useEffect, useRef, useState } from "react";
+import Papa from "papaparse";
+import { useEffect, useMemo, useState } from "react";
+import CSVRow from "./CSVRow";
 
 export function csvStringToArray(data) {
-  const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi;
-  const result = [[]];
-  let matches;
-  while ((matches = re.exec(data))) {
-    if (matches[1].length && matches[1] !== ",") result.push([]);
-    result[result.length - 1].push(matches[2] !== undefined ? matches[2].replace(/""/g, '"') : matches[3]);
-  }
-  // remove last empty array element
-  result.pop();
-  return result;
+  const parsedData = Papa.parse(data, {
+    header: false,
+    skipEmptyLines: true,
+  });
+  return parsedData.data;
 }
 
 /**
@@ -75,7 +72,7 @@ function csvToColdFriendlyFeudFormat(csvData, roundCount, roundFinalCount, noHea
     let answer = true;
     let answerCount = 0;
     let index = parseInt(row) + parseInt(headerOffSet);
-    console.log(row, roundCount + roundFinalCount + headerOffSet);
+    console.debug(row, roundCount + roundFinalCount + headerOffSet);
     if (index < roundCount + headerOffSet) {
       colLoop: for (let col = 0; col < csvData[index].length; col++) {
         if (col === 0) {
@@ -115,21 +112,51 @@ function csvToColdFriendlyFeudFormat(csvData, roundCount, roundFinalCount, noHea
   send({ action: "load_game", data: gameTemplate });
 }
 
+/**
+ * If first time loading, then count up the initial count of round and final round
+ *  so that users start with a round and final round count
+ *  that is less than their CSV document.
+ */
+function initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCount, setRoundFinalCount, noHeader) {
+  if (roundCount < 0 || roundFinalCount < 0) {
+    let headerOffSet = noHeader ? 0 : 1;
+    let _roundCount = 0;
+    let _roundCountDefaultLimit = 6;
+    let _finalRoundCount = 0;
+    let _finalRoundCountDefaultLimit = 4;
+    for (let _ in csvData) {
+      if (_roundCount < _roundCountDefaultLimit && _roundCount + headerOffSet < csvData.length) {
+        _roundCount++;
+      } else if (
+        _finalRoundCount < _finalRoundCountDefaultLimit &&
+        _finalRoundCount + _roundCount + headerOffSet < csvData.length
+      ) {
+        _finalRoundCount++;
+      }
+    }
+    console.debug(_roundCount, _finalRoundCount, csvData.length);
+    setRoundCount(_roundCount);
+    setRoundFinalCount(_finalRoundCount);
+  }
+}
+
 export default function CSVLoader(props) {
   const { i18n, t } = useTranslation();
-  let csvData = csvStringToArray(props.csvFileUploadText);
-  const [roundCount, setRoundCount] = useState(6);
-  const [roundFinalCount, setRoundFinalCount] = useState(4);
+  const csvData = useMemo(() => csvStringToArray(props.csvFileUploadText), [props.csvFileUploadText]);
+  const [roundCount, setRoundCount] = useState(-1);
+  const [roundFinalCount, setRoundFinalCount] = useState(-1);
   const [noHeader, setNoHeader] = useState(false);
   const [error, setError] = useState(false);
   const [timer, setTimer] = useState(20);
   const [timer2nd, setTimer2nd] = useState(25);
   useEffect(() => {
     setError(null);
+    initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCount, setRoundFinalCount, noHeader);
     validateCsv(csvData, roundCount, roundFinalCount, noHeader, setError, t);
-  });
+  }, [csvData, roundCount, roundFinalCount, noHeader, t]);
+  let headerOffSet = noHeader ? 0 : 1;
   return (
-    <div className="fixed inset-0 size-full overflow-y-auto bg-gray-600 bg-opacity-50">
+    <div className="bg-opacity/50 fixed inset-0 size-full overflow-y-auto bg-gray-600">
       <div className="relative top-20 mx-auto flex w-3/4 flex-col space-y-5 rounded-md border bg-background p-5 shadow-lg">
         <div className="flex flex-row items-center space-x-2">
           <div className="w-4">
@@ -170,50 +197,22 @@ export default function CSVLoader(props) {
           </div>
         </div>
         <div className="flex h-96 flex-col overflow-x-scroll bg-secondary-500 p-2 ">
-          {csvData.map((row, roundCounter) => {
-            return (
-              <div
-                key={`csvloader-round-${roundCounter}`}
-                id={`csvRow${roundCounter}`}
-                className="grid grid-flow-col divide-x divide-dashed divide-secondary-900"
-              >
-                {row.map((col, colidx) => {
-                  let rowBackgroundColor = "bg-secondary-500";
-                  let rowTextColor = "text-foreground";
-                  let roundOffSet = 0;
-                  if (noHeader) {
-                    roundOffSet = -1;
-                  }
-                  if (roundCounter === 0 && !noHeader) {
-                    rowTextColor = "text-secondary-900";
-                  } else if (roundCounter - 1 < roundCount + roundOffSet) {
-                    rowBackgroundColor = "bg-success-200";
-                  } else if (roundCounter - 1 < roundCount + roundFinalCount + roundOffSet) {
-                    rowBackgroundColor = "bg-primary-200";
-                  } else {
-                    rowTextColor = "text-secondary-900";
-                  }
-                  if (col.length !== 0) {
-                    return (
-                      <div
-                        id={`csvRow${roundCounter}Col${colidx}`}
-                        key={`csvloader-round-${roundCounter}-${colidx}`}
-                        className={`w-96 p-4 font-bold ${rowBackgroundColor} ${rowTextColor} border-y border-dashed border-secondary-900 `}
-                      >
-                        <p className="truncate">{col}</p>
-                      </div>
-                    );
-                  }
-                })}
-              </div>
-            );
-          })}
+          {csvData.map((row, roundCounter) => (
+            <CSVRow
+              key={`csvloader-round-${roundCounter}`}
+              row={row}
+              roundCounter={roundCounter}
+              noHeader={noHeader}
+              roundCount={roundCount}
+              roundFinalCount={roundFinalCount}
+            />
+          ))}
         </div>
         <div className="grid gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvSetNoHeaderInput">
               <p className="text-xl normal-case text-foreground">{t("No Header")}:</p>
-            </div>
+            </label>
             <input
               id="csvSetNoHeaderInput"
               className="size-4 rounded bg-secondary-900 text-foreground"
@@ -225,16 +224,21 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvSetRoundCountInput">
               <p className="text-xl normal-case text-foreground">{t("Rounds")}:</p>
-            </div>
+            </label>
             <input
               id="csvSetRoundCountInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
+                // Rounds must always be atleast 1
                 if (value === 0) {
                   value = 1;
+                }
+                // Don't allow more rounds than available data
+                if (value + roundFinalCount + headerOffSet > csvData.length) {
+                  return;
                 }
                 setRoundCount(value);
               }}
@@ -244,14 +248,18 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvSetFinalRoundCountInput">
               <p className="text-xl normal-case text-foreground">{t("Final Rounds")}:</p>
-            </div>
+            </label>
             <input
               id="csvSetFinalRoundCountInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
               onChange={(e) => {
                 let value = parseInt(e.target.value);
+                // Don't allow more rounds than available data
+                if (value + roundCount + headerOffSet > csvData.length) {
+                  return;
+                }
                 setRoundFinalCount(value);
               }}
               value={roundFinalCount}
@@ -260,9 +268,9 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvFinalRoundTimerInput">
               <p className="text-xl normal-case text-foreground">{t("Final Round Timer")}:</p>
-            </div>
+            </label>
             <input
               id="csvFinalRoundTimerInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
@@ -276,9 +284,9 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvFinalRound2ndTimerInput">
               <p className="text-xl normal-case text-foreground">{t("2nd Final Round Timer")}:</p>
-            </div>
+            </label>
             <input
               id="csvFinalRound2ndTimerInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"

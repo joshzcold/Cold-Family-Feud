@@ -194,6 +194,8 @@ test("can see mistakes", async ({ browser }) => {
     expect(count1).toBe(2);
     expect(count2).toBe(1);
   }).toPass({ timeout: 5000 });
+
+  await adminPage.quitButton.click();
 });
 
 test("can use timer controls", async ({ browser }) => {
