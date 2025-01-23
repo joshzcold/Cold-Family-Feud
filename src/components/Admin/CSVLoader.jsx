@@ -164,7 +164,7 @@ export default function CSVLoader(props) {
     setError(null);
     initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCount, setRoundFinalCount, noHeader);
     validateCsv(csvData, roundCount, roundFinalCount, noHeader, setError, t);
-  });
+  }, [csvData, roundCount, roundFinalCount, noHeader, t]);
   let headerOffSet = noHeader ? 0 : 1;
   return (
     <div className="fixed inset-0 size-full overflow-y-auto bg-gray-600 bg-opacity-50">
