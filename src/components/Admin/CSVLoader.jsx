@@ -249,9 +249,9 @@ export default function CSVLoader(props) {
         </div>
         <div className="grid gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvSetNoHeaderInput">
               <p className="text-xl normal-case text-foreground">{t("No Header")}:</p>
-            </div>
+            </label>
             <input
               id="csvSetNoHeaderInput"
               className="size-4 rounded bg-secondary-900 text-foreground"
@@ -263,9 +263,9 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvSetRoundCountInput">
               <p className="text-xl normal-case text-foreground">{t("Rounds")}:</p>
-            </div>
+            </label>
             <input
               id="csvSetRoundCountInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
@@ -287,9 +287,9 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvSetFinalRoundCountInput">
               <p className="text-xl normal-case text-foreground">{t("Final Rounds")}:</p>
-            </div>
+            </label>
             <input
               id="csvSetFinalRoundCountInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
@@ -307,9 +307,9 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvFinalRoundTimerInput">
               <p className="text-xl normal-case text-foreground">{t("Final Round Timer")}:</p>
-            </div>
+            </label>
             <input
               id="csvFinalRoundTimerInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
@@ -323,9 +323,9 @@ export default function CSVLoader(props) {
             ></input>
           </div>
           <div className="flex flex-row items-center space-x-5">
-            <div>
+            <label htmlFor="csvFinalRound2ndTimerInput">
               <p className="text-xl normal-case text-foreground">{t("2nd Final Round Timer")}:</p>
-            </div>
+            </label>
             <input
               id="csvFinalRound2ndTimerInput"
               className="w-24 rounded bg-secondary-300 p-2 text-foreground"
