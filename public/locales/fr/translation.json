@@ -110,6 +110,9 @@
   "email": "email",
   "source code": "code source",
   "Question": "Question",
+  "Remove player's blindfold": "Retirer le bandeau du joueur", 
+  "Blindfold player": "Mettre un bandeau sur les yeux du joueur",
+  "Remove player from game": "Supprimer le joueur du jeu",
   "errors": {
     "room_not_found": "Salle introuvable",
     "host_quit": "L'hôte a quitté la partie",

@@ -90,3 +90,15 @@ export function validateGameData(game, { t }) {
   });
   return errors;
 }
+
+export function isValidFileType(file, allowedTypes) {
+  const fileName = file.name.toLowerCase();
+  const fileExtension = fileName.split(".").pop();
+
+  if (!allowedTypes[fileExtension]) {
+    return false;
+  }
+
+  const mimePattern = allowedTypes[fileExtension].pattern;
+  return mimePattern.test(file.type);
+}

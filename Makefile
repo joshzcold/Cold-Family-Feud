@@ -56,7 +56,7 @@ dev: build-dev
 	docker compose -p famf -f ./docker/${COMPOSE_FILE} up
 
 dev-background: build-dev
-	docker compose -p famf -f ./docker/${COMPOSE_FILE} up -d
+	docker compose -p famf -f ./docker/${COMPOSE_FILE} up -d --wait --wait-timeout 120
 
 dev-down:
 	docker compose -p famf -f ./docker/${COMPOSE_FILE} down

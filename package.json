@@ -12,6 +12,7 @@
     "lucide-react": "^0.469.0",
     "next": "^14.2.23",
     "next-themes": "^0.4.4",
+    "papaparse": "^5.5.1",
     "postcss": "^8.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -25,7 +26,7 @@
     "start_local": "NODE_ENV=local next start",
     "start_windows": "set NODE_ENV=local && next start",
     "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js",
-    "lint": "next lint --fix",
+    "lint": "next lint",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "husky install"
   },
