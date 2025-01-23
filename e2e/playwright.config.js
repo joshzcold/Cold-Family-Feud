@@ -1,5 +1,5 @@
 // @ts-check
-const { defineConfig, devices } = require('@playwright/test');
+const { defineConfig, devices } = require("@playwright/test");
 
 /**
  * Read environment variables from file.
@@ -11,7 +11,7 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  testDir: './tests',
+  testDir: "./tests",
   /* 60s timeout (initial build takes 60s) */
   timeout: 60000,
   /* Run tests in files in parallel */
@@ -23,19 +23,19 @@ module.exports = defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'line',
+  reporter: "line",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Ignore ssl for local dev */
     ignoreHTTPSErrors: true,
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://127.0.0.1',
+    baseURL: "https://127.0.0.1",
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: "on-first-retry",
 
     /* Swap test id to regular 'id' attribute */
-    testIdAttribute: 'id',
+    testIdAttribute: "id",
 
     /* Maximum time for navigation */
     navigationTimeout: 5000,
@@ -46,25 +46,18 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'docker',
-      testMatch: /global\.setup\.ts/,
-    },
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-      dependencies: ['docker'],
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
     },
 
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
-    //   dependencies: ['docker'],
     // },
     //
     // {
     //   name: 'webkit',
     //   use: { ...devices['Desktop Safari'] },
-    //   dependencies: ['docker'],
     // },
 
     /* Test against mobile viewports. */
@@ -95,4 +88,3 @@ module.exports = defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
-

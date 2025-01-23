@@ -110,6 +110,9 @@
   "donate": "menyumbangkan",
   "email": "surel",
   "source code": "Kode sumber",
+  "Remove player's blindfold": "Lepaskan penutup mata dari pemain", 
+  "Blindfold player": "Tutup mata pemain",
+  "Remove player from game": "Hapus pemain dari permainan",
   "errors": {
     "room_not_found": "Room tidak ditemukan",
     "host_quit": "Host keluar dari permainan",
