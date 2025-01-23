@@ -83,7 +83,7 @@ function csvToColdFriendlyFeudFormat(csvData, roundCount, roundFinalCount, noHea
     let answer = true;
     let answerCount = 0;
     let index = parseInt(row) + parseInt(headerOffSet);
-    console.log(row, roundCount + roundFinalCount + headerOffSet);
+    console.debug(row, roundCount + roundFinalCount + headerOffSet);
     if (index < roundCount + headerOffSet) {
       colLoop: for (let col = 0; col < csvData[index].length; col++) {
         if (col === 0) {
@@ -145,7 +145,7 @@ function initalizeCSVRoundCount(csvData, roundCount, setRoundCount, roundFinalCo
         _finalRoundCount++;
       }
     }
-    console.log(_roundCount, _finalRoundCount, csvData.length);
+    console.debug(_roundCount, _finalRoundCount, csvData.length);
     setRoundCount(_roundCount);
     setRoundFinalCount(_finalRoundCount);
   }
