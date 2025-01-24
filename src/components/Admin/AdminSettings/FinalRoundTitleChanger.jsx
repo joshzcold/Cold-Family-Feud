@@ -1,7 +1,7 @@
 import { debounce } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
 
-function FinalRoundTitleChanger({game, setGame, send}) {
+function FinalRoundTitleChanger({ game, setGame, send }) {
   const { t } = useTranslation();
   return (
     <div className="flex flex-row items-center space-x-5">

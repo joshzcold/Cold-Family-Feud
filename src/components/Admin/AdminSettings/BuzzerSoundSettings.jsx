@@ -1,7 +1,7 @@
 import InfoTooltip from "@/components/ui/tooltip";
 import { useTranslation } from "react-i18next";
 
-function BuzzerSoundSettings({game, setGame, send}) {
+function BuzzerSoundSettings({ game, setGame, send }) {
   const { t } = useTranslation();
 
   return (

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-function HideGameQuestions({game, setGame, send}) {
+function HideGameQuestions({ game, setGame, send }) {
   const { t } = useTranslation();
 
   return (

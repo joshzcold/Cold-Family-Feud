@@ -2,17 +2,17 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import { Buffer } from "buffer";
+import AdminSettings from "@/components/Admin/AdminSettings";
 import CSVLoader from "@/components/Admin/CSVLoader";
 import GameLoader from "@/components/Admin/GameLoader";
 import Players from "@/components/Admin/Players";
-import AdminSettings from "@/components/Admin/AdminSettings";
 import BuzzerTable from "@/components/BuzzerTable";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ERROR_CODES } from "@/i18n/errorCodes";
+import { debounce } from "@/lib/utils";
 import { FileUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { debounce } from "@/lib/utils";
 
 function TitleMusic() {
   const { i18n, t } = useTranslation();
@@ -362,7 +362,7 @@ export default function AdminPage(props) {
     console.error(e);
     setTimeout(() => {
       setErrorVal("");
-    }, 5000);
+    }, 10000);
   }
 
   function send(data) {
@@ -581,9 +581,9 @@ export default function AdminPage(props) {
               ></input>
             </div>
           </div>
-          <p id="errorText" className="text-xl text-failure-700">
+          <div id="errorText" className="whitespace-pre-wrap text-xl text-failure-700">
             {error.code ? t(error.code, { message: error.message }) : t(error)}
-          </p>
+          </div>
         </div>
         <hr className="my-12" />
         {/* ADMIN CONTROLS */}
