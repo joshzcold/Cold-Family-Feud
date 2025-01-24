@@ -362,7 +362,7 @@ export default function AdminPage(props) {
     console.error(e);
     setTimeout(() => {
       setErrorVal("");
-    }, 5000);
+    }, 10000);
   }
 
   function send(data) {
