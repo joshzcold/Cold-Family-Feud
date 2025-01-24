@@ -1,76 +1,103 @@
 # Doing Development on Friendly Feud
 
-## Dependencies
+## Table of Contents
+1. [Project Structure](#project-structure)
+2. [Dependencies](#dependencies)
+3. [Setup Instructions](#setup-instructions)
+4. [Quick Start](#quick-start)
+5. [Running Development](#running-development)
+6. [End-to-End Testing](#end-to-end-testing)
+7. [Frontend Overview](#frontend-overview)
+8. [Backend Overview](#backend-overview)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing Guidelines](#contributing-guidelines)
 
-Windows:
-
-It is required to run this project under [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install)
-
-Required Applications:
-
-- `make`
-
-- `docker`
-
-- `docker-compose`
-
-- `nodejs + npm` (Check `./Dockerfile`) for current supported version.
-
-- `golang`
-
-- `chromium` (for e2e tests)
-
-
-| Application                                                              | OS      | Install Method                                                                               |
-| ---                                                                      | ---     | ---                                                                                          |
-| [make](https://www.gnu.org/software/make/)                               | -       | -                                                                                            |
-| -                                                                        | Linux   | Install via package manager                                                                  |
-| -                                                                        | Macos   | Install via [homebrew](https://formulae.brew.sh/formula/make)                                |
-| -                                                                        | Windows | Install via package manager in WSL                                                           |
-| [docker](https://docs.docker.com/engine/install/)                        | -       | -                                                                                            |
-| -                                                                        | Linux   | Install via package manager                                                                  |
-| -                                                                        | Macos   | Install via [docker desktop](https://docs.docker.com/desktop/setup/install/mac-install/)     |
-| -                                                                        | Windows | Install via [docker desktop](https://docs.docker.com/desktop/features/wsl/)                  |
-| [docker-compose](https://docs.docker.com/compose/install/)               | -       | -                                                                                            |
-| -                                                                        | Linux   | Install via package manager                                                                  |
-| -                                                                        | Macos   | Install via [docker desktop](https://docs.docker.com/desktop/setup/install/mac-install/)     |
-| -                                                                        | Windows | Install via [docker desktop](https://docs.docker.com/desktop/features/wsl/)                  |
-| [nodejs + npm](https://nodejs.org/en/download)                           | -       | Follow instructions per each OS https://nodejs.org/en/download                               |
-| [golang](https://go.dev/doc/install)                                     | -       | Follow instructions per each OS https://go.dev/doc/install                                   |
-| [chromium](https://www.chromium.org/getting-involved/download-chromium/) | -       | Follow instructions per each OS https://www.chromium.org/getting-involved/download-chromium/ |
-
-
-## Running development
-
-Within the `Makefile` are several targets that you can run.
-
-These are ran like `make <target>`
-
-In order to launch the dev stack you need to run `make dev` which will first build the required docker containers before launching the stack in `docker compose`
-
-This is setup to "Volume Mount" your code and will auto re-build when you save changes to your source.
-
-On inital build the golang application may be slow to build, but we save the cache of that build back out, so subsequent builds will be faster.
-
-You can view logs of indivial containers by doing
-
-```sh
-# docker logs famf-[insert component here]-1 -f
-docker container ls
-docker logs famf-backend-1 -f
+## Project Structure
+```plaintext
+├── backend/               # Golang backend
+│   ├── api/               # Backend API and websocket logic
+│   ├── Dockerfile         # Backend Dockerfile
+│   ├── main.go            # Entry point for backend server
+├── docker/                # Docker and nginx configuration files
+│   ├── allinone/          # All-in-one Docker configuration
+│   ├── nginx/             # Nginx configuration
+│   └── docker-compose*.yaml # Docker compose files
+├── doc/                   # Documentation and development guide
+├── e2e/                   # End-to-end tests using Playwright
+├── games/                 # Pre-built game files in JSON format
+├── i18n/                  # Localization and translation files
+├── public/                # Static assets (images, fonts, etc.)
+├── scripts/               # Utility scripts for game creation
+├── Dockerfile             # Frontend dockerfile
+├── Dockerfile.allinone    # All-in-one dockerfile
+├── src/                   # Next.js frontend
+│   ├── components/        # React components
+│   ├── lib/               # Utility functions
+│   ├── pages/             # Next.js page components
 ```
 
-The "dev stack" is comprised of:
 
-- frontend -> the nextjs/nodejs application
-- backend  -> the golang application
-- proxy    -> nginx as the entry point
+## Dependencies
 
-Check out the [linux version](../docker/docker-compose.yaml) if on linux or macos
+### System Requirements
 
-Check out the [windows version](../docker/docker-compose-dev-wsl.yaml) if on windows
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Node.js](https://nodejs.org/) (version specified in `.nvmrc`)
+- [Go](https://go.dev/doc/install)
+- [Make](https://www.gnu.org/software/make/)
 
-## Running e2e tests
+> Note: Required versions are not updated, but newest versions should work 😅
+
+## Setup Instructions
+
+### Windows Setup
+
+For Windows users, we recommend using WSL.
+
+You might need to configure Windows firewall to allow WSL network access:
+```powershell
+# Add outbound rules
+netsh advfirewall firewall add rule name="WSL2 HTTPS Out" dir=out action=allow protocol=TCP localport=443
+netsh advfirewall firewall add rule name="WSL2 HTTP Out" dir=out action=allow protocol=TCP localport=80
+# Add inbound rules
+netsh advfirewall firewall add rule name="WSL2 HTTPS" dir=in action=allow protocol=TCP localport=443
+netsh advfirewall firewall add rule name="WSL2 HTTP" dir=in action=allow protocol=TCP localport=80
+```
+
+### Linux Setup
+
+Install dependencies
+
+## Quick Start
+1. Install dependencies
+2. Clone the repository
+3. Start development environment:
+   ```bash
+   make dev
+   ```
+4. Access the application at [localhost](https://localhost/)
+
+## Running development
+The stack consists of:
+
+- `frontend`: Next.js
+- `backend`: Golang
+- `proxy`: Nginx as the entry point
+
+The development environment is managed through a Makefile. Key commands include:
+
+- `make dev`: Builds and starts the development stack
+- `make dev-background`: Same as `make dev`, but detaches
+- `make dev-down`: Stops/removes the development stack
+
+Access the application at [localhost/](https://localhost/)
+
+The compose files should automatically be selected by the Makefile, but you can:
+- check out the [Linux version](../docker/docker-compose.yaml) if on Linux or Macos
+- check out the [WSL version](../docker/docker-compose-dev-wsl.yaml) if on Windows
+
+## End-to-End Testing
 
 `make e2e-ui` will launch [playwright](https://playwright.dev/)
 
@@ -78,32 +105,24 @@ The e2e tests are located in the [e2e](../e2e/) folder.
 
 Tests are marked with their `*.spec.js` file name
 
-## How the frontend works
+## Frontend Overview
+The frontend is using `Next.js` as its way to serve pages.
 
-The frontend is using `nextjs` as its way to serve pages.
-
-https://nextjs.org/docs/app/getting-started/project-structure
+[Next.js Project Structure](https://nextjs.org/docs/app/getting-started/project-structure)
 
 Code is arranged in the [./src](../src/) folder with [./src/pages/index.jsx](../src/pages/index.jsx) being the entry point
 
-From their you can expect the usual "ReactJS" functionality.
+From there you can expect the usual React functionality.
 
-The main libraries used are
-
-- reactjs
-- nextjs
-- tailwindcss
-
-
-The frontend connects back to the backend via the nginx proxy to setup a websocket connection that will control its behavior when data comes in.
+The `frontend` connects back to the `backend` via the `nginx` proxy to setup a WebSocket connection that will control its behavior when data comes in.
 
 We store a cookie to keep the user's session in the game as they refresh the page.
 
 ### Working with styles
 
-You can use anything from [tailwindcss](https://tailwindcss.com/) as long as the colors you use match the colors found in  [tailwind.config.js](../tailwind.config.js)
+You can use anything from [TailwindCSS](https://tailwindcss.com/) as long as the colors you use match the colors found in  [tailwind.config.js](../tailwind.config.js)
 
-```javascript
+```js
 // ....
 success: {
     900: "#14532D",
@@ -131,11 +150,11 @@ This looks like
 
 What this does is setup a "Theme" we use for the theme picker for the game, so make sure you use the colors named in that configuration file.
 
-## How the backend works
+## Backend Overview
 
-The backend is a golang application in [./backend](../backend/)
+The backend is a `Golang` application located in [./backend](../backend/).
 
-The entry point of the application is `main.go` where we start our main websocket server
+The entry point is `main.go`, where we start our WebSocket server:
 
 ```go
 http.HandleFunc("/api/ws", func(httpWriter http.ResponseWriter, httpRequest *http.Request) {
@@ -143,7 +162,7 @@ http.HandleFunc("/api/ws", func(httpWriter http.ResponseWriter, httpRequest *htt
 })
 ```
 
-We also set a up "store" that backend functions will interact with later to store game data.
+We also set up a "store" that backend functions interact with to store game data:
 
 ```go
 err := api.NewGameStore(cfg.store)
@@ -164,25 +183,22 @@ func NewGameStore(gameStore string) error {
 }
 ```
 
-The variable `store` is a variable that functions will expect to use to read and write data to "state"
+The variable `store` is used by functions to read and write game state:
 
 ```go
 var store gameStore
 ```
 
-
-This in turn sets up a connect to the frontend and creates 2 [goroutines](https://go.dev/tour/concurrency/1)  that asyncronously read and write back to the client.
+This setup creates a connection to the frontend and establishes two [goroutines](https://go.dev/tour/concurrency/1) that asynchronously read and write to the client:
 
 ```go
 go client.writePump()
 go client.readPump()
 ```
 
-If you look in `readPump()` you will see we get the message and pass it off to `EventPipe()`
+In `readPump()`, we receive messages and pass them to `EventPipe()`.
 
-`EventPipe()` is located in [backend/api/pipe.go](../backend/api/pipe.go) and is the next "Entry Point" of the application.
-
-This is where we take the "events" coming from the backend and run our backend functions.
+`EventPipe()` is located in [backend/api/pipe.go](../backend/api/pipe.go) and serves as the next entry point for handling events from the frontend.
 
 We parse messages like these in the `parseEvent()` function:
 
@@ -202,23 +218,22 @@ func parseEvent(message []byte) (*Event, error) {
 }
 ```
 
-Then if the action is something found in the `recieveActions` map then we will call
-that function that matches the action key.
+If the action exists in the `receiveActions` map, we call the corresponding function.
 
-From there the backend functions will a similar pattern:
+Backend functions typically follow this pattern:
 
-1. get data the store matching the room.
-2. do some actions on the new data.
-3. send back data either to the player or the whole room.
-4. write back changes to the data back to the store.
+1. Retrieve data from the store for the specified room
+2. Perform actions on the data
+3. Send updated data to the player or the entire room
+4. Write changes back to the store
 
-If you see something like this
+When you see code like this:
 
 ```go
 client.send <- message
 ```
 
-or 
+or
 
 ```go
 if room.Hub.broadcast != nil {
@@ -229,31 +244,48 @@ if room.Hub.stop != nil {
 }
 ```
 
-We are sending data back to goroutines set when either we initalized the player connection 
-or we created a [Hub](../backend/api/hub.go) when we started the room which holds all of the player connections.
+We're sending data back to goroutines initialized when the player connects or when a [Hub](../backend/api/hub.go) is created for the room.
 
+### Writing a new Store
 
-### Writing a new "Store"
+Creating a new game store is straightforward.
 
-Writing a new game store can be pretty straight forward.
-
-There is a go interface located in [backend/api/store.go](../backend/api/store.go) that defines the functions a new game store must have.
+The Go interface in [backend/api/store.go](../backend/api/store.go) defines the required functions:
 
 ```go
 type gameStore interface {}
 ```
 
-You can see simple examples in the memory store located in [backend/api/store-memory.go](../backend/api/store-memory.go)
+For a simple example, see the memory store in [backend/api/store-memory.go](../backend/api/store-memory.go), which uses a `map` to store game data.
 
-Which is just a big `map` that holds all of the games.
+> Note: Production deployments currently use the `sqlite` store.
 
-> Production deployments currently use the `sqlite` store.
-
-If you see
+When you see:
 
 ```go
 m.mu.RLock()
 defer m.mu.RUnlock()
 ```
 
-That is because clients are accessing these functions in asynchronous goroutines and this lock prevents race conditions while accessing memory.
+This lock prevents race conditions when accessing memory in asynchronous goroutines.
+
+
+## Troubleshooting
+
+1. If localhost doesn't work, try using `127.0.0.1` instead. On Windows with WSL, verify with `curl localhost`
+2. For WebSocket issues:
+   - Verify the backend is running
+3. If node_modules aren't updating:
+   ```sh
+   make dev-down
+   make dev
+   ```
+
+## Contributing Guidelines
+We welcome contributions! Please follow these guidelines:
+1. Fork the repository and create your branch from `master`
+2. Follow the existing code style and architecture
+3. Write commit messages using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+4. Add tests for new features
+5. Update documentation when making changes
+6. Open a pull request with a detailed description
