@@ -143,11 +143,11 @@ function FinalRoundButtonControls(props) {
           className="grow rounded border-4 bg-secondary-300 p-5 text-2xl text-foreground"
           id={`finalRoundAnswers${i}SubmitButton`}
           onClick={() => {
-            x.points = x.selection !== -1 ? x.answers[x.selection][1] : 0;
+            x.points = x.selection !== 0 ? x.answers[x.selection - 1][1] : 0;
             props.setGame((prv) => ({ ...prv }));
             props.send({ action: "data", data: props.game });
             props.send({
-              action: x.selection !== -1 ? "final_submit" : "mistake",
+              action: x.selection !== 0 ? "final_submit" : "mistake",
             });
           }}
         >
