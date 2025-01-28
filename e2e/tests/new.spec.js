@@ -2,6 +2,7 @@
 import { readFileSync } from "node:fs";
 import path from "path";
 import { expect, test } from "@playwright/test";
+import { PATHS } from "../utils/constants.js";
 import { Setup } from "./lib/Setup.js";
 import { NewGamePage } from "./models/NewGamePage.js";
 
@@ -43,8 +44,8 @@ test("Can create new game", async ({ browser }) => {
   const download = await downloadPromise;
 
   // Wait for the download process to complete and save the downloaded file somewhere.
-  await download.saveAs("/tmp/" + download.suggestedFilename());
-  const jsonData = await JSON.parse(readFileSync("/tmp/new-cold-feud.json", "utf-8"));
+  await download.saveAs(PATHS.DOWNLOADED_GAME_JSON);
+  const jsonData = await JSON.parse(readFileSync(PATHS.DOWNLOADED_GAME_JSON, "utf-8"));
   expect(jsonData.rounds[0].question).toBe("Question 1");
   expect(jsonData.rounds[0].answers[0].ans).toBe("Answer 1");
   expect(jsonData.final_round[0].question).toBe("Question 1");
@@ -57,7 +58,7 @@ test("Can create new game upload existing game", async ({ browser }) => {
   await host.page.goto("/new");
   const newGamePage = new NewGamePage(host.page);
   const fileChooserPromise = host.page.waitForEvent("filechooser");
-  const gameFilePath = path.join(__dirname, "../", "static", "game.json");
+  const gameFilePath = PATHS.GAME_JSON;
   await newGamePage.gamePicker.click();
   const fileChooser = await fileChooserPromise;
   await fileChooser.setFiles(gameFilePath);
