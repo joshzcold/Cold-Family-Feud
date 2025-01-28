@@ -15,25 +15,25 @@ test("Can create new game", async ({ browser }) => {
   await host.page.goto("/new");
   const newGamePage = new NewGamePage(host.page);
 
-  await newGamePage.round0QuestionInput.fill("Question 1");
-  await newGamePage.round0Answer0NameInput.fill("Answer 1");
-  await newGamePage.round0Answer0PointsInput.fill("");
-  await newGamePage.round0Answer0PointsInput.fill("20");
+  await newGamePage.rounds[0].questionInput.fill("Question 1");
+  await newGamePage.rounds[0].answers[0].nameInput.fill("Answer 1");
+  await newGamePage.rounds[0].answers[0].pointsInput.fill("");
+  await newGamePage.rounds[0].answers[0].pointsInput.fill("20");
 
-  await newGamePage.finalRoundQuestion0Input.fill("");
-  await newGamePage.finalRoundQuestion0Input.fill("Question 1");
+  await newGamePage.finalRound.questions[0].input.fill("");
+  await newGamePage.finalRound.questions[0].input.fill("Question 1");
 
-  await newGamePage.finalRoundQuestion0AddAnswerButton.click();
+  await newGamePage.finalRound.questions[0].addAnswerButton.click();
 
-  await newGamePage.finalRoundQuestion0Answer0Input.fill("Answer 1");
-  await newGamePage.finalRoundQuestion0AnswerPoints0Input.fill("");
-  await newGamePage.finalRoundQuestion0AnswerPoints0Input.fill("10");
+  await newGamePage.finalRound.questions[0].answers[0].input.fill("Answer 1");
+  await newGamePage.finalRound.questions[0].answers[0].points.fill("");
+  await newGamePage.finalRound.questions[0].answers[0].points.fill("10");
 
-  await newGamePage.finalRoundQuestion0AddAnswerButton.click();
+  await newGamePage.finalRound.questions[0].addAnswerButton.click();
 
-  await newGamePage.finalRoundQuestion0Answer1Input.fill("Answer 2");
-  await newGamePage.finalRoundQuestion0AnswerPoints1Input.fill("");
-  await newGamePage.finalRoundQuestion0AnswerPoints1Input.fill("20");
+  await newGamePage.finalRound.questions[0].answers[1].input.fill("Answer 2");
+  await newGamePage.finalRound.questions[0].answers[1].points.fill("");
+  await newGamePage.finalRound.questions[0].answers[1].points.fill("20");
 
   const downloadPromise = host.page.waitForEvent("download");
   await newGamePage.newGameSubmitButton.click();
@@ -61,22 +61,26 @@ test("Can create new game upload existing game", async ({ browser }) => {
   const jsonData = await JSON.parse(readFileSync(gameFilePath, "utf-8"));
   await newGamePage.gamePickerSubmitButton.click();
   await expect(async () => {
-    expect(await newGamePage.round0QuestionInput.inputValue()).toBe(jsonData.rounds[0].question);
-    expect(await newGamePage.round1QuestionInput.inputValue()).toBe(jsonData.rounds[1].question);
-    expect(await newGamePage.round2QuestionInput.inputValue()).toBe(jsonData.rounds[2].question);
-    expect(await newGamePage.round3QuestionInput.inputValue()).toBe(jsonData.rounds[3].question);
-    expect(await newGamePage.round4QuestionInput.inputValue()).toBe(jsonData.rounds[4].question);
+    expect(await newGamePage.rounds[0].questionInput.inputValue()).toBe(jsonData.rounds[0].question);
+    expect(await newGamePage.rounds[1].questionInput.inputValue()).toBe(jsonData.rounds[1].question);
+    expect(await newGamePage.rounds[2].questionInput.inputValue()).toBe(jsonData.rounds[2].question);
+    expect(await newGamePage.rounds[3].questionInput.inputValue()).toBe(jsonData.rounds[3].question);
+    expect(await newGamePage.rounds[4].questionInput.inputValue()).toBe(jsonData.rounds[4].question);
 
-    expect(await newGamePage.round5QuestionInput.inputValue()).toBe(jsonData.rounds[5].question);
+    expect(await newGamePage.rounds[5].questionInput.inputValue()).toBe(jsonData.rounds[5].question);
 
-    expect(await newGamePage.round5Answer0NameInput.inputValue()).toBe(jsonData.rounds[5].answers[0].ans.toString());
-    expect(await newGamePage.round5Answer0PointsInput.inputValue()).toBe(jsonData.rounds[5].answers[0].pnt.toString());
+    expect(await newGamePage.rounds[5].answers[0].nameInput.inputValue()).toBe(
+      jsonData.rounds[5].answers[0].ans.toString()
+    );
+    expect(await newGamePage.rounds[5].answers[0].pointsInput.inputValue()).toBe(
+      jsonData.rounds[5].answers[0].pnt.toString()
+    );
 
-    expect(await newGamePage.finalRoundQuestion0Input.inputValue()).toBe(jsonData.final_round[0].question);
-    expect(await newGamePage.finalRoundQuestion0Answer0Input.inputValue()).toBe(
+    expect(await newGamePage.finalRound.questions[0].input.inputValue()).toBe(jsonData.final_round[0].question);
+    expect(await newGamePage.finalRound.questions[0].answers[0].input.inputValue()).toBe(
       jsonData.final_round[0].answers[0][0].toString()
     );
-    expect(await newGamePage.finalRoundQuestion0AnswerPoints0Input.inputValue()).toBe(
+    expect(await newGamePage.finalRound.questions[0].answers[0].points.inputValue()).toBe(
       jsonData.final_round[0].answers[0][1].toString()
     );
   }).toPass();

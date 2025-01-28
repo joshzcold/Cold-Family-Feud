@@ -30,28 +30,28 @@ test("can use buzzers", async ({ browser }) => {
   await buzzerPage2.buzzerButton.click();
   await buzzerPage3.buzzerButton.click();
 
-  await expect(adminPage.playerBuzzed0NameText).toContainText(player1.name);
-  await expect(adminPage.playerBuzzed1NameText).toContainText(player2.name);
-  await expect(adminPage.playerBuzzed2NameText).toContainText(player3.name);
+  await expect(adminPage.players.buzzed[0].name).toContainText(player1.name);
+  await expect(adminPage.players.buzzed[1].name).toContainText(player2.name);
+  await expect(adminPage.players.buzzed[2].name).toContainText(player3.name);
 
   await adminPage.clearBuzzersButton.click();
 
-  await expect(adminPage.playerBuzzed0NameText).not.toBeVisible();
-  await expect(adminPage.playerBuzzed1NameText).not.toBeVisible();
-  await expect(adminPage.playerBuzzed2NameText).not.toBeVisible();
+  await expect(adminPage.players.buzzed[0].name).not.toBeVisible();
+  await expect(adminPage.players.buzzed[1].name).not.toBeVisible();
+  await expect(adminPage.players.buzzed[2].name).not.toBeVisible();
 
   await buzzerPage1.buzzerButton.click();
   await buzzerPage2.buzzerButton.click();
   await buzzerPage3.buzzerButton.click();
 
-  await adminPage.player0Team1QuitButton.click();
-  await adminPage.player0Team2QuitButton.click();
+  await adminPage.players.teamQuitButtons.team1[0].click();
+  await adminPage.players.teamQuitButtons.team2[0].click();
   // players shifted after first 1 quit
-  await adminPage.player0Team1QuitButton.click();
+  await adminPage.players.teamQuitButtons.team1[0].click();
 
-  await expect(adminPage.playerBuzzed0NameText).not.toBeVisible();
-  await expect(adminPage.playerBuzzed1NameText).not.toBeVisible();
-  await expect(adminPage.playerBuzzed2NameText).not.toBeVisible();
+  await expect(adminPage.players.buzzed[0].name).not.toBeVisible();
+  await expect(adminPage.players.buzzed[1].name).not.toBeVisible();
+  await expect(adminPage.players.buzzed[2].name).not.toBeVisible();
 });
 
 test("quit game should return to home page", async ({ browser }) => {
