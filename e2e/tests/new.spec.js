@@ -5,6 +5,10 @@ import { expect, test } from "@playwright/test";
 import { Setup } from "./lib/Setup.js";
 import { NewGamePage } from "./models/NewGamePage.js";
 
+test.afterEach(async ({ page }) => {
+  await page.close();
+});
+
 test("Can create new game", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
