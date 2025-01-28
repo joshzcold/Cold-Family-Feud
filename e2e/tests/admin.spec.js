@@ -6,6 +6,11 @@ import { AdminPage } from "./models/AdminPage.js";
 import { BuzzerPage } from "./models/BuzzerPage.js";
 import { GamePage } from "./models/GamePage.js";
 
+const TEST_FILES = {
+  GAME_JSON: path.join(__dirname, "../static/game.json"),
+  GAME_CSV: path.join(__dirname, "../static/game.csv"),
+};
+
 test("has correct room code", async ({ browser, baseURL }) => {
   const s = new Setup(browser);
   const host = await s.host();
@@ -85,7 +90,7 @@ test("can upload game", async ({ browser }) => {
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(path.join(__dirname, "../", "static", "game.json"));
+  await fileChooser.setFiles(TEST_FILES.GAME_JSON);
   await expect(async () => {
     await adminPage.startRoundOneButton.click();
     const buzzerPage = new BuzzerPage(player.page);
@@ -103,7 +108,7 @@ test("can upload csv game", async ({ browser }) => {
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(path.join(__dirname, "../", "static", "game.csv"));
+  await fileChooser.setFiles(TEST_FILES.GAME_CSV);
   expect(adminPage.csvErrorText).not.toBeVisible();
   await adminPage.csvSetNoHeaderInput.click();
   expect(adminPage.csvErrorText).toBeVisible();
@@ -137,7 +142,7 @@ test("can select final round answers", async ({ browser }) => {
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(path.join(__dirname, "../", "static", "game.json"));
+  await fileChooser.setFiles(TEST_FILES.GAME_JSON);
   await adminPage.startRoundOneButton.click();
   const buzzerPage = new BuzzerPage(player.page);
   await adminPage.finalRoundButton.click();
@@ -328,6 +333,6 @@ test("can answer final round questions", async ({ browser }) => {
     await expect(gamePage.finalRound1PointsTotalText).toBeVisible({ timeout: 2000 });
     expect(await gamePage.finalRound1PointsTotalText.textContent()).toBe(finalRound0PointsValue.toString());
   }).toPass({ timeout: 2000 });
-  
+
   await adminPage.quitButton.click();
 });
