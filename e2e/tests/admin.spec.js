@@ -1,15 +1,11 @@
 // @ts-check
 import path from "path";
 import { expect, test } from "@playwright/test";
+import { PATHS } from "../utils/constants.js";
 import { Setup } from "./lib/Setup.js";
 import { AdminPage } from "./models/AdminPage.js";
 import { BuzzerPage } from "./models/BuzzerPage.js";
 import { GamePage } from "./models/GamePage.js";
-
-const TEST_FILES = {
-  GAME_JSON: path.join(__dirname, "../static/game.json"),
-  GAME_CSV: path.join(__dirname, "../static/game.csv"),
-};
 
 test.afterEach(async ({ browser }) => {
   const contexts = browser.contexts();
@@ -93,7 +89,7 @@ test("can upload game", async ({ browser }) => {
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(TEST_FILES.GAME_JSON);
+  await fileChooser.setFiles(PATHS.GAME_JSON);
   await expect(async () => {
     await adminPage.startRoundOneButton.click();
     const buzzerPage = new BuzzerPage(player.page);
@@ -111,7 +107,7 @@ test("can upload csv game", async ({ browser }) => {
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(TEST_FILES.GAME_CSV);
+  await fileChooser.setFiles(PATHS.GAME_CSV);
   expect(adminPage.csv.errorText).not.toBeVisible();
   await adminPage.csv.settings.noHeader.click();
   expect(adminPage.csv.errorText).toBeVisible();
@@ -145,7 +141,7 @@ test("can select final round answers", async ({ browser }) => {
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(TEST_FILES.GAME_JSON);
+  await fileChooser.setFiles(PATHS.GAME_JSON);
   await adminPage.startRoundOneButton.click();
   const buzzerPage = new BuzzerPage(player.page);
   await adminPage.finalRound.button.click();
