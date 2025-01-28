@@ -328,4 +328,6 @@ test("can answer final round questions", async ({ browser }) => {
     await expect(gamePage.finalRound1PointsTotalText).toBeVisible({ timeout: 2000 });
     expect(await gamePage.finalRound1PointsTotalText.textContent()).toBe(finalRound0PointsValue.toString());
   }).toPass({ timeout: 2000 });
+  
+  await adminPage.quitButton.click();
 });
