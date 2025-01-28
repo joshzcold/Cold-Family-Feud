@@ -6,8 +6,11 @@ import { AdminPage } from "./models/AdminPage.js";
 import { BuzzerPage } from "./models/BuzzerPage.js";
 import { GamePage } from "./models/GamePage.js";
 
-test.afterEach(async ({ page }) => {
-  await page.close();
+test.afterEach(async ({ browser }) => {
+  const contexts = browser.contexts();
+  for (const context of contexts) {
+    await context.close();
+  }
 });
 
 test("can use buzzers", async ({ browser }) => {
