@@ -331,3 +331,12 @@ test("can answer final round questions", async ({ browser }) => {
     expect(await gamePage.finalRound1PointsTotalText.textContent()).toBe(finalRound0PointsValue.toString());
   }).toPass({ timeout: 2000 });
 });
+
+test("quit button should quit game and return to home page", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  await host.page.goto("/");
+  const adminPage = new AdminPage(host.page);
+  await adminPage.quitButton.click();
+  await expect(host.page).toHaveURL("/");
+});
