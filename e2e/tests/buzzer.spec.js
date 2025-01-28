@@ -53,3 +53,11 @@ test("can use buzzers", async ({ browser }) => {
   await expect(adminPage.playerBuzzed1NameText).not.toBeVisible();
   await expect(adminPage.playerBuzzed2NameText).not.toBeVisible();
 });
+
+test("quit game should return to home page", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const buzzerPage = new BuzzerPage(host.page);
+  await buzzerPage.quitButton.click();
+  await expect(host.page).toHaveURL("/");
+});
