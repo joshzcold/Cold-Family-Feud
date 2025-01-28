@@ -11,8 +11,11 @@ const TEST_FILES = {
   GAME_CSV: path.join(__dirname, "../static/game.csv"),
 };
 
-test.afterEach(async ({ page }) => {
-  await page.close();
+test.afterEach(async ({ browser }) => {
+  const contexts = browser.contexts();
+  for (const context of contexts) {
+    await context.close();
+  }
 });
 
 test("has correct room code", async ({ browser, baseURL }) => {
