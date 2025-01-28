@@ -301,3 +301,31 @@ test("can hide game board from player", async ({ browser }) => {
   await adminPage.player0Team1HideGameButton.click({ timeout: 2000 });
   await expect(buzzerPage1.playerBlindFoldedText).toBeVisible({ timeout: 2000 });
 });
+
+test("can answer final round questions", async ({ browser }) => {
+  const s = new Setup(browser);
+  const host = await s.host();
+  const spectator = await s.addPlayer(true);
+  const adminPage = new AdminPage(host.page);
+  const gamePage = new GamePage(spectator.page);
+
+  await adminPage.gameSelector.selectOption({ index: 1 });
+  await adminPage.finalRoundButton.click();
+
+  await adminPage.finalRoundAnswer0Input.fill("Answer One");
+  await adminPage.finalRoundAnswer0Selector.selectOption({ index: 1 });
+
+  await expect(async () => {
+    const finalRound0Text = await adminPage.page.$eval(
+      "#finalRoundAnswer0Selector",
+      (sel) => sel.options[sel.options.selectedIndex].textContent
+    );
+    const finalRound0PointsValue = parseInt(finalRound0Text.replace(/^\D+/g, ""));
+    await adminPage.finalRoundAnswer0RevealButton.click();
+    await adminPage.finalRoundAnswers0SubmitButton.click();
+
+    await expect(gamePage.finalRound1Answer0Text).toBeVisible({ timeout: 2000 });
+    await expect(gamePage.finalRound1PointsTotalText).toBeVisible({ timeout: 2000 });
+    expect(await gamePage.finalRound1PointsTotalText.textContent()).toBe(finalRound0PointsValue.toString());
+  }).toPass({ timeout: 2000 });
+});
