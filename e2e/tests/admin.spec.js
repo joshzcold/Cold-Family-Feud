@@ -11,6 +11,10 @@ const TEST_FILES = {
   GAME_CSV: path.join(__dirname, "../static/game.csv"),
 };
 
+test.afterEach(async ({ page }) => {
+  await page.close();
+});
+
 test("has correct room code", async ({ browser, baseURL }) => {
   const s = new Setup(browser);
   const host = await s.host();
@@ -22,7 +26,6 @@ test("has correct room code", async ({ browser, baseURL }) => {
   await host.page.goto(gameUrl);
   expect(host.page.url()).toEqual(baseURL + "/game");
   expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
-  await host.page.goto("/");
 });
 
 test("can join game", async ({ browser }) => {
@@ -33,7 +36,6 @@ test("can join game", async ({ browser }) => {
   const adminPage = new AdminPage(host.page);
   expect(buzzerPagePlayer.titleLogoImg).toBeVisible();
   expect(await buzzerPagePlayer.waitingForHostText.innerText()).toEqual("Waiting for host to start");
-  await adminPage.quitButton.click();
 });
 
 test("can pick game", async ({ browser }) => {
@@ -45,7 +47,6 @@ test("can pick game", async ({ browser }) => {
   await adminPage.startRoundOneButton.click();
   const buzzerPage = new BuzzerPage(player.page);
   expect(buzzerPage.answer0UnAnswered).toBeVisible();
-  await adminPage.quitButton.click();
 });
 
 test("can edit game settings", async ({ browser }) => {
@@ -79,7 +80,6 @@ test("can edit game settings", async ({ browser }) => {
   expect(gamePage.roundQuestionText).toBeVisible();
   await adminPage.themeSwitcherInput.selectOption({ index: 1 });
   expect(spectator.page.locator("body")).toHaveClass("darkTheme bg-background");
-  await adminPage.quitButton.click();
 });
 
 test("can upload game", async ({ browser }) => {
@@ -173,7 +173,6 @@ test("can select final round answers", async ({ browser }) => {
   expect(await buzzerPage.finalRound1Answer1Text.innerText()).toBe("TEST 2");
 
   expect(await buzzerPage.finalRound2Answer1Text.innerText()).toBe("TEST 3");
-  await adminPage.quitButton.click();
 });
 
 test("can see mistakes", async ({ browser }) => {
@@ -199,8 +198,6 @@ test("can see mistakes", async ({ browser }) => {
     expect(count1).toBe(2);
     expect(count2).toBe(1);
   }).toPass({ timeout: 5000 });
-
-  await adminPage.quitButton.click();
 });
 
 test("can use timer controls", async ({ browser }) => {
@@ -333,6 +330,4 @@ test("can answer final round questions", async ({ browser }) => {
     await expect(gamePage.finalRound1PointsTotalText).toBeVisible({ timeout: 2000 });
     expect(await gamePage.finalRound1PointsTotalText.textContent()).toBe(finalRound0PointsValue.toString());
   }).toPass({ timeout: 2000 });
-
-  await adminPage.quitButton.click();
 });
