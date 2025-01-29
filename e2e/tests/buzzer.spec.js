@@ -1,17 +1,8 @@
 // @ts-check
-import path from "path";
 import { expect, test } from "@playwright/test";
 import { Setup } from "./lib/Setup.js";
 import { AdminPage } from "./models/AdminPage.js";
 import { BuzzerPage } from "./models/BuzzerPage.js";
-import { GamePage } from "./models/GamePage.js";
-
-test.afterEach(async ({ browser }) => {
-  const contexts = browser.contexts();
-  for (const context of contexts) {
-    await context.close();
-  }
-});
 
 test("can use buzzers", async ({ browser }) => {
   const s = new Setup(browser);

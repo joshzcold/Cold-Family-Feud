@@ -1,17 +1,9 @@
 // @ts-check
 import { readFileSync } from "node:fs";
-import path from "path";
 import { expect, test } from "@playwright/test";
 import { PATHS } from "../utils/constants.js";
 import { Setup } from "./lib/Setup.js";
 import { NewGamePage } from "./models/NewGamePage.js";
-
-test.afterEach(async ({ browser }) => {
-  const contexts = browser.contexts();
-  for (const context of contexts) {
-    await context.close();
-  }
-});
 
 test("Can create new game", async ({ browser }) => {
   const s = new Setup(browser);
