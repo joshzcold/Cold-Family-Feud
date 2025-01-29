@@ -1,10 +1,9 @@
-// @ts-check
+import { PATHS } from "@/e2e/utils/constants";
 import { expect, test } from "@playwright/test";
-import { PATHS } from "../utils/constants.js";
-import { Setup } from "./lib/Setup.js";
-import { AdminPage } from "./models/AdminPage.js";
-import { BuzzerPage } from "./models/BuzzerPage.js";
-import { GamePage } from "./models/GamePage.js";
+import { Setup } from "../lib/Setup";
+import { AdminPage } from "../models/AdminPage";
+import { BuzzerPage } from "../models/BuzzerPage";
+import { GamePage } from "../models/GamePage";
 
 test("has correct room code", async ({ browser, baseURL }) => {
   const s = new Setup(browser);
@@ -14,7 +13,7 @@ test("has correct room code", async ({ browser, baseURL }) => {
   const gamePage = new GamePage(host.page);
 
   const gameUrl = await adminPage.openGameWindowButton.getAttribute("href");
-  await host.page.goto(gameUrl);
+  await host.page.goto(gameUrl as string);
   expect(host.page.url()).toEqual(baseURL + "/game");
   expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
 });
@@ -306,9 +305,9 @@ test("can answer final round questions", async ({ browser }) => {
   await expect(async () => {
     const finalRound0Text = await adminPage.page.$eval(
       "#finalRoundAnswer0Selector",
-      (sel) => sel.options[sel.options.selectedIndex].textContent
+      (sel: HTMLSelectElement) => sel.options[sel.options.selectedIndex].textContent
     );
-    const finalRound0PointsValue = parseInt(finalRound0Text.replace(/^\D+/g, ""));
+    const finalRound0PointsValue = parseInt(finalRound0Text!.replace(/^\D+/g, ""));
     await adminPage.finalRound.answers[0].reveal.click();
     await adminPage.finalRound.answers[0].submit.click();
 
