@@ -1,18 +1,9 @@
-// @ts-check
-import path from "path";
+import { PATHS } from "@/e2e/utils/constants";
 import { expect, test } from "@playwright/test";
-import { PATHS } from "../utils/constants.js";
-import { Setup } from "./lib/Setup.js";
-import { AdminPage } from "./models/AdminPage.js";
-import { BuzzerPage } from "./models/BuzzerPage.js";
-import { GamePage } from "./models/GamePage.js";
-
-test.afterEach(async ({ browser }) => {
-  const contexts = browser.contexts();
-  for (const context of contexts) {
-    await context.close();
-  }
-});
+import { Setup } from "../lib/Setup";
+import { AdminPage } from "../models/AdminPage";
+import { BuzzerPage } from "../models/BuzzerPage";
+import { GamePage } from "../models/GamePage";
 
 test("has correct room code", async ({ browser, baseURL }) => {
   const s = new Setup(browser);
@@ -22,7 +13,7 @@ test("has correct room code", async ({ browser, baseURL }) => {
   const gamePage = new GamePage(host.page);
 
   const gameUrl = await adminPage.openGameWindowButton.getAttribute("href");
-  await host.page.goto(gameUrl);
+  await host.page.goto(gameUrl as string);
   expect(host.page.url()).toEqual(baseURL + "/game");
   expect(await gamePage.roomCodeText.innerText()).toEqual(s.roomCode);
 });
@@ -58,27 +49,26 @@ test("can edit game settings", async ({ browser }) => {
   await adminPage.gameSelector.selectOption({ index: 1 });
 
   await adminPage.titleTextInput.fill("Test Title");
-  await host.page.waitForTimeout(500);
+  await expect(gamePage.titleLogoImg).toContainText("Test Title");
 
   await adminPage.teamOneNameInput.fill("");
   await adminPage.teamOneNameInput.fill("Test 1");
-  await host.page.waitForTimeout(500);
+  await expect(gamePage.getTeamNameByIndex(0)).toContainText("Test 1");
 
   await adminPage.teamTwoNameInput.fill("");
   await adminPage.teamTwoNameInput.fill("Test 2");
-  await host.page.waitForTimeout(500);
+  await expect(gamePage.getTeamNameByIndex(1)).toContainText("Test 2");
 
   await adminPage.titleCardButton.click();
-  await expect(async () => {
-    expect(await gamePage.titleLogoImg.innerText()).toContain("Test Title");
-    expect(await gamePage.getTeamNameText(0)).toContain("Test 1");
-    expect(await gamePage.getTeamNameText(1)).toContain("Test 2");
-  }).toPass();
   await adminPage.startRoundOneButton.click();
   await adminPage.hideQuestionsInput.click();
   expect(gamePage.roundQuestionText).toBeVisible();
+  const themeChanged = spectator.page.waitForFunction(() => document.body.classList.contains("darkTheme"), {
+    timeout: 10000,
+  });
   await adminPage.themeSwitcherInput.selectOption({ index: 1 });
-  expect(spectator.page.locator("body")).toHaveClass("darkTheme bg-background");
+  await themeChanged;
+  await expect(spectator.page.locator("body")).toHaveClass("darkTheme bg-background");
 });
 
 test("can upload game", async ({ browser }) => {
@@ -184,18 +174,11 @@ test("can see mistakes", async ({ browser }) => {
   await adminPage.startRoundOneButton.click();
 
   await adminPage.team0MistakeButton.click();
-  await host.page.waitForTimeout(500);
+  await expect(gamePage.team0MistakesList.locator("div")).toHaveCount(1);
   await adminPage.team0MistakeButton.click();
-  await host.page.waitForTimeout(500);
+  await expect(gamePage.team0MistakesList.locator("div")).toHaveCount(2);
   await adminPage.team1MistakeButton.click();
-  await host.page.waitForTimeout(500);
-
-  await expect(async () => {
-    const count1 = await gamePage.team0MistakesList.locator("div").count();
-    const count2 = await gamePage.team1MistakesList.locator("div").count();
-    expect(count1).toBe(2);
-    expect(count2).toBe(1);
-  }).toPass({ timeout: 5000 });
+  await expect(gamePage.team1MistakesList.locator("div")).toHaveCount(1);
 });
 
 test("can use timer controls", async ({ browser }) => {
@@ -217,11 +200,15 @@ test("can use timer controls", async ({ browser }) => {
 
   const currentTimerText = await gamePage.finalRoundTimerText.innerText();
   const currentTimerNum = parseInt(currentTimerText.replace(/^\D+/g, ""));
-  expect(currentTimerNum).toBeGreaterThan(0);
 
   await adminPage.startTimerButton.click();
 
-  await host.page.waitForTimeout(2000);
+  await expect(async () => {
+    const timerText = await gamePage.finalRoundTimerText.innerText();
+    const timerNum = parseInt(timerText.replace(/^\D+/g, ""));
+    expect(timerNum).toBeLessThan(currentTimerNum);
+  }).toPass({ timeout: 5000 });
+
   await adminPage.stopTimerButton.click();
   const newTimerText = await gamePage.finalRoundTimerText.innerText();
   const newTimerNum = parseInt(newTimerText.replace(/^\D+/g, ""));
@@ -318,9 +305,9 @@ test("can answer final round questions", async ({ browser }) => {
   await expect(async () => {
     const finalRound0Text = await adminPage.page.$eval(
       "#finalRoundAnswer0Selector",
-      (sel) => sel.options[sel.options.selectedIndex].textContent
+      (sel: HTMLSelectElement) => sel.options[sel.options.selectedIndex].textContent
     );
-    const finalRound0PointsValue = parseInt(finalRound0Text.replace(/^\D+/g, ""));
+    const finalRound0PointsValue = parseInt(finalRound0Text!.replace(/^\D+/g, ""));
     await adminPage.finalRound.answers[0].reveal.click();
     await adminPage.finalRound.answers[0].submit.click();
 

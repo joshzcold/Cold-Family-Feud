@@ -39,8 +39,8 @@ class GamePage {
     this.quitButton = page.getByTestId("quitButton");
   }
 
-  async getTeamNameText(index) {
-    return await this.getTeamNameByIndex(index).textContent();
+  async getTeamName(index) {
+    return this.getTeamNameByIndex(index);
   }
 }
 
