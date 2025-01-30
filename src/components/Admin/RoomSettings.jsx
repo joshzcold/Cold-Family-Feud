@@ -12,7 +12,7 @@ function RoomSettings({
   setCsvFileUploadText,
   quitGame
 }) {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
   return (
     <div className="min-h-full">
       {/* ROOM CODE TEXT */}
