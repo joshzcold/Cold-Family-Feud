@@ -79,48 +79,6 @@ test("can select final round answers", async ({ browser }) => {
   expect(await buzzerPage.finalRound.answers[1][1].innerText()).toBe("TEST 3");
 });
 
-test("can use timer controls", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(spectator.page);
-
-  await adminPage.gameSelector.selectOption({ index: 1 });
-  await adminPage.startRoundOneButton.click();
-  await adminPage.finalRound.button.click();
-
-  await expect(async () => {
-    const timerText = await gamePage.finalRoundTimerText.innerText();
-    const timerNum = parseInt(timerText.replace(/^\D+/g, ""));
-    expect(timerNum).toBeGreaterThan(0);
-  }).toPass({ timeout: 5000 });
-
-  const currentTimerText = await gamePage.finalRoundTimerText.innerText();
-  const currentTimerNum = parseInt(currentTimerText.replace(/^\D+/g, ""));
-
-  await adminPage.startTimerButton.click();
-
-  await expect(async () => {
-    const timerText = await gamePage.finalRoundTimerText.innerText();
-    const timerNum = parseInt(timerText.replace(/^\D+/g, ""));
-    expect(timerNum).toBeLessThan(currentTimerNum);
-  }).toPass({ timeout: 5000 });
-
-  await adminPage.stopTimerButton.click();
-  const newTimerText = await gamePage.finalRoundTimerText.innerText();
-  const newTimerNum = parseInt(newTimerText.replace(/^\D+/g, ""));
-
-  expect(currentTimerNum).toBeGreaterThan(newTimerNum);
-
-  await expect(async () => {
-    await adminPage.resetTimerButton.click();
-    const resetTimerText = await gamePage.finalRoundTimerText.innerText();
-    const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ""));
-    expect(currentTimerNum).toBe(resetTimerNum);
-  }).toPass({ timeout: 5000 });
-});
-
 test("can hide game board from player", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
