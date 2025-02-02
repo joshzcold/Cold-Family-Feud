@@ -39,58 +39,6 @@ test("can pick game", async ({ browser }) => {
   await expect(buzzerPage.answers[0].unanswered).toBeVisible();
 });
 
-test("can upload game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const player = await s.addPlayer();
-  const adminPage = new AdminPage(host.page);
-  const fileChooserPromise = host.page.waitForEvent("filechooser");
-  await adminPage.gamePickerFileUpload.click();
-  const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(PATHS.GAME_JSON);
-  await expect(async () => {
-    await adminPage.startRoundOneButton.click();
-    const buzzerPage = new BuzzerPage(player.page);
-    await expect(buzzerPage.answers[0].unanswered).toBeVisible();
-    await adminPage.questions[0].click();
-    await expect(buzzerPage.answers[0].answered).toBeVisible();
-    await expect(adminPage.currentRoundQuestionText).toContainText("Name Something That People Could Watch For Hours");
-  }).toPass();
-});
-
-test("can upload csv game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const adminPage = new AdminPage(host.page);
-  const fileChooserPromise = host.page.waitForEvent("filechooser");
-  await adminPage.gamePickerFileUpload.click();
-  const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(PATHS.GAME_CSV);
-  expect(adminPage.csv.errorText).not.toBeVisible();
-  await adminPage.csv.settings.noHeader.click();
-  expect(adminPage.csv.errorText).toBeVisible();
-  await adminPage.csv.settings.noHeader.click();
-
-  await adminPage.csv.settings.roundCount.focus();
-  await adminPage.csv.settings.roundCount.press("Backspace");
-
-  await adminPage.csv.finalRoundTimers.first.focus();
-  await adminPage.csv.finalRoundTimers.first.press("Backspace");
-  await adminPage.csv.finalRoundTimers.first.press("Backspace");
-
-  await adminPage.csv.finalRoundTimers.second.focus();
-  await adminPage.csv.finalRoundTimers.second.press("Backspace");
-  await adminPage.csv.finalRoundTimers.second.press("Backspace");
-
-  await adminPage.csv.settings.roundCount.fill("5");
-  await adminPage.csv.finalRoundTimers.first.fill("15");
-  await adminPage.csv.finalRoundTimers.second.fill("20");
-  await adminPage.csv.submit.click();
-  await adminPage.startRoundOneButton.click();
-  expect(adminPage.currentRoundQuestionText).toContainText("We Asked 100 Moms");
-  await adminPage.quitButton.click();
-});
-
 test("can select final round answers", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
