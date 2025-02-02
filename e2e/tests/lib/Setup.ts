@@ -29,7 +29,7 @@ export class Setup {
       context: hostContext,
       page: await hostContext.newPage(),
     };
-    await this.clients.host.page.goto("/");
+    await this.clients.host.page.goto("/", { waitUntil: "domcontentloaded" });
     this.roomCode = await this.hostRoom(this.clients.host.page);
     console.log(`Started room: ${this.roomCode}`);
     return this.clients.host;
@@ -53,7 +53,7 @@ export class Setup {
     this.clients.players.push(newPlayerObj);
     // flip the current team.
     this.currentTeam = 1 - this.currentTeam;
-    await newPlayerObj.page.goto("/");
+    await newPlayerObj.page.goto("/", { waitUntil: "domcontentloaded" });
     if (isSpectator) {
       await this.joinRoomSpectator(newPlayerObj.page, newPlayerObj.name);
       console.log(`Spectator ${newPlayerName} added to game`);
