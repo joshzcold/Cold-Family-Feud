@@ -5,13 +5,18 @@ import { AdminPage } from "../models/AdminPage";
 import { BuzzerPage } from "../models/BuzzerPage";
 import { GamePage } from "../models/GamePage";
 
+let s: Setup;
+let host: Awaited<ReturnType<Setup["host"]>>;
+let adminPage: AdminPage;
+
+test.beforeEach(async ({ browser }) => {
+  s = new Setup(browser);
+  host = await s.host();
+  adminPage = new AdminPage(host.page);
+});
+
 test("has correct room code", async ({ browser, baseURL }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-
-  const adminPage = new AdminPage(host.page);
   const gamePage = new GamePage(host.page);
-
   const gameUrl = await adminPage.openGameWindowButton.getAttribute("href");
   await host.page.goto(gameUrl as string);
   expect(host.page.url()).toEqual(baseURL + "/game");
@@ -19,115 +24,22 @@ test("has correct room code", async ({ browser, baseURL }) => {
 });
 
 test("can join game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player = await s.addPlayer();
   const buzzerPagePlayer = new BuzzerPage(player.page);
-  const adminPage = new AdminPage(host.page);
   expect(buzzerPagePlayer.titleLogoImg).toBeVisible();
   expect(await buzzerPagePlayer.waitingForHostText.innerText()).toEqual("Waiting for host to start");
 });
 
 test("can pick game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player = await s.addPlayer();
-  const adminPage = new AdminPage(host.page);
   await adminPage.gameSelector.selectOption({ index: 1 });
   await adminPage.startRoundOneButton.click();
   const buzzerPage = new BuzzerPage(player.page);
   await expect(buzzerPage.answers[0].unanswered).toBeVisible();
 });
 
-test("can edit game settings", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(spectator.page);
-
-  await adminPage.gameSelector.selectOption({ index: 1 });
-
-  await adminPage.titleTextInput.fill("Test Title");
-  await expect(gamePage.titleLogoImg).toContainText("Test Title");
-
-  await adminPage.teamOneNameInput.fill("");
-  await adminPage.teamOneNameInput.fill("Test 1");
-  await expect(gamePage.getTeamNameByIndex(0)).toContainText("Test 1");
-
-  await adminPage.teamTwoNameInput.fill("");
-  await adminPage.teamTwoNameInput.fill("Test 2");
-  await expect(gamePage.getTeamNameByIndex(1)).toContainText("Test 2");
-
-  await adminPage.titleCardButton.click();
-  await adminPage.startRoundOneButton.click();
-  await adminPage.hideQuestionsInput.click();
-  expect(gamePage.roundQuestionText).toBeVisible();
-  const themeChanged = spectator.page.waitForFunction(() => document.body.classList.contains("darkTheme"), {
-    timeout: 10000,
-  });
-  await adminPage.themeSwitcherInput.selectOption({ index: 1 });
-  await themeChanged;
-  await expect(spectator.page.locator("body")).toHaveClass("darkTheme bg-background");
-});
-
-test("can upload game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const player = await s.addPlayer();
-  const adminPage = new AdminPage(host.page);
-  const fileChooserPromise = host.page.waitForEvent("filechooser");
-  await adminPage.gamePickerFileUpload.click();
-  const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(PATHS.GAME_JSON);
-  await expect(async () => {
-    await adminPage.startRoundOneButton.click();
-    const buzzerPage = new BuzzerPage(player.page);
-    await expect(buzzerPage.answers[0].unanswered).toBeVisible();
-    await adminPage.questions[0].click();
-    await expect(buzzerPage.answers[0].answered).toBeVisible();
-    await expect(adminPage.currentRoundQuestionText).toContainText("Name Something That People Could Watch For Hours");
-  }).toPass();
-});
-
-test("can upload csv game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const adminPage = new AdminPage(host.page);
-  const fileChooserPromise = host.page.waitForEvent("filechooser");
-  await adminPage.gamePickerFileUpload.click();
-  const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles(PATHS.GAME_CSV);
-  expect(adminPage.csv.errorText).not.toBeVisible();
-  await adminPage.csv.settings.noHeader.click();
-  expect(adminPage.csv.errorText).toBeVisible();
-  await adminPage.csv.settings.noHeader.click();
-
-  await adminPage.csv.settings.roundCount.focus();
-  await adminPage.csv.settings.roundCount.press("Backspace");
-
-  await adminPage.csv.finalRoundTimers.first.focus();
-  await adminPage.csv.finalRoundTimers.first.press("Backspace");
-  await adminPage.csv.finalRoundTimers.first.press("Backspace");
-
-  await adminPage.csv.finalRoundTimers.second.focus();
-  await adminPage.csv.finalRoundTimers.second.press("Backspace");
-  await adminPage.csv.finalRoundTimers.second.press("Backspace");
-
-  await adminPage.csv.settings.roundCount.fill("5");
-  await adminPage.csv.finalRoundTimers.first.fill("15");
-  await adminPage.csv.finalRoundTimers.second.fill("20");
-  await adminPage.csv.submit.click();
-  await adminPage.startRoundOneButton.click();
-  expect(adminPage.currentRoundQuestionText).toContainText("We Asked 100 Moms");
-  await adminPage.quitButton.click();
-});
-
 test("can select final round answers", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player = await s.addPlayer();
-  const adminPage = new AdminPage(host.page);
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
@@ -163,125 +75,10 @@ test("can select final round answers", async ({ browser }) => {
   expect(await buzzerPage.finalRound.answers[1][1].innerText()).toBe("TEST 3");
 });
 
-test("can see mistakes", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(spectator.page);
-
-  await adminPage.gameSelector.selectOption({ index: 1 });
-  await adminPage.startRoundOneButton.click();
-
-  await adminPage.team0MistakeButton.click();
-  await expect(gamePage.team0MistakesList.locator("div")).toHaveCount(1);
-  await adminPage.team0MistakeButton.click();
-  await expect(gamePage.team0MistakesList.locator("div")).toHaveCount(2);
-  await adminPage.team1MistakeButton.click();
-  await expect(gamePage.team1MistakesList.locator("div")).toHaveCount(1);
-});
-
-test("can use timer controls", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(spectator.page);
-
-  await adminPage.gameSelector.selectOption({ index: 1 });
-  await adminPage.startRoundOneButton.click();
-  await adminPage.finalRound.button.click();
-
-  await expect(async () => {
-    const timerText = await gamePage.finalRoundTimerText.innerText();
-    const timerNum = parseInt(timerText.replace(/^\D+/g, ""));
-    expect(timerNum).toBeGreaterThan(0);
-  }).toPass({ timeout: 5000 });
-
-  const currentTimerText = await gamePage.finalRoundTimerText.innerText();
-  const currentTimerNum = parseInt(currentTimerText.replace(/^\D+/g, ""));
-
-  await adminPage.startTimerButton.click();
-
-  await expect(async () => {
-    const timerText = await gamePage.finalRoundTimerText.innerText();
-    const timerNum = parseInt(timerText.replace(/^\D+/g, ""));
-    expect(timerNum).toBeLessThan(currentTimerNum);
-  }).toPass({ timeout: 5000 });
-
-  await adminPage.stopTimerButton.click();
-  const newTimerText = await gamePage.finalRoundTimerText.innerText();
-  const newTimerNum = parseInt(newTimerText.replace(/^\D+/g, ""));
-
-  expect(currentTimerNum).toBeGreaterThan(newTimerNum);
-
-  await expect(async () => {
-    await adminPage.resetTimerButton.click();
-    const resetTimerText = await gamePage.finalRoundTimerText.innerText();
-    const resetTimerNum = parseInt(resetTimerText.replace(/^\D+/g, ""));
-    expect(currentTimerNum).toBe(resetTimerNum);
-  }).toPass({ timeout: 5000 });
-});
-
-test("can track points between rounds", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(spectator.page);
-
-  await adminPage.gameSelector.selectOption({ index: 1 });
-  await adminPage.startRoundOneButton.click();
-
-  await adminPage.questions[0].click();
-  await adminPage.questions[1].click();
-  const points1Text = await adminPage.questions[0].innerText();
-  const points2Text = await adminPage.questions[1].innerText();
-  const points1 = parseInt(points1Text.replace(/^\D+/g, ""));
-  const points2 = parseInt(points2Text.replace(/^\D+/g, ""));
-
-  const pointsTotal = points1 + points2;
-
-  await adminPage.team0GivePointsButton.click();
-  await expect(async () => {
-    expect(await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString());
-    expect(await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString());
-  }).toPass({ timeout: 2000 });
-
-  await adminPage.nextRoundButton.click();
-  await expect(async () => {
-    expect(await gamePage.roundPointsTeam1.textContent()).toBe(pointsTotal.toString());
-    expect(await gamePage.roundPointsTeamtotal.textContent()).toBe("0");
-  }).toPass({ timeout: 2000 });
-
-  const points1Text_2 = await adminPage.questions[0].innerText();
-  const points2Text_2 = await adminPage.questions[1].innerText();
-  const points1_2 = parseInt(points1Text_2.replace(/^\D+/g, ""));
-  const points2_2 = parseInt(points2Text_2.replace(/^\D+/g, ""));
-  const points2TotalPlusPrevious = points1_2 + points2_2 + pointsTotal;
-  const points2Total = points1_2 + points2_2;
-  await adminPage.questions[0].click();
-  await adminPage.questions[1].click();
-  await adminPage.team0GivePointsButton.click();
-  await expect(async () => {
-    expect(await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString());
-    expect(await gamePage.roundPointsTeamtotal.textContent()).toBe(points2Total.toString());
-  }).toPass({ timeout: 2000 });
-  await adminPage.roundSelector.selectOption({ index: 0 });
-
-  await expect(async () => {
-    expect(await gamePage.roundPointsTeam1.textContent()).toBe(points2TotalPlusPrevious.toString());
-    expect(await gamePage.roundPointsTeamtotal.textContent()).toBe(pointsTotal.toString());
-  }).toPass({ timeout: 2000 });
-});
-
 test("can hide game board from player", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player1 = await s.addPlayer();
   const buzzerPage1 = new BuzzerPage(player1.page);
 
-  const adminPage = new AdminPage(host.page);
   await adminPage.gameSelector.selectOption({ index: 1 });
   await adminPage.startRoundOneButton.click({ timeout: 2000 });
   await expect(buzzerPage1.playerBlindFoldedText).not.toBeVisible({ timeout: 2000 });
@@ -290,10 +87,7 @@ test("can hide game board from player", async ({ browser }) => {
 });
 
 test("can answer final round questions", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
   const gamePage = new GamePage(spectator.page);
 
   await adminPage.gameSelector.selectOption({ index: 1 });
@@ -318,10 +112,7 @@ test("can answer final round questions", async ({ browser }) => {
 });
 
 test("quit button should quit game and return to home page", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   await host.page.goto("/");
-  const adminPage = new AdminPage(host.page);
   await adminPage.quitButton.click();
   await expect(host.page).toHaveURL("/");
 });

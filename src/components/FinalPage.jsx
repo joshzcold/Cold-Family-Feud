@@ -76,8 +76,8 @@ export default function FinalPage(props) {
       <div className="my-3 flex flex-row items-center justify-evenly align-middle">
         {/* Timer */}
         <div className="inline-block rounded bg-fastm-holder p-2">
-          <p id="finalRoundTimerText" className="text-3xl font-bold uppercase text-fastm-text">
-            {t("timer")} &nbsp;&nbsp;{t("number", { count: props.timer })}
+          <p id="finalRoundTimerLabel" className="text-3xl font-bold uppercase text-fastm-text">
+            {t("timer")} &nbsp;&nbsp;<span id="finalRoundTimerValue">{t("number", { count: props.timer })}</span>
           </p>
         </div>
         {/* Total */}

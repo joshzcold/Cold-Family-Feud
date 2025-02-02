@@ -35,7 +35,8 @@ class GamePage {
     this.roundPointsTeam1 = page.getByTestId("roundPointsTeam1");
     this.roundPointsTeam2 = page.getByTestId("roundPointsTeam2");
     this.roundPointsTeamtotal = page.getByTestId("roundPointsTeamtotal");
-    this.finalRoundTimerText = page.getByTestId("finalRoundTimerText");
+    this.finalRoundTimerLabel = page.getByTestId("finalRoundTimerLabel");
+    this.finalRoundTimerValue = page.getByTestId("finalRoundTimerValue");
     this.quitButton = page.getByTestId("quitButton");
   }
 

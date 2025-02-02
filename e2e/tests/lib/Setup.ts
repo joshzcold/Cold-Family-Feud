@@ -29,9 +29,8 @@ export class Setup {
       context: hostContext,
       page: await hostContext.newPage(),
     };
-    await this.clients.host.page.goto("/");
+    await this.clients.host.page.goto("/", { waitUntil: "domcontentloaded", timeout: 10000 });
     this.roomCode = await this.hostRoom(this.clients.host.page);
-    console.log(`Started room: ${this.roomCode}`);
     return this.clients.host;
   }
 
@@ -53,13 +52,11 @@ export class Setup {
     this.clients.players.push(newPlayerObj);
     // flip the current team.
     this.currentTeam = 1 - this.currentTeam;
-    await newPlayerObj.page.goto("/");
+    await newPlayerObj.page.goto("/", { waitUntil: "domcontentloaded", timeout: 10000 });
     if (isSpectator) {
       await this.joinRoomSpectator(newPlayerObj.page, newPlayerObj.name);
-      console.log(`Spectator ${newPlayerName} added to game`);
     } else {
       await this.joinRoom(newPlayerObj.page, newPlayerObj.team, newPlayerObj.name);
-      console.log(`Player ${newPlayerName} added to game`);
     }
     return newPlayerObj;
   }
@@ -91,7 +88,6 @@ export class Setup {
     await loginPage.roomCodeInput.fill(this.roomCode as string);
     await loginPage.playerNameInput.fill(playerName);
     await loginPage.joinRoomButton.click();
-    console.log(teamNumber);
     if (teamNumber === 0) {
       await bp.joinTeam1.click();
     } else if (teamNumber === 1) {
