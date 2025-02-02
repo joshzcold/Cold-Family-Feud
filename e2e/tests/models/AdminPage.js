@@ -27,7 +27,8 @@ class AdminPage {
       button: page.getByTestId("finalRoundButton"),
       title: page.getByTestId("finalRoundTitle"),
       titleInput: page.getByTestId("finalRoundTitleChangerInput"),
-      timerText: page.getByTestId("finalRoundTimerText"),
+      timerLabel: page.getByTestId("finalRoundTimerLabel"),
+      timerValue: page.getByTestId("finalRoundTimerValue"),
       answers: Array.from({length: 10}, (_, i) => ({
         input: page.getByTestId(`finalRoundAnswer${i}Input`),
         reveal: page.getByTestId(`finalRoundAnswer${i}RevealButton`),
