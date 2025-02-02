@@ -5,13 +5,18 @@ import { AdminPage } from "../models/AdminPage";
 import { BuzzerPage } from "../models/BuzzerPage";
 import { GamePage } from "../models/GamePage";
 
+let s: Setup;
+let host: Awaited<ReturnType<Setup["host"]>>;
+let adminPage: AdminPage;
+
+test.beforeEach(async ({ browser }) => {
+  s = new Setup(browser);
+  host = await s.host();
+  adminPage = new AdminPage(host.page);
+});
+
 test("has correct room code", async ({ browser, baseURL }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-
-  const adminPage = new AdminPage(host.page);
   const gamePage = new GamePage(host.page);
-
   const gameUrl = await adminPage.openGameWindowButton.getAttribute("href");
   await host.page.goto(gameUrl as string);
   expect(host.page.url()).toEqual(baseURL + "/game");
@@ -19,20 +24,14 @@ test("has correct room code", async ({ browser, baseURL }) => {
 });
 
 test("can join game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player = await s.addPlayer();
   const buzzerPagePlayer = new BuzzerPage(player.page);
-  const adminPage = new AdminPage(host.page);
   expect(buzzerPagePlayer.titleLogoImg).toBeVisible();
   expect(await buzzerPagePlayer.waitingForHostText.innerText()).toEqual("Waiting for host to start");
 });
 
 test("can pick game", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player = await s.addPlayer();
-  const adminPage = new AdminPage(host.page);
   await adminPage.gameSelector.selectOption({ index: 1 });
   await adminPage.startRoundOneButton.click();
   const buzzerPage = new BuzzerPage(player.page);
@@ -40,10 +39,7 @@ test("can pick game", async ({ browser }) => {
 });
 
 test("can select final round answers", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player = await s.addPlayer();
-  const adminPage = new AdminPage(host.page);
   const fileChooserPromise = host.page.waitForEvent("filechooser");
   await adminPage.gamePickerFileUpload.click();
   const fileChooser = await fileChooserPromise;
@@ -80,12 +76,9 @@ test("can select final round answers", async ({ browser }) => {
 });
 
 test("can hide game board from player", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const player1 = await s.addPlayer();
   const buzzerPage1 = new BuzzerPage(player1.page);
 
-  const adminPage = new AdminPage(host.page);
   await adminPage.gameSelector.selectOption({ index: 1 });
   await adminPage.startRoundOneButton.click({ timeout: 2000 });
   await expect(buzzerPage1.playerBlindFoldedText).not.toBeVisible({ timeout: 2000 });
@@ -94,10 +87,7 @@ test("can hide game board from player", async ({ browser }) => {
 });
 
 test("can answer final round questions", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
   const gamePage = new GamePage(spectator.page);
 
   await adminPage.gameSelector.selectOption({ index: 1 });
@@ -122,10 +112,7 @@ test("can answer final round questions", async ({ browser }) => {
 });
 
 test("quit button should quit game and return to home page", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
   await host.page.goto("/");
-  const adminPage = new AdminPage(host.page);
   await adminPage.quitButton.click();
   await expect(host.page).toHaveURL("/");
 });
