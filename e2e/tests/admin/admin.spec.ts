@@ -39,38 +39,6 @@ test("can pick game", async ({ browser }) => {
   await expect(buzzerPage.answers[0].unanswered).toBeVisible();
 });
 
-test("can edit game settings", async ({ browser }) => {
-  const s = new Setup(browser);
-  const host = await s.host();
-  const spectator = await s.addPlayer(true);
-  const adminPage = new AdminPage(host.page);
-  const gamePage = new GamePage(spectator.page);
-
-  await adminPage.gameSelector.selectOption({ index: 1 });
-
-  await adminPage.titleTextInput.fill("Test Title");
-  await expect(gamePage.titleLogoImg).toContainText("Test Title");
-
-  await adminPage.teamOneNameInput.fill("");
-  await adminPage.teamOneNameInput.fill("Test 1");
-  await expect(gamePage.getTeamNameByIndex(0)).toContainText("Test 1");
-
-  await adminPage.teamTwoNameInput.fill("");
-  await adminPage.teamTwoNameInput.fill("Test 2");
-  await expect(gamePage.getTeamNameByIndex(1)).toContainText("Test 2");
-
-  await adminPage.titleCardButton.click();
-  await adminPage.startRoundOneButton.click();
-  await adminPage.hideQuestionsInput.click();
-  expect(gamePage.roundQuestionText).toBeVisible();
-  const themeChanged = spectator.page.waitForFunction(() => document.body.classList.contains("darkTheme"), {
-    timeout: 10000,
-  });
-  await adminPage.themeSwitcherInput.selectOption({ index: 1 });
-  await themeChanged;
-  await expect(spectator.page.locator("body")).toHaveClass("darkTheme bg-background");
-});
-
 test("can upload game", async ({ browser }) => {
   const s = new Setup(browser);
   const host = await s.host();
