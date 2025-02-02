@@ -22,16 +22,19 @@ test.beforeEach(async ({ browser }) => {
   const fileChooser = await fileChooserPromise;
   await fileChooser.setFiles(PATHS.QUICK_GAME_JSON);
 
-  await adminPage.startRoundOneButton.click();
   await adminPage.finalRound.button.click();
 });
 
 test("initializes final round timer", async () => {
-  const timerNum = parseInt(await gamePage.finalRoundTimerValue.innerText());
-  expect(timerNum).toBeGreaterThan(0);
+  await expect(gamePage.finalRoundTimerValue).not.toHaveText("0");
 });
 
 test("starts and decreases timer", async () => {
+  await expect
+    .poll(async () => {
+      return parseInt(await gamePage.finalRoundTimerValue.innerText());
+    })
+    .toBeGreaterThan(0);
   const initialTimerNum = parseInt(await gamePage.finalRoundTimerValue.innerText());
   await adminPage.startTimerButton.click();
   await spectator.page.waitForTimeout(1000);
@@ -53,6 +56,7 @@ test("stops timer", async () => {
 });
 
 test("emits completion event when timer reaches zero", async () => {
+  await expect(gamePage.finalRoundTimerValue).not.toHaveText("0");
   await adminPage.startTimerButton.click();
   await expect(gamePage.finalRoundTimerValue).toHaveText("0", { timeout: 3000 });
 
@@ -81,6 +85,7 @@ test("toggles button states correctly", async () => {
 });
 
 test("resets timer", async () => {
+  await expect(gamePage.finalRoundTimerValue).not.toHaveText("0");
   const initialTimerNum = parseInt(await gamePage.finalRoundTimerValue.innerText());
 
   await adminPage.startTimerButton.click();
@@ -88,6 +93,9 @@ test("resets timer", async () => {
   await adminPage.stopTimerButton.click();
   await adminPage.resetTimerButton.click();
 
-  const postResetTimerNum = parseInt(await gamePage.finalRoundTimerValue.innerText());
-  expect(postResetTimerNum).toBe(initialTimerNum);
+  await expect
+    .poll(async () => {
+      return parseInt(await gamePage.finalRoundTimerValue.innerText());
+    })
+    .toBe(initialTimerNum);
 });
