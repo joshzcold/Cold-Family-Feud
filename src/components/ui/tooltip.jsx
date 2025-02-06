@@ -1,13 +1,14 @@
 import { Info } from "lucide-react";
 import { useState } from "react";
 
-const InfoTooltip = ({ message }) => {
+const ToolTipIcon = ({ message, Icon = Info, size = 20, cursor = "default" }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
     <div className="relative inline-block">
-      <Info
-        className="size-5 text-secondary-900 transition-colors hover:text-secondary-700"
+      <Icon
+        className={`cursor-${cursor} text-secondary-900 transition-colors hover:text-secondary-700`}
+        size={size}
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
       />
@@ -24,4 +25,4 @@ const InfoTooltip = ({ message }) => {
   );
 };
 
-export default InfoTooltip;
+export default ToolTipIcon;
