@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Buffer } from "buffer";
 import { FileUp } from "lucide-react";
+import { Image } from "next/image";
 
 function BeforeUpload({ send, room, setGame, game, setError, setImageUploaded }) {
   const { t } = useTranslation();
