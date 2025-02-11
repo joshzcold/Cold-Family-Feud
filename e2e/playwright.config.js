@@ -15,7 +15,7 @@ module.exports = defineConfig({
   /* 60s timeout (initial build takes 60s) */
   timeout: 60000,
   /* Run tests in files in parallel */
-  fullyParallel: false,
+  fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -23,7 +23,7 @@ module.exports = defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: "line",
+  reporter: [["line"], ["junit", { outputFile: "test-results/results.xml" }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Ignore ssl for local dev */

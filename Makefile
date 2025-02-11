@@ -64,7 +64,6 @@ dev-down:
 e2e: dev-background
 	npm install
 	cd e2e
-	npm install
 	npx playwright test
 	cd -
 	$(MAKE) dev-down

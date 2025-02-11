@@ -1,10 +1,10 @@
 import "@/i18n/i18n";
 import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
-import HideGameQuestions from "./HideGameQuestions";
-import FinalRoundTitleChanger from "./FinalRoundTitleChanger";
 import BuzzerSoundSettings from "./BuzzerSoundSettings";
+import FinalRoundTitleChanger from "./FinalRoundTitleChanger";
+import HideGameQuestions from "./HideGameQuestions";
 
-export default function AdminSettings({game, setGame, send}) {
+export default function AdminSettings({ game, setGame, send }) {
   return (
     <div className="flex flex-col items-center">
       <div className="grid grid-cols-2 gap-x-48 gap-y-10">

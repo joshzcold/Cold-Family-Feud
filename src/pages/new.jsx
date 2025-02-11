@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import "@/i18n/i18n";
 import ThemeSwitcher from "@/components/Admin/ThemeSwitcher";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { validateGameData } from "@/lib/utils";
 
 export default function CreateGame(props) {
   const { t } = useTranslation();
@@ -363,61 +364,12 @@ export default function CreateGame(props) {
             className="rounded-md bg-success-200 p-2 px-10 hover:shadow-md"
             onClick={() => {
               // ERROR checking
-              let error = [];
-              if (game.rounds.length == 0) {
-                error.push(t("You need to create some rounds to save the game"));
-              }
-              game.rounds.forEach((r, index) => {
-                if (r.question === "") {
-                  error.push(
-                    t("round number {{count, number}} has an empty question", {
-                      count: index + 1,
-                    })
-                  );
-                }
-                if (r.multiply === "" || r.multiply === 0 || isNaN(r.multiply)) {
-                  error.push(
-                    t("round number {{count, number}} has no point multipler", {
-                      count: index + 1,
-                    })
-                  );
-                }
-                if (r.answers.length === 0) {
-                  error.push(
-                    t("round number {{count, number}} has no answers", {
-                      count: index + 1,
-                    })
-                  );
-                }
-                r.answers.forEach((a, aindex) => {
-                  if (a.ans === "") {
-                    error.push(
-                      t("round item {{count, number}} has empty answer at answer number {{answernum, number}}", {
-                        count: index + 1,
-                        answernum: aindex + 1,
-                      })
-                    );
-                  }
-                  if (a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)) {
-                    error.push(
-                      t(
-                        "round item {{count, number}} has {{zero, number}} points answer number {{answernum, number}}",
-                        {
-                          count: index + 1,
-                          zero: 0,
-                          answernum: aindex + 1,
-                        }
-                      )
-                    );
-                  }
-                });
-              });
-
-              console.error(error);
+              let error = validateGameData(game, { t });
               if (error.length === 0) {
                 setError("");
                 downloadToFile(JSON.stringify(game), `${t("new-cold-feud")}.json`, "text/json");
               } else {
+                console.error(error);
                 setError(error.join(", "));
               }
             }}

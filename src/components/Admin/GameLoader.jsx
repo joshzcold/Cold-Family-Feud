@@ -1,3 +1,4 @@
+import ToolTipIcon from "@/components/ui/tooltip";
 import { ERROR_CODES } from "@/i18n/errorCodes";
 import { handleCsvFile, handleJsonFile, isValidFileType } from "@/lib/utils";
 import { FileUp } from "lucide-react";
@@ -90,7 +91,12 @@ const GameLoader = ({ gameSelector, send, setError, setCsvFileUpload, setCsvFile
         <div id="gamePickerFileUploadButton">
           <label htmlFor="gamePickerFileUpload">
             <div className="flow-row flex items-center space-x-2">
-              <FileUp className="cursor-pointer text-secondary-900 hover:text-secondary-500" size={38} />
+              <ToolTipIcon
+                Icon={FileUp}
+                size={32}
+                cursor="pointer"
+                message={`CSV ${t("Expected format")}: ${t("Question")}, ${t("Answer")}, ${t("Points")}, ${t("Answer")}, ${t("Points")} ...`}
+              />
               <div>
                 <p className="text-s text-secondary-900">{t("upload game")}</p>
                 <p className="text-xs text-secondary-900">.json, .csv</p>

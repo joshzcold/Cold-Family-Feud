@@ -4,12 +4,17 @@ export function handleJsonFile(file, { setError, t, send }) {
   reader.onload = function (evt) {
     try {
       let data = JSON.parse(evt.target.result);
+      let errors = validateGameData(data, { t });
+
+      if (errors.length > 0) {
+        setError(t("Game file error") + ":\n" + errors.join("\n"));
+        return;
+      }
       console.debug(data);
-      // TODO some error checking for invalid game data
       send({ action: "load_game", data: data });
     } catch (e) {
-      console.error("Invalid JSON file");
-      setError(t("Invalid JSON file"));
+      console.error("Invalid JSON file", e);
+      setError(t(`Invalid JSON file: ${e}`));
     }
   };
   reader.onerror = function (evt) {
@@ -34,6 +39,56 @@ export function handleCsvFile(file, { setError, t, setCsvFileUpload, setCsvFileU
     console.error("error reading file");
     setError(t("error reading file"));
   };
+}
+
+export function validateGameData(game, { t }) {
+  let errors = [];
+  if (game.rounds.length == 0) {
+    errors.push(t("You need to create some rounds to save the game"));
+  }
+  game.rounds.forEach((r, index) => {
+    if (r.question === "") {
+      errors.push(
+        t("round number {{count, number}} has an empty question", {
+          count: index + 1,
+        })
+      );
+    }
+    if (r.multiply === "" || r.multiply === 0 || isNaN(r.multiply)) {
+      errors.push(
+        t("round number {{count, number}} has no point multipler", {
+          count: index + 1,
+        })
+      );
+    }
+    if (r.answers.length === 0) {
+      errors.push(
+        t("round number {{count, number}} has no answers", {
+          count: index + 1,
+        })
+      );
+    }
+    r.answers.forEach((a, aindex) => {
+      if (a.ans === "") {
+        errors.push(
+          t("round item {{count, number}} has empty answer at answer number {{answernum, number}}", {
+            count: index + 1,
+            answernum: aindex + 1,
+          })
+        );
+      }
+      if (a.pnt === 0 || a.pnt === "" || isNaN(a.pnt)) {
+        errors.push(
+          t("round item {{count, number}} has {{zero, number}} points answer number {{answernum, number}}", {
+            count: index + 1,
+            zero: 0,
+            answernum: aindex + 1,
+          })
+        );
+      }
+    });
+  });
+  return errors;
 }
 
 export function isValidFileType(file, allowedTypes) {

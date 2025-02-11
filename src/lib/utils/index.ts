@@ -1,2 +1,2 @@
-export { handleCsvFile, handleJsonFile, isValidFileType } from './files';
-export { debounce } from './debounce';
+export { handleCsvFile, handleJsonFile, isValidFileType, validateGameData } from "./files";
+export { debounce } from "./debounce";

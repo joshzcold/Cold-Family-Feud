@@ -1,7 +1,7 @@
-import InfoTooltip from "@/components/ui/tooltip";
+import ToolTipIcon from "@/components/ui/tooltip";
 import { useTranslation } from "react-i18next";
 
-function BuzzerSoundSettings({game, setGame, send}) {
+function BuzzerSoundSettings({ game, setGame, send }) {
   const { t } = useTranslation();
 
   return (
@@ -9,7 +9,7 @@ function BuzzerSoundSettings({game, setGame, send}) {
       <div className="flex flex-col">
         <div className="flex flex-row items-center space-x-5">
           <div className="flex flex-row items-center space-x-2">
-            <InfoTooltip message={t("Allow players to hear sound on their devices when they press their buzzer")} />
+            <ToolTipIcon message={t("Allow players to hear sound on their devices when they press their buzzer")} />
             <p className="text-xl normal-case text-foreground">{t("Player Buzzer Sounds")}</p>
           </div>
           <input
@@ -31,7 +31,7 @@ function BuzzerSoundSettings({game, setGame, send}) {
       <div className={`flex flex-col ${!game.settings.player_buzzer_sound ? "opacity-50" : ""}`}>
         <div className="flex flex-row items-center space-x-5">
           <div className="flex flex-row items-center space-x-2">
-            <InfoTooltip message={t("Only play sound for the first player to buzz in")} />
+            <ToolTipIcon message={t("Only play sound for the first player to buzz in")} />
             <p className="text-xl normal-case text-foreground">{t("First Press Only")}</p>
           </div>
           <input

@@ -81,6 +81,8 @@ The application can be configured using environment variables. Check the `.env` 
 Frontend Stack: Nextjs + React + Tail Wind css
 Backend Stack: Golang with multiple storage backends (see: backend/api/store\*)
 
+[Development Workflow](./doc/development.md)
+
 ### Add A Language
 
 Check out this link in the wiki: [Link](https://github.com/joshzcold/Cold-Friendly-Feud/wiki/Add-A-New-Language)

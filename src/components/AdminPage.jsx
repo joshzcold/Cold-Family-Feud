@@ -29,7 +29,7 @@ export default function AdminPage({ ws, game, setGame, room, quitGame, playerId 
   function setError(e) {
     setErrorVal(e);
     console.error(e);
-    setTimeout(() => setErrorVal(""), 5000);
+    setTimeout(() => setErrorVal(""), 10000);
   }
 
   function send(data) {
