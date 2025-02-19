@@ -1,8 +1,8 @@
 package api
 
 import (
-	"time"
 	"strings"
+	"time"
 )
 
 func Pong(client *Client, event *Event) GameError {
@@ -12,16 +12,16 @@ func Pong(client *Client, event *Event) GameError {
 		return storeError
 	}
 
-    // Check if this is a spectator session (ends with :0)
-    if strings.HasSuffix(event.Session, ":0") {
-        return GameError{}  // Silently accept pongs from spectators
-    }
+	// Check if this is a spectator session (ends with :0)
+	if strings.HasSuffix(event.Session, ":0") {
+		return GameError{} // Silently accept pongs from spectators
+	}
 
 	player, ok := room.Game.RegisteredPlayers[event.ID]
-	if ! ok {
+	if !ok {
 		return GameError{code: PLAYER_NOT_FOUND}
 	}
-	if ! player.Start.IsZero() {
+	if !player.Start.IsZero() {
 		end := time.Now()
 		latency := end.Sub(player.Start)
 		for len(player.Latencies) >= 5 {
