@@ -8,26 +8,26 @@ import (
 )
 
 func quitPlayer(room *room, client *Client, event *Event) error {
-    playerClient, ok := room.registeredClients[event.ID]
+	playerClient, ok := room.registeredClients[event.ID]
 	if !ok {
-        return fmt.Errorf("player not found")
-    }
+		return fmt.Errorf("player not found")
+	}
 
-    hostClient, hostExists := room.registeredClients[room.Game.Host.ID]
-    
-    isHost := false
-    if hostExists {
-        isHost = hostClient.client == client
-    }
-    isPlayer := playerClient.client == client
-	
-    // Allow quitting if:
-    // 1. Player is quitting themselves
-    // 2. Client is the host
-    // 3. No host exists (orphaned room)
-    if !isPlayer && !isHost && hostExists {
-        return fmt.Errorf("forbidden")
-    }
+	hostClient, hostExists := room.registeredClients[room.Game.Host.ID]
+
+	isHost := false
+	if hostExists {
+		isHost = hostClient.client == client
+	}
+	isPlayer := playerClient.client == client
+
+	// Allow quitting if:
+	// 1. Player is quitting themselves
+	// 2. Client is the host
+	// 3. No host exists (orphaned room)
+	if !isPlayer && !isHost && hostExists {
+		return fmt.Errorf("forbidden")
+	}
 
 	for idx, b := range room.Game.Buzzed {
 		if b.ID == event.ID {
