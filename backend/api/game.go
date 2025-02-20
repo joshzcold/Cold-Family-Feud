@@ -12,10 +12,8 @@ type host struct {
 // TODO put any client or goroutine data outside of game data.
 type registeredPlayer struct {
 	Start     time.Time `json:"start"`
-	Latencies []int64   `json:"latencies"`
 	// Allow team to be set to null in json
 	Team    *int    `json:"team"`
-	Latency float64 `json:"latency"`
 	Name    string  `json:"name"`
 	Hidden  bool    `json:"hidden"`
 }
@@ -132,6 +130,6 @@ func NewGame(roomCode string) room {
 			Tick:           time.Now().UTC().UnixMilli(),
 			RoundStartTime: time.Now().UTC().UnixMilli(),
 		},
-		cleanup: make(chan struct{}),
+		cleanup: make(chan bool),
 	}
 }

@@ -57,7 +57,7 @@ func (h *Hub) run() {
 					delete(h.clients, client)
 				}
 			}
-		case <- h.stop:
+		case <-h.stop:
 			return
 		}
 	}

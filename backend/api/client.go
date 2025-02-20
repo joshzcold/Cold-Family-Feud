@@ -99,7 +99,7 @@ func (c *Client) writePump() {
 		case message, ok := <-c.send:
 			c.conn.SetWriteDeadline(time.Now().Add(writeWait))
 			if !ok {
-				// The hub closed the channel.
+				// The client send channel was closed
 				c.conn.WriteMessage(websocket.CloseMessage, []byte{})
 				return
 			}
@@ -134,8 +134,6 @@ func ServeWs(w http.ResponseWriter, r *http.Request) {
 		send: make(chan []byte, 256),
 		stop: make(chan bool),
 	}
-	// Allow collection of memory referenced by the caller by doing all work in
-	// new goroutines.
 	go client.writePump()
 	go client.readPump()
 }

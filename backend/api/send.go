@@ -30,18 +30,6 @@ func NewSendError(ge GameError) ([]byte, error) {
 	})
 }
 
-type sendPing struct {
-	Action string `json:"action"`
-	Id     string `json:"id"`
-}
-
-func NewSendPing(id string) ([]byte, error) {
-	return json.Marshal(sendPing{
-		Action: "ping",
-		Id:     id,
-	})
-}
-
 type sendHostRoom struct {
 	Action string `json:"action"`
 	Room   string `json:"room"`

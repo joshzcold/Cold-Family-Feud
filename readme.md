@@ -17,7 +17,7 @@ Features:
 - Game creator and loader. Look in `games/` folder for already created games
   load games in either `/new` or `/admin`
 - seperated admin console from game window
-- Buzzer functionality that accounts for latency with registered players. `/buzzer`
+- Buzzer functionality. `/buzzer`
 - functional fast money round with appropriate controls
 - Changable title screen text
 - Sounds at triggered events

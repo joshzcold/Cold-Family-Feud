@@ -36,10 +36,6 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 		}
 	}
 
-	if ok && playerClient.stopPing != nil {
-		// clear interval
-		playerClient.stopPing <- true
-	}
 	message, err := NewSendQuit()
 	if err != nil {
 		return fmt.Errorf(" %w", err)
@@ -54,6 +50,7 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Hub.broadcast <- message
+	room.Hub.unregister <- client
 	return nil
 }
 
@@ -78,7 +75,7 @@ func quitHost(room *room, event *Event) GameError {
 	}
 	// Signal cleanup channel to stop the room timeout goroutine
 	if room.cleanup != nil {
-		close(room.cleanup)
+		room.cleanup <- true
 	}
 	// Remove room
 	s.deleteRoom(event.Room)
@@ -176,18 +173,11 @@ func getBackInPlayer(client *Client, room room, roomCode string, playerID string
 	client.send <- message
 
 	playerClient, ok := room.registeredClients[playerID]
-	if ok {
-		if playerClient.stopPing != nil {
-			playerClient.stopPing <- true
-		}
-	}
 	playerClient = &RegisteredClient{
 		id:       playerID,
 		client:   client,
 		room:     &room,
-		stopPing: make(chan bool),
 	}
-	go playerClient.pingInterval()
 	room.registeredClients[playerID] = playerClient
 
 	return GameError{}

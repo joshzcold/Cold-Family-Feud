@@ -46,18 +46,6 @@ export default function Game(props) {
       if (session != null) {
         console.debug("found user session", session);
         ws.current.send(JSON.stringify({ action: "game_window", session: session }));
-        setInterval(() => {
-          console.debug("sending pong in game window");
-          let [room, id] = session.split(":");
-          ws.current.send(
-            JSON.stringify({
-              action: "pong",
-              session: session,
-              id: session.split(":")[1],
-              room: session.split(":")[0],
-            })
-          );
-        }, 5000);
       }
     };
 

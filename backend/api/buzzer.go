@@ -38,12 +38,7 @@ func RegisterBuzzer(client *Client, event *Event) GameError {
 	}
 	player.Team = event.Team
 	player.Start = time.Now()
-	message, err := NewSendPing(event.ID)
-	if err != nil {
-		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
-	}
-	client.send <- message
-	message, err = NewSendRegistered(event.ID)
+	message, err := NewSendRegistered(event.ID)
 	if err != nil {
 		return GameError{code: SERVER_ERROR, message: fmt.Sprint(err)}
 	}
@@ -54,15 +49,6 @@ func RegisterBuzzer(client *Client, event *Event) GameError {
 	}
 	room.Hub.broadcast <- message
 	s.writeRoom(room.Game.Room, room)
-
-	clientPlayer, ok := room.registeredClients[event.ID]
-	if !ok {
-		return GameError{code: PLAYER_NOT_FOUND}
-	}
-	// Set up recurring ping loop to get player latency
-	clientPlayer.stopPing = make(chan bool)
-	go clientPlayer.pingInterval()
-	s.writeRoom(room.Game.Room, room)
 	return GameError{}
 }
 
@@ -72,30 +58,29 @@ func Buzz(client *Client, event *Event) GameError {
 	if storeError.code != "" {
 		return storeError
 	}
-	player, ok := room.Game.RegisteredPlayers[event.ID]
+	_, ok := room.Game.RegisteredPlayers[event.ID]
 	if !ok {
 		return GameError{code: PLAYER_NOT_FOUND}
 	}
-	latency := time.Millisecond * time.Duration(player.Latency)
-	latencyTime := time.Now().UTC().Add(-latency).UnixMilli()
+	buzzTime := time.Now().UTC().UnixMilli()
 	if len(room.Game.Buzzed) == 0 {
 		room.Game.Buzzed = append(room.Game.Buzzed, buzzed{
 			ID:   event.ID,
-			Time: latencyTime,
+			Time: buzzTime,
 		})
 	} else {
 		for idx, buz := range room.Game.Buzzed {
-			if buz.Time < latencyTime {
+			if buz.Time < buzzTime {
 				room.Game.Buzzed = append(room.Game.Buzzed, buzzed{
 					ID:   event.ID,
-					Time: latencyTime,
+					Time: buzzTime,
 				})
 				break
 			}
 			// Prepend to buzzed list since this buzzed was faster
 			toAppend := []buzzed{{
 				ID:   event.ID,
-				Time: latencyTime,
+				Time: buzzTime,
 			}}
 			room.Game.Buzzed = append(toAppend, room.Game.Buzzed[idx+1:]...)
 		}

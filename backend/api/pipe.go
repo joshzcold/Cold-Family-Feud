@@ -37,7 +37,6 @@ var recieveActions = map[string]func(client *Client, event *Event) GameError {
 	"join_room":         JoinRoom,
 	"load_game":         LoadGame,
 	"logo_upload":       LogoUpload,
-	"pong":              Pong,
 	"quit":              Quit,
 	"registerbuzz":      RegisterBuzzer,
 	"registerspectator": RegisterSpectator,
@@ -59,7 +58,8 @@ func EventPipe(client *Client, message []byte) GameError {
 		return GameError{code: PARSE_ERROR, message: fmt.Sprint(err)}
 	}
 	if event.Action != "" {
-		if event.Action != "pong" && event.Action != "buzz" {
+		if event.Action != "buzz" {
+			// Set "tick" of room indicating an active room keeping it from auto cleanup.
 			setTick(client, event)
 		}
 		action, ok := recieveActions[event.Action]

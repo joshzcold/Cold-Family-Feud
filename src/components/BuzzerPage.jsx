@@ -63,11 +63,7 @@ export default function BuzzerPage(props) {
     ws.current.addEventListener("message", (evt) => {
       let received_msg = evt.data;
       let json = JSON.parse(received_msg);
-      if (json.action === "ping") {
-        // server gets the average latency periodically
-        console.debug(props.id);
-        send({ action: "pong", id: props.id });
-      } else if (json.action === "mistake" || json.action === "show_mistake") {
+      if (json.action === "mistake" || json.action === "show_mistake") {
         var audio = new Audio("wrong.mp3");
         audio.play();
         if (json.action === "mistake" || json.action === "show_mistake") {
@@ -113,9 +109,6 @@ export default function BuzzerPage(props) {
       } else if (json.action === "change_lang") {
         console.debug("Language Change", json.data);
         i18n.changeLanguage(json.data);
-      } else if (json.action === "registered") {
-        console.debug(props.id);
-        send({ action: "pong", id: props.id });
       } else {
         console.debug("didnt expect action in buzzer: ", json);
       }
