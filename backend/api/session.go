@@ -43,6 +43,7 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 	if playerClient != nil {
 		playerClient.client.send <- message
 		playerClient.client.stop <- true
+		room.Hub.unregister <- playerClient.client
 	}
 	delete(room.Game.RegisteredPlayers, event.ID)
 	message, err = NewSendData(room.Game)
@@ -50,7 +51,6 @@ func quitPlayer(room *room, client *Client, event *Event) error {
 		return fmt.Errorf(" %w", err)
 	}
 	room.Hub.broadcast <- message
-	room.Hub.unregister <- client
 	return nil
 }
 
